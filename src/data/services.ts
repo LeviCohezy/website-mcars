@@ -67,7 +67,7 @@ export const services: Service[] = [
     subtitle: "Eén wagen, veilig en zorgeloos van A naar B.",
     intro:
       "Kocht u een wagen in het buitenland, verhuist u uw auto naar uw tweede verblijf of wilt u gewoon niet zelf honderden kilometers rijden? Wij halen uw voertuig op waar u wil en leveren het af waar het moet zijn — met korte lijnen en persoonlijk contact van begin tot eind.",
-    heroImage: "/services/01.jpg",
+    heroImage: "/fleet/city-street.jpg",
     audience: "Voor iedereen die één voertuig veilig verplaatst wil zien — zonder zelf achter het stuur te kruipen.",
     highlights: [
       { icon: "shield", title: "Verzekerd & gedocumenteerd", body: "Elke wagen wordt bij ophaling geïnspecteerd, gefotografeerd en op een CMR-vrachtbrief gezet. Uw bewijs dat alles correct verliep." },
@@ -106,7 +106,7 @@ export const services: Service[] = [
     subtitle: "Voor garages, autohandelaars en concessies.",
     intro:
       "Aankopen bij leasingmaatschappijen, wagens tussen vestigingen verplaatsen of einde-leasingvoertuigen ophalen: wij rijden wekelijks over heel België en Europa en nemen het transport volledig uit handen. Vaste chauffeurs, correcte documenten en één aanspreekpunt.",
-    heroImage: "/services/07.jpg",
+    heroImage: "/fleet/depot-dusk.jpg",
     audience: "Voor garages, autohandelaars, concessies en leasingmaatschappijen die betrouwbaar en herhaaldelijk voertuigen laten vervoeren.",
     highlights: [
       { icon: "truck", title: "Meerdere wagens per rit", body: "Onze transporters laden meerdere voertuigen tegelijk — efficiënt en voordeliger per wagen." },
@@ -145,7 +145,7 @@ export const services: Service[] = [
     subtitle: "Uit Duitsland, Nederland, Frankrijk, Italië, Spanje en verder.",
     intro:
       "Een koopje gevonden in het buitenland? Wij halen uw aankoop veilig op bij de verkoper en brengen hem naar België of Nederland. U hoeft niet zelf te reizen, te huren of risico's te nemen op een onbekende weg — wij regelen het transport van deur tot deur.",
-    heroImage: "/about/import.png",
+    heroImage: "/fleet/germany-autobahn.jpg",
     audience: "Voor particulieren en handelaars die een voertuig in het buitenland kopen en het veilig thuis willen laten leveren.",
     highlights: [
       { icon: "globe", title: "Heel Europa als ophaalgebied", body: "Duitsland, Nederland, Frankrijk, Italië, Spanje en verder — wij rijden er wekelijks naartoe." },
@@ -178,7 +178,7 @@ export const services: Service[] = [
     subtitle: "Van België of Nederland naar heel Europa.",
     intro:
       "Verkocht u een wagen aan een buitenlandse klant, of verhuist u een voertuig naar het buitenland? Wij brengen het veilig tot op de bestemming. Met wekelijkse routes richting Frankrijk, Spanje, Duitsland en verder vertrekt uw wagen sneller dan u denkt.",
-    heroImage: "/about/export.png",
+    heroImage: "/fleet/valley-sunset.jpg",
     audience: "Voor particulieren en bedrijven die een voertuig vanuit België of Nederland naar het buitenland versturen.",
     highlights: [
       { icon: "globe", title: "Wekelijkse Europese routes", body: "Frankrijk, Spanje, Duitsland, Italië, Scandinavië — we rijden er structureel naartoe." },
@@ -210,7 +210,7 @@ export const services: Service[] = [
     subtitle: "Voor schadeauto's, defecte voertuigen en projectwagens.",
     intro:
       "Een wagen die niet meer start, schade opliep of al jaren stilstaat? Geen probleem. Onze transporters zijn uitgerust met een lier waarmee we verrolbare wagens veilig op de vrachtwagen trekken. Niet-verrolbaar? Dan voorzien we een heftruck ter plaatse.",
-    heroImage: "/truck-no-trailer.png",
+    heroImage: "/fleet/depot-wet.jpg",
     audience: "Voor particulieren, garages en depannagediensten met een niet-rijdend of niet-verrolbaar voertuig.",
     vehicleTypes: ["Schadewagens", "Defecte voertuigen", "Projectwagens", "Stilstaande oldtimers", "Niet-verrolbare wagens", "Sloop & restauratieprojecten"],
     highlights: [
@@ -243,7 +243,7 @@ export const services: Service[] = [
     subtitle: "Veilig vervoer voor klassieke wagens en oldtimers.",
     intro:
       "Een klassieker verdient de grootste zorg. Of het nu naar een beurs, een verkoop of een oldtimerrit gaat: wij behandelen uw wagen alsof het onze eigen is. Zacht laden, professioneel vastzetten en — waar gewenst — volledig gesloten vervoer buiten weer en blikken.",
-    heroImage: "/services/03.jpg",
+    heroImage: "/fleet/dramatic-sky.jpg",
     audience: "Voor verzamelaars, liefhebbers en handelaars in klassieke en waardevolle wagens.",
     highlights: [
       { icon: "star", title: "Behandeld als een collector", body: "Zachte gordels, lage laadhoek en ervaren chauffeurs die weten hoe kwetsbaar een klassieker is." },
@@ -275,7 +275,7 @@ export const services: Service[] = [
     subtitle: "De voordelige en efficiënte transportoplossing.",
     intro:
       "Voor de meeste wagens is open transport de slimste keuze: efficiënt, betrouwbaar en voordelig. Uw voertuig reist mee op onze meerlaagse Kässbohrer-transporters, professioneel vastgezet en volledig gedocumenteerd — de standaard waarmee we dagelijks door Europa rijden.",
-    heroImage: "/services/05.jpg",
+    heroImage: "/fleet/countryside.jpg",
     audience: "Voor iedereen die een courant voertuig vlot en voordelig wil laten vervoeren.",
     highlights: [
       { icon: "truck", title: "Meerdere wagens, lagere kost", body: "Door te combineren op onze transporters houden we de prijs per wagen scherp." },
@@ -307,7 +307,7 @@ export const services: Service[] = [
     subtitle: "Voor exclusieve wagens, sportwagens, luxewagens en oldtimers.",
     intro:
       "Sommige wagens laat u liever niet zien onderweg. Met gesloten transport reist uw voertuig volledig afgeschermd van weer, wind, stof en nieuwsgierige blikken. De keuze bij uitstek voor supercars, showwagens en zeldzame klassiekers.",
-    heroImage: "/services/04.jpg",
+    heroImage: "/fleet/actros-motion.jpg",
     audience: "Voor eigenaars van exclusieve, waardevolle of showklare voertuigen die maximale bescherming en discretie willen.",
     highlights: [
       { icon: "shield", title: "Volledig afgeschermd", body: "Geen weer, geen stof, geen blikken. Uw wagen reist onzichtbaar en beschermd." },
@@ -340,7 +340,7 @@ export const services: Service[] = [
     subtitle: "Dringende ophaling of levering van voertuigen.",
     intro:
       "Moet een wagen er snel zijn, of strandde een voertuig in het buitenland? Wij schakelen snel. Voor dringende ophalingen en repatriëringen zetten we onze routes en chauffeurs flexibel in zodat uw wagen zo snel mogelijk op de juiste plaats staat.",
-    heroImage: "/services/06.jpg",
+    heroImage: "/fleet/hero-highway-sunset.jpg",
     audience: "Voor wie een dringend transport nodig heeft of een wagen moet laten repatriëren, in binnen- of buitenland.",
     highlights: [
       { icon: "clock", title: "Snel geschakeld", body: "We bekijken meteen wat mogelijk is en zetten onze planning flexibel in voor dringende ritten." },
@@ -372,7 +372,7 @@ export const services: Service[] = [
     subtitle: "Voor bedrijven met meerdere voertuigen.",
     intro:
       "Een volledig wagenpark verplaatsen, leasewagens omruilen of meerdere voertuigen tussen vestigingen verschuiven? Wij plannen het als één vlotte operatie. Meerdere wagens per rit, vaste chauffeurs en één aanspreekpunt dat de hele beweging overziet.",
-    heroImage: "/about/fleet.png",
+    heroImage: "/fleet/sunset-parking.jpg",
     audience: "Voor bedrijven, leasingmaatschappijen en fleetbeheerders die meerdere voertuigen tegelijk laten vervoeren.",
     highlights: [
       { icon: "truck", title: "Meerdere wagens per rit", body: "Onze transporters laden tot meerdere voertuigen tegelijk — efficiënt en planbaar." },
@@ -404,7 +404,7 @@ export const services: Service[] = [
     subtitle: "Op tijd en onberispelijk op elk event.",
     intro:
       "Voor autobeurzen, races, shows en oldtimerritten telt elke minuut — en elke kras. Wij zorgen dat uw voertuigen op tijd, netjes en compleet ter plaatse staan, en na afloop weer veilig thuisgeraken. Zoals bij de oldtimerrit die we tot aan de Kroatische grens brachten en na vijf dagen terug ophaalden.",
-    heroImage: "/services/02.jpg",
+    heroImage: "/fleet/oldtown.jpg",
     audience: "Voor organisatoren, teams en liefhebbers die voertuigen naar en van evenementen laten vervoeren.",
     highlights: [
       { icon: "clock", title: "Strak op tijd", body: "Uw wagens staan klaar vóór de start van het event — geen stress, geen improvisatie." },

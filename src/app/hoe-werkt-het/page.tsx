@@ -79,7 +79,7 @@ export default function HoeWerktHetPage() {
         title="Van aanvraag tot levering in zes stappen."
         subtitle="Een duidelijke, persoonlijke aanpak zonder verrassingen. Zo verloopt uw autotransport bij Mcars — van uw eerste aanvraag tot de afrekening."
         crumbs={[{ label: "Hoe werkt het" }]}
-        image="/services/02.jpg"
+        image="/fleet/countryside.jpg"
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 

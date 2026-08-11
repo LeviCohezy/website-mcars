@@ -60,7 +60,7 @@ export default function OverOnsPage() {
         title="Autotransport met korte lijnen, sinds 2009."
         subtitle="Een familiaal transportbedrijf uit Roeselare met een persoonlijke aanpak, ±20 jaar ervaring en klanten die telkens terugkomen."
         crumbs={[{ label: "Over ons" }]}
-        image="/why-truck.jpg"
+        image="/fleet/valley-sunset.jpg"
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
@@ -96,7 +96,7 @@ export default function OverOnsPage() {
           </div>
           <div className="relative overflow-hidden rounded-3xl bg-zinc-100">
             <Image
-              src="/why-truck.jpg"
+              src="/fleet/dramatic-sky.jpg"
               alt="Mcars autotransporter onderweg"
               width={1200}
               height={900}
@@ -122,7 +122,7 @@ export default function OverOnsPage() {
           <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-16">
             <div className="relative overflow-hidden rounded-3xl">
               <Image
-                src="/about/fleet.png"
+                src="/fleet/sunset-parking.jpg"
                 alt="De vloot autotransporters van Mcars"
                 width={1200}
                 height={900}

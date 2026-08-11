@@ -91,7 +91,7 @@ export default function OffertePage() {
         title="Vraag uw prijs aan — binnen 24 uur antwoord."
         subtitle="Vul het formulier in en u krijgt persoonlijk een prijs en planning terug. Geen calculator, geen automatische mail: wij bekijken elke aanvraag zelf."
         crumbs={[{ label: "Offerte aanvragen" }]}
-        image="/services/01.jpg"
+        image="/fleet/depot-wet.jpg"
         secondaryCta={{ label: "Liever contact opnemen?", href: "/contact" }}
       />
 

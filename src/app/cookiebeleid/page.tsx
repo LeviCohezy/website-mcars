@@ -18,7 +18,7 @@ export default function CookiebeleidPage() {
         title="Cookiebeleid"
         subtitle="Welke cookies we gebruiken en hoe u ze beheert."
         crumbs={[{ label: "Cookiebeleid" }]}
-        image="/services/07.jpg"
+        image="/fleet/sunset-field.jpg"
       />
 
       <section className="px-5 py-16 sm:px-8 sm:py-24">

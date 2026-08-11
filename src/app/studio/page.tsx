@@ -24,11 +24,14 @@ import { routes as defaultRoutes } from "@/data/routes";
 const STORAGE_KEY = "mcars.studio.v1";
 
 const IMAGE_LIBRARY = [
-  "/why-truck.jpg", "/truck-map.png", "/truck-no-trailer.png",
-  "/truck-outline.png", "/fast-shipping.png",
-  "/services/01.jpg", "/services/02.jpg", "/services/03.jpg", "/services/04.jpg",
-  "/services/05.jpg", "/services/06.jpg", "/services/07.jpg",
-  "/about/import.png", "/about/export.png", "/about/fleet.png",
+  "/fleet/hero-highway-sunset.jpg", "/fleet/actros-motion.jpg", "/fleet/dramatic-sky.jpg",
+  "/fleet/valley-sunset.jpg", "/fleet/countryside.jpg", "/fleet/countryside-highway.jpg",
+  "/fleet/sunset-parking.jpg", "/fleet/sunset-field.jpg", "/fleet/depot-dusk.jpg",
+  "/fleet/depot-wet.jpg", "/fleet/mountain-suvs.jpg", "/fleet/spain-skyline.jpg",
+  "/fleet/spain-palms.jpg", "/fleet/barcelona-sagrada.jpg", "/fleet/barcelona-palms.jpg",
+  "/fleet/germany-autobahn.jpg", "/fleet/city-street.jpg", "/fleet/city-loaded.jpg",
+  "/fleet/oldtown.jpg", "/fleet/port-docks.jpg",
+  "/why-truck.jpg", "/truck-map.png", "/truck-no-trailer.png", "/fast-shipping.png",
 ];
 
 const ICON_KEYS: IconKey[] = ["shield", "clock", "route", "truck", "car", "wrench", "star", "users", "globe", "check", "box", "map", "spark", "phone"];

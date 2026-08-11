@@ -150,7 +150,7 @@ export default function FaqPage() {
         title="Veelgestelde vragen."
         subtitle="De meest gestelde vragen over autotransport, overzichtelijk per onderwerp. Staat uw vraag er niet bij? We helpen u graag persoonlijk verder."
         crumbs={[{ label: "FAQ" }]}
-        image="/services/06.jpg"
+        image="/fleet/countryside-highway.jpg"
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 

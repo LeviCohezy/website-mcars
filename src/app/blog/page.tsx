@@ -29,7 +29,7 @@ export default function BlogPage() {
         title="Blog & kennisbank."
         subtitle="Praktische tips en heldere uitleg over autotransport, geschreven door mensen die er elke dag mee op de baan zitten."
         crumbs={[{ label: "Blog" }]}
-        image="/services/01.jpg"
+        image="/fleet/barcelona-palms.jpg"
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 

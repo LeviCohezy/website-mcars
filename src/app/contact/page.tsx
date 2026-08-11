@@ -69,7 +69,7 @@ export default function ContactPage() {
         title="Liever rechtstreeks contact?"
         subtitle="Bel, mail of app ons — of laat hieronder uw gegevens achter. We denken graag met u mee en antwoorden persoonlijk, snel en zonder verplichting."
         crumbs={[{ label: "Contact" }]}
-        image="/services/07.jpg"
+        image="/fleet/depot-dusk.jpg"
       />
 
       <section className="px-5 py-16 sm:px-8 sm:py-24">

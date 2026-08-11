@@ -89,7 +89,7 @@ export default function ReviewsPage() {
         title="Wat klanten over ons zeggen."
         subtitle="Een 4,7 op Google, opgebouwd door particulieren én dealers die hun wagen aan ons toevertrouwden."
         crumbs={[{ label: "Reviews" }]}
-        image="/services/05.jpg"
+        image="/fleet/spain-palms.jpg"
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 

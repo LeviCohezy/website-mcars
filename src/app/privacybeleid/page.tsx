@@ -18,7 +18,7 @@ export default function PrivacybeleidPage() {
         title="Privacybeleid"
         subtitle="Hoe we omgaan met uw persoonsgegevens en uw privacy beschermen."
         crumbs={[{ label: "Privacybeleid" }]}
-        image="/services/07.jpg"
+        image="/fleet/sunset-field.jpg"
       />
 
       <section className="px-5 py-16 sm:px-8 sm:py-24">

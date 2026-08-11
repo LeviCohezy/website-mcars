@@ -18,7 +18,7 @@ export default function AlgemeneVoorwaardenPage() {
         title="Algemene voorwaarden"
         subtitle="De voorwaarden die van toepassing zijn op onze offertes en transporten."
         crumbs={[{ label: "Algemene voorwaarden" }]}
-        image="/services/07.jpg"
+        image="/fleet/sunset-field.jpg"
       />
 
       <section className="px-5 py-16 sm:px-8 sm:py-24">

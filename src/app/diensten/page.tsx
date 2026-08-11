@@ -21,7 +21,7 @@ export default function DienstenOverview() {
         title="Voor elk voertuig de juiste aanpak."
         subtitle="Van één particuliere wagen tot een volledig wagenpark — ontdek onze transportoplossingen in België en heel Europa."
         crumbs={[{ label: "Diensten" }]}
-        image="/services/07.jpg"
+        image="/fleet/sunset-parking.jpg"
         bigWord="DIENSTEN"
         scrollCue
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}

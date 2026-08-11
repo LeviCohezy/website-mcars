@@ -79,9 +79,9 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
               <span className="inline-flex items-center gap-2 rounded-full bg-zinc-100 px-4 py-2 text-sm text-zinc-700"><Icon name="route" className="size-4" /> Van deur tot deur</span>
             </div>
           </Reveal>
-          <Reveal delay={120} variant="right" className="overflow-hidden rounded-[2rem] bg-zinc-100 p-6">
-            <Parallax speed={0.1}>
-              <Image src={route.heroImage} alt={`Route ${route.nav}`} width={800} height={640} className="mx-auto h-auto w-full max-w-md scale-105 object-contain" />
+          <Reveal delay={120} variant="right" className="h-[420px] overflow-hidden rounded-[2rem]">
+            <Parallax speed={0.1} className="h-full">
+              <Image src={route.heroImage} alt={`Route ${route.nav}`} width={900} height={700} className="h-full w-full scale-110 object-cover" />
             </Parallax>
           </Reveal>
         </div>
@@ -89,7 +89,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
 
       {/* Photo-masked country word */}
       <section className="overflow-hidden px-5 pb-8 sm:px-8">
-        <Reveal><MaskedHeading text={bigWord} image="/truck-map.png" /></Reveal>
+        <Reveal><MaskedHeading text={bigWord} image={route.heroImage} /></Reveal>
       </section>
 
       {/* Cities served — animated dark panel */}
