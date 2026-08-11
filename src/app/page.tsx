@@ -1,29 +1,24 @@
-import CtaBanner from "@/components/cta-banner";
-import EuropeNetwork from "@/components/europe-network";
+import AboutStats from "@/components/about-stats";
 import Hero from "@/components/hero";
-import HowItWorks from "@/components/how-it-works";
 import PainPoints from "@/components/pain-points";
-import QuoteForm from "@/components/quote-form";
-import RegionCards from "@/components/region-cards";
-import RoutesSection from "@/components/routes-section";
-import ServicesSection from "@/components/services-section";
-import Solution from "@/components/solution";
-import WhyMcars from "@/components/why-mcars";
+import ProcessSection from "@/components/process-section";
+import QuoteContact from "@/components/quote-contact";
+import ServicesPhilosophy from "@/components/services-philosophy";
+import SiteFooterLight from "@/components/site-footer-light";
+import WhyChooseUs from "@/components/why-choose-us";
 
+// Homepage = the "Home 2" design (logo in the nav links here).
 export default function Home() {
   return (
     <div className="bg-white p-2">
       <Hero />
+      <AboutStats />
       <PainPoints />
-      <Solution />
-      <HowItWorks />
-      <RoutesSection />
-      <RegionCards />
-      <WhyMcars />
-      <QuoteForm />
-      <CtaBanner />
-      <ServicesSection />
-      <EuropeNetwork />
+      <ServicesPhilosophy />
+      <WhyChooseUs />
+      <ProcessSection />
+      <QuoteContact />
+      <SiteFooterLight />
     </div>
   );
 }
