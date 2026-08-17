@@ -29,9 +29,11 @@ export default function IntroLoader() {
     setPhase("exit");
   };
 
-  // Plays on the homepage variants; skipped elsewhere and for reduced-motion.
+  // Plays on the homepage variants; skipped elsewhere, in preview thumbnails
+  // (?preview=1) and for reduced-motion.
   useEffect(() => {
-    if (!enabled) {
+    const isPreview = new URLSearchParams(window.location.search).has("preview");
+    if (!enabled || isPreview) {
       finished.current = true;
       window.__mcarsIntroDone = true;
       window.dispatchEvent(new Event(INTRO_EVENT));

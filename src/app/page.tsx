@@ -5,6 +5,7 @@ import ProcessSection from "@/components/process-section";
 import QuoteContact from "@/components/quote-contact";
 import ServicesPhilosophy from "@/components/services-philosophy";
 import SiteFooterLight from "@/components/site-footer-light";
+import VariantSwitcher from "@/components/variant-switcher";
 import WhyChooseUs from "@/components/why-choose-us";
 
 // Homepage = the "Home 2" design (logo in the nav links here).
@@ -19,6 +20,7 @@ export default function Home() {
       <ProcessSection />
       <QuoteContact />
       <SiteFooterLight />
+      <VariantSwitcher sectionId="home" />
     </div>
   );
 }

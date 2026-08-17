@@ -8,6 +8,7 @@ import ProblemsGrid from "@/components/problems-grid";
 import QuoteMultistep from "@/components/quote-multistep";
 import ServicesAccordion from "@/components/services-accordion";
 import SiteFooter from "@/components/site-footer";
+import VariantSwitcher from "@/components/variant-switcher";
 import WhyMcars from "@/components/why-mcars";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <BlogGrid />
       <FaqSection />
       <SiteFooter />
+      <VariantSwitcher sectionId="home" />
     </div>
   );
 }
