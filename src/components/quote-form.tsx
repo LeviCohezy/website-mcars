@@ -1,20 +1,146 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import Section from "./section";
+import { site } from "@/lib/site";
 
-const inputClass =
-  "w-full rounded-xl bg-white/5 px-4 py-3 text-sm text-white ring-1 ring-white/10 transition-colors placeholder:text-zinc-500 focus:ring-2 focus:ring-white/60 focus:outline-none";
-const labelClass = "mb-2 block text-sm font-medium text-zinc-400";
+/**
+ * QuoteForm — the canonical, reusable conversion element for the site.
+ *
+ *   <QuoteForm />                     full quote request (dark panel + pitch)
+ *   <QuoteForm variant="inline" />    compact 3-field CTA to embed mid-page
+ *
+ * Both variants validate on the client (required fields, e-mail format) with
+ * inline error messages and correct aria wiring, then hand off to the visitor's
+ * mail client — there is no backend, matching the existing site behaviour.
+ *
+ * This is the ONE quote component page work should reach for. The larger
+ * `quote-multistep` / `quote-contact` components are page-specific legacy and
+ * are documented as such in CONVENTIONS.md.
+ */
 
-export default function QuoteForm() {
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+const inputBase =
+  "w-full rounded-xl bg-white/5 px-4 py-3 text-sm text-white ring-1 transition-colors placeholder:text-zinc-500 focus:ring-2 focus:outline-none";
+const labelClass = "mb-2 block text-sm font-medium text-muted-soft";
+
+function inputCls(hasError: boolean, extra = "") {
+  return `${inputBase} ${
+    hasError ? "ring-red-400/70 focus:ring-red-400" : "ring-white/10 focus:ring-white/60"
+  } ${extra}`.trim();
+}
+
+function FieldError({ id, message }: { id: string; message?: string }) {
+  if (!message) return null;
+  return (
+    <p id={id} className="mt-1.5 text-xs text-red-400">
+      {message}
+    </p>
+  );
+}
+
+/** House submit button — white pill with a black arrow chip. */
+function SubmitButton({ children }: { children: React.ReactNode }) {
+  return (
+    <button
+      type="submit"
+      className="group inline-flex cursor-pointer items-center justify-center gap-3 self-start rounded-full bg-white py-3 pr-3 pl-7 text-sm font-medium text-ink transition-colors hover:bg-zinc-200 focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none"
+    >
+      {children}
+      <span className="flex size-8 items-center justify-center rounded-full bg-ink text-white">
+        <svg
+          className="size-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </span>
+    </button>
+  );
+}
+
+function mailto(subject: string, lines: string[]) {
+  return `mailto:${site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+    lines.join("\n")
+  )}`;
+}
+
+/** Focus the first field carrying an error so keyboard/AT users land on it. */
+function focusFirstError(form: HTMLFormElement | null, errors: Record<string, string>) {
+  if (!form) return;
+  const first = Object.keys(errors).find((k) => errors[k]);
+  if (first) form.querySelector<HTMLElement>(`[name="${first}"]`)?.focus();
+}
+
+export default function QuoteForm({
+  variant = "full",
+  className = "",
+}: {
+  variant?: "full" | "inline";
+  className?: string;
+}) {
+  return variant === "inline" ? (
+    <InlineQuote className={className} />
+  ) : (
+    <FullQuote className={className} />
+  );
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Full quote request
+   ───────────────────────────────────────────────────────────── */
+
+function FullQuote({ className }: { className: string }) {
+  const formRef = useRef<HTMLFormElement>(null);
   const [type, setType] = useState<"particulier" | "bedrijf">("particulier");
   const [depot, setDepot] = useState(false);
   const [asap, setAsap] = useState(false);
+  const [errors, setErrors] = useState<Record<string, string>>({});
 
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  function validate(data: FormData): Record<string, string> {
+    const next: Record<string, string> = {};
+    const req = (name: string, label: string) => {
+      if (!String(data.get(name) ?? "").trim()) next[name] = `${label} is verplicht.`;
+    };
+    req("ophaal", "Ophaaladres");
+    if (!depot) req("lever", "Leveradres");
+    req("voertuig", "Voertuig");
+    req("naam", "Naam");
+    req("telefoon", "Telefoon");
+
+    const email = String(data.get("email") ?? "").trim();
+    if (!email) next.email = "E-mail is verplicht.";
+    else if (!EMAIL_RE.test(email)) next.email = "Vul een geldig e-mailadres in.";
+
+    return next;
+  }
+
+  function revalidateField(name: string) {
+    if (!formRef.current) return;
+    // Only refresh an error that is already showing — never surprise the
+    // user with a fresh error the moment they tab out of an untouched field.
+    if (!errors[name]) return;
+    const found = validate(new FormData(formRef.current));
+    setErrors((prev) => ({ ...prev, [name]: found[name] ?? "" }));
+  }
+
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
-    const lines = [
+    const found = validate(data);
+    setErrors(found);
+    if (Object.values(found).some(Boolean)) {
+      focusFirstError(formRef.current, found);
+      return;
+    }
+
+    window.location.href = mailto("Offerteaanvraag transport", [
       `Type klant: ${type}`,
       `Naam: ${data.get("naam")}`,
       `E-mail: ${data.get("email")}`,
@@ -31,16 +157,12 @@ export default function QuoteForm() {
       `Gewenste leverdatum: ${data.get("leverdatum") || "-"}`,
       ``,
       `Opmerkingen: ${data.get("opmerking") || "-"}`,
-    ];
-    const mailto = `mailto:info@mcars.be?subject=${encodeURIComponent(
-      "Offerteaanvraag transport"
-    )}&body=${encodeURIComponent(lines.join("\n"))}`;
-    window.location.href = mailto;
-  };
+    ]);
+  }
 
   return (
-    <section id="offerte" className="px-5 py-16 sm:px-8 sm:pb-24">
-      <div className="relative overflow-hidden rounded-3xl bg-zinc-950">
+    <Section id="offerte" className={className}>
+      <div className="relative overflow-hidden rounded-3xl bg-ink">
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0 [background:radial-gradient(60%_70%_at_85%_15%,rgb(255_255_255/0.06),transparent_70%)]"
@@ -48,14 +170,12 @@ export default function QuoteForm() {
         <div className="relative grid gap-12 p-8 sm:p-12 lg:grid-cols-[1fr_1.3fr] lg:gap-20 lg:p-16">
           {/* Left: pitch */}
           <div>
-            <p className="mb-4 text-sm font-medium tracking-widest text-zinc-500 uppercase">
+            <p className="mb-4 text-sm font-medium tracking-widest text-muted uppercase">
               Offerte aanvragen
             </p>
             <h2 className="text-3xl font-medium leading-[1.15] tracking-tight sm:text-4xl">
               <span className="text-white">Vertel ons wat er moet rijden. </span>
-              <span className="text-zinc-500">
-                Binnen 24 uur hebt u een prijs.
-              </span>
+              <span className="text-muted">Binnen 24 uur hebt u een prijs.</span>
             </h2>
             <ul className="mt-8 flex flex-col gap-4">
               {[
@@ -65,7 +185,7 @@ export default function QuoteForm() {
               ].map((point) => (
                 <li
                   key={point}
-                  className="flex items-start gap-3 text-sm leading-relaxed text-zinc-400"
+                  className="flex items-start gap-3 text-sm leading-relaxed text-muted-soft"
                 >
                   <svg
                     className="mt-0.5 size-4 flex-none text-white"
@@ -82,21 +202,21 @@ export default function QuoteForm() {
                 </li>
               ))}
             </ul>
-            <div className="mt-10 border-t border-white/10 pt-6 text-sm leading-relaxed text-zinc-500">
+            <div className="mt-10 border-t border-white/10 pt-6 text-sm leading-relaxed text-muted">
               Liever per mail?{" "}
               <a
-                href="mailto:info@mcars.be"
+                href={`mailto:${site.email}`}
                 className="font-medium text-white underline decoration-white/30 underline-offset-4 hover:decoration-white"
               >
-                info@mcars.be
+                {site.email}
               </a>
               <br />
-              Moorseelsesteenweg 16B, 8800 Roeselare
+              {site.address.street}, {site.address.city}
             </div>
           </div>
 
           {/* Right: the form */}
-          <form onSubmit={onSubmit} className="flex flex-col gap-5">
+          <form ref={formRef} onSubmit={onSubmit} noValidate className="flex flex-col gap-5">
             {/* Type */}
             <div className="flex gap-2" role="radiogroup" aria-label="Type klant">
               {(["particulier", "bedrijf"] as const).map((option) => (
@@ -108,8 +228,8 @@ export default function QuoteForm() {
                   onClick={() => setType(option)}
                   className={`cursor-pointer rounded-full px-5 py-2.5 text-sm font-medium capitalize transition-colors focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none ${
                     type === option
-                      ? "bg-white text-zinc-950"
-                      : "bg-white/5 text-zinc-400 ring-1 ring-white/10 hover:text-white"
+                      ? "bg-white text-ink"
+                      : "bg-white/5 text-muted-soft ring-1 ring-white/10 hover:text-white"
                   }`}
                 >
                   {option}
@@ -125,10 +245,13 @@ export default function QuoteForm() {
                 <input
                   id="ophaal"
                   name="ophaal"
-                  required
                   placeholder="Straat, gemeente, land"
-                  className={inputClass}
+                  aria-invalid={!!errors.ophaal}
+                  aria-describedby={errors.ophaal ? "err-ophaal" : undefined}
+                  onBlur={() => revalidateField("ophaal")}
+                  className={inputCls(!!errors.ophaal)}
                 />
+                <FieldError id="err-ophaal" message={errors.ophaal} />
               </div>
               <div>
                 <label htmlFor="lever" className={labelClass}>
@@ -137,19 +260,25 @@ export default function QuoteForm() {
                 <input
                   id="lever"
                   name="lever"
-                  required={!depot}
                   disabled={depot}
                   placeholder={depot ? "Mcars-depot, Roeselare" : "Straat, gemeente, land"}
-                  className={`${inputClass} disabled:opacity-50`}
+                  aria-invalid={!!errors.lever}
+                  aria-describedby={errors.lever ? "err-lever" : undefined}
+                  onBlur={() => revalidateField("lever")}
+                  className={inputCls(!!errors.lever, "disabled:opacity-50")}
                 />
+                <FieldError id="err-lever" message={errors.lever} />
               </div>
             </div>
 
-            <label className="flex cursor-pointer items-center gap-3 text-sm text-zinc-400">
+            <label className="flex cursor-pointer items-center gap-3 text-sm text-muted-soft">
               <input
                 type="checkbox"
                 checked={depot}
-                onChange={(e) => setDepot(e.target.checked)}
+                onChange={(e) => {
+                  setDepot(e.target.checked);
+                  if (e.target.checked) setErrors((p) => ({ ...p, lever: "" }));
+                }}
                 className="size-4 accent-white"
               />
               Levering op het Mcars-depot (voordeliger, ophalen kan 24/7)
@@ -163,10 +292,13 @@ export default function QuoteForm() {
                 <input
                   id="voertuig"
                   name="voertuig"
-                  required
                   placeholder="Merk en model"
-                  className={inputClass}
+                  aria-invalid={!!errors.voertuig}
+                  aria-describedby={errors.voertuig ? "err-voertuig" : undefined}
+                  onBlur={() => revalidateField("voertuig")}
+                  className={inputCls(!!errors.voertuig)}
                 />
+                <FieldError id="err-voertuig" message={errors.voertuig} />
               </div>
               <div>
                 <label htmlFor="toestand" className={labelClass}>
@@ -175,7 +307,7 @@ export default function QuoteForm() {
                 <select
                   id="toestand"
                   name="toestand"
-                  className={`${inputClass} appearance-none [&>option]:text-zinc-950`}
+                  className={inputCls(false, "appearance-none [&>option]:text-ink")}
                 >
                   <option>Start en rijdt</option>
                   <option>Start niet, maar is verrolbaar</option>
@@ -184,7 +316,7 @@ export default function QuoteForm() {
               </div>
             </div>
 
-            <label className="flex cursor-pointer items-center gap-3 text-sm text-zinc-400">
+            <label className="flex cursor-pointer items-center gap-3 text-sm text-muted-soft">
               <input type="checkbox" name="topbox" className="size-4 accent-white" />
               Topbox of fietsdrager aanwezig
             </label>
@@ -199,9 +331,9 @@ export default function QuoteForm() {
                   name="ophaaldatum"
                   type="date"
                   disabled={asap}
-                  className={`${inputClass} disabled:opacity-50 [color-scheme:dark]`}
+                  className={inputCls(false, "disabled:opacity-50 [color-scheme:dark]")}
                 />
-                <label className="mt-3 flex cursor-pointer items-center gap-3 text-sm text-zinc-400">
+                <label className="mt-3 flex cursor-pointer items-center gap-3 text-sm text-muted-soft">
                   <input
                     type="checkbox"
                     checked={asap}
@@ -219,7 +351,7 @@ export default function QuoteForm() {
                   id="leverdatum"
                   name="leverdatum"
                   type="date"
-                  className={`${inputClass} [color-scheme:dark]`}
+                  className={inputCls(false, "[color-scheme:dark]")}
                 />
               </div>
             </div>
@@ -229,7 +361,15 @@ export default function QuoteForm() {
                 <label htmlFor="naam" className={labelClass}>
                   Naam
                 </label>
-                <input id="naam" name="naam" required className={inputClass} />
+                <input
+                  id="naam"
+                  name="naam"
+                  aria-invalid={!!errors.naam}
+                  aria-describedby={errors.naam ? "err-naam" : undefined}
+                  onBlur={() => revalidateField("naam")}
+                  className={inputCls(!!errors.naam)}
+                />
+                <FieldError id="err-naam" message={errors.naam} />
               </div>
               <div>
                 <label htmlFor="email" className={labelClass}>
@@ -239,9 +379,12 @@ export default function QuoteForm() {
                   id="email"
                   name="email"
                   type="email"
-                  required
-                  className={inputClass}
+                  aria-invalid={!!errors.email}
+                  aria-describedby={errors.email ? "err-email" : undefined}
+                  onBlur={() => revalidateField("email")}
+                  className={inputCls(!!errors.email)}
                 />
+                <FieldError id="err-email" message={errors.email} />
               </div>
               <div>
                 <label htmlFor="telefoon" className={labelClass}>
@@ -251,9 +394,12 @@ export default function QuoteForm() {
                   id="telefoon"
                   name="telefoon"
                   type="tel"
-                  required
-                  className={inputClass}
+                  aria-invalid={!!errors.telefoon}
+                  aria-describedby={errors.telefoon ? "err-telefoon" : undefined}
+                  onBlur={() => revalidateField("telefoon")}
+                  className={inputCls(!!errors.telefoon)}
                 />
+                <FieldError id="err-telefoon" message={errors.telefoon} />
               </div>
             </div>
 
@@ -266,36 +412,119 @@ export default function QuoteForm() {
                 name="opmerking"
                 rows={3}
                 placeholder="Bijzonderheden over het voertuig of transport"
-                className={`${inputClass} resize-none`}
+                className={inputCls(false, "resize-none")}
               />
             </div>
 
-            <button
-              type="submit"
-              className="group mt-2 inline-flex cursor-pointer items-center justify-center gap-3 self-start rounded-full bg-white py-3 pr-3 pl-7 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200 focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none"
-            >
-              Verstuur aanvraag
-              <span className="flex size-8 items-center justify-center rounded-full bg-zinc-950 text-white">
-                <svg
-                  className="size-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 12h14M13 6l6 6-6 6" />
-                </svg>
-              </span>
-            </button>
+            <SubmitButton>Verstuur aanvraag</SubmitButton>
             <p className="text-xs leading-relaxed text-zinc-600">
-              Uw aanvraag opent in uw mailprogramma en komt rechtstreeks bij ons
-              team terecht. Wij antwoorden zelf — binnen 24 uur.
+              Uw aanvraag opent in uw mailprogramma en komt rechtstreeks bij ons team terecht. Wij
+              antwoorden zelf — binnen 24 uur.
             </p>
           </form>
         </div>
       </div>
-    </section>
+    </Section>
+  );
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Inline CTA — a compact three-field capture to embed anywhere
+   ───────────────────────────────────────────────────────────── */
+
+function InlineQuote({ className }: { className: string }) {
+  const formRef = useRef<HTMLFormElement>(null);
+  const [errors, setErrors] = useState<Record<string, string>>({});
+
+  function validate(data: FormData): Record<string, string> {
+    const next: Record<string, string> = {};
+    if (!String(data.get("ophaal") ?? "").trim()) next.ophaal = "Vul een ophaaladres in.";
+    if (!String(data.get("lever") ?? "").trim()) next.lever = "Vul een leveradres in.";
+    const email = String(data.get("email") ?? "").trim();
+    if (!email) next.email = "Vul uw e-mail in.";
+    else if (!EMAIL_RE.test(email)) next.email = "Ongeldig e-mailadres.";
+    return next;
+  }
+
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const found = validate(data);
+    setErrors(found);
+    if (Object.values(found).some(Boolean)) {
+      focusFirstError(formRef.current, found);
+      return;
+    }
+    window.location.href = mailto("Snelle offerteaanvraag transport", [
+      `Ophaaladres: ${data.get("ophaal")}`,
+      `Leveradres: ${data.get("lever")}`,
+      `E-mail: ${data.get("email")}`,
+    ]);
+  }
+
+  return (
+    <div className={`relative overflow-hidden rounded-3xl bg-ink p-6 sm:p-8 ${className}`.trim()}>
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 [background:radial-gradient(60%_70%_at_85%_15%,rgb(255_255_255/0.06),transparent_70%)]"
+      />
+      <div className="relative">
+        <p className="text-sm font-medium tracking-widest text-muted uppercase">Snel een prijs</p>
+        <h3 className="mt-2 text-xl font-medium tracking-tight text-white sm:text-2xl">
+          Waar mag uw wagen heen?
+        </h3>
+        <form
+          ref={formRef}
+          onSubmit={onSubmit}
+          noValidate
+          className="mt-5 grid gap-3 sm:grid-cols-[1fr_1fr_1fr_auto] sm:items-start"
+        >
+          <div>
+            <label htmlFor="inline-ophaal" className="sr-only">
+              Ophaaladres
+            </label>
+            <input
+              id="inline-ophaal"
+              name="ophaal"
+              placeholder="Ophaaladres"
+              aria-invalid={!!errors.ophaal}
+              aria-describedby={errors.ophaal ? "err-inline-ophaal" : undefined}
+              className={inputCls(!!errors.ophaal)}
+            />
+            <FieldError id="err-inline-ophaal" message={errors.ophaal} />
+          </div>
+          <div>
+            <label htmlFor="inline-lever" className="sr-only">
+              Leveradres
+            </label>
+            <input
+              id="inline-lever"
+              name="lever"
+              placeholder="Leveradres"
+              aria-invalid={!!errors.lever}
+              aria-describedby={errors.lever ? "err-inline-lever" : undefined}
+              className={inputCls(!!errors.lever)}
+            />
+            <FieldError id="err-inline-lever" message={errors.lever} />
+          </div>
+          <div>
+            <label htmlFor="inline-email" className="sr-only">
+              E-mail
+            </label>
+            <input
+              id="inline-email"
+              name="email"
+              type="email"
+              placeholder="E-mail"
+              aria-invalid={!!errors.email}
+              aria-describedby={errors.email ? "err-inline-email" : undefined}
+              className={inputCls(!!errors.email)}
+            />
+            <FieldError id="err-inline-email" message={errors.email} />
+          </div>
+          <SubmitButton>Vraag prijs</SubmitButton>
+        </form>
+      </div>
+    </div>
   );
 }

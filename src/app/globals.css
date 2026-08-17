@@ -4,6 +4,31 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-bebas-neue);
+
+  /*
+   * ── MCARS design tokens ──────────────────────────────────────────
+   * Single source of truth for colour. These are *semantic aliases*
+   * over the zinc scale the site already uses, so adopting them is a
+   * zero-pixel change. Tailwind v4 turns each `--color-*` into utility
+   * classes: `--color-ink` → `bg-ink text-ink border-ink ring-ink`.
+   *
+   * Prefer these names in new shared components. See CONVENTIONS.md.
+   * ─────────────────────────────────────────────────────────────────
+   */
+  --color-ink: #09090b;            /* zinc-950 — primary text & dark surfaces */
+  --color-ink-soft: #27272a;       /* zinc-800 — hover state on dark surfaces */
+  --color-surface: #ffffff;        /* page background & light cards */
+  --color-surface-muted: #f4f4f5;  /* zinc-100 — inset light panels */
+  --color-line: #e4e4e7;           /* zinc-200 — hairline borders on light */
+  --color-muted: #71717a;          /* zinc-500 — secondary text */
+  --color-muted-soft: #a1a1aa;     /* zinc-400 — tertiary text / eyebrows */
+
+  /*
+   * Spacing rhythm — the vertical scale <Section> reads from. Page work
+   * should not hand-type `py-16 sm:py-24`; use <Section space="…"> instead.
+   */
+  --spacing-section: 4rem;         /* 64px  — mobile section padding (py-16) */
+  --spacing-section-lg: 6rem;      /* 96px  — desktop section padding (sm:py-24) */
 }
 
 body {
