@@ -1,31 +1,31 @@
-import CtaBanner from "@/components/cta-banner";
+import CinematicSequence from "@/components/cinematic-sequence";
 import EuropeNetwork from "@/components/europe-network";
-import Hero from "@/components/hero";
-import HowItWorks from "@/components/how-it-works";
-import PainPoints from "@/components/pain-points";
-import QuoteForm from "@/components/quote-form";
-import RegionCards from "@/components/region-cards";
-import RoutesSection from "@/components/routes-section";
-import ServicesSection from "@/components/services-section";
-import Solution from "@/components/solution";
+import ScrollVideoSection from "@/components/scroll-video-section";
+import SiteFooterLight from "@/components/site-footer-light";
 import VariantSwitcher from "@/components/variant-switcher";
-import WhyMcars from "@/components/why-mcars";
 
-// Home 02 — the original layout: problem/solution flow, routes and region cards.
+// Home 02 — one continuous scroll-controlled film (hero → wireframe → black
+// line → service cards → Europe map), then the full-screen location picker,
+// then a second scroll-controlled fleet film, releasing into the footer.
 export default function Home() {
   return (
     <div className="bg-white p-2">
-      <Hero />
-      <PainPoints />
-      <Solution />
-      <HowItWorks />
-      <RoutesSection />
-      <RegionCards />
-      <WhyMcars />
-      <QuoteForm />
-      <CtaBanner />
-      <ServicesSection />
-      <EuropeNetwork />
+      <CinematicSequence />
+
+      {/* Dark Europe-map location section */}
+      <EuropeNetwork
+        eyebrow="Locaties"
+        title="Mcars transporteert auto's in heel Europa."
+      />
+
+      {/* Second scroll-controlled film — the fleet */}
+      <ScrollVideoSection
+        videoSrc="/fleet-scrub.mp4"
+        poster="/fleet-poster.jpg"
+        headline="Wij beschikken over een grote vloot, maak u geen zorgen."
+      />
+
+      <SiteFooterLight />
       <VariantSwitcher sectionId="home" />
     </div>
   );

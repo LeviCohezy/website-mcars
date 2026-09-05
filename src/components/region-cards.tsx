@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type ReactNode } from "react";
 
 type Region = {
   nr: string;
@@ -105,7 +105,15 @@ const lanes = [
   { left: "91%", flag: regions[2].flags[0], duration: 20, delay: -1, mobile: true },
 ];
 
-export default function RegionCards() {
+export default function RegionCards({
+  eyebrow = "Onze regio's",
+  title = (
+    <>
+      <span className="text-zinc-950">Van de Benelux </span>
+      <span className="text-zinc-400">tot diep in Europa.</span>
+    </>
+  ),
+}: { eyebrow?: string; title?: ReactNode } = {}) {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const stickyRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -173,11 +181,10 @@ export default function RegionCards() {
 
         <div className="relative mb-10 px-5 sm:px-8">
           <p className="mb-4 text-sm font-medium tracking-widest text-zinc-400 uppercase">
-            Onze regio&apos;s
+            {eyebrow}
           </p>
           <h2 className="text-3xl font-medium leading-[1.15] tracking-tight sm:text-4xl lg:text-5xl">
-            <span className="text-zinc-950">Van de Benelux </span>
-            <span className="text-zinc-400">tot diep in Europa.</span>
+            {title}
           </h2>
         </div>
 

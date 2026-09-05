@@ -6,7 +6,7 @@ import HeroSearchWidget from "./hero-search-widget";
 import { INTRO_EVENT } from "./intro-loader";
 import NavPill from "./nav-pill";
 
-export default function Hero() {
+export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } = {}) {
   const [revealed, setRevealed] = useState(false);
 
   // Wait for the intro hand-off; if the intro already ran (client-side
@@ -44,7 +44,7 @@ export default function Hero() {
         className={`absolute inset-0 size-full object-cover transition-transform duration-[1200ms] ease-out motion-reduce:transition-none ${
           revealed ? "scale-100" : "scale-105"
         }`}
-        src="/hero.mp4"
+        src={videoSrc}
         autoPlay
         muted
         loop

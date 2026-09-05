@@ -62,7 +62,10 @@ const subscribeReducedMotion = (cb: () => void) => {
   return () => mq.removeEventListener("change", cb);
 };
 
-export default function EuropeNetwork() {
+export default function EuropeNetwork({
+  eyebrow = "Ons netwerk",
+  title = "Actief in heel Europa",
+}: { eyebrow?: string; title?: string } = {}) {
   const [pinned, setPinned] = useState<string | null>(null);
   const [autoIdx, setAutoIdx] = useState(0);
   const [hovered, setHovered] = useState<string | null>(null);
@@ -115,10 +118,10 @@ export default function EuropeNetwork() {
           {/* ── Copy + country chips ─────────────────────────── */}
           <div className="flex flex-col justify-center">
             <p className="mb-4 text-sm font-medium tracking-widest text-zinc-500 uppercase">
-              Ons netwerk
+              {eyebrow}
             </p>
             <h2 className="text-3xl font-medium tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Actief in heel Europa
+              {title}
             </h2>
             <p className="mt-5 max-w-md text-base leading-relaxed text-zinc-400">
               Wij importeren en exporteren voertuigen in elk land van Europa,
