@@ -9,6 +9,7 @@
  */
 
 import { useEffect, useRef, useSyncExternalStore } from "react";
+import { asset } from "@/lib/asset";
 
 const clamp01 = (n: number) => Math.min(1, Math.max(0, n));
 const range = (p: number, a: number, b: number) =>
@@ -102,7 +103,7 @@ export default function ScrollVideoSection({
     return (
       <section className="relative -mx-2 overflow-hidden bg-black text-white">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={poster} alt="" className="h-[70svh] w-full object-cover" />
+        <img src={asset(poster)} alt="" className="h-[70svh] w-full object-cover" />
         <h2 className="px-6 py-16 text-3xl font-semibold tracking-tight sm:px-10 sm:text-5xl">
           {headline}
         </h2>
@@ -116,8 +117,8 @@ export default function ScrollVideoSection({
         <video
           ref={videoRef}
           className="absolute inset-0 h-full w-full object-cover"
-          src={videoSrc}
-          poster={poster}
+          src={asset(videoSrc)}
+          poster={asset(poster)}
           muted
           playsInline
           preload="auto"

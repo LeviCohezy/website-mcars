@@ -24,6 +24,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useSyncExternalStore } from "react";
+import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";
 import NavPill from "./nav-pill";
 
@@ -316,7 +317,7 @@ export default function CinematicSequence({
     return (
       <section className="relative -mx-2 -mt-2 overflow-hidden bg-black text-white">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={cfg.poster} alt="" className="h-[70svh] w-full object-cover" />
+        <img src={asset(cfg.poster)} alt="" className="h-[70svh] w-full object-cover" />
         <div className="px-6 py-16 sm:px-10">
           <p className="max-w-4xl text-2xl font-medium leading-[1.2] tracking-tight sm:text-4xl">
             {cfg.introText}
@@ -336,7 +337,7 @@ export default function CinematicSequence({
             {cfg.cards.map((c) => (
               <li key={c.title} className="overflow-hidden rounded-3xl border border-white/12 bg-white/[0.06] p-5">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={c.image} alt="" className="h-40 w-full rounded-2xl object-cover" />
+                <img src={asset(c.image)} alt="" className="h-40 w-full rounded-2xl object-cover" />
                 <h3 className="mt-4 text-xl font-medium tracking-tight">{c.title}</h3>
                 <p className="mt-2 text-sm text-white/60">{c.body}</p>
                 {c.href && (
@@ -371,8 +372,8 @@ export default function CinematicSequence({
         <video
           ref={videoRef}
           className="absolute inset-0 h-full w-full object-cover"
-          src={cfg.videoSrc}
-          poster={cfg.poster}
+          src={asset(cfg.videoSrc)}
+          poster={asset(cfg.poster)}
           muted
           playsInline
           preload="auto"
@@ -489,7 +490,7 @@ export default function CinematicSequence({
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={card.image}
+                src={asset(card.image)}
                 alt=""
                 className="h-40 w-full rounded-2xl object-cover sm:h-44"
               />

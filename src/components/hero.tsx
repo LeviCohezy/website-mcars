@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";
 import { INTRO_EVENT } from "./intro-loader";
 import NavPill from "./nav-pill";
@@ -44,7 +45,7 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
         className={`absolute inset-0 size-full object-cover transition-transform duration-[1200ms] ease-out motion-reduce:transition-none ${
           revealed ? "scale-100" : "scale-105"
         }`}
-        src={videoSrc}
+        src={asset(videoSrc)}
         autoPlay
         muted
         loop

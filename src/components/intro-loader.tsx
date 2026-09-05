@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { asset } from "@/lib/asset";
 
 export const INTRO_EVENT = "mcars:intro-done";
 
@@ -90,7 +91,7 @@ export default function IntroLoader() {
         ref={(el) => {
           if (el) el.playbackRate = 2;
         }}
-        src="/logo-loader.mp4"
+        src={asset("/logo-loader.mp4")}
         autoPlay
         muted
         playsInline
