@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { blogCategories, formatDate, readingTime, sortedArticles, type Article } from "@/data/blog";
 import { Reveal } from "./scroll";
+import { ImageAccordion } from "./signature";
 import { V3Arrow, V3Block, V3Head, V3Hero } from "./v3-kit";
 
 /*
@@ -9,6 +10,17 @@ import { V3Arrow, V3Block, V3Head, V3Hero } from "./v3-kit";
  * grid: a large cover story, photo tiles with overlaid titles, and an
  * oversized, numbered index of every article by topic.
  */
+
+/** Topic photos that don't repeat the article covers shown just above. */
+const TOPIC_IMAGES = [
+  "/images/generated/truck-studio.jpg",
+  "/images/generated/workshop.jpg",
+  "/fleet/valley-sunset.jpg",
+  "/images/generated/depot-night.jpg",
+  "/images/generated/strap-closeup.jpg",
+  "/images/generated/team-depot.jpg",
+  "/fleet/sunset-field.jpg",
+];
 
 export default function BlogV3() {
   const [cover, second, third, ...rest] = sortedArticles;
@@ -65,25 +77,34 @@ export default function BlogV3() {
       {/* Index by topic */}
       <V3Block className="border-t border-white/10">
         <V3Head label="Per onderwerp" lead="Alles op één plek," trail="geordend per thema." />
-        <div className="grid gap-x-12 gap-y-12 md:grid-cols-2">
-          {blogCategories.map((c) => (
-            <div key={c}>
-              <p className="flex items-baseline justify-between border-b border-white/15 pb-3">
-                <span className="text-2xl font-light tracking-[-0.02em] sm:text-3xl">{c}</span>
-                <span className="text-sm tabular-nums text-white/40">{String(sortedArticles.filter((a) => a.category === c).length).padStart(2, "0")}</span>
-              </p>
-              <ul>
-                {sortedArticles.filter((a) => a.category === c).map((a) => (
-                  <li key={a.slug} className="border-b border-white/10">
-                    <Link href={`/blog/${a.slug}`} className="group flex min-h-11 items-center justify-between gap-4 py-4 text-base text-white/70 transition-colors hover:text-white">
-                      {a.title}
-                      <V3Arrow className="size-4 flex-none text-white/40 transition-transform group-hover:text-white motion-safe:group-hover:translate-x-0.5" />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        {/* Compact list on small screens; the photo accordion from lg up */}
+        <ul className="border-t border-white/10 lg:hidden">
+          {blogCategories.map((c) => {
+            const list = sortedArticles.filter((a) => a.category === c);
+            return (
+              <li key={c} className="border-b border-white/10">
+                <Link href={`/blog/${list[0].slug}`} className="flex min-h-11 items-baseline justify-between gap-4 py-4">
+                  <span className="text-xl font-light tracking-[-0.02em]">{c}</span>
+                  <span className="text-sm tabular-nums text-white/40">{String(list.length).padStart(2, "0")}</span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+        <div className="hidden lg:block">
+        <ImageAccordion
+          tone="dark"
+          items={blogCategories.map((c, i) => {
+            const list = sortedArticles.filter((a) => a.category === c);
+            return {
+              title: c,
+              body: list.map((a) => a.title).join(" · "),
+              image: TOPIC_IMAGES[i % TOPIC_IMAGES.length],
+              href: `/blog/${list[0].slug}`,
+              meta: `${String(list.length).padStart(2, "0")} ${list.length === 1 ? "artikel" : "artikels"}`,
+            };
+          })}
+        />
         </div>
       </V3Block>
     </>

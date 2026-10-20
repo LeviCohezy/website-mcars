@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { FaqAccordion, HighlightGrid } from "@/components/blocks";
+import { FaqAccordion } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import QuoteMultistep from "@/components/quote-multistep";
-import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
+import { CollageStatement, ImageAccordion } from "@/components/signature";
 import { ArrowButton, Eyebrow, SectionHeader } from "@/components/ui";
 import { site } from "@/lib/site";
 import VariantSwitcher from "@/components/variant-switcher";
@@ -15,6 +15,16 @@ export const metadata: Metadata = {
   description:
     "Vraag vrijblijvend uw prijs voor autotransport aan. U krijgt binnen 24 uur een persoonlijk antwoord met prijs en planning — geen calculator, geen automatische mail.",
 };
+
+/** One photo per price factor, in the order of priceFactors. */
+const FACTOR_IMAGES = [
+  "/images/generated/aerial-motorway.jpg",
+  "/images/generated/dealer-loading.jpg",
+  "/images/generated/nonrunning-winch.jpg",
+  "/fleet/city-loaded.jpg",
+  "/images/generated/night-motorway.jpg",
+  "/images/generated/alpine-pass.jpg",
+];
 
 export default function OffertePage() {
   return (
@@ -69,21 +79,34 @@ export default function OffertePage() {
           intro="We rekenen geen vaste tarieven af. Uw prijs stellen we handmatig samen op basis van deze factoren — zo klopt hij voor uw specifieke transport."
           className="mb-16"
         />
-        <HighlightGrid items={factoren} />
+        <ImageAccordion items={factoren.map((f, i) => ({ title: f.title, body: f.body, image: FACTOR_IMAGES[i % FACTOR_IMAGES.length] }))} />
       </Section>
 
-      {/* Reassurance */}
+      {/* Reassurance — statement with loosely placed photos on a dark panel */}
       <Section space="none" bleed>
-        <div className="rounded-[2rem] bg-zinc-950 px-6 py-16 sm:px-10 sm:py-20 lg:px-14">
-          <ul className="grid gap-10 sm:grid-cols-3">
-            {reassurance.map((r, i) => (
-              <Reveal as="li" key={r.title} delay={i * 80} className="border-t border-white/20 pt-6">
-                <span className="text-xs font-medium tabular-nums text-white/40">{String(i + 1).padStart(2, "0")}</span>
-                <h3 className="mt-6 text-2xl font-medium tracking-tight text-white">{r.title}</h3>
-                <p className="mt-3 text-[0.95rem] leading-relaxed text-white/55">{r.body}</p>
-              </Reveal>
-            ))}
-          </ul>
+        <div className="rounded-[2rem] bg-zinc-950 px-6 py-16 sm:px-10 sm:py-24 lg:px-14">
+          <CollageStatement
+            tone="dark"
+            eyebrow="Waarom aanvragen eenvoudig is"
+            statement="Geen calculator en geen automatische mail: een planner van Mcars stelt uw prijs zelf samen."
+            images={[
+              { title: "", image: "/images/generated/planning-office.jpg", alt: "Een planner van Mcars bekijkt een aanvraag" },
+              { title: "", image: "/fleet/hero-highway-sunset.jpg", alt: "Een transporter van Mcars op de snelweg bij zonsondergang" },
+              { title: "", image: "/images/generated/customer-update.jpg", alt: "Een klant volgt de levering van haar wagen" },
+            ]}
+          >
+            <ul className="border-t border-white/15">
+              {reassurance.map((r, i) => (
+                <li key={r.title} className="grid grid-cols-[2.5rem_1fr] gap-4 border-b border-white/15 py-5">
+                  <span className="pt-1 text-xs font-medium tabular-nums text-white/40">{String(i + 1).padStart(2, "0")}</span>
+                  <div>
+                    <h3 className="text-lg font-medium tracking-tight text-white">{r.title}</h3>
+                    <p className="mt-1.5 text-[0.95rem] leading-relaxed text-white/55">{r.body}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </CollageStatement>
         </div>
       </Section>
 

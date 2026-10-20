@@ -15,8 +15,8 @@ import {
   fleet,
 } from "@/data/about";
 import { site } from "@/lib/site";
-import Icon from "./icon";
 import { Reveal } from "./scroll";
+import { ImageAccordion, StickyStory } from "./signature";
 import { V3Arrow, V3Block, V3Button, V3Head, V3Hero, V3Page, V3Star } from "./v3-kit";
 
 /*
@@ -25,6 +25,19 @@ import { V3Arrow, V3Block, V3Button, V3Head, V3Hero, V3Page, V3Star } from "./v3
  * band, the fleet as a ledger of huge counts, countries set as big type, and
  * the reasons as a numbered index. Same content as /over-ons.
  */
+
+/** Photos for the insurance panels and the reasons (AI placeholders, see docs/CONTENT-NEEDS.md). */
+const INSURED_PHOTOS = [
+  { image: "/images/generated/strap-closeup.jpg", alt: "Een wiel wordt vastgezet met een spanband" },
+  { image: "/images/generated/pickup-inspection.jpg", alt: "Een chauffeur inspecteert een wagen bij ophaling" },
+  { image: "/images/generated/customer-update.jpg", alt: "Een klant bekijkt foto's van haar transport" },
+];
+const WHY_PHOTOS = [
+  { image: "/images/generated/key-handover.jpg", alt: "Sleuteloverdracht bij levering" },
+  { image: "/fleet/hero-highway-sunset.jpg", alt: "Een Mcars-transporter op de snelweg" },
+  { image: "/images/generated/planning-office.jpg", alt: "De planning van Mcars op kantoor" },
+  { image: "/images/generated/night-motorway.jpg", alt: "Een Mcars-transporter 's nachts onderweg" },
+];
 
 export default function OverOnsV3() {
   return (
@@ -145,40 +158,21 @@ export default function OverOnsV3() {
       {/* 5 · Verzekerd transport — three translucent cards */}
       <V3Block>
         <V3Head center label={aboutInsured.label} lead={aboutInsured.lead} trail={aboutInsured.trail} />
-        <ol className="grid gap-4 sm:grid-cols-3">
-          {aboutInsured.items.map((it, i) => (
-            <Reveal as="li" key={it.title} delay={i * 90} className="flex min-h-72 flex-col rounded-2xl border border-white/10 bg-white/[0.04] p-7 sm:p-8">
-              <span className="text-7xl leading-none font-light tracking-[-0.05em] text-white/15 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
-              <h3 className="mt-auto pt-10 text-2xl font-light tracking-tight">{it.title}</h3>
-              <p className="mt-3 text-[0.95rem] leading-relaxed text-white/55">{it.body}</p>
-            </Reveal>
-          ))}
-        </ol>
+        <ImageAccordion
+          items={aboutInsured.items.map((it, i) => ({ title: it.title, body: it.body, ...INSURED_PHOTOS[i % INSURED_PHOTOS.length] }))}
+        />
       </V3Block>
 
-      {/* 6 · Waarom Mcars — numbered index */}
+      {/* 6 · Waarom Mcars — sticky photo that swaps per reason */}
       <V3Block className="pt-0 sm:pt-0">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1.4fr] lg:gap-20">
-          <div className="lg:sticky lg:top-28 lg:self-start">
-            <V3Head label={aboutWhy.label} lead={aboutWhy.lead} trail={aboutWhy.trail} />
-            <V3Button href="/offerte">Offerte aanvragen</V3Button>
-          </div>
-          <ol className="border-t border-white/10">
-            {aboutWhy.items.map((h, i) => (
-              <Reveal as="li" key={h.title} delay={i * 70} className="grid grid-cols-[auto_1fr] gap-5 border-b border-white/10 py-8 sm:gap-8 sm:py-10">
-                <span className="flex size-11 items-center justify-center rounded-full border border-white/20">
-                  <Icon name={h.icon} className="size-5" />
-                </span>
-                <div>
-                  <h3 className="text-2xl font-light tracking-tight sm:text-3xl">
-                    <span className="mr-3 text-sm text-white/35 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
-                    {h.title}
-                  </h3>
-                  <p className="mt-3 max-w-lg text-[0.95rem] leading-relaxed text-white/55">{h.body}</p>
-                </div>
-              </Reveal>
-            ))}
-          </ol>
+        <V3Head label={aboutWhy.label} lead={aboutWhy.lead} trail={aboutWhy.trail} />
+        <StickyStory
+          tone="dark"
+          side="right"
+          steps={aboutWhy.items.map((h, i) => ({ title: h.title, body: h.body, meta: `Reden ${String(i + 1).padStart(2, "0")}`, ...WHY_PHOTOS[i % WHY_PHOTOS.length] }))}
+        />
+        <div className="mt-12">
+          <V3Button href="/offerte">Offerte aanvragen</V3Button>
         </div>
       </V3Block>
     </V3Page>

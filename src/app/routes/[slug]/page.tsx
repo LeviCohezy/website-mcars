@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { FaqAccordion, HighlightGrid, LinkList, QuoteCta, StatRow } from "@/components/blocks";
+import { FaqAccordion, QuoteCta, StatRow } from "@/components/blocks";
 import HeroQuoteBar from "@/components/hero-quote-bar";
 import Icon from "@/components/icon";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import { Parallax, Reveal } from "@/components/scroll";
 import Section from "@/components/section";
+import { CollageStatement, HoverRevealList, ImageAccordion, type Panel } from "@/components/signature";
 import { Eyebrow, SectionHeader } from "@/components/ui";
 import VariantSwitcher from "@/components/variant-switcher";
 import { flagAsset } from "@/data/routes";
+import type { IconKey } from "@/data/services";
 import { getRoutePage, routeMetadata, routeStaticParams } from "@/lib/route-page";
 
 // Route 01 — cinematic. Versions 02 (/v2) and 03 (/v3) render the same data.
@@ -25,7 +27,9 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
   const data = getRoutePage(slug);
   if (!data) notFound();
   const { route, isCorridor, quote, detailImage } = data;
-  const related = data.related.map(({ href, label, meta }) => ({ href, label, meta }));
+  // Three different photos for the intro collage, never the hero itself.
+  const gallery = [route.portraitImage ?? detailImage, "/images/generated/strap-closeup.jpg", "/images/generated/key-handover.jpg"]
+    .map((img, i) => (img === route.heroImage ? ["/fleet/sunset-parking.jpg", "/fleet/dramatic-sky.jpg", "/fleet/city-street.jpg"][i] : img));
 
   return (
     <PageShell>
@@ -73,23 +77,21 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         </div>
       </PageHero>
 
-      {/* Intro + figures */}
+      {/* Intro + figures — statement with three loosely placed photos */}
       <Section space="loose">
-        <div className="grid gap-10 lg:grid-cols-[1fr_3fr]">
-          <Reveal>
-            <Eyebrow>{isCorridor ? "Over deze route" : "Over deze bestemming"}</Eyebrow>
-          </Reveal>
-          <div>
-            <Reveal>
-              <p className="text-2xl leading-[1.3] font-light tracking-[-0.02em] text-pretty text-zinc-950 sm:text-3xl lg:text-[2.6rem] lg:leading-[1.2]">
-                {route.intro}
-              </p>
-            </Reveal>
-            <Reveal delay={100} className="mt-14 border-t border-zinc-200 pt-8">
-              <StatRow items={route.stats} />
-            </Reveal>
+        <CollageStatement
+          eyebrow={isCorridor ? "Over deze route" : "Over deze bestemming"}
+          statement={route.intro}
+          images={[
+            { image: gallery[0], alt: `${route.nav} — onderweg met Mcars` },
+            { image: gallery[1], alt: "Een wagen wordt vastgezet op de transporter" },
+            { image: gallery[2], alt: "Levering van een wagen bij de klant" },
+          ] as [Panel, Panel, Panel]}
+        >
+          <div className="border-t border-zinc-200 pt-8">
+            <StatRow items={route.stats} />
           </div>
-        </div>
+        </CollageStatement>
       </Section>
 
       {/* Cities — dark panel with photo */}
@@ -127,10 +129,10 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         </div>
       </Section>
 
-      {/* Highlights */}
+      {/* Highlights — photo panels; the active one opens */}
       <Section space="loose">
         <SectionHeader label="Waarom Mcars" index="01" lead="Uw wagen" trail="in vertrouwde handen." className="mb-16" />
-        <HighlightGrid items={route.highlights} />
+        <ImageAccordion items={route.highlights.map((h, i) => ({ title: h.title, body: h.body, image: highlightImage(h.icon, i) }))} />
       </Section>
 
       {/* FAQ */}
@@ -150,13 +152,10 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         </div>
       </Section>
 
-      {related.length > 0 && (
+      {data.related.length > 0 && (
         <Section space="none">
           <SectionHeader label="Ontdek ook" lead="Andere routes" trail="en diensten." className="mb-10" />
-          <div className="grid lg:grid-cols-[1fr_3fr] lg:gap-10">
-            <div className="hidden lg:block" />
-            <LinkList items={related} />
-          </div>
+          <HoverRevealList items={data.related.map((r) => ({ title: r.label, body: r.sub, image: r.image, meta: r.meta, href: r.href }))} />
         </Section>
       )}
 
@@ -184,3 +183,16 @@ function Connector() {
   );
 }
 
+/** A photo per highlight, chosen by what the highlight is about. */
+function highlightImage(icon: IconKey, i: number) {
+  const byIcon: Partial<Record<IconKey, string>> = {
+    shield: "/images/generated/pickup-inspection.jpg",
+    users: "/images/generated/driver-portrait.jpg",
+    truck: "/images/generated/dealer-loading.jpg",
+    map: "/images/generated/aerial-motorway.jpg",
+    globe: "/images/generated/alpine-pass.jpg",
+    clock: "/images/generated/planning-office.jpg",
+    route: "/images/generated/night-motorway.jpg",
+  };
+  return byIcon[icon] ?? ["/images/generated/depot-night.jpg", "/images/generated/team-depot.jpg", "/images/generated/truck-studio.jpg"][i % 3];
+}

@@ -1,11 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { cases } from "@/data/cases";
 import { caseHref, casesOverview as o } from "@/lib/case-page";
 import { Reveal } from "./scroll";
+import { StackedCards, TypeMarquee } from "./signature";
 import { V2Arrow, V2Block, V2Button, V2Head, V2Hero } from "./v2-kit";
 
 /*
@@ -50,47 +50,27 @@ export default function CasesV2() {
           })}
         </div>
 
-        {/* Labelled photo tiles */}
-        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {shown.map((c, i) => {
-            const big = filter === ALL && i === 0;
-            const num = String(cases.indexOf(c) + 1).padStart(2, "0");
-            return (
-              <li key={c.slug} className={big ? "sm:col-span-2 lg:row-span-2" : ""}>
-                <Link
-                  href={caseHref(c)}
-                  className={`group relative flex h-full min-h-[22rem] flex-col justify-between overflow-hidden rounded-xl bg-zinc-950 p-4 text-white sm:p-5 ${big ? "lg:min-h-[45rem]" : ""}`}
-                >
-                  <Image
-                    src={c.image}
-                    alt=""
-                    fill
-                    sizes={big ? "(min-width: 1024px) 66vw, 100vw" : "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"}
-                    className="object-cover transition-transform duration-700 ease-out motion-safe:group-hover:scale-[1.04]"
-                  />
-                  <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-zinc-950/10 to-zinc-950/30" />
-
-                  <div className="relative flex items-start justify-between gap-3">
-                    <span className="rounded-md bg-white px-2.5 py-1.5 text-xs font-medium text-zinc-950">{c.tag}</span>
-                    <span className="text-sm tabular-nums text-white/70">{num}</span>
-                  </div>
-
-                  <div className="relative">
-                    <h3 className={`font-medium leading-[1.1] tracking-[-0.02em] text-balance ${big ? "text-2xl sm:text-4xl" : "text-2xl"}`}>{c.title}</h3>
-                    {big && <p className="mt-3 hidden max-w-lg text-[0.95rem] leading-relaxed text-white/75 sm:block">{c.body}</p>}
-                    <div className="mt-5 flex items-center justify-between gap-3 border-t border-white/20 pt-4">
-                      <span className="min-w-0 truncate text-sm text-white/70">{c.route ?? "Lees de case"}</span>
-                      <span className="flex size-11 flex-none items-center justify-center rounded-full bg-white text-zinc-950 transition-transform group-hover:-rotate-45">
-                        <V2Arrow />
-                      </span>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-            );
-          })}
+        {/* Cases stack on top of each other while scrolling */}
+        <StackedCards
+          radius="rounded-md"
+          items={shown.map((c) => ({ title: c.title, body: c.body, image: c.image, alt: c.imageAlt }))}
+        />
+        <ul className="mt-8 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {shown.map((c) => (
+            <li key={c.slug} className="min-w-0">
+              <Link href={caseHref(c)} className="group flex min-h-11 items-center justify-between gap-3 rounded-md border border-zinc-200 px-4 py-3 text-sm transition-colors hover:border-zinc-950">
+                <span className="min-w-0 truncate">Lees de case: {c.title}</span>
+                <V2Arrow className="size-4 flex-none transition-transform group-hover:translate-x-0.5" />
+              </Link>
+            </li>
+          ))}
         </ul>
       </V2Block>
+
+      {/* Case types as running words */}
+      <section aria-hidden className="overflow-hidden border-t border-zinc-200 py-8">
+        <TypeMarquee words={tags.slice(1)} images={cases.map((c) => c.image)} speed={60} />
+      </section>
 
       {/* Figures — bordered cells, the first one dark */}
       <V2Block className="border-t border-zinc-200">

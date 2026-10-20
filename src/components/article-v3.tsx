@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import type { ArticleBlock, ArticlePageData } from "@/data/blog";
 import { Inline } from "./article";
 import { Reveal } from "./scroll";
-import { V3Arrow, V3Block, V3Button, V3Head, V3Hero, V3Tick } from "./v3-kit";
+import { V3Block, V3Button, V3Head, V3Hero, V3Tick } from "./v3-kit";
+import { HorizontalRail, ImageAccordion } from "./signature";
 
 /*
  * Artikel 03 — "Donker & premium". Black page, centred cinematic hero, then a
@@ -128,46 +128,26 @@ export default function ArticleV3({ data }: { data: ArticlePageData }) {
       {/* Related — dark photo cards */}
       <V3Block className="border-t border-white/10">
         <V3Head label="Verder met" lead="Verwante diensten" trail="en routes." center />
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {[...services, ...routes].map((l) => (
-            <li key={l.href}>
-              <Link href={l.href} className="group relative flex aspect-[4/3] flex-col justify-end overflow-hidden rounded-2xl border border-white/10 p-6">
-                <Image src={l.image} alt="" fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover opacity-50 transition-all duration-700 group-hover:scale-105 group-hover:opacity-70" />
-                <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent" />
-                <span className="relative text-xs font-medium tracking-[0.2em] text-white/55 uppercase">{l.meta}</span>
-                <span className="relative mt-2 flex items-end justify-between gap-4">
-                  <span className="text-2xl font-light tracking-[-0.02em]">{l.label}</span>
-                  <span className="flex size-10 flex-none items-center justify-center rounded-full border border-white/25 transition-colors group-hover:bg-white group-hover:text-zinc-950">
-                    <V3Arrow />
-                  </span>
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <ImageAccordion
+          tone="dark"
+          items={[...services, ...routes].map((l) => ({ title: l.label, image: l.image, href: l.href, meta: l.meta }))}
+        />
       </V3Block>
 
-      {/* More articles */}
-      <V3Block className="pt-0 sm:pt-0">
-        <V3Head label="Lees ook" lead="Meer uit" trail="de kennisbank." />
-        <ul className="border-t border-white/10">
-          {more.map((a, i) => (
-            <li key={a.slug} className="border-b border-white/10">
-              <Link href={`/blog/${a.slug}`} className="group grid items-baseline gap-3 py-7 sm:grid-cols-[4rem_1fr_auto] sm:gap-8">
-                <span className="text-sm font-light tabular-nums text-white/35">{String(i + 1).padStart(2, "0")}</span>
-                <span>
-                  <span className="block text-xs font-medium tracking-[0.2em] text-white/45 uppercase">{a.category}</span>
-                  <span className="mt-2 block text-2xl font-light leading-snug tracking-[-0.02em] text-balance transition-transform duration-500 motion-safe:group-hover:translate-x-1 sm:text-3xl">{a.title}</span>
-                </span>
-                <span className="hidden text-white/50 transition-colors group-hover:text-white sm:block"><V3Arrow className="size-5" /></span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-        <div className="mt-10">
+      {/* More articles — cards travel sideways while you scroll */}
+      <section className="px-5 sm:px-10 lg:px-14">
+        <HorizontalRail
+          items={more.map((a) => ({ title: a.title, body: a.excerpt, image: a.image, alt: a.imageAlt, href: `/blog/${a.slug}`, meta: a.category }))}
+          heading={
+            <h2 className="pt-20 text-3xl font-light tracking-[-0.03em] text-white sm:text-4xl">
+              Lees ook — <span className="text-white/35">meer uit de kennisbank.</span>
+            </h2>
+          }
+        />
+        <div className="pb-20 sm:pb-28">
           <V3Button href="/blog" variant="ghost">Alle artikels</V3Button>
         </div>
-      </V3Block>
+      </section>
     </>
   );
 }

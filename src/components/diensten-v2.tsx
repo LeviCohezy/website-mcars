@@ -5,8 +5,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { defaultProcess, defaultVehicleTypes, services } from "@/data/services";
 import { site } from "@/lib/site";
-import { Reveal } from "./scroll";
-import { V2Arrow, V2Block, V2Button, V2Check, V2Head, V2Hero } from "./v2-kit";
+import { MosaicGallery, StickyStory } from "./signature";
+import { V2Arrow, V2Block, V2Button, V2Head, V2Hero } from "./v2-kit";
 
 /*
  * Diensten 02 — "Licht & strak". White Swiss grid. The centrepiece is a
@@ -16,6 +16,13 @@ import { V2Arrow, V2Block, V2Button, V2Check, V2Head, V2Hero } from "./v2-kit";
  */
 
 const pad = (n: number) => String(n).padStart(2, "0");
+
+const STEP_IMAGES = [
+  "/images/generated/planning-office.jpg",
+  "/images/generated/customer-update.jpg",
+  "/images/generated/strap-closeup.jpg",
+  "/images/generated/key-handover.jpg",
+];
 
 export default function DienstenV2() {
   const [active, setActive] = useState(0);
@@ -114,23 +121,30 @@ export default function DienstenV2() {
         </div>
       </V2Block>
 
-      {/* 02 · Vehicle types — bordered cells */}
+      {/* 02 · Vehicle types — photo mosaic, full list beside the figure */}
       <V2Block className="pt-0 sm:pt-0">
         <V2Head index="02" label="Voertuigen" lead="Wat we vervoeren." trail="Rijdend of niet." />
-        <ul className="grid grid-cols-1 border-t border-l border-zinc-200 sm:grid-cols-2 lg:grid-cols-4">
+        <MosaicGallery
+          radius="rounded-md"
+          images={[
+            { title: defaultVehicleTypes[0], image: "/images/generated/dealer-loading.jpg", alt: "Personenwagens worden op een Mcars-transporter geladen" },
+            { title: defaultVehicleTypes[1], image: "/images/generated/oldtimer-loading.jpg", alt: "Een oldtimer wordt voorzichtig geladen" },
+            { title: "Niet-rijdend", image: "/images/generated/nonrunning-winch.jpg", alt: "Een niet-rijdende wagen gaat met de lier aan boord" },
+            { title: "Op elke afstand", image: "/fleet/countryside-highway.jpg", alt: "Een Mcars-transporter op de snelweg" },
+          ]}
+          figure={{ value: pad(defaultVehicleTypes.length), label: "Soorten voertuigen", body: "Van moto tot bestelwagen — ook als hij niet meer rijdt." }}
+        />
+        <ul className="mt-3 grid grid-cols-1 border-t border-l border-zinc-200 sm:grid-cols-2 lg:grid-cols-4">
           {defaultVehicleTypes.map((v, i) => (
-            <Reveal as="li" key={v} delay={(i % 4) * 60} className="flex min-h-28 flex-col justify-between gap-6 border-r border-b border-zinc-200 p-5 sm:min-h-36 sm:p-6">
-              <span className="text-xs font-medium tabular-nums text-zinc-400">{pad(i + 1)}</span>
-              <span className="flex items-start gap-3 text-lg leading-snug font-medium tracking-tight">
-                <V2Check className="mt-1" />
-                {v}
-              </span>
-            </Reveal>
+            <li key={v} className="flex items-center gap-3 border-r border-b border-zinc-200 px-5 py-4 text-base font-medium tracking-tight">
+              <span className="text-xs tabular-nums text-zinc-400">{pad(i + 1)}</span>
+              {v}
+            </li>
           ))}
         </ul>
       </V2Block>
 
-      {/* 03 · Process — one working method for every service */}
+      {/* 03 · Process — sticky photo that swaps per step */}
       <V2Block className="pt-0 sm:pt-0">
         <V2Head
           index="03"
@@ -139,20 +153,11 @@ export default function DienstenV2() {
           trail="voor elke dienst."
           intro={`Al ${site.reviews.clients} klanten gingen u voor. Zo verloopt elk transport.`}
         />
-        <ol className="grid border-t border-zinc-950 sm:grid-cols-2 lg:grid-cols-4">
-          {defaultProcess.map((p, i) => (
-            <Reveal
-              as="li"
-              key={p.title}
-              delay={i * 80}
-              className={`border-b border-zinc-200 py-8 sm:px-6 sm:first:pl-0 lg:border-b-0 ${i > 0 ? "lg:border-l" : ""} ${i % 2 === 1 ? "sm:border-l" : ""}`}
-            >
-              <span className="text-5xl font-light tracking-[-0.04em] tabular-nums">{pad(i + 1)}</span>
-              <h3 className="mt-6 text-lg font-medium tracking-tight">{p.title}</h3>
-              <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{p.body}</p>
-            </Reveal>
-          ))}
-        </ol>
+        <StickyStory
+          radius="rounded-md"
+          side="right"
+          steps={defaultProcess.map((p, i) => ({ title: p.title, body: p.body, image: STEP_IMAGES[i % STEP_IMAGES.length] }))}
+        />
       </V2Block>
     </div>
   );

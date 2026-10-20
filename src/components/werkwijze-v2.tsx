@@ -5,12 +5,13 @@ import { site } from "@/lib/site";
 import Icon from "./icon";
 import { BoxedFaq } from "./route-v2";
 import { Reveal } from "./scroll";
+import { CollageStatement, StackedCards } from "./signature";
 import { V2Arrow, V2Block, V2Button, V2Check, V2Head, V2Hero } from "./v2-kit";
 
 /*
  * Werkwijze 02 — "Licht & strak". White Swiss grid: light hero with a (06)
- * counter, a numbered six-row hairline timeline, the CMR block as bordered
- * cells and a boxed FAQ. Same content as Werkwijze 01 (data/process).
+ * counter, the six steps as stacking photo cards, the CMR block as an airy
+ * photo collage around a statement and a boxed FAQ. Same content as Werkwijze 01 (data/process).
  */
 
 export default function WerkwijzeV2() {
@@ -43,29 +44,11 @@ export default function WerkwijzeV2() {
       {/* 3 · Six steps — numbered hairline timeline */}
       <V2Block>
         <V2Head index="01" label="Zo werkt het" lead="Zes heldere stappen." trail="Van offerte tot levering." />
-        <ol className="border-b border-zinc-200">
-          {stappen.map((s, i) => (
-            <Reveal
-              as="li"
-              key={s.title}
-              delay={i * 50}
-              className="relative grid grid-cols-[2.75rem_1fr] gap-x-4 border-t border-zinc-200 py-8 sm:grid-cols-[5rem_1fr] sm:gap-x-6 lg:grid-cols-[6rem_1.1fr_1.4fr_13rem] lg:gap-x-10 lg:py-10"
-            >
-              {/* Number + the timeline rail running down to the next step */}
-              <div className="relative row-span-3 flex flex-col items-start lg:row-span-1">
-                <span className="text-3xl font-light tracking-[-0.04em] text-zinc-950 tabular-nums sm:text-5xl">{String(i + 1).padStart(2, "0")}</span>
-                {i < stappen.length - 1 && <span aria-hidden className="mt-3 ml-3 w-px flex-1 bg-zinc-200 sm:ml-4" />}
-              </div>
-              <h3 className="text-xl font-medium tracking-tight text-balance sm:text-2xl lg:pt-1.5">{s.title}</h3>
-              <p className="mt-3 max-w-xl text-[0.95rem] leading-relaxed text-zinc-500 sm:text-base lg:mt-0 lg:pt-2">{s.body}</p>
-              <p className="mt-5 lg:mt-0 lg:justify-self-end lg:pt-1.5">
-                <span className="inline-flex items-center gap-2 rounded-md border border-zinc-200 px-3 py-1.5 text-xs font-medium tracking-[0.12em] text-zinc-700 uppercase">
-                  <Icon name={s.icon} className="size-3.5 text-zinc-950" /> {s.status}
-                </span>
-              </p>
-            </Reveal>
-          ))}
-        </ol>
+        <StackedCards
+          tone="light"
+          radius="rounded-lg"
+          items={stappen.map((st) => ({ title: st.title, body: `${st.status} — ${st.body}`, image: st.image, alt: st.imageAlt }))}
+        />
         <Reveal className="mt-3 flex flex-col items-start justify-between gap-4 rounded-xl bg-zinc-950 p-6 text-white sm:flex-row sm:items-center sm:p-8">
           <p className="text-lg">Klaar voor stap 01? U krijgt binnen 24 uur een persoonlijk antwoord.</p>
           <Link href="/offerte" className="inline-flex min-h-11 flex-none items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
@@ -77,25 +60,31 @@ export default function WerkwijzeV2() {
       {/* 4 · CMR — photo cell beside three bordered rows */}
       <V2Block className="bg-zinc-100">
         <V2Head index="02" label="Waarom deze aanpak" lead="De CMR-vrachtbrief:" trail="uw zekerheid, zwart op wit." intro={cmrIntro} />
-        <div className="grid gap-3 lg:grid-cols-[1fr_1.3fr]">
-          <Reveal className="relative min-h-72 overflow-hidden rounded-xl bg-zinc-950">
-            <Image src={werkwijze.bandImage} alt={werkwijze.bandImageAlt} fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
-            <span className="absolute bottom-4 left-4 rounded-md bg-white px-3 py-1.5 text-xs font-medium tracking-[0.14em] uppercase">Opgemaakt bij elke ophaling</span>
-          </Reveal>
-          <ul className="overflow-hidden rounded-xl border border-zinc-200 bg-white">
-            {cmr.map((h, i) => (
-              <Reveal as="li" key={h.title} delay={i * 70} className={`grid grid-cols-[2.75rem_1fr] gap-4 p-6 sm:p-8 ${i > 0 ? "border-t border-zinc-200" : ""}`}>
+        <CollageStatement
+          tone="light"
+          radius="rounded-lg"
+          eyebrow="Opgemaakt bij elke ophaling"
+          statement="Eén document, zwart op wit: wat, wanneer en in welke staat uw wagen werd opgehaald."
+          images={[
+            { title: "", image: werkwijze.bandImage, alt: werkwijze.bandImageAlt },
+            { title: "", image: "/fleet/depot-wet.jpg", alt: "Transporters van Mcars op het depot in Roeselare" },
+            { title: "", image: "/images/generated/workshop.jpg", alt: "Een wagen in de werkplaats" },
+          ]}
+        >
+          <ul className="border-t border-zinc-200">
+            {cmr.map((h) => (
+              <li key={h.title} className="grid grid-cols-[2.75rem_1fr] gap-4 border-b border-zinc-200 py-5">
                 <span className="flex size-11 items-center justify-center rounded-md border border-zinc-200">
                   <Icon name={h.icon} className="size-5" />
                 </span>
                 <div>
-                  <h3 className="text-xl font-medium tracking-tight">{h.title}</h3>
-                  <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
+                  <h3 className="text-lg font-medium tracking-tight">{h.title}</h3>
+                  <p className="mt-1.5 text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
                 </div>
-              </Reveal>
+              </li>
             ))}
           </ul>
-        </div>
+        </CollageStatement>
       </V2Block>
 
       {/* 5 · FAQ */}

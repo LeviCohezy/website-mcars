@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { CasePageData } from "@/lib/case-page";
 import { caseHref } from "@/lib/case-page";
 import { Reveal } from "./scroll";
+import { MosaicGallery, StackedCards } from "./signature";
 import { V2Arrow, V2Block, V2Button, V2Check, V2Head, V2Hero } from "./v2-kit";
 
 /*
@@ -10,6 +11,12 @@ import { V2Arrow, V2Block, V2Button, V2Check, V2Head, V2Hero } from "./v2-kit";
  * number, a wide photo, bordered fact cells, the story as three columns (the
  * result in black), the related service and previous / next cells.
  */
+
+const STORY_PHOTOS = (caseImage: string, detail: string) => [
+  { image: caseImage, alt: "" },
+  { image: "/images/generated/planning-office.jpg", alt: "De planning van Mcars" },
+  { image: detail, alt: "" },
+];
 
 export default function CaseV2({ data }: { data: CasePageData }) {
   const { item, number, total, prev, next, service, detailImage, facts, story } = data;
@@ -29,12 +36,16 @@ export default function CaseV2({ data }: { data: CasePageData }) {
 
       {/* Wide photo + fact cells */}
       <section className="px-5 sm:px-12 lg:px-16">
-        <Reveal className="relative aspect-[4/3] overflow-hidden rounded-xl bg-zinc-100 sm:aspect-[21/9]">
-          <Image src={item.image} alt={item.imageAlt} fill priority sizes="100vw" className="object-cover" />
-          <span className="absolute top-4 left-4 rounded-md bg-white px-2.5 py-1.5 text-xs font-medium text-zinc-950">
-            Case {number} / {total}
-          </span>
-        </Reveal>
+        <MosaicGallery
+          radius="rounded-md"
+          images={[
+            { title: item.tag, image: item.image, alt: item.imageAlt },
+            { title: "", image: detailImage, alt: service ? `${service.nav} door Mcars` : "" },
+            { title: "", image: "/images/generated/pickup-inspection.jpg", alt: "Inspectie van de wagen bij ophaling" },
+            { title: "", image: "/images/generated/strap-closeup.jpg", alt: "Een wiel wordt vastgezet met een spanband" },
+          ]}
+          figure={{ value: number, label: `Case ${number} / ${total}`, body: item.route }}
+        />
         <dl className={`mt-3 grid gap-3 sm:grid-cols-2 ${facts.length >= 3 ? "lg:grid-cols-3" : ""}`}>
           {facts.map((f) => (
             <div key={f.label} className="rounded-xl border border-zinc-200 p-5 sm:p-6">
@@ -56,18 +67,10 @@ export default function CaseV2({ data }: { data: CasePageData }) {
       {/* Story */}
       <V2Block>
         <V2Head index="01" label="Het verhaal" lead="Van vraag" trail="tot levering." />
-        <ol className={`grid gap-3 ${story.length === 3 ? "lg:grid-cols-3" : ""}`}>
-          {story.map((s, i) => {
-            const last = i === story.length - 1 && story.length > 1;
-            return (
-              <Reveal as="li" key={s.label} delay={i * 90} className={`flex min-h-64 flex-col rounded-xl p-6 sm:p-8 ${last ? "bg-zinc-950 text-white" : "border border-zinc-200"}`}>
-                <span className={`text-sm tabular-nums ${last ? "text-white/50" : "text-zinc-400"}`}>{String(i + 1).padStart(2, "0")}</span>
-                <h3 className="mt-10 text-2xl font-medium tracking-tight">{s.label}</h3>
-                <p className={`mt-3 text-base leading-relaxed ${last ? "text-white/75" : "text-zinc-500"}`}>{s.body}</p>
-              </Reveal>
-            );
-          })}
-        </ol>
+        <StackedCards
+          radius="rounded-md"
+          items={story.map((st, i) => ({ title: st.label, body: st.body, ...STORY_PHOTOS(item.image, detailImage)[i % 3] }))}
+        />
       </V2Block>
 
       {/* Related service */}

@@ -5,6 +5,7 @@ import { faqGroups, faqTotal } from "@/data/faq";
 import type { Faq } from "@/data/services";
 import { site } from "@/lib/site";
 import { Reveal } from "./scroll";
+import { CollageStatement, TypeMarquee } from "./signature";
 import { V2Arrow, V2Button, V2Hero } from "./v2-kit";
 
 /*
@@ -39,6 +40,15 @@ export default function FaqV2() {
         count={pad(faqTotal)}
         intro="De meest gestelde vragen over autotransport, per onderwerp. Staat uw vraag er niet bij? We helpen u graag persoonlijk verder."
       />
+
+      {/* Running topic band with photo pills */}
+      <div className="pb-16 sm:pb-24">
+        <TypeMarquee
+          words={faqGroups.map((g) => g.label)}
+          images={["/images/generated/planning-office.jpg", "/images/generated/strap-closeup.jpg", "/images/generated/pickup-inspection.jpg", "/fleet/germany-autobahn.jpg"]}
+          speed={55}
+        />
+      </div>
 
       <section className="px-5 pb-20 sm:px-12 sm:pb-32 lg:px-16">
         <div className="grid gap-8 lg:grid-cols-[1fr_3fr] lg:gap-10">
@@ -95,41 +105,49 @@ export default function FaqV2() {
         </div>
       </section>
 
-      {/* Still a question — bordered cells */}
+      {/* Still a question — statement + photos, contact cells underneath */}
       <section className="px-5 pb-8 sm:px-12 lg:px-16">
-        <div className="grid gap-6 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
+        <div className="mb-12 grid gap-6 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
           <p className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">Nog een vraag?</p>
-          <div>
-            <h2 className="max-w-3xl text-3xl leading-[1.08] font-medium tracking-[-0.025em] text-balance sm:text-4xl lg:text-5xl">
-              Staat uw vraag er niet bij? <span className="text-zinc-400">Wij helpen u persoonlijk.</span>
-            </h2>
-            <div className="mt-10 grid gap-px overflow-hidden rounded-lg border border-zinc-200 bg-zinc-200 sm:grid-cols-3">
-              {[
-                { k: "Bel ons", v: site.phone, href: site.phoneHref },
-                { k: "WhatsApp", v: "Stuur een bericht", href: site.whatsapp },
-                { k: "E-mail", v: site.email, href: `mailto:${site.email}` },
-              ].map((c) => (
-                <a
-                  key={c.k}
-                  href={c.href}
-                  target={c.href.startsWith("http") ? "_blank" : undefined}
-                  rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="group flex min-h-36 flex-col justify-between gap-6 bg-white p-6 transition-colors hover:bg-zinc-950 hover:text-white sm:p-7"
-                >
-                  <span className="flex items-center justify-between text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase group-hover:text-white/60">
-                    {c.k}
-                    <V2Arrow className="size-4 text-zinc-950 group-hover:text-white" />
-                  </span>
-                  <span className="text-xl font-medium tracking-tight break-words">{c.v}</span>
-                </a>
-              ))}
-            </div>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <V2Button href="/offerte">Offerte aanvragen</V2Button>
-              <V2Button href="/contact" variant="outline">Contactpagina</V2Button>
-            </div>
-          </div>
+          <h2 className="max-w-3xl text-3xl leading-[1.08] font-medium tracking-[-0.025em] text-balance sm:text-4xl lg:text-5xl">
+            Staat uw vraag er niet bij? <span className="text-zinc-400">Wij helpen u persoonlijk.</span>
+          </h2>
         </div>
+        <CollageStatement
+          radius="rounded-md"
+          statement="Bel, stuur een bericht of mail — u krijgt antwoord van iemand die uw transport ook effectief inplant."
+          images={[
+            { title: "Klantcontact", image: "/images/generated/customer-update.jpg", alt: "Een medewerker van Mcars belt een klant" },
+            { title: "Depot", image: "/fleet/depot-dusk.jpg", alt: "Het depot van Mcars in de avond" },
+            { title: "Overhandiging", image: "/images/generated/key-handover.jpg", alt: "Een chauffeur overhandigt de sleutels" },
+          ]}
+        >
+          <div className="grid gap-px overflow-hidden rounded-md border border-zinc-200 bg-zinc-200">
+            {[
+              { k: "Bel ons", v: site.phone, href: site.phoneHref },
+              { k: "WhatsApp", v: "Stuur een bericht", href: site.whatsapp },
+              { k: "E-mail", v: site.email, href: `mailto:${site.email}` },
+            ].map((c) => (
+              <a
+                key={c.k}
+                href={c.href}
+                target={c.href.startsWith("http") ? "_blank" : undefined}
+                rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                className="group flex min-h-16 items-center justify-between gap-6 bg-white px-5 py-4 transition-colors hover:bg-zinc-950 hover:text-white"
+              >
+                <span className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase group-hover:text-white/60">{c.k}</span>
+                <span className="flex items-center gap-3 text-base font-medium tracking-tight break-all">
+                  {c.v}
+                  <V2Arrow className="size-4 flex-none" />
+                </span>
+              </a>
+            ))}
+          </div>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <V2Button href="/offerte">Offerte aanvragen</V2Button>
+            <V2Button href="/contact" variant="outline">Contactpagina</V2Button>
+          </div>
+        </CollageStatement>
       </section>
     </div>
   );

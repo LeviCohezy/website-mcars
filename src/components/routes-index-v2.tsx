@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { corridorRoutes, countryRoutes, flagAsset, routes, type Route } from "@/data/routes";
 import Icon from "./icon";
-import { Reveal } from "./scroll";
+import { ImageAccordion, TypeMarquee } from "./signature";
 import { V2Arrow, V2Block, V2Button, V2Head, V2Hero } from "./v2-kit";
 
 /*
@@ -33,6 +33,11 @@ const FILTERS: { id: FilterId; label: string }[] = [
   { id: "naar", label: "Naar België" },
   { id: "europa", label: "Europa" },
 ];
+
+/** A handful of city names from the route data, for the running band. */
+const MARQUEE_CITIES = ["Roeselare", "Lille", "Parijs", "Bordeaux", "Bilbao", "Amsterdam", "Milaan"].filter((c) =>
+  routes.some((r) => r.cities.includes(c)),
+);
 
 const countIn = (id: FilterId) => (id === "alle" ? routes.length : routes.filter((r) => groupOf(r) === id).length);
 
@@ -152,8 +157,17 @@ export default function RoutesIndexV2() {
         </ul>
       </V2Block>
 
-      {/* 02 · City index per country */}
-      <V2Block className="pt-0 sm:pt-0">
+      {/* City names running past — a quiet band between listing and index */}
+      <section aria-hidden className="border-y border-zinc-200 py-6">
+        <TypeMarquee
+          words={MARQUEE_CITIES}
+          images={["/images/generated/aerial-motorway.jpg", "/fleet/oldtown.jpg", "/images/generated/airport-nice.jpg", "/fleet/barcelona-sagrada.jpg"]}
+          speed={55}
+        />
+      </section>
+
+      {/* 02 · Werkgebied — one photo panel per country; the active one opens with its cities */}
+      <V2Block>
         <V2Head
           index="02"
           label="Werkgebied"
@@ -161,17 +175,17 @@ export default function RoutesIndexV2() {
           trail="ophalen en leveren."
           intro="Een greep uit de plaatsen waar we regelmatig rijden. Staat uw adres er niet bij? Vraag het gerust — we rijden overal naartoe."
         />
-        <ul className="border-t border-zinc-950">
-          {countryRoutes.map((r, i) => (
-            <Reveal as="li" key={r.slug} delay={i * 50} className="grid gap-3 border-b border-zinc-200 py-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
-              <Link href={`/routes/${r.slug}`} className="flex min-h-11 items-center gap-3 text-lg font-medium tracking-tight hover:underline">
-                {r.place!.name}
-                <span className="text-sm font-normal text-zinc-400">{r.frequency}</span>
-              </Link>
-              <p className="text-[0.95rem] leading-relaxed text-zinc-500">{r.cities.join(" · ")}</p>
-            </Reveal>
-          ))}
-        </ul>
+        <ImageAccordion
+          radius="rounded-md"
+          items={countryRoutes.map((r) => ({
+            title: r.place!.name,
+            body: r.cities.join(" · "),
+            image: r.detailImage ?? r.heroImage,
+            alt: `${r.nav} met Mcars`,
+            meta: r.frequency,
+            href: `/routes/${r.slug}`,
+          }))}
+        />
         <div className="mt-10">
           <V2Button href="/offerte">Offerte voor uw route</V2Button>
         </div>

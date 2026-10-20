@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { CollageStatement, ImageAccordion, MosaicGallery, TypeMarquee } from "@/components/signature";
 import PageShell from "@/components/page-shell";
 import PageHero from "@/components/page-hero";
-import { HighlightGrid, StatRow, QuoteCta } from "@/components/blocks";
-import { Parallax, Reveal } from "@/components/scroll";
+import { StatRow, QuoteCta } from "@/components/blocks";
+import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
-import { Eyebrow, SectionHeader } from "@/components/ui";
+import { SectionHeader } from "@/components/ui";
 import VariantSwitcher from "@/components/variant-switcher";
 import {
   aboutArea,
@@ -27,6 +28,14 @@ import {
 // Over ons 01 — cinematic. Content lives in src/data/about.ts (shared with v2/v3).
 export const metadata: Metadata = aboutMetadata;
 
+/** One photo per "Waarom Mcars" reason (AI placeholders, see docs/CONTENT-NEEDS.md). */
+const WHY_PHOTOS = [
+  { image: "/images/generated/customer-update.jpg", alt: "Een klant krijgt een update over haar transport" },
+  { image: "/images/generated/strap-closeup.jpg", alt: "Een wiel wordt vastgezet met een spanband" },
+  { image: "/images/generated/planning-office.jpg", alt: "De planning van Mcars op kantoor" },
+  { image: "/fleet/hero-highway-sunset.jpg", alt: "Een Mcars-transporter op de snelweg bij zonsondergang" },
+];
+
 export default function OverOnsPage() {
   return (
     <PageShell>
@@ -41,53 +50,52 @@ export default function OverOnsPage() {
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
-      {/* Story */}
+      {/* Story — oversized statement with three loosely placed photos */}
       <Section space="loose">
-        <div className="grid gap-10 lg:grid-cols-[1fr_3fr]">
-          <Reveal>
-            <Eyebrow>{aboutStory.label}</Eyebrow>
-          </Reveal>
-          <div>
-            <Reveal>
-              <h2 className="max-w-4xl text-3xl font-light leading-[1.15] tracking-[-0.025em] text-balance text-zinc-950 sm:text-4xl lg:text-[3.25rem]">
-                {aboutStory.lead} <span className="text-zinc-400">{aboutStory.trail}</span>
-              </h2>
-            </Reveal>
-            <div className="mt-12 grid gap-8 text-base leading-relaxed text-zinc-600 sm:grid-cols-2 sm:gap-10">
-              {aboutStory.paragraphs.map((p, i) => (
-                <Reveal key={i} delay={i * 80}>
-                  <p>{p}</p>
-                </Reveal>
-              ))}
-            </div>
-            <Reveal delay={120} className="mt-14 border-t border-zinc-200 pt-8">
-              <StatRow items={aboutStats} />
-            </Reveal>
+        <CollageStatement
+          eyebrow={aboutStory.label}
+          statement={<>{aboutStory.lead} <span className="text-zinc-400">{aboutStory.trail}</span></>}
+          images={[
+            { title: "Team", image: aboutPhotos.driver.src, alt: aboutPhotos.driver.alt },
+            { title: "Onderweg", image: aboutPhotos.road.src, alt: aboutPhotos.road.alt },
+            { title: "Depot", image: "/images/generated/key-handover.jpg", alt: "Een chauffeur van Mcars overhandigt de sleutels aan een klant" },
+          ]}
+        >
+          <div className="grid gap-6 text-base leading-relaxed text-zinc-600 sm:grid-cols-2">
+            {aboutStory.paragraphs.map((p, i) => (
+              <Reveal key={i} delay={i * 80}>
+                <p>{p}</p>
+              </Reveal>
+            ))}
           </div>
-        </div>
+        </CollageStatement>
+        <Reveal delay={120} className="mt-16 border-t border-zinc-200 pt-8">
+          <StatRow items={aboutStats} />
+        </Reveal>
       </Section>
 
-      {/* Photo pair — team slot (left) and fleet (right) */}
-      <Section space="none" bleed>
-        <div className="grid gap-2 lg:grid-cols-[1.5fr_1fr]">
-          {[aboutPhotos.team, aboutPhotos.fleet].map((photo, i) => (
-            <Reveal key={photo.src} delay={i * 100} className="relative h-[46vh] overflow-hidden rounded-[2rem] sm:h-[68vh]">
-              <Parallax speed={0.06} className="absolute inset-x-0 -top-[15%] h-[130%]">
-                <Image src={photo.src} alt={photo.alt} fill sizes={i === 0 ? "(min-width: 1024px) 60vw, 100vw" : "(min-width: 1024px) 40vw, 100vw"} className="object-cover" />
-              </Parallax>
-            </Reveal>
-          ))}
-        </div>
-      </Section>
+      {/* Running words with photo pills */}
+      <section aria-hidden className="overflow-hidden py-6">
+        <TypeMarquee
+          words={["Sinds 2009", "Roeselare", "Eigen vloot", "Heel Europa"]}
+          images={[aboutPhotos.team.src, "/images/generated/night-motorway.jpg", aboutPhotos.studio.src, "/fleet/countryside-highway.jpg"]}
+        />
+      </section>
 
-      {/* Team & fleet */}
+      {/* Team & fleet — asymmetric photo bento, then the fleet ledger */}
       <Section space="loose">
         <SectionHeader label={aboutTeam.label} index="01" lead={aboutTeam.lead} trail={aboutTeam.trail} intro={aboutTeam.intro} className="mb-14" />
-        <div className="grid gap-10 lg:grid-cols-[1fr_3fr]">
-          {/* Driver portrait — tall slot */}
-          <Reveal className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-zinc-100 lg:aspect-auto lg:min-h-72">
-            <Image src={aboutPhotos.driver.src} alt={aboutPhotos.driver.alt} fill sizes="(min-width: 1024px) 25vw, 100vw" className="object-cover" />
-          </Reveal>
+        <MosaicGallery
+          images={[
+            { title: "Team Mcars", image: aboutPhotos.team.src, alt: aboutPhotos.team.alt },
+            { title: "Werkplaats", image: aboutPhotos.workshop.src, alt: aboutPhotos.workshop.alt },
+            { title: "Vaste chauffeurs", image: "/images/generated/pickup-inspection.jpg", alt: "Een chauffeur van Mcars inspecteert een wagen bij ophaling" },
+            { title: "Depot", image: aboutPhotos.fleet.src, alt: aboutPhotos.fleet.alt },
+          ]}
+          figure={{ value: aboutStats[1].value, label: aboutStats[1].label, body: aboutTeam.languages.join(" & ") + " chauffeurs" }}
+        />
+        <div className="mt-14 grid gap-10 lg:grid-cols-[1fr_3fr]">
+          <div className="hidden lg:block" />
           <table className="w-full self-start border-t border-zinc-950 text-left">
             <thead>
               <tr className="border-b border-zinc-200 text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">
@@ -160,10 +168,10 @@ export default function OverOnsPage() {
         </div>
       </Section>
 
-      {/* Why */}
+      {/* Why — expanding photo panels */}
       <Section space="loose">
         <SectionHeader label={aboutWhy.label} index="03" lead={aboutWhy.lead} trail={aboutWhy.trail} className="mb-16" />
-        <HighlightGrid items={aboutWhy.items} />
+        <ImageAccordion items={aboutWhy.items.map((h, i) => ({ title: h.title, body: h.body, ...WHY_PHOTOS[i % WHY_PHOTOS.length] }))} />
       </Section>
 
       <QuoteCta image={aboutCtaImage} />

@@ -4,7 +4,8 @@ import { defaultProcess, defaultVehicleTypes, services, type IconKey } from "@/d
 import { site } from "@/lib/site";
 import Icon from "./icon";
 import { Reveal } from "./scroll";
-import { V3Arrow, V3Block, V3Button, V3Head, V3Hero, V3Star } from "./v3-kit";
+import { HoverRevealList, ImageAccordion } from "./signature";
+import { V3Block, V3Button, V3Head, V3Hero, V3Star } from "./v3-kit";
 
 /*
  * Diensten 03 — "Donker & premium". Black page, centred cinematic hero, then a
@@ -14,6 +15,13 @@ import { V3Arrow, V3Block, V3Button, V3Head, V3Hero, V3Star } from "./v3-kit";
  */
 
 const pad = (n: number) => String(n).padStart(2, "0");
+
+const STEP_IMAGES = [
+  "/images/generated/customer-update.jpg",
+  "/images/generated/planning-office.jpg",
+  "/images/generated/pickup-inspection.jpg",
+  "/images/generated/night-motorway.jpg",
+];
 
 const PROMISES: { icon: IconKey; title: string; body: string }[] = [
   { icon: "shield", title: "Verzekerd, met CMR", body: "Elke wagen geïnspecteerd en gefotografeerd bij ophaling." },
@@ -73,7 +81,7 @@ export default function DienstenV3() {
         </ul>
       </V3Block>
 
-      {/* Services — tall photo cards with oversized numbers */}
+      {/* Services — large typographic index, photo floats beside the cursor */}
       <V3Block id="diensten-lijst" className="bg-zinc-900">
         <V3Head
           label={`${pad(services.length)} diensten`}
@@ -81,36 +89,16 @@ export default function DienstenV3() {
           trail="één team dat het regelt."
           intro="U spreekt met de mensen die de rit ook effectief uitvoeren — voor particulier en bedrijf."
         />
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((s, i) => (
-            <Reveal as="li" key={s.slug} delay={(i % 3) * 80} className={i === 0 ? "sm:col-span-2" : ""}>
-              <Link href={`/diensten/${s.slug}`} className="group relative flex min-h-[24rem] flex-col justify-between overflow-hidden rounded-2xl border border-white/10 p-6 sm:min-h-[28rem] sm:p-7">
-                <Image
-                  src={s.heroImage}
-                  alt=""
-                  fill
-                  sizes={i === 0 ? "(min-width: 1024px) 66vw, 100vw" : "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"}
-                  className="object-cover opacity-45 transition-[opacity,transform] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:opacity-70 motion-safe:group-hover:scale-[1.04]"
-                />
-                <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-zinc-950/10" />
-                <div className="relative flex items-start justify-between gap-4">
-                  <span className="text-6xl font-light tracking-[-0.05em] tabular-nums sm:text-7xl">{pad(i + 1)}</span>
-                  <span className="rounded-full border border-white/20 px-3 py-1 text-xs text-white/70 backdrop-blur-md">{s.category}</span>
-                </div>
-                <div className="relative">
-                  <h3 className="text-2xl leading-tight font-light tracking-[-0.025em] break-words sm:text-3xl">{s.nav}</h3>
-                  <p className="mt-2 max-w-md text-sm leading-relaxed text-white/60">{s.subtitle}</p>
-                  <span className="mt-5 inline-flex min-h-11 items-center gap-2 text-sm font-medium text-white">
-                    Bekijk dienst
-                    <span className="flex size-9 items-center justify-center rounded-full bg-white text-zinc-950 transition-transform duration-300 group-hover:translate-x-1">
-                      <V3Arrow className="size-3.5" />
-                    </span>
-                  </span>
-                </div>
-              </Link>
-            </Reveal>
-          ))}
-        </ul>
+        <HoverRevealList
+          tone="dark"
+          items={services.map((s, i) => ({
+            title: s.nav,
+            body: s.subtitle,
+            image: s.heroImage,
+            href: `/diensten/${s.slug}`,
+            meta: pad(i + 1),
+          }))}
+        />
       </V3Block>
 
       {/* Vehicle types — light pill cloud */}
@@ -125,18 +113,17 @@ export default function DienstenV3() {
         </ul>
       </V3Block>
 
-      {/* Process — big figures */}
+      {/* Process — expanding photo panels */}
       <V3Block className="pt-0 sm:pt-0">
         <V3Head label="Werkwijze" lead="Eén werkwijze," trail="voor elke dienst." />
-        <ol className="grid gap-10 border-t border-white/10 pt-10 sm:grid-cols-2 lg:grid-cols-4">
-          {defaultProcess.map((p, i) => (
-            <Reveal as="li" key={p.title} delay={i * 90}>
-              <span className="text-7xl font-light tracking-[-0.05em] text-white/90 tabular-nums lg:text-8xl">{pad(i + 1)}</span>
-              <h3 className="mt-5 text-lg font-medium tracking-tight">{p.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-white/55">{p.body}</p>
-            </Reveal>
-          ))}
-        </ol>
+        <ImageAccordion
+          items={defaultProcess.map((p, i) => ({
+            title: p.title,
+            body: p.body,
+            image: STEP_IMAGES[i % STEP_IMAGES.length],
+            meta: `Stap ${pad(i + 1)}`,
+          }))}
+        />
       </V3Block>
     </>
   );

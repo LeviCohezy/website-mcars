@@ -6,6 +6,7 @@ import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
+import { HorizontalRail, TypeMarquee } from "@/components/signature";
 import { Eyebrow, SectionHeader } from "@/components/ui";
 import VariantSwitcher from "@/components/variant-switcher";
 import { blogCategories, blogMetadata, formatDate, readingTime, sortedArticles } from "@/data/blog";
@@ -57,32 +58,41 @@ export default function BlogPage() {
           </Link>
         </Reveal>
 
-        <ul className="mt-20 border-t border-zinc-950">
-          {more.map((p, i) => (
-            <Reveal as="li" key={p.slug} delay={(i % 4) * 60} className="border-b border-zinc-200">
-              <Link href={`/blog/${p.slug}`} className="group grid items-center gap-5 py-6 sm:grid-cols-[8rem_1fr_auto] sm:gap-10">
-                <div className="relative aspect-[16/10] overflow-hidden rounded-2xl bg-zinc-100 sm:aspect-[4/3]">
-                  <Image src={p.image} alt="" fill sizes="(min-width: 640px) 128px, 100vw" className="object-cover" />
-                </div>
-                <div>
-                  <p className="text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">
-                    {p.category} <span className="tracking-normal normal-case">· {formatDate(p.date)} · {readingTime(p)} min</span>
-                  </p>
-                  <h3 className="mt-2 text-xl font-medium tracking-tight text-balance text-zinc-950 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] motion-safe:group-hover:translate-x-1 sm:text-2xl">
-                    {p.title}
-                  </h3>
-                  <p className="mt-2 max-w-2xl text-[0.95rem] leading-relaxed text-zinc-500">{p.excerpt}</p>
-                </div>
-                <span className="hidden size-9 items-center justify-center rounded-full border border-zinc-300 text-zinc-500 transition-colors duration-300 group-hover:border-zinc-950 group-hover:bg-zinc-950 group-hover:text-white sm:flex">
-                  <svg className="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-                </span>
-              </Link>
-            </Reveal>
-          ))}
-        </ul>
       </Section>
 
-      {/* Topics */}
+      {/* More articles — dark band, cards travel sideways while you scroll */}
+      <Section space="none" bleed>
+        <div className="overflow-clip rounded-[2rem] bg-zinc-950 px-5 py-16 sm:px-8 lg:px-10 lg:py-0">
+          <HorizontalRail
+            items={more.map((p) => ({
+              title: p.title,
+              body: p.excerpt,
+              image: p.image,
+              alt: p.imageAlt,
+              href: `/blog/${p.slug}`,
+              meta: `${p.category} · ${readingTime(p)} min`,
+            }))}
+            heading={
+              <div className="flex flex-col gap-4 text-white sm:flex-row sm:items-end sm:justify-between">
+                <h2 className="max-w-2xl pt-16 text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-balance sm:text-4xl lg:pt-20">
+                  Meer uit de kennisbank <span className="text-white/40">— {more.length} artikels.</span>
+                </h2>
+                <p className="text-sm text-white/50">Scroll verder om alles te zien</p>
+              </div>
+            }
+          />
+        </div>
+      </Section>
+
+      {/* Topics — running band, then the index */}
+      <Section space="loose" bleed>
+        <TypeMarquee
+          words={blogCategories}
+          images={["/images/generated/truck-studio.jpg", "/images/generated/depot-night.jpg", "/fleet/valley-sunset.jpg", "/images/generated/workshop.jpg"]}
+          speed={60}
+        />
+      </Section>
+
       <Section space="none">
         <div className="grid gap-8 border-t border-zinc-200 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
           <Eyebrow>Onderwerpen</Eyebrow>

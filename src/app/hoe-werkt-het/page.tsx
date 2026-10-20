@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
-import { FaqAccordion, HighlightGrid, MediaBand, QuoteCta } from "@/components/blocks";
+import { FaqAccordion, QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
-import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
+import { ImageAccordion, StickyStory, TypeMarquee } from "@/components/signature";
 import { Eyebrow, SectionHeader } from "@/components/ui";
 import VariantSwitcher from "@/components/variant-switcher";
 import { cmr, cmrIntro, stappen, werkwijze, werkwijzeFaq as faq } from "@/data/process";
 
 export const metadata: Metadata = werkwijze.seo;
+
+/** Photos for the three CMR panels (the steps above already use the step photos). */
+const CMR_IMAGES = ["/images/generated/dealer-loading.jpg", "/images/generated/pickup-inspection.jpg", "/images/generated/workshop.jpg"];
 
 export default function HoeWerktHetPage() {
   return (
@@ -23,34 +26,21 @@ export default function HoeWerktHetPage() {
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
-      {/* Six steps — large ruled rows */}
+      {/* Six steps — sticky photo that follows the step being read */}
       <Section space="loose">
         <SectionHeader label="Zo werkt het" index="06" lead="Zes heldere stappen." trail="Van offerte tot levering." className="mb-14" />
-        <ol className="border-t border-zinc-950">
-          {stappen.map((stap, i) => (
-            <Reveal
-              as="li"
-              key={stap.title}
-              delay={i * 60}
-              className="grid gap-4 border-b border-zinc-200 py-10 sm:grid-cols-[6rem_1fr] lg:grid-cols-[1fr_1.4fr_1.6fr] lg:gap-10 lg:py-12"
-            >
-              <span className="text-5xl font-light tracking-[-0.04em] tabular-nums text-zinc-300 sm:text-6xl lg:text-7xl">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <h3 className="text-2xl font-medium tracking-tight text-zinc-950 sm:text-3xl lg:pt-2">{stap.title}</h3>
-              <p className="max-w-xl text-base leading-relaxed text-zinc-500 sm:col-start-2 lg:col-start-auto lg:pt-3 lg:text-lg">
-                {stap.body}
-              </p>
-            </Reveal>
-          ))}
-        </ol>
+        <StickyStory steps={stappen.map((s, i) => ({ title: s.title, body: s.body, image: s.image, alt: s.imageAlt, meta: `Stap ${String(i + 1).padStart(2, "0")} · ${s.status}` }))} />
       </Section>
 
-      <Section space="none" bleed>
-        <MediaBand image={werkwijze.bandImage} line="Eén document, zwart op wit: de CMR-vrachtbrief." caption="Opgemaakt bij elke ophaling" />
-      </Section>
+      {/* Running band between the steps and the CMR block */}
+      <section aria-label="Van offerte tot levering" className="py-8 sm:py-12">
+        <TypeMarquee
+          words={["Offerte", "Planning", "Ophaling", "CMR", "Levering"]}
+          images={["/fleet/germany-autobahn.jpg", "/fleet/depot-dusk.jpg", "/fleet/valley-sunset.jpg", "/fleet/city-street.jpg"]}
+        />
+      </section>
 
-      {/* Why CMR */}
+      {/* Why CMR — expanding photo panels */}
       <Section space="loose">
         <SectionHeader
           label="Waarom deze aanpak"
@@ -60,7 +50,7 @@ export default function HoeWerktHetPage() {
           intro={cmrIntro}
           className="mb-16"
         />
-        <HighlightGrid items={cmr} />
+        <ImageAccordion items={cmr.map((h, i) => ({ title: h.title, body: h.body, image: CMR_IMAGES[i % CMR_IMAGES.length] }))} />
       </Section>
 
       {/* FAQ */}

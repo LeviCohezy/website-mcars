@@ -3,6 +3,7 @@ import { QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import { Reveal } from "@/components/scroll";
+import { SplitQuote, TypeMarquee } from "@/components/signature";
 import Section from "@/components/section";
 import { ArrowButton, Eyebrow, SectionHeader } from "@/components/ui";
 import VariantSwitcher from "@/components/variant-switcher";
@@ -68,24 +69,27 @@ export default function ReviewsPage() {
         </div>
       </Section>
 
-      {/* Featured quote */}
+      {/* Running band: score and audiences */}
+      <section aria-hidden className="overflow-hidden pb-10">
+        <TypeMarquee
+          words={[`${site.reviews.score} op Google`, "Particulieren", `${site.reviews.count} reviews`, "Dealers & bedrijven"]}
+          images={["/images/generated/key-handover.jpg", "/images/generated/dealer-loading.jpg", "/fleet/city-street.jpg", "/images/generated/oldtimer-loading.jpg"]}
+          speed={55}
+        />
+      </section>
+
+      {/* Featured quote — portrait photo beside the oversized quote */}
       <Section space="none" bleed>
         <div className="rounded-[2rem] bg-zinc-950 px-6 py-16 sm:px-10 sm:py-24 lg:px-14">
-          <figure className="grid gap-10 lg:grid-cols-[1fr_3fr] lg:gap-10">
-            <div>
-              <Stars count={featured.stars} className="size-4" />
-            </div>
-            <div>
-              <Reveal>
-                <blockquote className="max-w-4xl text-3xl font-light leading-[1.2] tracking-[-0.025em] text-balance text-white sm:text-4xl lg:text-5xl">
-                  &ldquo;{featured.quote}&rdquo;
-                </blockquote>
-              </Reveal>
-              <figcaption className="mt-10 flex items-center gap-4 border-t border-white/15 pt-6 text-sm">
-                <span className="font-medium text-white">{featured.author}</span>
-              </figcaption>
-            </div>
-          </figure>
+          <SplitQuote
+            tone="dark"
+            image="/fleet/city-loaded.jpg"
+            alt="Een volgeladen Mcars-transporter in de stad"
+            quote={featured.quote}
+            name={featured.author}
+          >
+            <Stars count={featured.stars} className="size-4" />
+          </SplitQuote>
         </div>
       </Section>
 

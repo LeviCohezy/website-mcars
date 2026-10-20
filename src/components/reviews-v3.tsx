@@ -1,11 +1,11 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import { googleReviewsUrl, reviewInitials, reviews, reviewsHeroImage, reviewsIntro, segmentLabel, segments, type ReviewSegment } from "@/data/reviews";
 import { site } from "@/lib/site";
 import Icon from "./icon";
 import { Reveal } from "./scroll";
+import { ImageAccordion, TypeMarquee } from "./signature";
 import { V3Arrow, V3Block, V3Button, V3Head, V3Hero, V3Page, V3Star } from "./v3-kit";
 
 /*
@@ -80,6 +80,16 @@ export default function ReviewsV3() {
         </dl>
       </V3Block>
 
+      {/* Running band before the featured quote */}
+      <section aria-hidden className="overflow-hidden pb-16">
+        <TypeMarquee
+          tone="dark"
+          words={[`${site.reviews.score} / 5`, "Particulieren", "Dealers", `${site.reviews.count} reviews`]}
+          images={["/images/generated/customer-update.jpg", "/images/generated/night-motorway.jpg", "/images/generated/dealer-loading.jpg", "/fleet/sunset-parking.jpg"]}
+          speed={60}
+        />
+      </section>
+
       {/* 2 · Featured quote */}
       <V3Block className="pt-0 sm:pt-0">
         <Reveal as="figure" className="mx-auto max-w-5xl text-center">
@@ -144,22 +154,17 @@ export default function ReviewsV3() {
       {/* 4 · Segment split */}
       <V3Block>
         <V3Head center label="Voor wie" lead="Particulieren én dealers," trail="dezelfde zorg per rit." />
-        <div className="grid gap-4 md:grid-cols-2">
-          {segments.map((s, i) => (
-            <Reveal key={s.id} delay={i * 90}>
-              <Link href={s.href} className="group flex h-full min-h-72 flex-col rounded-2xl border border-white/10 bg-white/[0.04] p-7 transition-colors hover:border-white/30 sm:p-10">
-                <span className="flex size-12 items-center justify-center rounded-full border border-white/20">
-                  <Icon name={s.id === "zakelijk" ? "car" : "users"} className="size-5" />
-                </span>
-                <h3 className="mt-auto pt-12 text-3xl font-light tracking-tight sm:text-4xl">{s.label}</h3>
-                <p className="mt-3 max-w-md text-[0.95rem] leading-relaxed text-white/55">{s.body}</p>
-                <span className="mt-8 inline-flex items-center gap-2 self-start border-b border-white/40 pb-0.5 text-sm font-medium">
-                  Bekijk de dienst <V3Arrow className="size-4 transition-transform group-hover:translate-x-1" />
-                </span>
-              </Link>
-            </Reveal>
-          ))}
-        </div>
+        <ImageAccordion
+          items={segments.map((sg) => ({
+            title: sg.label,
+            body: sg.body,
+            href: sg.href,
+            meta: `${reviews.filter((r) => r.segment === sg.id).length} quotes`,
+            ...(sg.id === "zakelijk"
+              ? { image: "/images/generated/dealer-loading.jpg", alt: "Laden bij een autohandelaar" }
+              : { image: "/images/generated/key-handover.jpg", alt: "Sleuteloverdracht bij een particuliere klant" }),
+          }))}
+        />
       </V3Block>
     </V3Page>
   );

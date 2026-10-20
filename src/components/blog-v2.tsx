@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { blogCategories, formatDate, readingTime, sortedArticles, type BlogCategory } from "@/data/blog";
-import { V2Arrow, V2Block, V2Hero } from "./v2-kit";
+import { HoverRevealList, MosaicGallery } from "./signature";
+import { V2Arrow, V2Block, V2Head, V2Hero } from "./v2-kit";
 
 /*
  * Blog 02 — "Licht & strak". Light hero with a "(NN)" counter, the newest
@@ -75,25 +76,32 @@ export default function BlogV2() {
           </div>
         </div>
 
-        <ul className="mt-8 border-t border-zinc-200" aria-live="polite">
-          {list.map((a) => (
-            <li key={a.slug} className="border-b border-zinc-200">
-              <Link href={`/blog/${a.slug}`} className="group grid gap-5 py-6 sm:grid-cols-[11rem_1fr_auto] sm:items-center sm:gap-8">
-                <div className="relative aspect-[16/10] overflow-hidden rounded-md bg-zinc-100 sm:aspect-[4/3]">
-                  <Image src={a.image} alt="" fill sizes="(min-width: 640px) 176px, 100vw" className="object-cover transition-transform duration-700 motion-safe:group-hover:scale-105" />
-                </div>
-                <div>
-                  <Meta category={a.category} date={formatDate(a.date)} minutes={readingTime(a)} />
-                  <h3 className="mt-3 text-xl font-medium tracking-tight text-balance sm:text-2xl">{a.title}</h3>
-                  <p className="mt-2 max-w-2xl text-[0.95rem] leading-relaxed text-zinc-500">{a.excerpt}</p>
-                </div>
-                <span className="hidden size-11 items-center justify-center rounded-full border border-zinc-200 sm:flex transition-colors group-hover:border-zinc-950 group-hover:bg-zinc-950 group-hover:text-white">
-                  <V2Arrow />
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="mt-8" aria-live="polite">
+          <HoverRevealList
+            items={list.map((a) => ({
+              title: a.title,
+              body: `${a.category} · ${readingTime(a)} min · ${formatDate(a.date)}`,
+              image: a.image,
+              alt: a.imageAlt,
+              href: `/blog/${a.slug}`,
+            }))}
+          />
+        </div>
+      </V2Block>
+
+      {/* The topics in pictures */}
+      <V2Block className="pt-0 sm:pt-0">
+        <V2Head index="02" label="Onderwerpen" lead={`${blogCategories.length} onderwerpen,`} trail="voor particulier en handelaar." />
+        <MosaicGallery
+          radius="rounded-md"
+          images={[
+            { title: blogCategories[0] ?? "", image: "/images/generated/workshop.jpg", alt: "Een wagen in de werkplaats" },
+            { title: blogCategories[1] ?? "", image: "/images/generated/strap-closeup.jpg", alt: "Een wiel wordt vastgezet met een spanband" },
+            { title: blogCategories[2] ?? "", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot" },
+            { title: blogCategories[3] ?? "", image: "/fleet/valley-sunset.jpg", alt: "Een transporter in een vallei bij zonsondergang" },
+          ]}
+          figure={{ value: String(sortedArticles.length).padStart(2, "0"), label: "Artikels in de kennisbank", body: blogCategories.join(" · ") }}
+        />
       </V2Block>
     </div>
   );

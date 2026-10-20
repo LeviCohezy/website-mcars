@@ -1,18 +1,30 @@
 import { offerteFaq, offerteReassurance, offerteSteps, priceFactors } from "@/data/pricing";
 import { site } from "@/lib/site";
 import { DarkAccordion } from "./faq-v3";
-import Icon from "./icon";
 import QuoteMultistep from "./quote-multistep";
 import { Reveal } from "./scroll";
+import { HorizontalRail, MosaicGallery } from "./signature";
 import { V3Block, V3Button, V3Head, V3Hero, V3Page, V3Star, V3Tick } from "./v3-kit";
 
 /*
  * Offerte 03 — "Donker & premium". Cinematic hero with a stats row, then a
  * dark band that holds the multistep quote form inline (its first step is the
- * quick quote: addresses + date), oversized factor numbers and a dark FAQ.
+ * quick quote: addresses + date), the price factors as a sideways photo rail,
+ * a photo mosaic behind the quote and a dark FAQ.
  */
 
 const pad = (n: number) => String(n).padStart(2, "0");
+
+/** One photo per price factor, in the order of priceFactors. */
+const FACTOR_IMAGES = [
+  "/images/generated/aerial-motorway.jpg",
+  "/images/generated/dealer-loading.jpg",
+  "/images/generated/nonrunning-winch.jpg",
+  "/fleet/city-loaded.jpg",
+  "/images/generated/night-motorway.jpg",
+  "/images/generated/alpine-pass.jpg",
+];
+
 
 export default function OfferteV3() {
   return (
@@ -82,28 +94,31 @@ export default function OfferteV3() {
         </div>
       </section>
 
-      {/* Price factors — oversized numbers */}
-      <V3Block>
+      {/* Price factors — cards travelling sideways while you scroll */}
+      <section className="px-5 pt-20 sm:px-10 sm:pt-32 lg:px-14">
         <V3Head
           label="Wat bepaalt de prijs?"
           lead="Elke rit is anders."
           trail="Dit weegt mee in uw offerte."
           intro="We rekenen geen vaste tarieven af. Uw prijs stellen we handmatig samen op basis van deze factoren."
         />
-        <ol className="grid gap-x-16 sm:grid-cols-2">
-          {priceFactors.map((f, i) => (
-            <Reveal as="li" key={f.title} delay={(i % 2) * 80} className="grid grid-cols-[4.5rem_1fr] gap-5 border-t border-white/10 py-9 sm:grid-cols-[6rem_1fr]">
-              <span className="font-[family-name:var(--font-display)] text-6xl leading-none text-white/15 sm:text-7xl">{pad(i + 1)}</span>
-              <div>
-                <h3 className="flex items-center gap-3 text-2xl font-medium tracking-tight">
-                  <Icon name={f.icon} className="size-5 flex-none text-white/60" />
-                  {f.title}
-                </h3>
-                <p className="mt-3 text-[0.95rem] leading-relaxed text-white/60">{f.body}</p>
-              </div>
-            </Reveal>
-          ))}
-        </ol>
+        <HorizontalRail
+          items={priceFactors.map((f, i) => ({ title: f.title, body: f.body, image: FACTOR_IMAGES[i % FACTOR_IMAGES.length], meta: pad(i + 1) }))}
+        />
+      </section>
+
+      {/* A look behind the quote */}
+      <V3Block>
+        <MosaicGallery
+          tone="dark"
+          images={[
+            { title: "Ons depot", image: "/images/generated/depot-night.jpg", alt: "Het depot van Mcars in Roeselare bij nacht" },
+            { title: "Planning", image: "/images/generated/planning-office.jpg", alt: "Een planner van Mcars aan het werk" },
+            { title: "Ophaling", image: "/images/generated/pickup-inspection.jpg", alt: "Controle van een wagen bij ophaling" },
+            { title: "Levering", image: "/images/generated/key-handover.jpg", alt: "Overhandiging van de sleutels" },
+          ]}
+          figure={{ value: "24u", label: "Persoonlijk antwoord", body: "Geen calculator: een planner stelt uw prijs samen." }}
+        />
       </V3Block>
 
       {/* FAQ */}

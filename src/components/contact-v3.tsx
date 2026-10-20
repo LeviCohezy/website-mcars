@@ -5,12 +5,14 @@ import { contactMethods, contactPhotos, isExternal, mapsEmbedSrc } from "@/app/c
 import { site } from "@/lib/site";
 import HeroQuoteBar from "./hero-quote-bar";
 import { Reveal } from "./scroll";
+import { MosaicGallery } from "./signature";
 import { V3Arrow, V3Block, V3Head, V3Hero, V3Page, V3Star } from "./v3-kit";
 
 /*
  * Contact 03 — "Donker & premium". Centred hero with the phone number as the
  * headline figure, a dark band with an inline quick-quote strip and stats,
- * oversized contact rows, the form on black and a dimmed map.
+ * oversized contact rows, the form on black, a photo mosaic of the depot
+ * and a dimmed map.
  */
 
 const pad = (n: number) => String(n).padStart(2, "0");
@@ -118,6 +120,21 @@ export default function ContactV3() {
             <ContactForm tone="dark" />
           </Reveal>
         </div>
+      </V3Block>
+
+      {/* The depot and the team, before the map */}
+      <V3Block>
+        <V3Head label="Ons depot" lead="Kom gerust langs" trail="in Roeselare." />
+        <MosaicGallery
+          tone="dark"
+          images={[
+            { title: "Het depot", image: contactPhotos.hero.src, alt: contactPhotos.hero.alt },
+            { title: "Planning", image: contactPhotos.desk.src, alt: contactPhotos.desk.alt },
+            { title: "Ons team", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot" },
+            { title: "De vloot", image: "/fleet/sunset-parking.jpg", alt: "Transporters van Mcars geparkeerd bij zonsondergang" },
+          ]}
+          figure={{ value: String(site.founded), label: "Actief sinds", body: `${site.address.street}, ${site.address.city}` }}
+        />
       </V3Block>
 
       {/* Map */}

@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { faqGroups, faqTotal } from "@/data/faq";
 import type { Faq } from "@/data/services";
 import { site } from "@/lib/site";
 import { Reveal } from "./scroll";
+import { HorizontalRail, MosaicGallery } from "./signature";
 import { V3Block, V3Button, V3Head, V3Hero, V3Page, V3Star } from "./v3-kit";
 
 /*
@@ -15,8 +16,34 @@ import { V3Block, V3Button, V3Head, V3Hero, V3Page, V3Star } from "./v3-kit";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
+/** One photo per topic for the rail (order = faqGroups). */
+const TOPIC_IMAGES = [
+  "/images/generated/planning-office.jpg",
+  "/images/generated/strap-closeup.jpg",
+  "/images/generated/key-handover.jpg",
+  "/images/generated/alpine-pass.jpg",
+  "/images/generated/nonrunning-winch.jpg",
+  "/images/generated/pickup-inspection.jpg",
+  "/images/generated/customer-update.jpg",
+  "/images/generated/night-motorway.jpg",
+];
+
 export default function FaqV3() {
   const [active, setActive] = useState(0);
+
+  // Rail cards link to #onderwerp-<id>: open that tab and bring the tabs into view.
+  useEffect(() => {
+    const sync = () => {
+      const id = window.location.hash.replace("#onderwerp-", "");
+      const i = faqGroups.findIndex((g) => g.id === id);
+      if (i < 0) return;
+      setActive(i);
+      document.getElementById("onderwerpen")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    sync();
+    window.addEventListener("hashchange", sync);
+    return () => window.removeEventListener("hashchange", sync);
+  }, []);
 
   return (
     <V3Page>
@@ -41,7 +68,25 @@ export default function FaqV3() {
         </dl>
       </V3Hero>
 
-      <V3Block className="pt-12 sm:pt-16">
+      {/* Topics as a photo rail — each card opens its tab below */}
+      <section className="px-5 pt-12 sm:px-10 sm:pt-16 lg:px-14">
+        <HorizontalRail
+          items={faqGroups.map((g, i) => ({
+            title: g.label,
+            body: `${g.title} ${g.trail}`,
+            image: TOPIC_IMAGES[i % TOPIC_IMAGES.length],
+            href: `#onderwerp-${g.id}`,
+            meta: `${pad(i + 1)} · ${g.items.length} vragen`,
+          }))}
+          heading={
+            <h2 className="pt-20 text-3xl font-light tracking-[-0.03em] text-white sm:text-4xl">
+              Kies uw onderwerp, <span className="text-white/35">wij geven het antwoord.</span>
+            </h2>
+          }
+        />
+      </section>
+
+      <V3Block id="onderwerpen" className="scroll-mt-24 pt-12 sm:pt-16">
         {/* Category tabs — snap rail on mobile, 4×2 grid on desktop */}
         <div
           role="tablist"
@@ -107,6 +152,18 @@ export default function FaqV3() {
       {/* Still a question — oversized contact figures */}
       <V3Block className="bg-zinc-900">
         <V3Head center label="Nog een vraag?" lead="Staat uw vraag er niet bij?" trail="Wij helpen u persoonlijk." />
+        <div className="mx-auto mb-4 max-w-5xl">
+          <MosaicGallery
+            tone="dark"
+            images={[
+              { title: "Persoonlijk contact", image: "/images/generated/customer-update.jpg", alt: "Een medewerker van Mcars belt een klant" },
+              { title: "Ons team", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot" },
+              { title: "Planning", image: "/images/generated/planning-office.jpg", alt: "De planning van Mcars" },
+              { title: "Onderweg", image: "/fleet/hero-highway-sunset.jpg", alt: "Een transporter van Mcars bij zonsondergang" },
+            ]}
+            figure={{ value: "24u", label: "Persoonlijk antwoord", body: "Van iemand van ons team, niet van een calculator." }}
+          />
+        </div>
         <Reveal className="mx-auto grid max-w-5xl gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2">
           <a href={site.phoneHref} className="group flex min-h-44 flex-col justify-between bg-zinc-900 p-7 transition-colors hover:bg-zinc-800 sm:p-10">
             <span className="text-xs tracking-[0.2em] text-white/50 uppercase">Bel een planner</span>

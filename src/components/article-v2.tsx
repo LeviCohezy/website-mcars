@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ArticleBlock, ArticlePageData } from "@/data/blog";
 import { Inline } from "./article";
 import { V2Arrow, V2Block, V2Button, V2Check, V2Head, V2Hero } from "./v2-kit";
+import { HoverRevealList } from "./signature";
 
 /*
  * Artikel 02 — "Licht & strak". White Swiss grid: light hero with a bordered
@@ -144,24 +145,15 @@ export default function ArticleV2({ data }: { data: ArticlePageData }) {
       {/* More articles — hairline list */}
       <V2Block>
         <V2Head index="02" label="Lees ook" lead="Meer uit" trail="de kennisbank." />
-        <ul className="border-t border-zinc-950">
-          {more.map((a) => (
-            <li key={a.slug} className="border-b border-zinc-200">
-              <Link href={`/blog/${a.slug}`} className="group grid items-center gap-4 py-6 sm:grid-cols-[7rem_1fr_auto] sm:gap-8">
-                <div className="relative hidden aspect-[4/3] overflow-hidden rounded-md bg-zinc-100 sm:block">
-                  <Image src={a.image} alt="" fill sizes="112px" className="object-cover" />
-                </div>
-                <div>
-                  <p className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">{a.category}</p>
-                  <h3 className="mt-2 text-xl font-medium tracking-tight text-balance sm:text-2xl">{a.title}</h3>
-                </div>
-                <span className="hidden size-10 items-center justify-center rounded-sm border border-zinc-200 transition-colors group-hover:border-zinc-950 group-hover:bg-zinc-950 group-hover:text-white sm:flex">
-                  <V2Arrow />
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <HoverRevealList
+          items={more.map((a) => ({
+            title: a.title,
+            body: a.category,
+            image: a.image,
+            alt: a.imageAlt,
+            href: `/blog/${a.slug}`,
+          }))}
+        />
         <div className="mt-10">
           <V2Button href="/blog" variant="outline">Alle artikels</V2Button>
         </div>

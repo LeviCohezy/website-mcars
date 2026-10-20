@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { CasePageData } from "@/lib/case-page";
+import { cases } from "@/data/cases";
 import { caseHref } from "@/lib/case-page";
 import { Reveal } from "./scroll";
-import { V3Arrow, V3Block, V3Button, V3Head, V3Page, V3Tick } from "./v3-kit";
+import { HorizontalRail, ImageAccordion } from "./signature";
+import { V3Block, V3Button, V3Head, V3Page } from "./v3-kit";
 
 /*
  * Case 03 — "Donker & premium". Black page: full-bleed photo hero with the
@@ -70,27 +72,22 @@ export default function CaseV3({ data }: { data: CasePageData }) {
         </dl>
       </V3Block>
 
-      {/* 3 · Story — status cards over a dark photo */}
-      <section className="relative mx-2 overflow-hidden rounded-2xl px-5 py-20 sm:mx-4 sm:px-10 sm:py-28 lg:px-14">
-        <Image src={detailImage} alt="" fill sizes="100vw" className="object-cover opacity-40" />
-        <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-zinc-950/60 to-zinc-950/90" />
-        <div className="relative">
-          <V3Head label="Het verhaal" lead="Van vraag" trail="tot levering." />
-          <ol className={`grid gap-4 ${story.length === 3 ? "lg:grid-cols-3" : ""}`}>
-            {story.map((s, i) => (
-              <Reveal as="li" key={s.label} delay={i * 100} className="flex flex-col rounded-2xl border border-white/15 bg-zinc-950/40 p-6 backdrop-blur-xl sm:p-7">
-                <div className="flex items-center justify-between gap-4">
-                  <span className="flex items-center gap-3 text-sm font-medium">
-                    <V3Tick /> {s.label}
-                  </span>
-                  <span className="text-sm tabular-nums text-white/40">{String(i + 1).padStart(2, "0")}</span>
-                </div>
-                <p className="mt-8 text-lg leading-relaxed font-light text-white/85">{s.body}</p>
-              </Reveal>
-            ))}
-          </ol>
-        </div>
-      </section>
+      {/* 3 · Story — expanding photo panels */}
+      <V3Block>
+        <V3Head label="Het verhaal" lead="Van vraag" trail="tot levering." />
+        <ImageAccordion
+          items={story.map((st, i) => ({
+            title: st.label,
+            body: st.body,
+            meta: String(i + 1).padStart(2, "0"),
+            ...[
+              { image: item.image, alt: item.imageAlt },
+              { image: "/images/generated/night-motorway.jpg", alt: "Een Mcars-transporter 's nachts onderweg" },
+              { image: detailImage, alt: "" },
+            ][i % 3],
+          }))}
+        />
+      </V3Block>
 
       {/* 4 · Related service */}
       {service && (
@@ -115,23 +112,14 @@ export default function CaseV3({ data }: { data: CasePageData }) {
         </V3Block>
       )}
 
-      {/* 5 · Previous / next */}
-      <nav aria-label="Andere cases" className={`grid gap-2 px-2 pb-2 sm:grid-cols-2 ${service ? "" : "pt-20"}`}>
-        {[
-          { c: prev, label: "Vorige case", back: true },
-          { c: next, label: "Volgende case", back: false },
-        ].map(({ c, label, back }) => (
-          <Link key={label} href={caseHref(c)} className={`group relative flex min-h-72 flex-col justify-end overflow-hidden rounded-xl p-6 sm:min-h-96 sm:p-10 ${back ? "" : "sm:items-end sm:text-right"}`}>
-            <Image src={c.image} alt="" fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover opacity-45 transition-[transform,opacity] duration-700 ease-out motion-safe:group-hover:scale-[1.04] group-hover:opacity-60" />
-            <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 to-zinc-950/20" />
-            <span className="relative flex items-center gap-2 text-xs font-medium tracking-[0.2em] text-white/60 uppercase">
-              {back && <V3Arrow className="size-4 rotate-180" />}
-              {label}
-              {!back && <V3Arrow />}
-            </span>
-            <span className="relative mt-4 max-w-md text-2xl leading-[1.12] font-light tracking-[-0.02em] text-balance sm:text-4xl">{c.title}</span>
-          </Link>
-        ))}
+      {/* 5 · Other cases — pinned rail, starting with the next one */}
+      <nav aria-label="Andere cases" className="px-5 sm:px-10 lg:px-14">
+        <HorizontalRail
+          heading={<V3Head label="Meer cases" lead="Volgende rit," trail="ander verhaal." />}
+          items={[next, ...cases.filter((c) => c.slug !== item.slug && c.slug !== next.slug), prev]
+            .filter((c, i, arr) => arr.findIndex((x) => x.slug === c.slug) === i)
+            .map((c) => ({ title: c.title, body: c.route, meta: c.slug === next.slug ? "Volgende case" : c.tag, href: caseHref(c), image: c.image, alt: c.imageAlt }))}
+        />
       </nav>
     </V3Page>
   );

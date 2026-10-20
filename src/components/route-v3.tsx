@@ -8,13 +8,16 @@ import type { RoutePageData } from "@/lib/route-page";
 import { site } from "@/lib/site";
 import HeroQuoteBar from "./hero-quote-bar";
 import Icon from "./icon";
+import { routeHighlightImage } from "./route-v2";
 import { Reveal } from "./scroll";
+import { ImageAccordion, StickyStory } from "./signature";
 import { V3Arrow, V3Block, V3Button, V3Head, V3Star } from "./v3-kit";
 
 /*
  * Route 03 — "Donker & premium". FREIGHT-style hero (full-bleed photo, title
  * bottom-left, short copy + CTA bottom-right), a glass quote strip, oversized
- * figures and city names, sticky photo with numbered reasons. Same content
+ * figures and city names, a sticky photo that swaps per reason and opening
+ * photo panels for related pages. Same content
  * as Route 01 (see lib/route-page).
  */
 
@@ -125,27 +128,18 @@ export default function RouteV3({ data }: { data: RoutePageData }) {
         </V3Block>
       </section>
 
-      {/* 5 · Why Mcars — sticky photo left, numbered points right */}
+      {/* 5 · Why Mcars — the sticky photo swaps as each reason scrolls past */}
       <V3Block>
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
-          <div className="relative min-h-[20rem] overflow-hidden rounded-2xl sm:min-h-[28rem] lg:sticky lg:top-24 lg:h-[75vh] lg:self-start">
-            <Image src={detailImage} alt="" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
-          </div>
-          <div>
-            <V3Head label="Waarom Mcars" lead="Uw wagen" trail="in vertrouwde handen." />
-            <ol>
-              {route.highlights.map((h, i) => (
-                <Reveal as="li" key={h.title} className="grid grid-cols-[3rem_1fr] gap-4 border-t border-white/10 py-8 sm:grid-cols-[4rem_1fr]">
-                  <span className="text-3xl font-light tracking-tight text-white/30 tabular-nums sm:text-4xl">{String(i + 1).padStart(2, "0")}</span>
-                  <div>
-                    <h3 className="text-2xl font-medium tracking-tight">{h.title}</h3>
-                    <p className="mt-3 text-[0.95rem] leading-relaxed text-white/60">{h.body}</p>
-                  </div>
-                </Reveal>
-              ))}
-            </ol>
-          </div>
-        </div>
+        <V3Head label="Waarom Mcars" lead="Uw wagen" trail="in vertrouwde handen." />
+        <StickyStory
+          tone="dark"
+          steps={route.highlights.map((h, i) => ({
+            title: h.title,
+            body: h.body,
+            image: i === 0 ? detailImage : routeHighlightImage(h.icon, i),
+            meta: `Reden ${String(i + 1).padStart(2, "0")}`,
+          }))}
+        />
       </V3Block>
 
       {/* 6 · FAQ — dark numbered accordion */}
@@ -164,27 +158,11 @@ export default function RouteV3({ data }: { data: RoutePageData }) {
         </div>
       </V3Block>
 
-      {/* 7 · Related — wide photo cards */}
+      {/* 7 · Related — photo panels; the active one opens */}
       {related.length > 0 && (
         <V3Block>
           <V3Head label="Ontdek ook" lead="Andere routes" trail="en diensten." />
-          <ul className="grid gap-3 sm:grid-cols-2">
-            {related.map((r) => (
-              <Reveal as="li" key={r.href}>
-                <Link href={r.href} className="group relative flex aspect-[4/3] flex-col justify-end overflow-hidden rounded-2xl p-6 sm:aspect-[16/9] sm:p-7">
-                  <Image src={r.image} alt="" fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover opacity-70 transition-all duration-700 group-hover:scale-105 group-hover:opacity-90" />
-                  <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 to-transparent" />
-                  <div className="relative flex items-end justify-between gap-4">
-                    <div className="min-w-0">
-                      <p className="text-xs tracking-[0.2em] text-white/60 uppercase">{r.meta}</p>
-                      <h3 className="mt-2 text-2xl font-medium tracking-tight break-words sm:text-3xl">{r.label}</h3>
-                    </div>
-                    <span className="flex size-11 flex-none items-center justify-center rounded-full border border-white/30 transition-colors group-hover:bg-white group-hover:text-zinc-950"><V3Arrow /></span>
-                  </div>
-                </Link>
-              </Reveal>
-            ))}
-          </ul>
+          <ImageAccordion items={related.map((r) => ({ title: r.label, body: r.sub, image: r.image, meta: r.meta, href: r.href }))} />
         </V3Block>
       )}
     </div>

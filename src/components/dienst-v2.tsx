@@ -10,12 +10,20 @@ import ClientMarquee from "./client-marquee";
 import HeroQuoteBar from "./hero-quote-bar";
 import Icon from "./icon";
 import { Reveal } from "./scroll";
+import { CollageStatement, HoverRevealList, StackedCards } from "./signature";
 
 /*
  * Dienst 02 — "Licht & strak". A white, Swiss-grid take on the service page:
  * hairlines, bordered cells, small radii, black as the only accent. Same
  * sections and content as Dienst 01, each with its own layout.
  */
+
+const STEP_IMAGES = [
+  "/images/generated/planning-office.jpg",
+  "/images/generated/customer-update.jpg",
+  "/images/generated/strap-closeup.jpg",
+  "/images/generated/key-handover.jpg",
+];
 
 const PRICE_ICONS: IconKey[] = ["route", "car", "wrench", "map", "clock", "truck"];
 
@@ -180,19 +188,14 @@ export default function DienstV2({ data }: { data: ServicePageData }) {
         </div>
       </Block>
 
-      {/* 5 · Process — grid cells with large numbers + CTA strip */}
+      {/* 5 · Process — cards that stack while scrolling + CTA strip */}
       <Block className="scroll-mt-24 bg-zinc-100" id="werkwijze">
         <Head index="04" label="Werkwijze" lead="Van aanvraag tot levering," trail="in vier stappen." />
-        <ol className="grid gap-px overflow-hidden rounded-md bg-zinc-200 sm:grid-cols-2 lg:grid-cols-4">
-          {process.map((s, i) => (
-            <Reveal as="li" key={s.title} delay={i * 80} className="flex min-h-80 flex-col bg-white p-8 sm:p-10">
-              <span className="self-end text-6xl font-medium tracking-[-0.05em] text-zinc-200 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
-              <h3 className="mt-auto text-xl font-medium tracking-tight">{s.title}</h3>
-              <p className="mt-3 text-[0.95rem] leading-relaxed text-zinc-500">{s.body}</p>
-            </Reveal>
-          ))}
-        </ol>
-        <Reveal className="mt-px flex flex-col items-start justify-between gap-4 rounded-md bg-zinc-950 p-8 sm:p-10 text-white sm:flex-row sm:items-center">
+        <StackedCards
+          radius="rounded-md"
+          items={process.map((p, i) => ({ title: p.title, body: p.body, image: STEP_IMAGES[i % STEP_IMAGES.length] }))}
+        />
+        <Reveal className="mt-6 flex flex-col items-start justify-between gap-4 rounded-md bg-zinc-950 p-8 text-white sm:flex-row sm:items-center sm:p-10">
           <p className="text-lg">Klaar voor stap 01? U krijgt binnen 24 uur een persoonlijk antwoord.</p>
           <a href="#prijs" className="inline-flex items-center gap-2 rounded-sm bg-white px-5 py-3 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
             Prijs aanvragen <Arrow />
@@ -312,23 +315,25 @@ export default function DienstV2({ data }: { data: ServicePageData }) {
         </div>
       </Block>
 
-      {/* 10 · Practice — editorial case: large title, image square */}
+      {/* 10 · Practice — editorial collage: the case title between three loose photos */}
       {practiceCase && (
-        <Block className="bg-zinc-950 text-white">
-          <Head dark index="09" label="Uit de praktijk" lead="Zo deden we het" trail="eerder." />
-          <Reveal className="grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
-            <div className="flex flex-col">
-              <p className="text-sm text-white/50">{practiceCase.tag}</p>
-              <h3 className="mt-5 text-3xl leading-[1.1] font-light tracking-[-0.03em] sm:text-5xl">“{practiceCase.title}”</h3>
-              <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/60">{practiceCase.body}</p>
-              <Link href="/cases" className="mt-10 inline-flex items-center gap-2 self-start border-b border-white/30 pb-1 text-sm font-medium hover:border-white">
-                Meer cases bekijken <Arrow />
-              </Link>
-            </div>
-            <div className="relative aspect-square overflow-hidden rounded-md">
-              <Image src={practiceCase.image} alt="" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
-            </div>
-          </Reveal>
+        <Block>
+          <Head index="09" label="Uit de praktijk" lead="Zo deden we het" trail="eerder." />
+          <CollageStatement
+            radius="rounded-md"
+            eyebrow={practiceCase.tag}
+            statement={practiceCase.title}
+            images={[
+              { title: "", image: practiceCase.image, alt: practiceCase.title },
+              { title: "", image: "/fleet/port-docks.jpg", alt: "Een Mcars-transporter in de haven" },
+              { title: "", image: "/images/generated/key-handover.jpg", alt: "Overhandiging van de sleutels bij levering" },
+            ]}
+          >
+            <p className="max-w-xl text-lg leading-relaxed text-zinc-500">{practiceCase.body}</p>
+            <Link href="/cases" className="mt-6 inline-flex min-h-11 items-center gap-2 border-b border-zinc-950 pb-1 text-sm font-medium">
+              Meer cases bekijken <Arrow />
+            </Link>
+          </CollageStatement>
         </Block>
       )}
 
@@ -346,27 +351,11 @@ export default function DienstV2({ data }: { data: ServicePageData }) {
         </div>
       </Block>
 
-      {/* 12 · Related — index rows with a thumbnail */}
+      {/* 12 · Related — large typographic rows, photo follows the cursor */}
       {related.length > 0 && (
         <Block className="pt-0 sm:pt-0">
           <Head index="11" label="Ontdek ook" lead="Verwante diensten" trail="en routes." />
-          <ul className="border-t border-zinc-200">
-            {related.map((r) => (
-              <Reveal as="li" key={r.href} className="border-b border-zinc-200">
-                <Link href={r.href} className="group grid grid-cols-[5rem_1fr_auto] items-center gap-5 py-4 sm:grid-cols-[7rem_1fr_1fr_auto] sm:gap-8">
-                  <span className="relative block aspect-[4/3] overflow-hidden rounded-sm bg-zinc-100">
-                    <Image src={r.image} alt="" fill sizes="7rem" className="object-cover transition-transform duration-700 group-hover:scale-105" />
-                  </span>
-                  <span className="text-xl font-medium tracking-tight sm:text-2xl">{r.label}</span>
-                  <span className="hidden text-[0.95rem] text-zinc-500 sm:block">{r.sub}</span>
-                  <span className="flex items-center gap-3 text-sm text-zinc-400">
-                    <span className="hidden sm:inline">{r.meta}</span>
-                    <span className="flex size-9 items-center justify-center rounded-sm border border-zinc-200 text-zinc-950 transition-colors group-hover:bg-zinc-950 group-hover:text-white"><Arrow /></span>
-                  </span>
-                </Link>
-              </Reveal>
-            ))}
-          </ul>
+          <HoverRevealList items={related.map((r) => ({ title: r.label, body: r.sub, image: r.image, href: r.href, meta: r.meta }))} />
         </Block>
       )}
     </div>

@@ -1,26 +1,18 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
-import { MediaBand, QuoteCta } from "@/components/blocks";
+import { QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
-import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
+import { HorizontalRail, HoverRevealList, TypeMarquee } from "@/components/signature";
 import { SectionHeader } from "@/components/ui";
 import VariantSwitcher from "@/components/variant-switcher";
-import { corridorRoutes, countryRoutes, flagAsset } from "@/data/routes";
+import { corridorRoutes, countryRoutes } from "@/data/routes";
 
 export const metadata: Metadata = {
   title: "Bestemmingen & routes — autotransport door Europa | Mcars",
   description:
     "Autotransport in België, Nederland, Frankrijk, Spanje, Italië en heel Europa, plus vaste corridors tussen de landen. Bekijk alle routes van Mcars.",
 };
-
-const Arrow = () => (
-  <span className="flex size-9 flex-none items-center justify-center rounded-full border border-zinc-300 text-zinc-500 transition-colors duration-300 group-hover:border-zinc-950 group-hover:bg-zinc-950 group-hover:text-white">
-    <svg className="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-  </span>
-);
 
 export default function RoutesOverview() {
   return (
@@ -36,40 +28,47 @@ export default function RoutesOverview() {
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
-      {/* Countries — ruled index */}
-      <Section space="loose">
-        <SectionHeader
-          label="Landen"
-          index="01"
-          lead="Autotransport"
-          trail="per bestemming."
-          intro="Van dagelijkse ritten binnen België tot wekelijkse rondes door heel Frankrijk. Kies uw bestemming voor steden, frequentie en praktische info."
-          className="mb-14"
-        />
-        <ul className="border-t border-zinc-950">
-          {countryRoutes.map((r, i) => (
-            <Reveal as="li" key={r.slug} delay={i * 50} className="border-b border-zinc-200">
-              <Link href={`/routes/${r.slug}`} className="group grid grid-cols-[auto_1fr_auto] items-center gap-5 py-6 sm:grid-cols-[3rem_6rem_1fr_1fr_auto] sm:gap-8">
-                <span className="hidden text-xs font-medium tabular-nums text-zinc-400 sm:block">{String(i + 1).padStart(2, "0")}</span>
-                <Image src={flagAsset[r.place!.flag]} alt="" width={96} height={64} className="h-10 w-auto sm:h-12" />
-                <span className="text-2xl font-medium tracking-tight text-zinc-950 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] motion-safe:group-hover:translate-x-1 sm:text-3xl">
-                  {r.place!.name}
-                </span>
-                <span className="hidden text-sm text-zinc-500 sm:block">
-                  {r.frequency} · {r.cities.length} steden
-                </span>
-                <Arrow />
-              </Link>
-            </Reveal>
-          ))}
-        </ul>
+      {/* Countries — pinned rail of destination photos on a dark panel */}
+      <Section space="loose" bleed>
+        <div className="rounded-[2rem] bg-zinc-950 px-5 sm:px-10 lg:px-14">
+              <div className="flex flex-col gap-6 pt-16 sm:pt-20 lg:flex-row lg:items-end lg:justify-between">
+                <div>
+                  <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-white/60 uppercase">
+                    <span aria-hidden className="size-1.5 rounded-full bg-white" />
+                    Landen · 01
+                  </p>
+                  <h2 className="mt-5 max-w-3xl text-4xl leading-[1.04] font-light tracking-[-0.03em] text-white sm:text-5xl lg:text-6xl">
+                    Autotransport <span className="text-white/45">per bestemming.</span>
+                  </h2>
+                </div>
+                <p className="max-w-sm text-base leading-relaxed text-white/60">
+                  Van dagelijkse ritten binnen België tot wekelijkse rondes door heel Frankrijk. Kies uw bestemming voor steden, frequentie en praktische info.
+                </p>
+              </div>
+          <HorizontalRail
+            items={countryRoutes.map((r) => ({
+              title: r.place!.name,
+              body: `${r.frequency} · ${r.cities.slice(0, 3).join(", ")}`,
+              image: r.heroImage,
+              alt: `${r.nav} met Mcars`,
+              meta: `${r.cities.length} ${r.slug === "autotransport-europa" ? "landen" : "steden"}`,
+              href: `/routes/${r.slug}`,
+            }))}
+          />
+          <div className="h-10 lg:h-4" />
+        </div>
       </Section>
 
+      {/* Country names running past, with photo pills */}
       <Section space="none" bleed>
-        <MediaBand image="/fleet/germany-autobahn.jpg" line="Elke week heel Frankrijk door, met vaste stops onderweg." caption="Van Roeselare tot Noord-Spanje" />
+        <TypeMarquee
+          words={countryRoutes.map((r) => r.place!.name)}
+          images={["/fleet/germany-autobahn.jpg", "/images/generated/alpine-pass.jpg", "/fleet/spain-palms.jpg", "/images/generated/flemish-square.jpg"]}
+        />
+        <p className="px-5 pt-2 text-center text-sm text-zinc-500 sm:px-8">Elke week heel Frankrijk door, met vaste stops onderweg — van Roeselare tot Noord-Spanje.</p>
       </Section>
 
-      {/* Corridors */}
+      {/* Corridors — big rows, the photo follows the cursor */}
       <Section space="loose">
         <SectionHeader
           label="Vaste corridors"
@@ -79,22 +78,15 @@ export default function RoutesOverview() {
           intro="Op deze assen rijden we op regelmatige basis. Uw wagen sluit aan op een bestaande rit — efficiënt, zonder omwegen."
           className="mb-14"
         />
-        <ul className="grid border-t border-zinc-950 sm:grid-cols-2 sm:gap-x-10">
-          {corridorRoutes.map((r, i) => (
-            <Reveal as="li" key={r.slug} delay={i * 50} className="border-b border-zinc-200">
-              <Link href={`/routes/${r.slug}`} className="group flex items-center gap-5 py-5">
-                <span className="flex flex-none items-center -space-x-2">
-                  <Image src={flagAsset[r.from!.flag]} alt="" width={64} height={44} className="h-8 w-auto" />
-                  <Image src={flagAsset[r.to!.flag]} alt="" width={64} height={44} className="h-8 w-auto" />
-                </span>
-                <span className="flex-1 text-lg font-medium tracking-tight text-zinc-950">
-                  {r.from!.name} <span className="text-zinc-400">→</span> {r.to!.name}
-                </span>
-                <Arrow />
-              </Link>
-            </Reveal>
-          ))}
-        </ul>
+        <HoverRevealList
+          items={corridorRoutes.map((r) => ({
+            title: `${r.from!.name} → ${r.to!.name}`,
+            body: r.subtitle,
+            image: r.heroImage,
+            meta: r.frequency,
+            href: `/routes/${r.slug}`,
+          }))}
+        />
       </Section>
 
       <QuoteCta />

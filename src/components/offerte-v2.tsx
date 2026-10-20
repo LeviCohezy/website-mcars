@@ -1,18 +1,30 @@
 import { offerteFaq, offerteReassurance, offerteSteps, priceFactors } from "@/data/pricing";
 import { site } from "@/lib/site";
 import { FaqAccordion } from "./blocks";
-import Icon from "./icon";
 import QuoteMultistep from "./quote-multistep";
 import { Reveal } from "./scroll";
+import { HoverRevealList, TypeMarquee } from "./signature";
 import { V2Block, V2Button, V2Check, V2Head, V2Hero } from "./v2-kit";
 
 /*
  * Offerte 02 — "Licht & strak". White Swiss grid around the existing multistep
  * quote form: reassurance cells under the hero, step cells beside the form,
- * a bordered factor grid and a boxed FAQ.
+ * the price factors as a large index with hover photos, a running word band
+ * and a boxed FAQ.
  */
 
 const pad = (n: number) => String(n).padStart(2, "0");
+
+/** One photo per price factor, in the order of priceFactors. */
+const FACTOR_IMAGES = [
+  "/images/generated/aerial-motorway.jpg",
+  "/images/generated/dealer-loading.jpg",
+  "/images/generated/nonrunning-winch.jpg",
+  "/fleet/city-loaded.jpg",
+  "/images/generated/night-motorway.jpg",
+  "/images/generated/alpine-pass.jpg",
+];
+
 
 export default function OfferteV2() {
   return (
@@ -86,7 +98,7 @@ export default function OfferteV2() {
       </div>
 
       {/* Price factors — bordered grid */}
-      <V2Block className="bg-zinc-100">
+      <V2Block>
         <V2Head
           index="02"
           label="Wat bepaalt de prijs?"
@@ -94,20 +106,7 @@ export default function OfferteV2() {
           trail="Dit weegt mee in uw offerte."
           intro="We rekenen geen vaste tarieven af. Uw prijs stellen we handmatig samen op basis van deze factoren — zo klopt hij voor uw specifieke transport."
         />
-        <ul className="grid gap-px overflow-hidden rounded-lg border border-zinc-200 bg-zinc-200 sm:grid-cols-2 lg:grid-cols-3">
-          {priceFactors.map((f, i) => (
-            <Reveal as="li" key={f.title} delay={(i % 3) * 70} className="flex min-h-64 flex-col bg-white p-6 sm:p-8">
-              <span className="flex items-center justify-between">
-                <span className="flex size-11 items-center justify-center rounded-md border border-zinc-200">
-                  <Icon name={f.icon} className="size-5" />
-                </span>
-                <span className="text-sm text-zinc-400 tabular-nums">{pad(i + 1)}</span>
-              </span>
-              <h3 className="mt-auto pt-10 text-xl font-medium tracking-tight">{f.title}</h3>
-              <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{f.body}</p>
-            </Reveal>
-          ))}
-        </ul>
+        <HoverRevealList tone="light" items={priceFactors.map((f, i) => ({ title: f.title, body: f.body, image: FACTOR_IMAGES[i % FACTOR_IMAGES.length] }))} />
         <Reveal className="mt-px flex flex-col items-start justify-between gap-4 rounded-lg bg-zinc-950 p-6 text-white sm:flex-row sm:items-center sm:p-8">
           <p className="text-lg">Hoe vollediger uw aanvraag, hoe scherper we uw prijs kunnen bepalen.</p>
           <a href="#offerte" className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
@@ -115,6 +114,11 @@ export default function OfferteV2() {
           </a>
         </Reveal>
       </V2Block>
+
+      {/* Running band into the FAQ */}
+      <section aria-label="Persoonlijk antwoord binnen 24 uur" className="py-6 sm:py-10">
+        <TypeMarquee words={["Persoonlijk", "Binnen 24 uur", "Geen calculator"]} images={["/fleet/depot-dusk.jpg", "/images/generated/key-handover.jpg", "/fleet/countryside-highway.jpg"]} />
+      </section>
 
       {/* FAQ — boxed accordion beside contact */}
       <V2Block>

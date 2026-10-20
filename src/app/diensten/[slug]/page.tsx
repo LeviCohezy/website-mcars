@@ -6,17 +6,28 @@ import HeroQuoteBar from "@/components/hero-quote-bar";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import {
-  BreakdownSection, ExpectBento, OverviewCards, FaqWithContact, HighlightPanel, NeedsSection, PracticeCase, PriceSection,
-  RelatedCards, SafetySection, StepsRail,
+  BreakdownSection, ExpectBento, OverviewCards, FaqWithContact, NeedsSection, PracticeCase, PriceSection, RelatedCards,
 } from "@/components/service-sections";
+import { ImageAccordion, MosaicGallery, StickyStory } from "@/components/signature";
 import Section from "@/components/section";
 import SituationsScroll from "@/components/situations-scroll";
 import VariantSwitcher from "@/components/variant-switcher";
-import { SectionHeader } from "@/components/ui";
+import { ArrowChip, SectionHeader } from "@/components/ui";
 import { getServicePage, serviceMetadata, serviceStaticParams } from "@/lib/service-page";
 import { site } from "@/lib/site";
 
 export const generateStaticParams = serviceStaticParams;
+
+/** One photo per process step. */
+const STEP_IMAGES = [
+  "/images/generated/customer-update.jpg",
+  "/images/generated/planning-office.jpg",
+  "/images/generated/pickup-inspection.jpg",
+  "/images/generated/key-handover.jpg",
+];
+
+/** Photos for the "Waarom Mcars" panels after the first (which uses the page's detail image). */
+const HIGHLIGHT_IMAGES = ["/images/generated/strap-closeup.jpg", "/images/generated/alpine-pass.jpg", "/images/generated/driver-portrait.jpg"];
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   return serviceMetadata(params);
@@ -27,6 +38,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const data = getServicePage(slug);
   if (!data) notFound();
   const { service, process, vehicleTypes, detailImage, detailAlt, details, practiceCase, situationsImage, safetyImage, safetyAlt, faq, related } = data;
+  // Highlight photos, skipping any the page already shows nearby.
+  const pool = HIGHLIGHT_IMAGES.filter((img) => img !== detailImage && img !== safetyImage);
+  const pick = (i: number) => pool[(i - 1) % pool.length];
 
   return (
     <PageShell>
@@ -86,27 +100,35 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </Section>
       )}
 
-      {/* 4 · Why Mcars — highlights as cards resting on a photograph */}
-      <Section space="none" bleed>
-        <HighlightPanel
-          image={detailImage}
-          alt={detailAlt}
-          label="Waarom Mcars"
-          lead="Zo pakken we het aan,"
-          trail="rit na rit."
-          items={service.highlights}
+      {/* 4 · Why Mcars — expanding photo panels, one per highlight */}
+      <Section space="flush-top">
+        <SectionHeader label="Waarom Mcars" lead="Zo pakken we het aan," trail="rit na rit." className="mb-12" />
+        <ImageAccordion
+          items={service.highlights.map((h, i) => ({
+            title: h.title,
+            body: h.body,
+            image: i === 0 ? detailImage : pick(i),
+            alt: i === 0 ? detailAlt : "",
+          }))}
         />
       </Section>
 
-      {/* 5 · Process — sticky heading + vertical rail, CTA back to the hero form */}
+      {/* 5 · Process — sticky photo that swaps per step; CTA back to the hero form */}
       <Section space="loose">
-        <StepsRail
+        <SectionHeader
           label="Werkwijze"
           lead="Van aanvraag tot levering,"
           trail="helder en eenvoudig."
           intro="U weet op elk moment wat er gebeurt en wie u kan bellen."
-          steps={process}
+          action={
+            <a href="#prijs" className="group inline-flex items-center gap-3 rounded-full bg-zinc-950 py-2 pr-2 pl-6 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
+              Prijs aanvragen
+              <ArrowChip />
+            </a>
+          }
+          className="mb-4"
         />
+        <StickyStory steps={process.map((p, i) => ({ title: p.title, body: p.body, image: STEP_IMAGES[i % STEP_IMAGES.length] }))} />
       </Section>
 
       {/* 6 · What determines the price (factors, no amounts) */}
@@ -145,10 +167,26 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         />
       </Section>
 
-      {/* 9 · Fleet & safety */}
+      {/* 9 · Fleet & safety — photo mosaic, then the safety points */}
       <Section space="loose">
         <SectionHeader label="Vloot & veiligheid" lead="Zo beschermen we" trail="uw wagen." className="mb-12" />
-        <SafetySection items={details.safety} image={safetyImage} alt={safetyAlt} />
+        <MosaicGallery
+          images={[
+            { image: "/images/generated/truck-studio.jpg", alt: "Een transporter van de eigen Mcars-vloot", title: details.safety[0]?.title ?? "" },
+            { title: "", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot in Roeselare" },
+            { title: "", image: "/images/generated/pickup-inspection.jpg", alt: "Inspectie van een wagen bij ophaling" },
+            { title: "", image: "/images/generated/depot-night.jpg", alt: "De vloot van Mcars op het depot" },
+          ]}
+          figure={{ value: "9", label: "Eigen transporters", body: "Allemaal met Kässbohrer-opbouw, gereden door 8 vaste chauffeurs." }}
+        />
+        <ul className="mt-10 grid gap-x-10 border-t border-zinc-200 sm:grid-cols-2 lg:grid-cols-4">
+          {details.safety.map((x) => (
+            <li key={x.title} className="border-b border-zinc-200 py-6">
+              <h3 className="text-lg font-medium tracking-tight text-zinc-950">{x.title}</h3>
+              <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{x.body}</p>
+            </li>
+          ))}
+        </ul>
       </Section>
 
       {/* 10 · From practice */}

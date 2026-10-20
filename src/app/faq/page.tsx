@@ -3,6 +3,7 @@ import { FaqAccordion, QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import Section from "@/components/section";
+import { CollageStatement, ImageAccordion } from "@/components/signature";
 import { ArrowButton, Eyebrow } from "@/components/ui";
 import VariantSwitcher from "@/components/variant-switcher";
 import { faqGroups as groups, faqTotal } from "@/data/faq";
@@ -13,6 +14,18 @@ export const metadata: Metadata = {
   description:
     "Antwoorden op veelgestelde vragen over autotransport: prijzen, verzekering, ophaling en levering, buitenland, niet-rijdende voertuigen, documenten, betaling en spoed.",
 };
+
+/** One photo per FAQ topic for the topic accordion (order = faqGroups). */
+const TOPIC_IMAGES = [
+  "/images/generated/planning-office.jpg",
+  "/images/generated/strap-closeup.jpg",
+  "/images/generated/key-handover.jpg",
+  "/images/generated/alpine-pass.jpg",
+  "/images/generated/nonrunning-winch.jpg",
+  "/images/generated/pickup-inspection.jpg",
+  "/images/generated/customer-update.jpg",
+  "/images/generated/night-motorway.jpg",
+];
 
 export default function FaqPage() {
   return (
@@ -27,23 +40,37 @@ export default function FaqPage() {
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
-      {/* Topic index */}
-      <Section space="tight">
-        <nav aria-label="Onderwerpen" className="grid gap-6 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
-          <Eyebrow>Onderwerpen</Eyebrow>
-          <ul className="flex flex-wrap gap-2">
+      {/* Topic index — photo accordion, each panel jumps to its topic */}
+      <Section space="loose">
+        <nav aria-label="Onderwerpen">
+          <div className="mb-12 grid gap-6 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
+            <Eyebrow>Onderwerpen</Eyebrow>
+            <h2 className="max-w-3xl text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-balance text-zinc-950 sm:text-4xl">
+              {groups.length} onderwerpen, <span className="text-zinc-400">{faqTotal} antwoorden.</span>
+            </h2>
+          </div>
+          {/* Compact chips on small screens; the photo accordion from lg up */}
+          <ul className="flex flex-wrap gap-2 lg:hidden">
             {groups.map((g, i) => (
               <li key={g.id}>
-                <a
-                  href={`#${g.id}`}
-                  className="inline-flex items-center gap-2.5 rounded-full border border-zinc-200 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-950 hover:text-zinc-950"
-                >
+                <a href={`#${g.id}`} className="inline-flex min-h-11 items-center gap-2.5 rounded-full border border-zinc-200 px-4 text-sm text-zinc-700">
                   <span className="text-xs tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
                   {g.label}
                 </a>
               </li>
             ))}
           </ul>
+          <div className="hidden lg:block">
+          <ImageAccordion
+            items={groups.map((g, i) => ({
+              title: g.label,
+              body: `${g.title} ${g.trail} ${g.items.length} ${g.items.length === 1 ? "vraag" : "vragen"} beantwoord.`,
+              image: TOPIC_IMAGES[i % TOPIC_IMAGES.length],
+              href: `#${g.id}`,
+              meta: String(i + 1).padStart(2, "0"),
+            }))}
+          />
+          </div>
         </nav>
       </Section>
 
@@ -74,27 +101,29 @@ export default function FaqPage() {
         </div>
       </Section>
 
-      {/* Still a question */}
+      {/* Still a question — airy statement with photos */}
       <Section space="none">
-        <div className="grid gap-10 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr]">
+        <div className="mb-12 grid gap-6 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
           <Eyebrow>Nog een vraag?</Eyebrow>
-          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-            <div>
-              <h2 className="max-w-2xl text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl lg:text-[3.25rem]">
-                Staat uw vraag er niet bij? <span className="text-zinc-400">Wij helpen u persoonlijk.</span>
-              </h2>
-              <p className="mt-5 max-w-xl text-base leading-relaxed text-zinc-500">
-                U krijgt een duidelijk antwoord van iemand die uw transport ook echt kan inplannen.
-              </p>
-            </div>
-            <div className="flex flex-col items-start gap-3 lg:items-end">
-              <ArrowButton href="/contact">Neem contact op</ArrowButton>
-              <a href={site.phoneHref} className="text-sm text-zinc-500 transition-colors hover:text-zinc-950">
-                Of bel {site.phone}
-              </a>
-            </div>
-          </div>
+          <h2 className="max-w-2xl text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl lg:text-[3.25rem]">
+            Staat uw vraag er niet bij? <span className="text-zinc-400">Wij helpen u persoonlijk.</span>
+          </h2>
         </div>
+        <CollageStatement
+          statement="U krijgt een duidelijk antwoord van iemand die uw transport ook echt kan inplannen."
+          images={[
+            { title: "Planning", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot" },
+            { title: "Onderweg", image: "/fleet/countryside-highway.jpg", alt: "Een transporter van Mcars op de snelweg" },
+            { title: "Chauffeur", image: "/images/generated/driver-portrait.jpg", alt: "Een chauffeur van Mcars in de cabine" },
+          ]}
+        >
+          <div className="flex flex-col items-start gap-3">
+            <ArrowButton href="/contact">Neem contact op</ArrowButton>
+            <a href={site.phoneHref} className="text-sm text-zinc-500 transition-colors hover:text-zinc-950">
+              Of bel {site.phone}
+            </a>
+          </div>
+        </CollageStatement>
       </Section>
 
       <QuoteCta />

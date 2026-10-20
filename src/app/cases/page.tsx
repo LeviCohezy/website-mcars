@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import PageShell from "@/components/page-shell";
 import PageHero from "@/components/page-hero";
-import { StatRow, QuoteCta } from "@/components/blocks";
+import { QuoteCta } from "@/components/blocks";
+import { HoverRevealList, MosaicGallery } from "@/components/signature";
 import { Parallax, Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { SectionHeader } from "@/components/ui";
@@ -57,41 +58,32 @@ export default function CasesPage() {
           </Link>
         </Reveal>
 
-        <div className="mt-24 grid gap-x-6 gap-y-16 md:grid-cols-2">
-          {rest.map((c, i) => {
-            const wide = rest.length % 2 === 1 && i === rest.length - 1;
-            return (
-            <Reveal key={c.title} delay={(i % 2) * 100} className={wide ? "md:col-span-2" : ""}>
-              <Link href={caseHref(c)} className="group block">
-                <div className={`relative overflow-hidden rounded-[2rem] bg-zinc-100 ${wide ? "aspect-[4/3] md:aspect-[21/9]" : "aspect-[4/3]"}`}>
-                  <Image
-                    src={c.image}
-                    alt={c.title}
-                    fill
-                    sizes={wide ? "100vw" : "(min-width: 768px) 50vw, 100vw"}
-                    className="object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(0.16,1,0.3,1)] motion-safe:group-hover:scale-[1.03]"
-                  />
-                </div>
-                <div className="mt-6 flex items-baseline justify-between gap-4 border-t border-zinc-200 pt-4">
-                  <p className="text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">{c.tag}</p>
-                  <span className="text-xs tabular-nums text-zinc-400">{String(i + 2).padStart(2, "0")}</span>
-                </div>
-                <h3 className="mt-4 text-2xl font-medium tracking-tight text-zinc-950">{c.title}</h3>
-                <p className="mt-3 max-w-xl text-[0.95rem] leading-relaxed text-zinc-500">{c.body}</p>
-                <ReadMore />
-              </Link>
-            </Reveal>
-            );
-          })}
+        {/* The other cases — large typographic rows, the photo floats along on hover */}
+        <div className="mt-24">
+          <HoverRevealList
+            items={rest.map((c, i) => ({
+              title: c.title,
+              body: c.tag,
+              meta: String(i + 2).padStart(2, "0"),
+              href: caseHref(c),
+              image: c.image,
+            }))}
+          />
         </div>
       </Section>
 
+      {/* Impact — asymmetric photo bento with one figure tile */}
       <Section space="none">
         <SectionHeader label="Impact" lead="Wat we dagelijks" trail="waarmaken." className="mb-12" />
-        <div className="grid lg:grid-cols-[1fr_3fr] lg:gap-10">
-          <div className="hidden lg:block" />
-          <StatRow items={o.stats} />
-        </div>
+        <MosaicGallery
+          images={[
+            { title: rest[1].tag, image: rest[1].image, alt: rest[1].imageAlt },
+            { title: rest[0].tag, image: rest[0].image, alt: rest[0].imageAlt },
+            { title: rest[3].tag, image: rest[3].image, alt: rest[3].imageAlt },
+            { title: rest[4].tag, image: rest[4].image, alt: rest[4].imageAlt },
+          ]}
+          figure={{ value: o.stats[0].value, label: o.stats[0].label, body: o.stats.slice(1).map((s) => `${s.value} ${s.label.toLowerCase()}`).join(" · ") }}
+        />
       </Section>
 
       <QuoteCta />

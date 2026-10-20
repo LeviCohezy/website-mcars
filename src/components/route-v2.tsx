@@ -1,19 +1,21 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import { flagAsset, type Place } from "@/data/routes";
+import type { IconKey } from "@/data/services";
 import type { RoutePageData } from "@/lib/route-page";
 import { site } from "@/lib/site";
 import HeroQuoteBar from "./hero-quote-bar";
 import Icon from "./icon";
 import { Reveal } from "./scroll";
+import { HorizontalRail, StackedCards, TypeMarquee } from "./signature";
 import { V2Arrow, V2Block, V2Button, V2Head, V2Hero } from "./v2-kit";
 
 /*
  * Route 02 — "Licht & strak". White Swiss grid: light hero, photo + quote
- * cell, a route spec sheet, the cities as a bordered grid and boxed FAQ.
+ * cell, a route spec sheet, running city names over a bordered city grid,
+ * stacking highlight cards, boxed FAQ and a sideways related rail.
  * Same content as Route 01 (see lib/route-page).
  */
 
@@ -103,6 +105,9 @@ export default function RouteV2({ data }: { data: RoutePageData }) {
           lead={isCorridor ? "Van deur tot deur," : `Actief in heel ${place?.name ?? ""},`}
           trail="waar u ook zit."
         />
+        <div aria-hidden className="-mx-5 mb-10 sm:-mx-12 lg:-mx-16">
+          <TypeMarquee words={route.cities.slice(0, 6)} images={[route.detailImage ?? route.heroImage, "/images/generated/pickup-inspection.jpg", "/images/generated/key-handover.jpg"]} speed={50} />
+        </div>
         <ul className="grid grid-cols-2 overflow-hidden rounded-xl border-t border-l border-zinc-200 bg-white sm:grid-cols-3 lg:grid-cols-4">
           {route.cities.map((c, i) => (
             <Reveal as="li" key={c} delay={i * 30} className="flex min-h-28 flex-col justify-between gap-6 border-r border-b border-zinc-200 p-5 sm:min-h-32 sm:p-6">
@@ -120,17 +125,7 @@ export default function RouteV2({ data }: { data: RoutePageData }) {
       {/* 5 · Why Mcars — bordered row of cells */}
       <V2Block>
         <V2Head index="03" label="Waarom Mcars" lead="Uw wagen" trail="in vertrouwde handen." />
-        <div className="grid overflow-hidden rounded-xl border border-zinc-200 sm:grid-cols-3">
-          {route.highlights.map((h, i) => (
-            <Reveal key={h.title} delay={i * 80} className={`flex min-h-64 flex-col p-6 sm:p-7 ${i > 0 ? "border-t border-zinc-200 sm:border-t-0 sm:border-l" : ""}`}>
-              <span className="flex size-11 items-center justify-center rounded-md border border-zinc-200">
-                <Icon name={h.icon} className="size-5" />
-              </span>
-              <h3 className="mt-auto pt-10 text-xl font-medium tracking-tight">{h.title}</h3>
-              <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
-            </Reveal>
-          ))}
-        </div>
+        <StackedCards radius="rounded-md" items={route.highlights.map((h, i) => ({ title: h.title, body: h.body, image: routeHighlightImage(h.icon, i) }))} />
         <Reveal className="mt-3 flex flex-col items-start justify-between gap-4 rounded-xl bg-zinc-950 p-6 text-white sm:flex-row sm:items-center sm:p-8">
           <p className="text-lg">Klaar om deze route te boeken? U krijgt binnen 24 uur een persoonlijk antwoord.</p>
           <a href="#prijs" className="inline-flex min-h-11 flex-none items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
@@ -156,28 +151,16 @@ export default function RouteV2({ data }: { data: RoutePageData }) {
         </div>
       </V2Block>
 
-      {/* 7 · Related — index rows with a thumbnail */}
+      {/* 7 · Related — pinned rail of photo cards that travel sideways */}
       {related.length > 0 && (
-        <V2Block className="pt-0 sm:pt-0">
+        <section className="px-5 sm:px-12 lg:px-16">
           <V2Head index="05" label="Ontdek ook" lead="Andere routes" trail="en diensten." />
-          <ul className="border-t border-zinc-200">
-            {related.map((r) => (
-              <Reveal as="li" key={r.href} className="border-b border-zinc-200">
-                <Link href={r.href} className="group grid grid-cols-[4.5rem_1fr_auto] items-center gap-4 py-4 sm:grid-cols-[7rem_1fr_1fr_auto] sm:gap-8">
-                  <span className="relative block aspect-[4/3] overflow-hidden rounded-md bg-zinc-100">
-                    <Image src={r.image} alt="" fill sizes="7rem" className="object-cover transition-transform duration-700 group-hover:scale-105" />
-                  </span>
-                  <span className="min-w-0 text-lg font-medium tracking-tight break-words sm:text-2xl">{r.label}</span>
-                  <span className="hidden text-[0.95rem] text-zinc-500 sm:block">{r.sub}</span>
-                  <span className="flex items-center gap-3 text-sm text-zinc-400">
-                    <span className="hidden sm:inline">{r.meta}</span>
-                    <span className="flex size-11 items-center justify-center rounded-md border border-zinc-200 text-zinc-950 transition-colors group-hover:bg-zinc-950 group-hover:text-white"><V2Arrow /></span>
-                  </span>
-                </Link>
-              </Reveal>
-            ))}
-          </ul>
-        </V2Block>
+          <HorizontalRail
+            radius="rounded-md"
+            items={related.map((r) => ({ title: r.label, body: r.sub, image: r.image, meta: r.meta, href: r.href }))}
+          />
+          <div className="h-16 lg:h-0" />
+        </section>
       )}
     </div>
   );
@@ -217,4 +200,18 @@ export function BoxedFaq({ items }: { items: { q: string; a: string }[] }) {
       })}
     </div>
   );
+}
+
+/** A photo per route highlight, chosen by what it is about (shared with Route 03). */
+export function routeHighlightImage(icon: IconKey, i: number) {
+  const byIcon: Partial<Record<IconKey, string>> = {
+    shield: "/images/generated/pickup-inspection.jpg",
+    users: "/images/generated/driver-portrait.jpg",
+    truck: "/images/generated/dealer-loading.jpg",
+    map: "/images/generated/aerial-motorway.jpg",
+    globe: "/images/generated/alpine-pass.jpg",
+    clock: "/images/generated/planning-office.jpg",
+    route: "/images/generated/night-motorway.jpg",
+  };
+  return byIcon[icon] ?? ["/images/generated/depot-night.jpg", "/images/generated/team-depot.jpg", "/images/generated/truck-studio.jpg"][i % 3];
 }

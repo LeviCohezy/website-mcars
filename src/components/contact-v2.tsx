@@ -1,15 +1,16 @@
-import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/app/contact/contact-form";
 import ContactGlyph from "@/app/contact/glyph";
 import { contactMethods, contactPhotos, isExternal, mapsEmbedSrc } from "@/app/contact/methods";
 import { site } from "@/lib/site";
 import { Reveal } from "./scroll";
+import { CollageStatement } from "./signature";
 import { V2Arrow, V2Block, V2Head, V2Hero } from "./v2-kit";
 
 /*
  * Contact 02 — "Licht & strak". A Swiss grid of bordered contact cells (each
- * cell is one big tap target), then the message form beside the map.
+ * cell is one big tap target), an airy photo collage of the people who
+ * answer, then the message form beside the map.
  */
 
 const pad = (n: number) => String(n).padStart(2, "0");
@@ -85,18 +86,23 @@ export default function ContactV2() {
         </ul>
       </section>
 
-      {/* Photo strip — the people who answer */}
-      <section className="mt-3 px-5 sm:px-12 lg:px-16">
-        <Reveal className="relative h-64 overflow-hidden rounded-lg bg-zinc-950 sm:h-80 lg:h-[26rem]">
-          <Image src={contactPhotos.desk.src} alt={contactPhotos.desk.alt} fill sizes="100vw" className="object-cover" />
-          <span className="absolute bottom-4 left-4 rounded-md bg-white px-3 py-1.5 text-xs font-medium tracking-[0.14em] text-zinc-950 uppercase">
-            Rechtstreeks een planner aan de lijn
-          </span>
-        </Reveal>
-      </section>
+      {/* The people who answer — statement with loosely placed photos */}
+      <V2Block>
+        <CollageStatement
+          tone="light"
+          radius="rounded-lg"
+          eyebrow="Wie u te woord staat"
+          statement="Geen callcenter: u krijgt rechtstreeks een planner aan de lijn — dezelfde mensen die uw rit inplannen."
+          images={[
+            { title: "", image: contactPhotos.desk.src, alt: contactPhotos.desk.alt },
+            { title: "", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot" },
+            { title: "", image: "/fleet/depot-dusk.jpg", alt: "Het depot van Mcars bij schemering" },
+          ]}
+        />
+      </V2Block>
 
       {/* 02 · Form + map */}
-      <V2Block>
+      <V2Block className="pt-0 sm:pt-0">
         <V2Head index="02" label="Bericht & locatie" lead="Laat iets van u horen." trail="Of kom langs in Roeselare." />
         <div className="grid gap-3 lg:grid-cols-2">
           <Reveal className="rounded-lg border border-zinc-200 p-6 sm:p-10">

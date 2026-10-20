@@ -4,6 +4,7 @@ import PageShell from "@/components/page-shell";
 import PageHero from "@/components/page-hero";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
+import { ImageAccordion, TypeMarquee } from "@/components/signature";
 import { Eyebrow, SectionHeader } from "@/components/ui";
 import { site } from "@/lib/site";
 import VariantSwitcher from "@/components/variant-switcher";
@@ -79,6 +80,22 @@ export default function ContactPage() {
           </div>
         </div>
       </Section>
+
+      {/* Behind the phone: the people and the depot */}
+      <Section space="flush-top">
+        <SectionHeader label="Wie u te woord staat" lead="Geen callcenter." trail="Het team dat ook de ritten plant." className="mb-12" />
+        <ImageAccordion
+          items={[
+            { title: "Een planner aan de lijn", body: "Rechtstreeks een planner aan de lijn — dezelfde mensen die uw rit inplannen.", image: contactPhotos.desk.src, alt: contactPhotos.desk.alt },
+            { title: "Ons team in Roeselare", body: "Persoonlijk antwoord binnen 24 uur, van iemand van ons team.", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot" },
+            { title: "Het depot", body: `${site.address.street}, ${site.address.city} — standplaats van onze vloot.`, image: "/fleet/depot-dusk.jpg", alt: "Het depot van Mcars bij schemering" },
+          ]}
+        />
+      </Section>
+
+      <section aria-label="Bel, mail, app of kom langs" className="py-8 sm:py-12">
+        <TypeMarquee words={["Bel", "Mail", "App", "Kom langs"]} images={["/images/generated/truck-studio.jpg", "/fleet/sunset-field.jpg", "/images/generated/flemish-square.jpg"]} />
+      </section>
 
       <Section space="none">
         <SectionHeader label="Waar u ons vindt" lead={site.address.street} trail={site.address.city} className="mb-10" />

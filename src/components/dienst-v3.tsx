@@ -10,6 +10,7 @@ import ClientMarquee from "./client-marquee";
 import HeroQuoteBar from "./hero-quote-bar";
 import Icon from "./icon";
 import { Reveal } from "./scroll";
+import { HorizontalRail, ImageAccordion, TypeMarquee } from "./signature";
 
 /*
  * Dienst 03 — "Donker & premium". The whole page sits on black: centred
@@ -17,6 +18,13 @@ import { Reveal } from "./scroll";
  * band with big figures. Same sections and content as Dienst 01.
  */
 
+/** Photos for the situation panels (the hero, overview and why-section use the page's own images). */
+const SITUATION_IMAGES = [
+  "/images/generated/flemish-square.jpg",
+  "/images/generated/airport-nice.jpg",
+  "/images/generated/nonrunning-winch.jpg",
+  "/images/generated/workshop.jpg",
+];
 const PRICE_ICONS: IconKey[] = ["route", "car", "wrench", "map", "clock", "truck"];
 
 function Head({ label, lead, trail, intro, center = false }: { label: string; lead: string; trail?: string; intro?: string; center?: boolean }) {
@@ -102,34 +110,17 @@ export default function DienstV3({ data }: { data: ServicePageData }) {
         )}
       </Block>
 
-      {/* 3 · Situations — horizontal rail of tall cards */}
+      {/* 3 · Situations — expanding photo panels */}
       {details.situations.length > 0 && (
         <Block className="bg-zinc-900">
           <Head label="Herkenbare situaties" lead="Herkent u zich" trail="hierin?" />
-          <div className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-4 sm:-mx-10 sm:px-10 lg:-mx-14 lg:px-14 [scrollbar-width:none]">
-            {details.situations.map((s, i) => (
-              <Reveal
-                key={s.title}
-                delay={i * 80}
-                className={`flex min-h-[26rem] w-[82%] flex-none snap-start flex-col rounded-2xl p-7 sm:w-[24rem] ${
-                  i === 1 ? "bg-white text-zinc-950" : "border border-white/10 bg-white/[0.04]"
-                }`}
-              >
-                <div className="flex items-start justify-between">
-                  <h3 className="max-w-[80%] text-2xl leading-tight font-medium tracking-tight">{s.title}</h3>
-                  <span className={`text-sm tabular-nums ${i === 1 ? "text-zinc-400" : "text-white/40"}`}>{String(i + 1).padStart(2, "0")}</span>
-                </div>
-                {s.desc && <p className={`mt-4 text-[0.95rem] leading-relaxed ${i === 1 ? "text-zinc-500" : "text-white/50"}`}>{s.desc}</p>}
-                <div className={`mt-auto border-t pt-4 ${i === 1 ? "border-zinc-200" : "border-white/10"}`}>
-                  <p className={`text-xs font-medium tracking-[0.18em] uppercase ${i === 1 ? "text-zinc-400" : "text-white/40"}`}>Wat wij doen</p>
-                  <p className={`mt-2 text-[0.95rem] leading-relaxed ${i === 1 ? "text-zinc-700" : "text-white/75"}`}>{s.body}</p>
-                </div>
-                <a href="#prijs" className={`mt-6 inline-flex items-center gap-2 self-start border-b pb-0.5 text-sm font-medium ${i === 1 ? "border-zinc-950" : "border-white/40"}`}>
-                  Prijs aanvragen <Arrow />
-                </a>
-              </Reveal>
-            ))}
-          </div>
+          <ImageAccordion
+            items={details.situations.map((x, i) => ({
+              title: x.title,
+              body: x.desc ? `${x.desc} Wat wij doen: ${x.body}` : `Wat wij doen: ${x.body}`,
+              image: SITUATION_IMAGES[i % SITUATION_IMAGES.length],
+            }))}
+          />
         </Block>
       )}
 
@@ -238,8 +229,16 @@ export default function DienstV3({ data }: { data: ServicePageData }) {
         </div>
       </Block>
 
-      {/* 9 · Fleet & safety — photo band with big figures, safety points under */}
+      {/* 9 · Fleet & safety — running words, photo band with big figures, safety points under */}
       <section className="relative">
+        <div className="pt-16 pb-6 sm:pt-24">
+          <TypeMarquee
+            tone="dark"
+            words={["Eigen vloot", "Kässbohrer", "CMR", `Sinds ${site.founded}`]}
+            images={["/images/generated/depot-night.jpg", "/images/generated/truck-studio.jpg", "/images/generated/team-depot.jpg"]}
+            speed={60}
+          />
+        </div>
         <div className="relative flex min-h-[80vh] flex-col justify-end overflow-hidden">
           <Image src={safetyImage} alt={safetyAlt} fill sizes="100vw" className="object-cover opacity-55" />
           <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-zinc-950/60" />
@@ -305,27 +304,13 @@ export default function DienstV3({ data }: { data: ServicePageData }) {
         </div>
       </Block>
 
-      {/* 12 · Related — wide cards */}
+      {/* 12 · Related — pinned rail of tall cards */}
       {related.length > 0 && (
-        <Block>
-          <Head label="Ontdek ook" lead="Verwante diensten" trail="en routes." />
-          <ul className="grid gap-3 sm:grid-cols-2">
-            {related.map((r) => (
-              <Reveal as="li" key={r.href}>
-                <Link href={r.href} className="group relative flex aspect-[16/9] flex-col justify-end overflow-hidden rounded-2xl p-7">
-                  <Image src={r.image} alt="" fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover opacity-70 transition-all duration-700 group-hover:scale-105 group-hover:opacity-90" />
-                  <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 to-transparent" />
-                  <div className="relative flex items-end justify-between gap-4">
-                    <div>
-                      <p className="text-xs tracking-[0.2em] text-white/60 uppercase">{r.meta}</p>
-                      <h3 className="mt-2 text-2xl font-medium tracking-tight sm:text-3xl">{r.label}</h3>
-                    </div>
-                    <span className="flex size-11 flex-none items-center justify-center rounded-full border border-white/30 transition-colors group-hover:bg-white group-hover:text-zinc-950"><Arrow /></span>
-                  </div>
-                </Link>
-              </Reveal>
-            ))}
-          </ul>
+        <Block className="py-0 sm:py-0 lg:[&_.snap-start]:w-[22rem]">
+          <HorizontalRail
+            heading={<Head label="Ontdek ook" lead="Verwante diensten" trail="en routes." />}
+            items={related.map((r) => ({ title: r.label, body: r.sub, image: r.portrait ?? r.image, href: r.href, meta: r.meta }))}
+          />
         </Block>
       )}
     </div>

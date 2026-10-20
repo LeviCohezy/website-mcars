@@ -16,6 +16,7 @@ import {
 import { site } from "@/lib/site";
 import Icon from "./icon";
 import { Reveal } from "./scroll";
+import { HorizontalRail, HoverRevealList } from "./signature";
 import { V2Arrow, V2Block, V2Button, V2Head } from "./v2-kit";
 
 /*
@@ -24,6 +25,24 @@ import { V2Arrow, V2Block, V2Button, V2Head } from "./v2-kit";
  * team & fleet, area, insurance and reasons as bordered Swiss-grid cells.
  * Same content as /over-ons via src/data/about.ts.
  */
+
+/** Route photo per country card (from the route pages) — the "Werkgebied" rail. */
+const COUNTRY_PHOTOS: Record<string, string> = {
+  België: "/images/generated/flemish-square.jpg",
+  Nederland: "/fleet/port-docks.jpg",
+  Frankrijk: "/fleet/countryside-highway.jpg",
+  Spanje: "/fleet/barcelona-sagrada.jpg",
+  Duitsland: "/fleet/germany-autobahn.jpg",
+  Italië: "/fleet/mountain-suvs.jpg",
+};
+
+/** One photo per "Waarom Mcars" reason, revealed on hover (thumbnail on touch). */
+const WHY_PHOTOS = [
+  "/images/generated/key-handover.jpg",
+  "/images/generated/strap-closeup.jpg",
+  "/images/generated/customer-update.jpg",
+  "/images/generated/planning-office.jpg",
+];
 
 const heroCards = [
   { icon: "truck" as const, stat: aboutStats[1] },
@@ -170,19 +189,16 @@ export default function OverOnsV2() {
       {/* 4 · Werkgebied — bordered country cells linking to routes */}
       <V2Block>
         <V2Head index="03" label={aboutArea.label} lead={aboutArea.lead} trail={aboutArea.trail} intro={aboutArea.intro} />
-        <ul className="grid grid-cols-2 gap-px overflow-hidden rounded-md border border-zinc-200 bg-zinc-200 sm:grid-cols-3 lg:grid-cols-6">
-          {countries.map((c, i) => (
-            <Reveal as="li" key={c.name} delay={i * 50} className="bg-white">
-              <Link href={c.href} className="group flex h-full min-h-36 flex-col justify-between gap-6 p-5 transition-colors hover:bg-zinc-950 hover:text-white">
-                <Image src={c.flag} alt="" width={120} height={80} className="h-9 w-auto self-start" />
-                <span className="flex items-center justify-between gap-2 text-lg font-medium tracking-tight">
-                  {c.name}
-                  <V2Arrow className="size-4 text-zinc-400 transition-colors group-hover:text-white" />
-                </span>
-              </Link>
-            </Reveal>
-          ))}
-        </ul>
+        <HorizontalRail
+          radius="rounded-md"
+          items={countries.map((c) => ({
+            title: c.name,
+            meta: "Route",
+            href: c.href,
+            image: COUNTRY_PHOTOS[c.name] ?? "/fleet/sunset-field.jpg",
+            alt: `Mcars-transporter onderweg — ${c.name}`,
+          }))}
+        />
         <div className="mt-6 flex flex-wrap items-center gap-2">
           <span className="mr-2 text-sm text-zinc-500">Ook actief in</span>
           {extraCountries.map((c) => (
@@ -214,18 +230,10 @@ export default function OverOnsV2() {
       {/* 6 · Waarom kiezen voor ons — bordered row of cells */}
       <V2Block>
         <V2Head index="05" label={aboutWhy.label} lead={aboutWhy.lead} trail={aboutWhy.trail} />
-        <div className="grid gap-px overflow-hidden rounded-md border border-zinc-200 bg-zinc-200 sm:grid-cols-2 lg:grid-cols-4">
-          {aboutWhy.items.map((h, i) => (
-            <Reveal key={h.title} delay={i * 80} className="flex min-h-72 flex-col bg-white p-6 sm:p-7">
-              <span className="flex size-11 items-center justify-center rounded-sm border border-zinc-200">
-                <Icon name={h.icon} className="size-5" />
-              </span>
-              <h3 className="mt-auto pt-12 text-xl font-medium tracking-tight">{h.title}</h3>
-              <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
-            </Reveal>
-          ))}
-        </div>
-        <Reveal className="mt-px flex flex-col items-start justify-between gap-4 rounded-md bg-zinc-950 p-6 text-white sm:flex-row sm:items-center sm:p-10">
+        <HoverRevealList
+          items={aboutWhy.items.map((h, i) => ({ title: h.title, body: h.body, image: WHY_PHOTOS[i % WHY_PHOTOS.length] }))}
+        />
+        <Reveal className="mt-10 flex flex-col items-start justify-between gap-4 rounded-md bg-zinc-950 p-6 text-white sm:flex-row sm:items-center sm:p-10">
           <p className="text-lg">
             <span className="font-medium">{site.reviews.score}/5 op Google</span> <span className="text-white/60">— lees wat klanten zeggen.</span>
           </p>

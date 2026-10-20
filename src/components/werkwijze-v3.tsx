@@ -7,6 +7,7 @@ import { site } from "@/lib/site";
 import Icon from "./icon";
 import { DarkFaq } from "./route-v3";
 import { Reveal } from "./scroll";
+import { SplitQuote, TypeMarquee } from "./signature";
 import { V3Block, V3Button, V3Head, V3Hero, V3Tick } from "./v3-kit";
 
 /*
@@ -91,24 +92,34 @@ export default function WerkwijzeV3() {
         </div>
       </V3Block>
 
-      {/* 3 · CMR — photo band with the statement, three points under it */}
-      <section className="relative">
-        <div className="relative flex min-h-[70svh] flex-col justify-end overflow-hidden">
-          <Image src={werkwijze.bandImage} alt={werkwijze.bandImageAlt} fill sizes="100vw" className="object-cover opacity-50" />
-          <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-zinc-950/70" />
-          <div className="relative px-5 pb-10 sm:px-10 sm:pb-14 lg:px-14">
-            <V3Head label="Waarom deze aanpak" lead="De CMR-vrachtbrief:" trail="uw zekerheid, zwart op wit." intro={cmrIntro} />
-          </div>
-        </div>
-        <div className="grid gap-px bg-white/10 sm:grid-cols-3">
-          {cmr.map((h, i) => (
-            <Reveal key={h.title} delay={i * 80} className="bg-zinc-950 p-7 sm:p-8 lg:p-10">
-              <span className="text-6xl font-light tracking-[-0.05em] text-white/25 tabular-nums lg:text-7xl">{pad(i + 1)}</span>
-              <h3 className="mt-8 text-xl font-medium tracking-tight">{h.title}</h3>
-              <p className="mt-2 text-[0.95rem] leading-relaxed text-white/55">{h.body}</p>
-            </Reveal>
-          ))}
-        </div>
+      {/* 3 · CMR — tall photo beside the statement, three points under it */}
+      <V3Block>
+        <V3Head label="Waarom deze aanpak" lead="De CMR-vrachtbrief:" trail="uw zekerheid, zwart op wit." />
+        <SplitQuote
+          tone="dark"
+          image={werkwijze.bandImage}
+          alt={werkwijze.bandImageAlt}
+          quote={cmrIntro}
+          name="De CMR-vrachtbrief"
+          role="opgemaakt bij elke ophaling"
+        >
+          <ul className="grid gap-px overflow-hidden rounded-2xl bg-white/10">
+            {cmr.map((h, i) => (
+              <li key={h.title} className="grid grid-cols-[3rem_1fr] gap-4 bg-zinc-950 p-5 sm:p-6">
+                <span className="text-3xl font-light tracking-[-0.05em] text-white/30 tabular-nums">{pad(i + 1)}</span>
+                <div>
+                  <h3 className="text-lg font-medium tracking-tight">{h.title}</h3>
+                  <p className="mt-1.5 text-[0.95rem] leading-relaxed text-white/55">{h.body}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </SplitQuote>
+      </V3Block>
+
+      {/* Running band into the FAQ */}
+      <section aria-label="Persoonlijk en duidelijk" className="border-y border-white/10 py-8">
+        <TypeMarquee tone="dark" words={["Persoonlijk", "Verzekerd", "CMR", "24/7 depot"]} images={["/fleet/hero-highway-sunset.jpg", "/images/generated/depot-night.jpg", "/fleet/sunset-parking.jpg"]} />
       </section>
 
       {/* 4 · FAQ */}

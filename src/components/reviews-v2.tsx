@@ -5,6 +5,7 @@ import { useState } from "react";
 import { googleReviewsUrl, reviews, reviewsIntro, segmentLabel, segments, type ReviewSegment } from "@/data/reviews";
 import { site } from "@/lib/site";
 import { Reveal } from "./scroll";
+import { MosaicGallery, SplitQuote } from "./signature";
 import { V2Arrow, V2Block, V2Button, V2Head, V2Hero } from "./v2-kit";
 
 /*
@@ -30,6 +31,7 @@ function Stars({ count, className = "size-3.5", dim = "text-zinc-300" }: { count
 export default function ReviewsV2() {
   const [filter, setFilter] = useState<Filter>("alle");
   const shown = filter === "alle" ? reviews : reviews.filter((r) => r.segment === filter);
+  const spotlight = reviews.find((r) => r.segment === "zakelijk") ?? reviews[0];
   const tabs: { id: Filter; label: string; count: number }[] = [
     { id: "alle", label: "Alle", count: reviews.length },
     ...segments.map((s) => ({ id: s.id, label: s.label, count: reviews.filter((r) => r.segment === s.id).length })),
@@ -69,6 +71,18 @@ export default function ReviewsV2() {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Spotlight quote — portrait beside an oversized quote (an existing review from the data) */}
+        <div className="mb-16 border-b border-zinc-200 pb-16">
+          <SplitQuote
+            radius="rounded-md"
+            image="/images/generated/dealer-loading.jpg"
+            alt="Een SUV wordt bij een autohandelaar op een Mcars-transporter geladen"
+            quote={spotlight.quote}
+            name={spotlight.author}
+            role={segmentLabel(spotlight.segment)}
+          />
         </div>
 
         <div className="grid gap-px overflow-hidden rounded-md border border-zinc-200 bg-zinc-200 sm:grid-cols-2 lg:grid-cols-3">
@@ -137,18 +151,17 @@ export default function ReviewsV2() {
             );
           })}
         </div>
-        <div className="mt-px grid grid-cols-2 gap-px overflow-hidden rounded-md border border-zinc-200 bg-zinc-200 lg:grid-cols-4">
-          {[
-            { value: site.reviews.score, label: "gemiddeld op Google" },
-            { value: String(site.reviews.count), label: "Google-reviews" },
-            { value: site.reviews.clients, label: "klanten geholpen" },
-            { value: String(site.founded), label: "actief sinds" },
-          ].map((s) => (
-            <div key={s.label} className="bg-white p-5 sm:p-7">
-              <p className="text-4xl font-light tracking-[-0.04em] tabular-nums sm:text-5xl">{s.value}</p>
-              <p className="mt-2 text-sm text-zinc-500">{s.label}</p>
-            </div>
-          ))}
+        <div className="mt-4">
+          <MosaicGallery
+            radius="rounded-md"
+            images={[
+              { title: "Particulieren", image: "/images/generated/key-handover.jpg", alt: "Sleuteloverdracht bij een particuliere klant" },
+              { title: "Dealers", image: "/images/generated/dealer-loading.jpg", alt: "Laden bij een autohandelaar" },
+              { title: "Klassiekers", image: "/images/generated/oldtimer-loading.jpg", alt: "Een klassieke sportwagen wordt geladen" },
+              { title: "Opvolging", image: "/images/generated/customer-update.jpg", alt: "Een klant krijgt een update over haar transport" },
+            ]}
+            figure={{ value: site.reviews.score, label: "Gemiddeld op Google", body: `${site.reviews.count} reviews · ${site.reviews.clients} klanten · actief sinds ${site.founded}` }}
+          />
         </div>
       </V2Block>
     </div>
