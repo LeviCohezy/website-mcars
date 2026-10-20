@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { nav } from "@/lib/site";
+import { nav, site } from "@/lib/site";
 import NavPill from "./nav-pill";
 
 /**
@@ -47,7 +47,12 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
     };
   }, [pathname]);
 
-  useEffect(() => setMobileOpen(false), [pathname]);
+  // Close the drawer whenever the route changes (state-during-render, no effect).
+  const [drawerPath, setDrawerPath] = useState(pathname);
+  if (drawerPath !== pathname) {
+    setDrawerPath(pathname);
+    setMobileOpen(false);
+  }
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/");
@@ -73,6 +78,16 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
         {/* Left: dark pill nav (with Diensten/Routes/Ontdek dropdowns) */}
         <div className="pointer-events-auto">
           <NavPill />
+          {/* Mobile: one-tap call on the left balances the menu button on the right */}
+          <a
+            href={site.phoneHref}
+            aria-label={`Bel ${site.name}: ${site.phone}`}
+            className="flex size-11 items-center justify-center rounded-2xl bg-zinc-900/85 text-white backdrop-blur-xl transition-colors hover:bg-zinc-800 md:hidden"
+          >
+            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
+            </svg>
+          </a>
         </div>
 
         {/* Right: Tracking + Offerte */}
@@ -80,7 +95,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           <Link
             ref={trackingRef}
             href="/contact"
-            className={`hidden items-center gap-2 rounded-2xl border py-2 pr-2 pl-5 text-sm font-medium backdrop-blur-xl transition-colors duration-300 sm:flex ${
+            className={`hidden items-center gap-2 rounded-2xl border py-2 pr-2 pl-5 text-sm font-medium backdrop-blur-xl transition-colors duration-300 lg:flex ${
               overLight
                 ? "border-zinc-200 bg-white/70 text-zinc-950 hover:bg-zinc-100"
                 : "border-white/20 bg-white/10 text-white hover:bg-white/20"
@@ -91,7 +106,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           </Link>
           <Link
             href="/offerte"
-            className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
+            className="hidden items-center gap-2 rounded-2xl bg-zinc-950 md:flex py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
           >
             Offerte aanvragen
             <ArrowChip />
@@ -101,7 +116,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
             onClick={() => setMobileOpen((v) => !v)}
             aria-label="Menu"
             aria-expanded={mobileOpen}
-            className="flex size-10 items-center justify-center rounded-2xl bg-zinc-900/85 text-white backdrop-blur-xl transition-colors hover:bg-zinc-800 lg:hidden"
+            className="flex size-11 items-center justify-center rounded-2xl bg-zinc-900/85 text-white backdrop-blur-xl transition-colors hover:bg-zinc-800 lg:hidden"
           >
             <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
               {mobileOpen ? <path d="M6 6l12 12M6 18L18 6" /> : <path d="M4 7h16M4 12h16M4 17h16" />}

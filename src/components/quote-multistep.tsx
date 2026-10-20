@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { DayPicker } from "react-day-picker";
 import { nl } from "react-day-picker/locale";
 import "react-day-picker/style.css";
+import { asset } from "@/lib/asset";
 
 const inputClass =
   "w-full rounded-xl bg-white/5 px-4 py-3 text-sm text-white ring-1 ring-white/10 transition-colors placeholder:text-zinc-500 focus:ring-2 focus:ring-white/60 focus:outline-none";
@@ -408,16 +409,15 @@ export default function QuoteMultistep({ aside }: { aside?: React.ReactNode } = 
     window.location.href = mailto;
   };
 
-  const hiddenWhenInactive = (i: number) => (step === i ? "" : "hidden");
-
   return (
     <section id="offerte" className="px-5 py-16 sm:px-8 sm:py-24">
       <div className="grid items-stretch gap-12 lg:grid-cols-[3fr_2fr] lg:gap-16">
         {/* Left (60%): the Mcars transporter, unless the page supplies its own column */}
         {aside ?? (
           <div className="flex flex-col justify-center">
+            {/* eslint-disable-next-line @next/next/no-img-element -- illustration sized by width with intrinsic aspect ratio */}
             <img
-              src="/fast-shipping.png"
+              src={asset("/fast-shipping.png")}
               alt="Mcars autotransporter geladen met wagens"
               className="w-full"
             />

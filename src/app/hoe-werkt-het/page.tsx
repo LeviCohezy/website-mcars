@@ -5,84 +5,21 @@ import PageShell from "@/components/page-shell";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { Eyebrow, SectionHeader } from "@/components/ui";
-import type { Faq, Highlight, ProcessStep } from "@/data/services";
+import VariantSwitcher from "@/components/variant-switcher";
+import { cmr, cmrIntro, stappen, werkwijze, werkwijzeFaq as faq } from "@/data/process";
 
-export const metadata: Metadata = {
-  title: "Hoe werkt het? | Mcars",
-  description:
-    "Van offerte tot levering in zes stappen. Ontdek hoe Mcars uw autotransport aanpakt — persoonlijk, met CMR-vrachtbrief en duidelijke afspraken.",
-};
-
-const stappen: ProcessStep[] = [
-  {
-    title: "Offerte aanvragen",
-    body: "U vraagt uw transport aan via de website, telefonisch of via WhatsApp. U krijgt binnen 24 uur een persoonlijk antwoord met de prijs en de mogelijke planning.",
-  },
-  {
-    title: "Goedkeuring offerte",
-    body: "Bent u akkoord met de prijs en de planning? Dan geeft u groen licht en zetten we uw transport in gang. Geen verplichtingen tot u bevestigt.",
-  },
-  {
-    title: "Transport inplannen",
-    body: "Na uw goedkeuring leggen we samen de ophaaldatum vast. Op de dag zelf belt de chauffeur wanneer hij ter plaatse zal zijn, zodat u niets hoeft te missen.",
-  },
-  {
-    title: "Ophaling + controle & CMR-documenten",
-    body: "We halen uw wagen op waar u wil. Ter plaatse maken we de CMR-vrachtbrief op en inspecteren en fotograferen we het voertuig als intern bewijsstuk van de staat bij vertrek.",
-  },
-  {
-    title: "Levering op locatie",
-    body: "We bellen wanneer we bij het leveradres aankomen. Levering op ons depot in Roeselare kan 24/7 en is doorgaans voordeliger dan levering aan huis.",
-  },
-  {
-    title: "Betaling / factuur",
-    body: "Particulieren betalen vóór ophaling, bedrijven eenvoudig op factuur. De praktische afspraken stemmen we vooraf duidelijk met u af.",
-  },
-];
-
-const cmr: Highlight[] = [
-  {
-    icon: "shield",
-    title: "Bewijst de ophaling",
-    body: "De CMR-vrachtbrief toont zwart op wit dat uw wagen door Mcars is opgehaald, wanneer en waar. Zekerheid voor beide partijen.",
-  },
-  {
-    icon: "box",
-    title: "Documenteert de staat",
-    body: "Bij ophaling leggen we de staat van het voertuig vast met foto's. Zo staat de toestand bij vertrek onbetwistbaar geregistreerd.",
-  },
-  {
-    icon: "check",
-    title: "Belangrijk bij een claim",
-    body: "Mocht er ooit discussie of schade zijn, dan is de CMR met de vastgelegde staat het referentiepunt. Rustig geregeld op voorhand.",
-  },
-];
-
-const faq: Faq[] = [
-  {
-    q: "Welke documenten heb ik nodig?",
-    a: "Enkel een CMR-vrachtbrief is nodig, en die maken wij bij ophaling op. Zo heeft u meteen bewijs dat uw wagen door Mcars is opgehaald.",
-  },
-  {
-    q: "Moet mijn wagen rijden om opgehaald te worden?",
-    a: "Nee. Verrolbare wagens trekken we met de lier op de transporter. Is de wagen volledig geblokkeerd, dan voorzien we een heftruck ter plaatse. Vermeld de staat bij uw aanvraag.",
-  },
-  {
-    q: "Kan ik op uw depot laten leveren of ophalen?",
-    a: "Ja. Levering en ophaling op ons depot in Roeselare kan 24/7 en is doorgaans voordeliger dan aan huis. Handig als u flexibel wil zijn.",
-  },
-];
+export const metadata: Metadata = werkwijze.seo;
 
 export default function HoeWerktHetPage() {
   return (
     <PageShell>
       <PageHero
-        eyebrow="Werkwijze"
-        title="Van aanvraag tot levering in zes stappen."
-        subtitle="Een duidelijke, persoonlijke aanpak zonder verrassingen — van uw eerste aanvraag tot de afrekening."
+        eyebrow={werkwijze.eyebrow}
+        title={werkwijze.title}
+        subtitle={werkwijze.subtitle}
         crumbs={[{ label: "Hoe werkt het" }]}
-        image="/fleet/countryside.jpg"
-        badges={[{ label: "Antwoord binnen 24 uur" }, { label: "CMR bij elke ophaling" }]}
+        image={werkwijze.heroImage}
+        badges={werkwijze.badges.map((label) => ({ label }))}
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
@@ -110,7 +47,7 @@ export default function HoeWerktHetPage() {
       </Section>
 
       <Section space="none" bleed>
-        <MediaBand image="/fleet/city-loaded.jpg" line="Eén document, zwart op wit: de CMR-vrachtbrief." caption="Opgemaakt bij elke ophaling" />
+        <MediaBand image={werkwijze.bandImage} line="Eén document, zwart op wit: de CMR-vrachtbrief." caption="Opgemaakt bij elke ophaling" />
       </Section>
 
       {/* Why CMR */}
@@ -120,7 +57,7 @@ export default function HoeWerktHetPage() {
           index="01"
           lead="De CMR-vrachtbrief:"
           trail="uw zekerheid, zwart op wit."
-          intro="De CMR die we bij elke ophaling opmaken, legt vast wat, wanneer en in welke staat werd opgehaald — bescherming voor u én voor ons."
+          intro={cmrIntro}
           className="mb-16"
         />
         <HighlightGrid items={cmr} />
@@ -144,6 +81,7 @@ export default function HoeWerktHetPage() {
       </Section>
 
       <QuoteCta />
+      <VariantSwitcher sectionId="hoe-werkt-het" />
     </PageShell>
   );
 }

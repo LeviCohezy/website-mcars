@@ -47,10 +47,10 @@ function Tick() {
 }
 
 export default function DienstV3({ data }: { data: ServicePageData }) {
-  const { service, process, vehicleTypes, detailImage, details, practiceCase, safetyImage, faq, related } = data;
+  const { service, process, vehicleTypes, detailImage, detailAlt, details, practiceCase, safetyImage, safetyAlt, faq, related } = data;
 
   return (
-    <div className="overflow-hidden rounded-[1rem] bg-zinc-950 text-white">
+    <div className="overflow-clip rounded-[1rem] bg-zinc-950 text-white">
       {/* 1 · Hero — centred title over the photo, form bar and proof below */}
       <section id="prijs" className="relative flex min-h-[calc(100svh-1rem)] flex-col items-center justify-end px-5 pt-36 pb-8 text-center sm:px-10">
         <Image src={service.heroImage} alt={`${service.nav} door Mcars`} fill priority sizes="100vw" className="object-cover opacity-60" />
@@ -137,7 +137,7 @@ export default function DienstV3({ data }: { data: ServicePageData }) {
       <Block>
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
           <div className="relative min-h-[28rem] overflow-hidden rounded-2xl lg:sticky lg:top-24 lg:h-[80vh] lg:self-start">
-            <Image src={detailImage} alt={`${service.nav} door Mcars`} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
+            <Image src={detailImage} alt={detailAlt} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
           </div>
           <div>
             <Head label="Waarom Mcars" lead="Zo pakken we het aan," trail="rit na rit." />
@@ -241,7 +241,7 @@ export default function DienstV3({ data }: { data: ServicePageData }) {
       {/* 9 · Fleet & safety — photo band with big figures, safety points under */}
       <section className="relative">
         <div className="relative flex min-h-[80vh] flex-col justify-end overflow-hidden">
-          <Image src={safetyImage} alt="De vloot van Mcars" fill sizes="100vw" className="object-cover opacity-55" />
+          <Image src={safetyImage} alt={safetyAlt} fill sizes="100vw" className="object-cover opacity-55" />
           <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-zinc-950/60" />
           <div className="relative px-5 pb-14 sm:px-10 lg:px-14">
             <Head label="Vloot & veiligheid" lead="Zo beschermen we" trail="uw wagen." />

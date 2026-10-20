@@ -49,7 +49,7 @@ function Check({ className = "" }: { className?: string }) {
 }
 
 export default function DienstV2({ data }: { data: ServicePageData }) {
-  const { service, process, vehicleTypes, detailImage, details, practiceCase, safetyImage, faq, related } = data;
+  const { service, process, vehicleTypes, detailImage, detailAlt, details, practiceCase, safetyImage, safetyAlt, faq, related } = data;
 
   return (
     <div className="bg-white text-zinc-950">
@@ -102,7 +102,7 @@ export default function DienstV2({ data }: { data: ServicePageData }) {
 
         <div className="mt-14 grid gap-4 lg:grid-cols-2">
           <Reveal className="relative min-h-[26rem] overflow-hidden rounded-md bg-zinc-950">
-            <Image src={detailImage} alt={`${service.nav} door Mcars`} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
+            <Image src={detailImage} alt={detailAlt} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
           </Reveal>
 
           <Reveal delay={100} className="relative flex flex-col overflow-hidden rounded-md bg-zinc-950 p-8 text-white sm:p-12 lg:p-14">
@@ -299,7 +299,7 @@ export default function DienstV2({ data }: { data: ServicePageData }) {
         </div>
         <div className="mt-3 grid gap-3 lg:grid-cols-[1.2fr_1fr]">
           <Reveal className="relative min-h-80 overflow-hidden rounded-md bg-zinc-950">
-            <Image src={safetyImage} alt="Een transporter van Mcars" fill sizes="(min-width: 1024px) 55vw, 100vw" className="object-cover" />
+            <Image src={safetyImage} alt={safetyAlt} fill sizes="(min-width: 1024px) 55vw, 100vw" className="object-cover" />
           </Reveal>
           <ul className="rounded-md border border-zinc-200 px-6">
             {details.safety.map((s) => (

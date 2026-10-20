@@ -6,18 +6,22 @@
  * All respect prefers-reduced-motion.
  */
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 
+const REDUCED_MOTION = "(prefers-reduced-motion: reduce)";
+const subscribeReducedMotion = (cb: () => void) => {
+  const mq = window.matchMedia(REDUCED_MOTION);
+  mq.addEventListener("change", cb);
+  return () => mq.removeEventListener("change", cb);
+};
+
+/** False on the server and during hydration, then the live media query. */
 function useReducedMotion() {
-  const [reduced, setReduced] = useState(false);
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduced(mq.matches);
-    const on = () => setReduced(mq.matches);
-    mq.addEventListener("change", on);
-    return () => mq.removeEventListener("change", on);
-  }, []);
-  return reduced;
+  return useSyncExternalStore(
+    subscribeReducedMotion,
+    () => window.matchMedia(REDUCED_MOTION).matches,
+    () => false
+  );
 }
 
 /** Fade/slide an element in when it scrolls into view. */
@@ -122,18 +126,14 @@ export function CountUp({
   const [display, setDisplay] = useState(match ? match[1] + "0" + match[3] : value);
   const reduced = useReducedMotion();
 
+  // Nothing to animate (or reduced motion): show the final value as-is.
+  const showFinal = !match || reduced;
+
   useEffect(() => {
-    if (!match) {
-      setDisplay(value);
-      return;
-    }
+    if (!match || reduced) return;
     const [, pre, num, post] = match;
     const decimals = num.includes(",") ? 1 : 0;
     const target = parseFloat(num.replace(",", "."));
-    if (reduced) {
-      setDisplay(value);
-      return;
-    }
     const el = ref.current;
     if (!el) return;
     const io = new IntersectionObserver(([e]) => {
@@ -156,7 +156,7 @@ export function CountUp({
     return () => io.disconnect();
   }, [value, reduced]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  return <span ref={ref} className={className}>{display}</span>;
+  return <span ref={ref} className={className}>{showFinal ? value : display}</span>;
 }
 
 /** Infinite horizontal marquee of items (optionally reversed). */

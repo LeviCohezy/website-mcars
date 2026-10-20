@@ -9,34 +9,23 @@ import PageShell from "@/components/page-shell";
 import { Parallax, Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { Eyebrow, SectionHeader } from "@/components/ui";
-import { flagAsset, getRoute, routeSlugs } from "@/data/routes";
-import { getService } from "@/data/services";
+import VariantSwitcher from "@/components/variant-switcher";
+import { flagAsset } from "@/data/routes";
+import { getRoutePage, routeMetadata, routeStaticParams } from "@/lib/route-page";
 
-export function generateStaticParams() {
-  return routeSlugs.map((slug) => ({ slug }));
-}
+// Route 01 — cinematic. Versions 02 (/v2) and 03 (/v3) render the same data.
+export const generateStaticParams = routeStaticParams;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const r = getRoute(slug);
-  if (!r) return {};
-  return { title: r.seo.title, description: r.seo.description };
+  return routeMetadata(params);
 }
 
 export default async function RoutePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const route = getRoute(slug);
-  if (!route) notFound();
-
-  const isCorridor = route.kind === "corridor";
-  const related = [
-    ...route.related.filter((s) => s !== route.slug).map(getRoute).filter((r) => r !== undefined).map((r) => ({
-      href: `/routes/${r.slug}`, label: r.nav, meta: "Route",
-    })),
-    ...(route.relatedServices ?? []).map(getService).filter((s) => s !== undefined).map((s) => ({
-      href: `/diensten/${s.slug}`, label: s.nav, meta: "Dienst",
-    })),
-  ];
+  const data = getRoutePage(slug);
+  if (!data) notFound();
+  const { route, isCorridor, quote, detailImage } = data;
+  const related = data.related.map(({ href, label, meta }) => ({ href, label, meta }));
 
   return (
     <PageShell>
@@ -75,9 +64,9 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
           <div className="lg:relative lg:self-stretch">
             <HeroQuoteBar
               layout="card"
-              title={isCorridor ? "Prijs voor deze route" : `Prijs naar ${route.place!.name}`}
+              title={quote.title}
               service={route.nav}
-              defaults={isCorridor ? { van: route.from!.name, naar: route.to!.name } : { naar: route.place!.name }}
+              defaults={quote.defaults}
               className="lg:absolute lg:right-0 lg:bottom-0"
             />
           </div>
@@ -107,7 +96,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
       <Section space="none" bleed>
         <div className="relative overflow-hidden rounded-[2rem] bg-zinc-950">
           <Parallax speed={0.06} className="absolute inset-x-0 -top-[15%] h-[130%]">
-            <Image src={route.heroImage} alt="" fill sizes="100vw" className="object-cover opacity-30" />
+            <Image src={detailImage} alt="" fill sizes="100vw" className="object-cover opacity-30" />
           </Parallax>
           <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/85 to-zinc-950/40" />
           <div className="relative z-10 grid gap-12 px-6 py-16 sm:px-10 sm:py-24 lg:grid-cols-[1fr_3fr] lg:gap-10 lg:px-14">
@@ -172,6 +161,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
       )}
 
       <QuoteCta title="Klaar om deze route te boeken?" image={route.heroImage} />
+      <VariantSwitcher sectionId="route" base={`/routes/${slug}`} />
     </PageShell>
   );
 }

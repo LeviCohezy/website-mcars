@@ -1,3 +1,5 @@
+import { asset } from "@/lib/asset";
+
 const quickLinks = [
   ["Home", "#"],
   ["Diensten", "#diensten"],
@@ -20,8 +22,9 @@ export default function SiteFooterLight() {
             cab (no trailer) to its left at the same cap height. Fades
             top-white → bottom-dark so it dissolves into the zinc-950 base. */}
         <div className="flex items-end justify-center gap-[2vw] px-2 pt-16 sm:px-4 lg:pt-20">
+          {/* eslint-disable-next-line @next/next/no-img-element -- vw-sized decorative truck */}
           <img
-            src="/truck-no-trailer.png"
+            src={asset("/truck-no-trailer.png")}
             alt=""
             aria-hidden
             className="w-auto flex-none select-none object-contain"
@@ -57,12 +60,12 @@ export default function SiteFooterLight() {
           {/* Quick links */}
           <div>
             <p className="text-base font-semibold text-white">Navigatie</p>
-            <ul className="mt-5 flex flex-col gap-3">
+            <ul className="mt-3 flex flex-col sm:mt-5 sm:gap-3">
               {quickLinks.map(([label, href]) => (
                 <li key={label}>
                   <a
                     href={href}
-                    className="text-sm text-zinc-400 transition-colors hover:text-white"
+                    className="inline-block py-3 text-sm text-zinc-400 transition-colors hover:text-white sm:py-0"
                   >
                     {label}
                   </a>
@@ -74,12 +77,12 @@ export default function SiteFooterLight() {
           {/* Support */}
           <div>
             <p className="text-base font-semibold text-white">Support</p>
-            <ul className="mt-5 flex flex-col gap-3">
+            <ul className="mt-3 flex flex-col sm:mt-5 sm:gap-3">
               {support.map(([label, href]) => (
                 <li key={label}>
                   <a
                     href={href}
-                    className="text-sm text-zinc-400 transition-colors hover:text-white"
+                    className="inline-block py-3 text-sm text-zinc-400 transition-colors hover:text-white sm:py-0"
                   >
                     {label}
                   </a>
@@ -124,7 +127,7 @@ export default function SiteFooterLight() {
                 </svg>
                 <a
                   href="mailto:info@mcars.be"
-                  className="transition-colors hover:text-white"
+                  className="inline-block py-3 transition-colors hover:text-white sm:py-0"
                 >
                   info@mcars.be
                 </a>
@@ -168,7 +171,7 @@ export default function SiteFooterLight() {
                 key={social.label}
                 href={social.href}
                 aria-label={social.label}
-                className="flex size-9 items-center justify-center rounded-full text-zinc-400 ring-1 ring-white/15 transition-colors hover:text-white"
+                className="flex size-11 items-center justify-center rounded-full text-zinc-400 ring-1 ring-white/15 transition-colors hover:text-white"
               >
                 <svg className="size-4.5" viewBox="0 0 24 24" fill="currentColor">
                   <path d={social.path} />

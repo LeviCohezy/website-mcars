@@ -348,11 +348,11 @@ function ChecklistColumns({ cols }: { cols: { title: string; items: string[] }[]
 }
 
 /** "Vloot & veiligheid": the service's key safety point first, then the fleet facts. */
-export function SafetySection({ items, image }: { items: Item[]; image: string }) {
+export function SafetySection({ items, image, alt = "Een autotransporter van Mcars" }: { items: Item[]; image: string; alt?: string }) {
   return (
     <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:gap-16">
       <Reveal className="relative min-h-[22rem] overflow-hidden rounded-[1.5rem] bg-zinc-950">
-        <Image src={image} alt="Een transporter van Mcars" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+        <Image src={image} alt={alt} fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
       </Reveal>
       <ul className="grid content-start gap-x-10 border-t border-zinc-200 sm:grid-cols-2">
         {items.map((s) => (

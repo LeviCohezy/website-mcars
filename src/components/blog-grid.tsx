@@ -1,34 +1,17 @@
+import Image from "next/image";
+import Link from "next/link";
+import { formatDate, sortedArticles } from "@/data/blog";
 import SectionPill from "./section-pill";
 
-export const posts = [
-  {
-    img: "01",
-    tag: "Documenten",
-    date: "12 juli 2026",
-    title: "Wat is een CMR en waarom is het zo belangrijk?",
-    excerpt:
-      "De vrachtbrief bewijst dat uw wagen is opgehaald en documenteert de staat bij vertrek. Zo werkt het.",
-    href: "/blog/wat-is-een-cmr",
-  },
-  {
-    img: "06",
-    tag: "Routes",
-    date: "28 juni 2026",
-    title: "Uw auto laten transporteren naar Spanje: zo werkt het",
-    excerpt:
-      "Van offerte tot levering aan uw tweede verblijf: dit mag u verwachten van een transport richting Spanje.",
-    href: "/blog/auto-transporteren-naar-spanje",
-  },
-  {
-    img: "04",
-    tag: "Niet-rijdend",
-    date: "14 juni 2026",
-    title: "Niet-rijdende wagen verplaatsen? Dit zijn uw opties",
-    excerpt:
-      "Met een winch trekken we ook wagens zonder draaiende motor veilig op de oplegger. Dit moet u weten.",
-    href: "/blog/niet-rijdende-wagen-verplaatsen",
-  },
-];
+/** The three newest articles (src/data/blog.ts), shaped for the home grid. */
+export const posts = sortedArticles.slice(0, 3).map((a) => ({
+  image: a.image,
+  tag: a.category,
+  date: formatDate(a.date),
+  title: a.title,
+  excerpt: a.excerpt,
+  href: `/blog/${a.slug}`,
+}));
 
 export default function BlogGrid() {
   return (
@@ -49,17 +32,18 @@ export default function BlogGrid() {
 
       <div className="mt-12 grid gap-5 md:grid-cols-3">
         {posts.map((post) => (
-          <a
+          <Link
             key={post.href}
             href={post.href}
             className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white transition-shadow hover:shadow-lg focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:outline-none"
           >
-            <div className="overflow-hidden">
-              <img
-                src={`/services/${post.img}.jpg`}
+            <div className="relative aspect-[3/2] overflow-hidden">
+              <Image
+                src={post.image}
                 alt=""
-                loading="lazy"
-                className="aspect-[3/2] w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"
+                fill
+                sizes="(min-width: 768px) 33vw, 100vw"
+                className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"
               />
             </div>
             <div className="flex flex-1 flex-col p-6">
@@ -90,7 +74,7 @@ export default function BlogGrid() {
                 </svg>
               </span>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </section>

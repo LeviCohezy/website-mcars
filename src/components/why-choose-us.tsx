@@ -1,3 +1,5 @@
+import { asset } from "@/lib/asset";
+
 const points = [
   "Verzekerd transport",
   "Persoonlijke aanpak",
@@ -41,7 +43,7 @@ export default function WhyChooseUs() {
       <div className="relative overflow-hidden rounded-3xl bg-zinc-950">
         {/* Aerial shot of the Mcars transporter, zoomed on the truck */}
         <video
-          src="/good_but_make_him_drive_faster.mp4"
+          src={asset("/good_but_make_him_drive_faster.mp4")}
           aria-hidden
           autoPlay
           muted

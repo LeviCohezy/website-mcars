@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { asset } from "@/lib/asset";
 
 const destinations = [
   { name: "Frankrijk", pct: 100, tag: "Wekelijks" },
@@ -95,8 +96,9 @@ export default function RoutesSection() {
         </div>
 
         {/* The Mcars transporter */}
+        {/* eslint-disable-next-line @next/next/no-img-element -- illustration sized by width with intrinsic aspect ratio */}
         <img
-          src="/fast-shipping.png"
+          src={asset("/fast-shipping.png")}
           alt="Mcars autotransporter geladen met wagens"
           className="w-full max-w-2xl justify-self-center lg:justify-self-end"
         />

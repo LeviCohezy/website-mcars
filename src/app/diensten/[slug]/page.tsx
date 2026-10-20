@@ -26,7 +26,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const { slug } = await params;
   const data = getServicePage(slug);
   if (!data) notFound();
-  const { service, process, vehicleTypes, detailImage, details, practiceCase, situationsImage, safetyImage, faq, related } = data;
+  const { service, process, vehicleTypes, detailImage, detailAlt, details, practiceCase, situationsImage, safetyImage, safetyAlt, faq, related } = data;
 
   return (
     <PageShell>
@@ -69,7 +69,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           intro={service.intro}
           audience={service.audience}
           image={safetyImage}
-          imageAlt={`${service.nav} door Mcars`}
+          imageAlt={safetyAlt}
           stats={service.stats}
         />
       </Section>
@@ -90,7 +90,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <Section space="none" bleed>
         <HighlightPanel
           image={detailImage}
-          alt={`${service.nav} door Mcars`}
+          alt={detailAlt}
           label="Waarom Mcars"
           lead="Zo pakken we het aan,"
           trail="rit na rit."
@@ -148,7 +148,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       {/* 9 · Fleet & safety */}
       <Section space="loose">
         <SectionHeader label="Vloot & veiligheid" lead="Zo beschermen we" trail="uw wagen." className="mb-12" />
-        <SafetySection items={details.safety} image={safetyImage} />
+        <SafetySection items={details.safety} image={safetyImage} alt={safetyAlt} />
       </Section>
 
       {/* 10 · From practice */}
@@ -168,7 +168,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       {related.length > 0 && (
         <Section space="none">
           <SectionHeader label="Ontdek ook" lead="Verwante diensten" trail="en routes." className="mb-10" />
-          <RelatedCards items={related} />
+          <RelatedCards items={related.map((r) => ({ ...r, image: r.portrait ?? r.image }))} />
         </Section>
       )}
 

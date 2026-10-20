@@ -6,7 +6,9 @@ import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { Eyebrow, SectionHeader } from "@/components/ui";
 import { site } from "@/lib/site";
+import VariantSwitcher from "@/components/variant-switcher";
 import ContactForm from "./contact-form";
+import { contactMethods as methods, contactPhotos, mapsEmbedSrc as mapsSrc } from "./methods";
 
 export const metadata: Metadata = {
   title: "Contact | Mcars",
@@ -14,19 +16,7 @@ export const metadata: Metadata = {
     "Liever rechtstreeks contact? Bel, mail of app Mcars. Bekijk onze openingsuren, ons depot in Roeselare en neem vrijblijvend contact op voor uw autotransport.",
 };
 
-type Method = { label: string; value: string; sub?: string; href?: string };
-
-const methods: Method[] = [
-  { label: "Telefoon", value: site.phone, sub: "Rechtstreeks een planner aan de lijn.", href: site.phoneHref },
-  { label: "WhatsApp", value: "Stuur een bericht", sub: "Snel een foto of vraag doorsturen.", href: site.whatsapp },
-  { label: "E-mail", value: site.email, sub: "Persoonlijk antwoord binnen 24 uur.", href: `mailto:${site.email}` },
-  { label: "Depot", value: `${site.address.street}, ${site.address.city}`, sub: `${site.address.country} — standplaats van onze vloot.` },
-  { label: "Openingsuren", value: site.hours, sub: site.hoursNote },
-];
-
 export default function ContactPage() {
-  const mapsSrc = `https://www.google.com/maps?q=${encodeURIComponent(site.address.mapsQuery)}&output=embed`;
-
   return (
     <PageShell>
       <PageHero
@@ -34,7 +24,7 @@ export default function ContactPage() {
         title="Liever rechtstreeks contact?"
         subtitle="Bel, mail of app ons — of laat hieronder een bericht achter. We antwoorden persoonlijk, snel en zonder verplichting."
         crumbs={[{ label: "Contact" }]}
-        image="/fleet/depot-dusk.jpg"
+        image={contactPhotos.hero.src}
         badges={[{ label: site.phone }, { label: site.hours }]}
       />
 
@@ -104,6 +94,7 @@ export default function ContactPage() {
           />
         </div>
       </Section>
+      <VariantSwitcher sectionId="contact" />
     </PageShell>
   );
 }

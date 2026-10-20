@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { asset } from "@/lib/asset";
 
 const pains = [
   {
@@ -216,7 +217,7 @@ export default function PainPoints() {
                 <div
                   className="absolute inset-0"
                   style={{
-                    backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.85), rgb(9 9 11 / 0.25) 45%, rgb(9 9 11 / 0.1)), url(/services/${pain.agitation.img}.jpg), linear-gradient(160deg, #3f3f46, #18181b)`,
+                    backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.85), rgb(9 9 11 / 0.25) 45%, rgb(9 9 11 / 0.1)), url(${asset(`/services/${pain.agitation.img}.jpg`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
                     backgroundSize: "cover, cover, cover",
                     backgroundPosition: "center, center, center",
                   }}

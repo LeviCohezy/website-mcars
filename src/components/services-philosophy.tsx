@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import Link from "next/link";
+import { asset } from "@/lib/asset";
 import RegionMapDark from "./region-map-dark";
 
 const REGIONS = [
@@ -30,9 +32,9 @@ const MAP_TITLE_WORDS = [
 ];
 
 const rowServices = [
-  { label: "Oldtimers & specials", href: "/diensten/oldtimers" },
-  { label: "Niet-rijdende voertuigen", href: "/diensten/niet-rijdend" },
-  { label: "Spoed & repatriëring", href: "/diensten/spoed" },
+  { label: "Oldtimers & specials", href: "/diensten/oldtimer-transport" },
+  { label: "Niet-rijdende voertuigen", href: "/diensten/niet-rijdende-auto" },
+  { label: "Spoed & repatriëring", href: "/diensten/spoedtransport" },
 ];
 
 const REDUCED_MOTION = "(prefers-reduced-motion: reduce)";
@@ -85,11 +87,11 @@ function PhotoCard({
   className?: string;
 }) {
   return (
-    <a
+    <Link
       href={href}
       className={`group relative block rounded-xl transition-[filter] duration-300 hover:brightness-110 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none ${className}`}
       style={{
-        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.65), rgb(9 9 11 / 0.1) 45%), url(/about/${img}.png), linear-gradient(160deg, #3f3f46, #18181b)`,
+        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.65), rgb(9 9 11 / 0.1) 45%), url(${asset(`/about/${img}.png`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
         backgroundSize: "cover, cover, cover",
         backgroundPosition: "center, center, center",
       }}
@@ -105,7 +107,7 @@ function PhotoCard({
         aria-hidden
         className="sonar-ring pointer-events-none absolute inset-0 rounded-[inherit] ring-2 ring-zinc-950/60 opacity-0"
       />
-    </a>
+    </Link>
   );
 }
 
@@ -289,7 +291,7 @@ export default function ServicesPhilosophy() {
               img="fleet"
               tag="Vloot"
               caption="Vloottransport voor uw volledige wagenpark"
-              href="/diensten/vloot"
+              href="/diensten/fleet-wagenpark"
               className="h-full min-h-[300px] lg:min-h-[430px]"
             />
           </div>
@@ -299,21 +301,21 @@ export default function ServicesPhilosophy() {
               img="import"
               tag="Import"
               caption="Import vanuit heel Europa"
-              href="/diensten/import"
+              href="/diensten/auto-importeren"
               className="min-h-[200px]"
             />
             <PhotoCard
               img="export"
               tag="Export"
               caption="Export naar elke bestemming"
-              href="/diensten/export"
+              href="/diensten/auto-exporteren"
               className="min-h-[200px]"
             />
           </div>
 
           <div {...enter(3)} className={`grid grid-rows-3 gap-4 ${enter(3).className}`}>
             {rowServices.map((service) => (
-              <a
+              <Link
                 key={service.label}
                 href={service.href}
                 className="group relative flex items-start justify-between gap-4 rounded-xl bg-zinc-100 p-5 transition-colors duration-300 hover:bg-zinc-200/70 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none"
@@ -326,7 +328,7 @@ export default function ServicesPhilosophy() {
                   aria-hidden
                   className="sonar-ring pointer-events-none absolute inset-0 rounded-[inherit] ring-2 ring-zinc-950/50 opacity-0"
                 />
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -388,8 +390,9 @@ export default function ServicesPhilosophy() {
 
           <div>
           <div className="flex justify-center py-10 sm:py-12">
+            {/* eslint-disable-next-line @next/next/no-img-element -- logo sized by height (w-auto), needs intrinsic aspect ratio */}
             <img
-              src="/logo.png"
+              src={asset("/logo.png")}
               alt="Mcars"
               className="h-20 w-auto invert mix-blend-screen sm:h-24"
             />

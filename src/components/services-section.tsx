@@ -6,6 +6,8 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
+import Link from "next/link";
+import { asset } from "@/lib/asset";
 
 const TEXT_MAIN = "Voor elk voertuig de juiste aanpak.";
 const TEXT_SUB = "Ontdek onze transportoplossingen in België en heel Europa.";
@@ -16,49 +18,49 @@ const services = [
     title: "Import",
     full: "Import België & Europa",
     desc: "Vanuit heel Europa naar België",
-    href: "/diensten/import",
+    href: "/diensten/auto-importeren",
   },
   {
     nr: "02",
     title: "Export",
     full: "Export België & Europa",
     desc: "Van België naar heel Europa",
-    href: "/diensten/export",
+    href: "/diensten/auto-exporteren",
   },
   {
     nr: "03",
     title: "Oldtimers & speciale voertuigen",
     full: "Oldtimer & speciaal voertuigtransport",
     desc: "Zorgvuldig vervoer voor bijzondere wagens",
-    href: "/diensten/oldtimers",
+    href: "/diensten/oldtimer-transport",
   },
   {
     nr: "04",
     title: "Niet-rijdende voertuigen",
     full: "Transport van niet-rijdende voertuigen",
     desc: "Ook zonder draaiende motor veilig geladen",
-    href: "/diensten/niet-rijdend",
+    href: "/diensten/niet-rijdende-auto",
   },
   {
     nr: "05",
     title: "Spoed & repatriëring",
     full: "Spoedtransport & repatriëring",
     desc: "Snel ter plaatse, ook in het buitenland",
-    href: "/diensten/spoed",
+    href: "/diensten/spoedtransport",
   },
   {
     nr: "06",
     title: "Vloot & wagenpark",
     full: "Vloot- & wagenparktransport",
     desc: "Meerdere voertuigen in één transport",
-    href: "/diensten/vloot",
+    href: "/diensten/fleet-wagenpark",
   },
   {
     nr: "07",
     title: "Eventtransport",
     full: "Eventtransport",
     desc: "Op tijd en onberispelijk op elk event",
-    href: "/diensten/event",
+    href: "/diensten/eventtransport",
   },
 ];
 
@@ -191,8 +193,9 @@ export default function ServicesSection() {
     <section id="diensten" ref={wrapperRef} className="relative h-[350vh]">
       <div className="sticky top-0 flex h-dvh flex-col overflow-hidden pt-14 sm:pt-20">
         {/* Truck outline behind the cards; they cover it as they rise */}
+        {/* eslint-disable-next-line @next/next/no-img-element -- decorative outline sized by width with intrinsic aspect ratio */}
         <img
-          src="/truck-outline.png"
+          src={asset("/truck-outline.png")}
           alt=""
           aria-hidden
           className="pointer-events-none absolute top-[55%] left-1/2 w-[72%] max-w-4xl -translate-x-1/2 -translate-y-1/2 select-none opacity-20 mix-blend-multiply [filter:brightness(1.06)]"
@@ -238,7 +241,7 @@ function ServiceCard({
   onCardFocus: () => void;
 }) {
   return (
-    <a
+    <Link
       href={href}
       aria-label={`${full} — ${desc}. Bekijk service.`}
       onFocus={onCardFocus}
@@ -249,7 +252,7 @@ function ServiceCard({
         aria-hidden
         className="absolute inset-0 transition-transform duration-500 motion-safe:group-hover:scale-[1.03]"
         style={{
-          backgroundImage: `url(/services/${nr}.jpg), linear-gradient(160deg, #3f3f46, #18181b)`,
+          backgroundImage: `url(${asset(`/services/${nr}.jpg`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
           backgroundSize: "cover, cover",
           backgroundPosition: "center, center",
         }}
@@ -296,6 +299,6 @@ function ServiceCard({
           </span>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

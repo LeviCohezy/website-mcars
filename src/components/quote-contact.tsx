@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { DayPicker } from "react-day-picker";
 import { nl } from "react-day-picker/locale";
 import "react-day-picker/style.css";
+import { asset } from "@/lib/asset";
 
 const inputClass =
   "w-full rounded-xl bg-white px-4 py-3 text-sm text-zinc-950 ring-1 ring-zinc-200 transition-colors placeholder:text-zinc-400 focus:ring-2 focus:ring-zinc-950 focus:outline-none";
@@ -394,7 +395,7 @@ export default function QuoteContact() {
           aria-hidden
           className="absolute inset-0"
           style={{
-            backgroundImage: `url(/services/01.jpg), linear-gradient(160deg, #3f3f46, #18181b)`,
+            backgroundImage: `url(${asset("/services/01.jpg")}), linear-gradient(160deg, #3f3f46, #18181b)`,
             backgroundSize: "cover, cover",
             backgroundPosition: "center, center",
           }}

@@ -6,6 +6,7 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
+import { asset } from "@/lib/asset";
 
 const TEXT_MAIN = "Van aanvraag tot levering.";
 const TEXT_SUB = "Zo verloopt uw transport, stap voor stap.";
@@ -165,8 +166,9 @@ export default function ProcessSection() {
     <section id="proces" ref={wrapperRef} className="relative h-[350vh]">
       <div className="sticky top-0 flex h-dvh flex-col overflow-hidden pt-14 sm:pt-20">
         {/* Truck outline behind the cards; they cover it as they rise */}
+        {/* eslint-disable-next-line @next/next/no-img-element -- decorative outline sized by width with intrinsic aspect ratio */}
         <img
-          src="/truck-outline.png"
+          src={asset("/truck-outline.png")}
           alt=""
           aria-hidden
           className="pointer-events-none absolute top-[55%] left-1/2 w-[72%] max-w-4xl -translate-x-1/2 -translate-y-1/2 select-none opacity-20 mix-blend-multiply [filter:brightness(1.06)]"
@@ -212,7 +214,7 @@ function StepCard({
         aria-hidden
         className="absolute inset-0 transition-transform duration-500 motion-safe:group-hover:scale-[1.03]"
         style={{
-          backgroundImage: `url(/services/${img}.jpg), linear-gradient(160deg, #3f3f46, #18181b)`,
+          backgroundImage: `url(${asset(`/services/${img}.jpg`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
           backgroundSize: "cover, cover",
           backgroundPosition: "center, center",
         }}

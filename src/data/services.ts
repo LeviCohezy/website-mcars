@@ -29,7 +29,8 @@ export type Service = {
   subtitle: string;
   intro: string;
   heroImage: string;
-  gallery?: string[];
+  /** Secondary photos; the first one is the page's detail image. Keep heroes real-fleet. */
+  gallery?: { src: string; alt: string }[];
   audience: string;
   vehicleTypes?: string[];
   highlights: Highlight[];
@@ -68,6 +69,7 @@ export const services: Service[] = [
     intro:
       "Kocht u een wagen in het buitenland, verhuist u uw auto naar uw tweede verblijf of wilt u gewoon niet zelf honderden kilometers rijden? Wij halen uw voertuig op waar u wil en leveren het af waar het moet zijn — met korte lijnen en persoonlijk contact van begin tot eind.",
     heroImage: "/fleet/city-street.jpg",
+    gallery: [{ src: "/images/generated/key-handover.jpg", alt: "Een chauffeur van Mcars overhandigt de sleutels aan de klant op de oprit" }],
     audience: "Voor iedereen die één voertuig veilig verplaatst wil zien — zonder zelf achter het stuur te kruipen.",
     highlights: [
       { icon: "shield", title: "Verzekerd & gedocumenteerd", body: "Elke wagen wordt bij ophaling geïnspecteerd, gefotografeerd en op een CMR-vrachtbrief gezet. Uw bewijs dat alles correct verliep." },
@@ -107,6 +109,7 @@ export const services: Service[] = [
     intro:
       "Aankopen bij leasingmaatschappijen, wagens tussen vestigingen verplaatsen of einde-leasingvoertuigen ophalen: wij rijden wekelijks over heel België en Europa en nemen het transport volledig uit handen. Vaste chauffeurs, correcte documenten en één aanspreekpunt.",
     heroImage: "/fleet/depot-dusk.jpg",
+    gallery: [{ src: "/images/generated/planning-office.jpg", alt: "Een planner van Mcars legt de ophalingen voor handelaars op de vaste routes" }],
     audience: "Voor garages, autohandelaars, concessies en leasingmaatschappijen die betrouwbaar en herhaaldelijk voertuigen laten vervoeren.",
     highlights: [
       { icon: "truck", title: "Meerdere wagens per rit", body: "Onze transporters laden meerdere voertuigen tegelijk — efficiënt en voordeliger per wagen." },
@@ -146,6 +149,7 @@ export const services: Service[] = [
     intro:
       "Een koopje gevonden in het buitenland? Wij halen uw aankoop veilig op bij de verkoper en brengen hem naar België of Nederland. U hoeft niet zelf te reizen, te huren of risico's te nemen op een onbekende weg — wij regelen het transport van deur tot deur.",
     heroImage: "/fleet/germany-autobahn.jpg",
+    gallery: [{ src: "/images/generated/pickup-inspection.jpg", alt: "Een chauffeur van Mcars controleert de wagen samen met de verkoper en maakt de CMR op" }],
     audience: "Voor particulieren en handelaars die een voertuig in het buitenland kopen en het veilig thuis willen laten leveren.",
     highlights: [
       { icon: "globe", title: "Heel Europa als ophaalgebied", body: "Duitsland, Nederland, Frankrijk, Italië, Spanje en verder — wij rijden er wekelijks naartoe." },
@@ -211,6 +215,7 @@ export const services: Service[] = [
     intro:
       "Een wagen die niet meer start, schade opliep of al jaren stilstaat? Geen probleem. Onze transporters zijn uitgerust met een lier waarmee we verrolbare wagens veilig op de vrachtwagen trekken. Niet-verrolbaar? Dan voorzien we een heftruck ter plaatse.",
     heroImage: "/fleet/depot-wet.jpg",
+    gallery: [{ src: "/images/generated/strap-closeup.jpg", alt: "Een chauffeur van Mcars zet het wiel van een wagen vast met een spanband" }],
     audience: "Voor particulieren, garages en depannagediensten met een niet-rijdend of niet-verrolbaar voertuig.",
     vehicleTypes: ["Schadewagens", "Defecte voertuigen", "Projectwagens", "Stilstaande oldtimers", "Niet-verrolbare wagens", "Sloop & restauratieprojecten"],
     highlights: [
@@ -244,6 +249,7 @@ export const services: Service[] = [
     intro:
       "Een klassieker verdient de grootste zorg. Of het nu naar een beurs, een verkoop of een oldtimerrit gaat: wij behandelen uw wagen alsof het onze eigen is. Zacht laden en professioneel vastzetten, zodat uw klassieker aankomt zoals hij vertrok.",
     heroImage: "/fleet/dramatic-sky.jpg",
+    gallery: [{ src: "/images/generated/strap-closeup.jpg", alt: "Een chauffeur van Mcars zet het wiel van een wagen zorgvuldig vast met een spanband" }],
     audience: "Voor verzamelaars, liefhebbers en handelaars in klassieke en waardevolle wagens.",
     highlights: [
       { icon: "star", title: "Behandeld als een collector", body: "Zachte gordels, lage laadhoek en ervaren chauffeurs die weten hoe kwetsbaar een klassieker is." },
@@ -276,6 +282,7 @@ export const services: Service[] = [
     intro:
       "Voor de meeste wagens is open transport de slimste keuze: efficiënt, betrouwbaar en voordelig. Uw voertuig reist mee op onze meerlaagse Kässbohrer-transporters, professioneel vastgezet en volledig gedocumenteerd — de standaard waarmee we dagelijks door Europa rijden.",
     heroImage: "/fleet/countryside.jpg",
+    gallery: [{ src: "/images/generated/aerial-motorway.jpg", alt: "Een open Mcars-transporter met wagens op de snelweg, van bovenaf gezien" }],
     audience: "Voor iedereen die een courant voertuig vlot en voordelig wil laten vervoeren.",
     highlights: [
       { icon: "truck", title: "Meerdere wagens, lagere kost", body: "Door te combineren op onze transporters houden we de prijs per wagen scherp." },
@@ -349,6 +356,7 @@ export const services: Service[] = [
     intro:
       "Moet een wagen er snel zijn, of strandde een voertuig in het buitenland? Wij schakelen snel. Voor dringende ophalingen en repatriëringen zetten we onze routes en chauffeurs flexibel in zodat uw wagen zo snel mogelijk op de juiste plaats staat.",
     heroImage: "/fleet/hero-highway-sunset.jpg",
+    gallery: [{ src: "/images/generated/night-motorway.jpg", alt: "Een Mcars-transporter rijdt 's nachts over een natte snelweg" }],
     audience: "Voor wie een dringend transport nodig heeft of een wagen moet laten repatriëren, in binnen- of buitenland.",
     highlights: [
       { icon: "clock", title: "Snel geschakeld", body: "We bekijken meteen wat mogelijk is en zetten onze planning flexibel in voor dringende ritten." },
@@ -387,6 +395,7 @@ export const services: Service[] = [
     intro:
       "Een volledig wagenpark verplaatsen, leasewagens omruilen of meerdere voertuigen tussen vestigingen verschuiven? Wij plannen het als één vlotte operatie. Meerdere wagens per rit, vaste chauffeurs en één aanspreekpunt dat de hele beweging overziet.",
     heroImage: "/fleet/sunset-parking.jpg",
+    gallery: [{ src: "/images/generated/depot-night.jpg", alt: "Vier Mcars-autotransporters 's avonds voor het verlichte depot" }],
     audience: "Voor bedrijven, leasingmaatschappijen en fleetbeheerders die meerdere voertuigen tegelijk laten vervoeren.",
     highlights: [
       { icon: "truck", title: "Meerdere wagens per rit", body: "Onze transporters laden tot meerdere voertuigen tegelijk — efficiënt en planbaar." },

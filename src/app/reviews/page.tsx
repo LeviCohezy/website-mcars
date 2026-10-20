@@ -5,13 +5,12 @@ import PageShell from "@/components/page-shell";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { ArrowButton, Eyebrow, SectionHeader } from "@/components/ui";
+import VariantSwitcher from "@/components/variant-switcher";
+import { googleReviewsUrl, reviews, reviewsHeroImage, reviewsIntro, reviewsMetadata, segmentLabel, segments } from "@/data/reviews";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Reviews | Mcars",
-  description:
-    "Wat klanten over Mcars zeggen. Google-beoordeling 4,7 uit 37 reviews — van particulieren en van dealers en bedrijven.",
-};
+// Reviews 01 — cinematic. Content lives in src/data/reviews.ts (shared with v2/v3).
+export const metadata: Metadata = reviewsMetadata;
 
 /** Inline gold star row. `count` filled stars out of 5. */
 function Stars({ count = 5, className = "size-5" }: { count?: number; className?: string }) {
@@ -31,68 +30,16 @@ function Stars({ count = 5, className = "size-5" }: { count?: number; className?
   );
 }
 
-type Review = {
-  quote: string;
-  author: string;
-  segment: "Particulier" | "Autohandelaar";
-  stars: number;
-};
-
-const reviews: Review[] = [
-  {
-    quote:
-      "Vlotte communicatie van bij de offerte tot de levering. De chauffeur belde de dag zelf om het uur af te spreken en onze wagen kwam perfect aan.",
-    author: "K. V. — particulier",
-    segment: "Particulier",
-    stars: 5,
-  },
-  {
-    quote:
-      "Onze klassieker moest naar het buitenland en werd behandeld alsof het hun eigen wagen was. Netjes vastgezet, geen enkel krasje. Absolute aanrader.",
-    author: "Particulier",
-    segment: "Particulier",
-    stars: 5,
-  },
-  {
-    quote:
-      "Als garage werken we al jaren met Mcars. Ophaling en levering verlopen stipt, de administratie klopt altijd en de chauffeurs zijn correct.",
-    author: "Autohandelaar",
-    segment: "Autohandelaar",
-    stars: 5,
-  },
-  {
-    quote:
-      "Snel antwoord op mijn aanvraag met een duidelijke prijs en planning. Geen verrassingen achteraf. Zo hoort het.",
-    author: "D. M. — particulier",
-    segment: "Particulier",
-    stars: 5,
-  },
-  {
-    quote:
-      "Meerdere wagens in één rit laten ophalen op verschillende adressen — alles kwam samen aan zoals afgesproken. Betrouwbare partner voor onze concessie.",
-    author: "Dealer / bedrijf",
-    segment: "Autohandelaar",
-    stars: 5,
-  },
-  {
-    quote:
-      "Een niet-rijdende wagen laten transporteren leek me lastig, maar ze trokken hem probleemloos op de oplegger. Vriendelijk en professioneel van begin tot eind.",
-    author: "Particulier",
-    segment: "Particulier",
-    stars: 4,
-  },
-];
-
 export default function ReviewsPage() {
   const [featured, ...rest] = reviews;
   return (
     <PageShell>
       <PageHero
         eyebrow="Reviews"
-        title="Wat klanten over ons zeggen."
-        subtitle="Een 4,7 op Google, opgebouwd door particulieren én dealers die hun wagen aan ons toevertrouwden."
+        title={reviewsIntro.title}
+        subtitle={reviewsIntro.subtitle}
         crumbs={[{ label: "Reviews" }]}
-        image="/fleet/spain-palms.jpg"
+        image={reviewsHeroImage}
         badges={[{ label: `${site.reviews.score} / 5 op Google` }, { label: `${site.reviews.clients} klanten` }]}
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
@@ -111,10 +58,10 @@ export default function ReviewsPage() {
             </Reveal>
             <Reveal delay={100}>
               <p className="max-w-md text-lg leading-relaxed text-zinc-500">
-                Onze beoordelingen worden live via Google bijgewerkt. Hieronder een representatieve greep uit wat klanten schrijven.
+                {reviewsIntro.ratingNote}
               </p>
               <div className="mt-8">
-                <ArrowButton href="https://www.google.com/search?q=Mcars+Roeselare+reviews">Bekijk op Google</ArrowButton>
+                <ArrowButton href={googleReviewsUrl}>Bekijk op Google</ArrowButton>
               </div>
             </Reveal>
           </div>
@@ -151,26 +98,39 @@ export default function ReviewsPage() {
           trail="en van dealers en bedrijven."
           className="mb-16"
         />
-        <div className="grid gap-x-10 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-          {rest.map((r, i) => (
-            <Reveal key={r.quote} delay={(i % 3) * 80}>
-              <figure className="flex h-full flex-col border-t border-zinc-950 pt-6">
-                <div className="flex items-center justify-between">
-                  <Stars count={r.stars} className="size-3.5" />
-                  <span className="text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">{r.segment}</span>
-                </div>
-                <blockquote className="mt-8 flex-1 text-lg leading-relaxed tracking-tight text-zinc-800">&ldquo;{r.quote}&rdquo;</blockquote>
-                <figcaption className="mt-8 text-sm font-medium text-zinc-950">{r.author}</figcaption>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
+        {segments.map((seg, idx) => {
+          const items = rest.filter((r) => r.segment === seg.id);
+          if (items.length === 0) return null;
+          return (
+            <div key={seg.id} className={`grid gap-10 lg:grid-cols-[1fr_3fr] lg:gap-10 ${idx > 0 ? "mt-20 border-t border-zinc-200 pt-12" : ""}`}>
+              <div>
+                <p className="text-xl font-medium tracking-tight text-zinc-950">{seg.label}</p>
+                <p className="mt-3 max-w-xs text-sm leading-relaxed text-zinc-500">{seg.body}</p>
+              </div>
+              <div className="grid gap-x-10 gap-y-14 sm:grid-cols-2">
+                {items.map((r, i) => (
+                  <Reveal key={r.quote} delay={(i % 2) * 80}>
+                    <figure className="flex h-full flex-col border-t border-zinc-950 pt-6">
+                      <div className="flex items-center justify-between">
+                        <Stars count={r.stars} className="size-3.5" />
+                        <span className="text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">{segmentLabel(r.segment)}</span>
+                      </div>
+                      <blockquote className="mt-8 flex-1 text-lg leading-relaxed tracking-tight text-zinc-800">&ldquo;{r.quote}&rdquo;</blockquote>
+                      <figcaption className="mt-8 text-sm font-medium text-zinc-950">{r.author}</figcaption>
+                    </figure>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          );
+        })}
         <p className="mt-16 text-sm text-zinc-400">
-          De weergegeven reacties zijn geanonimiseerd. De actuele reviews worden live via Google bijgewerkt.
+          {reviewsIntro.disclaimer}
         </p>
       </Section>
 
       <QuoteCta />
+      <VariantSwitcher sectionId="reviews" />
     </PageShell>
   );
 }

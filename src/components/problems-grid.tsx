@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import SectionPill from "./section-pill";
+import { asset } from "@/lib/asset";
 
 const problems = [
   {
@@ -115,8 +116,9 @@ export default function ProblemsGrid() {
               </div>
             );
             const photo = (
+              // eslint-disable-next-line @next/next/no-img-element -- plain responsive photo; static export has no image optimizer
               <img
-                src={`/services/${problem.img}.jpg`}
+                src={asset(`/services/${problem.img}.jpg`)}
                 alt={problem.title}
                 loading="lazy"
                 className="aspect-square max-h-[46vh] w-full rounded-xl object-cover"

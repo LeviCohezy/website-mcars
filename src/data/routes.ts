@@ -28,6 +28,10 @@ export type Route = {
   subtitle: string;
   intro: string;
   heroImage: string;
+  /** Secondary landscape photo for in-page sections (falls back to a fleet photo). */
+  detailImage?: string;
+  /** Optional 2:3 photo for tall card slots (e.g. related-route cards). */
+  portraitImage?: string;
   frequency: string;
   stats: Stat[];
   cities: string[];
@@ -69,6 +73,13 @@ const heroByFlag: Record<Flag, string> = {
   zwitserland: "/fleet/valley-sunset.jpg",
 };
 
+/** A fitting secondary photo per destination country (corridor detail sections). */
+const detailByFlag: Partial<Record<Flag, string>> = {
+  belgie: "/images/generated/aerial-motorway.jpg",
+  nederland: "/images/generated/night-motorway.jpg",
+  frankrijk: "/images/generated/airport-nice.jpg",
+};
+
 export const routes: Route[] = [
   // ─── Country pages ───────────────────────────────────────────────
   {
@@ -81,6 +92,8 @@ export const routes: Route[] = [
     intro:
       "België is ons thuisgebied. Vanuit Roeselare rijden we dagelijks door het hele land om wagens op te halen en te leveren: bij particulieren, garages en leasingdepots. Korte lijnen, snelle planning en een chauffeur die belt wanneer hij ter plaatse is.",
     heroImage: "/fleet/city-loaded.jpg",
+    detailImage: "/images/generated/aerial-motorway.jpg",
+    portraitImage: "/images/generated/flemish-square.jpg",
     frequency: "Dagelijks",
     stats: [
       { value: "Dagelijks", label: "onderweg in België" },
@@ -110,6 +123,7 @@ export const routes: Route[] = [
     intro:
       "Nederland ligt op onze vaste routes. Of u nu een wagen koopt in Nederland, er een naartoe stuurt of hem verder Europa in wil brengen: wij rijden er structureel naartoe en nemen het transport volledig uit handen.",
     heroImage: "/fleet/port-docks.jpg",
+    detailImage: "/images/generated/night-motorway.jpg",
     frequency: "Meermaals per week",
     stats: [
       { value: "Vaste route", label: "België ↔ Nederland" },
@@ -139,6 +153,7 @@ export const routes: Route[] = [
     intro:
       "Frankrijk is onze specialiteit. Kortweg: we zitten elke week over heel Frankrijk. We halen wagens op in de stockageparken (o.a. BCA, TEA), bij particulieren en handelaars, en brengen ze naar België, Nederland of verder. Met Franstalige chauffeurs verloopt alles vlot ter plaatse.",
     heroImage: "/fleet/countryside-highway.jpg",
+    detailImage: "/images/generated/airport-nice.jpg",
     frequency: "Wekelijks, heel Frankrijk",
     stats: [
       { value: "Wekelijks", label: "over heel Frankrijk" },
@@ -171,6 +186,7 @@ export const routes: Route[] = [
     intro:
       "Voor tweedeverblijvers en liefhebbers rijden we uw wagen veilig tussen België en Spanje. Ideaal wanneer u zorgeloos wil vliegen en uw eigen auto bij aankomst klaar wil hebben staan. Een vaste route waarop we uw voertuig zorgvuldig en verzekerd vervoeren.",
     heroImage: "/fleet/barcelona-sagrada.jpg",
+    detailImage: "/images/generated/night-motorway.jpg",
     frequency: "Vaste route",
     stats: [
       { value: "Vaste route", label: "tot Noord-Spanje" },
@@ -200,6 +216,7 @@ export const routes: Route[] = [
     intro:
       "Een aankoop uit Italië, een oldtimer voor een rally of een wagen die de Alpen over moet? We rijden Italië op aanvraag en plannen het slim in op onze Europese routes. Zorgvuldig, verzekerd en tot op het afgesproken adres.",
     heroImage: "/fleet/mountain-suvs.jpg",
+    detailImage: "/images/generated/alpine-pass.jpg",
     frequency: "Op aanvraag",
     stats: [
       { value: "Heel Europa", label: "als werkgebied" },
@@ -229,6 +246,7 @@ export const routes: Route[] = [
     intro:
       "België en Nederland richting Frankrijk tot Noord-Spanje is onze niche, maar we rijden overal: Duitsland, Italië, Polen, Denemarken, Noorwegen, Zweden en verder. Geen vaste beperkingen — we staan open voor nieuwe bestemmingen en plannen uw transport in op onze Europese routes.",
     heroImage: "/fleet/sunset-field.jpg",
+    detailImage: "/images/generated/alpine-pass.jpg",
     frequency: "Heel Europa",
     stats: [
       { value: "10+", label: "landen bereden" },
@@ -277,6 +295,7 @@ export const routes: Route[] = [
       subtitle: `Een vaste corridor op onze wekelijkse planning.`,
       intro: `${fromName} naar ${toName} rijden we structureel. Wij halen uw wagen op in ${fromName} en leveren hem af in ${toName} — van deur tot deur, verzekerd en met CMR-bewijs. U hoeft zelf niet te rijden, te huren of risico's te nemen.`,
       heroImage: heroByFlag[c.to],
+      detailImage: detailByFlag[c.to],
       frequency: "Vaste corridor",
       stats: [
         { value: "Vaste route", label: `${fromName} → ${toName}` },

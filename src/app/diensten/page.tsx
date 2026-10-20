@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { QuoteCta } from "@/components/blocks";
+import { ProcessTimeline, QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { SectionHeader } from "@/components/ui";
-import { services, type Service } from "@/data/services";
+import VariantSwitcher from "@/components/variant-switcher";
+import { defaultProcess, defaultVehicleTypes, services, type Service } from "@/data/services";
 
 export const metadata: Metadata = {
   title: "Diensten — autotransport op maat | Mcars",
@@ -52,7 +53,22 @@ export default function DienstenOverview() {
         </div>
       </Section>
 
+      <Section space="flush-top">
+        <SectionHeader label="Voertuigen" index="02" lead="Wat we vervoeren." trail="Rijdend of niet." className="mb-12" />
+        <ul className="grid border-t border-zinc-950 sm:grid-cols-2 sm:gap-x-10 lg:grid-cols-4">
+          {defaultVehicleTypes.map((v) => (
+            <li key={v} className="border-b border-zinc-200 py-4 text-lg font-medium tracking-tight text-zinc-950">{v}</li>
+          ))}
+        </ul>
+      </Section>
+
+      <Section>
+        <SectionHeader label="Werkwijze" index="03" lead="Eén werkwijze," trail="voor elke dienst." className="mb-14" />
+        <ProcessTimeline steps={defaultProcess} />
+      </Section>
+
       <QuoteCta />
+      <VariantSwitcher sectionId="diensten" />
     </PageShell>
   );
 }

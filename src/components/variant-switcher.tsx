@@ -2,8 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { getSection } from "@/lib/variants";
+
+// The query string only changes through navigation, which re-renders us anyway.
+const noopSubscribe = () => () => {};
+const readIsPreview = () => new URLSearchParams(window.location.search).has("preview");
+// On the server (and during hydration) assume preview → nothing renders, so
+// thumbnails never flash the switcher.
+const serverIsPreview = () => true;
 
 /**
  * The circular button in the bottom-right corner of every design. Tap it and it
@@ -15,11 +22,7 @@ import { getSection } from "@/lib/variants";
 export default function VariantSwitcher({ sectionId, base }: { sectionId: string; base?: string }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [isPreview, setIsPreview] = useState(true); // assume preview until proven otherwise → no flash in thumbnails
-
-  useEffect(() => {
-    setIsPreview(new URLSearchParams(window.location.search).has("preview"));
-  }, []);
+  const isPreview = useSyncExternalStore(noopSubscribe, readIsPreview, serverIsPreview);
 
   // Close on Escape for keyboard users.
   useEffect(() => {

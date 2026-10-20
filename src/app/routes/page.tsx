@@ -7,6 +7,7 @@ import PageShell from "@/components/page-shell";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { SectionHeader } from "@/components/ui";
+import VariantSwitcher from "@/components/variant-switcher";
 import { corridorRoutes, countryRoutes, flagAsset } from "@/data/routes";
 
 export const metadata: Metadata = {
@@ -97,6 +98,7 @@ export default function RoutesOverview() {
       </Section>
 
       <QuoteCta />
+      <VariantSwitcher sectionId="routes" />
     </PageShell>
   );
 }

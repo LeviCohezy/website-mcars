@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import SectionPill from "./section-pill";
+import { asset } from "@/lib/asset";
 
 const services = [
   {
@@ -117,8 +118,9 @@ export default function ServicesAccordion() {
               >
                 {isActive ? service.body : ""}
               </span>
+              {/* eslint-disable-next-line @next/next/no-img-element -- small thumbnail; static export has no image optimizer */}
               <img
-                src={`/services/${service.nr}.jpg`}
+                src={asset(`/services/${service.nr}.jpg`)}
                 alt=""
                 loading="lazy"
                 className={`h-28 w-44 rounded-xl object-cover transition-opacity duration-500 ${

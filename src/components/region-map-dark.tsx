@@ -8,6 +8,7 @@ import {
   useSyncExternalStore,
 } from "react";
 import { anchors, countries } from "@/data/europe-map";
+import { asset } from "@/lib/asset";
 
 // Luxembourg is not in the generated anchor set; same Mercator projection.
 const ANCHORS: Record<string, [number, number]> = {
@@ -125,7 +126,7 @@ function TruckDrive({ path }: { path: string }) {
         path={path}
       />
       <image
-        href="/truck-map.png"
+        href={asset("/truck-map.png")}
         x={-28}
         y={-28}
         width={56}
@@ -147,52 +148,53 @@ const subscribeReducedMotion = (cb: () => void) => {
 
 /* Flag patterns for the corridor countries — simple stripe/cross rects in
    objectBoundingBox coordinates so they stretch over each country shape. */
-function FlagDefs() {
-  const P = ({ id, children }: { id: string; children: React.ReactNode }) => (
-    <pattern
-      id={id}
-      patternUnits="objectBoundingBox"
-      patternContentUnits="objectBoundingBox"
-      width={1}
+const FlagPattern = ({ id, children }: { id: string; children: React.ReactNode }) => (
+  <pattern
+    id={id}
+    patternUnits="objectBoundingBox"
+    patternContentUnits="objectBoundingBox"
+    width={1}
+    height={1}
+  >
+    {children}
+  </pattern>
+);
+const hStripes = (colors: string[], sizes?: number[]) => {
+  const s = sizes ?? colors.map(() => 1 / colors.length);
+  let y = 0;
+  return colors.map((c, i) => {
+    const r = <rect key={i} x={0} y={y} width={1} height={s[i]} fill={c} />;
+    y += s[i];
+    return r;
+  });
+};
+const vStripes = (colors: string[]) =>
+  colors.map((c, i) => (
+    <rect
+      key={i}
+      x={i / colors.length}
+      y={0}
+      width={1 / colors.length}
       height={1}
-    >
-      {children}
-    </pattern>
-  );
-  const H = (colors: string[], sizes?: number[]) => {
-    const s = sizes ?? colors.map(() => 1 / colors.length);
-    let y = 0;
-    return colors.map((c, i) => {
-      const r = <rect key={i} x={0} y={y} width={1} height={s[i]} fill={c} />;
-      y += s[i];
-      return r;
-    });
-  };
-  const V = (colors: string[]) =>
-    colors.map((c, i) => (
-      <rect
-        key={i}
-        x={i / colors.length}
-        y={0}
-        width={1 / colors.length}
-        height={1}
-        fill={c}
-      />
-    ));
+      fill={c}
+    />
+  ));
+
+function FlagDefs() {
   return (
     <defs>
-      <P id="flag-BEL">{V(["#2d2926", "#fdda24", "#ef3340"])}</P>
-      <P id="flag-NLD">{H(["#ae1c28", "#f5f5f5", "#21468b"])}</P>
-      <P id="flag-DEU">{H(["#2d2926", "#dd0000", "#ffce00"])}</P>
-      <P id="flag-LUX">{H(["#ef3340", "#f5f5f5", "#00a2e1"])}</P>
-      <P id="flag-FRA">{V(["#0055a4", "#f5f5f5", "#ef4135"])}</P>
-      <P id="flag-ITA">{V(["#008c45", "#f4f9f0", "#cd212a"])}</P>
-      <P id="flag-ESP">{H(["#aa151b", "#f1bf00", "#aa151b"], [0.25, 0.5, 0.25])}</P>
-      <P id="flag-CHE">
+      <FlagPattern id="flag-BEL">{vStripes(["#2d2926", "#fdda24", "#ef3340"])}</FlagPattern>
+      <FlagPattern id="flag-NLD">{hStripes(["#ae1c28", "#f5f5f5", "#21468b"])}</FlagPattern>
+      <FlagPattern id="flag-DEU">{hStripes(["#2d2926", "#dd0000", "#ffce00"])}</FlagPattern>
+      <FlagPattern id="flag-LUX">{hStripes(["#ef3340", "#f5f5f5", "#00a2e1"])}</FlagPattern>
+      <FlagPattern id="flag-FRA">{vStripes(["#0055a4", "#f5f5f5", "#ef4135"])}</FlagPattern>
+      <FlagPattern id="flag-ITA">{vStripes(["#008c45", "#f4f9f0", "#cd212a"])}</FlagPattern>
+      <FlagPattern id="flag-ESP">{hStripes(["#aa151b", "#f1bf00", "#aa151b"], [0.25, 0.5, 0.25])}</FlagPattern>
+      <FlagPattern id="flag-CHE">
         <rect x={0} y={0} width={1} height={1} fill="#da291c" />
         <rect x={0.42} y={0.16} width={0.16} height={0.68} fill="#f5f5f5" />
         <rect x={0.16} y={0.42} width={0.68} height={0.16} fill="#f5f5f5" />
-      </P>
+      </FlagPattern>
     </defs>
   );
 }

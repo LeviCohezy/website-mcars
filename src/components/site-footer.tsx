@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 
 const services = nav[0].children!.slice(0, 7);
 const routes = nav[1].children!.slice(0, 6);
@@ -14,7 +15,8 @@ export default function SiteFooter() {
         <div className="grid gap-12 px-8 py-14 sm:px-12 lg:grid-cols-[1.6fr_1fr_1fr_1fr_1.2fr] lg:gap-8 lg:px-16">
           {/* Brand */}
           <div>
-            <img src="/logo.png" alt="Mcars" className="h-12 w-auto invert mix-blend-screen" />
+            {/* eslint-disable-next-line @next/next/no-img-element -- inverted logo, intrinsic width */}
+            <img src={asset("/logo.png")} alt="Mcars" className="h-12 w-auto invert mix-blend-screen" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-zinc-400">
               Autotransport van A naar B, op uw wensen afgestemd. Betrouwbaar,
               transparant en persoonlijk — al sinds {site.founded}.
@@ -28,7 +30,7 @@ export default function SiteFooter() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="flex size-10 items-center justify-center rounded-full bg-white/5 text-zinc-400 ring-1 ring-white/10 transition-colors hover:text-white"
+                  className="flex size-11 items-center justify-center rounded-full bg-white/5 text-zinc-400 ring-1 ring-white/10 transition-colors hover:text-white"
                 >
                   <svg className="size-5" viewBox="0 0 24 24" fill="currentColor"><path d={social.path} /></svg>
                 </a>
@@ -45,8 +47,8 @@ export default function SiteFooter() {
             <p className="text-sm font-medium tracking-widest text-zinc-500 uppercase">Contact</p>
             <ul className="mt-5 flex flex-col gap-3 text-sm text-zinc-400">
               <li>{site.address.street}<br />{site.address.city}, {site.address.country}</li>
-              <li><a href={`mailto:${site.email}`} className="transition-colors hover:text-white">{site.email}</a></li>
-              <li><a href={site.phoneHref} className="transition-colors hover:text-white">{site.phone}</a></li>
+              <li><a href={`mailto:${site.email}`} className="inline-block py-3 transition-colors hover:text-white sm:py-0">{site.email}</a></li>
+              <li><a href={site.phoneHref} className="inline-block py-3 transition-colors hover:text-white sm:py-0">{site.phone}</a></li>
               <li>{site.hours}</li>
               <li className="text-zinc-500">{site.hoursNote}</li>
             </ul>
@@ -56,10 +58,10 @@ export default function SiteFooter() {
         {/* Bottom bar */}
         <div className="flex flex-col gap-3 border-t border-white/10 px-8 py-6 text-xs text-zinc-500 sm:flex-row sm:items-center sm:justify-between sm:px-12 lg:px-16">
           <p>© 2026 {site.legalName} — BTW {site.vat}</p>
-          <div className="flex flex-wrap gap-6">
-            <Link href="/privacybeleid" className="transition-colors hover:text-white">Privacybeleid</Link>
-            <Link href="/cookiebeleid" className="transition-colors hover:text-white">Cookiebeleid</Link>
-            <Link href="/algemene-voorwaarden" className="transition-colors hover:text-white">Algemene voorwaarden</Link>
+          <div className="flex flex-wrap gap-x-6">
+            <Link href="/privacybeleid" className="py-3 transition-colors hover:text-white sm:py-0">Privacybeleid</Link>
+            <Link href="/cookiebeleid" className="py-3 transition-colors hover:text-white sm:py-0">Cookiebeleid</Link>
+            <Link href="/algemene-voorwaarden" className="py-3 transition-colors hover:text-white sm:py-0">Algemene voorwaarden</Link>
           </div>
         </div>
       </div>
@@ -71,10 +73,10 @@ function FooterCol({ title, links }: { title: string; links: { label: string; hr
   return (
     <div>
       <p className="text-sm font-medium tracking-widest text-zinc-500 uppercase">{title}</p>
-      <ul className="mt-5 flex flex-col gap-3">
+      <ul className="mt-3 flex flex-col sm:mt-5 sm:gap-3">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="text-sm text-zinc-400 transition-colors hover:text-white">
+            <Link href={l.href} className="block py-3 text-sm text-zinc-400 transition-colors hover:text-white sm:inline sm:py-0">
               {l.label}
             </Link>
           </li>
