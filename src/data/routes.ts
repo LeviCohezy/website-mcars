@@ -203,20 +203,20 @@ export const routes: Route[] = [
     frequency: "Op aanvraag",
     stats: [
       { value: "Heel Europa", label: "als werkgebied" },
-      { value: "Open of", label: "gesloten transport" },
+      { value: "Van deur", label: "tot deur" },
       { value: "Verzekerd", label: "& gedocumenteerd" },
     ],
     cities: ["Milaan", "Turijn", "Rome", "Bologna", "Verona", "Florence", "Napels", "Genua", "Venetië", "Modena"],
     highlights: commonHighlights,
     faq: [
       { q: "Rijden jullie naar heel Italië?", a: "We rijden Italië op aanvraag en plannen het in op onze Europese routes. Vraag gerust naar de mogelijkheden." },
-      { q: "Kan een oldtimer gesloten naar Italië?", a: "Ja. Voor waardevolle wagens bieden we gesloten transport aan." },
+      { q: "Kan een oldtimer mee naar Italië?", a: "Ja. We vervoeren oldtimers en klassiekers, zacht geladen en professioneel vastgezet — ook voor rally's en evenementen." },
     ],
     related: ["autotransport-europa", "autotransport-frankrijk", "autotransport-spanje"],
-    relatedServices: ["oldtimer-transport", "gesloten-autotransport"],
+    relatedServices: ["oldtimer-transport", "eventtransport"],
     seo: {
       title: "Autotransport Italië | Mcars",
-      description: "Autotransport van en naar Italië, op aanvraag door heel Europa. Open of gesloten, verzekerd en van deur tot deur.",
+      description: "Autotransport van en naar Italië, op aanvraag door heel Europa. Verzekerd en van deur tot deur.",
     },
   },
   {

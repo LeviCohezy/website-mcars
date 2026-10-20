@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { FaqAccordion, HighlightGrid, QuoteCta } from "@/components/blocks";
+import { FaqAccordion, HighlightGrid, MediaBand, QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
-import { Eyebrow, SplitHeading } from "@/components/ui";
+import { Reveal } from "@/components/scroll";
+import Section from "@/components/section";
+import { Eyebrow, SectionHeader } from "@/components/ui";
 import type { Faq, Highlight, ProcessStep } from "@/data/services";
 
 export const metadata: Metadata = {
@@ -77,62 +79,69 @@ export default function HoeWerktHetPage() {
       <PageHero
         eyebrow="Werkwijze"
         title="Van aanvraag tot levering in zes stappen."
-        subtitle="Een duidelijke, persoonlijke aanpak zonder verrassingen. Zo verloopt uw autotransport bij Mcars — van uw eerste aanvraag tot de afrekening."
+        subtitle="Een duidelijke, persoonlijke aanpak zonder verrassingen — van uw eerste aanvraag tot de afrekening."
         crumbs={[{ label: "Hoe werkt het" }]}
         image="/fleet/countryside.jpg"
+        badges={[{ label: "Antwoord binnen 24 uur" }, { label: "CMR bij elke ophaling" }]}
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
-      {/* 6-step process — left-rail number + content */}
-      <section className="px-5 py-16 sm:px-8 sm:py-24">
-        <div className="mb-12 max-w-2xl">
-          <Eyebrow>Zo werkt het</Eyebrow>
-          <SplitHeading className="mt-4" lead="Zes heldere stappen." trail="Van offerte tot levering." />
-        </div>
-
-        <ol className="flex flex-col gap-4">
+      {/* Six steps — large ruled rows */}
+      <Section space="loose">
+        <SectionHeader label="Zo werkt het" index="06" lead="Zes heldere stappen." trail="Van offerte tot levering." className="mb-14" />
+        <ol className="border-t border-zinc-950">
           {stappen.map((stap, i) => (
-            <li
+            <Reveal
+              as="li"
               key={stap.title}
-              className="group grid gap-5 rounded-3xl bg-zinc-100 p-7 transition-colors hover:bg-zinc-950 sm:grid-cols-[auto_1fr] sm:items-start sm:gap-8 sm:p-9"
+              delay={i * 60}
+              className="grid gap-4 border-b border-zinc-200 py-10 sm:grid-cols-[6rem_1fr] lg:grid-cols-[1fr_1.4fr_1.6fr] lg:gap-10 lg:py-12"
             >
-              <span className="flex size-14 flex-none items-center justify-center rounded-2xl bg-zinc-950 font-[family-name:var(--font-display)] text-xl text-white transition-colors group-hover:bg-white group-hover:text-zinc-950">
+              <span className="text-5xl font-light tracking-[-0.04em] tabular-nums text-zinc-300 sm:text-6xl lg:text-7xl">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <div>
-                <h3 className="text-xl font-semibold text-zinc-950 transition-colors group-hover:text-white sm:text-2xl">
-                  {stap.title}
-                </h3>
-                <p className="mt-2 max-w-2xl text-base leading-relaxed text-zinc-500 transition-colors group-hover:text-zinc-300">
-                  {stap.body}
-                </p>
-              </div>
-            </li>
+              <h3 className="text-2xl font-medium tracking-tight text-zinc-950 sm:text-3xl lg:pt-2">{stap.title}</h3>
+              <p className="max-w-xl text-base leading-relaxed text-zinc-500 sm:col-start-2 lg:col-start-auto lg:pt-3 lg:text-lg">
+                {stap.body}
+              </p>
+            </Reveal>
           ))}
         </ol>
-      </section>
+      </Section>
+
+      <Section space="none" bleed>
+        <MediaBand image="/fleet/city-loaded.jpg" line="Eén document, zwart op wit: de CMR-vrachtbrief." caption="Opgemaakt bij elke ophaling" />
+      </Section>
 
       {/* Why CMR */}
-      <section className="px-5 pb-16 sm:px-8 sm:pb-24">
-        <div className="mb-10 max-w-2xl">
-          <Eyebrow>Waarom deze aanpak</Eyebrow>
-          <SplitHeading className="mt-4" lead="De CMR-vrachtbrief:" trail="uw zekerheid, zwart op wit." />
-          <p className="mt-5 text-base leading-relaxed text-zinc-500">
-            Eén document maakt het verschil. De CMR-vrachtbrief die we bij elke ophaling opmaken,
-            legt vast wat, wanneer en in welke staat werd opgehaald — bescherming voor u én voor ons.
-          </p>
-        </div>
+      <Section space="loose">
+        <SectionHeader
+          label="Waarom deze aanpak"
+          index="01"
+          lead="De CMR-vrachtbrief:"
+          trail="uw zekerheid, zwart op wit."
+          intro="De CMR die we bij elke ophaling opmaken, legt vast wat, wanneer en in welke staat werd opgehaald — bescherming voor u én voor ons."
+          className="mb-16"
+        />
         <HighlightGrid items={cmr} />
-      </section>
+      </Section>
 
       {/* FAQ */}
-      <section className="px-5 pb-16 sm:px-8 sm:pb-24">
-        <div className="mb-10 max-w-2xl">
-          <Eyebrow>Veelgestelde vragen</Eyebrow>
-          <SplitHeading className="mt-4" lead="Nog vragen?" trail="Dit horen we het vaakst." />
+      <Section space="none">
+        <div className="grid gap-10 border-t border-zinc-200 pt-6 lg:grid-cols-[1fr_3fr]">
+          <div className="lg:sticky lg:top-28 lg:self-start">
+            <Eyebrow>Veelgestelde vragen</Eyebrow>
+          </div>
+          <div>
+            <h2 className="max-w-3xl text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl lg:text-[3.25rem]">
+              Nog vragen? <span className="text-zinc-400">Dit horen we het vaakst.</span>
+            </h2>
+            <div className="mt-12">
+              <FaqAccordion items={faq} />
+            </div>
+          </div>
         </div>
-        <FaqAccordion items={faq} />
-      </section>
+      </Section>
 
       <QuoteCta />
     </PageShell>

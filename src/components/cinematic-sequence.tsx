@@ -96,7 +96,7 @@ export const defaultCinematicConfig: CinematicConfig = {
     { title: "Autotransport particulier", body: "Eén wagen, veilig en zorgeloos van deur tot deur.", image: "/fleet/city-street.jpg", href: "/diensten/autotransport-particulier" },
     { title: "Dealers & handel", body: "Wekelijks transport voor garages en concessies.", image: "/fleet/depot-dusk.jpg", href: "/diensten/autotransport-dealers" },
     { title: "Import & export", body: "Van deur tot deur, door heel Europa.", image: "/fleet/germany-autobahn.jpg", href: "/diensten/auto-importeren" },
-    { title: "Gesloten transport", body: "Volledige bescherming voor exclusieve wagens.", image: "/fleet/actros-motion.jpg", href: "/diensten/gesloten-autotransport" },
+    { title: "Depannage", body: "Pech of ongeval? Wij takelen uw wagen weg.", image: "/fleet/actros-motion.jpg", href: "/diensten/depannage" },
     { title: "Spoed & repatriëring", body: "Snel geschakeld, waar u ook strandt.", image: "/fleet/hero-highway-sunset.jpg", href: "/diensten/spoedtransport" },
   ],
   mapHeadline: ["Wij rijden door heel Europa"],

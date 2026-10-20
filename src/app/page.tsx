@@ -1,4 +1,5 @@
 import AboutStats from "@/components/about-stats";
+import ClientMarquee from "@/components/client-marquee";
 import Hero from "@/components/hero";
 import PainPoints from "@/components/pain-points";
 import ProcessSection from "@/components/process-section";
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <div className="bg-white p-2">
       <Hero />
+      <ClientMarquee />
       <AboutStats />
       <PainPoints />
       <ServicesPhilosophy />

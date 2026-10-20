@@ -32,12 +32,12 @@ export default function ContactForm() {
   }
 
   const field =
-    "w-full rounded-2xl bg-white px-4 py-3 text-sm text-zinc-900 ring-1 ring-zinc-200 outline-none transition-shadow placeholder:text-zinc-400 focus:ring-2 focus:ring-zinc-950";
-  const label = "mb-1.5 block text-sm font-medium text-zinc-700";
+    "w-full border-0 border-b border-zinc-300 bg-transparent px-0 py-3 text-lg text-zinc-950 outline-none transition-colors placeholder:text-zinc-300 focus:border-zinc-950";
+  const label = "block text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase";
 
   return (
-    <form onSubmit={handleSubmit} className="rounded-[2rem] bg-zinc-100 p-6 sm:p-8">
-      <div className="grid gap-5 sm:grid-cols-2">
+    <form onSubmit={handleSubmit}>
+      <div className="grid gap-x-8 gap-y-8 sm:grid-cols-2">
         <div>
           <label htmlFor="naam" className={label}>
             Naam
@@ -101,7 +101,7 @@ export default function ContactForm() {
         </div>
       </div>
 
-      <div className="mt-5">
+      <div className="mt-8">
         <label htmlFor="bericht" className={label}>
           Bericht
         </label>
@@ -109,7 +109,7 @@ export default function ContactForm() {
           id="bericht"
           name="bericht"
           required
-          rows={5}
+          rows={4}
           value={bericht}
           onChange={(e) => setBericht(e.target.value)}
           className={`${field} resize-y`}
@@ -119,7 +119,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="group mt-6 inline-flex items-center gap-3 rounded-full bg-zinc-950 py-3 pr-3 pl-7 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
+        className="group mt-10 inline-flex items-center gap-3 rounded-full bg-zinc-950 py-2 pr-2 pl-6 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
       >
         Bericht versturen
         <span className="flex size-8 flex-none items-center justify-center rounded-full bg-white text-zinc-950">

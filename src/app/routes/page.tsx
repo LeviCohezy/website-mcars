@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { QuoteCta } from "@/components/blocks";
-import Icon from "@/components/icon";
+import { MediaBand, QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
+import { Reveal } from "@/components/scroll";
+import Section from "@/components/section";
+import { SectionHeader } from "@/components/ui";
 import { corridorRoutes, countryRoutes, flagAsset } from "@/data/routes";
 
 export const metadata: Metadata = {
@@ -12,6 +14,12 @@ export const metadata: Metadata = {
   description:
     "Autotransport in België, Nederland, Frankrijk, Spanje, Italië en heel Europa, plus vaste corridors tussen de landen. Bekijk alle routes van Mcars.",
 };
+
+const Arrow = () => (
+  <span className="flex size-9 flex-none items-center justify-center rounded-full border border-zinc-300 text-zinc-500 transition-colors duration-300 group-hover:border-zinc-950 group-hover:bg-zinc-950 group-hover:text-white">
+    <svg className="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+  </span>
+);
 
 export default function RoutesOverview() {
   return (
@@ -23,65 +31,70 @@ export default function RoutesOverview() {
         subtitle="Onze niche: België en Nederland richting Frankrijk tot Noord-Spanje. En verder rijden we overal naartoe."
         crumbs={[{ label: "Routes" }]}
         video="/hero.mp4"
-        bigWord="EUROPA"
-        scrollCue
+        badges={[{ label: `${countryRoutes.length} bestemmingen` }, { label: `${corridorRoutes.length} vaste corridors` }]}
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
-      {/* Country destinations */}
-      <section className="px-5 py-16 sm:px-8 sm:py-20">
-        <div className="mb-10 max-w-2xl">
-          <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">Landen</p>
-          <h2 className="mt-3 text-3xl font-medium tracking-tight text-zinc-950 sm:text-4xl">
-            Autotransport per bestemming.
-          </h2>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {countryRoutes.map((r) => (
-            <Link
-              key={r.slug}
-              href={`/routes/${r.slug}`}
-              className="group flex items-center gap-4 rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-950"
-            >
-              <Image src={flagAsset[r.place!.flag]} alt={r.place!.name} width={64} height={64} className="h-12 w-auto flex-none" />
-              <div className="min-w-0 flex-1">
-                <h3 className="text-base font-semibold text-zinc-950 transition-colors group-hover:text-white">{r.place!.name}</h3>
-                <p className="truncate text-xs text-zinc-500 transition-colors group-hover:text-zinc-400">{r.frequency}</p>
-              </div>
-              <span className="flex size-8 flex-none items-center justify-center rounded-full bg-white text-zinc-950">
-                <svg className="size-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-              </span>
-            </Link>
+      {/* Countries — ruled index */}
+      <Section space="loose">
+        <SectionHeader
+          label="Landen"
+          index="01"
+          lead="Autotransport"
+          trail="per bestemming."
+          intro="Van dagelijkse ritten binnen België tot wekelijkse rondes door heel Frankrijk. Kies uw bestemming voor steden, frequentie en praktische info."
+          className="mb-14"
+        />
+        <ul className="border-t border-zinc-950">
+          {countryRoutes.map((r, i) => (
+            <Reveal as="li" key={r.slug} delay={i * 50} className="border-b border-zinc-200">
+              <Link href={`/routes/${r.slug}`} className="group grid grid-cols-[auto_1fr_auto] items-center gap-5 py-6 sm:grid-cols-[3rem_6rem_1fr_1fr_auto] sm:gap-8">
+                <span className="hidden text-xs font-medium tabular-nums text-zinc-400 sm:block">{String(i + 1).padStart(2, "0")}</span>
+                <Image src={flagAsset[r.place!.flag]} alt="" width={96} height={64} className="h-10 w-auto sm:h-12" />
+                <span className="text-2xl font-medium tracking-tight text-zinc-950 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] motion-safe:group-hover:translate-x-1 sm:text-3xl">
+                  {r.place!.name}
+                </span>
+                <span className="hidden text-sm text-zinc-500 sm:block">
+                  {r.frequency} · {r.cities.length} steden
+                </span>
+                <Arrow />
+              </Link>
+            </Reveal>
           ))}
-        </div>
-      </section>
+        </ul>
+      </Section>
+
+      <Section space="none" bleed>
+        <MediaBand image="/fleet/germany-autobahn.jpg" line="Elke week heel Frankrijk door, met vaste stops onderweg." caption="Van Roeselare tot Noord-Spanje" />
+      </Section>
 
       {/* Corridors */}
-      <section className="px-5 pb-16 sm:px-8 sm:pb-24">
-        <div className="rounded-[2rem] bg-zinc-50 p-8 ring-1 ring-zinc-100 sm:p-12">
-          <div className="mb-8 max-w-2xl">
-            <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">Vaste corridors</p>
-            <h2 className="mt-3 text-2xl font-medium tracking-tight text-zinc-950 sm:text-3xl">
-              Rechtstreeks tussen de landen.
-            </h2>
-          </div>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {corridorRoutes.map((r) => (
-              <Link
-                key={r.slug}
-                href={`/routes/${r.slug}`}
-                className="group flex items-center gap-3 rounded-2xl bg-white px-5 py-4 ring-1 ring-zinc-100 transition-colors hover:ring-zinc-950"
-              >
-                <Image src={flagAsset[r.from!.flag]} alt={r.from!.name} width={40} height={40} className="h-8 w-auto flex-none" />
-                <Icon name="route" className="size-4 flex-none text-zinc-400" />
-                <Image src={flagAsset[r.to!.flag]} alt={r.to!.name} width={40} height={40} className="h-8 w-auto flex-none" />
-                <span className="ml-1 flex-1 text-sm font-medium text-zinc-950">{r.from!.name} → {r.to!.name}</span>
-                <svg className="size-4 flex-none text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-zinc-950" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+      <Section space="loose">
+        <SectionHeader
+          label="Vaste corridors"
+          index="02"
+          lead="Rechtstreeks"
+          trail="tussen de landen."
+          intro="Op deze assen rijden we op regelmatige basis. Uw wagen sluit aan op een bestaande rit — efficiënt, zonder omwegen."
+          className="mb-14"
+        />
+        <ul className="grid border-t border-zinc-950 sm:grid-cols-2 sm:gap-x-10">
+          {corridorRoutes.map((r, i) => (
+            <Reveal as="li" key={r.slug} delay={i * 50} className="border-b border-zinc-200">
+              <Link href={`/routes/${r.slug}`} className="group flex items-center gap-5 py-5">
+                <span className="flex flex-none items-center -space-x-2">
+                  <Image src={flagAsset[r.from!.flag]} alt="" width={64} height={44} className="h-8 w-auto" />
+                  <Image src={flagAsset[r.to!.flag]} alt="" width={64} height={44} className="h-8 w-auto" />
+                </span>
+                <span className="flex-1 text-lg font-medium tracking-tight text-zinc-950">
+                  {r.from!.name} <span className="text-zinc-400">→</span> {r.to!.name}
+                </span>
+                <Arrow />
               </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+            </Reveal>
+          ))}
+        </ul>
+      </Section>
 
       <QuoteCta />
     </PageShell>

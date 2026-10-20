@@ -290,7 +290,11 @@ function NiceSelect({
   );
 }
 
-export default function QuoteMultistep() {
+/**
+ * `aside` replaces the default left column (transporter illustration) — the
+ * /offerte page passes its own editorial column; v3 keeps the default.
+ */
+export default function QuoteMultistep({ aside }: { aside?: React.ReactNode } = {}) {
   const [step, setStep] = useState(0);
   const [type, setType] = useState<"particulier" | "bedrijf">("particulier");
   const [depot, setDepot] = useState(false);
@@ -300,6 +304,22 @@ export default function QuoteMultistep() {
   const [ophaalDate, setOphaalDate] = useState<Date | undefined>(undefined);
   const [leverDate, setLeverDate] = useState<Date | undefined>(undefined);
   const [dateInvalid, setDateInvalid] = useState(false);
+  const [dienst, setDienst] = useState("");
+
+  // Prefill from a hero quote bar (`/offerte?van=…&naar=…&datum=…&dienst=…`).
+  // Read on mount rather than via useSearchParams so the static export works.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const datum = q.get("datum");
+    const parsed = datum ? new Date(`${datum}T00:00:00`) : undefined;
+    const t = setTimeout(() => {
+      if (q.get("van")) setOphaal(q.get("van")!);
+      if (q.get("naar")) setLever(q.get("naar")!);
+      if (parsed && !Number.isNaN(parsed.getTime())) setOphaalDate(parsed);
+      if (q.get("dienst")) setDienst(q.get("dienst")!);
+    }, 0);
+    return () => clearTimeout(t);
+  }, []);
   // Vehicle rows keep stable ids so uncontrolled inputs survive add/remove.
   const [vehicleIds, setVehicleIds] = useState([0]);
   const [toestanden, setToestanden] = useState<Record<number, string>>({
@@ -362,6 +382,7 @@ export default function QuoteMultistep() {
         } — ${data.get(`aantal-${id}`)} stuk(s)`
     );
     const lines = [
+      ...(dienst ? [`Dienst: ${dienst}`] : []),
       `Type klant: ${type}`,
       `Naam: ${data.get("voornaam")} ${data.get("achternaam")}`,
       ...(type === "bedrijf"
@@ -392,24 +413,26 @@ export default function QuoteMultistep() {
   return (
     <section id="offerte" className="px-5 py-16 sm:px-8 sm:py-24">
       <div className="grid items-stretch gap-12 lg:grid-cols-[3fr_2fr] lg:gap-16">
-        {/* Left (60%): the Mcars transporter */}
-        <div className="flex flex-col justify-center">
-          <img
-            src="/fast-shipping.png"
-            alt="Mcars autotransporter geladen met wagens"
-            className="w-full"
-          />
-          <div className="mt-6 text-sm leading-relaxed text-zinc-500">
-            Liever per mail?{" "}
-            <a
-              href="mailto:info@mcars.be"
-              className="font-medium text-zinc-950 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-950"
-            >
-              info@mcars.be
-            </a>
-            {" — "}Moorseelsesteenweg 16B, 8800 Roeselare
+        {/* Left (60%): the Mcars transporter, unless the page supplies its own column */}
+        {aside ?? (
+          <div className="flex flex-col justify-center">
+            <img
+              src="/fast-shipping.png"
+              alt="Mcars autotransporter geladen met wagens"
+              className="w-full"
+            />
+            <div className="mt-6 text-sm leading-relaxed text-zinc-500">
+              Liever per mail?{" "}
+              <a
+                href="mailto:info@mcars.be"
+                className="font-medium text-zinc-950 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-950"
+              >
+                info@mcars.be
+              </a>
+              {" — "}Moorseelsesteenweg 16B, 8800 Roeselare
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Right (40%): the multistep form, stretched to the image height */}
         <form

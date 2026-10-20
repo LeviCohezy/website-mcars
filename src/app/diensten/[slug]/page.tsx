@@ -1,247 +1,203 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  BenefitsList, FaqAccordion, HighlightGrid, MaskedHeading, ProcessTimeline,
-  QuoteCta, RibbonBand, StatRow,
-} from "@/components/blocks";
-import Icon from "@/components/icon";
+import { QuoteCta } from "@/components/blocks";
+import HeroQuoteBar from "@/components/hero-quote-bar";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
-import { Parallax, Reveal } from "@/components/scroll";
-import { defaultProcess, defaultVehicleTypes, getService, serviceSlugs } from "@/data/services";
-import { getRoute } from "@/data/routes";
+import {
+  BreakdownSection, ExpectBento, OverviewCards, FaqWithContact, HighlightPanel, NeedsSection, PracticeCase, PriceSection,
+  RelatedCards, SafetySection, StepsRail,
+} from "@/components/service-sections";
+import Section from "@/components/section";
+import SituationsScroll from "@/components/situations-scroll";
+import VariantSwitcher from "@/components/variant-switcher";
+import { SectionHeader } from "@/components/ui";
+import { getServicePage, serviceMetadata, serviceStaticParams } from "@/lib/service-page";
+import { site } from "@/lib/site";
 
-export function generateStaticParams() {
-  return serviceSlugs.map((slug) => ({ slug }));
-}
+export const generateStaticParams = serviceStaticParams;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const s = getService(slug);
-  if (!s) return {};
-  return { title: s.seo.title, description: s.seo.description };
+  return serviceMetadata(params);
 }
-
-const HERO_WORD: Record<string, string> = {
-  "autotransport-particulier": "PARTICULIER",
-  "autotransport-dealers": "DEALERS",
-  "auto-importeren": "IMPORT",
-  "auto-exporteren": "EXPORT",
-  "niet-rijdende-auto": "NIET-RIJDEND",
-  "oldtimer-transport": "OLDTIMER",
-  "open-autotransport": "OPEN",
-  "gesloten-autotransport": "GESLOTEN",
-  "spoedtransport": "SPOED",
-  "fleet-wagenpark": "FLEET",
-  "eventtransport": "EVENT",
-};
 
 export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const service = getService(slug);
-  if (!service) notFound();
-
-  const process = service.process ?? defaultProcess;
-  const vehicleTypes = service.vehicleTypes ?? defaultVehicleTypes;
-  const bigWord = HERO_WORD[service.slug] ?? service.nav.split(" ")[0].toUpperCase();
+  const data = getServicePage(slug);
+  if (!data) notFound();
+  const { service, process, vehicleTypes, detailImage, details, practiceCase, situationsImage, safetyImage, faq, related } = data;
 
   return (
     <PageShell>
+      {/* Target for in-page "Prijs aanvragen" links: the hero, form included. */}
+      <div id="prijs" aria-hidden />
       <PageHero
         size="full"
+        screen
         eyebrow={service.category}
         title={service.title}
-        subtitle={service.subtitle}
         crumbs={[{ label: "Diensten", href: "/diensten" }, { label: service.nav }]}
         image={service.heroImage}
-        bigWord={bigWord}
-        scrollCue
-        badges={[
-          { icon: <StarMini />, label: "4,7 · 37 reviews" },
-          { icon: <Icon name="shield" className="size-4" />, label: "Verzekerd & CMR" },
-        ]}
-        card={{ title: "Zo werkt het", sub: "Van aanvraag tot levering in een paar heldere stappen.", href: "/hoe-werkt-het" }}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
-        secondaryCta={{ label: "Bekijk werkwijze", href: "/hoe-werkt-het" }}
-      />
-
-      {/* Statement + stats */}
-      <section className="px-5 py-20 sm:px-8 sm:py-28">
-        <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-16">
-          <Reveal>
-            <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">Overzicht</p>
-            <p className="mt-5 text-2xl leading-[1.35] font-light tracking-tight text-zinc-950 sm:text-[2rem]">
-              {service.intro}
-            </p>
-            <div className="mt-8 flex items-start gap-4 rounded-2xl bg-zinc-100 p-6">
-              <span className="flex size-10 flex-none items-center justify-center rounded-xl bg-zinc-950 text-white"><Icon name="users" /></span>
-              <div>
-                <p className="text-sm font-semibold text-zinc-950">Voor wie?</p>
-                <p className="mt-1 text-sm leading-relaxed text-zinc-500">{service.audience}</p>
-              </div>
-            </div>
-          </Reveal>
-          {service.stats && (
-            <Reveal delay={120} variant="right" className="lg:pt-10">
-              <StatRow items={service.stats} />
-              <div className="mt-4 overflow-hidden rounded-3xl">
-                <Parallax speed={0.08}>
-                  <Image src={service.heroImage} alt={service.title} width={800} height={600} className="h-60 w-full scale-110 object-cover" />
-                </Parallax>
-              </div>
-            </Reveal>
-          )}
-        </div>
-      </section>
-
-      {/* Marquee ribbon of what we carry */}
-      <RibbonBand items={vehicleTypes} />
-
-      {/* Highlights */}
-      <section className="px-5 py-20 sm:px-8 sm:py-24">
-        <Reveal className="mb-10 max-w-2xl">
-          <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">Waarom Mcars</p>
-          <h2 className="mt-3 text-3xl font-medium tracking-tight text-zinc-950 sm:text-4xl lg:text-5xl">Zo pakken we het aan.</h2>
-        </Reveal>
-        <HighlightGrid items={service.highlights} accent={1} />
-      </section>
-
-      {/* Cinematic video-background break — the dramatic dark shift */}
-      <VideoStatement
-        word={bigWord}
-        line="Autotransport dat verder gaat dan van A naar B."
-      />
-
-      {/* Process with parallax cutout + dashed connectors */}
-      <section className="relative overflow-hidden px-5 py-20 sm:px-8 sm:py-28">
-        <Parallax speed={0.2} className="pointer-events-none absolute -top-10 right-0 hidden w-[42%] opacity-[0.06] lg:block">
-          <Image src="/truck-outline.png" alt="" width={900} height={500} className="w-full" />
-        </Parallax>
-        <Reveal className="mb-12 max-w-2xl">
-          <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">Werkwijze</p>
-          <h2 className="mt-3 text-3xl font-medium leading-[1.12] tracking-tight sm:text-4xl lg:text-5xl">
-            <span className="text-zinc-950">Van aanvraag tot levering, </span>
-            <span className="text-zinc-400">helder en eenvoudig.</span>
-          </h2>
-        </Reveal>
-        <div className="relative z-10">
-          <ProcessTimeline steps={process} />
-        </div>
-      </section>
-
-      {/* Benefits + vehicle types */}
-      <section className="px-5 py-8 sm:px-8">
-        <Reveal>
-          <div className="rounded-[2rem] bg-zinc-50 p-8 ring-1 ring-zinc-100 sm:p-12">
-            <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr] lg:gap-16">
-              <div>
-                <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">Inbegrepen</p>
-                <h2 className="mt-3 mb-7 text-2xl font-medium tracking-tight text-zinc-950 sm:text-3xl">Wat u van ons mag verwachten.</h2>
-                <BenefitsList items={service.benefits} />
-              </div>
-              <div>
-                <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">Wij vervoeren</p>
-                <h2 className="mt-3 mb-7 text-2xl font-medium tracking-tight text-zinc-950 sm:text-3xl">Elk type voertuig.</h2>
-                <div className="flex flex-wrap gap-2">
-                  {vehicleTypes.map((v) => (
-                    <span key={v} className="rounded-full bg-white px-4 py-2 text-sm text-zinc-700 ring-1 ring-zinc-200">{v}</span>
-                  ))}
-                </div>
-              </div>
+      >
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-white/70 sm:text-lg">{service.subtitle}</p>
+        <div className="mt-8 flex flex-col gap-3 sm:mt-10 lg:flex-row lg:items-stretch">
+          <HeroQuoteBar service={service.nav} className="lg:max-w-none lg:flex-1" />
+          <div className="flex gap-3 lg:flex-none">
+            <Link
+              href="/reviews"
+              aria-label={`${site.reviews.score} op 5 op Google — bekijk reviews`}
+              className="flex flex-1 items-center gap-3 rounded-[1.5rem] border border-white/20 bg-white/10 px-5 py-4 shadow-2xl backdrop-blur-xl transition-colors hover:bg-white/15 lg:flex-none"
+            >
+              <span className="flex size-9 flex-none items-center justify-center rounded-full bg-white"><GoogleLogo /></span>
+              <span className="flex items-center gap-1.5 text-lg leading-none font-semibold text-white">
+                <span>{site.reviews.score}<span className="font-normal text-white/60">/5</span></span>
+                <StarMini />
+              </span>
+            </Link>
+            <div className="flex flex-1 items-center gap-3 rounded-[1.5rem] border border-white/20 bg-white/10 px-5 py-4 text-sm leading-snug text-white shadow-2xl backdrop-blur-xl lg:flex-none lg:whitespace-nowrap">
+              <ShieldCheck />
+              <span>Verzekerd, met CMR</span>
             </div>
           </div>
-        </Reveal>
-      </section>
-
-      {/* Photo-masked giant word */}
-      <section className="overflow-hidden px-5 py-16 sm:px-8">
-        <Reveal>
-          <MaskedHeading text={bigWord} image={service.heroImage} />
-        </Reveal>
-      </section>
-
-      {/* FAQ */}
-      <section className="px-5 pb-20 sm:px-8 sm:pb-24">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
-          <Reveal>
-            <p className="text-sm font-medium tracking-widest text-zinc-400 uppercase">FAQ</p>
-            <h2 className="mt-3 text-3xl font-medium leading-[1.15] tracking-tight text-zinc-950 sm:text-4xl">Veelgestelde vragen.</h2>
-            <p className="mt-5 text-base leading-relaxed text-zinc-500">Staat uw vraag er niet bij? Bel of mail ons — u krijgt meteen een persoonlijk antwoord.</p>
-          </Reveal>
-          <FaqAccordion items={service.faq} />
         </div>
-      </section>
+      </PageHero>
 
-      <RelatedLinks services={service.related} routes={service.relatedRoutes ?? []} />
+      {/* Overview — statement, then figure / photo / promise cards */}
+      <Section space="loose">
+        <OverviewCards
+          intro={service.intro}
+          audience={service.audience}
+          image={safetyImage}
+          imageAlt={`${service.nav} door Mcars`}
+          stats={service.stats}
+        />
+      </Section>
+
+      {/* 3 · Recognisable situations — full-bleed photo, square edges */}
+      {details.situations.length > 0 && (
+        <Section space="none" bleed className="mb-16 sm:mb-24">
+          <SituationsScroll
+            items={details.situations}
+            image={situationsImage}
+            title="Herkent u zich in een van deze situaties?"
+            intro={`${["Twee", "Drie", "Vier", "Vijf"][details.situations.length - 2] ?? "Enkele"} situaties waarin klanten ons bellen. Herkent u de uwe? Dan ziet u meteen wat wij voor u regelen.`}
+          />
+        </Section>
+      )}
+
+      {/* 4 · Why Mcars — highlights as cards resting on a photograph */}
+      <Section space="none" bleed>
+        <HighlightPanel
+          image={detailImage}
+          alt={`${service.nav} door Mcars`}
+          label="Waarom Mcars"
+          lead="Zo pakken we het aan,"
+          trail="rit na rit."
+          items={service.highlights}
+        />
+      </Section>
+
+      {/* 5 · Process — sticky heading + vertical rail, CTA back to the hero form */}
+      <Section space="loose">
+        <StepsRail
+          label="Werkwijze"
+          lead="Van aanvraag tot levering,"
+          trail="helder en eenvoudig."
+          intro="U weet op elk moment wat er gebeurt en wie u kan bellen."
+          steps={process}
+        />
+      </Section>
+
+      {/* 6 · What determines the price (factors, no amounts) */}
+      <Section space="flush-top">
+        <SectionHeader
+          label="Prijs"
+          lead="Wat bepaalt"
+          trail="de prijs?"
+          intro="We werken niet met een calculator: elke prijs is afgestemd op uw transport. Dit zijn de factoren die meetellen."
+          className="mb-12"
+        />
+        <PriceSection factors={details.priceFactors} tips={details.savingTips} />
+      </Section>
+
+      {/* 7 · What we need from you — or, for depannage, what to do on a breakdown */}
+      <Section space="loose">
+        {details.needsMode === "pech" ? (
+          <>
+            <SectionHeader label="Bij pech" lead="Wat te doen" trail="bij pech?" className="mb-12" />
+            <BreakdownSection />
+          </>
+        ) : (
+          <>
+            <SectionHeader label="Voorbereiding" lead="Wat we van u" trail="nodig hebben." className="mb-12" />
+            <NeedsSection needs={details.needs} />
+          </>
+        )}
+      </Section>
+
+      {/* 8 · Included & what we carry */}
+      <Section space="none" bleed>
+        <ExpectBento
+          benefits={service.benefits}
+          vehicleTypes={vehicleTypes}
+          caption={`Eigen vloot · vaste chauffeurs · sinds ${site.founded}`}
+        />
+      </Section>
+
+      {/* 9 · Fleet & safety */}
+      <Section space="loose">
+        <SectionHeader label="Vloot & veiligheid" lead="Zo beschermen we" trail="uw wagen." className="mb-12" />
+        <SafetySection items={details.safety} image={safetyImage} />
+      </Section>
+
+      {/* 10 · From practice */}
+      {practiceCase && (
+        <Section space="flush-top">
+          <SectionHeader label="Uit de praktijk" lead="Zo deden we het" trail="eerder." className="mb-12" />
+          <PracticeCase item={practiceCase} />
+        </Section>
+      )}
+
+      {/* 11 · FAQ beside a direct-contact card */}
+      <Section space="loose">
+        <FaqWithContact lead="Veelgestelde vragen" trail={`over ${service.nav.toLowerCase()}.`} items={faq} />
+      </Section>
+
+      {/* 12 · Related services & routes */}
+      {related.length > 0 && (
+        <Section space="none">
+          <SectionHeader label="Ontdek ook" lead="Verwante diensten" trail="en routes." className="mb-10" />
+          <RelatedCards items={related} />
+        </Section>
+      )}
+
       <QuoteCta />
+      <VariantSwitcher sectionId="dienst" base={`/diensten/${service.slug}`} />
     </PageShell>
   );
 }
 
-function VideoStatement({ word, line }: { word: string; line: string }) {
+function StarMini() {
+  return <svg className="size-6 text-amber-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.8 1.4 6.8L12 17.3 5.9 20.7l1.4-6.8L2.2 9.1l6.9-.8z" /></svg>;
+}
+
+function GoogleLogo() {
   return (
-    <section className="px-5 py-8 sm:px-8">
-      <div className="relative flex min-h-[70vh] items-end overflow-hidden rounded-[2rem] bg-zinc-950">
-        <Parallax speed={0.14} className="absolute inset-0 h-[120%]">
-          <video className="slow-zoom size-full object-cover opacity-70" src="/hero.mp4" autoPlay muted loop playsInline />
-        </Parallax>
-        <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-zinc-950/30" />
-        <Parallax speed={-0.05} className="pointer-events-none absolute inset-x-0 top-8 flex justify-center px-4">
-          <span className="hero-wordmark block truncate uppercase">{word}</span>
-        </Parallax>
-        <div className="relative z-10 w-full p-8 sm:p-14">
-          <Reveal>
-            <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-medium tracking-widest text-white/90 uppercase backdrop-blur-xl">
-              <span className="scroll-bob flex size-4 items-center justify-center rounded-full bg-white text-zinc-950">
-                <svg className="size-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
-              </span>
-              In beweging
-            </span>
-            <h2 className="max-w-3xl text-3xl font-light leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">{line}</h2>
-            <Link href="/offerte" className="group mt-8 inline-flex items-center gap-3 rounded-full bg-white py-3 pr-3 pl-7 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
-              Vraag uw offerte
-              <span className="flex size-8 items-center justify-center rounded-full bg-zinc-950 text-white">
-                <svg className="size-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-              </span>
-            </Link>
-          </Reveal>
-        </div>
-      </div>
-    </section>
+    <svg className="size-6" viewBox="0 0 48 48" aria-hidden>
+      <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+      <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+      <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+      <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+    </svg>
   );
 }
 
-function StarMini() {
-  return <svg className="size-4 text-amber-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.8 1.4 6.8L12 17.3 5.9 20.7l1.4-6.8L2.2 9.1l6.9-.8z" /></svg>;
-}
-
-function RelatedLinks({ services, routes }: { services: string[]; routes: string[] }) {
-  const svc = services.map(getService).filter(Boolean);
-  const rts = routes.map(getRoute).filter(Boolean);
-  if (!svc.length && !rts.length) return null;
+function ShieldCheck() {
   return (
-    <section className="px-5 py-8 sm:px-8">
-      <p className="mb-6 text-sm font-medium tracking-widest text-zinc-400 uppercase">Ontdek ook</p>
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {svc.map((s, i) => (
-          <Reveal key={s!.slug} delay={i * 60}>
-            <Link href={`/diensten/${s!.slug}`} className="group flex items-center justify-between gap-3 rounded-2xl bg-zinc-100 px-6 py-5 transition-colors hover:bg-zinc-950">
-              <span className="text-sm font-medium text-zinc-950 transition-colors group-hover:text-white">{s!.nav}</span>
-              <svg className="size-4 flex-none text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </Link>
-          </Reveal>
-        ))}
-        {rts.map((r, i) => (
-          <Reveal key={r!.slug} delay={(svc.length + i) * 60}>
-            <Link href={`/routes/${r!.slug}`} className="group flex items-center justify-between gap-3 rounded-2xl bg-zinc-100 px-6 py-5 transition-colors hover:bg-zinc-950">
-              <span className="text-sm font-medium text-zinc-950 transition-colors group-hover:text-white">{r!.nav}</span>
-              <svg className="size-4 flex-none text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </Link>
-          </Reveal>
-        ))}
-      </div>
-    </section>
+    <svg className="size-7 flex-none text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M12 3l7 3v6c0 4.4-3 7.4-7 9-4-1.6-7-4.6-7-9V6l7-3z" />
+      <path d="M8.75 12.25l2.25 2.25 4.25-4.5" />
+    </svg>
   );
 }

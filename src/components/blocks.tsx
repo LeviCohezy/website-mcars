@@ -3,82 +3,100 @@
 import Link from "next/link";
 import { useState } from "react";
 import type { Faq, Highlight, ProcessStep, Stat } from "@/data/services";
-import Icon from "./icon";
-import { CountUp, Marquee, Reveal } from "./scroll";
+import { asset } from "@/lib/asset";
+import { site } from "@/lib/site";
+import { CountUp, Marquee, Parallax, Reveal } from "./scroll";
+import { ArrowChip } from "./ui";
 
-/** Grid of highlight cards — staggered reveal, one optional persistent accent card. */
+/**
+ * Editorial feature grid: numbered columns separated by hairlines. No icon
+ * tiles, no hover inversions — numbers, a title and a sentence.
+ * `accent` is accepted for backwards compatibility and ignored.
+ */
 export function HighlightGrid({ items, accent }: { items: Highlight[]; accent?: number }) {
+  void accent;
+  const cols = items.length === 4 ? "lg:grid-cols-4" : items.length === 2 ? "lg:grid-cols-2" : "lg:grid-cols-3";
   return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {items.map((h, i) => {
-        const isAccent = accent === i;
-        return (
-          <Reveal key={h.title} delay={i * 90} variant="up">
-            <div className={`group h-full rounded-3xl p-7 transition-colors duration-300 ${isAccent ? "bg-zinc-950" : "bg-zinc-100 hover:bg-zinc-950"}`}>
-              <span className={`flex size-11 items-center justify-center rounded-2xl shadow-sm ${isAccent ? "bg-white text-zinc-950" : "bg-white text-zinc-950"}`}>
-                <Icon name={h.icon} />
-              </span>
-              <h3 className={`mt-5 text-lg font-semibold transition-colors ${isAccent ? "text-white" : "text-zinc-950 group-hover:text-white"}`}>{h.title}</h3>
-              <p className={`mt-2 text-sm leading-relaxed transition-colors ${isAccent ? "text-zinc-300" : "text-zinc-500 group-hover:text-zinc-300"}`}>{h.body}</p>
-            </div>
-          </Reveal>
-        );
-      })}
+    <div className={`grid gap-x-10 gap-y-12 sm:grid-cols-2 ${cols}`}>
+      {items.map((h, i) => (
+        <Reveal key={h.title} delay={i * 80} className="border-t border-zinc-950 pt-6">
+          <span className="text-xs font-medium tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
+          <h3 className="mt-8 text-xl font-medium tracking-tight text-zinc-950 sm:text-2xl">{h.title}</h3>
+          <p className="mt-3 max-w-sm text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
+        </Reveal>
+      ))}
     </div>
   );
 }
 
-/** Checklist of short benefit lines. */
+/** Checklist of short benefit lines, ruled like a spec sheet. */
 export function BenefitsList({ items }: { items: string[] }) {
   return (
-    <ul className="grid gap-3 sm:grid-cols-2">
+    <ul className="border-t border-zinc-200">
       {items.map((b, i) => (
-        <Reveal as="li" key={b} delay={i * 60} className="flex items-start gap-3 rounded-2xl bg-white p-4 ring-1 ring-zinc-100">
-          <span className="mt-0.5 flex size-6 flex-none items-center justify-center rounded-full bg-zinc-950 text-white">
-            <Icon name="check" className="size-3.5" />
-          </span>
-          <span className="text-sm text-zinc-700">{b}</span>
+        <Reveal as="li" key={b} delay={i * 50} className="flex items-baseline gap-5 border-b border-zinc-200 py-4">
+          <span className="w-6 flex-none text-xs font-medium tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
+          <span className="text-base text-zinc-800">{b}</span>
         </Reveal>
       ))}
     </ul>
   );
 }
 
-/** Big animated stat numbers that count up in view. */
+const STAT_COLS: Record<number, string> = { 2: "sm:grid-cols-2", 3: "sm:grid-cols-3", 4: "sm:grid-cols-4" };
+
+/** Large figures separated by hairlines, counting up in view. */
 export function StatRow({ items, dark = false }: { items: Stat[]; dark?: boolean }) {
   return (
-    <dl className={`grid grid-cols-3 rounded-3xl p-2 ${dark ? "divide-white/10 bg-white/5" : "divide-zinc-200 bg-zinc-100"} divide-x`}>
-      {items.map((s) => (
-        <div key={s.label} className="px-4 py-5 text-center">
-          <dt className={`font-[family-name:var(--font-display)] text-3xl leading-none tracking-wide sm:text-4xl ${dark ? "text-white" : "text-zinc-950"}`}>
+    <dl className={`grid grid-cols-2 gap-y-10 ${STAT_COLS[Math.min(items.length, 4)] ?? "sm:grid-cols-3"}`}>
+      {items.map((s, i) => (
+        <div
+          key={s.label}
+          className={`flex flex-col-reverse pr-6 ${i > 0 ? `sm:border-l sm:pl-8 ${dark ? "border-white/15" : "border-zinc-200"}` : ""}`}
+        >
+          <dt className={`mt-3 text-sm ${dark ? "text-zinc-400" : "text-zinc-500"}`}>{s.label}</dt>
+          <dd className={`text-4xl font-medium tracking-[-0.03em] tabular-nums sm:text-5xl lg:text-6xl ${dark ? "text-white" : "text-zinc-950"}`}>
             <CountUp value={s.value} />
-          </dt>
-          <dd className={`mt-2 text-xs sm:text-sm ${dark ? "text-zinc-400" : "text-zinc-500"}`}>{s.label}</dd>
+          </dd>
         </div>
       ))}
     </dl>
   );
 }
 
-/** Accordion FAQ list — one open at a time. */
-export function FaqAccordion({ items }: { items: Faq[] }) {
-  const [open, setOpen] = useState<number | null>(0);
+/** Ruled accordion FAQ — one open at a time. */
+export function FaqAccordion({ items, defaultOpen = 0 }: { items: Faq[]; defaultOpen?: number | null }) {
+  const [open, setOpen] = useState<number | null>(defaultOpen);
   return (
-    <div className="flex flex-col gap-3">
+    <div className="border-t border-zinc-200">
       {items.map((f, i) => {
         const isOpen = open === i;
         return (
-          <Reveal key={f.q} delay={i * 60}>
-            <div className={`rounded-2xl transition-colors ${isOpen ? "bg-zinc-950" : "bg-zinc-100"}`}>
-              <button type="button" onClick={() => setOpen(isOpen ? null : i)} aria-expanded={isOpen} className="flex w-full items-center gap-4 px-6 py-5 text-left">
-                <span className={`flex-1 text-base font-semibold sm:text-lg ${isOpen ? "text-white" : "text-zinc-950"}`}>{f.q}</span>
-                <svg className={`size-5 flex-none transition-transform duration-300 ${isOpen ? "rotate-45 text-white" : "text-zinc-400"}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
-              </button>
-              <div className={`grid transition-[grid-template-rows] duration-300 ${isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
-                <div className="overflow-hidden"><p className="px-6 pb-6 text-sm leading-relaxed text-zinc-300 sm:text-base">{f.a}</p></div>
+          <div key={f.q} className="border-b border-zinc-200">
+            <button
+              type="button"
+              onClick={() => setOpen(isOpen ? null : i)}
+              aria-expanded={isOpen}
+              className="group flex w-full items-start gap-6 py-6 text-left"
+            >
+              <span className="w-6 flex-none pt-1.5 text-xs font-medium tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
+              <span className="flex-1 text-lg font-medium tracking-tight text-zinc-950 sm:text-xl">{f.q}</span>
+              <span
+                className={`mt-0.5 flex size-8 flex-none items-center justify-center rounded-full border transition-colors duration-300 ${
+                  isOpen ? "border-zinc-950 bg-zinc-950 text-white" : "border-zinc-300 text-zinc-500 group-hover:border-zinc-950 group-hover:text-zinc-950"
+                }`}
+              >
+                <svg className={`size-3.5 transition-transform duration-300 ${isOpen ? "rotate-45" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <path d="M12 5v14M5 12h14" />
+                </svg>
+              </span>
+            </button>
+            <div className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
+              <div className="overflow-hidden">
+                <p className="max-w-2xl pr-14 pb-7 pl-12 text-base leading-relaxed text-zinc-500">{f.a}</p>
               </div>
             </div>
-          </Reveal>
+          </div>
         );
       })}
     </div>
@@ -86,8 +104,8 @@ export function FaqAccordion({ items }: { items: Faq[] }) {
 }
 
 /**
- * Giant word filled with a photo/video (background-clip:text). A signature
- * "wow" moment — e.g. the country or service name painted with a truck photo.
+ * Giant word filled with a photo (background-clip:text). Kept for the studio
+ * gallery; interior pages no longer use it.
  */
 export function MaskedHeading({
   text,
@@ -120,67 +138,163 @@ export function MaskedHeading({
   );
 }
 
-/** Numbered process laid out with a dashed connector (Emons / LogiCraft style). */
+/** Numbered process on a shared rail: each step fills its segment of the line. */
 export function ProcessTimeline({ steps, dark = false }: { steps: ProcessStep[]; dark?: boolean }) {
   return (
-    <ol className="grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+    <ol className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
       {steps.slice(0, 4).map((s, i) => (
         <Reveal as="li" key={s.title} delay={i * 120} className="relative">
-          {i < 3 && (
-            <span aria-hidden className={`dash-line absolute top-6 left-14 hidden h-0.5 w-[calc(100%-2rem)] lg:block ${dark ? "text-white/25" : "text-zinc-300"}`} />
-          )}
-          <span className={`flex size-12 items-center justify-center rounded-full font-[family-name:var(--font-display)] text-2xl ${dark ? "bg-white text-zinc-950" : "bg-zinc-950 text-white"}`}>
-            {String(i + 1).padStart(2, "0")}
-          </span>
-          <h3 className={`mt-5 text-lg font-semibold ${dark ? "text-white" : "text-zinc-950"}`}>{s.title}</h3>
-          <p className={`mt-2 text-sm leading-relaxed ${dark ? "text-zinc-400" : "text-zinc-500"}`}>{s.body}</p>
+          <div className={`relative h-px ${dark ? "bg-white/15" : "bg-zinc-200"}`}>
+            <span className={`absolute inset-y-0 left-0 w-10 ${dark ? "bg-white" : "bg-zinc-950"}`} />
+          </div>
+          <p className={`mt-6 text-xs font-medium tracking-[0.18em] uppercase ${dark ? "text-zinc-500" : "text-zinc-400"}`}>
+            Stap {String(i + 1).padStart(2, "0")}
+          </p>
+          <h3 className={`mt-3 text-xl font-medium tracking-tight ${dark ? "text-white" : "text-zinc-950"}`}>{s.title}</h3>
+          <p className={`mt-3 text-[0.95rem] leading-relaxed ${dark ? "text-zinc-400" : "text-zinc-500"}`}>{s.body}</p>
         </Reveal>
       ))}
     </ol>
   );
 }
 
-/** Diagonal marquee tape of words. */
+/** Quiet horizontal ticker between hairlines. */
 export function RibbonBand({ items, className = "" }: { items: string[]; className?: string }) {
   return (
-    <div className={`relative overflow-hidden py-6 ${className}`}>
-      <div className="ribbon bg-zinc-950 py-4 text-white">
-        <Marquee items={items} className="font-[family-name:var(--font-display)] text-2xl tracking-wide uppercase sm:text-3xl" separator="✦" />
-      </div>
+    <div className={`border-y border-zinc-200 py-5 ${className}`}>
+      <Marquee items={items} className="text-sm font-medium tracking-[0.18em] text-zinc-500 uppercase" separator="—" />
     </div>
   );
 }
 
-/** Reusable dark conversion band pointing at the quote form. */
+/** Closing conversion panel: photograph, a direct line to a person, and the quote CTA. */
 export function QuoteCta({
   title = "Klaar om uw wagen te laten vervoeren?",
   body = "Vraag vrijblijvend uw offerte aan. U krijgt binnen 24 uur antwoord met prijs en planning — persoonlijk, geen calculator.",
+  image = "/fleet/hero-highway-sunset.jpg",
 }: {
   title?: string;
   body?: string;
+  image?: string;
 }) {
   return (
-    <section className="px-5 pb-8 sm:px-8">
-      <Reveal variant="scale">
-        <div className="relative overflow-hidden rounded-[2rem] bg-zinc-950 px-8 py-14 sm:px-14 sm:py-20">
-          <div aria-hidden className="dot-grid absolute inset-0 opacity-[0.12]" />
-          <div className="relative z-10 max-w-2xl">
-            <h2 className="text-3xl font-medium leading-[1.1] tracking-tight text-white sm:text-4xl lg:text-5xl">{title}</h2>
-            <p className="mt-5 max-w-xl text-base leading-relaxed text-zinc-400">{body}</p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/offerte" className="group inline-flex items-center gap-3 rounded-full bg-white py-3 pr-3 pl-7 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
+    // Always the last block before the footer: the negative bottom margin
+    // pulls the footer up over the panel's lower edge, so the CTA reads as
+    // tucked behind it rather than floating above a gap.
+    <section className="-mb-[6.5rem] pt-16 sm:pt-24">
+      <div className="relative overflow-hidden rounded-[2rem] bg-zinc-950">
+        <Parallax speed={0.06} className="absolute inset-x-0 -top-[15%] h-[130%]">
+          <div className="size-full bg-cover bg-center opacity-45" style={{ backgroundImage: `url(${asset(image)})` }} />
+        </Parallax>
+        <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/75 to-zinc-950/55" />
+
+        <div className="relative z-10 grid gap-12 px-6 pt-16 pb-28 sm:px-10 sm:pt-24 sm:pb-36 lg:grid-cols-[1.5fr_1fr] lg:items-end lg:px-14">
+          <Reveal>
+            <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-white/60 uppercase">
+              <span aria-hidden className="size-1.5 rounded-full bg-white" />
+              Offerte
+            </p>
+            <h2 className="mt-6 max-w-2xl text-4xl font-light leading-[1.04] tracking-[-0.03em] text-balance text-white sm:text-5xl lg:text-6xl">
+              {title}
+            </h2>
+            <p className="mt-6 max-w-lg text-base leading-relaxed text-white/65 sm:text-lg">{body}</p>
+            <div className="mt-10 flex flex-wrap gap-3">
+              <Link
+                href="/offerte"
+                className="group inline-flex items-center gap-3 rounded-full bg-white py-2 pr-2 pl-6 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
+              >
                 Offerte aanvragen
-                <span className="flex size-8 items-center justify-center rounded-full bg-zinc-950 text-white">
-                  <svg className="size-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-                </span>
+                <ArrowChip tone="dark" />
               </Link>
-              <Link href="/contact" className="inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/5 py-3 pr-7 pl-7 text-sm font-medium text-white transition-colors hover:bg-white/10">
-                Of neem contact op
+              <Link
+                href="/contact"
+                className="inline-flex items-center rounded-full border border-white/25 px-6 py-3 text-sm font-medium text-white transition-colors hover:border-white/60"
+              >
+                Contact opnemen
               </Link>
             </div>
-          </div>
+          </Reveal>
+
+          <Reveal delay={120} className="lg:justify-self-end">
+            <dl className="grid gap-6 border-t border-white/15 pt-6 text-sm lg:min-w-72">
+              <div>
+                <dt className="text-white/45">Rechtstreeks bellen</dt>
+                <dd className="mt-1 text-xl font-medium tracking-tight text-white">
+                  <a href={site.phoneHref} className="transition-colors hover:text-white/70">{site.phone}</a>
+                </dd>
+              </div>
+              <div>
+                <dt className="text-white/45">Mailen</dt>
+                <dd className="mt-1 text-xl font-medium tracking-tight text-white">
+                  <a href={`mailto:${site.email}`} className="transition-colors hover:text-white/70">{site.email}</a>
+                </dd>
+              </div>
+              <div>
+                <dt className="text-white/45">Bereikbaar</dt>
+                <dd className="mt-1 text-white/80">{site.hours}</dd>
+              </div>
+            </dl>
+          </Reveal>
         </div>
-      </Reveal>
+      </div>
+    </section>
+  );
+}
+
+/** Ruled index of links (related services/routes): label, meta, arrow. */
+export function LinkList({ items }: { items: { href: string; label: string; meta?: string }[] }) {
+  return (
+    <ul className="grid border-t border-zinc-200 sm:grid-cols-2 sm:gap-x-10">
+      {items.map((it, i) => (
+        <Reveal as="li" key={it.href} delay={i * 50} className="border-b border-zinc-200">
+          <Link href={it.href} className="group flex items-center gap-5 py-5">
+            <span className="w-6 flex-none text-xs font-medium tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
+            <span className="flex-1 text-lg font-medium tracking-tight text-zinc-950 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] motion-safe:group-hover:translate-x-1">
+              {it.label}
+            </span>
+            {it.meta && <span className="hidden text-sm text-zinc-400 sm:block">{it.meta}</span>}
+            <span className="flex size-8 flex-none items-center justify-center rounded-full border border-zinc-300 text-zinc-500 transition-colors duration-300 group-hover:border-zinc-950 group-hover:bg-zinc-950 group-hover:text-white">
+              <svg className="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </span>
+          </Link>
+        </Reveal>
+      ))}
+    </ul>
+  );
+}
+
+/** Full-bleed cinematic media band with one line of copy. */
+export function MediaBand({
+  video,
+  image,
+  line,
+  caption,
+}: {
+  video?: string;
+  image?: string;
+  line: string;
+  caption?: string;
+}) {
+  return (
+    <section className="relative flex min-h-[78vh] items-end overflow-hidden rounded-[2rem] bg-zinc-950">
+      <Parallax speed={0.06} className="absolute inset-x-0 -top-[15%] h-[130%]">
+        {video ? (
+          <video className="size-full object-cover opacity-75" src={asset(video)} autoPlay muted loop playsInline />
+        ) : (
+          <div className="size-full bg-cover bg-center opacity-80" style={{ backgroundImage: `url(${asset(image ?? "")})` }} />
+        )}
+      </Parallax>
+      <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-zinc-950/20 to-transparent" />
+      <div className="relative z-10 grid w-full gap-6 px-6 pb-10 sm:px-10 sm:pb-14 lg:grid-cols-[3fr_1fr] lg:items-end lg:px-14">
+        <Reveal>
+          <p className="max-w-4xl text-3xl font-light leading-[1.08] tracking-[-0.03em] text-balance text-white sm:text-5xl lg:text-6xl">{line}</p>
+        </Reveal>
+        {caption && (
+          <Reveal delay={120} className="border-t border-white/20 pt-4 text-sm text-white/60 lg:justify-self-end">
+            {caption}
+          </Reveal>
+        )}
+      </div>
     </section>
   );
 }

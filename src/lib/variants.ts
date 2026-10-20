@@ -18,6 +18,8 @@ export type Variant = {
   href: string;
   /** One-line description of what makes this variant different. */
   tagline: string;
+  /** Per-slug sections: path appended to the current page's base (e.g. "/v2"). */
+  suffix?: string;
 };
 
 export type Section = {
@@ -54,6 +56,35 @@ export const sections: Section[] = [
         label: "Home 03",
         href: "/v3",
         tagline: "Redactionele versie — services-accordion, netwerkkaart en blog.",
+      },
+    ],
+  },
+  {
+    id: "dienst",
+    title: "Dienstpagina",
+    description:
+      "Drie designrichtingen voor de dienstpagina — zelfde inhoud en secties, elk een eigen vormgeving. Werkt voor alle diensten.",
+    variants: [
+      {
+        id: "dienst-01",
+        label: "Dienst 01",
+        href: "/diensten/autotransport-particulier",
+        suffix: "",
+        tagline: "Cinematisch — fotopanelen, scroll-animatie en donkere accenten.",
+      },
+      {
+        id: "dienst-02",
+        label: "Dienst 02",
+        href: "/diensten/autotransport-particulier/v2",
+        suffix: "/v2",
+        tagline: "Licht & strak — Zwitsers raster, haarlijnen en weinig afronding.",
+      },
+      {
+        id: "dienst-03",
+        label: "Dienst 03",
+        href: "/diensten/autotransport-particulier/v3",
+        suffix: "/v3",
+        tagline: "Donker & premium — zwarte pagina, grote cijfers en tabs.",
       },
     ],
   },

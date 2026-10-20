@@ -21,9 +21,14 @@ export default function PrivacybeleidPage() {
         image="/fleet/sunset-field.jpg"
       />
 
-      <section className="px-5 py-16 sm:px-8 sm:py-24">
-        <div className="mx-auto max-w-3xl">
-          <div className="rounded-2xl bg-zinc-100 p-5 text-sm leading-relaxed text-zinc-600">
+      <section className="px-5 py-20 sm:px-8 sm:py-32">
+        <div className="grid gap-10 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
+          <p className="flex items-center gap-2.5 self-start text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase lg:sticky lg:top-28">
+            <span aria-hidden className="size-1.5 rounded-full bg-zinc-950" />
+            Privacy
+          </p>
+        <div className="max-w-3xl">
+          <div className="border-l-2 border-zinc-950 py-1 pl-5 text-sm leading-relaxed text-zinc-600">
             <strong className="font-semibold text-zinc-950">Let op:</strong> Dit is een
             voorlopige tekst. Laat dit document juridisch nakijken vóór livegang.
           </div>
@@ -36,7 +41,7 @@ export default function PrivacybeleidPage() {
             GDPR).
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             1. Verwerkingsverantwoordelijke
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -53,7 +58,7 @@ export default function PrivacybeleidPage() {
             of {site.phone}.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             2. Welke gegevens verzamelen we?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -64,7 +69,7 @@ export default function PrivacybeleidPage() {
             bedrijfsgegevens (ondernemingsnummer, BTW-nummer).
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             3. Doeleinden van de verwerking
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -76,7 +81,7 @@ export default function PrivacybeleidPage() {
             toepassing, uw toestemming.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">4. Bewaartermijn</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">4. Bewaartermijn</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             We bewaren uw persoonsgegevens niet langer dan noodzakelijk voor de doeleinden
             waarvoor ze werden verzameld. Facturatie- en boekhoudkundige gegevens worden bewaard
@@ -84,7 +89,7 @@ export default function PrivacybeleidPage() {
             overeenkomst leiden, worden na een redelijke termijn verwijderd.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             5. Delen met derden
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -94,7 +99,7 @@ export default function PrivacybeleidPage() {
             verwerken uw gegevens uitsluitend in onze opdracht.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             6. Uw rechten (GDPR)
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -112,7 +117,7 @@ export default function PrivacybeleidPage() {
             (www.gegevensbeschermingsautoriteit.be).
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">7. Cookies</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">7. Cookies</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Onze website maakt gebruik van cookies. Meer informatie over welke cookies we
             gebruiken en hoe u ze kan beheren, vindt u in ons{" "}
@@ -125,7 +130,7 @@ export default function PrivacybeleidPage() {
             .
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">8. Contact</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">8. Contact</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Heeft u vragen over dit privacybeleid of over de verwerking van uw gegevens? Neem
             gerust{" "}
@@ -137,6 +142,7 @@ export default function PrivacybeleidPage() {
             </Link>{" "}
             met ons op via {site.email} of {site.phone}.
           </p>
+        </div>
         </div>
       </section>
     </PageShell>

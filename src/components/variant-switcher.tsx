@@ -12,7 +12,7 @@ import { getSection } from "@/lib/variants";
  *
  * Hidden inside preview iframes (?preview=1) so it never shows up in thumbnails.
  */
-export default function VariantSwitcher({ sectionId }: { sectionId: string }) {
+export default function VariantSwitcher({ sectionId, base }: { sectionId: string; base?: string }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [isPreview, setIsPreview] = useState(true); // assume preview until proven otherwise → no flash in thumbnails
@@ -32,7 +32,10 @@ export default function VariantSwitcher({ sectionId }: { sectionId: string }) {
   const section = getSection(sectionId);
   if (!section || isPreview) return null;
 
-  const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname === href);
+  // Per-slug sections (e.g. service pages) resolve each variant's suffix against `base`.
+  const hrefOf = (v: { href: string; suffix?: string }) => (base && v.suffix !== undefined ? `${base}${v.suffix}` : v.href);
+  const norm = (p: string) => (p.length > 1 ? p.replace(/\/$/, "") : p);
+  const isActive = (href: string) => (href === "/" ? pathname === "/" : norm(pathname) === norm(href));
 
   return (
     <div className="fixed bottom-5 right-5 z-[60] flex flex-col items-end gap-3 sm:bottom-7 sm:right-7">
@@ -50,11 +53,12 @@ export default function VariantSwitcher({ sectionId }: { sectionId: string }) {
         </div>
         <div className="flex flex-col gap-1 px-2 pb-3">
           {section.variants.map((v) => {
-            const active = isActive(v.href);
+            const href = hrefOf(v);
+            const active = isActive(href);
             return (
               <Link
                 key={v.id}
-                href={v.href}
+                href={href}
                 onClick={() => setOpen(false)}
                 aria-current={active ? "page" : undefined}
                 className={`group flex items-center gap-3 rounded-2xl px-3 py-2.5 transition-colors ${

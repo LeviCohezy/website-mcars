@@ -50,7 +50,7 @@ export const nav: NavItem[] = [
       { label: "Niet-rijdende auto", href: "/diensten/niet-rijdende-auto", desc: "Schade-, defecte en projectwagens" },
       { label: "Oldtimer transport", href: "/diensten/oldtimer-transport", desc: "Veilig vervoer voor klassiekers" },
       { label: "Open autotransport", href: "/diensten/open-autotransport", desc: "Voordelig en efficiënt" },
-      { label: "Gesloten autotransport", href: "/diensten/gesloten-autotransport", desc: "Voor exclusieve en sportwagens" },
+      { label: "Depannage", href: "/diensten/depannage", desc: "Takelen na pech of ongeval" },
       { label: "Spoedtransport", href: "/diensten/spoedtransport", desc: "Dringende ophaling of levering" },
       { label: "Fleet & wagenpark", href: "/diensten/fleet-wagenpark", desc: "Meerdere voertuigen in één rit" },
       { label: "Eventtransport", href: "/diensten/eventtransport", desc: "Onberispelijk op elk event" },

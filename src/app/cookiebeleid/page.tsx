@@ -21,9 +21,14 @@ export default function CookiebeleidPage() {
         image="/fleet/sunset-field.jpg"
       />
 
-      <section className="px-5 py-16 sm:px-8 sm:py-24">
-        <div className="mx-auto max-w-3xl">
-          <div className="rounded-2xl bg-zinc-100 p-5 text-sm leading-relaxed text-zinc-600">
+      <section className="px-5 py-20 sm:px-8 sm:py-32">
+        <div className="grid gap-10 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
+          <p className="flex items-center gap-2.5 self-start text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase lg:sticky lg:top-28">
+            <span aria-hidden className="size-1.5 rounded-full bg-zinc-950" />
+            Cookies
+          </p>
+        <div className="max-w-3xl">
+          <div className="border-l-2 border-zinc-950 py-1 pl-5 text-sm leading-relaxed text-zinc-600">
             <strong className="font-semibold text-zinc-950">Let op:</strong> Dit is een
             voorlopige tekst. Laat dit document juridisch nakijken vóór livegang.
           </div>
@@ -34,7 +39,7 @@ export default function CookiebeleidPage() {
             te geven, stemt u in met het gebruik van cookies zoals hieronder beschreven.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">1. Wat zijn cookies?</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">1. Wat zijn cookies?</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Cookies zijn kleine tekstbestanden die bij een bezoek aan een website op uw toestel
             worden geplaatst. Ze zorgen ervoor dat de website goed werkt, onthouden uw voorkeuren
@@ -42,7 +47,7 @@ export default function CookiebeleidPage() {
             vergelijkbare technieken zoals pixels en local storage worden ingezet.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             2. Welke soorten cookies gebruiken we?
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -57,7 +62,7 @@ export default function CookiebeleidPage() {
             meten. Deze worden enkel geplaatst na uw toestemming.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             3. Toestemming en beheer
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -68,7 +73,7 @@ export default function CookiebeleidPage() {
             van de website.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             4. Cookies van derden
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -77,14 +82,14 @@ export default function CookiebeleidPage() {
             websitegebruik. Deze partijen kunnen een eigen privacy- en cookiebeleid hanteren.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">5. Wijzigingen</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">5. Wijzigingen</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             We kunnen dit cookiebeleid van tijd tot tijd aanpassen, bijvoorbeeld wanneer we onze
             website of de gebruikte technieken wijzigen. De meest recente versie is steeds op deze
             pagina beschikbaar.
           </p>
 
-          <h2 className="mt-10 text-xl font-semibold text-zinc-950">6. Contact</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">6. Contact</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Meer weten over hoe we met uw gegevens omgaan? Lees ons{" "}
             <Link
@@ -102,6 +107,7 @@ export default function CookiebeleidPage() {
             </Link>{" "}
             met ons op via {site.email}.
           </p>
+        </div>
         </div>
       </section>
     </PageShell>

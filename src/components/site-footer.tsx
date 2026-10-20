@@ -7,8 +7,10 @@ const ontdek = nav[3].children!;
 
 export default function SiteFooter() {
   return (
-    <footer className="px-0 pt-14 pb-0">
-      <div className="overflow-hidden rounded-t-3xl bg-zinc-950">
+    <footer className="relative z-10 px-0 pt-14 pb-0">
+      {/* White ring = the page frame; where the footer overlaps the closing CTA
+          it draws a rounded seam, so the CTA sits just behind the footer. */}
+      <div className="overflow-hidden rounded-t-[2rem] bg-zinc-950 shadow-[0_0_0_8px_white]">
         <div className="grid gap-12 px-8 py-14 sm:px-12 lg:grid-cols-[1.6fr_1fr_1fr_1fr_1.2fr] lg:gap-8 lg:px-16">
           {/* Brand */}
           <div>

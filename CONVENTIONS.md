@@ -128,14 +128,22 @@ them; do not fork them.
 
 `ArrowButton` (`href`, `children`, `variant?: "dark" \| "light"`, `className?`) ·
 `ArrowChip` (`className?`) · `Eyebrow` (`children`, `className?`) ·
-`SplitHeading` (`lead`, `trail?`, `className?`).
+`SplitHeading` (`lead`, `trail?`, `className?`) ·
+`SectionHeader` (`label`, `lead`, `trail?`, `index?`, `intro?`, `action?`, `className?`) —
+the editorial section opener (label left, heading right on a `1fr_3fr` grid).
+Interior pages align content to that same grid.
 
 ### Content blocks (`@/components/blocks`)
 
 `HighlightGrid` (`items`, `accent?`) · `BenefitsList` (`items`) ·
 `StatRow` (`items`, `dark?`) · `FaqAccordion` (`items`) ·
 `ProcessTimeline` (`steps`, `dark?`) · `RibbonBand` (`items`, `className?`) ·
-`MaskedHeading` (`text`, `image?`, `video?`, `className?`).
+`MaskedHeading` (`text`, `image?`, `video?`, `className?`) ·
+`LinkList` (`items: {href,label,meta?}[]`) · `MediaBand` (`line`, `video?`, `image?`, `caption?`).
+
+Interior style: hairline rules and numbered items instead of tinted icon cards;
+no overlay wordmarks, tilted ribbons or glass chips. `MaskedHeading` and
+`RibbonBand` remain for the studio gallery only.
 
 ### Scroll / motion (`@/components/scroll`)
 

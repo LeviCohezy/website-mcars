@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { nav } from "@/lib/site";
 import NavPill from "./nav-pill";
 
@@ -11,21 +11,41 @@ import NavPill from "./nav-pill";
  * Interior navigation — visually identical to the homepage hero nav:
  * a centered white logo tab, a dark translucent pill of links and the
  * Tracking / Offerte buttons. Over the dark hero it reads exactly like the
- * homepage; once you scroll onto white content a dark band fades in behind it
- * so everything stays legible. Mobile gets a matching drawer.
+ * homepage. Mobile gets a matching drawer.
  */
 export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
   void theme; // kept for backwards-compatible call sites
   const pathname = usePathname();
-  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [overLight, setOverLight] = useState(false);
 
+  const rootRef = useRef<HTMLDivElement>(null);
+  const trackingRef = useRef<HTMLAnchorElement>(null);
+
+  // The translucent Tracking button flips to dark-on-light whenever the page
+  // behind it is light, and back over photos, video and dark panels.
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
+    let frame = 0;
+    const check = () => {
+      frame = 0;
+      const btn = trackingRef.current;
+      if (!btn || !rootRef.current) return;
+      const r = btn.getBoundingClientRect();
+      if (r.width === 0) return; // hidden on mobile
+      setOverLight(!isDarkBehind(r.left + r.width / 2, r.top + r.height / 2, rootRef.current));
+    };
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(check);
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    window.addEventListener("resize", onScroll);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [pathname]);
 
   useEffect(() => setMobileOpen(false), [pathname]);
 
@@ -33,19 +53,17 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
     href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/");
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 top-0 z-50">
-      {/* Dark band that fades in on scroll to keep the nav legible over white */}
-      <div
-        aria-hidden
-        className={`absolute inset-0 transition-opacity duration-300 ${
-          scrolled ? "opacity-100" : "opacity-0"
-        } bg-gradient-to-b from-zinc-950/80 via-zinc-950/55 to-transparent backdrop-blur-[2px]`}
-      />
+    <div ref={rootRef} className="pointer-events-none fixed inset-x-0 top-0 z-50">
+      {/* Fixed page frame: the white top edge and the hero's rounded top
+          corners stay in place while content scrolls underneath. */}
+      <div aria-hidden className="absolute inset-x-0 top-0 h-2 bg-white" />
+      <span aria-hidden className="absolute top-2 left-2 size-8 bg-[radial-gradient(circle_at_100%_100%,transparent_31.5px,white_32px)]" />
+      <span aria-hidden className="absolute top-2 right-2 size-8 bg-[radial-gradient(circle_at_0%_100%,transparent_31.5px,white_32px)]" />
 
       {/* Centered white logo tab (identical to homepage) */}
-      <div className="pointer-events-auto absolute top-0 left-1/2 z-20 -translate-x-1/2">
+      <div className="pointer-events-auto absolute top-2 left-1/2 z-20 -translate-x-1/2">
         <Link href="/" aria-label="Mcars — home" className="relative block rounded-b-[1.5rem] bg-white px-6 pt-0.5 pb-2 sm:px-8 sm:pt-1 sm:pb-2.5">
-          <Image src="/logo.png" alt="Mcars" width={447} height={447} priority className="h-14 w-auto sm:h-16" />
+          <Image src="/logo.png" alt="Mcars" width={447} height={447} priority className="h-14 w-auto scale-125 sm:h-16" />
           <span aria-hidden className="absolute top-0 -left-5 size-5 bg-[radial-gradient(circle_at_0%_100%,transparent_19px,white_20px)]" />
           <span aria-hidden className="absolute top-0 -right-5 size-5 bg-[radial-gradient(circle_at_100%_100%,transparent_19px,white_20px)]" />
         </Link>
@@ -60,11 +78,16 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
         {/* Right: Tracking + Offerte */}
         <div className="pointer-events-auto ml-auto flex items-center gap-2">
           <Link
+            ref={trackingRef}
             href="/contact"
-            className="hidden items-center gap-2 rounded-2xl border border-white/20 bg-white/10 py-2 pr-2 pl-5 text-sm font-medium text-white backdrop-blur-xl transition-colors hover:bg-white/20 sm:flex"
+            className={`hidden items-center gap-2 rounded-2xl border py-2 pr-2 pl-5 text-sm font-medium backdrop-blur-xl transition-colors duration-300 sm:flex ${
+              overLight
+                ? "border-zinc-200 bg-white/70 text-zinc-950 hover:bg-zinc-100"
+                : "border-white/20 bg-white/10 text-white hover:bg-white/20"
+            }`}
           >
             Tracking
-            <ArrowChip />
+            <ArrowChip inverted={overLight} />
           </Link>
           <Link
             href="/offerte"
@@ -113,12 +136,34 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
   );
 }
 
-function ArrowChip() {
+function ArrowChip({ inverted = false }: { inverted?: boolean }) {
   return (
-    <span className="flex size-7 items-center justify-center rounded-full bg-white text-zinc-900">
+    <span
+      className={`flex size-7 items-center justify-center rounded-full transition-colors duration-300 ${
+        inverted ? "bg-zinc-950 text-white" : "bg-white text-zinc-900"
+      }`}
+    >
       <svg className="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M7 17L17 7M9 7h8v8" />
       </svg>
     </span>
   );
+}
+
+/** Is the page content under (x, y) dark? Skips the nav itself; photos,
+ *  video and background images count as dark, otherwise the first opaque
+ *  background colour decides. */
+function isDarkBehind(x: number, y: number, nav: HTMLElement) {
+  for (const el of document.elementsFromPoint(x, y)) {
+    if (nav.contains(el)) continue;
+    if (el instanceof HTMLImageElement || el instanceof HTMLVideoElement) return true;
+    const style = getComputedStyle(el);
+    if (style.backgroundImage !== "none") return true;
+    const m = style.backgroundColor.match(/[\d.]+/g);
+    if (!m) continue;
+    const [r, g, b, a = "1"] = m.map(String);
+    if (Number(a) < 0.5) continue;
+    return 0.2126 * Number(r) + 0.7152 * Number(g) + 0.0722 * Number(b) < 140;
+  }
+  return false;
 }

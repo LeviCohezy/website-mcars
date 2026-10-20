@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { FaqAccordion, QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
-import { Eyebrow, SplitHeading } from "@/components/ui";
+import Section from "@/components/section";
+import { ArrowButton, Eyebrow } from "@/components/ui";
 import type { Faq } from "@/data/services";
 import { site } from "@/lib/site";
 
@@ -23,7 +23,7 @@ const groups: Group[] = [
     items: [
       {
         q: "Hoe wordt de prijs bepaald?",
-        a: "Elke prijs is maatwerk. We kijken naar het ophaal- en leveradres, de afstand, het voertuig (afmetingen en of het rijdt, rolt of geblokkeerd is), open of gesloten transport, spoed of normaal en het land van bestemming. Zo krijgt u altijd een correcte prijs voor uw situatie.",
+        a: "Elke prijs is maatwerk. We kijken naar het ophaal- en leveradres, de afstand, het voertuig (afmetingen en of het rijdt, rolt of geblokkeerd is), spoed of normaal en het land van bestemming. Zo krijgt u altijd een correcte prijs voor uw situatie.",
       },
       {
         q: "Krijg ik meteen een prijs?",
@@ -142,66 +142,91 @@ const groups: Group[] = [
   },
 ];
 
+const slugify = (s: string) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
 export default function FaqPage() {
+  const total = groups.reduce((n, g) => n + g.items.length, 0);
   return (
     <PageShell>
       <PageHero
         eyebrow="FAQ"
         title="Veelgestelde vragen."
-        subtitle="De meest gestelde vragen over autotransport, overzichtelijk per onderwerp. Staat uw vraag er niet bij? We helpen u graag persoonlijk verder."
+        subtitle="De meest gestelde vragen over autotransport, per onderwerp. Staat uw vraag er niet bij? We helpen u graag persoonlijk verder."
         crumbs={[{ label: "FAQ" }]}
         image="/fleet/countryside-highway.jpg"
+        badges={[{ label: `${total} antwoorden` }, { label: `${groups.length} onderwerpen` }]}
         primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
       />
 
-      <section className="px-5 py-16 sm:px-8 sm:py-24">
-        <div className="flex flex-col gap-16">
-          {groups.map((g) => (
-            <div key={g.eyebrow} className="grid gap-8 lg:grid-cols-[0.9fr_1.6fr] lg:gap-16">
+      {/* Topic index */}
+      <Section space="tight">
+        <nav aria-label="Onderwerpen" className="grid gap-6 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
+          <Eyebrow>Onderwerpen</Eyebrow>
+          <ul className="flex flex-wrap gap-2">
+            {groups.map((g, i) => (
+              <li key={g.eyebrow}>
+                <a
+                  href={`#${slugify(g.eyebrow)}`}
+                  className="inline-flex items-center gap-2.5 rounded-full border border-zinc-200 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-950 hover:text-zinc-950"
+                >
+                  <span className="text-xs tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
+                  {g.eyebrow}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </Section>
+
+      <Section space="flush-top">
+        <div className="flex flex-col gap-24">
+          {groups.map((g, i) => (
+            <div
+              key={g.eyebrow}
+              id={slugify(g.eyebrow)}
+              className="grid scroll-mt-28 gap-10 border-t border-zinc-200 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10"
+            >
               <div className="lg:sticky lg:top-28 lg:self-start">
-                <Eyebrow>{g.eyebrow}</Eyebrow>
-                <SplitHeading className="mt-5" lead={g.title} trail={g.trail} />
+                <div className="flex items-center justify-between gap-4 lg:block">
+                  <Eyebrow>{g.eyebrow}</Eyebrow>
+                  <span className="text-xs tabular-nums text-zinc-400 lg:mt-3 lg:block lg:pl-4">{String(i + 1).padStart(2, "0")} / {String(groups.length).padStart(2, "0")}</span>
+                </div>
               </div>
-              <FaqAccordion items={g.items} />
+              <div>
+                <h2 className="text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl">
+                  {g.title} <span className="text-zinc-400">{g.trail}</span>
+                </h2>
+                <div className="mt-10">
+                  <FaqAccordion items={g.items} defaultOpen={i === 0 ? 0 : null} />
+                </div>
+              </div>
             </div>
           ))}
         </div>
-      </section>
+      </Section>
 
-      {/* Staat uw vraag er niet bij? */}
-      <section className="px-5 pb-16 sm:px-8 sm:pb-24">
-        <div className="rounded-[2rem] bg-zinc-100 p-8 sm:p-12">
-          <div className="grid items-center gap-6 lg:grid-cols-[1.4fr_1fr]">
+      {/* Still a question */}
+      <Section space="none">
+        <div className="grid gap-10 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr]">
+          <Eyebrow>Nog een vraag?</Eyebrow>
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
             <div>
-              <Eyebrow>Nog een vraag?</Eyebrow>
-              <SplitHeading className="mt-5" lead="Staat uw vraag er niet bij?" trail="Wij helpen u persoonlijk." />
+              <h2 className="max-w-2xl text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl lg:text-[3.25rem]">
+                Staat uw vraag er niet bij? <span className="text-zinc-400">Wij helpen u persoonlijk.</span>
+              </h2>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-zinc-500">
-                Bel ons gerust of stuur een bericht. U krijgt een duidelijk antwoord van iemand
-                die uw transport ook echt kan inplannen.
+                U krijgt een duidelijk antwoord van iemand die uw transport ook echt kan inplannen.
               </p>
             </div>
-            <div className="flex flex-col gap-3 lg:items-end">
-              <Link
-                href="/contact"
-                className="group inline-flex items-center gap-3 rounded-full bg-zinc-950 py-3 pr-3 pl-7 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
-              >
-                Neem contact op
-                <span className="flex size-8 items-center justify-center rounded-full bg-white text-zinc-950">
-                  <svg className="size-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 12h14M13 6l6 6-6 6" />
-                  </svg>
-                </span>
-              </Link>
-              <a
-                href={site.phoneHref}
-                className="text-sm font-medium text-zinc-500 transition-colors hover:text-zinc-950"
-              >
+            <div className="flex flex-col items-start gap-3 lg:items-end">
+              <ArrowButton href="/contact">Neem contact op</ArrowButton>
+              <a href={site.phoneHref} className="text-sm text-zinc-500 transition-colors hover:text-zinc-950">
                 Of bel {site.phone}
               </a>
             </div>
           </div>
         </div>
-      </section>
+      </Section>
 
       <QuoteCta />
     </PageShell>

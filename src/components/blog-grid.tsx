@@ -1,6 +1,6 @@
 import SectionPill from "./section-pill";
 
-const posts = [
+export const posts = [
   {
     img: "01",
     tag: "Documenten",
