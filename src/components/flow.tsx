@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Children, createContext, isValidElement, useContext, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
-import { site } from "@/lib/site";
 import QuoteFlow from "./quote-flow";
 
 /*
@@ -124,7 +123,10 @@ function useInView<T extends HTMLElement>(margin = "0px 0px -12% 0px") {
 /* ------------------------------------------------------------------ */
 
 /** Content container every chapter aligns to — the frame lines sit on its edges. */
-export const FRAME = "mx-auto w-full max-w-[88rem] px-5 sm:px-10 lg:px-14";
+/** Phones: a QuoteFlow placed directly in this wrapper runs edge to edge (no card chrome). */
+const BLEED_FORM = "max-md:-mx-6 max-md:w-[calc(100%+3rem)] max-md:[&>[data-quote-flow]]:rounded-none max-md:[&>[data-quote-flow]]:px-6 max-md:[&>[data-quote-flow]]:py-10 max-md:[&>[data-quote-flow]]:shadow-none max-md:[&>[data-quote-flow]]:ring-0";
+
+export const FRAME = "mx-auto w-full max-w-[88rem] px-6 sm:px-10 lg:px-14";
 
 /**
  * Wraps the page: renders the persistent vertical frame hairlines (Lithosquare)
@@ -161,11 +163,11 @@ export function FlowPage({ tone = "light", children, className = "" }: { tone?: 
         {children}
         <StickyQuote />
         {/* Route line — fixed to the viewport, on the left frame edge */}
-        <div aria-hidden className="pointer-events-none fixed top-0 bottom-0 right-[5px] z-40 w-px opacity-50 md:right-auto md:left-[1.6rem] md:opacity-100">
+        <div aria-hidden className="pointer-events-none fixed top-0 bottom-0 left-[1.6rem] z-40 hidden w-px md:block">
           <div className="absolute inset-0 bg-zinc-500/20" />
           <div className="absolute inset-x-0 top-0 bg-zinc-500/70 mix-blend-difference" style={{ height: `${p * 100}%`, transition: reduced ? "none" : "height 120ms linear" }} />
           <div
-            className="absolute -left-[2px] size-[5px] rounded-full bg-white ring-2 ring-zinc-950 mix-blend-difference md:-left-[3px] md:size-[7px]"
+            className="absolute -left-[3px] size-[7px] rounded-full bg-white ring-2 ring-zinc-950 mix-blend-difference"
             style={{ top: `calc(${p * 100}% - 3px)`, transition: reduced ? "none" : "top 120ms linear" }}
           />
         </div>
@@ -178,7 +180,7 @@ export function FlowPage({ tone = "light", children, className = "" }: { tone?: 
 function FrameLines({ tone }: { tone: FlowTone }) {
   const t = TONE[tone];
   return (
-    <div aria-hidden className="pointer-events-none absolute inset-y-0 left-1/2 -z-0 w-full max-w-[88rem] -translate-x-1/2 px-2.5 opacity-60 sm:px-10 sm:opacity-100 lg:px-14">
+    <div aria-hidden className="pointer-events-none absolute inset-y-0 left-1/2 -z-0 hidden w-full max-w-[88rem] -translate-x-1/2 px-10 md:block lg:px-14">
       <div className="relative h-full">
         <span className={`absolute inset-y-0 left-0 w-px ${t.frame}`} />
         <span className={`absolute inset-y-0 right-0 w-px ${t.frame}`} />
@@ -198,7 +200,7 @@ function Seam({ tone }: { tone: FlowTone }) {
     </svg>
   );
   return (
-    <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 mx-auto w-full max-w-[88rem] px-2.5 sm:px-10 lg:px-14">
+    <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 mx-auto hidden w-full max-w-[88rem] px-10 md:block lg:px-14">
       <div className="relative">
         <span className={`${cross} -left-[5px]`}>{svg}</span>
         <span className={`${cross} left-1/2 hidden -translate-x-1/2 lg:block`}>{svg}</span>
@@ -242,12 +244,12 @@ export function Chapter({
     <ToneCtx.Provider value={tone}>
       <section
         id={id}
-        className={`relative isolate ${t.bg} ${t.text} ${pad} ${curtain ? "-mt-10 rounded-t-[2rem] sm:-mt-14 sm:rounded-t-[2.75rem]" : ""} ${className}`}
+        className={`relative isolate ${t.bg} ${t.text} ${pad} ${curtain ? "md:-mt-14 md:rounded-t-[2.75rem]" : ""} ${className}`}
       >
         <FrameLines tone={tone} />
         {!curtain && <Seam tone={tone} />}
         {(n || label) && (
-          <div className={`relative ${FRAME} mb-8 sm:mb-14`}>
+          <div className={`relative ${FRAME} mb-14 max-md:hidden`}>
             <p className={`flex items-center gap-3 font-mono text-[11px] tracking-[0.22em] uppercase ${t.muted}`}>
               {n && <span className={t.text}>{n}</span>}
               <span aria-hidden className={`h-px w-8 ${tone === "dark" ? "bg-white/30" : "bg-zinc-950/25"}`} />
@@ -294,8 +296,8 @@ export function ChapterIntro({
         <h2
           className={
             lead.length + (trail?.length ?? 0) > 110
-              ? "text-[1.6rem] leading-[1.18] font-light tracking-[-0.025em] sm:text-3xl lg:text-[2.6rem]"
-              : "text-[2.15rem] leading-[1.04] font-light tracking-[-0.035em] text-balance sm:text-5xl lg:text-[4rem]"
+              ? "text-2xl leading-[1.3] font-light tracking-[-0.02em] sm:text-3xl lg:text-[2.6rem] lg:leading-[1.18]"
+              : `text-4xl leading-[1.1] font-light tracking-[-0.035em] text-balance max-md:max-w-[20ch] sm:text-5xl lg:text-[4rem] lg:leading-[1.04] ${center ? "max-md:mx-auto" : ""}`
           }
         >
           <ScrollWords text={lead} />
@@ -308,8 +310,9 @@ export function ChapterIntro({
         </h2>
         {(body || action) && (
           <div className={center ? "mx-auto mt-6 max-w-xl" : "lg:pb-2"}>
-            {body && <p className={`text-base leading-relaxed sm:text-lg ${t.muted}`}>{body}</p>}
-            {action && <div className={`mt-6 flex flex-wrap gap-3 ${center ? "justify-center" : ""}`}>{action}</div>}
+            {/* Phones: one short paragraph at most — long intros are desktop-only */}
+            {body && <p className={`text-base leading-[1.6] sm:text-lg ${body.length > 140 ? "max-md:hidden" : ""} ${t.muted}`}>{body}</p>}
+            {action && <div className={`mt-8 flex flex-wrap gap-3 sm:mt-6 ${center ? "justify-center" : ""}`}>{action}</div>}
           </div>
         )}
       </div>
@@ -403,7 +406,7 @@ export function ImageBridge({
   height?: string;
 }) {
   return (
-    <div aria-hidden={!caption} className="relative isolate">
+    <div aria-hidden={!caption} className="relative isolate max-md:hidden">
       <div className={`absolute inset-x-0 top-0 h-1/2 ${TONE[from].bg}`} />
       <div className={`absolute inset-x-0 bottom-0 h-1/2 ${TONE[to].bg}`} />
       <div className={`relative ${FRAME}`}>
@@ -424,7 +427,7 @@ type Crumb = { href?: string; label: string };
 
 function Crumbs({ items, light }: { items: Crumb[]; light: boolean }) {
   return (
-    <nav aria-label="Breadcrumb" className={`flex flex-wrap items-center gap-2 text-sm ${light ? "text-zinc-500" : "text-white/60"}`}>
+    <nav aria-label="Breadcrumb" className={`flex flex-wrap items-center gap-2 text-sm max-md:hidden ${light ? "text-zinc-500" : "text-white/60"}`}>
       {items.map((c, i) => (
         <span key={c.label} className="flex items-center gap-2">
           {i > 0 && <span aria-hidden>/</span>}
@@ -478,17 +481,18 @@ export function FlowHero({
     return (
       <ToneCtx.Provider value="dark">
         <section className="relative isolate flex min-h-[calc(100svh-1rem)] flex-col overflow-hidden rounded-[1rem] bg-zinc-950 text-white">
-          <ClipImage src={image} alt={imageAlt} priority parallax className="absolute inset-0" />
-          <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-zinc-950/25 to-zinc-950/50" />
-          <div aria-hidden className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-zinc-950/55 to-transparent" />
-          <div className={`relative z-10 grid grid-cols-1 flex-1 content-end gap-8 pt-32 pb-8 sm:pb-12 lg:grid-cols-[minmax(0,1fr)_27rem] lg:items-end lg:gap-14 ${FRAME}`}>
+          <ClipImage src={image} alt={imageAlt} priority parallax className="absolute inset-0 max-md:hidden" />
+          <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-zinc-950/25 to-zinc-950/50 max-md:hidden" />
+          <div aria-hidden className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-zinc-950/55 to-transparent max-md:hidden" />
+          <div className={`relative z-10 grid grid-cols-1 flex-1 content-end gap-12 pt-28 pb-20 md:gap-8 md:pt-32 md:pb-12 lg:grid-cols-[minmax(0,1fr)_27rem] lg:items-end lg:gap-14 ${FRAME}`}>
             <div className="min-w-0">
               <Crumbs items={crumbs} light={false} />
-              <h1 className="mt-4 max-w-4xl text-[2.5rem] leading-[0.98] font-light tracking-[-0.045em] text-balance sm:mt-5 sm:text-7xl lg:text-[6.5rem]">{title}</h1>
-              {intro && <p className="mt-6 max-w-lg text-base leading-relaxed text-white/75 sm:text-lg">{intro}</p>}
-              {aside && <div className="mt-7">{aside}</div>}
+              <h1 className="max-w-[20ch] text-4xl leading-[1.08] font-light tracking-[-0.04em] text-balance md:mt-5 md:max-w-4xl md:text-7xl md:leading-[0.98] lg:text-[6.5rem]">{title}</h1>
+              {intro && <p className="mt-6 max-w-lg text-base leading-[1.6] text-white/70 sm:text-lg">{intro}</p>}
+              {aside && <div className="mt-7 max-md:hidden">{aside}</div>}
             </div>
-            {form && <div className="w-full min-w-0">{form}</div>}
+            {form && <div className={`w-full min-w-0 ${BLEED_FORM}`}>{form}</div>}
+            <ClipImage src={image} alt={imageAlt} className="aspect-[4/3] rounded-[1.25rem] md:hidden" />
           </div>
         </section>
       </ToneCtx.Provider>
@@ -499,35 +503,35 @@ export function FlowHero({
     const word = (wordmark ?? title.split(" ")[0]).toUpperCase();
     return (
       <ToneCtx.Provider value="light">
-        <section className="relative isolate overflow-hidden bg-white pt-24 text-zinc-950 sm:pt-36">
+        <section className="relative isolate overflow-hidden bg-white pt-28 text-zinc-950 sm:pt-36">
           <FrameLines tone="light" />
           <div className={`relative ${FRAME}`}>
             <Crumbs items={crumbs} light />
             <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:items-end">
-              <h1 className="text-[2.5rem] leading-[0.98] font-light tracking-[-0.045em] text-balance sm:text-7xl lg:text-[5.5rem]">{title}</h1>
+              <h1 className="max-w-[20ch] text-4xl leading-[1.08] font-light tracking-[-0.04em] text-balance md:max-w-none md:text-7xl md:leading-[0.98] lg:text-[5.5rem]">{title}</h1>
               <div>
-                {intro && <p className="max-w-md text-base leading-relaxed text-zinc-500 sm:text-lg">{intro}</p>}
-                {aside && <div className="mt-5">{aside}</div>}
+                {intro && <p className="max-w-md text-base leading-[1.6] text-zinc-500 sm:text-lg">{intro}</p>}
+                {aside && <div className="mt-5 max-md:hidden">{aside}</div>}
               </div>
             </div>
           </div>
           {/* Wordmark band — giant word on a studio-grey panel, the isolated truck
               (edges masked into the panel) overlapping its lower half */}
-          <div className={`relative mt-10 sm:mt-14 ${FRAME}`}>
-            <div className="relative overflow-hidden rounded-[1.5rem] bg-[#c3c6ce] pt-8 sm:rounded-[2.5rem] sm:pt-12">
+          <div className={`relative mt-12 sm:mt-14 ${FRAME}`}>
+            <div className="relative overflow-hidden rounded-[1.25rem] bg-[#c3c6ce] max-md:aspect-[4/3] max-md:content-center sm:rounded-[2.5rem] md:pt-12">
               <p
                 aria-hidden
-                className="pointer-events-none text-center font-[family-name:var(--font-display)] leading-[0.8] whitespace-nowrap text-white select-none"
+                className="pointer-events-none text-center max-md:hidden font-[family-name:var(--font-display)] leading-[0.8] whitespace-nowrap text-white select-none"
                 style={{ fontSize: `clamp(4.5rem, ${Math.min(22, 128 / Math.max(word.length, 5))}vw, 21rem)` }}
               >
                 {word}
               </p>
-              <div className="relative mx-auto -mt-[7vw] aspect-[2/1] w-full max-w-6xl [mask-image:radial-gradient(ellipse_62%_62%_at_50%_56%,black_62%,transparent_100%)]">
+              <div className="relative mx-auto aspect-[2/1] w-full max-w-6xl md:-mt-[7vw] [mask-image:radial-gradient(ellipse_62%_62%_at_50%_56%,black_62%,transparent_100%)]">
                 <Image src={image} alt={imageAlt} fill priority sizes="(min-width: 1024px) 72rem, 100vw" className="object-contain" />
               </div>
             </div>
           </div>
-          {form && <div className={`relative -mt-10 pb-16 sm:-mt-20 sm:pb-24 ${FRAME}`}><div className="mx-auto max-w-3xl">{form}</div></div>}
+          {form && <div className={`relative mt-12 pb-20 md:-mt-20 md:pb-24 ${FRAME}`}><div className={`mx-auto max-w-3xl ${BLEED_FORM}`}>{form}</div></div>}
         </section>
       </ToneCtx.Provider>
     );
@@ -540,30 +544,30 @@ export function FlowHero({
   const pills = lineImages.length ? lineImages : [image];
   return (
     <ToneCtx.Provider value="dark">
-      <section className="relative isolate overflow-hidden rounded-[1rem] bg-zinc-950 pt-28 pb-16 text-white sm:pt-40 sm:pb-24">
+      <section className="relative isolate overflow-hidden rounded-[1rem] bg-zinc-950 pt-28 pb-20 text-white sm:pt-40 sm:pb-24">
         <FrameLines tone="dark" />
         <div className={`relative ${FRAME} text-center`}>
           <div className="flex justify-center">
             <Crumbs items={crumbs} light={false} />
           </div>
-          <h1 className="mx-auto mt-6 max-w-6xl text-[2.3rem] leading-[1.06] font-light tracking-[-0.045em] sm:mt-8 sm:text-7xl lg:text-[6.25rem]">
+          <h1 className="mx-auto max-w-[20ch] text-4xl leading-[1.1] font-light tracking-[-0.04em] text-balance md:mt-8 md:max-w-6xl md:text-7xl md:leading-[1.06] lg:text-[6.25rem]">
             {lines.map((l, i) => (
-              <span key={i} className="flex flex-wrap items-center justify-center gap-x-[0.25em]">
+              <span key={i} className="md:flex md:flex-wrap md:items-center md:justify-center md:gap-x-[0.25em]">
                 {i > 0 && pills[(i - 1) % pills.length] && (
-                  <span aria-hidden className="relative inline-block h-[0.72em] w-[1.6em] overflow-hidden rounded-full align-middle ring-1 ring-white/20">
+                  <span aria-hidden className="relative inline-block h-[0.72em] w-[1.6em] overflow-hidden rounded-full align-middle ring-1 ring-white/20 max-md:hidden">
                     <Image src={pills[(i - 1) % pills.length]} alt="" fill sizes="12rem" className="object-cover" />
                   </span>
                 )}
-                {l.join(" ")}
+                {l.join(" ")}{" "}
               </span>
             ))}
           </h1>
-          {intro && <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-white/60 sm:text-lg">{intro}</p>}
-          {aside && <div className="mt-6 flex justify-center">{aside}</div>}
-          {form && <div className="mx-auto mt-10 max-w-3xl text-left">{form}</div>}
+          {intro && <p className="mx-auto mt-6 max-w-xl text-base leading-[1.6] text-white/60 sm:mt-8 sm:text-lg">{intro}</p>}
+          {aside && <div className="mt-6 flex justify-center max-md:hidden">{aside}</div>}
+          {form && <div className={`mx-auto mt-12 max-w-3xl text-left sm:mt-10 ${BLEED_FORM}`}>{form}</div>}
         </div>
-        <div className={`relative mt-16 ${FRAME}`}>
-          <ClipImage src={image} alt={imageAlt} priority parallax className="aspect-[4/3] rounded-[1.25rem] sm:aspect-auto sm:h-[62svh] sm:rounded-[2rem]" />
+        <div className={`relative mt-12 sm:mt-16 ${FRAME}`}>
+          <ClipImage src={image} alt={imageAlt} priority parallax className="aspect-[4/3] rounded-[1.25rem] md:aspect-auto md:h-[62svh] md:rounded-[2rem]" />
         </div>
       </section>
     </ToneCtx.Provider>
@@ -620,17 +624,12 @@ export function StepPath({ steps }: { steps: { title: string; body: string; tag?
           ))}
         </ol>
       </div>
-      {/* Mobile / tablet */}
-      <ol className="relative space-y-4 pl-8 lg:hidden">
-        <span aria-hidden className={`absolute top-2 bottom-2 left-[7px] w-px ${tone === "dark" ? "bg-white/15" : "bg-zinc-950/15"}`}>
-          <span className={`absolute inset-x-0 top-0 ${tone === "dark" ? "bg-white" : "bg-zinc-950"}`} style={{ height: `${draw * 100}%` }} />
-        </span>
-        {steps.map((s, i) => (
-          <li key={s.title} className={`relative rounded-2xl p-5 ${card}`}>
-            <span aria-hidden className={`absolute top-6 -left-8 size-[15px] rounded-full border-2 ${tone === "dark" ? "border-white bg-zinc-950" : "border-zinc-950 bg-white"}`} />
-            <span className={`font-mono text-[11px] tracking-[0.2em] ${t.faint}`}>{String(i + 1).padStart(2, "0")}{s.tag ? ` · ${s.tag}` : ""}</span>
-            <h3 className="mt-3 text-xl font-light tracking-[-0.02em]">{s.title}</h3>
-            <p className={`mt-2 text-sm leading-relaxed ${t.muted}`}>{s.body}</p>
+      {/* Phones / tablets: a calm vertical stack — title + text, generous gaps */}
+      <ol className="space-y-12 lg:hidden">
+        {steps.map((s) => (
+          <li key={s.title}>
+            <h3 className="text-2xl leading-snug font-light tracking-[-0.02em]">{s.title}</h3>
+            <p className={`mt-3 text-base leading-[1.6] ${t.muted}`}>{s.body}</p>
           </li>
         ))}
       </ol>
@@ -656,14 +655,14 @@ export function IndexRow({
         {items.map((it, i) => {
           const inner = (
             <>
-              <span className={`font-[family-name:var(--font-display)] text-5xl leading-none sm:text-7xl ${t.faint} transition-colors ${tone === "dark" ? "group-hover:text-white" : "group-hover:text-zinc-950"}`}>
+              <span className={`font-[family-name:var(--font-display)] leading-none max-md:hidden md:text-7xl ${t.faint} transition-colors ${tone === "dark" ? "group-hover:text-white" : "group-hover:text-zinc-950"}`}>
                 {String(i + 1).padStart(3, "0")}
               </span>
               <span className="min-w-0">
-                <span className="block text-2xl font-light tracking-[-0.025em] sm:text-3xl">{it.title}</span>
-                {it.body && <span className={`mt-2 block max-w-xl text-sm leading-relaxed sm:text-base ${t.muted}`}>{it.body}</span>}
+                <span className="block text-2xl leading-snug font-light tracking-[-0.025em] md:text-3xl">{it.title}</span>
+                {it.body && <span className={`mt-3 block max-w-xl text-base leading-[1.6] md:mt-2 ${t.muted}`}>{it.body}</span>}
               </span>
-              <span className="hidden items-center justify-end gap-5 sm:flex">
+              <span className="hidden items-center justify-end gap-5 md:flex">
                 {it.meta && <span className={`font-mono text-[11px] tracking-[0.18em] uppercase ${t.muted}`}>{it.meta}</span>}
                 {it.image && (
                   <span className="relative block h-16 w-24 overflow-hidden rounded-xl opacity-100 transition-all duration-500 lg:w-0 lg:opacity-0 lg:group-hover:w-28 lg:group-hover:opacity-100">
@@ -678,7 +677,7 @@ export function IndexRow({
               </span>
             </>
           );
-          const cls = `group grid grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-5 border-b py-6 sm:grid-cols-[8rem_minmax(0,1fr)_auto] sm:gap-8 sm:py-8 ${t.line}`;
+          const cls = `group grid grid-cols-1 items-center border-b py-10 md:grid-cols-[8rem_minmax(0,1fr)_auto] md:gap-8 md:py-8 ${t.line}`;
           return (
             <li key={it.title}>
               {it.href ? (
@@ -702,22 +701,22 @@ export function IndexRow({
  * the cadence is always the same across pages.
  */
 export function Bento({ children }: { children: React.ReactNode }) {
-  // Phones: one column of equal 4:3-ish cells; tablets/desktop: the rhythm grid.
+  // Phones: one calm column (image, then text); tablets/desktop: the rhythm grid.
   const PATTERN = [
-    "min-h-[19rem] lg:col-span-4 lg:row-span-2 sm:min-h-[22rem]",
-    "min-h-[16rem] lg:col-span-2 sm:min-h-[14rem]",
-    "min-h-[16rem] lg:col-span-2 sm:min-h-[14rem]",
-    "min-h-[16rem] lg:col-span-3",
-    "min-h-[16rem] lg:col-span-3",
-    "min-h-[16rem] lg:col-span-2 sm:min-h-[14rem]",
-    "min-h-[16rem] lg:col-span-4 sm:min-h-[14rem]",
+    "md:min-h-[22rem] lg:col-span-4 lg:row-span-2",
+    "md:min-h-[14rem] lg:col-span-2",
+    "md:min-h-[14rem] lg:col-span-2",
+    "md:min-h-[16rem] lg:col-span-3",
+    "md:min-h-[16rem] lg:col-span-3",
+    "md:min-h-[14rem] lg:col-span-2",
+    "md:min-h-[14rem] lg:col-span-4",
   ];
   const kids = Children.toArray(children).filter(isValidElement);
   return (
     <div className={FRAME}>
-      <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-6">
+      <div className="grid grid-cols-1 gap-14 md:grid-cols-2 md:gap-4 lg:grid-cols-6">
         {kids.map((k, i) => (
-          <Rise key={i} delay={(i % 3) * 80} className={`${PATTERN[i % PATTERN.length]} ${i === 0 ? "sm:col-span-2" : ""} relative overflow-hidden rounded-[1.5rem]`}>
+          <Rise key={i} delay={(i % 3) * 80} className={`${PATTERN[i % PATTERN.length]} ${i === 0 ? "md:col-span-2" : ""} relative md:overflow-hidden md:rounded-[1.5rem]`}>
             {k}
           </Rise>
         ))}
@@ -750,24 +749,29 @@ export function Cell({
   const tone = useFlowTone();
   const onPhoto = Boolean(image);
   const isDark = onPhoto || dark || tone === "dark";
-  const panel = onPhoto ? "" : dark ? "bg-zinc-950 text-white" : tone === "dark" ? "bg-white/[0.05] ring-1 ring-white/10" : tone === "paper" ? "bg-white" : "bg-zinc-100";
+  const panel = onPhoto ? "" : dark ? "md:bg-zinc-950" : tone === "dark" ? "md:bg-white/[0.05] md:ring-1 md:ring-white/10" : tone === "paper" ? "md:bg-white" : "md:bg-zinc-100";
+  // Phones: text follows the chapter tone (no overlays); tablets+: on the photo/panel.
+  const phoneText = tone === "dark" ? "text-white" : "text-zinc-950";
+  const phoneMuted = tone === "dark" ? "text-white/60" : "text-zinc-500";
+  const mdText = isDark ? "md:text-white" : "md:text-zinc-950";
+  const mdMuted = isDark ? "md:text-white/70" : "md:text-zinc-500";
   return (
-    <div className={`absolute inset-0 flex flex-col justify-end p-6 sm:p-7 ${panel} ${isDark ? "text-white" : "text-zinc-950"}`}>
+    <div className={`relative flex flex-col gap-6 md:absolute md:inset-0 md:justify-end md:gap-0 md:p-7 ${panel} ${phoneText} ${mdText}`}>
       {image && (
-        <>
+        <div className="relative aspect-[4/3] overflow-hidden rounded-[1.25rem] md:absolute md:inset-0 md:aspect-auto md:rounded-none">
           <ClipImage src={image} alt={alt} sizes="(min-width:1024px) 50vw, 100vw" className="absolute inset-0" />
-          <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-zinc-950/10 to-transparent" />
-        </>
+          <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-zinc-950/10 to-transparent max-md:hidden" />
+        </div>
       )}
       <div className="relative">
-        {eyebrow && <p className={`font-mono text-[11px] tracking-[0.2em] uppercase ${isDark ? "text-white/60" : "text-zinc-500"}`}>{eyebrow}</p>}
-        {title && <p className="mt-2 text-2xl leading-tight font-light tracking-[-0.02em] sm:text-3xl">{title}</p>}
-        {body && <p className={`mt-2 max-w-md text-sm leading-relaxed ${isDark ? "text-white/70" : "text-zinc-500"}`}>{body}</p>}
+        {eyebrow && <p className={`font-mono text-[11px] tracking-[0.2em] uppercase max-md:hidden ${isDark ? "text-white/60" : "text-zinc-500"}`}>{eyebrow}</p>}
+        {title && <p className="text-2xl leading-snug font-light tracking-[-0.02em] md:mt-2 md:text-3xl md:leading-tight">{title}</p>}
+        {body && <p className={`mt-3 max-w-md text-base leading-[1.6] md:mt-2 md:text-sm md:leading-relaxed ${phoneMuted} ${mdMuted}`}>{body}</p>}
         {children}
       </div>
       {href && (
         <Link href={href} className="group absolute inset-0 z-10 flex items-end justify-end p-5" aria-label={title ?? eyebrow ?? "Bekijk"}>
-          <span className={`flex size-11 items-center justify-center rounded-full ring-1 transition-colors ${isDark ? "ring-white/30 group-hover:bg-white group-hover:text-zinc-950" : "ring-zinc-950/20 group-hover:bg-zinc-950 group-hover:text-white"}`}>
+          <span className={`flex size-11 items-center justify-center rounded-full ring-1 transition-colors max-md:hidden ${isDark ? "ring-white/30 group-hover:bg-white group-hover:text-zinc-950" : "ring-zinc-950/20 group-hover:bg-zinc-950 group-hover:text-white"}`}>
             <Arrow />
           </span>
         </Link>
@@ -782,17 +786,17 @@ export function Figures({ items }: { items: { value: string; label: string }[] }
   const t = TONE[tone];
   return (
     <div className={FRAME}>
-      <dl className={`grid grid-cols-1 border-t sm:grid-cols-2 lg:grid-cols-4 ${t.line}`}>
+      <dl className={`grid grid-cols-1 border-t md:grid-cols-2 lg:grid-cols-4 ${t.line}`}>
         {items.map((f, i) => (
           <Rise
             key={f.label}
             delay={i * 90}
-            className={`flex items-end justify-between gap-6 border-b py-6 sm:block sm:py-10 sm:pr-4 ${t.line} ${i % 2 === 0 ? "" : "sm:pl-6"} lg:border-b-0 lg:pl-6 lg:first:pl-0 ${i > 0 ? "lg:border-l" : ""}`}
+            className={`flex items-end justify-between gap-6 border-b py-8 md:block md:py-10 md:pr-4 ${t.line} ${i % 2 === 0 ? "" : "md:pl-6"} lg:border-b-0 lg:pl-6 lg:first:pl-0 ${i > 0 ? "lg:border-l" : ""}`}
           >
-            <dt className={`max-w-[11rem] pb-1 font-mono text-[11px] tracking-[0.2em] uppercase sm:max-w-none sm:pb-0 ${t.muted}`}>{f.label}</dt>
+            <dt data-keep className={`max-w-[12rem] pb-1 text-base md:max-w-none md:pb-0 md:font-mono md:text-[11px] md:tracking-[0.2em] md:uppercase ${t.muted}`}>{f.label}</dt>
             <dd
               className={`text-right font-[family-name:var(--font-display)] leading-none break-words sm:mt-3 sm:text-left ${
-                f.value.length > 5 ? "text-4xl sm:text-5xl lg:text-6xl" : "text-[3.5rem] sm:text-7xl lg:text-8xl"
+                f.value.length > 5 ? "text-3xl md:text-5xl lg:text-6xl" : "text-4xl md:text-7xl lg:text-8xl"
               }`}
             >
               {f.value}
@@ -808,12 +812,12 @@ export function Figures({ items }: { items: { value: string; label: string }[] }
 export function InlineImageLine({ parts }: { parts: (string | { image: string })[] }) {
   return (
     <div className={FRAME}>
-      <p className="text-center text-[2.4rem] leading-[1.08] font-light tracking-[-0.045em] sm:text-6xl lg:text-[5.5rem]">
+      <p className="text-4xl leading-[1.1] font-light tracking-[-0.04em] text-balance max-md:max-w-[20ch] md:text-center md:text-6xl md:leading-[1.08] lg:text-[5.5rem]">
         {parts.map((p, i) =>
           typeof p === "string" ? (
             <span key={i}>{p} </span>
           ) : (
-            <span key={i} aria-hidden className="relative mx-[0.12em] inline-block h-[0.74em] w-[1.7em] -translate-y-[0.06em] overflow-hidden rounded-full align-middle">
+            <span key={i} aria-hidden className="relative mx-[0.12em] inline-block h-[0.74em] w-[1.7em] -translate-y-[0.06em] overflow-hidden rounded-full align-middle max-md:hidden">
               <Image src={p.image} alt="" fill sizes="14rem" className="object-cover" />
             </span>
           ),
@@ -829,7 +833,7 @@ export function FlowButton({ href, children, variant = "solid" }: { href: string
   const solid = tone === "dark" ? "bg-white text-zinc-950 hover:bg-zinc-200" : "bg-zinc-950 text-white hover:bg-zinc-800";
   const ghost = tone === "dark" ? "ring-1 ring-white/25 text-white hover:ring-white/60" : "ring-1 ring-zinc-950/15 text-zinc-950 hover:ring-zinc-950/50";
   return (
-    <Link href={href} className={`inline-flex min-h-12 items-center gap-2 rounded-full px-6 text-sm font-medium transition-colors ${variant === "solid" ? solid : ghost}`}>
+    <Link href={href} className={`inline-flex min-h-14 items-center gap-2 rounded-full px-7 text-base font-medium transition-colors md:min-h-12 md:px-6 md:text-sm ${variant === "solid" ? solid : ghost}`}>
       {children} <Arrow />
     </Link>
   );
@@ -860,18 +864,18 @@ export function FlowFaq({ items }: { items: { q: string; a: string }[] }) {
                   type="button"
                   aria-expanded={on}
                   onClick={() => setOpen(on ? null : i)}
-                  className="flex min-h-16 w-full items-center gap-6 py-5 text-left"
+                  className="flex min-h-16 w-full items-center gap-6 py-6 text-left md:py-5"
                 >
-                  <span className={`hidden w-8 flex-none font-mono text-[11px] tracking-[0.18em] sm:inline ${t.faint}`}>{String(i + 1).padStart(2, "0")}</span>
-                  <span className="flex-1 text-lg font-light tracking-[-0.015em] sm:text-2xl">{f.q}</span>
-                  <span aria-hidden className={`relative size-5 flex-none transition-transform duration-500 ${on ? "rotate-45" : ""}`}>
+                  <span className={`hidden w-8 flex-none font-mono text-[11px] tracking-[0.18em] md:inline ${t.faint}`}>{String(i + 1).padStart(2, "0")}</span>
+                  <span className="flex-1 text-xl leading-snug font-light tracking-[-0.015em] md:text-2xl">{f.q}</span>
+                  <span aria-hidden className={`relative size-5 flex-none transition-transform duration-500 max-md:hidden ${on ? "rotate-45" : ""}`}>
                     <span className="absolute inset-x-0 top-1/2 h-px bg-current" />
                     <span className="absolute inset-y-0 left-1/2 w-px bg-current" />
                   </span>
                 </button>
                 <div className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(.22,1,.36,1)] ${on ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
                   <div className="overflow-hidden">
-                    <p className={`max-w-2xl pb-6 text-base leading-relaxed sm:pl-14 ${t.muted}`}>{f.a}</p>
+                    <p className={`max-w-2xl pb-8 text-base leading-[1.6] md:pb-6 md:pl-14 ${t.muted}`}>{f.a}</p>
                   </div>
                 </div>
               </li>
@@ -890,7 +894,7 @@ export function FlowFaq({ items }: { items: { q: string; a: string }[] }) {
 export function FlowClose({
   lead = "Klaar om uw wagen",
   trail = "te laten vervoeren?",
-  body = "Vertel ons in een paar vragen wat er moet gebeuren. U krijgt binnen 24 uur een persoonlijke prijs en planning — geen calculator, geen callcenter.",
+  body = "Een paar korte vragen, en u krijgt binnen 24 uur een persoonlijke prijs.",
   form,
   contact,
 }: {
@@ -904,13 +908,13 @@ export function FlowClose({
     <Chapter tone="dark" curtain space="loose" className="pb-28 sm:pb-40">
       <div className={`${FRAME} grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:gap-16`}>
         <div>
-          <h2 className="text-[2.4rem] leading-[1.02] font-light tracking-[-0.045em] text-balance sm:text-6xl lg:text-7xl">
+          <h2 className="max-w-[20ch] text-4xl leading-[1.1] font-light tracking-[-0.04em] text-balance md:text-6xl md:leading-[1.02] lg:text-7xl">
             <ScrollWords text={lead} /> <span className="text-white/35">{trail}</span>
           </h2>
           <p className="mt-6 max-w-md text-base leading-relaxed text-white/55 sm:text-lg">{body}</p>
-          {contact && <div className="mt-10">{contact}</div>}
+          {contact && <div className="mt-10 max-md:hidden">{contact}</div>}
         </div>
-        <div>{form}</div>
+        <div className={BLEED_FORM}>{form}</div>
       </div>
     </Chapter>
   );
@@ -980,19 +984,14 @@ function StickyQuote() {
         }`}
         style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
       >
-        <div className="flex items-center gap-1.5 rounded-full bg-zinc-950/92 p-1.5 text-white shadow-[0_18px_50px_-12px_rgb(0_0_0/0.55)] ring-1 ring-white/10 backdrop-blur-xl">
-          <a href={site.phoneHref} aria-label={`Bel ${site.phone}`} className="flex size-12 flex-none items-center justify-center rounded-full ring-1 ring-white/15">
-            <svg className="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
-            </svg>
-          </a>
+        <div className="flex items-center rounded-full bg-zinc-950/92 p-1.5 text-white shadow-[0_18px_50px_-12px_rgb(0_0_0/0.55)] ring-1 ring-white/10 backdrop-blur-xl">
           <button
             type="button"
             onClick={() => setOpen(true)}
-            className="flex min-h-12 flex-1 items-center justify-between gap-2 rounded-full bg-white pr-4 pl-5 text-sm font-medium text-zinc-950"
+            className="flex min-h-14 flex-1 items-center justify-between gap-2 rounded-full bg-white pr-5 pl-6 text-base font-medium text-zinc-950"
           >
             <span>
-              Offerte aanvragen <span className="font-normal text-zinc-500">· 24u</span>
+              Offerte aanvragen
             </span>
             <Arrow />
           </button>

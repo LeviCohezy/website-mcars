@@ -110,7 +110,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
         </Link>
       </div>
 
-      <div className="relative z-10 flex w-full items-center justify-between gap-4 px-4 pt-3.5 sm:px-6 sm:pt-5">
+      <div className="relative z-10 flex w-full items-center justify-between gap-4 px-6 pt-3.5 sm:pt-5">
         {/* Left: dark pill nav (with Diensten/Routes/Ontdek dropdowns) */}
         <div className="pointer-events-auto">
           <NavPill />
@@ -184,22 +184,21 @@ function MobileDrawer({ open, onClose, isActive }: { open: boolean; onClose: () 
         open ? "pointer-events-auto translate-y-0 opacity-100" : "pointer-events-none -translate-y-4 opacity-0"
       }`}
     >
-      <div className="flex min-h-full flex-col px-5 pt-28 pb-8">
+      <div className="flex min-h-full flex-col px-6 pt-32 pb-10">
         <nav aria-label="Hoofdmenu">
-          <ul className="border-t border-white/10">
+          <ul>
             {nav.map((item, i) => {
               const expanded = group === item.label;
               return (
                 <li
                   key={item.label}
-                  className="border-b border-white/10"
                   style={{ transitionDelay: open ? `${80 + i * 45}ms` : "0ms" }}
                 >
                   <div className="flex items-center">
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex min-h-16 flex-1 items-center text-[1.75rem] font-light tracking-[-0.03em] ${isActive(item.href) ? "text-white" : "text-white/80"}`}
+                      className={`flex flex-1 items-center py-5 text-[1.75rem] leading-tight font-light tracking-[-0.03em] ${isActive(item.href) ? "text-white" : "text-white/75"}`}
                     >
                       {item.label}
                     </Link>
@@ -209,10 +208,10 @@ function MobileDrawer({ open, onClose, isActive }: { open: boolean; onClose: () 
                         onClick={() => setGroup(expanded ? null : item.label)}
                         aria-expanded={expanded}
                         aria-label={`${item.label} ${expanded ? "inklappen" : "uitklappen"}`}
-                        className="flex size-12 items-center justify-center rounded-full ring-1 ring-white/15"
+                        className="-mr-3 flex size-14 items-center justify-center text-white/60"
                       >
-                        <svg className={`size-4 transition-transform duration-300 ${expanded ? "rotate-45" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
-                          <path d="M12 5v14M5 12h14" />
+                        <svg className={`size-5 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                          <path d="M6 9l6 6 6-6" />
                         </svg>
                       </button>
                     )}
@@ -222,12 +221,12 @@ function MobileDrawer({ open, onClose, isActive }: { open: boolean; onClose: () 
                       <ul className="overflow-hidden">
                         {item.children.map((c) => (
                           <li key={c.href}>
-                            <Link href={c.href} onClick={onClose} className="flex min-h-12 items-center text-base text-white/60 hover:text-white">
+                            <Link href={c.href} onClick={onClose} className="flex items-center py-3.5 text-lg text-white/60 hover:text-white">
                               {c.label}
                             </Link>
                           </li>
                         ))}
-                        <li aria-hidden className="h-3" />
+                        <li aria-hidden className="h-4" />
                       </ul>
                     </div>
                   )}
@@ -237,16 +236,14 @@ function MobileDrawer({ open, onClose, isActive }: { open: boolean; onClose: () 
           </ul>
         </nav>
 
-        <div className="mt-auto pt-10">
+        <div className="mt-auto pt-14">
           <Link href="/offerte" onClick={onClose} className="flex min-h-14 items-center justify-center gap-2 rounded-full bg-white text-base font-medium text-zinc-950">
             Offerte aanvragen
             <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12h14M13 6l6 6-6 6" /></svg>
           </Link>
-          <div className="mt-3 grid grid-cols-2 gap-3">
-            <a href={site.phoneHref} className="flex min-h-14 items-center justify-center rounded-full text-sm ring-1 ring-white/20">Bellen</a>
-            <a href={site.whatsapp} className="flex min-h-14 items-center justify-center rounded-full text-sm ring-1 ring-white/20">WhatsApp</a>
-          </div>
-          <p className="mt-6 text-center text-xs text-white/40">{site.hours} · {site.address.city}</p>
+          <a href={site.phoneHref} className="mt-4 flex min-h-14 items-center justify-center text-base text-white/60">
+            Of bel {site.phone}
+          </a>
         </div>
       </div>
     </div>

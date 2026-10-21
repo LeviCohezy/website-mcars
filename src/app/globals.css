@@ -343,3 +343,14 @@ body {
   .flow-rise, .flow-rise.is-in { opacity: 1; animation: none; }
   .flow-clip, .flow-clip.is-in { clip-path: none; animation: none; }
 }
+
+/* ---------------------------------------------------------------------------
+ * Phones (< 768px): calm magazine mode — safety net for the flow pages.
+ * No uppercase anywhere except nav, and decorative mono eyebrows/labels are
+ * hidden. Anything that must stay (form labels, figure labels) carries
+ * `data-keep`. Components should still hide chrome explicitly (max-md:hidden).
+ * ------------------------------------------------------------------------ */
+@media (max-width: 767.98px) {
+  .uppercase { text-transform: none; letter-spacing: normal; }
+  .font-mono.uppercase:not([data-keep]) { display: none; }
+}

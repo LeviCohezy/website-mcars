@@ -147,7 +147,7 @@ export default function QuoteFlow({
   return (
     <div data-quote-flow className={`relative overflow-hidden ${t.shell} ${big ? "rounded-[1.75rem] p-5 sm:p-7" : "rounded-2xl p-5"} ${className}`}>
       {/* Progress — invisible until the first answer, then a hairline that fades in */}
-      <div aria-hidden className={`absolute inset-x-0 top-0 h-[3px] transition-opacity duration-700 ${started ? "opacity-100" : "opacity-0"}`}>
+      <div aria-hidden className={`absolute inset-x-0 top-0 h-[3px] transition-opacity duration-700 max-md:hidden ${started ? "opacity-100" : "opacity-0"}`}>
         <div className={`h-full ${t.bar} transition-[width] duration-700 ease-[cubic-bezier(.22,1,.36,1)]`} style={{ width: `${Math.max(progress, 0.04) * 100}%` }} />
       </div>
       <p className="sr-only" aria-live="polite">
@@ -156,7 +156,7 @@ export default function QuoteFlow({
 
       {/* Condensed answers */}
       {answered.length > 0 && !sent && (
-        <div className="-mx-1 mb-4 flex gap-1.5 overflow-x-auto px-1 pb-1 [scrollbar-width:none] sm:flex-wrap">
+        <div className="-mx-1 mb-4 hidden gap-1.5 px-1 pb-1 md:flex md:flex-wrap">
           {answered.map((id) => (
             <button
               key={id}
@@ -188,15 +188,15 @@ export default function QuoteFlow({
 
       {/* Footer: back + discreet dots, only once started */}
       {started && !sent && (
-        <div className="qf-fade mt-5 flex items-center justify-between gap-4">
-          <button type="button" onClick={back} className={`-ml-2 min-h-12 rounded-full px-3 text-sm transition-colors ${t.back}`}>
+        <div className="qf-fade mt-8 flex items-center justify-between gap-4 md:mt-5">
+          <button type="button" onClick={back} className={`-ml-3 min-h-14 rounded-full px-3 text-base transition-colors md:-ml-2 md:min-h-12 md:text-sm ${t.back}`}>
             ← Terug
           </button>
-          <div aria-hidden className="flex items-center gap-1.5">
+          <div aria-hidden className={`flex items-center gap-1 md:gap-1.5 ${index < 2 ? "max-md:invisible" : ""}`}>
             {steps.map((id, i) => (
               <span
                 key={id}
-                className={`h-1 rounded-full transition-all duration-500 ${i === index ? `w-4 ${t.dotOn}` : `w-1 ${i < index ? t.dotDone : t.dotOff}`}`}
+                className={`h-[3px] rounded-full transition-all duration-500 md:h-1 ${i === index ? `w-3 md:w-4 ${t.dotOn}` : `w-[3px] md:w-1 ${i < index ? t.dotDone : t.dotOff}`}`}
               />
             ))}
           </div>
@@ -226,9 +226,9 @@ function Step({
   big: boolean;
 }) {
   const q = (text: string, sub?: string) => (
-    <div className="mb-5">
-      <p className={`${big ? "text-[1.65rem] leading-[1.1] sm:text-[2rem]" : "text-xl leading-tight"} font-light tracking-[-0.025em] text-balance`}>{text}</p>
-      {sub && <p className={`mt-2 text-sm ${t.muted}`}>{sub}</p>}
+    <div className="mb-8 md:mb-5">
+      <p className={`${big ? "text-[1.75rem] leading-[1.15] sm:text-[2rem] sm:leading-[1.1]" : "text-2xl leading-tight md:text-xl"} max-w-[20ch] font-light tracking-[-0.025em] text-balance md:max-w-none`}>{text}</p>
+      {sub && <p className={`mt-3 text-base leading-[1.6] md:mt-2 md:text-sm ${t.muted}`}>{sub}</p>}
     </div>
   );
 
@@ -314,14 +314,14 @@ function Step({
 
 function Chips({ options, value, onPick, t, large = false }: { options: string[]; value?: string; onPick: (v: string) => void; t: Theme; large?: boolean }) {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-col gap-3 md:flex-row md:flex-wrap md:gap-2">
       {options.map((o, i) => (
         <button
           key={o}
           type="button"
           onClick={() => onPick(o)}
           style={{ animationDelay: `${60 + i * 35}ms` }}
-          className={`qf-chip-in min-h-12 rounded-full px-4 text-[0.9375rem] transition-[background-color,color,transform] duration-200 active:scale-[0.97] sm:min-h-11 sm:text-sm ${large ? "min-w-[6.5rem] px-6" : ""} ${
+          className={`qf-chip-in min-h-14 w-full rounded-2xl px-5 text-left text-base transition-[background-color,color,transform] duration-200 active:scale-[0.98] md:min-h-11 md:w-auto md:rounded-full md:px-4 md:text-center md:text-sm ${large ? "md:min-w-[6.5rem] md:px-6" : ""} ${
             value === o ? t.chipOn : t.chip
           }`}
         >
@@ -337,7 +337,7 @@ function NextButton({ t, disabled, label = "Verder" }: { t: Theme; disabled?: bo
     <button
       type="submit"
       disabled={disabled}
-      className={`flex min-h-12 flex-none items-center gap-2 rounded-full px-5 text-sm font-medium transition-[opacity,background-color] disabled:opacity-35 ${t.next}`}
+      className={`flex min-h-14 flex-none items-center gap-2 rounded-xl px-5 text-base font-medium transition-[opacity,background-color] disabled:opacity-35 md:min-h-12 md:rounded-full md:text-sm ${t.next}`}
     >
       {label}
       <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -398,9 +398,9 @@ function TextAnswer({
         e.preventDefault();
         if (v.trim()) onSubmit(v.trim());
       }}
-      className={compact ? "mt-3" : ""}
+      className={compact ? "mt-3 max-md:mt-6" : ""}
     >
-      <div className={`flex items-center gap-2 rounded-full p-1.5 pl-5 ${t.field}`}>
+      <div className={`flex min-h-16 items-center gap-2 rounded-2xl p-1.5 pl-5 md:min-h-0 md:rounded-full ${t.field}`}>
         <label htmlFor={id} className="sr-only">{placeholder}</label>
         <input
           ref={ref}
@@ -414,7 +414,7 @@ function TextAnswer({
           autoComplete={address ? "off" : undefined}
           autoCapitalize={address ? "words" : "sentences"}
           enterKeyHint="next"
-          className={`min-w-0 flex-1 bg-transparent py-2 text-base focus:outline-none ${t.input}`}
+          className={`min-w-0 flex-1 bg-transparent py-2 text-lg focus:outline-none md:text-base ${t.input}`}
         />
         <NextButton t={t} disabled={!v.trim()} />
       </div>
@@ -445,9 +445,9 @@ function DateAnswer({ quick, value, onSubmit, t }: { quick: string[]; value?: st
           e.preventDefault();
           if (d) onSubmit(fmt(d));
         }}
-        className="mt-3"
+        className="mt-6 md:mt-3"
       >
-        <div className={`flex items-center gap-2 rounded-full p-1.5 pl-5 ${t.field}`}>
+        <div className={`flex min-h-16 items-center gap-2 rounded-2xl p-1.5 pl-5 md:min-h-0 md:rounded-full ${t.field}`}>
           <label htmlFor={id} className={`flex-none text-sm ${t.muted}`}>
             <span className="sm:hidden">Datum</span>
             <span className="hidden sm:inline">Of kies een datum</span>
@@ -477,8 +477,8 @@ function ContactStep({
   const ok = c.naam.trim() && /\S+@\S+\.\S+/.test(c.email) && c.telefoon.trim().length >= 6;
   const MODES: Partial<Record<keyof typeof c, "email" | "tel" | "text">> = { email: "email", telefoon: "tel" };
   const field = (key: keyof typeof c, label: string, type = "text", autoComplete?: string) => (
-    <label className={`block min-h-14 rounded-2xl px-4 pt-2.5 pb-2 ${t.field}`}>
-      <span className={`block text-[11px] tracking-wide uppercase ${t.muted}`}>{label}</span>
+    <label className={`block min-h-16 rounded-2xl px-5 pt-3 pb-2 md:min-h-14 md:px-4 md:pt-2.5 ${t.field}`}>
+      <span data-keep className={`block text-sm md:text-[11px] md:tracking-wide md:uppercase ${t.muted}`}>{label}</span>
       <input
         type={type}
         autoComplete={autoComplete}
@@ -499,14 +499,14 @@ function ContactStep({
       }}
     >
       {q("Waar mogen we de prijs naartoe sturen?", "U krijgt binnen 24 uur een persoonlijke prijs en planning.")}
-      <div className={`grid gap-2 ${big ? "sm:grid-cols-2" : ""}`}>
+      <div className={`grid gap-3 md:gap-2 ${big ? "md:grid-cols-2" : ""}`}>
         {field("naam", "Naam", "text", "name")}
         {isCompany && field("bedrijf", "Bedrijf", "text", "organization")}
         {field("email", "E-mail", "email", "email")}
         {field("telefoon", "Telefoon", "tel", "tel")}
-        <div className={big ? "sm:col-span-2" : ""}>{field("opmerking", "Merk, model of opmerking (optioneel)")}</div>
+        <div className={big ? "md:col-span-2" : ""}>{field("opmerking", "Merk, model of opmerking (optioneel)")}</div>
       </div>
-      <div className="mt-4 flex justify-end [&>button]:w-full [&>button]:justify-center sm:[&>button]:w-auto">
+      <div className="mt-8 flex justify-end md:mt-4 [&>button]:w-full [&>button]:justify-center md:[&>button]:w-auto">
         <NextButton t={t} disabled={!ok} label="Vraag mijn prijs aan" />
       </div>
     </form>
