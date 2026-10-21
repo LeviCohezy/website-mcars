@@ -175,11 +175,20 @@ export default function ServicesPhilosophy() {
       const pinTop = Math.max(0, (vh - h0) / 2);
       sticky.style.top = `${pinTop}px`;
 
+      // The full-screen card is centred on the sticky box, so once the pin
+      // releases it reaches (vh - h0) / 2 below the track. Reserve exactly that
+      // room (minus the section's own bottom padding) so the next section
+      // starts where the black screen ends instead of sliding over the map.
+      const section = sectionRef.current;
+      const padBottom = section ? parseFloat(getComputedStyle(section).paddingBottom) || 0 : 0;
+      track.style.marginBottom = `${Math.max(0, (vh - h0) / 2 - padBottom)}px`;
+
       const scrolled = pinTop - rect.top;
       const total = rect.height - h0;
-      // Finish growing at 90% of the pinned distance; the short remainder is
-      // the beat where the full map holds before the section releases.
-      const p = total > 0 ? Math.min(1, Math.max(0, scrolled / (total * 0.9))) : 0;
+      // Finish growing at ~66% of the pinned distance (same growth speed as
+      // before); the remaining third is the beat where the full map holds
+      // before the next section slides over it.
+      const p = total > 0 ? Math.min(1, Math.max(0, scrolled / (total * 0.66))) : 0;
       const overlay = mapOverlayRef.current;
 
       if (p <= 0) {
@@ -454,7 +463,7 @@ export default function ServicesPhilosophy() {
               )}
             </div>
           </div>
-          {!reducedMotion && <div aria-hidden className="h-[110vh]" />}
+          {!reducedMotion && <div aria-hidden className="h-[150vh]" />}
         </div>
       </div>
     </section>

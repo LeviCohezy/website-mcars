@@ -37,8 +37,10 @@ function Check() {
 
 export default function WhyChooseUs() {
   return (
-    <section id="waarom" className="relative z-20">
-      <div className="relative overflow-hidden rounded-3xl bg-zinc-950">
+    <section id="waarom" className="relative -mx-2">
+      {/* Full-bleed: breaks out of the page's 8px frame, edge to edge like
+          the full-screen map above it. */}
+      <div className="relative overflow-hidden bg-zinc-950">
         {/* Aerial shot of the Mcars transporter, zoomed on the truck */}
         <video
           src="/good_but_make_him_drive_faster.mp4"
