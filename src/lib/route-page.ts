@@ -4,7 +4,7 @@
  */
 
 import type { Metadata } from "next";
-import { getRoute, routeSlugs, type Place } from "@/data/routes";
+import { getRoute, routes, routeSlugs, type Place, type Route } from "@/data/routes";
 import { getService } from "@/data/services";
 
 export type RouteRelated = { href: string; label: string; meta: string; image: string; sub?: string };
@@ -67,7 +67,44 @@ export function getRoutePage(slug: string) {
     { label: "Antwoord op aanvraag", value: "Binnen 24 uur" },
   ];
 
-  return { route, isCorridor, from, to, place, related, detailImage, quote, specs };
+  /** QuoteFlow prefill: the corridor's countries, or the destination for a country page. */
+  const preset: { ophaal?: string; lever?: string } = isCorridor
+    ? { ophaal: from!.name, lever: to!.name }
+    : route.slug === "autotransport-europa" ? {} : { lever: place!.name };
+
+  /** Where we pick up / deliver: for a corridor, the cities of both country routes (when they exist). */
+  const citiesOf = (p: Place) => getRoute(`autotransport-${p.flag}`)?.cities ?? [p.name];
+  const cityGroups: { label: string; cities: string[] }[] = isCorridor
+    ? [
+        { label: `Ophalen in ${from!.name}`, cities: citiesOf(from!) },
+        { label: `Leveren in ${to!.name}`, cities: citiesOf(to!) },
+      ]
+    : [{ label: route.slug === "autotransport-europa" ? "Landen" : "Onder meer", cities: route.cities }];
+
+  return { route, isCorridor, from, to, place, related, detailImage, quote, specs, preset, cityGroups };
 }
 
 export type RoutePageData = NonNullable<ReturnType<typeof getRoutePage>>;
+
+/**
+ * Routes grouped the way a visitor thinks about them: within Belgium, leaving
+ * Belgium, coming into Belgium, and the rest of Europe. Every route appears once.
+ */
+export type RouteGroup = { id: string; label: string; body: string; items: Route[] };
+
+export function getRouteGroups(): RouteGroup[] {
+  const fromBE = (r: Route) => r.kind === "corridor" && r.from?.flag === "belgie";
+  const toBE = (r: Route) => r.kind === "corridor" && r.to?.flag === "belgie";
+  const home = (r: Route) => r.slug === "autotransport-belgie";
+  return [
+    { id: "binnenland", label: "Binnenland", body: "Dagelijks onderweg, van kust tot Limburg.", items: routes.filter(home) },
+    { id: "vanuit-belgie", label: "Vanuit België", body: "Vaste corridors vanuit ons thuisgebied.", items: routes.filter(fromBE) },
+    { id: "naar-belgie", label: "Naar België", body: "Uw wagen naar huis, de showroom of het depot.", items: routes.filter(toBE) },
+    {
+      id: "europa",
+      label: "Europa",
+      body: "Bestemmingen en corridors verder Europa in.",
+      items: routes.filter((r) => !home(r) && !fromBE(r) && !toBE(r)),
+    },
+  ];
+}

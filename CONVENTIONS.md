@@ -13,6 +13,15 @@ config file) · TypeScript. Copy is **Dutch**. Components are flat in
 > This is a patched Next.js (see `AGENTS.md`). Before using a Next API, read the
 > matching guide in `node_modules/next/dist/docs/`.
 
+
+> **Update (Oct 2026): pages are now composed with the flow kit.** Every page, in all three
+> versions, is `FlowPage → FlowHero (+ QuoteFlow) → numbered Chapters → FlowClose`, built from
+> `src/components/flow.tsx`; the hero form is `src/components/quote-flow.tsx`. Read
+> **`docs/DESIGN-FLOW.md`** first. The `Section` / `PageHero` / `QuoteForm` / `blocks` /
+> signature / v2-kit / v3-kit components described below were removed. The token, heading
+> and "no new colours" rules still apply.
+
+
 ---
 
 ## 1. Design tokens (single source of truth for colour)

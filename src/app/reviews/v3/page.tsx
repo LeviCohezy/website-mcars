@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
 import PageShell from "@/components/page-shell";
-import ReviewsV3 from "@/components/reviews-v3";
+import ReviewsFlow from "@/components/reviews-flow";
 import VariantSwitcher from "@/components/variant-switcher";
 import { reviewsMetadata } from "@/data/reviews";
 
-// Reviews 03 — "Donker & premium". Same content as /reviews, different design.
+// Reviews 03 — one composed flow (see reviews-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = reviewsMetadata;
 
 export default function ReviewsPageV3() {
   return (
     <PageShell>
-      <ReviewsV3 />
-      <QuoteCta />
+      <ReviewsFlow version={3} />
       <VariantSwitcher sectionId="reviews" />
     </PageShell>
   );

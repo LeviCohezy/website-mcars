@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import RoutesIndexV3 from "@/components/routes-index-v3";
+import RoutesFlow from "@/components/routes-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
-import { V3Page } from "@/components/v3-kit";
 
-// Routes 03 — "Donker & premium". Same content as /routes, different design.
+// Routes 03 — one composed flow (see routes-flow.tsx); versions differ in hero, centrepiece and tone rhythm.
 export const metadata: Metadata = {
   title: "Bestemmingen & routes — autotransport door Europa | Mcars",
   description:
@@ -15,10 +13,7 @@ export const metadata: Metadata = {
 export default function RoutesOverviewV3() {
   return (
     <PageShell>
-      <V3Page>
-        <RoutesIndexV3 />
-      </V3Page>
-      <QuoteCta />
+      <RoutesFlow version={3} />
       <VariantSwitcher sectionId="routes" />
     </PageShell>
   );

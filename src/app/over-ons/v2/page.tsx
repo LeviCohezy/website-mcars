@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import OverOnsV2 from "@/components/over-ons-v2";
+import OverOnsFlow from "@/components/over-ons-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
-import { aboutCtaImage, aboutMetadata } from "@/data/about";
+import { aboutMetadata } from "@/data/about";
 
-// Over ons 02 — "Licht & strak". Same content as /over-ons, different design.
+// Over ons 02 — one composed flow (see over-ons-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = aboutMetadata;
 
 export default function OverOnsPageV2() {
   return (
-    <PageShell navTheme="light">
-      <OverOnsV2 />
-      <QuoteCta image={aboutCtaImage} />
+    <PageShell>
+      <OverOnsFlow version={2} />
       <VariantSwitcher sectionId="over-ons" />
     </PageShell>
   );

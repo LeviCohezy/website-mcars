@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import FaqV2 from "@/components/faq-v2";
+import FaqFlow from "@/components/faq-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 
-// FAQ 02 — "Licht & strak". Same content as /faq, different design.
+// FAQ 02 — one composed flow (see faq-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = {
   title: "Veelgestelde vragen | Mcars",
   description:
@@ -13,9 +12,8 @@ export const metadata: Metadata = {
 
 export default function FaqPageV2() {
   return (
-    <PageShell navTheme="light">
-      <FaqV2 />
-      <QuoteCta />
+    <PageShell>
+      <FaqFlow version={2} />
       <VariantSwitcher sectionId="faq" />
     </PageShell>
   );

@@ -296,3 +296,50 @@ body {
   background-size: 14px 2px;
   background-repeat: repeat-x;
 }
+
+/* ---------------------------------------------------------------------------
+ * QuoteFlow — question morph (slide + fade), chip pop, footer fade.
+ * ------------------------------------------------------------------------ */
+@keyframes qf-in-next {
+  from { opacity: 0; transform: translateX(28px); filter: blur(4px); }
+  to { opacity: 1; transform: none; filter: none; }
+}
+@keyframes qf-in-prev {
+  from { opacity: 0; transform: translateX(-28px); filter: blur(4px); }
+  to { opacity: 1; transform: none; filter: none; }
+}
+@keyframes qf-pop {
+  from { opacity: 0; transform: translateY(6px) scale(0.96); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes qf-fade { from { opacity: 0; } to { opacity: 1; } }
+.qf-in-1 { animation: qf-in-next 0.55s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.qf-in-0 { animation: qf-in-prev 0.55s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.qf-chip-in { animation: qf-pop 0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.qf-fade { animation: qf-fade 0.8s ease both; }
+
+/* ---------------------------------------------------------------------------
+ * Flow kit — the connective layer shared by every page (see flow.tsx).
+ * ------------------------------------------------------------------------ */
+@keyframes flow-rise {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes flow-clip {
+  from { clip-path: inset(18% 8% 18% 8% round 2rem); transform: scale(1.08); }
+  to { clip-path: inset(0 0 0 0 round 0); transform: none; }
+}
+.flow-rise { opacity: 0; }
+.flow-rise.is-in { animation: flow-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.flow-clip { clip-path: inset(18% 8% 18% 8% round 2rem); }
+.flow-clip.is-in { animation: flow-clip 1.3s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.flow-wordmark {
+  -webkit-text-stroke: 1px currentColor;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .qf-in-1, .qf-in-0, .qf-chip-in, .qf-fade { animation: none; }
+  .flow-rise, .flow-rise.is-in { opacity: 1; animation: none; }
+  .flow-clip, .flow-clip.is-in { clip-path: none; animation: none; }
+}

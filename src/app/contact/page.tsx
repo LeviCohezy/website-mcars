@@ -1,16 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import ContactFlow from "@/components/contact-flow";
 import PageShell from "@/components/page-shell";
-import PageHero from "@/components/page-hero";
-import { Reveal } from "@/components/scroll";
-import Section from "@/components/section";
-import { ImageAccordion, TypeMarquee } from "@/components/signature";
-import { Eyebrow, SectionHeader } from "@/components/ui";
-import { site } from "@/lib/site";
 import VariantSwitcher from "@/components/variant-switcher";
-import ContactForm from "./contact-form";
-import { contactMethods as methods, contactPhotos, mapsEmbedSrc as mapsSrc } from "./methods";
 
+// Contact 01 — one composed flow (see contact-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = {
   title: "Contact | Mcars",
   description:
@@ -20,97 +13,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <PageShell>
-      <PageHero
-        eyebrow="Contact"
-        title="Liever rechtstreeks contact?"
-        subtitle="Bel, mail of app ons — of laat hieronder een bericht achter. We antwoorden persoonlijk, snel en zonder verplichting."
-        crumbs={[{ label: "Contact" }]}
-        image={contactPhotos.hero.src}
-        badges={[{ label: site.phone }, { label: site.hours }]}
-      />
-
-      <Section space="loose">
-        <div className="grid gap-16 lg:grid-cols-[1fr_3fr] lg:gap-10">
-          <Reveal>
-            <Eyebrow>Rechtstreeks</Eyebrow>
-          </Reveal>
-          <div className="grid gap-16 lg:grid-cols-[1fr_1.15fr] lg:gap-16">
-            {/* Methods */}
-            <ul className="border-t border-zinc-950">
-              {methods.map((m, i) => {
-                const value = <span className="mt-2 block text-xl font-medium tracking-tight text-zinc-950 sm:text-2xl">{m.value}</span>;
-                return (
-                  <Reveal as="li" key={m.label} delay={i * 60} className="border-b border-zinc-200 py-6">
-                    <p className="text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">{m.label}</p>
-                    {m.href ? (
-                      <a
-                        href={m.href}
-                        target={m.href.startsWith("http") ? "_blank" : undefined}
-                        rel={m.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                        className="group inline-flex items-end gap-3"
-                      >
-                        {value}
-                        <svg className="mb-1.5 size-4 text-zinc-400 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-zinc-950" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7M9 7h8v8" /></svg>
-                      </a>
-                    ) : (
-                      value
-                    )}
-                    {m.sub && <p className="mt-1.5 text-sm text-zinc-500">{m.sub}</p>}
-                  </Reveal>
-                );
-              })}
-            </ul>
-
-            {/* Form */}
-            <Reveal delay={100}>
-              <h2 className="text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl">
-                Laat iets van u horen. <span className="text-zinc-400">Wij nemen contact op.</span>
-              </h2>
-              <p className="mt-5 text-base leading-relaxed text-zinc-500">
-                Zoekt u een concrete prijs en planning? Vraag dan meteen een{" "}
-                <Link href="/offerte" className="text-zinc-950 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-950">
-                  vrijblijvende offerte
-                </Link>{" "}
-                aan.
-              </p>
-              <div className="mt-10">
-                <ContactForm />
-              </div>
-            </Reveal>
-          </div>
-        </div>
-      </Section>
-
-      {/* Behind the phone: the people and the depot */}
-      <Section space="flush-top">
-        <SectionHeader label="Wie u te woord staat" lead="Geen callcenter." trail="Het team dat ook de ritten plant." className="mb-12" />
-        <ImageAccordion
-          items={[
-            { title: "Een planner aan de lijn", body: "Rechtstreeks een planner aan de lijn — dezelfde mensen die uw rit inplannen.", image: contactPhotos.desk.src, alt: contactPhotos.desk.alt },
-            { title: "Ons team in Roeselare", body: "Persoonlijk antwoord binnen 24 uur, van iemand van ons team.", image: "/images/generated/team-depot.jpg", alt: "Het team van Mcars op het depot" },
-            { title: "Het depot", body: `${site.address.street}, ${site.address.city} — standplaats van onze vloot.`, image: "/fleet/depot-dusk.jpg", alt: "Het depot van Mcars bij schemering" },
-          ]}
-        />
-      </Section>
-
-      <section aria-label="Bel, mail, app of kom langs" className="py-8 sm:py-12">
-        <TypeMarquee words={["Bel", "Mail", "App", "Kom langs"]} images={["/images/generated/truck-studio.jpg", "/fleet/sunset-field.jpg", "/images/generated/flemish-square.jpg"]} />
-      </section>
-
-      <Section space="none">
-        <SectionHeader label="Waar u ons vindt" lead={site.address.street} trail={site.address.city} className="mb-10" />
-      </Section>
-      <Section space="none" bleed>
-        <div className="overflow-hidden rounded-[2rem] bg-zinc-100">
-          <iframe
-            title={`Locatie van ${site.name} op Google Maps`}
-            src={mapsSrc}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            className="h-[480px] w-full border-0 grayscale"
-          />
-        </div>
-      </Section>
+      <ContactFlow version={1} />
       <VariantSwitcher sectionId="contact" />
     </PageShell>
   );

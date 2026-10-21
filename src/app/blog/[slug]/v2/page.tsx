@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import ArticleV2 from "@/components/article-v2";
-import { QuoteCta } from "@/components/blocks";
+import ArticleFlow from "@/components/article-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 import { articleMetadata, articleStaticParams, getArticlePage } from "@/data/blog";
 
-// Artikel 02 — "Licht & strak". Same content as /blog/[slug], different design.
+// Artikel 02 — one composed reading film (see article-flow.tsx); versions differ in hero and tone rhythm.
 export const generateStaticParams = articleStaticParams;
 export const dynamicParams = false;
 
@@ -19,9 +18,8 @@ export default async function ArticlePageV2({ params }: { params: Promise<{ slug
   const data = getArticlePage(slug);
   if (!data) notFound();
   return (
-    <PageShell navTheme="light">
-      <ArticleV2 data={data} />
-      <QuoteCta />
+    <PageShell>
+      <ArticleFlow data={data} version={2} />
       <VariantSwitcher sectionId="artikel" base={`/blog/${slug}`} />
     </PageShell>
   );

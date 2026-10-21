@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Article from "@/components/article";
-import { QuoteCta } from "@/components/blocks";
+import ArticleFlow from "@/components/article-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 import { articleMetadata, articleStaticParams, getArticlePage } from "@/data/blog";
 import { site } from "@/lib/site";
 
-// Artikel 01 — cinematic. Same content as /v2 and /v3, different design.
+// Artikel 01 — one composed reading film (see article-flow.tsx); versions differ in hero and tone rhythm.
 export const generateStaticParams = articleStaticParams;
 export const dynamicParams = false;
 
@@ -35,8 +34,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   return (
     <PageShell>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Article data={data} />
-      <QuoteCta />
+      <ArticleFlow data={data} version={1} />
       <VariantSwitcher sectionId="artikel" base={`/blog/${slug}`} />
     </PageShell>
   );

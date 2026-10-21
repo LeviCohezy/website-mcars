@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import DienstenV2 from "@/components/diensten-v2";
+import DienstenFlow from "@/components/diensten-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 
-// Diensten 02 — "Licht & strak". Same content as /diensten, different design.
+// Diensten 02 — one composed flow (see diensten-flow.tsx); versions differ in hero, centrepiece and tone rhythm.
 export const metadata: Metadata = {
   title: "Diensten — autotransport op maat | Mcars",
   description:
@@ -13,9 +12,8 @@ export const metadata: Metadata = {
 
 export default function DienstenOverviewV2() {
   return (
-    <PageShell navTheme="light">
-      <DienstenV2 />
-      <QuoteCta />
+    <PageShell>
+      <DienstenFlow version={2} />
       <VariantSwitcher sectionId="diensten" />
     </PageShell>
   );

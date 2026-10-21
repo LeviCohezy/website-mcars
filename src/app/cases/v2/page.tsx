@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import CasesV2 from "@/components/cases-v2";
+import CasesFlow from "@/components/cases-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 import { casesMetadata } from "@/lib/case-page";
 
-// Cases 02 — "Licht & strak". Same content as /cases, different design.
+// Cases 02 — one composed film (see cases-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = casesMetadata;
 
 export default function CasesPageV2() {
   return (
-    <PageShell navTheme="light">
-      <CasesV2 />
-      <QuoteCta />
+    <PageShell>
+      <CasesFlow version={2} />
       <VariantSwitcher sectionId="cases" />
     </PageShell>
   );

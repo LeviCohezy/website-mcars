@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import ContactV2 from "@/components/contact-v2";
+import ContactFlow from "@/components/contact-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 
-// Contact 02 — "Licht & strak". Same content as /contact, different design.
+// Contact 02 — one composed flow (see contact-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = {
   title: "Contact | Mcars",
   description:
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 
 export default function ContactPageV2() {
   return (
-    <PageShell navTheme="light">
-      <ContactV2 />
+    <PageShell>
+      <ContactFlow version={2} />
       <VariantSwitcher sectionId="contact" />
     </PageShell>
   );

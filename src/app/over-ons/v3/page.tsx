@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import OverOnsV3 from "@/components/over-ons-v3";
+import OverOnsFlow from "@/components/over-ons-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
-import { aboutCtaImage, aboutMetadata } from "@/data/about";
+import { aboutMetadata } from "@/data/about";
 
-// Over ons 03 — "Donker & premium". Same content as /over-ons, different design.
+// Over ons 03 — one composed flow (see over-ons-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = aboutMetadata;
 
 export default function OverOnsPageV3() {
   return (
     <PageShell>
-      <OverOnsV3 />
-      <QuoteCta image={aboutCtaImage} />
+      <OverOnsFlow version={3} />
       <VariantSwitcher sectionId="over-ons" />
     </PageShell>
   );

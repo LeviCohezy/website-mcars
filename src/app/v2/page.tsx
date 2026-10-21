@@ -1,32 +1,13 @@
-import CinematicSequence from "@/components/cinematic-sequence";
-import EuropeNetwork from "@/components/europe-network";
-import ScrollVideoSection from "@/components/scroll-video-section";
-import SiteFooterLight from "@/components/site-footer-light";
+import HomeFlow from "@/components/home-flow";
+import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 
-// Home 02 — one continuous scroll-controlled film (hero → wireframe → black
-// line → service cards → Europe map), then the full-screen location picker,
-// then a second scroll-controlled fleet film, releasing into the footer.
+// Home 02 — the approved scroll film as opening, then the flow on black with one light curtain (see home-flow.tsx).
 export default function Home() {
   return (
-    <div className="bg-white p-2">
-      <CinematicSequence />
-
-      {/* Dark Europe-map location section */}
-      <EuropeNetwork
-        eyebrow="Locaties"
-        title="Mcars transporteert auto's in heel Europa."
-      />
-
-      {/* Second scroll-controlled film — the fleet */}
-      <ScrollVideoSection
-        videoSrc="/fleet-scrub.mp4"
-        poster="/fleet-poster.jpg"
-        headline="Wij beschikken over een grote vloot, maak u geen zorgen."
-      />
-
-      <SiteFooterLight />
+    <PageShell>
+      <HomeFlow version={2} />
       <VariantSwitcher sectionId="home" />
-    </div>
+    </PageShell>
   );
 }

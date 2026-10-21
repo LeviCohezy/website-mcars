@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import ArticleV3 from "@/components/article-v3";
-import { QuoteCta } from "@/components/blocks";
+import ArticleFlow from "@/components/article-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
-import { V3Page } from "@/components/v3-kit";
 import { articleMetadata, articleStaticParams, getArticlePage } from "@/data/blog";
 
-// Artikel 03 — "Donker & premium". Same content as /blog/[slug], different design.
+// Artikel 03 — one composed reading film (see article-flow.tsx); versions differ in hero and tone rhythm.
 export const generateStaticParams = articleStaticParams;
 export const dynamicParams = false;
 
@@ -21,10 +19,7 @@ export default async function ArticlePageV3({ params }: { params: Promise<{ slug
   if (!data) notFound();
   return (
     <PageShell>
-      <V3Page>
-        <ArticleV3 data={data} />
-      </V3Page>
-      <QuoteCta />
+      <ArticleFlow data={data} version={3} />
       <VariantSwitcher sectionId="artikel" base={`/blog/${slug}`} />
     </PageShell>
   );

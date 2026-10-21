@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { QuoteCta } from "@/components/blocks";
-import CaseV2 from "@/components/case-v2";
+import CaseFlow from "@/components/case-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 import { caseMetadata, caseStaticParams, getCasePage } from "@/lib/case-page";
 
-// Case 02 — "Licht & strak". Same content as /cases/[slug], different design.
+// Case 02 — one composed film (see case-flow.tsx); versions differ in hero and tone rhythm.
 export const generateStaticParams = caseStaticParams;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -18,9 +17,8 @@ export default async function CasePageV2({ params }: { params: Promise<{ slug: s
   const data = getCasePage(slug);
   if (!data) notFound();
   return (
-    <PageShell navTheme="light">
-      <CaseV2 data={data} />
-      <QuoteCta />
+    <PageShell>
+      <CaseFlow data={data} version={2} />
       <VariantSwitcher sectionId="case" base={`/cases/${slug}`} />
     </PageShell>
   );

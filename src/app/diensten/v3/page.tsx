@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import DienstenV3 from "@/components/diensten-v3";
+import DienstenFlow from "@/components/diensten-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
-import { V3Page } from "@/components/v3-kit";
 
-// Diensten 03 — "Donker & premium". Same content as /diensten, different design.
+// Diensten 03 — one composed flow (see diensten-flow.tsx); versions differ in hero, centrepiece and tone rhythm.
 export const metadata: Metadata = {
   title: "Diensten — autotransport op maat | Mcars",
   description:
@@ -15,10 +13,7 @@ export const metadata: Metadata = {
 export default function DienstenOverviewV3() {
   return (
     <PageShell>
-      <V3Page>
-        <DienstenV3 />
-      </V3Page>
-      <QuoteCta />
+      <DienstenFlow version={3} />
       <VariantSwitcher sectionId="diensten" />
     </PageShell>
   );

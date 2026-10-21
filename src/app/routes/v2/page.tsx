@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
-import RoutesIndexV2 from "@/components/routes-index-v2";
+import RoutesFlow from "@/components/routes-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
 
-// Routes 02 — "Licht & strak". Same content as /routes, different design.
+// Routes 02 — one composed flow (see routes-flow.tsx); versions differ in hero, centrepiece and tone rhythm.
 export const metadata: Metadata = {
   title: "Bestemmingen & routes — autotransport door Europa | Mcars",
   description:
@@ -13,9 +12,8 @@ export const metadata: Metadata = {
 
 export default function RoutesOverviewV2() {
   return (
-    <PageShell navTheme="light">
-      <RoutesIndexV2 />
-      <QuoteCta />
+    <PageShell>
+      <RoutesFlow version={2} />
       <VariantSwitcher sectionId="routes" />
     </PageShell>
   );

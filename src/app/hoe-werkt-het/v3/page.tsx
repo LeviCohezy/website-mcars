@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { QuoteCta } from "@/components/blocks";
+import WerkwijzeFlow from "@/components/werkwijze-flow";
 import PageShell from "@/components/page-shell";
 import VariantSwitcher from "@/components/variant-switcher";
-import WerkwijzeV3 from "@/components/werkwijze-v3";
 import { werkwijze } from "@/data/process";
 
-// Werkwijze 03 — "Donker & premium". Same content as /hoe-werkt-het, different design.
+// Werkwijze 03 — one composed flow (see werkwijze-flow.tsx); versions differ in hero and tone rhythm.
 export const metadata: Metadata = werkwijze.seo;
 
-export default function HoeWerktHetV3() {
+export default function HoeWerktHetPageV3() {
   return (
     <PageShell>
-      <WerkwijzeV3 />
-      <QuoteCta />
+      <WerkwijzeFlow version={3} />
       <VariantSwitcher sectionId="hoe-werkt-het" />
     </PageShell>
   );
