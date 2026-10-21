@@ -1,13 +1,31 @@
-import HomeFlow from "@/components/home-flow";
-import PageShell from "@/components/page-shell";
+import AboutStats from "@/components/about-stats";
+import BlogGrid from "@/components/blog-grid";
+import CtaBanner from "@/components/cta-banner";
+import EuropeNetworkLight from "@/components/europe-network-light";
+import FaqSection from "@/components/faq-section";
+import Hero from "@/components/hero";
+import ProblemsGrid from "@/components/problems-grid";
+import QuoteMultistep from "@/components/quote-multistep";
+import ServicesAccordion from "@/components/services-accordion";
+import SiteFooter from "@/components/site-footer";
 import VariantSwitcher from "@/components/variant-switcher";
+import WhyMcars from "@/components/why-mcars";
 
-// Home 03 — type lines hero, dark throughout with one paper interlude (see home-flow.tsx).
 export default function Home() {
   return (
-    <PageShell>
-      <HomeFlow version={3} />
+    <div className="bg-white p-2">
+      <Hero />
+      <AboutStats />
+      <ProblemsGrid />
+      <ServicesAccordion />
+      <EuropeNetworkLight withTrucks marquee dark />
+      <WhyMcars />
+      <QuoteMultistep />
+      <CtaBanner />
+      <BlogGrid />
+      <FaqSection />
+      <SiteFooter />
       <VariantSwitcher sectionId="home" />
-    </PageShell>
+    </div>
   );
 }

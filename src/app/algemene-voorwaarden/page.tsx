@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import LegalFlow from "@/components/legal-flow";
 import PageShell from "@/components/page-shell";
+import PageHero from "@/components/page-hero";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -13,14 +13,23 @@ export const metadata: Metadata = {
 export default function AlgemeneVoorwaardenPage() {
   return (
     <PageShell>
-      <LegalFlow
+      <PageHero
+        eyebrow="Juridisch"
         title="Algemene voorwaarden"
         subtitle="De voorwaarden die van toepassing zijn op onze offertes en transporten."
-        label="Voorwaarden"
-        updated="augustus 2026"
-      >
-          <div className="rounded-[1.25rem] bg-zinc-100 px-5 py-4 text-sm leading-relaxed text-zinc-600">
-            <strong className="font-medium text-zinc-950">Let op:</strong> Dit is een
+        crumbs={[{ label: "Algemene voorwaarden" }]}
+        image="/fleet/sunset-field.jpg"
+      />
+
+      <section className="px-5 py-20 sm:px-8 sm:py-32">
+        <div className="grid gap-10 border-t border-zinc-950 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10">
+          <p className="flex items-center gap-2.5 self-start text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase lg:sticky lg:top-28">
+            <span aria-hidden className="size-1.5 rounded-full bg-zinc-950" />
+            Voorwaarden
+          </p>
+        <div className="max-w-3xl">
+          <div className="border-l-2 border-zinc-950 py-1 pl-5 text-sm leading-relaxed text-zinc-600">
+            <strong className="font-semibold text-zinc-950">Let op:</strong> Dit is een
             voorlopige tekst. Laat dit document juridisch nakijken vóór livegang.
           </div>
 
@@ -30,7 +39,7 @@ export default function AlgemeneVoorwaardenPage() {
             {site.address.street}, {site.address.city}, {site.address.country} (BTW {site.vat}).
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">1. Toepassing</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">1. Toepassing</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Deze voorwaarden zijn van toepassing op elke offerte en overeenkomst tussen{" "}
             {site.legalName} en de klant, zowel particulier als onderneming. Afwijkingen gelden
@@ -38,7 +47,7 @@ export default function AlgemeneVoorwaardenPage() {
             een offerte te aanvaarden, aanvaardt de klant deze voorwaarden.
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             2. Offertes en prijzen
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -49,7 +58,7 @@ export default function AlgemeneVoorwaardenPage() {
             schriftelijke bevestiging van de opdracht.
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             3. Transport en CMR
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -61,7 +70,7 @@ export default function AlgemeneVoorwaardenPage() {
             correct zijn.
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             4. Aansprakelijkheid en verzekering
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -72,7 +81,7 @@ export default function AlgemeneVoorwaardenPage() {
             onvolledig doorgegeven informatie, van reeds bestaande gebreken, of van overmacht.
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">5. Betaling</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">5. Betaling</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Voor particuliere klanten gebeurt de betaling vóór de ophaling van het voertuig, tenzij
             uitdrukkelijk anders overeengekomen. Voor ondernemingen gebeurt de facturatie na de
@@ -81,7 +90,7 @@ export default function AlgemeneVoorwaardenPage() {
             schadevergoeding worden aangerekend conform de geldende wetgeving.
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">6. Annulering</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">6. Annulering</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Annuleert de klant een bevestigde opdracht, dan kunnen reeds gemaakte kosten en, bij
             annulering kort vóór de geplande ophaling, een redelijke vergoeding worden aangerekend.
@@ -89,7 +98,7 @@ export default function AlgemeneVoorwaardenPage() {
             klant zijn verplichtingen niet nakomt.
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">7. Klachten</h2>
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">7. Klachten</h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
             Eventuele zichtbare schade dient bij levering te worden vastgesteld en genoteerd op de
             CMR-vrachtbrief. Klachten over de uitvoering van het transport of over een factuur
@@ -104,7 +113,7 @@ export default function AlgemeneVoorwaardenPage() {
             .
           </p>
 
-          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-light tracking-[-0.02em] text-zinc-950 sm:text-3xl">
+          <h2 className="mt-14 border-t border-zinc-200 pt-8 text-2xl font-medium tracking-tight text-zinc-950">
             8. Toepasselijk recht en bevoegde rechtbank
           </h2>
           <p className="mt-4 text-base leading-relaxed text-zinc-600">
@@ -124,7 +133,9 @@ export default function AlgemeneVoorwaardenPage() {
             </Link>{" "}
             met ons op.
           </p>
-      </LegalFlow>
+        </div>
+        </div>
+      </section>
     </PageShell>
   );
 }

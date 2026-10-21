@@ -7,8 +7,7 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
-import { anchors, countries } from "@/data/europe-map";
-import { asset } from "@/lib/asset";
+import { MAP_W, MAP_H, anchors, countries } from "@/data/europe-map";
 
 const HUB = "BEL";
 
@@ -114,8 +113,8 @@ export default function EuropeNetworkLight({
   const [autoIdx, setAutoIdx] = useState(0);
   const [hovered, setHovered] = useState<string | null>(null);
   const [cursor, setCursor] = useState<{ x: number; y: number } | null>(null);
-  const [seen, setInView] = useState(false);
-  const [settledAfterSweep, setSettled] = useState(false);
+  const [inView, setInView] = useState(false);
+  const [settled, setSettled] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
   const reducedMotion = useSyncExternalStore(
@@ -123,13 +122,14 @@ export default function EuropeNetworkLight({
     () => window.matchMedia(REDUCED_MOTION).matches,
     () => false
   );
-  // Reduced motion: show everything immediately, no entrance sweep.
-  const inView = seen || reducedMotion;
-  const settled = settledAfterSweep || reducedMotion;
 
   // Reveal once when roughly half the section scrolls into view.
   useEffect(() => {
-    if (reducedMotion) return;
+    if (reducedMotion) {
+      setInView(true);
+      setSettled(true);
+      return;
+    }
     const el = sectionRef.current;
     if (!el) return;
     const io = new IntersectionObserver(
@@ -369,7 +369,7 @@ export default function EuropeNetworkLight({
                         path={routes[activeIso]}
                       />
                       <image
-                        href={asset("/truck-map.png")}
+                        href="/truck-map.png"
                         x={-25}
                         y={-25}
                         width={50}
@@ -527,9 +527,8 @@ export default function EuropeNetworkLight({
                   >
                     {truck.name}
                   </span>
-                  {/* eslint-disable-next-line @next/next/no-img-element -- flag PNG sized by height (w-auto), needs intrinsic aspect ratio */}
                   <img
-                    src={asset(`/countryflags/${truck.file}.png`)}
+                    src={`/countryflags/${truck.file}.png`}
                     alt=""
                     loading="lazy"
                     className="h-40 w-auto"

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { nav, site } from "@/lib/site";
+import { nav } from "@/lib/site";
 import NavPill from "./nav-pill";
 
 /**
@@ -47,38 +47,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
     };
   }, [pathname]);
 
-  // Mobile: once the page scrolls, the floating buttons get a frosted bar behind
-  // them so they never sit on top of body text.
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const on = () => setScrolled(window.scrollY > 24);
-    on();
-    window.addEventListener("scroll", on, { passive: true });
-    return () => window.removeEventListener("scroll", on);
-  }, []);
-
-  // Drawer: lock page scroll while open, close on Escape.
-  useEffect(() => {
-    if (!mobileOpen) return;
-    const root = document.documentElement;
-    const prev = root.style.overflow;
-    root.style.overflow = "hidden";
-    root.classList.add("modal-open");
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setMobileOpen(false);
-    window.addEventListener("keydown", onKey);
-    return () => {
-      root.style.overflow = prev;
-      root.classList.remove("modal-open");
-      window.removeEventListener("keydown", onKey);
-    };
-  }, [mobileOpen]);
-
-  // Close the drawer whenever the route changes (state-during-render, no effect).
-  const [drawerPath, setDrawerPath] = useState(pathname);
-  if (drawerPath !== pathname) {
-    setDrawerPath(pathname);
-    setMobileOpen(false);
-  }
+  useEffect(() => setMobileOpen(false), [pathname]);
 
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/");
@@ -91,16 +60,6 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
       <span aria-hidden className="absolute top-2 left-2 size-8 bg-[radial-gradient(circle_at_100%_100%,transparent_31.5px,white_32px)]" />
       <span aria-hidden className="absolute top-2 right-2 size-8 bg-[radial-gradient(circle_at_0%_100%,transparent_31.5px,white_32px)]" />
 
-      {/* Mobile frosted bar behind the buttons once scrolled */}
-      <div
-        aria-hidden
-        className={`absolute inset-x-0 top-0 h-[4.75rem] border-b border-zinc-950/5 bg-white/95 backdrop-blur-xl transition-opacity duration-300 lg:hidden ${
-          scrolled && !mobileOpen ? "opacity-100" : "opacity-0"
-        }`}
-      />
-
-      <MobileDrawer open={mobileOpen} onClose={() => setMobileOpen(false)} isActive={isActive} />
-
       {/* Centered white logo tab (identical to homepage) */}
       <div className="pointer-events-auto absolute top-2 left-1/2 z-20 -translate-x-1/2">
         <Link href="/" aria-label="Mcars — home" className="relative block rounded-b-[1.5rem] bg-white px-6 pt-0.5 pb-2 sm:px-8 sm:pt-1 sm:pb-2.5">
@@ -110,20 +69,10 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
         </Link>
       </div>
 
-      <div className="relative z-10 flex w-full items-center justify-between gap-4 px-6 pt-3.5 sm:pt-5">
+      <div className="relative flex w-full items-center justify-between gap-4 px-4 pt-4 sm:px-6 sm:pt-5">
         {/* Left: dark pill nav (with Diensten/Routes/Ontdek dropdowns) */}
         <div className="pointer-events-auto">
           <NavPill />
-          {/* Mobile: one-tap call on the left balances the menu button on the right */}
-          <a
-            href={site.phoneHref}
-            aria-label={`Bel ${site.name}: ${site.phone}`}
-            className="flex size-12 items-center justify-center rounded-2xl bg-zinc-900/90 text-white backdrop-blur-xl transition-colors hover:bg-zinc-800 md:hidden"
-          >
-            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
-            </svg>
-          </a>
         </div>
 
         {/* Right: Tracking + Offerte */}
@@ -131,7 +80,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           <Link
             ref={trackingRef}
             href="/contact"
-            className={`hidden items-center gap-2 rounded-2xl border py-2 pr-2 pl-5 text-sm font-medium backdrop-blur-xl transition-colors duration-300 lg:flex ${
+            className={`hidden items-center gap-2 rounded-2xl border py-2 pr-2 pl-5 text-sm font-medium backdrop-blur-xl transition-colors duration-300 sm:flex ${
               overLight
                 ? "border-zinc-200 bg-white/70 text-zinc-950 hover:bg-zinc-100"
                 : "border-white/20 bg-white/10 text-white hover:bg-white/20"
@@ -142,7 +91,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           </Link>
           <Link
             href="/offerte"
-            className="hidden items-center gap-2 rounded-2xl bg-zinc-950 md:flex py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
+            className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
           >
             Offerte aanvragen
             <ArrowChip />
@@ -150,102 +99,39 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
-            aria-label={mobileOpen ? "Menu sluiten" : "Menu openen"}
+            aria-label="Menu"
             aria-expanded={mobileOpen}
-            aria-controls="mobile-menu"
-            className={`flex size-12 items-center justify-center rounded-2xl backdrop-blur-xl transition-colors lg:hidden ${
-              mobileOpen ? "bg-white text-zinc-950" : "bg-zinc-900/90 text-white hover:bg-zinc-800"
-            }`}
+            className="flex size-10 items-center justify-center rounded-2xl bg-zinc-900/85 text-white backdrop-blur-xl transition-colors hover:bg-zinc-800 lg:hidden"
           >
-            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
-              <path className={`origin-center transition-transform duration-300 ${mobileOpen ? "translate-y-[5px] rotate-45" : ""}`} d="M4 7h16" />
-              <path className={`transition-opacity duration-200 ${mobileOpen ? "opacity-0" : ""}`} d="M4 12h16" />
-              <path className={`origin-center transition-transform duration-300 ${mobileOpen ? "-translate-y-[5px] -rotate-45" : ""}`} d="M4 17h16" />
+            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              {mobileOpen ? <path d="M6 6l12 12M6 18L18 6" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
             </svg>
           </button>
         </div>
       </div>
 
-    </div>
-  );
-}
-
-/** Full-screen mobile menu: big rows (≥56px), expandable groups, CTA + call/WhatsApp. */
-function MobileDrawer({ open, onClose, isActive }: { open: boolean; onClose: () => void; isActive: (href: string) => boolean }) {
-  const [group, setGroup] = useState<string | null>(null);
-  return (
-    <div
-      id="mobile-menu"
-      role="dialog"
-      aria-modal="true"
-      aria-label="Menu"
-      inert={!open}
-      className={`fixed inset-0 overflow-y-auto overscroll-contain bg-zinc-950 text-white transition-[opacity,transform] duration-500 ease-[cubic-bezier(.22,1,.36,1)] lg:hidden ${
-        open ? "pointer-events-auto translate-y-0 opacity-100" : "pointer-events-none -translate-y-4 opacity-0"
-      }`}
-    >
-      <div className="flex min-h-full flex-col px-6 pt-32 pb-10">
-        <nav aria-label="Hoofdmenu">
-          <ul>
-            {nav.map((item, i) => {
-              const expanded = group === item.label;
-              return (
-                <li
-                  key={item.label}
-                  style={{ transitionDelay: open ? `${80 + i * 45}ms` : "0ms" }}
-                >
-                  <div className="flex items-center">
-                    <Link
-                      href={item.href}
-                      onClick={onClose}
-                      className={`flex flex-1 items-center py-5 text-[1.75rem] leading-tight font-light tracking-[-0.03em] ${isActive(item.href) ? "text-white" : "text-white/75"}`}
-                    >
-                      {item.label}
-                    </Link>
-                    {item.children && (
-                      <button
-                        type="button"
-                        onClick={() => setGroup(expanded ? null : item.label)}
-                        aria-expanded={expanded}
-                        aria-label={`${item.label} ${expanded ? "inklappen" : "uitklappen"}`}
-                        className="-mr-3 flex size-14 items-center justify-center text-white/60"
-                      >
-                        <svg className={`size-5 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                          <path d="M6 9l6 6 6-6" />
-                        </svg>
-                      </button>
-                    )}
-                  </div>
-                  {item.children && (
-                    <div className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(.22,1,.36,1)] ${expanded ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
-                      <ul className="overflow-hidden">
-                        {item.children.map((c) => (
-                          <li key={c.href}>
-                            <Link href={c.href} onClick={onClose} className="flex items-center py-3.5 text-lg text-white/60 hover:text-white">
-                              {c.label}
-                            </Link>
-                          </li>
-                        ))}
-                        <li aria-hidden className="h-4" />
-                      </ul>
-                    </div>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        </nav>
-
-        <div className="mt-auto pt-14">
-          <Link href="/offerte" onClick={onClose} className="flex min-h-14 items-center justify-center gap-2 rounded-full bg-white text-base font-medium text-zinc-950">
+      {/* Mobile drawer */}
+      {mobileOpen && (
+        <div className="pointer-events-auto relative mx-4 mt-2 overflow-hidden rounded-2xl bg-zinc-900/95 p-2 backdrop-blur-xl lg:hidden">
+          <nav className="flex flex-col">
+            {nav.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className={`rounded-xl px-4 py-3 text-sm transition-colors ${
+                  isActive(link.href) ? "bg-white font-medium text-zinc-900" : "text-white/85 hover:bg-white/10"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+          <Link href="/offerte" className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-medium text-zinc-900">
             Offerte aanvragen
-            <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
           </Link>
-          <a href={site.phoneHref} className="mt-4 flex min-h-14 items-center justify-center text-base text-white/60">
-            Of bel {site.phone}
-          </a>
         </div>
-      </div>
+      )}
     </div>
   );
 }

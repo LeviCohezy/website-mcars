@@ -2,15 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useEffect, useState } from "react";
 import { getSection } from "@/lib/variants";
-
-// The query string only changes through navigation, which re-renders us anyway.
-const noopSubscribe = () => () => {};
-const readIsPreview = () => new URLSearchParams(window.location.search).has("preview");
-// On the server (and during hydration) assume preview → nothing renders, so
-// thumbnails never flash the switcher.
-const serverIsPreview = () => true;
 
 /**
  * The circular button in the bottom-right corner of every design. Tap it and it
@@ -22,7 +15,11 @@ const serverIsPreview = () => true;
 export default function VariantSwitcher({ sectionId, base }: { sectionId: string; base?: string }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const isPreview = useSyncExternalStore(noopSubscribe, readIsPreview, serverIsPreview);
+  const [isPreview, setIsPreview] = useState(true); // assume preview until proven otherwise → no flash in thumbnails
+
+  useEffect(() => {
+    setIsPreview(new URLSearchParams(window.location.search).has("preview"));
+  }, []);
 
   // Close on Escape for keyboard users.
   useEffect(() => {
@@ -41,7 +38,7 @@ export default function VariantSwitcher({ sectionId, base }: { sectionId: string
   const isActive = (href: string) => (href === "/" ? pathname === "/" : norm(pathname) === norm(href));
 
   return (
-    <div className="pointer-events-none fixed right-4 bottom-[5.5rem] z-[60] [html.modal-open_&]:hidden flex flex-col items-end gap-3 md:right-7 md:bottom-7">
+    <div className="fixed bottom-5 right-5 z-[60] flex flex-col items-end gap-3 sm:bottom-7 sm:right-7">
       {/* Expanding panel */}
       <div
         className={`origin-bottom-right overflow-hidden rounded-3xl border border-white/10 bg-zinc-950/90 text-white shadow-2xl backdrop-blur-xl transition-all duration-300 ease-out ${
@@ -94,7 +91,7 @@ export default function VariantSwitcher({ sectionId, base }: { sectionId: string
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-label={open ? "Sluit variant-kiezer" : "Kies een variant"}
-        className="pointer-events-auto flex size-12 items-center justify-center rounded-full bg-zinc-950 text-white shadow-2xl md:size-14 ring-1 ring-white/10 transition-all duration-300 hover:scale-105 hover:bg-zinc-800 active:scale-95"
+        className="flex size-14 items-center justify-center rounded-full bg-zinc-950 text-white shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:scale-105 hover:bg-zinc-800 active:scale-95"
       >
         <svg
           viewBox="0 0 24 24"

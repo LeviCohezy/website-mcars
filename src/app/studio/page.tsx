@@ -13,7 +13,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { HighlightGrid, FaqAccordion, StatRow } from "@/components/blocks";
 import Icon from "@/components/icon";
 import type { IconKey, Service } from "@/data/services";
@@ -39,40 +39,29 @@ const ICON_KEYS: IconKey[] = ["shield", "clock", "route", "truck", "car", "wrenc
 type Store = { services: Record<string, Partial<Service>>; routes: Record<string, Partial<Route>> };
 const emptyStore: Store = { services: {}, routes: {} };
 
-const readStoredStore = (): Store => {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return { ...emptyStore, ...JSON.parse(raw) };
-  } catch {}
-  return emptyStore;
-};
-
-// false on the server and during hydration, true once running on the client.
-const noopSubscribe = () => () => {};
-const useHydrated = () => useSyncExternalStore(noopSubscribe, () => true, () => false);
-
 export default function Studio() {
   const [store, setStore] = useState<Store>(emptyStore);
   const [loaded, setLoaded] = useState(false);
   const [tab, setTab] = useState<"services" | "routes">("services");
   const [slug, setSlug] = useState(defaultServices[0].slug);
-  // The last store whose "saved" flash has finished; any newer store shows it.
-  const [settledStore, setSettledStore] = useState<Store | null>(null);
+  const [saved, setSaved] = useState(false);
   const [exportOpen, setExportOpen] = useState(false);
-  const saved = loaded && store !== settledStore;
 
-  // Load overrides once, right after hydration (localStorage is client-only).
-  const hydrated = useHydrated();
-  if (hydrated && !loaded) {
+  // Load overrides once on mount.
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) setStore({ ...emptyStore, ...JSON.parse(raw) });
+    } catch {}
     setLoaded(true);
-    setStore(readStoredStore());
-  }
+  }, []);
 
-  // Persist on every change, flashing "Opgeslagen" for a moment.
+  // Persist on every change.
   useEffect(() => {
     if (!loaded) return;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
-    const t = setTimeout(() => setSettledStore(store), 1200);
+    setSaved(true);
+    const t = setTimeout(() => setSaved(false), 1200);
     return () => clearTimeout(t);
   }, [store, loaded]);
 

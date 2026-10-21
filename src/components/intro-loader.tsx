@@ -38,9 +38,8 @@ export default function IntroLoader() {
       finished.current = true;
       window.__mcarsIntroDone = true;
       window.dispatchEvent(new Event(INTRO_EVENT));
-      // Unmount the (server-rendered) overlay on the next task.
-      const t = setTimeout(() => setPhase("done"), 0);
-      return () => clearTimeout(t);
+      setPhase("done");
+      return;
     }
     // The reveal choreography assumes the hero fills the viewport — don't let
     // the browser restore a previous scroll position underneath the intro.
@@ -58,6 +57,7 @@ export default function IntroLoader() {
     // Safety net: never hold the site hostage if the video stalls.
     const t = setTimeout(finish, 3500);
     return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [enabled]);
 
   // Quick fade to the white canvas, then hand the stage to the hero.

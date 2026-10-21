@@ -1,13 +1,28 @@
-import HomeFlow from "@/components/home-flow";
-import PageShell from "@/components/page-shell";
+import AboutStats from "@/components/about-stats";
+import ClientMarquee from "@/components/client-marquee";
+import Hero from "@/components/hero";
+import PainPoints from "@/components/pain-points";
+import ProcessSection from "@/components/process-section";
+import QuoteContact from "@/components/quote-contact";
+import ServicesPhilosophy from "@/components/services-philosophy";
+import SiteFooterLight from "@/components/site-footer-light";
 import VariantSwitcher from "@/components/variant-switcher";
+import WhyChooseUs from "@/components/why-choose-us";
 
-// Home 01 — cinema hero, light/paper with one dark curtain chapter (see home-flow.tsx).
+// Homepage = the "Home 2" design (logo in the nav links here).
 export default function Home() {
   return (
-    <PageShell>
-      <HomeFlow version={1} />
+    <div className="bg-white p-2">
+      <Hero />
+      <ClientMarquee />
+      <AboutStats />
+      <PainPoints />
+      <ServicesPhilosophy />
+      <WhyChooseUs />
+      <ProcessSection />
+      <QuoteContact />
+      <SiteFooterLight />
       <VariantSwitcher sectionId="home" />
-    </PageShell>
+    </div>
   );
 }

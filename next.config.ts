@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
         output: "export",
         basePath,
         assetPrefix: basePath,
-        images: { loader: "custom", loaderFile: "./src/lib/image-loader.ts" },
+        images: { unoptimized: true },
         trailingSlash: true,
       }
     : {}),

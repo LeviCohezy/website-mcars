@@ -25,7 +25,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useSyncExternalStore } from "react";
 import { asset } from "@/lib/asset";
-import QuoteFlow from "./quote-flow";
+import HeroSearchWidget from "./hero-search-widget";
 import NavPill from "./nav-pill";
 
 export type ServiceCard = { title: string; body: string; image: string; href?: string };
@@ -81,7 +81,7 @@ export const defaultCinematicConfig: CinematicConfig = {
   // Map appears, then the film runs to its end and the completed map holds still.
   map: { fadeIn: [0.88, 0.93], fadeOut: [0.97, 1] },
 
-  heroBadge: "Al 3000+ tevreden klanten",
+  heroBadge: "Trusted by 3000+ clients",
   heroHeadline: ["Autotransport dat verder", "gaat dan van A naar B."],
   introText:
     "Mcars is een Belgisch transportbedrijf dat auto's betrouwbaar, snel en volledig transparant vervoert over heel Europa.",
@@ -363,10 +363,8 @@ export default function CinematicSequence({
   return (
     <section
       ref={containerRef}
-      className="relative -mx-2 -mt-2 h-[calc(var(--film-h)*0.55)] md:h-[var(--film-h)]"
-      // Phones get ~55% of the scroll length so the pinned film never feels stuck;
-      // progress is measured from the real height, so the film just plays faster.
-      style={{ ["--film-h" as string]: `${cfg.scrollVh}vh` }}
+      className="relative -mx-2 -mt-2"
+      style={{ height: `${cfg.scrollVh}vh` }}
       aria-label="Mcars cinematic transport film"
     >
       <div className="sticky top-0 h-svh w-full overflow-hidden bg-black">
@@ -417,21 +415,22 @@ export default function CinematicSequence({
           </header>
 
           {/* Content */}
-          <div className="relative z-10 grid h-full w-full grid-cols-1 content-end gap-8 px-5 pt-32 pb-8 sm:px-8 lg:grid-cols-[minmax(0,1fr)_26rem] lg:items-end lg:gap-12 lg:pb-28">
-            <div className="min-w-0 max-w-3xl">
+          <div className="relative z-10 flex h-full w-full flex-col justify-end gap-10 px-5 pt-36 pb-10 sm:px-8">
+            <div className="max-w-3xl">
               <span className="mb-5 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white/90 backdrop-blur-xl">
                 {cfg.heroBadge}
               </span>
               <h1 className="text-4xl font-light leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">
                 {cfg.heroHeadline.map((line, i) => (
-                  <span key={i} className="sm:block">
-                    {line}{" "}
+                  <span key={i} className="block">
+                    {line}
                   </span>
                 ))}
               </h1>
+              <div aria-hidden className="h-[4.5rem]" />
             </div>
-            <div className="min-w-0">
-              <QuoteFlow tone="glass" />
+            <div className="lg:pr-80">
+              <HeroSearchWidget />
             </div>
           </div>
 
