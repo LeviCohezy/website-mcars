@@ -72,7 +72,7 @@ export function MetaRow({ items, light }: { items: string[]; light: boolean }) {
     <div className={`flex flex-wrap items-center gap-x-4 gap-y-2 text-sm ${light ? "text-zinc-500" : "text-white/70"}`}>
       {items.map((it, i) => (
         <span key={it} className="flex items-center gap-4">
-          {i > 0 && <span aria-hidden>·</span>}
+          {i > 0 && <span aria-hidden className="hidden sm:inline">·</span>}
           <span>{it}</span>
         </span>
       ))}

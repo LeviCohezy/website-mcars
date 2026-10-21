@@ -66,9 +66,9 @@ export default function FaqFlow({ version }: { version: Version }) {
   const proof = (
     <div className={`flex flex-wrap items-center gap-x-5 gap-y-2 text-sm ${onLight ? "text-zinc-500" : "text-white/70"}`}>
       <span><b className={onLight ? "font-medium text-zinc-950" : "font-medium text-white"}>{faqTotal}</b> antwoorden</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{groups.length} onderwerpen</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>Antwoord binnen 24 uur</span>
     </div>
   );

@@ -41,7 +41,7 @@ export default function VariantSwitcher({ sectionId, base }: { sectionId: string
   const isActive = (href: string) => (href === "/" ? pathname === "/" : norm(pathname) === norm(href));
 
   return (
-    <div className="fixed bottom-5 right-5 z-[60] flex flex-col items-end gap-3 sm:bottom-7 sm:right-7">
+    <div className="pointer-events-none fixed right-4 bottom-[5.5rem] z-[60] [html.modal-open_&]:hidden flex flex-col items-end gap-3 md:right-7 md:bottom-7">
       {/* Expanding panel */}
       <div
         className={`origin-bottom-right overflow-hidden rounded-3xl border border-white/10 bg-zinc-950/90 text-white shadow-2xl backdrop-blur-xl transition-all duration-300 ease-out ${
@@ -94,7 +94,7 @@ export default function VariantSwitcher({ sectionId, base }: { sectionId: string
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-label={open ? "Sluit variant-kiezer" : "Kies een variant"}
-        className="flex size-14 items-center justify-center rounded-full bg-zinc-950 text-white shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:scale-105 hover:bg-zinc-800 active:scale-95"
+        className="pointer-events-auto flex size-12 items-center justify-center rounded-full bg-zinc-950 text-white shadow-2xl md:size-14 ring-1 ring-white/10 transition-all duration-300 hover:scale-105 hover:bg-zinc-800 active:scale-95"
       >
         <svg
           viewBox="0 0 24 24"

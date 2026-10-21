@@ -56,9 +56,9 @@ export default function ServiceFlow({ data, version }: { data: ServicePageData; 
   const proof = (
     <div className={`flex flex-wrap items-center gap-x-5 gap-y-2 text-sm ${version === 2 ? "text-zinc-500" : "text-white/70"}`}>
       <span><b className={version === 2 ? "font-medium text-zinc-950" : "font-medium text-white"}>{site.reviews.score}/5</b> op Google</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>Antwoord binnen 24 uur</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>CMR bij elke ophaling</span>
     </div>
   );

@@ -55,11 +55,11 @@ export default function WerkwijzeFlow({ version }: { version: Version }) {
     <div className={`flex flex-wrap items-center gap-x-5 gap-y-2 text-sm ${onLight ? "text-zinc-500" : "text-white/70"}`}>
       {werkwijze.badges.map((b, i) => (
         <span key={b} className="flex items-center gap-5">
-          {i > 0 && <span aria-hidden>·</span>}
+          {i > 0 && <span aria-hidden className="hidden sm:inline">·</span>}
           {b}
         </span>
       ))}
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>
         <b className={`font-medium ${onLight ? "text-zinc-950" : "text-white"}`}>{site.reviews.score}/5</b> op Google
       </span>
@@ -268,12 +268,14 @@ function StatusGrid({ steps }: { steps: WorkStep[] }) {
   return (
     <FlowGrid className="mt-20 sm:mt-28">
       <p className={`font-mono text-[11px] tracking-[0.2em] uppercase ${t.faint}`}>Zo leest u de status van uw transport</p>
-      <ol className={`mt-6 grid grid-cols-2 border-t border-l sm:grid-cols-3 ${t.line}`}>
+      <ol className={`mt-6 grid grid-cols-1 border-t sm:grid-cols-3 sm:border-l ${t.line}`}>
         {steps.map((s, i) => (
-          <li key={s.title} className={`border-r border-b p-3 sm:p-5 ${t.line}`}>
-            <ClipImage src={s.image} alt={s.imageAlt} sizes="(min-width:640px) 30vw, 50vw" className="aspect-[4/3] rounded-[1.25rem]" />
-            <p className={`mt-4 font-mono text-[11px] tracking-[0.2em] ${t.faint}`}>{pad(i)}</p>
-            <p className="mt-1 text-lg font-light tracking-[-0.02em] sm:text-xl">{s.status}</p>
+          <li key={s.title} className={`flex items-center gap-5 border-b py-4 sm:block sm:border-r sm:p-5 ${t.line}`}>
+            <ClipImage src={s.image} alt={s.imageAlt} sizes="(min-width:640px) 30vw, 8rem" className="aspect-[4/3] w-28 flex-none rounded-2xl sm:w-auto sm:rounded-[1.25rem]" />
+            <div>
+              <p className={`font-mono text-[11px] tracking-[0.2em] sm:mt-4 ${t.faint}`}>{pad(i)}</p>
+              <p className="mt-1 text-lg font-light tracking-[-0.02em] sm:text-xl">{s.status}</p>
+            </div>
           </li>
         ))}
       </ol>

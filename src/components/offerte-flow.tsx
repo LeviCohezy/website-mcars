@@ -60,7 +60,7 @@ export default function OfferteFlow({ version }: { version: Version }) {
     <div className={`flex flex-wrap items-center gap-x-5 gap-y-2 text-sm ${onLight ? "text-zinc-500" : "text-white/70"}`}>
       {offerteReassurance.map((r, i) => (
         <span key={r.title} className="flex items-center gap-5">
-          {i > 0 && <span aria-hidden>·</span>}
+          {i > 0 && <span aria-hidden className="hidden sm:inline">·</span>}
           {r.title}
         </span>
       ))}

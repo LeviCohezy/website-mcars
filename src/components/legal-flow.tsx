@@ -29,7 +29,7 @@ export default function LegalFlow({
       <Chapter tone="light" space="none" className="pt-32 pb-16 sm:pt-44 sm:pb-24">
         <FlowGrid>
           <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-sm text-zinc-500">
-            <Link href="/" className="py-2 hover:text-zinc-950">Home</Link>
+            <Link href="/" className="inline-flex min-h-11 items-center hover:text-zinc-950">Home</Link>
             <span aria-hidden>/</span>
             <span className="text-zinc-950">{title}</span>
           </nav>

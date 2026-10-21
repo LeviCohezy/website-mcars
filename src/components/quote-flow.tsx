@@ -163,7 +163,7 @@ export default function QuoteFlow({
               type="button"
               onClick={() => go(id, -1)}
               title={`${LABEL[id]} wijzigen`}
-              className={`qf-chip-in flex min-h-8 flex-none items-center gap-1.5 rounded-full px-3 text-xs transition-colors ${t.answered}`}
+              className={`qf-chip-in flex min-h-10 flex-none items-center gap-1.5 rounded-full px-3.5 text-xs transition-colors sm:min-h-8 sm:px-3 ${t.answered}`}
             >
               <span className={t.answeredKey}>{LABEL[id]}</span>
               <span className="max-w-[11rem] truncate font-medium">{a[id as keyof Answers]}</span>
@@ -189,7 +189,7 @@ export default function QuoteFlow({
       {/* Footer: back + discreet dots, only once started */}
       {started && !sent && (
         <div className="qf-fade mt-5 flex items-center justify-between gap-4">
-          <button type="button" onClick={back} className={`-ml-2 min-h-11 rounded-full px-2 text-sm transition-colors ${t.back}`}>
+          <button type="button" onClick={back} className={`-ml-2 min-h-12 rounded-full px-3 text-sm transition-colors ${t.back}`}>
             ← Terug
           </button>
           <div aria-hidden className="flex items-center gap-1.5">
@@ -321,7 +321,7 @@ function Chips({ options, value, onPick, t, large = false }: { options: string[]
           type="button"
           onClick={() => onPick(o)}
           style={{ animationDelay: `${60 + i * 35}ms` }}
-          className={`qf-chip-in min-h-11 rounded-full px-4 text-sm transition-[background-color,color,transform] duration-200 active:scale-[0.97] ${large ? "min-w-24 sm:px-6" : ""} ${
+          className={`qf-chip-in min-h-12 rounded-full px-4 text-[0.9375rem] transition-[background-color,color,transform] duration-200 active:scale-[0.97] sm:min-h-11 sm:text-sm ${large ? "min-w-[6.5rem] px-6" : ""} ${
             value === o ? t.chipOn : t.chip
           }`}
         >
@@ -412,6 +412,8 @@ function TextAnswer({
           }}
           placeholder={placeholder}
           autoComplete={address ? "off" : undefined}
+          autoCapitalize={address ? "words" : "sentences"}
+          enterKeyHint="next"
           className={`min-w-0 flex-1 bg-transparent py-2 text-base focus:outline-none ${t.input}`}
         />
         <NextButton t={t} disabled={!v.trim()} />
@@ -420,7 +422,7 @@ function TextAnswer({
         <ul className={`mt-2 overflow-hidden rounded-2xl ${t.menu}`}>
           {sugg.map((s) => (
             <li key={s}>
-              <button type="button" onClick={() => onSubmit(s)} className={`block min-h-11 w-full px-5 py-2.5 text-left text-sm ${t.menuItem}`}>
+              <button type="button" onClick={() => onSubmit(s)} className={`block min-h-12 w-full px-5 py-3 text-left text-sm ${t.menuItem}`}>
                 {s}
               </button>
             </li>
@@ -446,7 +448,10 @@ function DateAnswer({ quick, value, onSubmit, t }: { quick: string[]; value?: st
         className="mt-3"
       >
         <div className={`flex items-center gap-2 rounded-full p-1.5 pl-5 ${t.field}`}>
-          <label htmlFor={id} className={`flex-none text-sm ${t.muted}`}>Of kies een datum</label>
+          <label htmlFor={id} className={`flex-none text-sm ${t.muted}`}>
+            <span className="sm:hidden">Datum</span>
+            <span className="hidden sm:inline">Of kies een datum</span>
+          </label>
           <input id={id} type="date" min={today} value={d} onChange={(e) => setD(e.target.value)} className={`min-w-0 flex-1 bg-transparent py-2 text-base focus:outline-none ${t.input} ${t.dateScheme}`} />
           <NextButton t={t} disabled={!d} />
         </div>
@@ -470,12 +475,16 @@ function ContactStep({
 }) {
   const [c, setC] = useState({ naam: "", email: "", telefoon: "", bedrijf: "", opmerking: "" });
   const ok = c.naam.trim() && /\S+@\S+\.\S+/.test(c.email) && c.telefoon.trim().length >= 6;
+  const MODES: Partial<Record<keyof typeof c, "email" | "tel" | "text">> = { email: "email", telefoon: "tel" };
   const field = (key: keyof typeof c, label: string, type = "text", autoComplete?: string) => (
-    <label className={`block rounded-2xl px-4 pt-2.5 pb-2 ${t.field}`}>
+    <label className={`block min-h-14 rounded-2xl px-4 pt-2.5 pb-2 ${t.field}`}>
       <span className={`block text-[11px] tracking-wide uppercase ${t.muted}`}>{label}</span>
       <input
         type={type}
         autoComplete={autoComplete}
+        inputMode={MODES[key] ?? "text"}
+        enterKeyHint={key === "opmerking" ? "send" : "next"}
+        autoCapitalize={key === "email" ? "off" : key === "opmerking" ? "sentences" : "words"}
         value={c[key]}
         onChange={(e) => setC({ ...c, [key]: e.target.value })}
         className={`w-full bg-transparent py-1 text-base focus:outline-none ${t.input}`}
@@ -497,7 +506,7 @@ function ContactStep({
         {field("telefoon", "Telefoon", "tel", "tel")}
         <div className={big ? "sm:col-span-2" : ""}>{field("opmerking", "Merk, model of opmerking (optioneel)")}</div>
       </div>
-      <div className="mt-4 flex justify-end">
+      <div className="mt-4 flex justify-end [&>button]:w-full [&>button]:justify-center sm:[&>button]:w-auto">
         <NextButton t={t} disabled={!ok} label="Vraag mijn prijs aan" />
       </div>
     </form>

@@ -19,6 +19,7 @@ import {
   IndexRow,
   Rise,
   toneClasses,
+  Figures,
   type FlowTone,
 } from "./flow";
 import QuoteFlow from "./quote-flow";
@@ -182,18 +183,11 @@ function CaseRail({ items, tone }: { items: Case[]; tone: FlowTone }) {
 }
 
 /** Hairline figure row — like the kit's Figures, sized for word values ("Wekelijks"). */
-function Stats({ items, tone }: { items: { value: string; label: string }[]; tone: FlowTone }) {
-  const t = toneClasses(tone);
+function Stats({ items }: { items: { value: string; label: string }[]; tone: FlowTone }) {
+  // Kit Figures: one full-width row per figure on phones, 2 → 4 columns above.
   return (
-    <FlowGrid className="mt-14 sm:mt-20">
-      <dl className={`grid grid-cols-2 border-t lg:grid-cols-4 ${t.line}`}>
-        {items.map((f, i) => (
-          <Rise key={f.label} delay={i * 90} className={`border-b py-8 pr-4 sm:py-10 ${t.line} ${i % 2 ? "pl-4 sm:pl-6" : ""} lg:border-b-0 lg:pl-6 lg:first:pl-0 ${i > 0 ? "lg:border-l" : ""}`}>
-            <dt className={`font-mono text-[11px] tracking-[0.2em] uppercase ${t.muted}`}>{f.label}</dt>
-            <dd className="mt-3 font-[family-name:var(--font-display)] text-[2.6rem] leading-none sm:text-6xl lg:text-7xl">{f.value}</dd>
-          </Rise>
-        ))}
-      </dl>
-    </FlowGrid>
+    <div className="mt-14 sm:mt-20">
+      <Figures items={items} />
+    </div>
   );
 }

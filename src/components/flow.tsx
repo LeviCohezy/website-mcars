@@ -2,7 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Children, createContext, isValidElement, useContext, useEffect, useRef, useState } from "react";
+import { Children, createContext, isValidElement, useContext, useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
+import { site } from "@/lib/site";
+import QuoteFlow from "./quote-flow";
 
 /*
  * FLOW KIT — the connective layer that turns a page into one composed piece
@@ -64,7 +67,7 @@ function useReduced() {
 }
 
 /** 0 → 1 as the element travels from `start` (viewport fraction of its top) to `end`. */
-function useProgress<T extends HTMLElement>(start = 0.9, end = 0.3) {
+function useProgress<T extends HTMLElement>(start = 0.9, end = 0.3, mobile?: [number, number]) {
   const ref = useRef<T>(null);
   const [p, setP] = useState(0);
   useEffect(() => {
@@ -75,7 +78,8 @@ function useProgress<T extends HTMLElement>(start = 0.9, end = 0.3) {
       if (!el) return;
       const r = el.getBoundingClientRect();
       const vh = window.innerHeight;
-      const v = (vh * start - r.top) / (vh * (start - end) + r.height * 0.5);
+      const [a, b] = mobile && window.innerWidth < 640 ? mobile : [start, end];
+      const v = (vh * a - r.top) / (vh * (a - b) + r.height * 0.5);
       setP(Math.min(1, Math.max(0, v)));
     };
     const on = () => {
@@ -89,7 +93,7 @@ function useProgress<T extends HTMLElement>(start = 0.9, end = 0.3) {
       window.removeEventListener("scroll", on);
       window.removeEventListener("resize", on);
     };
-  }, [start, end]);
+  }, [start, end, mobile]);
   return [ref, p] as const;
 }
 
@@ -155,12 +159,13 @@ export function FlowPage({ tone = "light", children, className = "" }: { tone?: 
     <ToneCtx.Provider value={tone}>
       <div className={`relative isolate overflow-clip rounded-[1rem] ${t.bg} ${t.text} ${className}`}>
         {children}
+        <StickyQuote />
         {/* Route line — fixed to the viewport, on the left frame edge */}
-        <div aria-hidden className="pointer-events-none fixed top-0 bottom-0 left-[0.85rem] z-40 hidden w-px sm:left-[1.6rem] md:block">
+        <div aria-hidden className="pointer-events-none fixed top-0 bottom-0 right-[5px] z-40 w-px opacity-50 md:right-auto md:left-[1.6rem] md:opacity-100">
           <div className="absolute inset-0 bg-zinc-500/20" />
           <div className="absolute inset-x-0 top-0 bg-zinc-500/70 mix-blend-difference" style={{ height: `${p * 100}%`, transition: reduced ? "none" : "height 120ms linear" }} />
           <div
-            className="absolute -left-[3px] size-[7px] rounded-full bg-white ring-2 ring-zinc-950 mix-blend-difference"
+            className="absolute -left-[2px] size-[5px] rounded-full bg-white ring-2 ring-zinc-950 mix-blend-difference md:-left-[3px] md:size-[7px]"
             style={{ top: `calc(${p * 100}% - 3px)`, transition: reduced ? "none" : "top 120ms linear" }}
           />
         </div>
@@ -173,7 +178,7 @@ export function FlowPage({ tone = "light", children, className = "" }: { tone?: 
 function FrameLines({ tone }: { tone: FlowTone }) {
   const t = TONE[tone];
   return (
-    <div aria-hidden className={`pointer-events-none absolute inset-y-0 left-1/2 -z-0 w-full max-w-[88rem] -translate-x-1/2 px-5 sm:px-10 lg:px-14`}>
+    <div aria-hidden className="pointer-events-none absolute inset-y-0 left-1/2 -z-0 w-full max-w-[88rem] -translate-x-1/2 px-2.5 opacity-60 sm:px-10 sm:opacity-100 lg:px-14">
       <div className="relative h-full">
         <span className={`absolute inset-y-0 left-0 w-px ${t.frame}`} />
         <span className={`absolute inset-y-0 right-0 w-px ${t.frame}`} />
@@ -193,7 +198,7 @@ function Seam({ tone }: { tone: FlowTone }) {
     </svg>
   );
   return (
-    <div aria-hidden className={`pointer-events-none absolute inset-x-0 top-0 ${FRAME}`}>
+    <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 mx-auto w-full max-w-[88rem] px-2.5 sm:px-10 lg:px-14">
       <div className="relative">
         <span className={`${cross} -left-[5px]`}>{svg}</span>
         <span className={`${cross} left-1/2 hidden -translate-x-1/2 lg:block`}>{svg}</span>
@@ -232,7 +237,7 @@ export function Chapter({
   className?: string;
 }) {
   const t = TONE[tone];
-  const pad = { default: "py-20 sm:py-28 lg:py-32", tight: "py-14 sm:py-20", loose: "py-24 sm:py-36 lg:py-44", none: "" }[space];
+  const pad = { default: "py-24 sm:py-28 lg:py-32", tight: "py-16 sm:py-20", loose: "py-28 sm:py-36 lg:py-44", none: "" }[space];
   return (
     <ToneCtx.Provider value={tone}>
       <section
@@ -242,7 +247,7 @@ export function Chapter({
         <FrameLines tone={tone} />
         {!curtain && <Seam tone={tone} />}
         {(n || label) && (
-          <div className={`relative ${FRAME} mb-10 sm:mb-14`}>
+          <div className={`relative ${FRAME} mb-8 sm:mb-14`}>
             <p className={`flex items-center gap-3 font-mono text-[11px] tracking-[0.22em] uppercase ${t.muted}`}>
               {n && <span className={t.text}>{n}</span>}
               <span aria-hidden className={`h-px w-8 ${tone === "dark" ? "bg-white/30" : "bg-zinc-950/25"}`} />
@@ -312,9 +317,12 @@ export function ChapterIntro({
   );
 }
 
+/** Phones: the reveal completes within ~a third of a screen so it never feels stuck. */
+const MOBILE_WORDS: [number, number] = [0.95, 0.72];
+
 /** Words fade from 18% to full opacity, scrubbed by scroll. */
 export function ScrollWords({ text, className = "" }: { text: string; className?: string }) {
-  const [ref, p] = useProgress<HTMLSpanElement>(0.92, 0.45);
+  const [ref, p] = useProgress<HTMLSpanElement>(0.92, 0.45, MOBILE_WORDS);
   const reduced = useReduced();
   const words = text.split(" ");
   return (
@@ -385,7 +393,7 @@ export function ImageBridge({
   caption,
   from = "light",
   to = "dark",
-  height = "h-[52svh] sm:h-[68svh]",
+  height = "aspect-[4/3] sm:aspect-auto sm:h-[68svh]",
 }: {
   src: string;
   alt: string;
@@ -421,7 +429,7 @@ function Crumbs({ items, light }: { items: Crumb[]; light: boolean }) {
         <span key={c.label} className="flex items-center gap-2">
           {i > 0 && <span aria-hidden>/</span>}
           {c.href ? (
-            <Link href={c.href} className={`py-2 ${light ? "hover:text-zinc-950" : "hover:text-white"}`}>
+            <Link href={c.href} className={`inline-flex min-h-11 items-center ${light ? "hover:text-zinc-950" : "hover:text-white"}`}>
               {c.label}
             </Link>
           ) : (
@@ -476,7 +484,7 @@ export function FlowHero({
           <div className={`relative z-10 grid grid-cols-1 flex-1 content-end gap-8 pt-32 pb-8 sm:pb-12 lg:grid-cols-[minmax(0,1fr)_27rem] lg:items-end lg:gap-14 ${FRAME}`}>
             <div className="min-w-0">
               <Crumbs items={crumbs} light={false} />
-              <h1 className="mt-5 max-w-4xl text-[2.9rem] leading-[0.96] font-light tracking-[-0.05em] text-balance sm:text-7xl lg:text-[6.5rem]">{title}</h1>
+              <h1 className="mt-4 max-w-4xl text-[2.5rem] leading-[0.98] font-light tracking-[-0.045em] text-balance sm:mt-5 sm:text-7xl lg:text-[6.5rem]">{title}</h1>
               {intro && <p className="mt-6 max-w-lg text-base leading-relaxed text-white/75 sm:text-lg">{intro}</p>}
               {aside && <div className="mt-7">{aside}</div>}
             </div>
@@ -491,12 +499,12 @@ export function FlowHero({
     const word = (wordmark ?? title.split(" ")[0]).toUpperCase();
     return (
       <ToneCtx.Provider value="light">
-        <section className="relative isolate overflow-hidden bg-white pt-28 text-zinc-950 sm:pt-36">
+        <section className="relative isolate overflow-hidden bg-white pt-24 text-zinc-950 sm:pt-36">
           <FrameLines tone="light" />
           <div className={`relative ${FRAME}`}>
             <Crumbs items={crumbs} light />
             <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:items-end">
-              <h1 className="text-[2.9rem] leading-[0.96] font-light tracking-[-0.05em] text-balance sm:text-7xl lg:text-[5.5rem]">{title}</h1>
+              <h1 className="text-[2.5rem] leading-[0.98] font-light tracking-[-0.045em] text-balance sm:text-7xl lg:text-[5.5rem]">{title}</h1>
               <div>
                 {intro && <p className="max-w-md text-base leading-relaxed text-zinc-500 sm:text-lg">{intro}</p>}
                 {aside && <div className="mt-5">{aside}</div>}
@@ -532,13 +540,13 @@ export function FlowHero({
   const pills = lineImages.length ? lineImages : [image];
   return (
     <ToneCtx.Provider value="dark">
-      <section className="relative isolate overflow-hidden rounded-[1rem] bg-zinc-950 pt-32 pb-16 text-white sm:pt-40 sm:pb-24">
+      <section className="relative isolate overflow-hidden rounded-[1rem] bg-zinc-950 pt-28 pb-16 text-white sm:pt-40 sm:pb-24">
         <FrameLines tone="dark" />
         <div className={`relative ${FRAME} text-center`}>
           <div className="flex justify-center">
             <Crumbs items={crumbs} light={false} />
           </div>
-          <h1 className="mx-auto mt-8 max-w-6xl text-[2.6rem] leading-[1.02] font-light tracking-[-0.05em] sm:text-7xl lg:text-[6.25rem]">
+          <h1 className="mx-auto mt-6 max-w-6xl text-[2.3rem] leading-[1.06] font-light tracking-[-0.045em] sm:mt-8 sm:text-7xl lg:text-[6.25rem]">
             {lines.map((l, i) => (
               <span key={i} className="flex flex-wrap items-center justify-center gap-x-[0.25em]">
                 {i > 0 && pills[(i - 1) % pills.length] && (
@@ -555,7 +563,7 @@ export function FlowHero({
           {form && <div className="mx-auto mt-10 max-w-3xl text-left">{form}</div>}
         </div>
         <div className={`relative mt-16 ${FRAME}`}>
-          <ClipImage src={image} alt={imageAlt} priority parallax className="h-[46svh] rounded-[1.25rem] sm:h-[62svh] sm:rounded-[2rem]" />
+          <ClipImage src={image} alt={imageAlt} priority parallax className="aspect-[4/3] rounded-[1.25rem] sm:aspect-auto sm:h-[62svh] sm:rounded-[2rem]" />
         </div>
       </section>
     </ToneCtx.Provider>
@@ -694,14 +702,15 @@ export function IndexRow({
  * the cadence is always the same across pages.
  */
 export function Bento({ children }: { children: React.ReactNode }) {
+  // Phones: one column of equal 4:3-ish cells; tablets/desktop: the rhythm grid.
   const PATTERN = [
-    "lg:col-span-4 lg:row-span-2 min-h-[22rem]",
-    "lg:col-span-2 min-h-[14rem]",
-    "lg:col-span-2 min-h-[14rem]",
-    "lg:col-span-3 min-h-[16rem]",
-    "lg:col-span-3 min-h-[16rem]",
-    "lg:col-span-2 min-h-[14rem]",
-    "lg:col-span-4 min-h-[14rem]",
+    "min-h-[19rem] lg:col-span-4 lg:row-span-2 sm:min-h-[22rem]",
+    "min-h-[16rem] lg:col-span-2 sm:min-h-[14rem]",
+    "min-h-[16rem] lg:col-span-2 sm:min-h-[14rem]",
+    "min-h-[16rem] lg:col-span-3",
+    "min-h-[16rem] lg:col-span-3",
+    "min-h-[16rem] lg:col-span-2 sm:min-h-[14rem]",
+    "min-h-[16rem] lg:col-span-4 sm:min-h-[14rem]",
   ];
   const kids = Children.toArray(children).filter(isValidElement);
   return (
@@ -773,13 +782,17 @@ export function Figures({ items }: { items: { value: string; label: string }[] }
   const t = TONE[tone];
   return (
     <div className={FRAME}>
-      <dl className={`grid grid-cols-2 border-t lg:grid-cols-4 ${t.line}`}>
+      <dl className={`grid grid-cols-1 border-t sm:grid-cols-2 lg:grid-cols-4 ${t.line}`}>
         {items.map((f, i) => (
-          <Rise key={f.label} delay={i * 90} className={`border-b py-8 pr-4 sm:py-10 ${t.line} ${i % 2 === 0 ? "" : "pl-4 sm:pl-6"} lg:border-b-0 lg:pl-6 lg:first:pl-0 ${i > 0 ? "lg:border-l" : ""}`}>
-            <dt className={`font-mono text-[11px] tracking-[0.2em] uppercase ${t.muted}`}>{f.label}</dt>
+          <Rise
+            key={f.label}
+            delay={i * 90}
+            className={`flex items-end justify-between gap-6 border-b py-6 sm:block sm:py-10 sm:pr-4 ${t.line} ${i % 2 === 0 ? "" : "sm:pl-6"} lg:border-b-0 lg:pl-6 lg:first:pl-0 ${i > 0 ? "lg:border-l" : ""}`}
+          >
+            <dt className={`max-w-[11rem] pb-1 font-mono text-[11px] tracking-[0.2em] uppercase sm:max-w-none sm:pb-0 ${t.muted}`}>{f.label}</dt>
             <dd
-              className={`mt-3 font-[family-name:var(--font-display)] leading-none break-words ${
-                f.value.length > 5 ? "text-4xl sm:text-5xl lg:text-6xl" : "text-6xl sm:text-7xl lg:text-8xl"
+              className={`text-right font-[family-name:var(--font-display)] leading-none break-words sm:mt-3 sm:text-left ${
+                f.value.length > 5 ? "text-4xl sm:text-5xl lg:text-6xl" : "text-[3.5rem] sm:text-7xl lg:text-8xl"
               }`}
             >
               {f.value}
@@ -849,7 +862,7 @@ export function FlowFaq({ items }: { items: { q: string; a: string }[] }) {
                   onClick={() => setOpen(on ? null : i)}
                   className="flex min-h-16 w-full items-center gap-6 py-5 text-left"
                 >
-                  <span className={`w-8 flex-none font-mono text-[11px] tracking-[0.18em] ${t.faint}`}>{String(i + 1).padStart(2, "0")}</span>
+                  <span className={`hidden w-8 flex-none font-mono text-[11px] tracking-[0.18em] sm:inline ${t.faint}`}>{String(i + 1).padStart(2, "0")}</span>
                   <span className="flex-1 text-lg font-light tracking-[-0.015em] sm:text-2xl">{f.q}</span>
                   <span aria-hidden className={`relative size-5 flex-none transition-transform duration-500 ${on ? "rotate-45" : ""}`}>
                     <span className="absolute inset-x-0 top-1/2 h-px bg-current" />
@@ -858,7 +871,7 @@ export function FlowFaq({ items }: { items: { q: string; a: string }[] }) {
                 </button>
                 <div className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(.22,1,.36,1)] ${on ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
                   <div className="overflow-hidden">
-                    <p className={`max-w-2xl pb-6 pl-14 text-base leading-relaxed ${t.muted}`}>{f.a}</p>
+                    <p className={`max-w-2xl pb-6 text-base leading-relaxed sm:pl-14 ${t.muted}`}>{f.a}</p>
                   </div>
                 </div>
               </li>
@@ -888,7 +901,7 @@ export function FlowClose({
   contact?: React.ReactNode;
 }) {
   return (
-    <Chapter tone="dark" curtain space="loose" className="pb-32 sm:pb-40">
+    <Chapter tone="dark" curtain space="loose" className="pb-28 sm:pb-40">
       <div className={`${FRAME} grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:gap-16`}>
         <div>
           <h2 className="text-[2.4rem] leading-[1.02] font-light tracking-[-0.045em] text-balance sm:text-6xl lg:text-7xl">
@@ -902,3 +915,119 @@ export function FlowClose({
     </Chapter>
   );
 }
+
+/**
+ * Phones only: a slim bar pinned to the bottom of the screen once every
+ * on-page QuoteFlow has scrolled out of view (and hidden again whenever one is
+ * visible). Tapping it opens the same multi-step form in a bottom sheet, so a
+ * visitor can request a price from anywhere on a long page.
+ */
+function StickyQuote() {
+  const [show, setShow] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const forms = new Map<Element, boolean>();
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => forms.set(e.target, e.isIntersecting));
+      update();
+    });
+    const update = () => {
+      const anyVisible = [...forms.values()].some(Boolean);
+      setShow(!anyVisible && window.scrollY > window.innerHeight * 0.6);
+    };
+    // Observe the page's own forms (not the one inside our sheet).
+    document.querySelectorAll("[data-quote-flow]").forEach((el) => {
+      if (!el.closest("[data-quote-sheet]")) {
+        forms.set(el, false);
+        io.observe(el);
+      }
+    });
+    window.addEventListener("scroll", update, { passive: true });
+    update();
+    return () => {
+      io.disconnect();
+      window.removeEventListener("scroll", update);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!open) return;
+    const root = document.documentElement;
+    const prev = root.style.overflow;
+    root.style.overflow = "hidden";
+    root.classList.add("modal-open");
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => {
+      root.style.overflow = prev;
+      root.classList.remove("modal-open");
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+
+  // The sheet is portalled to <body> so it layers above the fixed nav — FlowPage
+  // is an isolated stacking context and would otherwise trap its z-index.
+  const mounted = useSyncExternalStore(noopSubscribe, () => true, () => false);
+
+  if (!mounted) return null;
+  return createPortal(
+    <div className="md:hidden">
+      {/* Bar */}
+      <div
+        className={`fixed inset-x-3 bottom-3 z-40 transition-[transform,opacity] duration-500 ease-[cubic-bezier(.22,1,.36,1)] ${
+          show && !open ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-[130%] opacity-0"
+        }`}
+        style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+      >
+        <div className="flex items-center gap-1.5 rounded-full bg-zinc-950/92 p-1.5 text-white shadow-[0_18px_50px_-12px_rgb(0_0_0/0.55)] ring-1 ring-white/10 backdrop-blur-xl">
+          <a href={site.phoneHref} aria-label={`Bel ${site.phone}`} className="flex size-12 flex-none items-center justify-center rounded-full ring-1 ring-white/15">
+            <svg className="size-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
+            </svg>
+          </a>
+          <button
+            type="button"
+            onClick={() => setOpen(true)}
+            className="flex min-h-12 flex-1 items-center justify-between gap-2 rounded-full bg-white pr-4 pl-5 text-sm font-medium text-zinc-950"
+          >
+            <span>
+              Offerte aanvragen <span className="font-normal text-zinc-500">· 24u</span>
+            </span>
+            <Arrow />
+          </button>
+        </div>
+      </div>
+
+      {/* Sheet */}
+      <div
+        className={`fixed inset-0 z-[80] bg-zinc-950/60 backdrop-blur-sm transition-opacity duration-300 ${open ? "opacity-100" : "pointer-events-none opacity-0"}`}
+        onClick={() => setOpen(false)}
+        aria-hidden
+      />
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label="Offerte aanvragen"
+        inert={!open}
+        data-quote-sheet
+        className={`fixed inset-x-0 bottom-0 z-[81] max-h-[92svh] overflow-y-auto overscroll-contain rounded-t-[1.75rem] bg-zinc-950 px-3 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))] transition-transform duration-500 ease-[cubic-bezier(.22,1,.36,1)] ${
+          open ? "translate-y-0" : "translate-y-full"
+        }`}
+      >
+        <div className="flex items-center justify-between px-3 pb-3">
+          <span aria-hidden className="h-1 w-10 rounded-full bg-white/20" />
+          <button type="button" onClick={() => setOpen(false)} aria-label="Sluiten" className="-mr-2 flex size-12 items-center justify-center rounded-full text-white/70">
+            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+              <path d="M6 6l12 12M18 6L6 18" />
+            </svg>
+          </button>
+        </div>
+        {open && <QuoteFlow tone="dark" />}
+      </div>
+    </div>,
+    document.body,
+  );
+}
+
+const noopSubscribe = () => () => {};

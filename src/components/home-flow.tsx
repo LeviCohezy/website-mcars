@@ -68,9 +68,9 @@ export default function HomeFlow({ version }: { version: Version }) {
   const proof = (
     <div className={`flex flex-wrap items-center gap-x-5 gap-y-2 text-sm ${version === 3 ? "justify-center" : ""} text-white/70`}>
       <span><b className="font-medium text-white">{site.reviews.score}/5</b> op Google</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{site.reviews.clients} tevreden klanten</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>Antwoord binnen 24 uur</span>
     </div>
   );

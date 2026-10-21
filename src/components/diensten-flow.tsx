@@ -59,9 +59,9 @@ export default function DienstenFlow({ version }: { version: Version }) {
   const proof = (
     <div className={`flex flex-wrap items-center gap-x-5 gap-y-2 text-sm ${onLight ? "text-zinc-500" : "text-white/70"}`}>
       <span><b className={onLight ? "font-medium text-zinc-950" : "font-medium text-white"}>{site.reviews.score}/5</b> op Google</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{services.length} diensten</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>Eén aanspreekpunt</span>
     </div>
   );

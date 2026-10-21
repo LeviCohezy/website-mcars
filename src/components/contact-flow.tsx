@@ -54,9 +54,9 @@ export default function ContactFlow({ version }: { version: Version }) {
   const proof = (
     <div className={`flex flex-wrap items-center gap-x-5 gap-y-2 text-sm ${onLight ? "text-zinc-500" : "text-white/70"}`}>
       <a href={site.phoneHref} className={`py-2 font-medium ${onLight ? "text-zinc-950" : "text-white"}`}>{site.phone}</a>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{site.hours}</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{site.address.city}</span>
     </div>
   );

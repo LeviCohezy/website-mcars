@@ -58,9 +58,9 @@ export default function ReviewsFlow({ version }: { version: Version }) {
         <Stars count={5} className="size-3.5" />
         <b className={onLight ? "font-medium text-zinc-950" : "font-medium text-white"}>{site.reviews.score}/5</b> op Google
       </span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{site.reviews.count} reviews</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{site.reviews.clients} klanten</span>
     </div>
   );

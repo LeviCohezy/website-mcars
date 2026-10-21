@@ -363,8 +363,10 @@ export default function CinematicSequence({
   return (
     <section
       ref={containerRef}
-      className="relative -mx-2 -mt-2"
-      style={{ height: `${cfg.scrollVh}vh` }}
+      className="relative -mx-2 -mt-2 h-[calc(var(--film-h)*0.55)] md:h-[var(--film-h)]"
+      // Phones get ~55% of the scroll length so the pinned film never feels stuck;
+      // progress is measured from the real height, so the film just plays faster.
+      style={{ ["--film-h" as string]: `${cfg.scrollVh}vh` }}
       aria-label="Mcars cinematic transport film"
     >
       <div className="sticky top-0 h-svh w-full overflow-hidden bg-black">

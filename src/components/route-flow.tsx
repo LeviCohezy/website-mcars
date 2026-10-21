@@ -77,9 +77,9 @@ export default function RouteFlow({ data, version }: { data: RoutePageData; vers
         </span>
       )}
       <span><b className={onLight ? "font-medium text-zinc-950" : "font-medium text-white"}>{site.reviews.score}/5</b> op Google</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>{route.frequency}</span>
-      <span aria-hidden>·</span>
+      <span aria-hidden className="hidden sm:inline">·</span>
       <span>CMR bij elke ophaling</span>
     </div>
   );
