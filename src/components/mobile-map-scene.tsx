@@ -14,9 +14,10 @@ import { asset } from "@/lib/asset";
  *   approach  as it scrolls in (top at 85% → top of screen) the card opens to a
  *             full-bleed black screen (clip-path, scrubbed, not pinned)
  *   pinned    1.5 screen-heights of scroll (GSAP ScrollTrigger, scrubbed):
- *               0.00–0.15  card copy fades out
- *               0.10–0.85  film scrubs from 0:15 to 0:20 of the homepage
- *                          film (truck front → Europe map with flags/routes)
+ *               heading, line and "Offerte" stay visible throughout
+ *               0.10–0.85  film scrubs 0:15.5 → 0:20 of the homepage film
+ *                          (only the Europe map: flags light up, routes draw).
+ *                          It moves only while you scroll — stop and it stops.
  *               0.75–0.90  tagline, then a short hold
  *   after     page scrolls on into the next section
  *
@@ -26,8 +27,9 @@ import { asset } from "@/lib/asset";
  * than the screen and centred, so the map fills a portrait phone.
  */
 
-// Length of the clip in seconds (0:15–0:20 of cinematic-scrub.mp4).
-const CLIP_SECONDS = 5;
+// Length of the clip in seconds: 0:15.5–0:20 of the homepage film — only the
+// Europe map with its flags and routes, not the truck shots before it.
+const CLIP_SECONDS = 4.5;
 
 export default function MobileMapScene() {
   const stageRef = useRef<HTMLDivElement>(null);
@@ -114,14 +116,13 @@ export default function MobileMapScene() {
           start: "top top",
           end: "+=150%",
           pin: true,
-          scrub: 0.6,
+          scrub: true,
           anticipatePin: 1,
           invalidateOnRefresh: true,
         },
       });
 
-      tl.to(intro, { opacity: 0, y: -24, duration: 0.15 }, 0)
-        .to(map, { opacity: 1, duration: 0.12 }, 0.08)
+      tl.to(map, { opacity: 1, duration: 0.12 }, 0.08)
         .to(
           film,
           {
@@ -157,7 +158,7 @@ export default function MobileMapScene() {
     <div className="-mx-7 mt-4 sm:-mx-10">
     <div ref={stageRef} className="relative h-[100svh] w-full overflow-hidden">
       <div ref={cardRef} className="absolute inset-0 bg-zinc-950 [clip-path:inset(0_28px_65%_28px_round_12px)] sm:[clip-path:inset(0_40px_65%_40px_round_12px)]">
-        {/* Film layer: 0:15–0:20 of the homepage film, scrubbed by the scroll.
+        {/* Film layer: 0:15.5–0:20 of the homepage film (map only), scrubbed by the scroll.
             Rendered wider than the screen (16:9 on portrait) and centred so the
             map reads large; the edges fade into the black card. */}
         <div ref={mapRef} className="absolute inset-0 flex items-center justify-center overflow-hidden opacity-0">
