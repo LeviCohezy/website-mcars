@@ -113,7 +113,9 @@ export default function ScrollVideoSection({
 
   return (
     <section ref={containerRef} className="relative -mx-2" style={{ height: `${scrollVh}vh` }}>
-      <div className="sticky top-0 h-svh w-full overflow-hidden bg-black">
+      {/* Phones: a square film, centred in the viewport while it scrubs.
+          Tablet/desktop: full screen. */}
+      <div className="sticky top-[calc(50svh-50vw)] h-[100vw] w-full overflow-hidden bg-black sm:top-0 sm:h-svh">
         <video
           ref={videoRef}
           className="absolute inset-0 h-full w-full object-cover"
@@ -130,7 +132,7 @@ export default function ScrollVideoSection({
           className="pointer-events-none absolute inset-0 z-10 flex flex-col justify-center px-6 opacity-0 sm:px-10 lg:px-16"
         >
           <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-black/65 via-black/20 to-black/30" />
-          <h2 className="max-w-[15ch] text-5xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
+          <h2 className="max-w-[15ch] text-[1.75rem] font-semibold leading-[1.1] tracking-tight text-white sm:text-6xl sm:leading-[1.05] lg:text-7xl">
             {headline}
           </h2>
         </div>

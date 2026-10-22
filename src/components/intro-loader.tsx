@@ -14,7 +14,7 @@ declare global {
 
 // The reveal choreography only makes sense on the immersive homepage variants;
 // interior pages skip the intro and load instantly.
-const HOME_ROUTES = new Set(["/", "/v2", "/v3"]);
+const HOME_ROUTES = new Set(["/", "/v2"]);
 
 export default function IntroLoader() {
   const pathname = usePathname();

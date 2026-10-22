@@ -37,7 +37,7 @@ export const sections: Section[] = [
     id: "home",
     title: "Home",
     description:
-      "Drie richtingen voor de homepage. Home 01 staat nu live; klik een kaart om die versie te bekijken.",
+      "Twee richtingen voor de homepage. Home 01 staat nu live; klik een kaart om die versie te bekijken.",
     variants: [
       {
         id: "home-01",
@@ -50,12 +50,6 @@ export const sections: Section[] = [
         label: "Home 02",
         href: "/v2",
         tagline: "Klassieke opbouw — probleem/oplossing, routes en regiokaarten.",
-      },
-      {
-        id: "home-03",
-        label: "Home 03",
-        href: "/v3",
-        tagline: "Redactionele versie — services-accordion, netwerkkaart en blog.",
       },
     ],
   },
