@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
-import RegionMapDark from "./region-map-dark";
 import { asset } from "@/lib/asset";
 import MobileMapScene from "./mobile-map-scene";
 
@@ -17,9 +16,6 @@ const REGIONS = [
 ];
 
 
-// Split over the two sides of the expanded map, hub first.
-const SIDE_LEFT = ["BEL", "NLD", "DEU", "LUX"];
-const SIDE_RIGHT = ["CHE", "ITA", "ESP", "FRA"];
 
 // Word-wave title over the expanded map, in the problems-section style.
 const MAP_TITLE_WORDS = [
@@ -128,12 +124,14 @@ export default function ServicesPhilosophy() {
   const cardRef = useRef<HTMLDivElement>(null);
   const cardContentRef = useRef<HTMLDivElement>(null);
   const mapOverlayRef = useRef<HTMLDivElement>(null);
+  const filmRef = useRef<HTMLVideoElement>(null);
   const naturalHeight = useRef(0);
   const [inView, setInView] = useState(false);
   // True once the black screen is complete — starts the map title word-wave.
   const [mapShown, setMapShown] = useState(false);
   // Countries currently on a live route on the map — lights up their tag.
-  const [activeIsos, setActiveIsos] = useState<string[]>([]);
+  // Country tags no longer light up per live route (the map is now a film).
+  const activeIsos: string[] = [];
   const reducedMotion = useSyncExternalStore(
     subscribeReducedMotion,
     () => window.matchMedia(REDUCED_MOTION).matches,
@@ -256,6 +254,13 @@ export default function ServicesPhilosophy() {
         overlay.style.transform = `scale(${0.94 + 0.06 * g})`;
         overlay.style.pointerEvents = g > 0.85 ? "auto" : "none";
         setMapShown(g > 0.05);
+        // The film (0:15–0:20 of the homepage film: truck front → Europe map)
+        // scrubs along with the reveal and rests on the finished map.
+        const film = filmRef.current;
+        if (film && film.readyState >= 1) {
+          const t = Math.min(film.duration || 5, 5) * g;
+          if (Math.abs(film.currentTime - t) > 0.01) film.currentTime = t;
+        }
       }
     };
 
@@ -491,9 +496,18 @@ export default function ServicesPhilosophy() {
                       </span>
                     ))}
                   </h3>
-                  <SideCountries side="left" activeIsos={activeIsos} />
-                  <RegionMapDark onActiveChange={setActiveIsos} />
-                  <SideCountries side="right" activeIsos={activeIsos} />
+                  {/* The map from the homepage film, full-bleed behind the title */}
+                  <video
+                    ref={filmRef}
+                    src={asset("/map-film.mp4")}
+                    poster={asset("/map-film-poster.jpg")}
+                    muted
+                    playsInline
+                    preload="auto"
+                    aria-hidden
+                    className="absolute inset-0 -z-10 size-full object-cover"
+                  />
+                  <div aria-hidden className="absolute inset-x-0 top-0 -z-10 h-56 bg-gradient-to-b from-zinc-950 to-transparent" />
                 </div>
               )}
             </div>
@@ -503,43 +517,5 @@ export default function ServicesPhilosophy() {
         )}
       </div>
     </section>
-  );
-}
-
-/* Countries flanking the expanded map: a big flag with the name next to it,
-   nothing else. A country lights up while a live route touches it. */
-function SideCountries({
-  side,
-  activeIsos,
-}: {
-  side: "left" | "right";
-  activeIsos: string[];
-}) {
-  const isos = side === "left" ? SIDE_LEFT : SIDE_RIGHT;
-  const regions = isos.map((iso) => REGIONS.find((r) => r.iso3 === iso)!);
-  return (
-    <div className="hidden shrink-0 flex-col items-start justify-center gap-20 xl:flex">
-      {regions.map((region) => {
-        const active = activeIsos.includes(region.iso3);
-        return (
-          <div key={region.iso3} className="flex items-center gap-5">
-            <span
-              className={`text-5xl leading-none transition-transform duration-500 motion-reduce:transition-none ${
-                active ? "scale-110" : ""
-              }`}
-            >
-              {region.flag}
-            </span>
-            <span
-              className={`font-display text-[3.3rem] leading-none tracking-wide transition-colors duration-500 ${
-                active ? "text-white" : "text-zinc-500"
-              }`}
-            >
-              {region.label}
-            </span>
-          </div>
-        );
-      })}
-    </div>
   );
 }
