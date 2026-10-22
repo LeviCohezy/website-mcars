@@ -6,7 +6,7 @@ import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";
 import { INTRO_EVENT } from "./intro-loader";
 import NavPill from "./nav-pill";
-import WhatsAppChip from "./whatsapp-chip";
+import MobileMenu from "./mobile-menu";
 
 export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } = {}) {
   const [revealed, setRevealed] = useState(false);
@@ -85,7 +85,7 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
           }`}
         >
           <NavPill />
-          <WhatsAppChip className="lg:hidden" />
+          <MobileMenu />
 
           <div className="ml-auto flex items-center gap-2">
             <a

@@ -27,7 +27,7 @@ import { useEffect, useRef, useSyncExternalStore } from "react";
 import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";
 import NavPill from "./nav-pill";
-import WhatsAppChip from "./whatsapp-chip";
+import MobileMenu from "./mobile-menu";
 
 export type ServiceCard = { title: string; body: string; image: string; href?: string };
 
@@ -402,7 +402,7 @@ export default function CinematicSequence({
           <header className="absolute inset-x-0 top-0 z-30">
             <div className="flex w-full items-center justify-between gap-4 px-4 pt-4 sm:px-6 sm:pt-5">
               <NavPill />
-              <WhatsAppChip className="lg:hidden" />
+              <MobileMenu />
               <div className="ml-auto flex items-center gap-2">
                 <a href="#" className="hidden items-center gap-2 rounded-2xl border border-white/20 bg-white/10 py-2 pr-2 pl-5 text-sm font-medium text-white backdrop-blur-xl transition-colors hover:bg-white/20 sm:flex">
                   Tracking

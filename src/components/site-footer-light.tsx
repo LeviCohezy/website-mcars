@@ -1,4 +1,6 @@
 import { asset } from "@/lib/asset";
+import { site } from "@/lib/site";
+import WhatsAppIcon from "./whatsapp-icon";
 const quickLinks = [
   ["Home", "#"],
   ["Diensten", "#diensten"],
@@ -109,6 +111,17 @@ export default function SiteFooterLight() {
                 Moorseelsesteenweg 16B,
                 <br />
                 8800 Roeselare, België
+              </li>
+              <li className="flex items-center gap-3">
+                <WhatsAppIcon className="size-4 flex-none text-[#25D366]" />
+                <a
+                  href={site.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:text-white"
+                >
+                  WhatsApp {site.phone}
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <svg

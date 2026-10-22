@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
 import { asset } from "@/lib/asset";
+import WhatsAppIcon from "./whatsapp-icon";
 
 const services = nav[0].children!.slice(0, 7);
 const routes = nav[1].children!.slice(0, 6);
@@ -48,6 +49,12 @@ export default function SiteFooter() {
               <li>{site.address.street}<br />{site.address.city}, {site.address.country}</li>
               <li><a href={`mailto:${site.email}`} className="transition-colors hover:text-white">{site.email}</a></li>
               <li><a href={site.phoneHref} className="transition-colors hover:text-white">{site.phone}</a></li>
+              <li>
+                <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 py-3 transition-colors hover:text-white sm:py-0">
+                  <WhatsAppIcon className="size-4 text-[#25D366]" />
+                  WhatsApp
+                </a>
+              </li>
               <li>{site.hours}</li>
               <li className="text-zinc-500">{site.hoursNote}</li>
             </ul>

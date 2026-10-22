@@ -4,9 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { nav } from "@/lib/site";
 import NavPill from "./nav-pill";
-import WhatsAppChip from "./whatsapp-chip";
+import MobileMenu from "./mobile-menu";
 
 /**
  * Interior navigation — visually identical to the homepage hero nav:
@@ -17,7 +16,6 @@ import WhatsAppChip from "./whatsapp-chip";
 export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
   void theme; // kept for backwards-compatible call sites
   const pathname = usePathname();
-  const [mobileOpen, setMobileOpen] = useState(false);
   const [overLight, setOverLight] = useState(false);
 
   const rootRef = useRef<HTMLDivElement>(null);
@@ -48,11 +46,6 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
     };
   }, [pathname]);
 
-  useEffect(() => setMobileOpen(false), [pathname]);
-
-  const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/");
-
   return (
     <div ref={rootRef} className="pointer-events-none fixed inset-x-0 top-0 z-50">
       {/* Fixed page frame: the white top edge and the hero's rounded top
@@ -63,8 +56,8 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
 
       {/* Centered white logo tab (identical to homepage) */}
       <div className="pointer-events-auto absolute top-2 left-1/2 z-20 -translate-x-1/2">
-        <Link href="/" aria-label="Mcars — home" className="relative block rounded-b-[1.25rem] bg-white px-4 pt-1 pb-1.5 sm:rounded-b-[1.5rem] sm:px-8 sm:pt-1 sm:pb-2.5">
-          <Image src="/logo.png" alt="Mcars" width={447} height={447} priority className="h-11 w-auto sm:h-16 sm:scale-125" />
+        <Link href="/" aria-label="Mcars — home" className="relative block rounded-b-[1.5rem] bg-white px-6 pt-0.5 pb-2 sm:px-8 sm:pt-1 sm:pb-2.5">
+          <Image src="/logo.png" alt="Mcars" width={447} height={447} priority className="h-16 w-auto sm:scale-125" />
           <span aria-hidden className="absolute top-0 -left-5 size-5 bg-[radial-gradient(circle_at_0%_100%,transparent_19px,white_20px)]" />
           <span aria-hidden className="absolute top-0 -right-5 size-5 bg-[radial-gradient(circle_at_100%_100%,transparent_19px,white_20px)]" />
         </Link>
@@ -74,7 +67,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
         {/* Left: dark pill nav (with Diensten/Routes/Ontdek dropdowns) */}
         <div className="pointer-events-auto">
           <NavPill />
-          <WhatsAppChip className="lg:hidden" />
+          <MobileMenu />
         </div>
 
         {/* Right: Tracking + Offerte */}
@@ -93,49 +86,14 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           </Link>
           <Link
             href="/offerte"
-            className="flex h-10 items-center gap-2 rounded-2xl bg-zinc-950 px-3.5 text-xs font-medium text-white transition-colors hover:bg-zinc-800 sm:h-auto sm:py-2 sm:pr-2 sm:pl-5 sm:text-sm"
+            className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
           >
             Offerte
-            <span className="hidden sm:contents">
-              <ArrowChip />
-            </span>
+            <ArrowChip />
           </Link>
-          <button
-            type="button"
-            onClick={() => setMobileOpen((v) => !v)}
-            aria-label="Menu"
-            aria-expanded={mobileOpen}
-            className="flex size-10 items-center justify-center rounded-2xl bg-zinc-900/85 text-white backdrop-blur-xl transition-colors hover:bg-zinc-800 lg:hidden"
-          >
-            <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-              {mobileOpen ? <path d="M6 6l12 12M6 18L18 6" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
-            </svg>
-          </button>
         </div>
       </div>
 
-      {/* Mobile drawer */}
-      {mobileOpen && (
-        <div className="pointer-events-auto relative mx-4 mt-2 overflow-hidden rounded-2xl bg-zinc-900/95 p-2 backdrop-blur-xl lg:hidden">
-          <nav className="flex flex-col">
-            {nav.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className={`rounded-xl px-4 py-3 text-sm transition-colors ${
-                  isActive(link.href) ? "bg-white font-medium text-zinc-900" : "text-white/85 hover:bg-white/10"
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
-          <Link href="/offerte" className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-medium text-zinc-900">
-            Offerte
-            <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-          </Link>
-        </div>
-      )}
     </div>
   );
 }
