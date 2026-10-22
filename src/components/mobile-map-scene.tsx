@@ -144,15 +144,17 @@ export default function MobileMapScene() {
       );
 
       // 2) Pinned for 1.5 screen-heights: copy out, map in, corridors, markers, tagline.
+      // The stage stays pinned 100% longer than the animation: during that last
+      // stretch the next section slides up over the map (services-philosophy
+      // pulls it up by the same amount).
+      ScrollTrigger.create({ trigger: stage, start: "top top", end: "+=250%", pin: true, anticipatePin: 1, invalidateOnRefresh: true });
       const tl = gsap.timeline({
         defaults: { ease: "none" },
         scrollTrigger: {
           trigger: stage,
           start: "top top",
           end: "+=150%",
-          pin: true,
           scrub: true,
-          anticipatePin: 1,
           invalidateOnRefresh: true,
         },
       });
@@ -250,15 +252,6 @@ export default function MobileMapScene() {
           <p className="mt-3 text-[0.95rem] leading-relaxed text-zinc-400">
             Vaste corridors vanuit onze thuisbasis in België, elke week opnieuw gereden.
           </p>
-          <Link
-            href="/offerte"
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-white py-2.5 pr-3 pl-5 text-sm font-medium text-zinc-950"
-          >
-            Offerte
-            <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <path d="M7 17L17 7M9 7h8v8" />
-            </svg>
-          </Link>
         </div>
       </div>
     </div>

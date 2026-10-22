@@ -38,9 +38,9 @@ function Check() {
 
 export default function WhyChooseUs() {
   return (
-    <section id="waarom" className="relative -mx-2">
-      {/* Full-bleed: breaks out of the page's 8px frame, edge to edge like
-          the full-screen map above it. */}
+    <section id="waarom" className="relative z-20 -mx-2">
+      {/* Full-bleed: breaks out of the page's 8px frame and, above the map
+          (z-20), slides over the pinned map until it covers it. */}
       <div className="relative overflow-hidden bg-zinc-950">
         {/* Aerial shot of the Mcars transporter, zoomed on the truck */}
         <video

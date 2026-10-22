@@ -17,6 +17,23 @@ const REGIONS = [
 
 
 
+// Named left and right of the desktop film map, one by one as the map plays
+// (alternating sides, in this order).
+const SIDE_COUNTRIES = [
+  { flag: "🇧🇪", name: "België", side: "left" },
+  { flag: "🇪🇸", name: "Spanje", side: "right" },
+  { flag: "🇳🇱", name: "Nederland", side: "left" },
+  { flag: "🇮🇹", name: "Italië", side: "right" },
+  { flag: "🇩🇪", name: "Duitsland", side: "left" },
+  { flag: "🇫🇷", name: "Frankrijk", side: "right" },
+  { flag: "🇱🇺", name: "Luxemburg", side: "left" },
+  { flag: "🇦🇹", name: "Oostenrijk", side: "right" },
+] as const;
+
+// Height (in vh) of the final pinned stretch during which the next section
+// slides up over the map — the map stays put underneath it.
+const OVERLAP_VH = 100;
+
 // Word-wave title over the expanded map, in the problems-section style.
 const MAP_TITLE_WORDS = [
   { word: "Mcars", dark: true },
@@ -193,16 +210,10 @@ export default function ServicesPhilosophy() {
       const pinTop = Math.max(0, (vh - h0) / 2);
       sticky.style.top = `${pinTop}px`;
 
-      // The full-screen card is centred on the sticky box, so once the pin
-      // releases it reaches (vh - h0) / 2 below the track. Reserve exactly that
-      // room (minus the section's own bottom padding) so the next section
-      // starts where the black screen ends instead of sliding over the map.
-      const section = sectionRef.current;
-      const padBottom = section ? parseFloat(getComputedStyle(section).paddingBottom) || 0 : 0;
-      track.style.marginBottom = `${Math.max(0, (vh - h0) / 2 - padBottom)}px`;
-
+      // The last OVERLAP_VH of the track is the stretch where the next section
+      // slides over the still-pinned map; the grow/film timing ignores it.
       const scrolled = pinTop - rect.top;
-      const total = rect.height - h0;
+      const total = rect.height - h0 - (OVERLAP_VH / 100) * vh;
       // Finish growing at ~66% of the pinned distance (same growth speed as
       // before); the remaining third is the beat where the full map holds
       // before the next section slides over it.
@@ -256,6 +267,14 @@ export default function ServicesPhilosophy() {
         setMapShown(g > 0.05);
         // The film (0:15–0:20 of the homepage film: truck front → Europe map)
         // scrubs along with the reveal and rests on the finished map.
+        // Country names left/right of the map, one by one while the film plays.
+        overlay.querySelectorAll<HTMLElement>("[data-side-country]").forEach((el) => {
+          const i = Number(el.dataset.sideCountry);
+          const start = 0.12 + i * 0.09;
+          const o = Math.min(1, Math.max(0, (g - start) / 0.08));
+          el.style.opacity = `${o}`;
+          el.style.transform = `translateY(${(1 - o) * 18}px)`;
+        });
         const film = filmRef.current;
         if (film && film.readyState >= 1) {
           const t = Math.min(film.duration || 5, 5) * g;
@@ -300,7 +319,13 @@ export default function ServicesPhilosophy() {
   });
 
   return (
-    <section ref={sectionRef} className="px-5 py-16 sm:px-8 sm:py-24">
+    <section
+      ref={sectionRef}
+      className={`px-5 pt-16 sm:px-8 sm:pt-24 ${pinned || showMobileScene ? "" : "pb-16 sm:pb-24"}`}
+      // With a scene running, the next section starts OVERLAP_VH early so it
+      // slides up over the pinned map until it covers it completely.
+      style={pinned || showMobileScene ? { marginBottom: `-${OVERLAP_VH}svh` } : undefined}
+    >
       <div className="w-full">
         {/* Header row */}
         <div
@@ -508,11 +533,33 @@ export default function ServicesPhilosophy() {
                     className="absolute inset-0 -z-10 size-full object-cover"
                   />
                   <div aria-hidden className="absolute inset-x-0 top-0 -z-10 h-56 bg-gradient-to-b from-zinc-950 to-transparent" />
+                  {/* Countries left and right of the map, revealed one by one */}
+                  {(["left", "right"] as const).map((side) => (
+                    <div
+                      key={side}
+                      className={`absolute top-1/2 hidden -translate-y-1/2 flex-col gap-14 lg:flex ${
+                        side === "left" ? "left-10 items-start 2xl:left-14" : "right-10 items-end 2xl:right-14"
+                      }`}
+                    >
+                      {SIDE_COUNTRIES.map((c, i) =>
+                        c.side === side ? (
+                          <div key={c.name} data-side-country={i} className="flex items-center gap-4 opacity-0">
+                            <span className="text-4xl leading-none xl:text-5xl">{c.flag}</span>
+                            <span className="font-[family-name:var(--font-display)] text-5xl leading-none tracking-wide text-white xl:text-[3.3rem]">
+                              {c.name}
+                            </span>
+                          </div>
+                        ) : null,
+                      )}
+                    </div>
+                  ))}
                 </div>
               )}
             </div>
           </div>
           {pinned && <div aria-hidden className="h-[150vh]" />}
+          {/* Final pinned stretch: the next section slides over the map here */}
+          {pinned && <div aria-hidden style={{ height: `${OVERLAP_VH}vh` }} />}
         </div>
         )}
       </div>
