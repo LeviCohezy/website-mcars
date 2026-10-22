@@ -15,28 +15,30 @@ import { asset } from "@/lib/asset";
  *             full-bleed black screen (clip-path, scrubbed, not pinned)
  *   pinned    1.5 screen-heights of scroll (GSAP ScrollTrigger, scrubbed):
  *               heading, line and "Offerte" stay visible throughout
- *               0.10–0.85  film scrubs 0:15.5 → 0:20 of the homepage film
+ *               0.00–0.85  film scrubs 0:15.5 → 0:20 of the homepage film
  *                          (only the Europe map: flags light up, routes draw).
  *                          It moves only while you scroll — stop and it stops.
  *               0.75–0.90  tagline, then a short hold
  *   after     page scrolls on into the next section
  *
- * The clip (public/map-mobile.mp4) is that 5 s segment re-encoded with a
- * keyframe on every frame so scrubbing is smooth in both directions. It is
- * only mounted when the section approaches. The 16:9 film is shown wider
+ * Rendered as an image sequence on a canvas (public/map-frames/001–068.jpg,
+ * 15 fps), not a <video>: mobile Safari won't paint frames for a scrubbed
+ * video that hasn't been "played", so a video stayed frozen on real phones.
+ * Frames load when the section approaches. The 16:9 film is shown wider
  * than the screen and centred, so the map fills a portrait phone.
  */
 
-// Length of the clip in seconds: 0:15.5–0:20 of the homepage film — only the
-// Europe map with its flags and routes, not the truck shots before it.
-const CLIP_SECONDS = 4.5;
+// 0:15.5–0:20 of the homepage film — only the Europe map with its flags and
+// routes, not the truck shots before it — as 68 JPG frames (15 fps).
+const FRAME_COUNT = 68;
+const frameSrc = (i: number) => asset(`/map-frames/${String(i + 1).padStart(3, "0")}.jpg`);
 
 export default function MobileMapScene() {
   const stageRef = useRef<HTMLDivElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
   const introRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
   const taglineRef = useRef<HTMLParagraphElement>(null);
   // The SVG map is only mounted once the section is about a screen away.
   const [mapReady, setMapReady] = useState(false);
@@ -64,17 +66,37 @@ export default function MobileMapScene() {
     const intro = introRef.current;
     const map = mapRef.current;
     const tagline = taglineRef.current;
-    const video = videoRef.current;
-    if (!stage || !card || !intro || !map || !tagline || !video) return;
+    const canvas = canvasRef.current;
+    if (!stage || !card || !intro || !map || !tagline || !canvas) return;
 
-    // iOS only paints scrubbed frames after the video has played once.
-    const unlock = () => {
-      video.play().then(() => video.pause()).catch(() => {});
-      window.removeEventListener("touchstart", unlock);
+    // Preload the frame sequence; draw a frame as soon as it is available.
+    const ctx2d = canvas.getContext("2d");
+    const frames: HTMLImageElement[] = [];
+    let current = -1;
+    const draw = (i: number) => {
+      const img = frames[i];
+      if (!ctx2d || !img || !img.complete || !img.naturalWidth) return false;
+      if (canvas.width !== img.naturalWidth) {
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
+      }
+      ctx2d.drawImage(img, 0, 0);
+      current = i;
+      return true;
     };
-    window.addEventListener("touchstart", unlock, { passive: true });
-    // Scrub target for the timeline; written to currentTime on update.
-    const film = { t: 0 };
+    for (let i = 0; i < FRAME_COUNT; i++) {
+      const img = new Image();
+      img.decoding = "async";
+      img.src = frameSrc(i);
+      // First frame, or the frame the scroll is waiting on, paints when it lands.
+      img.onload = () => {
+        if (i === 0 && current < 0) draw(0);
+        if (i === film.want) draw(i);
+      };
+      frames.push(img);
+    }
+    // Scrub target for the timeline (0 → 1), mapped to a frame index.
+    const film = { p: 0, want: 0 };
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -122,17 +144,19 @@ export default function MobileMapScene() {
         },
       });
 
-      tl.to(map, { opacity: 1, duration: 0.12 }, 0.08)
+      tl.to(map, { opacity: 1, duration: 0.04 }, 0)
         .to(
           film,
           {
-            t: CLIP_SECONDS - 0.05,
-            duration: 0.75,
+            p: 1,
+            duration: 0.85,
             onUpdate: () => {
-              if (video.readyState >= 1 && Math.abs(video.currentTime - film.t) > 0.01) video.currentTime = film.t;
+              const i = Math.round(film.p * (FRAME_COUNT - 1));
+              film.want = i;
+              if (i !== current) draw(i);
             },
           },
-          0.1,
+          0,
         )
         .to(tagline, { opacity: 1, y: 0, duration: 0.15 }, 0.75)
         .to({}, { duration: 0.1 }); // short hold before the pin releases
@@ -145,7 +169,6 @@ export default function MobileMapScene() {
     return () => {
       clearTimeout(t);
       window.removeEventListener("load", refresh);
-      window.removeEventListener("touchstart", unlock);
       ctx.revert();
     };
   }, [mapReady]);
@@ -158,20 +181,17 @@ export default function MobileMapScene() {
     <div className="-mx-7 mt-4 sm:-mx-10">
     <div ref={stageRef} className="relative h-[100svh] w-full overflow-hidden">
       <div ref={cardRef} className="absolute inset-0 bg-zinc-950 [clip-path:inset(0_28px_65%_28px_round_12px)] sm:[clip-path:inset(0_40px_65%_40px_round_12px)]">
-        {/* Film layer: 0:15.5–0:20 of the homepage film (map only), scrubbed by the scroll.
+        {/* Film layer: 0:15.5–0:20 of the homepage film (map only) as a frame sequence, scrubbed by the scroll.
             Rendered wider than the screen (16:9 on portrait) and centred so the
             map reads large; the edges fade into the black card. */}
         <div ref={mapRef} className="absolute inset-0 flex items-center justify-center overflow-hidden opacity-0">
           {mapReady && (
-            <video
-              ref={videoRef}
-              src={asset("/map-mobile.mp4")}
-              poster={asset("/map-mobile-poster.jpg")}
-              muted
-              playsInline
-              preload="auto"
+            <canvas
+              ref={canvasRef}
+              width={960}
+              height={540}
               aria-hidden
-              className="aspect-video w-[170vw] max-w-none flex-none object-cover [mask-image:linear-gradient(to_bottom,transparent,black_22%,black_78%,transparent),linear-gradient(to_right,transparent,black_18%,black_82%,transparent)] [mask-composite:intersect] [-webkit-mask-composite:source-in] sm:w-[130vw]"
+              className="aspect-video w-[170vw] max-w-none flex-none [mask-image:linear-gradient(to_bottom,transparent,black_22%,black_78%,transparent),linear-gradient(to_right,transparent,black_18%,black_82%,transparent)] [mask-composite:intersect] [-webkit-mask-composite:source-in] sm:w-[130vw]"
             />
           )}
         </div>
