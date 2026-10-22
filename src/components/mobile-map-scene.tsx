@@ -31,6 +31,18 @@ import { asset } from "@/lib/asset";
 // 0:15.5–0:20 of the homepage film — only the Europe map with its flags and
 // routes, not the truck shots before it — as 68 JPG frames (15 fps).
 const FRAME_COUNT = 68;
+// Named one by one under the map while scrolling, then "Bekijk onze routes".
+const COUNTRIES = [
+  { flag: "🇧🇪", name: "België" },
+  { flag: "🇪🇸", name: "Spanje" },
+  { flag: "🇳🇱", name: "Nederland" },
+  { flag: "🇮🇹", name: "Italië" },
+  { flag: "🇩🇪", name: "Duitsland" },
+  { flag: "🇫🇷", name: "Frankrijk" },
+  { flag: "🇱🇺", name: "Luxemburg" },
+  { flag: "🇦🇹", name: "Oostenrijk" },
+];
+
 const frameSrc = (i: number) => asset(`/map-frames/${String(i + 1).padStart(3, "0")}.jpg`);
 
 export default function MobileMapScene() {
@@ -39,7 +51,7 @@ export default function MobileMapScene() {
   const introRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const taglineRef = useRef<HTMLParagraphElement>(null);
+  const taglineRef = useRef<HTMLDivElement>(null);
   // The SVG map is only mounted once the section is about a screen away.
   const [mapReady, setMapReady] = useState(false);
 
@@ -116,6 +128,7 @@ export default function MobileMapScene() {
       gsap.set(card, { clipPath: restClip() });
       gsap.set(map, { opacity: 0 });
       gsap.set(tagline, { opacity: 0, y: 16 });
+      gsap.set(".mms-country", { opacity: 0 });
 
       // 1) Approach (not pinned): the compact card opens as it scrolls in, so
       //    it is a full-bleed black screen exactly when it reaches the top —
@@ -158,8 +171,18 @@ export default function MobileMapScene() {
           },
           0,
         )
-        .to(tagline, { opacity: 1, y: 0, duration: 0.15 }, 0.75)
-        .to({}, { duration: 0.1 }); // short hold before the pin releases
+      // Countries under the map, one at a time while the film plays…
+      const names = gsap.utils.toArray<HTMLElement>(".mms-country", stage);
+      const slot = 0.78 / names.length;
+      names.forEach((el, i) => {
+        const at = 0.04 + i * slot;
+        tl.fromTo(el, { opacity: 0, yPercent: 40 }, { opacity: 1, yPercent: 0, duration: slot * 0.35 }, at);
+        if (i < names.length - 1) tl.to(el, { opacity: 0, yPercent: -40, duration: slot * 0.35 }, at + slot * 0.65);
+      });
+      // …and, as the last beat, the routes button.
+      tl.to(names[names.length - 1], { opacity: 0, yPercent: -40, duration: 0.05 }, 0.84)
+        .fromTo(tagline, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.06 }, 0.86)
+        .to({}, { duration: 0.12 }); // short hold before the pin releases
     }, stage);
 
     // Layout above may still settle (fonts/images): re-measure once loaded.
@@ -196,18 +219,35 @@ export default function MobileMapScene() {
           )}
         </div>
 
-        {/* Tagline over the finished map */}
-        <p
-          ref={taglineRef}
-          className="absolute inset-x-6 bottom-[10svh] text-center text-2xl font-light tracking-tight text-white opacity-0"
-        >
-          25+ landen <span className="text-white/40">·</span> elke week onderweg
-        </p>
+        {/* Under the map: the countries, big and one at a time, then the routes button */}
+        <div className="absolute inset-x-0 bottom-[9svh] flex h-20 items-center justify-center">
+          {COUNTRIES.map((c) => (
+            <p key={c.name} className="mms-country absolute flex items-center gap-4 opacity-0">
+              <span className="text-4xl leading-none">{c.flag}</span>
+              <span className="font-display text-6xl leading-none tracking-wide text-white">{c.name}</span>
+            </p>
+          ))}
+          <div ref={taglineRef} className="absolute opacity-0">
+            <Link
+              href="/routes"
+              className="inline-flex items-center gap-2 rounded-full bg-white py-3 pr-3 pl-6 text-sm font-medium text-zinc-950"
+            >
+              Bekijk onze routes
+              <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <path d="M7 17L17 7M9 7h8v8" />
+              </svg>
+            </Link>
+          </div>
+        </div>
 
         {/* Resting card content (centred; its height defines the compact card) */}
-        <div ref={introRef} className="absolute inset-x-7 top-0 p-6 sm:inset-x-10 sm:p-8">
-          <h3 className="text-2xl font-medium tracking-tight text-white">De regio&apos;s waar we rijden</h3>
-          <p className="mt-3 text-sm leading-relaxed text-zinc-400">
+        <div ref={introRef} className="absolute inset-x-7 top-0 py-6 pr-3 pl-6 sm:inset-x-10 sm:p-8">
+          {/* Two-tone like the desktop map title ("Mcars transporteert auto's in heel Europa.") */}
+          <h3 className="text-[1.7rem] leading-[1.15] font-medium tracking-tight">
+            <span className="text-white">De regio&apos;s </span>
+            <span className="text-zinc-500">waar we rijden.</span>
+          </h3>
+          <p className="mt-3 text-[0.95rem] leading-relaxed text-zinc-400">
             Vaste corridors vanuit onze thuisbasis in België, elke week opnieuw gereden.
           </p>
           <Link
