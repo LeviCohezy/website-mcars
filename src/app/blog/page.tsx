@@ -36,7 +36,7 @@ export default function BlogPage() {
         crumbs={[{ label: "Blog" }]}
         image="/fleet/barcelona-palms.jpg"
         badges={[{ label: "Om de twee weken nieuw" }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       {/* Latest */}

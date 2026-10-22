@@ -64,7 +64,7 @@ export default function OverOnsPage() {
         crumbs={[{ label: "Over ons" }]}
         image="/fleet/valley-sunset.jpg"
         badges={[{ label: "Familiebedrijf" }, { label: "Roeselare, België" }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       {/* Story */}

@@ -155,7 +155,7 @@ export default function FaqPage() {
         crumbs={[{ label: "FAQ" }]}
         image="/fleet/countryside-highway.jpg"
         badges={[{ label: `${total} antwoorden` }, { label: `${groups.length} onderwerpen` }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       {/* Topic index */}

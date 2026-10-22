@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { nav } from "@/lib/site";
 import NavPill from "./nav-pill";
+import WhatsAppChip from "./whatsapp-chip";
 
 /**
  * Interior navigation — visually identical to the homepage hero nav:
@@ -62,8 +63,8 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
 
       {/* Centered white logo tab (identical to homepage) */}
       <div className="pointer-events-auto absolute top-2 left-1/2 z-20 -translate-x-1/2">
-        <Link href="/" aria-label="Mcars — home" className="relative block rounded-b-[1.5rem] bg-white px-6 pt-0.5 pb-2 sm:px-8 sm:pt-1 sm:pb-2.5">
-          <Image src="/logo.png" alt="Mcars" width={447} height={447} priority className="h-14 w-auto scale-125 sm:h-16" />
+        <Link href="/" aria-label="Mcars — home" className="relative block rounded-b-[1.25rem] bg-white px-4 pt-1 pb-1.5 sm:rounded-b-[1.5rem] sm:px-8 sm:pt-1 sm:pb-2.5">
+          <Image src="/logo.png" alt="Mcars" width={447} height={447} priority className="h-11 w-auto sm:h-16 sm:scale-125" />
           <span aria-hidden className="absolute top-0 -left-5 size-5 bg-[radial-gradient(circle_at_0%_100%,transparent_19px,white_20px)]" />
           <span aria-hidden className="absolute top-0 -right-5 size-5 bg-[radial-gradient(circle_at_100%_100%,transparent_19px,white_20px)]" />
         </Link>
@@ -73,6 +74,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
         {/* Left: dark pill nav (with Diensten/Routes/Ontdek dropdowns) */}
         <div className="pointer-events-auto">
           <NavPill />
+          <WhatsAppChip className="lg:hidden" />
         </div>
 
         {/* Right: Tracking + Offerte */}
@@ -91,10 +93,12 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           </Link>
           <Link
             href="/offerte"
-            className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
+            className="flex h-10 items-center gap-2 rounded-2xl bg-zinc-950 px-3.5 text-xs font-medium text-white transition-colors hover:bg-zinc-800 sm:h-auto sm:py-2 sm:pr-2 sm:pl-5 sm:text-sm"
           >
-            Offerte aanvragen
-            <ArrowChip />
+            Offerte
+            <span className="hidden sm:contents">
+              <ArrowChip />
+            </span>
           </Link>
           <button
             type="button"
@@ -127,7 +131,7 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
             ))}
           </nav>
           <Link href="/offerte" className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-medium text-zinc-900">
-            Offerte aanvragen
+            Offerte
             <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
           </Link>
         </div>

@@ -37,6 +37,16 @@ const rowServices = [
 ];
 
 const REDUCED_MOTION = "(prefers-reduced-motion: reduce)";
+// The pinned "card grows into the map" scene is desktop-only. On phones and
+// tablets its sticky box + 150vh spacer left a ~1.4k px blank void (the map
+// overlay never fits a portrait screen), so below lg the card simply stacks.
+const DESKTOP = "(min-width: 1024px)";
+const subscribeDesktop = (cb: () => void) => {
+  const mq = window.matchMedia(DESKTOP);
+  mq.addEventListener("change", cb);
+  return () => mq.removeEventListener("change", cb);
+};
+
 const subscribeReducedMotion = (cb: () => void) => {
   const mq = window.matchMedia(REDUCED_MOTION);
   mq.addEventListener("change", cb);
@@ -128,6 +138,12 @@ export default function ServicesPhilosophy() {
     () => window.matchMedia(REDUCED_MOTION).matches,
     () => false
   );
+  const isDesktop = useSyncExternalStore(
+    subscribeDesktop,
+    () => window.matchMedia(DESKTOP).matches,
+    () => false
+  );
+  const pinned = isDesktop && !reducedMotion;
 
   // Entrance fires once, when half the section is on screen (or, on small
   // viewports where 50% never fits, when it fills half the viewport).
@@ -153,8 +169,9 @@ export default function ServicesPhilosophy() {
   // from its natural size to a full-viewport black screen and its content
   // fades away. Styles are written imperatively to keep scrolling smooth.
   useEffect(() => {
-    if (reducedMotion) return;
+    if (!pinned) return;
     let raf = 0;
+    const pinEls = { track: trackRef.current, sticky: stickyRef.current, card: cardRef.current, content: cardContentRef.current };
 
     const apply = () => {
       const track = trackRef.current;
@@ -256,8 +273,16 @@ export default function ServicesPhilosophy() {
       cancelAnimationFrame(raf);
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onResize);
+      // Leaving desktop (resize/rotate): drop every imperative pin style so the
+      // card falls back into normal flow without leftover spacing.
+      const { track, sticky, card, content } = pinEls;
+      if (track) track.style.marginBottom = "";
+      if (sticky) { sticky.style.top = ""; sticky.style.height = ""; }
+      if (card) { card.style.position = ""; card.style.top = ""; card.style.left = ""; card.style.width = ""; card.style.height = ""; card.style.borderRadius = ""; }
+      if (content) { content.style.opacity = ""; content.style.pointerEvents = ""; }
+      naturalHeight.current = 0;
     };
-  }, [reducedMotion]);
+  }, [pinned]);
 
   const visible = inView || reducedMotion;
   const enter = (order: number) => ({
@@ -355,7 +380,7 @@ export default function ServicesPhilosophy() {
           }`}
           style={{ transitionDelay: visible ? "480ms" : "0ms" }}
         >
-          <div ref={stickyRef} className={reducedMotion ? "" : "sticky z-10"}>
+          <div ref={stickyRef} className={pinned ? "sticky z-10" : ""}>
             <div
               ref={cardRef}
               className="relative w-full overflow-hidden rounded-xl bg-zinc-950 p-6 sm:p-8"
@@ -430,7 +455,7 @@ export default function ServicesPhilosophy() {
 
               {/* Region map — hidden in the resting card, revealed by the
                   scroll expansion once the black screen is complete. */}
-              {!reducedMotion && (
+              {pinned && (
                 <div
                   ref={mapOverlayRef}
                   className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center gap-8 px-6 pt-36 pb-8 opacity-0 sm:pt-40 xl:justify-between xl:px-10 2xl:px-14"
@@ -464,7 +489,7 @@ export default function ServicesPhilosophy() {
               )}
             </div>
           </div>
-          {!reducedMotion && <div aria-hidden className="h-[150vh]" />}
+          {pinned && <div aria-hidden className="h-[150vh]" />}
         </div>
       </div>
     </section>

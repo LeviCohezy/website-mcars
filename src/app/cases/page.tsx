@@ -26,7 +26,7 @@ export default function CasesPage() {
         crumbs={[{ label: "Cases" }]}
         image="/fleet/city-loaded.jpg"
         badges={[{ label: `${cases.length} cases` }, { label: "Particulier & zakelijk" }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       <Section space="loose">

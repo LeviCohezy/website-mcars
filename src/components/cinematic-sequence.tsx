@@ -27,6 +27,7 @@ import { useEffect, useRef, useSyncExternalStore } from "react";
 import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";
 import NavPill from "./nav-pill";
+import WhatsAppChip from "./whatsapp-chip";
 
 export type ServiceCard = { title: string; body: string; image: string; href?: string };
 
@@ -401,13 +402,14 @@ export default function CinematicSequence({
           <header className="absolute inset-x-0 top-0 z-30">
             <div className="flex w-full items-center justify-between gap-4 px-4 pt-4 sm:px-6 sm:pt-5">
               <NavPill />
+              <WhatsAppChip className="lg:hidden" />
               <div className="ml-auto flex items-center gap-2">
                 <a href="#" className="hidden items-center gap-2 rounded-2xl border border-white/20 bg-white/10 py-2 pr-2 pl-5 text-sm font-medium text-white backdrop-blur-xl transition-colors hover:bg-white/20 sm:flex">
                   Tracking
                   <ArrowChip />
                 </a>
                 <a href="/offerte" className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
-                  Offerte aanvragen
+                  Offerte
                   <ArrowChip />
                 </a>
               </div>
@@ -420,14 +422,14 @@ export default function CinematicSequence({
               <span className="mb-5 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white/90 backdrop-blur-xl">
                 {cfg.heroBadge}
               </span>
-              <h1 className="text-4xl font-light leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">
+              <h1 className="text-[1.875rem] font-light leading-[1.15] tracking-tight text-white sm:text-5xl sm:leading-[1.1] lg:text-6xl">
                 {cfg.heroHeadline.map((line, i) => (
-                  <span key={i} className="block">
-                    {line}
+                  <span key={i} className="sm:block">
+                    {line}{" "}
                   </span>
                 ))}
               </h1>
-              <div aria-hidden className="h-[4.5rem]" />
+              <div aria-hidden className="hidden h-[4.5rem] sm:block" />
             </div>
             <div className="lg:pr-80">
               <HeroSearchWidget />

@@ -94,7 +94,7 @@ export default function ReviewsPage() {
         crumbs={[{ label: "Reviews" }]}
         image="/fleet/spain-palms.jpg"
         badges={[{ label: `${site.reviews.score} / 5 op Google` }, { label: `${site.reviews.clients} klanten` }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       {/* Rating */}

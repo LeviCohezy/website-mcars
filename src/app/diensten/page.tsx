@@ -28,7 +28,7 @@ export default function DienstenOverview() {
         crumbs={[{ label: "Diensten" }]}
         image="/fleet/sunset-parking.jpg"
         badges={[{ label: `${services.length} diensten` }, { label: "Eén aanspreekpunt" }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       <Section space="loose">

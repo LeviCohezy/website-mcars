@@ -32,7 +32,7 @@ export default function RoutesOverview() {
         crumbs={[{ label: "Routes" }]}
         video="/hero.mp4"
         badges={[{ label: `${countryRoutes.length} bestemmingen` }, { label: `${corridorRoutes.length} vaste corridors` }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       {/* Countries — ruled index */}

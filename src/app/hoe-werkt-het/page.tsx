@@ -83,7 +83,7 @@ export default function HoeWerktHetPage() {
         crumbs={[{ label: "Hoe werkt het" }]}
         image="/fleet/countryside.jpg"
         badges={[{ label: "Antwoord binnen 24 uur" }, { label: "CMR bij elke ophaling" }]}
-        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        primaryCta={{ label: "Offerte", href: "/offerte" }}
       />
 
       {/* Six steps — large ruled rows */}

@@ -203,7 +203,7 @@ export function QuoteCta({
                 href="/offerte"
                 className="group inline-flex items-center gap-3 rounded-full bg-white py-2 pr-2 pl-6 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
               >
-                Offerte aanvragen
+                Offerte
                 <ArrowChip tone="dark" />
               </Link>
               <Link

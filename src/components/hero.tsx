@@ -6,6 +6,7 @@ import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";
 import { INTRO_EVENT } from "./intro-loader";
 import NavPill from "./nav-pill";
+import WhatsAppChip from "./whatsapp-chip";
 
 export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } = {}) {
   const [revealed, setRevealed] = useState(false);
@@ -84,6 +85,7 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
           }`}
         >
           <NavPill />
+          <WhatsAppChip className="lg:hidden" />
 
           <div className="ml-auto flex items-center gap-2">
             <a
@@ -97,7 +99,7 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
               href="/offerte"
               className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
             >
-              Offerte aanvragen
+              Offerte
               <ArrowChip />
             </a>
           </div>
@@ -105,22 +107,22 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
       </header>
 
       {/* Content */}
-      <div className="relative z-10 flex w-full flex-1 flex-col justify-end gap-10 px-5 pt-36 pb-10 sm:px-8">
+      <div className="relative z-10 flex w-full flex-1 flex-col justify-end gap-6 px-5 pt-28 pb-8 sm:gap-10 sm:px-8 sm:pt-36 sm:pb-10">
         <div className="max-w-3xl">
           <span
-            className={`mb-5 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white/90 backdrop-blur-xl ${rise("delay-[950ms]")}`}
+            className={`mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs text-white/90 backdrop-blur-xl sm:mb-5 sm:px-4 sm:py-1.5 sm:text-sm ${rise("delay-[950ms]")}`}
           >
             Trusted by 3000+ clients
           </span>
           <h1
-            className={`text-4xl font-light leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl ${rise("delay-[1050ms]")}`}
+            className={`text-[1.875rem] font-light leading-[1.15] tracking-tight text-white sm:text-5xl sm:leading-[1.1] lg:text-6xl ${rise("delay-[1050ms]")}`}
           >
-            Autotransport dat verder
-            <br />
+            Autotransport dat verder{" "}
+            <br className="hidden sm:block" />
             gaat dan van A naar B.
           </h1>
           {/* Spacer keeps the title where the CTA row used to sit */}
-          <div aria-hidden className="h-[4.5rem]" />
+          <div aria-hidden className="hidden h-[4.5rem] sm:block" />
         </div>
 
         {/* Form bar along the hero bottom; clears the review notch on the right */}
