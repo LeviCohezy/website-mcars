@@ -4,8 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { countries } from "@/data/europe-map";
-import { ANCHORS, DUTCH_NAMES, ROUTE_ISOS, SHOWN, curveBetween } from "./region-map-dark";
+import { asset } from "@/lib/asset";
 
 /*
  * Phone / small-tablet version of the homepage "Europe map" card (< lg).
@@ -16,39 +15,26 @@ import { ANCHORS, DUTCH_NAMES, ROUTE_ISOS, SHOWN, curveBetween } from "./region-
  *             full-bleed black screen (clip-path, scrubbed, not pinned)
  *   pinned    1.5 screen-heights of scroll (GSAP ScrollTrigger, scrubbed):
  *               0.00–0.15  card copy fades out
- *               0.10–1.00  map fades in with a slow Ken Burns zoom
- *               0.25–0.65  corridors draw
- *               0.30–0.70  the 8 corridor countries light up one by one
+ *               0.10–0.85  film scrubs from 0:15 to 0:20 of the homepage
+ *                          film (truck front → Europe map with flags/routes)
  *               0.75–0.90  tagline, then a short hold
  *   after     page scrolls on into the next section
  *
- * Performance: no video — the map is a static SVG (same Natural Earth data
- * as desktop), mounted only when the section approaches. Every tweened
- * property is transform, opacity, clip-path or stroke-dashoffset, and the
- * timeline is scrubbed (no per-frame React state).
+ * The clip (public/map-mobile.mp4) is that 5 s segment re-encoded with a
+ * keyframe on every frame so scrubbing is smooth in both directions. It is
+ * only mounted when the section approaches. The 16:9 film is shown wider
+ * than the screen and centred, so the map fills a portrait phone.
  */
 
-// Corridors drawn in the scene (subset of the desktop playlist, Belgium-centred).
-const CORRIDORS: [string, string][] = [
-  ["BEL", "DEU"],
-  ["NLD", "BEL"],
-  ["BEL", "FRA"],
-  ["FRA", "ESP"],
-  ["DEU", "CHE"],
-  ["CHE", "ITA"],
-];
-
-// Portrait crop around the corridor countries (Spain → Germany/Italy).
-const BOX = { x: 70, y: 540, w: 520, h: 500 };
-
-// Marker order: from the home base outwards.
-const MARKERS = ["BEL", "NLD", "LUX", "DEU", "FRA", "CHE", "ITA", "ESP"].filter((iso) => ROUTE_ISOS.includes(iso));
+// Length of the clip in seconds (0:15–0:20 of cinematic-scrub.mp4).
+const CLIP_SECONDS = 5;
 
 export default function MobileMapScene() {
   const stageRef = useRef<HTMLDivElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
   const introRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const taglineRef = useRef<HTMLParagraphElement>(null);
   // The SVG map is only mounted once the section is about a screen away.
   const [mapReady, setMapReady] = useState(false);
@@ -76,7 +62,17 @@ export default function MobileMapScene() {
     const intro = introRef.current;
     const map = mapRef.current;
     const tagline = taglineRef.current;
-    if (!stage || !card || !intro || !map || !tagline) return;
+    const video = videoRef.current;
+    if (!stage || !card || !intro || !map || !tagline || !video) return;
+
+    // iOS only paints scrubbed frames after the video has played once.
+    const unlock = () => {
+      video.play().then(() => video.pause()).catch(() => {});
+      window.removeEventListener("touchstart", unlock);
+    };
+    window.addEventListener("touchstart", unlock, { passive: true });
+    // Scrub target for the timeline; written to currentTime on update.
+    const film = { t: 0 };
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -94,9 +90,7 @@ export default function MobileMapScene() {
 
     const ctx = gsap.context(() => {
       gsap.set(card, { clipPath: restClip() });
-      gsap.set(map, { opacity: 0, scale: 1.08, transformOrigin: "50% 45%" });
-      gsap.set(".mms-route", { strokeDashoffset: 1 });
-      gsap.set(".mms-marker", { opacity: 0, scale: 0.4, transformOrigin: "50% 50%", transformBox: "fill-box" });
+      gsap.set(map, { opacity: 0 });
       gsap.set(tagline, { opacity: 0, y: 16 });
 
       // 1) Approach (not pinned): the compact card opens as it scrolls in, so
@@ -127,10 +121,18 @@ export default function MobileMapScene() {
       });
 
       tl.to(intro, { opacity: 0, y: -24, duration: 0.15 }, 0)
-        .to(map, { opacity: 1, duration: 0.2 }, 0.1)
-        .to(map, { scale: 1.2, xPercent: -2, duration: 0.9 }, 0.1)
-        .to(".mms-route", { strokeDashoffset: 0, duration: 0.18, stagger: 0.04 }, 0.25)
-        .to(".mms-marker", { opacity: 1, scale: 1, duration: 0.08, stagger: 0.05, ease: "back.out(2)" }, 0.3)
+        .to(map, { opacity: 1, duration: 0.12 }, 0.08)
+        .to(
+          film,
+          {
+            t: CLIP_SECONDS - 0.05,
+            duration: 0.75,
+            onUpdate: () => {
+              if (video.readyState >= 1 && Math.abs(video.currentTime - film.t) > 0.01) video.currentTime = film.t;
+            },
+          },
+          0.1,
+        )
         .to(tagline, { opacity: 1, y: 0, duration: 0.15 }, 0.75)
         .to({}, { duration: 0.1 }); // short hold before the pin releases
     }, stage);
@@ -142,6 +144,7 @@ export default function MobileMapScene() {
     return () => {
       clearTimeout(t);
       window.removeEventListener("load", refresh);
+      window.removeEventListener("touchstart", unlock);
       ctx.revert();
     };
   }, [mapReady]);
@@ -154,53 +157,21 @@ export default function MobileMapScene() {
     <div className="-mx-7 mt-4 sm:-mx-10">
     <div ref={stageRef} className="relative h-[100svh] w-full overflow-hidden">
       <div ref={cardRef} className="absolute inset-0 bg-zinc-950 [clip-path:inset(0_28px_65%_28px_round_12px)] sm:[clip-path:inset(0_40px_65%_40px_round_12px)]">
-        {/* Map layer (fades in once the card has opened) */}
-        <div ref={mapRef} className="absolute inset-0 flex items-center justify-center opacity-0 will-change-transform">
+        {/* Film layer: 0:15–0:20 of the homepage film, scrubbed by the scroll.
+            Rendered wider than the screen (16:9 on portrait) and centred so the
+            map reads large; the edges fade into the black card. */}
+        <div ref={mapRef} className="absolute inset-0 flex items-center justify-center overflow-hidden opacity-0">
           {mapReady && (
-            <svg
-              viewBox={`${BOX.x} ${BOX.y} ${BOX.w} ${BOX.h}`}
-              className="h-auto w-full max-w-[34rem] [mask-image:radial-gradient(ellipse_72%_68%_at_50%_50%,black_58%,transparent_100%)]"
+            <video
+              ref={videoRef}
+              src={asset("/map-mobile.mp4")}
+              poster={asset("/map-mobile-poster.jpg")}
+              muted
+              playsInline
+              preload="auto"
               aria-hidden
-            >
-              {countries
-                .filter((c) => SHOWN.has(c.iso3))
-                .map((c) => (
-                  <path
-                    key={c.iso3}
-                    d={c.d}
-                    fill={ROUTE_ISOS.includes(c.iso3) ? "#27272a" : "#141417"}
-                    stroke="#3f3f46"
-                    strokeWidth={0.8}
-                    vectorEffect="non-scaling-stroke"
-                  />
-                ))}
-              {CORRIDORS.map(([a, b]) => (
-                <path
-                  key={`${a}-${b}`}
-                  className="mms-route"
-                  d={curveBetween(a, b)}
-                  fill="none"
-                  stroke="rgb(255 255 255 / 0.75)"
-                  strokeWidth={1.5}
-                  strokeLinecap="round"
-                  vectorEffect="non-scaling-stroke"
-                  pathLength={1}
-                  strokeDasharray="1"
-                />
-              ))}
-              {MARKERS.map((iso) => {
-                const [x, y] = ANCHORS[iso];
-                return (
-                  <g key={iso} className="mms-marker">
-                    <circle cx={x} cy={y} r={11} fill="rgb(255 255 255 / 0.14)" />
-                    <circle cx={x} cy={y} r={4.5} fill="#fff" />
-                    <text x={x + 10} y={y - 9} fill="rgb(255 255 255 / 0.85)" fontSize={15} fontFamily="inherit">
-                      {DUTCH_NAMES[iso]}
-                    </text>
-                  </g>
-                );
-              })}
-            </svg>
+              className="aspect-video w-[170vw] max-w-none flex-none object-cover [mask-image:linear-gradient(to_bottom,transparent,black_22%,black_78%,transparent),linear-gradient(to_right,transparent,black_18%,black_82%,transparent)] [mask-composite:intersect] [-webkit-mask-composite:source-in] sm:w-[130vw]"
+            />
           )}
         </div>
 
