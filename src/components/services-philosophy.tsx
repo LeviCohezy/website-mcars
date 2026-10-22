@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import RegionMapDark from "./region-map-dark";
 import { asset } from "@/lib/asset";
+import MobileMapScene from "./mobile-map-scene";
 
 const REGIONS = [
   { iso3: "BEL", flag: "🇧🇪", label: "België", tag: "thuisbasis" },
@@ -144,6 +145,7 @@ export default function ServicesPhilosophy() {
     () => false
   );
   const pinned = isDesktop && !reducedMotion;
+  const showMobileScene = !isDesktop && !reducedMotion;
 
   // Entrance fires once, when half the section is on screen (or, on small
   // viewports where 50% never fits, when it fills half the viewport).
@@ -373,6 +375,13 @@ export default function ServicesPhilosophy() {
             padding would give it no room to travel). The entrance here is
             opacity-only: a translate on this wrapper would create a containing
             block and also break the pinning. */}
+        {/* Phones / small tablets: their own short pinned scene (mobile-map-scene.tsx).
+            Desktop keeps the full-screen grow-into-the-map scene below. */}
+        {showMobileScene ? (
+          <div className={`transition-opacity duration-700 ease-out ${visible ? "opacity-100" : "opacity-0"}`}>
+            <MobileMapScene />
+          </div>
+        ) : (
         <div
           ref={trackRef}
           className={`relative mt-4 transition-opacity duration-700 ease-out ${
@@ -491,6 +500,7 @@ export default function ServicesPhilosophy() {
           </div>
           {pinned && <div aria-hidden className="h-[150vh]" />}
         </div>
+        )}
       </div>
     </section>
   );

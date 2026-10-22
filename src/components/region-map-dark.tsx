@@ -11,24 +11,25 @@ import { anchors, countries } from "@/data/europe-map";
 import { asset } from "@/lib/asset";
 
 // Luxembourg is not in the generated anchor set; same Mercator projection.
-const ANCHORS: Record<string, [number, number]> = {
+// (Map constants are shared with the phone scene in mobile-map-scene.tsx.)
+export const ANCHORS: Record<string, [number, number]> = {
   ...anchors,
   LUX: [354.4, 675.7],
 };
 
 // Same window as the light network map: Poland and everything south/west.
-const VIEW = { x: 19, y: 479, w: 834, h: 622 };
+export const VIEW = { x: 19, y: 479, w: 834, h: 622 };
 
-const SHOWN = new Set([
+export const SHOWN = new Set([
   "PRT", "ESP", "AND", "FRA", "BEL", "NLD", "LUX", "DEU", "POL", "CZE",
   "SVK", "AUT", "CHE", "ITA", "SVN", "HRV", "HUN", "BIH", "SRB", "MNE",
   "ALB", "MKD", "GRC", "BGR", "ROU",
 ]);
 
 // Countries that take part in the corridor routes (they have flag patterns).
-const ROUTE_ISOS = ["BEL", "NLD", "DEU", "LUX", "CHE", "ITA", "ESP", "FRA"];
+export const ROUTE_ISOS = ["BEL", "NLD", "DEU", "LUX", "CHE", "ITA", "ESP", "FRA"];
 
-const DUTCH_NAMES: Record<string, string> = {
+export const DUTCH_NAMES: Record<string, string> = {
   ALB: "Albanië", BIH: "Bosnië-Herzegovina", BGR: "Bulgarije",
   AUT: "Oostenrijk", CZE: "Tsjechië", FRA: "Frankrijk", DEU: "Duitsland",
   GRC: "Griekenland", HRV: "Kroatië", HUN: "Hongarije", ITA: "Italië",
@@ -53,7 +54,7 @@ const iso2Of = (iso3: string) =>
   countries.find((c) => c.iso3 === iso3)?.iso2 ?? "";
 
 // Curved corridor between two anchors.
-function curveBetween(from: string, to: string) {
+export function curveBetween(from: string, to: string) {
   const [x1, y1] = ANCHORS[from];
   const [x2, y2] = ANCHORS[to];
   const k = 0.18;
