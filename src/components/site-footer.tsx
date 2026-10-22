@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 
 const services = nav[0].children!.slice(0, 7);
 const routes = nav[1].children!.slice(0, 6);
@@ -14,7 +15,7 @@ export default function SiteFooter() {
         <div className="grid gap-12 px-8 py-14 sm:px-12 lg:grid-cols-[1.6fr_1fr_1fr_1fr_1.2fr] lg:gap-8 lg:px-16">
           {/* Brand */}
           <div>
-            <img src="/logo.png" alt="Mcars" className="h-12 w-auto invert mix-blend-screen" />
+            <img src={asset("/logo.png")} alt="Mcars" className="h-12 w-auto invert mix-blend-screen" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-zinc-400">
               Autotransport van A naar B, op uw wensen afgestemd. Betrouwbaar,
               transparant en persoonlijk — al sinds {site.founded}.

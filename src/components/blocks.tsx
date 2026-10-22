@@ -121,13 +121,13 @@ export function MaskedHeading({
   return (
     <div className={`relative ${className}`}>
       {video && (
-        <video className="pointer-events-none absolute inset-0 -z-10 size-full opacity-0" src={video} autoPlay muted loop playsInline />
+        <video className="pointer-events-none absolute inset-0 -z-10 size-full opacity-0" src={asset(video)} autoPlay muted loop playsInline />
       )}
       <span
         className="text-clip block font-[family-name:var(--font-display)] leading-[0.82] tracking-tight uppercase"
         style={{
           fontSize: "clamp(3rem, 15vw, 13rem)",
-          backgroundImage: video ? undefined : `url(${image})`,
+          backgroundImage: video || !image ? undefined : `url(${asset(image)})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { DayPicker } from "react-day-picker";
 import { nl } from "react-day-picker/locale";
 import "react-day-picker/style.css";
+import { asset } from "@/lib/asset";
 
 const inputClass =
   "w-full rounded-xl bg-white/5 px-4 py-3 text-sm text-white ring-1 ring-white/10 transition-colors placeholder:text-zinc-500 focus:ring-2 focus:ring-white/60 focus:outline-none";
@@ -417,7 +418,7 @@ export default function QuoteMultistep({ aside }: { aside?: React.ReactNode } = 
         {aside ?? (
           <div className="flex flex-col justify-center">
             <img
-              src="/fast-shipping.png"
+              src={asset("/fast-shipping.png")}
               alt="Mcars autotransporter geladen met wagens"
               className="w-full"
             />

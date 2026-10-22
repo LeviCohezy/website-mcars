@@ -1,3 +1,4 @@
+import { asset } from "@/lib/asset";
 const links = [
   { label: "Vaste prijs, geen verrassingen", href: "#offerte" },
   { label: "CMR & inspectie bij elke ophaling", href: "#werkwijze" },
@@ -19,7 +20,7 @@ function PhotoCard({
     <div
       className={`relative overflow-hidden rounded-2xl ${className}`}
       style={{
-        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.8), rgb(9 9 11 / 0.15) 50%, rgb(9 9 11 / 0.1)), url(/services/${img}.jpg), linear-gradient(160deg, #3f3f46, #18181b)`,
+        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.8), rgb(9 9 11 / 0.15) 50%, rgb(9 9 11 / 0.1)), url(${asset(`/services/${img}.jpg`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
         backgroundSize: "cover, cover, cover",
         backgroundPosition: "center, center, center",
       }}

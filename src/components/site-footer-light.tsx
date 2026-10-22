@@ -1,3 +1,4 @@
+import { asset } from "@/lib/asset";
 const quickLinks = [
   ["Home", "#"],
   ["Diensten", "#diensten"],
@@ -21,7 +22,7 @@ export default function SiteFooterLight() {
             top-white → bottom-dark so it dissolves into the zinc-950 base. */}
         <div className="flex items-end justify-center gap-[2vw] px-2 pt-16 sm:px-4 lg:pt-20">
           <img
-            src="/truck-no-trailer.png"
+            src={asset("/truck-no-trailer.png")}
             alt=""
             aria-hidden
             className="w-auto flex-none select-none object-contain"

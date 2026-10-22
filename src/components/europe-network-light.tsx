@@ -8,6 +8,7 @@ import {
   useSyncExternalStore,
 } from "react";
 import { MAP_W, MAP_H, anchors, countries } from "@/data/europe-map";
+import { asset } from "@/lib/asset";
 
 const HUB = "BEL";
 
@@ -369,7 +370,7 @@ export default function EuropeNetworkLight({
                         path={routes[activeIso]}
                       />
                       <image
-                        href="/truck-map.png"
+                        href={asset("/truck-map.png")}
                         x={-25}
                         y={-25}
                         width={50}
@@ -528,7 +529,7 @@ export default function EuropeNetworkLight({
                     {truck.name}
                   </span>
                   <img
-                    src={`/countryflags/${truck.file}.png`}
+                    src={asset(`/countryflags/${truck.file}.png`)}
                     alt=""
                     loading="lazy"
                     className="h-40 w-auto"

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import RegionMapDark from "./region-map-dark";
+import { asset } from "@/lib/asset";
 
 const REGIONS = [
   { iso3: "BEL", flag: "🇧🇪", label: "België", tag: "thuisbasis" },
@@ -89,7 +90,7 @@ function PhotoCard({
       href={href}
       className={`group relative block rounded-xl transition-[filter] duration-300 hover:brightness-110 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none ${className}`}
       style={{
-        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.65), rgb(9 9 11 / 0.1) 45%), url(/about/${img}.png), linear-gradient(160deg, #3f3f46, #18181b)`,
+        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.65), rgb(9 9 11 / 0.1) 45%), url(${asset(`/about/${img}.png`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
         backgroundSize: "cover, cover, cover",
         backgroundPosition: "center, center, center",
       }}
@@ -398,7 +399,7 @@ export default function ServicesPhilosophy() {
           <div>
           <div className="flex justify-center py-10 sm:py-12">
             <img
-              src="/logo.png"
+              src={asset("/logo.png")}
               alt="Mcars"
               className="h-20 w-auto invert mix-blend-screen sm:h-24"
             />

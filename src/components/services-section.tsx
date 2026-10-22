@@ -6,6 +6,7 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
+import { asset } from "@/lib/asset";
 
 const TEXT_MAIN = "Voor elk voertuig de juiste aanpak.";
 const TEXT_SUB = "Ontdek onze transportoplossingen in België en heel Europa.";
@@ -192,7 +193,7 @@ export default function ServicesSection() {
       <div className="sticky top-0 flex h-dvh flex-col overflow-hidden pt-14 sm:pt-20">
         {/* Truck outline behind the cards; they cover it as they rise */}
         <img
-          src="/truck-outline.png"
+          src={asset("/truck-outline.png")}
           alt=""
           aria-hidden
           className="pointer-events-none absolute top-[55%] left-1/2 w-[72%] max-w-4xl -translate-x-1/2 -translate-y-1/2 select-none opacity-20 mix-blend-multiply [filter:brightness(1.06)]"
@@ -249,7 +250,7 @@ function ServiceCard({
         aria-hidden
         className="absolute inset-0 transition-transform duration-500 motion-safe:group-hover:scale-[1.03]"
         style={{
-          backgroundImage: `url(/services/${nr}.jpg), linear-gradient(160deg, #3f3f46, #18181b)`,
+          backgroundImage: `url(${asset(`/services/${nr}.jpg`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
           backgroundSize: "cover, cover",
           backgroundPosition: "center, center",
         }}

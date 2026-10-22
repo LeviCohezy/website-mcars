@@ -1,4 +1,5 @@
 import SectionPill from "./section-pill";
+import { asset } from "@/lib/asset";
 
 export const posts = [
   {
@@ -56,7 +57,7 @@ export default function BlogGrid() {
           >
             <div className="overflow-hidden">
               <img
-                src={`/services/${post.img}.jpg`}
+                src={asset(`/services/${post.img}.jpg`)}
                 alt=""
                 loading="lazy"
                 className="aspect-[3/2] w-full object-cover transition-transform duration-500 motion-safe:group-hover:scale-105"

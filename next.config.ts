@@ -11,7 +11,9 @@ const nextConfig: NextConfig = {
         output: "export",
         basePath,
         assetPrefix: basePath,
-        images: { unoptimized: true },
+        // next/image doesn't prefix the basePath for unoptimized images, so a tiny
+        // loader does it (see src/lib/image-loader.ts).
+        images: { loader: "custom", loaderFile: "./src/lib/image-loader.ts" },
         trailingSlash: true,
       }
     : {}),

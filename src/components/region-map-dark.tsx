@@ -8,6 +8,7 @@ import {
   useSyncExternalStore,
 } from "react";
 import { anchors, countries } from "@/data/europe-map";
+import { asset } from "@/lib/asset";
 
 // Luxembourg is not in the generated anchor set; same Mercator projection.
 const ANCHORS: Record<string, [number, number]> = {
@@ -125,7 +126,7 @@ function TruckDrive({ path }: { path: string }) {
         path={path}
       />
       <image
-        href="/truck-map.png"
+        href={asset("/truck-map.png")}
         x={-28}
         y={-28}
         width={56}
