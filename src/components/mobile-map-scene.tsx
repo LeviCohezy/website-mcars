@@ -31,16 +31,14 @@ import { asset } from "@/lib/asset";
 // 0:15.5–0:20 of the homepage film — only the Europe map with its flags and
 // routes, not the truck shots before it — as 68 JPG frames (15 fps).
 const FRAME_COUNT = 68;
-// Named one by one under the map while scrolling, then "Bekijk onze routes".
+// Listed under the map (all together, under each other), then "Bekijk onze routes".
 const COUNTRIES = [
-  { flag: "🇧🇪", name: "België" },
-  { flag: "🇪🇸", name: "Spanje" },
-  { flag: "🇳🇱", name: "Nederland" },
-  { flag: "🇮🇹", name: "Italië" },
-  { flag: "🇩🇪", name: "Duitsland" },
   { flag: "🇫🇷", name: "Frankrijk" },
-  { flag: "🇱🇺", name: "Luxemburg" },
-  { flag: "🇦🇹", name: "Oostenrijk" },
+  { flag: "🇧🇪", name: "België" },
+  { flag: "🇳🇱", name: "Nederland" },
+  { flag: "🇩🇪", name: "Duitsland" },
+  { flag: "🇪🇸", name: "Spanje" },
+  { flag: "🇮🇹", name: "Italië" },
 ];
 
 const frameSrc = (i: number) => asset(`/map-frames/${String(i + 1).padStart(3, "0")}.jpg`);
@@ -173,17 +171,10 @@ export default function MobileMapScene() {
           },
           0,
         )
-      // Countries under the map, one at a time while the film plays…
-      const names = gsap.utils.toArray<HTMLElement>(".mms-country", stage);
-      const slot = 0.78 / names.length;
-      names.forEach((el, i) => {
-        const at = 0.04 + i * slot;
-        tl.fromTo(el, { opacity: 0, yPercent: 40 }, { opacity: 1, yPercent: 0, duration: slot * 0.35 }, at);
-        if (i < names.length - 1) tl.to(el, { opacity: 0, yPercent: -40, duration: slot * 0.35 }, at + slot * 0.65);
-      });
-      // …and, as the last beat, the routes button.
-      tl.to(names[names.length - 1], { opacity: 0, yPercent: -40, duration: 0.05 }, 0.84)
-        .fromTo(tagline, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.06 }, 0.86)
+      // The country list builds up under the map while the film plays (each
+      // name stays), then the routes button as the last beat.
+      tl.fromTo(".mms-country", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.08, stagger: 0.07 }, 0.12)
+        .fromTo(tagline, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.08 }, 0.72)
         .to({}, { duration: 0.12 }); // short hold before the pin releases
     }, stage);
 
@@ -209,27 +200,29 @@ export default function MobileMapScene() {
         {/* Film layer: 0:15.5–0:20 of the homepage film (map only) as a frame sequence, scrubbed by the scroll.
             Rendered wider than the screen (16:9 on portrait) and centred so the
             map reads large; the edges fade into the black card. */}
-        <div ref={mapRef} className="absolute inset-0 flex items-center justify-center overflow-hidden opacity-0">
+        <div ref={mapRef} className="absolute inset-x-0 top-[16svh] flex justify-center overflow-hidden opacity-0">
           {mapReady && (
             <canvas
               ref={canvasRef}
               width={960}
               height={540}
               aria-hidden
-              className="aspect-video w-[170vw] max-w-none flex-none [mask-image:linear-gradient(to_bottom,transparent,black_22%,black_78%,transparent),linear-gradient(to_right,transparent,black_18%,black_82%,transparent)] [mask-composite:intersect] [-webkit-mask-composite:source-in] sm:w-[130vw]"
+              className="aspect-video w-[150vw] max-w-none flex-none [mask-image:linear-gradient(to_bottom,transparent,black_22%,black_78%,transparent),linear-gradient(to_right,transparent,black_18%,black_82%,transparent)] [mask-composite:intersect] [-webkit-mask-composite:source-in] sm:w-[130vw]"
             />
           )}
         </div>
 
-        {/* Under the map: the countries, big and one at a time, then the routes button */}
-        <div className="absolute inset-x-0 bottom-[9svh] flex h-20 items-center justify-center">
-          {COUNTRIES.map((c) => (
-            <p key={c.name} className="mms-country absolute flex items-center gap-4 opacity-0">
-              <span className="text-4xl leading-none">{c.flag}</span>
-              <span className="font-display text-6xl leading-none tracking-wide text-white">{c.name}</span>
-            </p>
-          ))}
-          <div ref={taglineRef} className="absolute opacity-0">
+        {/* Under the map: the countries under each other, then the routes button */}
+        <div className="absolute inset-x-0 bottom-[5svh] flex flex-col items-center gap-5">
+          <ul className="flex flex-col items-center gap-1">
+            {COUNTRIES.map((c) => (
+              <li key={c.name} className="mms-country flex items-center gap-3 opacity-0">
+                <span className="text-2xl leading-none">{c.flag}</span>
+                <span className="font-[family-name:var(--font-display)] text-[2rem] leading-[1.1] tracking-wide text-white">{c.name}</span>
+              </li>
+            ))}
+          </ul>
+          <div ref={taglineRef} className="opacity-0">
             <Link
               href="/routes"
               className="inline-flex items-center gap-2 rounded-full bg-white py-3 pr-3 pl-6 text-sm font-medium text-zinc-950"
