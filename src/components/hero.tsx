@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { asset } from "@/lib/asset";
-import HeroSearchWidget from "./hero-search-widget";
 import { INTRO_EVENT } from "./intro-loader";
 import NavPill from "./nav-pill";
 import MobileMenu from "./mobile-menu";
@@ -95,13 +95,13 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
               Tracking
               <ArrowChip />
             </a>
-            <a
+            <Link
               href="/offerte"
               className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
             >
               Offerte
               <ArrowChip />
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -114,20 +114,30 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
           >
             Trusted by 3000+ clients
           </span>
+          {/* Client copy (Oct 2026): "Autotransport" + tagline */}
           <h1
-            className={`text-[1.875rem] font-light leading-[1.15] tracking-tight text-white sm:text-5xl sm:leading-[1.1] lg:text-6xl ${rise("delay-[1050ms]")}`}
+            className={`text-[2.5rem] font-light leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl ${rise("delay-[1050ms]")}`}
           >
-            Autotransport dat verder{" "}
-            <br className="hidden sm:block" />
-            gaat dan van A naar B.
+            Autotransport
           </h1>
-          {/* Spacer keeps the title where the CTA row used to sit */}
-          <div aria-hidden className="hidden h-[4.5rem] sm:block" />
+          <p className={`mt-3 text-lg leading-snug text-white/85 sm:mt-4 sm:text-2xl ${rise("delay-[1100ms]")}`}>
+            Uw auto. Onze passie. Uw bestemming.
+          </p>
         </div>
 
-        {/* Form bar along the hero bottom; clears the review notch on the right */}
-        <div className={`lg:pr-80 ${rise("delay-[1150ms]")}`}>
-          <HeroSearchWidget />
+        {/* One clear action (client request) — the full form lives on /offerte */}
+        <div className={rise("delay-[1150ms]")}>
+          <Link
+            href="/offerte"
+            className="inline-flex items-center gap-3 rounded-2xl bg-white py-2 pr-2 pl-6 text-base font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
+          >
+            Offerte aanvragen
+            <span className="flex size-9 items-center justify-center rounded-xl bg-zinc-950 text-white">
+              <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </span>
+          </Link>
         </div>
       </div>
 

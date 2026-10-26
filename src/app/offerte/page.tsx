@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { FaqAccordion, HighlightGrid } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
-import QuoteMultistep from "@/components/quote-multistep";
+import OfferteForm from "@/components/offerte-form";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { ArrowButton, Eyebrow, SectionHeader } from "@/components/ui";
@@ -86,48 +86,21 @@ export default function OffertePage() {
   return (
     <PageShell>
       <PageHero
-        eyebrow="Offerte"
-        title="Vraag uw prijs aan — binnen 24 uur antwoord."
-        subtitle="Geen calculator, geen automatische mail: wij bekijken elke aanvraag zelf en sturen u prijs en planning."
+        eyebrow="Snel · veilig · betrouwbaar"
+        title="Offerte autotransport"
+        subtitle="Vul onderstaand formulier in en ontvang snel een vrijblijvende offerte voor het transport van uw voertuig."
         crumbs={[{ label: "Offerte aanvragen" }]}
         image="/fleet/depot-wet.jpg"
         badges={reassurance.map((r) => ({ label: r.title }))}
         secondaryCta={{ label: "Liever contact opnemen?", href: "/contact" }}
       />
 
-      <QuoteMultistep
-        aside={
-          <div className="flex flex-col justify-between gap-12">
-            <div>
-              <Eyebrow>Uw aanvraag</Eyebrow>
-              <h2 className="mt-8 max-w-xl text-3xl font-light leading-[1.1] tracking-[-0.025em] text-balance text-zinc-950 sm:text-4xl lg:text-5xl">
-                Drie korte stappen. <span className="text-zinc-400">Wij doen de rest.</span>
-              </h2>
-            </div>
-            <ol className="border-t border-zinc-950">
-              {[
-                { t: "U vult de aanvraag in", b: "Ophaal- en leveradres, het voertuig en de gewenste periode." },
-                { t: "Wij bekijken ze persoonlijk", b: "Geen calculator: een planner stelt uw prijs samen." },
-                { t: "Binnen 24 uur antwoord", b: "Met prijs en een concrete planning. Pas na uw akkoord plannen we in." },
-              ].map((it, i) => (
-                <li key={it.t} className="grid grid-cols-[2.5rem_1fr] gap-4 border-b border-zinc-200 py-5">
-                  <span className="pt-1 text-xs font-medium tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
-                  <span>
-                    <span className="block text-lg font-medium tracking-tight text-zinc-950">{it.t}</span>
-                    <span className="mt-1 block text-[0.95rem] leading-relaxed text-zinc-500">{it.b}</span>
-                  </span>
-                </li>
-              ))}
-            </ol>
-            <p className="text-sm leading-relaxed text-zinc-500">
-              Liever per mail of telefoon?{" "}
-              <a href={`mailto:${site.email}`} className="text-zinc-950 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-950">{site.email}</a>
-              {" · "}
-              <a href={site.phoneHref} className="text-zinc-950 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-950">{site.phone}</a>
-            </p>
-          </div>
-        }
-      />
+      {/* The quote form — structure from the client's reference (Oct 2026) */}
+      <Section space="loose" id="aanvraag">
+        <div className="mx-auto max-w-6xl">
+          <OfferteForm />
+        </div>
+      </Section>
 
       {/* Price factors */}
       <Section space="loose">

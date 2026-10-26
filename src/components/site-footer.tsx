@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { nav, site } from "@/lib/site";
+import { footerOntdek, nav, routeLinks, site } from "@/lib/site";
 import { asset } from "@/lib/asset";
 import WhatsAppIcon from "./whatsapp-icon";
 
 const services = nav[0].children!.slice(0, 7);
-const routes = nav[1].children!.slice(0, 6);
-const ontdek = nav[3].children!;
+const routes = routeLinks.slice(0, 6);
+const ontdek = footerOntdek;
 
 export default function SiteFooter() {
   return (

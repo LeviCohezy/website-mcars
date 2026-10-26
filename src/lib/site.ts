@@ -56,10 +56,37 @@ export const nav: NavItem[] = [
       { label: "Eventtransport", href: "/diensten/eventtransport", desc: "Onberispelijk op elk event" },
     ],
   },
+  // Client request (Oct 2026): "Plan transport" and "Blog" in the top nav;
+  // Routes and "Zo werkt het" leave it (routes stay in the footer, werkwijze
+  // under Ontdek).
   {
-    label: "Routes",
-    href: "/routes",
+    label: "Plan transport",
+    href: "/offerte",
+  },
+  {
+    label: "Blog",
+    href: "/blog",
+  },
+  {
+    label: "Ontdek",
+    href: "/over-ons",
     children: [
+      { label: "Over ons", href: "/over-ons", desc: "Wie we zijn en onze vloot" },
+      { label: "Zo werkt het", href: "/hoe-werkt-het", desc: "Van aanvraag tot levering" },
+      { label: "Routes", href: "/routes", desc: "Bestemmingen in heel Europa" },
+      { label: "Cases & realisaties", href: "/cases", desc: "Uitgevoerde transporten" },
+      { label: "Reviews", href: "/reviews", desc: "Wat klanten over ons zeggen" },
+      { label: "FAQ", href: "/faq", desc: "Antwoorden op veelgestelde vragen" },
+    ],
+  },
+  {
+    label: "Contact",
+    href: "/contact",
+  },
+];
+
+/** Route pages (no longer in the top nav; listed in the footer). */
+export const routeLinks: NavChild[] = [
       { label: "Autotransport België", href: "/routes/autotransport-belgie" },
       { label: "Autotransport Nederland", href: "/routes/autotransport-nederland" },
       { label: "Autotransport Frankrijk", href: "/routes/autotransport-frankrijk" },
@@ -72,28 +99,8 @@ export const nav: NavItem[] = [
       { label: "Frankrijk → Nederland", href: "/routes/frankrijk-nederland" },
       { label: "België → Nederland", href: "/routes/belgie-nederland" },
       { label: "België → Frankrijk", href: "/routes/belgie-frankrijk" },
-    ],
-  },
-  {
-    label: "Zo werkt het",
-    href: "/hoe-werkt-het",
-  },
-  {
-    label: "Ontdek",
-    href: "/over-ons",
-    children: [
-      { label: "Over ons", href: "/over-ons", desc: "Wie we zijn en onze vloot" },
-      { label: "Cases & realisaties", href: "/cases", desc: "Uitgevoerde transporten" },
-      { label: "Reviews", href: "/reviews", desc: "Wat klanten over ons zeggen" },
-      { label: "Blog & kennisbank", href: "/blog", desc: "Tips over autotransport" },
-      { label: "FAQ", href: "/faq", desc: "Antwoorden op veelgestelde vragen" },
-    ],
-  },
-  {
-    label: "Contact",
-    href: "/contact",
-  },
 ];
 
 /** Footer link columns. */
 export const footerServices: NavChild[] = nav[0].children!.slice(0, 6);
+export const footerOntdek: NavChild[] = nav.find((n) => n.label === "Ontdek")!.children!;

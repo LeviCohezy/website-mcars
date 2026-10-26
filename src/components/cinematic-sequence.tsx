@@ -23,6 +23,7 @@
  */
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useSyncExternalStore } from "react";
 import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";
@@ -408,10 +409,10 @@ export default function CinematicSequence({
                   Tracking
                   <ArrowChip />
                 </a>
-                <a href="/offerte" className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
+                <Link href="/offerte" className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
                   Offerte
                   <ArrowChip />
-                </a>
+                </Link>
               </div>
             </div>
           </header>

@@ -1,7 +1,6 @@
 import AboutStats from "@/components/about-stats";
 import ClientMarquee from "@/components/client-marquee";
 import Hero from "@/components/hero";
-import PainPoints from "@/components/pain-points";
 import ProcessSection from "@/components/process-section";
 import QuoteContact from "@/components/quote-contact";
 import ServicesPhilosophy from "@/components/services-philosophy";
@@ -16,7 +15,6 @@ export default function Home() {
       <Hero />
       <ClientMarquee />
       <AboutStats />
-      <PainPoints />
       <ServicesPhilosophy />
       <WhyChooseUs />
       <ProcessSection />
