@@ -41,6 +41,18 @@ body {
  * Hero photo — drop a `hero.jpg` into /public and it will show up
  * automatically. Until then the gradient below acts as a placeholder.
  */
+/* Short entrance for swapped-in content (e.g. a newly selected tab) */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);

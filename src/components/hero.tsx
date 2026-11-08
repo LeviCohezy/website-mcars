@@ -88,13 +88,6 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
           <MobileMenu />
 
           <div className="ml-auto flex items-center gap-2">
-            <a
-              href="#"
-              className="hidden items-center gap-2 rounded-2xl border border-white/20 bg-white/10 py-2 pr-2 pl-5 text-sm font-medium text-white backdrop-blur-xl transition-colors hover:bg-white/20 sm:flex"
-            >
-              Tracking
-              <ArrowChip />
-            </a>
             <Link
               href="/offerte"
               className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
@@ -114,15 +107,16 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
           >
             Trusted by 3000+ clients
           </span>
-          {/* Client copy (Oct 2026): "Autotransport" + tagline */}
+          {/* Client copy (Oct 2026): "Autotransport" + tagline, all one heading */}
           <h1
-            className={`text-[2.5rem] font-light leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl ${rise("delay-[1050ms]")}`}
+            className={`text-[2.25rem] font-light leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl ${rise("delay-[1050ms]")}`}
           >
-            Autotransport
+            Autotransport.
+            <br />
+            <span className="text-white/70">
+              Uw auto. Onze passie.<br className="hidden sm:block" /> Uw bestemming.
+            </span>
           </h1>
-          <p className={`mt-3 text-lg leading-snug text-white/85 sm:mt-4 sm:text-2xl ${rise("delay-[1100ms]")}`}>
-            Uw auto. Onze passie. Uw bestemming.
-          </p>
         </div>
 
         {/* One clear action (client request) — the full form lives on /offerte */}

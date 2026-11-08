@@ -7,8 +7,9 @@ import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import {
   BreakdownSection, ExpectBento, OverviewCards, FaqWithContact, HighlightPanel, NeedsSection, PracticeCase, PriceSection,
-  RelatedCards, SafetySection, StepsRail,
+  RelatedCards, SafetySection,
 } from "@/components/service-sections";
+import { ProcessStory } from "@/components/service-sections-interactive";
 import Section from "@/components/section";
 import SituationsScroll from "@/components/situations-scroll";
 import VariantSwitcher from "@/components/variant-switcher";
@@ -98,9 +99,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         />
       </Section>
 
-      {/* 5 · Process — sticky heading + vertical rail, CTA back to the hero form */}
-      <Section space="loose">
-        <StepsRail
+      {/* 5 · Process — pinned scroll story (desktop), swipeable cards (mobile) */}
+      <Section space="none" bleed className="my-16 sm:my-24">
+        <ProcessStory
           label="Werkwijze"
           lead="Van aanvraag tot levering,"
           trail="helder en eenvoudig."
@@ -110,7 +111,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       </Section>
 
       {/* 6 · What determines the price (factors, no amounts) */}
-      <Section space="flush-top">
+      <Section space="default">
         <SectionHeader
           label="Prijs"
           lead="Wat bepaalt"

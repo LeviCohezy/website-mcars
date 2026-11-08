@@ -1,17 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { Faq, Highlight, ProcessStep } from "@/data/services";
+import type { Faq, Highlight, IconKey } from "@/data/services";
 import { asset } from "@/lib/asset";
 import { site } from "@/lib/site";
 import { FaqAccordion } from "./blocks";
 import Icon from "./icon";
-import { Parallax, Reveal } from "./scroll";
+import { Marquee, Parallax, Reveal } from "./scroll";
+import { ChecklistTabs } from "./service-sections-interactive";
 import { ArrowChip, Eyebrow } from "./ui";
 
 /*
  * Sections for the service-page template (/diensten/[slug]). Each one has its
- * own shape on purpose — photo panel, vertical rail, bento, contact card,
- * image cards — so the page doesn't read as five identical ruled lists.
+ * own shape on purpose — photo panel, pinned story, bento, checklist, film,
+ * overlapping cards, cinematic case — so the page doesn't read as five identical ruled lists.
  */
 
 /** Dark photo panel with the highlights as white cards resting on the image. */
@@ -67,60 +68,10 @@ export function HighlightPanel({
   );
 }
 
-/** Process as a vertical rail, with a sticky heading and a CTA back to the hero form. */
-export function StepsRail({
-  label,
-  lead,
-  trail,
-  intro,
-  steps,
-  ctaHref = "#prijs",
-}: {
-  label: string;
-  lead: string;
-  trail?: string;
-  intro?: string;
-  steps: ProcessStep[];
-  ctaHref?: string;
-}) {
-  return (
-    <div className="grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:gap-20">
-      <div className="lg:sticky lg:top-28 lg:self-start">
-        <Reveal>
-          <Eyebrow>{label}</Eyebrow>
-          <h2 className="mt-6 text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl lg:text-[3.25rem]">
-            {lead} {trail && <span className="text-zinc-400">{trail}</span>}
-          </h2>
-          {intro && <p className="mt-6 max-w-md text-lg leading-relaxed text-zinc-500">{intro}</p>}
-          <a
-            href={ctaHref}
-            className="group mt-10 inline-flex items-center gap-3 rounded-full bg-zinc-950 py-2 pr-2 pl-6 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
-          >
-            Prijs aanvragen
-            <ArrowChip />
-          </a>
-        </Reveal>
-      </div>
-
-      <ol className="relative">
-        <span aria-hidden className="absolute top-3 bottom-3 left-[1.1875rem] w-px bg-zinc-200" />
-        {steps.map((s, i) => (
-          <Reveal as="li" key={s.title} delay={i * 90} className="relative flex gap-6 pb-12 last:pb-0 sm:gap-8">
-            <span className="relative z-10 flex size-10 flex-none items-center justify-center rounded-full border border-zinc-200 bg-white text-sm font-medium tabular-nums text-zinc-950">
-              {String(i + 1).padStart(2, "0")}
-            </span>
-            <div className="pt-1.5">
-              <h3 className="text-xl font-medium tracking-tight text-zinc-950 sm:text-2xl">{s.title}</h3>
-              <p className="mt-3 max-w-lg text-[0.95rem] leading-relaxed text-zinc-500 sm:text-base">{s.body}</p>
-            </div>
-          </Reveal>
-        ))}
-      </ol>
-    </div>
-  );
-}
-
-/** "What to expect" as a bento on a muted panel: checklist · film · tiles. */
+/**
+ * "Inbegrepen": one full-bleed film with the promises as glass cards on top
+ * and the vehicle types drifting past along the bottom.
+ */
 export function ExpectBento({
   benefits,
   vehicleTypes,
@@ -133,56 +84,62 @@ export function ExpectBento({
   caption: string;
 }) {
   return (
-    <div className="rounded-[2rem] bg-zinc-100 p-3 sm:p-4">
-      <div className="grid gap-3 sm:gap-4 lg:grid-cols-[1.15fr_1fr_0.95fr]">
-        {/* Checklist */}
-        <Reveal className="flex flex-col rounded-[1.5rem] bg-white p-7 sm:p-9">
-          <Eyebrow>Inbegrepen</Eyebrow>
-          <h2 className="mt-6 text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl">
-            Wat u van ons <span className="text-zinc-400">mag verwachten.</span>
+    <div className="relative isolate overflow-hidden rounded-[2rem] bg-zinc-950">
+      <video aria-hidden className="absolute inset-0 -z-10 size-full object-cover opacity-70" src={asset(video)} autoPlay muted loop playsInline />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgb(9_9_11/0.92),rgb(9_9_11/0.55)_45%,rgb(9_9_11/0.25))]" />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-zinc-950/90 via-transparent to-zinc-950/40" />
+
+      <div className="grid gap-12 px-6 pt-14 pb-12 sm:px-10 sm:pt-20 lg:min-h-[36rem] lg:grid-cols-[1fr_1.1fr] lg:items-end lg:gap-16 lg:px-14 lg:pt-32 lg:pb-16">
+        <Reveal className="flex flex-col">
+          <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-white/50 uppercase">
+            <span aria-hidden className="size-1.5 flex-none rounded-full bg-white" />
+            Inbegrepen
+          </p>
+          <h2 className="mt-6 text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-white sm:text-4xl lg:text-[3.25rem]">
+            Wat u van ons <span className="text-white/40">mag verwachten.</span>
           </h2>
-          <ul className="mt-10 flex flex-col gap-4 lg:mt-auto lg:pt-12">
-            {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-3.5 text-base text-zinc-800">
-                <span className="mt-0.5 flex size-6 flex-none items-center justify-center rounded-full bg-zinc-950 text-white">
-                  <Icon name="check" className="size-3.5" />
-                </span>
-                {b}
-              </li>
-            ))}
-          </ul>
+          <p className="mt-5 max-w-sm text-base leading-relaxed text-white/60">{caption}</p>
+          <Link
+            href="/reviews"
+            className="group mt-10 inline-flex items-center gap-4 self-start rounded-2xl bg-white/10 py-3 pr-3 pl-5 ring-1 ring-white/15 backdrop-blur-md transition-colors hover:bg-white/15"
+          >
+            <span className="flex items-center gap-1.5 text-2xl font-medium tracking-tight text-white">
+              {site.reviews.score}<span className="text-base font-normal text-white/50">/5</span>
+              <svg className="size-5 text-amber-400" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M12 2l2.9 6.3 6.9.8-5.1 4.8 1.4 6.8L12 17.3 5.9 20.7l1.4-6.8L2.2 9.1l6.9-.8z" /></svg>
+            </span>
+            <span className="text-sm text-white/60">{site.reviews.count} reviews op Google</span>
+            <ArrowChip />
+          </Link>
         </Reveal>
 
-        {/* Film */}
-        <Reveal delay={90} className="relative min-h-[22rem] overflow-hidden rounded-[1.5rem] bg-zinc-950 lg:min-h-[34rem]">
-          <video className="absolute inset-0 size-full object-cover opacity-85" src={asset(video)} autoPlay muted loop playsInline />
-          <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent" />
-          <p className="absolute inset-x-6 bottom-6 text-sm leading-relaxed text-white/80">{caption}</p>
-        </Reveal>
-
-        {/* Tiles */}
-        <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-1 lg:grid-rows-[1fr_auto]">
-          <Reveal delay={150} className="rounded-[1.5rem] bg-white p-7">
-            <p className="text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">Wij vervoeren</p>
-            <ul className="mt-5 flex flex-wrap gap-2">
-              {vehicleTypes.map((v) => (
-                <li key={v} className="rounded-full border border-zinc-200 px-3.5 py-1.5 text-sm text-zinc-700">{v}</li>
-              ))}
-            </ul>
-          </Reveal>
-          <Reveal delay={210}>
-            <Link href="/reviews" className="group flex h-full items-center justify-between gap-4 rounded-[1.5rem] bg-zinc-950 p-7 text-white transition-colors hover:bg-zinc-800">
-              <span>
-                <span className="flex items-center gap-2 text-3xl font-medium tracking-tight">
-                  {site.reviews.score}<span className="font-normal text-white/50">/5</span>
-                  <svg className="size-6 text-amber-400" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M12 2l2.9 6.3 6.9.8-5.1 4.8 1.4 6.8L12 17.3 5.9 20.7l1.4-6.8L2.2 9.1l6.9-.8z" /></svg>
+        <ul className="grid content-end gap-3 sm:grid-cols-2">
+          {benefits.map((b, i) => (
+            <Reveal
+              as="li"
+              key={b}
+              delay={i * 70}
+              className="flex flex-col justify-between gap-6 rounded-[1.25rem] bg-white/[0.07] p-5 ring-1 ring-white/12 backdrop-blur-md transition-colors hover:bg-white/[0.12]"
+            >
+              <span className="flex items-center justify-between">
+                <span className="flex size-8 items-center justify-center rounded-full bg-white text-zinc-950">
+                  <Icon name="check" className="size-4" />
                 </span>
-                <span className="mt-1 block text-sm text-white/60">{site.reviews.count} reviews op Google</span>
+                <span className="text-xs font-medium text-white/35 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
               </span>
-              <ArrowChip />
-            </Link>
-          </Reveal>
-        </div>
+              <span className="text-base leading-snug font-medium text-white">{b}</span>
+            </Reveal>
+          ))}
+        </ul>
+      </div>
+
+      {/* What we carry — drifting past */}
+      <div className="border-t border-white/10 py-6">
+        <p className="sr-only">Wij vervoeren: {vehicleTypes.join(", ")}</p>
+        <Marquee
+          items={vehicleTypes}
+          separator={<Icon name="car" className="size-6" />}
+          className="text-2xl font-medium tracking-tight text-white/80 sm:text-4xl [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
+        />
       </div>
     </div>
   );
@@ -269,117 +226,184 @@ export function RelatedCards({ items }: { items: RelatedCard[] }) {
 
 type Item = { title: string; body: string };
 
-/** "Wat bepaalt de prijs": factors (no amounts), saving tips and a CTA. */
+/** Pick a line icon for a price factor from its title. */
+function factorIcon(title: string, i: number): IconKey {
+  const t = title.toLowerCase();
+  if (t.includes("afstand") || t.includes("traject") || t.includes("route")) return "route";
+  if (t.includes("type") || t.includes("voertuig") || t.includes("model")) return "car";
+  if (t.includes("rijd") || t.includes("staat") || t.includes("rol")) return "wrench";
+  if (t.includes("depot") || t.includes("adres") || t.includes("locatie")) return "map";
+  if (t.includes("planning") || t.includes("spoed") || t.includes("datum") || t.includes("tijd")) return "clock";
+  if (t.includes("aantal") || t.includes("wagens") || t.includes("vloot")) return "truck";
+  if (t.includes("land") || t.includes("grens") || t.includes("europa")) return "globe";
+  return (["box", "spark", "shield"] as const)[i % 3];
+}
+
+/**
+ * "Wat bepaalt de prijs" as a bento: one dark hero cell with the promise and
+ * the CTA, the factors as icon tiles, and the saving tips as a wide card.
+ */
 export function PriceSection({ factors, tips }: { factors: Item[]; tips: string[] }) {
   return (
-    <div className="grid gap-10 lg:grid-cols-[2fr_1fr] lg:gap-16">
-      <ul className="grid gap-x-10 border-t border-zinc-200 sm:grid-cols-2">
-        {factors.map((f) => (
-          <Reveal as="li" key={f.title} className="border-b border-zinc-200 py-6">
-            <h3 className="text-lg font-medium tracking-tight text-zinc-950">{f.title}</h3>
-            <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{f.body}</p>
-          </Reveal>
-        ))}
-      </ul>
-      <Reveal className="self-start rounded-[1.5rem] bg-zinc-100 p-7">
-        {tips.length > 0 && (
-          <>
-            <p className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">Zo bespaart u</p>
-            <ul className="mt-5 flex flex-col gap-4">
-              {tips.map((t) => (
-                <li key={t} className="flex items-start gap-3 text-[0.95rem] leading-relaxed text-zinc-700">
-                  <Icon name="check" className="mt-1 size-4 flex-none text-zinc-950" />
-                  {t}
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
-        <p className={`text-[0.95rem] leading-relaxed text-zinc-700 ${tips.length > 0 ? "mt-6 border-t border-zinc-200 pt-6" : ""}`}>
-          Elke prijs is maatwerk. U krijgt binnen 24 uur een persoonlijk antwoord.
-        </p>
-        <a href="#prijs" className="group mt-6 inline-flex items-center gap-3 rounded-full bg-zinc-950 py-2 pr-2 pl-6 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
-          Prijs aanvragen
-          <ArrowChip />
-        </a>
+    <div className="grid grid-flow-dense gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <Reveal className="relative isolate flex min-h-[26rem] flex-col justify-between overflow-hidden rounded-[1.75rem] bg-zinc-950 p-7 text-white sm:col-span-2 sm:p-9 lg:row-span-2">
+        <Image src="/fleet/depot-wet.jpg" alt="" fill sizes="(min-width: 1024px) 50vw, 100vw" className="-z-10 object-cover opacity-40" />
+        <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-zinc-950/20" />
+        <span className="self-start rounded-full bg-white/10 px-3.5 py-1.5 text-xs font-medium tracking-[0.18em] text-white/80 uppercase ring-1 ring-white/15 backdrop-blur-md">
+          Maatwerk
+        </span>
+        <div>
+          <p className="max-w-md text-3xl leading-[1.1] font-medium tracking-tight sm:text-4xl">
+            Een eerlijke prijs, <span className="text-white/45">binnen 24 uur in uw mailbox.</span>
+          </p>
+          <p className="mt-4 max-w-sm text-[0.95rem] leading-relaxed text-white/60">
+            Een mens van ons team bekijkt uw aanvraag. Wat u in de offerte ziet, betaalt u — geen verrassingen achteraf.
+          </p>
+          <a href="#prijs" className="group mt-8 inline-flex items-center gap-3 rounded-full bg-white py-2 pr-2 pl-6 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
+            Prijs aanvragen
+            <ArrowChip tone="dark" />
+          </a>
+        </div>
       </Reveal>
+
+      {factors.map((f, i) => (
+        <Reveal
+          key={f.title}
+          delay={(i % 4) * 60}
+          className="group flex flex-col rounded-[1.75rem] bg-zinc-100 p-6 transition-colors duration-300 hover:bg-zinc-950"
+        >
+          <div className="flex items-start justify-between">
+            <span className="flex size-11 items-center justify-center rounded-2xl bg-white text-zinc-950 transition-transform duration-300 group-hover:-rotate-6">
+              <Icon name={factorIcon(f.title, i)} className="size-5" />
+            </span>
+            <span className="text-xs font-medium text-zinc-400 tabular-nums transition-colors group-hover:text-white/40">{String(i + 1).padStart(2, "0")}</span>
+          </div>
+          <h3 className="mt-8 text-lg font-medium tracking-tight text-zinc-950 transition-colors group-hover:text-white">{f.title}</h3>
+          <p className="mt-2 text-[0.92rem] leading-relaxed text-zinc-500 transition-colors group-hover:text-white/60">{f.body}</p>
+        </Reveal>
+      ))}
+
+      {tips.length > 0 && (
+        <Reveal className="rounded-[1.75rem] p-7 ring-1 ring-zinc-200 sm:col-span-2 sm:p-8">
+          <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">
+            <Icon name="spark" className="size-4 text-zinc-950" />
+            Zo bespaart u
+          </p>
+          <ol className="mt-6 flex flex-col divide-y divide-zinc-200">
+            {tips.map((t, i) => (
+              <li key={t} className="flex items-start gap-5 py-4 first:pt-0 last:pb-0">
+                <span className="text-2xl leading-none font-medium tracking-tight text-zinc-300 tabular-nums">{i + 1}</span>
+                <span className="text-[0.95rem] leading-relaxed text-zinc-700">{t}</span>
+              </li>
+            ))}
+          </ol>
+        </Reveal>
+      )}
     </div>
   );
 }
 
-/** "Wat we van u nodig hebben": three columns of what to prepare. */
+/** "Wat we van u nodig hebben": a tick-off checklist per moment. */
 export function NeedsSection({ needs }: { needs: { aanvraag: string[]; documenten: string[]; dagZelf: string[] } }) {
-  const cols = [
-    { title: "Bij de aanvraag", items: needs.aanvraag },
-    { title: "Documenten", items: needs.documenten },
-    { title: "Op de dag zelf", items: needs.dagZelf },
-  ];
-  return <ChecklistColumns cols={cols} />;
+  return (
+    <ChecklistTabs
+      cols={[
+        { title: "Bij de aanvraag", items: needs.aanvraag },
+        { title: "Documenten", items: needs.documenten },
+        { title: "Op de dag zelf", items: needs.dagZelf },
+      ]}
+    />
+  );
 }
 
 /** Depannage variant: "Wat te doen bij pech". */
 export function BreakdownSection() {
-  const cols = [
-    { title: "1 · Eerst veilig", items: ["Zet de wagen zo veilig mogelijk aan de kant en zet de alarmlichten aan.", "Trek een fluohesje aan en plaats de gevarendriehoek.", "Wacht achter de vangrail, niet in of naast de wagen."] },
-    { title: "2 · Bel ons", items: ["Geef de exacte locatie door (straat, afrit of kilometerpaal).", "Vertel welk voertuig het is en wat er scheelt.", "Zeg waar de wagen naartoe moet."] },
-    { title: "3 · Wij komen", items: ["U krijgt meteen een eerlijk antwoord over wanneer we er kunnen zijn.", "We laden de wagen veilig op met de lier.", "We brengen hem naar uw garage, naar huis of naar ons depot."] },
-  ];
-  return <ChecklistColumns cols={cols} />;
-}
-
-function ChecklistColumns({ cols }: { cols: { title: string; items: string[] }[] }) {
   return (
-    <div className="grid gap-3 lg:grid-cols-3">
-      {cols.map((c, i) => (
-        <Reveal key={c.title} delay={i * 70} className="rounded-[1.5rem] bg-zinc-100 p-7">
-          <h3 className="text-lg font-medium tracking-tight text-zinc-950">{c.title}</h3>
-          <ul className="mt-5 flex flex-col gap-3.5">
-            {c.items.map((it) => (
-              <li key={it} className="flex items-start gap-3 text-[0.95rem] leading-relaxed text-zinc-700">
-                <Icon name="check" className="mt-1 size-4 flex-none text-zinc-950" />
-                {it}
-              </li>
-            ))}
-          </ul>
-        </Reveal>
-      ))}
-    </div>
+    <ChecklistTabs
+      doneTitle="Hulp is onderweg."
+      cols={[
+        { title: "1 · Eerst veilig", items: ["Zet de wagen zo veilig mogelijk aan de kant en zet de alarmlichten aan.", "Trek een fluohesje aan en plaats de gevarendriehoek.", "Wacht achter de vangrail, niet in of naast de wagen."] },
+        { title: "2 · Bel ons", items: ["Geef de exacte locatie door (straat, afrit of kilometerpaal).", "Vertel welk voertuig het is en wat er scheelt.", "Zeg waar de wagen naartoe moet."] },
+        { title: "3 · Wij komen", items: ["U krijgt meteen een eerlijk antwoord over wanneer we er kunnen zijn.", "We laden de wagen veilig op met de lier.", "We brengen hem naar uw garage, naar huis of naar ons depot."] },
+      ]}
+    />
   );
 }
 
-/** "Vloot & veiligheid": the service's key safety point first, then the fleet facts. */
+/**
+ * "Vloot & veiligheid": a wide photograph with the facts as cards overlapping
+ * its bottom edge. Facts that start with a number ("9 eigen transporters")
+ * lead with that number; the service's own focus point is the dark card.
+ */
 export function SafetySection({ items, image }: { items: Item[]; image: string }) {
   return (
-    <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:gap-16">
-      <Reveal className="relative min-h-[22rem] overflow-hidden rounded-[1.5rem] bg-zinc-950">
-        <Image src={image} alt="Een transporter van Mcars" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover" />
+    <div>
+      <Reveal className="relative isolate h-[22rem] overflow-hidden rounded-[2rem] bg-zinc-950 sm:h-[28rem] lg:h-[34rem]">
+        <Parallax speed={0.08} className="absolute -inset-y-16 inset-x-0 -z-10">
+          <Image src={image} alt="Een transporter van Mcars" fill sizes="100vw" className="object-cover" />
+        </Parallax>
+        <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-b from-zinc-950/60 via-transparent to-zinc-950/30" />
+        <p className="max-w-xl p-7 text-2xl leading-[1.15] font-medium tracking-tight text-white sm:p-10 sm:text-4xl">
+          Eigen vloot. Vaste chauffeurs. <span className="text-white/55">Geen onderaannemers.</span>
+        </p>
       </Reveal>
-      <ul className="grid content-start gap-x-10 border-t border-zinc-200 sm:grid-cols-2">
-        {items.map((s) => (
-          <Reveal as="li" key={s.title} className="border-b border-zinc-200 py-6">
-            <h3 className="text-lg font-medium tracking-tight text-zinc-950">{s.title}</h3>
-            <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{s.body}</p>
-          </Reveal>
-        ))}
+      <ul className="relative z-10 -mt-16 grid gap-3 px-3 sm:-mt-24 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
+        {items.map((s, i) => {
+          const m = s.title.match(/^(\d+)\s+(.*)$/);
+          const dark = i === 0;
+          return (
+            <Reveal
+              as="li"
+              key={s.title}
+              delay={i * 70}
+              className={`flex flex-col rounded-[1.5rem] p-6 shadow-[0_20px_50px_-20px_rgb(0_0_0/0.35)] ${dark ? "bg-zinc-950 text-white" : "bg-white text-zinc-950"}`}
+            >
+              {m ? (
+                <p className="text-6xl leading-none font-medium tracking-tighter tabular-nums">{m[1]}</p>
+              ) : (
+                <span className={`flex size-12 items-center justify-center rounded-2xl ${dark ? "bg-white text-zinc-950" : "bg-zinc-100"}`}>
+                  <Icon name={i === 0 ? "spark" : "shield"} className="size-6" />
+                </span>
+              )}
+              <h3 className="mt-6 text-lg font-medium tracking-tight">{m ? m[2].charAt(0).toUpperCase() + m[2].slice(1) : s.title}</h3>
+              <p className={`mt-2 text-[0.92rem] leading-relaxed ${dark ? "text-white/60" : "text-zinc-500"}`}>{s.body}</p>
+            </Reveal>
+          );
+        })}
       </ul>
     </div>
   );
 }
 
-/** "Uit de praktijk": one matching customer case. */
+/** "Uit de praktijk": the matching customer case as one cinematic card. */
 export function PracticeCase({ item }: { item: { tag: string; title: string; body: string; image: string } }) {
   return (
-    <Reveal className="grid overflow-hidden rounded-[1.5rem] border border-zinc-200 lg:grid-cols-2">
-      <div className="relative min-h-[18rem] bg-zinc-950">
-        <Image src={item.image} alt="" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
-      </div>
-      <div className="flex flex-col p-7 sm:p-10">
-        <p className="text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">{item.tag}</p>
-        <h3 className="mt-5 text-2xl font-medium tracking-tight text-zinc-950 sm:text-3xl">{item.title}</h3>
-        <p className="mt-4 text-base leading-relaxed text-zinc-500">{item.body}</p>
-        <Link href="/cases" className="mt-auto pt-8 text-sm font-medium text-zinc-950 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-950">
-          Meer cases bekijken
-        </Link>
+    <Reveal className="group relative isolate flex min-h-[34rem] flex-col justify-end overflow-hidden rounded-[2rem] bg-zinc-950 sm:min-h-[38rem]">
+      <Image
+        src={item.image}
+        alt=""
+        fill
+        sizes="100vw"
+        className="-z-10 object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-105"
+      />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-[linear-gradient(to_top,rgb(9_9_11/0.95),rgb(9_9_11/0.55)_45%,rgb(9_9_11/0.1))]" />
+      <span className="absolute top-6 left-6 rounded-full bg-white/10 px-4 py-2 text-xs font-medium tracking-[0.18em] text-white uppercase ring-1 ring-white/20 backdrop-blur-md sm:top-8 sm:left-8">
+        Case · {item.tag}
+      </span>
+      <div className="grid gap-8 p-6 sm:p-10 lg:grid-cols-[1.3fr_1fr] lg:items-end lg:gap-16 lg:p-14">
+        <h3 className="text-3xl leading-[1.05] font-medium tracking-[-0.025em] text-white sm:text-5xl lg:text-6xl">{item.title}</h3>
+        <div className="rounded-[1.5rem] bg-zinc-950/55 p-6 ring-1 ring-white/10 backdrop-blur-xl sm:p-7">
+          <p className="text-base leading-relaxed text-white/80">{item.body}</p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/cases" className="group/btn inline-flex items-center gap-3 rounded-full bg-white py-2 pr-2 pl-6 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
+              Meer cases bekijken
+              <ArrowChip tone="dark" />
+            </Link>
+            <a href="#prijs" className="inline-flex items-center rounded-full px-6 py-3 text-sm font-medium text-white ring-1 ring-white/30 transition-colors hover:bg-white/10">
+              Prijs aanvragen
+            </a>
+          </div>
+        </div>
       </div>
     </Reveal>
   );

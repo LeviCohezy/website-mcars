@@ -87,7 +87,11 @@ export default function OffertePage() {
     <PageShell>
       <PageHero
         eyebrow="Snel · veilig · betrouwbaar"
-        title="Offerte autotransport"
+        title={
+          <>
+            Offerte voor uw autotransport. <span className="text-white/55">Vrijblijvend, persoonlijk en binnen 24 uur.</span>
+          </>
+        }
         subtitle="Vul onderstaand formulier in en ontvang snel een vrijblijvende offerte voor het transport van uw voertuig."
         crumbs={[{ label: "Offerte aanvragen" }]}
         image="/fleet/depot-wet.jpg"
@@ -95,10 +99,20 @@ export default function OffertePage() {
         secondaryCta={{ label: "Liever contact opnemen?", href: "/contact" }}
       />
 
-      {/* The quote form — structure from the client's reference (Oct 2026) */}
-      <Section space="loose" id="aanvraag">
-        <div className="mx-auto max-w-6xl">
-          <OfferteForm />
+      {/* The quote form — flow from the client's reference, on a black screen */}
+      <Section space="none" bleed id="aanvraag" className="mt-2">
+        <div className="rounded-[2rem] bg-zinc-950 px-4 py-14 sm:px-8 sm:py-20 lg:px-14">
+          <div className="mx-auto max-w-6xl">
+            <div className="mb-10 flex flex-col gap-4 sm:mb-14 lg:flex-row lg:items-end lg:justify-between">
+              <h2 className="max-w-2xl text-3xl leading-[1.1] font-medium tracking-tight text-white sm:text-4xl lg:text-5xl">
+                Plan uw transport. <span className="text-white/45">In vier korte stappen.</span>
+              </h2>
+              <p className="max-w-sm text-base leading-relaxed text-white/55">
+                Vertrek, bestemming, uw auto en uw gegevens — wij sturen u binnen 24 uur een persoonlijke prijs en planning.
+              </p>
+            </div>
+            <OfferteForm />
+          </div>
         </div>
       </Section>
 

@@ -2,52 +2,19 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
 import NavPill from "./nav-pill";
 import MobileMenu from "./mobile-menu";
 
 /**
  * Interior navigation — visually identical to the homepage hero nav:
  * a centered white logo tab, a dark translucent pill of links and the
- * Tracking / Offerte buttons. Over the dark hero it reads exactly like the
+ * Offerte button. Over the dark hero it reads exactly like the
  * homepage. Mobile gets a matching drawer.
  */
 export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
   void theme; // kept for backwards-compatible call sites
-  const pathname = usePathname();
-  const [overLight, setOverLight] = useState(false);
-
-  const rootRef = useRef<HTMLDivElement>(null);
-  const trackingRef = useRef<HTMLAnchorElement>(null);
-
-  // The translucent Tracking button flips to dark-on-light whenever the page
-  // behind it is light, and back over photos, video and dark panels.
-  useEffect(() => {
-    let frame = 0;
-    const check = () => {
-      frame = 0;
-      const btn = trackingRef.current;
-      if (!btn || !rootRef.current) return;
-      const r = btn.getBoundingClientRect();
-      if (r.width === 0) return; // hidden on mobile
-      setOverLight(!isDarkBehind(r.left + r.width / 2, r.top + r.height / 2, rootRef.current));
-    };
-    const onScroll = () => {
-      if (!frame) frame = requestAnimationFrame(check);
-    };
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
-    return () => {
-      cancelAnimationFrame(frame);
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
-    };
-  }, [pathname]);
-
   return (
-    <div ref={rootRef} className="pointer-events-none fixed inset-x-0 top-0 z-50">
+    <div className="pointer-events-none fixed inset-x-0 top-0 z-50">
       {/* Fixed page frame: the white top edge and the hero's rounded top
           corners stay in place while content scrolls underneath. */}
       <div aria-hidden className="absolute inset-x-0 top-0 h-2 bg-white" />
@@ -70,20 +37,8 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
           <MobileMenu />
         </div>
 
-        {/* Right: Tracking + Offerte */}
+        {/* Right: Offerte */}
         <div className="pointer-events-auto ml-auto flex items-center gap-2">
-          <Link
-            ref={trackingRef}
-            href="/contact"
-            className={`hidden items-center gap-2 rounded-2xl border py-2 pr-2 pl-5 text-sm font-medium backdrop-blur-xl transition-colors duration-300 sm:flex ${
-              overLight
-                ? "border-zinc-200 bg-white/70 text-zinc-950 hover:bg-zinc-100"
-                : "border-white/20 bg-white/10 text-white hover:bg-white/20"
-            }`}
-          >
-            Tracking
-            <ArrowChip inverted={overLight} />
-          </Link>
           <Link
             href="/offerte"
             className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
@@ -98,34 +53,12 @@ export default function SiteNav({ theme }: { theme?: "light" | "onDark" }) {
   );
 }
 
-function ArrowChip({ inverted = false }: { inverted?: boolean }) {
+function ArrowChip() {
   return (
-    <span
-      className={`flex size-7 items-center justify-center rounded-full transition-colors duration-300 ${
-        inverted ? "bg-zinc-950 text-white" : "bg-white text-zinc-900"
-      }`}
-    >
+    <span className="flex size-7 items-center justify-center rounded-full bg-white text-zinc-900">
       <svg className="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M7 17L17 7M9 7h8v8" />
       </svg>
     </span>
   );
-}
-
-/** Is the page content under (x, y) dark? Skips the nav itself; photos,
- *  video and background images count as dark, otherwise the first opaque
- *  background colour decides. */
-function isDarkBehind(x: number, y: number, nav: HTMLElement) {
-  for (const el of document.elementsFromPoint(x, y)) {
-    if (nav.contains(el)) continue;
-    if (el instanceof HTMLImageElement || el instanceof HTMLVideoElement) return true;
-    const style = getComputedStyle(el);
-    if (style.backgroundImage !== "none") return true;
-    const m = style.backgroundColor.match(/[\d.]+/g);
-    if (!m) continue;
-    const [r, g, b, a = "1"] = m.map(String);
-    if (Number(a) < 0.5) continue;
-    return 0.2126 * Number(r) + 0.7152 * Number(g) + 0.0722 * Number(b) < 140;
-  }
-  return false;
 }

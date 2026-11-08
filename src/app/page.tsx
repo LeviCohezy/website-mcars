@@ -17,9 +17,12 @@ export default function Home() {
       <AboutStats />
       <ServicesPhilosophy />
       <WhyChooseUs />
-      <ProcessSection />
-      <QuoteContact />
-      <SiteFooterLight />
+      {/* Slides over the pinned video section (sticky, z-20) */}
+      <div className="relative z-30 -mx-2 bg-white px-2">
+        <ProcessSection />
+        <QuoteContact />
+        <SiteFooterLight />
+      </div>
       <VariantSwitcher sectionId="home" />
     </div>
   );
