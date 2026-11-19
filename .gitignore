@@ -44,3 +44,6 @@ next-env.d.ts
 /docs/
 /inspiration/
 /assets/
+
+# CMS inbox: requests and uploads stored locally (see src/lib/inbox/store.ts)
+/.data/

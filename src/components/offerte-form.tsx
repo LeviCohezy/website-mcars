@@ -5,6 +5,8 @@ import { createPortal } from "react-dom";
 import { useTranslations } from "next-intl";
 import { site } from "@/lib/site";
 import OfferteSummary from "./offerte-summary";
+import { sendToInbox } from "@/lib/inbox/client";
+import type { Stop } from "@/lib/inbox/types";
 
 /*
  * Offerte autotransport — the full quote form on /offerte.
@@ -18,9 +20,10 @@ import OfferteSummary from "./offerte-summary";
  *   trust row → "Offerte aanvragen"
  * The reference's orange accent becomes white-on-black here.
  *
- * Delivery: like the rest of the site, submitting opens a pre-filled e-mail to
- * info@mcars.be (no backend yet). E-mail links can't carry attachments, so the
- * confirmation lists the chosen photos and asks to attach them.
+ * Delivery: the request, with the photos and documents per car, goes to the CMS
+ * inbox (/cms). Without an inbox (the static preview) it falls back to a
+ * pre-filled e-mail to info@mcars.be; e-mail links can't carry attachments, so
+ * that confirmation lists the chosen photos and asks to attach them.
  * Prefill: /offerte?van=…&naar=…&datum=… (sent by the Home 02 quote bar).
  */
 
@@ -49,10 +52,9 @@ const LAND_KEYS: Record<string, string> = {
 };
 
 type Leg = { mode: "depot" | "adres"; land: string; stad: string; postcode: string; straat: string; datum: string };
-// Uploaded files live only in the browser (object URLs) for previewing; the
-// e-mail lists their names and asks the customer to attach them.
+// Uploaded files keep the File for sending and an object URL for previewing.
 // `kind`: car photos (gallery) vs. documents such as a volmacht.
-type Upload = { name: string; url: string; image: boolean; pdf: boolean; kind: "photo" | "doc" };
+type Upload = { name: string; url: string; image: boolean; pdf: boolean; kind: "photo" | "doc"; file: File };
 type Car = { id: number; merk: string; model: string; bouwjaar: string; staat: string; extra: string; aantal: number; files: Upload[] };
 
 const emptyLeg = (): Leg => ({ mode: "depot", land: "", stad: "", postcode: "", straat: "", datum: "" });
@@ -114,6 +116,7 @@ export default function OfferteForm({ stepped = false, defaults }: { stepped?: b
 
 function OfferteFormInner({ search, stepped, defaults }: { search: string; stepped: boolean; defaults?: Defaults }) {
   const t = useTranslations("OfferteForm");
+  const ti = useTranslations("Inbox");
   const steps = [t("steps.depart"), t("steps.destination"), t("steps.car"), t("steps.contact")];
   const landLabel = (l: string) => (LAND_KEYS[l] ? t(`countries.${LAND_KEYS[l]}`) : l);
   const q = new URLSearchParams(search);
@@ -134,6 +137,9 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
   const [klant, setKlant] = useState<"Particulier" | "Bedrijf">("Particulier");
   const [contact, setContact] = useState({ bedrijf: "", btw: "", naam: "", email: "", telefoon: "", bericht: "" });
   const [sent, setSent] = useState<string[] | null>(null);
+  /** true: stored in the CMS inbox; false: handed to the mail client. */
+  const [stored, setStored] = useState(false);
+  const [busy, setBusy] = useState(false);
   const [tried, setTried] = useState(false);
   const [step, setStep] = useState(0);
   const formRef = useRef<HTMLFormElement>(null);
@@ -164,11 +170,41 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
   // E-mail text below stays Dutch on purpose: the Mcars office reads it, whatever the site language.
   const fmt = (iso: string) => (iso ? iso.split("-").reverse().join("/") : "geen voorkeur");
 
-  function submit(e: React.FormEvent) {
+  async function submit(e: React.FormEvent) {
     e.preventDefault();
     setTried(true);
+    if (busy) return;
     if (!valid) {
       if (stepped) setStep(stepOk.findIndex((ok) => !ok));
+      return;
+    }
+    const legStop = (l: Leg): Stop =>
+      l.mode === "depot" ? { depot: true, datum: l.datum } : { land: l.land, stad: l.stad, postcode: l.postcode, straat: l.straat, datum: l.datum };
+    setBusy(true);
+    const ok = await sendToInbox(
+      {
+        kind: "offerte",
+        form: stepped ? "offerte-plaats" : "offerte",
+        klant: {
+          type: klant,
+          naam: contact.naam,
+          email: contact.email,
+          telefoon: contact.telefoon,
+          ...(klant === "Bedrijf" ? { bedrijf: contact.bedrijf, btw: contact.btw } : {}),
+        },
+        bericht: contact.bericht,
+        rit: { retour, van: legStop(vertrek), naar: legStop(bestemming) },
+        autos: cars.map((c) => ({
+          merk: c.merk, model: c.model, bouwjaar: c.bouwjaar, extra: c.extra, aantal: c.aantal,
+          staat: STAAT.find((s) => s.id === c.staat)?.labelNl,
+        })),
+      },
+      cars.flatMap((c, i) => c.files.map((f) => ({ field: `car${i}.${f.kind}`, file: f.file }))),
+    );
+    setBusy(false);
+    if (ok) {
+      setStored(true);
+      setSent([]);
       return;
     }
     const files = cars.flatMap((c) => c.files.map((f) => f.name));
@@ -205,9 +241,9 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
     return (
       <div className="rounded-3xl bg-white/[0.04] p-8 text-white ring-1 ring-white/10 sm:p-12">
         <p className="text-sm font-medium tracking-widest text-white/50 uppercase">{t("sent.eyebrow")}</p>
-        <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">{t("sent.title")}</h2>
+        <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">{stored ? ti("sentTitle") : t("sent.title")}</h2>
         <p className="mt-4 max-w-xl text-base leading-relaxed text-white/70">
-          {t("sent.body", { email: site.email })}
+          {stored ? ti("sentBody") : t("sent.body", { email: site.email })}
         </p>
         {sent.length > 0 && (
           <div className="mt-6 rounded-2xl bg-white/[0.06] p-5 ring-1 ring-white/10">
@@ -421,10 +457,12 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
         )}
         <button
           type="submit"
-          className="group mt-6 flex min-h-14 w-full items-center justify-center gap-3 rounded-2xl bg-white text-base font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
+          disabled={busy}
+          aria-busy={busy || undefined}
+          className="group mt-6 flex disabled:cursor-wait disabled:opacity-70 min-h-14 w-full items-center justify-center gap-3 rounded-2xl bg-white text-base font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
         >
           <I name="send" className="size-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          {t("submit")}
+          {busy ? ti("sending") : t("submit")}
         </button>
         <p className="mt-3 text-center text-sm text-white/50">
           {t.rich("note", { br: () => <br className="hidden sm:block" /> })}
@@ -692,7 +730,7 @@ function CarFields({
     set({
       files: [
         ...car.files,
-        ...list.map((f) => ({ name: f.name, url: URL.createObjectURL(f), image: f.type.startsWith("image/"), pdf: f.type === "application/pdf", kind })),
+        ...list.map((f) => ({ name: f.name, url: URL.createObjectURL(f), image: f.type.startsWith("image/"), pdf: f.type === "application/pdf", kind, file: f })),
       ],
     });
   const drop = (url: string) => {

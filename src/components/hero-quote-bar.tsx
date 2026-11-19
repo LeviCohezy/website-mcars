@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { site } from "@/lib/site";
+import { sendToInbox } from "@/lib/inbox/client";
+import { OPTIES_NL, STAAT_NL } from "@/lib/inbox/types";
 
 /**
  * Hero quote form, in three steps (fields from the client intake briefing §7):
@@ -12,8 +14,9 @@ import { site } from "@/lib/site";
  *   3  Uw gegevens: particulier/bedrijf · naam · e-mail · telefoon
  *
  * Steps slide in smoothly; steps 2 and 3 have a back button. On the last step
- * the request opens in the visitor's mail client to info@mcars.be (no backend,
- * same as the other forms), then a short confirmation replaces the fields.
+ * the request goes to the CMS inbox (/cms), or, without an inbox (the static
+ * preview), opens in the visitor's mail client to info@mcars.be; then a short
+ * confirmation replaces the fields.
  *
  * Layouts (unchanged look):
  *   bar    horizontal glass bar          (service pages)
@@ -50,6 +53,9 @@ export default function HeroQuoteBar({
   className?: string;
 }) {
   const t = useTranslations("HeroQuoteBar");
+  const ti = useTranslations("Inbox");
+  const [stored, setStored] = useState(false);
+  const [busy, setBusy] = useState(false);
   const card = layout === "card";
   const panel = layout === "panel";
   const home = layout === "home";
@@ -77,12 +83,32 @@ export default function HeroQuoteBar({
     : "w-full min-w-0 bg-transparent text-sm text-white placeholder:text-white/70 focus:outline-none";
   const select = `${input} cursor-pointer appearance-none pr-6 [&>option]:text-zinc-950`;
 
-  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     // Native validation for the fields of the step on screen.
     if (!formRef.current?.reportValidity()) return;
     if (step < STEPS.length - 1) {
       setStep(step + 1);
+      return;
+    }
+    if (busy) return;
+    setBusy(true);
+    const ok = await sendToInbox({
+      kind: "offerte",
+      form: "snel",
+      service,
+      klant: { type: v.klant === "business" ? "Bedrijf" : "Particulier", naam: v.naam, email: v.email, telefoon: v.telefoon },
+      rit: {
+        van: { adres: v.van, datum: v.datum, zoSnelMogelijk: !v.datum },
+        naar: v.levering === "depot" ? { depot: true } : { adres: v.naar },
+        opties: OPTIES_NL[v.extras],
+      },
+      autos: [{ model: v.voertuig, staat: STAAT_NL[v.toestand], aantal: 1 }],
+    });
+    setBusy(false);
+    if (ok) {
+      setStored(true);
+      setSent(true);
       return;
     }
     const lines = [
@@ -172,9 +198,9 @@ export default function HeroQuoteBar({
       {sent ? (
         <Pane key="sent">
           <div className={`flex flex-col items-start gap-1 ${stacked ? "" : "px-2 py-1.5"}`}>
-            <p className={`text-base font-medium ${panel ? "text-zinc-950" : "text-white"}`}>{t("thanks")}</p>
-            <p className={`text-sm ${muted}`}>{t("thanksSub")}</p>
-            <button type="button" onClick={() => { setSent(false); setStep(0); }} className={`mt-2 cursor-pointer text-sm underline underline-offset-4 ${muted}`}>
+            <p className={`text-base font-medium ${panel ? "text-zinc-950" : "text-white"}`}>{stored ? ti("sentTitle") : t("thanks")}</p>
+            <p className={`text-sm ${muted}`}>{stored ? ti("sentBody") : t("thanksSub")}</p>
+            <button type="button" onClick={() => { setSent(false); setStored(false); setStep(0); }} className={`mt-2 cursor-pointer text-sm underline underline-offset-4 ${muted}`}>
               {t("newRequest")}
             </button>
           </div>

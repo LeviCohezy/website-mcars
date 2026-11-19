@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useFormatter, useLocale, useTranslations } from "next-intl";
+import { sendToInbox } from "@/lib/inbox/client";
+import { STAAT_NL } from "@/lib/inbox/types";
 import { DayPicker } from "react-day-picker";
 import { de, enGB, es, fr, it, nl } from "react-day-picker/locale";
 import "react-day-picker/style.css";
@@ -297,6 +299,9 @@ function NiceSelect({
 
 export default function QuoteContact() {
   const t = useTranslations("QuoteContact");
+  const ti = useTranslations("Inbox");
+  const [stored, setStored] = useState(false);
+  const [busy, setBusy] = useState(false);
   const format = useFormatter();
   const [step, setStep] = useState(0);
   const [type, setType] = useState<"particulier" | "bedrijf">("particulier");
@@ -357,9 +362,38 @@ export default function QuoteContact() {
         })
       : "-";
 
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (busy) return;
     const data = new FormData(e.currentTarget);
+    const str = (k: string) => String(data.get(k) ?? "").trim();
+    const iso = (d?: Date) =>
+      d ? `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}` : undefined;
+    setBusy(true);
+    const ok = await sendToInbox({
+      kind: "offerte",
+      form: "homepage",
+      klant: {
+        type: type === "bedrijf" ? "Bedrijf" : "Particulier",
+        naam: [str("voornaam"), str("achternaam")].filter(Boolean).join(" "),
+        email: str("email"),
+        telefoon: str("telefoon"),
+        ...(type === "bedrijf" ? { bedrijf: str("bedrijf"), btw: str("btw") } : {}),
+      },
+      bericht: str("opmerking"),
+      rit: {
+        van: { adres: ophaal, datum: asap ? undefined : iso(ophaalDate), zoSnelMogelijk: asap },
+        naar: depot ? { depot: true, datum: iso(leverDate) } : { adres: lever, datum: iso(leverDate) },
+        opties: data.get("topbox") ? "Topbox of fietsdrager aanwezig" : undefined,
+      },
+      autos: vehicleIds.map((id) => ({
+        model: str(`voertuig-${id}`),
+        staat: STAAT_NL[toestanden[id]],
+        aantal: Number(str(`aantal-${id}`)) || 1,
+      })),
+    });
+    setBusy(false);
+    if (ok) return setStored(true);
     const vehicles = vehicleIds.map(
       (id, i) =>
         t("mail.vehicleLine", {
@@ -431,6 +465,12 @@ export default function QuoteContact() {
           </div>
 
           {/* Right: white multistep card */}
+          {stored ? (
+            <div role="status" className="rounded-3xl bg-white p-6 shadow-2xl sm:p-8">
+              <p className="text-2xl font-medium tracking-tight text-zinc-950">{ti("sentTitle")}</p>
+              <p className="mt-3 text-base leading-relaxed text-zinc-500">{ti("sentBody")}</p>
+            </div>
+          ) : (
           <form
             onSubmit={onSubmit}
             className="rounded-3xl bg-white p-6 shadow-2xl sm:p-8"
@@ -761,6 +801,7 @@ export default function QuoteContact() {
               )}
             </div>
           </form>
+          )}
         </div>
       </div>
     </section>

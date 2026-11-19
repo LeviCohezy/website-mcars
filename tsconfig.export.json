@@ -1,0 +1,6 @@
+{
+  "//": "Static export (EXPORT=true): leaves out the server-only *.local.ts(x) routes and the dev server's route types, which list /cms and /api/inbox.",
+  "extends": "./tsconfig.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "**/*.mts"],
+  "exclude": ["node_modules", "**/*.local.ts", "**/*.local.tsx"]
+}
