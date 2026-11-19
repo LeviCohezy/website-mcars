@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { useTranslations } from "next-intl";
 import { countries } from "@/data/europe-map";
 
 /*
@@ -46,12 +47,13 @@ export default function OfferteSummary({
 }: {
   cars: SummaryCar[]; from: SummaryStop; to: SummaryStop; retour: boolean;
 }) {
+  const t = useTranslations("OfferteSummary");
   const total = cars.reduce((n, c) => n + c.aantal, 0);
   return (
     <div>
       <RouteMap from={from} to={to} retour={retour} />
       <p className="mt-8 text-sm font-medium text-white">
-        Uw voertuigen <span className="text-white/45">({total})</span>
+        {t("yourCars")} <span className="text-white/45">({total})</span>
       </p>
       <CarCarousel cars={cars} />
     </div>
@@ -59,6 +61,7 @@ export default function OfferteSummary({
 }
 
 function CarCarousel({ cars }: { cars: SummaryCar[] }) {
+  const t = useTranslations("OfferteSummary");
   const track = useRef<HTMLUListElement>(null);
   const go = (dir: 1 | -1) => track.current?.scrollBy({ left: dir * track.current.clientWidth, behavior: "smooth" });
   return (
@@ -85,12 +88,12 @@ function CarCarousel({ cars }: { cars: SummaryCar[] }) {
               </span>
             </div>
             <div className="p-4">
-              <p className="truncate text-base font-medium text-white">{c.title || `Auto ${i + 1}`}</p>
+              <p className="truncate text-base font-medium text-white">{c.title || t("carN", { n: i + 1 })}</p>
               <dl className="mt-3 divide-y divide-white/10 border-t border-white/10 text-sm">
                 {[
-                  ["Aantal", `${c.aantal}x`],
-                  ["Bouwjaar", c.bouwjaar || "—"],
-                  ["Staat", c.staat],
+                  [t("quantity"), `${c.aantal}x`],
+                  [t("year"), c.bouwjaar || "—"],
+                  [t("condition"), c.staat],
                 ].map(([k, v]) => (
                   <div key={k} className="flex justify-between gap-3 py-2">
                     <dt className="text-white/50">{k}</dt>
@@ -109,7 +112,7 @@ function CarCarousel({ cars }: { cars: SummaryCar[] }) {
               key={d}
               type="button"
               onClick={() => go(d)}
-              aria-label={d < 0 ? "Vorige auto's" : "Volgende auto's"}
+              aria-label={d < 0 ? t("prevCars") : t("nextCars")}
               className="flex size-10 items-center justify-center rounded-full text-white ring-1 ring-white/25 transition-colors hover:bg-white hover:text-zinc-950"
             >
               <svg className={`size-4 ${d < 0 ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -124,6 +127,7 @@ function CarCarousel({ cars }: { cars: SummaryCar[] }) {
 }
 
 function RouteMap({ from, to, retour }: { from: SummaryStop; to: SummaryStop; retour: boolean }) {
+  const t = useTranslations("OfferteSummary");
   const a = pointOf(from);
   let b = pointOf(to);
   // Same spot (e.g. depot → address in Belgium): nudge the end so the route shows.
@@ -153,7 +157,7 @@ function RouteMap({ from, to, retour }: { from: SummaryStop; to: SummaryStop; re
 
   return (
     <div className="overflow-hidden rounded-2xl bg-zinc-950 ring-1 ring-white/10">
-      <svg viewBox={`${vx} ${vy} ${w} ${h}`} className="block aspect-[2/1] w-full" role="img" aria-label={route ? `Route van ${from.label} naar ${to.label}` : "Kaart van Europa"}>
+      <svg viewBox={`${vx} ${vy} ${w} ${h}`} className="block aspect-[2/1] w-full" role="img" aria-label={route ? t("routeLabel", { from: from.label, to: to.label }) : t("mapLabel")}>
         <style>{`
           @keyframes mc-draw { from { stroke-dashoffset: 1 } to { stroke-dashoffset: 0 } }
           @keyframes mc-pulse { 0% { opacity: .6; transform: scale(1) } 100% { opacity: 0; transform: scale(3) } }
@@ -183,10 +187,10 @@ function RouteMap({ from, to, retour }: { from: SummaryStop; to: SummaryStop; re
             <span className="text-white">{from.label}</span>
             <span aria-hidden className="text-white/40">{retour ? "⇄" : "→"}</span>
             <span className="text-white">{to.label}</span>
-            {retour && <span className="ml-auto rounded-full bg-white/10 px-2.5 py-0.5 text-xs text-white/70">Heen en terug</span>}
+            {retour && <span className="ml-auto rounded-full bg-white/10 px-2.5 py-0.5 text-xs text-white/70">{t("roundTrip")}</span>}
           </>
         ) : (
-          <span className="text-white/50">Kies vertrek en bestemming om uw route te zien.</span>
+          <span className="text-white/50">{t("pickRoute")}</span>
         )}
       </div>
     </div>

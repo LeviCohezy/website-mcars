@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Ziele & Routen – Autotransport durch ganz Europa | Mcars",
+  "metaDescription": "Autotransport in Belgien, den Niederlanden, Frankreich, Spanien, Italien und ganz Europa, dazu feste Korridore zwischen den Ländern. Sehen Sie alle Routen von Mcars.",
+  "hero": {
+    "eyebrow": "Ziele & Routen",
+    "title": "Ab Belgien.<br></br>Durch ganz Europa.<br></br><muted>Jede Woche.</muted>",
+    "subtitle": "Unsere Nische: Belgien und die Niederlande Richtung Frankreich bis Nordspanien. Und darüber hinaus fahren wir überallhin.",
+    "crumb": "Routen",
+    "cta": "Angebot anfragen"
+  },
+  "countries": {
+    "label": "Länder",
+    "lead": "Autotransport",
+    "trail": "nach Reiseziel.",
+    "intro": "Von täglichen Fahrten innerhalb Belgiens bis zu wöchentlichen Touren durch ganz Frankreich. Wählen Sie Ihr Ziel für Städte, Frequenz und praktische Infos.",
+    "cities": "{count} Städte"
+  },
+  "band": {
+    "line": "Jede Woche quer durch Frankreich, mit festen Stopps unterwegs.",
+    "caption": "Von Roeselare bis Nordspanien"
+  }
+}

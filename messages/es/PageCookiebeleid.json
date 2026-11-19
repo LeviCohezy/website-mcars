@@ -1,0 +1,38 @@
+{
+  "metaTitle": "Política de cookies | Mcars",
+  "metaDescription": "Qué cookies utiliza Mcars: funcionales, analíticas y de marketing, para qué sirven y cómo gestionar o retirar su consentimiento.",
+  "heroEyebrow": "Aviso legal",
+  "heroTitle": "Política de cookies",
+  "heroSubtitle": "Qué cookies utilizamos y cómo gestionarlas.",
+  "crumb": "Política de cookies",
+  "sideLabel": "Cookies",
+  "noticeLabel": "Atención:",
+  "noticeText": "Este es un texto provisional. Haga revisar este documento jurídicamente antes de su publicación.",
+  "intro": "Esta política de cookies explica cómo {legalName} utiliza cookies y tecnologías similares en este sitio web. Al utilizar nuestro sitio web y, cuando proceda, dar su consentimiento, usted acepta el uso de cookies tal como se describe a continuación.",
+  "sections": {
+    "s1": {
+      "title": "1. ¿Qué son las cookies?",
+      "body": "Las cookies son pequeños archivos de texto que se colocan en su dispositivo cuando visita un sitio web. Hacen que el sitio funcione correctamente, recuerdan sus preferencias y nos ayudan a entender cómo se utiliza. Además de cookies, también pueden emplearse técnicas similares como píxeles y almacenamiento local."
+    },
+    "s2": {
+      "title": "2. ¿Qué tipos de cookies utilizamos?",
+      "body": "Las <strong>cookies funcionales</strong> son necesarias para que el sitio web funcione correctamente. No pueden desactivarse. <br></br> Las <strong>cookies analíticas</strong> nos ayudan a mejorar el sitio web registrando de forma anónima cómo utilizan nuestras páginas los visitantes. <br></br> Las <strong>cookies de marketing</strong> se utilizan para hacer los anuncios más relevantes y medir el alcance de nuestras campañas. Solo se instalan con su consentimiento."
+    },
+    "s3": {
+      "title": "3. Consentimiento y gestión",
+      "body": "En su primera visita le pedimos su consentimiento para las cookies no necesarias. Puede modificar o retirar sus preferencias en cualquier momento a través de la configuración de cookies del sitio web. Además, puede gestionar o eliminar las cookies desde la configuración de su navegador. Desactivar determinadas cookies puede afectar al funcionamiento del sitio web."
+    },
+    "s4": {
+      "title": "4. Cookies de terceros",
+      "body": "Algunas cookies son instaladas por servicios de terceros que utilizamos en nuestro sitio web, por ejemplo para incrustar mapas o medir el uso del sitio. Estas partes pueden aplicar su propia política de privacidad y de cookies."
+    },
+    "s5": {
+      "title": "5. Modificaciones",
+      "body": "Podemos modificar esta política de cookies de vez en cuando, por ejemplo cuando cambiemos nuestro sitio web o las técnicas utilizadas. La versión más reciente está siempre disponible en esta página."
+    },
+    "s6": {
+      "title": "6. Contacto",
+      "body": "¿Quiere saber más sobre cómo tratamos sus datos? Lea nuestra <privacy>política de privacidad</privacy> o <contact>póngase en contacto</contact> con nosotros en {email}."
+    }
+  }
+}

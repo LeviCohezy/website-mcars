@@ -1,0 +1,38 @@
+{
+  "metaTitle": "Cookie-Richtlinie | Mcars",
+  "metaDescription": "Welche Cookies Mcars verwendet: funktionale, analytische und Marketing-Cookies, wofür sie dienen und wie Sie Ihre Einwilligung verwalten oder widerrufen.",
+  "heroEyebrow": "Rechtliches",
+  "heroTitle": "Cookie-Richtlinie",
+  "heroSubtitle": "Welche Cookies wir verwenden und wie Sie sie verwalten.",
+  "crumb": "Cookie-Richtlinie",
+  "sideLabel": "Cookies",
+  "noticeLabel": "Hinweis:",
+  "noticeText": "Dies ist ein vorläufiger Text. Lassen Sie dieses Dokument vor der Veröffentlichung rechtlich prüfen.",
+  "intro": "Diese Cookie-Richtlinie erklärt, wie {legalName} Cookies und ähnliche Technologien auf dieser Website verwendet. Indem Sie unsere Website nutzen und, wo erforderlich, Ihre Einwilligung erteilen, stimmen Sie der Verwendung von Cookies wie nachstehend beschrieben zu.",
+  "sections": {
+    "s1": {
+      "title": "1. Was sind Cookies?",
+      "body": "Cookies sind kleine Textdateien, die bei einem Besuch einer Website auf Ihrem Gerät abgelegt werden. Sie sorgen dafür, dass die Website einwandfrei funktioniert, merken sich Ihre Präferenzen und helfen uns zu verstehen, wie die Website genutzt wird. Neben Cookies können auch vergleichbare Technologien wie Pixel und Local Storage zum Einsatz kommen."
+    },
+    "s2": {
+      "title": "2. Welche Arten von Cookies verwenden wir?",
+      "body": "<strong>Funktionale Cookies</strong> sind notwendig, damit die Website korrekt funktioniert. Sie können nicht deaktiviert werden. <br></br> <strong>Analytische Cookies</strong> helfen uns, die Website zu verbessern, indem sie anonym erfassen, wie Besucher unsere Seiten nutzen. <br></br> <strong>Marketing-Cookies</strong> werden verwendet, um Werbung relevanter zu gestalten und die Reichweite unserer Kampagnen zu messen. Diese werden nur nach Ihrer Einwilligung gesetzt."
+    },
+    "s3": {
+      "title": "3. Einwilligung und Verwaltung",
+      "body": "Bei Ihrem ersten Besuch bitten wir um Ihre Einwilligung für nicht notwendige Cookies. Sie können Ihre Präferenzen jederzeit über die Cookie-Einstellungen auf der Website anpassen oder widerrufen. Außerdem können Sie Cookies über die Einstellungen Ihres Browsers verwalten oder löschen. Das Deaktivieren bestimmter Cookies kann sich allerdings auf die Funktion der Website auswirken."
+    },
+    "s4": {
+      "title": "4. Cookies von Dritten",
+      "body": "Einige Cookies werden von Diensten Dritter gesetzt, die wir auf unserer Website nutzen, zum Beispiel zum Einbetten von Karten oder zur Messung der Websitenutzung. Diese Parteien können eigene Datenschutz- und Cookie-Richtlinien haben."
+    },
+    "s5": {
+      "title": "5. Änderungen",
+      "body": "Wir können diese Cookie-Richtlinie von Zeit zu Zeit anpassen, zum Beispiel wenn wir unsere Website oder die verwendeten Technologien ändern. Die aktuellste Version ist stets auf dieser Seite verfügbar."
+    },
+    "s6": {
+      "title": "6. Kontakt",
+      "body": "Möchten Sie mehr darüber wissen, wie wir mit Ihren Daten umgehen? Lesen Sie unsere <privacy>Datenschutzerklärung</privacy> oder nehmen Sie <contact>Kontakt</contact> mit uns auf unter {email}."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "countries": {
+    "belgium": "Belgio",
+    "netherlands": "Paesi Bassi",
+    "germany": "Germania",
+    "luxembourg": "Lussemburgo",
+    "switzerland": "Svizzera",
+    "italy": "Italia",
+    "spain": "Spagna",
+    "france": "Francia",
+    "austria": "Austria"
+  },
+  "homeBase": "sede principale",
+  "mapTitleDark": "Mcars trasporta auto",
+  "mapTitleLight": "in tutta Europa.",
+  "services": {
+    "classic": "Auto d’epoca e speciali",
+    "nonRunning": "Veicoli non funzionanti",
+    "urgent": "Urgenze e rimpatri"
+  },
+  "eyebrow": "I nostri servizi",
+  "titleDark": "Per ogni veicolo ",
+  "titleLight": "una soluzione.",
+  "intro": "Qualità, affidabilità e un approccio personale. Dall’importazione all’esportazione fino a intere flotte: ogni incarico riceve la stessa cura, dal preventivo alla consegna. Così rendiamo il trasporto auto semplice, chiaro e senza pensieri, per aziende e privati.",
+  "cards": {
+    "fleet": {
+      "tag": "Flotta",
+      "caption": "Trasporto di flotte per tutto il Suo parco auto"
+    },
+    "import": {
+      "tag": "Importazione",
+      "caption": "Importazione da tutta Europa"
+    },
+    "export": {
+      "tag": "Esportazione",
+      "caption": "Esportazione verso qualsiasi destinazione"
+    }
+  },
+  "regionsTitle": "Le regioni in cui viaggiamo:",
+  "regionsText": "Corridoi fissi dalla nostra sede in Belgio, percorsi ogni settimana. Dal Benelux fino in profondità nel Sud Europa.",
+  "networkCta": "Scopra la nostra rete"
+}

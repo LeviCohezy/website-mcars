@@ -1,0 +1,46 @@
+{
+  "metaTitle": "Informativa sulla privacy | Mcars",
+  "metaDescription": "Come Mcars BV tratta i Suoi dati personali: quali dati trattiamo, perché, per quanto tempo li conserviamo e quali diritti Lei ha ai sensi del GDPR.",
+  "heroEyebrow": "Informazioni legali",
+  "heroTitle": "Informativa sulla privacy",
+  "heroSubtitle": "Come trattiamo i Suoi dati personali e tuteliamo la Sua privacy.",
+  "crumb": "Informativa sulla privacy",
+  "sideLabel": "Privacy",
+  "noticeLabel": "Attenzione:",
+  "noticeText": "Questo è un testo provvisorio. Far verificare questo documento da un punto di vista legale prima della messa online.",
+  "intro": "{legalName} attribuisce grande importanza alla protezione dei Suoi dati personali e rispetta la Sua privacy. In questa informativa spieghiamo quali dati raccogliamo, perché lo facciamo e come può esercitare i Suoi diritti. La presente informativa è redatta in conformità al Regolamento generale sulla protezione dei dati (GDPR).",
+  "sections": {
+    "s1": {
+      "title": "1. Titolare del trattamento",
+      "body": "{legalName}, con sede legale in {street}, {city}, {country} (IVA {vat}), è il titolare del trattamento dei dati personali trattati tramite questo sito web e nell’ambito dei nostri servizi. Per qualsiasi domanda può contattarci all’indirizzo <mail>{email}</mail> o al numero {phone}."
+    },
+    "s2": {
+      "title": "2. Quali dati raccogliamo?",
+      "body": "A seconda del Suo contatto con noi, possiamo trattare i seguenti dati: dati identificativi e di contatto (nome, indirizzo, indirizzo e-mail, numero di telefono), dati sulla Sua richiesta di trasporto (indirizzo di ritiro e di consegna, dati del veicolo), la corrispondenza che intrattiene con noi e, se del caso, dati di fatturazione e aziendali (numero di impresa, partita IVA)."
+    },
+    "s3": {
+      "title": "3. Finalità del trattamento",
+      "body": "Trattiamo i Suoi dati per gestire e rispondere alla Sua richiesta di preventivo, per pianificare ed eseguire il trasporto, per comunicare con Lei, per curare la nostra fatturazione e contabilità e per adempiere ai nostri obblighi di legge. La base giuridica è l’esecuzione di un contratto, il nostro legittimo interesse, l’adempimento di un obbligo di legge oppure, ove applicabile, il Suo consenso."
+    },
+    "s4": {
+      "title": "4. Periodo di conservazione",
+      "body": "Conserviamo i Suoi dati personali per non più del tempo necessario alle finalità per cui sono stati raccolti. I dati di fatturazione e contabili vengono conservati per il periodo previsto dalla legge. Le richieste che non sfociano in un contratto vengono cancellate dopo un periodo ragionevole."
+    },
+    "s5": {
+      "title": "5. Condivisione con terzi",
+      "body": "Non vendiamo mai i Suoi dati. Li condividiamo solo con le parti necessarie al nostro servizio (come i nostri partner IT, contabili o di trasporto) e solo nella misura in cui è indispensabile. Queste parti sono vincolate alla riservatezza e trattano i Suoi dati esclusivamente per nostro conto."
+    },
+    "s6": {
+      "title": "6. I Suoi diritti (GDPR)",
+      "body": "Lei ha il diritto di accedere ai Suoi dati personali, di rettificarli, cancellarli e limitarne il trattamento, il diritto alla portabilità e il diritto di opporsi al trattamento. Se il trattamento si basa sul consenso, può revocarlo in qualsiasi momento. Per esercitare un diritto, ci contatti all’indirizzo <mail>{email}</mail>. Ha inoltre il diritto di presentare un reclamo all’Autorità per la protezione dei dati (www.gegevensbeschermingsautoriteit.be)."
+    },
+    "s7": {
+      "title": "7. Cookie",
+      "body": "Il nostro sito web utilizza i cookie. Troverà maggiori informazioni sui cookie che usiamo e su come gestirli nella nostra <cookies>politica sui cookie</cookies>."
+    },
+    "s8": {
+      "title": "8. Contatti",
+      "body": "Ha domande su questa informativa sulla privacy o sul trattamento dei Suoi dati? Ci <contact>contatti</contact> pure all’indirizzo {email} o al numero {phone}."
+    }
+  }
+}

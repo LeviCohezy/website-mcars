@@ -1,0 +1,38 @@
+{
+  "metaTitle": "Politique en matière de cookies | Mcars",
+  "metaDescription": "Les cookies utilisés par Mcars : cookies fonctionnels, analytiques et marketing, leur utilité et comment gérer ou retirer votre consentement.",
+  "heroEyebrow": "Mentions légales",
+  "heroTitle": "Politique en matière de cookies",
+  "heroSubtitle": "Les cookies que nous utilisons et comment les gérer.",
+  "crumb": "Politique en matière de cookies",
+  "sideLabel": "Cookies",
+  "noticeLabel": "Attention :",
+  "noticeText": "Ce texte est provisoire. Faites relire ce document par un juriste avant la mise en ligne.",
+  "intro": "Cette politique en matière de cookies explique comment {legalName} utilise des cookies et des technologies similaires sur ce site web. En utilisant notre site et, le cas échéant, en donnant votre consentement, vous acceptez l’utilisation de cookies telle que décrite ci-dessous.",
+  "sections": {
+    "s1": {
+      "title": "1. Que sont les cookies ?",
+      "body": "Les cookies sont de petits fichiers texte placés sur votre appareil lors de la visite d’un site web. Ils permettent au site de bien fonctionner, mémorisent vos préférences et nous aident à comprendre comment le site est utilisé. Outre les cookies, des technologies similaires, comme les pixels et le stockage local, peuvent également être utilisées."
+    },
+    "s2": {
+      "title": "2. Quels types de cookies utilisons-nous ?",
+      "body": "<strong>Les cookies fonctionnels</strong> sont nécessaires au bon fonctionnement du site. Ils ne peuvent pas être désactivés. <br></br> <strong>Les cookies analytiques</strong> nous aident à améliorer le site en suivant de manière anonyme la façon dont les visiteurs utilisent nos pages. <br></br> <strong>Les cookies marketing</strong> servent à rendre les publicités plus pertinentes et à mesurer la portée de nos campagnes. Ils ne sont placés qu’avec votre consentement."
+    },
+    "s3": {
+      "title": "3. Consentement et gestion",
+      "body": "Lors de votre première visite, nous demandons votre consentement pour les cookies non essentiels. Vous pouvez à tout moment modifier ou retirer vos préférences via les paramètres de cookies du site. Vous pouvez aussi gérer ou supprimer les cookies via les paramètres de votre navigateur. La désactivation de certains cookies peut toutefois avoir un impact sur le fonctionnement du site."
+    },
+    "s4": {
+      "title": "4. Cookies de tiers",
+      "body": "Certains cookies sont placés par des services tiers que nous utilisons sur notre site, par exemple pour intégrer des cartes ou mesurer l’utilisation du site. Ces tiers peuvent appliquer leur propre politique de confidentialité et de cookies."
+    },
+    "s5": {
+      "title": "5. Modifications",
+      "body": "Nous pouvons modifier cette politique en matière de cookies de temps à autre, par exemple lorsque nous changeons notre site ou les technologies utilisées. La version la plus récente est toujours disponible sur cette page."
+    },
+    "s6": {
+      "title": "6. Contact",
+      "body": "Vous souhaitez en savoir plus sur la manière dont nous traitons vos données ? Lisez notre <privacy>politique de confidentialité</privacy> ou <contact>contactez-nous</contact> via {email}."
+    }
+  }
+}

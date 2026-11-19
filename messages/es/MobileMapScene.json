@@ -1,0 +1,14 @@
+{
+  "countries": {
+    "france": "Francia",
+    "belgium": "Bélgica",
+    "netherlands": "Países Bajos",
+    "germany": "Alemania",
+    "spain": "España",
+    "italy": "Italia"
+  },
+  "routesCta": "Ver nuestras rutas",
+  "titleLead": "Las regiones ",
+  "titleTail": "por las que circulamos.",
+  "intro": "Corredores fijos desde nuestra base en Bélgica, recorridos cada semana."
+}

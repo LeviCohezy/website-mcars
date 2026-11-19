@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Papierkram & Versicherung",
+  "title": "Papierkram, Versicherung und Dokumente? <muted>Darum kümmern wir uns.</muted>",
+  "cta": "Angebot anfragen",
+  "points": {
+    "cmr": {
+      "title": "CMR-Frachtbrief",
+      "text": "Bei der Abholung erstellen wir die CMR, mit Abhol- und Lieferadresse und den Daten Ihres Fahrzeugs."
+    },
+    "inspection": {
+      "title": "Inspektion & Fotos",
+      "text": "Ihr Fahrzeug wird bei der Abholung geprüft und fotografiert. Bestehende Schäden sind so schwarz auf weiß festgehalten."
+    },
+    "pod": {
+      "title": "Ablieferbeleg bei Lieferung",
+      "text": "Bei der Ablieferung quittiert der Empfänger den Erhalt. Sie haben den Nachweis, dass Ihr Fahrzeug gut angekommen ist."
+    },
+    "insured": {
+      "title": "Versicherter Transport",
+      "text": "Ihr Fahrzeug ist auf der gesamten Strecke versichert, von der Abholung bis zur Lieferung."
+    },
+    "noHassle": {
+      "title": "Sie müssen sich um nichts kümmern",
+      "text": "Keine Formulare oder Verwaltung für Sie. Wir kümmern uns um alle Dokumente."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "steps": {
+    "transport": "Transport",
+    "vehicles": "Véhicules",
+    "details": "Vos coordonnées"
+  },
+  "condition": {
+    "runs": "Démarre et roule",
+    "rolls": "Ne démarre pas, peut rouler",
+    "blocked": "Ne démarre pas, bloquée"
+  },
+  "customerType": {
+    "particulier": "Particulier",
+    "bedrijf": "Entreprise"
+  },
+  "customerTypeAria": "Type de client",
+  "optional": "(facultatif)",
+  "pickDate": "Choisissez une date",
+  "dateInvalid": "Choisissez une date ou cochez « immédiatement ».",
+  "eyebrow": "( Devis )",
+  "title": "Dites-nous ce qui doit rouler",
+  "intro": "Demandez votre devis en trois courtes étapes. Vous recevez une réponse personnelle de notre équipe sous 24 heures — pas de mails automatiques, mais un prix ferme.",
+  "stepOf": "Étape {step} sur {total}",
+  "pickupAddress": "Adresse d’enlèvement",
+  "deliveryAddress": "Adresse de livraison",
+  "addressPlaceholder": "Rue, commune, pays",
+  "depotPlaceholder": "Dépôt Mcars, Roeselare",
+  "depotLabel": "Livraison au dépôt Mcars (plus avantageux, retrait possible 24h/24 et 7j/7)",
+  "availableForPickup": "Disponible pour l’enlèvement",
+  "asap": "Immédiatement",
+  "desiredDelivery": "Date de livraison souhaitée",
+  "vehicle": "Véhicule",
+  "doesItStart": "La voiture démarre-t-elle ?",
+  "quantity": "Nombre",
+  "makeModel": "Marque et modèle",
+  "vehicleMakeModelAria": "Véhicule {n} : marque et modèle",
+  "vehicleStartsAria": "Véhicule {n} : la voiture démarre-t-elle ?",
+  "vehicleQuantityAria": "Véhicule {n} : nombre",
+  "vehicleRemoveAria": "Supprimer le véhicule {n}",
+  "addVehicle": "Ajouter un autre véhicule",
+  "topbox": "Coffre de toit ou porte-vélos présent",
+  "firstName": "Prénom",
+  "lastName": "Nom",
+  "company": "Nom de l’entreprise",
+  "vat": "Numéro de TVA",
+  "vatPlaceholder": "BE 0xxx.xxx.xxx",
+  "phone": "Téléphone",
+  "remarks": "Remarques",
+  "remarksPlaceholder": "Particularités concernant le véhicule ou le transport",
+  "back": "Retour",
+  "next": "Suivant",
+  "submit": "Envoyer la demande"
+}

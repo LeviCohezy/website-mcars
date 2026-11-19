@@ -1,0 +1,86 @@
+{
+  "steps": {
+    "route": "Route",
+    "vehicle": "Uw voertuig",
+    "details": "Uw gegevens"
+  },
+  "condition": {
+    "runs": "Start en rijdt",
+    "rolls": "Start niet, wel verrolbaar",
+    "blocked": "Start niet, geblokkeerd"
+  },
+  "extras": {
+    "none": "Geen topbox of fietsdrager",
+    "topbox": "Topbox",
+    "bike": "Fietsdrager",
+    "both": "Topbox en fietsdrager"
+  },
+  "delivery": {
+    "address": "Levering op het leveradres",
+    "depot": "Levering op het Mcars-depot (voordeliger, 24/7)",
+    "depotShort": "Op het Mcars-depot (24/7)"
+  },
+  "customer": {
+    "private": "Particulier",
+    "business": "Bedrijf"
+  },
+  "cta": {
+    "plan": "Plan transport",
+    "price": "Prijs aanvragen",
+    "next": "Volgende",
+    "send": "Verstuur aanvraag"
+  },
+  "back": "Terug",
+  "progress": "Stap {step} van {total} · <b>{name}</b>",
+  "thanks": "Bedankt — uw aanvraag staat klaar in uw mailprogramma.",
+  "thanksSub": "Verstuur de mail en u krijgt binnen 24 uur een persoonlijk antwoord.",
+  "newRequest": "Nieuwe aanvraag",
+  "swapAria": "Wissel vertrek- en bestemmingslocatie",
+  "fields": {
+    "pickup": "Ophaaladres",
+    "delivery": "Leveradres",
+    "date": "Ophaaldatum",
+    "vehicle": "Merk en model",
+    "condition": "Toestand",
+    "extras": "Topbox of fietsdrager",
+    "deliveryType": "Levering",
+    "customer": "Particulier of bedrijf",
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon"
+  },
+  "placeholders": {
+    "address": "Straat, gemeente, land",
+    "origin": "Vertreklocatie",
+    "destination": "Bestemmingslocatie",
+    "pickup": "Ophaaladres",
+    "delivery": "Leveradres",
+    "pickupDate": "Kies een datum",
+    "arrivalDate": "Aankomstdatum",
+    "date": "Ophaaldatum",
+    "vehiclePanel": "Bv. Volkswagen Golf",
+    "vehicle": "Merk en model",
+    "namePanel": "Voor- en achternaam",
+    "name": "Naam",
+    "emailPanel": "naam@voorbeeld.be",
+    "email": "E-mail",
+    "phonePanel": "Optioneel",
+    "phone": "Telefoon (optioneel)"
+  },
+  "mail": {
+    "subject": "Offerteaanvraag transport",
+    "service": "Dienst: {value}",
+    "customerType": "Type klant: {value}",
+    "name": "Naam: {value}",
+    "email": "E-mail: {value}",
+    "phone": "Telefoon: {value}",
+    "pickup": "Ophaaladres: {value}",
+    "delivery": "Leveradres: {value}",
+    "depotAddress": "Mcars-depot, Roeselare",
+    "date": "Beschikbaar voor ophaling: {value}",
+    "asap": "zo snel mogelijk",
+    "vehicle": "Voertuig: {value}",
+    "condition": "Toestand: {value}",
+    "extras": "Topbox / fietsdrager: {value}"
+  }
+}

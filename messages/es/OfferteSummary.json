@@ -1,0 +1,13 @@
+{
+  "yourCars": "Sus vehículos",
+  "carN": "Coche {n}",
+  "quantity": "Cantidad",
+  "year": "Año de fabricación",
+  "condition": "Estado",
+  "prevCars": "Coches anteriores",
+  "nextCars": "Coches siguientes",
+  "routeLabel": "Ruta de {from} a {to}",
+  "mapLabel": "Mapa de Europa",
+  "roundTrip": "Ida y vuelta",
+  "pickRoute": "Elija origen y destino para ver su ruta."
+}

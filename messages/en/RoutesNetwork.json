@@ -1,0 +1,11 @@
+{
+  "sectionLabel": "Direct between countries",
+  "globeLabel": "Globe showing the roads between {count} countries",
+  "eyebrow": "Fixed corridors",
+  "title": "Direct <muted>between countries.</muted>",
+  "departFrom": "Departing from",
+  "chooseCountry": "Choose a country",
+  "fixed": "Fixed run",
+  "hint": "{count} countries, {total} combinations. Choose a departure country and see where we drive to directly.",
+  "combinations": "combinations"
+}

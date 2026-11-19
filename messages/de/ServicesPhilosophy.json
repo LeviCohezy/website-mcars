@@ -1,0 +1,42 @@
+{
+  "countries": {
+    "belgium": "Belgien",
+    "netherlands": "Niederlande",
+    "germany": "Deutschland",
+    "luxembourg": "Luxemburg",
+    "switzerland": "Schweiz",
+    "italy": "Italien",
+    "spain": "Spanien",
+    "france": "Frankreich",
+    "austria": "Österreich"
+  },
+  "homeBase": "Heimatbasis",
+  "mapTitleDark": "Mcars transportiert Autos",
+  "mapTitleLight": "in ganz Europa.",
+  "services": {
+    "classic": "Oldtimer & Sonderfahrzeuge",
+    "nonRunning": "Nicht fahrbereite Fahrzeuge",
+    "urgent": "Eilauftrag & Rückführung"
+  },
+  "eyebrow": "Unsere Leistungen",
+  "titleDark": "Für jedes Fahrzeug ",
+  "titleLight": "eine Lösung.",
+  "intro": "Qualität, Zuverlässigkeit und persönliche Betreuung. Von Import und Export bis zu kompletten Flotten: Jeder Auftrag erhält dieselbe Sorgfalt, vom Angebot bis zur Lieferung. So machen wir Autotransport einfach, klar und sorgenfrei – für Unternehmen und Privatkunden.",
+  "cards": {
+    "fleet": {
+      "tag": "Flotte",
+      "caption": "Flottentransport für Ihren gesamten Fuhrpark"
+    },
+    "import": {
+      "tag": "Import",
+      "caption": "Import aus ganz Europa"
+    },
+    "export": {
+      "tag": "Export",
+      "caption": "Export in jedes Zielland"
+    }
+  },
+  "regionsTitle": "Die Regionen, in die wir fahren:",
+  "regionsText": "Feste Korridore ab unserer Heimatbasis in Belgien, jede Woche aufs Neue gefahren. Von den Benelux-Ländern bis tief nach Südeuropa.",
+  "networkCta": "Unser Netzwerk ansehen"
+}

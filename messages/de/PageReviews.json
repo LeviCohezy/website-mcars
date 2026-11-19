@@ -1,0 +1,25 @@
+{
+  "metaTitle": "Bewertungen | Mcars",
+  "metaDescription": "Das sagen Kunden über Mcars. Google-Bewertung 4,7 aus 37 Rezensionen – von Privatkunden sowie von Händlern und Unternehmen.",
+  "hero": {
+    "eyebrow": "Bewertungen",
+    "title": "Das sagen Kunden über uns.",
+    "subtitle": "Eine 4,7 auf Google, aufgebaut von Privatkunden und Händlern, die uns ihr Fahrzeug anvertraut haben.",
+    "crumb": "Bewertungen",
+    "badgeScore": "{score} / 5 auf Google",
+    "badgeClients": "{clients} Kunden",
+    "cta": "Angebot"
+  },
+  "rating": {
+    "eyebrow": "Google-Bewertung",
+    "reviews": "{count} Rezensionen",
+    "body": "Unsere Bewertungen werden live über Google aktualisiert. Nachfolgend eine repräsentative Auswahl dessen, was Kunden schreiben.",
+    "cta": "Auf Google ansehen"
+  },
+  "quotes": {
+    "label": "Kundenstimmen",
+    "lead": "Von Privatkunden",
+    "trail": "und von Händlern und Unternehmen.",
+    "note": "Die angezeigten Rezensionen sind anonymisiert. Die aktuellen Bewertungen werden live über Google aktualisiert."
+  }
+}

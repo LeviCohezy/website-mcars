@@ -1,3 +1,4 @@
+import { useLocale, useTranslations } from "next-intl";
 import Globe from "@/components/globe";
 
 /*
@@ -7,21 +8,22 @@ import Globe from "@/components/globe";
  */
 
 // Countries from the intake ("Actief in …") plus the corridor countries on the site.
+// iso -> key in the Countries messages.
 const SERVED: Record<string, string> = {
-  BEL: "België",
-  NLD: "Nederland",
-  LUX: "Luxemburg",
-  FRA: "Frankrijk",
-  DEU: "Duitsland",
-  ESP: "Spanje",
-  ITA: "Italië",
-  CHE: "Zwitserland",
-  AUT: "Oostenrijk",
-  POL: "Polen",
-  DNK: "Denemarken",
-  SWE: "Zweden",
-  NOR: "Noorwegen",
-  FIN: "Finland",
+  BEL: "belgie",
+  NLD: "nederland",
+  LUX: "luxemburg",
+  FRA: "frankrijk",
+  DEU: "duitsland",
+  ESP: "spanje",
+  ITA: "italie",
+  CHE: "zwitserland",
+  AUT: "oostenrijk",
+  POL: "polen",
+  DNK: "denemarken",
+  SWE: "zweden",
+  NOR: "noorwegen",
+  FIN: "finland",
 };
 const HOME = "BEL";
 // The same countries as world-atlas numeric ids, for the globe.
@@ -37,20 +39,23 @@ const ICONS = {
 } as const;
 
 export default function RoutesReach({ corridors }: { corridors: number }) {
+  const t = useTranslations("RoutesReach");
+  const tc = useTranslations("Countries");
+  const locale = useLocale();
   const stats = [
-    { label: "Opgericht in", value: "2009", plus: false, icon: "calendar" as const },
-    { label: "Transporten", value: "10.000", plus: true, icon: "truck" as const },
-    { label: "Landen", value: String(Object.keys(SERVED).length), plus: false, icon: "globe" as const },
-    { label: "Routes", value: String(corridors), plus: false, icon: "route" as const },
+    { label: t("stats.founded"), value: "2009", plus: false, icon: "calendar" as const },
+    { label: t("stats.transports"), value: "10.000", plus: true, icon: "truck" as const },
+    { label: t("stats.countries"), value: String(Object.keys(SERVED).length), plus: false, icon: "globe" as const },
+    { label: t("stats.routes"), value: String(corridors), plus: false, icon: "route" as const },
   ];
-  const list = Object.entries(SERVED).sort((a, b) => a[1].localeCompare(b[1], "nl"));
+  const list = Object.entries(SERVED)
+    .map(([iso, key]) => [iso, tc(key)] as const)
+    .sort((a, b) => a[1].localeCompare(b[1], locale));
 
   return (
     <section className="mt-2 overflow-hidden rounded-[2rem] bg-zinc-100 px-5 pt-20 pb-6 sm:px-10 sm:pt-28 sm:pb-10 lg:px-16">
       <h2 className="text-5xl leading-[0.98] font-medium tracking-[-0.04em] text-zinc-950 sm:text-6xl lg:text-7xl">
-        Thuis in België,
-        <br />
-        <span className="text-zinc-400">over alle grenzen.</span>
+        {t.rich("title", { br: () => <br />, muted: (c) => <span className="text-zinc-400">{c}</span> })}
       </h2>
 
       {/* Stat cards */}
@@ -79,32 +84,32 @@ export default function RoutesReach({ corridors }: { corridors: number }) {
           served={GLOBE_IDS}
           home="056"
           marker={DEPOT}
-          label="Wereldbol met de landen waar Mcars naartoe rijdt"
+          label={t("globeLabel")}
           className="absolute inset-x-0 top-0 bottom-0 -mx-5 sm:-mx-10 lg:-mx-16"
         />
         <ul className="absolute right-0 bottom-28 hidden items-center gap-5 text-sm text-zinc-600 sm:flex">
           <li className="flex items-center gap-2">
-            <span className="size-3 rounded-full bg-zinc-800" /> Actief in
+            <span className="size-3 rounded-full bg-zinc-800" /> {t("legendActive")}
           </li>
           <li className="flex items-center gap-2">
-            <span className="size-3 rounded-full border-2 border-zinc-950 bg-white" /> Depot Roeselare
+            <span className="size-3 rounded-full border-2 border-zinc-950 bg-white" /> {t("legendDepot")}
           </li>
         </ul>
       </div>
 
       {/* Country list on frosted glass, over the bottom of the map */}
       <div className="relative z-10 -mt-20 rounded-[1.5rem] bg-white/70 p-6 ring-1 ring-black/[0.04] backdrop-blur-xl sm:-mt-24 sm:p-9">
-        <p className="text-3xl font-medium tracking-[-0.03em] text-zinc-950 sm:text-4xl">Wij rijden door heel Europa</p>
+        <p className="text-3xl font-medium tracking-[-0.03em] text-zinc-950 sm:text-4xl">{t("listTitle")}</p>
         <ul className="mt-6 grid grid-cols-2 gap-x-6 gap-y-2.5 sm:grid-cols-3 lg:grid-cols-4">
           {list.map(([iso, name]) => (
             <li key={iso} className="flex items-center gap-2.5 text-base text-zinc-700">
               {iso === HOME ? (
-                <span aria-label="thuisbasis" className="size-3 flex-none rounded-full border-2 border-zinc-950 bg-white" />
+                <span aria-label={t("homeAria")} className="size-3 flex-none rounded-full border-2 border-zinc-950 bg-white" />
               ) : (
                 <span aria-hidden className="size-1.5 flex-none rounded-full bg-zinc-400" />
               )}
               <span className={iso === HOME ? "font-medium text-zinc-950" : ""}>{name}</span>
-              {iso === HOME && <span className="text-sm text-zinc-400">thuisbasis</span>}
+              {iso === HOME && <span className="text-sm text-zinc-400">{t("home")}</span>}
             </li>
           ))}
         </ul>

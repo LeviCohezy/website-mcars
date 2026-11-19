@@ -1,0 +1,14 @@
+{
+  "countries": {
+    "france": "Frankreich",
+    "belgium": "Belgien",
+    "netherlands": "Niederlande",
+    "germany": "Deutschland",
+    "spain": "Spanien",
+    "italy": "Italien"
+  },
+  "routesCta": "Unsere Routen ansehen",
+  "titleLead": "Die Regionen, ",
+  "titleTail": "in denen wir unterwegs sind.",
+  "intro": "Feste Korridore ab unserer Heimatbasis in Belgien, jede Woche aufs Neue gefahren."
+}

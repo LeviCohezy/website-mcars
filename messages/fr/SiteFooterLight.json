@@ -1,0 +1,28 @@
+{
+  "columns": {
+    "services": "Services",
+    "locations": "Lieux",
+    "routes": "Itinéraires",
+    "pages": "Pages",
+    "info": "Infos & mentions légales"
+  },
+  "links": {
+    "allServices": "Tous les services",
+    "allRoutes": "Tous les itinéraires",
+    "home": "Accueil",
+    "quote": "Demander un devis",
+    "contact": "Contact",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique en matière de cookies"
+  },
+  "index": {
+    "summary": "Tous les services par pays et itinéraire",
+    "show": "Tout afficher",
+    "hide": "Masquer",
+    "routes": "Itinéraires",
+    "moreRoutes": "+ {count} itinéraires",
+    "allPages": "Voir toutes les pages"
+  },
+  "legalLine": "© 2026 Mcars BV — TVA BE 0816.739.802"
+}

@@ -1,0 +1,46 @@
+{
+  "metaTitle": "Politique de confidentialité | Mcars",
+  "metaDescription": "Comment Mcars BV traite vos données personnelles : quelles données nous traitons, pourquoi, combien de temps nous les conservons et quels droits vous avez au titre du RGPD.",
+  "heroEyebrow": "Mentions légales",
+  "heroTitle": "Politique de confidentialité",
+  "heroSubtitle": "Comment nous traitons vos données personnelles et protégeons votre vie privée.",
+  "crumb": "Politique de confidentialité",
+  "sideLabel": "Confidentialité",
+  "noticeLabel": "Attention :",
+  "noticeText": "Ce texte est provisoire. Faites relire ce document par un juriste avant la mise en ligne.",
+  "intro": "{legalName} attache une grande importance à la protection de vos données personnelles et respecte votre vie privée. Dans cette politique de confidentialité, nous expliquons quelles données nous collectons, pourquoi nous le faisons et comment vous pouvez exercer vos droits. Cette politique a été rédigée conformément au Règlement général sur la protection des données (RGPD).",
+  "sections": {
+    "s1": {
+      "title": "1. Responsable du traitement",
+      "body": "{legalName}, dont le siège social est situé à {street}, {city}, {country} (TVA {vat}), est le responsable du traitement des données personnelles traitées via ce site web et dans le cadre de nos services. Pour toute question, vous pouvez nous joindre via <mail>{email}</mail> ou au {phone}."
+    },
+    "s2": {
+      "title": "2. Quelles données collectons-nous ?",
+      "body": "Selon votre contact avec nous, nous pouvons traiter les données suivantes : données d’identification et de contact (nom, adresse, adresse e-mail, numéro de téléphone), données relatives à votre demande de transport (adresse d’enlèvement et de livraison, données du véhicule), la correspondance que vous échangez avec nous et, le cas échéant, des données de facturation et d’entreprise (numéro d’entreprise, numéro de TVA)."
+    },
+    "s3": {
+      "title": "3. Finalités du traitement",
+      "body": "Nous traitons vos données pour traiter et répondre à votre demande de devis, pour planifier et exécuter le transport, pour communiquer avec vous, pour assurer notre facturation et notre comptabilité et pour respecter nos obligations légales. La base juridique est l’exécution d’un contrat, notre intérêt légitime, le respect d’une obligation légale ou, le cas échéant, votre consentement."
+    },
+    "s4": {
+      "title": "4. Durée de conservation",
+      "body": "Nous ne conservons pas vos données personnelles plus longtemps que nécessaire au regard des finalités pour lesquelles elles ont été collectées. Les données de facturation et de comptabilité sont conservées pendant la durée légalement prescrite. Les demandes qui n’aboutissent pas à un contrat sont supprimées après un délai raisonnable."
+    },
+    "s5": {
+      "title": "5. Partage avec des tiers",
+      "body": "Nous ne vendons jamais vos données. Nous ne les partageons qu’avec les partenaires indispensables à nos services (par exemple nos partenaires informatiques, comptables ou de transport) et uniquement dans la mesure nécessaire. Ces partenaires sont tenus à la confidentialité et ne traitent vos données que pour notre compte."
+    },
+    "s6": {
+      "title": "6. Vos droits (RGPD)",
+      "body": "Vous disposez d’un droit d’accès, de rectification, d’effacement et de limitation du traitement de vos données personnelles, ainsi que d’un droit à la portabilité et d’un droit d’opposition au traitement. Lorsque le traitement repose sur votre consentement, vous pouvez le retirer à tout moment. Pour exercer un droit, contactez-nous via <mail>{email}</mail>. Vous avez également le droit d’introduire une réclamation auprès de l’Autorité de protection des données (www.autoriteprotectiondonnees.be)."
+    },
+    "s7": {
+      "title": "7. Cookies",
+      "body": "Notre site utilise des cookies. Vous trouverez plus d’informations sur les cookies que nous utilisons et sur la manière de les gérer dans notre <cookies>politique en matière de cookies</cookies>."
+    },
+    "s8": {
+      "title": "8. Contact",
+      "body": "Vous avez des questions sur cette politique de confidentialité ou sur le traitement de vos données ? N’hésitez pas à <contact>nous contacter</contact> via {email} ou {phone}."
+    }
+  }
+}

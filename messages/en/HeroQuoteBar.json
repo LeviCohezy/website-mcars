@@ -1,0 +1,68 @@
+{
+  "steps": {
+    "route": "Route",
+    "vehicle": "Your vehicle",
+    "details": "Your details"
+  },
+  "condition": {
+    "runs": "Starts and drives",
+    "rolls": "Does not start, but can roll",
+    "blocked": "Does not start, locked"
+  },
+  "extras": {
+    "none": "No roof box or bike rack",
+    "topbox": "Roof box",
+    "bike": "Bike rack",
+    "both": "Roof box and bike rack"
+  },
+  "delivery": {
+    "address": "Delivery to the delivery address",
+    "depot": "Delivery to the Mcars depot (cheaper, 24/7)",
+    "depotShort": "At the Mcars depot (24/7)"
+  },
+  "customer": {
+    "private": "Private",
+    "business": "Business"
+  },
+  "cta": {
+    "plan": "Plan transport",
+    "price": "Request a price",
+    "next": "Next",
+    "send": "Send request"
+  },
+  "back": "Back",
+  "progress": "Step {step} of {total} · <b>{name}</b>",
+  "thanks": "Thank you — your request is ready in your email program.",
+  "thanksSub": "Send the email and you will receive a personal reply within 24 hours.",
+  "newRequest": "New request",
+  "swapAria": "Swap departure and destination",
+  "fields": {
+    "pickup": "Collection address",
+    "delivery": "Delivery address",
+    "date": "Collection date",
+    "vehicle": "Make and model",
+    "condition": "Condition",
+    "extras": "Roof box or bike rack",
+    "deliveryType": "Delivery",
+    "customer": "Private or business",
+    "name": "Name",
+    "phone": "Phone"
+  },
+  "placeholders": {
+    "address": "Street, town, country",
+    "origin": "Departure location",
+    "destination": "Destination",
+    "pickup": "Collection address",
+    "delivery": "Delivery address",
+    "pickupDate": "Choose a date",
+    "arrivalDate": "Arrival date",
+    "date": "Collection date",
+    "vehiclePanel": "E.g. Volkswagen Golf",
+    "vehicle": "Make and model",
+    "namePanel": "First and last name",
+    "name": "Name",
+    "emailPanel": "name@example.com",
+    "phonePanel": "Optional",
+    "phone": "Phone (optional)"
+  }
+}

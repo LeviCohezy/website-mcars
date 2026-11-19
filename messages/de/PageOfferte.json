@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Angebot anfordern | Mcars",
+    "description": "Fordern Sie unverbindlich Ihren Preis für den Autotransport an. Innerhalb von 24 Stunden erhalten Sie eine persönliche Antwort mit Preis und Planung — kein Rechner, keine automatische E-Mail."
+  },
+  "hero": {
+    "eyebrow": "Schnell · sicher · zuverlässig",
+    "title": "Angebot Autotransport",
+    "lead": "Füllen Sie das folgende Formular aus und erhalten Sie schnell ein unverbindliches Angebot für den Transport Ihres Fahrzeugs."
+  },
+  "form": {
+    "title": "Planen Sie Ihren Transport. <muted>In vier kurzen Schritten.</muted>",
+    "intro": "Abfahrt, Ziel, Ihr Auto und Ihre Daten — wir senden Ihnen innerhalb von 24 Stunden einen persönlichen Preis und eine Planung."
+  },
+  "factors": {
+    "label": "Was bestimmt den Preis?",
+    "lead": "Jede Fahrt ist anders.",
+    "trail": "Das fließt in Ihr Angebot ein.",
+    "intro": "Wir rechnen nicht mit festen Tarifen ab. Ihren Preis stellen wir von Hand anhand dieser Faktoren zusammen — so passt er zu Ihrem konkreten Transport.",
+    "items": [
+      {
+        "title": "Entfernung",
+        "body": "Je weiter die Fahrt, desto mehr Kilometer und Zeit. Die Entfernung zwischen Abhol- und Lieferadresse bestimmt den Preis mit."
+      },
+      {
+        "title": "Fahrzeugtyp",
+        "body": "Abmessungen und Gewicht spielen eine Rolle. Ein Kompaktwagen wird anders verladen als ein Transporter, SUV oder Oldtimer."
+      },
+      {
+        "title": "Fahrbereit oder nicht fahrbereit",
+        "body": "Fährt das Fahrzeug, ist es rollfähig oder völlig blockiert? Für nicht fahrbereite Fahrzeuge stellen wir Seilwinde oder Gabelstapler bereit."
+      },
+      {
+        "title": "Extras an Bord",
+        "body": "Eine Dachbox, ein Fahrradträger oder Gegenstände im Fahrzeug? Teilen Sie es uns mit — es beeinflusst, wie wir verladen und planen."
+      },
+      {
+        "title": "Eilauftrag oder normale Planung",
+        "body": "Passt Ihre Fahrt zu unseren bestehenden Routen, oder muss es dringend sein? Die Planung fließt in den Preis ein."
+      },
+      {
+        "title": "Land der Abholung/Lieferung",
+        "body": "Innerhalb Belgiens oder weit nach Europa hinein: Das Land der Abholung und Lieferung bestimmt Route und Kosten mit."
+      }
+    ]
+  },
+  "reassurance": [
+    {
+      "title": "Antwort innerhalb von 24 Stunden",
+      "body": "Sie erhalten schnell einen Preis und eine mögliche Planung zurück — kein tagelanges Warten."
+    },
+    {
+      "title": "Persönlich, kein Rechner",
+      "body": "Jedes Angebot wird von unserem Team von Hand erstellt und auf Ihre Situation abgestimmt."
+    },
+    {
+      "title": "Wir antworten selbst",
+      "body": "Keine automatische Bestätigungs-E-Mail. Sie hören direkt von einem Menschen bei Mcars."
+    }
+  ],
+  "faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "title": "Zu Ihrem Angebot. <muted>Kurz erklärt.</muted>",
+    "phone": "Nicht sicher, welche Angaben Sie benötigen? Rufen Sie <link>{phone}</link> an — wir helfen Ihnen persönlich weiter.",
+    "contact": "Kontakt aufnehmen",
+    "items": [
+      {
+        "q": "Wie schnell erhalte ich eine Antwort auf meine Anfrage?",
+        "a": "Innerhalb von 24 Stunden erhalten Sie eine persönliche Antwort mit dem Preis und der möglichen Planung. Jede Anfrage wird von Hand geprüft — Sie erhalten also keine automatische Bestätigungs-E-Mail, wir antworten selbst."
+      },
+      {
+        "q": "Welche Angaben benötige ich, um ein Angebot anzufordern?",
+        "a": "Praktisch zur Hand zu haben: ob Sie Privatkunde oder Unternehmen sind, Abhol- und Lieferadresse (oder unser Depot), das Fahrzeug und sein Zustand (startet und fährt, rollfähig oder blockiert, mit oder ohne Dachbox) sowie das gewünschte Datum. Je vollständiger Ihre Anfrage, desto genauer können wir Ihren Preis bestimmen."
+      },
+      {
+        "q": "Kann ich an Ihrem Depot liefern oder abholen lassen?",
+        "a": "Ja. Lieferung oder Abholung an unserem Depot in Roeselare ist möglich und in der Regel günstiger als bei Ihnen zu Hause. Geben Sie es bei Ihrer Anfrage an, dann berücksichtigen wir es."
+      },
+      {
+        "q": "Wie läuft die Zahlung ab?",
+        "a": "Privatkunden zahlen vor der Abholung. Unternehmen zahlen ganz einfach auf Rechnung. Die praktischen Absprachen treffen wir vorab mit Ihnen."
+      }
+    ]
+  }
+}

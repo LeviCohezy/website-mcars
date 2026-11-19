@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Leistungen — Autotransport nach Maß | Mcars",
+    "description": "Vom Privattransport bis zum Fuhrpark, Import, Export, Oldtimern und Eiltransporten. Entdecken Sie alle Autotransport-Leistungen von Mcars in Belgien und Europa."
+  },
+  "hero": {
+    "eyebrow": "Unsere Leistungen",
+    "title": "Für jedes Fahrzeug die richtige Lösung.",
+    "subtitle": "Vom einzelnen Privatfahrzeug bis zum kompletten Fuhrpark — Transportlösungen in Belgien und ganz Europa.",
+    "crumb": "Leistungen",
+    "badgeCount": "{count} Leistungen",
+    "badgeContact": "Ein Ansprechpartner",
+    "cta": "Angebot"
+  },
+  "overview": {
+    "label": "Übersicht",
+    "lead": "Elf Möglichkeiten, Ihr Fahrzeug zu bewegen,",
+    "trail": "ein Team, das alles regelt.",
+    "intro": "Ob Familienfahrzeug, Bestand für den Showroom oder ein Klassiker, der nicht mehr fährt: Sie sprechen mit den Menschen, die die Fahrt auch tatsächlich durchführen."
+  }
+}

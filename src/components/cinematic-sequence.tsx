@@ -23,7 +23,7 @@
  */
 
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useEffect, useRef, useSyncExternalStore } from "react";
 import { asset } from "@/lib/asset";
 import HeroSearchWidget from "./hero-search-widget";

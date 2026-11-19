@@ -1,0 +1,9 @@
+{
+  "metaTitle": "{title} | Mcars",
+  "breadcrumb": "Breadcrumb",
+  "team": "The Mcars team",
+  "minRead": "{minutes} min read",
+  "writtenBy": "Written by <b>the Mcars team</b> · {date}",
+  "related": "Also read",
+  "allArticles": "All articles"
+}

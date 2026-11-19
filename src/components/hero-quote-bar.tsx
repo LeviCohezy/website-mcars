@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 import { site } from "@/lib/site";
 
 /**
@@ -24,12 +25,13 @@ import { site } from "@/lib/site";
 type Layout = "bar" | "card" | "panel" | "home";
 type Values = Record<string, string>;
 
-const STEPS = ["Route", "Uw voertuig", "Uw gegevens"] as const;
+const STEPS = ["route", "vehicle", "details"] as const;
 
-const TOESTAND = ["Start en rijdt", "Start niet, wel verrolbaar", "Start niet, geblokkeerd"];
-const EXTRAS = ["Geen topbox of fietsdrager", "Topbox", "Fietsdrager", "Topbox en fietsdrager"];
-const LEVERING = ["Levering op het leveradres", "Levering op het Mcars-depot (voordeliger, 24/7)"];
-const KLANT = ["Particulier", "Bedrijf"];
+// Option values are message keys (the labels come from the messages).
+const TOESTAND = ["runs", "rolls", "blocked"];
+const EXTRAS = ["none", "topbox", "bike", "both"];
+const LEVERING = ["address", "depot"];
+const KLANT = ["private", "business"];
 
 export default function HeroQuoteBar({
   service,
@@ -47,6 +49,7 @@ export default function HeroQuoteBar({
   defaults?: { van?: string; naar?: string };
   className?: string;
 }) {
+  const t = useTranslations("HeroQuoteBar");
   const card = layout === "card";
   const panel = layout === "panel";
   const home = layout === "home";
@@ -83,27 +86,27 @@ export default function HeroQuoteBar({
       return;
     }
     const lines = [
-      service ? `Dienst: ${service}` : "",
-      `Type klant: ${v.klant}`,
-      `Naam: ${v.naam}`,
-      `E-mail: ${v.email}`,
-      `Telefoon: ${v.telefoon || "-"}`,
+      service ? t("mail.service", { value: service }) : "",
+      t("mail.customerType", { value: t(`customer.${v.klant}`) }),
+      t("mail.name", { value: v.naam }),
+      t("mail.email", { value: v.email }),
+      t("mail.phone", { value: v.telefoon || "-" }),
       "",
-      `Ophaaladres: ${v.van}`,
-      `Leveradres: ${v.levering === LEVERING[1] ? "Mcars-depot, Roeselare" : v.naar}`,
-      `Beschikbaar voor ophaling: ${v.datum || "zo snel mogelijk"}`,
+      t("mail.pickup", { value: v.van }),
+      t("mail.delivery", { value: v.levering === LEVERING[1] ? t("mail.depotAddress") : v.naar }),
+      t("mail.date", { value: v.datum || t("mail.asap") }),
       "",
-      `Voertuig: ${v.voertuig}`,
-      `Toestand: ${v.toestand}`,
-      `Topbox / fietsdrager: ${v.extras}`,
+      t("mail.vehicle", { value: v.voertuig }),
+      t("mail.condition", { value: t(`condition.${v.toestand}`) }),
+      t("mail.extras", { value: t(`extras.${v.extras}`) }),
     ].filter((l, i) => l !== "" || i > 0);
-    window.location.href = `mailto:${site.email}?subject=${encodeURIComponent("Offerteaanvraag transport")}&body=${encodeURIComponent(lines.join("\n"))}`;
+    window.location.href = `mailto:${site.email}?subject=${encodeURIComponent(t("mail.subject"))}&body=${encodeURIComponent(lines.join("\n"))}`;
     setSent(true);
   }
 
   const back = () => setStep((s) => Math.max(0, s - 1));
   const last = step === STEPS.length - 1;
-  const cta = step === 0 ? (home ? "Plan transport" : "Prijs aanvragen") : last ? "Verstuur aanvraag" : "Volgende";
+  const cta = step === 0 ? (home ? t("cta.plan") : t("cta.price")) : last ? t("cta.send") : t("cta.next");
 
   const button = (
     <button
@@ -153,10 +156,15 @@ export default function HeroQuoteBar({
             <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
               <path d="M19 12H5M11 18l-6-6 6-6" />
             </svg>
-            Terug
+            {t("back")}
           </button>
           <p className={`text-sm ${muted}`}>
-            Stap {step + 1} van {STEPS.length} · <span className={panel ? "text-zinc-950" : "text-white"}>{STEPS[step]}</span>
+            {t.rich("progress", {
+              step: step + 1,
+              total: STEPS.length,
+              name: t(`steps.${STEPS[step]}`),
+              b: (c) => <span className={panel ? "text-zinc-950" : "text-white"}>{c}</span>,
+            })}
           </p>
         </div>
       )}
@@ -164,10 +172,10 @@ export default function HeroQuoteBar({
       {sent ? (
         <Pane key="sent">
           <div className={`flex flex-col items-start gap-1 ${stacked ? "" : "px-2 py-1.5"}`}>
-            <p className={`text-base font-medium ${panel ? "text-zinc-950" : "text-white"}`}>Bedankt — uw aanvraag staat klaar in uw mailprogramma.</p>
-            <p className={`text-sm ${muted}`}>Verstuur de mail en u krijgt binnen 24 uur een persoonlijk antwoord.</p>
+            <p className={`text-base font-medium ${panel ? "text-zinc-950" : "text-white"}`}>{t("thanks")}</p>
+            <p className={`text-sm ${muted}`}>{t("thanksSub")}</p>
             <button type="button" onClick={() => { setSent(false); setStep(0); }} className={`mt-2 cursor-pointer text-sm underline underline-offset-4 ${muted}`}>
-              Nieuwe aanvraag
+              {t("newRequest")}
             </button>
           </div>
         </Pane>
@@ -176,29 +184,29 @@ export default function HeroQuoteBar({
           <div className={`flex flex-col ${panel ? "gap-4" : "gap-2"} ${stacked ? "" : "lg:flex-row lg:items-center"}`}>
             {step === 0 && (
               <>
-                <Field icon={<PinIcon />} label="Ophaaladres" panel={panel}>
-                  <input name="van" required value={v.van} onChange={set("van")} placeholder={panel ? "Straat, gemeente, land" : home ? "Vertreklocatie" : "Ophaaladres"} className={input} />
+                <Field icon={<PinIcon />} label={t("fields.pickup")} panel={panel}>
+                  <input name="van" required value={v.van} onChange={set("van")} placeholder={panel ? t("placeholders.address") : home ? t("placeholders.origin") : t("placeholders.pickup")} className={input} />
                 </Field>
                 {home && (
                   <button
                     type="button"
-                    aria-label="Wissel vertrek- en bestemmingslocatie"
+                    aria-label={t("swapAria")}
                     onClick={() => setV((p) => ({ ...p, van: p.naar, naar: p.van }))}
                     className="hidden size-9 flex-none cursor-pointer items-center justify-center self-center rounded-full bg-white text-zinc-900 shadow-md transition-transform hover:scale-105 lg:flex"
                   >
                     <SwapIcon />
                   </button>
                 )}
-                <Field icon={<FlagIcon />} label="Leveradres" panel={panel}>
-                  <input name="naar" required value={v.naar} onChange={set("naar")} placeholder={panel ? "Straat, gemeente, land" : home ? "Bestemmingslocatie" : "Leveradres"} className={input} />
+                <Field icon={<FlagIcon />} label={t("fields.delivery")} panel={panel}>
+                  <input name="naar" required value={v.naar} onChange={set("naar")} placeholder={panel ? t("placeholders.address") : home ? t("placeholders.destination") : t("placeholders.delivery")} className={input} />
                 </Field>
-                <Field icon={<CalendarIcon />} label="Ophaaldatum" panel={panel}>
+                <Field icon={<CalendarIcon />} label={t("fields.date")} panel={panel}>
                   <input
                     name="datum"
                     type={v.datum ? "date" : "text"}
                     value={v.datum}
                     onChange={set("datum")}
-                    placeholder={panel ? "Kies een datum" : home ? "Aankomstdatum" : "Ophaaldatum"}
+                    placeholder={panel ? t("placeholders.pickupDate") : home ? t("placeholders.arrivalDate") : t("placeholders.date")}
                     onFocus={(e) => (e.currentTarget.type = "date")}
                     onBlur={(e) => {
                       if (!e.currentTarget.value) e.currentTarget.type = "text";
@@ -211,22 +219,22 @@ export default function HeroQuoteBar({
 
             {step === 1 && (
               <>
-                <Field icon={<CarIcon />} label="Merk en model" panel={panel}>
-                  <input name="voertuig" required value={v.voertuig} onChange={set("voertuig")} placeholder={panel ? "Bv. Volkswagen Golf" : "Merk en model"} className={input} />
+                <Field icon={<CarIcon />} label={t("fields.vehicle")} panel={panel}>
+                  <input name="voertuig" required value={v.voertuig} onChange={set("voertuig")} placeholder={panel ? t("placeholders.vehiclePanel") : t("placeholders.vehicle")} className={input} />
                 </Field>
-                <Field icon={<KeyIcon />} label="Toestand" panel={panel} select>
+                <Field icon={<KeyIcon />} label={t("fields.condition")} panel={panel} select>
                   <select name="toestand" value={v.toestand} onChange={set("toestand")} className={select}>
-                    {TOESTAND.map((o) => <option key={o}>{o}</option>)}
+                    {TOESTAND.map((o) => <option key={o} value={o}>{t(`condition.${o}`)}</option>)}
                   </select>
                 </Field>
-                <Field icon={<BoxIcon />} label="Topbox of fietsdrager" panel={panel} select>
+                <Field icon={<BoxIcon />} label={t("fields.extras")} panel={panel} select>
                   <select name="extras" value={v.extras} onChange={set("extras")} className={select}>
-                    {EXTRAS.map((o) => <option key={o}>{o}</option>)}
+                    {EXTRAS.map((o) => <option key={o} value={o}>{t(`extras.${o}`)}</option>)}
                   </select>
                 </Field>
-                <Field icon={<FlagIcon />} label="Levering" panel={panel} select>
+                <Field icon={<FlagIcon />} label={t("fields.deliveryType")} panel={panel} select>
                   <select name="levering" value={v.levering} onChange={set("levering")} className={select}>
-                    {LEVERING.map((o) => <option key={o} value={o}>{o === LEVERING[1] && !panel && !stacked ? "Op het Mcars-depot (24/7)" : o}</option>)}
+                    {LEVERING.map((o) => <option key={o} value={o}>{o === LEVERING[1] && !panel && !stacked ? t("delivery.depotShort") : t(`delivery.${o}`)}</option>)}
                   </select>
                 </Field>
               </>
@@ -234,19 +242,19 @@ export default function HeroQuoteBar({
 
             {step === 2 && (
               <>
-                <Field icon={<UserIcon />} label="Particulier of bedrijf" panel={panel} select>
+                <Field icon={<UserIcon />} label={t("fields.customer")} panel={panel} select>
                   <select name="klant" value={v.klant} onChange={set("klant")} className={select}>
-                    {KLANT.map((o) => <option key={o}>{o}</option>)}
+                    {KLANT.map((o) => <option key={o} value={o}>{t(`customer.${o}`)}</option>)}
                   </select>
                 </Field>
-                <Field icon={<UserIcon />} label="Naam" panel={panel}>
-                  <input name="naam" required autoComplete="name" value={v.naam} onChange={set("naam")} placeholder={panel ? "Voor- en achternaam" : "Naam"} className={input} />
+                <Field icon={<UserIcon />} label={t("fields.name")} panel={panel}>
+                  <input name="naam" required autoComplete="name" value={v.naam} onChange={set("naam")} placeholder={panel ? t("placeholders.namePanel") : t("placeholders.name")} className={input} />
                 </Field>
-                <Field icon={<MailIcon />} label="E-mail" panel={panel}>
-                  <input name="email" type="email" required autoComplete="email" value={v.email} onChange={set("email")} placeholder={panel ? "naam@voorbeeld.be" : "E-mail"} className={input} />
+                <Field icon={<MailIcon />} label={t("fields.email")} panel={panel}>
+                  <input name="email" type="email" required autoComplete="email" value={v.email} onChange={set("email")} placeholder={panel ? t("placeholders.emailPanel") : t("placeholders.email")} className={input} />
                 </Field>
-                <Field icon={<PhoneIcon />} label="Telefoon" panel={panel}>
-                  <input name="telefoon" type="tel" autoComplete="tel" value={v.telefoon} onChange={set("telefoon")} placeholder={panel ? "Optioneel" : "Telefoon (optioneel)"} className={input} />
+                <Field icon={<PhoneIcon />} label={t("fields.phone")} panel={panel}>
+                  <input name="telefoon" type="tel" autoComplete="tel" value={v.telefoon} onChange={set("telefoon")} placeholder={panel ? t("placeholders.phonePanel") : t("placeholders.phone")} className={input} />
                 </Field>
               </>
             )}

@@ -1,0 +1,75 @@
+{
+  "requestPrice": "Richieda il prezzo",
+  "reviews": "Recensioni",
+  "reviewsOnGoogle": "{count} recensioni su Google",
+  "weTransport": "Trasportiamo: {types}",
+  "included": {
+    "label": "Incluso",
+    "title": "Cosa può <muted>aspettarsi da noi.</muted>"
+  },
+  "faq": {
+    "personalAnswer": "Risposta personale",
+    "callUs": "Non trova la Sua domanda? Ci chiami pure."
+  },
+  "price": {
+    "custom": "Su misura",
+    "title": "Un prezzo onesto, <muted>nella Sua casella di posta entro 24 ore.</muted>",
+    "body": "Una persona del nostro team esamina la Sua richiesta. Ciò che vede nel preventivo è ciò che paga: nessuna sorpresa a posteriori.",
+    "savings": "Così risparmia"
+  },
+  "needs": {
+    "request": "Con la richiesta",
+    "documents": "Documenti",
+    "onTheDay": "Il giorno stesso"
+  },
+  "breakdown": {
+    "done": "I soccorsi sono in arrivo.",
+    "safe": {
+      "title": "1 · Prima la sicurezza",
+      "items": [
+        "Porti l’auto il più possibile in sicurezza a bordo strada e accenda le luci di emergenza.",
+        "Indossi un giubbotto ad alta visibilità e posizioni il triangolo.",
+        "Attenda dietro il guardrail, non dentro o accanto all’auto."
+      ]
+    },
+    "call": {
+      "title": "2 · Ci chiami",
+      "items": [
+        "Ci comunichi l’ubicazione esatta (via, uscita o chilometro).",
+        "Ci dica di che veicolo si tratta e qual è il problema.",
+        "Ci indichi dove deve essere portata l’auto."
+      ]
+    },
+    "come": {
+      "title": "3 · Arriviamo noi",
+      "items": [
+        "Riceve subito una risposta onesta su quando potremo essere da Lei.",
+        "Carichiamo l’auto in sicurezza con il verricello.",
+        "La portiamo alla Sua officina, a casa o al nostro deposito."
+      ]
+    }
+  },
+  "safety": {
+    "imageAlt": "Un trasportatore di Mcars",
+    "title": "Flotta propria. Autisti fissi. <muted>Nessun subappaltatore.</muted>"
+  },
+  "practice": {
+    "case": "Caso · {tag}",
+    "moreCases": "Vedi altri casi"
+  },
+  "overview": {
+    "label": "Panoramica",
+    "happyClients": "clienti soddisfatti",
+    "activeSince": "attiva dal",
+    "activeSincePill": "Attiva dal {year}",
+    "tags": [
+      "#assicurato",
+      "#CMR",
+      "#flottapropria",
+      "#autistifissi"
+    ],
+    "figures": "Mcars in cifre",
+    "audience": "Per chi",
+    "promise": "Risposta personale entro 24 ore, da qualcuno del nostro team, non da un calcolatore."
+  }
+}

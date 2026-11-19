@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Cases & projects | Mcars",
+  "metaDescription": "A selection of transport jobs carried out by Mcars: from classic car trips and imported cars to non-running vehicles and European business transport. Anonymous, but real.",
+  "hero": {
+    "eyebrow": "Projects",
+    "title": "Transport carried out.",
+    "subtitle": "A selection of trips for private customers and businesses — from classics to entire dealer stock. Anonymous, but genuinely driven.",
+    "crumb": "Cases",
+    "badgeCount": "{count} cases",
+    "badgeSegment": "Private & business",
+    "cta": "Quote"
+  },
+  "header": {
+    "label": "Cases",
+    "lead": "Every trip is different,",
+    "trail": "our approach stays the same.",
+    "intro": "Out of respect for our clients, we keep all cases anonymous — no names, but the real story."
+  },
+  "impact": {
+    "label": "Impact",
+    "lead": "What we deliver",
+    "trail": "every day.",
+    "clients": "Satisfied clients",
+    "experience": "Years of experience",
+    "weekly": "Weekly",
+    "france": "Across France"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "columns": {
+    "services": "Leistungen",
+    "locations": "Standorte",
+    "routes": "Routen",
+    "pages": "Seiten",
+    "info": "Info & Rechtliches"
+  },
+  "links": {
+    "allServices": "Alle Leistungen",
+    "allRoutes": "Alle Routen",
+    "home": "Startseite",
+    "quote": "Angebot anfragen",
+    "contact": "Kontakt",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Richtlinie"
+  },
+  "index": {
+    "summary": "Alle Leistungen nach Land und Route",
+    "show": "Alle anzeigen",
+    "hide": "Ausblenden",
+    "routes": "Routen",
+    "moreRoutes": "+ {count} Routen",
+    "allPages": "Alle Seiten ansehen"
+  },
+  "legalLine": "© 2026 Mcars BV — USt-IdNr. BE 0816.739.802"
+}

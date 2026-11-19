@@ -1,0 +1,46 @@
+{
+  "metaTitle": "Política de privacidad | Mcars",
+  "metaDescription": "Cómo trata Mcars BV sus datos personales: qué datos tratamos, por qué, cuánto tiempo los conservamos y qué derechos tiene usted conforme al RGPD.",
+  "heroEyebrow": "Aviso legal",
+  "heroTitle": "Política de privacidad",
+  "heroSubtitle": "Cómo tratamos sus datos personales y protegemos su privacidad.",
+  "crumb": "Política de privacidad",
+  "sideLabel": "Privacidad",
+  "noticeLabel": "Atención:",
+  "noticeText": "Este es un texto provisional. Haga revisar este documento jurídicamente antes de su publicación.",
+  "intro": "{legalName} concede gran importancia a la protección de sus datos personales y respeta su privacidad. En esta política de privacidad explicamos qué datos recogemos, por qué lo hacemos y cómo puede ejercer sus derechos. Esta política se ha redactado de conformidad con el Reglamento General de Protección de Datos (RGPD).",
+  "sections": {
+    "s1": {
+      "title": "1. Responsable del tratamiento",
+      "body": "{legalName}, con domicilio social en {street}, {city}, {country} (IVA {vat}), es el responsable del tratamiento de los datos personales tratados a través de este sitio web y en el marco de nuestra prestación de servicios. Para cualquier consulta puede ponerse en contacto con nosotros en <mail>{email}</mail> o en el {phone}."
+    },
+    "s2": {
+      "title": "2. ¿Qué datos recogemos?",
+      "body": "Según su contacto con nosotros, podemos tratar los siguientes datos: datos de identificación y de contacto (nombre, dirección, correo electrónico, número de teléfono), datos sobre su solicitud de transporte (dirección de recogida y de entrega, datos del vehículo), la correspondencia que mantenga con nosotros y, en su caso, datos de facturación y de empresa (número de empresa, número de IVA)."
+    },
+    "s3": {
+      "title": "3. Finalidades del tratamiento",
+      "body": "Tratamos sus datos para gestionar y responder a su solicitud de presupuesto, para planificar y ejecutar el transporte, para comunicarnos con usted, para llevar nuestra facturación y contabilidad y para cumplir nuestras obligaciones legales. La base jurídica es la ejecución de un contrato, nuestro interés legítimo, el cumplimiento de una obligación legal o, cuando proceda, su consentimiento."
+    },
+    "s4": {
+      "title": "4. Plazo de conservación",
+      "body": "No conservamos sus datos personales durante más tiempo del necesario para los fines para los que se recogieron. Los datos de facturación y contabilidad se conservan durante el plazo que establece la ley. Las solicitudes que no desembocan en un contrato se eliminan transcurrido un plazo razonable."
+    },
+    "s5": {
+      "title": "5. Comunicación a terceros",
+      "body": "Nunca vendemos sus datos. Solo los compartimos con las partes necesarias para prestar nuestros servicios (como nuestros socios informáticos, contables o de transporte) y únicamente en la medida en que sea necesario. Estas partes están sujetas a un deber de confidencialidad y tratan sus datos exclusivamente por encargo nuestro."
+    },
+    "s6": {
+      "title": "6. Sus derechos (RGPD)",
+      "body": "Usted tiene derecho de acceso, rectificación, supresión y limitación del tratamiento de sus datos personales, derecho a la portabilidad y derecho de oposición al tratamiento. Cuando el tratamiento se base en el consentimiento, puede retirarlo en cualquier momento. Para ejercer un derecho, póngase en contacto con nosotros en <mail>{email}</mail>. Además, tiene derecho a presentar una reclamación ante la Autoridad de Protección de Datos belga (www.gegevensbeschermingsautoriteit.be)."
+    },
+    "s7": {
+      "title": "7. Cookies",
+      "body": "Nuestro sitio web utiliza cookies. Encontrará más información sobre qué cookies utilizamos y cómo puede gestionarlas en nuestra <cookies>política de cookies</cookies>."
+    },
+    "s8": {
+      "title": "8. Contacto",
+      "body": "¿Tiene preguntas sobre esta política de privacidad o sobre el tratamiento de sus datos? No dude en <contact>ponerse en contacto</contact> con nosotros en {email} o en el {phone}."
+    }
+  }
+}

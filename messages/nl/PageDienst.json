@@ -1,0 +1,41 @@
+{
+  "crumb": "Diensten",
+  "reviewsAria": "{score} op 5 op Google — bekijk reviews",
+  "insured": "Verzekerd, met CMR",
+  "imageAlt": "{service} door Mcars",
+  "situations": {
+    "title": "Herkent u zich in een van deze situaties?",
+    "intro": "{count, select, 2 {Twee} 3 {Drie} 4 {Vier} 5 {Vijf} other {Enkele}} situaties waarin klanten ons bellen. Herkent u de uwe? Dan ziet u meteen wat wij voor u regelen."
+  },
+  "why": {
+    "label": "Waarom Mcars",
+    "lead": "Zo pakken we het aan,",
+    "trail": "rit na rit.",
+    "intro": "Eigen vloot, vaste chauffeurs en één aanspreekpunt. Dat blijft bij elke rit hetzelfde."
+  },
+  "process": {
+    "label": "Werkwijze",
+    "lead": "Van aanvraag tot levering,",
+    "trail": "helder en eenvoudig.",
+    "intro": "U weet op elk moment wat er gebeurt en wie u kan bellen."
+  },
+  "price": {
+    "label": "Prijs",
+    "lead": "Wat bepaalt",
+    "trail": "de prijs?",
+    "intro": "We werken niet met een calculator: elke prijs is afgestemd op uw transport. Dit zijn de factoren die meetellen."
+  },
+  "breakdown": { "label": "Bij pech", "lead": "Wat te doen", "trail": "bij pech?" },
+  "needs": { "label": "Voorbereiding", "lead": "Wat we van u", "trail": "nodig hebben." },
+  "included": { "caption": "Eigen vloot · vaste chauffeurs · sinds {year}" },
+  "safety": { "label": "Vloot & veiligheid", "lead": "Zo beschermen we", "trail": "uw wagen." },
+  "practice": { "label": "Uit de praktijk", "lead": "Zo deden we het", "trail": "eerder." },
+  "faq": { "lead": "Veelgestelde vragen", "trail": "over {service}." },
+  "related": {
+    "label": "Ontdek ook",
+    "lead": "Verwante diensten",
+    "trail": "en routes.",
+    "service": "Dienst",
+    "route": "Route"
+  }
+}

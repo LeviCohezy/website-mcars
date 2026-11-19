@@ -1,0 +1,141 @@
+{
+  "metaTitle": "Preguntas frecuentes | Mcars",
+  "metaDescription": "Respuestas a las preguntas frecuentes sobre el transporte de coches: precios, seguro, recogida y entrega, extranjero, vehículos que no circulan, documentos, pago y urgencias.",
+  "heroTitle": "Preguntas frecuentes.",
+  "heroSubtitle": "Las preguntas más habituales sobre el transporte de coches, por temas. ¿No encuentra la suya? Estaremos encantados de ayudarle personalmente.",
+  "badgeAnswers": "{count} respuestas",
+  "badgeTopics": "{count} temas",
+  "cta": "Presupuesto",
+  "topics": "Temas",
+  "stillEyebrow": "¿Otra pregunta?",
+  "stillTitle": "¿No encuentra su pregunta? <muted>Le ayudamos personalmente.</muted>",
+  "stillText": "Recibirá una respuesta clara de alguien que realmente puede planificar su transporte.",
+  "contactCta": "Contactar",
+  "callUs": "O llame al {phone}",
+  "groups": [
+    {
+      "eyebrow": "Precios",
+      "title": "¿Cuánto cuesta",
+      "trail": "un transporte?",
+      "items": [
+        {
+          "q": "¿Cómo se determina el precio?",
+          "a": "Cada precio se hace a medida. Tenemos en cuenta la dirección de recogida y de entrega, la distancia, el vehículo (dimensiones y si circula, rueda o está bloqueado), si es urgente o normal y el país de destino. Así recibe siempre un precio correcto para su situación."
+        },
+        {
+          "q": "¿Recibo un precio de inmediato?",
+          "a": "No trabajamos con una calculadora automática. Cada solicitud se revisa manualmente para que el precio sea el correcto. Recibirá una respuesta personal en 24 horas con precio y planificación."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Seguro",
+      "title": "¿Está asegurado",
+      "trail": "mi coche?",
+      "items": [
+        {
+          "q": "¿Está asegurado mi vehículo durante el transporte?",
+          "a": "Sí. Su vehículo está asegurado durante el transporte. Además, la carta de porte CMR documenta el estado del coche en la recogida, de modo que después no pueda haber discusión."
+        },
+        {
+          "q": "¿Qué ocurre en caso de daños?",
+          "a": "Nuestros conductores registran internamente el estado de cada coche a la salida. Si, por desgracia, ocurriera algo, esa prueba, junto con la CMR, sirve de base para resolverlo todo correctamente."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Recogida y entrega",
+      "title": "Recogida",
+      "trail": "y entrega.",
+      "items": [
+        {
+          "q": "¿Se me avisa cuando llega el conductor?",
+          "a": "Por supuesto. El conductor le llama el mismo día para acordar el momento de la recogida. Al llegar al destino, volvemos a llamarle para la entrega."
+        },
+        {
+          "q": "¿Puedo también recoger o dejar mi coche en el depósito?",
+          "a": "Sí. Nuestro depósito en Roeselare es accesible 24/7 previo acuerdo y suele ser más económico que la entrega a domicilio. Decidimos juntos lo que le resulte más cómodo."
+        },
+        {
+          "q": "¿Pueden recoger en una dirección apartada?",
+          "a": "Sí. Recogemos y entregamos tanto en la ciudad como en direcciones más alejadas. Eso sí, la dirección es uno de los factores que influyen en el precio."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Transporte al extranjero",
+      "title": "Transporte",
+      "trail": "al extranjero.",
+      "items": [
+        {
+          "q": "¿A qué países viajan?",
+          "a": "Operamos en toda Europa, entre otros en Bélgica, Países Bajos, Francia, España, Alemania, Italia, Polonia y Escandinavia. Cada semana recorremos toda Francia hasta el norte de España."
+        },
+        {
+          "q": "¿Sus conductores hablan el idioma local?",
+          "a": "Tenemos conductores tanto neerlandófonos como francófonos. Eso hace que la recogida y la entrega, dentro y fuera del país, sean fluidas y claras."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Vehículos que no circulan",
+      "title": "Vehículos",
+      "trail": "que no circulan.",
+      "items": [
+        {
+          "q": "¿Transportan también coches que no circulan?",
+          "a": "Sí. Un coche que ya no arranca o no circula lo subimos al remolque con un cabrestante (winch). Cuando hace falta, utilizamos una carretilla elevadora. Así, incluso un coche averiado o de proyecto viaja con seguridad."
+        },
+        {
+          "q": "¿Y si las ruedas están bloqueadas?",
+          "a": "Indíquelo en su solicitud. Que un coche circule, ruede o esté bloqueado influye en el método y en el precio. Estudiamos en cada situación la mejor y más segura forma de cargarlo."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Documentos",
+      "title": "¿Qué documentos",
+      "trail": "necesito?",
+      "items": [
+        {
+          "q": "¿Qué documentos necesito para el transporte?",
+          "a": "Para el transporte en sí, la carta de porte CMR es el único documento necesario. La rellena el conductor en la recogida. Demuestra que su coche ha sido recogido y documenta su estado a la salida."
+        },
+        {
+          "q": "¿Tengo que preparar algo yo mismo?",
+          "a": "No. De la CMR nos ocupamos nosotros en la recogida. No tiene que preparar ningún documento de antemano."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Pago",
+      "title": "¿Cómo se realiza",
+      "trail": "el pago?",
+      "items": [
+        {
+          "q": "¿Cuándo y cómo pago?",
+          "a": "Los particulares pagan antes de la recogida. Las empresas y los concesionarios pagan contra factura. En su presupuesto le explicamos con claridad lo que se aplica en su caso."
+        },
+        {
+          "q": "¿Recibiré un correo de confirmación automático?",
+          "a": "Trabajamos de forma personal a propósito. No recibirá una confirmación automatizada, sino una respuesta concreta de alguien de nuestro equipo con precio y planificación."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Transporte urgente",
+      "title": "Transporte",
+      "trail": "urgente.",
+      "items": [
+        {
+          "q": "¿Pueden organizar un transporte urgente?",
+          "a": "Indique en su solicitud que es urgente. Estudiaremos de inmediato lo que es posible dentro de nuestra planificación. Que sea urgente o normal es uno de los factores que influyen en el método y en el precio."
+        },
+        {
+          "q": "¿Cómo solicito un transporte urgente?",
+          "a": "Llámenos directamente o solicite un presupuesto indicando que es urgente. Así podemos reaccionar con rapidez y decirle qué es factible."
+        }
+      ]
+    }
+  ]
+}

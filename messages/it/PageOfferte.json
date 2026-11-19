@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Richieda un preventivo | Mcars",
+    "description": "Richieda senza impegno il Suo prezzo per il trasporto auto. Riceverà entro 24 ore una risposta personale con prezzo e pianificazione — nessun calcolatore, nessuna e-mail automatica."
+  },
+  "hero": {
+    "eyebrow": "Rapido · sicuro · affidabile",
+    "title": "Preventivo trasporto auto",
+    "lead": "Compili il modulo qui sotto e riceva rapidamente un preventivo senza impegno per il trasporto del Suo veicolo."
+  },
+  "form": {
+    "title": "Pianifichi il Suo trasporto. <muted>In quattro brevi passi.</muted>",
+    "intro": "Partenza, destinazione, la Sua auto e i Suoi dati — Le invieremo entro 24 ore un prezzo e una pianificazione personali."
+  },
+  "factors": {
+    "label": "Che cosa determina il prezzo?",
+    "lead": "Ogni viaggio è diverso.",
+    "trail": "Questo conta nel Suo preventivo.",
+    "intro": "Non applichiamo tariffe fisse. Il Suo prezzo lo prepariamo manualmente in base a questi fattori — così è corretto per il Suo trasporto specifico.",
+    "items": [
+      {
+        "title": "Distanza",
+        "body": "Più lungo è il viaggio, più chilometri e tempo servono. La distanza tra l’indirizzo di ritiro e di consegna incide sul prezzo."
+      },
+      {
+        "title": "Tipo di veicolo",
+        "body": "Dimensioni e peso contano. Un’auto compatta si carica diversamente da un furgone, un SUV o un’auto d’epoca."
+      },
+      {
+        "title": "Circolante o non circolante",
+        "body": "L’auto circola, è spingibile o completamente bloccata? Per le auto non circolanti prevediamo argano o carrello elevatore."
+      },
+      {
+        "title": "Extra a bordo",
+        "body": "Un box da tetto, un portabici o oggetti nell’auto? Ce lo faccia sapere — incide su come carichiamo e pianifichiamo."
+      },
+      {
+        "title": "Urgenza o pianificazione normale",
+        "body": "Il Suo viaggio si inserisce nelle nostre rotte esistenti o è urgente? La pianificazione incide sul prezzo."
+      },
+      {
+        "title": "Paese di ritiro/consegna",
+        "body": "In Belgio o fino in fondo all’Europa: il paese di ritiro e di consegna incide su percorso e costi."
+      }
+    ]
+  },
+  "reassurance": [
+    {
+      "title": "Risposta entro 24 ore",
+      "body": "Riceve rapidamente un prezzo e una possibile pianificazione — niente attese di giorni."
+    },
+    {
+      "title": "Personale, senza calcolatore",
+      "body": "Ogni preventivo viene preparato manualmente dal nostro team, su misura per la Sua situazione."
+    },
+    {
+      "title": "Rispondiamo noi stessi",
+      "body": "Nessuna e-mail di conferma automatica. Sentirà direttamente una persona di Mcars."
+    }
+  ],
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Sul Suo preventivo. <muted>Spiegato in breve.</muted>",
+    "phone": "Non è sicuro di quali dati servano? Chiami il <link>{phone}</link> — La aiutiamo personalmente.",
+    "contact": "Ci contatti",
+    "items": [
+      {
+        "q": "Quanto in fretta ricevo una risposta alla mia richiesta?",
+        "a": "Riceve entro 24 ore una risposta personale con il prezzo e la possibile pianificazione. Ogni richiesta viene esaminata manualmente — quindi non riceve alcuna e-mail di conferma automatica, rispondiamo noi stessi."
+      },
+      {
+        "q": "Di quali dati ho bisogno per richiedere un preventivo?",
+        "a": "È utile avere a portata di mano: se è un privato o un’azienda, l’indirizzo di ritiro e di consegna (o il nostro deposito), il veicolo e le sue condizioni (si avvia e circola, spingibile o bloccato, con o senza box da tetto) e la data desiderata. Più la richiesta è completa, più precisamente possiamo determinare il prezzo."
+      },
+      {
+        "q": "Posso far consegnare o ritirare presso il vostro deposito?",
+        "a": "Sì. Consegna o ritiro presso il nostro deposito di Roeselare sono possibili e di norma più convenienti che a domicilio. Lo indichi nella Sua richiesta e ne terremo conto."
+      },
+      {
+        "q": "Come funziona il pagamento?",
+        "a": "I privati pagano prima del ritiro. Le aziende pagano semplicemente su fattura. Concordiamo con Lei in anticipo gli accordi pratici."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "countries": {
+    "belgium": "Belgium",
+    "netherlands": "Netherlands",
+    "germany": "Germany",
+    "luxembourg": "Luxembourg",
+    "switzerland": "Switzerland",
+    "italy": "Italy",
+    "spain": "Spain",
+    "france": "France",
+    "austria": "Austria"
+  },
+  "homeBase": "home base",
+  "mapTitleDark": "Mcars transports cars",
+  "mapTitleLight": "across Europe.",
+  "services": {
+    "classic": "Classic cars & specials",
+    "nonRunning": "Non-running vehicles",
+    "urgent": "Urgent & repatriation"
+  },
+  "eyebrow": "Our services",
+  "titleDark": "A solution for ",
+  "titleLight": "every vehicle.",
+  "intro": "Quality, reliability and a personal approach. From import and export to entire fleets: every job gets the same care, from quote to delivery. That is how we make car transport simple, clear and worry-free — for businesses and private customers alike.",
+  "cards": {
+    "fleet": {
+      "tag": "Fleet",
+      "caption": "Fleet transport for your entire vehicle fleet"
+    },
+    "import": {
+      "tag": "Import",
+      "caption": "Import from across Europe"
+    },
+    "export": {
+      "tag": "Export",
+      "caption": "Export to any destination"
+    }
+  },
+  "regionsTitle": "The regions we drive to:",
+  "regionsText": "Fixed corridors from our home base in Belgium, driven every week. From the Benelux deep into southern Europe.",
+  "networkCta": "View our network"
+}

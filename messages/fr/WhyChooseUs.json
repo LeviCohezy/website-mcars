@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Paperasse & assurance",
+  "title": "Paperasse, assurance et documents ? <muted>Nous nous en occupons.</muted>",
+  "cta": "Demandez votre devis",
+  "points": {
+    "cmr": {
+      "title": "Lettre de voiture CMR",
+      "text": "Lors de l’enlèvement, nous établissons la CMR avec les adresses d’enlèvement et de livraison et les données de votre véhicule."
+    },
+    "inspection": {
+      "title": "Inspection & photos",
+      "text": "Votre voiture est contrôlée et photographiée lors de l’enlèvement. Les dommages existants sont ainsi consignés noir sur blanc."
+    },
+    "pod": {
+      "title": "Preuve de livraison (POD)",
+      "text": "À la livraison, le destinataire signe la réception. Vous avez la preuve que votre voiture est bien arrivée."
+    },
+    "insured": {
+      "title": "Transport assuré",
+      "text": "Votre véhicule est assuré pendant tout le trajet, de l’enlèvement à la livraison."
+    },
+    "noHassle": {
+      "title": "Vous n’avez rien à gérer",
+      "text": "Ni formulaires ni administration pour vous. Nous nous occupons de tous les documents."
+    }
+  }
+}

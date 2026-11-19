@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Servicios: transporte de coches a medida | Mcars",
+    "description": "Del transporte particular a flotas, importación, exportación, coches clásicos y urgencias. Descubra todos los servicios de transporte de coches de Mcars en Bélgica y Europa."
+  },
+  "hero": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Para cada vehículo, el enfoque adecuado.",
+    "subtitle": "Desde un único coche particular hasta una flota completa: soluciones de transporte en Bélgica y toda Europa.",
+    "crumb": "Servicios",
+    "badgeCount": "{count} servicios",
+    "badgeContact": "Un único interlocutor",
+    "cta": "Presupuesto"
+  },
+  "overview": {
+    "label": "Resumen",
+    "lead": "Once formas de trasladar su coche,",
+    "trail": "un solo equipo que se ocupa de todo.",
+    "intro": "Ya se trate de un coche familiar, un stock para el concesionario o un clásico que ya no circula: hablará con las personas que realmente realizan el viaje."
+  }
+}

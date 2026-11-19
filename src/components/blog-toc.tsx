@@ -1,11 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 export type TocItem = { id: string; text: string; level: 2 | 3 };
 
 /** "In dit artikel" card: chapter links, the one being read highlighted. */
 export default function BlogToc({ items }: { items: TocItem[] }) {
+  const t = useTranslations("BlogToc");
   const [active, setActive] = useState(items[0]?.id);
 
   useEffect(() => {
@@ -23,8 +25,8 @@ export default function BlogToc({ items }: { items: TocItem[] }) {
   }, [items]);
 
   return (
-    <nav aria-label="In dit artikel" className="rounded-[1.5rem] border border-zinc-200 bg-white p-6 shadow-[0_24px_48px_-32px_rgb(0_0_0/0.25)]">
-      <p className="text-[0.8125rem] font-semibold tracking-[0.16em] text-zinc-500 uppercase">In dit artikel</p>
+    <nav aria-label={t("title")} className="rounded-[1.5rem] border border-zinc-200 bg-white p-6 shadow-[0_24px_48px_-32px_rgb(0_0_0/0.25)]">
+      <p className="text-[0.8125rem] font-semibold tracking-[0.16em] text-zinc-500 uppercase">{t("title")}</p>
       <ol className="mt-4 space-y-0.5">
         {items.map((it) => {
           const on = it.id === active;

@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Destinations & itinéraires — transport de voitures en Europe | Mcars",
+  "metaDescription": "Transport de voitures en Belgique, aux Pays-Bas, en France, en Espagne, en Italie et dans toute l’Europe, avec des corridors fixes entre les pays. Découvrez tous les itinéraires de Mcars.",
+  "hero": {
+    "eyebrow": "Destinations & itinéraires",
+    "title": "Au départ de la Belgique.<br></br>À travers toute l’Europe.<br></br><muted>Chaque semaine.</muted>",
+    "subtitle": "Notre créneau : de la Belgique et des Pays-Bas vers la France, jusqu’au nord de l’Espagne. Et nous roulons aussi partout ailleurs.",
+    "crumb": "Itinéraires",
+    "cta": "Demander un devis"
+  },
+  "countries": {
+    "label": "Pays",
+    "lead": "Transport de voitures",
+    "trail": "par destination.",
+    "intro": "Des trajets quotidiens en Belgique aux tournées hebdomadaires dans toute la France. Choisissez votre destination pour découvrir les villes, la fréquence et les infos pratiques.",
+    "cities": "{count} villes"
+  },
+  "band": {
+    "line": "Chaque semaine dans toute la France, avec des arrêts fixes en chemin.",
+    "caption": "De Roeselare au nord de l’Espagne"
+  }
+}

@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useFormatter, useLocale, useTranslations } from "next-intl";
 import { DayPicker } from "react-day-picker";
-import { nl } from "react-day-picker/locale";
+import { de, enGB, es, fr, it, nl } from "react-day-picker/locale";
 import "react-day-picker/style.css";
 import { asset } from "@/lib/asset";
 
@@ -10,13 +11,12 @@ const inputClass =
   "w-full rounded-xl bg-white px-4 py-3 text-sm text-zinc-950 ring-1 ring-zinc-200 transition-colors placeholder:text-zinc-400 focus:ring-2 focus:ring-zinc-950 focus:outline-none";
 const labelClass = "mb-2 block text-sm font-medium text-zinc-600";
 
-const steps = ["Transport", "Voertuigen", "Uw gegevens"];
+const steps = ["transport", "vehicles", "details"] as const;
 
-const TOESTANDEN = [
-  "Start en rijdt",
-  "Start niet, verrolbaar",
-  "Start niet, geblokkeerd",
-];
+const DAY_PICKER_LOCALES = { nl, fr, en: enGB, de, es, it } as const;
+
+// Option values are message keys.
+const TOESTANDEN = ["runs", "rolls", "blocked"];
 
 function useOutsideClose(onClose: () => void) {
   const ref = useRef<HTMLDivElement>(null);
@@ -155,13 +155,16 @@ function DateField({
   invalid?: boolean;
   optional?: boolean;
 }) {
+  const t = useTranslations("QuoteContact");
+  const locale = useLocale();
+  const format = useFormatter();
   const [open, setOpen] = useState(false);
   const boxRef = useOutsideClose(() => setOpen(false));
 
   return (
     <div ref={boxRef} className="relative">
       <span className={labelClass}>
-        {label} {optional && <span className="text-zinc-400">(optioneel)</span>}
+        {label} {optional && <span className="text-zinc-400">{t("optional")}</span>}
       </span>
       <button
         type="button"
@@ -173,12 +176,12 @@ function DateField({
       >
         <span className={date ? "" : "text-zinc-400"}>
           {date
-            ? date.toLocaleDateString("nl-BE", {
+            ? format.dateTime(date, {
                 day: "numeric",
                 month: "long",
                 year: "numeric",
               })
-            : "Kies een datum"}
+            : t("pickDate")}
         </span>
         <svg
           className="size-4 flex-none text-zinc-400"
@@ -194,7 +197,7 @@ function DateField({
       </button>
       {invalid && (
         <p className="mt-2 text-xs text-red-500">
-          Kies een datum of vink “onmiddellijk” aan.
+          {t("dateInvalid")}
         </p>
       )}
       {open && (
@@ -206,7 +209,7 @@ function DateField({
               onSelect(d);
               setOpen(false);
             }}
-            locale={nl}
+            locale={DAY_PICKER_LOCALES[locale as keyof typeof DAY_PICKER_LOCALES] ?? nl}
             disabled={{ before: new Date() }}
             className="rdp-light"
           />
@@ -225,7 +228,7 @@ function NiceSelect({
 }: {
   value: string;
   onChange: (v: string) => void;
-  options: string[];
+  options: { value: string; label: string }[];
   ariaLabel: string;
 }) {
   const [open, setOpen] = useState(false);
@@ -240,7 +243,7 @@ function NiceSelect({
         onClick={() => setOpen((o) => !o)}
         className={`${inputClass} flex cursor-pointer items-center justify-between gap-2 text-left`}
       >
-        <span className="truncate">{value}</span>
+        <span className="truncate">{options.find((o) => o.value === value)?.label ?? value}</span>
         <svg
           className={`size-4 flex-none text-zinc-400 transition-transform duration-200 ${
             open ? "rotate-180" : ""
@@ -258,19 +261,19 @@ function NiceSelect({
       {open && (
         <ul className="absolute inset-x-0 z-30 mt-2 overflow-hidden rounded-xl bg-white py-1 shadow-xl ring-1 ring-zinc-200">
           {options.map((option) => (
-            <li key={option}>
+            <li key={option.value}>
               <button
                 type="button"
                 onClick={() => {
-                  onChange(option);
+                  onChange(option.value);
                   setOpen(false);
                 }}
                 className={`flex w-full cursor-pointer items-center justify-between gap-2 px-4 py-2.5 text-left text-sm transition-colors hover:bg-zinc-100 ${
-                  option === value ? "text-zinc-950" : "text-zinc-600"
+                  option.value === value ? "text-zinc-950" : "text-zinc-600"
                 }`}
               >
-                {option}
-                {option === value && (
+                {option.label}
+                {option.value === value && (
                   <svg
                     className="size-4 flex-none"
                     viewBox="0 0 24 24"
@@ -293,6 +296,8 @@ function NiceSelect({
 }
 
 export default function QuoteContact() {
+  const t = useTranslations("QuoteContact");
+  const format = useFormatter();
   const [step, setStep] = useState(0);
   const [type, setType] = useState<"particulier" | "bedrijf">("particulier");
   const [depot, setDepot] = useState(false);
@@ -345,7 +350,7 @@ export default function QuoteContact() {
 
   const fmtDate = (d: Date | undefined) =>
     d
-      ? d.toLocaleDateString("nl-BE", {
+      ? format.dateTime(d, {
           day: "numeric",
           month: "long",
           year: "numeric",
@@ -357,32 +362,38 @@ export default function QuoteContact() {
     const data = new FormData(e.currentTarget);
     const vehicles = vehicleIds.map(
       (id, i) =>
-        `Voertuig ${i + 1}: ${data.get(`voertuig-${id}`)} — ${
-          toestanden[id]
-        } — ${data.get(`aantal-${id}`)} stuk(s)`
+        t("mail.vehicleLine", {
+          n: i + 1,
+          model: String(data.get(`voertuig-${id}`)),
+          condition: t(`condition.${toestanden[id]}`),
+          qty: String(data.get(`aantal-${id}`)),
+        })
     );
     const lines = [
-      `Type klant: ${type}`,
-      `Naam: ${data.get("voornaam")} ${data.get("achternaam")}`,
+      t("mail.customerType", { value: t(`customerType.${type}`).toLowerCase() }),
+      t("mail.name", { first: String(data.get("voornaam")), last: String(data.get("achternaam")) }),
       ...(type === "bedrijf"
-        ? [`Bedrijf: ${data.get("bedrijf")}`, `BTW-nummer: ${data.get("btw")}`]
+        ? [
+            t("mail.company", { value: String(data.get("bedrijf")) }),
+            t("mail.vat", { value: String(data.get("btw")) }),
+          ]
         : []),
-      `E-mail: ${data.get("email")}`,
-      `Telefoon: ${data.get("telefoon")}`,
+      t("mail.email", { value: String(data.get("email")) }),
+      t("mail.phone", { value: String(data.get("telefoon")) }),
       ``,
-      `Ophaaladres: ${ophaal}`,
-      `Leveradres: ${depot ? "Mcars-depot, Roeselare" : lever}`,
+      t("mail.pickup", { value: ophaal }),
+      t("mail.delivery", { value: depot ? t("mail.depotAddress") : lever }),
       ``,
       ...vehicles,
-      `Topbox of fietsdrager: ${data.get("topbox") ? "ja" : "nee"}`,
+      t("mail.topbox", { value: data.get("topbox") ? t("mail.yes") : t("mail.no") }),
       ``,
-      `Beschikbaar voor ophaling: ${asap ? "onmiddellijk" : fmtDate(ophaalDate)}`,
-      `Gewenste leverdatum: ${fmtDate(leverDate)}`,
+      t("mail.pickupDate", { value: asap ? t("mail.asap") : fmtDate(ophaalDate) }),
+      t("mail.deliveryDate", { value: fmtDate(leverDate) }),
       ``,
-      `Opmerkingen: ${data.get("opmerking") || "-"}`,
+      t("mail.remarks", { value: String(data.get("opmerking") || "-") }),
     ];
     const mailto = `mailto:info@mcars.be?subject=${encodeURIComponent(
-      "Offerteaanvraag transport"
+      t("mail.subject")
     )}&body=${encodeURIComponent(lines.join("\n"))}`;
     window.location.href = mailto;
   };
@@ -409,15 +420,13 @@ export default function QuoteContact() {
           {/* Left: heading */}
           <div>
             <p className="text-sm font-medium tracking-widest text-zinc-300 uppercase">
-              ( Offerte )
+              {t("eyebrow")}
             </p>
             <h2 className="mt-5 text-4xl font-medium leading-[1.1] tracking-tight text-white sm:text-5xl">
-              Vertel ons wat er moet rijden
+              {t("title")}
             </h2>
             <p className="mt-6 max-w-md text-base leading-relaxed text-zinc-200">
-              Vraag uw offerte aan in drie korte stappen. U krijgt binnen 24
-              uur een persoonlijk antwoord van ons team — geen automatische
-              mails, wél een vaste prijs.
+              {t("intro")}
             </p>
           </div>
 
@@ -429,9 +438,9 @@ export default function QuoteContact() {
             {/* Step indicator */}
             <div className="mb-7">
               <div className="flex items-baseline justify-between">
-                <p className="text-sm font-medium text-zinc-950">{steps[step]}</p>
+                <p className="text-sm font-medium text-zinc-950">{t(`steps.${steps[step]}`)}</p>
                 <p className="text-xs text-zinc-400">
-                  Stap {step + 1} van {steps.length}
+                  {t("stepOf", { step: step + 1, total: steps.length })}
                 </p>
               </div>
               <div className="mt-3 flex gap-1.5">
@@ -453,7 +462,7 @@ export default function QuoteContact() {
               }}
               className={`flex-col gap-5 ${step === 0 ? "flex" : "hidden"}`}
             >
-              <div className="flex gap-2" role="radiogroup" aria-label="Type klant">
+              <div className="flex gap-2" role="radiogroup" aria-label={t("customerTypeAria")}>
                 {(["particulier", "bedrijf"] as const).map((option) => (
                   <button
                     key={option}
@@ -467,26 +476,26 @@ export default function QuoteContact() {
                         : "bg-white text-zinc-500 ring-1 ring-zinc-200 hover:text-zinc-950"
                     }`}
                   >
-                    {option}
+                    {t(`customerType.${option}`)}
                   </button>
                 ))}
               </div>
               <AddressInput
                 id="ophaal"
-                label="Ophaaladres"
+                label={t("pickupAddress")}
                 value={ophaal}
                 onChange={setOphaal}
                 required
-                placeholder="Straat, gemeente, land"
+                placeholder={t("addressPlaceholder")}
               />
               <AddressInput
                 id="lever"
-                label="Leveradres"
+                label={t("deliveryAddress")}
                 value={lever}
                 onChange={setLever}
                 required={!depot}
                 disabled={depot}
-                placeholder={depot ? "Mcars-depot, Roeselare" : "Straat, gemeente, land"}
+                placeholder={depot ? t("depotPlaceholder") : t("addressPlaceholder")}
                 hint={
                   <label className="mt-3 flex cursor-pointer items-center gap-3 text-sm text-zinc-500">
                     <input
@@ -495,14 +504,14 @@ export default function QuoteContact() {
                       onChange={(e) => setDepot(e.target.checked)}
                       className="size-4 accent-zinc-950"
                     />
-                    Levering op het Mcars-depot (voordeliger, ophalen kan 24/7)
+                    {t("depotLabel")}
                   </label>
                 }
               />
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
                   <DateField
-                    label="Beschikbaar voor ophaling"
+                    label={t("availableForPickup")}
                     date={ophaalDate}
                     onSelect={(d) => {
                       setOphaalDate(d);
@@ -521,11 +530,11 @@ export default function QuoteContact() {
                       }}
                       className="size-4 accent-zinc-950"
                     />
-                    Onmiddellijk
+                    {t("asap")}
                   </label>
                 </div>
                 <DateField
-                  label="Gewenste leverdatum"
+                  label={t("desiredDelivery")}
                   date={leverDate}
                   onSelect={setLeverDate}
                   optional
@@ -541,11 +550,11 @@ export default function QuoteContact() {
               className={`flex-col gap-4 ${step === 1 ? "flex" : "hidden"}`}
             >
               <div className="hidden grid-cols-[1fr_10rem_4rem_1.25rem] gap-3 sm:grid">
-                <span className="text-sm font-medium text-zinc-600">Voertuig</span>
+                <span className="text-sm font-medium text-zinc-600">{t("vehicle")}</span>
                 <span className="text-sm font-medium text-zinc-600">
-                  Start de wagen?
+                  {t("doesItStart")}
                 </span>
-                <span className="text-sm font-medium text-zinc-600">Aantal</span>
+                <span className="text-sm font-medium text-zinc-600">{t("quantity")}</span>
                 <span />
               </div>
               {vehicleIds.map((id, i) => (
@@ -556,15 +565,15 @@ export default function QuoteContact() {
                   <input
                     name={`voertuig-${id}`}
                     required
-                    placeholder="Merk en model"
-                    aria-label={`Voertuig ${i + 1}: merk en model`}
+                    placeholder={t("makeModel")}
+                    aria-label={t("vehicleMakeModelAria", { n: i + 1 })}
                     className={inputClass}
                   />
                   <NiceSelect
                     value={toestanden[id] ?? TOESTANDEN[0]}
                     onChange={(v) => setToestanden((t) => ({ ...t, [id]: v }))}
-                    options={TOESTANDEN}
-                    ariaLabel={`Voertuig ${i + 1}: start de wagen?`}
+                    options={TOESTANDEN.map((c) => ({ value: c, label: t(`condition.${c}`) }))}
+                    ariaLabel={t("vehicleStartsAria", { n: i + 1 })}
                   />
                   <input
                     name={`aantal-${id}`}
@@ -572,14 +581,14 @@ export default function QuoteContact() {
                     min={1}
                     defaultValue={1}
                     required
-                    aria-label={`Voertuig ${i + 1}: aantal`}
+                    aria-label={t("vehicleQuantityAria", { n: i + 1 })}
                     className={inputClass}
                   />
                   {i > 0 ? (
                     <button
                       type="button"
                       onClick={() => removeVehicle(id)}
-                      aria-label={`Voertuig ${i + 1} verwijderen`}
+                      aria-label={t("vehicleRemoveAria", { n: i + 1 })}
                       className="flex size-5 cursor-pointer items-center justify-center justify-self-end rounded-full text-zinc-400 transition-colors hover:text-zinc-950 sm:justify-self-auto"
                     >
                       <svg
@@ -613,7 +622,7 @@ export default function QuoteContact() {
                 >
                   <path d="M12 5v14M5 12h14" />
                 </svg>
-                Nog een voertuig toevoegen
+                {t("addVehicle")}
               </button>
               <label className="flex cursor-pointer items-center gap-3 text-sm text-zinc-500">
                 <input
@@ -621,7 +630,7 @@ export default function QuoteContact() {
                   name="topbox"
                   className="size-4 accent-zinc-950"
                 />
-                Topbox of fietsdrager aanwezig
+                {t("topbox")}
               </label>
             </div>
 
@@ -635,7 +644,7 @@ export default function QuoteContact() {
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
                   <label htmlFor="voornaam" className={labelClass}>
-                    Voornaam
+                    {t("firstName")}
                   </label>
                   <input
                     id="voornaam"
@@ -646,7 +655,7 @@ export default function QuoteContact() {
                 </div>
                 <div>
                   <label htmlFor="achternaam" className={labelClass}>
-                    Achternaam
+                    {t("lastName")}
                   </label>
                   <input
                     id="achternaam"
@@ -660,7 +669,7 @@ export default function QuoteContact() {
                 <div className="grid gap-5 sm:grid-cols-2">
                   <div>
                     <label htmlFor="bedrijf" className={labelClass}>
-                      Bedrijfsnaam
+                      {t("company")}
                     </label>
                     <input
                       id="bedrijf"
@@ -671,13 +680,13 @@ export default function QuoteContact() {
                   </div>
                   <div>
                     <label htmlFor="btw" className={labelClass}>
-                      BTW-nummer
+                      {t("vat")}
                     </label>
                     <input
                       id="btw"
                       name="btw"
                       required
-                      placeholder="BE 0xxx.xxx.xxx"
+                      placeholder={t("vatPlaceholder")}
                       className={inputClass}
                     />
                   </div>
@@ -686,7 +695,7 @@ export default function QuoteContact() {
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
                   <label htmlFor="email" className={labelClass}>
-                    E-mail
+                    {t("email")}
                   </label>
                   <input
                     id="email"
@@ -698,7 +707,7 @@ export default function QuoteContact() {
                 </div>
                 <div>
                   <label htmlFor="telefoon" className={labelClass}>
-                    Telefoon
+                    {t("phone")}
                   </label>
                   <input
                     id="telefoon"
@@ -711,13 +720,13 @@ export default function QuoteContact() {
               </div>
               <div>
                 <label htmlFor="opmerking" className={labelClass}>
-                  Opmerkingen <span className="text-zinc-400">(optioneel)</span>
+                  {t("remarks")} <span className="text-zinc-400">{t("optional")}</span>
                 </label>
                 <textarea
                   id="opmerking"
                   name="opmerking"
                   rows={3}
-                  placeholder="Bijzonderheden over het voertuig of transport"
+                  placeholder={t("remarksPlaceholder")}
                   className={`${inputClass} resize-none`}
                 />
               </div>
@@ -731,7 +740,7 @@ export default function QuoteContact() {
                   onClick={back}
                   className="cursor-pointer rounded-full px-6 py-3.5 text-sm font-medium text-zinc-500 ring-1 ring-zinc-200 transition-colors hover:text-zinc-950 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:outline-none"
                 >
-                  Terug
+                  {t("back")}
                 </button>
               )}
               {step < steps.length - 1 ? (
@@ -740,14 +749,14 @@ export default function QuoteContact() {
                   onClick={next}
                   className="flex-1 cursor-pointer rounded-full bg-zinc-950 py-3.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none"
                 >
-                  Volgende
+                  {t("next")}
                 </button>
               ) : (
                 <button
                   type="submit"
                   className="flex-1 cursor-pointer rounded-full bg-zinc-950 py-3.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none"
                 >
-                  Verstuur aanvraag
+                  {t("submit")}
                 </button>
               )}
             </div>

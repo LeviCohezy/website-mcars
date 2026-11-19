@@ -1,0 +1,13 @@
+{
+  "name": "Nombre",
+  "namePlaceholder": "Su nombre",
+  "emailPlaceholder": "nombre@ejemplo.es",
+  "phone": "Teléfono",
+  "phonePlaceholder": "+32 4xx xx xx xx",
+  "subject": "Asunto",
+  "subjectPlaceholder": "¿De qué se trata?",
+  "message": "Mensaje",
+  "messagePlaceholder": "Cuéntenos brevemente qué necesita: dirección de recogida y de entrega, vehículo y período deseado.",
+  "submit": "Enviar mensaje",
+  "note": "Su mensaje se abrirá en su propio programa de correo y se enviará a {email}. No recibirá confirmación automática: le responderemos personalmente."
+}

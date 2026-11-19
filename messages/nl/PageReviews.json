@@ -1,0 +1,25 @@
+{
+  "metaTitle": "Reviews | Mcars",
+  "metaDescription": "Wat klanten over Mcars zeggen. Google-beoordeling 4,7 uit 37 reviews — van particulieren en van dealers en bedrijven.",
+  "hero": {
+    "eyebrow": "Reviews",
+    "title": "Wat klanten over ons zeggen.",
+    "subtitle": "Een 4,7 op Google, opgebouwd door particulieren én dealers die hun wagen aan ons toevertrouwden.",
+    "crumb": "Reviews",
+    "badgeScore": "{score} / 5 op Google",
+    "badgeClients": "{clients} klanten",
+    "cta": "Offerte"
+  },
+  "rating": {
+    "eyebrow": "Google-beoordeling",
+    "reviews": "{count} reviews",
+    "body": "Onze beoordelingen worden live via Google bijgewerkt. Hieronder een representatieve greep uit wat klanten schrijven.",
+    "cta": "Bekijk op Google"
+  },
+  "quotes": {
+    "label": "Klantquotes",
+    "lead": "Van particulieren",
+    "trail": "en van dealers en bedrijven.",
+    "note": "De weergegeven reacties zijn geanonimiseerd. De actuele reviews worden live via Google bijgewerkt."
+  }
+}

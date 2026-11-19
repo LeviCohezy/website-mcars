@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import type { ProcessStep } from "@/data/services";
 import Icon from "./icon";
@@ -36,6 +37,7 @@ export function ProcessStory({
   images?: string[];
   ctaHref?: string;
 }) {
+  const t = useTranslations("ServiceSectionsInteractive");
   const trackRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
   const n = steps.length;
@@ -91,7 +93,7 @@ export function ProcessStory({
       href={ctaHref}
       className="group inline-flex items-center gap-3 rounded-full bg-white py-2 pr-2 pl-6 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
     >
-      Prijs aanvragen
+      {t("requestPrice")}
       <ArrowChip tone="dark" />
     </a>
   );
@@ -204,11 +206,12 @@ export function ProcessStory({
  */
 export function ChecklistTabs({
   cols,
-  doneTitle = "Alles klaar?",
+  doneTitle,
 }: {
   cols: { title: string; items: string[] }[];
   doneTitle?: string;
 }) {
+  const t = useTranslations("ServiceSectionsInteractive");
   const [tab, setTab] = useState(0);
   const [checked, setChecked] = useState<Set<string>>(new Set());
   const total = cols.reduce((n, c) => n + c.items.length, 0);
@@ -226,7 +229,7 @@ export function ChecklistTabs({
   return (
     <div className="grid gap-3 lg:grid-cols-[1.7fr_1fr]">
       <Reveal className="rounded-[1.75rem] bg-zinc-100 p-3 sm:p-4">
-        <div role="tablist" aria-label="Voorbereiding" className="grid grid-cols-3 gap-1 rounded-2xl bg-white p-1">
+        <div role="tablist" aria-label={t("tabsLabel")} className="grid grid-cols-3 gap-1 rounded-2xl bg-white p-1">
           {cols.map((c, i) => {
             const doneHere = c.items.every((_, j) => checked.has(key(i, j)));
             return (
@@ -281,7 +284,7 @@ export function ChecklistTabs({
             onClick={() => setTab(tab + 1)}
             className="mt-3 ml-auto flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-zinc-950 hover:bg-white"
           >
-            Volgende: {cols[tab + 1].title}
+            {t("next", { title: cols[tab + 1].title })}
             <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
               <path d="M5 12h14M13 6l6 6-6 6" />
             </svg>
@@ -304,19 +307,19 @@ export function ChecklistTabs({
             <span className="block text-4xl font-medium tracking-tight tabular-nums">
               {count}<span className="text-white/40">/{total}</span>
             </span>
-            <span className="text-sm text-white/55">afgevinkt</span>
+            <span className="text-sm text-white/55">{t("checked")}</span>
           </p>
         </div>
         <div>
-          <h3 className="text-2xl font-medium tracking-tight">{count === total ? "Klaar voor vertrek." : doneTitle}</h3>
+          <h3 className="text-2xl font-medium tracking-tight">{count === total ? t("ready") : (doneTitle ?? t("allSet"))}</h3>
           <p className="mt-3 text-[0.95rem] leading-relaxed text-white/60">
-            Vink af wat u al heeft. Ontbreekt er iets? Geen probleem — we lopen het samen met u door.
+            {t("hint")}
           </p>
           <a
             href="#prijs"
             className="group mt-7 inline-flex items-center gap-3 rounded-full bg-white py-2 pr-2 pl-6 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
           >
-            Prijs aanvragen
+            {t("requestPrice")}
             <ArrowChip tone="dark" />
           </a>
         </div>

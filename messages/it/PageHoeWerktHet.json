@@ -1,0 +1,86 @@
+{
+  "metaTitle": "Come funziona? | Mcars",
+  "metaDescription": "Dal preventivo alla consegna in sei passi. Scopra come Mcars gestisce il Suo trasporto auto — in modo personale, con lettera di vettura CMR e accordi chiari.",
+  "steps": [
+    {
+      "title": "Richiesta di preventivo",
+      "body": "Richiede il Suo trasporto tramite il sito, per telefono o su WhatsApp. Riceve entro 24 ore una risposta personale con il prezzo e la possibile pianificazione."
+    },
+    {
+      "title": "Approvazione del preventivo",
+      "body": "È d’accordo con il prezzo e la pianificazione? Ci dà il via libera e avviamo il Suo trasporto. Nessun obbligo finché non conferma."
+    },
+    {
+      "title": "Pianificazione del trasporto",
+      "body": "Dopo la Sua approvazione fissiamo insieme la data di ritiro. Il giorno stesso l’autista La chiama per dirLe quando arriverà, così non deve perdersi nulla."
+    },
+    {
+      "title": "Ritiro + controllo e documenti CMR",
+      "body": "Ritiriamo la Sua auto dove desidera. Sul posto redigiamo la lettera di vettura CMR, ispezioniamo e fotografiamo il veicolo come prova interna dello stato alla partenza."
+    },
+    {
+      "title": "Consegna sul posto",
+      "body": "La chiamiamo quando arriviamo all’indirizzo di consegna. La consegna al nostro deposito di Roeselare è possibile 24/7 ed è di norma più conveniente della consegna a domicilio."
+    },
+    {
+      "title": "Pagamento / fattura",
+      "body": "I privati pagano prima del ritiro, le aziende semplicemente su fattura. Concordiamo chiaramente con Lei in anticipo gli accordi pratici."
+    }
+  ],
+  "cmr": [
+    {
+      "title": "Prova il ritiro",
+      "body": "La lettera di vettura CMR mostra nero su bianco che la Sua auto è stata ritirata da Mcars, quando e dove. Certezza per entrambe le parti."
+    },
+    {
+      "title": "Documenta lo stato",
+      "body": "Al ritiro registriamo lo stato del veicolo con delle foto. Così la condizione alla partenza risulta documentata in modo inoppugnabile."
+    },
+    {
+      "title": "Importante in caso di reclamo",
+      "body": "Se mai dovesse esserci una contestazione o un danno, la CMR con lo stato registrato è il punto di riferimento. Tutto sistemato con serenità in anticipo."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Di quali documenti ho bisogno?",
+      "a": "È necessaria solo una lettera di vettura CMR, e la redigiamo noi al ritiro. Così ha subito la prova che la Sua auto è stata ritirata da Mcars."
+    },
+    {
+      "q": "La mia auto deve circolare per essere ritirata?",
+      "a": "No. Le auto spingibili le tiriamo sul trasportatore con l’argano. Se l’auto è completamente bloccata, prevediamo un carrello elevatore sul posto. Indichi le condizioni nella Sua richiesta."
+    },
+    {
+      "q": "Posso far consegnare o ritirare presso il vostro deposito?",
+      "a": "Sì. Consegna e ritiro presso il nostro deposito di Roeselare sono possibili 24/7 e di norma più convenienti che a domicilio. Comodo se desidera essere flessibile."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Modo di lavorare",
+    "title": "Dalla richiesta alla consegna in sei passi.",
+    "subtitle": "Un approccio chiaro e personale senza sorprese — dalla Sua prima richiesta al saldo.",
+    "crumb": "Come funziona",
+    "badgeAnswer": "Risposta entro 24 ore",
+    "badgeCmr": "CMR a ogni ritiro",
+    "cta": "Preventivo"
+  },
+  "stepsHeader": {
+    "label": "Ecco come funziona",
+    "lead": "Sei passi chiari.",
+    "trail": "Dal preventivo alla consegna."
+  },
+  "media": {
+    "line": "Un unico documento, nero su bianco: la lettera di vettura CMR.",
+    "caption": "Redatta a ogni ritiro"
+  },
+  "cmrHeader": {
+    "label": "Perché questo approccio",
+    "lead": "La lettera di vettura CMR:",
+    "trail": "la Sua garanzia, nero su bianco.",
+    "intro": "La CMR che redigiamo a ogni ritiro registra che cosa è stato ritirato, quando e in quali condizioni — una tutela per Lei e per noi."
+  },
+  "faqSection": {
+    "eyebrow": "Domande frequenti",
+    "title": "Altre domande? <muted>Ecco quelle che sentiamo più spesso.</muted>"
+  }
+}

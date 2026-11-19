@@ -1,0 +1,38 @@
+{
+  "metaTitle": "Cookie policy | Mcars",
+  "metaDescription": "Which cookies Mcars uses: functional, analytical and marketing cookies, what they are for and how you can manage or withdraw your consent.",
+  "heroEyebrow": "Legal",
+  "heroTitle": "Cookie policy",
+  "heroSubtitle": "Which cookies we use and how you can manage them.",
+  "crumb": "Cookie policy",
+  "sideLabel": "Cookies",
+  "noticeLabel": "Please note:",
+  "noticeText": "This is a provisional text. Have this document reviewed legally before going live.",
+  "intro": "This cookie policy explains how {legalName} uses cookies and similar technologies on this website. By using our website and, where necessary, giving your consent, you agree to the use of cookies as described below.",
+  "sections": {
+    "s1": {
+      "title": "1. What are cookies?",
+      "body": "Cookies are small text files that are placed on your device when you visit a website. They make sure the website works properly, remember your preferences and help us understand how the website is used. Besides cookies, similar technologies such as pixels and local storage may also be used."
+    },
+    "s2": {
+      "title": "2. What types of cookies do we use?",
+      "body": "<strong>Functional cookies</strong> are necessary for the website to work correctly. They cannot be switched off. <br></br> <strong>Analytical cookies</strong> help us improve the website by anonymously tracking how visitors use our pages. <br></br> <strong>Marketing cookies</strong> are used to make advertisements more relevant and to measure the reach of our campaigns. These are only placed after you have given your consent."
+    },
+    "s3": {
+      "title": "3. Consent and management",
+      "body": "On your first visit, we ask for your consent for non-essential cookies. You can change or withdraw your preferences at any time via the cookie settings on the website. You can also manage or delete cookies via your browser settings. Please note that disabling certain cookies may affect how the website works."
+    },
+    "s4": {
+      "title": "4. Third-party cookies",
+      "body": "Some cookies are placed by third-party services that we use on our website, for example to embed maps or to measure website usage. These parties may have their own privacy and cookie policies."
+    },
+    "s5": {
+      "title": "5. Changes",
+      "body": "We may amend this cookie policy from time to time, for example when we change our website or the technologies used. The most recent version is always available on this page."
+    },
+    "s6": {
+      "title": "6. Contact",
+      "body": "Want to know more about how we handle your data? Read our <privacy>privacy policy</privacy> or <contact>contact</contact> us at {email}."
+    }
+  }
+}

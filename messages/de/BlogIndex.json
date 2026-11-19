@@ -1,0 +1,23 @@
+{
+  "sort": {
+    "nieuw": "Neueste zuerst",
+    "oud": "Älteste zuerst"
+  },
+  "latest": "Neueste Artikel",
+  "filter": "Filter",
+  "sortLabel": "Sortieren",
+  "filterByCategory": "Nach Kategorie filtern",
+  "all": "Alle",
+  "remove": "entfernen",
+  "minRead": "{minutes} Min. Lesezeit",
+  "empty": "In dieser Kategorie gibt es noch keine Artikel.",
+  "featured": "Empfohlen",
+  "heading": "Blog & Wissensdatenbank",
+  "drawer": {
+    "aria": "Artikel filtern",
+    "close": "Schließen",
+    "category": "Kategorie",
+    "clear": "Alles löschen",
+    "show": "{total} {total, plural, one {Artikel} other {Artikel}} anzeigen"
+  }
+}

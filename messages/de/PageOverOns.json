@@ -1,0 +1,144 @@
+{
+  "metaTitle": "Über uns | Mcars",
+  "metaDescription": "Mcars ist ein Familienunternehmen aus Roeselare: Vater und Sohn, 8 feste Fahrer und 9 eigene Autotransporter. Entdecken Sie unsere Geschichte seit 2004, unsere Flotte und unsere Arbeitsweise.",
+  "milestones": [
+    {
+      "year": "2004",
+      "title": "Die erste Ladung",
+      "body": "Filip Maertens lädt seine ersten Autos auf. Der Beginn von mehr als zwanzig Jahren Erfahrung im Autotransport."
+    },
+    {
+      "year": "2009",
+      "title": "Mcars wird gegründet",
+      "body": "Von Roeselare aus bekommt das Unternehmen seinen Namen. Die Arbeitsweise bleibt dieselbe: kurze Wege und Absprachen, die stimmen."
+    },
+    {
+      "year": "20XX",
+      "title": "Die zweite Generation",
+      "body": "Sohn Ralph steigt mit ins Geschäft ein. Vater und Sohn bauen gemeinsam weiter."
+    },
+    {
+      "year": "2026",
+      "title": "Zu Besuch in Wörth",
+      "body": "Gemeinsam mit Transportunternehmern aus der Region besuchen wir das Mercedes-Benz-Lkw-Werk in Deutschland, wo unsere Actros gebaut werden."
+    },
+    {
+      "year": "Heute",
+      "title": "Neun Transporter, acht Fahrer",
+      "body": "Jede Woche durch ganz Frankreich und darüber hinaus, von Skandinavien bis Spanien. Nach wie vor mit derselben Familie am Steuer."
+    }
+  ],
+  "fleetNotes": [
+    "Das Rückgrat der Flotte.",
+    "Die neueste Scania-Generation.",
+    "Mit dem großen Mcars-Emblem."
+  ],
+  "galleryAlts": [
+    [
+      "Mcars-Transporter mit Oldtimern am Jubelpark in Brüssel",
+      "Beladener Autotransporter bei Sonnenuntergang",
+      "Zwei Mcars-Transporter in den Bergen",
+      "Mcars Actros unter einem rosa Abendhimmel",
+      "Autotransporter mit zwei vollen Ladeebenen",
+      "Fahrer winkt aus dem Fahrerhaus"
+    ],
+    [
+      "Oldtimer auf einem Mcars-Transporter vor dem Triumphbogen",
+      "Mcars Actros auf einer verschneiten Straße",
+      "Geländewagen auf dem Transporter",
+      "Vollbeladener Transporter unter blauem Himmel",
+      "Scania von Mcars unter einem Wolkenhimmel",
+      "Mcars Actros auf einem nassen Terminal"
+    ]
+  ],
+  "why": [
+    {
+      "title": "Persönlich & familiär",
+      "body": "Kein Callcenter, keine Nummern. Sie sprechen direkt mit dem Team, das Ihr Fahrzeug auch tatsächlich befördert."
+    },
+    {
+      "title": "Zuverlässig & versichert",
+      "body": "Jede Fahrt mit CMR-Frachtbrief und versichertem Transport. Klare Absprachen, korrekt eingehalten."
+    },
+    {
+      "title": "Spontan, keep it simple",
+      "body": "Schnell reagieren ohne Umstände. Sie fragen an, und innerhalb von 24 Stunden erhalten Sie eine klare Antwort mit Preis und Planung."
+    },
+    {
+      "title": "Transparent",
+      "body": "Sie wissen stets, woran Sie sind. Keine versteckten Kosten, keine Überraschungen unterwegs."
+    }
+  ],
+  "insured": [
+    {
+      "t": "Versicherter Transport",
+      "b": "Jedes Fahrzeug ist während der gesamten Strecke abgesichert."
+    },
+    {
+      "t": "CMR-Frachtbrief",
+      "b": "Bestätigt die Abholung und hält den Zustand bei der Abfahrt fest."
+    },
+    {
+      "t": "Interner Fotonachweis",
+      "b": "Fotos als Beweismittel bei Schäden — sorgfältig und diskret aufbewahrt."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Über uns",
+    "title": "Seit 2004 laden wir Autos.<br></br><muted>Seit 2009 als Mcars.</muted>",
+    "subtitle": "Ein Familienunternehmen aus Roeselare: Vater und Sohn, acht feste Fahrer und neun eigene Autotransporter.",
+    "crumb": "Über uns",
+    "badgeFamily": "Familienunternehmen",
+    "badgeLocation": "Roeselare, Belgien",
+    "cta": "Angebot"
+  },
+  "who": {
+    "eyebrow": "Wer wir sind",
+    "text": "Ein Familienunternehmen, das den Autotransport in- und auswendig kennt. Kein Callcenter, keine Zwischenhändler: Sie sprechen mit den Menschen, die Ihr Fahrzeug auch wirklich befördern.",
+    "muted": "Wer einmal mit Mcars fährt, bleibt.",
+    "founded": "Gegründet",
+    "transporters": "Eigene Autotransporter",
+    "drivers": "Feste Fahrer",
+    "experience": "Jahre Erfahrung"
+  },
+  "duo": {
+    "alt": "Zwei Generationen Mcars zwischen zwei Autotransportern",
+    "eyebrow": "Vater und Sohn",
+    "title": "Zwei Generationen, <muted>eine Arbeitsweise.</muted>",
+    "founder": "Gründer",
+    "filipBody": "Lud 2004 seine ersten Autos auf und gründete 2009 Mcars. Fast zwanzig Jahre später steht er noch immer selbst zwischen den Lastwagen.",
+    "second": "Zweite Generation",
+    "ralphBody": "Stieg mit ins Geschäft ein und gestaltet die kommenden Jahre von Mcars mit, mit denselben kurzen Wegen wie sein Vater.",
+    "draft": "Rolle und Startjahr noch zu bestätigen"
+  },
+  "fleet": {
+    "alt": "Fünf Autotransporter von Mcars nebeneinander: Scania und Mercedes",
+    "label": "Die Flotte",
+    "title": "Neun eigene Transporter, <muted>acht feste Fahrer.</muted>"
+  },
+  "material": {
+    "eyebrow": "Material",
+    "title": "Wir fahren mit <muted>dem besten Material.</muted>",
+    "body": "Ihr Fahrzeug verdient einen Lkw, dem wir selbst vertrauen. Deshalb fahren wir mit Mercedes Actros und Scania, jeweils mit Kässbohrer-Aufbau und Seilwinde an Bord.",
+    "visitLabel": "2026 · Wörth, Deutschland",
+    "visitBody": "2026 besuchten wir gemeinsam mit Transportunternehmern aus der Region das Mercedes-Benz-Lkw-Werk in Wörth. So sehen wir selbst, wo unsere Actros gebaut werden und was auf uns zukommt.",
+    "woerthAlt": "Mercedes-Benz-Lkw vor dem Werk in Wörth",
+    "woerthCaption": "Mercedes-Benz, Wörth am Rhein"
+  },
+  "road": {
+    "label": "Unterwegs",
+    "lead": "Echte Fahrten,",
+    "trail": "echte Fotos.",
+    "intro": "Keine Stockfotos. Das sind unsere Lastwagen, vom Jubelpark in Brüssel bis in die Alpen."
+  },
+  "insuredSection": {
+    "label": "Versicherter Transport",
+    "title": "Ihr Fahrzeug reist <muted>abgesichert und dokumentiert.</muted>"
+  },
+  "whySection": {
+    "label": "Wie wir arbeiten",
+    "lead": "Vier Gründe,",
+    "trail": "die Kunden immer wieder nennen.",
+    "action": "Sehen, wo wir fahren"
+  }
+}

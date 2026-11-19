@@ -1,0 +1,47 @@
+{
+  "metaTitle": "Conditions générales | Mcars",
+  "metaDescription": "Les conditions générales de Mcars BV : champ d’application, devis, transport et CMR, responsabilité et assurance, paiement, annulation, réclamations et droit applicable.",
+  "heroEyebrow": "Mentions légales",
+  "heroTitle": "Conditions générales",
+  "heroSubtitle": "Les conditions applicables à nos devis et à nos transports.",
+  "crumb": "Conditions générales",
+  "sideLabel": "Conditions",
+  "noticeLabel": "Attention :",
+  "noticeText": "Ce texte est provisoire. Faites relire ce document par un juriste avant la mise en ligne.",
+  "intro": "Les présentes conditions générales s’appliquent à tous les devis, contrats et transports de {legalName}, dont le siège social est situé à {street}, {city}, {country} (TVA {vat}).",
+  "sections": {
+    "s1": {
+      "title": "1. Champ d’application",
+      "body": "Ces conditions s’appliquent à tout devis et à tout contrat entre {legalName} et le client, qu’il soit particulier ou entreprise. Toute dérogation n’est valable que si elle a été convenue par écrit. En passant une demande ou en acceptant un devis, le client accepte les présentes conditions."
+    },
+    "s2": {
+      "title": "2. Devis et prix",
+      "body": "Nos prix sont toujours établis sur demande et sur mesure. Chaque devis est rédigé personnellement, notamment sur la base de l’adresse d’enlèvement et de livraison, de la distance, du type de véhicule, du mode de transport choisi et du délai souhaité. Un devis est valable pendant la durée qui y est indiquée et n’engage {legalName} qu’après confirmation écrite de la commande."
+    },
+    "s3": {
+      "title": "3. Transport et CMR",
+      "body": "Le transport est effectué conformément à la réglementation nationale et internationale applicable en matière de transport, notamment la convention CMR relative au transport routier international. Lors de l’enlèvement, une lettre de voiture CMR est établie : elle confirme l’enlèvement et documente l’état du véhicule. Le client veille à ce que le véhicule soit accessible et disponible à l’heure convenue et à ce que les informations communiquées soient exactes."
+    },
+    "s4": {
+      "title": "4. Responsabilité et assurance",
+      "body": "{legalName} exécute chaque mission avec le soin et le professionnalisme requis. Notre responsabilité pour les dommages survenus pendant le transport est assurée et limitée conformément à la législation applicable en matière de transport (notamment la convention CMR). Nous ne sommes pas responsables des dommages résultant d’informations erronées ou incomplètes communiquées par le client, de défauts préexistants ou d’un cas de force majeure."
+    },
+    "s5": {
+      "title": "5. Paiement",
+      "body": "Pour les clients particuliers, le paiement s’effectue avant l’enlèvement du véhicule, sauf accord exprès contraire. Pour les entreprises, la facturation intervient après l’exécution du transport, payable dans le délai indiqué sur la facture. En cas de retard de paiement, des intérêts de retard et une indemnité forfaitaire peuvent être appliqués de plein droit, conformément à la législation en vigueur."
+    },
+    "s6": {
+      "title": "6. Annulation",
+      "body": "Si le client annule une commande confirmée, les frais déjà engagés et, en cas d’annulation peu avant l’enlèvement prévu, une indemnité raisonnable peuvent être facturés. {legalName} peut annuler une commande en cas de force majeure ou lorsque le client ne remplit pas ses obligations."
+    },
+    "s7": {
+      "title": "7. Réclamations",
+      "body": "Tout dommage visible doit être constaté à la livraison et noté sur la lettre de voiture CMR. Les réclamations concernant l’exécution du transport ou une facture doivent être signalées par écrit dans les plus brefs délais et dans un délai raisonnable via <mail>{email}</mail>."
+    },
+    "s8": {
+      "title": "8. Droit applicable et tribunal compétent",
+      "body": "Tous les contrats conclus avec {legalName} sont soumis au droit belge. En cas de litige, seuls sont compétents les tribunaux de l’arrondissement judiciaire dans lequel est établi le siège social de {legalName}, sans préjudice des dispositions légales impératives."
+    }
+  },
+  "closing": "Des questions sur ces conditions ? N’hésitez pas à nous <contact>contacter</contact>."
+}

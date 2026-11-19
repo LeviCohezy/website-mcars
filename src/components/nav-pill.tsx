@@ -1,16 +1,32 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useRef, useState } from "react";
+import { Link } from "@/i18n/navigation";
+import { usePathname } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
+import { createContext, useContext, useRef, useState, type ReactNode } from "react";
 import { nav, type NavItem } from "@/lib/site";
+
+/**
+ * The navigation in the visitor's language. Client components cannot call
+ * `localize`, so a server parent either passes `items` or wraps the tree in
+ * <NavProvider items={localize(locale, nav)}>. Without either: Dutch.
+ */
+const NavContext = createContext<NavItem[]>(nav);
+export const useNavItems = (items?: NavItem[]) => {
+  const fromContext = useContext(NavContext);
+  return items ?? fromContext;
+};
+export function NavProvider({ items, children }: { items: NavItem[]; children: ReactNode }) {
+  return <NavContext.Provider value={items}>{children}</NavContext.Provider>;
+}
 
 /**
  * The dark translucent links pill shared by the homepage hero and every
  * interior page, so the navigation is byte-for-byte identical everywhere.
  * Items that have children (Diensten, Routes, Ontdek) open a hover mega-menu.
  */
-export default function NavPill() {
+export default function NavPill({ items }: { items?: NavItem[] }) {
+  const nav = useNavItems(items);
   const pathname = usePathname();
   const [open, setOpen] = useState<string | null>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -64,6 +80,7 @@ export default function NavPill() {
 }
 
 function MegaMenu({ item, pathname, onNavigate }: { item: NavItem; pathname: string; onNavigate: () => void }) {
+  const t = useTranslations("NavPill");
   const wide = item.children!.length > 6;
   return (
     <div className={`absolute top-full left-0 z-50 pt-3 ${wide ? "w-[min(90vw,680px)]" : "w-[min(90vw,340px)]"}`}>
@@ -90,7 +107,7 @@ function MegaMenu({ item, pathname, onNavigate }: { item: NavItem; pathname: str
           })}
         </div>
         <Link href={item.href} onClick={onNavigate} className="mt-1 flex items-center justify-between rounded-xl bg-zinc-950 px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
-          Alle {item.label.toLowerCase()} bekijken
+          {t("viewAll", { label: item.label, labelLower: item.label.toLowerCase() })}
           <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
         </Link>
       </div>

@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Papierwerk & verzekering",
+  "title": "Papierwerk, verzekering en documenten? <muted>Daar ontfermen wij ons over.</muted>",
+  "cta": "Vraag uw offerte aan",
+  "points": {
+    "cmr": {
+      "title": "CMR-vrachtbrief",
+      "text": "Bij ophaling maken wij de CMR op, met ophaal- en leveradres en de gegevens van uw voertuig."
+    },
+    "inspection": {
+      "title": "Inspectie & foto's",
+      "text": "Uw wagen wordt bij ophaling nagekeken en gefotografeerd. Bestaande schade staat zo zwart op wit."
+    },
+    "pod": {
+      "title": "POD bij levering",
+      "text": "Bij aflevering tekent de ontvanger voor ontvangst. U heeft bewijs dat uw wagen goed is aangekomen."
+    },
+    "insured": {
+      "title": "Verzekerd transport",
+      "text": "Uw voertuig is verzekerd tijdens het volledige traject, van ophaling tot levering."
+    },
+    "noHassle": {
+      "title": "U hoeft zelf niets te regelen",
+      "text": "Geen formulieren of administratie voor u. Wij zorgen voor alle documenten."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "main": "De la solicitud a la entrega.",
+  "sub": "Así transcurre su transporte, paso a paso.",
+  "stepLabel": "Paso {n}",
+  "steps": {
+    "s1": {
+      "title": "Solicitar presupuesto",
+      "desc": "Por la web, por teléfono o por WhatsApp: en 24 horas tendrá precio y planificación"
+    },
+    "s2": {
+      "title": "Aprobación",
+      "desc": "Usted aprueba el presupuesto y nosotros lo dejamos todo cerrado"
+    },
+    "s3": {
+      "title": "Planificación del transporte",
+      "desc": "Se fija la fecha de recogida; el conductor le llama cuando esté a punto de llegar"
+    },
+    "s4": {
+      "title": "Recogida",
+      "desc": "Donde usted quiera: en el lugar elaboramos la CMR y fotografiamos el coche"
+    },
+    "s5": {
+      "title": "Entrega",
+      "desc": "Le llamamos al llegar y entregamos el coche donde nos haya indicado"
+    },
+    "s6": {
+      "title": "Pago",
+      "desc": "Los particulares pagan antes de la recogida; las empresas pagan con factura"
+    }
+  }
+}

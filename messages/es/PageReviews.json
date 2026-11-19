@@ -1,0 +1,25 @@
+{
+  "metaTitle": "Opiniones | Mcars",
+  "metaDescription": "Lo que dicen los clientes de Mcars. Valoración de 4,7 en Google con 37 opiniones, de particulares y de concesionarios y empresas.",
+  "hero": {
+    "eyebrow": "Opiniones",
+    "title": "Lo que dicen nuestros clientes.",
+    "subtitle": "Un 4,7 en Google, logrado gracias a particulares y concesionarios que nos confiaron su coche.",
+    "crumb": "Opiniones",
+    "badgeScore": "{score} / 5 en Google",
+    "badgeClients": "{clients} clientes",
+    "cta": "Presupuesto"
+  },
+  "rating": {
+    "eyebrow": "Valoración en Google",
+    "reviews": "{count} opiniones",
+    "body": "Nuestras valoraciones se actualizan en directo desde Google. A continuación, una selección representativa de lo que escriben nuestros clientes.",
+    "cta": "Ver en Google"
+  },
+  "quotes": {
+    "label": "Testimonios de clientes",
+    "lead": "De particulares",
+    "trail": "y de concesionarios y empresas.",
+    "note": "Los comentarios mostrados son anónimos. Las opiniones actuales se actualizan en directo desde Google."
+  }
+}

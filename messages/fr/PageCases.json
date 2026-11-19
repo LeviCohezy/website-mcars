@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Cas clients & réalisations | Mcars",
+  "metaDescription": "Un aperçu des transports réalisés par Mcars : des trajets de voitures de collection et des véhicules d’importation aux véhicules qui ne roulent pas et au transport européen pour entreprises. Anonyme, mais authentique.",
+  "hero": {
+    "eyebrow": "Réalisations",
+    "title": "Transports réalisés.",
+    "subtitle": "Un aperçu de trajets pour particuliers et entreprises — des voitures de collection aux stocks complets de concessionnaires. Anonyme, mais réellement effectué.",
+    "crumb": "Cas clients",
+    "badgeCount": "{count} cas clients",
+    "badgeSegment": "Particuliers & professionnels",
+    "cta": "Devis"
+  },
+  "header": {
+    "label": "Cas clients",
+    "lead": "Chaque trajet est différent,",
+    "trail": "notre approche reste la même.",
+    "intro": "Par respect pour nos clients, tous les cas restent anonymes — pas de noms, mais la vraie histoire."
+  },
+  "impact": {
+    "label": "Impact",
+    "lead": "Ce que nous concrétisons",
+    "trail": "au quotidien.",
+    "clients": "Clients satisfaits",
+    "experience": "Ans d’expérience",
+    "weekly": "Chaque semaine",
+    "france": "Dans toute la France"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "requestPrice": "Request a price",
+  "reviews": "Reviews",
+  "reviewsOnGoogle": "{count} reviews on Google",
+  "weTransport": "We transport: {types}",
+  "included": {
+    "label": "Included",
+    "title": "What you can <muted>expect from us.</muted>"
+  },
+  "faq": {
+    "personalAnswer": "Personal reply",
+    "callUs": "Your question not listed? Feel free to call us."
+  },
+  "price": {
+    "custom": "Tailor-made",
+    "title": "A fair price, <muted>in your inbox within 24 hours.</muted>",
+    "body": "A real person on our team looks at your request. What you see in the quote is what you pay — no surprises afterwards.",
+    "savings": "How you save"
+  },
+  "needs": {
+    "request": "With the request",
+    "documents": "Documents",
+    "onTheDay": "On the day itself"
+  },
+  "breakdown": {
+    "done": "Help is on its way.",
+    "safe": {
+      "title": "1 · Safety first",
+      "items": [
+        "Pull the car over as safely as possible and switch on the hazard lights.",
+        "Put on a high-visibility vest and place the warning triangle.",
+        "Wait behind the guardrail, not in or next to the car."
+      ]
+    },
+    "call": {
+      "title": "2 · Call us",
+      "items": [
+        "Give the exact location (street, exit or kilometre marker).",
+        "Tell us which vehicle it is and what is wrong.",
+        "Say where the car needs to go."
+      ]
+    },
+    "come": {
+      "title": "3 · We come",
+      "items": [
+        "You immediately get an honest answer about when we can be there.",
+        "We load the car safely using the winch.",
+        "We take it to your garage, to your home or to our depot."
+      ]
+    }
+  },
+  "safety": {
+    "imageAlt": "An Mcars transporter",
+    "title": "Own fleet. Permanent drivers. <muted>No subcontractors.</muted>"
+  },
+  "practice": {
+    "case": "Case · {tag}",
+    "moreCases": "View more cases"
+  },
+  "overview": {
+    "label": "Overview",
+    "happyClients": "happy customers",
+    "activeSince": "active since",
+    "activeSincePill": "Active since {year}",
+    "tags": [
+      "#insured",
+      "#CMR",
+      "#ownfleet",
+      "#permanentdrivers"
+    ],
+    "figures": "Mcars in numbers",
+    "audience": "Who it is for",
+    "promise": "A personal reply within 24 hours — from someone on our team, not from a calculator."
+  }
+}

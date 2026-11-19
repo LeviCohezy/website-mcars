@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Papeleo y seguro",
+  "title": "¿Papeleo, seguro y documentos? <muted>De eso nos encargamos nosotros.</muted>",
+  "cta": "Solicite su presupuesto",
+  "points": {
+    "cmr": {
+      "title": "Carta de porte CMR",
+      "text": "En la recogida elaboramos la CMR, con la dirección de recogida y de entrega y los datos de su vehículo."
+    },
+    "inspection": {
+      "title": "Inspección y fotos",
+      "text": "Su coche se revisa y se fotografía en la recogida. Así, los daños existentes quedan por escrito."
+    },
+    "pod": {
+      "title": "Prueba de entrega",
+      "text": "En la entrega, el receptor firma la recepción. Usted tiene la prueba de que su coche ha llegado en buen estado."
+    },
+    "insured": {
+      "title": "Transporte asegurado",
+      "text": "Su vehículo está asegurado durante todo el trayecto, de la recogida a la entrega."
+    },
+    "noHassle": {
+      "title": "No tiene que gestionar nada",
+      "text": "Sin formularios ni trámites para usted. Nosotros nos ocupamos de todos los documentos."
+    }
+  }
+}

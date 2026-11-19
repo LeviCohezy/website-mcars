@@ -1,0 +1,68 @@
+{
+  "steps": {
+    "route": "Percorso",
+    "vehicle": "Il Suo veicolo",
+    "details": "I Suoi dati"
+  },
+  "condition": {
+    "runs": "Si avvia e circola",
+    "rolls": "Non si avvia, ma è spingibile",
+    "blocked": "Non si avvia, bloccata"
+  },
+  "extras": {
+    "none": "Nessun box da tetto né portabici",
+    "topbox": "Box da tetto",
+    "bike": "Portabici",
+    "both": "Box da tetto e portabici"
+  },
+  "delivery": {
+    "address": "Consegna all’indirizzo di consegna",
+    "depot": "Consegna al deposito Mcars (più conveniente, 24/7)",
+    "depotShort": "Al deposito Mcars (24/7)"
+  },
+  "customer": {
+    "private": "Privato",
+    "business": "Azienda"
+  },
+  "cta": {
+    "plan": "Pianifica il trasporto",
+    "price": "Richieda il prezzo",
+    "next": "Avanti",
+    "send": "Invia la richiesta"
+  },
+  "back": "Indietro",
+  "progress": "Passo {step} di {total} · <b>{name}</b>",
+  "thanks": "Grazie — la Sua richiesta è pronta nel Suo programma di posta.",
+  "thanksSub": "Invii l’e-mail e riceverà una risposta personale entro 24 ore.",
+  "newRequest": "Nuova richiesta",
+  "swapAria": "Inverti luogo di partenza e di destinazione",
+  "fields": {
+    "pickup": "Indirizzo di ritiro",
+    "delivery": "Indirizzo di consegna",
+    "date": "Data di ritiro",
+    "vehicle": "Marca e modello",
+    "condition": "Condizioni",
+    "extras": "Box da tetto o portabici",
+    "deliveryType": "Consegna",
+    "customer": "Privato o azienda",
+    "name": "Nome",
+    "phone": "Telefono"
+  },
+  "placeholders": {
+    "address": "Via, comune, paese",
+    "origin": "Luogo di partenza",
+    "destination": "Luogo di destinazione",
+    "pickup": "Indirizzo di ritiro",
+    "delivery": "Indirizzo di consegna",
+    "pickupDate": "Scelga una data",
+    "arrivalDate": "Data di arrivo",
+    "date": "Data di ritiro",
+    "vehiclePanel": "Es. Volkswagen Golf",
+    "vehicle": "Marca e modello",
+    "namePanel": "Nome e cognome",
+    "name": "Nome",
+    "emailPanel": "nome@esempio.be",
+    "phonePanel": "Facoltativo",
+    "phone": "Telefono (facoltativo)"
+  }
+}

@@ -1,14 +1,9 @@
+import { useTranslations } from "next-intl";
 import { asset } from "@/lib/asset";
 
 // Paperwork, insurance and transport documents: Mcars handles all of it
 // (see docs/mcars-website-intake-briefing.md).
-const points = [
-  { title: "CMR-vrachtbrief", text: "Bij ophaling maken wij de CMR op, met ophaal- en leveradres en de gegevens van uw voertuig." },
-  { title: "Inspectie & foto's", text: "Uw wagen wordt bij ophaling nagekeken en gefotografeerd. Bestaande schade staat zo zwart op wit." },
-  { title: "POD bij levering", text: "Bij aflevering tekent de ontvanger voor ontvangst. U heeft bewijs dat uw wagen goed is aangekomen." },
-  { title: "Verzekerd transport", text: "Uw voertuig is verzekerd tijdens het volledige traject, van ophaling tot levering." },
-  { title: "U hoeft zelf niets te regelen", text: "Geen formulieren of administratie voor u. Wij zorgen voor alle documenten." },
-];
+const points = ["cmr", "inspection", "pod", "insured", "noHassle"] as const;
 
 function Check() {
   return (
@@ -29,6 +24,7 @@ function Check() {
 }
 
 export default function WhyChooseUs() {
+  const t = useTranslations("WhyChooseUs");
   return (
     <section
       id="waarom"
@@ -54,23 +50,22 @@ export default function WhyChooseUs() {
         {/* Right: title and USPs, one under the other */}
         <div className="max-w-xl">
           <p className="mb-4 text-sm font-medium tracking-widest text-zinc-400 uppercase">
-            Papierwerk & verzekering
+            {t("eyebrow")}
           </p>
           <h2 className="text-3xl font-medium leading-[1.15] tracking-tight text-zinc-950 sm:text-4xl lg:text-5xl">
-            Papierwerk, verzekering en documenten?{" "}
-            <span className="text-zinc-400">Daar ontfermen wij ons over.</span>
+            {t.rich("title", { muted: (c) => <span className="text-zinc-400">{c}</span> })}
           </h2>
 
           <ul className="mt-8 divide-y divide-zinc-200 border-y border-zinc-200 sm:mt-10">
             {points.map((point) => (
-              <li key={point.title} className="flex items-start gap-4 py-4 sm:py-5 lg:py-4">
+              <li key={point} className="flex items-start gap-4 py-4 sm:py-5 lg:py-4">
                 <Check />
                 <div>
                   <p className="text-lg font-medium tracking-tight text-zinc-950 sm:text-xl">
-                    {point.title}
+                    {t(`points.${point}.title`)}
                   </p>
                   <p className="mt-1 text-base leading-relaxed text-zinc-500 lg:[@media(max-height:760px)]:hidden">
-                    {point.text}
+                    {t(`points.${point}.text`)}
                   </p>
                 </div>
               </li>
@@ -91,7 +86,7 @@ export default function WhyChooseUs() {
             >
               <path d="M12 5v14M5 12h14" />
             </svg>
-            Vraag uw offerte aan
+            {t("cta")}
           </a>
         </div>
       </div>

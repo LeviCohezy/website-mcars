@@ -1,19 +1,20 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { asset } from "@/lib/asset";
 import MobileMapScene from "./mobile-map-scene";
 
 const REGIONS = [
-  { iso3: "BEL", flag: "🇧🇪", label: "België", tag: "thuisbasis" },
-  { iso3: "NLD", flag: "🇳🇱", label: "Nederland" },
-  { iso3: "DEU", flag: "🇩🇪", label: "Duitsland" },
-  { iso3: "LUX", flag: "🇱🇺", label: "Luxemburg" },
-  { iso3: "CHE", flag: "🇨🇭", label: "Zwitserland" },
-  { iso3: "ITA", flag: "🇮🇹", label: "Italië" },
-  { iso3: "ESP", flag: "🇪🇸", label: "Spanje" },
-  { iso3: "FRA", flag: "🇫🇷", label: "Frankrijk" },
+  { iso3: "BEL", flag: "🇧🇪", label: "belgium", tag: true },
+  { iso3: "NLD", flag: "🇳🇱", label: "netherlands" },
+  { iso3: "DEU", flag: "🇩🇪", label: "germany" },
+  { iso3: "LUX", flag: "🇱🇺", label: "luxembourg" },
+  { iso3: "CHE", flag: "🇨🇭", label: "switzerland" },
+  { iso3: "ITA", flag: "🇮🇹", label: "italy" },
+  { iso3: "ESP", flag: "🇪🇸", label: "spain" },
+  { iso3: "FRA", flag: "🇫🇷", label: "france" },
 ];
 
 
@@ -21,14 +22,14 @@ const REGIONS = [
 // Named left and right of the desktop film map, one by one as the map plays
 // (alternating sides, in this order).
 const SIDE_COUNTRIES = [
-  { flag: "🇧🇪", name: "België", side: "left" },
-  { flag: "🇪🇸", name: "Spanje", side: "right" },
-  { flag: "🇳🇱", name: "Nederland", side: "left" },
-  { flag: "🇮🇹", name: "Italië", side: "right" },
-  { flag: "🇩🇪", name: "Duitsland", side: "left" },
-  { flag: "🇫🇷", name: "Frankrijk", side: "right" },
-  { flag: "🇱🇺", name: "Luxemburg", side: "left" },
-  { flag: "🇦🇹", name: "Oostenrijk", side: "right" },
+  { flag: "🇧🇪", name: "belgium", side: "left" },
+  { flag: "🇪🇸", name: "spain", side: "right" },
+  { flag: "🇳🇱", name: "netherlands", side: "left" },
+  { flag: "🇮🇹", name: "italy", side: "right" },
+  { flag: "🇩🇪", name: "germany", side: "left" },
+  { flag: "🇫🇷", name: "france", side: "right" },
+  { flag: "🇱🇺", name: "luxembourg", side: "left" },
+  { flag: "🇦🇹", name: "austria", side: "right" },
 ] as const;
 
 // Height (in vh) of the final pinned stretch during which the next section
@@ -36,19 +37,12 @@ const SIDE_COUNTRIES = [
 const OVERLAP_VH = 100;
 
 // Word-wave title over the expanded map, in the problems-section style.
-const MAP_TITLE_WORDS = [
-  { word: "Mcars", dark: true },
-  { word: "transporteert", dark: true },
-  { word: "auto's", dark: true },
-  { word: "in", dark: false },
-  { word: "heel", dark: false },
-  { word: "Europa.", dark: false },
-];
+// (built from the messages inside the component)
 
 const rowServices = [
-  { label: "Oldtimers & specials", href: "/diensten/oldtimer-transport" },
-  { label: "Niet-rijdende voertuigen", href: "/diensten/niet-rijdende-auto" },
-  { label: "Spoed & repatriëring", href: "/diensten/spoedtransport" },
+  { key: "classic", href: "/diensten/oldtimer-transport" },
+  { key: "nonRunning", href: "/diensten/niet-rijdende-auto" },
+  { key: "urgent", href: "/diensten/spoedtransport" },
 ];
 
 const REDUCED_MOTION = "(prefers-reduced-motion: reduce)";
@@ -136,6 +130,11 @@ function PhotoCard({
 }
 
 export default function ServicesPhilosophy() {
+  const t = useTranslations("ServicesPhilosophy");
+  const mapTitleWords = [
+    ...t("mapTitleDark").split(" ").map((word) => ({ word, dark: true })),
+    ...t("mapTitleLight").split(" ").map((word) => ({ word, dark: false })),
+  ];
   const sectionRef = useRef<HTMLElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const stickyRef = useRef<HTMLDivElement>(null);
@@ -336,18 +335,15 @@ export default function ServicesPhilosophy() {
         >
           <div>
             <p className="mb-4 text-sm font-medium tracking-widest text-zinc-400 uppercase">
-              Onze diensten
+              {t("eyebrow")}
             </p>
             <h2 className="text-3xl font-medium leading-[1.15] tracking-tight sm:text-4xl lg:text-5xl">
-              <span className="text-zinc-950">Voor elk voertuig </span>
-              <span className="text-zinc-400">een oplossing.</span>
+              <span className="text-zinc-950">{t("titleDark")}</span>
+              <span className="text-zinc-400">{t("titleLight")}</span>
             </h2>
           </div>
           <p className="text-base leading-relaxed text-zinc-500">
-            Kwaliteit, betrouwbaarheid en een persoonlijke aanpak. Van import en
-            export tot volledige vloten: elke opdracht krijgt dezelfde zorg, van
-            offerte tot levering. Zo maken we autotransport eenvoudig, duidelijk
-            en zorgeloos — voor bedrijven én particulieren.
+            {t("intro")}
           </p>
         </div>
 
@@ -356,8 +352,8 @@ export default function ServicesPhilosophy() {
           <div {...enter(1)}>
             <PhotoCard
               img="fleet"
-              tag="Vloot"
-              caption="Vloottransport voor uw volledige wagenpark"
+              tag={t("cards.fleet.tag")}
+              caption={t("cards.fleet.caption")}
               href="/diensten/fleet-wagenpark"
               className="h-full min-h-[300px] lg:min-h-[430px]"
             />
@@ -366,15 +362,15 @@ export default function ServicesPhilosophy() {
           <div {...enter(2)} className={`grid grid-rows-2 gap-4 ${enter(2).className}`}>
             <PhotoCard
               img="import"
-              tag="Import"
-              caption="Import vanuit heel Europa"
+              tag={t("cards.import.tag")}
+              caption={t("cards.import.caption")}
               href="/diensten/auto-importeren"
               className="min-h-[200px]"
             />
             <PhotoCard
               img="export"
-              tag="Export"
-              caption="Export naar elke bestemming"
+              tag={t("cards.export.tag")}
+              caption={t("cards.export.caption")}
               href="/diensten/auto-exporteren"
               className="min-h-[200px]"
             />
@@ -383,12 +379,12 @@ export default function ServicesPhilosophy() {
           <div {...enter(3)} className={`grid grid-rows-3 gap-4 ${enter(3).className}`}>
             {rowServices.map((service) => (
               <Link
-                key={service.label}
+                key={service.key}
                 href={service.href}
                 className="group relative flex items-start justify-between gap-4 rounded-xl bg-zinc-100 p-5 transition-[background-color,transform] duration-300 ease-out hover:bg-zinc-200/70 motion-safe:hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none"
               >
                 <span className="self-center text-xl leading-snug font-medium tracking-tight text-zinc-950 sm:text-2xl">
-                  {service.label}
+                  {t(`services.${service.key}`)}
                 </span>
                 <ArrowChip className="size-8" />
                 <span
@@ -430,11 +426,10 @@ export default function ServicesPhilosophy() {
           <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <h3 className="text-2xl font-medium tracking-tight text-white sm:text-3xl">
-                De regio&apos;s waar we rijden:
+                {t("regionsTitle")}
               </h3>
               <p className="mt-3 max-w-xs text-sm leading-relaxed text-zinc-400">
-                Vaste corridors vanuit onze thuisbasis in België, elke week
-                opnieuw gereden. Van de Benelux tot diep in Zuid-Europa.
+                {t("regionsText")}
               </p>
             </div>
             <div className="flex max-w-sm flex-wrap gap-2 sm:justify-end">
@@ -450,10 +445,10 @@ export default function ServicesPhilosophy() {
                     }`}
                   >
                     <span className="text-sm leading-none">{region.flag}</span>
-                    {region.label}
+                    {t(`countries.${region.label}`)}
                     {region.tag && (
                       <span className={active ? "text-zinc-500" : "text-white/45"}>
-                        {region.tag}
+                        {t("homeBase")}
                       </span>
                     )}
                   </span>
@@ -466,7 +461,7 @@ export default function ServicesPhilosophy() {
           <div className="flex justify-center py-10 sm:py-12">
             <img
               src={asset("/logo.png")}
-              alt="Mcars"
+              alt={t("logoAlt")}
               className="h-20 w-auto invert mix-blend-screen sm:h-24"
             />
           </div>
@@ -477,7 +472,7 @@ export default function ServicesPhilosophy() {
               className="group flex items-center gap-2.5 rounded-full bg-white py-2.5 pr-3 pl-5 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
             >
               <span className="size-1.5 rounded-full bg-zinc-950" aria-hidden />
-              Bekijk ons netwerk
+              {t("networkCta")}
               <svg
                 className="size-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5"
                 viewBox="0 0 24 24"
@@ -504,11 +499,11 @@ export default function ServicesPhilosophy() {
                 >
                   {/* Title over the map, word-wave like the problems section */}
                   <h3 className="absolute inset-x-0 top-8 z-20 px-6 text-center text-3xl font-medium leading-[1.15] tracking-tight sm:top-12 sm:text-4xl lg:text-5xl">
-                    {MAP_TITLE_WORDS.map((t, i) => (
+                    {mapTitleWords.map((mw, i) => (
                       <span key={i} className="whitespace-pre">
                         <span
                           className={`inline-block transition-all duration-500 ease-out motion-reduce:transition-none ${
-                            t.dark ? "text-white" : "text-zinc-500"
+                            mw.dark ? "text-white" : "text-zinc-500"
                           } ${
                             mapShown
                               ? "translate-y-0 opacity-100"
@@ -518,7 +513,7 @@ export default function ServicesPhilosophy() {
                             transitionDelay: mapShown ? `${i * 70}ms` : "0ms",
                           }}
                         >
-                          {t.word}
+                          {mw.word}
                         </span>{" "}
                       </span>
                     ))}
@@ -548,7 +543,7 @@ export default function ServicesPhilosophy() {
                           <div key={c.name} data-side-country={i} className="flex items-center gap-4 opacity-0">
                             <span className="text-4xl leading-none xl:text-5xl">{c.flag}</span>
                             <span className="font-[family-name:var(--font-display)] text-5xl leading-none tracking-wide text-white xl:text-[3.3rem]">
-                              {c.name}
+                              {t(`countries.${c.name}`)}
                             </span>
                           </div>
                         ) : null,

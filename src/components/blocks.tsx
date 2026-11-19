@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { useState } from "react";
 import type { Faq, Highlight, ProcessStep, Stat } from "@/data/services";
 import { asset } from "@/lib/asset";
@@ -143,6 +144,7 @@ export function MaskedHeading({
 
 /** Numbered process on a shared rail: each step fills its segment of the line. */
 export function ProcessTimeline({ steps, dark = false }: { steps: ProcessStep[]; dark?: boolean }) {
+  const t = useTranslations("Blocks");
   return (
     <ol className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
       {steps.slice(0, 4).map((s, i) => (
@@ -151,7 +153,7 @@ export function ProcessTimeline({ steps, dark = false }: { steps: ProcessStep[];
             <span className={`absolute inset-y-0 left-0 w-10 ${dark ? "bg-white" : "bg-zinc-950"}`} />
           </div>
           <p className={`mt-6 text-xs font-medium tracking-[0.18em] uppercase ${dark ? "text-zinc-500" : "text-zinc-400"}`}>
-            Stap {String(i + 1).padStart(2, "0")}
+            {t("step", { number: String(i + 1).padStart(2, "0") })}
           </p>
           <h3 className={`mt-3 text-xl font-medium tracking-tight ${dark ? "text-white" : "text-zinc-950"}`}>{s.title}</h3>
           <p className={`mt-3 text-[0.95rem] leading-relaxed ${dark ? "text-zinc-400" : "text-zinc-500"}`}>{s.body}</p>
@@ -172,14 +174,15 @@ export function RibbonBand({ items, className = "" }: { items: string[]; classNa
 
 /** Closing conversion panel: photograph, a direct line to a person, and the quote CTA. */
 export function QuoteCta({
-  title = "Klaar om uw wagen te laten vervoeren?",
-  body = "Vraag vrijblijvend uw offerte aan. U krijgt binnen 24 uur antwoord met prijs en planning — persoonlijk, geen calculator.",
+  title,
+  body,
   image = "/fleet/hero-highway-sunset.jpg",
 }: {
   title?: string;
   body?: string;
   image?: string;
 }) {
+  const t = useTranslations("Blocks.quoteCta");
   return (
     // Always the last block before the footer: the negative bottom margin
     // pulls the footer up over the panel's lower edge, so the CTA reads as
@@ -195,25 +198,25 @@ export function QuoteCta({
           <Reveal>
             <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-white/60 uppercase">
               <span aria-hidden className="size-1.5 rounded-full bg-white" />
-              Offerte
+              {t("eyebrow")}
             </p>
             <h2 className="mt-6 max-w-2xl text-4xl font-light leading-[1.04] tracking-[-0.03em] text-balance text-white sm:text-5xl lg:text-6xl">
-              {title}
+              {title ?? t("title")}
             </h2>
-            <p className="mt-6 max-w-lg text-base leading-relaxed text-white/65 sm:text-lg">{body}</p>
+            <p className="mt-6 max-w-lg text-base leading-relaxed text-white/65 sm:text-lg">{body ?? t("body")}</p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
                 href="/offerte"
                 className="group inline-flex items-center gap-3 rounded-full bg-white py-2 pr-2 pl-6 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
               >
-                Offerte
+                {t("quote")}
                 <ArrowChip tone="dark" />
               </Link>
               <Link
                 href="/contact"
                 className="inline-flex items-center rounded-full border border-white/25 px-6 py-3 text-sm font-medium text-white transition-colors hover:border-white/60"
               >
-                Contact opnemen
+                {t("contact")}
               </Link>
             </div>
           </Reveal>
@@ -221,20 +224,20 @@ export function QuoteCta({
           <Reveal delay={120} className="lg:justify-self-end">
             <dl className="grid gap-6 border-t border-white/15 pt-6 text-sm lg:min-w-72">
               <div>
-                <dt className="text-white/45">Rechtstreeks bellen</dt>
+                <dt className="text-white/45">{t("call")}</dt>
                 <dd className="mt-1 text-xl font-medium tracking-tight text-white">
                   <a href={site.phoneHref} className="transition-colors hover:text-white/70">{site.phone}</a>
                 </dd>
               </div>
               <div>
-                <dt className="text-white/45">Mailen</dt>
+                <dt className="text-white/45">{t("mail")}</dt>
                 <dd className="mt-1 text-xl font-medium tracking-tight text-white">
                   <a href={`mailto:${site.email}`} className="transition-colors hover:text-white/70">{site.email}</a>
                 </dd>
               </div>
               <div>
-                <dt className="text-white/45">Bereikbaar</dt>
-                <dd className="mt-1 text-white/80">{site.hours}</dd>
+                <dt className="text-white/45">{t("available")}</dt>
+                <dd className="mt-1 text-white/80">{t("hours")}</dd>
               </div>
             </dl>
           </Reveal>

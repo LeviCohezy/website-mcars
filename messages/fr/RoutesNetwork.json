@@ -1,0 +1,11 @@
+{
+  "sectionLabel": "Directement entre les pays",
+  "globeLabel": "Globe avec les routes entre {count} pays",
+  "eyebrow": "Corridors fixes",
+  "title": "Directement <muted>entre les pays.</muted>",
+  "departFrom": "Départ de",
+  "chooseCountry": "Choisissez un pays",
+  "fixed": "Trajet fixe",
+  "hint": "{count} pays, {total} combinaisons. Choisissez un pays de départ et voyez où nous roulons directement.",
+  "combinations": "combinaisons"
+}

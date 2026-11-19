@@ -1,0 +1,53 @@
+{
+  "steps": {
+    "transport": "Transport",
+    "vehicles": "Fahrzeuge",
+    "details": "Ihre Daten"
+  },
+  "condition": {
+    "runs": "Startet und fährt",
+    "rolls": "Startet nicht, rollfähig",
+    "blocked": "Startet nicht, blockiert"
+  },
+  "customerType": {
+    "particulier": "Privatkunde",
+    "bedrijf": "Unternehmen"
+  },
+  "customerTypeAria": "Kundentyp",
+  "optional": "(optional)",
+  "pickDate": "Datum wählen",
+  "dateInvalid": "Wählen Sie ein Datum oder haken Sie „sofort“ an.",
+  "eyebrow": "( Angebot )",
+  "title": "Sagen Sie uns, was gefahren werden soll",
+  "intro": "Fordern Sie Ihr Angebot in drei kurzen Schritten an. Innerhalb von 24 Stunden erhalten Sie eine persönliche Antwort von unserem Team – keine automatischen Mails, dafür ein Festpreis.",
+  "stepOf": "Schritt {step} von {total}",
+  "pickupAddress": "Abholadresse",
+  "deliveryAddress": "Lieferadresse",
+  "addressPlaceholder": "Straße, Ort, Land",
+  "depotPlaceholder": "Mcars-Depot, Roeselare",
+  "depotLabel": "Lieferung am Mcars-Depot (günstiger, Abholung rund um die Uhr möglich)",
+  "availableForPickup": "Verfügbar für die Abholung",
+  "asap": "Sofort",
+  "desiredDelivery": "Gewünschtes Lieferdatum",
+  "vehicle": "Fahrzeug",
+  "doesItStart": "Startet das Fahrzeug?",
+  "quantity": "Anzahl",
+  "makeModel": "Marke und Modell",
+  "vehicleMakeModelAria": "Fahrzeug {n}: Marke und Modell",
+  "vehicleStartsAria": "Fahrzeug {n}: startet das Fahrzeug?",
+  "vehicleQuantityAria": "Fahrzeug {n}: Anzahl",
+  "vehicleRemoveAria": "Fahrzeug {n} entfernen",
+  "addVehicle": "Weiteres Fahrzeug hinzufügen",
+  "topbox": "Dachbox oder Fahrradträger vorhanden",
+  "firstName": "Vorname",
+  "lastName": "Nachname",
+  "company": "Firmenname",
+  "vat": "USt-IdNr.",
+  "vatPlaceholder": "BE 0xxx.xxx.xxx",
+  "phone": "Telefon",
+  "remarks": "Anmerkungen",
+  "remarksPlaceholder": "Besonderheiten zum Fahrzeug oder Transport",
+  "back": "Zurück",
+  "next": "Weiter",
+  "submit": "Anfrage senden"
+}

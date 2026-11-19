@@ -1,0 +1,38 @@
+{
+  "metaTitle": "Cookie policy | Mcars",
+  "metaDescription": "Quali cookie utilizza Mcars: cookie funzionali, analitici e di marketing, a cosa servono e come gestire o revocare il Suo consenso.",
+  "heroEyebrow": "Informazioni legali",
+  "heroTitle": "Cookie policy",
+  "heroSubtitle": "Quali cookie utilizziamo e come gestirli.",
+  "crumb": "Cookie policy",
+  "sideLabel": "Cookie",
+  "noticeLabel": "Attenzione:",
+  "noticeText": "Questo è un testo provvisorio. Far verificare questo documento da un punto di vista legale prima della messa online.",
+  "intro": "La presente cookie policy spiega come {legalName} utilizza i cookie e tecnologie analoghe su questo sito web. Utilizzando il nostro sito e, ove necessario, prestando il Suo consenso, Lei accetta l’uso dei cookie come descritto di seguito.",
+  "sections": {
+    "s1": {
+      "title": "1. Che cosa sono i cookie?",
+      "body": "I cookie sono piccoli file di testo che vengono salvati sul Suo dispositivo quando visita un sito web. Fanno in modo che il sito funzioni correttamente, ricordano le Sue preferenze e ci aiutano a capire come viene utilizzato il sito. Oltre ai cookie possono essere impiegate anche tecnologie analoghe come pixel e local storage."
+    },
+    "s2": {
+      "title": "2. Quali tipi di cookie utilizziamo?",
+      "body": "<strong>I cookie funzionali</strong> sono necessari per il corretto funzionamento del sito. Non possono essere disattivati. <br></br> <strong>I cookie analitici</strong> ci aiutano a migliorare il sito monitorando in forma anonima come i visitatori utilizzano le nostre pagine. <br></br> <strong>I cookie di marketing</strong> vengono utilizzati per rendere più pertinenti gli annunci pubblicitari e misurare la portata delle nostre campagne. Vengono installati solo dopo il Suo consenso."
+    },
+    "s3": {
+      "title": "3. Consenso e gestione",
+      "body": "Alla Sua prima visita Le chiediamo il consenso per i cookie non necessari. Può modificare o revocare le Sue preferenze in qualsiasi momento tramite le impostazioni dei cookie sul sito. Inoltre può gestire o eliminare i cookie tramite le impostazioni del Suo browser. La disattivazione di determinati cookie può tuttavia influire sul funzionamento del sito."
+    },
+    "s4": {
+      "title": "4. Cookie di terze parti",
+      "body": "Alcuni cookie vengono installati da servizi di terze parti che utilizziamo sul nostro sito, ad esempio per incorporare mappe o misurare l’utilizzo del sito. Queste parti possono avere una propria informativa sulla privacy e sui cookie."
+    },
+    "s5": {
+      "title": "5. Modifiche",
+      "body": "Possiamo modificare di tanto in tanto la presente cookie policy, ad esempio quando cambiamo il nostro sito o le tecnologie utilizzate. La versione più recente è sempre disponibile su questa pagina."
+    },
+    "s6": {
+      "title": "6. Contatti",
+      "body": "Desidera saperne di più su come trattiamo i Suoi dati? Legga la nostra <privacy>informativa sulla privacy</privacy> oppure <contact>ci contatti</contact> all’indirizzo {email}."
+    }
+  }
+}

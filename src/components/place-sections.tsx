@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Icon from "@/components/icon";
 import { Reveal } from "@/components/scroll";
 import { ArrowButton, Eyebrow } from "@/components/ui";

@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { asset } from "@/lib/asset";
 
@@ -14,9 +15,9 @@ type Item = { title: string; desc?: string; body: string };
 export default function SituationsScroll({
   items,
   image,
-  title = "Herkent u zich hierin?",
+  title,
   intro,
-  label = "Herkenbare situaties",
+  label,
 }: {
   items: Item[];
   image: string;
@@ -25,6 +26,7 @@ export default function SituationsScroll({
   intro?: string;
   label?: string;
 }) {
+  const t = useTranslations("SituationsScroll");
   const wrapRef = useRef<HTMLDivElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
   const headRef = useRef<HTMLDivElement>(null);
@@ -122,11 +124,11 @@ export default function SituationsScroll({
           <div ref={headRef} className="flex items-start justify-between gap-6">
             <div>
               <h2 className="max-w-3xl text-4xl font-light leading-[1.05] tracking-[-0.03em] text-balance text-white sm:text-5xl lg:text-[3.5rem]">
-                {title}
+                {title ?? t("title")}
               </h2>
               {intro && <p className="mt-5 max-w-xl text-base leading-relaxed text-white/70 sm:text-lg">{intro}</p>}
             </div>
-            <p className="hidden flex-none pt-2 text-sm text-white/70 sm:block">[{label}]</p>
+            <p className="hidden flex-none pt-2 text-sm text-white/70 sm:block">[{label ?? t("label")}]</p>
           </div>
 
           <div className={`mt-auto grid gap-3 pt-10 sm:grid-cols-2 ${cols}`}>
@@ -144,13 +146,13 @@ export default function SituationsScroll({
                   </h3>
                   {s.desc && <p className="mt-3 text-[0.95rem] leading-relaxed text-zinc-600">{s.desc}</p>}
                   {/* Quiet index at the bottom — the sentence is what should be read first. */}
-                  <p className="mt-auto pt-6 text-xs text-zinc-300 tabular-nums">Situatie {String(i + 1).padStart(2, "0")}</p>
+                  <p className="mt-auto pt-6 text-xs text-zinc-300 tabular-nums">{t("situation", { n: String(i + 1).padStart(2, "0") })}</p>
                 </div>
                 {/* What we do */}
                 <div className="rounded-lg bg-zinc-950 p-5 text-white ring-1 ring-white/10 sm:p-6">
                   <p className="flex items-center gap-2 text-xs font-medium tracking-[0.14em] text-white/50 uppercase">
                     <span aria-hidden className="size-1.5 rounded-full bg-white" />
-                    Wat wij doen
+                    {t("whatWeDo")}
                   </p>
                   <p className="mt-2.5 text-[0.95rem] leading-relaxed text-white/85">{s.body}</p>
                 </div>

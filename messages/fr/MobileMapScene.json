@@ -1,0 +1,14 @@
+{
+  "countries": {
+    "france": "France",
+    "belgium": "Belgique",
+    "netherlands": "Pays-Bas",
+    "germany": "Allemagne",
+    "spain": "Espagne",
+    "italy": "Italie"
+  },
+  "routesCta": "Voir nos trajets",
+  "titleLead": "Les régions ",
+  "titleTail": "que nous desservons.",
+  "intro": "Des corridors réguliers au départ de notre base en Belgique, parcourus chaque semaine."
+}

@@ -6,6 +6,7 @@
  * All respect prefers-reduced-motion.
  */
 
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 
 function useReducedMotion() {
@@ -190,10 +191,11 @@ export function Marquee({
 }
 
 /** Bouncing "scroll" cue for hero sections. */
-export function ScrollCue({ label = "Scroll", className = "" }: { label?: string; className?: string }) {
+export function ScrollCue({ label, className = "" }: { label?: string; className?: string }) {
+  const t = useTranslations("Scroll");
   return (
     <div className={`flex items-center gap-3 text-xs font-medium tracking-widest text-white/70 uppercase ${className}`}>
-      <span>{label}</span>
+      <span>{label ?? t("cue")}</span>
       <span className="scroll-bob flex size-8 items-center justify-center rounded-full border border-white/25">
         <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 5v14M6 13l6 6 6-6" />

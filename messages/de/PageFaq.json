@@ -1,0 +1,141 @@
+{
+  "metaTitle": "Häufig gestellte Fragen | Mcars",
+  "metaDescription": "Antworten auf häufig gestellte Fragen zum Autotransport: Preise, Versicherung, Abholung und Lieferung, Ausland, nicht fahrbereite Fahrzeuge, Dokumente, Zahlung und Eiltransporte.",
+  "heroTitle": "Häufig gestellte Fragen.",
+  "heroSubtitle": "Die häufigsten Fragen zum Autotransport, nach Themen geordnet. Ihre Frage ist nicht dabei? Wir helfen Ihnen gerne persönlich weiter.",
+  "badgeAnswers": "{count} Antworten",
+  "badgeTopics": "{count} Themen",
+  "cta": "Angebot",
+  "topics": "Themen",
+  "stillEyebrow": "Noch eine Frage?",
+  "stillTitle": "Ihre Frage ist nicht dabei? <muted>Wir helfen Ihnen persönlich.</muted>",
+  "stillText": "Sie erhalten eine klare Antwort von jemandem, der Ihren Transport auch wirklich einplanen kann.",
+  "contactCta": "Kontakt aufnehmen",
+  "callUs": "Oder rufen Sie an: {phone}",
+  "groups": [
+    {
+      "eyebrow": "Preise",
+      "title": "Was kostet",
+      "trail": "ein Transport?",
+      "items": [
+        {
+          "q": "Wie wird der Preis bestimmt?",
+          "a": "Jeder Preis ist Maßarbeit. Wir betrachten Abhol- und Lieferadresse, Entfernung, das Fahrzeug (Abmessungen und ob es fährt, rollt oder blockiert ist), Eil- oder Normaltransport und das Zielland. So erhalten Sie stets einen korrekten Preis für Ihre Situation."
+        },
+        {
+          "q": "Erhalte ich sofort einen Preis?",
+          "a": "Wir arbeiten nicht mit einem automatischen Rechner. Jede Anfrage wird von Hand geprüft, damit der Preis stimmt. Innerhalb von 24 Stunden erhalten Sie eine persönliche Antwort mit Preis und Planung."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Versicherung",
+      "title": "Ist mein Fahrzeug",
+      "trail": "versichert?",
+      "items": [
+        {
+          "q": "Ist mein Fahrzeug während des Transports versichert?",
+          "a": "Ja. Ihr Fahrzeug ist während des Transports versichert. Der CMR-Frachtbrief dokumentiert zudem den Zustand des Fahrzeugs bei der Abholung, sodass es hinterher keine Diskussion geben kann."
+        },
+        {
+          "q": "Was passiert bei einem Schaden?",
+          "a": "Unsere Fahrer halten den Zustand jedes Fahrzeugs bei der Abfahrt intern fest. Sollte wider Erwarten etwas passieren, dient dieser Nachweis zusammen mit dem CMR als Grundlage, um alles korrekt abzuwickeln."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Abholung und Lieferung",
+      "title": "Abholung",
+      "trail": "und Lieferung.",
+      "items": [
+        {
+          "q": "Werde ich benachrichtigt, wenn der Fahrer kommt?",
+          "a": "Selbstverständlich. Der Fahrer ruft Sie am selben Tag an, um den Abholzeitpunkt abzustimmen. Bei der Ankunft am Zielort rufen wir Sie für die Lieferung erneut an."
+        },
+        {
+          "q": "Kann ich mein Fahrzeug auch im Depot abholen oder dort abgeben?",
+          "a": "Das ist möglich. Unser Depot in Roeselare ist nach Absprache rund um die Uhr zugänglich und oft günstiger als eine Lieferung nach Hause. Wir besprechen gemeinsam, was für Sie am praktischsten ist."
+        },
+        {
+          "q": "Können Sie auch an einer abgelegenen Adresse abholen?",
+          "a": "Ja. Wir holen sowohl in der Stadt als auch an abgelegeneren Adressen ab und liefern dorthin. Die Adresse ist allerdings einer der Faktoren, die den Preis mitbestimmen."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Auslandstransport",
+      "title": "Transport",
+      "trail": "ins Ausland.",
+      "items": [
+        {
+          "q": "In welche Länder fahren Sie?",
+          "a": "Wir sind in ganz Europa aktiv, unter anderem in Belgien, den Niederlanden, Frankreich, Spanien, Deutschland, Italien, Polen und Skandinavien. Wöchentlich fahren wir durch ganz Frankreich bis nach Nordspanien."
+        },
+        {
+          "q": "Sprechen Ihre Fahrer die Sprache vor Ort?",
+          "a": "Wir haben sowohl niederländisch- als auch französischsprachige Fahrer. Das macht Abholung und Lieferung im In- und Ausland reibungslos und klar."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Nicht fahrbereite Fahrzeuge",
+      "title": "Nicht fahrbereite",
+      "trail": "Fahrzeuge.",
+      "items": [
+        {
+          "q": "Befördern Sie auch Fahrzeuge, die nicht fahren?",
+          "a": "Ja. Ein Fahrzeug, das nicht mehr anspringt oder nicht mehr fährt, ziehen wir mit einer Seilwinde (Winch) auf den Auflieger. Wo nötig, setzen wir einen Gabelstapler ein. So gelangt auch ein defektes Fahrzeug oder Projektfahrzeug sicher auf Transport."
+        },
+        {
+          "q": "Was, wenn die Räder blockiert sind?",
+          "a": "Teilen Sie es uns bei Ihrer Anfrage mit. Ob ein Fahrzeug fährt, rollt oder blockiert ist, bestimmt mit über Vorgehen und Preis. Wir prüfen für jede Situation die beste und sicherste Art der Verladung."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Dokumente",
+      "title": "Welche Dokumente",
+      "trail": "benötige ich?",
+      "items": [
+        {
+          "q": "Welche Dokumente benötige ich für den Transport?",
+          "a": "Für den Transport selbst ist der CMR-Frachtbrief das einzige erforderliche Dokument. Der Fahrer füllt ihn bei der Abholung aus. Er belegt, dass Ihr Fahrzeug abgeholt wurde, und dokumentiert den Zustand bei der Abfahrt."
+        },
+        {
+          "q": "Muss ich selbst etwas erstellen?",
+          "a": "Nein. Den CMR erledigen wir bei der Abholung. Sie müssen vorab keine Dokumente erstellen."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Zahlung",
+      "title": "Wie läuft",
+      "trail": "die Zahlung ab?",
+      "items": [
+        {
+          "q": "Wann und wie bezahle ich?",
+          "a": "Bei Privatkunden erfolgt die Zahlung vor der Abholung. Unternehmen und Händler zahlen auf Rechnung. In Ihrem Angebot erklären wir klar, was für Sie gilt."
+        },
+        {
+          "q": "Erhalte ich eine automatische Bestätigungs-E-Mail?",
+          "a": "Wir arbeiten bewusst persönlich. Sie erhalten keine automatisierte Bestätigung, dafür aber eine konkrete Antwort von jemandem aus unserem Team mit Preis und Planung."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Eiltransport",
+      "title": "Dringender",
+      "trail": "Transport.",
+      "items": [
+        {
+          "q": "Können Sie einen dringenden Transport organisieren?",
+          "a": "Geben Sie bei Ihrer Anfrage an, dass es eilig ist. Wir prüfen sofort, was innerhalb unserer Planung möglich ist. Eil- oder Normaltransport ist einer der Faktoren, die Vorgehen und Preis mitbestimmen."
+        },
+        {
+          "q": "Wie beantrage ich einen Eiltransport?",
+          "a": "Rufen Sie uns gerne direkt an oder fordern Sie ein Angebot an und geben Sie an, dass es dringend ist. So können wir schnell reagieren und Ihnen mitteilen, was machbar ist."
+        }
+      ]
+    }
+  ]
+}

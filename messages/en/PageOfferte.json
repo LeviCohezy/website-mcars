@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Request a quote | Mcars",
+    "description": "Request your car transport price with no obligation. You will receive a personal reply within 24 hours with a price and schedule — no calculator, no automatic email."
+  },
+  "hero": {
+    "eyebrow": "Fast · safe · reliable",
+    "title": "Car transport quote",
+    "lead": "Fill in the form below and quickly receive a no-obligation quote for transporting your vehicle."
+  },
+  "form": {
+    "title": "Plan your transport. <muted>In four short steps.</muted>",
+    "intro": "Departure, destination, your car and your details — we will send you a personal price and schedule within 24 hours."
+  },
+  "factors": {
+    "label": "What determines the price?",
+    "lead": "Every trip is different.",
+    "trail": "This counts towards your quote.",
+    "intro": "We don’t charge fixed rates. We put your price together manually based on these factors — so it is right for your specific transport.",
+    "items": [
+      {
+        "title": "Distance",
+        "body": "The further the trip, the more kilometres and time. The distance between the collection and delivery address helps determine the price."
+      },
+      {
+        "title": "Type of vehicle",
+        "body": "Dimensions and weight play a role. A compact car loads differently from a van, SUV or classic car."
+      },
+      {
+        "title": "Running or non-running",
+        "body": "Does the car drive, can it roll or is it completely locked? For non-running cars we provide a winch or forklift."
+      },
+      {
+        "title": "Extras on board",
+        "body": "A roof box, bike rack or belongings in the car? Let us know — it affects how we load and plan."
+      },
+      {
+        "title": "Urgent or normal scheduling",
+        "body": "Does your trip fit our existing routes, or is it urgent? The scheduling counts towards the price."
+      },
+      {
+        "title": "Country of collection/delivery",
+        "body": "Within Belgium or far into Europe: the country of collection and delivery helps determine the route and the cost."
+      }
+    ]
+  },
+  "reassurance": [
+    {
+      "title": "Reply within 24 hours",
+      "body": "You quickly get a price and a possible schedule back — no waiting for days."
+    },
+    {
+      "title": "Personal, not a calculator",
+      "body": "Every quote is drawn up manually by our team, tailored to your situation."
+    },
+    {
+      "title": "We reply ourselves",
+      "body": "No automatic confirmation email. You hear directly from a real person at Mcars."
+    }
+  ],
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "About your quote. <muted>Briefly explained.</muted>",
+    "phone": "Not sure what details you need? Call <link>{phone}</link> — we will gladly help you personally.",
+    "contact": "Get in touch",
+    "items": [
+      {
+        "q": "How quickly will I get a reply to my request?",
+        "a": "You will receive a personal reply within 24 hours with the price and the possible schedule. Every request is looked at manually — so you will not receive an automatic confirmation email, we reply ourselves."
+      },
+      {
+        "q": "What details do I need to request a quote?",
+        "a": "Handy to have at hand: whether you are a private customer or a business, the collection and delivery address (or our depot), the vehicle and its condition (starts and drives, can roll or locked, with or without a roof box), and the desired date. The more complete your request, the more accurately we can determine your price."
+      },
+      {
+        "q": "Can I have it delivered to or collected from our depot?",
+        "a": "Yes. Delivery or collection at our depot in Roeselare is possible and is generally cheaper than at home. Mention it in your request and we will take it into account."
+      },
+      {
+        "q": "How does payment work?",
+        "a": "Private customers pay before collection. Businesses simply pay by invoice. We agree the practical arrangements with you beforehand."
+      }
+    ]
+  }
+}

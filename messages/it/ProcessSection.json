@@ -1,0 +1,31 @@
+{
+  "main": "Dalla richiesta alla consegna.",
+  "sub": "Ecco come si svolge il Suo trasporto, passo dopo passo.",
+  "stepLabel": "Fase {n}",
+  "steps": {
+    "s1": {
+      "title": "Richieda un preventivo",
+      "desc": "Tramite sito web, telefono o WhatsApp: entro 24 ore ha prezzo e programmazione"
+    },
+    "s2": {
+      "title": "Approvazione",
+      "desc": "Lei approva il preventivo e noi organizziamo tutto per Lei"
+    },
+    "s3": {
+      "title": "Pianificazione del trasporto",
+      "desc": "Viene fissata la data di ritiro; l’autista La chiama quando sarà sul posto"
+    },
+    "s4": {
+      "title": "Ritiro",
+      "desc": "Dove preferisce: sul posto compiliamo la CMR e fotografiamo l’auto"
+    },
+    "s5": {
+      "title": "Consegna",
+      "desc": "La chiamiamo quando arriviamo e consegniamo l’auto dove ci ha indicato"
+    },
+    "s6": {
+      "title": "Pagamento",
+      "desc": "I privati pagano prima del ritiro, le aziende pagano su fattura"
+    }
+  }
+}

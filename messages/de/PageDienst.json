@@ -1,0 +1,62 @@
+{
+  "crumb": "Leistungen",
+  "reviewsAria": "{score} von 5 bei Google — Bewertungen ansehen",
+  "insured": "Versichert, mit CMR",
+  "imageAlt": "{service} durch Mcars",
+  "situations": {
+    "title": "Erkennen Sie sich in einer dieser Situationen wieder?",
+    "intro": "{count, select, 2 {Zwei} 3 {Drei} 4 {Vier} 5 {Fünf} other {Einige}} Situationen, in denen Kunden uns anrufen. Erkennen Sie Ihre wieder? Dann sehen Sie sofort, was wir für Sie regeln."
+  },
+  "why": {
+    "label": "Warum Mcars",
+    "lead": "So gehen wir vor,",
+    "trail": "Fahrt für Fahrt.",
+    "intro": "Eigene Flotte, feste Fahrer und ein Ansprechpartner. Das bleibt bei jeder Fahrt gleich."
+  },
+  "process": {
+    "label": "Ablauf",
+    "lead": "Von der Anfrage bis zur Lieferung,",
+    "trail": "klar und einfach.",
+    "intro": "Sie wissen jederzeit, was passiert und wen Sie anrufen können."
+  },
+  "price": {
+    "label": "Preis",
+    "lead": "Was bestimmt",
+    "trail": "den Preis?",
+    "intro": "Wir arbeiten nicht mit einem Rechner: Jeder Preis ist auf Ihren Transport abgestimmt. Diese Faktoren fließen ein."
+  },
+  "breakdown": {
+    "label": "Bei einer Panne",
+    "lead": "Was tun",
+    "trail": "bei einer Panne?"
+  },
+  "needs": {
+    "label": "Vorbereitung",
+    "lead": "Was wir von Ihnen",
+    "trail": "benötigen."
+  },
+  "included": {
+    "caption": "Eigene Flotte · feste Fahrer · seit {year}"
+  },
+  "safety": {
+    "label": "Flotte & Sicherheit",
+    "lead": "So schützen wir",
+    "trail": "Ihr Fahrzeug."
+  },
+  "practice": {
+    "label": "Aus der Praxis",
+    "lead": "So haben wir es",
+    "trail": "schon früher gemacht."
+  },
+  "faq": {
+    "lead": "Häufig gestellte Fragen",
+    "trail": "zu {service}."
+  },
+  "related": {
+    "label": "Entdecken Sie auch",
+    "lead": "Verwandte Leistungen",
+    "trail": "und Routen.",
+    "service": "Leistung",
+    "route": "Route"
+  }
+}

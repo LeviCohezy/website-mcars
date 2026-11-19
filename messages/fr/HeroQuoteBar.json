@@ -1,0 +1,68 @@
+{
+  "steps": {
+    "route": "Trajet",
+    "vehicle": "Votre véhicule",
+    "details": "Vos coordonnées"
+  },
+  "condition": {
+    "runs": "Démarre et roule",
+    "rolls": "Ne démarre pas, mais roule",
+    "blocked": "Ne démarre pas, bloquée"
+  },
+  "extras": {
+    "none": "Pas de coffre de toit ni de porte-vélos",
+    "topbox": "Coffre de toit",
+    "bike": "Porte-vélos",
+    "both": "Coffre de toit et porte-vélos"
+  },
+  "delivery": {
+    "address": "Livraison à l’adresse de livraison",
+    "depot": "Livraison au dépôt Mcars (plus avantageux, 24 h/24 et 7 j/7)",
+    "depotShort": "Au dépôt Mcars (24 h/24, 7 j/7)"
+  },
+  "customer": {
+    "private": "Particulier",
+    "business": "Entreprise"
+  },
+  "cta": {
+    "plan": "Planifier le transport",
+    "price": "Demander un prix",
+    "next": "Suivant",
+    "send": "Envoyer la demande"
+  },
+  "back": "Retour",
+  "progress": "Étape {step} sur {total} · <b>{name}</b>",
+  "thanks": "Merci — votre demande est prête dans votre messagerie.",
+  "thanksSub": "Envoyez l’e-mail et vous recevrez une réponse personnelle sous 24 heures.",
+  "newRequest": "Nouvelle demande",
+  "swapAria": "Inverser le lieu de départ et la destination",
+  "fields": {
+    "pickup": "Adresse d’enlèvement",
+    "delivery": "Adresse de livraison",
+    "date": "Date d’enlèvement",
+    "vehicle": "Marque et modèle",
+    "condition": "État",
+    "extras": "Coffre de toit ou porte-vélos",
+    "deliveryType": "Livraison",
+    "customer": "Particulier ou entreprise",
+    "name": "Nom",
+    "phone": "Téléphone"
+  },
+  "placeholders": {
+    "address": "Rue, commune, pays",
+    "origin": "Lieu de départ",
+    "destination": "Lieu de destination",
+    "pickup": "Adresse d’enlèvement",
+    "delivery": "Adresse de livraison",
+    "pickupDate": "Choisissez une date",
+    "arrivalDate": "Date d’arrivée",
+    "date": "Date d’enlèvement",
+    "vehiclePanel": "Par ex. Volkswagen Golf",
+    "vehicle": "Marque et modèle",
+    "namePanel": "Prénom et nom",
+    "name": "Nom",
+    "emailPanel": "nom@exemple.be",
+    "phonePanel": "Facultatif",
+    "phone": "Téléphone (facultatif)"
+  }
+}

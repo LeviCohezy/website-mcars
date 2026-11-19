@@ -1,0 +1,31 @@
+{
+  "main": "Von der Anfrage bis zur Lieferung.",
+  "sub": "So läuft Ihr Transport ab, Schritt für Schritt.",
+  "stepLabel": "Schritt {n}",
+  "steps": {
+    "s1": {
+      "title": "Angebot anfragen",
+      "desc": "Über die Website, per Telefon oder WhatsApp – innerhalb von 24 Stunden haben Sie Preis und Planung"
+    },
+    "s2": {
+      "title": "Freigabe",
+      "desc": "Sie nehmen das Angebot an und wir halten alles für Sie fest"
+    },
+    "s3": {
+      "title": "Transport einplanen",
+      "desc": "Der Abholtermin wird festgelegt; der Fahrer ruft an, sobald er vor Ort sein wird"
+    },
+    "s4": {
+      "title": "Abholung",
+      "desc": "Wo Sie möchten – vor Ort erstellen wir die CMR und fotografieren das Fahrzeug"
+    },
+    "s5": {
+      "title": "Lieferung",
+      "desc": "Wir rufen an, wenn wir ankommen, und liefern das Fahrzeug dort ab, wo Sie es wünschen"
+    },
+    "s6": {
+      "title": "Bezahlung",
+      "desc": "Privatkunden zahlen vor der Abholung, Unternehmen zahlen auf Rechnung"
+    }
+  }
+}

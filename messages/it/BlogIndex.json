@@ -1,0 +1,23 @@
+{
+  "sort": {
+    "nieuw": "Più recenti prima",
+    "oud": "Più vecchi prima"
+  },
+  "latest": "Ultimi articoli",
+  "filter": "Filtro",
+  "sortLabel": "Ordina",
+  "filterByCategory": "Filtra per categoria",
+  "all": "Tutti",
+  "remove": "rimuovi",
+  "minRead": "{minutes} min di lettura",
+  "empty": "Non ci sono ancora articoli in questa categoria.",
+  "featured": "In evidenza",
+  "heading": "Blog e guida",
+  "drawer": {
+    "aria": "Filtra gli articoli",
+    "close": "Chiudi",
+    "category": "Categoria",
+    "clear": "Cancella tutto",
+    "show": "Mostra {total} {total, plural, one {articolo} other {articoli}}"
+  }
+}

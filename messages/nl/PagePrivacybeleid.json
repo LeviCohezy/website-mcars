@@ -1,0 +1,46 @@
+{
+  "metaTitle": "Privacybeleid | Mcars",
+  "metaDescription": "Hoe Mcars BV omgaat met uw persoonsgegevens: welke gegevens we verwerken, waarom, hoe lang we ze bewaren en welke rechten u heeft onder de GDPR.",
+  "heroEyebrow": "Juridisch",
+  "heroTitle": "Privacybeleid",
+  "heroSubtitle": "Hoe we omgaan met uw persoonsgegevens en uw privacy beschermen.",
+  "crumb": "Privacybeleid",
+  "sideLabel": "Privacy",
+  "noticeLabel": "Let op:",
+  "noticeText": "Dit is een voorlopige tekst. Laat dit document juridisch nakijken vóór livegang.",
+  "intro": "{legalName} hecht veel belang aan de bescherming van uw persoonsgegevens en respecteert uw privacy. In dit privacybeleid leggen we uit welke gegevens we verzamelen, waarom we dat doen en hoe u uw rechten kan uitoefenen. Dit beleid is opgesteld in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG / GDPR).",
+  "sections": {
+    "s1": {
+      "title": "1. Verwerkingsverantwoordelijke",
+      "body": "{legalName}, met maatschappelijke zetel te {street}, {city}, {country} (BTW {vat}), is de verwerkingsverantwoordelijke voor de persoonsgegevens die via deze website en in het kader van onze dienstverlening worden verwerkt. Voor vragen kan u ons bereiken via <mail>{email}</mail> of {phone}."
+    },
+    "s2": {
+      "title": "2. Welke gegevens verzamelen we?",
+      "body": "Afhankelijk van uw contact met ons kunnen we de volgende gegevens verwerken: identificatie- en contactgegevens (naam, adres, e-mailadres, telefoonnummer), gegevens over uw transportaanvraag (ophaal- en leveradres, voertuiggegevens), correspondentie die u met ons voert en, in voorkomend geval, facturatie- en bedrijfsgegevens (ondernemingsnummer, BTW-nummer)."
+    },
+    "s3": {
+      "title": "3. Doeleinden van de verwerking",
+      "body": "We verwerken uw gegevens om uw offerteaanvraag te behandelen en te beantwoorden, om het transport te plannen en uit te voeren, om met u te communiceren, om onze facturatie en boekhouding te verzorgen en om te voldoen aan onze wettelijke verplichtingen. De rechtsgrond hiervoor is de uitvoering van een overeenkomst, ons gerechtvaardigd belang, het naleven van een wettelijke verplichting of, waar van toepassing, uw toestemming."
+    },
+    "s4": {
+      "title": "4. Bewaartermijn",
+      "body": "We bewaren uw persoonsgegevens niet langer dan noodzakelijk voor de doeleinden waarvoor ze werden verzameld. Facturatie- en boekhoudkundige gegevens worden bewaard gedurende de wettelijk voorgeschreven termijn. Aanvragen die niet tot een overeenkomst leiden, worden na een redelijke termijn verwijderd."
+    },
+    "s5": {
+      "title": "5. Delen met derden",
+      "body": "We verkopen uw gegevens nooit. We delen ze enkel met partijen die noodzakelijk zijn voor onze dienstverlening (zoals onze IT-, boekhoud- of transportpartners) en enkel in de mate dat dit nodig is. Deze partijen zijn gebonden aan vertrouwelijkheid en verwerken uw gegevens uitsluitend in onze opdracht."
+    },
+    "s6": {
+      "title": "6. Uw rechten (GDPR)",
+      "body": "U heeft het recht op inzage, verbetering, verwijdering en beperking van uw persoonsgegevens, het recht op overdraagbaarheid en het recht om bezwaar te maken tegen de verwerking. Waar de verwerking op toestemming berust, kan u die op elk moment intrekken. Om een recht uit te oefenen contacteert u ons via <mail>{email}</mail>. U heeft daarnaast het recht om een klacht in te dienen bij de Gegevensbeschermings­autoriteit (www.gegevensbeschermingsautoriteit.be)."
+    },
+    "s7": {
+      "title": "7. Cookies",
+      "body": "Onze website maakt gebruik van cookies. Meer informatie over welke cookies we gebruiken en hoe u ze kan beheren, vindt u in ons <cookies>cookiebeleid</cookies>."
+    },
+    "s8": {
+      "title": "8. Contact",
+      "body": "Heeft u vragen over dit privacybeleid of over de verwerking van uw gegevens? Neem gerust <contact>contact</contact> met ons op via {email} of {phone}."
+    }
+  }
+}

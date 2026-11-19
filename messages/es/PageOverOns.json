@@ -1,0 +1,144 @@
+{
+  "metaTitle": "Sobre nosotros | Mcars",
+  "metaDescription": "Mcars es una empresa familiar de Roeselare: padre e hijo, 8 conductores fijos y 9 transportadores de coches propios. Descubra nuestra historia desde 2004, nuestra flota y cómo trabajamos.",
+  "milestones": [
+    {
+      "year": "2004",
+      "title": "La primera carga",
+      "body": "Filip Maertens carga sus primeros coches. El comienzo de más de veinte años de experiencia en transporte de coches."
+    },
+    {
+      "year": "2009",
+      "title": "Nace Mcars",
+      "body": "Desde Roeselare, la empresa recibe su nombre. El método sigue siendo el mismo: trato directo y acuerdos que se cumplen."
+    },
+    {
+      "year": "20XX",
+      "title": "La segunda generación",
+      "body": "Su hijo Ralph se incorpora al negocio. Padre e hijo siguen construyendo juntos."
+    },
+    {
+      "year": "2026",
+      "title": "De visita en Wörth",
+      "body": "Junto con transportistas de la región, visitamos la fábrica de camiones de Mercedes-Benz en Alemania, donde se construyen nuestros Actros."
+    },
+    {
+      "year": "Hoy",
+      "title": "Nueve transportadores, ocho conductores",
+      "body": "Cada semana por toda Francia y más allá, de Escandinavia a España. Todavía con la misma familia al volante."
+    }
+  ],
+  "fleetNotes": [
+    "La columna vertebral de la flota.",
+    "La última generación de Scania.",
+    "Con el gran emblema de Mcars."
+  ],
+  "galleryAlts": [
+    [
+      "Transportadores de Mcars con coches clásicos en el Jubelpark de Bruselas",
+      "Transportador de coches cargado al atardecer",
+      "Dos transportadores de Mcars en las montañas",
+      "Un Actros de Mcars bajo un cielo rosado al anochecer",
+      "Transportador de coches con las dos plataformas de carga llenas",
+      "Un conductor saluda desde la cabina"
+    ],
+    [
+      "Coches clásicos en un transportador de Mcars frente al Arco del Triunfo",
+      "Un Actros de Mcars en una carretera nevada",
+      "Todoterrenos en el transportador",
+      "Transportador completamente cargado bajo un cielo azul",
+      "Un Scania de Mcars bajo un cielo con nubes",
+      "Un Actros de Mcars en una terminal mojada"
+    ]
+  ],
+  "why": [
+    {
+      "title": "Personal y familiar",
+      "body": "Sin centralita, sin números. Habla directamente con el equipo que realmente transporta su coche."
+    },
+    {
+      "title": "Fiable y asegurado",
+      "body": "Cada viaje con carta de porte CMR y transporte asegurado. Acuerdos claros, cumplidos con rigor."
+    },
+    {
+      "title": "Espontáneo, sin complicaciones",
+      "body": "Reaccionamos rápido y sin líos. Usted solicita y en 24 horas recibe una respuesta clara con precio y planificación."
+    },
+    {
+      "title": "Transparente",
+      "body": "Siempre sabe a qué atenerse. Sin costes ocultos, sin sorpresas por el camino."
+    }
+  ],
+  "insured": [
+    {
+      "t": "Transporte asegurado",
+      "b": "Cada vehículo está cubierto durante todo el trayecto."
+    },
+    {
+      "t": "Carta de porte CMR",
+      "b": "Confirma la recogida y deja constancia del estado a la salida."
+    },
+    {
+      "t": "Prueba fotográfica interna",
+      "b": "Fotos como prueba en caso de daños, conservadas con cuidado y discreción."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Cargamos coches desde 2004.<br></br><muted>Como Mcars desde 2009.</muted>",
+    "subtitle": "Una empresa familiar de Roeselare: padre e hijo, ocho conductores fijos y nueve transportadores de coches propios.",
+    "crumb": "Sobre nosotros",
+    "badgeFamily": "Empresa familiar",
+    "badgeLocation": "Roeselare, Bélgica",
+    "cta": "Presupuesto"
+  },
+  "who": {
+    "eyebrow": "Quiénes somos",
+    "text": "Una empresa familiar que conoce el transporte de coches a fondo. Sin centralita, sin intermediarios: habla con las personas que realmente transportan su coche.",
+    "muted": "Quien viaja una vez con Mcars, se queda.",
+    "founded": "Fundada",
+    "transporters": "Transportadores propios",
+    "drivers": "Conductores fijos",
+    "experience": "Años de experiencia"
+  },
+  "duo": {
+    "alt": "Dos generaciones de Mcars entre dos transportadores de coches",
+    "eyebrow": "Padre e hijo",
+    "title": "Dos generaciones, <muted>una sola forma de trabajar.</muted>",
+    "founder": "Fundador",
+    "filipBody": "Cargó sus primeros coches en 2004 y fundó Mcars en 2009. Casi veinte años después, sigue estando él mismo entre los camiones.",
+    "second": "Segunda generación",
+    "ralphBody": "Se incorporó al negocio y construye los próximos años de Mcars, con el mismo trato directo que su padre.",
+    "draft": "Función y año de incorporación pendientes de confirmar"
+  },
+  "fleet": {
+    "alt": "Cinco transportadores de coches de Mcars en fila: Scania y Mercedes",
+    "label": "La flota",
+    "title": "Nueve transportadores propios, <muted>ocho conductores fijos.</muted>"
+  },
+  "material": {
+    "eyebrow": "Material",
+    "title": "Trabajamos con <muted>el mejor material.</muted>",
+    "body": "Su coche merece un camión en el que nosotros mismos confiamos. Por eso circulamos con Mercedes Actros y Scania, cada uno con una carrocería Kässbohrer y un cabrestante a bordo.",
+    "visitLabel": "2026 · Wörth, Alemania",
+    "visitBody": "En 2026 visitamos, junto con transportistas de la región, la fábrica de camiones de Mercedes-Benz en Wörth. Así vemos con nuestros propios ojos dónde se construyen nuestros Actros y qué se avecina.",
+    "woerthAlt": "Camiones Mercedes-Benz frente a la fábrica de Wörth",
+    "woerthCaption": "Mercedes-Benz, Wörth am Rhein"
+  },
+  "road": {
+    "label": "En ruta",
+    "lead": "Viajes reales,",
+    "trail": "fotos reales.",
+    "intro": "Sin imágenes de archivo. Estos son nuestros camiones, del Jubelpark de Bruselas hasta los Alpes."
+  },
+  "insuredSection": {
+    "label": "Transporte asegurado",
+    "title": "Su coche viaja <muted>cubierto y documentado.</muted>"
+  },
+  "whySection": {
+    "label": "Cómo trabajamos",
+    "lead": "Cuatro razones",
+    "trail": "que los clientes citan siempre.",
+    "action": "Ver por dónde circulamos"
+  }
+}

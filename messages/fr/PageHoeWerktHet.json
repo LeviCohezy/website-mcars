@@ -1,0 +1,86 @@
+{
+  "metaTitle": "Comment ça marche ? | Mcars",
+  "metaDescription": "Du devis à la livraison en six étapes. Découvrez comment Mcars organise votre transport de voiture — de façon personnelle, avec lettre de voiture CMR et des accords clairs.",
+  "steps": [
+    {
+      "title": "Demander un devis",
+      "body": "Vous demandez votre transport via le site web, par téléphone ou par WhatsApp. Vous recevez sous 24 heures une réponse personnelle avec le prix et la planification possible."
+    },
+    {
+      "title": "Acceptation du devis",
+      "body": "Le prix et la planification vous conviennent ? Vous nous donnez le feu vert et nous lançons votre transport. Aucun engagement tant que vous n’avez pas confirmé."
+    },
+    {
+      "title": "Planification du transport",
+      "body": "Après votre accord, nous fixons ensemble la date d’enlèvement. Le jour même, le chauffeur vous appelle pour indiquer quand il sera sur place, pour que vous ne manquiez rien."
+    },
+    {
+      "title": "Enlèvement + contrôle & documents CMR",
+      "body": "Nous enlevons votre voiture là où vous le souhaitez. Sur place, nous établissons la lettre de voiture CMR, puis nous inspectons et photographions le véhicule comme preuve interne de son état au départ."
+    },
+    {
+      "title": "Livraison sur place",
+      "body": "Nous vous appelons à notre arrivée à l’adresse de livraison. La livraison à notre dépôt de Roeselare est possible 24 h/24 et 7 j/7 et généralement plus avantageuse qu’une livraison à domicile."
+    },
+    {
+      "title": "Paiement / facture",
+      "body": "Les particuliers paient avant l’enlèvement, les entreprises simplement sur facture. Nous convenons clairement avec vous des modalités pratiques à l’avance."
+    }
+  ],
+  "cmr": [
+    {
+      "title": "Prouve l’enlèvement",
+      "body": "La lettre de voiture CMR montre noir sur blanc que votre voiture a été enlevée par Mcars, quand et où. Une sécurité pour les deux parties."
+    },
+    {
+      "title": "Documente l’état",
+      "body": "À l’enlèvement, nous consignons l’état du véhicule avec des photos. L’état au départ est ainsi enregistré de façon incontestable."
+    },
+    {
+      "title": "Essentielle en cas de réclamation",
+      "body": "En cas de litige ou de dommage, la CMR avec l’état consigné sert de référence. Tout est réglé sereinement à l’avance."
+    }
+  ],
+  "faq": [
+    {
+      "q": "De quels documents ai-je besoin ?",
+      "a": "Seule une lettre de voiture CMR est nécessaire, et nous l’établissons lors de l’enlèvement. Vous avez ainsi tout de suite la preuve que votre voiture a été enlevée par Mcars."
+    },
+    {
+      "q": "Ma voiture doit-elle rouler pour être enlevée ?",
+      "a": "Non. Les voitures roulantes, nous les tirons sur le camion avec le treuil. Si la voiture est totalement bloquée, nous prévoyons un chariot élévateur sur place. Indiquez l’état dans votre demande."
+    },
+    {
+      "q": "Puis-je me faire livrer ou enlever à votre dépôt ?",
+      "a": "Oui. La livraison et l’enlèvement à notre dépôt de Roeselare sont possibles 24 h/24 et 7 j/7 et généralement plus avantageux qu’à domicile. Pratique si vous voulez être flexible."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Méthode",
+    "title": "De la demande à la livraison en six étapes.",
+    "subtitle": "Une approche claire et personnelle, sans surprises — de votre première demande jusqu’au règlement.",
+    "crumb": "Comment ça marche",
+    "badgeAnswer": "Réponse sous 24 heures",
+    "badgeCmr": "CMR à chaque enlèvement",
+    "cta": "Devis"
+  },
+  "stepsHeader": {
+    "label": "Voici comment ça marche",
+    "lead": "Six étapes claires.",
+    "trail": "Du devis à la livraison."
+  },
+  "media": {
+    "line": "Un seul document, noir sur blanc : la lettre de voiture CMR.",
+    "caption": "Établie à chaque enlèvement"
+  },
+  "cmrHeader": {
+    "label": "Pourquoi cette approche",
+    "lead": "La lettre de voiture CMR :",
+    "trail": "votre sécurité, noir sur blanc.",
+    "intro": "La CMR que nous établissons à chaque enlèvement consigne ce qui a été enlevé, quand et dans quel état — une protection pour vous comme pour nous."
+  },
+  "faqSection": {
+    "eyebrow": "Questions fréquentes",
+    "title": "D’autres questions ? <muted>Voici ce que l’on nous demande le plus.</muted>"
+  }
+}

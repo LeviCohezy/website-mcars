@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Bestemmingen & routes — autotransport door Europa | Mcars",
+  "metaDescription": "Autotransport in België, Nederland, Frankrijk, Spanje, Italië en heel Europa, plus vaste corridors tussen de landen. Bekijk alle routes van Mcars.",
+  "hero": {
+    "eyebrow": "Bestemmingen & routes",
+    "title": "Vanuit België.<br></br>Door heel Europa.<br></br><muted>Elke week.</muted>",
+    "subtitle": "Onze niche: België en Nederland richting Frankrijk tot Noord-Spanje. En verder rijden we overal naartoe.",
+    "crumb": "Routes",
+    "cta": "Offerte aanvragen"
+  },
+  "countries": {
+    "label": "Landen",
+    "lead": "Autotransport",
+    "trail": "per bestemming.",
+    "intro": "Van dagelijkse ritten binnen België tot wekelijkse rondes door heel Frankrijk. Kies uw bestemming voor steden, frequentie en praktische info.",
+    "cities": "{count} steden"
+  },
+  "band": {
+    "line": "Elke week heel Frankrijk door, met vaste stops onderweg.",
+    "caption": "Van Roeselare tot Noord-Spanje"
+  }
+}

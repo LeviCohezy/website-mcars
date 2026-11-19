@@ -2,14 +2,17 @@
 
 import GoogleReviews from "./google-reviews";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { asset } from "@/lib/asset";
 import { INTRO_EVENT } from "./intro-loader";
+import LanguageSwitcher from "./language-switcher";
 import NavPill from "./nav-pill";
 import MobileMenu from "./mobile-menu";
 
 export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } = {}) {
+  const t = useTranslations("Hero");
   const [revealed, setRevealed] = useState(false);
 
   // Wait for the intro hand-off; if the intro already ran (client-side
@@ -67,7 +70,7 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
         <div className="relative rounded-b-[1.5rem] bg-white px-6 pt-0.5 pb-2 sm:pt-1 sm:pb-2.5 sm:px-8">
           <Image
             src="/logo.png"
-            alt="M Cars"
+            alt={t("logoAlt")}
             width={447}
             height={447}
             priority
@@ -89,11 +92,12 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
           <MobileMenu />
 
           <div className="ml-auto flex items-center gap-2">
+            <LanguageSwitcher className="hidden sm:block" />
             <Link
               href="/offerte"
               className="flex items-center gap-2 rounded-2xl bg-zinc-950 py-2 pr-2 pl-5 text-sm font-medium text-white transition-colors hover:bg-zinc-800"
             >
-              Offerte
+              {t("quoteNav")}
               <ArrowChip />
             </Link>
           </div>
@@ -106,16 +110,16 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
           <span
             className={`mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs text-white/90 backdrop-blur-xl sm:mb-5 sm:px-4 sm:py-1.5 sm:text-sm ${rise("delay-[950ms]")}`}
           >
-            Trusted by 3000+ clients
+            {t("trusted")}
           </span>
           {/* Client copy (Oct 2026): "Autotransport" + tagline, all one heading */}
           <h1
             className={`text-[2.25rem] font-light leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl ${rise("delay-[1050ms]")}`}
           >
-            Autotransport.
+            {t("titleLead")}
             <br />
             <span className="text-white/70">
-              Uw auto. Onze passie.<br className="hidden sm:block" /> Uw bestemming.
+              {t.rich("tagline", { br: () => <br className="hidden sm:block" /> })}
             </span>
           </h1>
         </div>
@@ -126,7 +130,7 @@ export default function Hero({ videoSrc = "/hero.mp4" }: { videoSrc?: string } =
             href="/offerte"
             className="inline-flex items-center gap-3 rounded-2xl bg-white py-2 pr-2 pl-6 text-base font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
           >
-            Offerte aanvragen
+            {t("cta")}
             <span className="flex size-9 items-center justify-center rounded-xl bg-zinc-950 text-white">
               <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M5 12h14M13 6l6 6-6 6" />

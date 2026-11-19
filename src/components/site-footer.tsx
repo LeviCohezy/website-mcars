@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { footerOntdek, nav, routeLinks, site } from "@/lib/site";
 import { asset } from "@/lib/asset";
 import WhatsAppIcon from "./whatsapp-icon";

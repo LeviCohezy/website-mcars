@@ -1,0 +1,13 @@
+{
+  "yourCars": "Uw voertuigen",
+  "carN": "Auto {n}",
+  "quantity": "Aantal",
+  "year": "Bouwjaar",
+  "condition": "Staat",
+  "prevCars": "Vorige auto's",
+  "nextCars": "Volgende auto's",
+  "routeLabel": "Route van {from} naar {to}",
+  "mapLabel": "Kaart van Europa",
+  "roundTrip": "Heen en terug",
+  "pickRoute": "Kies vertrek en bestemming om uw route te zien."
+}

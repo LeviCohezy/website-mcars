@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Services — transport de voitures sur mesure | Mcars",
+    "description": "Du transport pour particuliers aux flottes, importation, exportation, voitures de collection et urgences. Découvrez tous les services de transport de voitures de Mcars en Belgique et en Europe."
+  },
+  "hero": {
+    "eyebrow": "Nos services",
+    "title": "Pour chaque véhicule, la bonne approche.",
+    "subtitle": "D’une seule voiture de particulier à un parc automobile complet — des solutions de transport en Belgique et dans toute l’Europe.",
+    "crumb": "Services",
+    "badgeCount": "{count} services",
+    "badgeContact": "Un seul interlocuteur",
+    "cta": "Devis"
+  },
+  "overview": {
+    "label": "Aperçu",
+    "lead": "Onze façons de déplacer votre voiture,",
+    "trail": "une seule équipe qui s’en occupe.",
+    "intro": "Qu’il s’agisse d’une voiture familiale, d’un stock pour la salle d’exposition ou d’une voiture de collection qui ne roule plus : vous parlez aux personnes qui effectuent réellement le trajet."
+  }
+}

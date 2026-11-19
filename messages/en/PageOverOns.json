@@ -1,0 +1,144 @@
+{
+  "metaTitle": "About us | Mcars",
+  "metaDescription": "Mcars is a family business from Roeselare: father and son, 8 regular drivers and 9 car transporters of our own. Discover our story since 2004, our fleet and how we work.",
+  "milestones": [
+    {
+      "year": "2004",
+      "title": "The first load",
+      "body": "Filip Maertens loads his first cars. The start of more than twenty years of experience in car transport."
+    },
+    {
+      "year": "2009",
+      "title": "Mcars is founded",
+      "body": "From Roeselare, the company gets its name. The approach stays the same: short lines of communication and agreements that hold."
+    },
+    {
+      "year": "20XX",
+      "title": "The second generation",
+      "body": "Son Ralph joins the business. Father and son continue building together."
+    },
+    {
+      "year": "2026",
+      "title": "A visit to Wörth",
+      "body": "Together with transporters from the region, we visit the Mercedes-Benz truck factory in Germany, where our Actros trucks are built."
+    },
+    {
+      "year": "Now",
+      "title": "Nine transporters, eight drivers",
+      "body": "Every week across France, and further from Scandinavia to Spain. Still with the same family behind the wheel."
+    }
+  ],
+  "fleetNotes": [
+    "The backbone of the fleet.",
+    "The latest generation of Scania.",
+    "With the large Mcars emblem."
+  ],
+  "galleryAlts": [
+    [
+      "Mcars transporters with classic cars at the Jubelpark in Brussels",
+      "Loaded car transporter at sunset",
+      "Two Mcars transporters in the mountains",
+      "Mcars Actros under a pink evening sky",
+      "Car transporter with both loading decks full",
+      "Driver waving from the cab"
+    ],
+    [
+      "Classic cars on a Mcars transporter in front of the Arc de Triomphe",
+      "Mcars Actros on a snowy road",
+      "Off-road vehicles on the transporter",
+      "Fully loaded transporter under a blue sky",
+      "Mcars Scania under a cloudy sky",
+      "Mcars Actros at a wet terminal"
+    ]
+  ],
+  "why": [
+    {
+      "title": "Personal & family-run",
+      "body": "No call centre, no numbers. You speak directly to the team that actually transports your car."
+    },
+    {
+      "title": "Reliable & insured",
+      "body": "Every trip with a CMR consignment note and insured transport. Clear agreements, properly kept."
+    },
+    {
+      "title": "Spontaneous, keep it simple",
+      "body": "Quick to respond, no fuss. You request, and within 24 hours you get a clear answer with a price and schedule."
+    },
+    {
+      "title": "Transparent",
+      "body": "You always know where you stand. No hidden costs, no surprises along the way."
+    }
+  ],
+  "insured": [
+    {
+      "t": "Insured transport",
+      "b": "Every vehicle is covered for the entire journey."
+    },
+    {
+      "t": "CMR consignment note",
+      "b": "Confirms the collection and records the condition at departure."
+    },
+    {
+      "t": "Internal photo evidence",
+      "b": "Photos as evidence in the event of damage — carefully and discreetly stored."
+    }
+  ],
+  "hero": {
+    "eyebrow": "About us",
+    "title": "We have been loading cars since 2004.<br></br><muted>As Mcars since 2009.</muted>",
+    "subtitle": "A family business from Roeselare: father and son, eight regular drivers and nine car transporters of our own.",
+    "crumb": "About us",
+    "badgeFamily": "Family business",
+    "badgeLocation": "Roeselare, Belgium",
+    "cta": "Quote"
+  },
+  "who": {
+    "eyebrow": "Who we are",
+    "text": "A family business that knows car transport inside out. No call centre, no middlemen: you speak to the people who actually transport your car.",
+    "muted": "Drive with Mcars once, and you stay.",
+    "founded": "Founded",
+    "transporters": "Own car transporters",
+    "drivers": "Regular drivers",
+    "experience": "Years of experience"
+  },
+  "duo": {
+    "alt": "Two generations of Mcars between two car transporters",
+    "eyebrow": "Father and son",
+    "title": "Two generations, <muted>one way of working.</muted>",
+    "founder": "Founder",
+    "filipBody": "Loaded his first cars in 2004 and founded Mcars in 2009. Almost twenty years later, he is still out among the trucks himself.",
+    "second": "Second generation",
+    "ralphBody": "Joined the business and is building the coming years of Mcars, with the same short lines of communication as his father.",
+    "draft": "Role and start year still to be confirmed"
+  },
+  "fleet": {
+    "alt": "Five Mcars car transporters side by side: Scania and Mercedes",
+    "label": "The fleet",
+    "title": "Nine transporters of our own, <muted>eight regular drivers.</muted>"
+  },
+  "material": {
+    "eyebrow": "Equipment",
+    "title": "We drive with <muted>the best equipment.</muted>",
+    "body": "Your car deserves a truck that we ourselves trust. That is why we drive Mercedes Actros and Scania, each with a Kässbohrer body and a winch on board.",
+    "visitLabel": "2026 · Wörth, Germany",
+    "visitBody": "In 2026, together with transporters from the region, we visited the Mercedes-Benz truck factory in Wörth. That way we see for ourselves where our Actros trucks are built and what is coming next.",
+    "woerthAlt": "Mercedes-Benz trucks in front of the factory in Wörth",
+    "woerthCaption": "Mercedes-Benz, Wörth am Rhein"
+  },
+  "road": {
+    "label": "On the road",
+    "lead": "Real trips,",
+    "trail": "real photos.",
+    "intro": "No stock images. These are our trucks, from the Jubelpark in Brussels to the Alps."
+  },
+  "insuredSection": {
+    "label": "Insured transport",
+    "title": "Your car travels <muted>covered and documented.</muted>"
+  },
+  "whySection": {
+    "label": "How we work",
+    "lead": "Four reasons",
+    "trail": "that clients mention every time.",
+    "action": "See where we drive"
+  }
+}

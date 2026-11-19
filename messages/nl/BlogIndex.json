@@ -1,0 +1,24 @@
+{
+  "sort": {
+    "nieuw": "Nieuwste eerst",
+    "oud": "Oudste eerst",
+    "az": "A – Z"
+  },
+  "latest": "Laatste artikels",
+  "filter": "Filter",
+  "sortLabel": "Sorteer",
+  "filterByCategory": "Filter op categorie",
+  "all": "Alles",
+  "remove": "verwijderen",
+  "minRead": "{minutes} min lezen",
+  "empty": "Nog geen artikels in deze categorie.",
+  "featured": "Uitgelicht",
+  "heading": "Blog & kennisbank",
+  "drawer": {
+    "aria": "Filter artikels",
+    "close": "Sluiten",
+    "category": "Categorie",
+    "clear": "Wis alles",
+    "show": "Toon {total} {total, plural, one {artikel} other {artikels}}"
+  }
+}

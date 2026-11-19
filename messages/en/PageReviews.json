@@ -1,0 +1,25 @@
+{
+  "metaTitle": "Reviews | Mcars",
+  "metaDescription": "What customers say about Mcars. Google rating 4.7 from 37 reviews, from private customers and from dealers and businesses.",
+  "hero": {
+    "eyebrow": "Reviews",
+    "title": "What customers say about us.",
+    "subtitle": "A 4.7 on Google, earned from private customers and dealers who trusted us with their car.",
+    "crumb": "Reviews",
+    "badgeScore": "{score} / 5 on Google",
+    "badgeClients": "{clients} customers",
+    "cta": "Quote"
+  },
+  "rating": {
+    "eyebrow": "Google rating",
+    "reviews": "{count} reviews",
+    "body": "Our ratings are updated live via Google. Below is a representative selection of what customers write.",
+    "cta": "View on Google"
+  },
+  "quotes": {
+    "label": "Customer quotes",
+    "lead": "From private customers",
+    "trail": "and from dealers and businesses.",
+    "note": "The comments shown are anonymised. The current reviews are updated live via Google."
+  }
+}

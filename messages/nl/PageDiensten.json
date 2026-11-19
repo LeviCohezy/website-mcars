@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Diensten — autotransport op maat | Mcars",
+    "description": "Van particulier transport tot fleet, import, export, oldtimers en spoed. Ontdek alle autotransportdiensten van Mcars in België en Europa."
+  },
+  "hero": {
+    "eyebrow": "Onze diensten",
+    "title": "Voor elk voertuig de juiste aanpak.",
+    "subtitle": "Van één particuliere wagen tot een volledig wagenpark — transportoplossingen in België en heel Europa.",
+    "crumb": "Diensten",
+    "badgeCount": "{count} diensten",
+    "badgeContact": "Eén aanspreekpunt",
+    "cta": "Offerte"
+  },
+  "overview": {
+    "label": "Overzicht",
+    "lead": "Elf manieren om uw wagen te verplaatsen,",
+    "trail": "één team dat het regelt.",
+    "intro": "Of het nu gaat om een gezinswagen, een voorraad voor de showroom of een klassieker die niet meer rijdt: u spreekt met de mensen die de rit ook effectief uitvoeren."
+  }
+}

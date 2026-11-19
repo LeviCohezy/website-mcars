@@ -1,3 +1,6 @@
+import { useLocale } from "next-intl";
+import { localize } from "@/i18n/data";
+import { nav } from "@/lib/site";
 import SiteFooterLight from "./site-footer-light";
 import SiteNav from "./site-nav";
 
@@ -12,9 +15,10 @@ export default function PageShell({
   /** Full-black page canvas instead of the white frame. */
   dark?: boolean;
 }) {
+  const locale = useLocale();
   return (
     <div className={`${dark ? "bg-zinc-950" : "bg-white"} p-2`}>
-      <SiteNav theme={navTheme} inverted={dark} />
+      <SiteNav theme={navTheme} inverted={dark} nav={localize(locale, nav)} />
       {children}
       <SiteFooterLight seam={!dark} />
     </div>

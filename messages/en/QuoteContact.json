@@ -1,0 +1,53 @@
+{
+  "steps": {
+    "transport": "Transport",
+    "vehicles": "Vehicles",
+    "details": "Your details"
+  },
+  "condition": {
+    "runs": "Starts and drives",
+    "rolls": "Does not start, can be rolled",
+    "blocked": "Does not start, blocked"
+  },
+  "customerType": {
+    "particulier": "Private",
+    "bedrijf": "Business"
+  },
+  "customerTypeAria": "Customer type",
+  "optional": "(optional)",
+  "pickDate": "Choose a date",
+  "dateInvalid": "Choose a date or tick “as soon as possible”.",
+  "eyebrow": "( Quote )",
+  "title": "Tell us what needs to be moved",
+  "intro": "Request your quote in three short steps. You will get a personal reply from our team within 24 hours — no automated emails, but a fixed price.",
+  "stepOf": "Step {step} of {total}",
+  "pickupAddress": "Collection address",
+  "deliveryAddress": "Delivery address",
+  "addressPlaceholder": "Street, town, country",
+  "depotPlaceholder": "Mcars depot, Roeselare",
+  "depotLabel": "Delivery to the Mcars depot (cheaper, collection possible 24/7)",
+  "availableForPickup": "Available for collection",
+  "asap": "As soon as possible",
+  "desiredDelivery": "Desired delivery date",
+  "vehicle": "Vehicle",
+  "doesItStart": "Does the car start?",
+  "quantity": "Quantity",
+  "makeModel": "Make and model",
+  "vehicleMakeModelAria": "Vehicle {n}: make and model",
+  "vehicleStartsAria": "Vehicle {n}: does the car start?",
+  "vehicleQuantityAria": "Vehicle {n}: quantity",
+  "vehicleRemoveAria": "Remove vehicle {n}",
+  "addVehicle": "Add another vehicle",
+  "topbox": "Roof box or bike rack fitted",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "company": "Company name",
+  "vat": "VAT number",
+  "vatPlaceholder": "BE 0xxx.xxx.xxx",
+  "phone": "Phone",
+  "remarks": "Remarks",
+  "remarksPlaceholder": "Anything special about the vehicle or transport",
+  "back": "Back",
+  "next": "Next",
+  "submit": "Send request"
+}

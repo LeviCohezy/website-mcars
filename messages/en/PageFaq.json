@@ -1,0 +1,141 @@
+{
+  "metaTitle": "Frequently asked questions | Mcars",
+  "metaDescription": "Answers to frequently asked questions about car transport: prices, insurance, collection and delivery, abroad, non-running vehicles, documents, payment and urgent jobs.",
+  "heroTitle": "Frequently asked questions.",
+  "heroSubtitle": "The most common questions about car transport, by topic. Can’t find your question? We are happy to help you personally.",
+  "badgeAnswers": "{count} answers",
+  "badgeTopics": "{count} topics",
+  "cta": "Quote",
+  "topics": "Topics",
+  "stillEyebrow": "Another question?",
+  "stillTitle": "Can’t find your question? <muted>We will help you personally.</muted>",
+  "stillText": "You will get a clear answer from someone who can actually schedule your transport.",
+  "contactCta": "Get in touch",
+  "callUs": "Or call {phone}",
+  "groups": [
+    {
+      "eyebrow": "Prices",
+      "title": "What does",
+      "trail": "a transport cost?",
+      "items": [
+        {
+          "q": "How is the price determined?",
+          "a": "Every price is tailor-made. We look at the collection and delivery address, the distance, the vehicle (dimensions and whether it drives, rolls or is locked), urgent or normal scheduling and the country of destination. That way you always get a correct price for your situation."
+        },
+        {
+          "q": "Will I get a price straight away?",
+          "a": "We don’t use an automatic calculator. Every request is looked at manually, so that the price is right. You will receive a personal reply within 24 hours with a price and schedule."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Insurance",
+      "title": "Is my car",
+      "trail": "insured?",
+      "items": [
+        {
+          "q": "Is my vehicle insured during transport?",
+          "a": "Yes. Your vehicle is insured during transport. The CMR consignment note also documents the condition of the car at collection, so there can be no dispute afterwards."
+        },
+        {
+          "q": "What happens in the event of damage?",
+          "a": "Our drivers record the condition of every car internally at departure. Should anything unfortunately happen, this evidence, together with the CMR, serves as the basis for handling everything correctly."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Collection and delivery",
+      "title": "Collection",
+      "trail": "and delivery.",
+      "items": [
+        {
+          "q": "Will I be notified when the driver is coming?",
+          "a": "Certainly. The driver calls you on the day itself to arrange the collection time. When we arrive at the destination, we call you again for the delivery."
+        },
+        {
+          "q": "Can I also collect or drop off my car at the depot?",
+          "a": "Yes. Our depot in Roeselare is accessible 24/7 by arrangement and is often cheaper than home delivery. We discuss together what is most convenient for you."
+        },
+        {
+          "q": "Can you collect from a remote address?",
+          "a": "Yes. We collect and deliver both in cities and at more remote addresses. The address is, however, one of the factors that help determine the price."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Transport abroad",
+      "title": "Transport",
+      "trail": "abroad.",
+      "items": [
+        {
+          "q": "Which countries do you drive to?",
+          "a": "We operate throughout Europe, including Belgium, the Netherlands, France, Spain, Germany, Italy, Poland and Scandinavia. Every week we drive across France as far as northern Spain."
+        },
+        {
+          "q": "Do your drivers speak the local language?",
+          "a": "We have both Dutch-speaking and French-speaking drivers. That makes collection and delivery at home and abroad smooth and clear."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Non-running vehicles",
+      "title": "Non-running",
+      "trail": "vehicles.",
+      "items": [
+        {
+          "q": "Do you also transport cars that don’t run?",
+          "a": "Yes. A car that no longer starts or drives, we pull onto the trailer with a winch. Where necessary, we use a forklift. That way even a faulty or project car gets safely on its way."
+        },
+        {
+          "q": "What if the wheels are locked?",
+          "a": "Let us know when you make your request. Whether a car drives, rolls or is locked helps determine the approach and the price. We look at the best and safest way of loading for each situation."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Documents",
+      "title": "Which documents",
+      "trail": "do I need?",
+      "items": [
+        {
+          "q": "Which documents do I need for the transport?",
+          "a": "For the transport itself, the CMR consignment note is the only document needed. The driver fills it in at collection. It proves that your car has been collected and documents its condition at departure."
+        },
+        {
+          "q": "Do I need to prepare anything myself?",
+          "a": "No. We take care of the CMR at collection. You don’t need to draw up any documents beforehand."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Payment",
+      "title": "How does",
+      "trail": "payment work?",
+      "items": [
+        {
+          "q": "When and how do I pay?",
+          "a": "For private customers, payment is made before collection. Businesses and dealers pay by invoice. With your quote, we explain clearly what applies to you."
+        },
+        {
+          "q": "Will I receive an automatic confirmation email?",
+          "a": "We deliberately work personally. You will not receive an automated confirmation, but a concrete reply from someone on our team with a price and schedule."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Urgent transport",
+      "title": "Urgent",
+      "trail": "transport.",
+      "items": [
+        {
+          "q": "Can you arrange an urgent transport?",
+          "a": "State in your request that it is urgent. We will immediately look at what is possible within our schedule. Urgent or normal is one of the factors that help determine the approach and the price."
+        },
+        {
+          "q": "How do I request an urgent transport?",
+          "a": "Feel free to call us directly, or request a quote and indicate that it is urgent. That way we can act quickly and let you know what is feasible."
+        }
+      ]
+    }
+  ]
+}

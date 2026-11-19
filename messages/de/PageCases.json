@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Referenzen & Projekte | Mcars",
+  "metaDescription": "Ein Ausschnitt aus durchgeführten Transporten von Mcars: von Oldtimer-Fahrten und Importfahrzeugen bis zu nicht fahrbereiten Fahrzeugen und europäischem Firmentransport. Anonym, aber echt.",
+  "hero": {
+    "eyebrow": "Projekte",
+    "title": "Durchgeführte Transporte.",
+    "subtitle": "Ein Ausschnitt aus Fahrten für Privatkunden und Unternehmen — von Klassikern bis zu kompletten Händlerbeständen. Anonym, aber wirklich gefahren.",
+    "crumb": "Referenzen",
+    "badgeCount": "{count} Referenzen",
+    "badgeSegment": "Privat & geschäftlich",
+    "cta": "Angebot"
+  },
+  "header": {
+    "label": "Referenzen",
+    "lead": "Jede Fahrt ist anders,",
+    "trail": "unsere Vorgehensweise bleibt dieselbe.",
+    "intro": "Aus Respekt vor unseren Kunden halten wir alle Referenzen anonym — keine Namen, aber die wahre Geschichte."
+  },
+  "impact": {
+    "label": "Wirkung",
+    "lead": "Was wir täglich",
+    "trail": "möglich machen.",
+    "clients": "Zufriedene Kunden",
+    "experience": "Jahre Erfahrung",
+    "weekly": "Wöchentlich",
+    "france": "In ganz Frankreich"
+  }
+}

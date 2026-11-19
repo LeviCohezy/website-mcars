@@ -1,0 +1,135 @@
+{
+  "steps": {
+    "depart": "Abfahrt",
+    "destination": "Ziel",
+    "car": "Ihr Auto",
+    "contact": "Ihre Daten"
+  },
+  "countries": {
+    "be": "Belgien",
+    "nl": "Niederlande",
+    "fr": "Frankreich",
+    "de": "Deutschland",
+    "lu": "Luxemburg",
+    "es": "Spanien",
+    "it": "Italien",
+    "ch": "Schweiz",
+    "at": "Österreich",
+    "pt": "Portugal",
+    "pl": "Polen",
+    "other": "Anderes Land"
+  },
+  "staat": {
+    "rijdt": "Startet und fährt",
+    "rolbaar": "Startet nicht, ist aber rollfähig",
+    "niet-rolbaar": "Nicht rollfähig"
+  },
+  "staatLabel": "Zustand des Fahrzeugs",
+  "depot": "Depot Mcars",
+  "addressFallback": "Adresse",
+  "optional": " (optional)",
+  "sent": {
+    "eyebrow": "Fast geschafft",
+    "title": "Ihre Anfrage liegt in Ihrem E-Mail-Programm bereit.",
+    "body": "Senden Sie die soeben geöffnete E-Mail an {email} ab. Sie erhalten schnellstmöglich einen persönlichen Preis und eine Planung — wir antworten selbst, es folgt keine automatische E-Mail.",
+    "attach": "Vergessen Sie nicht, Ihre Dateien als Anhang beizufügen:",
+    "help": "Klappt es nicht? Rufen Sie an oder schreiben Sie per WhatsApp an <link>{phone}</link>."
+  },
+  "trip": {
+    "single": "Einfache Fahrt",
+    "singleSub": "Von A nach B",
+    "return": "Hin- und Rückfahrt",
+    "returnSub": "Von A nach B und zurück"
+  },
+  "legs": {
+    "depart": {
+      "title": "Abfahrt",
+      "question": "Wie möchten Sie das Fahrzeug übergeben?",
+      "address": "Abholung an der Adresse",
+      "cityPh": "Z. B. Roeselare",
+      "postcodePh": "Z. B. 8800"
+    },
+    "destination": {
+      "title": "Ziel",
+      "question": "Wie möchten Sie das Fahrzeug erhalten?",
+      "address": "Lieferung an die Adresse",
+      "cityPh": "Z. B. Nizza",
+      "postcodePh": "Z. B. 06000"
+    }
+  },
+  "carsTitle": "Fahrzeugdaten",
+  "addCar": "Auto hinzufügen",
+  "contactTitle": "Kontaktdaten",
+  "customer": {
+    "label": "Kundentyp",
+    "private": "Privatkunde",
+    "company": "Unternehmen"
+  },
+  "fields": {
+    "name": "Name",
+    "namePh": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "phonePh": "Z. B. 0470 12 34 56",
+    "companyName": "Firmenname",
+    "companyNamePh": "Name Ihres Unternehmens",
+    "vat": "USt-IdNr.",
+    "vatPh": "Z. B. BE0123.456.789",
+    "message": "Nachricht",
+    "messagePh": "Weitere Informationen? Teilen Sie sie uns mit.",
+    "country": "Land",
+    "countryPh": "Land auswählen",
+    "city": "Stadt / Ort",
+    "postcode": "Postleitzahl",
+    "street": "Straße und Hausnr.",
+    "date": "Datum",
+    "brand": "Marke",
+    "brandPh": "Marke auswählen",
+    "model": "Modell",
+    "modelPh": "Z. B. Golf, X5, 911",
+    "year": "Baujahr",
+    "yearPh": "Z. B. 2022",
+    "extra": "Zusätzliche Informationen",
+    "extraPh": "Z. B. Schaden, nicht fahrbereit, mehrere Fahrzeuge, rollfähig, Frontlift-Funktion, Dachbox, Fahrradträger, besondere Abmessungen, …"
+  },
+  "prev": "Zurück",
+  "next": "Weiter",
+  "prevStep": "Vorheriger Schritt",
+  "errors": {
+    "required": "Bitte füllen Sie die Pflichtfelder (*) aus.",
+    "requiredSubmit": "Bitte füllen Sie die Pflichtfelder (*) aus, um Ihre Anfrage zu senden."
+  },
+  "trust": {
+    "safe": "Sicherer Transport",
+    "safeSub": "Ihr Fahrzeug in guten Händen",
+    "fast": "Schneller Service",
+    "fastSub": "Antwort innerhalb von 24 Stunden",
+    "prices": "Transparente Preise",
+    "pricesSub": "Keine Überraschungen",
+    "europe": "Ganz Europa",
+    "europeSub": "Belgien · Niederlande · Frankreich & darüber hinaus"
+  },
+  "submit": "Angebot anfordern",
+  "note": "Unverbindliche Anfrage — keine verbindliche Buchung.<br></br> Wir nehmen schnellstmöglich Kontakt mit Ihnen auf.",
+  "carN": "Auto {n}",
+  "removeCar": "Auto {n} entfernen",
+  "uploadDoc": "Dokument hochladen (z. B. Vollmacht)",
+  "uploadDocLabel": "Dokument hochladen, zum Beispiel eine Vollmacht",
+  "addPhotosLabel": "Fotos des Fahrzeugs hinzufügen",
+  "viewDocs": "{count, plural, one {# Dokument} other {# Dokumente}} ansehen",
+  "quantity": "Anzahl",
+  "quantityDown": "Anzahl verringern",
+  "quantityUp": "Anzahl erhöhen",
+  "quantityOf": "Anzahl von Auto {n}",
+  "viewer": {
+    "photosTitle": "Fotos · Auto {n}",
+    "docsTitle": "Dokumente · Auto {n}",
+    "addPhotos": "Fotos hinzufügen",
+    "addDoc": "Dokument hinzufügen"
+  },
+  "viewPhotos": "Fotos ansehen ({count})",
+  "addPhotos": "Fotos hinzufügen",
+  "clickAddPhotos": "Klicken, um Fotos hinzuzufügen",
+  "close": "Schließen",
+  "removeFile": "{name} entfernen"
+}

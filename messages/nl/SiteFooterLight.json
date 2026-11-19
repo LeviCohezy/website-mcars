@@ -1,0 +1,29 @@
+{
+  "columns": {
+    "services": "Diensten",
+    "locations": "Locaties",
+    "routes": "Routes",
+    "pages": "Pagina's",
+    "info": "Info & legal"
+  },
+  "links": {
+    "allServices": "Alle diensten",
+    "allRoutes": "Alle routes",
+    "home": "Home",
+    "blog": "Blog",
+    "quote": "Offerte aanvragen",
+    "contact": "Contact",
+    "terms": "Algemene voorwaarden",
+    "privacy": "Privacybeleid",
+    "cookies": "Cookiebeleid"
+  },
+  "index": {
+    "summary": "Alle diensten per land en route",
+    "show": "Toon alles",
+    "hide": "Verberg",
+    "routes": "Routes",
+    "moreRoutes": "+ {count} routes",
+    "allPages": "Alle pagina's bekijken"
+  },
+  "legalLine": "© 2026 Mcars BV — BTW BE 0816.739.802"
+}

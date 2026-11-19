@@ -1,0 +1,144 @@
+{
+  "metaTitle": "Over ons | Mcars",
+  "metaDescription": "Mcars is een familiebedrijf uit Roeselare: vader en zoon, 8 vaste chauffeurs en 9 eigen autotransporters. Ontdek ons verhaal sinds 2004, onze vloot en hoe we werken.",
+  "milestones": [
+    {
+      "year": "2004",
+      "title": "De eerste lading",
+      "body": "Filip Maertens laadt zijn eerste auto's op. Het begin van ruim twintig jaar ervaring in autotransport."
+    },
+    {
+      "year": "2009",
+      "title": "Mcars wordt opgericht",
+      "body": "Vanuit Roeselare krijgt het bedrijf zijn naam. De aanpak blijft dezelfde: korte lijnen en afspraken die kloppen."
+    },
+    {
+      "year": "20XX",
+      "title": "De tweede generatie",
+      "body": "Zoon Ralph stapt mee in de zaak. Vader en zoon bouwen samen verder."
+    },
+    {
+      "year": "2026",
+      "title": "Op bezoek in Wörth",
+      "body": "Samen met transporteurs uit de regio bezoeken we de vrachtwagenfabriek van Mercedes-Benz in Duitsland, waar onze Actrossen gebouwd worden."
+    },
+    {
+      "year": "Nu",
+      "title": "Negen transporters, acht chauffeurs",
+      "body": "Elke week over heel Frankrijk, en verder van Scandinavië tot Spanje. Nog altijd met dezelfde familie aan het stuur."
+    }
+  ],
+  "fleetNotes": [
+    "De ruggengraat van de vloot.",
+    "De nieuwste generatie Scania.",
+    "Met het grote Mcars-embleem."
+  ],
+  "galleryAlts": [
+    [
+      "Mcars-transporters met oldtimers aan het Jubelpark in Brussel",
+      "Geladen autotransporter bij zonsondergang",
+      "Twee Mcars-transporters in de bergen",
+      "Mcars Actros onder een roze avondlucht",
+      "Autotransporter met twee laadvloeren vol",
+      "Chauffeur zwaait vanuit de cabine"
+    ],
+    [
+      "Oldtimers op een Mcars-transporter voor de triomfboog",
+      "Mcars Actros op een besneeuwde weg",
+      "Terreinwagens op de transporter",
+      "Volgeladen transporter onder een blauwe lucht",
+      "Scania van Mcars onder een wolkenlucht",
+      "Mcars Actros op een natte terminal"
+    ]
+  ],
+  "why": [
+    {
+      "title": "Persoonlijk & familiaal",
+      "body": "Geen callcenter, geen nummers. U spreekt rechtstreeks met het team dat uw wagen ook effectief vervoert."
+    },
+    {
+      "title": "Betrouwbaar & verzekerd",
+      "body": "Elke rit met CMR-vrachtbrief en verzekerd transport. Duidelijke afspraken, correct nagekomen."
+    },
+    {
+      "title": "Spontaan, keep it simple",
+      "body": "Snel schakelen zonder gedoe. U vraagt aan, u krijgt binnen 24 uur een helder antwoord met prijs en planning."
+    },
+    {
+      "title": "Transparant",
+      "body": "U weet steeds waar u aan toe bent. Geen verborgen kosten, geen verrassingen onderweg."
+    }
+  ],
+  "insured": [
+    {
+      "t": "Verzekerd transport",
+      "b": "Elk voertuig is gedekt tijdens het volledige traject."
+    },
+    {
+      "t": "CMR-vrachtbrief",
+      "b": "Bevestigt de ophaling en legt de staat bij vertrek vast."
+    },
+    {
+      "t": "Intern fotobewijs",
+      "b": "Foto's als bewijsstuk bij schade — zorgvuldig en discreet bewaard."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Over ons",
+    "title": "Sinds 2004 laden we auto's.<br></br><muted>Sinds 2009 als Mcars.</muted>",
+    "subtitle": "Een familiebedrijf uit Roeselare: vader en zoon, acht vaste chauffeurs en negen eigen autotransporters.",
+    "crumb": "Over ons",
+    "badgeFamily": "Familiebedrijf",
+    "badgeLocation": "Roeselare, België",
+    "cta": "Offerte"
+  },
+  "who": {
+    "eyebrow": "Wie zijn we",
+    "text": "Een familiebedrijf dat autotransport door en door kent. Geen callcenter, geen tussenpersonen: u spreekt met de mensen die uw wagen ook echt vervoeren.",
+    "muted": "Wie één keer met Mcars rijdt, blijft.",
+    "founded": "Opgericht",
+    "transporters": "Eigen autotransporters",
+    "drivers": "Vaste chauffeurs",
+    "experience": "Jaar ervaring"
+  },
+  "duo": {
+    "alt": "Twee generaties Mcars tussen twee autotransporters",
+    "eyebrow": "Vader en zoon",
+    "title": "Twee generaties, <muted>één manier van werken.</muted>",
+    "founder": "Oprichter",
+    "filipBody": "Laadde in 2004 zijn eerste auto's op en richtte in 2009 Mcars op. Bijna twintig jaar later staat hij nog altijd zelf tussen de vrachtwagens.",
+    "second": "Tweede generatie",
+    "ralphBody": "Stapte mee in de zaak en bouwt aan de volgende jaren van Mcars, met dezelfde korte lijnen als zijn vader.",
+    "draft": "Rol en startjaar nog te bevestigen"
+  },
+  "fleet": {
+    "alt": "Vijf autotransporters van Mcars naast elkaar: Scania en Mercedes",
+    "label": "De vloot",
+    "title": "Negen eigen transporters, <muted>acht vaste chauffeurs.</muted>"
+  },
+  "material": {
+    "eyebrow": "Materiaal",
+    "title": "We rijden met <muted>het beste materiaal.</muted>",
+    "body": "Uw wagen verdient een vrachtwagen waar we zelf op vertrouwen. Daarom rijden we met Mercedes Actros en Scania, elk met een Kässbohrer-opbouw en een lier aan boord.",
+    "visitLabel": "2026 · Wörth, Duitsland",
+    "visitBody": "In 2026 bezochten we, samen met transporteurs uit de regio, de vrachtwagenfabriek van Mercedes-Benz in Wörth. Zo zien we zelf waar onze Actrossen gebouwd worden en wat eraan komt.",
+    "woerthAlt": "Mercedes-Benz-vrachtwagens voor de fabriek in Wörth",
+    "woerthCaption": "Mercedes-Benz, Wörth am Rhein"
+  },
+  "road": {
+    "label": "Onderweg",
+    "lead": "Echte ritten,",
+    "trail": "echte foto's.",
+    "intro": "Geen stockbeelden. Dit zijn onze vrachtwagens, van het Jubelpark in Brussel tot in de Alpen."
+  },
+  "insuredSection": {
+    "label": "Verzekerd transport",
+    "title": "Uw wagen reist <muted>gedekt en gedocumenteerd.</muted>"
+  },
+  "whySection": {
+    "label": "Hoe wij werken",
+    "lead": "Vier redenen",
+    "trail": "die klanten telkens aanhalen.",
+    "action": "Bekijk waar we rijden"
+  }
+}

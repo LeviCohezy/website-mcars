@@ -1,0 +1,86 @@
+{
+  "metaTitle": "So funktioniert es | Mcars",
+  "metaDescription": "Vom Angebot bis zur Lieferung in sechs Schritten. Erfahren Sie, wie Mcars Ihren Autotransport angeht — persönlich, mit CMR-Frachtbrief und klaren Absprachen.",
+  "steps": [
+    {
+      "title": "Angebot anfordern",
+      "body": "Sie fragen Ihren Transport über die Website, telefonisch oder per WhatsApp an. Innerhalb von 24 Stunden erhalten Sie eine persönliche Antwort mit dem Preis und der möglichen Planung."
+    },
+    {
+      "title": "Angebot bestätigen",
+      "body": "Sind Sie mit Preis und Planung einverstanden? Dann geben Sie grünes Licht, und wir setzen Ihren Transport in Gang. Keine Verpflichtungen, bis Sie bestätigen."
+    },
+    {
+      "title": "Transport einplanen",
+      "body": "Nach Ihrer Zustimmung legen wir gemeinsam das Abholdatum fest. Am Tag selbst ruft der Fahrer an, wenn er vor Ort sein wird, damit Sie nichts verpassen."
+    },
+    {
+      "title": "Abholung + Kontrolle & CMR-Dokumente",
+      "body": "Wir holen Ihr Fahrzeug dort ab, wo Sie es wünschen. Vor Ort erstellen wir den CMR-Frachtbrief und inspizieren und fotografieren das Fahrzeug als internen Nachweis des Zustands bei der Abfahrt."
+    },
+    {
+      "title": "Lieferung vor Ort",
+      "body": "Wir rufen an, wenn wir an der Lieferadresse ankommen. Die Lieferung an unserem Depot in Roeselare ist rund um die Uhr möglich und in der Regel günstiger als die Lieferung nach Hause."
+    },
+    {
+      "title": "Zahlung / Rechnung",
+      "body": "Privatkunden zahlen vor der Abholung, Unternehmen ganz einfach auf Rechnung. Die praktischen Absprachen treffen wir vorab klar mit Ihnen."
+    }
+  ],
+  "cmr": [
+    {
+      "title": "Belegt die Abholung",
+      "body": "Der CMR-Frachtbrief zeigt schwarz auf weiß, dass Ihr Fahrzeug von Mcars abgeholt wurde, wann und wo. Sicherheit für beide Seiten."
+    },
+    {
+      "title": "Dokumentiert den Zustand",
+      "body": "Bei der Abholung halten wir den Zustand des Fahrzeugs mit Fotos fest. So ist der Zustand bei der Abfahrt unanfechtbar festgehalten."
+    },
+    {
+      "title": "Wichtig im Schadensfall",
+      "body": "Sollte es je zu einer Diskussion oder einem Schaden kommen, ist der CMR mit dem festgehaltenen Zustand der Bezugspunkt. Vorab in Ruhe geregelt."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Welche Dokumente benötige ich?",
+      "a": "Erforderlich ist nur ein CMR-Frachtbrief, und den erstellen wir bei der Abholung. So haben Sie sofort einen Nachweis, dass Ihr Fahrzeug von Mcars abgeholt wurde."
+    },
+    {
+      "q": "Muss mein Fahrzeug fahren, um abgeholt zu werden?",
+      "a": "Nein. Rollfähige Fahrzeuge ziehen wir mit der Seilwinde auf den Transporter. Ist das Fahrzeug vollständig blockiert, stellen wir vor Ort einen Gabelstapler bereit. Geben Sie den Zustand bei Ihrer Anfrage an."
+    },
+    {
+      "q": "Kann ich an Ihrem Depot liefern oder abholen lassen?",
+      "a": "Ja. Lieferung und Abholung an unserem Depot in Roeselare sind rund um die Uhr möglich und in der Regel günstiger als bei Ihnen zu Hause. Praktisch, wenn Sie flexibel sein möchten."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Ablauf",
+    "title": "Von der Anfrage bis zur Lieferung in sechs Schritten.",
+    "subtitle": "Ein klares, persönliches Vorgehen ohne Überraschungen — von Ihrer ersten Anfrage bis zur Abrechnung.",
+    "crumb": "So funktioniert es",
+    "badgeAnswer": "Antwort innerhalb von 24 Stunden",
+    "badgeCmr": "CMR bei jeder Abholung",
+    "cta": "Angebot"
+  },
+  "stepsHeader": {
+    "label": "So funktioniert es",
+    "lead": "Sechs klare Schritte.",
+    "trail": "Vom Angebot bis zur Lieferung."
+  },
+  "media": {
+    "line": "Ein Dokument, schwarz auf weiß: der CMR-Frachtbrief.",
+    "caption": "Bei jeder Abholung erstellt"
+  },
+  "cmrHeader": {
+    "label": "Warum dieses Vorgehen",
+    "lead": "Der CMR-Frachtbrief:",
+    "trail": "Ihre Sicherheit, schwarz auf weiß.",
+    "intro": "Der CMR, den wir bei jeder Abholung erstellen, hält fest, was, wann und in welchem Zustand abgeholt wurde — Schutz für Sie und für uns."
+  },
+  "faqSection": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "title": "Noch Fragen? <muted>Das hören wir am häufigsten.</muted>"
+  }
+}

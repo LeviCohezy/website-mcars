@@ -1,0 +1,38 @@
+{
+  "metaTitle": "Cookiebeleid | Mcars",
+  "metaDescription": "Welke cookies Mcars gebruikt: functionele, analytische en marketingcookies, waarvoor ze dienen en hoe u uw toestemming beheert of intrekt.",
+  "heroEyebrow": "Juridisch",
+  "heroTitle": "Cookiebeleid",
+  "heroSubtitle": "Welke cookies we gebruiken en hoe u ze beheert.",
+  "crumb": "Cookiebeleid",
+  "sideLabel": "Cookies",
+  "noticeLabel": "Let op:",
+  "noticeText": "Dit is een voorlopige tekst. Laat dit document juridisch nakijken vóór livegang.",
+  "intro": "Dit cookiebeleid legt uit hoe {legalName} cookies en gelijkaardige technieken gebruikt op deze website. Door onze website te gebruiken en waar nodig uw toestemming te geven, stemt u in met het gebruik van cookies zoals hieronder beschreven.",
+  "sections": {
+    "s1": {
+      "title": "1. Wat zijn cookies?",
+      "body": "Cookies zijn kleine tekstbestanden die bij een bezoek aan een website op uw toestel worden geplaatst. Ze zorgen ervoor dat de website goed werkt, onthouden uw voorkeuren en helpen ons begrijpen hoe de website wordt gebruikt. Naast cookies kunnen ook vergelijkbare technieken zoals pixels en local storage worden ingezet."
+    },
+    "s2": {
+      "title": "2. Welke soorten cookies gebruiken we?",
+      "body": "<strong>Functionele cookies</strong> zijn noodzakelijk om de website correct te laten werken. Ze kunnen niet worden uitgeschakeld. <br></br> <strong>Analytische cookies</strong> helpen ons de website te verbeteren door anoniem bij te houden hoe bezoekers onze pagina's gebruiken. <br></br> <strong>Marketingcookies</strong> worden gebruikt om advertenties relevanter te maken en het bereik van onze campagnes te meten. Deze worden enkel geplaatst na uw toestemming."
+    },
+    "s3": {
+      "title": "3. Toestemming en beheer",
+      "body": "Bij uw eerste bezoek vragen we uw toestemming voor niet-noodzakelijke cookies. U kan uw voorkeuren op elk moment aanpassen of intrekken via de cookie-instellingen op de website. Daarnaast kan u cookies beheren of verwijderen via de instellingen van uw browser. Het uitschakelen van bepaalde cookies kan wel invloed hebben op de werking van de website."
+    },
+    "s4": {
+      "title": "4. Cookies van derden",
+      "body": "Sommige cookies worden geplaatst door diensten van derden die we op onze website gebruiken, bijvoorbeeld voor het insluiten van kaarten of het meten van websitegebruik. Deze partijen kunnen een eigen privacy- en cookiebeleid hanteren."
+    },
+    "s5": {
+      "title": "5. Wijzigingen",
+      "body": "We kunnen dit cookiebeleid van tijd tot tijd aanpassen, bijvoorbeeld wanneer we onze website of de gebruikte technieken wijzigen. De meest recente versie is steeds op deze pagina beschikbaar."
+    },
+    "s6": {
+      "title": "6. Contact",
+      "body": "Meer weten over hoe we met uw gegevens omgaan? Lees ons <privacy>privacybeleid</privacy> of neem <contact>contact</contact> met ons op via {email}."
+    }
+  }
+}

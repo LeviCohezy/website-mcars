@@ -1,0 +1,23 @@
+{
+  "sort": {
+    "nieuw": "Más recientes primero",
+    "oud": "Más antiguos primero"
+  },
+  "latest": "Últimos artículos",
+  "filter": "Filtrar",
+  "sortLabel": "Ordenar",
+  "filterByCategory": "Filtrar por categoría",
+  "all": "Todo",
+  "remove": "quitar",
+  "minRead": "{minutes} min de lectura",
+  "empty": "Todavía no hay artículos en esta categoría.",
+  "featured": "Destacado",
+  "heading": "Blog y centro de conocimiento",
+  "drawer": {
+    "aria": "Filtrar artículos",
+    "close": "Cerrar",
+    "category": "Categoría",
+    "clear": "Borrar todo",
+    "show": "Mostrar {total} {total, plural, one {artículo} other {artículos}}"
+  }
+}

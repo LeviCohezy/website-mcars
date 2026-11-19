@@ -1,0 +1,33 @@
+{
+  "metaTitle": "Contact | Mcars",
+  "metaDescription": "Vous préférez un contact direct ? Appelez, écrivez ou envoyez un message WhatsApp à Mcars. Consultez nos horaires d’ouverture, notre dépôt à Roeselare et contactez-nous sans engagement pour votre transport de voiture.",
+  "heroEyebrow": "Contact",
+  "heroTitle": "Vous préférez un contact direct ?",
+  "heroSubtitle": "Appelez-nous, écrivez-nous ou envoyez-nous un message WhatsApp — ou laissez un message ci-dessous. Nous répondons personnellement, rapidement et sans engagement.",
+  "crumb": "Contact",
+  "directEyebrow": "Direct",
+  "methods": {
+    "phone": {
+      "label": "Téléphone",
+      "sub": "Directement un planificateur au bout du fil."
+    },
+    "whatsapp": {
+      "value": "Envoyer un message",
+      "sub": "Envoyez-nous vite une photo ou une question."
+    },
+    "email": {
+      "sub": "Réponse personnelle sous 24 heures."
+    },
+    "depot": {
+      "label": "Dépôt",
+      "sub": "{country} — port d’attache de notre flotte."
+    },
+    "hours": {
+      "label": "Horaires d’ouverture"
+    }
+  },
+  "formTitle": "Faites-nous signe. <muted>Nous vous recontactons.</muted>",
+  "formLead": "Vous cherchez un prix et une planification concrets ? Demandez alors directement un <quote>devis sans engagement</quote>.",
+  "findUs": "Où nous trouver",
+  "mapTitle": "Emplacement de {name} sur Google Maps"
+}

@@ -1,0 +1,23 @@
+{
+  "sort": {
+    "nieuw": "Les plus récents d’abord",
+    "oud": "Les plus anciens d’abord"
+  },
+  "latest": "Derniers articles",
+  "filter": "Filtrer",
+  "sortLabel": "Trier",
+  "filterByCategory": "Filtrer par catégorie",
+  "all": "Tout",
+  "remove": "supprimer",
+  "minRead": "{minutes} min de lecture",
+  "empty": "Aucun article dans cette catégorie pour le moment.",
+  "featured": "À la une",
+  "heading": "Blog & base de connaissances",
+  "drawer": {
+    "aria": "Filtrer les articles",
+    "close": "Fermer",
+    "category": "Catégorie",
+    "clear": "Tout effacer",
+    "show": "Afficher {total} {total, plural, one {article} other {articles}}"
+  }
+}

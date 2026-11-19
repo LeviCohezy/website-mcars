@@ -1,0 +1,11 @@
+{
+  "sectionLabel": "Direkt zwischen den Ländern",
+  "globeLabel": "Globus mit den Straßen zwischen {count} Ländern",
+  "eyebrow": "Feste Korridore",
+  "title": "Direkt <muted>zwischen den Ländern.</muted>",
+  "departFrom": "Abfahrt von",
+  "chooseCountry": "Land wählen",
+  "fixed": "Feste Fahrt",
+  "hint": "{count} Länder, {total} Kombinationen. Wählen Sie ein Abfahrtsland und sehen Sie, wohin wir direkt fahren.",
+  "combinations": "Kombinationen"
+}

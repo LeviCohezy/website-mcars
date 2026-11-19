@@ -1,0 +1,31 @@
+{
+  "main": "Van aanvraag tot levering.",
+  "sub": "Zo verloopt uw transport, stap voor stap.",
+  "stepLabel": "Stap {n}",
+  "steps": {
+    "s1": {
+      "title": "Offerte aanvragen",
+      "desc": "Via de website, telefoon of WhatsApp — binnen 24 uur hebt u prijs én planning"
+    },
+    "s2": {
+      "title": "Goedkeuring",
+      "desc": "U keurt de offerte goed en wij leggen alles voor u vast"
+    },
+    "s3": {
+      "title": "Transport inplannen",
+      "desc": "De ophaaldatum wordt vastgelegd; de chauffeur belt wanneer hij ter plaatse zal zijn"
+    },
+    "s4": {
+      "title": "Ophaling",
+      "desc": "Waar u wil — ter plaatse maken we de CMR op en fotograferen we de wagen"
+    },
+    "s5": {
+      "title": "Levering",
+      "desc": "We bellen wanneer we aankomen en leveren de wagen af waar u dat vroeg"
+    },
+    "s6": {
+      "title": "Betaling",
+      "desc": "Particulieren betalen vóór de ophaling, bedrijven betalen op factuur"
+    }
+  }
+}

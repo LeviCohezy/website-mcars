@@ -1,0 +1,14 @@
+{
+  "step": "Paso {number}",
+  "quoteCta": {
+    "eyebrow": "Presupuesto",
+    "title": "¿Listo para transportar su coche?",
+    "body": "Solicite su presupuesto sin compromiso. Recibirá respuesta en 24 horas con precio y planificación, de forma personal, sin calculadoras.",
+    "quote": "Presupuesto",
+    "contact": "Contactar",
+    "call": "Llamar directamente",
+    "mail": "Escribir un correo",
+    "available": "Disponibilidad",
+    "hours": "Lun–vie: 8:00 – 18:00"
+  }
+}

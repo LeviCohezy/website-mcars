@@ -1,0 +1,62 @@
+{
+  "crumb": "Servizi",
+  "reviewsAria": "{score} su 5 su Google — leggi le recensioni",
+  "insured": "Assicurato, con CMR",
+  "imageAlt": "{service} di Mcars",
+  "situations": {
+    "title": "Si riconosce in una di queste situazioni?",
+    "intro": "{count, select, 2 {Due} 3 {Tre} 4 {Quattro} 5 {Cinque} other {Alcune}} situazioni in cui i clienti ci chiamano. Riconosce la Sua? Allora vedrà subito che cosa organizziamo per Lei."
+  },
+  "why": {
+    "label": "Perché Mcars",
+    "lead": "Ecco come lavoriamo,",
+    "trail": "viaggio dopo viaggio.",
+    "intro": "Flotta propria, autisti fissi e un unico referente. Questo non cambia a ogni viaggio."
+  },
+  "process": {
+    "label": "Modo di lavorare",
+    "lead": "Dalla richiesta alla consegna,",
+    "trail": "chiaro e semplice.",
+    "intro": "Sa in ogni momento che cosa succede e chi può chiamare."
+  },
+  "price": {
+    "label": "Prezzo",
+    "lead": "Che cosa determina",
+    "trail": "il prezzo?",
+    "intro": "Non lavoriamo con un calcolatore: ogni prezzo è calibrato sul Suo trasporto. Questi sono i fattori che contano."
+  },
+  "breakdown": {
+    "label": "In caso di guasto",
+    "lead": "Che cosa fare",
+    "trail": "in caso di guasto?"
+  },
+  "needs": {
+    "label": "Preparazione",
+    "lead": "Che cosa ci serve",
+    "trail": "da Lei."
+  },
+  "included": {
+    "caption": "Flotta propria · autisti fissi · dal {year}"
+  },
+  "safety": {
+    "label": "Flotta e sicurezza",
+    "lead": "Così proteggiamo",
+    "trail": "la Sua auto."
+  },
+  "practice": {
+    "label": "Dalla pratica",
+    "lead": "Così abbiamo fatto",
+    "trail": "in passato."
+  },
+  "faq": {
+    "lead": "Domande frequenti",
+    "trail": "su {service}."
+  },
+  "related": {
+    "label": "Scopra anche",
+    "lead": "Servizi correlati",
+    "trail": "e rotte.",
+    "service": "Servizio",
+    "route": "Rotta"
+  }
+}

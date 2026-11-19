@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Cases & realisaties | Mcars",
+  "metaDescription": "Een greep uit uitgevoerde transporten van Mcars: van oldtimerritten en importwagens tot niet-rijdende voertuigen en Europees bedrijfstransport. Anoniem, maar echt.",
+  "hero": {
+    "eyebrow": "Realisaties",
+    "title": "Uitgevoerde transporten.",
+    "subtitle": "Een greep uit ritten voor particulieren en bedrijven — van klassiekers tot volledige handelaarsvoorraden. Anoniem, maar écht gereden.",
+    "crumb": "Cases",
+    "badgeCount": "{count} cases",
+    "badgeSegment": "Particulier & zakelijk",
+    "cta": "Offerte"
+  },
+  "header": {
+    "label": "Cases",
+    "lead": "Elke rit is anders,",
+    "trail": "de aanpak blijft dezelfde.",
+    "intro": "Uit respect voor onze klanten houden we alle cases anoniem — geen namen, wel het echte verhaal."
+  },
+  "impact": {
+    "label": "Impact",
+    "lead": "Wat we dagelijks",
+    "trail": "waarmaken.",
+    "clients": "Tevreden klanten",
+    "experience": "Jaar ervaring",
+    "weekly": "Wekelijks",
+    "france": "In heel Frankrijk"
+  }
+}

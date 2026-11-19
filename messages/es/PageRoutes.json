@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Destinos y rutas: transporte de coches por toda Europa | Mcars",
+  "metaDescription": "Transporte de coches en Bélgica, Países Bajos, Francia, España, Italia y toda Europa, además de corredores fijos entre países. Consulte todas las rutas de Mcars.",
+  "hero": {
+    "eyebrow": "Destinos y rutas",
+    "title": "Desde Bélgica.<br></br>Por toda Europa.<br></br><muted>Cada semana.</muted>",
+    "subtitle": "Nuestro nicho: de Bélgica y los Países Bajos hacia Francia hasta el norte de España. Y más allá, vamos a cualquier parte.",
+    "crumb": "Rutas",
+    "cta": "Solicitar presupuesto"
+  },
+  "countries": {
+    "label": "Países",
+    "lead": "Transporte de coches",
+    "trail": "por destino.",
+    "intro": "Desde viajes diarios dentro de Bélgica hasta rutas semanales por toda Francia. Elija su destino para ver ciudades, frecuencia e información práctica.",
+    "cities": "{count} ciudades"
+  },
+  "band": {
+    "line": "Cada semana por toda Francia, con paradas fijas en el camino.",
+    "caption": "De Roeselare al norte de España"
+  }
+}

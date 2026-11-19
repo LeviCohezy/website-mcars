@@ -1,0 +1,75 @@
+{
+  "requestPrice": "Preis anfragen",
+  "reviews": "Bewertungen",
+  "reviewsOnGoogle": "{count} Rezensionen auf Google",
+  "weTransport": "Wir transportieren: {types}",
+  "included": {
+    "label": "Inbegriffen",
+    "title": "Was Sie von uns <muted>erwarten dürfen.</muted>"
+  },
+  "faq": {
+    "personalAnswer": "Persönliche Antwort",
+    "callUs": "Ihre Frage ist nicht dabei? Rufen Sie uns gern an."
+  },
+  "price": {
+    "custom": "Maßgeschneidert",
+    "title": "Ein fairer Preis, <muted>innerhalb von 24 Stunden in Ihrem Postfach.</muted>",
+    "body": "Ein Mensch aus unserem Team prüft Ihre Anfrage. Was Sie im Angebot sehen, zahlen Sie – keine Überraschungen im Nachhinein.",
+    "savings": "So sparen Sie"
+  },
+  "needs": {
+    "request": "Bei der Anfrage",
+    "documents": "Dokumente",
+    "onTheDay": "Am Tag selbst"
+  },
+  "breakdown": {
+    "done": "Hilfe ist unterwegs.",
+    "safe": {
+      "title": "1 · Zuerst Sicherheit",
+      "items": [
+        "Stellen Sie das Fahrzeug so sicher wie möglich am Rand ab und schalten Sie die Warnblinkanlage ein.",
+        "Ziehen Sie eine Warnweste an und stellen Sie das Warndreieck auf.",
+        "Warten Sie hinter der Leitplanke, nicht im oder neben dem Fahrzeug."
+      ]
+    },
+    "call": {
+      "title": "2 · Rufen Sie uns an",
+      "items": [
+        "Geben Sie den genauen Standort durch (Straße, Ausfahrt oder Kilometerstein).",
+        "Sagen Sie uns, um welches Fahrzeug es sich handelt und was fehlt.",
+        "Nennen Sie das Ziel, zu dem das Fahrzeug gebracht werden soll."
+      ]
+    },
+    "come": {
+      "title": "3 · Wir kommen",
+      "items": [
+        "Sie erhalten sofort eine ehrliche Antwort, wann wir da sein können.",
+        "Wir laden das Fahrzeug sicher mit der Seilwinde auf.",
+        "Wir bringen es in Ihre Werkstatt, zu Ihnen nach Hause oder in unser Depot."
+      ]
+    }
+  },
+  "safety": {
+    "imageAlt": "Ein Transporter von Mcars",
+    "title": "Eigene Flotte. Feste Fahrer. <muted>Keine Subunternehmer.</muted>"
+  },
+  "practice": {
+    "case": "Fallbeispiel · {tag}",
+    "moreCases": "Weitere Fallbeispiele ansehen"
+  },
+  "overview": {
+    "label": "Überblick",
+    "happyClients": "zufriedene Kunden",
+    "activeSince": "aktiv seit",
+    "activeSincePill": "Aktiv seit {year}",
+    "tags": [
+      "#versichert",
+      "#CMR",
+      "#eigeneFlotte",
+      "#festeFahrer"
+    ],
+    "figures": "Mcars in Zahlen",
+    "audience": "Für wen",
+    "promise": "Persönliche Antwort innerhalb von 24 Stunden – von jemandem aus unserem Team, nicht von einem Rechner."
+  }
+}

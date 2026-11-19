@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Pratiche e assicurazione",
+  "title": "Pratiche, assicurazione e documenti? <muted>Ce ne occupiamo noi.</muted>",
+  "cta": "Richieda il Suo preventivo",
+  "points": {
+    "cmr": {
+      "title": "Lettera di vettura CMR",
+      "text": "Al ritiro compiliamo la CMR, con indirizzo di ritiro e di consegna e i dati del Suo veicolo."
+    },
+    "inspection": {
+      "title": "Ispezione e foto",
+      "text": "La Sua auto viene controllata e fotografata al ritiro. Gli eventuali danni esistenti risultano così nero su bianco."
+    },
+    "pod": {
+      "title": "POD alla consegna",
+      "text": "Alla consegna il destinatario firma per ricevuta. Ha la prova che la Sua auto è arrivata in buone condizioni."
+    },
+    "insured": {
+      "title": "Trasporto assicurato",
+      "text": "Il Suo veicolo è assicurato per l’intero tragitto, dal ritiro alla consegna."
+    },
+    "noHassle": {
+      "title": "Non deve occuparsi di nulla",
+      "text": "Nessun modulo né burocrazia per Lei. Ci occupiamo noi di tutti i documenti."
+    }
+  }
+}

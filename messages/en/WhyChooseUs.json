@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Paperwork & insurance",
+  "title": "Paperwork, insurance and documents? <muted>We take care of that.</muted>",
+  "cta": "Request your quote",
+  "points": {
+    "cmr": {
+      "title": "CMR consignment note",
+      "text": "At collection we draw up the CMR, with the collection and delivery addresses and your vehicle’s details."
+    },
+    "inspection": {
+      "title": "Inspection & photos",
+      "text": "Your car is checked and photographed at collection. Existing damage is therefore recorded in black and white."
+    },
+    "pod": {
+      "title": "POD on delivery",
+      "text": "On delivery, the recipient signs for receipt. You have proof that your car arrived safely."
+    },
+    "insured": {
+      "title": "Insured transport",
+      "text": "Your vehicle is insured for the entire journey, from collection to delivery."
+    },
+    "noHassle": {
+      "title": "You don’t have to arrange anything yourself",
+      "text": "No forms or admin for you. We take care of all the documents."
+    }
+  }
+}

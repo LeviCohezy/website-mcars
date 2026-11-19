@@ -1,0 +1,14 @@
+{
+  "countries": {
+    "france": "France",
+    "belgium": "Belgium",
+    "netherlands": "Netherlands",
+    "germany": "Germany",
+    "spain": "Spain",
+    "italy": "Italy"
+  },
+  "routesCta": "View our routes",
+  "titleLead": "The regions ",
+  "titleTail": "we drive to.",
+  "intro": "Fixed corridors from our home base in Belgium, driven again every week."
+}

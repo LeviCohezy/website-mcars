@@ -1,0 +1,23 @@
+{
+  "sort": {
+    "nieuw": "Newest first",
+    "oud": "Oldest first"
+  },
+  "latest": "Latest articles",
+  "filter": "Filter",
+  "sortLabel": "Sort",
+  "filterByCategory": "Filter by category",
+  "all": "All",
+  "remove": "remove",
+  "minRead": "{minutes} min read",
+  "empty": "No articles in this category yet.",
+  "featured": "Featured",
+  "heading": "Blog & knowledge base",
+  "drawer": {
+    "aria": "Filter articles",
+    "close": "Close",
+    "category": "Category",
+    "clear": "Clear all",
+    "show": "Show {total} {total, plural, one {article} other {articles}}"
+  }
+}

@@ -1,16 +1,18 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 import SectionPill from "./section-pill";
 
 const stats = [
-  { nr: "100%", label: "Verzekerd transport" },
-  { nr: "10K+", label: "Wagens geleverd" },
-  { nr: "500+", label: "Vaste klanten" },
-  { nr: "25+", label: "Landen in Europa" },
-];
+  { nr: "100%", key: "insured" },
+  { nr: "10K+", key: "delivered" },
+  { nr: "500+", key: "clients" },
+  { nr: "25+", key: "countries" },
+] as const;
 
 export default function AboutStats() {
+  const t = useTranslations("AboutStats");
   const sectionRef = useRef<HTMLElement>(null);
   const [inView, setInView] = useState(false);
 
@@ -44,15 +46,14 @@ export default function AboutStats() {
     >
       <div className="grid gap-10 lg:grid-cols-[1fr_3fr]">
         <div {...rise(0)}>
-          <SectionPill label="Over ons" />
+          <SectionPill label={t("pill")} />
         </div>
         <div>
           <h2
             {...rise(1)}
             className={`text-3xl font-medium leading-[1.15] tracking-tight text-zinc-950 sm:text-4xl lg:text-5xl ${rise(1).className}`}
           >
-            Mcars is een Belgisch transportbedrijf dat auto&apos;s betrouwbaar,
-            snel en volledig transparant vervoert over heel Europa.
+            {t("title")}
           </h2>
 
           <dl
@@ -61,14 +62,14 @@ export default function AboutStats() {
           >
             {stats.map((stat, i) => (
               <div
-                key={stat.label}
+                key={stat.key}
                 className={i > 0 ? "lg:border-l lg:border-zinc-300 lg:pl-8" : ""}
               >
-                <dt className="sr-only">{stat.label}</dt>
+                <dt className="sr-only">{t(`stats.${stat.key}`)}</dt>
                 <dd className="text-4xl font-medium tracking-tight text-zinc-950 sm:text-5xl">
                   {stat.nr}
                 </dd>
-                <dd className="mt-3 text-base text-zinc-500">{stat.label}</dd>
+                <dd className="mt-3 text-base text-zinc-500">{t(`stats.${stat.key}`)}</dd>
               </div>
             ))}
           </dl>

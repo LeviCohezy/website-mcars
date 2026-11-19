@@ -1,0 +1,35 @@
+{
+  "metaTitle": "Contact | Mcars",
+  "metaDescription": "Liever rechtstreeks contact? Bel, mail of app Mcars. Bekijk onze openingsuren, ons depot in Roeselare en neem vrijblijvend contact op voor uw autotransport.",
+  "heroEyebrow": "Contact",
+  "heroTitle": "Liever rechtstreeks contact?",
+  "heroSubtitle": "Bel, mail of app ons — of laat hieronder een bericht achter. We antwoorden persoonlijk, snel en zonder verplichting.",
+  "crumb": "Contact",
+  "directEyebrow": "Rechtstreeks",
+  "methods": {
+    "phone": {
+      "label": "Telefoon",
+      "sub": "Rechtstreeks een planner aan de lijn."
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "value": "Stuur een bericht",
+      "sub": "Snel een foto of vraag doorsturen."
+    },
+    "email": {
+      "label": "E-mail",
+      "sub": "Persoonlijk antwoord binnen 24 uur."
+    },
+    "depot": {
+      "label": "Depot",
+      "sub": "{country} — standplaats van onze vloot."
+    },
+    "hours": {
+      "label": "Openingsuren"
+    }
+  },
+  "formTitle": "Laat iets van u horen. <muted>Wij nemen contact op.</muted>",
+  "formLead": "Zoekt u een concrete prijs en planning? Vraag dan meteen een <quote>vrijblijvende offerte</quote> aan.",
+  "findUs": "Waar u ons vindt",
+  "mapTitle": "Locatie van {name} op Google Maps"
+}

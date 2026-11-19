@@ -1,0 +1,10 @@
+{
+  "pill": "About us",
+  "title": "Mcars is a Belgian transport company that moves cars reliably, quickly and with complete transparency across Europe.",
+  "stats": {
+    "insured": "Insured transport",
+    "delivered": "Cars delivered",
+    "clients": "Regular clients",
+    "countries": "Countries in Europe"
+  }
+}

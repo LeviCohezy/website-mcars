@@ -15,7 +15,8 @@
  * marks the fixed weekly corridors.
  */
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { useEffect, useRef, useState } from "react";
 import Globe, { type GlobeNode } from "@/components/globe";
 import { Eyebrow } from "@/components/ui";
@@ -28,7 +29,7 @@ const TOTAL = COUNTRIES.length * (COUNTRIES.length - 1);
 const clamp = (v: number) => Math.min(1, Math.max(0, v));
 const ease = (t: number) => t * t * (3 - 2 * t);
 
-function Pills({ dark }: { dark: boolean }) {
+function Pills({ dark, names }: { dark: boolean; names: Record<string, string> }) {
   return (
     <div data-pills aria-hidden={dark || undefined} className="absolute inset-0 flex items-center justify-center px-5">
       <ul className="flex max-w-4xl flex-wrap justify-center gap-2.5 sm:gap-4">
@@ -40,7 +41,7 @@ function Pills({ dark }: { dark: boolean }) {
               dark ? "bg-white text-zinc-950" : "bg-zinc-950 text-white"
             }`}
           >
-            {c.name}
+            {names[c.id]}
           </li>
         ))}
       </ul>
@@ -49,6 +50,10 @@ function Pills({ dark }: { dark: boolean }) {
 }
 
 export default function RoutesNetwork({ corridors }: { corridors: { slug: string; fixed: boolean }[] }) {
+  const t = useTranslations("RoutesNetwork");
+  const tc = useTranslations("Countries");
+  const names = Object.fromEntries(COUNTRIES.map((c) => [c.id, tc(c.slug)]));
+  const nodes = COUNTRIES.map((c) => ({ ...c, name: names[c.id] }));
   const [from, setFrom] = useState<string | null>(null);
   const [to, setTo] = useState<string | null>(null);
   const [open, setOpen] = useState(false);
@@ -129,12 +134,12 @@ export default function RoutesNetwork({ corridors }: { corridors: { slug: string
   const destinations = COUNTRIES.filter((c) => c.id !== from);
 
   return (
-    <section ref={outer} aria-label="Rechtstreeks tussen de landen" className="relative -mx-2 mt-20 h-[380vh] sm:mt-32">
+    <section ref={outer} aria-label={t("sectionLabel")} className="relative -mx-2 mt-20 h-[380vh] sm:mt-32">
       <div className="sticky top-0 h-svh overflow-hidden bg-white">
-        <Pills dark={false} />
+        <Pills dark={false} names={names} />
 
         <div ref={black} className="absolute inset-0 bg-zinc-950 text-white" style={{ clipPath: "inset(0 100% 0 0)" }}>
-          <Pills dark />
+          <Pills dark names={names} />
 
           <div ref={finder} className="absolute inset-0" style={{ opacity: 0, visibility: "hidden" }}>
             <Globe
@@ -142,19 +147,19 @@ export default function RoutesNetwork({ corridors }: { corridors: { slug: string
               theme="dark"
               served={SERVED}
               home={COUNTRIES[0].id}
-              nodes={COUNTRIES}
+              nodes={nodes}
               active={from}
               to={to}
               progress={fly}
               onSelect={onGlobe}
-              label={`Wereldbol met de wegen tussen ${COUNTRIES.length} landen`}
+              label={t("globeLabel", { count: COUNTRIES.length })}
               className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent_3%,#000_14%,#000_40%,transparent_56%)] lg:[mask-image:linear-gradient(to_right,transparent_24%,#000_50%)]"
             />
 
             <div className="absolute inset-x-0 bottom-0 flex flex-col px-5 pb-5 sm:px-10 lg:inset-y-0 lg:right-auto lg:w-[30rem] lg:justify-center lg:pt-28 lg:pr-0 lg:pb-10 lg:pl-16">
-              <Eyebrow dark className="hidden lg:flex">Vaste corridors</Eyebrow>
+              <Eyebrow dark className="hidden lg:flex">{t("eyebrow")}</Eyebrow>
               <h2 className="text-3xl leading-[1.02] font-medium tracking-[-0.03em] lg:mt-5 lg:text-5xl">
-                Rechtstreeks <span className="text-zinc-500">tussen de landen.</span>
+                {t.rich("title", { muted: (c) => <span className="text-zinc-500">{c}</span> })}
               </h2>
 
               <div ref={picker} className="relative mt-4 lg:mt-8">
@@ -166,15 +171,15 @@ export default function RoutesNetwork({ corridors }: { corridors: { slug: string
                   className="flex w-full items-center justify-between gap-4 rounded-2xl bg-white/[0.08] px-5 py-3 text-left ring-1 ring-white/15 backdrop-blur-md transition-colors hover:bg-white/[0.12] lg:py-3.5"
                 >
                   <span>
-                    <span className="block text-[11px] font-medium tracking-[0.18em] text-zinc-400 uppercase">Vertrekken van</span>
-                    <span className={`mt-0.5 block text-lg font-medium tracking-tight ${origin ? "text-white" : "text-white/50"}`}>{origin?.name ?? "Kies een land"}</span>
+                    <span className="block text-[11px] font-medium tracking-[0.18em] text-zinc-400 uppercase">{t("departFrom")}</span>
+                    <span className={`mt-0.5 block text-lg font-medium tracking-tight ${origin ? "text-white" : "text-white/50"}`}>{origin ? names[origin.id] : t("chooseCountry")}</span>
                   </span>
                   <svg className={`size-5 flex-none text-white/70 transition-transform duration-300 ${open ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                     <path d="M6 9l6 6 6-6" />
                   </svg>
                 </button>
                 {open && (
-                  <ul role="listbox" aria-label="Vertrekken van" data-lenis-prevent className="absolute inset-x-0 bottom-full z-20 mb-2 grid max-h-[46svh] grid-cols-2 gap-1 overflow-y-auto rounded-2xl bg-zinc-900 p-2 ring-1 ring-white/15 lg:top-full lg:bottom-auto lg:mt-2 lg:mb-0">
+                  <ul role="listbox" aria-label={t("departFrom")} data-lenis-prevent className="absolute inset-x-0 bottom-full z-20 mb-2 grid max-h-[46svh] grid-cols-2 gap-1 overflow-y-auto rounded-2xl bg-zinc-900 p-2 ring-1 ring-white/15 lg:top-full lg:bottom-auto lg:mt-2 lg:mb-0">
                     {COUNTRIES.map((c) => (
                       <li key={c.id} role="option" aria-selected={c.id === from}>
                         <button
@@ -182,7 +187,7 @@ export default function RoutesNetwork({ corridors }: { corridors: { slug: string
                           onClick={() => choose(c.id)}
                           className={`w-full rounded-xl px-3.5 py-2.5 text-left text-base font-medium transition-colors ${c.id === from ? "bg-white text-zinc-950" : "text-white/80 hover:bg-white/10 hover:text-white"}`}
                         >
-                          {c.name}
+                          {names[c.id]}
                         </button>
                       </li>
                     ))}
@@ -216,10 +221,10 @@ export default function RoutesNetwork({ corridors }: { corridors: { slug: string
                           className="group flex items-center gap-3"
                         >
                           <span className={`flex-1 truncate text-base font-medium tracking-tight transition-colors duration-300 lg:text-lg ${to && !on ? "text-white/35" : "text-white"}`}>
-                            <span className="hidden text-white/45 lg:inline">{origin.name} </span>
-                            <span className="text-white/30">→</span> {d.name}
+                            <span className="hidden text-white/45 lg:inline">{names[origin.id]} </span>
+                            <span className="text-white/30">→</span> {names[d.id]}
                           </span>
-                          {fixed && <span className="hidden rounded-full border border-white/20 px-2.5 py-0.5 text-[11px] font-medium text-white/60 lg:block">Vaste rit</span>}
+                          {fixed && <span className="hidden rounded-full border border-white/20 px-2.5 py-0.5 text-[11px] font-medium text-white/60 lg:block">{t("fixed")}</span>}
                           <span className={`flex size-7 flex-none items-center justify-center rounded-full border transition-colors duration-300 ${on ? "border-white bg-white text-zinc-950" : "border-white/20 text-white/60"}`}>
                             <svg className="size-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                               <path d="M5 12h14M13 6l6 6-6 6" />
@@ -232,14 +237,14 @@ export default function RoutesNetwork({ corridors }: { corridors: { slug: string
                 </ul>
               ) : (
                 <p className="mt-3 max-w-sm text-base leading-relaxed text-white/55 lg:mt-6 lg:text-lg">
-                  {COUNTRIES.length} landen, {TOTAL} combinaties. Kies een vertrekland en zie waar we rechtstreeks naartoe rijden.
+                  {t("hint", { count: COUNTRIES.length, total: TOTAL })}
                 </p>
               )}
             </div>
 
             <p className="pointer-events-none absolute right-16 bottom-10 hidden text-right lg:block">
               <span className="block text-6xl leading-none font-medium tracking-[-0.05em] tabular-nums">{TOTAL}</span>
-              <span className="mt-1 block text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">combinaties</span>
+              <span className="mt-1 block text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">{t("combinations")}</span>
             </p>
           </div>
         </div>

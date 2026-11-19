@@ -1,0 +1,31 @@
+{
+  "main": "From request to delivery.",
+  "sub": "This is how your transport works, step by step.",
+  "stepLabel": "Step {n}",
+  "steps": {
+    "s1": {
+      "title": "Request a quote",
+      "desc": "Via the website, phone or WhatsApp — within 24 hours you have both price and schedule"
+    },
+    "s2": {
+      "title": "Approval",
+      "desc": "You approve the quote and we lock everything in for you"
+    },
+    "s3": {
+      "title": "Schedule the transport",
+      "desc": "The collection date is fixed; the driver calls when he will be on site"
+    },
+    "s4": {
+      "title": "Collection",
+      "desc": "Wherever you like — on site we draw up the CMR and photograph the car"
+    },
+    "s5": {
+      "title": "Delivery",
+      "desc": "We call when we arrive and deliver the car wherever you asked"
+    },
+    "s6": {
+      "title": "Payment",
+      "desc": "Private customers pay before collection, businesses pay by invoice"
+    }
+  }
+}

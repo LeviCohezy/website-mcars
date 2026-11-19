@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -33,17 +34,18 @@ import { asset } from "@/lib/asset";
 const FRAME_COUNT = 68;
 // Listed under the map (all together, under each other), then "Bekijk onze routes".
 const COUNTRIES = [
-  { flag: "🇫🇷", name: "Frankrijk" },
-  { flag: "🇧🇪", name: "België" },
-  { flag: "🇳🇱", name: "Nederland" },
-  { flag: "🇩🇪", name: "Duitsland" },
-  { flag: "🇪🇸", name: "Spanje" },
-  { flag: "🇮🇹", name: "Italië" },
+  { flag: "🇫🇷", name: "france" },
+  { flag: "🇧🇪", name: "belgium" },
+  { flag: "🇳🇱", name: "netherlands" },
+  { flag: "🇩🇪", name: "germany" },
+  { flag: "🇪🇸", name: "spain" },
+  { flag: "🇮🇹", name: "italy" },
 ];
 
 const frameSrc = (i: number) => asset(`/map-frames/${String(i + 1).padStart(3, "0")}.jpg`);
 
 export default function MobileMapScene() {
+  const t = useTranslations("MobileMapScene");
   const stageRef = useRef<HTMLDivElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
   const introRef = useRef<HTMLDivElement>(null);
@@ -218,7 +220,7 @@ export default function MobileMapScene() {
             {COUNTRIES.map((c) => (
               <li key={c.name} className="mms-country flex items-center gap-3 opacity-0">
                 <span className="text-2xl leading-none">{c.flag}</span>
-                <span className="font-[family-name:var(--font-display)] text-[2rem] leading-[1.1] tracking-wide text-white">{c.name}</span>
+                <span className="font-[family-name:var(--font-display)] text-[2rem] leading-[1.1] tracking-wide text-white">{t(`countries.${c.name}`)}</span>
               </li>
             ))}
           </ul>
@@ -227,7 +229,7 @@ export default function MobileMapScene() {
               href="/routes"
               className="inline-flex items-center gap-2 rounded-full bg-white py-3 pr-3 pl-6 text-sm font-medium text-zinc-950"
             >
-              Bekijk onze routes
+              {t("routesCta")}
               <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M7 17L17 7M9 7h8v8" />
               </svg>
@@ -239,11 +241,11 @@ export default function MobileMapScene() {
         <div ref={introRef} className="absolute inset-x-7 top-0 py-6 pr-3 pl-6 sm:inset-x-10 sm:p-8">
           {/* Two-tone like the desktop map title ("Mcars transporteert auto's in heel Europa.") */}
           <h3 className="text-[1.7rem] leading-[1.15] font-medium tracking-tight">
-            <span className="text-white">De regio&apos;s </span>
-            <span className="text-zinc-500">waar we rijden.</span>
+            <span className="text-white">{t("titleLead")}</span>
+            <span className="text-zinc-500">{t("titleTail")}</span>
           </h3>
           <p className="mt-3 text-[0.95rem] leading-relaxed text-zinc-400">
-            Vaste corridors vanuit onze thuisbasis in België, elke week opnieuw gereden.
+            {t("intro")}
           </p>
         </div>
       </div>

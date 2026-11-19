@@ -1,0 +1,25 @@
+{
+  "metaTitle": "Avis clients | Mcars",
+  "metaDescription": "Ce que les clients disent de Mcars. Note Google de 4,7 sur 37 avis, de particuliers comme de concessionnaires et d’entreprises.",
+  "hero": {
+    "eyebrow": "Avis clients",
+    "title": "Ce que nos clients disent de nous.",
+    "subtitle": "Un 4,7 sur Google, construit par des particuliers et des concessionnaires qui nous ont confié leur voiture.",
+    "crumb": "Avis clients",
+    "badgeScore": "{score} / 5 sur Google",
+    "badgeClients": "{clients} clients",
+    "cta": "Devis"
+  },
+  "rating": {
+    "eyebrow": "Note Google",
+    "reviews": "{count} avis",
+    "body": "Nos avis sont mis à jour en direct via Google. Voici un échantillon représentatif de ce que nos clients écrivent.",
+    "cta": "Voir sur Google"
+  },
+  "quotes": {
+    "label": "Témoignages clients",
+    "lead": "De particuliers",
+    "trail": "et de concessionnaires et d’entreprises.",
+    "note": "Les témoignages affichés sont anonymisés. Les avis actuels sont mis à jour en direct via Google."
+  }
+}

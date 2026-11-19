@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Casos y realizaciones | Mcars",
+  "metaDescription": "Una selección de transportes realizados por Mcars: desde traslados de coches clásicos y vehículos de importación hasta vehículos que no circulan y transporte empresarial europeo. Anónimos, pero reales.",
+  "hero": {
+    "eyebrow": "Realizaciones",
+    "title": "Transportes realizados.",
+    "subtitle": "Una selección de viajes para particulares y empresas, desde coches clásicos hasta stocks completos de concesionarios. Anónimos, pero realmente recorridos.",
+    "crumb": "Casos",
+    "badgeCount": "{count} casos",
+    "badgeSegment": "Particulares y empresas",
+    "cta": "Presupuesto"
+  },
+  "header": {
+    "label": "Casos",
+    "lead": "Cada viaje es distinto,",
+    "trail": "el método sigue siendo el mismo.",
+    "intro": "Por respeto a nuestros clientes, mantenemos todos los casos en el anonimato: sin nombres, pero con la historia real."
+  },
+  "impact": {
+    "label": "Impacto",
+    "lead": "Lo que cumplimos",
+    "trail": "cada día.",
+    "clients": "Clientes satisfechos",
+    "experience": "Años de experiencia",
+    "weekly": "Cada semana",
+    "france": "Por toda Francia"
+  }
+}

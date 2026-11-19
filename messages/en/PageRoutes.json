@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Destinations & routes — car transport across Europe | Mcars",
+  "metaDescription": "Car transport in Belgium, the Netherlands, France, Spain, Italy and across Europe, plus fixed corridors between countries. See all Mcars routes.",
+  "hero": {
+    "eyebrow": "Destinations & routes",
+    "title": "From Belgium.<br></br>Across Europe.<br></br><muted>Every week.</muted>",
+    "subtitle": "Our niche: Belgium and the Netherlands towards France and as far as northern Spain. And beyond that, we drive anywhere.",
+    "crumb": "Routes",
+    "cta": "Request a quote"
+  },
+  "countries": {
+    "label": "Countries",
+    "lead": "Car transport",
+    "trail": "by destination.",
+    "intro": "From daily runs within Belgium to weekly rounds across France. Choose your destination for cities, frequency and practical info.",
+    "cities": "{count} cities"
+  },
+  "band": {
+    "line": "Every week across France, with fixed stops along the way.",
+    "caption": "From Roeselare to northern Spain"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "steps": {
+    "depart": "Departure",
+    "destination": "Destination",
+    "car": "Your car",
+    "contact": "Your details"
+  },
+  "countries": {
+    "be": "Belgium",
+    "nl": "Netherlands",
+    "fr": "France",
+    "de": "Germany",
+    "lu": "Luxembourg",
+    "es": "Spain",
+    "it": "Italy",
+    "ch": "Switzerland",
+    "at": "Austria",
+    "pt": "Portugal",
+    "pl": "Poland",
+    "other": "Other country"
+  },
+  "staat": {
+    "rijdt": "Starts and drives",
+    "rolbaar": "Does not start, but can roll",
+    "niet-rolbaar": "Cannot roll"
+  },
+  "staatLabel": "Condition of the vehicle",
+  "depot": "Mcars depot",
+  "addressFallback": "Address",
+  "optional": " (optional)",
+  "sent": {
+    "eyebrow": "Almost done",
+    "title": "Your request is ready in your email.",
+    "body": "Send the email that has just opened to {email}. You will receive a personal price and schedule as soon as possible — we reply ourselves, there is no automatic email.",
+    "attach": "Don’t forget to attach your files:",
+    "help": "Not working? Call or WhatsApp <link>{phone}</link>."
+  },
+  "trip": {
+    "single": "One-way trip",
+    "singleSub": "From A to B",
+    "return": "Return trip",
+    "returnSub": "From A to B and back"
+  },
+  "legs": {
+    "depart": {
+      "title": "Departure",
+      "question": "How would you like to hand over the vehicle?",
+      "address": "Collection at address",
+      "cityPh": "E.g. Roeselare",
+      "postcodePh": "E.g. 8800"
+    },
+    "destination": {
+      "title": "Destination",
+      "question": "How would you like the vehicle delivered?",
+      "address": "Delivery to address",
+      "cityPh": "E.g. Nice",
+      "postcodePh": "E.g. 06000"
+    }
+  },
+  "carsTitle": "Car details",
+  "addCar": "Add car",
+  "contactTitle": "Contact details",
+  "customer": {
+    "label": "Customer type",
+    "private": "Private",
+    "company": "Company"
+  },
+  "fields": {
+    "name": "Name",
+    "namePh": "Your name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "phonePh": "E.g. 0470 12 34 56",
+    "companyName": "Company name",
+    "companyNamePh": "Name of your company",
+    "vat": "VAT number",
+    "vatPh": "E.g. BE0123.456.789",
+    "message": "Message",
+    "messagePh": "Any additional information? Let us know.",
+    "country": "Country",
+    "countryPh": "Select country",
+    "city": "City / Town",
+    "postcode": "Postcode",
+    "street": "Street and no.",
+    "date": "Date",
+    "brand": "Make",
+    "brandPh": "Select make",
+    "model": "Model",
+    "modelPh": "E.g. Golf, X5, 911",
+    "year": "Year of manufacture",
+    "yearPh": "E.g. 2022",
+    "extra": "Additional information",
+    "extraPh": "E.g. damage, not drivable, multiple vehicles, can roll, front lift function, roof box, bike racks, special dimensions, …"
+  },
+  "prev": "Previous",
+  "next": "Next",
+  "prevStep": "Previous step",
+  "errors": {
+    "required": "Please fill in the required fields (*).",
+    "requiredSubmit": "Please fill in the required fields (*) to send your request."
+  },
+  "trust": {
+    "safe": "Safe transport",
+    "safeSub": "Your vehicle in good hands",
+    "fast": "Fast service",
+    "fastSub": "Reply within 24 hours",
+    "prices": "Transparent prices",
+    "pricesSub": "No surprises",
+    "europe": "All of Europe",
+    "europeSub": "Belgium · Netherlands · France & beyond"
+  },
+  "submit": "Request a quote",
+  "note": "No-obligation request — not a final booking.<br></br> We will contact you as soon as possible.",
+  "carN": "Car {n}",
+  "removeCar": "Remove car {n}",
+  "uploadDoc": "Upload document (e.g. power of attorney)",
+  "uploadDocLabel": "Upload a document, for example a power of attorney",
+  "addPhotosLabel": "Add photos of the vehicle",
+  "viewDocs": "View {count, plural, one {# document} other {# documents}}",
+  "quantity": "Quantity",
+  "quantityDown": "Decrease quantity",
+  "quantityUp": "Increase quantity",
+  "quantityOf": "Quantity of car {n}",
+  "viewer": {
+    "photosTitle": "Photos · Car {n}",
+    "docsTitle": "Documents · Car {n}",
+    "addPhotos": "Add photos",
+    "addDoc": "Add document"
+  },
+  "viewPhotos": "View photos ({count})",
+  "addPhotos": "Add photos",
+  "clickAddPhotos": "Click to add photos",
+  "close": "Close",
+  "removeFile": "Remove {name}"
+}

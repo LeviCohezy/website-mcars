@@ -1,0 +1,31 @@
+{
+  "main": "De la demande à la livraison.",
+  "sub": "Voici comment se déroule votre transport, étape par étape.",
+  "stepLabel": "Étape {n}",
+  "steps": {
+    "s1": {
+      "title": "Demander un devis",
+      "desc": "Via le site, par téléphone ou WhatsApp — en 24 heures, vous recevez le prix et le planning"
+    },
+    "s2": {
+      "title": "Accord",
+      "desc": "Vous acceptez le devis et nous réservons tout pour vous"
+    },
+    "s3": {
+      "title": "Planification du transport",
+      "desc": "La date d’enlèvement est fixée ; le chauffeur vous appelle lorsqu’il arrive sur place"
+    },
+    "s4": {
+      "title": "Enlèvement",
+      "desc": "Où vous voulez — sur place, nous établissons la CMR et photographions la voiture"
+    },
+    "s5": {
+      "title": "Livraison",
+      "desc": "Nous appelons à notre arrivée et livrons la voiture à l’adresse que vous avez indiquée"
+    },
+    "s6": {
+      "title": "Paiement",
+      "desc": "Les particuliers paient avant l’enlèvement, les entreprises paient sur facture"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metaTitle": "Chi siamo | Mcars",
+  "metaDescription": "Mcars è un’azienda di famiglia di Roeselare: padre e figlio, 8 autisti fissi e 9 bisarche proprie. Scopra la nostra storia dal 2004, la nostra flotta e come lavoriamo.",
+  "milestones": [
+    {
+      "year": "2004",
+      "title": "Il primo carico",
+      "body": "Filip Maertens carica le sue prime auto. L’inizio di oltre vent’anni di esperienza nel trasporto auto."
+    },
+    {
+      "year": "2009",
+      "title": "Nasce Mcars",
+      "body": "Da Roeselare l’azienda prende il suo nome. L’approccio resta lo stesso: linee dirette e accordi che tornano."
+    },
+    {
+      "year": "20XX",
+      "title": "La seconda generazione",
+      "body": "Il figlio Ralph entra in azienda. Padre e figlio continuano a costruire insieme."
+    },
+    {
+      "year": "2026",
+      "title": "In visita a Wörth",
+      "body": "Insieme ad autotrasportatori della regione visitiamo la fabbrica di camion Mercedes-Benz in Germania, dove vengono costruiti i nostri Actros."
+    },
+    {
+      "year": "Oggi",
+      "title": "Nove bisarche, otto autisti",
+      "body": "Ogni settimana in tutta la Francia, e oltre, dalla Scandinavia alla Spagna. Sempre con la stessa famiglia al volante."
+    }
+  ],
+  "fleetNotes": [
+    "La spina dorsale della flotta.",
+    "L’ultima generazione di Scania.",
+    "Con il grande emblema Mcars."
+  ],
+  "galleryAlts": [
+    [
+      "Bisarche Mcars con auto d’epoca al Parc du Cinquantenaire a Bruxelles",
+      "Bisarca carica al tramonto",
+      "Due bisarche Mcars in montagna",
+      "Mcars Actros sotto un cielo serale rosa",
+      "Bisarca con due piani di carico pieni",
+      "L’autista saluta dalla cabina"
+    ],
+    [
+      "Auto d’epoca su una bisarca Mcars davanti all’arco di trionfo",
+      "Mcars Actros su una strada innevata",
+      "Fuoristrada sulla bisarca",
+      "Bisarca a pieno carico sotto un cielo azzurro",
+      "Scania di Mcars sotto un cielo nuvoloso",
+      "Mcars Actros in un terminal bagnato"
+    ]
+  ],
+  "why": [
+    {
+      "title": "Personale e familiare",
+      "body": "Nessun call center, nessun numero. Parla direttamente con il team che trasporta davvero la Sua auto."
+    },
+    {
+      "title": "Affidabile e assicurato",
+      "body": "Ogni viaggio con lettera di vettura CMR e trasporto assicurato. Accordi chiari, rispettati correttamente."
+    },
+    {
+      "title": "Spontanei, semplicità prima di tutto",
+      "body": "Rapidi e senza complicazioni. Lei richiede, riceve entro 24 ore una risposta chiara con prezzo e pianificazione."
+    },
+    {
+      "title": "Trasparente",
+      "body": "Sa sempre come stanno le cose. Nessun costo nascosto, nessuna sorpresa lungo il percorso."
+    }
+  ],
+  "insured": [
+    {
+      "t": "Trasporto assicurato",
+      "b": "Ogni veicolo è coperto per l’intero tragitto."
+    },
+    {
+      "t": "Lettera di vettura CMR",
+      "b": "Conferma il ritiro e registra lo stato alla partenza."
+    },
+    {
+      "t": "Prove fotografiche interne",
+      "b": "Foto come prova in caso di danni — conservate con cura e discrezione."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Chi siamo",
+    "title": "Dal 2004 carichiamo auto.<br></br><muted>Dal 2009 come Mcars.</muted>",
+    "subtitle": "Un’azienda di famiglia di Roeselare: padre e figlio, otto autisti fissi e nove bisarche proprie.",
+    "crumb": "Chi siamo",
+    "badgeFamily": "Azienda di famiglia",
+    "badgeLocation": "Roeselare, Belgio",
+    "cta": "Preventivo"
+  },
+  "who": {
+    "eyebrow": "Chi siamo",
+    "text": "Un’azienda di famiglia che conosce il trasporto auto fin nel profondo. Nessun call center, nessun intermediario: parla con le persone che trasportano davvero la Sua auto.",
+    "muted": "Chi viaggia una volta con Mcars, resta.",
+    "founded": "Fondata nel",
+    "transporters": "Bisarche proprie",
+    "drivers": "Autisti fissi",
+    "experience": "Anni di esperienza"
+  },
+  "duo": {
+    "alt": "Due generazioni di Mcars tra due bisarche",
+    "eyebrow": "Padre e figlio",
+    "title": "Due generazioni, <muted>un solo modo di lavorare.</muted>",
+    "founder": "Fondatore",
+    "filipBody": "Ha caricato le sue prime auto nel 2004 e ha fondato Mcars nel 2009. Quasi vent’anni dopo è ancora lui stesso tra i camion.",
+    "second": "Seconda generazione",
+    "ralphBody": "È entrato in azienda e costruisce i prossimi anni di Mcars, con le stesse linee dirette di suo padre.",
+    "draft": "Ruolo e anno di ingresso ancora da confermare"
+  },
+  "fleet": {
+    "alt": "Cinque bisarche Mcars affiancate: Scania e Mercedes",
+    "label": "La flotta",
+    "title": "Nove bisarche proprie, <muted>otto autisti fissi.</muted>"
+  },
+  "material": {
+    "eyebrow": "Mezzi",
+    "title": "Viaggiamo con <muted>i mezzi migliori.</muted>",
+    "body": "La Sua auto merita un camion di cui noi stessi ci fidiamo. Per questo viaggiamo con Mercedes Actros e Scania, ciascuno con un allestimento Kässbohrer e un argano a bordo.",
+    "visitLabel": "2026 · Wörth, Germania",
+    "visitBody": "Nel 2026, insieme ad autotrasportatori della regione, abbiamo visitato la fabbrica di camion Mercedes-Benz a Wörth. Così vediamo di persona dove vengono costruiti i nostri Actros e che cosa sta arrivando.",
+    "woerthAlt": "Camion Mercedes-Benz davanti alla fabbrica di Wörth",
+    "woerthCaption": "Mercedes-Benz, Wörth am Rhein"
+  },
+  "road": {
+    "label": "In viaggio",
+    "lead": "Viaggi veri,",
+    "trail": "foto vere.",
+    "intro": "Niente immagini di repertorio. Questi sono i nostri camion, dal Parc du Cinquantenaire a Bruxelles fino alle Alpi."
+  },
+  "insuredSection": {
+    "label": "Trasporto assicurato",
+    "title": "La Sua auto viaggia <muted>coperta e documentata.</muted>"
+  },
+  "whySection": {
+    "label": "Come lavoriamo",
+    "lead": "Quattro motivi",
+    "trail": "che i clienti citano ogni volta.",
+    "action": "Scopra dove viaggiamo"
+  }
+}

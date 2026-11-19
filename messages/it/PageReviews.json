@@ -1,0 +1,25 @@
+{
+  "metaTitle": "Recensioni | Mcars",
+  "metaDescription": "Cosa dicono i clienti di Mcars. Valutazione Google 4,7 su 37 recensioni, di privati e di concessionari e aziende.",
+  "hero": {
+    "eyebrow": "Recensioni",
+    "title": "Cosa dicono di noi i clienti.",
+    "subtitle": "Un 4,7 su Google, costruito da privati e concessionari che ci hanno affidato la loro auto.",
+    "crumb": "Recensioni",
+    "badgeScore": "{score} / 5 su Google",
+    "badgeClients": "{clients} clienti",
+    "cta": "Preventivo"
+  },
+  "rating": {
+    "eyebrow": "Valutazione Google",
+    "reviews": "{count} recensioni",
+    "body": "Le nostre valutazioni vengono aggiornate in tempo reale tramite Google. Qui sotto una selezione rappresentativa di ciò che scrivono i clienti.",
+    "cta": "Vedi su Google"
+  },
+  "quotes": {
+    "label": "Parole dei clienti",
+    "lead": "Di privati",
+    "trail": "e di concessionari e aziende.",
+    "note": "I commenti mostrati sono anonimizzati. Le recensioni attuali vengono aggiornate in tempo reale tramite Google."
+  }
+}

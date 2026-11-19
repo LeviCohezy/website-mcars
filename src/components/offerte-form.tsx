@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
+import { useTranslations } from "next-intl";
 import { site } from "@/lib/site";
 import OfferteSummary from "./offerte-summary";
 
@@ -34,11 +35,18 @@ const MERKEN = [
   "Renault", "Seat", "Škoda", "Smart", "Subaru", "Suzuki", "Tesla", "Toyota", "Volkswagen", "Volvo", "Ander merk",
 ];
 
+// `labelNl` is only used in the e-mail (the Mcars office reads Dutch); the screen uses the translated label.
 const STAAT = [
-  { id: "rijdt", label: "Start en rijdt", icon: "car" },
-  { id: "rolbaar", label: "Start niet, maar is rolbaar", icon: "push" },
-  { id: "niet-rolbaar", label: "Niet rolbaar", icon: "ban" },
+  { id: "rijdt", labelNl: "Start en rijdt", icon: "car" },
+  { id: "rolbaar", labelNl: "Start niet, maar is rolbaar", icon: "push" },
+  { id: "niet-rolbaar", labelNl: "Niet rolbaar", icon: "ban" },
 ] as const;
+
+// Dutch country value -> message key (the stored/prefilled value stays Dutch).
+const LAND_KEYS: Record<string, string> = {
+  "België": "be", Nederland: "nl", Frankrijk: "fr", Duitsland: "de", Luxemburg: "lu", Spanje: "es", "Italië": "it",
+  Zwitserland: "ch", Oostenrijk: "at", Portugal: "pt", Polen: "pl", "Ander land": "other",
+};
 
 type Leg = { mode: "depot" | "adres"; land: string; stad: string; postcode: string; straat: string; datum: string };
 // Uploaded files live only in the browser (object URLs) for previewing; the
@@ -104,9 +112,10 @@ export default function OfferteForm({ stepped = false, defaults }: { stepped?: b
   return <OfferteFormInner key={search} search={search} stepped={stepped} defaults={defaults} />;
 }
 
-const STEPS = ["Vertrek", "Bestemming", "Uw auto", "Uw gegevens"];
-
 function OfferteFormInner({ search, stepped, defaults }: { search: string; stepped: boolean; defaults?: Defaults }) {
+  const t = useTranslations("OfferteForm");
+  const steps = [t("steps.depart"), t("steps.destination"), t("steps.car"), t("steps.contact")];
+  const landLabel = (l: string) => (LAND_KEYS[l] ? t(`countries.${LAND_KEYS[l]}`) : l);
   const q = new URLSearchParams(search);
   const van = q.get("van") ?? "";
   const naar = q.get("naar") ?? "";
@@ -150,8 +159,9 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
   const stop = (l: Leg) => ({
     depot: l.mode === "depot",
     country: l.land,
-    label: l.mode === "depot" ? "Depot Mcars" : l.stad.trim() || l.land || "Adres",
+    label: l.mode === "depot" ? t("depot") : l.stad.trim() || landLabel(l.land) || t("addressFallback"),
   });
+  // E-mail text below stays Dutch on purpose: the Mcars office reads it, whatever the site language.
   const fmt = (iso: string) => (iso ? iso.split("-").reverse().join("/") : "geen voorkeur");
 
   function submit(e: React.FormEvent) {
@@ -174,7 +184,7 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
       ``,
       ...cars.flatMap((c, i) => [
         `AUTO ${i + 1}: ${c.merk} ${c.model}${c.bouwjaar ? ` (${c.bouwjaar})` : ""}${c.aantal > 1 ? ` — ${c.aantal} stuks` : ""}`,
-        `  Staat: ${STAAT.find((s) => s.id === c.staat)?.label}`,
+        `  Staat: ${STAAT.find((s) => s.id === c.staat)?.labelNl}`,
         ...(c.extra.trim() ? [`  Extra: ${c.extra.trim()}`] : []),
         ...(c.files.some((f) => f.kind === "photo") ? [`  Foto's: ${c.files.filter((f) => f.kind === "photo").map((f) => f.name).join(", ")} (als bijlage)`] : []),
         ...(c.files.some((f) => f.kind === "doc") ? [`  Documenten: ${c.files.filter((f) => f.kind === "doc").map((f) => f.name).join(", ")} (als bijlage)`] : []),
@@ -194,14 +204,14 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
   if (sent) {
     return (
       <div className="rounded-3xl bg-white/[0.04] p-8 text-white ring-1 ring-white/10 sm:p-12">
-        <p className="text-sm font-medium tracking-widest text-white/50 uppercase">Bijna klaar</p>
-        <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">Uw aanvraag staat klaar in uw e-mail.</h2>
+        <p className="text-sm font-medium tracking-widest text-white/50 uppercase">{t("sent.eyebrow")}</p>
+        <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">{t("sent.title")}</h2>
         <p className="mt-4 max-w-xl text-base leading-relaxed text-white/70">
-          Verstuur de e-mail die nu openging naar {site.email}. U krijgt zo snel mogelijk een persoonlijke prijs en planning — wij antwoorden zelf, er volgt geen automatische mail.
+          {t("sent.body", { email: site.email })}
         </p>
         {sent.length > 0 && (
           <div className="mt-6 rounded-2xl bg-white/[0.06] p-5 ring-1 ring-white/10">
-            <p className="text-sm font-medium">Vergeet niet uw bestanden als bijlage toe te voegen:</p>
+            <p className="text-sm font-medium">{t("sent.attach")}</p>
             <ul className="mt-2 list-disc pl-5 text-sm text-white/70">
               {sent.map((f) => (
                 <li key={f}>{f}</li>
@@ -217,7 +227,7 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
               title: [c.merk, c.model.trim()].filter(Boolean).join(" "),
               aantal: c.aantal,
               bouwjaar: c.bouwjaar,
-              staat: STAAT.find((x) => x.id === c.staat)?.label ?? "",
+              staat: STAAT.some((x) => x.id === c.staat) ? t(`staat.${c.staat}`) : "",
               photo: c.files.find((f) => f.kind === "photo")?.url,
             }))}
             from={stop(vertrek)}
@@ -226,7 +236,7 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
           />
         </div>
         <p className="mt-6 text-sm text-white/60">
-          Lukt het niet? Bel of WhatsApp <a href={site.phoneHref} className="text-white underline underline-offset-4">{site.phone}</a>.
+          {t.rich("sent.help", { phone: site.phone, link: (c) => <a href={site.phoneHref} className="text-white underline underline-offset-4">{c}</a> })}
         </p>
       </div>
     );
@@ -236,7 +246,7 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
     <form ref={formRef} onSubmit={submit} noValidate className="space-y-4 text-white sm:space-y-5">
       {stepped && (
         <ol className="grid grid-cols-4 gap-2 sm:gap-3">
-          {STEPS.map((label, i) => (
+          {steps.map((label, i) => (
             <li key={label}>
               <button
                 type="button"
@@ -261,8 +271,8 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
       {/* Trip type */}
       {on(0) && <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
         {[
-          { v: false, t: "Enkele rit", s: "Van A naar B", icon: "arrow" as const },
-          { v: true, t: "Heen en terug", s: "Van A naar B en terug", icon: "swap" as const },
+          { v: false, t: t("trip.single"), s: t("trip.singleSub"), icon: "arrow" as const },
+          { v: true, t: t("trip.return"), s: t("trip.returnSub"), icon: "swap" as const },
         ].map((o) => {
           const on = retour === o.v;
           return (
@@ -291,20 +301,20 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
       {/* Vertrek / Bestemming */}
       <div className={stepped ? "" : "grid gap-4 sm:gap-5 lg:grid-cols-2"}>
         {on(0) && <LegCard
-          step="01" icon="pin" title="Vertrek" question="Hoe wilt u het voertuig aanleveren?" adresLabel="Ophalen op adres"
-          stadPlaceholder="Bijv. Roeselare" postcodePlaceholder="Bijv. 8800"
+          step="01" icon="pin" title={t("legs.depart.title")} question={t("legs.depart.question")} adresLabel={t("legs.depart.address")}
+          stadPlaceholder={t("legs.depart.cityPh")} postcodePlaceholder={t("legs.depart.postcodePh")}
           leg={vertrek} set={setVertrek} tried={tried}
         />}
         {on(1) && <LegCard
-          step="02" icon="flag" title="Bestemming" question="Hoe wilt u het voertuig afleveren?" adresLabel="Levering op adres"
-          stadPlaceholder="Bijv. Nice" postcodePlaceholder="Bijv. 06000"
+          step="02" icon="flag" title={t("legs.destination.title")} question={t("legs.destination.question")} adresLabel={t("legs.destination.address")}
+          stadPlaceholder={t("legs.destination.cityPh")} postcodePlaceholder={t("legs.destination.postcodePh")}
           leg={bestemming} set={setBestemming} tried={tried}
         />}
       </div>
 
       {/* Autogegevens */}
       {on(2) && <Card>
-        <CardTitle step="03" icon="car">Autogegevens</CardTitle>
+        <CardTitle step="03" icon="car">{t("carsTitle")}</CardTitle>
         <div className="mt-6 space-y-4">
           {cars.map((c, i) => (
             <CarFields
@@ -322,23 +332,23 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
             onClick={() => setCars((cs) => [...cs, emptyCar(Math.max(...cs.map((c) => c.id)) + 1)])}
             className="flex min-h-16 w-full items-center justify-center gap-2.5 rounded-2xl border border-dashed border-white/25 text-base font-medium text-white transition-colors hover:border-white hover:bg-white hover:text-zinc-950"
           >
-            <I name="plus" className="size-5" /> Auto toevoegen
+            <I name="plus" className="size-5" /> {t("addCar")}
           </button>
         </div>
       </Card>}
 
       {/* Contactgegevens */}
       {on(3) && <Card>
-        <CardTitle step="04" icon="user">Contactgegevens</CardTitle>
+        <CardTitle step="04" icon="user">{t("contactTitle")}</CardTitle>
         <div className="mt-6 grid gap-x-6 gap-y-5 lg:grid-cols-2">
           <div className="space-y-5">
             <div>
-              <Label req>Type klant</Label>
+              <Label req>{t("customer.label")}</Label>
               <div className="mt-2 grid grid-cols-2 gap-2">
                 {([
-                  { k: "Particulier", icon: "user" },
-                  { k: "Bedrijf", icon: "building" },
-                ] as const).map(({ k, icon }) => (
+                  { k: "Particulier", l: t("customer.private"), icon: "user" },
+                  { k: "Bedrijf", l: t("customer.company"), icon: "building" },
+                ] as const).map(({ k, l, icon }) => (
                   <button
                     key={k}
                     type="button"
@@ -349,23 +359,23 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
                     }`}
                   >
                     <I name={icon} className="size-4" />
-                    {k}
+                    {l}
                   </button>
                 ))}
               </div>
             </div>
-            <Field label="Naam" req icon="user" value={contact.naam} onChange={(v) => setContact({ ...contact, naam: v })} autoComplete="name" placeholder="Uw naam" invalid={tried && !contact.naam.trim()} />
-            <Field label="E-mailadres" req icon="mail" type="email" value={contact.email} onChange={(v) => setContact({ ...contact, email: v })} autoComplete="email" placeholder="voorbeeld@domein.be" invalid={tried && !/\S+@\S+\.\S+/.test(contact.email)} />
-            <Field label="Telefoonnummer" req icon="phone" type="tel" value={contact.telefoon} onChange={(v) => setContact({ ...contact, telefoon: v })} autoComplete="tel" placeholder="Bijv. 0470 12 34 56" invalid={tried && contact.telefoon.trim().length < 6} />
+            <Field label={t("fields.name")} req icon="user" value={contact.naam} onChange={(v) => setContact({ ...contact, naam: v })} autoComplete="name" placeholder={t("fields.namePh")} invalid={tried && !contact.naam.trim()} />
+            <Field label={t("fields.email")} req icon="mail" type="email" value={contact.email} onChange={(v) => setContact({ ...contact, email: v })} autoComplete="email" placeholder="voorbeeld@domein.be" invalid={tried && !/\S+@\S+\.\S+/.test(contact.email)} />
+            <Field label={t("fields.phone")} req icon="phone" type="tel" value={contact.telefoon} onChange={(v) => setContact({ ...contact, telefoon: v })} autoComplete="tel" placeholder={t("fields.phonePh")} invalid={tried && contact.telefoon.trim().length < 6} />
           </div>
           <div className="flex flex-col gap-5">
             {klant === "Bedrijf" && (
               <>
-                <Field label="Bedrijfsnaam" icon="building" value={contact.bedrijf} onChange={(v) => setContact({ ...contact, bedrijf: v })} autoComplete="organization" placeholder="Naam van uw bedrijf" />
-                <Field label="BTW-nummer" icon="building" value={contact.btw} onChange={(v) => setContact({ ...contact, btw: v.toUpperCase() })} placeholder="Bijv. BE0123.456.789" />
+                <Field label={t("fields.companyName")} icon="building" value={contact.bedrijf} onChange={(v) => setContact({ ...contact, bedrijf: v })} autoComplete="organization" placeholder={t("fields.companyNamePh")} />
+                <Field label={t("fields.vat")} icon="building" value={contact.btw} onChange={(v) => setContact({ ...contact, btw: v.toUpperCase() })} placeholder={t("fields.vatPh")} />
               </>
             )}
-            <Area label="Bericht" icon="chat" value={contact.bericht} onChange={(v) => setContact({ ...contact, bericht: v })} placeholder="Nog extra informatie? Laat het ons weten." grow />
+            <Area label={t("fields.message")} icon="chat" value={contact.bericht} onChange={(v) => setContact({ ...contact, bericht: v })} placeholder={t("fields.messagePh")} grow />
           </div>
         </div>
       </Card>}
@@ -374,13 +384,13 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
         <div className="flex items-center justify-between gap-3">
           {step > 0 ? (
             <button type="button" onClick={() => go(step - 1)} className="flex min-h-14 items-center gap-2 rounded-2xl px-6 text-base font-medium text-white ring-1 ring-white/20 transition-colors hover:bg-white/10">
-              <I name="arrow" className="size-5 rotate-180" /> Vorige
+              <I name="arrow" className="size-5 rotate-180" /> {t("prev")}
             </button>
           ) : <span />}
           <div className="flex items-center gap-4">
-            {tried && !stepOk[step] && <p role="alert" className="text-sm font-medium text-red-400">Vul de verplichte velden (*) in.</p>}
+            {tried && !stepOk[step] && <p role="alert" className="text-sm font-medium text-red-400">{t("errors.required")}</p>}
             <button type="button" onClick={() => go(step + 1)} className="flex min-h-14 items-center gap-2 rounded-2xl bg-white px-8 text-base font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
-              Volgende <I name="arrow" className="size-5" />
+              {t("next")} <I name="arrow" className="size-5" />
             </button>
           </div>
         </div>
@@ -390,10 +400,10 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
       {on(3) && <div className="rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 sm:p-8">
         <ul className="grid grid-cols-2 gap-5 lg:grid-cols-4 lg:divide-x lg:divide-white/10">
           {([
-            { t: "Veilig transport", s: "Uw voertuig in goede handen", icon: "shield" },
-            { t: "Snelle service", s: "Antwoord binnen 24 uur", icon: "clock" },
-            { t: "Transparante prijzen", s: "Geen verrassingen", icon: "euro" },
-            { t: "Heel Europa", s: "België · Nederland · Frankrijk & verder", icon: "map" },
+            { t: t("trust.safe"), s: t("trust.safeSub"), icon: "shield" },
+            { t: t("trust.fast"), s: t("trust.fastSub"), icon: "clock" },
+            { t: t("trust.prices"), s: t("trust.pricesSub"), icon: "euro" },
+            { t: t("trust.europe"), s: t("trust.europeSub"), icon: "map" },
           ] as const).map((it) => (
             <li key={it.t} className="flex items-start gap-3 lg:px-5 lg:first:pl-0">
               <I name={it.icon} className="mt-0.5 size-7 flex-none text-white" />
@@ -406,7 +416,7 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
         </ul>
         {tried && !valid && (
           <p role="alert" className="mt-6 text-sm font-medium text-red-400">
-            Vul de verplichte velden (*) in om uw aanvraag te versturen.
+            {t("errors.requiredSubmit")}
           </p>
         )}
         <button
@@ -414,15 +424,14 @@ function OfferteFormInner({ search, stepped, defaults }: { search: string; stepp
           className="group mt-6 flex min-h-14 w-full items-center justify-center gap-3 rounded-2xl bg-white text-base font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
         >
           <I name="send" className="size-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          Offerte aanvragen
+          {t("submit")}
         </button>
         <p className="mt-3 text-center text-sm text-white/50">
-          Vrijblijvende aanvraag — geen definitieve boeking.
-          <br className="hidden sm:block" /> Wij nemen zo snel mogelijk contact met u op.
+          {t.rich("note", { br: () => <br className="hidden sm:block" /> })}
         </p>
         {stepped && (
           <button type="button" onClick={() => go(2)} className="mx-auto mt-4 flex items-center gap-2 text-sm font-medium text-white/60 transition-colors hover:text-white">
-            <I name="arrow" className="size-4 rotate-180" /> Vorige stap
+            <I name="arrow" className="size-4 rotate-180" /> {t("prevStep")}
           </button>
         )}
       </div>}
@@ -451,11 +460,12 @@ function CardTitle({ step, icon, children }: { step: string; icon: IconName; chi
 }
 
 function Label({ children, req, optional, htmlFor }: { children: React.ReactNode; req?: boolean; optional?: boolean; htmlFor?: string }) {
+  const t = useTranslations("OfferteForm");
   return (
     <label htmlFor={htmlFor} className="block text-sm font-medium text-white">
       {children}
       {req && <span className="text-white/40"> *</span>}
-      {optional && <span className="font-normal text-white/40"> (optioneel)</span>}
+      {optional && <span className="font-normal text-white/40"> {t("optional")}</span>}
     </label>
   );
 }
@@ -483,7 +493,7 @@ function Field({
   );
 }
 
-function Select({ label, value, onChange, options, placeholder, req, invalid }: { label: string; value: string; onChange: (v: string) => void; options: readonly string[]; placeholder: string; req?: boolean; invalid?: boolean }) {
+function Select({ label, value, onChange, options, labels, placeholder, req, invalid }: { label: string; value: string; onChange: (v: string) => void; options: readonly string[]; labels?: (o: string) => string; placeholder: string; req?: boolean; invalid?: boolean }) {
   const id = useId();
   return (
     <div>
@@ -492,7 +502,7 @@ function Select({ label, value, onChange, options, placeholder, req, invalid }: 
         <select id={id} value={value} onChange={(e) => onChange(e.target.value)} aria-invalid={invalid || undefined} className={`${inputCls(invalid)} appearance-none pr-10 ${value ? "" : "text-white/35"}`}>
           <option value="">{placeholder}</option>
           {options.map((o) => (
-            <option key={o} value={o}>{o}</option>
+            <option key={o} value={o}>{labels ? labels(o) : o}</option>
           ))}
         </select>
         <I name="chevron" className="pointer-events-none absolute top-1/2 right-4 size-4 -translate-y-1/2 text-white/60" />
@@ -519,6 +529,7 @@ function StaatSelect({ value, onChange }: { value: string; onChange: (v: string)
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
+  const t = useTranslations("OfferteForm");
   const labelId = useId();
   const listId = useId();
   const current = STAAT.find((s) => s.id === value) ?? STAAT[0];
@@ -554,7 +565,7 @@ function StaatSelect({ value, onChange }: { value: string; onChange: (v: string)
   return (
     <div ref={ref} className="relative self-start">
       <p id={labelId} className="text-sm font-medium text-white">
-        Staat van het voertuig<span className="text-white/40"> *</span>
+        {t("staatLabel")}<span className="text-white/40"> *</span>
       </p>
       <button
         type="button"
@@ -572,7 +583,7 @@ function StaatSelect({ value, onChange }: { value: string; onChange: (v: string)
         }`}
       >
         <I name={current.icon} className="size-5 flex-none" />
-        <span className="flex-1">{current.label}</span>
+        <span className="flex-1">{t(`staat.${current.id}`)}</span>
         <I name="chevron" className={`size-4 text-white/60 transition-transform duration-200 ${open ? "rotate-180" : ""}`} />
       </button>
       <ul
@@ -597,7 +608,7 @@ function StaatSelect({ value, onChange }: { value: string; onChange: (v: string)
               }`}
             >
               <I name={s.icon} className="size-5 flex-none" />
-              {s.label}
+              {t(`staat.${s.id}`)}
             </li>
           );
         })}
@@ -612,6 +623,7 @@ function LegCard({
   step: string; icon: IconName; title: string; question: string; adresLabel: string;
   stadPlaceholder: string; postcodePlaceholder: string; leg: Leg; set: (l: Leg) => void; tried: boolean;
 }) {
+  const t = useTranslations("OfferteForm");
   const p = (patch: Partial<Leg>) => set({ ...leg, ...patch });
   const option = (on: boolean) =>
     `flex min-h-[3.75rem] items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-medium ring-1 transition-colors ${
@@ -633,7 +645,7 @@ function LegCard({
         <button type="button" role="radio" onClick={() => p({ mode: "depot" })} aria-checked={leg.mode === "depot"} className={option(leg.mode === "depot")}>
           {radio(leg.mode === "depot")}
           <I name="home" className="size-5 flex-none" />
-          Depot Mcars
+          {t("depot")}
         </button>
         <button type="button" role="radio" onClick={() => p({ mode: "adres" })} aria-checked={leg.mode === "adres"} className={option(leg.mode === "adres")}>
           {radio(leg.mode === "adres")}
@@ -651,14 +663,14 @@ function LegCard({
         </p>
       ) : (
         <div className="mt-7 grid gap-5 sm:grid-cols-2">
-          <Select label="Land" req value={leg.land} onChange={(v) => p({ land: v })} options={LANDEN} placeholder="Selecteer land" invalid={tried && !leg.land} />
-          <Field label="Stad / Plaats" req value={leg.stad} onChange={(v) => p({ stad: v })} placeholder={stadPlaceholder} autoComplete="address-level2" invalid={tried && !leg.stad.trim()} />
-          <Field label="Postcode" req value={leg.postcode} onChange={(v) => p({ postcode: v })} placeholder={postcodePlaceholder} autoComplete="postal-code" invalid={tried && !leg.postcode.trim()} />
-          <Field label="Straat en nr." optional value={leg.straat} onChange={(v) => p({ straat: v })} autoComplete="street-address" />
+          <Select label={t("fields.country")} req value={leg.land} onChange={(v) => p({ land: v })} options={LANDEN} labels={(o) => t(`countries.${LAND_KEYS[o]}`)} placeholder={t("fields.countryPh")} invalid={tried && !leg.land} />
+          <Field label={t("fields.city")} req value={leg.stad} onChange={(v) => p({ stad: v })} placeholder={stadPlaceholder} autoComplete="address-level2" invalid={tried && !leg.stad.trim()} />
+          <Field label={t("fields.postcode")} req value={leg.postcode} onChange={(v) => p({ postcode: v })} placeholder={postcodePlaceholder} autoComplete="postal-code" invalid={tried && !leg.postcode.trim()} />
+          <Field label={t("fields.street")} optional value={leg.straat} onChange={(v) => p({ straat: v })} autoComplete="street-address" />
         </div>
       )}
       <div className="mt-5">
-        <Field label="Datum" optional type="date" value={leg.datum} onChange={(v) => p({ datum: v })} />
+        <Field label={t("fields.date")} optional type="date" value={leg.datum} onChange={(v) => p({ datum: v })} />
       </div>
     </Card>
   );
@@ -669,6 +681,7 @@ function CarFields({
 }: {
   index: number; car: Car; set: (patch: Partial<Car>) => void; remove: () => void; canRemove: boolean; tried: boolean;
 }) {
+  const t = useTranslations("OfferteForm");
   const photoId = useId();
   const docId = useId();
   const [viewer, setViewer] = useState<Upload["kind"] | null>(null);
@@ -693,13 +706,13 @@ function CarFields({
     <div className="rounded-2xl bg-white/[0.03] p-5 ring-1 ring-white/10 sm:p-6">
       <div className="flex items-center justify-between">
         <h3 className="flex items-center gap-2.5 text-lg font-medium text-white">
-          <I name="car" className="size-5" /> Auto {index + 1}
+          <I name="car" className="size-5" /> {t("carN", { n: index + 1 })}
         </h3>
         {canRemove && (
           <button
             type="button"
             onClick={remove}
-            aria-label={`Auto ${index + 1} verwijderen`}
+            aria-label={t("removeCar", { n: index + 1 })}
             className="flex size-11 items-center justify-center rounded-xl text-white/60 ring-1 ring-white/15 transition-colors hover:bg-red-500/10 hover:text-red-400 hover:ring-red-400/50"
           >
             <I name="trash" className="size-5" />
@@ -708,19 +721,19 @@ function CarFields({
       </div>
       {/* 4:3 photo + three thumbnails on the left; details, remarks and documents next to it */}
       <div className="mt-4 grid gap-6 md:grid-cols-[minmax(0,20rem)_minmax(0,1fr)] lg:grid-cols-[minmax(0,26rem)_minmax(0,1fr)]">
-        <CarPhotos photos={photos} title={[car.merk, car.model.trim()].filter(Boolean).join(" ") || `Auto ${index + 1}`} inputId={photoId} onOpen={() => setViewer("photo")} />
+        <CarPhotos photos={photos} title={[car.merk, car.model.trim()].filter(Boolean).join(" ") || t("carN", { n: index + 1 })} inputId={photoId} onOpen={() => setViewer("photo")} />
 
         <div className="grid content-start gap-5 xl:grid-cols-2">
-          <Select label="Merk" req value={car.merk} onChange={(v) => set({ merk: v })} options={MERKEN} placeholder="Selecteer merk" invalid={tried && !car.merk} />
-          <Field label="Model" req value={car.model} onChange={(v) => set({ model: v })} placeholder="Bijv. Golf, X5, 911" invalid={tried && !car.model.trim()} />
-          <Field label="Bouwjaar" optional value={car.bouwjaar} onChange={(v) => set({ bouwjaar: v.replace(/\D/g, "").slice(0, 4) })} placeholder="Bijv. 2022" />
+          <Select label={t("fields.brand")} req value={car.merk} onChange={(v) => set({ merk: v })} options={MERKEN} placeholder={t("fields.brandPh")} invalid={tried && !car.merk} />
+          <Field label={t("fields.model")} req value={car.model} onChange={(v) => set({ model: v })} placeholder={t("fields.modelPh")} invalid={tried && !car.model.trim()} />
+          <Field label={t("fields.year")} optional value={car.bouwjaar} onChange={(v) => set({ bouwjaar: v.replace(/\D/g, "").slice(0, 4) })} placeholder={t("fields.yearPh")} />
           <StaatSelect value={car.staat} onChange={(v) => set({ staat: v })} />
           <div className="xl:col-span-2">
             <Area
-              label="Extra informatie"
+              label={t("fields.extra")}
               value={car.extra}
               onChange={(v) => set({ extra: v })}
-              placeholder="Bijv. schade, niet-rijdbaar, meerdere voertuigen, rolbaar, front lift functie, topbox, fietsdragers, speciale afmetingen, …"
+              placeholder={t("fields.extraPh")}
             />
           </div>
           {/* Documents (volmacht, …) — separate from the car photos */}
@@ -729,13 +742,13 @@ function CarFields({
               htmlFor={docId}
               className="inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-xl px-4 text-sm font-medium text-white ring-1 ring-white/30 transition-colors hover:bg-white hover:text-zinc-950"
             >
-              <I name="file" className="size-4" /> Document uploaden (bv. volmacht)
+              <I name="file" className="size-4" /> {t("uploadDoc")}
             </label>
             {docs.length > 0 && (
               <button
                 type="button"
                 onClick={() => setViewer("doc")}
-                aria-label={`${docs.length} ${docs.length === 1 ? "document" : "documenten"} bekijken`}
+                aria-label={t("viewDocs", { count: docs.length })}
                 className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-white/10 px-4 text-sm font-medium text-white transition-colors hover:bg-white/20"
               >
                 <I name="file" className="size-4" /> {docs.length}
@@ -743,12 +756,12 @@ function CarFields({
             )}
             {/* Same car several times: one card with a quantity */}
             <div className="ml-auto flex min-h-11 items-center gap-1 rounded-xl pl-4 ring-1 ring-white/15 focus-within:ring-white/50">
-              <span className="mr-1 text-sm text-white/60">Aantal</span>
+              <span className="mr-1 text-sm text-white/60">{t("quantity")}</span>
               <button
                 type="button"
                 onClick={() => set({ aantal: Math.max(1, car.aantal - 1) })}
                 disabled={car.aantal <= 1}
-                aria-label="Aantal verlagen"
+                aria-label={t("quantityDown")}
                 className="flex size-9 items-center justify-center rounded-lg text-white transition-colors hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent"
               >
                 <I name="minus" className="size-4" />
@@ -760,13 +773,13 @@ function CarFields({
                 max={99}
                 value={car.aantal}
                 onChange={(e) => set({ aantal: Math.min(99, Math.max(1, Number(e.target.value) || 1)) })}
-                aria-label={`Aantal keer auto ${index + 1}`}
+                aria-label={t("quantityOf", { n: index + 1 })}
                 className="w-10 [appearance:textfield] bg-transparent text-center text-sm font-medium text-white outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
               />
               <button
                 type="button"
                 onClick={() => set({ aantal: Math.min(99, car.aantal + 1) })}
-                aria-label="Aantal verhogen"
+                aria-label={t("quantityUp")}
                 className="mr-1 flex size-9 items-center justify-center rounded-lg text-white transition-colors hover:bg-white/10"
               >
                 <I name="plus" className="size-4" />
@@ -776,13 +789,13 @@ function CarFields({
         </div>
       </div>
 
-      <FileInput id={photoId} accept="image/jpeg,image/png,image/webp,image/heic" label="Foto's van het voertuig toevoegen" onFiles={(l) => add(l, "photo")} />
-      <FileInput id={docId} accept="application/pdf,image/jpeg,image/png" label="Document uploaden, bijvoorbeeld een volmacht" onFiles={(l) => add(l, "doc")} />
+      <FileInput id={photoId} accept="image/jpeg,image/png,image/webp,image/heic" label={t("addPhotosLabel")} onFiles={(l) => add(l, "photo")} />
+      <FileInput id={docId} accept="application/pdf,image/jpeg,image/png" label={t("uploadDocLabel")} onFiles={(l) => add(l, "doc")} />
 
       {viewer && (
         <FileViewer
-          title={viewer === "photo" ? `Foto's · Auto ${index + 1}` : `Documenten · Auto ${index + 1}`}
-          addLabel={viewer === "photo" ? "Foto's toevoegen" : "Document toevoegen"}
+          title={viewer === "photo" ? t("viewer.photosTitle", { n: index + 1 }) : t("viewer.docsTitle", { n: index + 1 })}
+          addLabel={viewer === "photo" ? t("viewer.addPhotos") : t("viewer.addDoc")}
           inputId={viewer === "photo" ? photoId : docId}
           files={viewer === "photo" ? photos : docs}
           onRemove={drop}
@@ -816,6 +829,7 @@ function FileInput({ id, accept, label, onFiles }: { id: string; accept: string;
  * plus, clicking opens the photo side panel (browse, delete, add more).
  */
 function CarPhotos({ photos, title, inputId, onOpen }: { photos: Upload[]; title: string; inputId: string; onOpen: () => void }) {
+  const t = useTranslations("OfferteForm");
   const [main, ...rest] = photos;
   const more = photos.length - 4;
   const slot = "relative overflow-hidden rounded-xl ring-1 ring-white/10";
@@ -828,7 +842,7 @@ function CarPhotos({ photos, title, inputId, onOpen }: { photos: Upload[]; title
     </span>
   );
   const filled = (img: Upload, className: string, children?: React.ReactNode) => (
-    <button key={img.url} type="button" onClick={onOpen} aria-label={`Foto's bekijken (${photos.length})`} className={`${slot} group block ${className}`}>
+    <button key={img.url} type="button" onClick={onOpen} aria-label={t("viewPhotos", { count: photos.length })} className={`${slot} group block ${className}`}>
       {/* eslint-disable-next-line @next/next/no-img-element -- local blob preview */}
       <img src={img.url} alt="" className="size-full object-cover" />
       {children}
@@ -837,7 +851,7 @@ function CarPhotos({ photos, title, inputId, onOpen }: { photos: Upload[]; title
   );
   const empty = (key: number, className: string, children: React.ReactNode) =>
     main ? (
-      <button key={key} type="button" onClick={onOpen} aria-label="Foto's toevoegen" className={`${slot} ${emptyCls} ${className}`}>{children}</button>
+      <button key={key} type="button" onClick={onOpen} aria-label={t("addPhotos")} className={`${slot} ${emptyCls} ${className}`}>{children}</button>
     ) : (
       <label key={key} htmlFor={inputId} className={`${slot} ${emptyCls} ${className}`}>{children}</label>
     );
@@ -858,7 +872,7 @@ function CarPhotos({ photos, title, inputId, onOpen }: { photos: Upload[]; title
             <>
               <I name="car" className="size-10" />
               <span className="text-sm font-medium">{title}</span>
-              <span className="text-xs">Klik om foto&apos;s toe te voegen</span>
+              <span className="text-xs">{t("clickAddPhotos")}</span>
             </>,
           )}
       <div className="mt-2 grid grid-cols-3 gap-2">
@@ -884,6 +898,7 @@ function FileViewer({
 }: {
   title: string; addLabel: string; inputId: string; files: Upload[]; onRemove: (url: string) => void; onClose: () => void;
 }) {
+  const t = useTranslations("OfferteForm");
   useEffect(() => {
     const root = document.documentElement;
     const prev = root.style.overflow;
@@ -898,13 +913,13 @@ function FileViewer({
 
   return createPortal(
     <div className="fixed inset-0 z-[100]" role="dialog" aria-modal="true" aria-label={title}>
-      <button type="button" aria-label="Sluiten" onClick={onClose} className="absolute inset-0 bg-zinc-950/70 backdrop-blur-sm" />
+      <button type="button" aria-label={t("close")} onClick={onClose} className="absolute inset-0 bg-zinc-950/70 backdrop-blur-sm" />
       <div className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col bg-zinc-900 text-white shadow-2xl ring-1 ring-white/10">
         <div className="flex items-center justify-between gap-3 border-b border-white/10 px-5 py-4">
           <p className="font-medium">
             {title} <span className="text-white/45">({files.length})</span>
           </p>
-          <button type="button" onClick={onClose} aria-label="Sluiten" className="flex size-10 items-center justify-center rounded-xl text-white/70 ring-1 ring-white/15 transition-colors hover:text-white">
+          <button type="button" onClick={onClose} aria-label={t("close")} className="flex size-10 items-center justify-center rounded-xl text-white/70 ring-1 ring-white/15 transition-colors hover:text-white">
             <I name="close" className="size-4" />
           </button>
         </div>
@@ -933,7 +948,7 @@ function FileViewer({
                 <button
                   type="button"
                   onClick={() => onRemove(f.url)}
-                  aria-label={`${f.name} verwijderen`}
+                  aria-label={t("removeFile", { name: f.name })}
                   className="flex size-9 flex-none items-center justify-center rounded-lg text-white/60 ring-1 ring-white/15 transition-colors hover:bg-red-500/10 hover:text-red-400 hover:ring-red-400/50"
                 >
                   <I name="trash" className="size-4" />

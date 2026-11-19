@@ -1,0 +1,62 @@
+{
+  "crumb": "Services",
+  "reviewsAria": "{score} out of 5 on Google — view reviews",
+  "insured": "Insured, with CMR",
+  "imageAlt": "{service} by Mcars",
+  "situations": {
+    "title": "Do you recognise one of these situations?",
+    "intro": "{count, select, 2 {Two} 3 {Three} 4 {Four} 5 {Five} other {A few}} situations in which clients call us. Do you recognise yours? Then you will see straight away what we take care of for you."
+  },
+  "why": {
+    "label": "Why Mcars",
+    "lead": "This is how we do it,",
+    "trail": "trip after trip.",
+    "intro": "Our own fleet, regular drivers and one point of contact. That stays the same on every trip."
+  },
+  "process": {
+    "label": "How we work",
+    "lead": "From request to delivery,",
+    "trail": "clear and simple.",
+    "intro": "You know at every moment what is happening and who you can call."
+  },
+  "price": {
+    "label": "Price",
+    "lead": "What determines",
+    "trail": "the price?",
+    "intro": "We don’t use a calculator: every price is tailored to your transport. These are the factors that count."
+  },
+  "breakdown": {
+    "label": "In a breakdown",
+    "lead": "What to do",
+    "trail": "in a breakdown?"
+  },
+  "needs": {
+    "label": "Preparation",
+    "lead": "What we need",
+    "trail": "from you."
+  },
+  "included": {
+    "caption": "Own fleet · regular drivers · since {year}"
+  },
+  "safety": {
+    "label": "Fleet & safety",
+    "lead": "This is how we protect",
+    "trail": "your car."
+  },
+  "practice": {
+    "label": "From practice",
+    "lead": "This is how we did it",
+    "trail": "before."
+  },
+  "faq": {
+    "lead": "Frequently asked questions",
+    "trail": "about {service}."
+  },
+  "related": {
+    "label": "Also discover",
+    "lead": "Related services",
+    "trail": "and routes.",
+    "service": "Service",
+    "route": "Route"
+  }
+}

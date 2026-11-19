@@ -1,0 +1,46 @@
+{
+  "metaTitle": "Privacy policy | Mcars",
+  "metaDescription": "How Mcars BV handles your personal data: what data we process, why, how long we keep it and what rights you have under the GDPR.",
+  "heroEyebrow": "Legal",
+  "heroTitle": "Privacy policy",
+  "heroSubtitle": "How we handle your personal data and protect your privacy.",
+  "crumb": "Privacy policy",
+  "sideLabel": "Privacy",
+  "noticeLabel": "Please note:",
+  "noticeText": "This is a provisional text. Have this document reviewed legally before going live.",
+  "intro": "{legalName} attaches great importance to protecting your personal data and respects your privacy. In this privacy policy, we explain what data we collect, why we do so and how you can exercise your rights. This policy has been drawn up in accordance with the General Data Protection Regulation (GDPR).",
+  "sections": {
+    "s1": {
+      "title": "1. Data controller",
+      "body": "{legalName}, with registered office at {street}, {city}, {country} (VAT {vat}), is the data controller for the personal data processed via this website and in the context of our services. For questions, you can reach us at <mail>{email}</mail> or {phone}."
+    },
+    "s2": {
+      "title": "2. What data do we collect?",
+      "body": "Depending on your contact with us, we may process the following data: identification and contact details (name, address, email address, phone number), data about your transport request (collection and delivery address, vehicle details), correspondence you have with us and, where applicable, invoicing and company details (company number, VAT number)."
+    },
+    "s3": {
+      "title": "3. Purposes of processing",
+      "body": "We process your data to handle and answer your quote request, to plan and carry out the transport, to communicate with you, to take care of our invoicing and accounting and to comply with our legal obligations. The legal basis for this is the performance of a contract, our legitimate interest, compliance with a legal obligation or, where applicable, your consent."
+    },
+    "s4": {
+      "title": "4. Retention period",
+      "body": "We keep your personal data no longer than necessary for the purposes for which it was collected. Invoicing and accounting data is kept for the period required by law. Enquiries that do not lead to an agreement are deleted after a reasonable period."
+    },
+    "s5": {
+      "title": "5. Sharing with third parties",
+      "body": "We never sell your data. We share it only with parties who are necessary for our service (such as our IT, accounting or transport partners), and only to the extent required. These parties are bound by confidentiality and process your data solely on our behalf."
+    },
+    "s6": {
+      "title": "6. Your rights (GDPR)",
+      "body": "You have the right to access, rectify, erase and restrict your personal data, the right to data portability and the right to object to processing. Where processing is based on consent, you can withdraw it at any time. To exercise a right, please contact us at <mail>{email}</mail>. You also have the right to lodge a complaint with the Data Protection Authority (www.gegevensbeschermingsautoriteit.be)."
+    },
+    "s7": {
+      "title": "7. Cookies",
+      "body": "Our website uses cookies. You can find more information about which cookies we use and how you can manage them in our <cookies>cookie policy</cookies>."
+    },
+    "s8": {
+      "title": "8. Contact",
+      "body": "Do you have questions about this privacy policy or about how your data is processed? Feel free to <contact>contact</contact> us at {email} or {phone}."
+    }
+  }
+}

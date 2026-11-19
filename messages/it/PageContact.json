@@ -1,0 +1,33 @@
+{
+  "metaTitle": "Contatti | Mcars",
+  "metaDescription": "Preferisce un contatto diretto? Chiami, scriva un’e-mail o un messaggio su WhatsApp a Mcars. Scopra i nostri orari, il nostro deposito a Roeselare e ci contatti senza impegno per il Suo trasporto auto.",
+  "heroEyebrow": "Contatti",
+  "heroTitle": "Preferisce un contatto diretto?",
+  "heroSubtitle": "Ci chiami, ci scriva un’e-mail o un messaggio su WhatsApp — oppure lasci un messaggio qui sotto. Rispondiamo personalmente, in fretta e senza impegno.",
+  "crumb": "Contatti",
+  "directEyebrow": "Diretto",
+  "methods": {
+    "phone": {
+      "label": "Telefono",
+      "sub": "Un pianificatore direttamente in linea."
+    },
+    "whatsapp": {
+      "value": "Invii un messaggio",
+      "sub": "Ci inoltri subito una foto o una domanda."
+    },
+    "email": {
+      "sub": "Risposta personale entro 24 ore."
+    },
+    "depot": {
+      "label": "Deposito",
+      "sub": "{country} — base della nostra flotta."
+    },
+    "hours": {
+      "label": "Orari di apertura"
+    }
+  },
+  "formTitle": "Si faccia sentire. <muted>La contatteremo noi.</muted>",
+  "formLead": "Cerca un prezzo e una pianificazione concreti? Richieda subito un <quote>preventivo senza impegno</quote>.",
+  "findUs": "Dove trovarci",
+  "mapTitle": "Posizione di {name} su Google Maps"
+}

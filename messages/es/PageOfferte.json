@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Solicitar presupuesto | Mcars",
+    "description": "Solicite sin compromiso su precio de transporte de coches. Recibirá en 24 horas una respuesta personal con precio y planificación: sin calculadora, sin correo automático."
+  },
+  "hero": {
+    "eyebrow": "Rápido · seguro · fiable",
+    "title": "Presupuesto de transporte de coches",
+    "lead": "Rellene el siguiente formulario y reciba rápidamente un presupuesto sin compromiso para el transporte de su vehículo."
+  },
+  "form": {
+    "title": "Planifique su transporte. <muted>En cuatro breves pasos.</muted>",
+    "intro": "Origen, destino, su coche y sus datos: le enviaremos en 24 horas un precio y una planificación personalizados."
+  },
+  "factors": {
+    "label": "¿Qué determina el precio?",
+    "lead": "Cada viaje es distinto.",
+    "trail": "Esto cuenta en su presupuesto.",
+    "intro": "No aplicamos tarifas fijas. Su precio lo elaboramos manualmente en función de estos factores, de modo que se ajuste a su transporte concreto.",
+    "items": [
+      {
+        "title": "Distancia",
+        "body": "Cuanto más largo es el viaje, más kilómetros y tiempo. La distancia entre la dirección de recogida y la de entrega influye en el precio."
+      },
+      {
+        "title": "Tipo de vehículo",
+        "body": "Las dimensiones y el peso influyen. Un coche compacto se carga de forma distinta que una furgoneta, un SUV o un coche clásico."
+      },
+      {
+        "title": "Circula o no circula",
+        "body": "¿El coche circula, rueda o está completamente bloqueado? Para los coches que no circulan disponemos de cabrestante o carretilla elevadora."
+      },
+      {
+        "title": "Extras a bordo",
+        "body": "¿Un cofre de techo, un portabicicletas o enseres dentro del coche? Háganoslo saber: influye en cómo cargamos y planificamos."
+      },
+      {
+        "title": "Urgencia o planificación normal",
+        "body": "¿Encaja su viaje con nuestras rutas existentes o es urgente? La planificación influye en el precio."
+      },
+      {
+        "title": "País de recogida/entrega",
+        "body": "Dentro de Bélgica o muy lejos en Europa: el país de recogida y entrega influye en la ruta y en el coste."
+      }
+    ]
+  },
+  "reassurance": [
+    {
+      "title": "Respuesta en 24 horas",
+      "body": "Recibirá enseguida un precio y una posible planificación: sin esperar días."
+    },
+    {
+      "title": "Personal, sin calculadora",
+      "body": "Cada presupuesto lo elabora manualmente nuestro equipo, adaptado a su situación."
+    },
+    {
+      "title": "Respondemos nosotros",
+      "body": "Sin correo de confirmación automático. Recibirá noticias directamente de una persona de Mcars."
+    }
+  ],
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Sobre su presupuesto. <muted>Explicado en pocas palabras.</muted>",
+    "phone": "¿No está seguro de qué datos necesita? Llame al <link>{phone}</link>: le ayudaremos personalmente.",
+    "contact": "Contactar",
+    "items": [
+      {
+        "q": "¿Con qué rapidez recibiré respuesta a mi solicitud?",
+        "a": "Recibirá en 24 horas una respuesta personal con el precio y la posible planificación. Cada solicitud se revisa manualmente, así que no recibirá un correo de confirmación automático: respondemos nosotros mismos."
+      },
+      {
+        "q": "¿Qué datos necesito para solicitar un presupuesto?",
+        "a": "Conviene tener a mano: si es particular o empresa, la dirección de recogida y de entrega (o nuestro depósito), el vehículo y su estado (arranca y circula, rueda o está bloqueado, con o sin cofre de techo) y la fecha deseada. Cuanto más completa sea su solicitud, con mayor precisión podremos calcular su precio."
+      },
+      {
+        "q": "¿Puedo hacer la entrega o la recogida en su depósito?",
+        "a": "Sí. La entrega o la recogida en nuestro depósito de Roeselare es posible y suele ser más económica que a domicilio. Indíquelo en su solicitud y lo tendremos en cuenta."
+      },
+      {
+        "q": "¿Cómo se realiza el pago?",
+        "a": "Los particulares pagan antes de la recogida. Las empresas pagan sencillamente contra factura. Los acuerdos prácticos los concretamos con usted de antemano."
+      }
+    ]
+  }
+}

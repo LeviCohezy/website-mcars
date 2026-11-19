@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { clients } from "@/data/clients";
 
 /**
@@ -6,6 +7,7 @@ import { clients } from "@/data/clients";
  * Placed directly under every hero. Logos are greyed out for a calm strip.
  */
 export default function ClientMarquee({ className = "", variant = "plain" }: { className?: string; variant?: "plain" | "card" }) {
+  const t = useTranslations("ClientMarquee");
   const card = variant === "card";
   if (clients.length === 0) return null;
   const row = (
@@ -29,7 +31,7 @@ export default function ClientMarquee({ className = "", variant = "plain" }: { c
   );
   if (card) {
     return (
-      <section aria-label="Onze klanten" className={`pt-2 ${className}`}>
+      <section aria-label={t("label")} className={`pt-2 ${className}`}>
         <div className="rounded-[2rem] bg-zinc-950 px-5 py-6 sm:px-8 sm:py-7 [&>.marquee]:mt-0">
           {strip}
         </div>
@@ -37,7 +39,7 @@ export default function ClientMarquee({ className = "", variant = "plain" }: { c
     );
   }
   return (
-    <section aria-label="Onze klanten" className={`px-5 pt-8 pb-2 sm:px-8 sm:pt-10 [&>.marquee]:mt-0 ${className}`}>
+    <section aria-label={t("label")} className={`px-5 pt-8 pb-2 sm:px-8 sm:pt-10 [&>.marquee]:mt-0 ${className}`}>
       {strip}
     </section>
   );

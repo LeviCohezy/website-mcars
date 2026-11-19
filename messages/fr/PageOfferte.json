@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Demander un devis | Mcars",
+    "description": "Demandez sans engagement votre prix pour un transport de voiture. Vous recevez sous 24 heures une réponse personnelle avec le prix et la planification — pas de calculateur, pas d’e-mail automatique."
+  },
+  "hero": {
+    "eyebrow": "Rapide · sûr · fiable",
+    "title": "Devis transport de voiture",
+    "lead": "Remplissez le formulaire ci-dessous et recevez rapidement un devis sans engagement pour le transport de votre véhicule."
+  },
+  "form": {
+    "title": "Planifiez votre transport. <muted>En quatre courtes étapes.</muted>",
+    "intro": "Départ, destination, votre voiture et vos coordonnées — nous vous envoyons sous 24 heures un prix et une planification personnalisés."
+  },
+  "factors": {
+    "label": "Qu’est-ce qui détermine le prix ?",
+    "lead": "Chaque trajet est différent.",
+    "trail": "Voici ce qui pèse dans votre devis.",
+    "intro": "Nous n’appliquons pas de tarifs fixes. Nous établissons votre prix manuellement sur la base de ces facteurs — pour qu’il soit juste pour votre transport précis.",
+    "items": [
+      {
+        "title": "Distance",
+        "body": "Plus le trajet est long, plus il y a de kilomètres et de temps. La distance entre l’adresse d’enlèvement et de livraison influence le prix."
+      },
+      {
+        "title": "Type de véhicule",
+        "body": "Les dimensions et le poids jouent un rôle. Une voiture compacte ne se charge pas comme une camionnette, un SUV ou une voiture de collection."
+      },
+      {
+        "title": "Roulant ou non",
+        "body": "La voiture roule-t-elle, est-elle roulante ou totalement bloquée ? Pour les voitures qui ne roulent pas, nous prévoyons un treuil ou un chariot élévateur."
+      },
+      {
+        "title": "Extras à bord",
+        "body": "Un coffre de toit, un porte-vélos ou des affaires dans la voiture ? Dites-le-nous — cela influence la façon dont nous chargeons et planifions."
+      },
+      {
+        "title": "Urgence ou planification normale",
+        "body": "Votre trajet s’inscrit-il dans nos routes existantes, ou est-ce urgent ? La planification pèse dans le prix."
+      },
+      {
+        "title": "Pays d’enlèvement/de livraison",
+        "body": "En Belgique ou loin en Europe : le pays d’enlèvement et de livraison détermine en partie l’itinéraire et le coût."
+      }
+    ]
+  },
+  "reassurance": [
+    {
+      "title": "Réponse sous 24 heures",
+      "body": "Vous recevez rapidement un prix et une planification possible — pas de longues journées d’attente."
+    },
+    {
+      "title": "Personnel, pas de calculateur",
+      "body": "Chaque devis est établi manuellement par notre équipe, adapté à votre situation."
+    },
+    {
+      "title": "Nous répondons nous-mêmes",
+      "body": "Pas d’e-mail de confirmation automatique. Vous avez directement une vraie personne de Mcars."
+    }
+  ],
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "À propos de votre devis. <muted>Expliqué simplement.</muted>",
+    "phone": "Vous ne savez pas quelles informations fournir ? Appelez le <link>{phone}</link> — nous vous aidons personnellement.",
+    "contact": "Nous contacter",
+    "items": [
+      {
+        "q": "En combien de temps ai-je une réponse à ma demande ?",
+        "a": "Vous recevez sous 24 heures une réponse personnelle avec le prix et la planification possible. Chaque demande est examinée manuellement — vous ne recevez donc pas d’e-mail de confirmation automatique, nous répondons nous-mêmes."
+      },
+      {
+        "q": "De quelles informations ai-je besoin pour demander un devis ?",
+        "a": "Pratique d’avoir sous la main : si vous êtes particulier ou entreprise, l’adresse d’enlèvement et de livraison (ou notre dépôt), le véhicule et son état (démarre et roule, roulant ou bloqué, avec ou sans coffre de toit) et la date souhaitée. Plus votre demande est complète, plus nous pouvons déterminer votre prix avec précision."
+      },
+      {
+        "q": "Puis-je me faire livrer ou enlever à votre dépôt ?",
+        "a": "Oui. La livraison ou l’enlèvement à notre dépôt de Roeselare est possible et généralement plus avantageux qu’à domicile. Mentionnez-le dans votre demande, nous en tiendrons compte."
+      },
+      {
+        "q": "Comment se déroule le paiement ?",
+        "a": "Les particuliers paient avant l’enlèvement. Les entreprises paient simplement sur facture. Nous convenons des modalités pratiques avec vous à l’avance."
+      }
+    ]
+  }
+}

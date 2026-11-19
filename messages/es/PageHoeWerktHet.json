@@ -1,0 +1,86 @@
+{
+  "metaTitle": "¿Cómo funciona? | Mcars",
+  "metaDescription": "Del presupuesto a la entrega en seis pasos. Descubra cómo se encarga Mcars de su transporte de coches: de forma personal, con carta de porte CMR y acuerdos claros.",
+  "steps": [
+    {
+      "title": "Solicitar presupuesto",
+      "body": "Solicita su transporte a través del sitio web, por teléfono o por WhatsApp. Recibirá en 24 horas una respuesta personal con el precio y la planificación posible."
+    },
+    {
+      "title": "Aprobación del presupuesto",
+      "body": "¿Está de acuerdo con el precio y la planificación? Entonces nos da luz verde y ponemos en marcha su transporte. Sin obligación hasta que usted confirme."
+    },
+    {
+      "title": "Planificar el transporte",
+      "body": "Tras su aprobación, fijamos juntos la fecha de recogida. El mismo día, el conductor le llama para avisarle de cuándo llegará, de modo que no se pierda nada."
+    },
+    {
+      "title": "Recogida + control y documentos CMR",
+      "body": "Recogemos su coche donde usted quiera. In situ elaboramos la carta de porte CMR e inspeccionamos y fotografiamos el vehículo como prueba interna de su estado a la salida."
+    },
+    {
+      "title": "Entrega en destino",
+      "body": "Le llamamos cuando llegamos a la dirección de entrega. La entrega en nuestro depósito de Roeselare es posible 24/7 y suele ser más económica que la entrega a domicilio."
+    },
+    {
+      "title": "Pago / factura",
+      "body": "Los particulares pagan antes de la recogida y las empresas, sencillamente, contra factura. Los acuerdos prácticos los concretamos con usted de antemano con claridad."
+    }
+  ],
+  "cmr": [
+    {
+      "title": "Prueba la recogida",
+      "body": "La carta de porte CMR demuestra, negro sobre blanco, que Mcars ha recogido su coche, cuándo y dónde. Seguridad para ambas partes."
+    },
+    {
+      "title": "Documenta el estado",
+      "body": "En la recogida registramos el estado del vehículo con fotos. Así, su estado a la salida queda registrado de forma indiscutible."
+    },
+    {
+      "title": "Importante en una reclamación",
+      "body": "Si alguna vez hubiera una discusión o daños, la CMR con el estado registrado es el punto de referencia. Todo resuelto con tranquilidad de antemano."
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué documentos necesito?",
+      "a": "Solo hace falta una carta de porte CMR, y la elaboramos nosotros en la recogida. Así tiene de inmediato la prueba de que Mcars ha recogido su coche."
+    },
+    {
+      "q": "¿Tiene que circular mi coche para poder recogerlo?",
+      "a": "No. Los coches que ruedan los subimos al transportador con el cabrestante. Si el coche está completamente bloqueado, disponemos de una carretilla elevadora in situ. Indique el estado en su solicitud."
+    },
+    {
+      "q": "¿Puedo hacer la entrega o la recogida en su depósito?",
+      "a": "Sí. La entrega y la recogida en nuestro depósito de Roeselare es posible 24/7 y suele ser más económica que a domicilio. Práctico si desea ser flexible."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Método de trabajo",
+    "title": "De la solicitud a la entrega en seis pasos.",
+    "subtitle": "Un enfoque claro y personal, sin sorpresas: desde su primera solicitud hasta la liquidación.",
+    "crumb": "Cómo funciona",
+    "badgeAnswer": "Respuesta en 24 horas",
+    "badgeCmr": "CMR en cada recogida",
+    "cta": "Presupuesto"
+  },
+  "stepsHeader": {
+    "label": "Así funciona",
+    "lead": "Seis pasos claros.",
+    "trail": "Del presupuesto a la entrega."
+  },
+  "media": {
+    "line": "Un solo documento, negro sobre blanco: la carta de porte CMR.",
+    "caption": "Elaborada en cada recogida"
+  },
+  "cmrHeader": {
+    "label": "Por qué este método",
+    "lead": "La carta de porte CMR:",
+    "trail": "su garantía, negro sobre blanco.",
+    "intro": "La CMR que elaboramos en cada recogida deja constancia de qué se ha recogido, cuándo y en qué estado: protección para usted y para nosotros."
+  },
+  "faqSection": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "¿Más preguntas? <muted>Esto es lo que más oímos.</muted>"
+  }
+}

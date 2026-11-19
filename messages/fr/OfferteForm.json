@@ -1,0 +1,135 @@
+{
+  "steps": {
+    "depart": "Départ",
+    "destination": "Destination",
+    "car": "Votre voiture",
+    "contact": "Vos coordonnées"
+  },
+  "countries": {
+    "be": "Belgique",
+    "nl": "Pays-Bas",
+    "fr": "France",
+    "de": "Allemagne",
+    "lu": "Luxembourg",
+    "es": "Espagne",
+    "it": "Italie",
+    "ch": "Suisse",
+    "at": "Autriche",
+    "pt": "Portugal",
+    "pl": "Pologne",
+    "other": "Autre pays"
+  },
+  "staat": {
+    "rijdt": "Démarre et roule",
+    "rolbaar": "Ne démarre pas, mais roule",
+    "niet-rolbaar": "Ne roule pas"
+  },
+  "staatLabel": "État du véhicule",
+  "depot": "Dépôt Mcars",
+  "addressFallback": "Adresse",
+  "optional": " (facultatif)",
+  "sent": {
+    "eyebrow": "Presque terminé",
+    "title": "Votre demande est prête dans votre messagerie.",
+    "body": "Envoyez l’e-mail qui vient de s’ouvrir à {email}. Vous recevrez dès que possible un prix et une planification personnalisés — nous répondons nous-mêmes, aucun e-mail automatique ne suivra.",
+    "attach": "N’oubliez pas de joindre vos fichiers en pièces jointes :",
+    "help": "Ça ne fonctionne pas ? Appelez ou écrivez sur WhatsApp au <link>{phone}</link>."
+  },
+  "trip": {
+    "single": "Aller simple",
+    "singleSub": "De A à B",
+    "return": "Aller-retour",
+    "returnSub": "De A à B et retour"
+  },
+  "legs": {
+    "depart": {
+      "title": "Départ",
+      "question": "Comment souhaitez-vous remettre le véhicule ?",
+      "address": "Enlèvement à l’adresse",
+      "cityPh": "Par ex. Roeselare",
+      "postcodePh": "Par ex. 8800"
+    },
+    "destination": {
+      "title": "Destination",
+      "question": "Comment souhaitez-vous récupérer le véhicule ?",
+      "address": "Livraison à l’adresse",
+      "cityPh": "Par ex. Nice",
+      "postcodePh": "Par ex. 06000"
+    }
+  },
+  "carsTitle": "Informations sur la voiture",
+  "addCar": "Ajouter une voiture",
+  "contactTitle": "Coordonnées",
+  "customer": {
+    "label": "Type de client",
+    "private": "Particulier",
+    "company": "Entreprise"
+  },
+  "fields": {
+    "name": "Nom",
+    "namePh": "Votre nom",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "phonePh": "Par ex. 0470 12 34 56",
+    "companyName": "Nom de l’entreprise",
+    "companyNamePh": "Nom de votre entreprise",
+    "vat": "Numéro de TVA",
+    "vatPh": "Par ex. BE0123.456.789",
+    "message": "Message",
+    "messagePh": "Des informations complémentaires ? Dites-le-nous.",
+    "country": "Pays",
+    "countryPh": "Sélectionnez un pays",
+    "city": "Ville / Localité",
+    "postcode": "Code postal",
+    "street": "Rue et n°",
+    "date": "Date",
+    "brand": "Marque",
+    "brandPh": "Sélectionnez une marque",
+    "model": "Modèle",
+    "modelPh": "Par ex. Golf, X5, 911",
+    "year": "Année de construction",
+    "yearPh": "Par ex. 2022",
+    "extra": "Informations complémentaires",
+    "extraPh": "Par ex. dommages, ne roule pas, plusieurs véhicules, roulante, fonction front lift, coffre de toit, porte-vélos, dimensions spéciales, …"
+  },
+  "prev": "Précédent",
+  "next": "Suivant",
+  "prevStep": "Étape précédente",
+  "errors": {
+    "required": "Veuillez remplir les champs obligatoires (*).",
+    "requiredSubmit": "Veuillez remplir les champs obligatoires (*) pour envoyer votre demande."
+  },
+  "trust": {
+    "safe": "Transport sûr",
+    "safeSub": "Votre véhicule entre de bonnes mains",
+    "fast": "Service rapide",
+    "fastSub": "Réponse sous 24 heures",
+    "prices": "Prix transparents",
+    "pricesSub": "Pas de mauvaises surprises",
+    "europe": "Toute l’Europe",
+    "europeSub": "Belgique · Pays-Bas · France & au-delà"
+  },
+  "submit": "Demander un devis",
+  "note": "Demande sans engagement — ce n’est pas une réservation définitive.<br></br> Nous vous contactons dans les meilleurs délais.",
+  "carN": "Voiture {n}",
+  "removeCar": "Supprimer la voiture {n}",
+  "uploadDoc": "Téléverser un document (par ex. une procuration)",
+  "uploadDocLabel": "Téléverser un document, par exemple une procuration",
+  "addPhotosLabel": "Ajouter des photos du véhicule",
+  "viewDocs": "Voir {count, plural, one {# document} other {# documents}}",
+  "quantity": "Quantité",
+  "quantityDown": "Diminuer la quantité",
+  "quantityUp": "Augmenter la quantité",
+  "quantityOf": "Nombre d’exemplaires de la voiture {n}",
+  "viewer": {
+    "photosTitle": "Photos · Voiture {n}",
+    "docsTitle": "Documents · Voiture {n}",
+    "addPhotos": "Ajouter des photos",
+    "addDoc": "Ajouter un document"
+  },
+  "viewPhotos": "Voir les photos ({count})",
+  "addPhotos": "Ajouter des photos",
+  "clickAddPhotos": "Cliquez pour ajouter des photos",
+  "close": "Fermer",
+  "removeFile": "Supprimer {name}"
+}

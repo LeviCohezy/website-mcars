@@ -1,0 +1,13 @@
+{
+  "name": "Name",
+  "namePlaceholder": "Your name",
+  "emailPlaceholder": "name@example.com",
+  "phone": "Phone",
+  "phonePlaceholder": "+32 4xx xx xx xx",
+  "subject": "Subject",
+  "subjectPlaceholder": "What is it about?",
+  "message": "Message",
+  "messagePlaceholder": "Briefly tell us what you need — collection and delivery address, vehicle and preferred period.",
+  "submit": "Send message",
+  "note": "Your message opens in your own email program and is sent to {email}. You will not receive an automatic confirmation — we reply personally."
+}

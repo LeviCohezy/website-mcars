@@ -1,0 +1,47 @@
+{
+  "metaTitle": "Condiciones generales | Mcars",
+  "metaDescription": "Las condiciones generales de Mcars BV: aplicación, presupuestos, transporte y CMR, responsabilidad y seguro, pago, cancelación, reclamaciones y derecho aplicable.",
+  "heroEyebrow": "Aviso legal",
+  "heroTitle": "Condiciones generales",
+  "heroSubtitle": "Las condiciones que se aplican a nuestros presupuestos y transportes.",
+  "crumb": "Condiciones generales",
+  "sideLabel": "Condiciones",
+  "noticeLabel": "Atención:",
+  "noticeText": "Este es un texto provisional. Haga revisar este documento jurídicamente antes de su publicación.",
+  "intro": "Estas condiciones generales se aplican a todos los presupuestos, contratos y transportes de {legalName}, con domicilio social en {street}, {city}, {country} (IVA {vat}).",
+  "sections": {
+    "s1": {
+      "title": "1. Aplicación",
+      "body": "Estas condiciones se aplican a todo presupuesto y contrato entre {legalName} y el cliente, ya sea particular o empresa. Las excepciones solo son válidas si se han acordado por escrito. Al realizar una solicitud o aceptar un presupuesto, el cliente acepta estas condiciones."
+    },
+    "s2": {
+      "title": "2. Presupuestos y precios",
+      "body": "Nuestros precios se determinan siempre bajo petición y a medida. Cada presupuesto se elabora de forma personalizada teniendo en cuenta, entre otros factores, la dirección de recogida y de entrega, la distancia, el tipo de vehículo, la modalidad de transporte elegida y el plazo deseado. Un presupuesto es válido durante el plazo indicado en él y solo vincula a {legalName} tras la confirmación escrita del encargo."
+    },
+    "s3": {
+      "title": "3. Transporte y CMR",
+      "body": "El transporte se realiza de conformidad con la normativa nacional e internacional de transporte aplicable, incluido el Convenio CMR relativo al transporte internacional de mercancías por carretera. En el momento de la recogida se emite una carta de porte CMR que confirma la recogida y documenta el estado del vehículo. El cliente se asegura de que el vehículo esté accesible y disponible a la hora acordada y de que los datos facilitados sean correctos."
+    },
+    "s4": {
+      "title": "4. Responsabilidad y seguro",
+      "body": "{legalName} ejecuta cada encargo con el debido cuidado y profesionalidad. Nuestra responsabilidad por los daños ocurridos durante el transporte está asegurada y limitada conforme a la legislación de transporte aplicable (incluido el Convenio CMR). No respondemos de los daños derivados de información facilitada por el cliente de forma incorrecta o incompleta, de defectos preexistentes o de fuerza mayor."
+    },
+    "s5": {
+      "title": "5. Pago",
+      "body": "Para los clientes particulares, el pago se realiza antes de la recogida del vehículo, salvo acuerdo expreso en contrario. Para las empresas, la facturación se realiza tras la ejecución del transporte, pagadera en el plazo indicado en la factura. En caso de retraso en el pago, podrán aplicarse de pleno derecho intereses de demora y una indemnización a tanto alzado conforme a la legislación vigente."
+    },
+    "s6": {
+      "title": "6. Cancelación",
+      "body": "Si el cliente cancela un encargo confirmado, podrán facturarse los gastos ya incurridos y, en caso de cancelación poco antes de la recogida prevista, una compensación razonable. {legalName} puede cancelar un encargo en caso de fuerza mayor o cuando el cliente incumpla sus obligaciones."
+    },
+    "s7": {
+      "title": "7. Reclamaciones",
+      "body": "Los posibles daños visibles deben constatarse en el momento de la entrega y anotarse en la carta de porte CMR. Las reclamaciones sobre la ejecución del transporte o sobre una factura deben comunicarse por escrito lo antes posible y en un plazo razonable a través de <mail>{email}</mail>."
+    },
+    "s8": {
+      "title": "8. Derecho aplicable y tribunal competente",
+      "body": "A todos los contratos con {legalName} se aplica el derecho belga. En caso de litigio, serán competentes en exclusiva los tribunales del distrito judicial en el que tenga su domicilio social {legalName}, sin perjuicio de las disposiciones legales imperativas."
+    }
+  },
+  "closing": "¿Tiene preguntas sobre estas condiciones? No dude en <contact>ponerse en contacto</contact> con nosotros."
+}

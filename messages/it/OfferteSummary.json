@@ -1,0 +1,13 @@
+{
+  "yourCars": "I Suoi veicoli",
+  "carN": "Auto {n}",
+  "quantity": "Quantità",
+  "year": "Anno di costruzione",
+  "condition": "Condizioni",
+  "prevCars": "Auto precedenti",
+  "nextCars": "Auto successive",
+  "routeLabel": "Percorso da {from} a {to}",
+  "mapLabel": "Mappa dell’Europa",
+  "roundTrip": "Andata e ritorno",
+  "pickRoute": "Scelga partenza e destinazione per vedere il Suo percorso."
+}

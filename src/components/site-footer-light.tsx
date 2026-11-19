@@ -1,35 +1,45 @@
+import { useLocale, useTranslations } from "next-intl";
+import { localize } from "@/i18n/data";
+import { Link } from "@/i18n/navigation";
 import { asset } from "@/lib/asset";
 import { footerOntdek, nav, routeLinks, site } from "@/lib/site";
 import { comboIndex } from "@/data/combos";
 import { corridorRoutes } from "@/data/routes";
 import WhatsAppIcon from "./whatsapp-icon";
-// Every page of the site, by group (absolute links: this footer closes every
-// page, not just the homepage).
-type FooterLink = { label: string; href: string };
-const columns: { title: string; links: FooterLink[]; more?: FooterLink }[] = [
-  { title: "Diensten", links: nav[0].children!, more: { label: "Alle diensten", href: "/diensten" } },
-  // Country pages vs. the A → B route pages
-  { title: "Locaties", links: routeLinks.filter((r) => !r.label.includes("→")) },
-  { title: "Routes", links: routeLinks.filter((r) => r.label.includes("→")), more: { label: "Alle routes", href: "/routes" } },
-  {
-    title: "Pagina's",
-    links: [
-      { label: "Home", href: "/" },
-      ...footerOntdek.filter((l) => l.href !== "/routes"),
-      { label: "Blog", href: "/blog" },
-      { label: "Offerte aanvragen", href: "/offerte" },
-      { label: "Contact", href: "/contact" },
-    ],
-  },
-];
 
-const legal: FooterLink[] = [
-  { label: "Algemene voorwaarden", href: "/algemene-voorwaarden" },
-  { label: "Privacybeleid", href: "/privacybeleid" },
-  { label: "Cookiebeleid", href: "/cookiebeleid" },
-];
+type FooterLink = { label: string; href: string };
 
 export default function SiteFooterLight({ seam = true }: { seam?: boolean }) {
+  const t = useTranslations("SiteFooterLight");
+  const locale = useLocale();
+  // The link lists stay Dutch in site.ts / src/data; `localize` translates them.
+  const loc = <T,>(value: T) => localize(locale, value);
+
+  // Every page of the site, by group (absolute links: this footer closes every
+  // page, not just the homepage).
+  const columns: { title: string; links: FooterLink[]; more?: FooterLink }[] = [
+    { title: t("columns.services"), links: loc(nav[0].children!), more: { label: t("links.allServices"), href: "/diensten" } },
+    // Country pages vs. the A → B route pages
+    { title: t("columns.locations"), links: loc(routeLinks.filter((r) => !r.label.includes("→"))) },
+    { title: t("columns.routes"), links: loc(routeLinks.filter((r) => r.label.includes("→"))), more: { label: t("links.allRoutes"), href: "/routes" } },
+    {
+      title: t("columns.pages"),
+      links: [
+        { label: t("links.home"), href: "/" },
+        ...loc(footerOntdek.filter((l) => l.href !== "/routes")),
+        { label: t("links.blog"), href: "/blog" },
+        { label: t("links.quote"), href: "/offerte" },
+        { label: t("links.contact"), href: "/contact" },
+      ],
+    },
+  ];
+
+  const legal: FooterLink[] = [
+    { label: t("links.terms"), href: "/algemene-voorwaarden" },
+    { label: t("links.privacy"), href: "/privacybeleid" },
+    { label: t("links.cookies"), href: "/cookiebeleid" },
+  ];
+
   return (
     <footer className="relative z-10 px-0 pt-10 pb-0">
       {/* White ring = the page frame: where the footer overlaps a closing CTA
@@ -77,23 +87,23 @@ export default function SiteFooterLight({ seam = true }: { seam?: boolean }) {
               <ul className={`mt-5 grid gap-x-8 gap-y-2.5 ${i === 0 ? "sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-6" : ""}`}>
                 {col.links.map((l) => (
                   <li key={l.href}>
-                    <a href={l.href} className="text-sm text-zinc-400 transition-colors hover:text-white">
+                    <Link href={l.href} className="text-sm text-zinc-400 transition-colors hover:text-white">
                       {l.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
               {col.more && (
-                <a href={col.more.href} className="mt-5 inline-block text-sm font-medium text-white underline decoration-white/30 underline-offset-4 transition-colors hover:decoration-white">
+                <Link href={col.more.href} className="mt-5 inline-block text-sm font-medium text-white underline decoration-white/30 underline-offset-4 transition-colors hover:decoration-white">
                   {col.more.label}
-                </a>
+                </Link>
               )}
             </nav>
           ))}
 
           {/* Info & legal */}
           <div className="lg:border-l lg:border-white/10 lg:pl-8">
-            <ColumnHead title="Info & legal" />
+            <ColumnHead title={t("columns.info")} />
             <ul className="mt-5 flex flex-col gap-3 text-sm text-zinc-400">
               <li className="flex items-start gap-3">
                 <svg
@@ -110,7 +120,7 @@ export default function SiteFooterLight({ seam = true }: { seam?: boolean }) {
                 </svg>
                 Moorseelsesteenweg 16B,
                 <br />
-                8800 Roeselare, België
+                8800 Roeselare, {loc(site.address.country)}
               </li>
               <li className="flex items-center gap-3">
                 <WhatsAppIcon className="size-4 flex-none text-[#25D366]" />
@@ -156,15 +166,15 @@ export default function SiteFooterLight({ seam = true }: { seam?: boolean }) {
                   <circle cx="12" cy="12" r="9" />
                   <path d="M12 7v5l3 2" />
                 </svg>
-                Ma–vr: 8u – 18u
+                {loc(site.hours)}
               </li>
             </ul>
             <ul className="mt-6 flex flex-col gap-2.5 border-t border-white/10 pt-5">
               {legal.map((l) => (
                 <li key={l.href}>
-                  <a href={l.href} className="text-sm text-zinc-400 transition-colors hover:text-white">
+                  <Link href={l.href} className="text-sm text-zinc-400 transition-colors hover:text-white">
                     {l.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -176,10 +186,10 @@ export default function SiteFooterLight({ seam = true }: { seam?: boolean }) {
             open with the toggle. Service × route lives on /alle-paginas. */}
         <details className="group border-t border-white/10 px-8 sm:px-12 lg:px-16">
           <summary className="flex cursor-pointer list-none items-center justify-between gap-4 py-5 text-sm text-zinc-500 transition-colors hover:text-white [&::-webkit-details-marker]:hidden">
-            <span>Alle diensten per land en route</span>
+            <span>{t("index.summary")}</span>
             <span className="flex items-center gap-2 rounded-full px-3 py-1 ring-1 ring-white/15">
-              <span className="group-open:hidden">Toon alles</span>
-              <span className="hidden group-open:inline">Verberg</span>
+              <span className="group-open:hidden">{t("index.show")}</span>
+              <span className="hidden group-open:inline">{t("index.hide")}</span>
               <svg className="size-3.5 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M6 9l6 6 6-6" />
               </svg>
@@ -187,41 +197,41 @@ export default function SiteFooterLight({ seam = true }: { seam?: boolean }) {
           </summary>
           <div className="grid gap-x-8 gap-y-10 pb-12 sm:grid-cols-2 lg:grid-cols-4">
             <div className="sm:col-span-2 lg:col-span-4">
-              <p className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">Routes</p>
+              <p className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">{t("index.routes")}</p>
               <ul className="mt-3 grid grid-cols-2 gap-x-6 gap-y-1.5 text-[13px] sm:grid-cols-3 lg:grid-cols-6">
-                {corridorRoutes.map((r) => (
+                {loc(corridorRoutes.map((r) => ({ slug: r.slug, nav: r.nav }))).map((r) => (
                   <li key={r.slug}>
-                    <a href={`/routes/${r.slug}`} className="text-zinc-500 transition-colors hover:text-white">{r.nav}</a>
+                    <Link href={`/routes/${r.slug}`} className="text-zinc-500 transition-colors hover:text-white">{r.nav}</Link>
                   </li>
                 ))}
               </ul>
             </div>
-            {comboIndex().map((svc) => (
+            {loc(comboIndex()).map((svc) => (
               <div key={svc.slug}>
                 <p className="text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase">{svc.nav}</p>
                 <ul className="mt-3 flex flex-col gap-1.5 text-[13px]">
                   {svc.countries.map((l) => (
                     <li key={l.href}>
-                      <a href={l.href} className="text-zinc-500 transition-colors hover:text-white">{l.label}</a>
+                      <Link href={l.href} className="text-zinc-500 transition-colors hover:text-white">{l.label}</Link>
                     </li>
                   ))}
                   <li>
-                    <a href={`/alle-paginas#${svc.slug}`} className="text-white/80 underline decoration-white/30 underline-offset-4 hover:decoration-white">
-                      + {svc.routes.length} routes
-                    </a>
+                    <Link href={`/alle-paginas#${svc.slug}`} className="text-white/80 underline decoration-white/30 underline-offset-4 hover:decoration-white">
+                      {t("index.moreRoutes", { count: svc.routes.length })}
+                    </Link>
                   </li>
                 </ul>
               </div>
             ))}
-            <a href="/alle-paginas" className="text-sm font-medium text-white underline decoration-white/30 underline-offset-4 hover:decoration-white sm:col-span-2 lg:col-span-4">
-              Alle pagina&apos;s bekijken
-            </a>
+            <Link href="/alle-paginas" className="text-sm font-medium text-white underline decoration-white/30 underline-offset-4 hover:decoration-white sm:col-span-2 lg:col-span-4">
+              {t("index.allPages")}
+            </Link>
           </div>
         </details>
 
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 border-t border-white/10 px-8 py-6 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between sm:px-12 lg:px-16">
-          <p>© 2026 Mcars BV — BTW BE 0816.739.802</p>
+          <p>{t("legalLine")}</p>
           <div className="flex gap-3">
             {[
               {

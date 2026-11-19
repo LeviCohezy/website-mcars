@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { getCase } from "@/data/cases";
 import { getRoute } from "@/data/routes";
 import { commonFaq, getServiceDetails } from "@/data/service-details";
+import { localize } from "@/i18n/data";
 import { defaultProcess, defaultVehicleTypes, getService, serviceSlugs } from "@/data/services";
 
 export type RelatedItem = { href: string; label: string; meta: string; image: string; sub?: string };
@@ -22,14 +23,18 @@ const DETAIL_IMAGES = [
 
 export const serviceStaticParams = () => serviceSlugs.map((slug) => ({ slug }));
 
-export async function serviceMetadata(params: Promise<{ slug: string }>): Promise<Metadata> {
-  const { slug } = await params;
+export async function serviceMetadata(
+  params: Promise<{ slug: string; locale?: string }>,
+  locale?: string,
+): Promise<Metadata> {
+  const { slug, locale: paramLocale } = await params;
   const s = getService(slug);
   if (!s) return {};
-  return { title: s.seo.title, description: s.seo.description };
+  const seo = localize(locale ?? paramLocale ?? "nl", s.seo);
+  return { title: seo.title, description: seo.description };
 }
 
-export function getServicePage(slug: string) {
+export function getServicePage(slug: string, locale = "nl") {
   const service = getService(slug);
   if (!service) return null;
 
@@ -66,7 +71,7 @@ export function getServicePage(slug: string) {
     })),
   ].slice(0, 4);
 
-  return { service, process, vehicleTypes, detailImage, details, practiceCase, situationsImage, safetyImage, faq, related };
+  return localize(locale, { service, process, vehicleTypes, detailImage, details, practiceCase, situationsImage, safetyImage, faq, related });
 }
 
 export type ServicePageData = NonNullable<ReturnType<typeof getServicePage>>;

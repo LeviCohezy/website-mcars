@@ -1,0 +1,9 @@
+{
+  "requestPrice": "Demander un prix",
+  "tabsLabel": "Préparation",
+  "next": "Suivant : {title}",
+  "checked": "coché",
+  "ready": "Prêt au départ.",
+  "allSet": "Tout est prêt ?",
+  "hint": "Cochez ce que vous avez déjà. Il manque quelque chose ? Aucun problème — nous passons tout en revue avec vous."
+}

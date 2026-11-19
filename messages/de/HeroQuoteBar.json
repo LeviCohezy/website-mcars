@@ -1,0 +1,68 @@
+{
+  "steps": {
+    "route": "Route",
+    "vehicle": "Ihr Fahrzeug",
+    "details": "Ihre Daten"
+  },
+  "condition": {
+    "runs": "Startet und fährt",
+    "rolls": "Startet nicht, ist aber rollfähig",
+    "blocked": "Startet nicht, blockiert"
+  },
+  "extras": {
+    "none": "Keine Dachbox oder Fahrradträger",
+    "topbox": "Dachbox",
+    "bike": "Fahrradträger",
+    "both": "Dachbox und Fahrradträger"
+  },
+  "delivery": {
+    "address": "Lieferung an die Lieferadresse",
+    "depot": "Lieferung am Mcars-Depot (günstiger, 24/7)",
+    "depotShort": "Am Mcars-Depot (24/7)"
+  },
+  "customer": {
+    "private": "Privatkunde",
+    "business": "Unternehmen"
+  },
+  "cta": {
+    "plan": "Transport planen",
+    "price": "Preis anfragen",
+    "next": "Weiter",
+    "send": "Anfrage senden"
+  },
+  "back": "Zurück",
+  "progress": "Schritt {step} von {total} · <b>{name}</b>",
+  "thanks": "Vielen Dank — Ihre Anfrage liegt in Ihrem E-Mail-Programm bereit.",
+  "thanksSub": "Senden Sie die E-Mail ab, und Sie erhalten innerhalb von 24 Stunden eine persönliche Antwort.",
+  "newRequest": "Neue Anfrage",
+  "swapAria": "Start- und Zielort tauschen",
+  "fields": {
+    "pickup": "Abholadresse",
+    "delivery": "Lieferadresse",
+    "date": "Abholdatum",
+    "vehicle": "Marke und Modell",
+    "condition": "Zustand",
+    "extras": "Dachbox oder Fahrradträger",
+    "deliveryType": "Lieferung",
+    "customer": "Privatkunde oder Unternehmen",
+    "name": "Name",
+    "phone": "Telefon"
+  },
+  "placeholders": {
+    "address": "Straße, Ort, Land",
+    "origin": "Startort",
+    "destination": "Zielort",
+    "pickup": "Abholadresse",
+    "delivery": "Lieferadresse",
+    "pickupDate": "Datum wählen",
+    "arrivalDate": "Ankunftsdatum",
+    "date": "Abholdatum",
+    "vehiclePanel": "Z. B. Volkswagen Golf",
+    "vehicle": "Marke und Modell",
+    "namePanel": "Vor- und Nachname",
+    "name": "Name",
+    "emailPanel": "name@beispiel.de",
+    "phonePanel": "Optional",
+    "phone": "Telefon (optional)"
+  }
+}

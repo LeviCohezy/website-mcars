@@ -1,0 +1,53 @@
+{
+  "steps": {
+    "transport": "Transporte",
+    "vehicles": "Vehículos",
+    "details": "Sus datos"
+  },
+  "condition": {
+    "runs": "Arranca y circula",
+    "rolls": "No arranca, rueda",
+    "blocked": "No arranca, bloqueado"
+  },
+  "customerType": {
+    "particulier": "Particular",
+    "bedrijf": "Empresa"
+  },
+  "customerTypeAria": "Tipo de cliente",
+  "optional": "(opcional)",
+  "pickDate": "Elija una fecha",
+  "dateInvalid": "Elija una fecha o marque “inmediatamente”.",
+  "eyebrow": "( Presupuesto )",
+  "title": "Cuéntenos qué hay que transportar",
+  "intro": "Solicite su presupuesto en tres sencillos pasos. En 24 horas recibirá una respuesta personal de nuestro equipo: sin correos automáticos, pero con un precio cerrado.",
+  "stepOf": "Paso {step} de {total}",
+  "pickupAddress": "Dirección de recogida",
+  "deliveryAddress": "Dirección de entrega",
+  "addressPlaceholder": "Calle, localidad, país",
+  "depotPlaceholder": "Depósito de Mcars, Roeselare",
+  "depotLabel": "Entrega en el depósito de Mcars (más económico, recogida posible 24/7)",
+  "availableForPickup": "Disponible para la recogida",
+  "asap": "Inmediatamente",
+  "desiredDelivery": "Fecha de entrega deseada",
+  "vehicle": "Vehículo",
+  "doesItStart": "¿Arranca el coche?",
+  "quantity": "Cantidad",
+  "makeModel": "Marca y modelo",
+  "vehicleMakeModelAria": "Vehículo {n}: marca y modelo",
+  "vehicleStartsAria": "Vehículo {n}: ¿arranca el coche?",
+  "vehicleQuantityAria": "Vehículo {n}: cantidad",
+  "vehicleRemoveAria": "Eliminar vehículo {n}",
+  "addVehicle": "Añadir otro vehículo",
+  "topbox": "Con cofre de techo o portabicicletas",
+  "firstName": "Nombre",
+  "lastName": "Apellidos",
+  "company": "Nombre de la empresa",
+  "vat": "Número de IVA",
+  "vatPlaceholder": "BE 0xxx.xxx.xxx",
+  "phone": "Teléfono",
+  "remarks": "Observaciones",
+  "remarksPlaceholder": "Particularidades del vehículo o del transporte",
+  "back": "Atrás",
+  "next": "Siguiente",
+  "submit": "Enviar solicitud"
+}

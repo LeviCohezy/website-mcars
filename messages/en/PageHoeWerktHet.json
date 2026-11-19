@@ -1,0 +1,86 @@
+{
+  "metaTitle": "How does it work? | Mcars",
+  "metaDescription": "From quote to delivery in six steps. Discover how Mcars handles your car transport — personal, with a CMR consignment note and clear agreements.",
+  "steps": [
+    {
+      "title": "Request a quote",
+      "body": "You request your transport via the website, by phone or via WhatsApp. You will receive a personal reply within 24 hours with the price and the possible schedule."
+    },
+    {
+      "title": "Quote approval",
+      "body": "Happy with the price and the schedule? Then you give the green light and we set your transport in motion. No obligations until you confirm."
+    },
+    {
+      "title": "Scheduling the transport",
+      "body": "Once you have approved, we agree the collection date together. On the day itself, the driver calls when he will arrive, so you don’t have to miss out on anything."
+    },
+    {
+      "title": "Collection + inspection & CMR documents",
+      "body": "We collect your car wherever you like. On site, we draw up the CMR consignment note and inspect and photograph the vehicle as internal evidence of its condition at departure."
+    },
+    {
+      "title": "Delivery on location",
+      "body": "We call when we arrive at the delivery address. Delivery to our depot in Roeselare is possible 24/7 and is generally cheaper than home delivery."
+    },
+    {
+      "title": "Payment / invoice",
+      "body": "Private customers pay before collection, businesses simply by invoice. We agree the practical arrangements clearly with you beforehand."
+    }
+  ],
+  "cmr": [
+    {
+      "title": "Proves the collection",
+      "body": "The CMR consignment note shows in black and white that your car was collected by Mcars, when and where. Certainty for both parties."
+    },
+    {
+      "title": "Documents the condition",
+      "body": "At collection, we record the condition of the vehicle with photos. That way its condition at departure is registered beyond dispute."
+    },
+    {
+      "title": "Important in a claim",
+      "body": "Should there ever be a dispute or damage, the CMR with the recorded condition is the point of reference. Calmly sorted out in advance."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which documents do I need?",
+      "a": "Only a CMR consignment note is needed, and we draw it up at collection. That way you immediately have proof that your car was collected by Mcars."
+    },
+    {
+      "q": "Does my car have to run to be collected?",
+      "a": "No. Cars that can roll we pull onto the transporter with the winch. If the car is completely locked, we provide a forklift on site. Please state the condition in your request."
+    },
+    {
+      "q": "Can I have it delivered to or collected from your depot?",
+      "a": "Yes. Delivery and collection at our depot in Roeselare is possible 24/7 and is generally cheaper than at home. Handy if you want to be flexible."
+    }
+  ],
+  "hero": {
+    "eyebrow": "How we work",
+    "title": "From request to delivery in six steps.",
+    "subtitle": "A clear, personal approach without surprises — from your first request to the final settlement.",
+    "crumb": "How it works",
+    "badgeAnswer": "Reply within 24 hours",
+    "badgeCmr": "CMR at every collection",
+    "cta": "Quote"
+  },
+  "stepsHeader": {
+    "label": "This is how it works",
+    "lead": "Six clear steps.",
+    "trail": "From quote to delivery."
+  },
+  "media": {
+    "line": "One document, in black and white: the CMR consignment note.",
+    "caption": "Drawn up at every collection"
+  },
+  "cmrHeader": {
+    "label": "Why this approach",
+    "lead": "The CMR consignment note:",
+    "trail": "your certainty, in black and white.",
+    "intro": "The CMR that we draw up at every collection records what was collected, when and in what condition — protection for you and for us."
+  },
+  "faqSection": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Any questions? <muted>This is what we hear most often.</muted>"
+  }
+}

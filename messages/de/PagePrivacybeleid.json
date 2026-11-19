@@ -1,0 +1,46 @@
+{
+  "metaTitle": "Datenschutzerklärung | Mcars",
+  "metaDescription": "Wie Mcars BV mit Ihren personenbezogenen Daten umgeht: welche Daten wir verarbeiten, warum, wie lange wir sie speichern und welche Rechte Sie gemäß DSGVO haben.",
+  "heroEyebrow": "Rechtliches",
+  "heroTitle": "Datenschutzerklärung",
+  "heroSubtitle": "Wie wir mit Ihren personenbezogenen Daten umgehen und Ihre Privatsphäre schützen.",
+  "crumb": "Datenschutzerklärung",
+  "sideLabel": "Datenschutz",
+  "noticeLabel": "Hinweis:",
+  "noticeText": "Dies ist ein vorläufiger Text. Lassen Sie dieses Dokument vor der Veröffentlichung rechtlich prüfen.",
+  "intro": "{legalName} legt großen Wert auf den Schutz Ihrer personenbezogenen Daten und respektiert Ihre Privatsphäre. In dieser Datenschutzerklärung erläutern wir, welche Daten wir erheben, warum wir das tun und wie Sie Ihre Rechte ausüben können. Diese Erklärung wurde in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) erstellt.",
+  "sections": {
+    "s1": {
+      "title": "1. Verantwortlicher",
+      "body": "{legalName} mit Gesellschaftssitz in {street}, {city}, {country} (USt-IdNr. {vat}) ist der Verantwortliche für die personenbezogenen Daten, die über diese Website und im Rahmen unserer Dienstleistungen verarbeitet werden. Bei Fragen erreichen Sie uns unter <mail>{email}</mail> oder {phone}."
+    },
+    "s2": {
+      "title": "2. Welche Daten erheben wir?",
+      "body": "Je nach Ihrem Kontakt mit uns können wir folgende Daten verarbeiten: Identifikations- und Kontaktdaten (Name, Adresse, E-Mail-Adresse, Telefonnummer), Angaben zu Ihrer Transportanfrage (Abhol- und Lieferadresse, Fahrzeugdaten), Korrespondenz, die Sie mit uns führen, und gegebenenfalls Rechnungs- und Unternehmensdaten (Unternehmensnummer, USt-IdNr.)."
+    },
+    "s3": {
+      "title": "3. Zwecke der Verarbeitung",
+      "body": "Wir verarbeiten Ihre Daten, um Ihre Angebotsanfrage zu bearbeiten und zu beantworten, um den Transport zu planen und durchzuführen, um mit Ihnen zu kommunizieren, um unsere Rechnungsstellung und Buchhaltung zu führen und um unseren gesetzlichen Verpflichtungen nachzukommen. Die Rechtsgrundlage hierfür ist die Erfüllung eines Vertrags, unser berechtigtes Interesse, die Einhaltung einer rechtlichen Verpflichtung oder, wo zutreffend, Ihre Einwilligung."
+    },
+    "s4": {
+      "title": "4. Speicherdauer",
+      "body": "Wir speichern Ihre personenbezogenen Daten nicht länger, als es für die Zwecke, für die sie erhoben wurden, erforderlich ist. Rechnungs- und Buchhaltungsdaten werden für die gesetzlich vorgeschriebene Dauer aufbewahrt. Anfragen, die nicht zu einem Vertrag führen, werden nach angemessener Frist gelöscht."
+    },
+    "s5": {
+      "title": "5. Weitergabe an Dritte",
+      "body": "Wir verkaufen Ihre Daten niemals. Wir teilen sie nur mit Partnern, die für unsere Dienstleistung notwendig sind (etwa unsere IT-, Buchhaltungs- oder Transportpartner), und nur in dem Umfang, der erforderlich ist. Diese Partner sind zur Vertraulichkeit verpflichtet und verarbeiten Ihre Daten ausschließlich in unserem Auftrag."
+    },
+    "s6": {
+      "title": "6. Ihre Rechte (DSGVO)",
+      "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten, das Recht auf Datenübertragbarkeit sowie das Recht, der Verarbeitung zu widersprechen. Wenn die Verarbeitung auf einer Einwilligung beruht, können Sie diese jederzeit widerrufen. Um ein Recht auszuüben, kontaktieren Sie uns unter <mail>{email}</mail>. Außerdem haben Sie das Recht, bei der belgischen Datenschutzbehörde (www.gegevensbeschermingsautoriteit.be) Beschwerde einzulegen."
+    },
+    "s7": {
+      "title": "7. Cookies",
+      "body": "Unsere Website verwendet Cookies. Weitere Informationen darüber, welche Cookies wir einsetzen und wie Sie diese verwalten können, finden Sie in unserer <cookies>Cookie-Richtlinie</cookies>."
+    },
+    "s8": {
+      "title": "8. Kontakt",
+      "body": "Haben Sie Fragen zu dieser Datenschutzerklärung oder zur Verarbeitung Ihrer Daten? Nehmen Sie gern <contact>Kontakt</contact> mit uns auf, unter {email} oder {phone}."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metaTitle": "Terms and conditions | Mcars",
+  "metaDescription": "The terms and conditions of Mcars BV: scope, quotes, transport and CMR, liability and insurance, payment, cancellation, complaints and applicable law.",
+  "heroEyebrow": "Legal",
+  "heroTitle": "Terms and conditions",
+  "heroSubtitle": "The terms that apply to our quotes and transport.",
+  "crumb": "Terms and conditions",
+  "sideLabel": "Terms",
+  "noticeLabel": "Please note:",
+  "noticeText": "This is a provisional text. Have this document reviewed legally before going live.",
+  "intro": "These terms and conditions apply to all quotes, agreements and transport of {legalName}, with registered office at {street}, {city}, {country} (VAT {vat}).",
+  "sections": {
+    "s1": {
+      "title": "1. Scope",
+      "body": "These terms apply to every quote and agreement between {legalName} and the customer, whether a private individual or a business. Deviations only apply if they have been agreed in writing. By placing a request or accepting a quote, the customer accepts these terms."
+    },
+    "s2": {
+      "title": "2. Quotes and prices",
+      "body": "Our prices are always set on request and tailored to the job. Each quote is drawn up personally based on, among other things, the collection and delivery address, the distance, the type of vehicle, the chosen form of transport and the desired timeframe. A quote is valid for the period stated in it and only binds {legalName} after written confirmation of the order."
+    },
+    "s3": {
+      "title": "3. Transport and CMR",
+      "body": "Transport is carried out in accordance with the applicable national and international transport regulations, including the CMR Convention on the international carriage of goods by road. At collection, a CMR consignment note is drawn up, confirming the collection and documenting the condition of the vehicle. The customer ensures that the vehicle is accessible and available at the agreed time and that the information provided is correct."
+    },
+    "s4": {
+      "title": "4. Liability and insurance",
+      "body": "{legalName} carries out every order with due care and professionalism. Our liability for damage during transport is insured and limited in accordance with the applicable transport legislation (including the CMR Convention). We are not liable for damage resulting from information that the customer has provided incorrectly or incompletely, from pre-existing defects, or from force majeure."
+    },
+    "s5": {
+      "title": "5. Payment",
+      "body": "For private customers, payment is made before the vehicle is collected, unless expressly agreed otherwise. For businesses, invoicing takes place after the transport has been carried out, payable within the period stated on the invoice. In the event of late payment, statutory default interest and a fixed compensation for damages may be charged in accordance with the applicable legislation."
+    },
+    "s6": {
+      "title": "6. Cancellation",
+      "body": "If the customer cancels a confirmed order, costs already incurred and, in the case of cancellation shortly before the planned collection, a reasonable fee may be charged. {legalName} may cancel an order in the event of force majeure or if the customer fails to fulfil their obligations."
+    },
+    "s7": {
+      "title": "7. Complaints",
+      "body": "Any visible damage must be identified at delivery and noted on the CMR consignment note. Complaints about the performance of the transport or about an invoice must be reported in writing as soon as possible and within a reasonable period via <mail>{email}</mail>."
+    },
+    "s8": {
+      "title": "8. Applicable law and competent court",
+      "body": "Belgian law applies to all agreements with {legalName}. In the event of disputes, only the courts of the judicial district in which the registered office of {legalName} is located have jurisdiction, without prejudice to mandatory statutory provisions."
+    }
+  },
+  "closing": "Questions about these terms? Feel free to <contact>contact</contact> us."
+}

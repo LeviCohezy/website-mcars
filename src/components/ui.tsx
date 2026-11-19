@@ -1,5 +1,5 @@
 /* Shared design primitives — keep every page speaking the same visual language. */
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import type { ReactNode } from "react";
 
 /** Small circular white chip with an arrow — the house CTA affordance. */

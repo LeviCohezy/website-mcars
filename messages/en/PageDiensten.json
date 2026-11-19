@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Services — tailor-made car transport | Mcars",
+    "description": "From private transport to fleet, import, export, classic cars and urgent jobs. Discover all car transport services from Mcars in Belgium and Europe."
+  },
+  "hero": {
+    "eyebrow": "Our services",
+    "title": "The right approach for every vehicle.",
+    "subtitle": "From a single private car to an entire fleet — transport solutions in Belgium and throughout Europe.",
+    "crumb": "Services",
+    "badgeCount": "{count} services",
+    "badgeContact": "One point of contact",
+    "cta": "Quote"
+  },
+  "overview": {
+    "label": "Overview",
+    "lead": "Eleven ways to move your car,",
+    "trail": "one team that takes care of it.",
+    "intro": "Whether it is a family car, stock for the showroom or a classic that no longer runs: you speak to the people who actually carry out the trip."
+  }
+}

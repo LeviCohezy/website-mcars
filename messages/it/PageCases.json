@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Casi e realizzazioni | Mcars",
+  "metaDescription": "Una selezione di trasporti eseguiti da Mcars: dai viaggi con auto d’epoca e auto d’importazione ai veicoli non marcianti e al trasporto aziendale europeo. Anonimi, ma reali.",
+  "hero": {
+    "eyebrow": "Realizzazioni",
+    "title": "Trasporti eseguiti.",
+    "subtitle": "Una selezione di viaggi per privati e aziende — dalle auto classiche a interi stock di concessionari. Anonimi, ma percorsi davvero.",
+    "crumb": "Casi",
+    "badgeCount": "{count} casi",
+    "badgeSegment": "Privati e aziende",
+    "cta": "Preventivo"
+  },
+  "header": {
+    "label": "Casi",
+    "lead": "Ogni viaggio è diverso,",
+    "trail": "l’approccio resta lo stesso.",
+    "intro": "Per rispetto verso i nostri clienti manteniamo anonimi tutti i casi — nessun nome, ma la storia vera."
+  },
+  "impact": {
+    "label": "Risultati",
+    "lead": "Ciò che realizziamo",
+    "trail": "ogni giorno.",
+    "clients": "Clienti soddisfatti",
+    "experience": "Anni di esperienza",
+    "weekly": "Ogni settimana",
+    "france": "In tutta la Francia"
+  }
+}

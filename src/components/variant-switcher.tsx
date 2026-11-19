@@ -1,7 +1,8 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { usePathname } from "@/i18n/navigation";
 import { useEffect, useState } from "react";
 import { getSection } from "@/lib/variants";
 
@@ -13,6 +14,7 @@ import { getSection } from "@/lib/variants";
  * Hidden inside preview iframes (?preview=1) so it never shows up in thumbnails.
  */
 export default function VariantSwitcher({ sectionId, base }: { sectionId: string; base?: string }) {
+  const t = useTranslations("VariantSwitcher");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [isPreview, setIsPreview] = useState(true); // assume preview until proven otherwise → no flash in thumbnails
@@ -46,9 +48,9 @@ export default function VariantSwitcher({ sectionId, base }: { sectionId: string
         }`}
       >
         <div className="flex items-center justify-between px-4 pt-4 pb-2">
-          <span className="text-[10px] font-semibold tracking-[0.2em] text-white/50 uppercase">{section.title}-varianten</span>
+          <span className="text-[10px] font-semibold tracking-[0.2em] text-white/50 uppercase">{t("variants", { title: section.title })}</span>
           <Link href="/overview" className="text-[11px] font-medium text-white/60 transition-colors hover:text-white">
-            Overzicht ↗
+            {t("overview")}
           </Link>
         </div>
         <div className="flex flex-col gap-1 px-2 pb-3">
@@ -75,7 +77,7 @@ export default function VariantSwitcher({ sectionId, base }: { sectionId: string
                 <span className="min-w-0 flex-1">
                   <span className="flex items-center gap-2 text-sm font-medium">
                     {v.label}
-                    {active && <span className="text-[10px] font-normal text-emerald-600">● live</span>}
+                    {active && <span className="text-[10px] font-normal text-emerald-600">{t("live")}</span>}
                   </span>
                   <span className={`line-clamp-1 text-[11px] ${active ? "text-zinc-500" : "text-white/50"}`}>{v.tagline}</span>
                 </span>
@@ -90,7 +92,7 @@ export default function VariantSwitcher({ sectionId, base }: { sectionId: string
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        aria-label={open ? "Sluit variant-kiezer" : "Kies een variant"}
+        aria-label={open ? t("close") : t("choose")}
         className="flex size-14 items-center justify-center rounded-full bg-zinc-950 text-white shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:scale-105 hover:bg-zinc-800 active:scale-95"
       >
         <svg

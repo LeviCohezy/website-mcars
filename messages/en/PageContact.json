@@ -1,0 +1,33 @@
+{
+  "metaTitle": "Contact | Mcars",
+  "metaDescription": "Prefer to get in touch directly? Call, email or WhatsApp Mcars. See our opening hours, our depot in Roeselare and contact us with no obligation about your car transport.",
+  "heroEyebrow": "Contact",
+  "heroTitle": "Prefer to get in touch directly?",
+  "heroSubtitle": "Call, email or WhatsApp us — or leave a message below. We reply personally, quickly and without obligation.",
+  "crumb": "Contact",
+  "directEyebrow": "Directly",
+  "methods": {
+    "phone": {
+      "label": "Phone",
+      "sub": "A planner on the line directly."
+    },
+    "whatsapp": {
+      "value": "Send a message",
+      "sub": "Quickly send a photo or a question."
+    },
+    "email": {
+      "sub": "Personal reply within 24 hours."
+    },
+    "depot": {
+      "label": "Depot",
+      "sub": "{country} — home base of our fleet."
+    },
+    "hours": {
+      "label": "Opening hours"
+    }
+  },
+  "formTitle": "Let us hear from you. <muted>We will get back to you.</muted>",
+  "formLead": "Looking for a specific price and schedule? Then request a <quote>no-obligation quote</quote> straight away.",
+  "findUs": "Where to find us",
+  "mapTitle": "Location of {name} on Google Maps"
+}

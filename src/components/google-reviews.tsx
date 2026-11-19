@@ -1,18 +1,23 @@
+import { useFormatter, useTranslations } from "next-intl";
+import { site } from "@/lib/site";
+
 /** Google review score: logo, rating, stars and count. Shared by the heroes. */
 export default function GoogleReviews() {
+  const t = useTranslations("GoogleReviews");
+  const format = useFormatter();
   return (
     <a href="#" className="flex items-center gap-4 rounded-2xl px-3 py-2 transition-colors hover:bg-zinc-50">
       <GoogleLogo />
       <div>
         <div className="flex items-center gap-2">
-          <span className="text-lg font-semibold text-zinc-900">4,7</span>
+          <span className="text-lg font-semibold text-zinc-900">{format.number(4.7, { minimumFractionDigits: 1 })}</span>
           <div className="flex gap-0.5">
             {Array.from({ length: 5 }).map((_, i) => (
               <Star key={i} />
             ))}
           </div>
         </div>
-        <p className="text-sm text-zinc-500">37 Google reviews</p>
+        <p className="text-sm text-zinc-500">{t("count", { count: site.reviews.count })}</p>
       </div>
     </a>
   );

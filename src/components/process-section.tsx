@@ -6,49 +6,14 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
+import { useTranslations } from "next-intl";
 import { asset } from "@/lib/asset";
 
-const TEXT_MAIN = "Van aanvraag tot levering.";
-const TEXT_SUB = "Zo verloopt uw transport, stap voor stap.";
-
-const stepsData = [
-  {
-    nr: "01",
-    title: "Offerte aanvragen",
-    desc: "Via de website, telefoon of WhatsApp — binnen 24 uur hebt u prijs én planning",
-    img: "01",
-  },
-  {
-    nr: "02",
-    title: "Goedkeuring",
-    desc: "U keurt de offerte goed en wij leggen alles voor u vast",
-    img: "02",
-  },
-  {
-    nr: "03",
-    title: "Transport inplannen",
-    desc: "De ophaaldatum wordt vastgelegd; de chauffeur belt wanneer hij ter plaatse zal zijn",
-    img: "03",
-  },
-  {
-    nr: "04",
-    title: "Ophaling",
-    desc: "Waar u wil — ter plaatse maken we de CMR op en fotograferen we de wagen",
-    img: "04",
-  },
-  {
-    nr: "05",
-    title: "Levering",
-    desc: "We bellen wanneer we aankomen en leveren de wagen af waar u dat vroeg",
-    img: "05",
-  },
-  {
-    nr: "06",
-    title: "Betaling",
-    desc: "Particulieren betalen vóór de ophaling, bedrijven betalen op factuur",
-    img: "06",
-  },
-];
+const stepsData = [1, 2, 3, 4, 5, 6].map((n) => ({
+  nr: `0${n}`,
+  key: `s${n}`,
+  img: `0${n}`,
+}));
 
 // Share of the sticky scroll spent on the cards rising into view;
 // the rest drives the sideways scroll.
@@ -69,6 +34,7 @@ const subscribeReducedMotion = (cb: () => void) => {
 };
 
 export default function ProcessSection() {
+  const t = useTranslations("ProcessSection");
   const wrapperRef = useRef<HTMLElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const [reveal, setReveal] = useState(0);
@@ -117,8 +83,8 @@ export default function ProcessSection() {
   }, [reducedMotion]);
 
   const effReveal = reducedMotion ? 1 : reveal;
-  const mainWords = TEXT_MAIN.split(" ");
-  const subWords = TEXT_SUB.split(" ");
+  const mainWords = t("main").split(" ");
+  const subWords = t("sub").split(" ");
   const wordP = effReveal * (mainWords.length + subWords.length);
 
   const heading = (
@@ -155,7 +121,7 @@ export default function ProcessSection() {
         {heading}
         <div className="mt-10 flex snap-x snap-mandatory gap-5 overflow-x-auto px-5 pb-4 sm:px-8">
           {stepsData.map((step) => (
-            <StepCard key={step.nr} {...step} className="snap-start" />
+            <StepCard key={step.nr} nr={step.nr} title={t(`steps.${step.key}.title`)} desc={t(`steps.${step.key}.desc`)} img={step.img} className="snap-start" />
           ))}
         </div>
       </section>
@@ -183,7 +149,7 @@ export default function ProcessSection() {
           }}
         >
           {stepsData.map((step) => (
-            <StepCard key={step.nr} {...step} />
+            <StepCard key={step.nr} nr={step.nr} title={t(`steps.${step.key}.title`)} desc={t(`steps.${step.key}.desc`)} img={step.img} />
           ))}
         </div>
       </div>
@@ -204,6 +170,7 @@ function StepCard({
   img: string;
   className?: string;
 }) {
+  const t = useTranslations("ProcessSection");
   return (
     <div
       className={`group relative aspect-[4/5] w-[85%] flex-none overflow-hidden rounded-3xl transition-[transform,box-shadow] duration-300 motion-safe:hover:-translate-y-1.5 motion-safe:hover:shadow-lg motion-safe:hover:shadow-zinc-950/15 sm:w-[46%] lg:w-[27%] ${className}`}
@@ -231,7 +198,7 @@ function StepCard({
 
       <div className="absolute inset-x-0 bottom-0 p-6">
         <p className="text-sm font-medium tracking-widest text-white/60 uppercase">
-          Stap {Number(nr)}
+          {t("stepLabel", { n: Number(nr) })}
         </p>
         <h3 className="mt-1 line-clamp-2 text-xl leading-snug font-semibold text-white uppercase text-balance sm:text-2xl">
           {title}

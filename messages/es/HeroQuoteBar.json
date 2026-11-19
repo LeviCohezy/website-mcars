@@ -1,0 +1,68 @@
+{
+  "steps": {
+    "route": "Ruta",
+    "vehicle": "Su vehículo",
+    "details": "Sus datos"
+  },
+  "condition": {
+    "runs": "Arranca y circula",
+    "rolls": "No arranca, pero rueda",
+    "blocked": "No arranca, bloqueado"
+  },
+  "extras": {
+    "none": "Sin cofre de techo ni portabicicletas",
+    "topbox": "Cofre de techo",
+    "bike": "Portabicicletas",
+    "both": "Cofre de techo y portabicicletas"
+  },
+  "delivery": {
+    "address": "Entrega en la dirección de destino",
+    "depot": "Entrega en el depósito de Mcars (más económico, 24/7)",
+    "depotShort": "En el depósito de Mcars (24/7)"
+  },
+  "customer": {
+    "private": "Particular",
+    "business": "Empresa"
+  },
+  "cta": {
+    "plan": "Planificar transporte",
+    "price": "Solicitar precio",
+    "next": "Siguiente",
+    "send": "Enviar solicitud"
+  },
+  "back": "Atrás",
+  "progress": "Paso {step} de {total} · <b>{name}</b>",
+  "thanks": "Gracias: su solicitud está lista en su programa de correo.",
+  "thanksSub": "Envíe el correo y recibirá una respuesta personal en 24 horas.",
+  "newRequest": "Nueva solicitud",
+  "swapAria": "Intercambiar origen y destino",
+  "fields": {
+    "pickup": "Dirección de recogida",
+    "delivery": "Dirección de entrega",
+    "date": "Fecha de recogida",
+    "vehicle": "Marca y modelo",
+    "condition": "Estado",
+    "extras": "Cofre de techo o portabicicletas",
+    "deliveryType": "Entrega",
+    "customer": "Particular o empresa",
+    "name": "Nombre",
+    "phone": "Teléfono"
+  },
+  "placeholders": {
+    "address": "Calle, localidad, país",
+    "origin": "Lugar de origen",
+    "destination": "Lugar de destino",
+    "pickup": "Dirección de recogida",
+    "delivery": "Dirección de entrega",
+    "pickupDate": "Elija una fecha",
+    "arrivalDate": "Fecha de llegada",
+    "date": "Fecha de recogida",
+    "vehiclePanel": "P. ej. Volkswagen Golf",
+    "vehicle": "Marca y modelo",
+    "namePanel": "Nombre y apellidos",
+    "name": "Nombre",
+    "emailPanel": "nombre@ejemplo.es",
+    "phonePanel": "Opcional",
+    "phone": "Teléfono (opcional)"
+  }
+}

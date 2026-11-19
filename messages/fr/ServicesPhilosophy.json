@@ -1,0 +1,42 @@
+{
+  "countries": {
+    "belgium": "Belgique",
+    "netherlands": "Pays-Bas",
+    "germany": "Allemagne",
+    "luxembourg": "Luxembourg",
+    "switzerland": "Suisse",
+    "italy": "Italie",
+    "spain": "Espagne",
+    "france": "France",
+    "austria": "Autriche"
+  },
+  "homeBase": "base",
+  "mapTitleDark": "Mcars transporte des voitures",
+  "mapTitleLight": "dans toute l’Europe.",
+  "services": {
+    "classic": "Voitures de collection & spéciales",
+    "nonRunning": "Véhicules non roulants",
+    "urgent": "Urgences & rapatriement"
+  },
+  "eyebrow": "Nos services",
+  "titleDark": "Pour chaque véhicule ",
+  "titleLight": "une solution.",
+  "intro": "Qualité, fiabilité et approche personnelle. De l’import et l’export aux flottes complètes : chaque mission reçoit le même soin, du devis à la livraison. C’est ainsi que nous rendons le transport de voitures simple, clair et sans souci — pour les entreprises comme pour les particuliers.",
+  "cards": {
+    "fleet": {
+      "tag": "Flotte",
+      "caption": "Transport de flotte pour tout votre parc automobile"
+    },
+    "import": {
+      "tag": "Import",
+      "caption": "Import depuis toute l’Europe"
+    },
+    "export": {
+      "tag": "Export",
+      "caption": "Export vers toutes les destinations"
+    }
+  },
+  "regionsTitle": "Les régions où nous roulons :",
+  "regionsText": "Des corridors fixes au départ de notre base en Belgique, parcourus chaque semaine. Du Benelux jusqu’au sud de l’Europe.",
+  "networkCta": "Découvrir notre réseau"
+}

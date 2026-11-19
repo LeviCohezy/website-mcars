@@ -1,0 +1,43 @@
+{
+  "countries": {
+    "belgium": "België",
+    "netherlands": "Nederland",
+    "germany": "Duitsland",
+    "luxembourg": "Luxemburg",
+    "switzerland": "Zwitserland",
+    "italy": "Italië",
+    "spain": "Spanje",
+    "france": "Frankrijk",
+    "austria": "Oostenrijk"
+  },
+  "homeBase": "thuisbasis",
+  "mapTitleDark": "Mcars transporteert auto's",
+  "mapTitleLight": "in heel Europa.",
+  "services": {
+    "classic": "Oldtimers & specials",
+    "nonRunning": "Niet-rijdende voertuigen",
+    "urgent": "Spoed & repatriëring"
+  },
+  "eyebrow": "Onze diensten",
+  "titleDark": "Voor elk voertuig ",
+  "titleLight": "een oplossing.",
+  "intro": "Kwaliteit, betrouwbaarheid en een persoonlijke aanpak. Van import en export tot volledige vloten: elke opdracht krijgt dezelfde zorg, van offerte tot levering. Zo maken we autotransport eenvoudig, duidelijk en zorgeloos — voor bedrijven én particulieren.",
+  "cards": {
+    "fleet": {
+      "tag": "Vloot",
+      "caption": "Vloottransport voor uw volledige wagenpark"
+    },
+    "import": {
+      "tag": "Import",
+      "caption": "Import vanuit heel Europa"
+    },
+    "export": {
+      "tag": "Export",
+      "caption": "Export naar elke bestemming"
+    }
+  },
+  "regionsTitle": "De regio's waar we rijden:",
+  "regionsText": "Vaste corridors vanuit onze thuisbasis in België, elke week opnieuw gereden. Van de Benelux tot diep in Zuid-Europa.",
+  "logoAlt": "Mcars",
+  "networkCta": "Bekijk ons netwerk"
+}

@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { useEffect, useState } from "react";
 import { ArrowChip } from "./ui";
 import { Parallax } from "./scroll";
@@ -61,6 +62,7 @@ export default function PageHero({
   reviews?: boolean;
   children?: React.ReactNode;
 }) {
+  const t = useTranslations("PageHero");
   const [shown, setShown] = useState(false);
   useEffect(() => {
     const t = requestAnimationFrame(() => setShown(true));
@@ -118,8 +120,8 @@ export default function PageHero({
                 </span>
               )}
               {crumbs.length > 0 && (
-                <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 normal-case tracking-normal">
-                  <Link href="/" className="transition-colors hover:text-white">Home</Link>
+                <nav aria-label={t("breadcrumb")} className="flex flex-wrap items-center gap-2 normal-case tracking-normal">
+                  <Link href="/" className="transition-colors hover:text-white">{t("home")}</Link>
                   {crumbs.map((c) => (
                     <span key={c.label} className="flex items-center gap-2">
                       <span aria-hidden className="text-white/25">/</span>

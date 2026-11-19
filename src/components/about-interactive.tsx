@@ -7,6 +7,7 @@
  */
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 
 const clamp = (v: number) => Math.min(1, Math.max(0, v));
@@ -32,11 +33,12 @@ function useScrollFrame(fn: () => void) {
 }
 
 /** Small marker for copy the client still has to confirm. Remove once confirmed. */
-export function Draft({ children = "Nog te bevestigen", dark = false }: { children?: React.ReactNode; dark?: boolean }) {
+export function Draft({ children, dark = false }: { children?: React.ReactNode; dark?: boolean }) {
+  const t = useTranslations("AboutInteractive");
   return (
     <span className={`inline-flex items-center gap-1.5 rounded-full border border-dashed px-2.5 py-0.5 text-[11px] font-medium ${dark ? "border-white/40 text-white/70" : "border-zinc-400 text-zinc-500"}`}>
       <span aria-hidden className={`size-1.5 rounded-full ${dark ? "bg-white/70" : "bg-zinc-400"}`} />
-      {children}
+      {children ?? t("draft")}
     </span>
   );
 }
@@ -73,6 +75,7 @@ export function WordReveal({ text, muted, className = "" }: { text: string; mute
 export type Milestone = { year: string; title: string; body: string; image?: string; draft?: boolean };
 
 export function Timeline({ items }: { items: Milestone[] }) {
+  const t = useTranslations("AboutInteractive");
   const outer = useRef<HTMLElement>(null);
   const track = useRef<HTMLOListElement>(null);
   const bar = useRef<HTMLSpanElement>(null);
@@ -96,16 +99,16 @@ export function Timeline({ items }: { items: Milestone[] }) {
   };
 
   return (
-    <section ref={outer} aria-label="Tijdlijn" className="relative" style={{ height: `${100 + items.length * 60}vh` }}>
+    <section ref={outer} aria-label={t("timelineLabel")} className="relative" style={{ height: `${100 + items.length * 60}vh` }}>
       <div className="sticky top-2 flex h-[calc(100svh-1rem)] flex-col overflow-hidden rounded-[2rem] bg-zinc-950 text-white">
         <div className="flex items-end justify-between gap-6 px-6 pt-24 sm:px-10 sm:pt-28 lg:px-14">
           <div>
             <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-white/60 uppercase">
               <span aria-hidden className="size-1.5 rounded-full bg-white" />
-              Ons verhaal
+              {t("story")}
             </p>
             <h2 className="mt-4 text-3xl leading-[1.02] font-medium tracking-[-0.03em] sm:text-5xl lg:text-6xl">
-              Van de eerste lading <span className="text-white/40">tot vandaag.</span>
+              {t.rich("heading", { muted: (c) => <span className="text-white/40">{c}</span> })}
             </h2>
           </div>
           <p aria-hidden className="hidden text-7xl leading-none font-medium tracking-[-0.05em] text-white/15 tabular-nums lg:block">

@@ -1,0 +1,62 @@
+{
+  "crumb": "Services",
+  "reviewsAria": "{score} sur 5 sur Google — voir les avis",
+  "insured": "Assuré, avec CMR",
+  "imageAlt": "{service} par Mcars",
+  "situations": {
+    "title": "Vous vous reconnaissez dans l’une de ces situations ?",
+    "intro": "{count, select, 2 {Deux} 3 {Trois} 4 {Quatre} 5 {Cinq} other {Quelques}} situations pour lesquelles des clients nous appellent. Reconnaissez-vous la vôtre ? Vous voyez alors tout de suite ce que nous prenons en charge pour vous."
+  },
+  "why": {
+    "label": "Pourquoi Mcars",
+    "lead": "Voici comment nous travaillons,",
+    "trail": "trajet après trajet.",
+    "intro": "Flotte propre, chauffeurs fixes et un seul interlocuteur. Cela reste identique à chaque trajet."
+  },
+  "process": {
+    "label": "Méthode",
+    "lead": "De la demande à la livraison,",
+    "trail": "clair et simple.",
+    "intro": "Vous savez à tout moment ce qui se passe et qui vous pouvez appeler."
+  },
+  "price": {
+    "label": "Prix",
+    "lead": "Qu’est-ce qui détermine",
+    "trail": "le prix ?",
+    "intro": "Nous ne travaillons pas avec un calculateur : chaque prix est adapté à votre transport. Voici les facteurs qui comptent."
+  },
+  "breakdown": {
+    "label": "En cas de panne",
+    "lead": "Que faire",
+    "trail": "en cas de panne ?"
+  },
+  "needs": {
+    "label": "Préparation",
+    "lead": "Ce dont nous avons",
+    "trail": "besoin de votre part."
+  },
+  "included": {
+    "caption": "Flotte propre · chauffeurs fixes · depuis {year}"
+  },
+  "safety": {
+    "label": "Flotte & sécurité",
+    "lead": "Voici comment nous protégeons",
+    "trail": "votre voiture."
+  },
+  "practice": {
+    "label": "Sur le terrain",
+    "lead": "Voici comment nous avons procédé",
+    "trail": "auparavant."
+  },
+  "faq": {
+    "lead": "Questions fréquentes",
+    "trail": "sur {service}."
+  },
+  "related": {
+    "label": "À découvrir aussi",
+    "lead": "Services",
+    "trail": "et trajets associés.",
+    "service": "Service",
+    "route": "Trajet"
+  }
+}

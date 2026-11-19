@@ -1,0 +1,11 @@
+{
+  "sectionLabel": "Rechtstreeks tussen de landen",
+  "globeLabel": "Wereldbol met de wegen tussen {count} landen",
+  "eyebrow": "Vaste corridors",
+  "title": "Rechtstreeks <muted>tussen de landen.</muted>",
+  "departFrom": "Vertrekken van",
+  "chooseCountry": "Kies een land",
+  "fixed": "Vaste rit",
+  "hint": "{count} landen, {total} combinaties. Kies een vertrekland en zie waar we rechtstreeks naartoe rijden.",
+  "combinations": "combinaties"
+}

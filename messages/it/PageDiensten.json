@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Servizi — trasporto auto su misura | Mcars",
+    "description": "Dal trasporto per privati alle flotte, import, export, auto d’epoca e urgenze. Scopra tutti i servizi di trasporto auto di Mcars in Belgio e in Europa."
+  },
+  "hero": {
+    "eyebrow": "I nostri servizi",
+    "title": "Per ogni veicolo l’approccio giusto.",
+    "subtitle": "Da una singola auto privata a un intero parco veicoli — soluzioni di trasporto in Belgio e in tutta Europa.",
+    "crumb": "Servizi",
+    "badgeCount": "{count} servizi",
+    "badgeContact": "Un unico referente",
+    "cta": "Preventivo"
+  },
+  "overview": {
+    "label": "Panoramica",
+    "lead": "Undici modi per spostare la Sua auto,",
+    "trail": "un solo team che se ne occupa.",
+    "intro": "Che si tratti di un’auto di famiglia, di uno stock per lo showroom o di una classica che non circola più: parla con le persone che eseguono davvero il viaggio."
+  }
+}

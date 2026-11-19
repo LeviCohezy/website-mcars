@@ -1,0 +1,75 @@
+{
+  "requestPrice": "Demander un prix",
+  "reviews": "Avis",
+  "reviewsOnGoogle": "{count} avis sur Google",
+  "weTransport": "Nous transportons : {types}",
+  "included": {
+    "label": "Inclus",
+    "title": "Ce que vous pouvez <muted>attendre de nous.</muted>"
+  },
+  "faq": {
+    "personalAnswer": "Réponse personnelle",
+    "callUs": "Votre question n’y figure pas ? Appelez-nous sans hésiter."
+  },
+  "price": {
+    "custom": "Sur mesure",
+    "title": "Un prix honnête, <muted>dans votre boîte mail sous 24 heures.</muted>",
+    "body": "Une vraie personne de notre équipe examine votre demande. Ce que vous voyez dans le devis, vous le payez — pas de mauvaise surprise.",
+    "savings": "Comment vous économisez"
+  },
+  "needs": {
+    "request": "Lors de la demande",
+    "documents": "Documents",
+    "onTheDay": "Le jour même"
+  },
+  "breakdown": {
+    "done": "Les secours sont en route.",
+    "safe": {
+      "title": "1 · D’abord la sécurité",
+      "items": [
+        "Rangez la voiture le plus en sécurité possible sur le côté et allumez les feux de détresse.",
+        "Enfilez un gilet fluo et placez le triangle de signalisation.",
+        "Attendez derrière la glissière de sécurité, pas dans ni à côté de la voiture."
+      ]
+    },
+    "call": {
+      "title": "2 · Appelez-nous",
+      "items": [
+        "Indiquez l’emplacement exact (rue, sortie ou borne kilométrique).",
+        "Dites de quel véhicule il s’agit et quel est le problème.",
+        "Précisez où la voiture doit être emmenée."
+      ]
+    },
+    "come": {
+      "title": "3 · Nous arrivons",
+      "items": [
+        "Vous recevez tout de suite une réponse honnête sur notre heure d’arrivée.",
+        "Nous chargeons la voiture en toute sécurité avec le treuil.",
+        "Nous l’amenons à votre garage, chez vous ou à notre dépôt."
+      ]
+    }
+  },
+  "safety": {
+    "imageAlt": "Un camion de transport Mcars",
+    "title": "Flotte propre. Chauffeurs attitrés. <muted>Pas de sous-traitants.</muted>"
+  },
+  "practice": {
+    "case": "Cas · {tag}",
+    "moreCases": "Voir d’autres cas"
+  },
+  "overview": {
+    "label": "Aperçu",
+    "happyClients": "clients satisfaits",
+    "activeSince": "actif depuis",
+    "activeSincePill": "Actif depuis {year}",
+    "tags": [
+      "#assuré",
+      "#CMR",
+      "#flottepropre",
+      "#chauffeursattitrés"
+    ],
+    "figures": "Mcars en chiffres",
+    "audience": "Pour qui",
+    "promise": "Réponse personnelle sous 24 heures — d’un membre de notre équipe, pas d’un calculateur."
+  }
+}

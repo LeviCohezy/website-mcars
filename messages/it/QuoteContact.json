@@ -1,0 +1,53 @@
+{
+  "steps": {
+    "transport": "Trasporto",
+    "vehicles": "Veicoli",
+    "details": "I Suoi dati"
+  },
+  "condition": {
+    "runs": "Si avvia e circola",
+    "rolls": "Non si avvia, ruote libere",
+    "blocked": "Non si avvia, bloccata"
+  },
+  "customerType": {
+    "particulier": "Privato",
+    "bedrijf": "Azienda"
+  },
+  "customerTypeAria": "Tipo di cliente",
+  "optional": "(facoltativo)",
+  "pickDate": "Scelga una data",
+  "dateInvalid": "Scelga una data o selezioni “immediatamente”.",
+  "eyebrow": "( Preventivo )",
+  "title": "Ci dica cosa dobbiamo trasportare",
+  "intro": "Richieda il Suo preventivo in tre brevi passaggi. Riceverà entro 24 ore una risposta personale dal nostro team: niente e-mail automatiche, ma un prezzo fisso.",
+  "stepOf": "Passo {step} di {total}",
+  "pickupAddress": "Indirizzo di ritiro",
+  "deliveryAddress": "Indirizzo di consegna",
+  "addressPlaceholder": "Via, comune, Paese",
+  "depotPlaceholder": "Deposito Mcars, Roeselare",
+  "depotLabel": "Consegna presso il deposito Mcars (più conveniente, ritiro possibile 24/7)",
+  "availableForPickup": "Disponibile per il ritiro",
+  "asap": "Immediatamente",
+  "desiredDelivery": "Data di consegna desiderata",
+  "vehicle": "Veicolo",
+  "doesItStart": "L’auto si avvia?",
+  "quantity": "Quantità",
+  "makeModel": "Marca e modello",
+  "vehicleMakeModelAria": "Veicolo {n}: marca e modello",
+  "vehicleStartsAria": "Veicolo {n}: l’auto si avvia?",
+  "vehicleQuantityAria": "Veicolo {n}: quantità",
+  "vehicleRemoveAria": "Rimuovi veicolo {n}",
+  "addVehicle": "Aggiungi un altro veicolo",
+  "topbox": "Box portabagagli o portabici presente",
+  "firstName": "Nome",
+  "lastName": "Cognome",
+  "company": "Ragione sociale",
+  "vat": "Partita IVA",
+  "vatPlaceholder": "BE 0xxx.xxx.xxx",
+  "phone": "Telefono",
+  "remarks": "Note",
+  "remarksPlaceholder": "Particolarità del veicolo o del trasporto",
+  "back": "Indietro",
+  "next": "Avanti",
+  "submit": "Invia richiesta"
+}

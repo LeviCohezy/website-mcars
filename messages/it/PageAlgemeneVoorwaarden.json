@@ -1,0 +1,47 @@
+{
+  "metaTitle": "Condizioni generali | Mcars",
+  "metaDescription": "Le condizioni generali di Mcars BV: applicazione, preventivi, trasporto e CMR, responsabilità e assicurazione, pagamento, annullamento, reclami e diritto applicabile.",
+  "heroEyebrow": "Informazioni legali",
+  "heroTitle": "Condizioni generali",
+  "heroSubtitle": "Le condizioni applicabili ai nostri preventivi e trasporti.",
+  "crumb": "Condizioni generali",
+  "sideLabel": "Condizioni",
+  "noticeLabel": "Attenzione:",
+  "noticeText": "Questo è un testo provvisorio. Far verificare questo documento da un punto di vista legale prima della messa online.",
+  "intro": "Le presenti condizioni generali si applicano a tutti i preventivi, contratti e trasporti di {legalName}, con sede legale in {street}, {city}, {country} (IVA {vat}).",
+  "sections": {
+    "s1": {
+      "title": "1. Applicazione",
+      "body": "Le presenti condizioni si applicano a ogni preventivo e contratto tra {legalName} e il cliente, sia privato sia azienda. Le deroghe valgono solo se concordate per iscritto. Inoltrando una richiesta o accettando un preventivo, il cliente accetta le presenti condizioni."
+    },
+    "s2": {
+      "title": "2. Preventivi e prezzi",
+      "body": "I nostri prezzi sono sempre stabiliti su richiesta e su misura. Ogni preventivo viene redatto personalmente in base, tra l’altro, all’indirizzo di ritiro e di consegna, alla distanza, al tipo di veicolo, alla modalità di trasporto scelta e ai tempi desiderati. Un preventivo è valido per il periodo in esso indicato e vincola {legalName} solo dopo conferma scritta dell’incarico."
+    },
+    "s3": {
+      "title": "3. Trasporto e CMR",
+      "body": "Il trasporto viene eseguito in conformità alla normativa nazionale e internazionale sui trasporti applicabile, tra cui la Convenzione CMR sul trasporto internazionale di merci su strada. Al ritiro viene redatta una lettera di vettura CMR che conferma il ritiro e documenta lo stato del veicolo. Il cliente provvede a rendere il veicolo accessibile e disponibile all’ora concordata e a garantire che i dati comunicati siano corretti."
+    },
+    "s4": {
+      "title": "4. Responsabilità e assicurazione",
+      "body": "{legalName} esegue ogni incarico con la necessaria cura e professionalità. La nostra responsabilità per i danni durante il trasporto è assicurata e limitata conformemente alla normativa sui trasporti applicabile (tra cui la Convenzione CMR). Non siamo responsabili dei danni derivanti da informazioni errate o incomplete fornite dal cliente, da difetti preesistenti o da forza maggiore."
+    },
+    "s5": {
+      "title": "5. Pagamento",
+      "body": "Per i clienti privati il pagamento avviene prima del ritiro del veicolo, salvo diverso accordo espresso. Per le aziende la fatturazione avviene dopo l’esecuzione del trasporto, con pagamento entro il termine indicato in fattura. In caso di pagamento tardivo possono essere addebitati di diritto interessi di mora e un indennizzo forfettario, in conformità alla normativa vigente."
+    },
+    "s6": {
+      "title": "6. Annullamento",
+      "body": "Se il cliente annulla un incarico confermato, possono essere addebitati i costi già sostenuti e, in caso di annullamento a ridosso del ritiro previsto, un ragionevole indennizzo. {legalName} può annullare un incarico in caso di forza maggiore o quando il cliente non adempie ai propri obblighi."
+    },
+    "s7": {
+      "title": "7. Reclami",
+      "body": "Eventuali danni visibili devono essere constatati alla consegna e annotati sulla lettera di vettura CMR. I reclami relativi all’esecuzione del trasporto o a una fattura devono essere comunicati per iscritto il prima possibile ed entro un termine ragionevole tramite <mail>{email}</mail>."
+    },
+    "s8": {
+      "title": "8. Diritto applicabile e foro competente",
+      "body": "A tutti i contratti con {legalName} si applica il diritto belga. In caso di controversie sono competenti in via esclusiva i tribunali del circondario giudiziario in cui ha sede legale {legalName}, fatte salve le disposizioni di legge imperative."
+    }
+  },
+  "closing": "Domande su queste condizioni? <contact>Ci contatti</contact> senza esitazione."
+}

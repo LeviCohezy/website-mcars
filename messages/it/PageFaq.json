@@ -1,0 +1,141 @@
+{
+  "metaTitle": "Domande frequenti | Mcars",
+  "metaDescription": "Risposte alle domande frequenti sul trasporto auto: prezzi, assicurazione, ritiro e consegna, estero, veicoli non marcianti, documenti, pagamento e urgenze.",
+  "heroTitle": "Domande frequenti.",
+  "heroSubtitle": "Le domande più frequenti sul trasporto auto, per argomento. Non trova la Sua domanda? Siamo lieti di aiutarLa personalmente.",
+  "badgeAnswers": "{count} risposte",
+  "badgeTopics": "{count} argomenti",
+  "cta": "Preventivo",
+  "topics": "Argomenti",
+  "stillEyebrow": "Ancora una domanda?",
+  "stillTitle": "Non trova la Sua domanda? <muted>La aiutiamo personalmente.</muted>",
+  "stillText": "Riceverà una risposta chiara da qualcuno che può davvero pianificare il Suo trasporto.",
+  "contactCta": "Ci contatti",
+  "callUs": "Oppure chiami il {phone}",
+  "groups": [
+    {
+      "eyebrow": "Prezzi",
+      "title": "Quanto costa",
+      "trail": "un trasporto?",
+      "items": [
+        {
+          "q": "Come viene determinato il prezzo?",
+          "a": "Ogni prezzo è su misura. Consideriamo l’indirizzo di ritiro e di consegna, la distanza, il veicolo (dimensioni e se circola, è spingibile o bloccato), l’urgenza o meno e il paese di destinazione. In questo modo riceve sempre un prezzo corretto per la Sua situazione."
+        },
+        {
+          "q": "Ricevo subito un prezzo?",
+          "a": "Non usiamo un calcolatore automatico. Ogni richiesta viene esaminata manualmente, in modo che il prezzo sia corretto. Riceverà entro 24 ore una risposta personale con prezzo e pianificazione."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Assicurazione",
+      "title": "La mia auto è",
+      "trail": "assicurata?",
+      "items": [
+        {
+          "q": "Il mio veicolo è assicurato durante il trasporto?",
+          "a": "Sì. Il Suo veicolo è assicurato durante il trasporto. Inoltre la lettera di vettura CMR documenta lo stato dell’auto al ritiro, così in seguito non può nascere alcuna discussione."
+        },
+        {
+          "q": "Che cosa succede in caso di danni?",
+          "a": "I nostri autisti registrano internamente lo stato di ogni auto alla partenza. Se, per sfortuna, dovesse accadere qualcosa, queste prove insieme alla CMR servono da base per gestire tutto correttamente."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Ritiro e consegna",
+      "title": "Ritiro",
+      "trail": "e consegna.",
+      "items": [
+        {
+          "q": "Vengo avvisato quando passa l’autista?",
+          "a": "Certamente. L’autista La chiama il giorno stesso per concordare il momento del ritiro. All’arrivo a destinazione La richiamiamo per la consegna."
+        },
+        {
+          "q": "Posso ritirare o lasciare l’auto anche al deposito?",
+          "a": "È possibile. Il nostro deposito a Roeselare è accessibile 24/7 previo accordo e spesso è più conveniente della consegna a domicilio. Valutiamo insieme che cosa è più comodo per Lei."
+        },
+        {
+          "q": "Potete ritirare a un indirizzo isolato?",
+          "a": "Sì. Ritiriamo e consegniamo sia in città sia a indirizzi più isolati. L’indirizzo è comunque uno dei fattori che incidono sul prezzo."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Trasporto all’estero",
+      "title": "Trasporto",
+      "trail": "verso l’estero.",
+      "items": [
+        {
+          "q": "In quali paesi viaggiate?",
+          "a": "Siamo attivi in tutta Europa, tra cui Belgio, Paesi Bassi, Francia, Spagna, Germania, Italia, Polonia e Scandinavia. Ogni settimana percorriamo tutta la Francia fino al nord della Spagna."
+        },
+        {
+          "q": "I vostri autisti parlano la lingua del posto?",
+          "a": "Abbiamo autisti sia di lingua olandese sia di lingua francese. Questo rende ritiro e consegna, in patria e all’estero, fluidi e chiari."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Veicoli non marcianti",
+      "title": "Veicoli",
+      "trail": "non marcianti.",
+      "items": [
+        {
+          "q": "Trasportate anche auto che non circolano?",
+          "a": "Sì. Un’auto che non si avvia più o non circola più viene tirata sul rimorchio con un argano (winch). Se necessario impieghiamo un carrello elevatore. Così anche un’auto guasta o da restaurare viaggia in sicurezza."
+        },
+        {
+          "q": "E se le ruote sono bloccate?",
+          "a": "Ce lo comunichi nella Sua richiesta. Il fatto che un’auto circoli, sia spingibile o bloccata incide sull’approccio e sul prezzo. Valutiamo caso per caso il modo migliore e più sicuro di caricarla."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Documenti",
+      "title": "Di quali documenti",
+      "trail": "ho bisogno?",
+      "items": [
+        {
+          "q": "Di quali documenti ho bisogno per il trasporto?",
+          "a": "Per il trasporto in sé l’unico documento necessario è la lettera di vettura CMR. La compila l’autista al ritiro. Prova che la Sua auto è stata ritirata e documenta lo stato alla partenza."
+        },
+        {
+          "q": "Devo redigere qualcosa io?",
+          "a": "No. La CMR viene predisposta da noi al ritiro. Non deve preparare alcun documento in anticipo."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Pagamento",
+      "title": "Come funziona",
+      "trail": "il pagamento?",
+      "items": [
+        {
+          "q": "Quando e come pago?",
+          "a": "Per i privati il pagamento avviene prima del ritiro. Aziende e concessionari pagano su fattura. Nel preventivo Le spieghiamo chiaramente che cosa vale per Lei."
+        },
+        {
+          "q": "Ricevo un’e-mail di conferma automatica?",
+          "a": "Lavoriamo volutamente in modo personale. Non riceverà una conferma automatizzata, ma una risposta concreta da una persona del nostro team con prezzo e pianificazione."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Trasporto urgente",
+      "title": "Trasporto",
+      "trail": "urgente.",
+      "items": [
+        {
+          "q": "Potete organizzare un trasporto urgente?",
+          "a": "Indichi nella Sua richiesta che si tratta di un’urgenza. Verifichiamo subito che cosa è possibile nella nostra pianificazione. Urgente o normale è uno dei fattori che incidono sull’approccio e sul prezzo."
+        },
+        {
+          "q": "Come richiedo un trasporto urgente?",
+          "a": "Ci chiami pure direttamente oppure richieda un preventivo indicando che è urgente. Così possiamo attivarci rapidamente e farLe sapere che cosa è fattibile."
+        }
+      ]
+    }
+  ]
+}

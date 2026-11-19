@@ -1,0 +1,22 @@
+{
+  "metaTitle": "Destinazioni e rotte: trasporto auto in tutta Europa | Mcars",
+  "metaDescription": "Trasporto auto in Belgio, Paesi Bassi, Francia, Spagna, Italia e in tutta Europa, più corridoi fissi tra i vari Paesi. Scopra tutte le rotte di Mcars.",
+  "hero": {
+    "eyebrow": "Destinazioni e rotte",
+    "title": "Dal Belgio.<br></br>In tutta Europa.<br></br><muted>Ogni settimana.</muted>",
+    "subtitle": "La nostra nicchia: dal Belgio e dai Paesi Bassi verso la Francia fino al Nord della Spagna. E oltre, andiamo ovunque.",
+    "crumb": "Rotte",
+    "cta": "Richieda un preventivo"
+  },
+  "countries": {
+    "label": "Paesi",
+    "lead": "Trasporto auto",
+    "trail": "per destinazione.",
+    "intro": "Dai viaggi quotidiani in Belgio ai giri settimanali in tutta la Francia. Scelga la Sua destinazione per città, frequenza e informazioni pratiche.",
+    "cities": "{count} città"
+  },
+  "band": {
+    "line": "Ogni settimana in tutta la Francia, con fermate fisse lungo il percorso.",
+    "caption": "Da Roeselare al Nord della Spagna"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metaTitle": "Allgemeine Geschäftsbedingungen | Mcars",
+  "metaDescription": "Die Allgemeinen Geschäftsbedingungen der Mcars BV: Geltung, Angebote, Transport und CMR, Haftung und Versicherung, Zahlung, Stornierung, Beschwerden und anwendbares Recht.",
+  "heroEyebrow": "Rechtliches",
+  "heroTitle": "Allgemeine Geschäftsbedingungen",
+  "heroSubtitle": "Die Bedingungen, die für unsere Angebote und Transporte gelten.",
+  "crumb": "Allgemeine Geschäftsbedingungen",
+  "sideLabel": "Bedingungen",
+  "noticeLabel": "Hinweis:",
+  "noticeText": "Dies ist ein vorläufiger Text. Lassen Sie dieses Dokument vor der Veröffentlichung rechtlich prüfen.",
+  "intro": "Diese Allgemeinen Geschäftsbedingungen gelten für alle Angebote, Verträge und Transporte von {legalName} mit Gesellschaftssitz in {street}, {city}, {country} (USt-IdNr. {vat}).",
+  "sections": {
+    "s1": {
+      "title": "1. Geltung",
+      "body": "Diese Bedingungen gelten für jedes Angebot und jeden Vertrag zwischen {legalName} und dem Kunden, sowohl Privatkunden als auch Unternehmen. Abweichungen gelten nur, wenn sie schriftlich vereinbart wurden. Mit dem Stellen einer Anfrage oder der Annahme eines Angebots akzeptiert der Kunde diese Bedingungen."
+    },
+    "s2": {
+      "title": "2. Angebote und Preise",
+      "body": "Unsere Preise werden stets auf Anfrage und individuell festgelegt. Jedes Angebot wird persönlich erstellt, unter anderem auf Grundlage von Abhol- und Lieferadresse, Entfernung, Fahrzeugtyp, gewählter Transportart und gewünschtem Termin. Ein Angebot ist für die darin genannte Frist gültig und bindet {legalName} erst nach schriftlicher Bestätigung des Auftrags."
+    },
+    "s3": {
+      "title": "3. Transport und CMR",
+      "body": "Der Transport wird gemäß den geltenden nationalen und internationalen Transportvorschriften durchgeführt, darunter das CMR-Übereinkommen über den grenzüberschreitenden Straßengüterverkehr. Bei der Abholung wird ein CMR-Frachtbrief erstellt, der die Abholung bestätigt und den Zustand des Fahrzeugs dokumentiert. Der Kunde stellt sicher, dass das Fahrzeug zum vereinbarten Zeitpunkt zugänglich und verfügbar ist und dass die übermittelten Angaben korrekt sind."
+    },
+    "s4": {
+      "title": "4. Haftung und Versicherung",
+      "body": "{legalName} führt jeden Auftrag mit der gebotenen Sorgfalt und Professionalität aus. Unsere Haftung für Schäden während des Transports ist versichert und gemäß dem anwendbaren Transportrecht (darunter das CMR-Übereinkommen) beschränkt. Wir haften nicht für Schäden, die auf vom Kunden falsch oder unvollständig übermittelte Angaben, auf bereits bestehende Mängel oder auf höhere Gewalt zurückzuführen sind."
+    },
+    "s5": {
+      "title": "5. Zahlung",
+      "body": "Bei Privatkunden erfolgt die Zahlung vor der Abholung des Fahrzeugs, sofern nicht ausdrücklich etwas anderes vereinbart wurde. Bei Unternehmen erfolgt die Rechnungsstellung nach Durchführung des Transports, zahlbar innerhalb der auf der Rechnung genannten Frist. Bei verspäteter Zahlung können kraft Gesetzes Verzugszinsen und eine pauschale Entschädigung gemäß den geltenden Rechtsvorschriften berechnet werden."
+    },
+    "s6": {
+      "title": "6. Stornierung",
+      "body": "Storniert der Kunde einen bestätigten Auftrag, können bereits entstandene Kosten und, bei einer Stornierung kurz vor der geplanten Abholung, eine angemessene Entschädigung berechnet werden. {legalName} kann einen Auftrag im Fall höherer Gewalt oder bei Nichterfüllung der Pflichten durch den Kunden stornieren."
+    },
+    "s7": {
+      "title": "7. Beschwerden",
+      "body": "Etwaige sichtbare Schäden sind bei der Lieferung festzustellen und auf dem CMR-Frachtbrief zu vermerken. Beschwerden über die Ausführung des Transports oder über eine Rechnung sind so schnell wie möglich und innerhalb einer angemessenen Frist schriftlich über <mail>{email}</mail> zu melden."
+    },
+    "s8": {
+      "title": "8. Anwendbares Recht und zuständiges Gericht",
+      "body": "Auf alle Verträge mit {legalName} findet belgisches Recht Anwendung. Bei Streitigkeiten sind ausschließlich die Gerichte des Gerichtsbezirks zuständig, in dem {legalName} seinen Gesellschaftssitz hat, unbeschadet zwingender gesetzlicher Bestimmungen."
+    }
+  },
+  "closing": "Fragen zu diesen Bedingungen? Nehmen Sie gerne <contact>Kontakt</contact> mit uns auf."
+}

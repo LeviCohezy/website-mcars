@@ -1,10 +1,13 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link } from "@/i18n/navigation";
+import { usePathname } from "@/i18n/navigation";
 import { useEffect, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
-import { nav, site } from "@/lib/site";
+import { useTranslations } from "next-intl";
+import { site, type NavItem } from "@/lib/site";
+import LanguageSwitcher from "./language-switcher";
+import { useNavItems } from "./nav-pill";
 import WhatsAppIcon from "./whatsapp-icon";
 
 const noopSubscribe = () => () => {};
@@ -15,7 +18,9 @@ const noopSubscribe = () => () => {};
  * WhatsApp is the first item in the drawer. The drawer is portalled to <body>
  * so transformed header wrappers can't trap the fixed overlay.
  */
-export default function MobileMenu({ className = "" }: { className?: string }) {
+export default function MobileMenu({ className = "", items }: { className?: string; items?: NavItem[] }) {
+  const t = useTranslations("MobileMenu");
+  const nav = useNavItems(items);
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const mounted = useSyncExternalStore(noopSubscribe, () => true, () => false);
@@ -49,7 +54,7 @@ export default function MobileMenu({ className = "" }: { className?: string }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        aria-label="Menu openen"
+        aria-label={t("open")}
         aria-expanded={open}
         aria-controls="mobile-menu"
         className={`flex size-10 items-center justify-center rounded-2xl bg-zinc-900/85 text-white backdrop-blur-xl transition-colors hover:bg-zinc-800 lg:hidden ${className}`}
@@ -65,7 +70,7 @@ export default function MobileMenu({ className = "" }: { className?: string }) {
             id="mobile-menu"
             role="dialog"
             aria-modal="true"
-            aria-label="Menu"
+            aria-label={t("dialogLabel")}
             inert={!open}
             className={`fixed inset-0 z-[90] overflow-y-auto overscroll-contain bg-zinc-950 text-white transition-[opacity,transform] duration-300 ease-out lg:hidden ${
               open ? "pointer-events-auto translate-y-0 opacity-100" : "pointer-events-none -translate-y-2 opacity-0"
@@ -76,7 +81,7 @@ export default function MobileMenu({ className = "" }: { className?: string }) {
                 <button
                   type="button"
                   onClick={close}
-                  aria-label="Menu sluiten"
+                  aria-label={t("close")}
                   className="flex size-10 items-center justify-center rounded-2xl bg-white text-zinc-950"
                 >
                   <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
@@ -84,7 +89,7 @@ export default function MobileMenu({ className = "" }: { className?: string }) {
                   </svg>
                 </button>
                 <Link href="/offerte" onClick={close} className="flex h-10 items-center rounded-2xl bg-white px-3.5 text-xs font-medium text-zinc-950">
-                  Offerte
+                  {t("quote")}
                 </Link>
               </div>
 
@@ -100,7 +105,7 @@ export default function MobileMenu({ className = "" }: { className?: string }) {
                   <WhatsAppIcon className="size-6" />
                 </span>
                 <span className="min-w-0">
-                  <span className="block text-base font-medium">WhatsApp ons</span>
+                  <span className="block text-base font-medium">{t("whatsapp")}</span>
                   <span className="block text-sm text-white/60">{site.phone}</span>
                 </span>
                 <svg className="ml-auto size-4 flex-none text-white/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -108,7 +113,7 @@ export default function MobileMenu({ className = "" }: { className?: string }) {
                 </svg>
               </a>
 
-              <nav aria-label="Hoofdmenu" className="mt-6">
+              <nav aria-label={t("navLabel")} className="mt-6">
                 <ul className="border-t border-white/10">
                   {nav.map((item) => (
                     <li key={item.label} className="border-b border-white/10">
@@ -124,19 +129,21 @@ export default function MobileMenu({ className = "" }: { className?: string }) {
                 </ul>
               </nav>
 
+              <LanguageSwitcher variant="row" className="mt-6" onNavigate={close} />
+
               <div className="mt-auto pt-10">
                 <Link
                   href="/offerte"
                   onClick={close}
                   className="flex min-h-14 items-center justify-center gap-2 rounded-full bg-white text-base font-medium text-zinc-950"
                 >
-                  Offerte
+                  {t("quote")}
                   <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                     <path d="M5 12h14M13 6l6 6-6 6" />
                   </svg>
                 </Link>
                 <a href={site.phoneHref} className="mt-3 flex min-h-12 items-center justify-center text-sm text-white/60">
-                  Of bel {site.phone}
+                  {t("orCall", { phone: site.phone })}
                 </a>
               </div>
             </div>

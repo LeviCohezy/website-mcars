@@ -1,0 +1,135 @@
+{
+  "steps": {
+    "depart": "Vertrek",
+    "destination": "Bestemming",
+    "car": "Uw auto",
+    "contact": "Uw gegevens"
+  },
+  "countries": {
+    "be": "België",
+    "nl": "Nederland",
+    "fr": "Frankrijk",
+    "de": "Duitsland",
+    "lu": "Luxemburg",
+    "es": "Spanje",
+    "it": "Italië",
+    "ch": "Zwitserland",
+    "at": "Oostenrijk",
+    "pt": "Portugal",
+    "pl": "Polen",
+    "other": "Ander land"
+  },
+  "staat": {
+    "rijdt": "Start en rijdt",
+    "rolbaar": "Start niet, maar is rolbaar",
+    "niet-rolbaar": "Niet rolbaar"
+  },
+  "staatLabel": "Staat van het voertuig",
+  "depot": "Depot Mcars",
+  "addressFallback": "Adres",
+  "optional": " (optioneel)",
+  "sent": {
+    "eyebrow": "Bijna klaar",
+    "title": "Uw aanvraag staat klaar in uw e-mail.",
+    "body": "Verstuur de e-mail die nu openging naar {email}. U krijgt zo snel mogelijk een persoonlijke prijs en planning — wij antwoorden zelf, er volgt geen automatische mail.",
+    "attach": "Vergeet niet uw bestanden als bijlage toe te voegen:",
+    "help": "Lukt het niet? Bel of WhatsApp <link>{phone}</link>."
+  },
+  "trip": {
+    "single": "Enkele rit",
+    "singleSub": "Van A naar B",
+    "return": "Heen en terug",
+    "returnSub": "Van A naar B en terug"
+  },
+  "legs": {
+    "depart": {
+      "title": "Vertrek",
+      "question": "Hoe wilt u het voertuig aanleveren?",
+      "address": "Ophalen op adres",
+      "cityPh": "Bijv. Roeselare",
+      "postcodePh": "Bijv. 8800"
+    },
+    "destination": {
+      "title": "Bestemming",
+      "question": "Hoe wilt u het voertuig afleveren?",
+      "address": "Levering op adres",
+      "cityPh": "Bijv. Nice",
+      "postcodePh": "Bijv. 06000"
+    }
+  },
+  "carsTitle": "Autogegevens",
+  "addCar": "Auto toevoegen",
+  "contactTitle": "Contactgegevens",
+  "customer": {
+    "label": "Type klant",
+    "private": "Particulier",
+    "company": "Bedrijf"
+  },
+  "fields": {
+    "name": "Naam",
+    "namePh": "Uw naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "phonePh": "Bijv. 0470 12 34 56",
+    "companyName": "Bedrijfsnaam",
+    "companyNamePh": "Naam van uw bedrijf",
+    "vat": "BTW-nummer",
+    "vatPh": "Bijv. BE0123.456.789",
+    "message": "Bericht",
+    "messagePh": "Nog extra informatie? Laat het ons weten.",
+    "country": "Land",
+    "countryPh": "Selecteer land",
+    "city": "Stad / Plaats",
+    "postcode": "Postcode",
+    "street": "Straat en nr.",
+    "date": "Datum",
+    "brand": "Merk",
+    "brandPh": "Selecteer merk",
+    "model": "Model",
+    "modelPh": "Bijv. Golf, X5, 911",
+    "year": "Bouwjaar",
+    "yearPh": "Bijv. 2022",
+    "extra": "Extra informatie",
+    "extraPh": "Bijv. schade, niet-rijdbaar, meerdere voertuigen, rolbaar, front lift functie, topbox, fietsdragers, speciale afmetingen, …"
+  },
+  "prev": "Vorige",
+  "next": "Volgende",
+  "prevStep": "Vorige stap",
+  "errors": {
+    "required": "Vul de verplichte velden (*) in.",
+    "requiredSubmit": "Vul de verplichte velden (*) in om uw aanvraag te versturen."
+  },
+  "trust": {
+    "safe": "Veilig transport",
+    "safeSub": "Uw voertuig in goede handen",
+    "fast": "Snelle service",
+    "fastSub": "Antwoord binnen 24 uur",
+    "prices": "Transparante prijzen",
+    "pricesSub": "Geen verrassingen",
+    "europe": "Heel Europa",
+    "europeSub": "België · Nederland · Frankrijk & verder"
+  },
+  "submit": "Offerte aanvragen",
+  "note": "Vrijblijvende aanvraag — geen definitieve boeking.<br></br> Wij nemen zo snel mogelijk contact met u op.",
+  "carN": "Auto {n}",
+  "removeCar": "Auto {n} verwijderen",
+  "uploadDoc": "Document uploaden (bv. volmacht)",
+  "uploadDocLabel": "Document uploaden, bijvoorbeeld een volmacht",
+  "addPhotosLabel": "Foto's van het voertuig toevoegen",
+  "viewDocs": "{count, plural, one {# document} other {# documenten}} bekijken",
+  "quantity": "Aantal",
+  "quantityDown": "Aantal verlagen",
+  "quantityUp": "Aantal verhogen",
+  "quantityOf": "Aantal keer auto {n}",
+  "viewer": {
+    "photosTitle": "Foto's · Auto {n}",
+    "docsTitle": "Documenten · Auto {n}",
+    "addPhotos": "Foto's toevoegen",
+    "addDoc": "Document toevoegen"
+  },
+  "viewPhotos": "Foto's bekijken ({count})",
+  "addPhotos": "Foto's toevoegen",
+  "clickAddPhotos": "Klik om foto's toe te voegen",
+  "close": "Sluiten",
+  "removeFile": "{name} verwijderen"
+}

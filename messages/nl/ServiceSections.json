@@ -1,0 +1,71 @@
+{
+  "requestPrice": "Prijs aanvragen",
+  "reviews": "Reviews",
+  "reviewsOnGoogle": "{count} reviews op Google",
+  "weTransport": "Wij vervoeren: {types}",
+  "included": {
+    "label": "Inbegrepen",
+    "title": "Wat u van ons <muted>mag verwachten.</muted>"
+  },
+  "faq": {
+    "personalAnswer": "Persoonlijk antwoord",
+    "callUs": "Staat uw vraag er niet bij? Bel ons gerust.",
+    "eyebrow": "FAQ"
+  },
+  "price": {
+    "custom": "Maatwerk",
+    "title": "Een eerlijke prijs, <muted>binnen 24 uur in uw mailbox.</muted>",
+    "body": "Een mens van ons team bekijkt uw aanvraag. Wat u in de offerte ziet, betaalt u — geen verrassingen achteraf.",
+    "savings": "Zo bespaart u"
+  },
+  "needs": {
+    "request": "Bij de aanvraag",
+    "documents": "Documenten",
+    "onTheDay": "Op de dag zelf"
+  },
+  "breakdown": {
+    "done": "Hulp is onderweg.",
+    "safe": {
+      "title": "1 · Eerst veilig",
+      "items": [
+        "Zet de wagen zo veilig mogelijk aan de kant en zet de alarmlichten aan.",
+        "Trek een fluohesje aan en plaats de gevarendriehoek.",
+        "Wacht achter de vangrail, niet in of naast de wagen."
+      ]
+    },
+    "call": {
+      "title": "2 · Bel ons",
+      "items": [
+        "Geef de exacte locatie door (straat, afrit of kilometerpaal).",
+        "Vertel welk voertuig het is en wat er scheelt.",
+        "Zeg waar de wagen naartoe moet."
+      ]
+    },
+    "come": {
+      "title": "3 · Wij komen",
+      "items": [
+        "U krijgt meteen een eerlijk antwoord over wanneer we er kunnen zijn.",
+        "We laden de wagen veilig op met de lier.",
+        "We brengen hem naar uw garage, naar huis of naar ons depot."
+      ]
+    }
+  },
+  "safety": {
+    "imageAlt": "Een transporter van Mcars",
+    "title": "Eigen vloot. Vaste chauffeurs. <muted>Geen onderaannemers.</muted>"
+  },
+  "practice": {
+    "case": "Case · {tag}",
+    "moreCases": "Meer cases bekijken"
+  },
+  "overview": {
+    "label": "Overzicht",
+    "happyClients": "tevreden klanten",
+    "activeSince": "actief sinds",
+    "activeSincePill": "Actief sinds {year}",
+    "tags": ["#verzekerd", "#CMR", "#eigenvloot", "#vastechauffeurs"],
+    "figures": "Mcars in cijfers",
+    "audience": "Voor wie",
+    "promise": "Persoonlijk antwoord binnen 24 uur — van iemand van ons team, niet van een calculator."
+  }
+}

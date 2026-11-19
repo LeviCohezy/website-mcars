@@ -1,0 +1,14 @@
+{
+  "name": "Naam",
+  "namePlaceholder": "Uw naam",
+  "email": "E-mail",
+  "emailPlaceholder": "naam@voorbeeld.be",
+  "phone": "Telefoon",
+  "phonePlaceholder": "+32 4xx xx xx xx",
+  "subject": "Onderwerp",
+  "subjectPlaceholder": "Waarover gaat het?",
+  "message": "Bericht",
+  "messagePlaceholder": "Vertel ons kort wat u nodig heeft — ophaal- en leveradres, voertuig en gewenste periode.",
+  "submit": "Bericht versturen",
+  "note": "Uw bericht opent in uw eigen e-mailprogramma en wordt verstuurd naar {email}. U ontvangt geen automatische bevestiging — we antwoorden persoonlijk."
+}
