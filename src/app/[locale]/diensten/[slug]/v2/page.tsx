@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
 import { QuoteCta } from "@/components/blocks";
 import DienstV2 from "@/components/dienst-v2";
 import PageShell from "@/components/page-shell";
@@ -9,12 +10,14 @@ import { getServicePage, serviceMetadata, serviceStaticParams } from "@/lib/serv
 // Dienst 02 — "Licht & strak". Same content as /diensten/[slug], different design.
 export const generateStaticParams = serviceStaticParams;
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }): Promise<Metadata> {
+  setRequestLocale((await params).locale);
   return serviceMetadata(params);
 }
 
-export default async function ServicePageV2({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default async function ServicePageV2({ params }: { params: Promise<{ slug: string; locale: string }> }) {
+  const { slug, locale } = await params;
+  setRequestLocale(locale);
   const data = getServicePage(slug);
   if (!data) notFound();
   return (

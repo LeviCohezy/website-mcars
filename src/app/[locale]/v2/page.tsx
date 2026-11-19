@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import CinematicSequence from "@/components/cinematic-sequence";
 import HeroQuoteBar from "@/components/hero-quote-bar";
 import ScrollVideoSection from "@/components/scroll-video-section";
@@ -7,7 +8,8 @@ import VariantSwitcher from "@/components/variant-switcher";
 // Home 02 — one continuous scroll-controlled film (hero → wireframe → black
 // line → service cards → Europe map), then a second scroll-controlled fleet
 // film, the quote form and the footer.
-export default function Home() {
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  setRequestLocale((await params).locale);
   return (
     <div className="bg-white p-2">
       <CinematicSequence />

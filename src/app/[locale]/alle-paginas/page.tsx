@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import PageShell from "@/components/page-shell";
@@ -12,7 +13,8 @@ export const metadata: Metadata = {
 };
 
 /** Full index of every service × country and service × route page. Linked from the footer. */
-export default function AllPages() {
+export default async function AllPages({ params }: { params: Promise<{ locale: string }> }) {
+  setRequestLocale((await params).locale);
   const index = comboIndex();
   return (
     <PageShell dark>

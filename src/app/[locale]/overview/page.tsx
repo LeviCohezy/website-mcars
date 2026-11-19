@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import type { Metadata } from "next";
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
   description: "Alle pagina's en ontwerpvarianten van de MCARS website op één plek.",
 };
 
-export default function OverviewPage() {
+export default async function OverviewPage({ params }: { params: Promise<{ locale: string }> }) {
+  setRequestLocale((await params).locale);
   const totalVariants = sections.reduce((n, s) => n + s.variants.length, 0);
 
   return (
