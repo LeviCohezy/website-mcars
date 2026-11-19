@@ -1,0 +1,972 @@
+{
+  "service": "auto-exporteren",
+  "origin": "oostenrijk",
+  "pages": {
+    "oostenrijk": {
+      "lead": "Wie in Oostenrijk een wagen verkoopt aan een koper in het buitenland, merkt dat het papierwerk vóór het transport komt. De wagen moet eerst afgemeld worden bij een Zulassungsstelle, en de koper heeft zijn eigen stukken nodig voor het land van bestemming. Mcars haalt de verkochte wagen op en brengt hem open, op een meerlaagse autotransporter, naar de koper.",
+      "facts": [
+        {
+          "label": "Afmelding",
+          "value": "Kosteloos, bij elke Zulassungsstelle, ook met schriftelijke volmacht"
+        },
+        {
+          "label": "Teruggave NoVA",
+          "value": "Gedeeltelijk mogelijk, binnen vijf jaar en onder voorwaarden"
+        },
+        {
+          "label": "Weekendverbod",
+          "value": "Vrachtwagens boven 7,5 ton: zaterdag 15 uur tot zondag 22 uur"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Elke nacht van 22 tot 5 uur, tenzij geluidsarm erkend"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Eerst afmelden in Oostenrijk, dan pas de grens over",
+          "body": [
+            "Een wagen die Oostenrijk verlaat, blijft op naam van de verkoper staan tot hij daar officieel is afgemeld. Dat gebeurt niet vanzelf. Een inschrijving in het land van de koper meldt de wagen niet af in Oostenrijk, en een bericht van een buitenlandse overheid doet dat evenmin. Voor de verkoper blijft dit dus een eigen taak, ook als de koper in het buitenland alles perfect regelt.",
+            "Afmelden kan bij elke Zulassungsstelle in het land, dus niet noodzakelijk in de buurt van de woonplaats. Het kost niets. U mag iemand sturen, op voorwaarde dat die een schriftelijke volmacht heeft. Spreek met de koper af wie wat doet, zodat de wagen niet maanden op een Oostenrijkse plaat blijft hangen terwijl hij al in het buitenland rijdt."
+          ]
+        },
+        {
+          "heading": "Wat u meebrengt naar de Zulassungsstelle",
+          "body": [
+            "De afmelding wordt genoteerd op deel I en deel II van het kentekenbewijs. Deel I blijft in de regel bij wie afmeldt, en een kentekenbewijs in kaartformaat wordt geperforeerd teruggegeven. Zorg dat alles in één keer op tafel ligt, want een ontbrekend stuk betekent een tweede bezoek. Vraag de koper vooraf welke stukken hij in zijn eigen land nodig heeft, zodat u niets inlevert dat hij nog wil zien."
+          ],
+          "points": [
+            "een identiteitsbewijs met foto",
+            "beide delen van het kentekenbewijs",
+            "het goedkeuringsbewijs: Typenschein, Einzelgenehmigung, COC of een uittreksel uit de Genehmigungsdatenbank",
+            "de nummerplaten van de wagen"
+          ]
+        },
+        {
+          "heading": "Belasting bij vertrek: NoVA en verzekeringsbelasting",
+          "body": [
+            "Wie een wagen verkoopt die met NoVA belast werd, kan een deel van die belasting terugvragen. Dat moet binnen vijf jaar bij het bevoegde Finanzamt, met bewijs dat de wagen naar het buitenland is gebracht of geleverd. De eerste inschrijving mag hoogstens achtenveertig maanden voor de afmelding liggen, de wagen mag niet meer in Oostenrijk ingeschreven staan en hij moet bij de aanvraag geblokkeerd zijn in de Genehmigungsdatenbank. Bewaar daarom alles wat de rit aantoont, zoals de vrachtbrief die bij het laden wordt opgemaakt, en vraag het Finanzamt welk bewijs zij aanvaarden.",
+            "Wordt een wagen halverwege een maand afgemeld, bijvoorbeeld omdat de eigenaar naar het buitenland verhuist, dan is de motorbezogene Versicherungssteuer enkel pro rata verschuldigd. Elke maand telt daarbij voor dertig dagen."
+          ]
+        },
+        {
+          "heading": "Wanneer een vrachtwagen in Oostenrijk wel en niet mag rijden",
+          "body": [
+            "Een open autotransporter valt onder de rijverboden voor vrachtwagens boven 7,5 ton. Van zaterdag 15 uur tot zondag 22 uur mag er niet gereden worden, en op wettelijke feestdagen geldt hetzelfde verbod van 0 tot 22 uur. Oostenrijk telt er dertien: Nieuwjaar, Driekoningen, Paasmaandag, 1 mei, Hemelvaart, Pinkstermaandag, Sacramentsdag, 15 augustus, de nationale feestdag op 26 oktober, Allerheiligen, 8 december, Kerstmis en 26 december. Elke nacht van 22 tot 5 uur geldt bovendien een nachtverbod, tenzij het voertuig als geluidsarm erkend is.",
+            "Ook op de weg zelf is het rustig: buiten de bebouwde kom 70 km/u en op autosnelwegen 80 km/u. Plan een ophaling in Oostenrijk dus op een werkdag, en reken er niet op dat een late vrijdagafspraak nog dezelfde avond de grens haalt."
+          ]
+        },
+        {
+          "heading": "Ophalen in Steiermark, Kärnten en het zuiden",
+          "body": [
+            "Wie in het zuiden van Oostenrijk verkoopt, zit aan de andere kant van het land dan de meeste kopers. In de Steiermark loopt de A9 Pyhrn Autobahn tot de grensovergang Spielfeld, vanwaar de Sloveense A1 naar Maribor verder gaat. Wagens uit Graz of omgeving rijden voor het noorden meestal over die A9, door de Bosruck- en de Gleinalmtunnel. Vanuit Wenen komt men over de A2 of de S6.",
+            "Kärnten grenst aan Slovenië en Italië. Vanuit Salzburg rijdt men over de A10 Tauern Autobahn naar knooppunt Villach, en de A11 gaat door de Karawankentunnel naar Jesenice. Voor lichte voertuigen geldt op de A9 door Bosruck en Gleinalm en op de A11 een aparte trajecttol in plaats van het vignet. Dat telt vooral als de koper de wagen toch zelf, op een overbrengingsplaat, naar huis wil rijden."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Schlichtung für Verbrauchergeschäfte",
+          "body": "Gaat het mis met een Oostenrijkse verkoper, bijvoorbeeld over de staat van de wagen of een niet geleverd document, dan kan een consument terecht bij de Schlichtung für Verbrauchergeschäfte. Dat is een bemiddelingsorgaan, geen rechtbank, en het kost de koper meestal minder moeite dan meteen procederen."
+        },
+        {
+          "kind": "regel",
+          "title": "Rettungsgasse op autosnelwegen",
+          "body": "Zodra het verkeer op een autosnelweg of Schnellstraße begint te stokken, moet een reddingsstrook gevormd worden. Wie links rijdt, wijkt naar links uit, alle andere stroken wijken naar rechts. Een transporter kan dus in de file stilstaan zonder dat dat een reden is om de strook te blokkeren."
+        },
+        {
+          "kind": "plek",
+          "title": "Grensovergang Spielfeld",
+          "body": "Spielfeld is waar de A9 Pyhrn Autobahn Oostenrijk verlaat en overgaat in de Sloveense A1 naar Maribor. Voor een wagen die in de Steiermark staat en naar het zuidoosten moet, is dit het punt waar de rit begint. Voor bestemmingen in het westen draait de transporter hier juist van weg."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat als het kentekenbewijs al in het buitenland is?",
+          "a": "Zijn het Oostenrijkse kentekenbewijs en de platen al in het buitenland ingeleverd, dan kan de houder toch afmelden. Daarvoor is een verklaring nodig, samen met het bewijs van de buitenlandse inschrijving en van de inlevering van de Oostenrijkse stukken."
+        },
+        {
+          "q": "Wie mag mijn wagen afmelden als ik zelf niet kan?",
+          "a": "Een gevolmachtigde kan dat doen, op basis van een schriftelijke volmacht van de houder. De afmelding is kosteloos en kan bij elke Zulassungsstelle in Oostenrijk, dus ook bij het kantoor dat voor de gevolmachtigde het dichtst ligt."
+        },
+        {
+          "q": "Rijdt de transporter ook in de winter naar adressen in de bergen?",
+          "a": "Van 1 november tot 15 april moeten vrachtwagens boven 3,5 ton winterbanden hebben op minstens één aangedreven as, en sneeuwkettingen voor twee aangedreven wielen meevoeren. Of een bergadres bereikbaar is, hangt dan van de weg en het weer van die dag af."
+        }
+      ],
+      "seoDescription": "Auto exporteren vanuit Oostenrijk: afmelden bij de Zulassungsstelle, NoVA-teruggave en rijverboden. Mcars vervoert uw verkochte wagen open.",
+      "sources": [
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/2/Seite.060900",
+        "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/normverbrauchsabgabe-nova.html",
+        "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/motorbezogene-versicherungssteuer.html",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/lkw-fahrverbote.html",
+        "https://www.wien.gv.at/amtshelfer/feiertage/",
+        "https://www.asfinag.at/verkehr-sicherheit/verkehrsmanagement/rettungsgasse/",
+        "https://de.wikipedia.org/wiki/Pyhrn_Autobahn",
+        "https://de.wikipedia.org/wiki/Karawanken_Autobahn"
+      ]
+    },
+    "oostenrijk-belgie": {
+      "lead": "Een wagen die u in Oostenrijk verkoopt aan iemand in België, vertrekt meestal via Passau en rijdt dan door Duitsland naar het westen. Aan Oostenrijkse kant moet hij afgemeld zijn, aan Belgische kant wachten de E705-melding, de keuring en de inschrijving. Op een transporter komt hij aan zonder dat de koper zelf met buitenlandse platen moet rijden.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Passau, de Duitse A3 en via Aken de E40 naar België"
+        },
+        {
+          "label": "Overbrengingsplaat",
+          "value": "Minstens 3, hoogstens 21 dagen geldig, met Oostenrijkse verzekering"
+        },
+        {
+          "label": "E705",
+          "value": "Gratis douanesignaal waarmee de DIV de invoer kan nagaan"
+        },
+        {
+          "label": "Inschrijving België",
+          "value": "Aanvraagformulier blijft twee maanden geldig na het keuringsbezoek"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Oberösterreich: Suben en Passau",
+          "body": [
+            "Voor een wagen in Oberösterreich is de weg naar België kort bij de grens. Verkeer uit België, Nederland en Luxemburg komt daar binnen over de Duitse A3 bij Passau en de grensovergang Suben, waar de Oostenrijkse A8 Innkreis Autobahn begint. In omgekeerde richting is dat dus ook de uitgang voor uw verkochte wagen.",
+            "Staat de wagen verder oostelijk, bijvoorbeeld rond Wenen, dan rijdt de transporter eerst naar die grens. Zorg dat de afmelding in orde is voor de ophaling en dat de papieren bij de wagen blijven: kentekenbewijs, goedkeuringsbewijs en koopcontract moeten de koper in België kunnen bereiken, want zonder het originele, volledige buitenlandse inschrijvingsbewijs kan hij daar niet inschrijven."
+          ]
+        },
+        {
+          "heading": "De overbrengingsplaat en het vervoer op een transporter",
+          "body": [
+            "Wie een wagen zelf uit Oostenrijk wil laten vertrekken, gebruikt een Überstellungskennzeichen. Dat is minstens drie en hoogstens eenentwintig dagen geldig en vraagt een verzekering bij een Oostenrijkse verzekeraar voor die periode. Meestal regelt de Oostenrijkse handelaar dat. De waarborg voor de platen wordt terugbetaald als ze binnen het jaar terugkomen.",
+            "Er zijn andere wettelijke opties: een gewone of tijdelijke plaat van het land van bestemming, de gewone Oostenrijkse plaat zolang de wagen nog is ingeschreven, of vervoer op een aanhangwagen. Een open meerlaagse transporter valt in de laatste categorie. Het voordeel voor een Belgische koper is dat hij geen lange rit met tijdelijke platen moet plannen en geen verzekering voor die platen hoeft af te sluiten."
+          ]
+        },
+        {
+          "heading": "Onderweg: Duitsland op zondag",
+          "body": [
+            "Wie van Passau naar België rijdt, doorkruist Duitsland. Daar geldt voor vrachtwagens boven 7,5 ton op zon- en feestdagen een rijverbod van 0 tot 22 uur. Een transporter die zaterdagavond Oostenrijk verlaat, staat dus ergens in Beieren stil tot maandag. Voor een koper in België die de wagen op een vaste datum verwacht, is het verstandig om een ophaling te plannen op een dag die vroeg genoeg in de week valt.",
+            "Het Duitse verbod geldt bovenop het Oostenrijkse: wie in Oostenrijk eerst nog een stuk binnenlands moet rijden voor hij de grens bij Suben haalt, verliest ook daar de zaterdagnamiddag en de zondag."
+          ]
+        },
+        {
+          "heading": "Aankomst in België: E705 en keuring",
+          "body": [
+            "Een wagen uit het buitenland moet in België worden ingevoerd voor hij op naam van de koper kan worden ingeschreven. De E705 is een gratis elektronisch signaal van de douane waarmee de DIV nagaat of het voertuig regelmatig in België is. De koper vraagt ze aan in de E705-toepassing van MyMinfin of bij een douanehulpkantoor. De wettelijke behandeltermijn is honderdtwintig dagen.",
+            "Staat de wagen nog niet op naam van de koper, dan biedt die hem met het buitenlandse inschrijvingsbewijs aan in een keuringscentrum. Daar krijgt hij het aanvraagformulier, waarna een verzekeringstussenpersoon de wagen online inschrijft. Lukt dat niet, dan geeft de verzekeraar een bewijs van afwijzing en het formulier met verzekeringsvignet terug, en gaat het dossier per post of op afspraak naar de DIV."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Lichtenbusch en de E40 naar Luik",
+          "body": "Bij Lichtenbusch gaat de Duitse A44 uit Aken over in de Belgische E40/A3 richting Luik en Brussel. Voor een wagen uit Oostenrijk is dit meestal de eerste Belgische afrit. Daar begint ook het deel van de rit waarvoor de koper zijn Belgische papieren op orde moet hebben."
+        },
+        {
+          "kind": "plek",
+          "title": "Knooppunt Loncin bij Luik",
+          "body": "Bij het knooppunt Loncin komen de E40, de E42 en de E25 samen, en de E40 steekt de Maas over in Herstal. Een transporter naar Limburg, Antwerpen of de kust moet hier kiezen. Wie in Luik of Namen woont, rijdt vanaf hier de laatste kilometers over andere wegen dan een koper in Brugge."
+        },
+        {
+          "kind": "regel",
+          "title": "Car-Pass bij een wagen uit het buitenland",
+          "body": "Op de Car-Pass van een ingevoerde wagen staat dat hij tweedehands uit het buitenland komt. Meestal ontbreken de kilometerstanden uit de periode vóór de Belgische inschrijving. Een Belgische koper doet er dus goed aan de kilometerstand en het onderhoudsboekje van de Oostenrijkse verkoper vooraf vast te leggen."
+        },
+        {
+          "kind": "tip",
+          "title": "Visuele keuring na een recente EU-keuring",
+          "body": "Is de wagen minder dan twee maanden geleden gekeurd in een andere EU-lidstaat en heeft hij een groen keuringsbewijs met normale geldigheid, dan volstaat in Vlaanderen een visuele keuring in plaats van een volledige. Laat de Oostenrijkse verkoper de recente keuring dus meegeven."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke stukken heeft de Oostenrijkse verkoper nodig voor een overbrengingsplaat?",
+          "a": "De aanvrager toont een identiteitsbewijs, een eigendomsbewijs zoals het koopcontract, het Typenschein en een verzekeringsbevestiging. Is de keuring vervallen, dan hoort er een actueel keuringsverslag bij. Aanvragen kan bij elke Zulassungsstelle in het gebied waar de aanvrager zich bevindt."
+        },
+        {
+          "q": "Moet mijn Belgische koper nog belasting betalen bij de inschrijving?",
+          "a": "In Vlaanderen betaalt de eigenaar van een nieuw of tweedehandsvoertuig een eenmalige belasting op de inverkeerstelling, verschuldigd vanaf het moment dat de wagen op de openbare weg wordt gebruikt. De Vlaamse Belastingdienst int ze, in Brussel en Wallonië gelden andere diensten."
+        },
+        {
+          "q": "Wie keurt de wagen in België: de federale overheid of het gewest?",
+          "a": "De technische keuring is een bevoegdheid van de gewesten. Vlaanderen, Brussel en Wallonië geven elk eigen instructies aan de keuringsstations op hun grondgebied. De koper gaat dus naar een station in het gewest waar de wagen ingeschreven zal worden."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar België: overbrengingsplaat, route via Passau, E705 en keuring. Mcars brengt uw verkochte wagen open naar de koper.",
+      "sources": [
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Ueberstellung-des-Kfz-in-ein-anderes-EU-Land-als-Oesterreich",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://fin.belgium.be/nl/particulieren/internationaal/voertuig-importeren",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-importeren/voertuig-ingevoerd-uit-de-eu",
+        "https://www.car-pass.be/nl/faq",
+        "https://nl.wikipedia.org/wiki/A3_%28Belgi%C3%AB%29",
+        "https://mobilit.belgium.be/nl/weg/voertuigen/technische-controle"
+      ]
+    },
+    "oostenrijk-nederland": {
+      "lead": "Een wagen die van Oostenrijk naar Nederland gaat, volgt dezelfde as als veel Nederlandse wintersportgangers: de A1 naar het westen, door Duitsland tot Zevenaar. In Wenen en omgeving hangt daar nog een milieuzone en een afmelding aan vast. Aan Nederlandse kant draait alles om een afspraak bij de RDW en de bpm-aangifte.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A1 West Autobahn, Duitse A3 en bij Zevenaar de A12"
+        },
+        {
+          "label": "Milieuzone Wenen",
+          "value": "Vrachtwagens Euro 2 of slechter verboden, Oostenrijkse plakette vereist"
+        },
+        {
+          "label": "RDW",
+          "value": "Keuring op afspraak, met origineel buitenlands kentekenbewijs en identiteitsbewijs"
+        },
+        {
+          "label": "Belasting NL",
+          "value": "Bpm-aangifte volgt na de keuring bij de Belastingdienst"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Wenen: de A1 en de milieuzone",
+          "body": [
+            "Wenen ligt volledig binnen Niederösterreich en heeft zelf geen landsgrens. Wie vanuit de hoofdstad naar het westen vertrekt, rijdt over de A1 West Autobahn via St. Pölten en Linz richting Duitsland. Dat is dezelfde weg waarlangs verkeer uit Duitsland en België het land binnenkomt.",
+            "Rond Wenen, in het oosten van Niederösterreich en in delen van Oberösterreich en de Steiermark zijn vrachtwagens en trekkers van klasse Euro 2 en slechter verboden. Wie er wel mag rijden, draagt een Oostenrijkse Abgasplakette (IG-L). Plaketten uit andere landen gelden niet. Die plakette krijgt een vervoerder bij garages, autoclubs en keuringsstations van de deelstaten. Voor een verkochte wagen is dat de reden om bij het plannen van een stadsophaling te vragen welk voertuig de transporter inzet."
+          ]
+        },
+        {
+          "heading": "Wat de Nederlandse koper van u nodig heeft",
+          "body": [
+            "De buitenlandse koper moet van de Oostenrijkse verkoper minstens het koopcontract of de factuur krijgen, beide delen van het kentekenbewijs en het COC. Zonder COC kan hij bij de Generalimporteur van het merk een uittreksel uit de Genehmigungsdatenbank vragen.",
+            "Eerlijk gezegd bepaalt de Nederlandse inschrijving wat er precies nodig is, niet de Oostenrijkse verkoper. Laat de koper daarom vooraf nakijken welke extra documenten Nederland vraagt. Sommige EU-lidstaten erkennen de Oostenrijkse technische keuring, maar dat staat los van de Nederlandse regels. Een compleet dossier met factuur, kentekenbewijs, COC en bewijs van afmelding voorkomt dat de wagen op een keuringsstation blijft wachten op een stuk uit Wenen."
+          ]
+        },
+        {
+          "heading": "Duitsland als doorgangsland",
+          "body": [
+            "Tussen de Oostenrijkse grens en Zevenaar ligt een lange Duitse rit. De A3 loopt van Passau tot Elten aan de Nederlandse grens en is ongeveer 778 kilometer lang. Voor vrachtwagens boven 3,5 ton wordt Toll Collect geheven. In de zomer geldt op geselecteerde wegen een extra zaterdagverbod van 7 tot 20 uur, van juli tot en met augustus.",
+            "Aan Nederlandse kant sluit de A12 bij Zevenaar aan op de Duitse A3. Voor een koper in Gelderland of Utrecht is dat de snelste aanrijroute. De wagen komt dus aan in de regio waar de A12 het land in loopt, en verder naar de Randstad gaat het over bekende Nederlandse snelwegen."
+          ]
+        },
+        {
+          "heading": "De Nederlandse inschrijving: RDW, kenteken en bpm",
+          "body": [
+            "Een auto uit een EU-land invoeren begint met een afspraak bij een RDW-keuringsstation. De aanvrager is minstens achttien jaar en staat in de BRP, of is een in Nederland gevestigde rechtspersoon met KvK-inschrijving. Naar de keuring gaan het originele buitenlandse kentekenbewijs en een geldig identiteitsbewijs. Een CvO is optioneel. Na de keuring mag er niet gereden worden tot het Nederlandse kentekenbewijs er is.",
+            "Daarna volgt de bpm-aangifte bij de Belastingdienst. Voor een gebruikte auto mag de bpm verlaagd worden met de koerslijst, een taxatierapport of de forfaitaire tabel; de gekozen methode is definitief. De Belastingdienst kijkt bij gebruikte auto's ook of de waarde op de koerslijst klopt. Een opvallend lage bpm bij een dure importauto kan volgens de ANWB wijzen op grote schade in het verleden."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "BCA in Barneveld",
+          "body": "BCA, het veilinghuis voor ex-lease- en inruilwagens, heeft zijn Nederlandse veilingcentrum in Barneveld en houdt er ook youngtimer- en klassiekerveilingen. Wie daar een Oostenrijkse wagen wil aanbieden of er een heeft gekocht, laat hem op die locatie afleveren of ophalen."
+        },
+        {
+          "kind": "regel",
+          "title": "Eendagskenteken voor de keuring",
+          "body": "Het eendagskenteken is gratis, maar enkel aan te vragen als er al een afspraak op een RDW-keuringsstation staat. Het geldt alleen in Nederland en alleen op de dag van de keuring, voor de kortste route heen en terug. De auto moet verzekerd zijn en u maakt de witte platen zelf."
+        },
+        {
+          "kind": "plek",
+          "title": "Zestien RDW-keuringsstations",
+          "body": "De RDW heeft zestien keuringsstations, onder meer in Arnhem, Veldhoven, Venlo, Rijen, Roosendaal en Zwolle. Kies het station dat het dichtst bij het afleveradres ligt. Nieuwegein is tijdelijk gesloten voor verbouwing, dus kijk de actuele lijst na."
+        },
+        {
+          "kind": "tip",
+          "title": "Pechhulp op buitenlandse platen",
+          "body": "Wie op een buitenlands kenteken naar Nederland rijdt, heeft geen recht op pechhulp van de Wegenwacht. Dat is een extra reden om een wagen die niet ingeschreven is, per transporter te laten komen in plaats van zelf de hele reis met een tijdelijke of buitenlandse plaat te maken."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag de Nederlandse koper de wagen gewoon zelf ophalen?",
+          "a": "Dat lukt vaak niet, omdat het Oostenrijkse kenteken bij export vervalt en een tijdelijk kenteken meestal enkel in het land van aankoop geldt. Wordt de wagen op een autotransporter opgehaald, dan is er geen kenteken nodig voor de rit."
+        },
+        {
+          "q": "Is een Oostenrijkse keuring in Nederland geldig?",
+          "a": "De RDW kan de vervaldatum van een nog geldige APK uit een EU-land overnemen. Als bewijs gelden het originele keuringsrapport, een vermelding op het buitenlandse kentekenbewijs of een sticker op de buitenlandse plaat."
+        },
+        {
+          "q": "Wat moet ik als verkoper in een koopcontract laten vastleggen?",
+          "a": "De ANWB raadt een contract met gegevens van koper en verkoper aan, met chassisnummer, kilometerstand, datum eerste toelating, schadeverleden, bekende gebreken en de vermelding of de auto een ex-lease- of huurauto was."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Nederland: route via de A1 en Zevenaar, IG-L-milieuzone, RDW-keuring en bpm. Mcars vervoert uw wagen open.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/West_Autobahn",
+        "https://www.wko.at/transport/abgasklassen-plaketten",
+        "https://www.oeamtc.at/thema/vorschriften-strafen/ig-luft-abgasplaketten-verordnung-fahrverbote-fuer-lkw-16179408",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/invoeren-binnen-europa",
+        "https://www.rdw.nl/keuren/eendagskenteken-aanvragen",
+        "https://www.anwb.nl/auto/importeren",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://cms-europe.bca.com/en/nl/Contact/FAQ"
+      ]
+    },
+    "oostenrijk-luxemburg": {
+      "lead": "Een wagen uit Salzburg of omgeving die naar Luxemburg gaat, rijdt bijna de hele breedte van Zuid-Duitsland door: van Walserberg over München en Stuttgart tot Schengen. Aan Luxemburgse kant is de inschrijving een vaste volgorde van stappen, met een douanekantoor in het midden. Wie de wagen per transporter laat komen, vermijdt de rit met tijdelijke platen.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Walserberg, Duitse A8 over Stuttgart, bij Schengen de A13"
+        },
+        {
+          "label": "Koper",
+          "value": "Moet in Luxemburg wonen en in het nationaal register staan"
+        },
+        {
+          "label": "Douane",
+          "value": "Vignette 705 bij de ADA in Diekirch of Howald"
+        },
+        {
+          "label": "Keuring",
+          "value": "Buitenlands bewijs uit hetzelfde land als de buitenlandse inschrijving"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Salzburg: Walserberg en de A8",
+          "body": [
+            "Salzburg grenst aan Beieren. Verkeer uit München, en dus uit Frankrijk, België, Nederland en Luxemburg, komt het land binnen over de Duitse A8 en de grensovergang Walserberg bij de stad Salzburg. Voor een wagen die in de omgeving van de stad staat, is dat dus de uitgang richting Luxemburg, zonder eerst langs Tirol of Oberösterreich te hoeven.",
+            "In Oostenrijk loopt de A1 West Autobahn van Wenen naar Salzburg en verder tot de Duitse grens. Een wagen uit het oosten van het land volgt dezelfde as. Zijn de wagen en zijn papieren daar afgemeld en klaar, dan hoeft de transporter in Salzburg niets te wachten en kan hij de eerste Duitse kilometers met een volle belading maken."
+          ]
+        },
+        {
+          "heading": "Van Walserberg naar Schengen",
+          "body": [
+            "De gebruikelijke as loopt over de Duitse A8. Die rijdt van Bad Reichenhall via München, Stuttgart, Karlsruhe en Saarbrücken naar Saarlouis en Perl, en gaat bij Schengen in Luxemburg verder als A13. Wie liever de oostelijke route neemt, kan de A6 naar Neurenberg gebruiken en de A3 naar Passau, maar voor Luxemburg is de A8 de logische keuze.",
+            "Op het Oostenrijkse stuk betaalt een vrachtwagen boven 3,5 ton de kilometerheffing GO-Maut. Dat kan alleen met een goedgekeurd, werkend boordtoestel dat vóór het oprijden van de snelweg gemonteerd is. Het tarief hangt af van het aantal assen, de gereden kilometers en de emissieklasse. Een open autotransporter heeft een toestel nodig dat het juiste aantal assen kent."
+          ]
+        },
+        {
+          "heading": "Aankomst in Luxemburg: de volgorde van de SNCA",
+          "body": [
+            "Om een in het buitenland gekochte tweedehandswagen in Luxemburg in te schrijven, moet de koper in Luxemburg wonen en in het nationaal register staan. De verkoper geeft een factuur mee, of bij verkoop tussen particulieren een contract dat beide partijen ondertekenen. Guichet.lu beschrijft een vaste volgorde: een nummer reserveren bij de SNCA, platen laten maken, een BA-verzekering afsluiten, inklaren bij de ADA, het kanselarijzegel betalen bij de AED, een keuring indien nodig en daarna een afspraak bij de SNCA.",
+            "Na de bevestiging van het gereserveerde nummer krijgt de koper een ministeriële toelating per post. De platen laat hij maken bij een in Luxemburg erkende platenmaker. Ze zijn geel met zwarte tekens, in de gewone reeks twee letters en vier cijfers."
+          ]
+        },
+        {
+          "heading": "Inklaren en belasting bij de ADA",
+          "body": [
+            "Voor de vignette 705 legt de koper originelen voor: het vorige inschrijvingsbewijs, het COC, de factuur met het btw-nummer van de verkoper, het verzekeringsattest en zijn nationaal identificatienummer, en als particulier ook zijn identiteitskaart of paspoort. Een factuur zonder het btw-nummer van de verkoper brengt de koper hier dus in de problemen.",
+            "Bij de inschrijving krijgt de koper een voorlopig belastingvignet voor dertig dagen. De ADA berekent de verkeersbelasting en stuurt het bedrag; na betaling volgt het definitieve vignet. Blijft de belasting meer dan zestig dagen onbetaald, dan kan de wagen worden geïmmobiliseerd. Zonder Europees COC of bij onvolledige papieren controleert de SNCA de technische gegevens op dossier."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Douanecentra Diekirch en Howald",
+          "body": "De vignette 705 wordt afgeleverd in de douanecentra van de ADA in Diekirch (Centre douanier Nord) en in Howald bij Luxemburg-Stad. Kies het kantoor dat het dichtst bij het afleveradres ligt, want de koper moet er met alle originele stukken langs."
+        },
+        {
+          "kind": "plek",
+          "title": "Schengen, waar de A8 de A13 wordt",
+          "body": "Bij Schengen gaat de Luxemburgse A13 over in de Duitse A8. Wie uit Zuid-Duitsland komt, verlaat hier de Duitse snelweg en rijdt Luxemburg binnen in het oosten van het land, aan de Moezel. Mondorf en Remich liggen vlak achter de grens."
+        },
+        {
+          "kind": "regel",
+          "title": "Rode platen en hun beperkingen",
+          "body": "Rode platen huren bij de SNCA is bedoeld voor inwoners van Luxemburg. De geldigheid staat op de fiche de mise en circulation en bedraagt hoogstens vijftien werkdagen. Rijden met rode platen mag in Luxemburg, België en Nederland, dus niet in Duitsland of Oostenrijk."
+        },
+        {
+          "kind": "tip",
+          "title": "Erkende keuringsinstanties",
+          "body": "Een nodige keuring gebeurt bij de Société nationale de contrôle technique, DEKRA Automotive of Luerenzweiler Kontrollstatioun. Een buitenlands keuringsbewijs is enkel bruikbaar als het uit hetzelfde land komt als de buitenlandse inschrijving en in een officiële taal van Luxemburg is opgesteld of beëdigd vertaald."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een koper die niet in Luxemburg woont de wagen inschrijven?",
+          "a": "Nee. De koper moet in Luxemburg wonen en in het nationaal register staan om een in het buitenland gekochte tweedehandswagen in te schrijven. Een bedrijf of een inwoner van een buurland regelt dat dus via een Luxemburgse constructie, niet via de verkoper."
+        },
+        {
+          "q": "Mag de wagen tussen de aankoop en de inschrijving rijden?",
+          "a": "Alleen tussen het verkooppunt en de plaats van inschrijving of keuring, met rode platen of platen met het gereserveerde nummer en met een BA-verzekering. Voor de rit van Oostenrijk is vervoer op een transporter dus de praktische oplossing."
+        },
+        {
+          "q": "Wat gebeurt er met een nieuwe wagen uit een andere EU-lidstaat?",
+          "a": "Een particulier die een nieuwe wagen uit een andere EU-lidstaat meebrengt, dient formulier 446-L in bij een douanecentrum en betaalt daar de Luxemburgse btw. Bedrijven regelen dat via hun gewone btw-aangifte."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Luxemburg: route via Walserberg en de Duitse A8, inklaren bij de ADA en inschrijven bij de SNCA.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://de.wikipedia.org/wiki/West_Autobahn",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/go-maut.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/payer-taxe-vehicule-ue.html",
+        "https://snca.public.lu/fr/plaques/plaques-rouges.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/controle-technique-obligatoire-vehicule.html",
+        "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Luxembourg"
+      ]
+    },
+    "oostenrijk-frankrijk": {
+      "lead": "Tussen Oostenrijk en Frankrijk ligt geen rechtstreekse grens: een wagen uit Vorarlberg rijdt eerst door Duitsland of Zwitserland. Aan Franse kant volgt een eigen reeks stappen, van het quitus fiscal tot het certificaat van overeenstemming. Wie een verkochte wagen op een transporter laat komen, hoeft niet met buitenlandse platen door Frankrijk.",
+      "facts": [
+        {
+          "label": "Vertrek",
+          "value": "A14 tot Hörbranz, dan Lindau en de Duitse A96"
+        },
+        {
+          "label": "Vignet A14",
+          "value": "Hörbranz tot Hohenems is vignetvrij voor lichte voertuigen"
+        },
+        {
+          "label": "Quitus fiscal",
+          "value": "Nodig voor elke in een ander EU-land gekochte wagen"
+        },
+        {
+          "label": "Weekendverbod FR",
+          "value": "Zaterdag 22 uur tot zondag 22 uur, vrachtwagens boven 7,5 ton"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Vorarlberg: de A14 en Lindau",
+          "body": [
+            "Vorarlberg is de Oostenrijkse deelstaat waar verkeer uit Frankrijk, Spanje en Zwitserland binnenkomt. De A14 loopt tot de grens bij Hörbranz en sluit daar aan op de Duitse A96 naar Lindau en München. Voor een wagen die in Bregenz, Dornbirn of Feldkirch staat, is dat de eerste stap richting Frankrijk: eerst naar het noorden, dan door Duitsland naar het westen.",
+            "Op die A14 is het stuk tussen de grens bij Hörbranz en afrit Hohenems vignetvrij voor lichte voertuigen. Voor de rest van het land is een vignet nodig, en dat wordt volledig digitaal en gekoppeld aan de nummerplaat. Rijdt de koper de wagen toch een stukje zelf, bijvoorbeeld naar een station, dan moet hij daar rekening mee houden."
+          ]
+        },
+        {
+          "heading": "De weg: via Duitsland naar de Franse A4 en A35",
+          "body": [
+            "In Duitsland loopt de A5 langs Karlsruhe waar ze de A8 kruist, die oostwaarts naar Zuid-Duitsland en Oostenrijk gaat. Aan Franse kant zijn de A4 van Parijs naar Straatsburg, ongeveer 482 kilometer, en de A35 door de Elzas de gebruikelijke uitvalswegen naar Duitsland. Bij Freyming-Merlebach takt de A320 af richting Frankfurt.",
+            "Voor vrachtwagens boven 3,5 ton wordt in Duitsland de Lkw-Maut geheven door Toll Collect. In Frankrijk geldt een weekendverbod voor vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur, plus feestdagen, met extra zomerzaterdagen. Dat Franse stuk valt dus buiten de Duitse en Oostenrijkse verbodsvensters, wat de planning eenvoudiger maakt als de transporter op vrijdag laadt."
+          ]
+        },
+        {
+          "heading": "Het quitus fiscal en het certificaat van overeenstemming",
+          "body": [
+            "Een quitus fiscal is vereist voor de Franse inschrijving van elke wagen die in een ander EU-land is gekocht, of die nu nieuw is of tweedehands. De koper vraagt het aan bij de belastingdienst van zijn woonplaats. Voor de technische conformiteit volstaat het Europees certificaat van overeenstemming van de fabrikant. Dat bestaat alleen voor voertuigen tot 3,5 ton met een eerste inschrijving na 1996 en niet voor gewijzigde voertuigen of prototypes.",
+            "Zonder COC of gelijkwaardig attest is een réception à titre isolé nodig bij de Dreal van de regio. In Île-de-France heet die dienst de Drieat. Vraag de Oostenrijkse verkoper dus vooraf het COC mee te geven en geen genoegen te nemen met een kopie van een vorig dossier."
+          ]
+        },
+        {
+          "heading": "Platen en btw in Frankrijk",
+          "body": [
+            "Bij het binnenrijden van Frankrijk moeten de platen van de wagen geldig zijn, anders kan de politie het voertuig immobiliseren. Zijn de buitenlandse platen niet meer geldig, bijvoorbeeld omdat de wagen in Oostenrijk is afgemeld, dan rijdt hij met tijdelijke Franse WW-platen en een voorlopig WW-certificaat. Die reeks loopt van WW-001-AA tot WW-999-ZZ en is bestemd voor voertuigen die op hun definitieve inschrijving wachten.",
+            "Voor de btw geldt een wagen als nieuw als hij niet meer dan 6.000 kilometer gereden heeft of minder dan zes maanden na de eerste inschrijving wordt geleverd. Belasting op een nieuwe wagen uit een ander EU-land is verschuldigd in het land waar die wordt ingeschreven. Wie zowel in het land van aankoop als in Frankrijk btw betaalde, kan eerst de verkoper en dan de belastingdienst van het aankoopland om terugbetaling vragen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Freyming-Merlebach en de A320",
+          "body": "Bij Freyming-Merlebach takt de A320 af van de A4 naar Duitsland. Voor wie vanuit Oostenrijk naar Lotharingen of de Elzas rijdt, is dit de plek waar de Franse snelweg de Duitse ontmoet. Een transporter naar Straatsburg kiest een andere afrit dan een naar Metz."
+        },
+        {
+          "kind": "plek",
+          "title": "De A36 en de Rijn bij Ottmarsheim",
+          "body": "De A36, La Comtoise, loopt van Beaune via Besançon en Belfort naar de Rijn bij Ottmarsheim en sluit aan de Duitse kant aan op de A5 bij Freiburg. Het stuk tussen Mulhouse en de Duitse grens is tolvrij, een omweg die voor een zuidelijk adres in Frankrijk kan lonen."
+        },
+        {
+          "kind": "tip",
+          "title": "Het SIV-nummer blijft bij de wagen",
+          "body": "Levenslang blijft het Franse SIV-nummer, in het formaat AA-123-AA, aan het voertuig verbonden, ook wanneer het binnen Frankrijk verhuist of van eigenaar wisselt. Welke departementscode op de plaat komt, bepaalt de eigenaar zelf. Een koper kan dus ook een code kiezen die niet bij zijn woonplaats hoort."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet mijn Franse koper CO2-malus betalen op een Oostenrijkse tweedehandswagen?",
+          "a": "De malus is verschuldigd bij de eerste inschrijving in Frankrijk, ook voor tweedehandswagens uit het buitenland. Wagens met een eerste buitenlandse inschrijving vóór 1 januari 2015 en elektrische wagens zijn vrijgesteld. Het tarief hangt af van de datum van inschrijving, niet van de aankoop."
+        },
+        {
+          "q": "Wat als de Franse koper geen COC van de Oostenrijkse verkoper krijgt?",
+          "a": "Dan kan hij een gelijkwaardig attest van de fabrikant proberen, anders is een réception à titre isolé bij de Dreal van zijn regio nodig. Dat maakt de inschrijving trager, dus het loont om het COC bij de verkoper op te vragen."
+        },
+        {
+          "q": "Mag de wagen met zijn Oostenrijkse platen Frankrijk in?",
+          "a": "Alleen als de platen op het moment van binnenkomen nog geldig zijn. Zijn ze niet meer geldig, dan kan de politie de wagen immobiliseren en rijdt hij enkel met tijdelijke WW-platen en een voorlopig certificaat."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Frankrijk: vertrek in Vorarlberg, route via Duitsland, quitus fiscal, COC en WW-platen voor uw verkochte wagen.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Rheintal/Walgau_Autobahn",
+        "https://www.asfinag.at/maut-vignette/digitale-vignette/",
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F20992",
+        "https://fr.wikipedia.org/wiki/Plaque_d%27immatriculation_fran%C3%A7aise",
+        "https://fr.wikipedia.org/wiki/Autoroute_A36_(France)",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_fr.htm"
+      ]
+    },
+    "oostenrijk-duitsland": {
+      "lead": "Een wagen die van Oostenrijk naar Duitsland gaat, heeft het minst papierwerk aan de Oostenrijkse kant: een inschrijving in Duitsland geldt als afmelding in Oostenrijk. Toch zit de grootste hindernis vaak onderweg, bij Kufstein en Kiefersfelden. Aan Duitse kant wacht een Zulassungsstelle die een volledig dossier verwacht.",
+      "facts": [
+        {
+          "label": "Afmelding",
+          "value": "Inschrijving in Duitsland geldt als afgemeld in Oostenrijk"
+        },
+        {
+          "label": "Kurzzeitkennzeichen",
+          "value": "Hoogstens vijf dagen, enkel proef-, keurings- en overbrengingsritten"
+        },
+        {
+          "label": "Blokafhandeling",
+          "value": "Bij Kufstein worden vrachtwagens boven 7,5 ton gedoseerd"
+        },
+        {
+          "label": "Kfz-Steuer",
+          "value": "Loopt vanaf de dag van inschrijving, geïnd door de douane"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Tirol: Kufstein en de A12",
+          "body": [
+            "Tirol grenst aan Duitsland via de A12 tot de grens bij Kufstein en Kiefersfelden, waar de Duitse A93 aansluit. Verkeer uit België en Duitsland komt meestal bij Kufstein binnen, of over de Fernpass vanuit Reutte. Voor lichte voertuigen is het stuk van de grens tot afrit Kufstein-Süd vignetvrij.",
+            "Voor vrachtwagens ligt dat anders. Op de A93 en de A12 bij Kufstein past Tirol een Blockabfertigung toe: vrachtwagens boven 7,5 ton worden gedoseerd doorgelaten, met een beperkt aantal per uur, en de rest van het verkeer krijgt één rijstrook. De files reiken tot de Duitse A8. Een open autotransporter staat daar mee in de rij. Plan een Tiroolse ophaling dus niet op een dag met een bekende dosering, en kijk de kalender van het Land Tirol na."
+          ]
+        },
+        {
+          "heading": "Afmelden en overbrengen tussen Oostenrijk en Duitsland",
+          "body": [
+            "Normaal moet een Oostenrijkse wagen die vertrekt apart afgemeld worden. Duitsland is de uitzondering: op grond van een overeenkomst geldt een wagen die in Duitsland wordt ingeschreven als afgemeld in Oostenrijk. Voor de verkoper scheelt dat een bezoek aan de Zulassungsstelle, maar hij blijft verantwoordelijk tot de koper daadwerkelijk heeft ingeschreven.",
+            "Een Duits Kurzzeitkennzeichen is hoogstens vijf dagen geldig en mag enkel dienen voor proef-, keurings- en overbrengingsritten. Er bestaan wederzijdse afspraken met Oostenrijk, maar het kan niet gebruikt worden voor een wagen die in een andere EU-lidstaat gekocht is. Wie niet zeker is of zijn plaat de grens over mag, laat de wagen beter op een transporter komen."
+          ]
+        },
+        {
+          "heading": "Onderweg: de A8 en de Beierse omleidingen",
+          "body": [
+            "De Duitse A8 loopt over ongeveer 497 kilometer van Luxemburg tot Salzburg, via Stuttgart, Ulm, Augsburg en München. Om het korte Oostenrijkse stuk te vermijden, nemen chauffeurs de afrit Bad Reichenhall of Schwarzbach. Wie naar Tirol rijdt, neemt de A8 en dan de A93 tot Kiefersfelden.",
+            "Bij actieve blokafhandeling verbiedt Beieren doorgaand vrachtverkeer richting Oostenrijk in plaatsen langs de A8 en de A93. Ook voor personenwagens gelden daar doorgangsverboden. Een transporter kan dus niet zomaar uitwijken via kleine wegen. De Duitse vrachtwagenmaut voor voertuigen boven 3,5 ton heeft sinds de laatste hervorming een CO2-component."
+          ]
+        },
+        {
+          "heading": "De Duitse inschrijving: COC, keuring en Kfz-Steuer",
+          "body": [
+            "Voor de inschrijving van een EU-importwagen zijn de buitenlandse voertuigpapieren en het COC nodig. Ontbreekt het, dan kan het bij de fabrikant opgevraagd worden. Is dat document er niet, dan moet een keuringsinstantie zoals TÜV een Vollgutachten opmaken. Een COC ontbreekt meestal bij auto's van vóór 1996 en bij omgebouwde voertuigen. Voor wagens ouder dan drie jaar vraagt de Zulassungsstelle bewijs van een geldige periodieke keuring, en een keuring uit het EU-land van herkomst kan volstaan.",
+            "De Zulassungsbehörde houdt het buitenlandse inschrijvingsbewijs in, bewaart het zes maanden en verwittigt het Kraftfahrt-Bundesamt. Bestaat het uit twee delen en ontbreekt deel II, dan volgt een bevestiging via het KBA. De Kfz-Steuer begint op de dag van inschrijving en wordt via SEPA-domiciliëring geïnd door het Hauptzollamt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Kiefersfelden en de A93",
+          "body": "Het zuidelijke deel van de A93 loopt van Dreieck Inntal op de A8 naar grensovergang Kiefersfelden en gaat daar over in de Oostenrijkse A12 richting Innsbruck. Voor een wagen uit Tirol die naar Beieren moet, is dit de weg waar de dosering het meeste telt."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuplakette in Duitsland",
+          "body": "Of een wagen een groene milieuplakette krijgt, hangt af van de emissiesleutel in de Zulassungsbescheinigung Teil I, veld 14.1. Is de norm bij een buitenlandse wagen niet uit de papieren af te leiden, dan kan een attest van de fabrikant nodig zijn. Anders telt het jaar van eerste inschrijving."
+        },
+        {
+          "kind": "tip",
+          "title": "Keuring bij voertuigen uit buiten de EU",
+          "body": "Een voertuig met EU-typegoedkeuring dat buiten de EU of de EER in gebruik was, moet vóór de Duitse inschrijving altijd een Hauptuntersuchung ondergaan. Voor een Oostenrijkse wagen die uit Zwitserland of een ander niet-EU-land kwam, is dit dus een stap die de koper moet inplannen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik als Oostenrijkse verkoper mijn wagen apart afmelden voor een Duitse koper?",
+          "a": "Niet noodzakelijk. Op grond van een overeenkomst tussen beide landen geldt een wagen die in Duitsland wordt ingeschreven als afgemeld in Oostenrijk. Vraag de koper wel om het bewijs van inschrijving, zodat u zeker weet dat de Oostenrijkse registratie gesloten is."
+        },
+        {
+          "q": "Wat gebeurt er als deel II van het Oostenrijkse kentekenbewijs ontbreekt?",
+          "a": "Bestaat het buitenlandse inschrijvingsbewijs uit twee delen en ontbreekt deel II, dan kan de wagen in Duitsland pas ingeschreven worden na een bevestiging van de buitenlandse autoriteit via het Kraftfahrt-Bundesamt. Dat vertraagt de koper dus aanzienlijk."
+        },
+        {
+          "q": "Wat als de wagen geen EU-typegoedkeuring heeft?",
+          "a": "Dan is een Einzelgenehmigung volgens paragraaf 21 StVZO nodig, met een Vollgutachten van TÜV of DEKRA. Na een geslaagde Vollabnahme verleent de Zulassungsstelle de Einzelbetriebserlaubnis. Dat Gutachten geldt enkel in Duitsland, wat voor de koper een aparte stap betekent."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Duitsland: afmelding, Kufstein-blokafhandeling, Kurzzeitkennzeichen en Duitse inschrijving met COC en keuring.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/kurzzeitkennzeichen/",
+        "https://www.evz.de/reisen-verkehr/auto/ueberfuehrung-und-zulassung.html",
+        "https://www.tuv.com/germany/de/lp/mobilit%c3%a4t/vollabnahme/main-navigation/importeur/",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/kraftfahrzeugsteuer_node.html",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_93"
+      ]
+    },
+    "oostenrijk-spanje": {
+      "lead": "Van Tirol naar Spanje is het een van de langste ritten die een verkochte wagen kan maken: over de Brenner en door Noord-Italië, of via Duitsland en Frankrijk, tot voorbij de Pyreneeën. Aan Spaanse kant bepaalt de DGT dat de wagen eerst moet zijn uitgeschreven, en dat het keuringsstation de papieren controleert. Mcars vervoert ook de wagens van tweedeverblijvers in Spanje.",
+      "facts": [
+        {
+          "label": "Brenner",
+          "value": "A13 van Innsbruck naar Bolzano, sinds 2015 weer grenscontroles"
+        },
+        {
+          "label": "Route Spanje",
+          "value": "Italiaanse A10 en Franse A8 en A9 naar de AP-7"
+        },
+        {
+          "label": "DGT",
+          "value": "Eerst uitschrijven in het land van herkomst"
+        },
+        {
+          "label": "ITV",
+          "value": "Keuringsstation controleert wagen en papieren en maakt de fiche op"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Tirol: de Brenner en de Europabrücke",
+          "body": [
+            "Tirol grenst aan Italië. De A13 gaat over de Brennerpas, en daarnaast bestaan de Reschenpass via de B180 en het Timmelsjoch, dat alleen in de zomer open is. Voor een wagen uit Innsbruck of omgeving is de Brenner de gewone uitgang naar het zuiden. De E45 loopt van Innsbruck over de pas naar Bolzano en Verona, en de Europabrücke overspant het Silltal en geldt als een van de belangrijkste noord-zuidroutes van Europa.",
+            "Oostenrijk voerde aan de Brenner in 2015 weer grenscontroles in, nadat ze in 1997 waren afgeschaft. Een transporter met een volledige lading moet dus rekenen op controles die niet in een vaste dienstregeling vallen. Wie een wagen verkocht heeft aan iemand in Spanje, kijkt daarom naar papieren die vooraf kloppen, zodat een controle niet uitloopt op uitstel."
+          ]
+        },
+        {
+          "heading": "De weg naar het zuiden: AP-7, A9 en A10",
+          "body": [
+            "Vanuit Italië volgt de transporter de A10 van Genua, ongeveer 158 kilometer, naar de Franse grens, en dan de Franse A8 naar Menton, ongeveer 224 kilometer, en de A9, ongeveer 280 kilometer, naar La Jonquera. Daar begint de Spaanse AP-7, die over 1.007 kilometer door het hele oosten van Spanje loopt. Wie uit het noorden van Italië komt, gebruikt de A22 vanaf Modena naar de Brennerpas als aanloop.",
+            "In Spanje gelden beperkingen voor voertuigen boven 7.500 kilogram op bepaalde wegen en dagen. Controleer die kalender vooraf, want een open autotransporter valt in deze categorie. De route wisselt per seizoen: in de zomer is de AP-7 bij de grens zwaar belast, in de winter is de keuze tussen Italië en Frankrijk vooral een kwestie van pasweer."
+          ]
+        },
+        {
+          "heading": "De DGT, de ITV en het homologatiebewijs",
+          "body": [
+            "Enkel de titularis kan een buitenlandse wagen in Spanje laten inschrijven. De DGT vraagt dat het voertuig eerst in het land van herkomst voor export is uitgeschreven, dus de Oostenrijkse afmelding moet vooraf gebeurd zijn. De eerste stap is dan de ITV: het keuringsstation controleert wagen en papieren en maakt de Spaanse ITV-fiche op. Mee te brengen is het inschrijvingsbewijs van het land van herkomst en een homologatiebewijs.",
+            "Als homologatiebewijs aanvaardt de ITV het Europese gelijkvormigheidsattest, op te vragen bij het merk. Kan dat niet, dan is er een door een ingenieur opgestelde ficha reducida, en voor voertuigen van vóór 2002 een individuele homologatie die vooraf door een ingenieur wordt gemaakt. Een geldig keuringsbewijs van een andere EU-lidstaat wordt erkend zolang het geldig is volgens de Spaanse keuringsfrequenties."
+          ]
+        },
+        {
+          "heading": "Belasting en platen in Spanje",
+          "body": [
+            "De registratiebelasting, de Impuesto de Matriculación, is eenmalig en gekoppeld aan de CO2-uitstoot. Betaling, vrijstelling of niet-onderwerping bewijst de koper met modelo 576, 06 of 05 van de AEAT. In Baskenland en Navarra loopt dat via de eigen Hacienda Foral. Voor een nieuw voertuig uit een ander EU-land moet de btw aangetoond worden met modelo 309 of 300.",
+            "Een wagen die nooit in Spanje was ingeschreven, krijgt een nieuwe plaat. Via rehabilitación herkrijgt een wagen die eerder al Spaans was zijn oorspronkelijke plaat. Zolang de wagen niet is ingeschreven, mag er niet mee gereden worden, behalve met nog geldige tijdelijke platen uit het land van herkomst en met een verzekering. De platen zelf koopt de eigenaar na de inschrijving in een gespecialiseerde winkel, daarna volgt de verplichte verzekering."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Haven van Barcelona en SEAT Martorell",
+          "body": "Volgens Wikipedia is Barcelona de grootste autohaven van de Middellandse Zee, met aan de Dársena Sur twee gespecialiseerde terminals. SEAT heeft zijn fabriek en hoofdzetel sinds 1993 in Martorell aan de A-2. Voor wagens van Catalaanse kopers is dit de regio waar de rit eindigt."
+        },
+        {
+          "kind": "plek",
+          "title": "Irun en Biriatou, de westelijke grens",
+          "body": "In het westen gaat de AP-8 bij Irun over in de Franse A63 langs de Atlantische kust. Wie een wagen voor het Baskenland, Navarra of Aragón heeft, kan beter deze kant nemen dan de Middellandse-Zeekust. In Pasaia en Bilbao worden wagens ook per schip verwerkt."
+        },
+        {
+          "kind": "tip",
+          "title": "Wat de wagen in Oostenrijk aan boord moet hebben",
+          "body": "In elk meersporig voertuig in Oostenrijk horen een gevarendriehoek, een reflecterend hesje en verbandmateriaal in stofdichte verpakking. Het hesje is wettelijk enkel voor de bestuurder verplicht. Wie zelf een stuk rijdt, doet er goed aan dit mee te geven, maar bij vervoer op een transporter is het de chauffeur die dit regelt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn Spaanse koper de wagen gewoon blijven gebruiken met zijn Oostenrijkse plaat?",
+          "a": "Nee, niet zomaar. Zolang de wagen niet in Spanje is ingeschreven, mag er niet mee gereden worden. De uitzondering zijn nog geldige tijdelijke platen uit het land van herkomst, op voorwaarde dat de wagen verzekerd is."
+        },
+        {
+          "q": "Waarvoor dienen de groene tijdelijke platen?",
+          "a": "De groene tijdelijke platen gelden zestig dagen voor wagens die nog niet definitief zijn ingeschreven, bijvoorbeeld omdat ze in het buitenland gekocht zijn of een niet-Spaanse plaat hebben. Voor een nieuwe wagen bestemd voor de Canarische Eilanden, Ceuta of Melilla is dat tien dagen."
+        },
+        {
+          "q": "Welke banden zijn in Oostenrijk verplicht als de koper de wagen zelf ophaalt?",
+          "a": "Van 1 november tot 15 april zijn winterbanden op alle wielen verplicht zodra er winterse omstandigheden zijn. Sneeuwkettingen op minstens twee aangedreven wielen mogen als alternatief, maar enkel op een doorlopend sneeuw- of ijsdek."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Spanje: vertrek over de Brenner, route naar de AP-7, DGT-uitschrijving en ITV. Mcars brengt uw wagen open.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://de.wikipedia.org/wiki/Brenner_Autobahn",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/quieres-traer-o-llevarte-un-vehiculo-del-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricula-temporal-placas-verdes/",
+        "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+        "https://www.oeamtc.at/thema/vorschriften-strafen/mitfuehrpflichten-in-oesterreich-16455483"
+      ]
+    },
+    "oostenrijk-italie": {
+      "lead": "Een wagen die vanuit Oostenrijk naar Italië gaat, heeft twee deuren: de Brenner vanuit Tirol of de Tauern- en Karawankenroute vanuit Kärnten. Op beide wegen betaalt een lichte wagen een aparte trajecttol. In Italië vraagt de inschrijving via een STA om vertaalde stukken, en iemand die al in Italië woont, mag de gekochte wagen niet zelf naar huis rijden.",
+      "facts": [
+        {
+          "label": "Brenner",
+          "value": "A22 van Modena naar de pas, daar de Oostenrijkse A13"
+        },
+        {
+          "label": "Tauern",
+          "value": "A10 van Salzburg naar Villach, ongeveer 24 km tunnels"
+        },
+        {
+          "label": "Inschrijving",
+          "value": "Via een Sportello Telematico dell'Automobilista, bij Motorizzazione of ACI-PRA"
+        },
+        {
+          "label": "Keuring IT",
+          "value": "Eerste revisione na vier jaar, daarna om de twee jaar"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Kärnten: Villach en de Tauern",
+          "body": [
+            "Kärnten grenst aan Italië en Slovenië. Verkeer uit Duitsland en België komt via Salzburg en de A10 Tauern Autobahn naar knooppunt Villach. Die A10 loopt over 192,7 kilometer van Salzburg naar Villach en telt ongeveer 24 kilometer tunnels. De Tauerntunnel, 6,4 kilometer, en de Katschbergtunnel, 5,9 kilometer, hebben sinds enkele jaren een tweede buis en zijn nu tweestrooks per richting.",
+            "Voor een wagen in Klagenfurt of Villach is dat de weg naar Italië. De Italiaanse aansluiting bij Tarvisio heeft het onderzoek niet bevestigd, dus noteer dat de precieze aansluiting aan de grens best vooraf door de transporter wordt nagekeken. Zuidelijker loopt de A23 van Palmanova over Udine tot Tarvisio, waar ze aan de grens in de Oostenrijkse A2 Süd Autobahn overgaat."
+          ]
+        },
+        {
+          "heading": "Trajecttol voor lichte voertuigen",
+          "body": [
+            "Voor voertuigen tot 3,5 ton geldt op de Tauernautobahn tussen Flachau en Rennweg, met beide tunnels, een aparte trajecttol in plaats van het vignet. Hetzelfde geldt voor de A13 Brenner. Wie daar met een lichte wagen rijdt, betaalt aan het tolstation, vooraf online in de ASFINAG-Mautshop, aan een automaat of via de gratis dienst Digitale Streckenmaut FLEX, die achteraf afrekent op een geregistreerde nummerplaat.",
+            "Voor een zware autotransporter gelden andere regels: de GO-Maut, met een hoger tarief op deze Sondermautstrecken en een nachttarief van 22 tot 5 uur. Dat is de zaak van de transporteur, niet van de koper. Voor u als verkoper telt vooral dat een Brennerrit op een vaste dag wordt ingepland."
+          ]
+        },
+        {
+          "heading": "De Brenner: A22, Luegbrücke en winter",
+          "body": [
+            "De A22 Autostrada del Brennero is ongeveer 313 kilometer lang, loopt van de A1 bij Modena tot de Brennergrens en kruist bij Verona de A4. Ongeveer een derde van het verkeer is zwaar verkeer. Op de volledige A22 zijn winterbanden of sneeuwkettingen aan boord verplicht van 15 november tot 15 april.",
+            "Net over de grens in Tirol ligt de Luegbrücke op de A13, 1.804 meter lang. Daar is in principe één rijstrook per richting open, en op drukke dagen twee, waarbij voertuigen boven 3,5 ton de binnenste strook moeten nemen. Controleer de actuele situatie voor u een tijdslot afspreekt. Italië publiceert bovendien jaarlijks een kalender met rijverboden voor voertuigen boven 7,5 ton buiten de bebouwde kom, met een zomeruitbreiding op vrijdag en een piek rond 15 augustus."
+          ]
+        },
+        {
+          "heading": "De Italiaanse inschrijving via de STA",
+          "body": [
+            "Een wagen uit een ander EU-land wordt in Italië ingeschreven via een Sportello Telematico dell'Automobilista, bij de Motorizzazione, een ACI-PRA-kantoor of een erkend agentschap. Voor een gebruikte EU-wagen vraagt de STA onder meer een formulier istanza unificata, een gewaarmerkte verkoopverklaring, een identiteitsbewijs en de codice fiscale van de koper. Voor een nieuwe wagen komt het COC erbij.",
+            "Buitenlandse documenten moeten vergezeld zijn van een gecertificeerde Italiaanse vertaling, gemaakt door een consulaat, een diplomatieke vertegenwoordiging of een beëdigd vertaler. De koper betaalt rechten voor onder meer de IPT, ACI, zegelrechten en de Motorizzazione, plus de nummerplaten. Geen enkele auto mag in Italië rijden zonder carta di circolazione en inschrijving."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Fascia Verde in Rome",
+          "body": "De Fascia Verde van Rome, binnen de Grande Raccordo Anulare, is van maandag tot zaterdag permanent verboden voor benzine- en dieselwagens van Euro 3 of ouder. Bij smogalarm worden de beperkingen uitgebreid. Dat is relevant voor wie een oudere Oostenrijkse wagen naar Rome laat brengen."
+        },
+        {
+          "kind": "plek",
+          "title": "Motor Valley in Emilia-Romagna",
+          "body": "In Emilia-Romagna komen de A1, de A14, de A13 en de A22 samen, en daar ligt ook de Motor Valley met onder meer Maranello en Modena. Een transporter vanaf de Brenner passeert dit knooppunt op weg naar Midden-Italië. Het Ferrari-museum in Maranello ligt op ongeveer 300 meter van de fabriek."
+        },
+        {
+          "kind": "tip",
+          "title": "Betaal pas na controle",
+          "body": "Betaal geen voorschot of de volledige prijs voordat de documenten en de staat van de wagen zijn gecontroleerd. Ga ook na of voor de Italiaanse inschrijving technische aanpassingen nodig zijn, vooral bij wagens van buiten Europa. Een Oostenrijkse verkoper kan dat beter vooraf documenteren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn Italiaanse koper de wagen zelf met Oostenrijkse platen naar huis rijden?",
+          "a": "Een inwoner die al langer dan drie maanden in Italië woont, mag de aangekochte wagen niet zelf naar huis rijden met de buitenlandse plaat of een tijdelijke exportplaat. De bron noemt vervoer door een gespecialiseerd bedrijf als de gangbare oplossing."
+        },
+        {
+          "q": "Welke stukken horen volgens de EU bij een herinschrijving?",
+          "a": "Het kentekenbewijs, beide delen als het er twee zijn, een eigendomsbewijs, bewijs van betaalde btw, bewijs van verzekering en bewijs dat de wagen in het vorige land technisch is goedgekeurd. De Italiaanse autoriteiten moeten ook een verzekering van elke verzekeraar uit de EU aanvaarden."
+        },
+        {
+          "q": "Hoe vaak wordt een wagen in Italië gekeurd?",
+          "a": "De eerste periodieke keuring, de revisione, gebeurt binnen vier jaar na de eerste inschrijving, en daarna om de twee jaar. Een wagen die al enkele jaren oud is, kan dus kort na de inschrijving een afspraak nodig hebben."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Italië: Brenner en Tauern, trajecttol, STA-inschrijving en vertaalde documenten voor uw verkochte wagen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://en.wikipedia.org/wiki/Autostrada_A23_(Italy)",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/10/Vignette-und-Maut/Streckenmaut-f%C3%BCr-Fahrzeuge-bis-3%2C5-t",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+        "https://de.wikipedia.org/wiki/Luegbr%C3%BCcke",
+        "https://mit.gov.it/node/21641",
+        "https://europa.eu/youreurope/citizens/vehicles/registration/formalities//italy/index_it.htm",
+        "https://aci.gov.it/codice-della-strada/art-80/",
+        "https://en.wikipedia.org/wiki/Grande_Raccordo_Anulare"
+      ]
+    },
+    "oostenrijk-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU, en dat merkt een wagen uit Oostenrijk meteen aan de grens: aangifte bij de douane, een invoerbelasting en een kantonale inschrijving met eigen termijn. De rit begint vaak in Vorarlberg, waar de Rijn de grens vormt. Een transporter kan de wagen tot aan het douanekantoor brengen, maar de aangifte zelf blijft van de koper of zijn expediteur.",
+      "facts": [
+        {
+          "label": "Grens",
+          "value": "Buiten EU: aangifte bij een douanekantoor voor handelsgoederen"
+        },
+        {
+          "label": "Aangifte",
+          "value": "E-dec met factuur, inschrijvingsbewijs en identiteitsbewijs"
+        },
+        {
+          "label": "Inschrijving",
+          "value": "Termijn per kanton: Zürich één maand, Graubünden drie"
+        },
+        {
+          "label": "Rijverbod CH",
+          "value": "Boven 3,5 ton op zondag en elke nacht van 22 tot 5"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Vorarlberg: Rijnbruggen en de Arlberg",
+          "body": [
+            "Vorarlberg grenst aan Zwitserland over de Rijnbruggen bij Lustenau naar Au, Widnau en Diepoldsau, en aan Liechtenstein bij Feldkirch-Tisis en Schaanwald. Liechtenstein ligt tussen de twee landen, heeft een douane-unie met Zwitserland en neemt deel aan Schengen en de EER zonder EU-lid te zijn. Wie door de deelstaat naar de grens rijdt, doet dat over de A14 en de Zwitserse A13 vanaf St. Margrethen.",
+            "Staat de wagen in Tirol en moet hij naar Vorarlberg, dan loopt de weg door de Arlbergtunnel op de S16. Die is ongeveer veertien kilometer lang en een tolweg, met tol aan de oostzijde. Voertuigen boven 3,5 ton passeren aan beide ingangen een detector die motor-, uitlaat- en remtemperatuur controleert. De tunnel blijft gesloten voor een voertuig dat te warm is. De limiet is 80 km/u."
+          ]
+        },
+        {
+          "heading": "Douane: de wagen moet aangegeven worden",
+          "body": [
+            "Buiten het douane- en belastinggebied van de EU ligt Zwitserland. Invoerrechten bestaan op wegvoertuigen niet meer, maar de wagen moet nog altijd worden aangegeven. Bij invoer van personenwagens komt een automobielbelasting en invoer-btw. Mee te brengen zijn de elektronische aangifte, de factuur of het koopcontract, het inschrijvingsbewijs, ook als het al geannuleerd is, en een identiteitsbewijs.",
+            "De e-dec-aangifte maakt de koper met de gratis webtoepassing van de Zwitserse douane tot dertig dagen vóór de grensoverschrijding op. Aangifte van een wagen die in het buitenland is gekocht, gebeurt tijdens de openingsuren bij het grenskantoor. Verkiest u om in het binnenland in te klaren, dan vraagt u aan de grens een Vormerkschein 15.25. De douane raadt een douane-expediteur aan."
+          ]
+        },
+        {
+          "heading": "Rijverboden en tol in Zwitserland",
+          "body": [
+            "Voor voertuigen boven 3,5 ton geldt in Zwitserland een rijverbod op zondag en op acht feestdagen, in de kantons waar de dag geldt, en elke nacht van 22 tot 5 uur. Wordt een voertuig bij een overtreding aangetroffen, dan wordt het vastgehouden tot het weer mag rijden. Op alle wegen wordt voor die voertuigen de LSVA geheven, een prestatieafhankelijke zwaarverkeersheffing.",
+            "Op de A14 in Oostenrijk betalen personenwagens tol tussen Hohenems en Bludenz, vrachtwagens betalen overal. In Zwitserland zelf is de grensdouane van St. Margrethen, richting Höchst en Bregenz, vaak overbelast, onder meer omdat een autosnelwegverbinding met de Oostenrijkse A14 ontbreekt. Op een vrijdagnamiddag of voor een feestdag is dat geen goed moment voor een aflevering aan de grens."
+          ]
+        },
+        {
+          "heading": "De kantonnale inschrijving",
+          "body": [
+            "De termijn om een in het buitenland gekochte wagen in te schrijven verschilt per kanton: Zürich hanteert één maand vanaf de invoerdatum, Graubünden drie maanden. Het douaneattest 13.20 A is nodig voor de kantonnale inschrijving. In het ASTRA-portaal controleert de koper met het chassisnummer of er een elektronisch COC bestaat. Zo niet, dan is een papieren COC van dealer of fabrikant nodig.",
+            "Voor wagens die ongeveer tussen 1976 en 2006 voor het eerst in het verkeer kwamen, is een Zwitsers uitlaatgasonderhoudsdocument nodig, tenzij ze dankzij OBD vrijgesteld zijn. Een trekhaak moet bij de inschrijving gemeld worden, zodat hij op het inschrijvingsbewijs komt. Voor nieuwe personen- en bestelwagens die de CO2-doelwaarde overschrijden, volgt een sanctie die achteraf door het Bundesamt für Energie wordt geïnd."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Grensdouane St. Margrethen",
+          "body": "St. Margrethen ligt aan de Rijn, vlak bij Höchst en Bregenz. In het dorp zitten logistieke bedrijven en een groot douanevrij entrepot. Voor een wagen uit Vorarlberg is dit de gewone Zwitserse binnenkomst, met de kans op wachttijden aan de douane."
+        },
+        {
+          "kind": "plek",
+          "title": "A13 door de San Bernardino",
+          "body": "De Zwitserse A13 loopt ongeveer 195 kilometer van St. Margrethen via Chur en de San Bernardinotunnel van 6,6 kilometer naar Bellinzona en Ascona. Bij Bellinzona sluit ze aan op de A2. Voor een koper in Ticino of Graubünden is dit de gebruikelijke aanrijroute."
+        },
+        {
+          "kind": "tip",
+          "title": "Tijdelijke platen regelt het land van uitvoer",
+          "body": "Rijdt u de wagen zelf naar Zwitserland, dan zijn meestal tijdelijke buitenlandse platen nodig. Informatie hierover krijgt u van het land van uitvoer of van de verkoper, niet van de Zwitserse douane. Een koper die dit liever vermijdt, laat de wagen op een transporter naar het kantoor brengen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet de wagen bij Zwitserse invoer ook aangegeven worden als hij maar gekocht is van een Oostenrijkse garage?",
+          "a": "Ja. Een in het buitenland gekochte wagen moet bij invoer altijd aangegeven worden bij een douanekantoor voor handelsgoederen, ook als de verkoper een Oostenrijkse garage is. De aangifte gebeurt met e-dec, factuur, inschrijvingsbewijs en identiteitsbewijs."
+        },
+        {
+          "q": "Wat als de wagen buiten Europa is gebouwd?",
+          "a": "Dan vraagt bijvoorbeeld Graubünden extra bewijzen, onder meer een voorruit van gelaagd glas, een snelheidsmeter in kilometer per uur en banden die de topsnelheid aankunnen. Laat dat vooraf nakijken bij het kanton van inschrijving."
+        },
+        {
+          "q": "Valt een wagen uit Oostenrijk onder de CO2-sanctie voor nieuwe voertuigen?",
+          "a": "Wagens die meer dan twaalf maanden vóór de douaneaangifte in het buitenland werden ingeschreven, zijn vrijgesteld, net als wagens die meer dan zes maanden ingeschreven waren en meer dan 5.000 kilometer op de teller hebben."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Zwitserland: grens bij Vorarlberg, e-dec-douaneaangifte, rijverboden en kantonale inschrijving.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Rheintal/Walgau_Autobahn",
+        "https://en.wikipedia.org/wiki/Arlberg_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/Liechtenstein",
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://www.zh.ch/de/mobilitaet/fahrzeuge-kontrollschilder/import-fahrzeuge.html",
+        "https://www.gr.ch/DE/institutionen/verwaltung/djsg/stva/fahrzeugausweis/Seiten/import.aspx",
+        "https://en.wikipedia.org/wiki/A13_motorway_(Switzerland)"
+      ]
+    },
+    "oostenrijk-polen": {
+      "lead": "Een wagen uit Niederösterreich die naar Polen moet, rijdt eerst naar het noorden, naar Tsjechië, en dan via Brno en Ostrava naar de Poolse grens bij Gorzyczki. Er is geen Oostenrijkse snelweg tot aan de grens. Aan Poolse kant geldt een dubbele klok: een tijdelijke inschrijving van dertig dagen en een accijnsaangifte die sneller moet gebeuren dan veel kopers denken.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A5 tot Poysdorf, B7 naar Drasenhofen, dan Brno en D1"
+        },
+        {
+          "label": "Tijdelijke inschrijving",
+          "value": "Dertig dagen, met platen en tijdelijke vergunning"
+        },
+        {
+          "label": "Accijns",
+          "value": "Aangifte AKC-U/S binnen 14 dagen, betaling binnen 30 dagen"
+        },
+        {
+          "label": "Keuring",
+          "value": "Poolse of gelijkwaardig EU-bewijs met vervaldatum volstaat"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Niederösterreich: de A5 en Drasenhofen",
+          "body": [
+            "Niederösterreich grenst aan Tsjechië en Slowakije. De A5 loopt tot Poysdorf, dan gaat het over de B7 naar de grensovergang Drasenhofen/Mikulov en verder naar de Tsjechische D52 richting Brno. Burgenland grenst aan Hongarije, Slowakije en Slovenië. Verkeer uit Polen en Tsjechië komt over de A5 het land binnen.",
+            "Voor wagens uit het Weinviertel of uit het noorden van Wenen is dit de gewone uitgang. Een Tsjechisch bericht plaatst het eind van de vierstrooks A5 bij Poysbrunn, en de aansluiting op de Tsjechische grens bij Mikulov is gepland maar niet open. Rekening houden met de B7 betekent dus een traag stuk landweg vóór de snelweg."
+          ]
+        },
+        {
+          "heading": "Door Tsjechië naar Gorzyczki",
+          "body": [
+            "De Tsjechische D1 loopt over 376,5 kilometer van Praag via Brno en Přerov naar Ostrava en eindigt bij de Poolse grens bij Věřňovice en Gorzyczki. Ze is de drukste snelweg van Tsjechië. Voor vrachtwagens boven 3,5 ton geldt er een elektronische kilometerheffing met een boordtoestel dat aan één geregistreerd voertuig gekoppeld is, met een CO2-component volgens emissieklasse.",
+            "Tsjechië verbiedt vrachtwagens boven 7,5 ton op snelwegen en klasse I-wegen, onder meer de D1, op zon- en feestdagen van 13 tot 22 uur, en van 1 juli tot 31 augustus bovendien op vrijdag van 17 tot 21 en zaterdag van 7 tot 13 uur. In Oostenrijk geldt op zomerzaterdagen op de A4 Oost, Schwechat tot Nickelsdorf, een extra verbod van 8 tot 15 uur. Een rit richting Polen vraagt dus een vaste planning."
+          ]
+        },
+        {
+          "heading": "Polen: de rijverboden en de A1",
+          "body": [
+            "Polen kent een rijverbod voor vrachtwagens boven 12 ton op twaalf feestdagen van 8 tot 22 uur. In de zomer geldt bovendien een verbod op vrijdag van 18 tot 22, zaterdag van 8 tot 14 en zondag van 8 tot 22 uur. Op de Poolse A1, die over 584 kilometer van Rusocin bij Gdańsk naar Gorzyczki loopt, wordt e-TOLL geheven van Toruń Południe tot Piotrków Trybunalski Południe en van Woźniki tot Gorzyce.",
+            "Bij Gliwice Sośnica kruist de A1 de A4. Het noordelijke deel van de A1 is een concessie. Wie de aflevering in het zuiden van Polen plant, rekent dus niet op de volledige A1 als een gratis weg, en een transporter heeft een e-TOLL-account en een boordtoestel nodig."
+          ]
+        },
+        {
+          "heading": "De Poolse inschrijving: dertig dagen en accijns",
+          "body": [
+            "Bij het eerste bezoek aan het kantoor wordt het voertuig tijdelijk ingeschreven voor dertig dagen, met een tijdelijke vergunning en platen. De definitieve inschrijving volgt binnen dertig kalenderdagen. Is dat niet op tijd rond, dan kan de tijdelijke inschrijving met veertien dagen worden verlengd. Loopt ze af zonder dat de inschrijving definitief is, dan is de openbare weg voor de wagen verboden terrein.",
+            "De accijnsaangifte AKC-U/S moet binnen veertien dagen na het ontstaan van de belastingplicht worden ingediend, en de accijns zelf binnen dertig dagen na het binnenbrengen van de wagen betaald zijn. Dat kan elektronisch via PUESC. De grondslag is de Poolse marktwaarde, en een kunstmatig lage prijs op het contract leidt tot heraanslag. Een Oostenrijkse verkoper met een realistisch koopcontract beschermt de koper dus."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Gorzyczki en de A1 in Opper-Silezië",
+          "body": "Opper-Silezië grenst aan Tsjechië, waar de Poolse A1 bij Gorzyczki aansluit op de Tsjechische D1. Wagens uit Oostenrijk komen dus in Katowice, Gliwice of Tychy aan. De A4 doorkruist de regio via Gliwice en Katowice, en het stuk Katowice-Kraków is een tolweg met twee tolstations."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone in Warschau",
+          "body": "In Warschau zijn benzinewagens gebouwd vóór 2000, of onder Euro 3, en diesels gebouwd vóór 2009, of onder Euro 5, uit de Strefa Czystego Transportu geweerd, behalve met vrijstelling of op maximaal vier dagen per jaar. Een afleveradres daarbinnen vraagt aandacht bij oudere Oostenrijkse wagens."
+        },
+        {
+          "kind": "tip",
+          "title": "Volledig kentekenbewijs meegeven",
+          "body": "Is het buitenlandse kentekenbewijs zoek, dan is een duplicaat nodig of een attest van de instantie die het voertuig het laatst inschreef. De Poolse koper vraagt de Oostenrijkse verkoper dus altijd het volledige kentekenbewijs mee te geven, en de buitenlandse platen worden bij de inschrijving ingeleverd."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welk bewijs van keuring aanvaardt Polen voor een wagen uit Oostenrijk?",
+          "a": "De wet kent drie mogelijkheden: een attest van een Pools keuringsstation, het EU-kentekenbewijs als daarin de keuring en de vervaldatum staan, of een ander document van een bevoegde EU-instantie dat de keuring en de geldigheid bevestigt."
+        },
+        {
+          "q": "Moeten Oostenrijkse documenten vertaald worden?",
+          "a": "Documenten in een vreemde taal moeten met een Poolse vertaling van een beëdigd vertaler of een Poolse consul worden ingediend. Een EU-kentekenbewijs met enkel geharmoniseerde EU-codes hoeft niet vertaald, en een COC evenmin."
+        },
+        {
+          "q": "Wat gebeurt er als de definitieve inschrijving te laat is?",
+          "a": "Sinds begin 2024 staan er administratieve boetes op het overschrijden van de inschrijvingstermijn, in twee trappen: dertig tot honderdtachtig dagen te laat en meer dan honderdtachtig dagen te laat. Reken de dertig dagen dus strikt na."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Oostenrijk naar Polen: route via Tsjechië naar Gorzyczki, rijverboden, accijns en tijdelijke inschrijving binnen dertig dagen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Motorways_in_Austria",
+        "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/czech-republic",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=PL",
+        "https://pl.wikipedia.org/wiki/Autostrada_A1_(Polska)",
+        "https://www.etoll.gov.pl/en/",
+        "https://warszawa19115.pl/en/-/rejestracja-pojazdu-uzywanego-sprowadzonego-z-zagranicy",
+        "https://www.podatnik.info/publikacje/podatek-akcyzowy-od-samochodu-kto-i-kiedy-musi-go-zaplacic,637972",
+        "https://formularze.net/blog/rejestracja-samochodu-z-zagranicy-krok-po-kroku"
+      ]
+    }
+  }
+}

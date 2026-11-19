@@ -1,0 +1,59 @@
+{
+  "sub": "Staat uw wagen na pech of een ongeval in België en moet hij naar Spanje? Wij halen hem op en rijden hem tot bij de bestemming.",
+  "problem": {
+    "title": "Pech in België, maar de wagen moet naar Spanje",
+    "body": "De wagen viel stil in Henegouwen of elders in België, en hij hoort eigenlijk in Spanje: bij uw tweede verblijf aan de Costa Blanca, bij een garage in Barcelona, of bij een koper in het zuiden. Zelf rijden kan niet meer, en met een aanhangwagen zoveel kilometers afleggen is geen oplossing. U zoekt een transporteur die de wagen ophaalt waar hij nu staat.",
+    "situations": [
+      { "title": "Wagen naar het tweede verblijf", "body": "U overwintert in Spanje en de wagen blijft er. Na een panne in België wilt u hem daar hebben zonder zelf te rijden." },
+      { "title": "Spaanse garage of koper", "body": "Een herstelling of verkoop gebeurt in Spanje. De wagen moet er geraken zoals hij is, ook als hij niet meer start." },
+      { "title": "Gezin al naar het zuiden", "body": "U vertrok al met het vliegtuig of een andere wagen. De gestrande wagen volgt later, op een open transporter." }
+    ]
+  },
+  "solution": {
+    "title": "Van het Belgische ophaaladres tot de Spaanse deur",
+    "body": "In België halen we de wagen zelf op, ook na pech of een ongeval. Rijdt hij niet meer, dan trekt de lier hem op de oplegger, en is hij volledig geblokkeerd dan regelen we een heftruck ter plaatse. U geeft ons het ophaaladres, het afleveradres in Spanje en vertelt wat er mis is. Een offerte op maat volgt binnen 24 uur. Onze chauffeur maakt bij ophaling foto's en de CMR op. Daarna rijdt de wagen op een open, meerlaagse transporter naar de Spaanse kant, verzekerd tijdens het transport."
+  },
+  "usps": [
+    { "title": "Ophaling in heel België", "body": "Wij rijden dagelijks in België. Staat de wagen in Henegouwen, Vlaanderen of bij een lokale garage, dan komen wij hem halen." },
+    { "title": "Ervaring met Spanje", "body": "Wij vervoeren wagens van tweedeverblijvers naar Spanje. Het soort rit waarbij de wagen er moet staan als u aankomt, kennen wij." },
+    { "title": "Lier en heftruck", "body": "De lier zit op elke vrachtwagen. Voor een volledig geblokkeerde wagen vragen we vooraf een heftruck ter plaatse." },
+    { "title": "Eén aanspreekpunt", "body": "U spreekt van de aanvraag tot de levering met dezelfde persoon. De chauffeur belt zelf op de dag van ophaling en aflevering." }
+  ],
+  "steps": [
+    { "title": "Aanvraag en offerte", "body": "U geeft het Belgische ophaaladres en de Spaanse bestemming door, met de staat van de wagen. Een offerte op maat krijgt u binnen 24 uur." },
+    { "title": "Planning met beide kanten", "body": "Wij spreken af met u of de garage in België en met de ontvanger in Spanje wie waar en wanneer aanwezig is." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur keurt de wagen, neemt foto's en maakt de CMR op. Een particulier betaalt vooraf, een bedrijf op factuur." },
+    { "title": "Levering in Spanje", "body": "De chauffeur brengt de wagen naar het adres in Spanje, bijvoorbeeld een woning aan de kust, en geeft de papieren af." }
+  ],
+  "care": {
+    "title": "Wij verzorgen alles, ook de CMR",
+    "body": "Voor een lange rit naar het zuiden wilt u weten in welke staat de wagen vertrok. Daarom inspecteert de chauffeur hem bij ophaling, vult de CMR in en neemt foto's. Die foto's houden wij intern bij. Onderweg blijft de wagen verzekerd en bij aflevering vergelijkt de ontvanger de staat met de CMR. Zo is er geen discussie achteraf.",
+    "items": ["Inspectie bij ophaling", "Foto's als intern bewijs", "CMR-vrachtbrief mee onderweg", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Spanje",
+    "body": "Spanje staat op ons traject, vooral bij wagens van tweedeverblijvers. Aan Belgische kant kennen we de regio's waar we dagelijks komen, en aan Spaanse kant weten we dat een ontvanger vooraf moet weten wanneer wij toekomen. Bij de Spaanse overheid kan een wagen na een ongeval op een stalling belanden en veel te lang blijven staan. Voor zo'n situatie rijden we zowel naar Catalonië als naar de Costa Blanca.",
+    "regions": ["Henegouwen", "Catalonië", "Valencia", "Costa Blanca", "Costa del Sol", "Baskenland"]
+  },
+  "faq": [
+    { "q": "Moet de wagen nog rijden om mee te kunnen?", "a": "Nee. De lier trekt hem op de oplegger. Staat hij helemaal vast, dan voorzien we een heftruck ter plaatse. Meld dat wel duidelijk bij uw aanvraag." },
+    { "q": "Wie ontvangt de wagen in Spanje?", "a": "U geeft ons vooraf de naam en het telefoonnummer van de ontvanger. De chauffeur belt hem op de dag zelf voor de afspraak." },
+    { "q": "Regelt Mcars iets met de Spaanse papieren?", "a": "Nee. Wij vervoeren de wagen met CMR-vrachtbrief. Inschrijving, keuring of andere formaliteiten regelt u zelf of via een Spaanse gestor of dealer." },
+    { "q": "Waar kan ik de wagen zelf naartoe brengen?", "a": "Naar ons depot in Roeselare, aan de Moorseelsesteenweg 16B. Aanleveren kan dag en nacht en is voordeliger dan een ophaling bij u thuis." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Afspraak is afspraak: een vaste chauffeur uit ons team staat op het afgesproken moment bij uw wagen, ook voor de verre rit naar Spanje.",
+    "snel": "Wij plannen uw aanvraag vlot in en de wagen is zo snel mogelijk onderweg, zodat hij u in Spanje niet lang laat wachten.",
+    "volgbaar": "U kunt de wagen volgen met track en trace, en op de dag zelf belt de chauffeur om de aankomst door te geven.",
+    "verzekerd": "Vanaf het laden tot het afleveren is de wagen verzekerd, en de CMR-vrachtbrief bewijst in welke staat hij is meegegaan."
+  },
+  "reasons": [
+    { "title": "Ervaring die telt", "body": "Sinds jaren brengen wij wagens van en naar het buitenland, dus een pechgeval met een bestemming aan de zonnekust is ons vertrouwd." },
+    { "title": "Hart voor auto's", "body": "Wij doen dit werk graag. Elke wagen, hoe stuk ook, verdient een zorgvuldige behandeling van het laden tot het lossen." },
+    { "title": "Honderden ritten achter de rug", "body": "Na honderden ritten weten we hoe een gestrande wagen het best geladen wordt, en dat geeft rust op een lange afstand." },
+    { "title": "Geen onderaannemers", "body": "Uw wagen reist met onze eigen chauffeurs, niet met een anonieme onderaannemer. Dat houdt de lijnen kort en de verantwoordelijkheid duidelijk." },
+    { "title": "Voor elk voertuig", "body": "Personenwagens, SUV's, oldtimers, sportwagens, moto's, buggy's en aanhangwagens: wat u ook naar Spanje wilt brengen, wij nemen het op onze open transporters mee." },
+    { "title": "Blijven vernieuwen", "body": "Wij kijken telkens hoe het beter kan, in onze planning, onze communicatie en ons materiaal, zodat u steeds minder moet nadenken." }
+  ],
+  "seoDescription": "Depannage van België naar Spanje: wij halen uw wagen na pech of ongeval op in België en leveren hem af in Spanje. Offerte binnen 24 uur."
+}

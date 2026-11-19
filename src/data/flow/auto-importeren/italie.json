@@ -1,0 +1,59 @@
+{
+  "sub": "U kocht een wagen in Italië en wilt hem in België. Mcars haalt hem op bij de verkoper en brengt hem op een open meerlaagse transporter naar u.",
+  "problem": {
+    "title": "Gekocht in Italië, maar hoe komt de wagen thuis?",
+    "body": "Het aanbod in Italië is groot, zeker voor Italiaanse merken en sportieve modellen. Zodra de koop rond is, begint het gepuzzel. De wagen staat bij een dealer of een particulier, soms zonder geldige plaat. De verkoper moet het kentekenbewijs en het eigendomsbewijs meegeven, en niemand wil een wagen zomaar laten rijden. Intussen wilt u vooral weten wie hem ophaalt en wanneer hij bij u staat.",
+    "situations": [
+      { "title": "Dealer in Noord-Italië", "body": "U kocht bij een handelaar, en de wagen staat poetsklaar op zijn terrein. Wij spreken met hem een ophaalmoment af en laden hem zonder dat u zelf moet afreizen." },
+      { "title": "Particulier verkoper", "body": "Een privéverkoper heeft geen vaste openingsuren. Wij bellen hem rechtstreeks, spreken een afhaalplek af en nemen de wagen over zodra de papieren kloppen." },
+      { "title": "Wagen zonder geldige plaat", "body": "Is de wagen uitgeschreven of nog nooit ingeschreven, dan mag hij niet zelf de grens over. Op onze transporter hoeft hij ook niet te rijden." }
+    ]
+  },
+  "solution": {
+    "title": "Wij halen uw Italiaanse wagen op en brengen hem naar België",
+    "body": "U geeft ons het adres van de verkoper, het merk en het model. Een offerte op maat krijgt u binnen 24 uur. Daarna laat een van onze eigen chauffeurs de wagen laden op een open meerlaagse transporter met Kässbohrer-opbouw. Bij ophaling controleren we de wagen, nemen we foto's en vult de chauffeur de CMR-vrachtbrief in. Daarna rijdt hij naar uw adres of naar ons depot in Roeselare. U houdt één aanspreekpunt van begin tot einde."
+  },
+  "usps": [
+    { "title": "Eén vast aanspreekpunt", "body": "U belt of mailt altijd met dezelfde persoon. Die kent uw dossier, spreekt Nederlands of Frans en geeft u gewoon antwoord." },
+    { "title": "Eigen chauffeurs", "body": "Geen onderaannemers: onze vaste chauffeurs laden en lossen zelf. De chauffeur belt u op de dag zelf voordat hij bij u aankomt." },
+    { "title": "Lier aan boord", "body": "Elke vrachtwagen heeft een lier. Start de wagen niet meer of rolt hij niet, dan krijgen wij hem toch op de transporter." },
+    { "title": "Verzekerd onderweg", "body": "Uw wagen is verzekerd tijdens het volledige transport. Wat bij ophaling is vastgelegd, ligt bij levering naast de staat waarin hij aankomt." }
+  ],
+  "steps": [
+    { "title": "Vraag een offerte", "body": "Vul het formulier in met de ophaalplaats en uw adres. U krijgt binnen 24 uur een offerte op maat, zonder verplichting." },
+    { "title": "Wij plannen de rit", "body": "We bellen de verkoper en spreken met hem een ophaalmoment af. U hoort van ons welke dag de wagen geladen wordt." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur controleert de wagen, maakt foto's en tekent de CMR-vrachtbrief samen met de verkoper. Daarna vertrekt hij richting België." },
+    { "title": "Levering bij u", "body": "De chauffeur belt vooraf en brengt de wagen naar uw adres of naar ons depot. U controleert hem samen met hem en tekent de CMR." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, ook de CMR",
+    "body": "Bij elke ophaling begint een transport met een inspectie. De chauffeur loopt rond de wagen en noteert krassen of schade. Daarbij horen foto's die wij intern bewaren als bewijs. Daarna volgt de CMR-vrachtbrief, waarop alles staat. Onderweg is de wagen verzekerd. De inschrijving, de keuring en de douane in België regelt u zelf of via uw dealer. Wij vervoeren, en leggen u graag uit welke stukken de verkoper moet meegeven.",
+    "items": ["Inspectie bij ophaling", "Foto's als intern bewijs", "Getekende CMR-vrachtbrief erbij", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor een wagen uit Italië",
+    "body": "Wie in Italië koopt, wil geen verrassingen met het vervoer. Wij kennen de manier van werken van Italiaanse dealers en weten dat een privéverkoper andere afspraken vraagt dan een garage. Onze chauffeurs rijden zowel in het noorden als in het midden van het land, en spreken Nederlands of Frans. Een wagen die zonder papieren niet verder kan, laten wij niet rijden. Hij reist op een transporter, tot bij u.",
+    "regions": ["Lombardije", "Emilia-Romagna", "Piëmont", "Veneto", "Toscane"]
+  },
+  "faq": [
+    { "q": "Welke papieren moet de Italiaanse verkoper meegeven?", "a": "Vraag het kentekenbewijs (carta di circolazione), een eigendomsbewijs, bewijs van betaalde btw, verzekering en keuring. Zonder die stukken kunt u de wagen in België niet inschrijven. Wij vervoeren, de papieren blijven bij u en de verkoper." },
+    { "q": "Mag een niet-ingeschreven wagen gewoon rijden?", "a": "In Italië niet zonder voorlopige plaat en een document met de route. Een transporter lost dat op: de wagen wordt geladen en hoeft voor deze rit zelf niet over de weg." },
+    { "q": "Kunnen jullie ook bij een particulier ophalen?", "a": "Ja. Wij bellen de verkoper zelf, spreken een plek en een uur af en maken bij ophaling foto's en een CMR-vrachtbrief op. U hoeft niet ter plaatse te zijn." },
+    { "q": "Wat als de wagen niet meer start?", "a": "Elke vrachtwagen heeft een lier om hem op te trekken. Zit hij helemaal vast, dan komt er ter plaatse een heftruck bij. Laat het ons gewoon weten bij uw aanvraag." }
+  ],
+  "pillars": {
+    "betrouwbaar": "U hoort van ons wat we doen en we doen wat we zeggen, ook als de wagen helemaal uit Italië moet komen.",
+    "snel": "Wij zetten uw aanvraag snel om in een planning, en de wagen rijdt vlot van de Italiaanse verkoper naar België.",
+    "volgbaar": "Dankzij track en trace weet u waar uw wagen zich bevindt, en de chauffeur laat het u horen bij aankomst.",
+    "verzekerd": "Uw wagen reist verzekerd mee, en met de CMR-vrachtbrief bij ophaling in Italië staat zwart op wit hoe hij erbij stond."
+  },
+  "reasons": [
+    { "title": "Jaren aan ervaring", "body": "Wie al jaren wagens vervoert, weet hoe een lange rit uit het zuiden van Europa moet verlopen." },
+    { "title": "Echt vakmanschap", "body": "Passie voor auto's zit in ons werk. Een Italiaanse sportwagen of gewone gezinswagen, wij behandelen ze met dezelfde aandacht." },
+    { "title": "Ritten bij de honderden", "body": "Honderden ritten hebben ons geleerd om vooraf alles af te spreken, zodat onderweg weinig kan verrassen." },
+    { "title": "Chauffeurs van bij ons", "body": "Geen tussenpersonen: de chauffeurs die uw wagen ophalen, werken zelf voor Mcars en zijn goed bereikbaar." },
+    { "title": "Een ruim aanbod", "body": "Personenwagens, SUV's, sportwagens, oldtimers en meer: ons aanbod aan transporten dekt wat u in Italië vond." },
+    { "title": "Met de tijd mee", "body": "Wij passen onze werkwijze aan wanneer het slimmer kan, zodat een aanvraag voor Italië eenvoudig blijft." }
+  ],
+  "seoDescription": "Auto importeren uit Italië? Mcars haalt uw gekochte wagen bij de verkoper op en brengt hem op een open transporter naar België."
+}

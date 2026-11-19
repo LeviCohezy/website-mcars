@@ -1,0 +1,1123 @@
+{
+  "service": "depannage",
+  "origin": "luxemburg",
+  "pages": {
+    "luxemburg": {
+      "lead": "Uw wagen valt stil op de A6 bij Mamer, of staat na een aanrijding in een garage in Esch-sur-Alzette, en u woont in België of verder weg. Luxemburg legt u weinig regels op, maar de regels die er zijn, zijn duidelijk: een kort snelwegnet, een strikte grens aan het slepen en één automobielclub die dag en nacht opneemt. Mcars haalt de wagen daarna op bij de garage, de stalling of het adres dat u opgeeft.",
+      "facts": [
+        {
+          "label": "Slepen op snelweg",
+          "value": "Door een andere wagen enkel tot de eerste afrit"
+        },
+        {
+          "label": "Noodnummers",
+          "value": "112 voor de hulpdiensten, 113 voor de politie"
+        },
+        {
+          "label": "Pechhulp ACL",
+          "value": "Dag en nacht bereikbaar op (+352) 26000"
+        },
+        {
+          "label": "Veiligheidsvest",
+          "value": "Dragen bij pech, binnen handbereik, niet in de koffer"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De eerste minuten na pech of ongeval",
+          "body": [
+            "Bij pech of een ongeval trekt de bestuurder het veiligheidsvest aan voordat hij uitstapt. Het vest moet daarom binnen handbereik in de wagen liggen en niet onder de bagage in de koffer. De gevarendriehoek is alleen verplicht wanneer de wagen op de rijstrook stilstaat, en op de autosnelweg zelf plaatst u hem niet. Wie op de snelweg staat, houdt het dus bij het vest en zoekt een veilige plek om te wachten.",
+            "Bel 112 bij gewonden of acuut gevaar. Die oproep komt terecht bij de noodcentrale van het Corps grand-ducal d'incendie et de secours. De politie bereikt u op 113, en voor vragen die niet dringend zijn bestaat de Ligne bleue. Voor het ophalen van de wagen achteraf heeft u die nummers niet meer nodig, wel het adres waar hij staat."
+          ]
+        },
+        {
+          "heading": "Slepen: tot de eerste afrit, niet tot thuis",
+          "body": [
+            "Een andere wagen mag een pechwagen op de autosnelweg slepen, maar enkel tot de eerste afrit. Op andere wegen reikt dat tot de eerstvolgende garage. Het is een regel voor noodoplossingen en geen manier om een wagen naar een garage in een ander land te krijgen.",
+            "Voor de terugrit naar België, Nederland of verder is dus een tweede stap nodig. De wagen staat dan bij een garage of aan een afrit, en een transporter met lier haalt hem daar weg. Is hij volledig geblokkeerd, dan komt er een heftruck ter plaatse bij. Meld dat vooraf, want het bepaalt welk materiaal mee moet."
+          ]
+        },
+        {
+          "heading": "De ACL als eerste hulp",
+          "body": [
+            "De Automobile Club du Luxembourg biedt pech- en ongevalsbijstand voor auto's, moto's en fietsen, 24 uur per dag en 7 dagen per week, op (+352) 26000. Volgens de club wordt het grootste deel van de pechgevallen ter plaatse opgelost. Lukt dat niet, dan gaat de wagen op sleeptouw naar de garage die het lid kiest, en dat hoeft niet de dichtstbijzijnde te zijn.",
+            "Kiest u zelf de garage, denk dan aan wat daarna komt. Een werkplaats met ruimte voor een grote transporter om te keren en te laden maakt de ophaling eenvoudiger. Mcars laadt de wagen daar op en rijdt hem op een open, meerlaagse autotransporter naar het adres dat u opgeeft."
+          ]
+        },
+        {
+          "heading": "Weinig snelweg, veel gewone weg",
+          "body": [
+            "Het Luxemburgse snelwegnet is ruim 150 kilometer lang en wordt volledig beheerd door de Administration des ponts et chaussées. Personenwagens betalen er geen tol, en milieuzones kent het land niet. Wie van de grote assen afwijkt, rijdt over gewone wegen door dorpen. Een adres buiten die assen ligt daarom meestal niet aan een afrit.",
+            "Geef bij een ophaling daarom altijd straat, huisnummer, de naam van de garage en een herkenningspunt door. Dan weet de chauffeur vooraf of hij met een lange oplegger kan keren en laden."
+          ]
+        },
+        {
+          "heading": "Winter: banden en geparkeerde wagens",
+          "body": [
+            "Bij ijzel, aangereden of smeltende sneeuw en ijs- of rijmplekken mag u enkel rijden met winter- of vierseizoensbanden op alle wielen, herkenbaar aan M+S of het alpine symbool. Een vaste kalenderperiode ontbreekt, en ook wagens met een buitenlandse plaat moeten zich aan de regel houden. Voor geparkeerde voertuigen geldt hij niet.",
+            "Een wagen die op een parking op transport wacht, valt dus buiten die verplichting. Rijdt u hem in de winter zelf nog naar een ophaalpunt, kijk dan eerst naar de banden. Voor vrachtwagens, bussen en zware kampeerwagens boven 3.500 kg volstaan winterbanden op de aangedreven assen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Slepen op de autosnelweg",
+          "body": "Een pechwagen mag door een ander voertuig enkel tot de eerste afrit gesleept worden, op andere wegen tot de eerste garage. Dat lost de eerste noodsituatie op, niet de terugrit. Een garage dichtbij de afrit is voor een transporter ook het makkelijkste ophaalpunt."
+        },
+        {
+          "kind": "regel",
+          "title": "Veiligheidsvest en gevarendriehoek",
+          "body": "Het vest draagt de bestuurder bij pech of na een ongeval, en motorrijders moeten er ook een bij hebben. De driehoek is alleen verplicht als de wagen op de rijstrook staat en komt niet op de autosnelweg."
+        },
+        {
+          "kind": "plek",
+          "title": "Automobile Club du Luxembourg",
+          "body": "De ACL staat dag en nacht klaar voor pech en ongevallen op (+352) 26000. Met de app stuurt een lid de exacte positie door, wat de tussenkomst versnelt. Dezelfde coördinaten helpen later ook de chauffeur van een transporter om het ophaaladres juist te vinden."
+        },
+        {
+          "kind": "regel",
+          "title": "Winterbanden bij winterse omstandigheden",
+          "body": "Bij ijzel, sneeuw of ijsplekken zijn winter- of vierseizoensbanden op alle wielen verplicht, ook voor wagens uit het buitenland. Een geparkeerde wagen valt erbuiten. Wie een wagen laat oppikken die nog moet rijden, controleert de banden vooraf."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een andere wagen mijn pechwagen op de snelweg naar België slepen?",
+          "a": "Nee. Op de Luxemburgse autosnelweg mag een andere wagen u enkel tot de eerste afrit slepen, op andere wegen tot de eerste garage. Voor de terugrit over de grens heeft u een transporter nodig die de wagen oplaadt."
+        },
+        {
+          "q": "Wat als mijn wagen na pech in een Luxemburgse garage blijft staan?",
+          "a": "Dat is een gewone situatie. Geef Mcars het adres van de garage, zeg of de wagen nog kan rijden of geblokkeerd staat, en wij komen hem ophalen. Een volledig geblokkeerde wagen vraagt een heftruck ter plaatse, een rijdende laden we met de lier."
+        },
+        {
+          "q": "Moet mijn wagen winterbanden hebben als hij geparkeerd op transport wacht?",
+          "a": "De Luxemburgse regel geldt voor wie rijdt onder winterse omstandigheden, niet voor geparkeerde voertuigen. Op een parking of bij een garage is dus niets nodig. Alleen als u de wagen nog zelf verplaatst, tellen de banden mee."
+        }
+      ],
+      "seoDescription": "Depannage in Luxemburg: wat de regels zijn bij pech, hoe de ACL werkt en hoe Mcars uw wagen ophaalt bij de garage en terugbrengt.",
+      "sources": [
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/verkeersregels",
+        "https://www.acl.lu/fr/assistance/assistance-depannage-mobilite/",
+        "https://112.public.lu/fr.html",
+        "https://police.public.lu/fr/support/contact.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/pneus-hiver.html",
+        "https://fr.wikipedia.org/wiki/Liste_des_autoroutes_du_Luxembourg",
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/milieuzones"
+      ]
+    },
+    "luxemburg-belgie": {
+      "lead": "Uw wagen blijft achter bij Steinfort of Mamer, op enkele kilometers van de Belgische grens, en hij moet naar een garage in Brussel, Namen of verder. Van Luxemburg naar België loopt één doorlopende snelweg, maar de regels voor pechhulp veranderen aan de grens. Mcars haalt de wagen op bij de garage of het adres waar hij staat en rijdt hem op een open autotransporter naar België.",
+      "facts": [
+        {
+          "label": "Doorlopende snelweg",
+          "value": "Luxemburgse A6 sluit bij Kleinbettingen aan op de Belgische A4"
+        },
+        {
+          "label": "ACL-kaart Luxembourg",
+          "value": "Dekt takelen binnen Luxemburg, de kaart geldt alleen daar"
+        },
+        {
+          "label": "Vlaamse snelweg",
+          "value": "Pech: bel 101, takelaar binnen 20 minuten ter plaatse"
+        },
+        {
+          "label": "Gevarendriehoek",
+          "value": "Minstens 100 meter achter de wagen op Belgische snelwegen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Steinfort, Mamer en de westelijke grens",
+          "body": [
+            "Steinfort ligt in het uiterste westen van Luxemburg, vlak bij Aarlen. De gemeente bestaat uit Steinfort, Hagen, Kleinbettingen en Grass. De N6 loopt er van oost naar west door, terwijl de A6 zuidelijker passeert, tussen Kleinbettingen en Kahler. Staat uw wagen aan de N6, dan staat hij niet aan een snelwegafrit en gebeurt het laden langs een gewone weg.",
+            "In Martelange vormt de Belgische N4 de grens. Aan de Luxemburgse kant staat een rij tankstations, want de accijnzen zijn er lager. Dat trekt vrachtverkeer en tankende automobilisten, dus kies voor een ophaling daar een rustig moment en een plek met ruimte."
+          ]
+        },
+        {
+          "heading": "A6 en A4: één snelweg naar Brussel",
+          "body": [
+            "De A6 werd in 1982 tot de Belgische grens doorgetrokken en ontlast sindsdien de N6, de oude weg Luxemburg-Aarlen door Mamer en Steinfort. Vanaf de stad meet ze 20,8 kilometer, langs Cessange, Strassen, Mamer en Steinfort, met onderweg het verzorgingsstation Capellen. Bij Kleinbettingen sluit ze aan op de Belgische A4, de Autoroute des Ardennes.",
+            "Samen vormen ze één doorlopende autosnelweg tussen Brussel en Luxemburg, met onderweg de ring van Namen en de Brusselse ring. Het Luxemburgse rijverbod op zon- en feestdagen voor vrachtwagens boven 7,5 ton betreft doorvoer naar Frankrijk of Duitsland. Transit naar België valt er niet onder, wat de planning van een terugrit eenvoudiger maakt."
+          ]
+        },
+        {
+          "heading": "De ACL, ook vlak bij de grens",
+          "body": [
+            "Het hoofdkantoor van de Automobile Club du Luxembourg zit in Bertrange, op 54 route de Longwy, met een diagnosecentrum en een leden- en verhuurbalie. Er is één pechnummer, dag en nacht bereikbaar. De kaart 'Luxembourg' dekt takelen binnen het land, de thuisreis van de inzittenden en een vervangwagen na ongeval of zware pech, maar blijft beperkt tot Luxemburg zelf.",
+            "Eindigt de sleepbeurt in een garage in Luxemburg, vraag dan tot wanneer de wagen daar kan blijven staan. Dan kiest u zelf het moment voor de terugrit, in plaats van onder tijdsdruk te beslissen."
+          ]
+        },
+        {
+          "heading": "Aankomst in België: wat er verandert",
+          "body": [
+            "Op Belgische autosnelwegen komt de gevarendriehoek op minstens 100 meter achter het voertuig, op gewone wegen op minstens 30 meter. Wie uitstapt op een plaats waar stilstaan verboden is, draagt een retroreflecterend veiligheidsvest. Rijden op de pechstrook is verboden, behalve voor prioritaire voertuigen, voor diensten die politie of parket oproepen en voor takelwagens.",
+            "Slepen mag alleen als het voertuig zich niet meer op eigen kracht kan verplaatsen of niet meer alle veiligheidswaarborgen biedt. Op autosnelwegen is een sleepkabel of andere noodkoppeling verboden. Staat er meer dan 3 meter tussen de voertuigen, dan hoort er een rode lap of oranje licht op de koppeling. Na pech of een ongeval in België neemt Mcars het takelwerk zelf op zich."
+          ]
+        },
+        {
+          "heading": "Ardennen en E411 in de winter",
+          "body": [
+            "Vakantieverkeer uit Nederland en Vlaanderen gebruikt de E411 richting Luxemburg, Oost-Frankrijk, Zwitserland, Italië en Spanje. Wie vanaf Namen zuidwaarts rijdt, passeert de viaducten van Beez, Sart-Bernard, Sovet en Custinne. Dinant en Han-sur-Lesse liggen op enkele kilometers van de snelweg, dus een garage daar is een haalbare ophaalplek.",
+            "Volgt de transporter de E25/A26 via Luik, dan bereikt ze bij de Baraque de Fraiture ongeveer 650 meter hoogte, het hoogste punt van een Belgische autosnelweg. De skipistes daar zijn gemiddeld 20 dagen per jaar open, wat iets zegt over de winters. Een pechwagen in de Ardennen in januari plant u dus met extra speling."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "ACL Bertrange",
+          "body": "De Automobile Club du Luxembourg ontvangt leden op 54, route de Longwy in Bertrange, met een diagnosecentrum. Een wagen die daar of bij een nabije garage staat, ligt aan de A6, op de weg naar de grens. Dat is een gemakkelijke plek om hem op te laden."
+        },
+        {
+          "kind": "regel",
+          "title": "F.A.S.T.-takeling in Vlaanderen",
+          "body": "Op een Vlaamse snelweg belt u 101. De F.A.S.T.-takelaar moet binnen 20 minuten ter plaatse zijn en brengt de wagen naar de eerstvolgende afrit of zijn depot. Doorvoeren naar huis kan tegen een toeslag per extra kilometer. De Vlaamse overheid legt maximumtarieven vast."
+        },
+        {
+          "kind": "regel",
+          "title": "Slepen op Belgische wegen",
+          "body": "Slepen is toegestaan als de wagen niet meer zelfstandig kan rijden of onveilig is, maar niet met een sleepkabel op de autosnelweg. Voertuigen die op een vlak stuk geen 70 km/u halen, mogen er niet op. Dat maakt een lierwagen vaak de verstandigere keuze."
+        },
+        {
+          "kind": "tip",
+          "title": "Brusselse ring en calamiteitenroutes",
+          "body": "Een ongeval op de Brusselse ring geeft volgens de beschikbare bronnen meteen een groot verkeersinfarct, ook buiten de spits. Na een afsluiting volgt het verkeer in Vlaanderen gele borden met een letter. Plan een ophaling in Brussel dus met speling."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wie takelt mijn wagen als hij net over de grens in België stilvalt?",
+          "a": "Op een Vlaamse snelweg belt u 101 en komt een F.A.S.T.-takelaar. In België takelt Mcars zelf na pech of ongeval, dus u kunt ons ook rechtstreeks vragen om de wagen te halen en naar uw garage te brengen."
+        },
+        {
+          "q": "Waar kan ik mijn wagen het best laten afleveren in België?",
+          "a": "Levering op ons depot in Roeselare kan 24 uur op 24 en 7 dagen op 7 en is voordeliger. Liever bij uw garage of thuis? Dan geeft u het adres door, en wij bevestigen met de offerte of de transporter daar kan laden en lossen."
+        },
+        {
+          "q": "Welk noodnummer en welke app gebruik ik in België?",
+          "a": "Het algemene noodnummer is 112. Met de app 112 BE kiest u met icoontjes tussen brandweer, ambulance en politie, zonder de nummers te moeten kennen. De app bestaat voor iPhone en Android."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar België: pech nabij Steinfort of Mamer, de A6 en E411 en hoe Mcars uw wagen ophaalt en naar België brengt.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Steinfort",
+        "https://fr.wikipedia.org/wiki/Mamer",
+        "https://fr.wikipedia.org/wiki/Martelange",
+        "https://www.acl.lu/en/contact/",
+        "https://www.acl.lu/fr/assistance/assistance-depannage-mobilite/",
+        "https://en.wikipedia.org/wiki/A6_motorway_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://wegenenverkeer.be/betrouwbaarheid/fast",
+        "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+        "https://nl.wikipedia.org/wiki/A4_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A26_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Baraque_de_Fraiture",
+        "https://www.112.be/nl",
+        "https://nl.wikipedia.org/wiki/Ring_rond_Brussel",
+        "https://wegenenverkeer.be/betrouwbaarheid/calamiteitenroutes",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/luxembourg"
+      ]
+    },
+    "luxemburg-nederland": {
+      "lead": "Uw wagen staat in het noorden van Luxemburg stil, bij Ettelbruck of Wiltz, en moet naar een garage in Eindhoven, Rotterdam of Maastricht. Tot aan de grens ligt daar geen snelweg, en daarna volgt nog een flink stuk België. Mcars haalt de wagen op bij het adres of de garage en brengt hem op een open autotransporter naar Nederland.",
+      "facts": [
+        {
+          "label": "N7 noordwaarts",
+          "value": "71 km gewone weg van de hoofdstad tot de Belgische grens"
+        },
+        {
+          "label": "Wiltz",
+          "value": "Bereikbaar via N12, N25 en N26, niet via een snelweg"
+        },
+        {
+          "label": "ACL-app",
+          "value": "Stuurt de exacte locatie van de wagen door"
+        },
+        {
+          "label": "Na berging NL",
+          "value": "Van de rijksweg geborgen wagens: binnen drie dagen ophalen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het noorden van Luxemburg: geen snelweg",
+          "body": [
+            "Ten noorden van Colmar-Berg stopt de snelweg. De N7 is de hoofdas: 71 kilometer van de hoofdstad tot de Belgische grens, over Ettelbruck, Diekirch, Hosingen, Marnach, Heinerscheid en Weiswampach. Over de grens gaat ze verder als de Belgische N68. Het is een gewone weg met dorpskernen, geen snelweg.",
+            "Wiltz ligt op ongeveer 320 tot 500 meter hoogte en is te bereiken via de N12, de N25 en de N26. In Wemperhardt komt de N12 op de N7 uit en loopt als N62 België in. Het dorp, op ruim 500 meter hoogte tegen de grens, bestaat grotendeels uit winkelcentra en tankstations. Een ophaling daar of in Wiltz vraagt een transporter die kan manoeuvreren op smalle wegen."
+          ]
+        },
+        {
+          "heading": "Locatie en vrije doorgang",
+          "body": [
+            "Via de app van de ACL gaat de exacte locatie van de wagen naar de hulpdienst, zodat die sneller ter plaatse is. Hetzelfde adres of dezelfde coördinaten helpen ook ons: een chauffeur die voor een lange oplegger zoekt, wil weten welke weg hij moet nemen en waar hij mag laden.",
+            "Staat u in de file, dan moet er in Luxemburg een reddingsstrook vrij blijven voor de hulpdiensten. De wegbeheerder herinnert er zelf aan op cita.lu. Op wegen met meerdere stroken per richting mag de pechstrook gebruikt worden om plaats te maken. Een wagen die dan toch op het wegdek blijft staan, is een hinder voor de hulp en voor een latere ophaling."
+          ]
+        },
+        {
+          "heading": "Via Luik of via Brussel naar Nederland",
+          "body": [
+            "De korte weg loopt via de E25. In België volgt ze de A4 van Aarlen naar Neufchâteau, rond Luik de A3 en A602 en daarna de A25 tussen Luik en Visé. Aan Nederlandse kant gaat ze verder als A2, die 217 kilometer van Amsterdam naar de Belgische grens bij Maastricht loopt.",
+            "Wie liever via Brussel rijdt, volgt de Autoroute des Ardennes, de A4 en E411 via Namen. Welke weg de chauffeur neemt, hangt af van waar de wagen in Nederland moet zijn. Voor Maastricht, Limburg en Eindhoven ligt de E25 voor de hand."
+          ]
+        },
+        {
+          "heading": "Aankomst in Nederland: berging en politie",
+          "body": [
+            "Een voertuig komt na een ongeval pas in aanmerking voor berging als het niet meer kan rijden en de politie het onderzoek heeft afgerond. Een wagen die van de rijksweg is geborgen, moet binnen drie dagen worden opgehaald via het Landelijk Afhandelpunt Wegsleepregeling. Dat is krap voor wie in België of Luxemburg woont.",
+            "Geef daarom zo snel mogelijk door waar de wagen staat en waar hij heen moet. Bij pech op de snelweg geeft u uw locatie door met het hectometerpaaltje: wegnummer, hectometer en de letter voor links of rechts. Zo kan later ook een transporter de plek terugvinden."
+          ]
+        },
+        {
+          "heading": "Maastricht en de tunnel",
+          "body": [
+            "Tot december 2016 werd de A2 in Maastricht onderbroken door een stuk N2 met verkeerslichten. De vierstrooks Koning Willem-Alexandertunnel, in twee lagen gebouwd, heeft die onderbreking weggenomen. Bij pech in een tunnel rijdt u als het kan naar buiten. Lukt dat niet, dan zet u de alarmlichten aan, parkeert zo dicht mogelijk tegen de wand, zet de motor af en laat de sleutel in het contact.",
+            "Loop daarna langs de wand in de rijrichting naar de dichtstbijzijnde hulppost en bel via de noodtelefoon de wegverkeersleider, die instructies geeft. Wie de wagen achterlaat in een tunnel, moet er rekening mee houden dat hulpdiensten hem kunnen verplaatsen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Drie dagen na berging",
+          "body": "Een voertuig dat door de wegbeheerder van de rijksweg is geborgen, moet binnen drie dagen worden opgehaald. De afhandeling loopt via het Landelijk Afhandelpunt Wegsleepregeling. Voor een ophaling vanuit België of Luxemburg betekent dat: plan de transporter meteen in."
+        },
+        {
+          "kind": "regel",
+          "title": "Rood kruis boven de rijstrook",
+          "body": "Een rood kruis boven een rijstrook betekent dat de strook dicht is, bijvoorbeeld omdat weginspecteurs, hulpverleners of bergers er veilig moeten werken. Het kruis negeren is strafbaar. Een stilstaande wagen of transporter hoort daar dus niet."
+        },
+        {
+          "kind": "tip",
+          "title": "U-routes na een afsluiting",
+          "body": "Is een Nederlandse snelweg na een ongeval afgesloten, dan zijn er vaste uitwijkroutes, herkenbaar aan een U met een nummer op de borden. Verderop brengen de U-borden u opnieuw op de snelweg. Een chauffeur met een lange oplegger volgt die borden ook."
+        },
+        {
+          "kind": "regel",
+          "title": "STIMVA voor vrachtauto's",
+          "body": "Voor pech en ongevallen met vrachtauto's bestaat de Stichting Incident Management Vrachtauto's. Bergingspersoneel en zwaar bergingsmaterieel worden door haar ingezet. Gaat het om een zware camionette of een vrachtwagen, dan loopt de berging dus via een andere organisatie dan bij een personenwagen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang blijft mijn wagen staan nadat hij van de Nederlandse rijksweg is geborgen?",
+          "a": "Het Landelijk Afhandelpunt Wegsleepregeling is het loket om een geborgen wagen binnen drie dagen op te halen. Zoek dus meteen een transporter en geef het bergingsadres door, zodat wij kunnen plannen wanneer we de wagen daar komen halen."
+        },
+        {
+          "q": "Hoe vindt een transporter mijn wagen op een smalle weg in het noorden van Luxemburg?",
+          "a": "Geef straat, huisnummer en de naam van de garage door. Hebt u de ACL-app, dan kan de exacte locatie worden doorgestuurd. Zo weet de chauffeur vooraf welke weg hij moet nemen en of hij met een lange oplegger kan laden."
+        },
+        {
+          "q": "Verandert er iets als het om een zware camionette gaat?",
+          "a": "Bij Nederlandse pech en ongevallen met vrachtauto's regelt een aparte stichting de berging. Mcars vervoert ook camionettes. Meld bij uw offerte het gewicht en of de wagen nog kan rijden, zodat wij weten of een lier volstaat of een heftruck nodig is."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Nederland: pech in het noorden van Luxemburg, via Luik naar Maastricht en de Nederlandse bergingsregels.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Route_nationale_7_(Luxembourg)",
+        "https://lb.wikipedia.org/wiki/Wemperhaart",
+        "https://fr.wikipedia.org/wiki/Wiltz",
+        "https://www.acl.lu/fr/assistance/assistance-depannage-mobilite/",
+        "https://www.cita.lu/",
+        "https://www.touring.be/fr/articles/regles-de-circulation-au-luxembourg",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Netherlands)",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://www.rijkswaterstaat.nl/wegen/wegbeheer/incidentmanagement",
+        "https://www.rijkswaterstaat.nl/wegen/ongeval-en-pech/pech-op-de-snelweg",
+        "https://www.rijkswaterstaat.nl/wegen/ongeval-en-pech/pech-file-ongeval-of-brand-in-een-tunnel",
+        "https://www.rijkswaterstaat.nl/wegen/wegbeheer/nietvoornix",
+        "https://www.rijkswaterstaat.nl/wegen/ongeval-en-pech/vaste-uitwijkroutes",
+        "https://www.stimva.nl/"
+      ]
+    },
+    "luxemburg-frankrijk": {
+      "lead": "Op de A3 tussen Bettembourg en de Franse grens staat het sneller vast dan u verwacht: grensarbeiders, doorgaand verkeer en vrachtwagens delen twee stroken. Valt uw wagen daar stil, of staat hij na pech bij een garage in Dudelange, dan begint de terugweg bij een snelweg waar elke uur telt. Mcars haalt hem op bij de garage of het adres dat u opgeeft.",
+      "facts": [
+        {
+          "label": "A3 naar A31",
+          "value": "15 km tot de grens, dan Franse A31 tot Beaune"
+        },
+        {
+          "label": "Franse praatpaal",
+          "value": "Om de 2 km, oproep wordt meteen gelokaliseerd"
+        },
+        {
+          "label": "Franse takelaar",
+          "value": "Binnen 30 minuten ter plaatse op de snelweg"
+        },
+        {
+          "label": "Stalling depot",
+          "value": "Stallingskosten bij het depot, zelden gedekt door de verzekering"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De A3 als ophaalplek",
+          "body": [
+            "De A3 loopt van Luxemburg-stad naar de Franse grens bij Zoufftgen, over een traject van 15 kilometer waarvan 13,2 als autosnelweg. Ze heeft twee stroken per richting en op een kort stuk drie. Franse grensarbeiders gebruiken haar dagelijks, samen met doorgaand verkeer tussen Noord- en Zuid-Europa. De spits weegt daarom op elke planning.",
+            "Aan de Aire de Berchem, ongeveer 5 kilometer ten zuiden van de hoofdstad en 8 kilometer voor de grens, ligt aan beide kanten van de A3 een tankstationcomplex. Dat is een logische plek om een wagen te laten wachten voor het laden, op voorwaarde dat u het overlegt met de chauffeur."
+          ]
+        },
+        {
+          "heading": "Weekend en feestdag: de rijverboden",
+          "body": [
+            "Vrachtwagens boven 7,5 ton in transit naar Frankrijk mogen in Luxemburg niet rijden van zaterdagavond 21.30 uur tot zondagavond 21.45 uur, en hetzelfde geldt rond feestdagen. Gedurende het verbod staan ze ook niet op de openbare weg of op rustplaatsen geparkeerd. Takelwagens die bij pech of een ongeval tussenkomen, zijn net als de hulpdiensten van het verbod vrijgesteld.",
+            "De parking van Berchem richting Frankrijk is er uitgebreid omdat ze in het weekend volstond met vrachtwagens die op het einde van het Franse verbod wachtten. Frankrijk kent bovendien op een aantal zaterdagen in juli en augustus een extra verbod voor goederenvoertuigen. Zet een ophaling in het weekend dus niet te krap."
+          ]
+        },
+        {
+          "heading": "Laat een gestrande wagen niet staan",
+          "body": [
+            "Staat een voertuig langdurig foutief geparkeerd, dan kan een wielklem het immobiliseren. Wie hem vrij wil krijgen, gaat naar het dichtstbijzijnde politiekantoor. Een gestrande wagen laat u dus beter niet zomaar langs de weg staan.",
+            "Zet hem liefst bij een garage of op een privéterrein en geef ons dat adres. Voor Mcars maakt het niet uit of het een stalling, een erf of een parking is, zolang de transporter kan laden. Een rijdende wagen laden we met de lier, een geblokkeerde vraagt een heftruck ter plaatse."
+          ]
+        },
+        {
+          "heading": "Frankrijk: praatpaal, takelaar en stalling",
+          "body": [
+            "Op Franse snelwegen staat om de 2 kilometer een oranje praatpaal. Het voordeel tegenover de gsm is dat de oproep meteen gelokaliseerd is. Het nummer 112 kan ook, maar lokaliseert niet automatisch, en de app SOS Autoroute is een tweede optie. De erkende takelaar moet binnen 30 minuten ter plaatse zijn, heeft een permanentie dag en nacht en brengt wagen en inzittenden tot de afrit of tot zijn depot.",
+            "Daarna belt u uw bijstandsverzekeraar voor het verdere transport. Blijft de wagen in het depot staan, dan kunnen stallingskosten worden aangerekend, die zelden gedekt zijn. Beslis dus snel waar hij heen moet. Mcars haalt hem ook bij zo'n depot op."
+          ]
+        },
+        {
+          "heading": "Lotharingen en de A31 tot Beaune",
+          "body": [
+            "Aan de Franse kant begint de A31 bij Zoufftgen. Ze loopt 349 kilometer door Thionville en Metz, langs Nancy en Toul en ten oosten van Dijon tot Beaune, waar ze op de A6 uitkomt. Bij Hauconcourt rijden ongeveer 100.000 voertuigen per dag. Rond Thionville zijn er files van grensarbeiders, en de terugweg uit Luxemburg zit tussen 15 en 20 uur vol.",
+            "Inhalen is voor vrachtwagens op de A31 overdag verboden, van 7 tot 20 uur. Het stuk Toul tot Zoufftgen is gratis, van Beaune tot Toul is het tolweg onder APRR met de tolpoort van Gye. Bij Beaune komen de A6, de A31 en de aansluiting naar de A36 samen, de knoop voor wie verder naar het zuiden of oosten moet."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "30 minuten en 5 kilometer",
+          "body": "Op de Franse snelweg moet de erkende takelaar binnen 30 minuten ter plaatse zijn. Bij een kleine panne herstelt hij ter plaatse, anders sleept hij de wagen naar zijn garage of, op uw vraag, naar een plaats binnen 5 kilometer van de afrit. Daarna begint de keuze voor de terugrit."
+        },
+        {
+          "kind": "regel",
+          "title": "Tarieven en klachten",
+          "body": "Voor voertuigen tot 3,5 ton zijn de takeltarieven op de snelweg wettelijk vastgelegd, met een toeslag 's nachts, in het weekend en op feestdagen. Ze hangen in de cabine van de takelwagen uit en u krijgt een gedetailleerde factuur. Klachten kunnen via SignalConso bij de DGCCRF."
+        },
+        {
+          "kind": "plek",
+          "title": "Aire de Berchem",
+          "body": "Dit grote tankstationcomplex ligt aan beide kanten van de A3 in de gemeente Roeser. De vrachtwagenparking richting Frankrijk is er uitgebreid en gratis. Voor een transporter is het een gekend adres om te wachten tot een rijverbod afloopt."
+        },
+        {
+          "kind": "tip",
+          "title": "Gevarendriehoek in Frankrijk",
+          "body": "Plaats de gevarendriehoek minstens 30 meter achter de wagen, terwijl de gevarenlichten branden. Brengt dat uw leven in gevaar, dan hoeft u hem niet te plaatsen, en op de snelweg raden verzekeraars het zelfs af. Blijf bij pech op de snelweg achter de vangrail."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik zelf een takelbedrijf bellen als ik in Frankrijk op de snelweg strand?",
+          "a": "Op de Franse snelweg grijpt de erkende takelaar in, die u via de praatpaal of de app SOS Autoroute oproept. Hij brengt u tot de afrit of zijn depot. Pas daarna zoekt u de terugrit, en dan kan Mcars de wagen halen."
+        },
+        {
+          "q": "Wat gebeurt er als mijn wagen in het depot van de takelaar blijft staan?",
+          "a": "Er kunnen stallingskosten worden aangerekend, en de verzekering dekt die zelden. Hoe sneller u beslist waar de wagen heen moet en een ophaling boekt, hoe korter de stalling loopt."
+        },
+        {
+          "q": "Mag een autotransporter in het weekend door Luxemburg naar Frankrijk rijden?",
+          "a": "Vrachtwagens boven 7,5 ton in transit naar Frankrijk mogen niet rijden van zaterdagavond tot zondagavond. Dat geldt ook rond feestdagen. Een ophaling tijdens dat venster plant u daarom vooraf met de chauffeur, of u kiest een dag ervoor of erna."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Frankrijk: pech op de A3, de Franse praatpaal en takelaar en hoe Mcars uw wagen ophaalt en terugbrengt.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/A3_(Luxemburg)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://en.wikipedia.org/wiki/A3_motorway_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Aire_de_Berchem",
+        "https://paperjam.lu/article/parking-intelligent-contre-cha",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=LU",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://www.touring.be/fr/articles/regles-de-circulation-au-luxembourg",
+        "https://www.justice.fr/fiche/depannage-autoroute-regles-tarifs",
+        "https://www.maif.fr/vehicule-mobilite/guide-assurance-auto/panne-sur-autoroute",
+        "https://fr.wikipedia.org/wiki/Borne_d%27appel_d%27urgence",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F19459",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://www.bison-fute.gouv.fr/regime-general,10852.html"
+      ]
+    },
+    "luxemburg-duitsland": {
+      "lead": "Uw wagen staat in Wasserbillig, Remich of Echternach, met Duitsland aan de overkant van de Moezel of de Sûre, en hij moet naar een garage in Trier of verder het land in. De afstand is kort, maar de regels bij pech en na een ongeval zijn aan de Duitse kant strenger dan u gewend bent. Mcars haalt de wagen op waar hij staat en rijdt hem op een open autotransporter naar Duitsland.",
+      "facts": [
+        {
+          "label": "A1 naar Trier",
+          "value": "Luxemburgse A1 gaat bij Wasserbillig over in de Duitse A64"
+        },
+        {
+          "label": "Enige afrit",
+          "value": "De Duitse A64 heeft één aansluiting: Trier (B51)"
+        },
+        {
+          "label": "Hesje Duitsland",
+          "value": "Verplicht aan boord, dragen niet verplicht maar aangeraden"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Takel- en pechwagens zijn bij een noodgeval uitgezonderd"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Aan de Moezel en de Sûre",
+          "body": [
+            "Met 132 meter is Wasserbillig, waar Moezel en Sûre samenvloeien, de laagste plaats van het land. Een autoveer vaart er naar het Duitse Oberbillig, en een weg- en spoorbrug over de Sûre leiden naar Wasserbilligerbrück. Een transporter komt hier over gewone wegen aan, want de A1 eindigt bij Wasserbillig en de Duitse A64 begint pas aan de overkant.",
+            "Echternach ligt aan de Sûre, die er de grens met Rijnland-Palts vormt. De N10 en de N11 lopen door de gemeente, een snelweg is er niet."
+          ]
+        },
+        {
+          "heading": "A1 en A64: de weg naar Trier",
+          "body": [
+            "De Luxemburgse A1 is ongeveer 37 kilometer lang en loopt van de Croix de Gasperich via de Sûre naar de grens bij Wasserbillig. Daar gaat ze over in de Duitse A64, ongeveer 14 kilometer, met de Sauertalbrücke van 1.195 meter lang en 98 meter hoog. De A64 heeft maar één aansluiting, Trier (B51), en eindigt bij parking Dicke Buche als A64a. Een rechtstreekse aansluiting op de Duitse A1 ontbreekt.",
+            "Wie niet naar Trier moet, kijkt naar de Duitse A6. Die is 484 kilometer lang en loopt van de Franse grens bij Goldene Bremm in Saarbrücken via Mannheim en Heilbronn naar Waidhaus. Ze is het alternatief richting Neurenberg en Oost-Duitsland."
+          ]
+        },
+        {
+          "heading": "Pech op de Autobahn",
+          "body": [
+            "Valt een voertuig stil op een plek waar andere weggebruikers het niet tijdig als obstakel zien, dan gaan de waarschuwingslichten aan en komt de gevarendriehoek op ongeveer 100 meter, bij snel verkeer. De ADAC raadt op de Autobahn minstens 150 meter aan, ongeveer 200 stappen. Stilstaan is op de Autobahn verboden, ook op de pechstrook, en keren of achteruitrijden eveneens.",
+            "Langs de weg staat een praatpaal met een rode toets voor een ongeval en een gele voor pech. Elke standplaats is ingemeten, waardoor de centrale direct ziet waar u staat. Het veiligheidshesje moet aan boord zijn, maar een draagplicht is er niet. Na pech of een ongeval is het volgens de ADAC verstandig het toch aan te trekken."
+          ]
+        },
+        {
+          "heading": "Na een ongeval: wat Duitsland verwacht",
+          "body": [
+            "Na een ongeval moet iedereen die erbij betrokken is onmiddellijk stoppen, het verkeer beveiligen, gewonden helpen en zich bekend maken. Naam, adres, rijbewijs, inschrijvingsbewijs en verzekeringsgegevens toont u wanneer men daarom vraagt. Bij geringe schade zet u het voertuig meteen aan de kant, en sporen mogen niet worden weggewerkt voor de vaststellingen gebeurd zijn.",
+            "Via de Zentralruf der Autoversicherer vraagt u de aansprakelijkheidsverzekeraar van de tegenpartij op. U hebt de nummerplaat, de datum en het land van het ongeval nodig. Dag en nacht staat de dienst klaar in Duitsland, zonder dat u ervoor betaalt. Via een onlineformulier van het Deutsches Büro Grüne Karte geeft u een ongeval met een buitenlands voertuig door."
+          ]
+        },
+        {
+          "heading": "Eifel en Rijnland-Palts",
+          "body": [
+            "De Nürburgring ligt bij Nürburg in de Eifel, met een Nordschleife van 20,8 kilometer. Buiten events en tests mag iedereen er tegen betaling op met een wagen die voor de openbare weg toegelaten is. Een ongeval of pech op de ring eindigt dus in een garage in de buurt, vaak met een wagen die niet meer rijdt en met de lier geladen moet worden.",
+            "Rijnland-Palts heeft sinds oktober 2025 geen enkele Umweltzone meer, ook Saarland niet, dus voor een ophaling in Trier of Saarbrücken is geen sticker nodig. Op de A60 ligt tussen Winterspelt en Prüm, ongeveer 15 kilometer, maar één rijbaan. Bij Wasserbillig, op de A64/A1, trekt een groot tankstation veel Duitse tanktoeristen, dus reken daar op drukte."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Rijverbod op zon- en feestdagen",
+          "body": "Vrachtwagens boven 7,5 ton en elke vrachtwagen met aanhanger voor commercieel goederenvervoer mogen in Duitsland op zon- en feestdagen van 0 tot 22 uur niet rijden. In juli en augustus komt daar op zaterdag een verbod op 32 trajecten bij. Berging, slepen en pechhulp bij een noodgeval zijn uitgezonderd."
+        },
+        {
+          "kind": "regel",
+          "title": "Luxemburgse transit richting Duitsland",
+          "body": "Vrachtwagens boven 7,5 ton in transit naar Duitsland mogen in Luxemburg niet rijden van zaterdagavond 23.30 uur tot zondagavond 21.45 uur, ook niet vóór feestdagen. Bestemming Luxemburg is vrijgesteld. Tijdens het verbod mogen ze ook niet op de openbare weg parkeren."
+        },
+        {
+          "kind": "plek",
+          "title": "Nürburgring",
+          "body": "Op de Nordschleife van 20,8 kilometer en de Grand-Prix-baan van 5,1 kilometer rijden buiten events en tests ook gewone automobilisten. Een wagen met schade of panne op of vlak bij het circuit moet naar een garage in de Eifel. Een lier of heftruck laadt hem daar op onze transporter."
+        },
+        {
+          "kind": "tip",
+          "title": "Geen Umweltzone in Rijnland-Palts",
+          "body": "Rijnland-Palts heeft sinds oktober 2025 geen milieuzone meer, Mainz was de laatste, en ook Saarland heeft er geen. Voor een ophaling in Trier of Saarbrücken is dus geen groene sticker nodig. Voor andere deelstaten kijkt u de actuele stand na."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik op de Autobahn keren of achteruitrijden om bij een afrit te komen?",
+          "a": "Nee. Keren en achteruitrijden zijn op de Autobahn verboden, en stilstaan is dat ook, zelfs op de pechstrook. Laat de wagen daarom achter de vangrail liggen, bel via de praatpaal en wacht daar tot hulp komt."
+        },
+        {
+          "q": "Hoe vind ik de verzekeraar van de tegenpartij na een ongeval in Duitsland?",
+          "a": "Bel de Zentralruf der Autoversicherer met de nummerplaat van de tegenpartij, de datum en het land van het ongeval. Binnen Duitsland is de dienst gratis en dag en nacht bereikbaar. Ongevallen met een buitenlands voertuig kunt u ook melden bij het Deutsches Büro Grüne Karte."
+        },
+        {
+          "q": "Rijdt een autotransporter op zondag in Duitsland?",
+          "a": "De uitzondering van het zondagsverbod geldt voor berging, slepen en pechhulp bij een noodgeval. Een geplande terugrit na pech op een autotransporter staat daar los van. Rekent u er dus niet op en plan de ophaling buiten het verbod."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Duitsland: pech aan de Moezel, de A1 naar Trier en Duitse regels bij een ongeval, met ophaling door Mcars.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wasserbillig",
+        "https://fr.wikipedia.org/wiki/Remich",
+        "https://fr.wikipedia.org/wiki/Echternach",
+        "https://nl.wikipedia.org/wiki/A1_(Luxemburg)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://nl.wikipedia.org/wiki/A13_(Luxemburg)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_6",
+        "https://www.buzer.de/s1.htm?a=15&g=StVO",
+        "https://www.adac.de/rund-ums-fahrzeug/reparatur-pflege-wartung/wartung-inspektion/was-gehoert-ins-auto/",
+        "https://www.buzer.de/s1.htm?a=34&g=StVO",
+        "https://dejure.org/gesetze/StVO/18.html",
+        "https://de.wikipedia.org/wiki/Notrufsäule",
+        "https://www.zentralruf.de/",
+        "https://www.gruene-karte.de/",
+        "https://www.gesetze-im-internet.de/stvo_2013/__30.html",
+        "https://www.echo24.de/leben/auto/warnwesten-tragepflicht-mitfuehrpflicht-deutschland-italien-frankreich-oesterreich-schweiz-recht-zr-92088501.html",
+        "https://de.wikipedia.org/wiki/Nürburgring",
+        "https://de.wikipedia.org/wiki/Umweltzone",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg"
+      ]
+    },
+    "luxemburg-spanje": {
+      "lead": "Uw wagen staat in Luxemburg-stad, bij de Croix de Gasperich waar A1, A3 en A6 samenkomen, en hij moet naar uw tweede verblijf of een hersteller in Spanje. Dat is een rit dwars door Frankrijk, langs Lyon en de Rhônevallei tot Le Perthus. Mcars haalt de wagen op bij de garage of het adres in Luxemburg en brengt hem op een open autotransporter naar Spanje.",
+      "facts": [
+        {
+          "label": "Franse as",
+          "value": "A31 tot Beaune, A6 naar Lyon, A7 en A9 tot Le Perthus"
+        },
+        {
+          "label": "ACL-kaart Europe",
+          "value": "Dekt takelen en repatriëring in Europa na ongeval of zware pech"
+        },
+        {
+          "label": "V-16-licht",
+          "value": "Spaans noodlicht dat de positie doorstuurt naar het platform DGT 3.0"
+        },
+        {
+          "label": "Stalling Spanje",
+          "value": "Kosten vóór teruggave betalen, na twee maanden zonder reactie verwerkingscentrum"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Luxemburg-stad: bijstand voor het hele continent",
+          "body": [
+            "De Croix de Gasperich is het knooppunt waar de snelwegen naar België, Frankrijk en Duitsland samenkomen. Wie vanuit de stad naar het zuiden rijdt, neemt de A3 en later de A31. Voor Luxemburgse wagens die in het buitenland stranden, bestaat er een ACL-kaart 'Europe'. Die dekt daarbovenop het takelen in Europa en de repatriëring van wagen en inzittenden na een ongeval of zware pech.",
+            "Strandt een Luxemburgse wagen in het buitenland, dan keert hij meestal via de bijstand terug. Heeft u zo'n dekking niet, dan organiseert u de repatriëring zelf. Dat is het moment voor Mcars: de wagen wordt opgehaald bij de garage, de stalling of het adres, met inspectie, foto's en een CMR-vrachtbrief bij het laden."
+          ]
+        },
+        {
+          "heading": "Van Beaune naar Lyon en de Rhônevallei",
+          "body": [
+            "Bij Beaune sluit de A31 op de A6 aan, de weg tussen Parijs en Lyon, ongeveer 445 kilometer en tolweg onder APRR, behalve het stuk tussen de afritten 9 en 13. De Fourvière-tunnel op de A6 in Lyon kreeg in 2006 een lagere snelheidslimiet, van 90 naar 70 km/u. De 16 kilometer A6/A7 door de stad zijn sinds 2020 stadsboulevards.",
+            "De A7, de autoroute du Soleil, loopt ongeveer 306 kilometer van Lyon naar Marseille en draagt zwaar vrachtverkeer. In de zomer loopt het verkeer tussen Vienne en Orange op tot 180.000 voertuigen per dag. De chassé-croisé van eind juli en begin augustus geeft files van honderden kilometers. Op drukke dagen verlaagt de dynamische snelheidsregeling de limiet naar 110, 90 of 70 km/u."
+          ]
+        },
+        {
+          "heading": "A9, Le Perthus en La Jonquera",
+          "body": [
+            "Bij Orange takt de A9 af naar Nîmes, Montpellier en Spanje. Ze is 280,5 kilometer lang, deel van de E15 en E80, en loopt als 'La Languedocienne' tot Narbonne en daarna als 'La Catalane'. Wikipedia noemt de A9 gevaarlijk door het vele vrachtverkeer. De knooppunten Orange en Montpellier zijn gevoelig, en aan de Col du Perthus ontstaan files door grenscontroles.",
+            "Bij Le Perthus gaat de A9 over in de Spaanse AP-7 naar Girona en Barcelona. La Jonquera, waar de AP-7 en de N-II door de gemeente lopen, is een dienstencentrum voor het wegtransport en leeft grotendeels van de grenspost. Dat maakt het een praktisch adres voor een garage of een stalling om op de wagen te wachten."
+          ]
+        },
+        {
+          "heading": "Spaanse regels bij pech",
+          "body": [
+            "Kan de wagen nog rijden, dan moet hij de rijstroken meteen verlaten en via de rechter pechstrook naar de eerstvolgende afrit. Komt de wagen niet meer vooruit, dan verlaten de inzittenden hem aan de kant van het verkeer af, op voorwaarde dat buiten de weg een veilige plek is. Ontbreekt zo'n plek, dan zitten ze met de gordel om in de wagen te wachten. Het aanrijdingsformulier vult u niet op de rijbaan in.",
+            "Het V-16-licht staat van binnenuit op het hoogste punt van de wagen en werkt met een ingebouwde simkaart, zonder gsm of app. Pechhulpvoertuigen staan ingeschreven in het register REAV en mogen langs de weg in principe niet herstellen, tenzij het sneller gaat dan wegtakelen of nodig is om de wagen weg te halen."
+          ]
+        },
+        {
+          "heading": "Stalling, immobilisatie en wie betaalt",
+          "body": [
+            "Na een ongeval of in een gevaarlijke situatie mag de overheid een voertuig laten weghalen en stallen. De kosten zijn voor de titularis, huurder of gewone bestuurder en moeten betaald zijn voor de wagen wordt teruggegeven. De titularis moet binnen 24 uur worden verwittigd.",
+            "Staat een voertuig meer dan twee maanden in bewaring zonder dat de titularis reageert, dan kan het na een aanmaning met één maand termijn naar een verwerkingscentrum gaan. Bij immobilisatie door de politie, bijvoorbeeld wegens gevaarlijke gebreken, zijn de kosten voor de bestuurder en moeten ze betaald zijn voor de maatregel wordt opgeheven. Daarom laat u een gestalde wagen best niet achter zonder opvolging."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "V-16 in plaats van driehoek",
+          "body": "Het V-16-licht zendt de positie van de pechwagen door naar het platform DGT 3.0, zodat andere bestuurders hem in hun navigatie en op de borden boven de weg zien. Het moet gecertificeerd zijn en de DGT publiceert de goedgekeurde modellen. Wie met een Luxemburgse wagen naar Spanje wil, controleert dit vooraf."
+        },
+        {
+          "kind": "regel",
+          "title": "Stalling na ongeval of gevaar",
+          "body": "Het Spaanse verkeersrecht laat toe dat de overheid een wagen van de weg haalt en stalt, op kosten van de titularis, huurder of gewone bestuurder. Die kosten moeten betaald zijn voor de wagen terugkomt, en de titularis moet binnen 24 uur verwittigd zijn. Zo'n stalling loopt dus liefst kort."
+        },
+        {
+          "kind": "plek",
+          "title": "La Jonquera",
+          "body": "De AP-7 en de N-II lopen door de gemeente La Jonquera en gaan over de grens heen door. De gemeente is een dienstencentrum voor het wegtransport en leeft van de grenspost bij Le Perthus. Voor een ophaling of aflevering vlak achter de grens is het een natuurlijk adres."
+        },
+        {
+          "kind": "regel",
+          "title": "Twee kalenders voor de grens",
+          "body": "Frankrijk kent op het hele net een verbod voor goederenvoertuigen boven 7,5 ton op enkele zaterdagen in juli en augustus, van 7 tot 19 uur. Catalonië legt eigen beperkingen vast, en de Servei Català de Trànsit verwijst voor de AP-7 uitdrukkelijk naar de Franse kalender. Kijk dus naar beide."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waarom wordt een wagen van Luxemburg naar Spanje zo lang door Frankrijk gereden?",
+          "a": "Het traject loopt over de A31, A6, A7 en A9, vier wegen met elk hun eigen drukte, vooral de Rhônevallei in de zomer. Er is geen kortere weg dan Frankrijk door. Daarom is het verstandig de dag van vertrek en de route vooraf te bespreken."
+        },
+        {
+          "q": "Dekt mijn ACL-kaart ook een repatriëring uit Spanje?",
+          "a": "De kaart 'Europe' dekt takelen in Europa en de repatriëring van wagen en inzittenden na een ongeval of zware pech. De kaart 'Luxembourg' geldt alleen in Luxemburg. Controleer bij de ACL welke u hebt voordat u zelf een transport boekt."
+        },
+        {
+          "q": "Mag een pechdienst mijn wagen langs de Spaanse weg herstellen?",
+          "a": "In principe niet. Herstellen langs de weg mag enkel als het minder tijd kost dan wegtakelen, of nodig is om de wagen te kunnen weghalen. De dienst moet bovendien ingeschreven zijn in het register REAV. Vaak eindigt het dus in een garage."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Spanje: de Franse as langs Lyon naar Le Perthus, Spaanse regels bij pech en stalling, met ophaling door Mcars.",
+      "sources": [
+        "https://www.acl.lu/fr/assistance/assistance-depannage-mobilite/",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://es.wikipedia.org/wiki/La_Junquera",
+        "https://transit.gencat.cat/ca/informacio-viaria/professionals-transport/mesures-especials/",
+        "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514",
+        "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/nota_prensa/2025/20251125.pdf",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-4194",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo"
+      ]
+    },
+    "luxemburg-italie": {
+      "lead": "Uw wagen staat in Luxemburg en moet naar Piemonte, het Aostadal of verder naar het zuiden van Italië. Onderweg kiest de chauffeur tussen drie tunnels door de Alpen, en aan de overkant wacht een streng verbod voor vrachtwagens. Mcars haalt de wagen op bij de garage of het adres, en brengt hem op een open autotransporter naar Italië.",
+      "facts": [
+        {
+          "label": "Feestdagen Luxemburg",
+          "value": "11 wettelijke feestdagen, waaronder Hemelvaart en 15 augustus"
+        },
+        {
+          "label": "Pechstrook Italië",
+          "value": "Een voertuig mag er maximaal drie uur blijven staan"
+        },
+        {
+          "label": "Tenda-tunnel",
+          "value": "Verboden voor voertuigen boven 3,5 ton"
+        },
+        {
+          "label": "Aosta winterbanden",
+          "value": "Banden of kettingen aan boord van 15 oktober tot 15 april"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek: de Luxemburgse feestdagen",
+          "body": [
+            "Luxemburg telt 11 wettelijke feestdagen: Nieuwjaar, Paasmaandag, 1 mei, Europadag op 9 mei, Hemelvaart, Pinkstermaandag, de nationale feestdag op 23 juni, 15 augustus, Allerheiligen, Kerstmis en tweede kerstdag.",
+            "Voor een ophaling is dat belangrijk, want een garage of een stalling is niet altijd open. Vraag vooraf na of er die dag iemand is die de sleutel en de papieren meegeeft. Bij het laden maakt de chauffeur een inspectie, foto's en een CMR-vrachtbrief, dus iemand moet aanwezig zijn die ze meeondertekent."
+          ]
+        },
+        {
+          "heading": "Drie tunnels, drie karakters",
+          "body": [
+            "De Mont Blanc-tunnel is ongeveer 11,6 kilometer lang, opende in 1965 en verbindt Chamonix met Courmayeur. Na de brand van 1999 was hij ongeveer drie jaar dicht. Vrachtwagens met gevaarlijke stoffen zijn er verboden en voertuigen houden minstens 150 meter afstand. De Fréjustunnel is ongeveer 12,9 kilometer lang, een tolweg, en heeft sinds 28 juli 2025 een tweede buis, zodat elke richting een eigen buis heeft.",
+            "De Gotthard-wegtunnel meet ongeveer 16,9 kilometer. Het is één buis met verkeer in beide richtingen, één rijstrook per richting, inhaalverbod en 80 km/u. Sinds een ongeval met brand in 2001 mogen maximaal 150 vrachtwagens per uur binnen. Aan beide uiteinden is het rond Pasen en in de zomer gewoonlijk file."
+          ]
+        },
+        {
+          "heading": "Italiaanse rijverboden",
+          "body": [
+            "Italië verbiedt goederenvoertuigen boven 7,5 ton op alle buitenstedelijke wegen op zon- en feestdagen, van 9 tot 22 uur in januari tot mei en oktober tot december, en van 7 tot 22 uur in juni tot en met september. In de zomer komt er een zaterdagverbod van 8 tot 16 uur bij, plus op enkele vrijdagavonden van 16 tot 22 uur.",
+            "Overtreedt een bestuurder het verbod, dan volgt een schorsing van rijbewijs en kentekenbewijs van 1 tot 4 maanden, en moet de vrachtwagen stilstaan tot het verbod eindigt. Wie via Zwitserland rijdt, krijgt daar een zondagsverbod en een nachtverbod van 22 tot 5 uur. Wordt de transporter zaterdagavond tegengehouden, dan kan ze pas maandag om 5 uur verder."
+          ]
+        },
+        {
+          "heading": "Pech op de Italiaanse snelweg",
+          "body": [
+            "Stilstaan op de autosnelweg mag enkel bij pech of onwel worden, en dan zo snel mogelijk op de pechstrook of in de eerstvolgende pechhaven. Op de pechstrook mag een voertuig niet langer dan drie uur blijven staan, daarna kan het gedwongen worden weggehaald. Raakt de wagen niet tot daar, dan staat de driehoek minstens 100 meter achter hem.",
+            "Langs de pechstrook staan oranje SOS-zuilen. De pechdienst op de autosnelweg werkt elke dag, ook 's nachts en op feestdagen. Dan kan de wagen na het takelen in een depot worden gezet tot een garage hem kan herstellen. In een tunnel trekt u het hesje aan voor u uitstapt. Het hoort in het interieur, niet in de koffer."
+          ]
+        },
+        {
+          "heading": "Piemonte en Valle d'Aosta",
+          "body": [
+            "De nieuwe Tenda-tunnel tussen Cuneo en de Roya-vallei opende op 28 juni 2025 na de sluiting door storm Alex in 2020. Een ANAS-verordening herhaalt het verbod voor voertuigen boven 3,5 ton. Voor een autotransporter is Tenda dus geen optie. De Grote Sint-Bernhardtunnel tussen Aosta en Martigny gaat bij zware sneeuwval tijdelijk dicht voor zwaar verkeer, terwijl personenwagens nog door mogen.",
+            "In Valle d'Aosta moeten winterbanden of sneeuwkettingen aan boord zijn van 15 oktober tot 15 april. Elk seizoen maakt ANAS ze bekend voor de SS26 en SS27. Files door werven op tunnels en viaducten in een smalle kuststrook maken de Ligurische snelwegen berucht."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Maximaal drie uur op de pechstrook",
+          "body": "Een voertuig dat op de Italiaanse pechstrook staat, mag er niet langer dan drie uur blijven. Daarna kan het gedwongen worden weggehaald. Wie een wagen met pech in Italië wil laten oppikken, regelt de ophaling dus snel en geeft de exacte locatie door."
+        },
+        {
+          "kind": "plek",
+          "title": "Tenda-tunnel",
+          "body": "Sinds 28 juni 2025 is de nieuwe tunnel bij Cuneo open, maar voertuigen boven 3,5 ton zijn er verboden. Een autotransporter moet omrijden via een andere pas of tunnel. Reken bij een bestemming in de Piemontese bergen daarom op een langere route."
+        },
+        {
+          "kind": "regel",
+          "title": "Winterbanden in Valle d'Aosta",
+          "body": "In Valle d'Aosta zijn van 15 oktober tot 15 april winterbanden of sneeuwkettingen verplicht aan boord. ANAS kondigt het elk seizoen aan voor de SS26 en SS27. Een wagen die er nog moet rijden na een herstelling, hoort dus met de juiste banden vertrokken te zijn."
+        },
+        {
+          "kind": "tip",
+          "title": "Gedwongen verwijdering of wielklem",
+          "body": "In Italië kan de politie een verboden geparkeerde wagen die gevaar of ernstige hinder geeft laten wegslepen, of een wielklem plaatsen. Een in beslag genomen onverzekerde wagen komt pas terug na betaling van de sanctie, een verzekering van minstens zes maanden en de bewaarkosten."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een autotransporter door de Tenda-tunnel naar Piemonte rijden?",
+          "a": "Nee. Voertuigen boven 3,5 ton zijn in de Tenda-tunnel verboden, en een ANAS-verordening herhaalt dat. De chauffeur kiest dus een andere pas of tunnel, zoals Mont Blanc of Fréjus, afhankelijk van waar in Piemonte de wagen heen moet."
+        },
+        {
+          "q": "Hoe lang mag mijn wagen op de pechstrook blijven staan?",
+          "a": "Niet langer dan drie uur. Daarna kan hij gedwongen worden weggehaald. Zet de wagen liefst in een pechhaven en bel de pechdienst, die ook 's nachts en op feestdagen werkt, zodat u daarna de terugrit kunt boeken."
+        },
+        {
+          "q": "Mag een vrachtwagen op zondag in Italië rijden?",
+          "a": "Goederenvoertuigen boven 7,5 ton mogen op zon- en feestdagen niet rijden op buitenstedelijke wegen, tussen 9 en 22 uur, in de zomermaanden tussen 7 en 22 uur. Een ophaling of aflevering op zondag is dus geen gewone optie voor een open autotransporter."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Italië: pech in Piemonte, drie Alpentunnels, de Italiaanse rijverboden en Mcars die uw wagen ophaalt.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Public_holidays_in_Luxembourg",
+        "https://fr.wikipedia.org/wiki/Tunnel_du_Mont-Blanc",
+        "https://fr.wikipedia.org/wiki/Tunnel_routier_du_Fr%C3%A9jus",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/italy",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://aci.gov.it/codice-della-strada/art-176/",
+        "https://aci.gov.it/codice-della-strada/art-159/",
+        "https://aci.gov.it/codice-della-strada/art-193/",
+        "https://www.unipolmove.it/blog/soccorso-stradale-in-autostrada-come-funziona-e-i-costi/",
+        "https://www.poliziadistato.it/articolo/22479",
+        "https://protezionecivile.provincia.cuneo.it/_allegati/2026/04/nuova_ordinanza_ANAS.pdf",
+        "https://gazzettamatin.com/2025/01/23/traforo-del-gran-san-bernardo-chiuso-ai-mezzi-pesanti-per-maltempo",
+        "https://stradeanas.it/it/print/106511",
+        "https://www.ilpost.it/2023/06/06/code-autostrada-liguria/"
+      ]
+    },
+    "luxemburg-zwitserland": {
+      "lead": "Uw wagen staat in Luxemburg en moet naar een garage in Basel of verder in Zwitserland. De rit loopt over de Elzas of via Saarland, eindigt aan een van de drukste wegdouanes van het land en voert door een land waar vrachtwagens 's nachts en op zondag niet rijden. Mcars haalt de wagen op bij de garage of het adres en brengt hem op een open autotransporter naar Zwitserland.",
+      "facts": [
+        {
+          "label": "Snelheden Luxemburg",
+          "value": "130 op de snelweg, 110 bij regen, 90 in tunnels"
+        },
+        {
+          "label": "A35 naar Basel",
+          "value": "Geen tol tussen Lauterbourg en Saint-Louis, aan de Zwitserse grens"
+        },
+        {
+          "label": "TCS pechdienst",
+          "value": "Dag en nacht bereikbaar op 0800 140 140"
+        },
+        {
+          "label": "Zwitsers verbod",
+          "value": "Vrachtwagens: zondag, feestdagen en elke nacht van 22 tot 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Luxemburg: snelheid en tunnels",
+          "body": [
+            "Voor personenwagens geldt in Luxemburg 50 km/u in de bebouwde kom, 90 buiten de bebouwde kom en 130 op de autosnelweg. Bij regen of een nat wegdek is dat 110 km/u op de autosnelweg, en in tunnels 90 km/u. In tunnels en bij zicht onder 100 meter moet het dimlicht branden, want dagrijlicht is dan onvoldoende.",
+            "De alcohollimiet is 0,5 promille, en 0,2 promille voor bestuurders met minder dan twee jaar rijbewijs. Rijdt u een wagen met een lichte panne zelf nog naar een ophaalpunt, houd u dan aan deze regels. Is hij echt niet meer rijklaar, laat hem dan staan en geef ons het adres."
+          ]
+        },
+        {
+          "heading": "Via de Elzas: de A35 naar Basel",
+          "body": [
+            "De Franse A35 is ongeveer 172 tot 180 kilometer lang, deel van de E25 en tolvrij. Ze loopt van Lauterbourg via Straatsburg, Colmar en Mulhouse naar Saint-Louis aan de Zwitserse grens, waar ze overgaat in de Zwitserse A3 naar Basel. Ten noorden van Straatsburg deelt ze ongeveer 9 kilometer met de A4 vanuit Metz en Nancy, en bij Sausheim sluit de A36 aan.",
+            "Bij Straatsburg telt de A35 ongeveer 160.000 voertuigen per dag, ongeveer 10 procent vrachtwagens, met 70 km/u en regelmatig verzadiging in de spits. Bij Bartenheim zijn er avondfiles van grensarbeiders. Sinds de opening van de A355 in december 2021 is doorgaand vrachtverkeer op de Straatsburgse M35 verboden, dus een autotransporter neemt de omleiding."
+          ]
+        },
+        {
+          "heading": "Alternatief: A8 en A5 via Saarland",
+          "body": [
+            "Vanaf de Luxemburgse grens bij Perl loopt de Duitse A8 via Saarbrücken en Neunkirchen naar Karlsruhe, waar ze de A5 kruist. De A5 is 440 kilometer lang, deel van de E35, en loopt langs Frankfurt, waar het Frankfurter Kreuz met de A3 ligt, tot Weil am Rhein aan de Zwitserse grens.",
+            "Veel vrachtwagens kozen de A35 om de Duitse tol op de parallelle A5 te mijden. Zwitserland heft zelf de LSVA, een zware-vrachtverkeersheffing op alle wegen voor voertuigen boven 3,5 ton, voor binnen- en buitenlandse wagens. De gewichtsgrens van 40 ton geldt sinds 2005."
+          ]
+        },
+        {
+          "heading": "Pech in Zwitserland: TCS, driehoek en praatpaal",
+          "body": [
+            "De pechdienst van de Touring Club Schweiz bereikt u dag en nacht op 0800 140 140. Houd de exacte plaats klaar (straat of kilometerpaal), de nummerplaat, merk, kleur en een terugbelnummer. De gevarendriehoek staat minstens 50 meter achter de wagen, en op 100 meter waar snel wordt gereden, zoals op de snelweg.",
+            "Op de snelweg staan oranje praatpalen. Achter de vangrail op hulp wachten nadat iedereen is uitgestapt, dat is het advies van de TCS. Hebt u pech in een lange tunnel, ga dan naar de dichtstbijzijnde noodpost en breng de tunnelcentrale op de hoogte. De reddingshelikopters van REGA bereikt u op 1414, met een buitenlandse simkaart op +41 333 333 333."
+          ]
+        },
+        {
+          "heading": "Basel en de douane",
+          "body": [
+            "Een toerist mag met zijn eigen wagen zonder formele aangifte de Zwitserse grens over, zolang hij hem alleen zelf gebruikt. Krijgt de wagen een nieuwe bestemming, zoals verkoop in Zwitserland na pech of schade, dan is aangifte bij de douane nodig. Basel/Weil am Rhein-Autobahn wordt door een expediteur omschreven als het grootste wegdouanekantoor van het land.",
+            "Buiten de openingsuren is inklaring van handelswaren geen vanzelfsprekendheid; Basel Weil-Autobahn is een van de overgangen waar ze in uitzonderlijke situaties kan. Mcars vervoert de wagen. De aangifte doet u zelf, of een douane-expediteur die u inschakelt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Touring Club Schweiz",
+          "body": "De pechdienst van de TCS werkt dag en nacht op 0800 140 140. De club is bekend van zijn wegenwacht, de Patrouille, en heeft zijn hoofdzetel in Vernier bij Genève. Houd bij de oproep de exacte plaats, de nummerplaat en een terugbelnummer klaar, zodat de hulp u zonder omweg vindt."
+        },
+        {
+          "kind": "regel",
+          "title": "Pechstrook enkel voor noodstops",
+          "body": "Op de Zwitserse pechstrook mag u alleen noodstoppen (art. 36 lid 3 VRV). Wie er in de file overheen rijdt om voor te steken, riskeert naast een boete ook de intrekking van het rijbewijs. Voor een wagen met pech is de pechstrook dus de plek, niet voor de rit van een transporter."
+        },
+        {
+          "kind": "regel",
+          "title": "Zwitsers rijverbod voor vrachtwagens",
+          "body": "Vrachtwagens boven 3,5 ton rijden niet op zondag en feestdagen, en elke dag niet van 22 tot 5 uur. Tegengehouden op zaterdagavond betekent pas maandag om 5 uur weer op weg. Een uitzondering vraagt men via een kanton aan als Sonderbewilligung."
+        },
+        {
+          "kind": "plek",
+          "title": "Basel/Saint-Louis en Rheinfelden",
+          "body": "De Zwitserse A3 begint aan de autosnelwegdouane Basel/Saint-Louis als voortzetting van de Franse A35 en loopt als Nordtangente door Basel. Bij Rheinfelden verbindt een Rijnbrug de Zwitserse A3 met de Duitse A861, een tweede autosnelweggrens ten oosten van Basel."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet mijn wagen bij de Zwitserse douane worden aangegeven als hij op een autotransporter aankomt?",
+          "a": "Een wagen die voor een andere bestemming dan eigen gebruik de grens over gaat, bijvoorbeeld voor verkoop na pech, moet bij de douane worden aangegeven. Mcars vervoert, de aangifte doet u zelf of via een douane-expediteur."
+        },
+        {
+          "q": "Wat gebeurt er als de transporter zaterdagavond in Zwitserland wordt tegengehouden?",
+          "a": "Voor vrachtwagens boven 3,5 ton geldt een rijverbod op zondag en feestdagen en elke nacht van 22 tot 5 uur. Tegengehouden op zaterdagavond betekent pas maandag om 5 uur weer op weg. Reken daar bij een aflevering in Basel op."
+        },
+        {
+          "q": "Wie bel ik bij pech in Zwitserland?",
+          "a": "De pechdienst van de Touring Club Schweiz neemt dag en nacht op onder 0800 140 140. Houd de exacte plaats, de nummerplaat en een terugbelnummer klaar. Zet de driehoek op 50 meter, op de snelweg op 100 meter, en wacht achter de vangrail."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Zwitserland: via de Elzas of Saarland naar Basel, de TCS-pechdienst, douane en Mcars die uw wagen ophaalt.",
+      "sources": [
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/verkeersregels",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Leistungsabh%C3%A4ngige_Schwerverkehrsabgabe",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://www.tcs.ch/de/testberichte-ratgeber/ratgeber/kontrollen-unterhalt/panne-was-tun.php",
+        "https://www.tcs.ch/de/testberichte-ratgeber/ratgeber/der-tcs-experte/pannenstreifen-bei-stau-tabu.php",
+        "https://de.wikipedia.org/wiki/Touring_Club_Schweiz",
+        "https://de.wikipedia.org/wiki/Notruf",
+        "https://www.bazg.admin.ch/dam/de/sd-web/xG5rXtRXNkO2/mit_fahrzeugen_durchdenschweizerzollform1549.pdf",
+        "https://gerlach-customs.com/ch-de/standorte/basel-weil-autobahn-import/",
+        "https://www.bazg.admin.ch/dam/de/sd-web/jWPwp7TfGIv3/info-ausdehnung-zolloeffnungszeiten-bei-versorgnungsengpaessen_de.pdf",
+        "https://de.wikipedia.org/wiki/Autobahn_A3_(Schweiz)",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_861"
+      ]
+    },
+    "luxemburg-oostenrijk": {
+      "lead": "Uw wagen staat in het zuidoosten van Luxemburg, bij Remich of Schengen, en moet naar Salzburg, Tirol of een andere Oostenrijkse garage. Dat is een rit dwars door Duitsland, over de Albaufstieg en langs München tot aan de grens. In Oostenrijk gelden daarna eigen verboden en eigen regels bij pech. Mcars haalt de wagen op bij de garage of het adres en brengt hem op een open autotransporter.",
+      "facts": [
+        {
+          "label": "A13 naar A8",
+          "value": "Luxemburgse A13 gaat bij Schengen over in de Duitse A8"
+        },
+        {
+          "label": "Hesje Oostenrijk",
+          "value": "Altijd aan boord en dragen bij het verlaten van de wagen"
+        },
+        {
+          "label": "Uitzondering verbod",
+          "value": "Takel- en pechdiensten zijn van het weekendverbod uitgezonderd"
+        },
+        {
+          "label": "Wegsleep Oostenrijk",
+          "value": "Wagen met platen binnen zes maanden ophalen, stalling per dag"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Remich en Schengen: het vertrek",
+          "body": [
+            "Door Remich lopen de N2, de N10 en de N16. De stad heeft sinds 1955 geen station meer, het dichtste ligt in Nennig, net over de grens. Overstromingen van de Moezel in het voorjaar zijn er een terugkerend probleem, dus adressen aan de oever zijn bij hoogwater mogelijk niet bereikbaar. Vraag bij pech in Remich in het voorjaar eerst of de weg naar de garage vrij is.",
+            "Schengen ligt aan de A13, de langste snelweg van het land: 41 kilometer van Pétange tot de Moezel, over een viaduct, waarna ze als A8 in Duitsland verdergaat. Is de wagen een zwaar voertuig, dan telt in Luxemburg ook het Eurovignet: vrachtwagens van minstens 12 ton betalen het op autosnelwegen, ook leeg en ook als samenstel, en een brandblusser is er alleen verplicht boven 3.500 kg."
+          ]
+        },
+        {
+          "heading": "De A8 van Perl naar Salzburg",
+          "body": [
+            "De Duitse A8 is 505 kilometer lang en begint bij Perl aan de Luxemburgse grens. Ze loopt langs Saarlouis, Saarbrücken, Neunkirchen, Karlsruhe, Pforzheim en Stuttgart, over de Albaufstieg naar Ulm en München en eindigt bij Bad Reichenhall. Ze draagt onder meer E29, E52 en E60.",
+            "De Albaufstieg overwint ongeveer 380 hoogtemeters met tot 6,3 procent helling, in twee aparte dalen. Bergaf geldt 50 km/u voor vrachtwagens. De oostelijke variant is de Duitse A3: 769 kilometer via Frankfurt, Neurenberg en Regensburg tot Neuhaus am Inn, vlak bij Passau."
+          ]
+        },
+        {
+          "heading": "Oostenrijkse rijverboden",
+          "body": [
+            "Voor vrachtwagens boven 7,5 ton geldt in Oostenrijk een nachtverbod van 22 tot 5 uur, het hele jaar een zaterdagverbod van 15 tot 24 uur en een zon- en feestdagverbod van 0 tot 22 uur. Wie op zaterdag na 15 uur binnenrijdt, staat tot 5 uur de eerstvolgende werkdag stil.",
+            "Op bepaalde zaterdagen in juli en augustus komen er corridorverboden bij op de A12 (Inntal), A13 (Brenner), A14 (Rheintal/Walgau) en de A4 Oost, meestal van 7 tot 15 uur. Bijkomend bestaat op de A12 een permanent sectoraal verbod voor bepaalde langeafstandsgoederen. Takel- en pechdiensten zijn van het weekend- en feestdagenverbod uitgezonderd, in Tirol ook van het nachtverbod op de A12."
+          ]
+        },
+        {
+          "heading": "Pech in Oostenrijk: pechstrook, tunnel en hesje",
+          "body": [
+            "Stoppen op de pechstrook is alleen toegelaten wanneer er een technisch defect of een noodgeval is. Een pechhaven is de beste plek voor de wagen, met de waarschuwingslichten aan. Voor een wagen op de pechstrook is de gevarendriehoek niet verplicht. Het hesje ligt altijd in de wagen en wordt gedragen bij het verlaten ervan. Wordt u aangereden zonder het te dragen, dan kan uw schadevergoeding verminderen.",
+            "Betreed nooit de rijbaan. Loop achter de vangrail naar de dichtstbijzijnde praatpaal, die de pijltjes op de bermpaaltjes aanwijzen. In een tunnel zet u de waarschuwingslichten aan, stopt in een pechhaven of uiterst rechts, zet de motor af en laat de sleutel zitten. Gebruik de noodtelefoon en niet uw gsm. De pechhavens liggen ongeveer om de 1.000 meter."
+          ]
+        },
+        {
+          "heading": "Ongeval en wegsleepdienst",
+          "body": [
+            "Na een ongeval stopt iedereen die erbij betrokken is meteen, beveiligt de plaats en werkt mee. Bij gewonden is de politie verplicht, bij blikschade niet als u elkaars naam en adres bewijst. De ÖAMTC waarschuwt voor helpers die ongevraagd aanbieden uw wagen naar een werkplaats te slepen: dat kan oplichting zijn. Teken niets wat u niet begrijpt.",
+            "Een door de overheid weggesleepte wagen haalt u af via de politie of het gemeentehuis, in Wenen bij de sleepdienst van de MA 48, met identiteitsbewijs en kentekenbewijs. Naast de sleepkosten loopt de stallingsvergoeding per dag op, en beide betaalt u bij het afhalen. Binnen zes maanden moet een wagen met nummerplaten worden afgehaald."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Verzekeraars binnen een week verwittigen",
+          "body": "Na een ongeval moeten de eigen aansprakelijkheidsverzekeraar en die van de tegenpartij binnen een week worden verwittigd, ook als u denkt geen schuld te hebben. Samen met de andere partijen vult u op de plek zelf het Europees aanrijdingsformulier in en ondertekent u het. Zonder formulier noteert u minstens naam, adres en polisnummer."
+        },
+        {
+          "kind": "plek",
+          "title": "Salzburg en Walserberg",
+          "body": "Verkeer uit München en dus ook uit Luxemburg komt Oostenrijk binnen over de Duitse A8 en de grensovergang Walserberg bij de stad Salzburg. Vandaar loopt de A10 Tauern Autobahn zuidwaarts naar Kärnten. Tirol bereikt men over het Große Deutsche Eck. Voor een wagen in Salzburg is dit de logische inrit."
+        },
+        {
+          "kind": "plek",
+          "title": "Suben en Oberösterreich",
+          "body": "Verkeer uit Luxemburg, België en Nederland dat via de Duitse A3 komt, ontmoet bij Passau en de grensovergang Suben de A8 Innkreis Autobahn. Dat is de snelste toegang tot Oberösterreich. Een wagen die in Linz of Wels moet zijn, neemt de transporter hier."
+        },
+        {
+          "kind": "regel",
+          "title": "Reddingsstrook voor hulpdiensten",
+          "body": "Voorbehouden voor hulpdiensten, pechdiensten, lijkwagens en voertuigen van de wegbeheerder is de reddingsstrook. Een pechwagen of een transporter in de file moet die strook dus vrijlaten. Dat is een regel die ook voor een ophaling geldt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een takelwagen in Oostenrijk op zondag rijden?",
+          "a": "Takel- en pechdiensten zijn uitgezonderd van het weekend- en feestdagenrijverbod, in Tirol ook van het nachtverbod op de A12. Een geplande autotransporter valt daar niet automatisch onder, dus een terugrit plant u buiten de verbodsuren."
+        },
+        {
+          "q": "Hoe herken ik een onbetrouwbare helper na een Oostenrijkse pech?",
+          "a": "De ÖAMTC waarschuwt voor mensen die na een ongeval ongevraagd aanbieden uw wagen naar een werkplaats te slepen. Dat kan oplichting zijn. Teken niets wat u niet begrijpt, erken ter plaatse geen schuld en bel uw eigen hulpdienst."
+        },
+        {
+          "q": "Wat als mijn wagen door de overheid in Oostenrijk is weggesleept?",
+          "a": "U haalt hem af via de politie of het gemeentehuis, in Wenen via de MA 48, met identiteitsbewijs en kentekenbewijs. Sleepkosten en dagelijkse stalling betaalt u bij het afhalen. Mcars kan de wagen daarna vanaf dat adres naar uw garage brengen."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Oostenrijk: A13 en A8 via Duitsland, de Oostenrijkse rijverboden en pechregels, met ophaling door Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Remich",
+        "https://nl.wikipedia.org/wiki/A13_(Luxemburg)",
+        "https://guichet.public.lu/fr/entreprises/import-export/transit/transit-ue/e-vignette-poids-lourds.html",
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/verkeersregels",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://de.wikipedia.org/wiki/Albaufstieg_(A_8)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://www.wko.at/transport/lkw-fahrverbote-oesterreich-ueberblick",
+        "https://www.oeamtc.at/thema/panne-unfall/richtiges-verhalten-auf-dem-pannenstreifen-16184078",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/10/3/Seite.063110",
+        "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/katastrophenfaelle/1/Seite.29500326",
+        "https://www.asfinag.at/verkehr-sicherheit/tunnelsicherheit/",
+        "https://www.oeamtc.at/thema/panne-unfall/verkehrsunfall-im-ausland-was-tun-17964790",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/1/1/Seite.060800",
+        "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/unfall/4/Seite.2892001",
+        "https://de.wikipedia.org/wiki/Kleines_Deutsches_Eck",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn"
+      ]
+    },
+    "luxemburg-polen": {
+      "lead": "Uw wagen staat bij Findel, vlak bij de enige internationale luchthaven van Luxemburg, en moet naar een garage in Neder-Silezië, Wrocław of verder in Polen. Dat is bijna heel Duitsland door, over de A4 of langs Berlijn, en daarna volgen de Poolse regels voor verwijdering en stalling. Mcars haalt de wagen op bij de garage of het adres en brengt hem op een open autotransporter naar Polen.",
+      "facts": [
+        {
+          "label": "Luchthaven Findel",
+          "value": "Enige internationale luchthaven, A1-afritten Senningerberg en Cargo Center"
+        },
+        {
+          "label": "Duitse A4",
+          "value": "583 km van Aken naar Görlitz aan de Poolse grens"
+        },
+        {
+          "label": "Poolse A4",
+          "value": "Begint bij Jędrzychowice, e-TOLL op grote delen"
+        },
+        {
+          "label": "Verwijderde wagen",
+          "value": "Niet binnen 3 maanden opgehaald: verbeurdverklaring mogelijk (art. 130a)"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Findel en de A1",
+          "body": [
+            "Luxembourg Airport ligt enkele kilometers ten noordoosten van de stad en is bereikbaar via de A1. Twee afritten bedienen de luchthaven: Senningerberg en Cargo Center. Findel is de thuisbasis van Luxair en van de vrachtmaatschappij Cargolux, en de overheid omschrijft de luchthaven als een van de belangrijkste vrachtluchthavens van Europa, met één start- en landingsbaan van 4.000 meter.",
+            "Voor een ophaling is dat belangrijk om twee redenen. Een wagen die rond de luchthaven strandt, staat vlak bij de A1 naar Trier, dus de transporter is snel op weg. En omdat er rond een luchthaven veel verkeer rijdt, spreekt u vooraf een adres af waar de chauffeur veilig kan laden."
+          ]
+        },
+        {
+          "heading": "Door Duitsland: A4 of Berlijn",
+          "body": [
+            "De Duitse A4 is 583 kilometer lang, deel van de E40 en loopt van Aken via Keulen, Eisenach, Erfurt en Dresden naar Görlitz. Bij het Kirchheimer Dreieck draagt ze E45. Een tweede route loopt via Berlijn: de A12 verbindt de Berliner Ring in 58 kilometer met Frankfurt (Oder) en de Poolse grens bij Świecko, waar ze zonder onderbreking in de Poolse A2 overgaat.",
+            "Voor vrachtwagens boven 3,5 ton geldt in Duitsland vrachtwagentol op alle Bundesstraßen en vrijwel alle autosnelwegen, sinds juli 2024, met sinds december 2023 een CO2-toeslag. Betalen gaat met een boordtoestel of de TollNow-app. Vrachtwagens boven 16 ton worden volgens een nieuwe EU-indeling in CO2-klassen ingedeeld."
+          ]
+        },
+        {
+          "heading": "Polen: tol op de A4 en A2",
+          "body": [
+            "De Poolse A4 is 667 kilometer lang, deel van de E40, en begint bij Jędrzychowice aan de Duitse grens. Ze loopt via Wrocław en Katowice naar Kraków en Korczowa. Het stuk Jędrzychowice-Katowice is in concessie bij Stalexport Autostrada Małopolska. Het e-TOLL-systeem geldt vanaf kort na de grens tot Katowice Murckowska, en opnieuw vanaf Balice ten zuiden van Kraków.",
+            "De Poolse A2 loopt vanaf Świecko over een Oderbrug van 581 meter naar Poznań en Łódź. Een concessie van Autostrada Wielkopolska geldt voor het westelijke deel. E-TOLL begint bij Konin Wschód. Zware voertuigen registreren zich in e-TOLL met een account, voertuig en betaalmethode en kiezen een goedgekeurd boordtoestel; er is ook een e-TOLL PL-app."
+          ]
+        },
+        {
+          "heading": "Poolse rijverboden en uitrusting",
+          "body": [
+            "Op 12 feestdagen zijn vrachtwagens boven 12 ton in Polen verboden van 8 tot 22 uur, en de avond voordien meestal van 18 tot 22 uur. In de zomer, van eind juni tot eind augustus, geldt bovendien vrijdag 18 tot 22 uur, zaterdag 8 tot 14 uur en zondag 8 tot 22 uur. Buiten de zomer bestaat er geen algemeen zondagverbod.",
+            "Voor een wagen met buitenlandse plaat geldt volgens het Verdrag van Wenen de uitrusting die het land van inschrijving voorschrijft. In de praktijk handhaven de controlediensten dat niet altijd op die manier. Een brandblusser en een driehoek aan boord vermijden discussie, ook als ze in Luxemburg of België niet verplicht zijn."
+          ]
+        },
+        {
+          "heading": "Als de wagen in Polen wordt weggehaald",
+          "body": [
+            "De stadswacht, de politie of de leider van een reddingsactie kan een wagen laten verwijderen, onder meer bij hinder van het verkeer, gevaar, ontbrekende platen of een schijnbaar verlaten wagen. Bij art. 130a gaat hij naar een parking die de stadswacht of politie aanwijst, en de eigenaar wordt schriftelijk ingelicht.",
+            "De kosten van verwijdering en stalling betaalt de eigenaar of houder, volgens tarieven die de gemeente- of provincieraad jaarlijks vaststelt. Bij art. 130a kan de overheid de rechter vragen de wagen verbeurd te verklaren als hij niet binnen drie maanden is opgehaald, bij art. 50a is dat zes maanden. Wie hem ophaalt, toont een identiteitsbewijs en een document dat het gebruiksrecht aantoont."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Verwijderen en stallen: artikel 130a en 50a",
+          "body": "De Poolse overheid mag een wagen van de weg halen bij hinder, gevaar, ontbrekende platen of schijnbare verlating. De eigenaar betaalt verwijdering en stalling. Wordt hij niet binnen drie maanden (art. 130a) of zes maanden (art. 50a) opgehaald, dan kan de wagen verbeurd worden verklaard."
+        },
+        {
+          "kind": "tip",
+          "title": "Stadswacht Warschau 986",
+          "body": "In Warschau is de stadswacht dag en nacht bereikbaar op 986. Wie niet meer weet waar zijn wagen is, omdat hij werd verwijderd, begint daar. De stadswacht of politie behandelt bezwaar tegen de verwijdering zelf, het stedelijk wegenbureau bezwaar tegen de kosten."
+        },
+        {
+          "kind": "regel",
+          "title": "Uitrusting met buitenlandse plaat",
+          "body": "Het Verdrag van Wenen schrijft voor een buitenlandse wagen de uitrusting van het land van inschrijving voor. In de praktijk passen controlediensten dat niet altijd toe. Met een brandblusser en een gevarendriehoek aan boord voorkomt u discussie bij een controle."
+        },
+        {
+          "kind": "plek",
+          "title": "A4 bij Wrocław en Gliwice",
+          "body": "Een tolsectie vormt op de A4 het stuk van Karwiany bij Wrocław tot Żernica ten oosten van Gliwice, terwijl de ring van Gliwice tolvrij blijft. De ring van Wrocław is 22,7 kilometer lang en draagt het nummer A8. Wie in Neder-Silezië moet zijn, rijdt hier."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat gebeurt er als mijn wagen in Polen van de weg wordt gehaald en niemand hem komt halen?",
+          "a": "Bij verwijdering volgens artikel 130a kan de overheid de rechter vragen de wagen verbeurd te verklaren als hij niet binnen drie maanden is opgehaald, bij artikel 50a is dat zes maanden. Laat een gestalde wagen dus niet aanslepen."
+        },
+        {
+          "q": "Wat toon ik bij het ophalen van een verwijderde wagen in Polen?",
+          "a": "Volgens de procedure van Warschau toont u een identiteitsbewijs en een document waaruit uw gebruiksrecht blijkt, zoals het kentekenbewijs of het ontvangstbewijs van een ingehouden kentekenbewijs. Neem ook de sleutels mee, zodat de transporter kan laden."
+        },
+        {
+          "q": "Welke uitrusting moet ik bij me hebben met een Luxemburgse of Belgische wagen in Polen?",
+          "a": "Voor een buitenlandse wagen geldt in principe de uitrusting van het land van inschrijving. Controles passen dat niet altijd zo toe, dus een brandblusser en gevarendriehoek aan boord voorkomen discussie. Het hesje hoort sowieso binnen handbereik."
+        }
+      ],
+      "seoDescription": "Depannage van Luxemburg naar Polen: vertrek bij Findel, door Duitsland naar de Poolse A4, e-TOLL en de Poolse regels bij verwijdering.",
+      "sources": [
+        "https://transports.public.lu/en/transporter/transports-aeriens/infrastructures.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A1_(Luxembourg)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://www.toll-collect.de/en/",
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://pl.wikipedia.org/wiki/Autostrada_A2_(Polska)",
+        "https://www.etoll.gov.pl/en/",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=PL",
+        "https://motoryzacja.interia.pl/porady/news-obowiazkowe-wyposazenie-auta-za-granica-jeden-zapis-zmienia,nId,23505821",
+        "https://warszawa19115.pl/en/-/parkowanie-usuwanie-pojazdow",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)"
+      ]
+    }
+  }
+}

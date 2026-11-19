@@ -1,0 +1,1042 @@
+{
+  "service": "spoedtransport",
+  "origin": "luxemburg",
+  "pages": {
+    "luxemburg": {
+      "lead": "Een wagen die vandaag nog weg moet, botst in Luxemburg zelden op het land zelf en vaak op de kalender. Feestdagen vallen er anders dan in België, loketten sluiten vroeg en voor zware vrachtwagens in doorvoer gelden strenge verboden rond het weekend. Wat dringend betekent, hangt hier dus af van het uur, de dag en de richting waarin uw wagen vertrekt.",
+      "facts": [
+        {
+          "label": "Feestdagen",
+          "value": "Elf wettelijke feestdagen, waaronder Europadag en 23 juni, beide niet in België"
+        },
+        {
+          "label": "Tol",
+          "value": "Personenwagens en bedrijfsvoertuigen onder 12 ton betalen geen tol in Luxemburg"
+        },
+        {
+          "label": "SNCA-loket",
+          "value": "Contactcenter maandag tot vrijdag, van 7.30 tot 16.30 uur"
+        },
+        {
+          "label": "Milieuzones",
+          "value": "Geen milieuzones; voor personenwagens is geen sticker nodig"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het weekendverbod voor vrachtwagens in doorvoer",
+          "body": [
+            "Vrachtwagens boven 7,5 ton die Luxemburg doorkruisen richting Frankrijk of Duitsland mogen van zaterdagavond tot zondagavond niet rijden. Hetzelfde geldt op de vooravond van een feestdag tot het einde van die feestdag. Tijdens het verbod mogen ze ook niet op de openbare weg of op een snelwegparking blijven staan.",
+            "Het verbod geldt niet voor vervoer binnen Luxemburg, voor ritten met bestemming Luxemburg en voor doorvoer richting België. Voor een autotransporter is dat belangrijk, want het vervoer van auto's staat niet bij de uitzonderingen. Een spoedrit naar Frankrijk of Duitsland begint dus pas wanneer het verbod voorbij is, tenzij de rit al volledig in orde is vóór zaterdagavond."
+          ]
+        },
+        {
+          "heading": "Feestdagen die in België gewone werkdagen zijn",
+          "body": [
+            "Luxemburg telt elf wettelijke feestdagen: Nieuwjaar, Paasmaandag, 1 mei, Europadag op 9 mei, Hemelvaart, Pinkstermaandag, de nationale feestdag op 23 juni, 15 augustus, Allerheiligen, Kerstmis en tweede kerstdag. Europadag en 23 juni zijn in België geen feestdagen.",
+            "Wie een rit plant met een Belgische kalender in het hoofd, kan op die twee dagen voor gesloten loketten of een gesloten bedrijf staan. Kijk dus bij elke dringende ophaling na of de dag in Luxemburg een feestdag is, ook als bij u gewoon gewerkt wordt."
+          ]
+        },
+        {
+          "heading": "Papieren raken in het weekend niet in orde",
+          "body": [
+            "Het contactcenter van de SNCA, de Luxemburgse wegenautoriteit, werkt van maandag tot vrijdag van 7.30 tot 16.30 uur. Een wagen die nog moet worden uitgeschreven of een exportplaat nodig heeft, krijgt zijn papieren dus niet op zaterdag of zondag.",
+            "De SNCA rekent voor exportplaten zelf gemiddeld op een volle dag, omdat de aanvraag langs de SNCA, de verzekeraar en de platenmaker loopt. Mcars vervoert de wagen, maar regelt de plaat of de uitschrijving niet. Wie dringend wil vertrekken, begint die stappen op een werkdag, vroeg in de ochtend."
+          ]
+        },
+        {
+          "heading": "Wegen rond de hoofdstad en de luchthaven",
+          "body": [
+            "Aan de Croix de Gasperich, ten zuiden van de stad, komen de snelwegen naar Trier (A1), Frankrijk (A3) en België (A6) samen. Wie een wagen aan de luchthaven Findel moet ophalen of afleveren, neemt op de A1 de afrit Senningerberg of de afrit Cargo Center.",
+            "Findel is de enige internationale luchthaven van het land en een belangrijke vrachtluchthaven. Wagens van bedrijven die vracht ontvangen of vertrekken, moeten dus soms op korte termijn naar of van die zone. Een ophaling op een luchthavenparking spreekt u vooraf af, met naam van de parking en het uur."
+          ]
+        },
+        {
+          "heading": "Hoe Mcars een spoedrit vanuit Luxemburg aanpakt",
+          "body": [
+            "Mcars rijdt met negen open, meerlaagse autotransporters met Kässbohrer-opbouw vanuit het depot in Roeselare. Elke vrachtwagen heeft een lier; staat de wagen volledig geblokkeerd, dan is een heftruck ter plaatse nodig.",
+            "Bij ophaling maken we een inspectie en foto's als intern bewijs en vullen we de CMR-vrachtbrief in. De wagen is verzekerd tijdens het transport. Bedrijven betalen op factuur, particulieren vóór ophaling. Via het offerteformulier krijgt u binnen 24 uur antwoord met een voorstel op maat; hoe dringend uw rit is en of het weekend meespeelt, vertelt u erbij. Onze chauffeurs spreken Nederlands en Frans, wat in Luxemburg vaak van pas komt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Luxembourg Airport (Findel)",
+          "body": "De enige internationale luchthaven van het land ligt enkele kilometers ten noordoosten van de stad en is thuisbasis van Luxair en Cargolux. Een wagen die er moet worden opgehaald of afgeleverd, vraagt vooraf een duidelijke afspraak over parking en ingang."
+        },
+        {
+          "kind": "event",
+          "title": "Schueberfouer in Limpertsberg",
+          "body": "De grote kermis staat elk jaar ongeveer twintig dagen op het Glacis-plein, van eind augustus tot begin september. Het Glacis is anders een stadsparking, dus laden en lossen in die buurt vraagt een andere ophaalplek."
+        },
+        {
+          "kind": "regel",
+          "title": "Winterbanden bij winterse omstandigheden",
+          "body": "Bij ijzel, sneeuw of ijsplekken moet elk wiel een winter- of vierseizoensband met M+S-markering hebben. De regel kent geen vaste periode en geldt ook voor buitenlandse platen, niet voor geparkeerde wagens."
+        },
+        {
+          "kind": "tip",
+          "title": "Vest en driehoek binnen handbereik",
+          "body": "Een veiligheidsvest en een gevarendriehoek zijn verplicht. Het vest moet binnen handbereik liggen, niet in de koffer. Bij pech of een ongeval belt u 112, het noodnummer dat bij de Luxemburgse noodcentrale uitkomt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter in het weekend door Luxemburg rijden?",
+          "a": "Dat hangt af van de richting. Doorvoer richting Frankrijk of Duitsland is voor vrachtwagens boven 7,5 ton verboden van zaterdagavond tot zondagavond. Een rit naar België of binnen Luxemburg valt er niet onder."
+        },
+        {
+          "q": "Kan ik in het weekend nog papieren laten regelen voor een dringende export?",
+          "a": "Meestal niet. Het SNCA-contactcenter werkt van maandag tot vrijdag en een exportplaat vraagt gemiddeld een volle dag. Regel de papieren op een werkdag en laat de wagen daarna vervoeren."
+        },
+        {
+          "q": "Moet ik bij een rit uit Luxemburg tol of een milieusticker voorzien?",
+          "a": "Voor een personenwagen niet: Luxemburg heeft geen milieuzones en geen tol voor personenwagens. Voor zware vrachtwagens vanaf 12 ton bestaat wel een Eurovignet, maar dat gaat over de transporteur en niet over uw wagen."
+        }
+      ],
+      "seoDescription": "Spoedtransport van uw wagen vanuit Luxemburg: rijverboden, feestdagen en loketten die uw planning bepalen. Offerte op maat van Mcars.",
+      "sources": [
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=LU",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://en.wikipedia.org/wiki/Public_holidays_in_Luxembourg",
+        "https://snca.public.lu/fr/plaques/exportation.html",
+        "https://transports.public.lu/en/transporter/transports-aeriens/infrastructures.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A1_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/Schueberfouer",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/pneus-hiver.html",
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/verkeersregels"
+      ]
+    },
+    "luxemburg-belgie": {
+      "lead": "Van Luxemburg naar België is de eenvoudigste spoedrit die er is. Het Luxemburgse rijverbod voor zware vrachtwagens treft de doorvoer naar Frankrijk en Duitsland, niet de rit naar België. Een autotransporter mag dus ook op zaterdagavond en zondag vertrekken, zolang de rit in België eindigt. De vertragingen zitten aan de Belgische kant, rond Namen en de Brusselse ring.",
+      "facts": [
+        {
+          "label": "Rijverbod",
+          "value": "Geldt niet voor doorvoer richting België of voor vervoer binnen Luxemburg"
+        },
+        {
+          "label": "Route",
+          "value": "A6 tot de grens, daarna Belgische A4/E411 naar Namen en Brussel"
+        },
+        {
+          "label": "Grensovergang",
+          "value": "Weyler, Windhof en Kleinbettingen zijn dezelfde overgang"
+        },
+        {
+          "label": "Koningsdag",
+          "value": "15 november: federale diensten gesloten, geen wettelijke feestdag"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het westen van Luxemburg",
+          "body": [
+            "Ligt het ophaaladres bij Bertrange, Mamer, Capellen of Steinfort, dan zit u dicht bij de A6, een snelweg van 20,8 kilometer. Ze loopt van de Croix de Gasperich naar de Belgische grens en heeft aansluitingen bij Cessange, Helfenterbrück, Strassen, Bridel, Mamer en Steinfort.",
+            "Op de A6 ligt de rustplaats Capellen. Dat is een handige afspraakplek wanneer een adres in een woonwijk moeilijk bereikbaar is voor een vrachtwagen met meerdere etages. Aan het zondagverbod hoeft u hier niet te denken: het gaat om doorvoer naar Frankrijk en Duitsland."
+          ]
+        },
+        {
+          "heading": "Eén doorlopende snelweg tot in Brussel",
+          "body": [
+            "Aan de Belgische grens gaat de A6 over in de A4, de Autoroute des Ardennes, die als E411 via Aarlen en Namen naar Brussel loopt. Er is dus één doorlopende snelweg zonder tussenstop op een kleinere baan. Tot Aarlen delen E411 en E25 dezelfde weg.",
+            "Tussen Namen en de grens heeft de E411 grotendeels twee rijstroken per richting, met extra stroken op sommige steile hellingen. Dat is genoeg voor een gewone dag, maar een ongeval of werken laten het verkeer snel vastlopen. De route is bovendien een vakantieroute voor wie naar Luxemburg, Oost-Frankrijk, Zwitserland, Italië of Spanje rijdt."
+          ]
+        },
+        {
+          "heading": "Aankomst in de provincie Luxemburg, Namen en Brussel",
+          "body": [
+            "Eindigt de rit in de provincie Luxemburg of in Namen, dan blijft u op de A4. Ten noorden van die weg ligt de Baraque de Fraiture, op 651 meter het hoogste punt van de provincie, waar de skipistes gemiddeld ongeveer twintig dagen per jaar open zijn. Dat zegt iets over de winters op de E25: wie in januari een dringende rit plant, rekent op gladheid.",
+            "Moet de wagen verder naar Brussel, dan komt u op de ring R0. Het stuk tussen Sint-Stevens-Woluwe en Groot-Bijgaarden, waar de E40 over de ring loopt, is overbelast met maar twee keer drie rijstroken. Het Vlaams Verkeerscentrum toont live hoeveel kilometer file er staat."
+          ]
+        },
+        {
+          "heading": "Waarom mensen deze rit dringend nodig hebben",
+          "body": [
+            "Op deze route draait spoed zelden om een verbod, vaker om een afspraak. Denk aan een wagen die vóór een Belgische keuring of inschrijving ter plaatse moet zijn. De Belgische overheid heeft voor een uit de EU ingevoerd voertuig een eigen pagina met de stappen voor de DIV-inschrijving; die stappen doet u zelf of via een tussenpersoon, niet via ons.",
+            "Mcars rijdt België dagelijks. Bij ophaling maken we foto's en een inspectie en volgt een CMR-vrachtbrief. In België moet die vrachtbrief in minstens drie originele exemplaren het voertuig vergezellen, ook bij een dringende rit."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Martelange en de N4",
+          "body": "In Martelange loopt de grens enkele kilometers langs de N4. Aan de Luxemburgse kant staan twaalf tankstations, door de lagere accijnzen. Het is er druk met vrachtverkeer en tankende automobilisten, dus kies hier geen afspraakplek."
+        },
+        {
+          "kind": "tip",
+          "title": "Filebarometer en tunnelkalender",
+          "body": "Het Vlaams Verkeerscentrum publiceert een filebarometer en een tunnelkalender met geplande nachtelijke sluitingen en omleidingen. Wie een dringende rit in Vlaanderen eindigt, controleert beide vóór vertrek."
+        },
+        {
+          "kind": "regel",
+          "title": "Ritsen bij een versmalling",
+          "body": "In België is ritsen wettelijk verplicht wanneer traag, druk verkeer een rijstrookversmalling nadert, bijvoorbeeld bij werken of een ongeval. Een lange autotransporter heeft daar meer ruimte voor nodig."
+        },
+        {
+          "kind": "regel",
+          "title": "Brussel: 30 km/u in de bebouwde kom",
+          "body": "In het Brussels Hoofdstedelijk Gewest geldt binnen de bebouwde kom 30 km/u, in Vlaanderen en Wallonië 50 km/u. Brusselse wijken hebben daarnaast eenrichtingsstraten en verkeersfilters, zodat een adres in het centrum een vooraf afgesproken ophaalplek vraagt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Valt een rit van Luxemburg naar België onder het zondagsverbod?",
+          "a": "Nee. Het Luxemburgse verbod geldt voor vrachtwagens boven 7,5 ton in doorvoer naar Frankrijk of Duitsland. Een rit die in België eindigt, wordt dus niet geraakt, ook niet op zondag of een feestdag."
+        },
+        {
+          "q": "Welke snelweg neemt een autotransporter van Luxemburg naar Brussel?",
+          "a": "De Luxemburgse A6 gaat aan de grens over in de Belgische A4, die als E411 via Aarlen en Namen naar Brussel loopt. Het is één doorlopende snelweg, met de ring van Namen en de Brusselse ring onderweg."
+        },
+        {
+          "q": "Moet ik rekening houden met feestdagen aan beide kanten?",
+          "a": "Ja. Europadag en 23 juni zijn alleen in Luxemburg feestdagen. Op 15 november zijn de federale diensten in België gesloten, al is het geen wettelijke feestdag. Wie op die dagen iets bij een dienst moet regelen, plant er rond."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar België: waarom het weekendverbod hier niet geldt en waar de E411 en de Brusselse ring vertragen. Offerte via Mcars.",
+      "sources": [
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/luxembourg",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://cita.lu/en/tentt_sipo.html",
+        "https://nl.wikipedia.org/wiki/A4_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Baraque_de_Fraiture",
+        "https://nl.wikipedia.org/wiki/Ring_rond_Brussel",
+        "https://www.verkeerscentrum.be/filebarometer",
+        "https://mobilit.belgium.be/fr/route/immatriculer-et-radier/importer-un-vehicule/vehicule-importe-de-lue",
+        "https://mobilit.belgium.be/nl/weg/transport/vrachtbrief/opmaak-gebruik-en-bewaarplicht",
+        "https://wegenenverkeer.be/betrouwbaarheid/ritsen",
+        "https://nl.wikipedia.org/wiki/N4_%28Belgi%C3%AB%29",
+        "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+      ]
+    },
+    "luxemburg-nederland": {
+      "lead": "Tussen Luxemburg en Nederland ligt België, en dat bepaalt een spoedrit meer dan de eindbestemming. De route loopt over de Belgische A4, rond Luik en over de Nederlandse A2 langs Maastricht. Het Luxemburgse weekendverbod speelt niet mee en Nederland kent geen algemeen weekendverbod, maar een Belgische kilometerheffing en tunnels onderweg vragen wel voorbereiding.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Belgische A4 en E25 rond Luik, dan Nederlandse A2 naar Maastricht"
+        },
+        {
+          "label": "Weekendverbod",
+          "value": "Nederland kent geen algemeen weekend- of feestdagenverbod voor vrachtverkeer"
+        },
+        {
+          "label": "RDW-station",
+          "value": "Open op werkdagen van 8.00 tot 17.00 uur, dicht op feestdagen"
+        },
+        {
+          "label": "Kentekenbewijs",
+          "value": "Komt na goedkeuring binnen 5 werkdagen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek bij Martelange en Mersch",
+          "body": [
+            "Een ophaling in het westen van Luxemburg start vaak langs de A6, maar wie bij Martelange laadt, zit op de grens. De Belgische N4 vormt daar de grens en aan de Luxemburgse kant staat een rij tankstations. Voor een vrachtwagen met opbouw is het er krap en druk.",
+            "Ligt het adres bij Mersch of Bissen, dan loopt de A7 met drie tunnels richting de hoofdstad: Gousselerbierg (2.695 meter), Mersch (530 meter) en het viaduct van Lorentzweiler (890 meter). Spreek dan af aan een grote parking vlak bij de snelwegafrit."
+          ]
+        },
+        {
+          "heading": "De weg door België en rond Luik",
+          "body": [
+            "De E25 loopt in België over de A4 tussen Neufchâteau en Aarlen, rond Luik over de A3 en de A602 en daarna over de A25 naar Visé en Maastricht. De A602 is de stadssnelweg door Luik, met de tunnels van Cointe, Kinkempois en Grosses Battes. In de tunnel van Cointe staat trajectcontrole.",
+            "Bij zware regen kan de verbinding tussen de A602 en de A26 bij Angleur onder water lopen. De Belgische kilometerheffing via Viapass geldt voor voertuigen boven 3,5 ton in Vlaanderen, Brussel en op de door SOFICO beheerde wegen in Wallonië, met een boordtoestel aan boord. Een transport naar Nederland raakt dat stuk in elk geval."
+          ]
+        },
+        {
+          "heading": "Aankomst in Limburg en Oost-Brabant",
+          "body": [
+            "In Maastricht gaat de A2 door de Koning Willem-Alexandertunnel. De hoofdrijbaan is de A2, de parallelbaan heet N2; voor het centrum neemt u afrit 53 (Geusselt) of 54 (Europaplein). Elk jaar in maart is er de kunstbeurs TEFAF in het MECC, en dan is het rond Randwyck druk.",
+            "Verder naar het noorden, in Eindhoven, geldt de Dutch Design Week elk jaar in oktober voor drukte op meer dan honderd locaties. Rond carnaval, zeven weken vóór Pasen, zijn veel Brabantse en Limburgse centra moeilijk bereikbaar voor een lange autotransporter."
+          ]
+        },
+        {
+          "heading": "Papieren, keuring en wat u zelf regelt",
+          "body": [
+            "Een auto uit een ander EU-land met geldige apk heeft geen nieuwe apk nodig. De koper maakt online een afspraak bij een RDW-keuringsstation en neemt het buitenlandse kentekenbewijs en een identiteitsbewijs mee. Daarna volgt de bpm-aangifte.",
+            "Mcars vervoert de wagen en regelt de keuring of de aangifte niet. Wie op vrijdag wil laten leveren voor een keuring, controleert eerst de openingsuren van het station, want de RDW is dicht op feestdagen en Goede Vrijdag en Bevrijdingsdag zijn geen wettelijk vrije dagen. Een spoedrit begint hier bij de planning van de keuring, niet bij de vrachtwagen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "TEFAF Maastricht",
+          "body": "De kunstbeurs vindt elk jaar in maart plaats in het MECC. Rond Randwyck en de ring van Maastricht is het dan drukker, dus een dringende levering in de buurt vraagt een ruime marge en een afspraak over laadplek."
+        },
+        {
+          "kind": "regel",
+          "title": "Roertunnel en Tunnel Swalmen",
+          "body": "In deze tunnels op de A73 mogen geen vrachtwagens hoger dan 4,10 meter. Rijdt een te hoge wagen binnen, dan sluit een automatisch systeem de tunnel voor alle verkeer. Voor een geladen autotransporter is nameten vooraf geen luxe."
+        },
+        {
+          "kind": "event",
+          "title": "Dutch Design Week in Eindhoven",
+          "body": "Elk jaar in oktober vult de week de stad met bezoekers op meer dan honderd locaties. Een levering of ophaling in het centrum vraagt dan een vooraf gekozen punt buiten de drukste straten."
+        },
+        {
+          "kind": "tip",
+          "title": "Carnaval in Brabant en Limburg",
+          "body": "Van zondag tot en met dinsdag, zeven weken vóór Pasen, vieren Noord-Brabant en Limburg carnaval, en veel plaatsen starten eerder. Wegen in het centrum zijn dan vaak afgesloten of overvol."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is er een weekendverbod in Nederland voor een autotransporter?",
+          "a": "Nederland kent geen algemeen weekend- of feestdagenverbod voor vrachtverkeer. Wel loopt de route via België, en daar geldt de kilometerheffing van Viapass voor voertuigen boven 3,5 ton."
+        },
+        {
+          "q": "Welke route volgt een rit van Luxemburg naar Maastricht of Eindhoven?",
+          "a": "Over de Luxemburgse A6 naar de Belgische A4, rond Luik via de E25 en dan over de Nederlandse A2. Die loopt van Maastricht ook langs Eindhoven verder naar het noorden."
+        },
+        {
+          "q": "Wanneer is de wagen klaar voor inschrijving in Nederland?",
+          "a": "Na goedkeuring door de RDW en de Belastingdienst komt het Nederlandse kentekenbewijs binnen vijf werkdagen. Het vervoer zelf is slechts één stap; de keuring en bpm-aangifte staan los van de rit."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Nederland via België en Luik: route, Viapass, RDW-uren en drukte in Limburg en Brabant. Offerte via Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://www.viapass.be/",
+        "https://nl.wikipedia.org/wiki/A602_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/N4_%28Belgi%C3%AB%29",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Netherlands)",
+        "https://nl.wikipedia.org/wiki/MECC_Maastricht",
+        "https://nl.wikipedia.org/wiki/Rijksweg_2",
+        "https://nl.wikipedia.org/wiki/Dutch_Design_Week",
+        "https://nl.wikipedia.org/wiki/Carnaval",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a73",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/verhuizen-naar-nederland-en-uw-voertuig-meenemen",
+        "https://www.rijksoverheid.nl/onderwerpen/auto/vraag-en-antwoord/hoe-kan-ik-een-auto-uit-het-buitenland-in-nederland-importeren-invoeren",
+        "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen"
+      ]
+    },
+    "luxemburg-frankrijk": {
+      "lead": "Wie een wagen vanuit het zuiden van Luxemburg naar Frankrijk wil krijgen, merkt het op zaterdagavond: vrachtwagens staan aan de A3 te wachten tot het verbod voorbij is. Beide landen hebben een eigen rijverbod en een autotransporter valt in beide onder de regels. Een spoedrit hier vraagt dus vooral kennis van uren, uitzonderingen en de drukke A31.",
+      "facts": [
+        {
+          "label": "Luxemburgs verbod",
+          "value": "Zaterdag 21.30 uur tot zondag 21.45 uur, ook rond feestdagen"
+        },
+        {
+          "label": "Frans verbod",
+          "value": "Vanaf 22 uur op de vooravond tot 22 uur op de feestdag"
+        },
+        {
+          "label": "Afwijking",
+          "value": "De prefect kan een individuele afwijking toestaan voor dringend vervoer"
+        },
+        {
+          "label": "Zomerzaterdagen",
+          "value": "Hoogstens zeven per jaar, van 7 tot 19 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het zuiden: Berchem en de A3",
+          "body": [
+            "In het zuiden van Luxemburg, rond Bettembourg, Dudelange en Esch-sur-Alzette, loopt alles over de A3 naar de Franse grens bij Zoufftgen. Het is de belangrijkste wegverbinding met Frankrijk en wordt druk gebruikt door Franse grensarbeiders en doorgaand verkeer, met twee rijstroken per richting.",
+            "Aan de Aire de Berchem, aan beide kanten van de A3, stond de vrachtwagenparking vroeger in het weekend vol met chauffeurs die op het einde van het verbod wachtten, tot op de snelweg toe. De parking richting Frankrijk is uitgebreid en een geleidingssysteem wijst een plaats toe volgens het geplande vertrekuur. Laat uw wagen daar nooit achter in afwachting van een andere vrachtwagen."
+          ]
+        },
+        {
+          "heading": "De Franse rijverboden voor zware vrachtwagens",
+          "body": [
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton van 22 uur op de vooravond tot 22 uur op de feestdag zelf. Valt een feestdag op zaterdag, dan geldt het verbod de hele dag. In de zomer komen op het hele net hoogstens zeven extra zaterdagen bij, telkens van 7 tot 19 uur.",
+            "De lijst met permanente afwijkingen noemt levende dieren, bederfelijke waren, pers, luchtvracht en ziekenhuisgoederen. Het gewone vervoer van voertuigen staat er niet in, dus een autotransporter valt onder het verbod. Wie toch dringend moet rijden, vraagt een afwijking aan.",
+            "Die afwijking moet aan boord zijn, ingevuld met de datum en de nummerplaat."
+          ]
+        },
+        {
+          "heading": "De A31 van Zoufftgen tot Beaune",
+          "body": [
+            "De Luxemburgse A3 is 15 kilometer lang en gaat aan de grens over in de Franse A31, die 349 kilometer verder bij Beaune op de A6 aansluit. Het deel tussen Toul en Zoufftgen is gratis, het deel tussen Beaune en Toul is tolweg.",
+            "Bij het knooppunt Hauconcourt rijden ongeveer 100.000 voertuigen per dag. Tienduizenden Franse grensarbeiders rijden naar Luxemburg, met files rond Thionville en op de terugweg tussen 15 en 20 uur. Vrachtwagens mogen op de A31 overdag, tussen 7 en 20 uur, niet inhalen. Reken dus op een trage doorgang, ook als er geen verbod is."
+          ]
+        },
+        {
+          "heading": "Aankomst in Grand Est en daarna",
+          "body": [
+            "Eindigt de rit in Lotharingen, rond Thionville of Metz, dan bent u kort na de grens op bestemming. Verder naar het zuiden volgt Beaune, waar de A6, de A31 en de aansluiting naar de A36 samenkomen.",
+            "Voor een Frankrijk-rit geldt dat 1 mei de enige feestdag is waarop wettelijk niet gewerkt wordt. Laden of lossen bij een bedrijf lukt die dag doorgaans niet. Voor bruggen tussen een feestdag en het weekend is niets wettelijk geregeld; het hangt af van cao of werkgever. Mcars rijdt elke week over heel Frankrijk, ook naar stockageparken zoals BCA en TEA."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Aire de Berchem",
+          "body": "Dit tankstationcomplex aan de A3, vijf kilometer ten zuiden van de hoofdstad, geldt volgens Wikipedia als het grootste van Europa naar omzet. Sinds mei 2025 baat Q8 beide stations uit, zodat u er vrachtwagens en tankend verkeer ziet."
+        },
+        {
+          "kind": "tip",
+          "title": "Bison Futé voor transporteurs",
+          "body": "Bison Futé biedt transporteurs een gratis abonnement met berichten in real time over rijverboden en de opheffing ervan bij zwaar weer. Voor een dringende rit is dat een nuttige bron van de actuele stand."
+        },
+        {
+          "kind": "regel",
+          "title": "Inhaalverbod op de A31",
+          "body": "Op de A31 mogen vrachtwagens overdag, van 7 tot 20 uur, niet inhalen. Dat maakt een autotransporter trager dan een gewone personenwagen en bepaalt hoe vroeg u moet vertrekken."
+        },
+        {
+          "kind": "regel",
+          "title": "Afwijking via de prefect",
+          "body": "Voor ritten vanuit het buitenland beslist de prefect van het departement waar men Frankrijk binnenrijdt over een individuele afwijking. Die wordt vooraf aangevraagd, niet onderweg."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een autotransporter op zondag in Frankrijk rijden?",
+          "a": "Niet van 22 uur op zaterdag tot 22 uur op zondag, want het gewone vervoer van voertuigen staat niet in de lijst met afwijkingen. Een individuele afwijking van de prefect kan voor dringend vervoer, maar vraagt voorbereiding."
+        },
+        {
+          "q": "Waar kan een zware vrachtwagen het Luxemburgse verbod afwachten?",
+          "a": "Niet op de openbare weg of op een snelwegparking. De vrachtwagen moet vooraf een privéterrein bereiken of het land verlaten. De uitgebreide parking aan de Aire de Berchem is bedoeld voor wie het einde van het verbod afwacht."
+        },
+        {
+          "q": "Hoeveel extra zaterdagen verbiedt Frankrijk in de zomer?",
+          "a": "Hoogstens zeven, telkens van 7 tot 19 uur, op het hele net. De data staan elk jaar in een ministerieel besluit, dus kijk de actuele lijst na voor u een rit in juli of augustus plant."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Frankrijk: rijverboden aan beide kanten van de grens, de drukke A31 en afwijkingen. Offerte via Mcars.",
+      "sources": [
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://www.bison-fute.gouv.fr/derogations-de-circulation.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A3_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://fr.wikipedia.org/wiki/Aire_de_Berchem",
+        "https://paperjam.lu/article/parking-intelligent-contre-cha",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)"
+      ]
+    },
+    "luxemburg-duitsland": {
+      "lead": "De grens met Duitsland ligt voor een wagen uit Luxemburg dichtbij, maar het weekend maakt het verschil. Luxemburg laat zware vrachtwagens in doorvoer pas om 23.30 uur op zaterdag stoppen, twee uur later dan richting Frankrijk, en Duitsland houdt zijn eigen zondagsverbod tot 22 uur. Een spoedrit hier loopt dus tussen twee verboden door.",
+      "facts": [
+        {
+          "label": "Luxemburgs verbod",
+          "value": "Doorvoer naar Duitsland: zaterdag 23.30 uur tot zondag 21.45 uur"
+        },
+        {
+          "label": "Duits verbod",
+          "value": "Zondag en feestdagen van 0 tot 22 uur, ook met aanhanger"
+        },
+        {
+          "label": "Zomerverbod",
+          "value": "Zaterdagen in juli en augustus, 7 tot 20 uur, op 32 trajecten"
+        },
+        {
+          "label": "Oversteek",
+          "value": "A1 naar Wasserbillig of A13 over de Moezel bij Schengen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in de Moezelstreek",
+          "body": [
+            "Ophalen bij Grevenmacher, Remich of Mondorf betekent dat u in de streek van de Moezel zit, de grens met Duitsland. De A1 loopt 36,2 kilometer van de Croix de Gasperich naar Wasserbillig en gaat daar over in de Duitse A64 richting Trier. Vlak voor de grens ligt de rustplaats Wasserbillig.",
+            "Het oostelijke deel van de A13, de verbinding met Saarland, loopt van Hellange over Frisange en Mondorf-les-Bains naar Schengen. Bij Schengen steekt ze de Moezel over op een viaduct van 607 meter en gaat ze aan de overkant over in de Duitse A8."
+          ]
+        },
+        {
+          "heading": "Duitse rijverboden op zondag en in de zomer",
+          "body": [
+            "In Duitsland geldt op zondag en wettelijke feestdagen van 0 tot 22 uur een rijverbod voor vrachtwagens boven 7,5 ton en voor elke vrachtwagen met een aanhanger voor goederenvervoer. De uitzonderingen zijn beperkt, onder meer tot gecombineerd vervoer, verse melk, vlees en vis en pech- en bergingsvoertuigen. Het vervoer van auto's staat er niet bij.",
+            "In juli en augustus komt er op zaterdag van 7 tot 20 uur een verbod op 32 genoemde trajecten bij. In dringende gevallen kan de plaatselijke Straßenverkehrsbehörde een ontheffing geven als vervoer met andere middelen niet kan. Die is schriftelijk en moet aan boord zijn."
+          ]
+        },
+        {
+          "heading": "Trier, de A64 en de Duitse A8",
+          "body": [
+            "De Duitse A64 is ongeveer 14 kilometer lang, met de Sauertalbrücke van 1.195 meter en 98 meter hoog. Ze heeft maar één aansluiting, Trier (B51), en geen rechtstreekse aansluiting op de Duitse A1. Wie verder moet, neemt de B51 of de A64a.",
+            "De A8 begint bij Perl aan de Luxemburgse grens en loopt langs Saarlouis en Saarbrücken naar Karlsruhe en verder. Voor vrachtwagens boven 3,5 ton geldt in Duitsland tol op alle Bundesstraßen en vrijwel alle autosnelwegen. Dat gaat over de transporteur en niet over uw wagen."
+          ]
+        },
+        {
+          "heading": "Aankomst in Rijnland-Palts en Saarland",
+          "body": [
+            "Rijnland-Palts en Saarland grenzen aan Luxemburg. Hier gelden regionale feestdagen: Fronleichnam en Allerheiligen in beide deelstaten, en Maria-Hemelvaart op 15 augustus in Saarland. Op zulke dagen is het zware vrachtverkeer verboden, terwijl de dag in Hessen of Nedersaksen soms een gewone werkdag is.",
+            "De Duitse zomervakanties zijn gespreid over vijf groepen deelstaten. Dat verdeelt het reisverkeer over de zomer, maar een spoedrit valt altijd in een regio waar die week iemand op vakantie vertrekt. Bij Wasserbillig, net over de grens, ligt een groot tankstation met Duitse tanktoeristen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Springprocessie van Echternach",
+          "body": "Elk jaar op pinksterdinsdag trekt de springprocessie door Echternach, sinds 2010 op de Unesco-lijst van immaterieel erfgoed. Op die dag is het centrum geen plek voor een ophaling of levering."
+        },
+        {
+          "kind": "plek",
+          "title": "Frankfurt-Hahn in de Hunsrück",
+          "body": "De luchthaven ligt ongeveer 124 kilometer van Frankfurt, aan de B50 richting de A61, en is 24 uur open. Wie er aankomt of vertrekt, kan een wagen op een ongewoon uur laten ophalen."
+        },
+        {
+          "kind": "regel",
+          "title": "Regionale feestdagen en het vrachtverbod",
+          "body": "Fronleichnam, Allerheiligen en Maria-Hemelvaart zijn enkel in sommige deelstaten feestdagen. Het Duitse rijverbod geldt alleen in de deelstaten waar de dag een feestdag is, dus kijk na waar uw route doorloopt."
+        },
+        {
+          "kind": "tip",
+          "title": "Tankstation Wasserbillig",
+          "body": "Net over de grens op de A64 trekt een groot tankstation veel Duitse tanktoeristen. Reken er op drukte en kies niet hier een afspraakpunt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waarom mag een vrachtwagen zaterdagavond nog door Luxemburg richting Duitsland?",
+          "a": "Het Luxemburgse verbod richting Duitsland begint pas om 23.30 uur, anders dan richting Frankrijk. Tot dat uur mag de wagen rijden, maar het Duitse zondagsverbod loopt tot zondagavond 22 uur."
+        },
+        {
+          "q": "Geldt het Duitse zondagsverbod voor elke vrachtwagen?",
+          "a": "Het geldt voor vrachtwagens boven 7,5 ton en voor elke vrachtwagen met aanhanger. Een vrachtwagen tot 7,5 ton zonder aanhanger valt er niet onder, maar zodra er een aanhanger achter hangt wel."
+        },
+        {
+          "q": "Is er een uitzondering voor autotransport?",
+          "a": "In de lijst van het Duitse zondagsverbod staat het vervoer van auto's niet. Een ontheffing van de plaatselijke Straßenverkehrsbehörde is mogelijk voor dringende gevallen, maar moet schriftelijk aan boord liggen."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Duitsland: Luxemburgs en Duits rijverbod, Trier, de A64 en de A8. Offerte op maat van Mcars.",
+      "sources": [
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://www.gesetze-im-internet.de/stvo_2013/__30.html",
+        "https://www.gesetze-im-internet.de/ferreisev_1985/BJNR007740985.html",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://en.wikipedia.org/wiki/List_of_motorways_in_Luxembourg",
+        "https://de.wikipedia.org/wiki/Autoroute_13_(Luxemburg)",
+        "https://de.wikipedia.org/wiki/Gesetzliche_Feiertage_in_Deutschland",
+        "https://de.wikipedia.org/wiki/Schulferien",
+        "https://fr.wikipedia.org/wiki/Echternach",
+        "https://de.wikipedia.org/wiki/Flughafen_Frankfurt-Hahn",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland"
+      ]
+    },
+    "luxemburg-spanje": {
+      "lead": "Luxemburg naar Spanje is een lange rit, en op zo'n afstand wordt een dringende opdracht vooral een kwestie van de juiste dag kiezen. De route loopt bijna volledig door Frankrijk, met zijn weekend- en zomerverboden, en eindigt in een land waar vrachtverboden per traject en per uur verschillen. Spoed betekent hier planning, geen sprint.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A3, A31, A6 bij Beaune, A7, A9 en dan de Spaanse AP-7"
+        },
+        {
+          "label": "Zomerpiek A7",
+          "value": "Tot 180.000 voertuigen per dag tussen Vienne en Orange"
+        },
+        {
+          "label": "Spanje",
+          "value": "Geen algemeen weekendverbod; verboden per traject, datum en uur"
+        },
+        {
+          "label": "Fourvière",
+          "value": "Tunnel in Lyon met 70 km/u sinds 2006"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het zuiden van Luxemburg",
+          "body": [
+            "De route begint in het Minett, het zuiden van het land. De A4 loopt van Luxemburg-stad over Leudelange, Pontpierre en Foetz naar Esch-sur-Alzette en sluit voorbij Belval via Micheville aan op de Franse A30, met de tunnel Central Gate (735 meter) onderweg.",
+            "Aan de Croix de Bettembourg kruist de A3 de A13. Zo kunt u vanuit het zuiden oostwaarts of westwaarts zonder door de hoofdstad te rijden. Weekendafsluitingen voor werken komen op de A13 voor, bijvoorbeeld voor de heraanleg van een brug bij Schifflange; kijk de verkeersinfo vooraf na."
+          ]
+        },
+        {
+          "heading": "Door Frankrijk: A31, A6, A7 en A9",
+          "body": [
+            "Vanaf de grens loopt de A31 349 kilometer tot Beaune, gratis tot Toul en tolweg erna. Bij Beaune neemt de A6 over naar Lyon. In Lyon ligt de Fourvière-tunnel; de limiet daalde in 2006 van 90 naar 70 km/u. Daarna volgt de A7 door de Rhônevallei en bij Orange de A9 naar de Spaanse grens.",
+            "Op de A7 kunnen er in de zomer tot 180.000 voertuigen per dag rijden. De chassé-croisé van eind juli en begin augustus geeft files van honderden kilometers en de snelheid wordt op drukke dagen verlaagd. Het Franse weekendverbod voor wagens boven 7,5 ton loopt de hele reis mee."
+          ]
+        },
+        {
+          "heading": "Spaanse verboden per traject",
+          "body": [
+            "Spanje heeft geen algemeen zondagsverbod voor vrachtwagens boven 7.500 kilogram. Het verbod geldt per kalender en per wegvak, volgens bijlage II van de jaarresolutie van de DGT. Zo mogen zulke voertuigen van eind juni tot begin september op zon- en feestdagen 's avonds, tussen 21 en 23 uur, Madrid niet binnenrijden over de A-1, A-2, A-3, A-5 en A-6.",
+            "Op zaterdagvoormiddag in de zomer zijn de A-49 en de AP-4 bij Sevilla dicht. Rond de Goede Week zijn de uitvalswegen van Madrid dicht in de vertrekrichting. Autotransport staat niet in de lijst met uitzonderingen. De DGT werkt bovendien met vaste speciale operaties rond 1 mei, 1 augustus, 15 augustus, de brug van El Pilar op 12 oktober, Allerheiligen en de brug van 6 tot 8 december."
+          ]
+        },
+        {
+          "heading": "Aankomst in Catalonië en aan de kust",
+          "body": [
+            "Catalonië is de eerste Spaanse regio na Frankrijk. De AP-7 begint aan de grens in La Jonquera, waar de Franse A9 overgaat, en volgt dan de hele Middellandse Zeekust als E-15. De streek onder de Franse grens kent de tramontana, een koude noordenwind die vooral in de winter hevig waait en meerdere dagen kan duren.",
+            "Verder zuidwaarts liggen Valencia en Murcia, een bestemming voor tweedeverblijvers. Mcars vervoert wagens van tweedeverblijvers in Spanje, maar de keuze van vertrekdag blijft van de verboden en de drukte afhankelijk."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Tramontana in de Empordà",
+          "body": "Deze koude, turbulente noordenwind komt vooral in de winter voor en is het hevigst vlak onder de Franse grens. Voor een open autotransporter met zijlading is wind een reden om rustig te rijden."
+        },
+        {
+          "kind": "plek",
+          "title": "La Jonquera",
+          "body": "De AP-7 en de N-II lopen er allebei over de grens door. De gemeente is een dienstencentrum voor het wegtransport en leeft grotendeels van de grenspost van Le Perthus, dus er staan veel vrachtwagens."
+        },
+        {
+          "kind": "regel",
+          "title": "Madrid op zomerse zondagavonden",
+          "body": "Van eind juni tot begin september mogen voertuigen boven 7.500 kilogram op zon- en feestdagen tussen 21 en 23 uur Madrid niet binnenrijden. Wie een wagen naar de hoofdstad brengt, rijdt eerder of later."
+        },
+        {
+          "kind": "tip",
+          "title": "Overstroomde snelwegen bij Valencia",
+          "body": "Bij de DANA-overstromingen in de provincie Valencia werd de A-3 afgesloten bij Requena en de A-7 bij L'Alcúdia, en raakten duizenden wagens beschadigd. Heftig weer kan een route dus ineens blokkeren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is een rit Luxemburg naar Spanje in één dag haalbaar?",
+          "a": "De afstand is groot, en chauffeurs mogen per dag hoogstens 9 uur rijden, twee keer per week 10 uur. Op zo'n afstand past de rit niet in één rijdag en moet de planning rekening houden met de verboden onderweg."
+        },
+        {
+          "q": "Geldt in Spanje een zondagsverbod voor vrachtwagens?",
+          "a": "Niet algemeen. De verboden gelden per traject, datum en uur, bijvoorbeeld rond Madrid in de zomer en bij de Goede Week. Autotransport staat niet bij de uitzonderingen."
+        },
+        {
+          "q": "Welke dagen zijn het drukst op de A7?",
+          "a": "Eind juli en begin augustus, wanneer de Franse vakantiegangers de Rhônevallei volrijden. De drukste dagen vallen tussen het laatste weekend van juli en het eerste van augustus."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Spanje: A31, Lyon, A7 en A9, Spaanse verboden per traject en de zomerdrukte. Offerte op maat via Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A3_(Luxembourg)",
+        "https://www.chronicle.lu/category/motoring-1/45948-parts-of-a13-to-close-for-schifflange-bowstring-works-over-weekend",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/estado-del-trafico/restricciones/2026/Resolucion-DGT_Medidas-circulacion-2026_ANEXO-II.pdf",
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Tramontana",
+        "https://es.wikipedia.org/wiki/La_Junquera",
+        "https://es.wikipedia.org/wiki/Inundaciones_de_la_DANA_de_2024_en_Espa%C3%B1a",
+        "https://mobilit.belgium.be/nl/weg/transport/rij-en-rusttijden/rijtijden"
+      ]
+    },
+    "luxemburg-italie": {
+      "lead": "Naar Italië rijdt een wagen vanuit Luxemburg door Frankrijk of Zwitserland, en elke keuze komt met eigen verboden en tunnels. Dringend vervoer botst hier niet op één regel maar op een optelsom: Franse en Italiaanse rijverboden, een Gotthardtunnel met doseersysteem en Alpentunnels die bij sneeuw of onderhoud dichtgaan. Wie in Italië aankomt, doet er goed aan de dag zelf te kiezen.",
+      "facts": [
+        {
+          "label": "Italiaans verbod",
+          "value": "Boven 7,5 ton op zon- en feestdagen, 's zomers van 7 tot 22 uur"
+        },
+        {
+          "label": "Uit het buitenland",
+          "value": "Met bewijs van herkomst mag het verbod vier uur later beginnen"
+        },
+        {
+          "label": "Gotthard",
+          "value": "Eén buis, 80 km/u, doseersysteem voor vrachtwagens"
+        },
+        {
+          "label": "Overtreding",
+          "value": "Rijbewijs en kentekenbewijs 1 tot 4 maanden geschorst"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het noorden en de weg naar de Elzas",
+          "body": [
+            "Wie uit het noorden van Luxemburg vertrekt, rond Wiltz of Clervaux, heeft geen snelweg tot aan de grens. In Wiltz trekt op pinkstermaandag de bloemencorso van het Fête du Genêt door de stad. Pinkstermaandag is bovendien een Luxemburgse feestdag, dus een ophaling plant u beter op een andere dag.",
+            "De gebruikelijke as naar Italië loopt over de Franse A31 en door de Elzas, via de A35 naar de Zwitserse grens bij Saint-Louis, of door Frankrijk naar de Mont Blanc- of Fréjustunnel. Bij Straatsburg telt de A35 ongeveer 160.000 voertuigen per dag, ongeveer tien procent vrachtwagens, met 70 km/u en regelmatig verzadiging in de spits. Bij Bartenheim zijn er avondfiles van grensarbeiders."
+          ]
+        },
+        {
+          "heading": "Gotthard, Mont Blanc en Fréjus",
+          "body": [
+            "De Gotthard-wegtunnel is ongeveer 16,9 kilometer lang, heeft één buis met verkeer in beide richtingen, één rijstrook per richting, een inhaalverbod en 80 km/u. Sinds een ongeval met brand mogen maximaal 150 vrachtwagens per uur binnen. Rond Pasen en in de zomer zijn files aan beide uiteinden gewoon.",
+            "De Mont Blanc-tunnel is 11,6 kilometer lang. Voertuigen moeten er minstens 150 meter afstand houden en vrachtwagens met gevaarlijke stoffen zijn geweerd. De Fréjustunnel heeft sinds 2025 een tweede buis, één voor elke richting. Gaat de Mont Blanc dicht, dan wijkt het meeste vrachtverkeer uit naar de Fréjus. De Grote Sint-Bernhardtunnel sluit bij zware sneeuw voor zwaar verkeer."
+          ]
+        },
+        {
+          "heading": "Italiaanse rijverboden voor zware wagens",
+          "body": [
+            "Italië verbiedt goederenvoertuigen boven 7,5 ton op alle wegen buiten de stad op zon- en feestdagen: van 9 tot 22 uur in het koude halfjaar en van 7 tot 22 uur van juni tot september. In de zomer komen er zaterdagen en enkele vrijdagavonden bij. Rond Pasen gelden extra verboden, onder meer op Goede Vrijdag in de namiddag en paaszaterdag overdag.",
+            "Voor internationale ritten is er een afwijking: een voertuig dat uit het buitenland komt, mag met bewijs van herkomst vier uur later beginnen, en voor voertuigen naar het buitenland eindigt het verbod twee uur eerder. De dagen worden elk jaar bij decreet vastgelegd, dus controleer de actuele kalender."
+          ]
+        },
+        {
+          "heading": "Aankomst in het noordwesten en in Lombardije",
+          "body": [
+            "Het noordwesten van Italië, Piemonte, Valle d'Aosta en Ligurië, ligt het eerst op de route. De Ligurische snelwegen staan bekend om files door werven op tunnels en viaducten in een smalle kuststrook.",
+            "Ligt de bestemming in Lombardije, dan komt u via Chiasso binnen. Area C in Milaan is op weekdagen overdag betalend voor elk voertuig, en diesels tot en met Euro 3 en privévoertuigen langer dan 7 meter zijn er niet toegelaten. Een autotransporter blijft dus buiten het centrum en levert op een afgesproken punt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Fête du Genêt in Wiltz",
+          "body": "Op pinkstermaandag trekt de bloemencorso van het bremfeest, bestaand sinds 1949, door de stad. De dag is een feestdag in Luxemburg en het centrum is afgesloten. Plan een ophaling in Wiltz op een andere dag."
+        },
+        {
+          "kind": "regel",
+          "title": "Boete en schorsing bij overtreding",
+          "body": "Wie het Italiaanse rijverbod met een vrachtvoertuig negeert, krijgt naast een boete een schorsing van rijbewijs en kentekenbewijs van één tot vier maanden, en de vrachtwagen moet blijven staan tot het verbod eindigt."
+        },
+        {
+          "kind": "tip",
+          "title": "Doseersysteem aan de Gotthard",
+          "body": "Vrachtwagens rijden de tunnel binnen via een doseersysteem dat ongeveer 150 meter afstand houdt, wat het verkeer beperkt tot enkele duizenden vrachtwagens per dag. Wachttijd voor de tunnel is dus normaal."
+        },
+        {
+          "kind": "regel",
+          "title": "Livigno en de belastingvrije zone",
+          "body": "Livigno is een belastingvrije zone: er wordt geen Italiaanse btw geheven en wie naar de rest van Italië rijdt, passeert een douanecontrole. Dat is een bestemming waar u de douaneregels apart nakijkt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter op zondag door Italië rijden?",
+          "a": "Niet op de wegen buiten de stad tussen 9 en 22 uur in het koude halfjaar, en 's zomers tussen 7 en 22 uur. Voor ritten uit het buitenland is er een afwijking van vier uur later, met bewijs van herkomst."
+        },
+        {
+          "q": "Welke tunnel is de beste voor een zware wagen naar Noord-Italië?",
+          "a": "Dat hangt van de bestemming en de dag af. De Gotthard heeft een doseersysteem, de Mont Blanc afstandsregels en de Fréjus is sinds de tweede buis een tweede optie. Bij sneeuw of onderhoud wisselt u van tunnel."
+        },
+        {
+          "q": "Wat gebeurt er als een vrachtwagen het Italiaanse verbod overtreedt?",
+          "a": "Naast een boete volgt een schorsing van rijbewijs en kentekenbewijs voor één tot vier maanden, en de wagen blijft staan tot het verbod eindigt. Een spoedrit vermijdt dat risico altijd."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Italië: Franse en Italiaanse rijverboden, Gotthard-, Mont Blanc- en Fréjustunnel. Offerte op maat via Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Wiltz",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://fr.wikipedia.org/wiki/Tunnel_du_Mont-Blanc",
+        "https://fr.wikipedia.org/wiki/Tunnel_routier_du_Fr%C3%A9jus",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/italy",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://mit.gov.it/index.php/node/21641",
+        "https://aci.gov.it/codice-della-strada/art-6/",
+        "https://www.ilpost.it/2023/06/06/code-autostrada-liguria/",
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://en.wikipedia.org/wiki/Livigno",
+        "https://gazzettamatin.com/2025/01/23/traforo-del-gran-san-bernardo-chiuso-ai-mezzi-pesanti-per-maltempo"
+      ]
+    },
+    "luxemburg-zwitserland": {
+      "lead": "Voor Zwitserland geldt een regel die elke spoedrit bepaalt: zwaar verkeer rijdt er niet op zondag, niet op feestdagen en elke nacht niet tussen 22 en 5 uur. Een autotransporter valt daaronder, ook de variant met oplegger of aanhanger. Wie op zaterdagavond bij de grens staat, wacht tot maandag vijf uur. Een dringende rit moet dus vóór dat uur de grens over zijn.",
+      "facts": [
+        {
+          "label": "Zwitsers verbod",
+          "value": "Boven 3,5 ton op zondag en feestdagen, en elke nacht 22 tot 5 uur"
+        },
+        {
+          "label": "Autotransporter",
+          "value": "Valt eronder: opleggers boven 5 ton, aanhangers boven 3,5 ton"
+        },
+        {
+          "label": "Ontheffing",
+          "value": "Alleen voor dringende ritten, kortste route, via het kanton van binnenkomst"
+        },
+        {
+          "label": "Douane",
+          "value": "Aangiften voor voertuigen maandag tot vrijdag; zaterdag zelden"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek langs de Moezel",
+          "body": [
+            "In het oosten van Luxemburg, rond Remich en Schengen, ligt de gebruikelijke oprit naar de Duitse of Franse snelwegen. In Remich overstromen de oevers van de Moezel in het voorjaar geregeld; bij hoogwater zijn adressen aan het water mogelijk niet bereikbaar. Remich viert bovendien drie dagen carnaval, met het verbranden van de Stréimännchen vanop de Moezelbrug.",
+            "De gebruikelijke weg naar Zwitserland loopt via de Elzas, over A31, A4 en A35 naar Bazel. Een alternatief loopt via Saarland en de Duitse A8 naar Karlsruhe, waar die de A5 kruist. Het Luxemburgse weekendverbod geldt voor de doorvoer naar Frankrijk, dus een zaterdagavondrit via de A31 start pas na zondagavond."
+          ]
+        },
+        {
+          "heading": "Zwitserse verboden en hoe een ontheffing werkt",
+          "body": [
+            "Het Zwitserse verbod treft ook opleggertrekkers met een treingewicht boven 5 ton en voertuigen met een aanhanger boven 3,5 ton. Vervoer van voertuigen staat niet bij de wettelijke uitzonderingen. Een uitzonderingsvergunning is er enkel voor dringende ritten die niet te vermijden zijn, en alleen voor de kortste route.",
+            "Ze wordt afgegeven door het kanton waar het voertuig gestald is of de rit begint, bij ritten uit het buitenland door het kanton van binnenkomst. De aanvraag loopt online via ASTRA en moet in Wallis ten minste twee werkdagen vóór vertrek binnen zijn. Aanvragen in het weekend worden niet behandeld; daarvoor bestaat een noodprocedure via de kantonspolitie. Een lege aanrit van hoogstens 30 minuten is toegelaten."
+          ]
+        },
+        {
+          "heading": "Over de A35 en de grens bij Basel",
+          "body": [
+            "De A35 is tolvrij en loopt tot Saint-Louis, waar ze overgaat in de Zwitserse A3 naar Bazel. Bij Sausheim sluit de A36 aan. Veel vrachtwagens namen de A35 om de Duitse tol op de parallelle A5 te mijden. Sinds de A355 is doorgaand vrachtverkeer op de Straatsburgse M35 verboden, en het aantal zware voertuigen daar daalde in acht maanden met ongeveer een derde.",
+            "Zwitserland heft op alle wegen de LSVA voor voertuigen boven 3,5 ton, voor Zwitserse en buitenlandse hetzelfde. Dat gaat over de transporteur."
+          ]
+        },
+        {
+          "heading": "Aankomst in Basel en Noordwest-Zwitserland",
+          "body": [
+            "De Duitse A5 eindigt aan de grensovergang Weil am Rhein en sluit er aan op de Zwitserse A2. Bij Rheinfelden verbindt een Rijnbrug de Zwitserse A3 met de Duitse A861. De BAZG noemt Basel Weil-Autobahn als overgang waar handelswaren in uitzonderlijke gevallen ook buiten de openingsuren kunnen worden ingeklaard; elders kan dat niet.",
+            "Een wagen die Zwitserland binnenkomt, moet ongevraagd bij een douanekantoor voor handelsgoederen worden aangegeven, met factuur of koopcontract, inschrijvingsbewijs, identiteitsbewijs en de e-dec-aangifte. Dat regelt de klant zelf of via een douane-expediteur; Mcars vervoert. Bij de Bareggtunnel op de A1 rijden meer dan 100.000 voertuigen per dag."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Hoogwater van de Moezel in Remich",
+          "body": "Overstromingen in het voorjaar zijn in Remich een terugkerend probleem. Een adres aan de oever kan dan onbereikbaar zijn voor een vrachtwagen, dus spreek een ophaalpunt hoger in de stad af."
+        },
+        {
+          "kind": "event",
+          "title": "Fuesend in Remich",
+          "body": "Drie dagen carnaval, met het Stréimännchen dat vanop de Moezelbrug wordt verbrand. In het centrum is het gedrang groot, dus laad liever buiten de straten rond de brug."
+        },
+        {
+          "kind": "regel",
+          "title": "Zwitsers rijverbod rond Pasen",
+          "body": "Goede Vrijdag, paaszondag en Paasmaandag zijn verbodsdagen voor zwaar verkeer, evenals Hemelvaart en Pinkstermaandag. Alleen de zaterdag ertussen is een rijdag. Een dringende rit rond Pasen heeft dus één dag speling."
+        },
+        {
+          "kind": "tip",
+          "title": "Basel Weil-Autobahn buiten de uren",
+          "body": "Buiten de openingsuren zijn handelswaren hier in uitzonderlijke gevallen toch in te klaren; op andere overgangen niet. Reken er nooit op: een spoedrit hangt in Zwitserland ook af van de openingsuren van de douane."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter op zondag Zwitserland binnenrijden?",
+          "a": "Nee. Zwaar verkeer is er op zondag en feestdagen verboden, en elke nacht van 22 tot 5 uur. Alleen voor echt dringende ritten bestaat een ontheffing, aan te vragen via het kanton van binnenkomst."
+        },
+        {
+          "q": "Kan ik in het weekend een ontheffing krijgen?",
+          "a": "Aanvragen die in het weekend binnenkomen, worden niet behandeld. Voor spoedeisende gevallen bestaat een noodprocedure via de kantonspolitie. Een gewone aanvraag dient in Wallis ten minste twee werkdagen vóór vertrek binnen te zijn."
+        },
+        {
+          "q": "Wanneer sluiten de douanekantoren in Zwitserland?",
+          "a": "Aangiften voor voertuigen kunnen van maandag tot vrijdag; slechts enkele kantoren zijn ook op zaterdagvoormiddag open. Een spoedrit over de grens hangt dus af van die openingsuren."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Zwitserland: nacht- en zondagsverbod, ontheffing via het kanton, A35 en de grens bij Basel. Offerte via Mcars.",
+      "sources": [
+        "https://www.sg.ch/verkehr/strassenverkehr/sonderbewilligungen/sonntags--und-nachtfahrverbot.html",
+        "https://www.vs.ch/de/web/scn/autorisation-speciale-de-nuit-et-jours-feries",
+        "https://de.wikipedia.org/wiki/Nachtfahrverbot",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://fr.wikipedia.org/wiki/Remich",
+        "https://en.wikipedia.org/wiki/Remich",
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.bazg.admin.ch/dam/de/sd-web/jWPwp7TfGIv3/info-ausdehnung-zolloeffnungszeiten-bei-versorgnungsengpaessen_de.pdf",
+        "https://www.bazg.admin.ch/dam/de/sd-web/xG5rXtRXNkO2/mit_fahrzeugen_durchdenschweizerzollform1549.pdf",
+        "https://de.wikipedia.org/wiki/Bareggtunnel",
+        "https://de.wikipedia.org/wiki/Leistungsabh%C3%A4ngige_Schwerverkehrsabgabe"
+      ]
+    },
+    "luxemburg-oostenrijk": {
+      "lead": "Naar Oostenrijk is een rit van Luxemburg bijna volledig een Duitse rit, en pas aan de grens bij Salzburg of Kufstein begint het Oostenrijkse verbodsregime. Daar geldt een nachtverbod, een zaterdagverbod vanaf 15 uur en een zondagsverbod, met in de zomer extra corridorverboden. Een autotransporter staat niet in de lijst met uitzonderingen, dus planning bepaalt of een rit lukt.",
+      "facts": [
+        {
+          "label": "Oostenrijks verbod",
+          "value": "Nacht 22 tot 5 uur, zaterdag vanaf 15 uur, zondag tot 22 uur"
+        },
+        {
+          "label": "Zaterdag laat",
+          "value": "Wie na 15 uur binnenrijdt, staat tot de eerstvolgende werkdag 5 uur stil"
+        },
+        {
+          "label": "Uitzonderingen",
+          "value": "Autotransport staat niet in de lijst die de WKO geeft"
+        },
+        {
+          "label": "Route",
+          "value": "A13 naar Schengen, dan Duitse A8 via Stuttgart en München"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het noorden van Luxemburg",
+          "body": [
+            "In het noorden, de Nordstad en de Éislek, loopt de A7 van de hoofdstad tot Schieren en neemt de expresweg B7 het over tot Erpeldange-sur-Sûre. Verder noordwaarts is de N7 de hoofdas, 71 kilometer van de hoofdstad tot de Belgische grens, geen snelweg.",
+            "Vianden ligt aan de Our tegen de Duitse grens, ongeveer 47 kilometer rijden van de hoofdstad. Elk jaar in oktober is er de notenmarkt, en het kasteel is een museum. Voor een ophaling in zulke dorpen is een afspraak op een parking buiten de kern verstandiger dan een adres in een smalle straat."
+          ]
+        },
+        {
+          "heading": "Door Duitsland tot Salzburg",
+          "body": [
+            "De Luxemburgse A13 gaat bij Schengen over in de Duitse A8, die 505 kilometer lang is en via Saarlouis, Saarbrücken, Karlsruhe, Stuttgart en München naar Bad Reichenhall loopt. Een andere weg loopt over de A6 naar Neurenberg en de A3 naar Passau, de oostelijke route naar Oostenrijk.",
+            "Bij Stuttgart overwint de Albaufstieg ongeveer 380 hoogtemeters met tot 6,3 procent helling, en bergaf geldt 50 km/u voor vrachtwagens. In de zomer gelden op de A8 ook zaterdagverboden, tussen Karlsruhe en München en tussen München en Bad Reichenhall. Wie dringend moet rijden, kijkt de kalender voor die trajecten na."
+          ]
+        },
+        {
+          "heading": "Oostenrijkse verboden: zaterdag, nacht en zomer",
+          "body": [
+            "In Oostenrijk geldt voor vrachtwagens boven 7,5 ton een nachtverbod van 22 tot 5 uur, een zaterdagverbod van 15 tot 24 uur het hele jaar en een zon- en feestdagverbod van 0 tot 22 uur. Op bepaalde zaterdagen in juli en augustus gelden extra corridorverboden, onder meer op de A12 in het Inntal.",
+            "Op de A10 geldt in de zomer een zaterdagverbod van 7 tot 15 uur tussen Salzburg en Villach, in beide richtingen. In de zomervakantie zijn bovendien tal van afritten tussen Puch-Urstein en Zederhaus gesloten voor doorgaand verkeer; enkel ritten met een bestemming in Oostenrijk mogen eraf."
+          ]
+        },
+        {
+          "heading": "Aankomst in Salzburg en Tirol",
+          "body": [
+            "Verkeer uit München en dus uit Luxemburg komt in Salzburg binnen over de Duitse A8 en de grensovergang Walserberg. Naar het zuiden loopt de A10 Tauern Autobahn naar Kärnten en Italië. Wie naar Tirol moet, komt meestal bij Kufstein binnen.",
+            "Op de A12 bij Kufstein Nord worden vrachtwagens uit Duitsland op vooraf vastgelegde dagen gedoseerd doorgelaten. In de winter sluit Tirol bovendien het lagere wegennet voor doorgaand verkeer dat de file wil ontwijken. Een autotransporter gebruikt dus de snelweg en blijft in de rij."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Vianden en zijn kasteel",
+          "body": "Het kasteel, uit de elfde tot veertiende eeuw en sinds 1977 van de staat, is een museum. Elk jaar in oktober is er de notenmarkt. Het dorp ligt aan de Our tegen de Duitse grens en is krap voor lange wagens."
+        },
+        {
+          "kind": "regel",
+          "title": "Lkw-Dosierung bij Kufstein",
+          "body": "Op vooraf vastgelegde dagen laat een politiepost op de A12 vrachtwagens vanaf vijf uur 's ochtends gedoseerd door. Wie vanuit Duitsland naar Tirol rijdt, loopt daar vertraging op."
+        },
+        {
+          "kind": "regel",
+          "title": "Nachtverbod op de A12 in Tirol",
+          "body": "Voor voertuigen boven 7,5 ton geldt op de A12 tussen kilometer 6,35 en 90 van mei tot oktober op werkdagen een nachtverbod van 22 tot 5 uur, van november tot april al vanaf 20 uur."
+        },
+        {
+          "kind": "tip",
+          "title": "Normverbruiksbelasting bij de inschrijving",
+          "body": "De NoVA ontstaat bij de inschrijving in Oostenrijk, niet bij het passeren van de grens. Een particulier berekent ze zelf met formulier NoVA 2 en betaalt ze bij het Finanzamt; pas daarna is inschrijving mogelijk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waarom blijft een vrachtwagen tot maandag stilstaan?",
+          "a": "Wie op zaterdag na 15 uur Oostenrijk binnenrijdt, staat door het zaterdagverbod en het zondagsverbod tot 5 uur op de eerstvolgende werkdag stil. Een spoedrit moet dus vóór zaterdagnamiddag de grens over zijn."
+        },
+        {
+          "q": "Is er een uitzondering voor het vervoer van auto's?",
+          "a": "In de gesloten lijst van uitzonderingen die de WKO geeft, staat autotransport niet. Genoemd worden onder meer gecombineerd vervoer binnen 65 kilometer van een terminal, levend vee, post en takel- en pechdiensten."
+        },
+        {
+          "q": "Welke tol betaalt een zware wagen in Oostenrijk?",
+          "a": "Voor voertuigen boven 3,5 ton geldt de GO-Maut, een kilometerheffing op snelwegen met een GO-Box in het voertuig. Dat regelt de transporteur en is geen extra kost die u zelf moet organiseren."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Oostenrijk: Duitse A8, Oostenrijkse nacht-, zaterdag- en zondagverboden, Salzburg en Tirol. Offerte via Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Route_nationale_7_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/Vianden",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://de.wikipedia.org/wiki/Albaufstieg_(A_8)",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://www.wko.at/transport/lkw-fahrverbote-oesterreich-ueberblick",
+        "https://www.tirol.gv.at/verkehr/verkehrs-und-seilbahnrecht/lkw-dosierung/",
+        "https://www.wko.at/tirol/verkehr-betriebsstandort/lkw-fahrverbote-a12-inntalautobahn-tirol",
+        "https://www.asfinag.at/verkehr-sicherheit/a10-transitmanagement/",
+        "https://www.go-maut.at/en",
+        "https://de.wikipedia.org/wiki/Kleines_Deutsches_Eck",
+        "https://www.bmf.gv.at/themen/steuern/kraftfahrzeuge/normverbrauchsabgabe-uebersicht/fahrzeugimport/eigenimport-aus-mitgliedstaaten-der-europaeischen-union.html"
+      ]
+    },
+    "luxemburg-polen": {
+      "lead": "Luxemburg naar Polen is een rit dwars door Duitsland, en dat land bepaalt de eerste helft van elke planning: zondagsverbod, zomerzaterdagen en tolwegen. Aan de Poolse kant wachten eigen rijverboden, grenscontroles en een tolsysteem met boordtoestel. Een dringende rit slaagt hier alleen als de wagen op de goede dag al in Duitsland rijdt en op een werkdag Polen bereikt.",
+      "facts": [
+        {
+          "label": "Poolse zomer",
+          "value": "Vrijdagavond, zaterdagvoormiddag en zondag zijn verboden in de zomerperiode"
+        },
+        {
+          "label": "Polen",
+          "value": "Verbod boven 12 ton op 12 feestdagen, van 8 tot 22 uur"
+        },
+        {
+          "label": "Route",
+          "value": "A64 naar Trier, A4 via Erfurt en Dresden naar Görlitz, Poolse A4"
+        },
+        {
+          "label": "Alternatief",
+          "value": "Via Berlijn: Duitse A12 naar Świecko en Poolse A2"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek vanuit het noorden van Luxemburg",
+          "body": [
+            "Een ophaling in het noorden, rond Diekirch, Wiltz of Clervaux, ligt ver van de snelweg. Wie bij Eschdorf moet zijn tijdens de klimkoers, merkt dat parkeren langs de driestrooksweg in de startzone verboden is en dat toeschouwers het lagere deel van het parcours te voet of per pendelbus bereiken. Spreek de laadplaats dan vooraf af met de organisator.",
+            "Voor de rit zelf rijdt u zuidwaarts naar de A1 en de Duitse grens bij Wasserbillig. Het Luxemburgse verbod voor doorvoer richting Duitsland begint pas zaterdag om 23.30 uur en eindigt zondag om 21.45 uur, en vrachtwagens mogen er in die uren niet op de openbare weg staan."
+          ]
+        },
+        {
+          "heading": "Door Duitsland: A64, A4 en de Poolse grens",
+          "body": [
+            "De Duitse A64 is ongeveer 14 kilometer lang en heeft enkel de aansluiting Trier. Verder gaat het via de B51 of de A64a. De A4, 583 kilometer lang, loopt van Aken via Keulen, Eisenach, Erfurt en Dresden naar Görlitz, waar de Poolse A4 begint bij Jędrzychowice.",
+            "Wie via Berlijn rijdt, neemt de Duitse A12 van de Berliner Ring naar Frankfurt (Oder) en Świecko, waar ze in de Poolse A2 overgaat. Voor vrachtwagens boven 3,5 ton geldt in Duitsland vrachtwagentol met een CO2-toeslag, te betalen met een boordtoestel of de TollNow-app."
+          ]
+        },
+        {
+          "heading": "Poolse rijverboden en tol",
+          "body": [
+            "Polen verbiedt vrachtwagens boven 12 ton op 12 feestdagen van 8 tot 22 uur, en de avond ervoor meestal van 18 tot 22 uur. In de zomerperiode geldt bovendien een verbod op vrijdag-, zaterdag- en zondagavond. Een algemeen zondagsverbod buiten de zomer bestaat niet.",
+            "Autotransport staat niet in de lijst met uitzonderingen. Op een overtreding staan boeten voor de chauffeur, de vervoerder en de verantwoordelijke in het bedrijf. Op de Poolse A4 en A2 gebruikt men e-TOLL: zware voertuigen registreren zich met account, voertuig en betaalmethode en kiezen een goedgekeurd boordtoestel."
+          ]
+        },
+        {
+          "heading": "Aankomst in Neder-Silezië en Groot-Polen",
+          "body": [
+            "De Poolse A4 begint bij de Duitse grens, loopt langs Wrocław, Katowice en Kraków naar Korczowa. Het stuk Jędrzychowice–Katowice is in concessie. Wie aankomt in Groot-Polen komt over de A2 aan, die bij Świecko aansluit op de Duitse A12.",
+            "Door de grenscontroles aan de Duits-Poolse grens ontstaan vóór Świecko lange files die vooral het vrachtverkeer raken. Spoed over deze grens blijft daardoor moeilijk te plannen. Heeft de koper een wagen uit een EU-land gekocht, dan volgt de accijnsaangifte AKC-U/S binnen 30 dagen; dat doet hij zelf, niet de vervoerder."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Klimkoers van Eschdorf",
+          "body": "Tijdens de Europese bergrace is parkeren langs de driestrooksweg in de startzone verboden. Toeschouwers bereiken het lagere deel te voet of per pendelbus, dus een levering of ophaling vraagt vooraf een duidelijke afspraak."
+        },
+        {
+          "kind": "regel",
+          "title": "Poolse feestdagen en de avond ervoor",
+          "body": "Op de vooravond van de meeste feestdagen geldt al een verbod van 18 tot 22 uur. Driekoningen en Kerstavond zijn vrije dagen, maar geen verbodsdagen, al zijn bedrijven en loketten dan dicht."
+        },
+        {
+          "kind": "plek",
+          "title": "Tunnel Königshainer Berge",
+          "body": "Vlak voor Görlitz gaat de Duitse A4 door een tunnel van 3,3 kilometer. Tijdens grote saneringen liep het verkeer in beide richtingen door één buis, wat op de laatste kilometers vóór Polen vertraging geeft."
+        },
+        {
+          "kind": "tip",
+          "title": "Feestdagen die op zaterdag vallen",
+          "body": "Valt een feestdag zoals 15 augustus of 26 december op zaterdag, dan hebben werknemers recht op een andere vrije dag. Rond die data kan een bedrijf in Polen dus een extra dag dicht zijn."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat is beter voor een dringende rit: via Dresden of via Berlijn?",
+          "a": "Via Dresden rijdt u de Duitse A4 tot Görlitz en de Poolse A4 verder. Via Berlijn volgt u de A12 tot Świecko, waar de grenscontroles files geven. Welke weg sneller is, hangt af van het ophaaladres en de dag."
+        },
+        {
+          "q": "Kan ik de wagen in Polen laten leveren op een feestdag?",
+          "a": "Polen verbiedt vrachtwagens boven 12 ton op 12 feestdagen van 8 tot 22 uur, de avond ervoor meestal vanaf 18 uur. Leveren op die dagen vraagt een andere planning."
+        },
+        {
+          "q": "Moet ik me zorgen maken over grenscontroles?",
+          "a": "Ja, vooral aan de Duits-Poolse grens bij Świecko, waar lange files ontstaan. Houd de papieren van wagen en chauffeur bij de hand en plan een marge."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Luxemburg naar Polen: Duitse en Poolse rijverboden, A4 en A12, grenscontroles en e-TOLL. Offerte op maat via Mcars.",
+      "sources": [
+        "https://chronicle.lu/category/motor-sports/49643-european-hillrace-eschdorf-to-make-comeback-this-weekend",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=PL",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.etoll.gov.pl/en/",
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://www.autocentrum.pl/publikacje/porady/jak-zarejestrowac-samochod-z-zagranicy-poradnik/",
+        "https://de.wikipedia.org/wiki/Tunnel_Königshainer_Berge",
+        "https://www.infor.pl/prawo/praca/czas-pracy/7454673,dni-wolne-od-pracy-w-2026-roku-kiedy-najlepiej-zaplanowac-urlop.html"
+      ]
+    }
+  }
+}

@@ -11,7 +11,8 @@ import type { Highlight, Faq, Stat } from "./services";
 
 export type Flag =
   | "belgie" | "nederland" | "frankrijk" | "italie"
-  | "spanje" | "duitsland" | "luxemburg" | "zwitserland";
+  | "spanje" | "duitsland" | "luxemburg" | "zwitserland"
+  | "oostenrijk" | "polen";
 
 export type Place = { name: string; flag: Flag };
 
@@ -24,6 +25,8 @@ export type Route = {
   /** corridor pages */
   from?: Place;
   to?: Place;
+  /** corridor pages: a fixed corridor on the weekly planning (vs. planned on request). */
+  fixed?: boolean;
   title: string;
   subtitle: string;
   intro: string;
@@ -49,6 +52,8 @@ export const flagAsset: Record<Flag, string> = {
   duitsland: "/countryflags/truck-flag-duitsland.png",
   luxemburg: "/countryflags/truck-flag-luxemburg.png",
   zwitserland: "/countryflags/truck-flag-zwitserland.png",
+  oostenrijk: "/countryflags/truck-flag-oostenrijk.png",
+  polen: "/countryflags/truck-flag-polen.png",
 };
 
 const commonHighlights: Highlight[] = [
@@ -67,7 +72,176 @@ const heroByFlag: Record<Flag, string> = {
   duitsland: "/fleet/germany-autobahn.jpg",
   luxemburg: "/fleet/oldtown.jpg",
   zwitserland: "/fleet/valley-sunset.jpg",
+  oostenrijk: "/fleet/dramatic-sky.jpg",
+  polen: "/fleet/actros-motion.jpg",
 };
+
+
+// ─── Corridors ─────────────────────────────────────────────────────
+// A page for every ordered pair of these countries (10 × 9 = 90). The copy is
+// assembled from per-country facts, so each page names real pickup/delivery
+// cities, its own road distance and fitting FAQ — not just swapped names.
+
+export type CountryFacts = {
+  name: string;
+  /** Main pickup/delivery cities, most important first. */
+  cities: string[];
+  /** How we work there when picking up. */
+  pickup: string;
+  /** How we work there when delivering. */
+  delivery: string;
+  /** Extra FAQ entry specific to this country (as origin or destination). */
+  faq?: Faq;
+};
+
+export const FACTS: Record<Flag, CountryFacts> = {
+  belgie: {
+    name: "België",
+    cities: ["Roeselare", "Gent", "Antwerpen", "Brussel", "Brugge", "Hasselt"],
+    pickup: "In België zijn we thuis: vanuit ons depot in Roeselare halen we dagelijks op, van de kust tot Limburg",
+    delivery: "In België leveren we tot aan de deur, of u haalt de wagen op ons depot in Roeselare op — dat kan 24/7",
+  },
+  nederland: {
+    name: "Nederland",
+    cities: ["Rotterdam", "Amsterdam", "Utrecht", "Eindhoven", "Breda", "Den Haag"],
+    pickup: "Nederland ligt op onze vaste routes: we halen op bij particulieren, dealers en leasingmaatschappijen",
+    delivery: "In Nederland leveren we bij u thuis, bij uw dealer of op het adres van de koper",
+  },
+  luxemburg: {
+    name: "Luxemburg",
+    cities: ["Luxemburg-stad", "Esch-sur-Alzette", "Differdange", "Ettelbruck", "Diekirch", "Wiltz"],
+    pickup: "Luxemburg ligt vlak bij onze vaste assen: we halen er op bij particulieren en dealers, vaak voor leasingwagens",
+    delivery: "In Luxemburg leveren we bij u thuis, bij uw dealer of bij de leasingmaatschappij",
+  },
+  frankrijk: {
+    name: "Frankrijk",
+    cities: ["Parijs", "Lille", "Lyon", "Bordeaux", "Marseille", "Straatsburg"],
+    pickup: "In Frankrijk zitten we elke week, tot in de stockageparken (o.a. BCA en TEA) en bij particulieren en handelaars",
+    delivery: "In Frankrijk leveren we overal, met Franstalige chauffeurs die vlot afspreken ter plaatse",
+  },
+  duitsland: {
+    name: "Duitsland",
+    cities: ["Keulen", "Düsseldorf", "Frankfurt", "München", "Hamburg", "Stuttgart"],
+    pickup: "In Duitsland halen we op bij dealers, veilingen en particulieren — ideaal voor een aankoop over de grens",
+    delivery: "In Duitsland leveren we bij u of bij de koper, met alle papieren netjes in orde",
+  },
+  spanje: {
+    name: "Spanje",
+    cities: ["Barcelona", "Madrid", "Valencia", "Bilbao", "Málaga", "Alicante"],
+    pickup: "In Spanje halen we op aan uw tweede verblijf, bij dealers of bij particulieren",
+    delivery: "In Spanje staat uw wagen klaar aan uw verblijf: u vliegt, wij rijden",
+    faq: { q: "Kan mijn wagen klaarstaan aan mijn tweede verblijf in Spanje?", a: "Ja, dat doen we regelmatig voor tweedeverblijvers. U vliegt zorgeloos, en uw eigen wagen staat bij aankomst klaar." },
+  },
+  italie: {
+    name: "Italië",
+    cities: ["Milaan", "Turijn", "Rome", "Bologna", "Verona", "Florence"],
+    pickup: "In Italië halen we op bij dealers, verzamelaars en particulieren — ook oldtimers en klassiekers",
+    delivery: "In Italië leveren we tot op het afgesproken adres, ook voor rally's en evenementen",
+    faq: { q: "Kan een oldtimer mee van of naar Italië?", a: "Zeker. We vervoeren oldtimers en klassiekers, zacht geladen en professioneel vastgezet." },
+  },
+  zwitserland: {
+    name: "Zwitserland",
+    cities: ["Zürich", "Genève", "Basel", "Bern", "Lausanne", "Luzern"],
+    pickup: "In Zwitserland halen we op bij dealers en particulieren, met aandacht voor de papieren aan de grens",
+    delivery: "In Zwitserland leveren we van deur tot deur, met de transportdocumenten die bij de grens horen",
+    faq: { q: "Zwitserland zit niet in de EU. Wat met de douane?", a: "Voor Zwitserland komen er douaneformaliteiten bij. Vermeld het bij uw aanvraag, dan bekijken we samen wat er nodig is voor in- en uitvoer." },
+  },
+  oostenrijk: {
+    name: "Oostenrijk",
+    cities: ["Wenen", "Salzburg", "Innsbruck", "Graz", "Linz", "Klagenfurt"],
+    pickup: "In Oostenrijk halen we op bij dealers en particulieren, van Wenen tot Tirol",
+    delivery: "In Oostenrijk leveren we tot aan de deur, ook in de Alpen",
+  },
+  polen: {
+    name: "Polen",
+    cities: ["Warschau", "Poznań", "Wrocław", "Krakau", "Gdańsk", "Łódź"],
+    pickup: "In Polen halen we op bij dealers, fabrieken en particulieren",
+    delivery: "In Polen leveren we bij u, bij de dealer of bij de koper",
+  },
+};
+
+/** Countries with a corridor page to every other one, in display order. */
+export const CORRIDOR_COUNTRIES: Flag[] = [
+  "belgie", "nederland", "luxemburg", "frankrijk", "duitsland",
+  "spanje", "italie", "zwitserland", "oostenrijk", "polen",
+];
+const CORRIDOR_PAIRS = CORRIDOR_COUNTRIES.flatMap((a) =>
+  CORRIDOR_COUNTRIES.filter((b) => b !== a).map((b) => [a, b] as [Flag, Flag])
+);
+
+/** Our weekly core: the fixed corridors between these. */
+export const CORE: Flag[] = ["belgie", "nederland", "frankrijk"];
+
+// Road distance between the hub cities (OSRM / OpenStreetMap), rounded to 50 km.
+const KM: Record<string, number> = {"belgie-nederland":150,"belgie-luxemburg":200,"belgie-frankrijk":300,"belgie-duitsland":400,"belgie-spanje":1600,"belgie-italie":1500,"belgie-zwitserland":650,"belgie-oostenrijk":1100,"belgie-polen":1300,"nederland-luxemburg":400,"nederland-frankrijk":450,"nederland-duitsland":400,"nederland-spanje":1750,"nederland-italie":1600,"nederland-zwitserland":800,"nederland-oostenrijk":1100,"nederland-polen":1200,"luxemburg-frankrijk":350,"luxemburg-duitsland":250,"luxemburg-spanje":1600,"luxemburg-italie":1250,"luxemburg-zwitserland":450,"luxemburg-oostenrijk":950,"luxemburg-polen":1300,"frankrijk-duitsland":550,"frankrijk-spanje":1250,"frankrijk-italie":1450,"frankrijk-zwitserland":650,"frankrijk-oostenrijk":1250,"frankrijk-polen":1600,"duitsland-spanje":1850,"duitsland-italie":1250,"duitsland-zwitserland":400,"duitsland-oostenrijk":700,"duitsland-polen":1100,"spanje-italie":1950,"spanje-zwitserland":1650,"spanje-oostenrijk":2400,"spanje-polen":2850,"italie-zwitserland":850,"italie-oostenrijk":1100,"italie-polen":1750,"zwitserland-oostenrijk":750,"zwitserland-polen":1400,"oostenrijk-polen":650};
+export const km = (a: Flag, b: Flag) => KM[`${a}-${b}`] ?? KM[`${b}-${a}`];
+
+/** Country pages that exist, for related links. */
+export const COUNTRY_PAGES = new Set(["belgie", "nederland", "frankrijk", "spanje", "italie"]);
+
+export const corridorSlug = (from: Flag, to: Flag) => `${from}-${to}`;
+
+function corridor(from: Flag, to: Flag): Route {
+  const A = FACTS[from], B = FACTS[to];
+  const fixed = CORE.includes(from) && CORE.includes(to);
+  const viaCore = CORE.includes(from) || CORE.includes(to);
+  const dist = km(from, to);
+  // No thousands separator: the stat's count-up would read "2.850" as 2,85.
+  const distLabel = `± ${dist} km`;
+  const frequency = fixed ? "Vaste corridor" : viaCore ? "Regelmatig" : "Op aanvraag";
+  const plan = fixed
+    ? `${A.name} naar ${B.name} rijden we structureel, als vaste corridor op onze wekelijkse planning.`
+    : viaCore
+      ? `${A.name} naar ${B.name} plannen we regelmatig in, aansluitend op onze vaste routes vanuit de Benelux en Frankrijk.`
+      : `${A.name} naar ${B.name} rijden we op aanvraag, slim gecombineerd met onze andere ritten door Europa.`;
+  const others = CORRIDOR_COUNTRIES.filter((c) => c !== from && c !== to);
+  const near = others.sort((x, y) => km(from, x) - km(from, y)).slice(0, 2);
+
+  return {
+    slug: corridorSlug(from, to),
+    nav: `${A.name} → ${B.name}`,
+    kind: "corridor",
+    from: { name: A.name, flag: from },
+    to: { name: B.name, flag: to },
+    fixed,
+    title: `Auto transporteren van ${A.name} naar ${B.name}`,
+    subtitle: fixed
+      ? "Een vaste corridor op onze wekelijkse planning."
+      : `Zo'n ${dist.toLocaleString("nl-BE")} km over de weg — wij rijden, u hoeft niets te doen.`,
+    intro: `${plan} ${A.pickup}. ${B.delivery}. Van deur tot deur, verzekerd en met CMR-bewijs.`,
+    heroImage: heroByFlag[to],
+    frequency,
+    stats: [
+      { value: distLabel, label: "over de weg" },
+      { value: fixed ? "Wekelijks" : viaCore ? "Regelmatig" : "Op aanvraag", label: "op de planning" },
+      { value: "24u", label: "antwoord op uw aanvraag" },
+    ],
+    cities: [...A.cities.slice(0, 4), ...B.cities.slice(0, 4)],
+    highlights: commonHighlights,
+    faq: [
+      {
+        q: `Hoe vaak rijden jullie van ${A.name} naar ${B.name}?`,
+        a: fixed
+          ? "Dit is een vaste corridor op onze wekelijkse planning. We combineren ritten voor de beste efficiëntie — vraag naar de eerstvolgende mogelijkheid."
+          : viaCore
+            ? "We plannen deze route regelmatig in, aansluitend op onze vaste ritten. Vraag naar de eerstvolgende mogelijkheid."
+            : "Deze route rijden we op aanvraag. We combineren uw wagen met andere ritten door Europa, zodat het transport voordelig blijft.",
+      },
+      { q: "Wordt mijn wagen van deur tot deur vervoerd?", a: `Ja. We halen op in ${A.name} en leveren in ${B.name} op de adressen die u opgeeft, met inspectie, foto's en CMR bij ophaling.` },
+      ...[A.faq, B.faq].filter((f): f is Faq => Boolean(f)),
+    ],
+    related: [
+      corridorSlug(to, from),
+      ...near.map((c) => corridorSlug(from, c)),
+      ...[from, to].filter((c) => COUNTRY_PAGES.has(c)).map((c) => `autotransport-${c}`),
+    ],
+    relatedServices: ["auto-importeren", "auto-exporteren", "autotransport-particulier"],
+    seo: {
+      title: `Auto transporteren ${A.name} naar ${B.name} | Mcars`,
+      description: `Autotransport van ${A.name} naar ${B.name} (${distLabel}). Van deur tot deur, verzekerd en met CMR. Vraag uw offerte binnen 24 uur.`,
+    },
+  };
+}
 
 export const routes: Route[] = [
   // ─── Country pages ───────────────────────────────────────────────
@@ -249,56 +423,8 @@ export const routes: Route[] = [
     },
   },
 
-  // ─── Corridor pages ──────────────────────────────────────────────
-  ...(
-    [
-      { slug: "nederland-belgie", from: "nederland", to: "belgie" },
-      { slug: "nederland-frankrijk", from: "nederland", to: "frankrijk" },
-      { slug: "frankrijk-belgie", from: "frankrijk", to: "belgie" },
-      { slug: "frankrijk-nederland", from: "frankrijk", to: "nederland" },
-      { slug: "belgie-nederland", from: "belgie", to: "nederland" },
-      { slug: "belgie-frankrijk", from: "belgie", to: "frankrijk" },
-    ] as { slug: string; from: Flag; to: Flag }[]
-  ).map((c): Route => {
-    const label: Record<Flag, string> = {
-      belgie: "België", nederland: "Nederland", frankrijk: "Frankrijk",
-      italie: "Italië", spanje: "Spanje", duitsland: "Duitsland",
-      luxemburg: "Luxemburg", zwitserland: "Zwitserland",
-    };
-    const fromName = label[c.from];
-    const toName = label[c.to];
-    return {
-      slug: c.slug,
-      nav: `${fromName} → ${toName}`,
-      kind: "corridor",
-      from: { name: fromName, flag: c.from },
-      to: { name: toName, flag: c.to },
-      title: `Auto transporteren van ${fromName} naar ${toName}`,
-      subtitle: `Een vaste corridor op onze wekelijkse planning.`,
-      intro: `${fromName} naar ${toName} rijden we structureel. Wij halen uw wagen op in ${fromName} en leveren hem af in ${toName} — van deur tot deur, verzekerd en met CMR-bewijs. U hoeft zelf niet te rijden, te huren of risico's te nemen.`,
-      heroImage: heroByFlag[c.to],
-      frequency: "Vaste corridor",
-      stats: [
-        { value: "Vaste route", label: `${fromName} → ${toName}` },
-        { value: "Van deur", label: "tot deur" },
-        { value: "24u", label: "antwoord op uw aanvraag" },
-      ],
-      cities: [fromName, toName, "Van deur tot deur"],
-      highlights: commonHighlights,
-      faq: [
-        { q: `Hoe vaak rijden jullie van ${fromName} naar ${toName}?`, a: `Dit is een vaste corridor op onze planning. We combineren ritten voor de beste efficiëntie — vraag naar de eerstvolgende mogelijkheid.` },
-        { q: "Wordt mijn wagen van deur tot deur vervoerd?", a: "Ja. We halen op en leveren op de adressen die u opgeeft, met inspectie en CMR bij ophaling." },
-      ],
-      related: ["autotransport-europa", `autotransport-${c.from}`, `autotransport-${c.to}`].filter(
-        (s, i, a) => a.indexOf(s) === i
-      ),
-      relatedServices: ["auto-importeren", "auto-exporteren", "autotransport-particulier"],
-      seo: {
-        title: `Auto transporteren ${fromName} naar ${toName} | Mcars`,
-        description: `Vaste route voor autotransport van ${fromName} naar ${toName}. Van deur tot deur, verzekerd en met CMR. Vraag uw offerte binnen 24 uur.`,
-      },
-    };
-  }),
+  // ─── Corridor pages: every ordered pair of CORRIDOR_COUNTRIES ──────
+  ...CORRIDOR_PAIRS.map(([from, to]) => corridor(from, to)),
 ];
 
 export const routeSlugs = routes.map((r) => r.slug);

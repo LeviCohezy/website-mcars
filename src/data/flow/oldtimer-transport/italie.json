@@ -1,0 +1,59 @@
+{
+  "sub": "Een klassieker in Italië ophalen of daarheen brengen, op een open meerlaagse transporter, met één aanspreekpunt en een chauffeur die op de dag zelf belt.",
+  "problem": {
+    "title": "Uw klassieker staat in Italië en moet naar huis",
+    "body": "Een Alfa, een Lancia of een Fiat die u in Italië hebt gevonden, staat zelden naast een autosnelweg. Hij staat in een garage bij de verkoper, op een stand van een beurs of in de schuur van een verzamelaar. U wilt hem niet zelf laten rijden, want de wagen is te kostbaar en te oud voor een lange reis. Tegelijk moet iemand ter plaatse nakijken wat er meegaat en in welke staat de wagen vertrekt.",
+    "situations": [
+      { "title": "Aankoop op de beurs", "body": "U hebt op een oldtimerbeurs een wagen gekocht en wilt hem na het weekend rustig naar België laten brengen, zonder zelf een oplegger te regelen." },
+      { "title": "Wagen met historisch attest", "body": "De verkoper heeft een Certificato di Rilevanza Storica en wil de wagen in goede handen weten. U zoekt een transporteur die zorgvuldig laadt en alles noteert." },
+      { "title": "Terug na een rally", "body": "De wagen deed mee aan een rit door het zuiden en staat nu ergens ver van huis. U wilt hem laten ophalen en thuisbrengen." }
+    ]
+  },
+  "solution": {
+    "title": "Wij halen uw klassieker op en brengen hem veilig thuis",
+    "body": "U vraagt een offerte aan en krijgt binnen 24 uur antwoord. Daarna spreekt u met één vast aanspreekpunt over het adres, het type wagen en de afspraak met de verkoper. De chauffeur belt op de dag zelf voor hij komt. Bij ophaling nemen wij de wagen op, maken foto's en vullen samen de CMR-vrachtbrief in. Uw klassieker rijdt op een open, meerlaagse transporter met Kässbohrer-opbouw en is verzekerd tijdens het transport. Start hij niet meer, dan trekt de lier hem op de wagen. Daarna rijden wij naar het adres dat u opgaf."
+  },
+  "usps": [
+    { "title": "Eén vast aanspreekpunt", "body": "U belt of mailt altijd met dezelfde persoon, van de offerte tot de aflevering. Zo hoeft u uw verhaal niet telkens opnieuw te doen." },
+    { "title": "Chauffeur belt vooraf", "body": "Op de dag van ophaling of levering belt de chauffeur zelf, zodat u of de verkoper weet wanneer hij aankomt." },
+    { "title": "Lier op elke wagen", "body": "Elke vrachtwagen heeft een lier. Een klassieker die niet meer start of rolt, kan dus gewoon mee. Staat hij volledig geblokkeerd, dan komt er een heftruck." },
+    { "title": "Nederlands en Frans", "body": "Onze chauffeurs spreken Nederlands en Frans. Met een Franstalige verkoper of een Belgische koper verloopt het gesprek dus vlot." }
+  ],
+  "steps": [
+    { "title": "Aanvraag", "body": "U geeft merk, bouwjaar, afmetingen en ophaaladres door. Of de wagen nog rijdt, vermeldt u erbij. Binnen 24 uur hebt u een offerte op maat." },
+    { "title": "Planning", "body": "Na uw akkoord stemmen wij af met u en met de verkoper. Als particulier betaalt u voor de ophaling. Een bedrijf ontvangt een factuur." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur belt, bekijkt de wagen, neemt foto's en maakt de CMR-vrachtbrief op. Dan gaat de klassieker veilig op de transporter." },
+    { "title": "Levering", "body": "Op het afgesproken adres, of op ons depot in Roeselare, laadt de chauffeur de wagen af. Samen bekijkt u de staat en tekent u de CMR." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, ook de CMR",
+    "body": "Bij elke ophaling controleren wij de wagen met u of met de verkoper. Wij leggen de staat vast met foto's, die wij intern bewaren als bewijs. De CMR-vrachtbrief gaat mee, zodat alle partijen weten wat er is geladen en waarheen het gaat. Tijdens het transport is uw klassieker verzekerd. De papieren voor inschrijving en het historisch statuut blijven bij u of bij uw dealer. Wij vervoeren, niet meer en niet minder.",
+    "items": ["Inspectie bij ophaling", "Foto's als intern bewijs", "CMR-vrachtbrief gaat mee", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Italië",
+    "body": "Italië is een land waar veel klassiekers vandaan komen, en wij kennen de wagens en de manier waarop handelaars en verzamelaars werken. Een ophaling spreekt u af met de verkoper, niet met een centrale. Wij rijden zowel in Lombardije als in Emilia-Romagna, en ook verder zuidwaarts als de wagen daar staat. Een kleine opdracht of een volledige rit is voor ons even belangrijk. Wij vertellen u eerlijk wat er kan.",
+    "regions": ["Lombardije", "Emilia-Romagna", "Piëmont", "Toscane", "Veneto"]
+  },
+  "faq": [
+    { "q": "Mag een oldtimer in Italië zomaar mee op een transporter?", "a": "Ja, vervoer op een transporter kan altijd. Vraag de verkoper wel in welke categorie de wagen valt, want sommige Italiaanse klassiekers mogen enkel bij bepaalde manifestaties zelf rijden." },
+    { "q": "Wat als mijn klassieker niet meer rijdt?", "a": "Dat is geen probleem. Elke vrachtwagen heeft een lier. Zit de wagen helemaal vast, dan zetten wij een heftruck in op het adres. Meld het wel vooraf bij de offerte." },
+    { "q": "Wie regelt de papieren voor de inschrijving?", "a": "Dat doet u zelf, of uw dealer of expediteur. Mcars vervoert de wagen en geeft u een CMR-vrachtbrief mee. Vraag de verkoper om alle documenten van de wagen mee te geven bij de ophaling." },
+    { "q": "Kan ik de wagen ook bij u in Roeselare laten leveren?", "a": "Ja. Levering op ons depot in Roeselare kan op elk uur van de dag, en dat is voordeliger dan een adres aan huis. Zeg het ons bij de aanvraag." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Of de klassieker nu in Italië opgehaald wordt of er naartoe gaat, wij blijven bij onze afspraken en sturen vaste chauffeurs.",
+    "snel": "Wij zetten uw oldtimer vlot in de planning en laten hem doorrijden tot hij op het afgesproken adres staat.",
+    "volgbaar": "Met track en trace houdt u de wagen in het oog, en onze chauffeur belt u zodra hij de ophaling of levering nadert.",
+    "verzekerd": "Tijdens de volledige rit is de klassieker verzekerd, en u krijgt een ondertekende CMR-vrachtbrief als bewijs van de overdracht."
+  },
+  "reasons": [
+    { "title": "Jaren op de baan", "body": "Met jarenlange ervaring in het vervoer van klassiekers weten wij hoe we een wagen in Italië veilig opnemen en meenemen." },
+    { "title": "Echte liefhebbers", "body": "Wij zijn zelf gek op klassiekers, en dat gevoel nemen we mee in elke handeling, van het laden tot het lossen." },
+    { "title": "Honderden keren onderweg", "body": "Honderden ritten met oldtimers hebben onze aanpak scherp gemaakt, ook als het naar het zuiden gaat." },
+    { "title": "Zelf rijden, niet uitbesteden", "body": "Onze eigen chauffeurs doen het werk, en wij laten uw wagen bewust nooit door een onbekende vervoerder meenemen." },
+    { "title": "Voor elke wagen een plan", "body": "Klassiekers, moto's, buggy's of een wagen die niet meer rijdt: wij hebben voor elk geval een manier van vervoer." },
+    { "title": "Gericht op verbetering", "body": "We kijken steeds naar wat beter kan in materiaal en werkwijze, zodat ook uw rit van of naar Italië profiteert." }
+  ],
+  "seoDescription":"Oldtimer transport van en naar Italië op een open meerlaagse transporter, met lier, inspectie, foto's en CMR. Vraag een offerte aan bij Mcars."
+}

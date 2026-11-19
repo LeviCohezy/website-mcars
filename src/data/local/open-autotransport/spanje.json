@@ -1,0 +1,1082 @@
+{
+  "service": "open-autotransport",
+  "origin": "spanje",
+  "pages": {
+    "spanje": {
+      "lead": "Een wagen in Spanje laten ophalen begint met de vraag waar hij staat. Aan de Costa Blanca, in Barcelona of in de Pyreneeën gelden andere regels, want elke regio heeft eigen verkeersbeperkingen, milieuzones en tolwegen. Wie weet wat open vervoer in Spanje inhoudt, kiest het ophaaladres en het moment beter.",
+      "facts": [
+        {
+          "label": "Tolvrij sinds 2021",
+          "value": "AP-7 Tarragona tot La Jonquera en AP-2 Zaragoza tot El Vendrell"
+        },
+        {
+          "label": "Milieuzones",
+          "value": "Gemeenten boven 50.000 inwoners moeten een milieuzone (ZBE) invoeren"
+        },
+        {
+          "label": "Buitenlandse plaat",
+          "value": "Geen Spaans milieulabel mogelijk; België is niet gelijkgesteld"
+        },
+        {
+          "label": "Rijverboden",
+          "value": "De DGT publiceert elk jaar een resolutie voor zware voertuigen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat open vervoer in Spanje concreet betekent",
+          "body": [
+            "Op een open autotransporter staat uw wagen in de lucht van het land waar hij rijdt. Aan de kust is dat zon, zand en stof. In de noordelijke helft van het schiereiland kan het in de winter sneeuw en strooizout zijn. De DGT raadt daar kettingen of winterbanden aan en kan het zware verkeer beperken wanneer het sneeuwt.",
+            "Mcars rijdt met open, meerlaagse autotransporters met Kässbohrer-opbouw. Een inspectie en foto's volgen bij de ophaling, en een CMR-vrachtbrief krijgt u erbij. Een wagen die u liever droog en afgesloten wilt vervoeren, is voor ons niet de juiste opdracht."
+          ]
+        },
+        {
+          "heading": "Tol: het net is veranderd",
+          "body": [
+            "Spanje betaalt tol per traject op autosnelwegen in concessie, de AP-wegen. Veel concessies zijn de voorbije jaren afgelopen. De AP-7 tussen Tarragona en La Jonquera en de AP-2 tussen Zaragoza en El Vendrell zijn sinds 2021 tolvrij. Eerder al volgden de AP-1 tussen Burgos en Armiñón (2018), de AP-7 tussen Tarragona en Alicante en de AP-4 tussen Sevilla en Cádiz (2020).",
+            "Voor u betekent dat: wie op de Costa Dorada of Costa Blanca woont, ziet zijn wagen over een gratis snelweg vertrekken. Controleer wel altijd welke AP-weg nog een concessie heeft, want dat verschilt per regio en verandert met de jaren."
+          ]
+        },
+        {
+          "heading": "Milieuzones in de grote steden",
+          "body": [
+            "De Spaanse klimaatwet verplicht gemeenten met meer dan 50.000 inwoners en de eilandgebieden tot een milieuzone, de zona de bajas emisiones. Gemeenten tussen 20.000 en 50.000 inwoners moeten dat doen als de luchtkwaliteit te slecht is. De wettelijke termijn was vóór 2023, dus de meeste grote steden hebben er nu een.",
+            "De zones werken met het milieulabel van de DGT: 0, ECO, C en B. Label C is benzine vanaf januari 2006 en diesel vanaf september 2015. Label B is benzine vanaf 2001 en diesel vanaf 2006. Vrijwillig is het plakken van het label, al kan een gemeente de toegang ervan laten afhangen. Staat uw wagen in een stadscentrum, spreek dan een ophaalplek aan de rand af."
+          ]
+        },
+        {
+          "heading": "Rijverboden en feestdagen",
+          "body": [
+            "Rijverboden voor vrachtverkeer staan in een jaarlijkse resolutie van de DGT. Op de wegen onder toezicht van de DGT zijn ze van kracht. Ceuta en Melilla zijn uitgezonderd. De verboden zijn per weg en per tijdstip geschreven, niet voor het hele land.",
+            "Negen feestdagen gelden in heel Spanje: 1 januari, 6 januari, Goede Vrijdag, 1 mei, 12 oktober, 1 november, 6 december, 8 december en 25 december. Bovendien bepaalt iedere autonome regio haar eigen feestdagen, en iedere gemeente de lokale. Valt uw ophaaldag op zo'n dag, dan is een verschuiving soms verstandiger dan doorzetten."
+          ]
+        },
+        {
+          "heading": "Wagens op de eilanden",
+          "body": [
+            "Voor een transport over de weg eindigt de rit in een haven op het vasteland. De haven van Barcelona heeft ferryverbindingen met Palma, Alcúdia, Ibiza, Formentera, Ciutadella en Maó. Palma heeft lijnen naar Barcelona, Valencia, Ibiza en Maó, en Dénia op de Costa Blanca verbindt met Ibiza, Palma en Formentera.",
+            "Staat uw wagen op een eiland, dan moet hij eerst naar zo'n haven. Vanaf het vasteland neemt een transporter het over. Zo wordt ook een tweede verblijf op Mallorca of Ibiza bereikbaar voor de rit naar België."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Geen milieulabel voor buitenlandse platen",
+          "body": "Spaanse milieulabels zijn niet te verkrijgen voor een wagen met buitenlandse nummerplaat. De DGT stelt enkel landen met een eigen milieuklassering gelijk, zoals Duitsland, Oostenrijk, Denemarken en Frankrijk. België staat daar niet bij. Uw wagen met Belgische plaat blijft dus kwetsbaar voor weigering in een zone met labelregel."
+        },
+        {
+          "kind": "plek",
+          "title": "Sierra Nevada en de A-395",
+          "body": "De A-395 loopt van Granada naar het skistation van de Sierra Nevada en eindigt op 2.500 meter. In het skiseizoen heeft de weg eigen verkeersbeperkingen. Wie een wagen uit een chalet of appartement daar wil laten ophalen, spreekt een lager gelegen plek af die een vrachtwagen ook echt kan bereiken."
+        },
+        {
+          "kind": "regel",
+          "title": "Formentera: toelating voor voertuigen",
+          "body": "Van 1 juni tot 30 september heeft u een toelating nodig om met een voertuig op Formentera te rijden. Ze wordt aangevraagd via formentera.eco, met aparte procedures voor vakantie en werk. Dat is een zaak tussen u en het eiland, vóór de wagen naar een haven op het vasteland gaat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet mijn wagen een milieulabel hebben om opgehaald te worden?",
+          "a": "Dat hangt af van de gemeente. Het label kleven is vrijwillig, maar gemeenten met een milieuzone mogen de toegang ervan laten afhangen. Staat uw wagen in zo'n zone, dan spreken we een ophaalplek erbuiten af."
+        },
+        {
+          "q": "Kan een wagen van Mallorca of Ibiza mee?",
+          "a": "Een transport over de weg begint en eindigt op het vasteland. De wagen moet eerst per boot naar een haven zoals Barcelona, Valencia of Dénia. Vanaf daar kan hij op onze transporter naar België."
+        },
+        {
+          "q": "Wat als de wagen niet meer start op het ophaaladres?",
+          "a": "Elke vrachtwagen van Mcars heeft een lier, dus een wagen die niet start kan toch op de transporter. Staat hij volledig geblokkeerd, dan hebben we een heftruck ter plaatse nodig. Meld dat bij de offerte."
+        }
+      ],
+      "seoDescription": "Open autotransport in Spanje: tol, milieuzones, rijverboden en eilanden uitgelegd voor wie een wagen laat ophalen. Offerte op maat.",
+      "sources": [
+        "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transportes/Paginas/2021/310821-peajes.aspx",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/distintivo-ambiental/",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://www.garrigues.com/es_ES/noticia/publicado-boe-calendario-laboral-espana-2027",
+        "https://www.dgt.es/comunicacion/notas-de-prensa/imprescindible-consultar-el-estado-de-las-carreteras-y-llevar-cadenas-o-neumaticos-de-invierno-en-la-mitad-norte-de-la-peninsula",
+        "https://es.wikipedia.org/wiki/A-395",
+        "https://www.formentera.eco/",
+        "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+        "https://es.wikipedia.org/wiki/Puerto_de_Palma_de_Mallorca",
+        "https://es.wikipedia.org/wiki/Denia"
+      ]
+    },
+    "spanje-belgie": {
+      "lead": "Een wagen van de Baskische kust of uit het noorden van Spanje naar België: dat is een rit door heel Frankrijk, meestal over de A63 langs de Atlantische kant. Voor open vervoer telt wat er onderweg tussen Irun en Brussel verandert, want tol, rijverboden en wegennet wisselen per land.",
+      "facts": [
+        {
+          "label": "Grens Atlantisch",
+          "value": "AP-8 Biriatou/Behobia, aansluiting op de Franse A63"
+        },
+        {
+          "label": "Spaanse rijverboden",
+          "value": "Geen algemeen weekendverbod; enkel op genoemde wegen en uren"
+        },
+        {
+          "label": "Max. hoogte België",
+          "value": "Beladen voertuig niet hoger dan 4 meter"
+        },
+        {
+          "label": "Viapass",
+          "value": "Kilometerheffing, ook voor een lege of privé-vrachtwagen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Baskenland en Navarra",
+          "body": [
+            "Van de internationale brug van Biriatou bij Behobia tot Bilbao strekt de AP-8 zich uit. Ter hoogte van de grens loopt ze door als de Franse A63. Het is een tolweg (E-70), in Gipuzkoa beheerd door Bidegi en in Bizkaia door Interbiak. Voorbij Bilbao loopt de kustsnelweg verder als de tolvrije A-8, met tol enkel op de Variante Sur Metropolitana van Bilbao.",
+            "Als logistiek knooppunt op de as Parijs-Madrid grenst Irun aan Hendaye, Urrugne en Biriatou. In Behobia ligt het transportcentrum ZAISA. Een wagen die hier wordt opgehaald, staat dus al vlak bij de grens."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Baskenland",
+          "body": [
+            "Baskenland heeft een eigen verkeersdienst, Trafikoa, en legt elk jaar eigen rijverboden op. Op de aangeduide dagen mogen goederenvoertuigen boven 7.500 kg niet rijden: weekends, feestdagen, brugdagen, en het begin en einde van vakantieperiodes. Wanneer het verbod geldt en wie is vrijgesteld, leest u in de jaarlijkse resolutie.",
+            "Daarnaast voert de Baskische regering gerichte controles op vrachtwagens uit, en in de winter zet ze sneeuwruimers en kranen in om zware voertuigen weg te halen. Reken dus op een ophaalmoment dat buiten die dagen valt."
+          ]
+        },
+        {
+          "heading": "De weg door Frankrijk",
+          "body": [
+            "Een algemeen weekendverbod voor vrachtwagens boven 7,5 ton bestaat er in Spanje niet. Verboden gelden enkel op genoemde wegvakken en tijdstippen volgens de DGT-resolutie. Frankrijk is strenger: doorreizend geldt het verbod van zaterdag 22 uur tot zondag 22 uur, plus een extra verbod rond Parijs op de A6, A10 en A13.",
+            "De A63 loopt van Bordeaux naar de grens bij Biriatou, is tolplichtig en draagt volgens Wikipedia zwaar vrachtverkeer uit heel Europa naar het Iberisch schiereiland. Aan Mediterrane kant ligt de grens bij La Jonquera. Van Brussel naar Parijs loopt de E19 naar de Franse A2 en het knooppunt met de A1, de drukste autoroute van Frankrijk."
+          ]
+        },
+        {
+          "heading": "Aankomst in West-Vlaanderen en Henegouwen",
+          "body": [
+            "Wie uit Frankrijk komt, rijdt België binnen via de A17/E403 bij Marquain of via de E42/A16 bij Doornik. De A17 loopt over Moeskroen, Wevelgem en Roeselare naar Brugge. Grote delen van de A8 zijn niet verlicht, met tankstations bij Edingen en knooppunt Marquain.",
+            "Roeselare ligt aan de A17, en daar ligt ons depot. Levering op het depot kan 24 uur op 24, 7 dagen op 7 en is voordeliger dan aflevering aan huis. Voor wie uit Frankrijk komt, ligt het depot dus op de weg naar Vlaanderen."
+          ]
+        },
+        {
+          "heading": "Belgische regels voor een beladen autotransporter",
+          "body": [
+            "Een beladen voertuig mag in België niet hoger zijn dan 4 meter en de breedte is in beginsel beperkt tot 2,55 meter. Bij een combinatie die uitsluitend auto's vervoert, mag de lading achteraan 1,50 meter uitsteken en vooraan 0,50 meter. Daarvan hangt af hoe hoog de bovenste laag van een autotransporter kan worden geladen.",
+            "Vrachtwagens van meer dan 7,5 ton mogen bij regen niet inhalen op autosnelwegen en wegen met minstens vier rijstroken. Buiten de bebouwde kom houden ze minstens 50 meter afstand van elkaar. De Viapass-kilometerheffing geldt ook voor een lege vrachtwagen en voor privégoederen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Irun en het transportcentrum ZAISA",
+          "body": "Irun is een logistiek knooppunt aan de Atlantische grens met veel transportbedrijven, en in Behobia ligt het transportcentrum ZAISA. Een wagen die in de Baskische provincies wordt opgehaald, kan hier aansluiten op de rit richting Bordeaux en de A63."
+        },
+        {
+          "kind": "regel",
+          "title": "Brusselse intra-urbane heffing",
+          "body": "In het Brussels Gewest geldt de kilometerheffing niet alleen op autosnelwegen maar ook op intra-urbane wegen, alle lokale en gewestelijke wegen die geen autosnelweg zijn. Kiest u voor aflevering in Brussel, dan zit die heffing in het traject."
+        },
+        {
+          "kind": "tip",
+          "title": "Kennedytunnel en Oosterweel",
+          "body": "De Kennedytunnel onder de Schelde verbindt de E17 en E34 met de Antwerpse ring R1 en is tolvrij. Aan de noordkant wordt de ring gesloten met de Oosterweelverbinding, waar werven staan. Het Vlaams Verkeerscentrum geeft de actuele hinder weer."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke route neemt een wagen uit Baskenland naar België?",
+          "a": "Meestal de AP-8 naar Biriatou, daarna de Franse A63 naar Bordeaux en verder naar het noorden over Parijs en de E19. De Mediterrane kant via La Jonquera en de Franse A9 is het alternatief."
+        },
+        {
+          "q": "Gaat mijn wagen vuil aan op die lange rit?",
+          "a": "Een open transporter blijft open. Regen, wegstof en in de winter strooizout kunnen op de wagen komen. Bij ophaling nemen we foto's, zodat de staat bij vertrek vaststaat."
+        },
+        {
+          "q": "Kan ik mijn wagen zelf in Roeselare komen halen?",
+          "a": "Ja. Levering op ons depot in Roeselare kan 24 uur op 24 en is voordeliger. Voor aflevering aan huis stemmen we het adres af in de offerte."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar België: AP-8, A63, Franse rijverboden en Belgische regels voor een beladen autotransporter. Offerte op maat.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Autopista_del_Cant%C3%A1brico",
+        "https://es.wikipedia.org/wiki/Ir%C3%BAn",
+        "https://www.trafikoa.euskadi.eus/medidas-especiales-de-regulacion-del-trafico/webtraf00-content/es/",
+        "https://www.trafikoa.euskadi.eus/inicio/",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Cant%C3%A1brico",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+        "https://en.wikipedia.org/wiki/A63_autoroute",
+        "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+        "https://www.viapass.be/nl/voor-wie/",
+        "https://www.viapass.be/nl/tarieven/",
+        "https://nl.wikipedia.org/wiki/A17_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A8_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Kennedytunnel",
+        "https://www.verkeerscentrum.be/verwachte-hinder/aanleg-oosterweelverbinding"
+      ]
+    },
+    "spanje-nederland": {
+      "lead": "Een wagen van de Costa Blanca naar Nederland legt meer dan twee landen af, en het laatste stuk begint al in België. Voor open vervoer is die lange rit vooral een kwestie van weer, tolwegen en de steden waar een vrachtwagen niet meer in mag. Hier staat wat er van Valencia tot Zeeland verandert.",
+      "facts": [
+        {
+          "label": "Westroute",
+          "value": "E19 naar Parijs, A10 naar Bordeaux, dan Baskenland"
+        },
+        {
+          "label": "Oostroute",
+          "value": "Via Lyon, A7 en A9 naar La Jonquera"
+        },
+        {
+          "label": "Westerscheldetunnel",
+          "value": "Maximale doorrijhoogte 4,30 m; vrachtwagens betalen nog tol"
+        },
+        {
+          "label": "Zero-emissiezones",
+          "value": "Gelden voor bestel- en vrachtauto's, niet voor personenauto's"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek aan de Costa Blanca en rond Valencia",
+          "body": [
+            "Het stuk van de AP-7 tussen Salou en Alicante is sinds 2020 tolvrij. De A-7 is eveneens tolvrij en met ongeveer 1.090 km de langste autovía van Spanje. De N-332 loopt parallel aan de AP-7 langs de Costa Blanca en volgt de kust tot Pilar de la Horadada.",
+            "Voor wie in Alicante, Torrevieja of Valencia een wagen laat ophalen, is dat een goede start: de eerste kilometers zijn gratis. De A-3 van Madrid naar Valencia kruist het stuwmeer van Contreras over een viaduct en zit vooral in de zomer gewoon vol."
+          ]
+        },
+        {
+          "heading": "Twee routes naar het noorden",
+          "body": [
+            "De westroute loopt via Parijs en Bordeaux naar Baskenland, de oostroute via Lyon en de Rhônevallei naar de Pyreneeën. De Franse A10 tussen Parijs en Bordeaux is 557 km en bijna volledig tolplichtig. De A7 tussen Lyon en Marseille is het deel van de zonneweg waar bij vakantiebegin en -einde files van honderden kilometers ontstaan, vooral eind juli en begin augustus.",
+            "De A9 loopt van Orange langs Nîmes, Montpellier, Béziers, Narbonne en Perpignan naar Le Perthus. De verbreding tot de grens is klaar, maar het zware vrachtverkeer blijft een uitdaging. De AP-7 in Spanje begint bij La Jonquera en volgt de kust."
+          ]
+        },
+        {
+          "heading": "Rijverboden en tol onderweg",
+          "body": [
+            "Frankrijk legt een weekendverbod op voor vrachtwagens boven 7,5 ton, met extra zomerzaterdagen van 7 tot 19 uur, vooral richting de Middellandse Zee. Een transporter die in juli van de Costa Blanca vertrekt, loopt dus tegen een kalender aan die ook de vakantiedrukte volgt.",
+            "In België geldt de Viapass-heffing voor vrachtvoertuigen boven 3,5 ton op de weg van Antwerpen en Brussel naar de Franse grens. Nederland heft inmiddels ook een kilometerheffing voor vrachtwagens. De Belgische toestellen werken alleen in België, voor ritten door beide landen is een toestel van een in beide landen erkende dienstverlener nodig."
+          ]
+        },
+        {
+          "heading": "Aankomst in Zeeland en West-Brabant",
+          "body": [
+            "De regio het dichtst bij Roeselare is ook de logische inrit: Zeeland en West-Brabant, met de grensovergangen Hazeldonk (A16), Zandvliet (A4) en Zelzate (N62). Breda heeft een milieuzone voor dieselvrachtauto's van minstens emissieklasse 6, en een zero-emissiezone staat er gepland.",
+            "Zero-emissiezones voor bestel- en vrachtauto's bestaan sinds 2025 in onder meer Amsterdam, Rotterdam, Utrecht en Tilburg, en ze gelden niet voor personenauto's. Voor een autotransporter betekent dat: de laatste kilometers naar het stadscentrum gaan vaak niet met de vrachtwagen. Spreek een afleverplek aan de rand af."
+          ]
+        },
+        {
+          "heading": "De Westerscheldetunnel en wat het voor u betekent",
+          "body": [
+            "De Westerscheldetunnel verbindt Ellewoutsdijk met Terneuzen en is 6,6 km lang. Personenauto's en motoren betalen er geen tol meer, maar vrachtwagens en andere grotere voertuigen nog wel, tot 2033. De maximale doorrijhoogte is 4,30 m, met 100 km/u en trajectcontrole. Er is geen vluchtstrook.",
+            "Een volledig beladen autotransporter met een bovenste laag haalt die hoogte nooit zonder meten. Bij het plannen van de lading houden wij daarom rekening met de hoogte. Voor u is het zinvol om bij de offerte te melden hoe hoog en lang de wagen is."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Doorrijhoogte Westerscheldetunnel",
+          "body": "In de Westerscheldetunnel geldt een maximale doorrijhoogte van 4,30 m, 100 km/u en trajectcontrole. Er is geen vluchtstrook. Een autotransporter die via Zeeuws-Vlaanderen rijdt, moet zijn laadhoogte kennen voor het de tunnel inrijdt."
+        },
+        {
+          "kind": "plek",
+          "title": "Truckparkings bij Breda en Rotterdam",
+          "body": "Wie langer wil rusten, kan terecht op beveiligde private truckparkings langs de snelweg, zoals Maasvlakte Plaza in Rotterdam en Hazeldonk in Breda. Op verzorgingsplaatsen ligt ongeveer om de 20 km een stop, maar die staan vaak vol en zijn niet bedoeld voor overnachting."
+        },
+        {
+          "kind": "tip",
+          "title": "Winter in Nederland",
+          "body": "Vooraf bevochtigd zout strooit Rijkswaterstaat preventief, meestal 's nachts. Een wagen die in de winter in Nederland aankomt, heeft daarom vaak een zoutfilm op de carrosserie. Spoel hem af en laat de onderkant nakijken."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke route kiest een transporter van Alicante naar Nederland?",
+          "a": "Dat hangt af van weer en verkeer. De westroute loopt via Bordeaux en Parijs, de oostroute via Lyon en de A9 naar La Jonquera. Een rit uit de Costa Blanca start meestal op de gratis AP-7 of A-7."
+        },
+        {
+          "q": "Mag een autotransporter mijn Nederlandse stad binnen?",
+          "a": "Vaak niet tot in het centrum. Zero-emissiezones voor bestel- en vrachtauto's bestaan in veel steden, zoals Amsterdam, Utrecht en Rotterdam. We spreken een afleverplek aan de rand af, waar u de wagen zelf kan ophalen."
+        },
+        {
+          "q": "Is het verstandig om in juli te vertrekken?",
+          "a": "Op de A7 en A9 is juli de drukste periode, met files van honderden kilometers bij vakantiebegin en -einde. Een vertrek buiten die weken is rustiger voor de wagen en voor de chauffeur."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Nederland: Costa Blanca, Franse tolwegen, zero-emissiezones en de Westerscheldetunnel voor autotransporters.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Costa_Blanca",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Este",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://en.wikipedia.org/wiki/A10_autoroute",
+        "https://en.wikipedia.org/wiki/A7_autoroute",
+        "https://en.wikipedia.org/wiki/A9_autoroute",
+        "https://www.viapass.be/",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://www.milieuzones.nl/vrachtautos",
+        "https://nl.wikipedia.org/wiki/Westerscheldetunnel",
+        "https://www.rijkswaterstaat.nl/wegen/wegbeheer/parkeren-voor-vrachtwagenchauffeurs",
+        "https://www.rijkswaterstaat.nl/wegen/wegbeheer/winter-op-de-weg/strooien-en-zout"
+      ]
+    },
+    "spanje-luxemburg": {
+      "lead": "Een wagen uit Barcelona of van de Costa Daurada naar Luxemburg rijdt bijna de hele Franse lengte: van La Jonquera naar Lyon, dan naar Beaune en Thionville. Dat is een lange rit op een open transporter, met tolpoorten, vakantiefiles en een aankomst in een land waar vrachtwagens het hele jaar niet mogen inhalen.",
+      "facts": [
+        {
+          "label": "Milieuzone Barcelona",
+          "value": "Zonder DGT-label geen toegang op weekdagen van 7 tot 20 uur"
+        },
+        {
+          "label": "Franse as",
+          "value": "A9, A7, A6, A31 en Luxemburgse A3"
+        },
+        {
+          "label": "Inhaalverbod Luxemburg",
+          "value": "Voertuigen boven 3,5 ton, bijna overal, het hele jaar"
+        },
+        {
+          "label": "Hoogte en breedte",
+          "value": "Maximaal 4 m hoog en 2,55 m breed in Luxemburg"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in en rond Barcelona",
+          "body": [
+            "De lage-emissiezone ZBE Rondes de Barcelona beslaat meer dan 95 km² en omvat Barcelona zelf (zonder Zona Franca Industrial, Vallvidrera, Tibidabo en Les Planes), Sant Adrià de Besòs, L'Hospitalet en delen van Esplugues en Cornellà. Ze geldt van maandag tot vrijdag, van 7 tot 20 uur, voor voertuigen zonder DGT-milieulabel. Sinds 2022 geldt ze ook voor vrachtwagens.",
+            "Een voertuig met buitenlandse plaat moet aantonen dat het aan dezelfde milieueisen voldoet, bijvoorbeeld een benzinewagen die minstens emissienorm 3 haalt. Dat loopt via het register van de AMB. Wie zijn wagen laat ophalen, kiest dus best een ophaalplek buiten de zone of buiten die uren."
+          ]
+        },
+        {
+          "heading": "Van La Jonquera naar Lyon",
+          "body": [
+            "De AP-7 begint aan de Franse grens en loopt in Frankrijk door als de A9. Die gaat via Perpignan, Narbonne, Béziers, Montpellier en Nîmes naar Orange, 280,5 km. Wikipedia noemt de A9 gevaarlijk door het vele vrachtverkeer, met gevoelige knooppunten bij Orange en Montpellier en files in de Col du Perthus door grenscontroles.",
+            "Bij Orange sluit de A9 aan op de A7, de autoroute du Soleil. Tussen Vienne en Orange kunnen er in de zomer 180.000 voertuigen per dag rijden. Sinds 2004 verlaagt een dynamisch snelheidsregime de limiet op drukke dagen tot 110, 90 of 70 km/u. De Franse zomerzaterdagen vallen precies in die piek."
+          ]
+        },
+        {
+          "heading": "Lyon en de Franse A31",
+          "body": [
+            "In Lyon ligt de Fourvière-tunnel op de A6; de snelheid werd er in 2006 van 90 naar 70 km/u gebracht. Sinds 2020 zijn de 16 km A6/A7 door de stad stadsboulevards. Verder noordwaarts is de A6 tolweg onder APRR, behalve tussen afritten 9 en 13, tot Beaune.",
+            "Daar takt de A31 af, 349 km tot de Luxemburgse grens bij Zoufftgen. Van Toul tot Beaune is de A31 tolweg, van de grens tot Toul gratis. Rond Thionville en Metz rijden dagelijks tienduizenden grensarbeiders naar Luxemburg, bovenop het transitverkeer."
+          ]
+        },
+        {
+          "heading": "Aankomst in het Luxemburgse zuiden",
+          "body": [
+            "De A3 begint bij Zoufftgen en loopt naar Luxemburg-Stad. Aan de Croix de Bettembourg kruist ze de A13, zodat u oostwaarts naar Schengen en Saarland of westwaarts naar Pétange kunt zonder door de hoofdstad. Dat scheelt een autotransporter veel gedoe.",
+            "Op bijna het hele Luxemburgse snelwegnet geldt het hele jaar een inhaalverbod voor voertuigen boven 3,5 ton. Een autotransporter blijft dus op de rechterstrook. Minstens 50 m afstand moeten combinaties boven 3.500 kg of langer dan 7 m aanhouden. Maximaal 2,55 m breed en 4 m hoog mag het voertuig zijn."
+          ]
+        },
+        {
+          "heading": "Winter en ophaaltijd",
+          "body": [
+            "Sneeuwkettingen mogen in Luxemburg enkel op wegen met sneeuw of ijs. De verkeerscentrale CITA toont de verkeerstoestand in vijf niveaus, met webcams, reistijden, wegenwerken en een overzicht van vrachtwagenparkings. Wie de aflevering wil plannen, kijkt daar vooraf. Ook de Moezelstreek kent haar risico's: overstromingen in het voorjaar maken adressen aan de oever in Remich soms onbereikbaar.",
+            "Mcars rijdt open en meerlaags met Kässbohrer-opbouw. Een wagen die van Barcelona naar Luxemburg gaat, rijdt dus door de Franse bergen en vlaktes in alle weer. Bij ophaling krijgt u een CMR-vrachtbrief en noteren we de staat met foto's."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Zondagsverbod in Luxemburg",
+          "body": "Vrachtwagens boven 7,5 ton in transit richting Frankrijk of Duitsland mogen van zaterdagavond 21.30 uur tot zondagavond 21.45 uur niet rijden en ook niet op de openbare weg of een rustplaats parkeren. Buiten de regeling vallen transit naar België en vervoer binnen Luxemburg."
+        },
+        {
+          "kind": "plek",
+          "title": "Terminal Bettembourg-Dudelange",
+          "body": "De intermodale terminal Bettembourg-Dudelange is het hele jaar dag en nacht open. Er vertrekt een autoroute ferroviaire voor opleggers naar Le Boulou in Zuid-Frankrijk, dicht bij de Spaanse grens. Dat toont hoe vaak Luxemburg en de Pyreneeën samenhangen op deze as."
+        },
+        {
+          "kind": "tip",
+          "title": "Markusbergtunnel en A13",
+          "body": "In de dalende koker van de Markusbergtunnel op de A13 richting Pétange en Saarland geldt tot nader order een limiet van 70 km/u wegens een defect aan de ventilatie. Wie via de A13 naar het oosten rijdt, rekent op die vertraging."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang is een autotransporter van Barcelona naar Luxemburg onderweg?",
+          "a": "Dat hangt af van weer, verkeer, rijtijden en het aantal wagens dat meerijdt. We geven geen vaste termijn; in de offerte stemmen we de planning af op uw adres en voorkeur."
+        },
+        {
+          "q": "Mag mijn wagen de Barcelonese milieuzone in?",
+          "a": "Dat hangt af van het DGT-label of van de euronorm. Voor een buitenlandse plaat loopt het via het AMB-register. Een ophaalplek buiten de Rondes lost het meestal op."
+        },
+        {
+          "q": "Is de Franse zomer een probleem voor mijn wagen?",
+          "a": "Zomerzaterdagen en de A7 tussen Vienne en Orange zijn de druktepunten. Op een open transporter heeft een wagen in juli wel meer stof en insecten, maar geen extra risico."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Luxemburg: Barcelona, A9, A7, A31 en de Luxemburgse inhaalverboden en afmetingen. Offerte op maat.",
+      "sources": [
+        "https://www.zbe.barcelona/es/zones-baixes-emissions/la-zbe.html",
+        "https://www.zbe.barcelona/zones-baixes-emissions/vehicles-afectats.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://www.bison-fute.gouv.fr/restrictions-pays-limitrophes,langen.html",
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/verkeersregels",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://blogcfl.lu/?p=23174",
+        "https://fr.wikipedia.org/wiki/Autoroute_A3_(Luxembourg)",
+        "https://www.cita.lu/fr/tunnels.html",
+        "https://www.cita.lu/"
+      ]
+    },
+    "spanje-frankrijk": {
+      "lead": "Wie een wagen vanuit de Pyreneeën of de Spaanse noordkust naar Frankrijk laat rijden, passeert de grens op één van twee plekken: Le Perthus aan de Middellandse Zee of Biriatou aan de Atlantische kant. Voor open vervoer telt wat er in Spanje en Frankrijk apart geregeld is, want de kalenders met rijverboden vallen niet samen.",
+      "facts": [
+        {
+          "label": "Twee kalenders",
+          "value": "DGT en Catalaanse resolutie; Franse Bison Futé erbovenop"
+        },
+        {
+          "label": "Somport-tunnel",
+          "value": "8.608 m, van het dal van de Aragón naar de Vallée d'Aspe"
+        },
+        {
+          "label": "A63 in drie delen",
+          "value": "Gratis, Landes en betalend tot Biriatou"
+        },
+        {
+          "label": "Mistral",
+          "value": "Rukwinden boven 100 km/u in de benedenvallei van de Rhône"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De Pyreneeën oversteken",
+          "body": [
+            "Catalonië regelt zijn verkeersbeperkingen zelf, in een jaarlijkse resolutie van de Servei Català de Trànsit. Door Catalonië rijden betekent bijgevolg twee kalenders raadplegen, die van de DGT en die van Catalonië. Wat de AP-7 bij La Jonquera betreft, wijst de dienst uitdrukkelijk op de Franse beperkingen op Bison Futé.",
+            "In de centrale Pyreneeën liggen alternatieven. De Somport-tunnel (8.608 m) verbindt het dal van de Aragón met de Franse Vallée d'Aspe. De tunnel Bielsa-Aragnouet (3.070 m) is één buis met tweerichtingsverkeer; een verkeerslicht voorkomt dat twee vrachtwagens elkaar binnenin kruisen. In de winter is hij geregeld dicht."
+          ]
+        },
+        {
+          "heading": "Catalaanse bergroutes",
+          "body": [
+            "De Túnel de Vielha (5.230 m) ligt op de N-230, die Lleida met Vielha en de Franse grens verbindt, met een doorrijhoogte van 4,8 m. Puigcerdà ligt op ongeveer 1.200 m hoogte tegen de Franse grens, met de N-152 naar de grens en de N-260 als Eje Pirenaico.",
+            "Op de N-230 gelden in de winter vaste verboden voor voertuigen boven 7.500 kg: vrijdagavond richting de Franse grens en zondagnamiddag terug, van januari tot maart en in december. Voor een wagen uit de Val d'Aran is dat een kalender om vooraf na te kijken. De Cadítunnel (5.026 m) op de C-16 is een toltunnel."
+          ]
+        },
+        {
+          "heading": "Frankrijk rijdt anders",
+          "body": [
+            "Goederenvoertuigen boven 7,5 ton rijden in Frankrijk niet van zaterdag 22 uur tot zondag 22 uur, noch op feestdagen vanaf 22 uur de avond ervoor. Bison Futé voegt daar zomerzaterdagen aan toe, van 7 tot 19 uur, op het hele net. Dit zijn de drukke vakantiemaanden richting Spanje.",
+            "Bij sneeuw of ijzel gelden de plans intempéries: prioritair strooien en ruimen van de gevoeligste assen, omleidingen, en vrachtwagens die stroomopwaarts tegengehouden en gestockeerd worden. Wisselen van strook of inhalen op besneeuwde rijbaan is afgeraden."
+          ]
+        },
+        {
+          "heading": "Aankomst in Occitanie en Nouvelle-Aquitaine",
+          "body": [
+            "De A9 loopt van Orange naar Le Perthus, met knelpunten bij Orange en aan de grens. De A63 gaat van Bordeaux naar Biriatou, in drie stukken: gratis tot Salles, tolweg door de Landes en tolweg tot de grens. Tussen Bordeaux en Spanje liggen vijf tolpunten, en er is tol zonder tickets.",
+            "Toulouse heeft een lage-emissiezone, net als Bordeaux binnen de ring. Op het viaduct van Millau staan windschermen langs de rijbaan. Wie via de A75 komt, weet dus dat de wind daar de planning kan bepalen."
+          ]
+        },
+        {
+          "heading": "Waar de wagen wacht",
+          "body": [
+            "Voor Mcars is Frankrijk geen vreemd terrein: we rijden er elke week over het hele land en halen ook op bij stockageparken zoals BCA en TEA. Een wagen uit de Pyreneeën sluit daar op aan. Elke vrachtwagen heeft een lier, en voor een volledig geblokkeerde wagen komt er een heftruck ter plaatse.",
+            "Bij ophaling controleren we de wagen, nemen we foto's voor intern bewijs en geven we u een CMR-vrachtbrief mee. De wagen is tijdens het transport verzekerd. Zo weet u bij aankomst in Frankrijk precies in welke staat hij vertrok, ook als de Pyreneeën of de mistral onderweg hun werk deden."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Bison Futé en de Catalaanse kalender",
+          "body": "Bij de AP-7 bij La Jonquera stuurt de Servei Català de Trànsit door naar de Franse beperkingen op Bison Futé. Dat betekent dat een rit over de grens twee officiële kalenders volgt, en dat een Catalaanse zondag niet hoeft te lijken op een Franse."
+        },
+        {
+          "kind": "plek",
+          "title": "Col du Perthus",
+          "body": "De Col du Perthus ligt op ongeveer 290 m. A9 en AP-7 sluiten er aan op de grens, en ook de N-II, de D900 en de E-15 lopen door de pas. De oude douanekantoren zijn buiten gebruik, maar grenscontroles zorgen er nog voor files."
+        },
+        {
+          "kind": "tip",
+          "title": "De mistral in de Rhônevallei",
+          "body": "De mistral waait vooral in de Rhônevallei en de Provence, uit het noorden tot noordwesten, het vaakst in de winter en het vroege voorjaar. Een open transporter voelt rukwinden van meer dan 100 km/u in de benedenvallei van de Rhône, en dat verklaart waarom een planning soms moet schuiven."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke grensovergang kiest een transporter: Le Perthus of Biriatou?",
+          "a": "Dat hangt af van het ophaaladres. Vanuit Catalonië is het Le Perthus op de AP-7 en de A9, vanuit Baskenland en Navarra is het Biriatou op de A63. Wie in de Pyreneeën woont, kiest vaak de dichtstbijzijnde van de twee."
+        },
+        {
+          "q": "Rijdt Mcars in Frankrijk elke week?",
+          "a": "Ja, we rijden elke week over heel Frankrijk. Ook stockageparken zoals BCA en TEA behoren daartoe. Voor Spanje stemmen we elke rit af in de offerte."
+        },
+        {
+          "q": "Zit er een risico aan de Franse zomerzaterdagen?",
+          "a": "Op die zaterdagen mogen vrachtwagens boven 7,5 ton van 7 tot 19 uur niet rijden. Een ophaling of aflevering op zo'n dag past dus niet; we plannen de aankomst vóór of na het verbod."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Frankrijk: Pyreneeënpassen, Le Perthus, de A63 en de Franse rijverboden voor wie een wagen laat ophalen.",
+      "sources": [
+        "https://www.boe.es/eli/es-ct/res/2025/02/11/isp430/con",
+        "https://transit.gencat.cat/ca/informacio-viaria/professionals-transport/mesures-especials/",
+        "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Somport",
+        "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Bielsa-Aragnouet",
+        "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Viella",
+        "https://es.wikipedia.org/wiki/Puigcerd%C3%A1",
+        "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/estado-del-trafico/restricciones/2026/Resolucion-DGT_Medidas-circulacion-2026_ANEXO-II.pdf",
+        "https://es.wikipedia.org/wiki/T%C3%BAnel_del_Cad%C3%AD",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://fr.wikipedia.org/wiki/Autoroute_A63_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://en.wikipedia.org/wiki/Col_du_Perthus",
+        "https://fr.wikipedia.org/wiki/Mistral_(vent)",
+        "https://fr.wikipedia.org/wiki/Viaduc_de_Millau"
+      ]
+    },
+    "spanje-duitsland": {
+      "lead": "Een wagen uit Madrid of het Spaanse binnenland naar Duitsland begint met een rit over de meseta en eindigt na Frankrijk aan de Rijn. Open vervoer betekent dat uw wagen alle weersomstandigheden meemaakt, en dat Duitsland zijn eigen regels heeft voor afmetingen, maut en winterbanden.",
+      "facts": [
+        {
+          "label": "Max. hoogte Duitsland",
+          "value": "4,00 m, zonder tolerantie (§ 32 StVZO)"
+        },
+        {
+          "label": "Vrachtwagenmaut",
+          "value": "Geldt ook op Bundesstraßen, boven 3,5 ton"
+        },
+        {
+          "label": "Zondagsverbod",
+          "value": "Boven 7,5 ton: zon- en feestdagen, van 0 tot 22 uur"
+        },
+        {
+          "label": "Winterbanden",
+          "value": "Verplicht op de aangedreven assen van zware vrachtwagens"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Madrid en het binnenland",
+          "body": [
+            "Madrid is het vertrekpunt van zes radiale autosnelwegen. De A-1 loopt naar Burgos, Vitoria en San Sebastián, onder de pas van Somosierra door een tunnel sinds 1992. De AP-6 kruist de Sierra de Guadarrama met een tunnelcomplex van drie buizen; richting Adanero is de doorrijhoogte ongeveer 4,35 m. Het stuk Guadarrama-Adanero is een tolweg.",
+            "Het eerste stuk van de A-5 in Madrid, tot de M-40, is nog geen volwaardige autosnelweg en heeft een limiet van 70 km/u. Op de AP-6 is het verkeer het lichtst in januari en februari en het zwaarst in de zomermaanden."
+          ]
+        },
+        {
+          "heading": "Naar de Franse grens",
+          "body": [
+            "De A-62 loopt van Burgos via Palencia, Valladolid en Salamanca naar Fuentes de Oñoro en is een belangrijke as tussen Portugal en Frankrijk. Richting Frankrijk loopt de A-1 via Burgos naar Irun, en de Mediterrane kant eindigt bij La Jonquera.",
+            "De Duitse A5 is de gebruikelijke noord-zuid-as in Baden-Württemberg. Ze loopt van Hessen via Frankfurt, Karlsruhe en Freiburg tot Weil am Rhein bij Basel, 445 km. De Franse A9 loopt van Orange naar Le Perthus; bij Montpellier splitst ze in A9 en A709, en wie de verkeerde afrit mist, kan tot 35 km tot de volgende afrit hebben."
+          ]
+        },
+        {
+          "heading": "Duitse afmetingen en maut",
+          "body": [
+            "Duitsland laat 2,55 m breed en 4,00 m hoog toe, zonder toleranties. De lengte is 16,50 m voor een trekker met oplegger en 18,75 m voor een vrachtwagen met aanhanger. Bij autotransporters tellen uitschuifbare laadsteunen niet mee in de lengte als de lading er werkelijk over uitsteekt.",
+            "De Lkw-Maut geldt boven 3,5 ton, met een CO2-component, op autosnelwegen én op alle Bundesstraßen. Uitwijken naar een Bundesstraße bespaart dus geen tol. Controle gebeurt met brugportieken, controlezuilen en mobiele ploegen van het BALM."
+          ]
+        },
+        {
+          "heading": "Zondagen, feestdagen en winter",
+          "body": [
+            "In Duitsland mogen vrachtwagens boven 7,5 ton niet rijden op zon- en feestdagen van 0 tot 22 uur, en in juli en augustus ook op zaterdag van 7 tot 20 uur. Feestdagen verschillen per deelstaat: Driekoningen, Fronleichnam en Allerheiligen zijn in Baden-Württemberg vrije dagen, in Nedersaksen niet.",
+            "Bij zicht van 50 m of minder, of bij sneeuw- en ijzelgladheid, mogen vrachtwagens boven 7,5 ton de uiterst linkse strook niet gebruiken. Zware vrachtwagens moeten winterbanden hebben op de aangedreven assen, anders geldt hoogstens 50 km/u."
+          ]
+        },
+        {
+          "heading": "Aankomst in Baden-Württemberg en Rijnland-Palts",
+          "body": [
+            "De regio het dichtst bij Frankrijk is Baden-Württemberg, waar de A5 langs Straatsburg-Kehl loopt. Tussen Baden en de Elzas is de Europabrücke tussen Kehl en Straatsburg de drukste grensovergang. Rijnland-Palts en Saarland hebben geen Umweltzone meer.",
+            "Een open transporter die in de lente aankomt, brengt pollen en regen mee op de wagen, in de winter zout. Wie de wagen na aankomst liever meteen binnen zet, kiest een leveradres met een overdekte ruimte, bijvoorbeeld een dealer of garage. Spreek dat vooraf af, zodat de chauffeur weet waar hij moet staan."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Frankfurter Kreuz",
+          "body": "Met gemiddeld rond 335.000 voertuigen per dag is het Frankfurter Kreuz, waar de A3 en de A5 elkaar kruisen, het drukste snelwegknooppunt van Duitsland. Een autotransporter die van de Franse grens naar het noorden of oosten gaat, rijdt hier vaak voorbij."
+        },
+        {
+          "kind": "regel",
+          "title": "Umweltplakette voor vrachtwagens",
+          "body": "Ook vrachtwagens en bussen hebben in Duitse Umweltzonen een plakette nodig, voor alle emissieklassen. Elke stad bepaalt zelf welke plaketten ze toelaat. Aflevering in een centrum vraagt dus een check bij de gemeente."
+        },
+        {
+          "kind": "tip",
+          "title": "Oostenrijkse blokafhandeling",
+          "body": "Bij Kiefersfelden en Kufstein past Oostenrijk op bepaalde dagen blokafhandeling toe richting zuiden: hoogstens 250 vrachtwagens per uur op de A12. Dat raakt vooral wie via Duitsland naar het zuiden doorrijdt, niet de aankomst in Baden-Württemberg."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn wagen mee als hij hoger is dan een gewone auto?",
+          "a": "Een beladen voertuig mag in Duitsland 4,00 m hoog zijn. Meld de hoogte en lengte van een hoge SUV of camionette bij de offerte, dan weten we of ze op de bovenste laag mag."
+        },
+        {
+          "q": "Betaalt een wagen op een autotransporter ook Duitse maut?",
+          "a": "De maut hangt af van de vrachtwagen, niet van de lading. Ze geldt boven 3,5 ton en ook op Bundesstraßen. Als klant hoeft u daar niets voor te regelen."
+        },
+        {
+          "q": "Wat als mijn leverdag op een Duitse feestdag valt?",
+          "a": "Dan mag een vrachtwagen boven 7,5 ton niet rijden. Feestdagen verschillen per deelstaat, dus u geeft het adres door en wij kijken of de aflevering past."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Duitsland: Madrid, A5, Duitse maut, afmetingen en rijverboden voor wie een wagen laat vervoeren.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Autopista_del_Noroeste",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Norte",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Suroeste",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_de_Castilla",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://www.buzer.de/s1.htm?a=32&g=StVZO",
+        "https://www.bmv.de/SharedDocs/DE/Artikel/StV/Strassenverkehr/lkw-maut.html",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://de.wikipedia.org/wiki/Gesetzliche_Feiertage_in_Deutschland",
+        "https://dejure.org/gesetze/StVO/18.html",
+        "https://www.gesetze-im-internet.de/stvo_2013/__2.html",
+        "https://de.wikipedia.org/wiki/Frankfurter_Kreuz",
+        "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/fahrverbote-umweltzonen/umweltplaketten/",
+        "https://de.wikipedia.org/wiki/Blockabfertigung"
+      ]
+    },
+    "spanje-italie": {
+      "lead": "Van de Catalaanse kust naar Italië volgt een autotransporter bijna de hele Middellandse Zee: eerst de AP-7, dan de Franse A9 en A8, en na Menton de Ligurische kust. Het is een rit van tunnels en viaducten, waar open vervoer vooral te maken krijgt met wind, tolpleinen en strenge vrachtwagenregels aan Italiaanse kant.",
+      "facts": [
+        {
+          "label": "Kustroute",
+          "value": "AP-7, A9 naar Orange, A8 naar Menton, Italiaanse A10"
+        },
+        {
+          "label": "Alpenalternatief",
+          "value": "Fréjustunnel of Mont Blanc, beide met 150 m afstand"
+        },
+        {
+          "label": "Italiaanse hoogte",
+          "value": "Autotransporters met vaste opbouw tot 4,20 m beladen"
+        },
+        {
+          "label": "Tramontana",
+          "value": "Koude noordenwind in de Empordà, onder de Franse grens"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Catalonië",
+          "body": [
+            "De AP-7 begint aan de Franse grens in La Jonquera en volgt de hele Middellandse Zeekust als E-15. La Jonquera wordt doorkruist door de AP-7 en de N-II en leeft grotendeels van de activiteit rond de grenspost van Le Perthus.",
+            "Op de AP-7 tussen Sant Celoni en Vilafranca del Penedès moesten zware voertuigen vrijdag- en zondagmiddag van 17 tot 22 uur en zaterdagvoormiddag van 10 tot 14 uur rechts blijven zonder in te halen, met maximaal 80 km/u bij beperkingen. Dat is het stuk tussen Barcelona en Tarragona."
+          ]
+        },
+        {
+          "heading": "De Empordà en de tramontana",
+          "body": [
+            "De tramontana is een koude, turbulente wind uit het noorden tot noordoosten die vooral in de winter voorkomt. Hij is bijzonder hevig in de Empordà, net onder de Franse grens. Episodes kunnen meerdere dagen duren.",
+            "Een open autotransporter met meerdere lagen vangt zo'n wind anders op dan een gesloten truck. Chauffeurs rijden dan trager en zoeken waar mogelijk beschutting. Als u een wagen in Girona of Figueres laat ophalen, houd er rekening mee dat het ophaalmoment bij harde wind kan schuiven. Een wagen met een hoge opbouw, zoals een camionette, voelt dat meer dan een lage sportwagen."
+          ]
+        },
+        {
+          "heading": "Frankrijk naar Menton",
+          "body": [
+            "De A9 loopt 280,5 km van Orange naar Le Perthus en is een tolweg van ASF. Vanuit Orange gaat het via de A7 naar de A8, de Provençale, ongeveer 224 km tot Menton. Tussen Nice en Menton is de A8 een aaneenschakeling van tunnels en viaducten met stevige hellingen. In de tunnels zijn vrachtwagens beperkt tot 70 km/u en in juli en augustus zijn er geregeld files bij Aix en Cannes.",
+            "Vrachtwagens boven 3,5 ton mogen in Marseille niet op de A55 tussen het knooppunt A7/A55 en de Vieux-Port. Marseille, Nice en Toulon hebben een lage-emissiezone."
+          ]
+        },
+        {
+          "heading": "Ligurië en Noordwest-Italië",
+          "body": [
+            "Aan de grens wordt de A8 de Italiaanse A10, de Autostrada dei Fiori, 158 km naar Genua met 78 tunnels tussen Genua en Nice. Tussen Albisola en Genua-Voltri ligt de maximumsnelheid op de A10 op 80 km/u. De Ligurische snelwegen zijn berucht om files door werven in een smalle kuststrook.",
+            "In Valle d'Aosta geldt de plicht tot winterbanden of sneeuwkettingen al vanaf 15 oktober. Winteruitrusting is op de A22 vereist van 15 november tot 15 april. Met sneeuwkettingen gemonteerd is de maximumsnelheid 50 km/u."
+          ]
+        },
+        {
+          "heading": "Italiaanse regels voor autotransporters",
+          "body": [
+            "Italië laat 2,55 m breed en 4 m hoog toe. Autotransporters met vaste opbouw mogen geladen tot 4,20 m hoog zijn en tot 12% langer dan de limiet, zonder vergunning voor uitzonderlijk vervoer, mits de route geschikt is. Bij opleggers mag de lading alleen achteraan uitsteken.",
+            "Voor vrachtwagens boven 7,5 ton geldt een zondagsverbod van 9 tot 22 uur, in de zomermaanden vanaf 7 uur, en zomervrijdagen van 16 tot 22 uur. Bij aankomst uit het buitenland begint het verbod vier uur later, met bewijs van herkomst en bestemming. In Milaan weert Area B de meest vervuilende en grote voertuigen; afleveren gebeurt beter aan de rand van de stad."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Fréjus en Mont Blanc",
+          "body": "De Fréjustunnel (bijna 13 km) verbindt Modane met Bardonecchia; een tweede buis is in gebruik. De Mont Blanctunnel (11,6 km) heeft één buis voor twee richtingen en een inhaalverbod. Beide eisen 150 m afstand en lage snelheid, wat een transporter trager maakt dan op de kust."
+        },
+        {
+          "kind": "regel",
+          "title": "Winterbanden in Valle d'Aosta",
+          "body": "Wie in Valle d'Aosta rijdt, heeft van 15 oktober tot 15 april winterbanden of kettingen aan boord, op de SS26 en SS27. ANAS kondigt dat elk seizoen aan. De Kleine Sint-Bernhardpas gaat elke winter dicht; ANAS verwijst dan naar de Grote Sint-Bernhardtunnel of Fréjus."
+        },
+        {
+          "kind": "plek",
+          "title": "Interporto en havens",
+          "body": "De Interporto di Bologna ligt in Bentivoglio aan de A13 met een eigen afrit. De haven van Civitavecchia heeft lijnen naar Barcelona, Sardinië en Sicilië. Een wagen die verder door Italië moet, komt zo vaak langs zo'n knooppunt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke weg neemt een transporter van Barcelona naar Genua?",
+          "a": "De AP-7 naar La Jonquera, de Franse A9 naar Orange, de A8 naar Menton en de Italiaanse A10. Het is een tolroute met veel tunnels. Via de Alpen zijn Fréjus en Mont Blanc alternatieven."
+        },
+        {
+          "q": "Mag mijn wagen hoger zijn dan 4 meter?",
+          "a": "Een autotransporter met vaste opbouw mag in Italië tot 4,20 m beladen rijden, mits de route het toelaat. Dat zegt niets over uw wagen: meld hoogte en lengte bij de offerte."
+        },
+        {
+          "q": "Is het zinvol om op zondag te leveren in Italië?",
+          "a": "Zelden. Zondag tussen 9 en 22 uur rijdt een zware vrachtwagen niet, in de zomer vanaf 7 uur. Wij plannen de aankomst daarbuiten."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Italië langs de Middellandse Zee: AP-7, A9, A8, de Ligurische A10 en de Italiaanse rijverboden.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/La_Junquera",
+        "https://www.boe.es/eli/es-ct/res/2025/02/11/isp430/con",
+        "https://es.wikipedia.org/wiki/Tramontana",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/A8_autoroute",
+        "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A8_(France)",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://aci.gov.it/codice-della-strada/art-61/",
+        "https://aci.gov.it/codice-della-strada/art-10/",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://stradeanas.it/it/print/106511",
+        "https://stradeanas.it/it/print/108474",
+        "https://it.wikipedia.org/wiki/Traforo_stradale_del_Frejus",
+        "https://it.wikipedia.org/wiki/Traforo_del_Monte_Bianco",
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://it.wikipedia.org/wiki/Interporto_di_Bologna",
+        "https://en.wikipedia.org/wiki/Port_of_Civitavecchia",
+        "https://www.poliziadistato.it/articolo/22479"
+      ]
+    },
+    "spanje-zwitserland": {
+      "lead": "Een wagen van Valencia of de Aragonese binnenlanden naar Zwitserland gaat door Frankrijk en komt aan bij Genève. Zwitserland ligt buiten de EU, heeft een nachtverbod voor zware vrachtwagens en strenge tunnelregels. Voor open vervoer telt dus niet alleen de afstand, maar ook het uur waarop de wagen over de grens gaat.",
+      "facts": [
+        {
+          "label": "N-340 Castellón",
+          "value": "Tussen Nules en Oropesa het hele jaar geen voertuigen boven 7,5 ton"
+        },
+        {
+          "label": "Nachtverbod Zwitserland",
+          "value": "22 tot 5 uur voor voertuigen boven 3,5 ton"
+        },
+        {
+          "label": "Max. gewicht Zwitserland",
+          "value": "40 ton voor vrachtwagens, sinds 2005"
+        },
+        {
+          "label": "Grens Genève",
+          "value": "Bardonnex, aansluiting op de Franse A41"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Valencia en Castellón",
+          "body": [
+            "Voertuigen boven 7,5 ton zijn het hele jaar, dag en nacht, verboden op de N-340 tussen Nules en Oropesa in Castellón. Van Torreblanca tot de grens Castellón-Tarragona geldt dat voor voertuigen met vier of meer assen. Zwaar verkeer zit daar dus op de AP-7.",
+            "In Sagunto, net boven Valencia, begint de A-23 (Autovía Mudéjar) die via Teruel en Zaragoza naar de Somport-tunnel loopt. Dat is de binnenlandse route van Valencia naar Frankrijk door Aragón. De duurste passage is de Monrepós; bij Jaca, Sabiñánigo en Lanave zijn nog stukken niet afgewerkt."
+          ]
+        },
+        {
+          "heading": "Door Frankrijk naar Genève",
+          "body": [
+            "Vanuit Spanje loopt de rit over de AP-7 en de Franse A9, tolplichtig van ASF. Frankrijk legt weekendverboden op: zaterdag 22 uur tot zondag 22 uur boven 7,5 ton. Die kalender telt, want een wagen die vrijdagavond vertrekt, kan op zaterdag niet doorrijden.",
+            "Rond Lyon is transitverkeer boven 7,5 ton verboden op de A7/A6 tussen Ternay en Limonest. Voertuigen hoger dan 4,30 m mogen niet door de tunnel onder Fourvière. Een geladen transporter moet daarom vooraf worden nagemeten. Is de wagen zelf hoog, zoals een camionette met dakdrager, meld dat dan bij de offerte, zodat de plek op de transporter klopt."
+          ]
+        },
+        {
+          "heading": "Aankomst in Genève, Vaud en Wallis",
+          "body": [
+            "Bij de grensovergang Bardonnex-Saint-Julien-en-Genevois vertrekt de Zwitserse A1, die daar aansluit op de Franse A41. Voor verkeer uit Zuid-Frankrijk of Spanje is dit de plek waar het land begint. De A1 loopt ongeveer 410 km van Genève via Lausanne, Bern en Zürich naar St. Margrethen.",
+            "Wintersluitingen van passen hangen af van de sneeuw. De Grote Sint-Bernhardpas is al vanaf oktober gesloten. De Simplonpas is een belangrijke vrachtwagenroute naar Italië en de best uitgebouwde bergpas van Zwitserland. Wie een wagen in Wallis laat ophalen, plant daarom liefst een rit die niet afhangt van een pas."
+          ]
+        },
+        {
+          "heading": "Zwitserse regels voor vrachtwagens",
+          "body": [
+            "Op zondag en 's nachts van 22 tot 5 uur mogen voertuigen boven 3,5 ton niet rijden. Trekkers met oplegger boven 5 ton vallen eronder, evenals voertuigen met aanhanger boven 3,5 ton. Uitzonderingen gelden enkel voor onvermijdelijke ritten; vanuit het buitenland beslist het kanton van binnenkomst.",
+            "Het maximumgewicht is 40 ton. Voor buitenlands ingeschreven vrachtwagens met een EETS-boordsysteem factureert de aanbieder de zwaar-verkeersheffing. Aan de grens blijft het laadgewicht uit de voertuigpapieren leidend; bij overschrijding kan het grenskantoor de rit weigeren. Dat is een zaak van de vervoerder, niet van u."
+          ]
+        },
+        {
+          "heading": "De wagen zelf en de douane",
+          "body": [
+            "Zwitserland is geen EU-lid, dus de grens is een douanegrens. Op eigen initiatief meldt u de wagen aan bij een douanekantoor voor handelsgoederen, met e-dec, koopcontract, kentekenbewijs en identiteitsbewijs. Mcars vervoert de wagen en regelt die aangifte niet; u of een expediteur doet dat.",
+            "Zwitsers inschrijven vraagt onder meer een testrapport, CoC voor de MFK-keuring en zo nodig een CO2-attest. Dat gebeurt na aankomst. Op de transporter staat de wagen verzekerd, en bij ophaling krijgt u foto's en een CMR-vrachtbrief."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Gotthard en San Bernardino",
+          "body": "De Gotthardtunnel (16,9 km) laat vrachtwagens gedoseerd toe, met ongeveer 150 m afstand. De San Bernardinotunnel (6,6 km) is het hele jaar open, maar de pasweg erboven is door haarspeldbochten ongeschikt voor zware vrachtwagens. Wie van Lombardije naar Zürich wil, plant dit vooraf."
+        },
+        {
+          "kind": "plek",
+          "title": "Verbier en de Wallis-dalen",
+          "body": "Verbier ligt op ongeveer 1.490 m, met meer dan 25.000 toeristenbedden. In 13 haarspeldbochten stijgt de weg vanuit het dal meer dan 650 m. Een wagen ophalen in zo'n skidorp vraagt een afspraak op een plek die een vrachtwagen kan bereiken."
+        },
+        {
+          "kind": "tip",
+          "title": "Grote Sint-Bernhardtunnel",
+          "body": "De Grote Sint-Bernhardtunnel tussen Bourg-Saint-Pierre en het Aostadal kost een aparte tol, los van het Zwitserse vignet. In de herfst zijn er geregeld onderhoudssluitingen, waarbij het verkeer over de pas of de Simplon gaat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een wagen in de nacht de Zwitserse grens over?",
+          "a": "Voor een zware vrachtwagen niet tussen 22 en 5 uur, en niet op zondag. We plannen de aankomst in Zwitserland dus overdag, op een werkdag."
+        },
+        {
+          "q": "Regelt Mcars de Zwitserse douane?",
+          "a": "Nee. Mcars vervoert de wagen. De aangifte bij het douanekantoor doet u zelf of via een douane-expediteur, met koopcontract, kentekenbewijs en identiteitsbewijs."
+        },
+        {
+          "q": "Blijft mijn wagen schoon over de Alpen?",
+          "a": "Op een open transporter niet helemaal. Zout en natte sneeuw komen op de wagen in de winter. Foto's bij ophaling bewijzen de staat van vertrek."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Zwitserland: N-340, A-23, Franse A9, Zwitserse nachtverbod, tunnelregels en douanegrens.",
+      "sources": [
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_Mud%C3%A9jar",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://de.wikipedia.org/wiki/Autobahn_A1_(Schweiz)",
+        "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+        "https://de.wikipedia.org/wiki/Leistungsabhängige_Schwerverkehrsabgabe",
+        "https://www.bazg.admin.ch/de/die-lsva-auf-einen-blick",
+        "https://www.bazg.admin.ch/de/faq-umzugsgut",
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.tcs.ch/de/tools/verkehrsinfo-verkehrslage/paesse-in-der-schweiz.php",
+        "https://de.wikipedia.org/wiki/Grosser-St.-Bernhard-Tunnel",
+        "https://de.wikipedia.org/wiki/Gotthard-Strassentunnel",
+        "https://de.wikipedia.org/wiki/San-Bernardino-Tunnel",
+        "https://de.wikipedia.org/wiki/Verbier",
+        "https://de.wikipedia.org/wiki/Simplonpass"
+      ]
+    },
+    "spanje-oostenrijk": {
+      "lead": "Van de Costa del Sol naar Oostenrijk is een van de langste ritten die een autotransporter vanuit Spanje maakt: eerst heel Andalusië, dan de Franse en Italiaanse kust, en tot slot de Brennerpas. Voor open vervoer telt wat er onderweg aan bergen, tunnels en rijverboden ligt, en wat Oostenrijk zelf voor wagens op de weg regelt.",
+      "facts": [
+        {
+          "label": "Despeñaperros",
+          "value": "Pas op de A-4 tussen Madrid en Andalusië, sinds 2012 op viaducten"
+        },
+        {
+          "label": "Brennerpas",
+          "value": "1.372 m hoog, hellingen tot 10%"
+        },
+        {
+          "label": "A22 Brenner",
+          "value": "Winteruitrusting verplicht van 15 november tot 15 april"
+        },
+        {
+          "label": "Tirol A12",
+          "value": "Sectoraal verbod omvat motorvoertuigen, met uitzonderingen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek op de Costa del Sol en in Andalusië",
+          "body": [
+            "De A-7 doorkruist de Costa del Sol tolvrij, met de oude N-340 ernaast. Een volwaardige autosnelweg is niet elk stuk: Algeciras heeft kruispunten met verkeerslichten, en tussen Guadiaro en Estepona liggen rotondes. Aan de Costa del Sol is een stuk van de AP-7 nog betalend.",
+            "Mcars vervoert wagens van tweedeverblijvers in Spanje. Een wagen van een tweede verblijf aan de Costa del Sol komt zo naar het noorden zonder dat u zelf achter het stuur hoeft te zitten. De Operación Paso del Estrecho zorgt in de zomer voor een massale oversteek naar Marokko, via Algeciras, Tarifa, Málaga, Motril en Almería; haven en omliggende wegen zijn dan druk."
+          ]
+        },
+        {
+          "heading": "Andalusië naar het noorden",
+          "body": [
+            "Madrid ligt via de A-4 verbonden met Córdoba, Sevilla en Cádiz. Sinds 2012 telt de pas van Despeñaperros, tussen Venta de Cárdenas en Santa Elena, twee nieuwe rijbanen op viaducten. Op de AP-4 is het stuk Dos Hermanas-Jerez sinds 2019 tolvrij.",
+            "In juli en augustus zijn op zaterdag, zondag en feestdagen van 11 tot 22 uur de kustwegen naar de stranden van Huelva en Almería dicht voor voertuigen boven 7.500 kg. Dat raakt ritten naar Matalascañas, Punta Umbría en Garrucha. De levante, een oostenwind in de Straat van Gibraltar, waait het vaakst van mei tot oktober."
+          ]
+        },
+        {
+          "heading": "Van Frankrijk naar de Brenner",
+          "body": [
+            "De route loopt over de AP-7 naar La Jonquera, de Franse A9 naar Orange, de A8 langs de Côte d'Azur, en de Italiaanse A10 naar Genua. Het vervolg naar het noorden gaat over de A4 en de A22. De A22 loopt van Modena door het Adigedal naar de Brenner en de Oostenrijkse A13.",
+            "Ongeveer een derde van het verkeer op de A22 is zwaar, en ze loopt vast bij vakantie-uittochten. Italië verbiedt vrachtwagens boven 7,5 ton op zondag en op zomervrijdagen; bij aankomst uit het buitenland begint het verbod vier uur later. Frankrijk rijdt zaterdag 22 uur tot zondag 22 uur niet."
+          ]
+        },
+        {
+          "heading": "Oostenrijkse regels voor motorvoertuigen",
+          "body": [
+            "Op de A12 tussen Langkampfen en Ampass mogen vrachtwagens boven 7,5 ton bepaalde goederen niet vervoeren. Op die lijst staan uitdrukkelijk motorvoertuigen: personenwagens, motorfietsen, quads en minibussen. Uitgezonderd zijn ritten waarvan het grootste deel van de lading in de kernzone van Tirol wordt geladen of gelost, en bepaalde voertuigen van de schoonste emissieklasse met IG-L-plakette.",
+            "Op de A12 geldt bovendien een emissieverbod voor voertuigen boven 7,5 ton van de vijfde klasse en lager. Vrachtwagens mogen op snelwegen met drie of meer rijstroken de uiterst linkse strook niet gebruiken."
+          ]
+        },
+        {
+          "heading": "Aankomst in Vorarlberg en Tirol",
+          "body": [
+            "Vorarlberg grenst aan Duitsland, Zwitserland en Liechtenstein en krijgt verkeer uit Frankrijk, Spanje en Zwitserland. Richting de rest van Oostenrijk neemt u de S16 en de Arlbergtunnel. Tirol grenst aan Italië over de Brennerpas en aan Duitsland bij Kufstein.",
+            "De Brennerpas ligt op 1.372 m, ongeveer 80 km ten noorden van Bolzano, met hellingen tot 10%. Wie via Italië komt, volgt de A13 naar Innsbruck. Op de A13 geldt de GO-Maut met een toeslag op de Brennerroute en een nachttarief voor voertuigen met vier of meer assen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "GO-Maut op alpiene trajecten",
+          "body": "Op bepaalde alpiene trajecten geldt een hoger GO-tarief. Een toeslag komt er op de Brennerroute bovenop, plus een nachttarief voor voertuigen met vier of meer assen. De volledige A13 is een Sondermautstrecke; vrachtwagens boven 3,5 ton betalen via de GO-Box."
+        },
+        {
+          "kind": "tip",
+          "title": "Arlberg en thermoscanner",
+          "body": "Vóór de Arlbergtunnel (S16) staat een thermoscanner die zware voertuigen controleert op oververhitte remmen, turbo's en motoren. Een autotransporter wordt zo nodig opgehouden om af te koelen."
+        },
+        {
+          "kind": "plek",
+          "title": "Brenner en de grens",
+          "body": "Op de Brennerpas zijn sinds Schengen (1997) geen vaste grenscontroles meer, maar Oostenrijk voerde ze opnieuw in vanaf 2015. Bij Brenner-Nord worden vrachtwagens gecontroleerd. Reken bij zware grensdrukte op vertraging."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter zomaar door Tirol?",
+          "a": "Op de A12 geldt een sectoraal verbod waarop motorvoertuigen staan, met uitzonderingen voor laden of lossen in de kernzone. Voor een aflevering in Innsbruck of Schwaz kan dat in orde zijn, voor doorrijden niet."
+        },
+        {
+          "q": "Wat betekent open vervoer voor een rit via de Brenner?",
+          "a": "De wagen staat in weer en zout, ook op de Brennerpas in de winter. Op de A22 geldt winteruitrusting van 15 november tot 15 april, en de chauffeur houdt rekening met sneeuw en zout."
+        },
+        {
+          "q": "Kan ik een wagen van de Costa del Sol naar Wenen laten brengen?",
+          "a": "Dat kan, als open vervoer past. De rit is lang, met tolwegen, bergpassen en meerdere rijverbodskalenders. Vraag een offerte aan met ophaaladres en afleveradres, dan stemmen we de route af."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Oostenrijk: Andalusië, Frankrijk, de Brennerpas en de Tiroolse regels voor vrachtwagens met auto's.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Sur",
+        "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Paso_del_Estrecho",
+        "https://es.wikipedia.org/wiki/Viento_de_levante",
+        "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/estado-del-trafico/restricciones/2026/Resolucion-DGT_Medidas-circulacion-2026_ANEXO-II.pdf",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://it.wikipedia.org/wiki/Passo_del_Brennero",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://www.wko.at/tirol/verkehr-betriebsstandort/lkw-fahrverbote-a12-inntalautobahn-tirol",
+        "https://www.asfinag.at/verkehr-sicherheit/lkw-bus/lkw-fahrverbote/",
+        "https://www.asfinag.at/verkehr-sicherheit/tunnelsicherheit/",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/go-maut.html",
+        "https://de.wikipedia.org/wiki/Brenner_Autobahn",
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://de.wikipedia.org/wiki/Rheintal/Walgau_Autobahn"
+      ]
+    },
+    "spanje-polen": {
+      "lead": "Een wagen van de Galicische of Asturische kust naar Polen is een van de langste ritten op het kaartje: eerst de Atlantische kust en de Franse snelwegen, dan Duitsland, tot aan de Oder bij Świecko. Voor open vervoer betekent dat veel landen met elk eigen tol, zondagsverboden en grenscontroles.",
+      "facts": [
+        {
+          "label": "Galicische AP-9",
+          "value": "Tolweg van Ferrol tot Tui; Redondela tot Vigo tolvrij"
+        },
+        {
+          "label": "AP-66 Huerna",
+          "value": "Hooggebergte, tot 1.229 m, zeven tunnels, geregeld dicht"
+        },
+        {
+          "label": "Poolse grens",
+          "value": "A2 Świecko of A4 Jędrzychowice"
+        },
+        {
+          "label": "Poolse tol",
+          "value": "e-TOLL boven 3,5 ton, concessies op A1, A2 en A4"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Galicië, Asturië en Cantabrië",
+          "body": [
+            "De A-8 loopt langs de hele noordkust van Bilbao tot Baamonde en is tolvrij. Rond Mondoñedo en Lindín hangt vaak dichte mist; het verkeer moet dan vertragen of de snelweg gaat dicht, met omleiding over de oude N-634. Een galerna is een plotse storm met rukwinden boven 100 km/u op de Cantabrische kust.",
+            "De AP-9 loopt van Ferrol via A Coruña, Santiago, Pontevedra en Vigo naar Tui, ongeveer 215 km, met concessie tot 2048. Zware voertuigen krijgen korting op alle trajecten, en het stuk Redondela-Vigo is tolvrij."
+          ]
+        },
+        {
+          "heading": "Bergpassen naar het plateau",
+          "body": [
+            "De AP-66 verbindt León met Campomanes in Asturië, 78 km tot 1.229 m, met zeven tunnels. De langste is El Negrón II (4.144 m). De concessie loopt tot 2050. De snelweg gaat in de winter geregeld dicht; het tolvrije alternatief is de N-630 over de Puerto de Pajares.",
+            "De A-6 Madrid-A Coruña kruist de passen van Manzanal en Pedrafita do Cebreiro. De A-52 loopt via Ourense naar O Porriño en heeft bij Padornelo de hoogste tunnel van een Spaanse autosnelweg, ongeveer 1.380 m."
+          ]
+        },
+        {
+          "heading": "Frankrijk en Duitsland",
+          "body": [
+            "Vanuit Spanje loopt de rit over de AP-7 naar La Jonquera of via Irun, dan de tolplichtige A9 naar Orange. Het vervolg in Frankrijk en Duitsland naar het noorden is niet in elk detail bevestigd. De Duitse A5 loopt van Frankfurt naar Basel en is een mogelijke noord-zuid-as.",
+            "Duitsland rijdt zon- en feestdagen niet van 0 tot 22 uur, in juli en augustus ook op zaterdag van 7 tot 20 uur. Frankrijk rijdt van zaterdag 22 uur tot zondag 22 uur niet. De Duitse maut met CO2-component geldt op autosnelwegen en Bundesstraßen boven 3,5 ton."
+          ]
+        },
+        {
+          "heading": "Oostwaarts via de Oder",
+          "body": [
+            "De Duitse A12 loopt 58 km van de Berliner Ring naar Frankfurt (Oder) en gaat over de Oderbrug verder als de Poolse A2 naar Poznań en Łódź. Bij de A12 was ruim een kwart van het verkeer vrachtverkeer. Een alternatief is de Poolse A4 vanaf Jędrzychowice bij Zgorzelec en Görlitz naar Wrocław, Katowice en Kraków; van de grens tot Wrocław is die niet tolplichtig.",
+            "Aan Świecko kunnen door Duitse en Poolse controles files tot ongeveer 7 km ontstaan. Een extra rijstrook in de controlezone wordt onderzocht. Dat maakt een vaste aankomsttijd moeilijk, ook voor een ervaren chauffeur. Houd dus rekening met speling in uw afspraak."
+          ]
+        },
+        {
+          "heading": "Aankomst in Groot-Polen en Neder-Silezië",
+          "body": [
+            "Op de Poolse snelwegen betaalt een voertuig boven 3,5 ton e-TOLL op staatswegen en aan de concessie-uitbater op A1, A2 en A4. De A2 tussen Świecko en Konin is in concessie. De Poznańse ring is gratis voor personenwagens, maar een autotransporter valt onder de regels voor vrachtwagens.",
+            "Krakau laat in de milieuzone enkel benzinemotoren van een recente norm of diesel van een nog recentere norm toe. Het verkeersbord C-18 verplicht sneeuwkettingen op een besneeuwde weg. Mcars regelt geen Poolse registratie; die doet u zelf bij het wydział komunikacji."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Milieuzone Krakau",
+          "body": "Vrachtwagens en bussen boven 3,5 ton mogen de milieuzone van Krakau enkel in met een benzinemotor van bouwjaar 2005 of later, of met een dieselmotor van bouwjaar 2012 of later. Aflevering in het centrum is dus een beslissing voor de laatste kilometers."
+        },
+        {
+          "kind": "plek",
+          "title": "Świecko en de Oder",
+          "body": "Aan de grens Świecko-Frankfurt (Oder) controleren de Poolse transportinspectie, de politie van Brandenburg en de Duitse dienst BALM soms samen vrachtwagens op de A12. Zorg dus dat de papieren van de wagen en het koopcontract in orde zijn."
+        },
+        {
+          "kind": "tip",
+          "title": "Poolse feestdagen en weekends",
+          "body": "Polen legt rijverboden voor vrachtwagens op in de zomerweekends en op nationale feestdagen. Controleer vooraf de kalender voor uw afleverdag, zeker in juli en augustus."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een wagen uit Galicië naar Polen op een open autotransporter?",
+          "a": "Ja, als open vervoer past. De rit is lang en kent meerdere rijverbodskalenders. Vraag een offerte aan, dan bekijken we route en planning."
+        },
+        {
+          "q": "Regelt Mcars de Poolse inschrijving?",
+          "a": "Nee. Mcars vervoert de wagen. De inschrijving doet u zelf bij het wydział komunikacji van uw woonplaats; dat vraagt onder meer buitenlandse papieren, keuring, Poolse verzekering en een koopcontract in het Pools."
+        },
+        {
+          "q": "Wat als de wagen op het Galicische ophaaladres niet start?",
+          "a": "Elke vrachtwagen heeft een lier. Bij een volledig geblokkeerde wagen sturen wij een heftruck ter plaatse. Meld dat bij de offerte."
+        }
+      ],
+      "seoDescription": "Open autotransport van Spanje naar Polen: Galicië, Asturië, Franse en Duitse rijverboden, de Oder bij Świecko en Poolse tolwegen.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Cant%C3%A1brico",
+        "https://es.wikipedia.org/wiki/Galerna",
+        "https://es.wikipedia.org/wiki/Autopista_del_Atl%C3%A1ntico",
+        "https://es.wikipedia.org/wiki/Autopista_Ruta_de_la_Plata",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Noroeste",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_de_las_R%C3%ADas_Bajas",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://mobility.autopay.eu/pl/oplaty-drogowe/polska/",
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://www.otomoto.pl/news/lancuchy-sniegowe-kiedy-trzeba-je-stosowac",
+        "https://www.otomoto.pl/news/rejestracja-samochodu-z-niemiec-poradnik-krok-po-kroku",
+        "https://trans.info/pl/polsko-niemiecka-akcja-kontroli-509395"
+      ]
+    }
+  }
+}

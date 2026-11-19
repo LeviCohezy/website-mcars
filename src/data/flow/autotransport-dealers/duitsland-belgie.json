@@ -1,0 +1,59 @@
+{
+  "sub": "Koopt u wagens bij Duitse handelaars of op een veiling? Mcars haalt ze op in Duitsland en brengt ze naar uw terrein in België.",
+  "problem": {
+    "title": "Het aanbod zit in Duitsland, de klant in België",
+    "body": "Veel Belgische garages kopen in Duitsland: breed aanbod, goed uitgeruste wagens en Duitse merken die hier snel verkopen. Dat werkt zolang het transport meewil. Een veiling in het Rijnland sluit op vrijdag, de wagen staat op maandag niet bij u, en een eigen chauffeur is dan twee dagen kwijt. Wie regelmatig koopt, wil een vaste transporteur die de partij ophaalt en netjes afzet.",
+    "situations": [
+      { "title": "Veilingaankoop", "body": "U kocht een of meer wagens op een Duitse veiling. Onze chauffeur haalt ze op volgens de afspraak met de verkoper." },
+      { "title": "Wagen van een collega", "body": "Een Duitse handelaar heeft precies het model waar uw klant om vraagt. Wij laden het bij hem en brengen het naar uw showroom." },
+      { "title": "Partij voor uw stock", "body": "U vult uw voorraad aan met enkele wagens van verschillende verkopers. We combineren de adressen in één rit naar uw terrein." }
+    ]
+  },
+  "solution": {
+    "title": "Duitse aankopen netjes bij u afgezet",
+    "body": "Bezorg ons de ophaaladressen, de wagens en uw bestemming in België. Uw offerte volgt binnen 24 uur. Wij maken met u en met de verkoper een afspraak voor de ophaling en houden jullie op de hoogte. De chauffeur laadt op een open meerlaagse transporter, doet de inspectie, neemt foto's en maakt de CMR-vrachtbrief op. Op de dag zelf belt hij u net voor de aankomst. Wagens die niet rijden, haalt de lier aan boord op het platform. Alles is verzekerd tijdens het transport, tot ze bij u staan."
+  },
+  "usps": [
+    { "title": "Meerdere adressen, één rit", "body": "Staan uw aankopen bij verschillende verkopers? Wij combineren de adressen waar dat kan, zodat u een partij krijgt in plaats van losse leveringen." },
+    { "title": "Planning met de verkoper", "body": "Wij maken de afspraak met de verkoper of het veilingterrein. U hoeft niet zelf te bellen naar een Duitse afdeling." },
+    { "title": "Levering op uw terrein", "body": "De wagens komen bij uw garage of showroom aan. U kunt ze ook op ons depot in Roeselare laten afzetten." },
+    { "title": "Open transporter met lier", "body": "Onze wagens rijden open en meerlaags. Een wagen zonder motor of met een defect krijgt toch een plaats, dankzij de lier." }
+  ],
+  "steps": [
+    { "title": "Offerte aanvragen", "body": "Geef de wagens, de adressen in Duitsland en de bestemming door. Binnen 24 uur staat uw offerte op maat klaar." },
+    { "title": "Planning met verkoper", "body": "We spreken de ophaling af met de verkoper of het veilingterrein. Daarna bevestigen wij het laadmoment ook aan u, met alle details." },
+    { "title": "Laden, foto's, CMR", "body": "Bij het laden controleert de chauffeur elke wagen, maakt foto's en tekent de CMR-vrachtbrief samen met de verkoper." },
+    { "title": "Levering in België", "body": "De chauffeur belt vooraf en zet de wagens af waar u ze wilt. U controleert mee en tekent af." }
+  ],
+  "care": {
+    "title": "Gedocumenteerd en verzekerd tot bij u",
+    "body": "Een wagen die u in Duitsland koopt, ziet u meestal pas als hij bij u aankomt. Daarom legt de chauffeur bij het laden vast hoe hij erbij staat: inspectie, foto's als intern bewijs en een CMR-vrachtbrief. Tijdens de rit zijn de wagens verzekerd. Papieren zoals de btw-factuur, de Duitse inschrijving of de Belgische keuring blijven bij u en uw verkoper. Wij vervoeren alleen, en zeggen over uw aankoop niets door.",
+    "items": ["Inspectie bij het laden", "Foto's als intern bewijs", "CMR-vrachtbrief wordt opgemaakt", "Verzekering tijdens de rit"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Duitsland naar België",
+    "body": "Het traject tussen Duitse verkopers en Belgische garages is geen uitzondering voor ons. Wij zijn dagelijks in België en weten hoe laadplekken bij Duitse handelaars en veilingterreinen werken. Aan Belgische kant rijden we langs uw terrein, uw showroom of ons depot. Onze chauffeurs spreken Nederlands of Frans, voor uw Waalse of Vlaamse klant. Duits hoeft u dus niet te kennen: wij regelen de afspraak met de verkoper.",
+    "regions": ["Noordrijn-Westfalen", "Nedersaksen", "Hessen", "Rijnland-Palts", "Beieren", "Baden-Württemberg"]
+  },
+  "faq": [
+    { "q": "Kan ik wagens van verschillende verkopers combineren?", "a": "Ja, als de adressen een beetje bij elkaar liggen. Bezorg ons alle ophaaladressen, dan kijken we of er een logische rit van te maken valt." },
+    { "q": "Wie spreekt met de Duitse verkoper?", "a": "Wij stemmen de ophaling af met de verkoper of het veilingterrein. U blijft ons aanspreekpunt, en wij brengen u op de hoogte van het moment van laden." },
+    { "q": "Wat als de wagen niet rijdt?", "a": "Elke vrachtwagen heeft een lier. Is de wagen volledig geblokkeerd, dan vragen we een heftruck ter plaatse. Meld het bij uw aanvraag." },
+    { "q": "Wie regelt de papieren voor de Belgische inschrijving?", "a": "Dat doet u zelf, of uw dealer. Wij vervoeren de wagen en geven alleen de CMR mee. Uw verkoper bezorgt de rest van de documenten." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Zegt de planning dat we komen, dan staat de chauffeur er. Onze vaste mensen halen uw Duitse aankopen op zoals beloofd.",
+    "snel": "Uw aankoop wordt vlot ingepland, uit Duitsland opgehaald en zonder getreuzel op uw terrein in België afgezet.",
+    "volgbaar": "Met track en trace volgt u uw aankoop op de terugweg uit Duitsland, en onze chauffeur belt u voor hij bij u arriveert.",
+    "verzekerd": "Van de Duitse verkoper tot aan uw deur zijn de wagens verzekerd, en de CMR-vrachtbrief geeft de staat bij ophaling weer."
+  },
+  "reasons": [
+    { "title": "Jaren op de baan", "body": "Wij kennen het ophalen bij Duitse handelaars en veilingen uit ervaring. Wat daar vlot loopt en wat niet, weten we dus al." },
+    { "title": "Liefde voor auto's", "body": "Een wagen die u in Duitsland koopt, behandelen we alsof hij van onszelf is. Dat is geen slogan maar onze manier van werken." },
+    { "title": "Al honderden ritten", "body": "We reden honderden ritten, ook veel over de Duitse grens. Die routine zorgt ervoor dat uw aankoop op tijd en heel arriveert." },
+    { "title": "Geen onderaannemers", "body": "Eigen chauffeurs rijden uw wagens. Dat was een bewuste keuze, want zo blijft de zorg bij ons en spreekt u met één team." },
+    { "title": "Veelzijdig transport", "body": "Een enkele aankoop, een hele reeks of een wagen die niet rijdt: wij zoeken een oplossing die bij uw aankoop past." },
+    { "title": "Vooruit blijven kijken", "body": "We investeren in nieuwe manieren van werken en volgen. Zo blijft het transport vanuit Duitsland voor u steeds overzichtelijker." }
+  ],
+  "seoDescription": "Autotransport van Duitsland naar België voor garages en dealers: wagens ophalen bij verkoper of veiling, open transporter, lier, CMR en verzekering."
+}

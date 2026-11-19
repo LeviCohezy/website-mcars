@@ -1,0 +1,1161 @@
+{
+ "service": "fleet-wagenpark",
+ "origin": "italie",
+ "pages": {
+  "italie": {
+   "lead": "Een Italiaanse leasemaatschappij vernieuwt haar wagens na ongeveer vier jaar, terwijl het gemiddelde Italiaanse wagenpark meer dan dertien jaar oud is. Daardoor komen telkens grote partijen jonge wagens vrij, verspreid over het hele land. Wie ze wil laten verplaatsen, krijgt te maken met zondagsverboden voor vrachtwagens, tol per kilometer en stadscentra met camerapoorten.",
+   "facts": [
+    {
+     "label": "Huurduur",
+     "value": "Doorgaans 24 tot 60 maanden, verhuurder blijft eigenaar"
+    },
+    {
+     "label": "Vloot",
+     "value": "Ongeveer 1,3 miljoen voertuigen in langetermijnverhuur"
+    },
+    {
+     "label": "Rijverbod",
+     "value": "Boven 7,5 ton op zon- en feestdagen, buiten de bebouwde kom"
+    },
+    {
+     "label": "Tol",
+     "value": "Per gereden kilometer, in vijf voertuigklassen"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Zo loopt een Italiaans leasecontract af",
+     "body": [
+      "Langetermijnverhuur, in Italië noleggio a lungo termine, is een grote speler: de vloot telt ongeveer 1,3 miljoen voertuigen. Een contract loopt doorgaans 24 tot 60 maanden. In de huur zitten meestal de provinciale overdrachtsbelasting (IPT), de wegenbelasting (bollo), de verzekeringen, het onderhoud en de pechhulp. De verhuurder blijft eigenaar van de wagen.",
+      "Aan het einde levert de klant de wagen in en controleert de eigenaar de staat. Niet-gemelde schade of te veel kilometers worden aangerekend. Voor wie een partij laat vervoeren, volgt daaruit dat de toestand bij vertrek goed vastgelegd moet zijn. Mcars doet bij ophaling een inspectie, neemt foto's als intern bewijs en maakt een CMR-vrachtbrief op."
+     ]
+    },
+    {
+     "heading": "Op wiens naam staat de wagen?",
+     "body": [
+      "Een leasingwagen met aankoopoptie wordt in Italië ingeschreven op naam van de leasinggever. Het kentekenbewijs en het openbaar autoregister (PRA) vermelden de naam van de leasingnemer en de einddatum van het contract. De leasingnemer is samen met de bestuurder aansprakelijk voor schade.",
+      "Er is nog een regel die poolwagens raakt. Krijgt iemand anders dan de titularis een voertuig langer dan 30 dagen ter beschikking, dan moet die gebruiker dat binnen 30 dagen laten registreren. Dat geldt dus ook voor een bedrijfswagen op naam van een werknemer. Mcars vervoert de wagens en regelt geen papierwerk: zorg dat de leasemaatschappij of de fleetmanager de documenten klaar heeft voor de nieuwe houder."
+     ]
+    },
+    {
+     "heading": "Zondagen, feestdagen en patroonheiligen",
+     "body": [
+      "Vrachtvoertuigen boven 7,5 ton mogen buiten de bebouwde kom niet rijden op zon- en feestdagen. In januari tot en met mei en in oktober tot en met december geldt dat van 9 tot 22 uur, in juni tot en met september van 7 tot 22 uur. De rechtsgrond is artikel 6 van de Codice della Strada: de prefect kan het vrachtverkeer verbieden op feestdagen en op de dagen die een ministerieel decreet aanwijst.",
+      "Nationale feestdagen zijn 1 januari, 6 januari, paasmaandag, 25 april, 1 mei, 2 juni, 15 augustus (Ferragosto), 4 oktober, 1 november, 8 december, 25 en 26 december. Dat 4 oktober, San Francesco, opnieuw meetelt, vergeet men gemakkelijk. Daarnaast heeft elke gemeente een eigen feestdag voor haar patroonheilige, die alleen op haar grondgebied geldt. Een ophaling op zo'n dag kan dus mislukken in één stad en gewoon lukken in de buurgemeente."
+     ]
+    },
+    {
+     "heading": "Tol wordt berekend per kilometer",
+     "body": [
+      "Op de Italiaanse autosnelwegen betaalt u voor de afstand tussen het instapstation en het uitstapstation. Het kilometertarief hangt af van de voertuigklasse volgens het systeem Assi Sagoma. De klassen A en B zijn voor voertuigen met twee assen, de klassen 3, 4 en 5 voor voertuigen of combinaties met drie, vier, vijf of meer assen.",
+      "Voor uw planning betekent dit dat de tolkost van een transport meegroeit met de gereden afstand en met het aantal assen van de combinatie. Een vertrekadres dat dicht bij een afrit ligt, scheelt dus. Laat bij de offerteaanvraag weten waar de wagens precies staan, zodat de rit via de juiste toegangen wordt ingeschat."
+     ]
+    },
+    {
+     "heading": "Aanleveren in een stad: ZTL en voetgangerszones",
+     "body": [
+      "Binnen de bebouwde kom kunnen gemeenten voetgangerszones en zones met beperkt verkeer (ZTL) instellen. Ze weren er bepaalde voertuigcategorieën om vervuiling te beperken of erfgoed te beschermen. Zo'n zone staat in de wet (artikel 7 van de Codice della Strada), maar de uren en de toegelaten voertuigen verschillen van stad tot stad.",
+      "Voor een wagenpark dat naar een hoofdkantoor of een dealer in een historisch centrum moet, loont het om vooraf het exacte adres door te geven. Spreek bij een adres in zo'n zone een overslagpunt af, bijvoorbeeld een parking of een bedrijventerrein buiten de zone, en laat de laatste meters door een bestuurder van de ontvanger rijden."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Haven van Livorno",
+     "body": "Livorno is de grootste haven van Toscane en een van de autohavens van Italië, met containers, auto's en ro-roverkeer naar Sardinië, Corsica en Sicilië. De ro-roterminal heeft opslag voor 6.000 wagens. Wie nieuwe of ex-lease wagens naar de kade laat rijden, zorgt best voor een afgesproken laadvenster."
+    },
+    {
+     "kind": "plek",
+     "title": "Villa San Giovanni en de Straat van Messina",
+     "body": "Het merendeel van de voertuigen naar Sicilië, ongeveer vier op vijf, passeert Villa San Giovanni, onder meer met Caronte & Tourist naar Messina. Er ligt geen brug: het project is niet gebouwd, dus de overtocht blijft per veer. Rechtstreekse veren bestaan ook, bijvoorbeeld Genua–Palermo en Ravenna–Catania."
+    },
+    {
+     "kind": "regel",
+     "title": "ZTL en Scudo Verde in Firenze",
+     "body": "De ZTL van Firenze heeft vijf sectoren. A, B en O zijn actief van maandag tot vrijdag van 7.30 tot 20 uur en op zaterdag tot 16 uur, niet op zon- en feestdagen. Camera's lezen de nummerplaten. Daarnaast zorgt de milieuzone Scudo Verde met 77 camerapoorten, dag en nacht, voor boetes voor de meest vervuilende voertuigen."
+    },
+    {
+     "kind": "regel",
+     "title": "ZTL's in Napels",
+     "body": "Napels heeft meerdere ZTL's met elk hun eigen uren, onder meer Centro Antico, Tarsia–Pignasecca–Dante, Chiaia en Belledonne–Martiri–Poerio, met elektronische poorten. In Vomero geldt op werkdagen in de late namiddag een verbod voor privévoertuigen. Kijk de actuele uren na voor u een aflevering plant."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Kan een partij leasewagens op zondag door Italië worden vervoerd?",
+     "a": "Zeer beperkt. Vrachtwagens boven 7,5 ton mogen buiten de bebouwde kom niet rijden op zon- en feestdagen, van 9 tot 22 uur of in de zomermaanden van 7 tot 22 uur. Plan laden en lossen daarom op werkdagen en houd rekening met lokale feestdagen."
+    },
+    {
+     "q": "Wie is in Italië aansprakelijk voor schade aan een leasewagen?",
+     "a": "De leasingwagen staat op naam van de leasinggever, maar volgens artikel 91 van de Codice della Strada is de leasingnemer samen met de bestuurder aansprakelijk voor schade. Daarom is een goede inspectie bij vertrek en aankomst zinvol."
+    },
+    {
+     "q": "Wanneer moet een poolwagen op naam van een collega worden geregistreerd?",
+     "a": "Krijgt iemand anders dan de titularis het voertuig langer dan 30 dagen ter beschikking, dan moet de gebruiker dat binnen 30 dagen laten registreren. Dat raakt poolwagens en bedrijfswagens die op naam van een werknemer staan."
+    }
+   ],
+   "seoDescription": "Leasewagens en wagenpark in Italië laten vervoeren: leaseregels, zondagsverbod, tol per kilometer en ZTL's van Livorno tot Sicilië.",
+   "sources": [
+    "https://www.teleborsa.it/News/2026/05/05/25-rapporto-aniasa-mobilita-a-noleggio-in-espansione-preoccupano-fiscalita-e-obblighi-europei-su-elettrificazione-93.html",
+    "https://it.wikipedia.org/wiki/Noleggio_a_lungo_termine",
+    "https://aci.gov.it/codice-della-strada/art-91/",
+    "https://aci.gov.it/codice-della-strada/art-94/",
+    "https://aci.gov.it/codice-della-strada/art-6/",
+    "https://aci.gov.it/codice-della-strada/art-7/",
+    "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+    "https://it.wikipedia.org/wiki/Festività_in_Italia",
+    "https://www.autobrennero.it/it/pedaggio/costi-autostrada/",
+    "https://en.wikipedia.org/wiki/Port_of_Livorno",
+    "https://en.wikipedia.org/wiki/Villa_San_Giovanni",
+    "https://www.parkingmycar.it/blog/ztl-firenze-regole/",
+    "https://www.parkingmycar.it/blog/zone-a-traffico-limitato-napoli/"
+   ]
+  },
+  "italie-belgie": {
+   "lead": "Een leasemaatschappij in Turijn heeft een partij wagens klaar voor een Belgische klant: einde-lease uit Piemonte of bedrijfswagens voor een vestiging in Aarlen of Namen. De rit gaat door een Alpentunnel, over Franse tolwegen en komt aan in de Belgische provincie Luxemburg. Onderweg tellen de Italiaanse rijverboden, bij aankomst de Belgische regels voor wie voertuigen wil inschrijven.",
+   "facts": [
+    {
+     "label": "Alpentunnels",
+     "value": "Mont Blanc (11,6 km) of Fréjus (12,9 km)"
+    },
+    {
+     "label": "Mont Blanc",
+     "value": "Vrachtwagens in groepen van vijf, 150 m tussenruimte"
+    },
+    {
+     "label": "Italiaans verbod",
+     "value": "Boven 7,5 ton: zon- en feestdagen, ook leeg"
+    },
+    {
+     "label": "Keuring",
+     "value": "Eerste keer na vier jaar, nadien om de twee jaar"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Piemonte en de Aostavallei",
+     "body": [
+      "Piemonte en de Aostavallei kijken naar Frankrijk en België. Turijn is de logische verzamelplaats. In september vindt er in het centrum de Salone Auto Torino plaats, in open lucht rond Piazza Castello en de Musei Reali, met gratis toegang en testritten vanuit de Giardini Reali. Er is een aparte dag voor professionelen, zodat wagenparkbeheerders er ook terechtkunnen.",
+      "Wie een partij uit Turijn naar België laat rijden, kiest meestal de Fréjusroute: de A32 uit Turijn leidt naar de tunnel, aan Franse kant komt de A43. Staan de wagens in de Aostavallei, dan ligt de Mont Blanc-tunnel bij Courmayeur dichterbij. De keuze volgt dus uit het ophaaladres, niet uit een vaste voorkeur."
+     ]
+    },
+    {
+     "heading": "Twee tunnels, twee manieren van rijden",
+     "body": [
+      "De Mont Blanc-tunnel verbindt Chamonix met Courmayeur op de E25. Het is één buis met twee rijstroken. Vrachtwagens rijden er in groepen van vijf, met 150 meter afstand en tussen 50 en 70 km/u. De exploitatie ligt bij MBT-EEIG, voor de helft ATMB (Frankrijk) en voor de helft SITMB (Italië).",
+      "De Fréjustunnel is 12,87 km lang en verbindt Modane met Bardonecchia. SFTRF (Frans) en SITAF (Italiaans) beheren hem. Er is een tweede buis bijgekomen, maar per richting blijft één rijstrook in gebruik en dient de andere als vluchtstrook. De capaciteit blijft dus gelijk. Reken bij beide tunnels op een rustig tempo en zet een tunneldoorgang nooit krap in de planning."
+     ]
+    },
+    {
+     "heading": "Het Italiaanse verbod en wat een overtreding kost",
+     "body": [
+      "Italië verbiedt vrachtwagens en combinaties boven 7,5 ton buiten de bebouwde kom op zon- en feestdagen, ook leeg. Autotransport staat niet in de lijst van vrijstellingen. Buitenlandse voertuigen starten het verbod 4 uur later en ritten naar het buitenland mogen 2 tot 4 uur voor het einde van het verbod vertrekken.",
+      "Een overtreding geeft een boete, een schorsing van rijbewijs en kentekenbewijs van 1 tot 4 maanden en de plicht om tot het einde van het verbod stil te staan. Voor een wagenpark dat op een vaste leveringsdag verwacht wordt, is dat geen detail. Aan de Franse kant volgt het volgende verbod: van zaterdag 22 uur tot zondag 22 uur. Een vertrek op vrijdag eindigt dus makkelijk in een weekend in de wacht."
+     ]
+    },
+    {
+     "heading": "Aankomst in Namen en de provincie Luxemburg",
+     "body": [
+      "De regio die het dichtst bij Italië ligt, is Namen met de provincie Luxemburg. Het is de doorgangsroute van en naar Zwitserland en Italië, met de E411 bij Sterpenich en de N4 bij Martelange naar het Groothertogdom. De provincie is de grootste en dunst bevolkte van België. Dat betekent langere afstanden tussen afrit en afleveradres dan elders in het land.",
+      "Het inwonersaantal groeit sinds 1980 vooral door grensarbeiders die in Luxemburg werken, en veel inwoners van Aarlen werken in de Luxemburgse financiële sector. Vraag dus vooraf of de aflevering op een bedrijfsterrein of aan een woonadres plaatsvindt, en wie de wagens in ontvangst neemt. Namen zelf is de hoofdstad van Wallonië en zetel van de Waalse regering."
+     ]
+    },
+    {
+     "heading": "Belgische regels voor wie voertuigen inschrijft",
+     "body": [
+      "Een onderneming kan in België alleen een voertuig inschrijven als ze in de Kruispuntbank van Ondernemingen staat en een vaste vestiging in België heeft waar het voertuig wordt beheerd of gebruikt. Niet-EU-werknemers die voor een buitenlandse firma een opdracht uitvoeren, kunnen een tijdelijke W-plaat krijgen. EU-maatschappijen kunnen er ook een aanvragen, met een officieel attest van hun vestiging in het buitenland.",
+      "Voor de technische keuring geldt in Vlaanderen: een personenwagen gaat voor het eerst na 4 jaar en nadien om de 2 jaar. Bestelwagens en lichte vrachtwagens schakelen over naar hetzelfde ritme. Lichte vrachtwagens van categorie N1 met koetswerkcode BC vallen onder de kilometerheffing, ook als ze niet meer dan 3,5 ton wegen. Mcars vervoert de wagens, de inschrijving blijft een zaak van de ontvanger."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Athus aan het drielandenpunt",
+     "body": "Athus, een deelgemeente van Aubange, ligt aan de grens met Frankrijk en Luxemburg, bij het drielandenpunt en vlak bij de A28. Het is een herkenbaar adres voor wagens die vanuit Frankrijk of Luxemburg Wallonië binnenkomen. Geef bij een aflevering daar het exacte straatadres door, want de grens loopt dwars door de streek."
+    },
+    {
+     "kind": "regel",
+     "title": "Snelheidslimieten voor vrachtwagens in Italië",
+     "body": "Voor vrachtwagens boven 12 ton geldt 70 km/u buiten de bebouwde kom en 80 km/u op de autosnelweg. Tussen 3,5 en 12 ton zijn dat 80 en 100 km/u. Voor beroepschauffeurs geldt een alcohollimiet van nul. Wie de ritduur inschat, rekent dus met trage vrachtsnelheden, zeker in de bergen."
+    },
+    {
+     "kind": "regel",
+     "title": "Vrachtbrief bewaren",
+     "body": "De vervoerder moet zijn exemplaar van de vrachtbrief minstens 5 jaar chronologisch bewaren, het btw-wetboek maakt er 7 jaar van. Digitaal bewaren mag als inzage en volledige afdruk mogelijk blijven. Bij Mcars krijgt u bij ophaling een CMR-vrachtbrief, zodat u uw eigen exemplaar kunt archiveren."
+    },
+    {
+     "kind": "tip",
+     "title": "Nummerplaten met spoed",
+     "body": "Voor bepaalde platen en documenten biedt de DIV via bpost een spoedlevering op dezelfde dag, als de aanvraag vóór 13 uur is verwerkt. Zaterdagen, zondagen en feestdagen tellen niet als werkdag. Wie een wagenpark op vrijdagnamiddag laat aankomen, wacht dus tot maandag op platen."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is de Mont Blanc- of de Fréjustunnel beter voor een autotransport naar België?",
+     "a": "Dat hangt af van waar de wagens staan. Vanuit Turijn ligt Fréjus voor de hand via de A32, vanuit de Aostavallei is de Mont Blanc-tunnel dichterbij. Beide tunnels beperken het tempo en de doorstroom, dus de keuze volgt uit het ophaaladres."
+    },
+    {
+     "q": "Moet een Italiaans bedrijf zijn wagens in België inschrijven?",
+     "a": "Een onderneming kan in België enkel inschrijven als ze in de Kruispuntbank van Ondernemingen staat en een vaste vestiging heeft waar het voertuig wordt beheerd. Voor tijdelijke opdrachten bestaat de W-plaat, aan te vragen met een officieel attest."
+    },
+    {
+     "q": "Mag mijn transport op zondag Italië verlaten?",
+     "a": "Niet zonder risico. Het verbod voor voertuigen boven 7,5 ton geldt op zon- en feestdagen, maar buitenlandse voertuigen starten 4 uur later en ritten naar het buitenland mogen 2 tot 4 uur voor het einde vertrekken. Een boete en schorsing liggen op de loer."
+    }
+   ],
+   "seoDescription": "Wagenpark of leasewagens van Italië naar België laten vervoeren: Mont Blanc en Fréjus, rijverbod, en Belgische inschrijvingsregels.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+    "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+    "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/italy",
+    "https://www.timocom.co.uk/truck-driving-bans/france",
+    "https://it.motor1.com/news/793665/salone-auto-torino-2026-date-espositori-biglietti/",
+    "https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/italy/index_en.htm",
+    "https://mobilit.belgium.be/nl/weg/inschrijven/verhuizen-met-uw-voertuig/verhuizen-naar-belgie-met-uw-voertuig",
+    "https://mobilit.belgium.be/nl/weg/inschrijven/tijdelijke-inschrijving-w-plaat",
+    "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/wanneer-naar-de-technische-keuring",
+    "https://www.viapass.be/nl/voor-wie/",
+    "https://nl.wikipedia.org/wiki/Athus",
+    "https://nl.wikipedia.org/wiki/Luxemburg_%28provincie%29",
+    "https://nl.wikipedia.org/wiki/Aarlen",
+    "https://nl.wikipedia.org/wiki/Namen_%28stad%29",
+    "https://mobilit.belgium.be/nl/weg/transport/vrachtbrief/opmaak-gebruik-en-bewaarplicht",
+    "https://mobilit.belgium.be/nl/weg/inschrijven-en-schrappen/kentekenplaat-en-inschrijvingsbewijzen/levering-en-prijs"
+   ]
+  },
+  "italie-nederland": {
+   "lead": "Een Nederlandse leasemaatschappij of een bedrijf in Limburg haalt wagens uit Lombardije: een partij die na haar contract naar de remarketing gaat. De rit van Milaan naar Maastricht of Barneveld loopt over de Alpen, door Zwitserland of Oostenrijk en Duitsland. Elk land heeft zijn eigen rijverbod en tolsysteem, en Nederland heeft zijn zero-emissiezones.",
+   "facts": [
+    {
+     "label": "Vertrekregio",
+     "value": "Lombardije, rond Milaan en de A36"
+    },
+    {
+     "label": "Tolbadge",
+     "value": "K1 Telepass SAT werkt ook in Nederland"
+    },
+    {
+     "label": "Milaan Area B",
+     "value": "Maandag tot vrijdag, 7.30 tot 19.30 uur"
+    },
+    {
+     "label": "Nederlandse APK",
+     "value": "Benzine of elektrisch na 4 jaar, diesel na 3 jaar"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Lombardije: A36 en tolbadges",
+     "body": [
+      "Lombardije kijkt naar Zwitserland en naar de noordelijke Alpenroutes. De A36 Pedemontana Lombarda, 22 km lang, verbindt de A8 bij Cassano Magnago met Lentate sul Seveso en kruist de A9. De weg is bedoeld als verbinding tussen Varese, Como, Bergamo en de luchthavens Malpensa en Orio al Serio.",
+      "Op de A36 werkt de tol zonder slagbomen. Portalen lezen de nummerplaat en wie geen tolbadge heeft, moet binnen 15 dagen na de doorrit zelf betalen. Hetzelfde systeem geldt op de A59, de A60 en een deel van de A33. Voor vrachtwagens bestaan badges die in meerdere landen werken: de K1 Telepass SAT werkt in 19 landen, waaronder Duitsland, Zwitserland, Nederland en België, en Telepass EU boven 3,5 ton dekt onder meer Frankrijk, Spanje, Polen en Oostenrijk."
+     ]
+    },
+    {
+     "heading": "Milaan en Area B",
+     "body": [
+      "Milaan heeft twee zones: Area C in het centrum en Area B, die bijna de hele stad omvat. Area B geldt sinds 25 februari 2019, is veel groter dan Area C en weert de meest vervuilende én grote voertuigen. De toegangsregels gelden van maandag tot vrijdag van 7.30 tot 19.30 uur en niet in het weekend.",
+      "Een volledig geladen autotransporter hoort niet in die zone. Leveren aan de rand van de stad is de verstandige keuze: een dealer, leasemaatschappij of verzamelplek aan de buitenkant ontvangt de wagens, waarna ze zelfstandig verder rijden. Reken ook op de weekendregel: wie op zaterdag laadt, vermijdt de beperking, maar komt dan bij het Italiaanse zondagsverbod uit."
+     ]
+    },
+    {
+     "heading": "Over de Alpen: Brenner of Gotthard",
+     "body": [
+      "Vanuit Lombardije zijn er twee gangbare assen naar het noorden. De Brennerroute loopt via de E45: de A22 in Italië, de A13 in Oostenrijk. De pas ligt op 1.375 meter. De A22 tussen Brenner en Modena is ongeveer 315 km lang, draagt 30.000 tot 40.000 voertuigen per dag, waarvan een derde zwaar verkeer, en heeft maar twee rijstroken per richting, zodat files gewoon zijn.",
+      "De Gotthard-wegtunnel is 16,9 km lang, heeft één buis met één rijstrook per richting, een limiet van 80 km/u en een inhaalverbod. Vanuit Milaan bereikt u hem via Chiasso. Welke as het wordt, hangt af van het tijdstip en van de rijverboden onderweg."
+     ]
+    },
+    {
+     "heading": "Rijverboden en tol in drie landen",
+     "body": [
+      "Zwitserland verbiedt vrachtwagens boven 3,5 ton op zon- en feestdagen de hele dag en elke nacht van 22 tot 5 uur. Er is geen zaterdag- of zomerverbod. Oostenrijk (Brennerroute) kent een verbod op zaterdag van 15 tot 24 uur en op zon- en feestdagen van 0 tot 22 uur voor voertuigen boven 7,5 ton.",
+      "Duitsland rekent Toll Collect aan voor vrachtwagens boven 3,5 ton en verbiedt voertuigen boven 7,5 ton op zondag van 0 tot 22 uur. Voor een autotransporter betekent dit dat u de route zo legt dat de rit nooit op een van die uren in een land vastloopt. Een transport dat vrijdagavond in Milaan vertrekt, komt niet zomaar zondag aan in Maastricht."
+     ]
+    },
+    {
+     "heading": "Aankomst in Limburg en Gelderland",
+     "body": [
+      "Limburg grenst aan België en Duitsland en is de regio die het dichtst bij de Alpenroutes ligt. Maastricht Aachen Airport ligt in Beek, langs de A2. Bij VDL Nedcar in Born rolde de laatste MINI van de band, waarmee de serieproductie van personenauto's in Nederland eindigde. Verder naar het binnenland ligt in Barneveld het Nederlandse veilingcentrum van BCA, het veilinghuis voor ex-lease- en inruilwagens.",
+      "Eind 2025 reden in Nederland ruim 1,3 miljoen leasevoertuigen rond, en een groot deel van de zakelijke leaseauto's is volledig elektrisch. Een wagenpark van 50 of meer voertuigen kan bij de RDW in één keer worden overgeschreven naar een andere rechtspersoon. Voor leasevoertuigen met een verstrekkingsvoorbehoud geldt een aparte overeenkomst."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "ZTL in Italiaanse stadscentra",
+     "body": "In veel Italiaanse stadscentra tellen camera's elke passage van een zone met beperkt verkeer. De boete komt maanden tot bijna een jaar later per post. Hotels in een ZTL kunnen uw plaat registreren en elektrische auto's moeten soms eerst bij de gemeente zijn geregistreerd. Relevant voor lossen in een stadscentrum."
+    },
+    {
+     "kind": "regel",
+     "title": "Zero-emissiezones voor bestelauto's",
+     "body": "Bestelauto's met emissieklasse 5 mogen de Nederlandse zero-emissiezones nog tot een vastgestelde datum in, die met emissieklasse 6 een tijd langer. Een ontheffing vraagt de eigenaar aan bij de RDW, de enige officiële site. De overheid waarschuwt voor websites die geld vragen voor een ontheffing."
+    },
+    {
+     "kind": "regel",
+     "title": "Vrijstelling van bpm voor werknemers",
+     "body": "Wie in Nederland woont en van een buitenlandse werkgever een auto op buitenlands kenteken krijgt, kan een werknemersvrijstelling van bpm aanvragen. De werkgever moet schriftelijk verklaren dat de auto hoofdzakelijk voor werk buiten Nederland is bestemd. Aanvragen moet vóór de eerste rit op de Nederlandse weg."
+    },
+    {
+     "kind": "plek",
+     "title": "BCA in Barneveld",
+     "body": "BCA heeft zijn Nederlandse veilingcentrum op bedrijventerrein Harselaar in Barneveld, in een nieuw gebouwd terrein sinds 2014. Het bedrijf zegt meer dan 500 veilingen per jaar te organiseren, met ongeveer 1.000 voertuigen per week. Plan een levering aan een veiling op een ruim afgesproken tijdstip."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke tolbadge werkt van Italië tot in Nederland?",
+     "a": "De K1 Telepass SAT werkt in 19 landen, waaronder Italië, Zwitserland, Duitsland, Nederland en België. Telepass EU boven 3,5 ton dekt een ander rijtje landen. Zonder badge betaalt u op free-flowtrajecten binnen 15 dagen na de doorrit zelf."
+    },
+    {
+     "q": "Waarom kan ik een wagenpark niet gewoon tot in het centrum van Milaan laten brengen?",
+     "a": "Area B beperkt toegang tot bijna de hele stad op weekdagen van 7.30 tot 19.30 uur en weert de meest vervuilende én grote voertuigen. Een autotransporter wordt daarom aan de rand van de stad ontvangen en de wagens rijden zelfstandig verder."
+    },
+    {
+     "q": "Mogen Italiaanse leasewagens zomaar naar Nederlandse zero-emissiezones?",
+     "a": "Dat hangt af van het type voertuig. Bestelauto's met emissieklasse 5 of 6 hebben een beperkte overgangstermijn. Een ontheffing vraagt u enkel aan bij de RDW. Kijk het actuele overzicht na voor u het wagenpark inzet."
+    }
+   ],
+   "seoDescription": "Wagenpark of leasewagens van Italië naar Nederland laten vervoeren: Lombardije, Brenner of Gotthard, rijverboden en Nederlandse regels.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Autostrada_A36_(Italy)",
+    "https://www.tcs.ch/it/camping-viaggi/informazioni-turistiche/utile-da-sapere/costi-di-viaggio-e-pedaggi/free-flow-pedemontana.php",
+    "https://www.telepass.com/it/truck/pedaggio-e-interoperabilita",
+    "https://en.wikipedia.org/wiki/Milan_Area_C",
+    "https://www.alvolante.it/da_sapere/legge-e-burocrazia/area-b-milano-mappa-limitazioni-e-ingressi-regole-379956",
+    "https://en.wikipedia.org/wiki/Brenner_Pass",
+    "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+    "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+    "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+    "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+    "https://www.toll-collect.de/en/",
+    "https://www.evz.de/en/topics/transport/car/fines-abroad/ztl-italy/",
+    "https://nl.wikipedia.org/wiki/Maastricht_Aachen_Airport",
+    "https://nl.wikipedia.org/wiki/VDL_Nedcar",
+    "https://www.fleetnews.co.uk/news/2014/3/24/bca-expands-in-the-netherlands/49967/",
+    "https://www.bca.com/de/nl/b/About-BCA/",
+    "https://www.vna-lease.nl/",
+    "https://www.rdw.nl/kopen-of-verkopen/veel-kentekenbewijzen-tegelijk-overschrijven",
+    "https://www.opwegnaarzes.nl/bedrijven/buitenlandse-voertuigen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/vrijstelling_bpm__vrijstelling_bpm_werknemer",
+    "https://www.rdw.nl/apk/wanneer-en-hoe-vaak-apk-keuren"
+   ]
+  },
+  "italie-luxemburg": {
+   "lead": "Een wagenpark uit Piemonte op weg naar Luxemburg legt een lange weg af: door Zwitserland of door de Elzas, met winterregels in de bergen en zomerverboden aan de Franse kant. In het Groothertogdom wacht een andere werkelijkheid dan in Italië: het privégebruik van een bedrijfswagen is er een belastbaar voordeel voor de bestuurder, en dat bepaalt hoe leasecontracten worden opgebouwd.",
+   "facts": [
+    {
+     "label": "Piemonte",
+     "value": "76 gemeenten met structurele verkeersbeperkingen"
+    },
+    {
+     "label": "Winterperiode",
+     "value": "Standaard 15 november tot 15 april, enkel waar aangeduid"
+    },
+    {
+     "label": "Gotthard",
+     "value": "Maximaal 150 vrachtwagens per uur de tunnel in"
+    },
+    {
+     "label": "Elzas A35",
+     "value": "Tolvrij van Lauterbourg tot Saint-Louis"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Piemonte: semaforo antismog en winterregels",
+     "body": [
+      "Piemonte kent in 76 gemeenten structurele verkeersbeperkingen en daarbovenop het semaforo antismog. Van 15 september tot 15 april komen er bij niveau oranje of rood tijdelijke rijverboden bij, ook voor oudere diesels. Wie een partij wagens in een Piëmontese stad ophaalt, kijkt dus eerst of de dag van ophaling op rood of oranje staat.",
+      "Winteruitrusting is geen vaste plicht. De standaardperiode loopt van 15 november tot 15 april, maar de verplichting geldt alleen waar de wegbeheerder ze bij ordonnantie oplegt en met borden aangeeft. Winterbanden (M+S), all-seasonbanden of kettingen aan boord voldoen. De rechtsgrond ligt bij artikel 6 van de Codice della Strada: wegbeheerders kunnen bij ordonnantie winterbanden of sneeuwkettingen verplichten."
+     ]
+    },
+    {
+     "heading": "Via Zwitserland: de Gotthard",
+     "body": [
+      "De Gotthard-wegtunnel is ongeveer 16,9 km lang, één buis met één rijstrook per richting, inhaalverbod en 80 km/u. Sinds de brand van 2001 mogen maximaal 150 vrachtwagens per uur binnen. Rond Pasen en in de zomer zijn files aan beide uiteinden gebruikelijk. Een tweede buis is goedgekeurd. Daarna gaat de oude buis dicht voor renovatie.",
+      "Zwitserland verbiedt vrachtwagens boven 3,5 ton op zondag en feestdagen van 0 tot 24 uur en elke dag van 22 tot 5 uur. Een vrachtwagen die op zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder. Uitzonderingsvergunningen bestaan via een kanton. Verder heft Zwitserland de zware-vrachtverkeersheffing (LSVA) op alle wegen voor voertuigen boven 3,5 ton, voor binnen- en buitenlandse voertuigen, met een gewichtsgrens van 40 ton."
+     ]
+    },
+    {
+     "heading": "Via de Elzas: de A35",
+     "body": [
+      "Wie niet door Zwitserland wil, kiest de Franse as langs Bazel. De A35 loopt over zo'n 172 tot 180 km tolvrij van Lauterbourg via Straatsburg, Colmar en Mulhouse naar Saint-Louis aan de Zwitserse grens en gaat daar over in de Zwitserse A3 richting Bazel. Ten noorden van Straatsburg deelt ze ongeveer 9 km met de A4, die naar Metz en Nancy leidt.",
+      "Bij Straatsburg telt de A35 ongeveer 160.000 voertuigen per dag, ongeveer een tiende vrachtwagens, met 70 km/u en regelmatig verzadiging in de spits. Bij Bartenheim zijn er avondfiles van grensarbeiders. Sinds de opening van de A355 is doorgaand vrachtverkeer op de Straatsburgse M35 verboden. De keuze tussen Gotthard en Elzas is een logistieke afweging die u best met de ophaal- en leverdag samen maakt."
+     ]
+    },
+    {
+     "heading": "Zomer en weekend: drie verbodskalenders",
+     "body": [
+      "Italië verbiedt voertuigen boven 7,5 ton buiten de bebouwde kom op zon- en feestdagen: van 9 tot 22 uur in januari tot mei en oktober tot december, van 7 tot 22 uur in juni tot september. In de zomer komen er zaterdagen en enkele vrijdagavonden bij; de kalender verschijnt elk jaar bij ministerieel besluit.",
+      "Frankrijk heeft voor vrachtwagens boven 7,5 ton een weekendverbod en op enkele zomerzaterdagen, van 7 tot 19 uur, een verbod op het hele net. Luxemburg verbiedt transit richting Frankrijk van zaterdag 21.30 uur tot zondag 21.45 uur, ook vóór feestdagen. Dat geldt voor transit richting Frankrijk en Duitsland. Transit richting België en vervoer binnen Luxemburg vallen er niet onder. Een aflevering in het Groothertogdom zelf valt dus niet onder dit verbod."
+     ]
+    },
+    {
+     "heading": "Aankomst in het zuiden van Luxemburg",
+     "body": [
+      "Het zuiden, de Minett rond Esch-sur-Alzette, Dudelange, Bettembourg en Pétange, grenst aan Frankrijk en ligt aan de uitvalsweg naar het zuiden van Europa. Dudelange is de derde stad van het land, met de A3, de A13 en de N31 erlangs en een containerterminal naast het rangeerstation van Bettembourg.",
+      "De intermodale terminal Bettembourg-Dudelange, 33 hectare groot en uitgebaat door CFL terminals, is het hele jaar dag en nacht open. Van daaruit vertrekt een spoorsnelweg voor opleggers naar Le Boulou in Zuid-Frankrijk, een traject van 1.045 km. Leudelange, aan de A4 tussen de hoofdstad en Esch, huisvest de hoofdzetels van verzekeraars LALUX en Foyer en van transportbedrijf Arthur Welter. Mcars vervoert de wagens open, op meerlaagse autotransporters met een lier."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Voordeel in natura bij een bedrijfswagen",
+     "body": "Het privégebruik van een bedrijfswagen, woon-werkverkeer inbegrepen, is in Luxemburg een belastbaar voordeel waarop ook sociale bijdragen verschuldigd zijn, ook voor grensarbeiders. Het forfait is een maandelijks percentage van de nieuwwaarde en hangt af van de CO2-uitstoot; elektrische wagens krijgen het laagste percentage."
+    },
+    {
+     "kind": "regel",
+     "title": "Rittenboek, eigen bijdrage en overname",
+     "body": "Alternatief voor het forfait is het rittenboek: de werknemer noteert de beroepskilometers en het voordeel wordt berekend op de privékilometers. Een vaste eigen bijdrage in de leasekost mag worden afgetrokken, tot 20 procent. Koopt de werknemer de leasewagen onder de marktwaarde over, dan is het verschil belastbaar."
+    },
+    {
+     "kind": "regel",
+     "title": "Bedrijfswagen over de grens",
+     "body": "Volgens de EU-regels mag een grensarbeider een bedrijfswagen die is ingeschreven in het land waar hij werkt, ook gebruiken in het land waar hij woont, zonder hem daar in te schrijven. Wie in Luxemburg woont en een wagen gebruikt van een onderneming met zetel in een andere EER-lidstaat, hoeft hem er niet in te schrijven."
+    },
+    {
+     "kind": "tip",
+     "title": "Inschrijven in bulk en keuring",
+     "body": "Voor grotere volumes voorziet de SNCA bij het dépôt-en-bloc een apart attest voor leasing of terbeschikkingstelling, zodat inschrijvingen op naam van leasemaatschappijen gebundeld kunnen worden ingediend. Bestelwagens moeten in Luxemburg elk jaar naar de technische keuring, vanaf het begin."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Waarom is een Italiaanse leasewagen in Luxemburg fiscaal anders?",
+     "a": "Omdat het privégebruik van een bedrijfswagen in Luxemburg een belastbaar voordeel in natura is, ook voor woon-werkverkeer. Het forfait hangt af van de nieuwwaarde, de CO2-uitstoot en het motortype, dus de lease moet daarop worden doorgerekend."
+    },
+    {
+     "q": "Kies ik best de Gotthard of de A35 voor een wagenpark?",
+     "a": "Dat is een logistieke afweging. De Gotthard heeft een inhaalverbod, 80 km/u en een beperking tot 150 vrachtwagens per uur, met files rond Pasen en in de zomer. De A35 in de Elzas is tolvrij maar zeer druk rond Straatsburg."
+    },
+    {
+     "q": "Heb ik winterbanden nodig voor een rit door Piemonte in het koude seizoen?",
+     "a": "Alleen waar de wegbeheerder dat bij ordonnantie oplegt en met borden aangeeft. De standaardperiode is 15 november tot 15 april. Winterbanden, all-seasonbanden of kettingen aan boord voldoen."
+    }
+   ],
+   "seoDescription": "Wagenpark of leasewagens van Italië naar Luxemburg laten vervoeren: Piemonte, Gotthard of A35, rijverboden en Luxemburgse bedrijfswagenregels.",
+   "sources": [
+    "https://www.regione.piemonte.it/web/node/17270",
+    "https://www.sicurauto.it/news/cambio-gomme-invernali-2025-2026-quando-e-come-farlo/",
+    "https://aci.gov.it/codice-della-strada/art-6/",
+    "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+    "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+    "https://de.wikipedia.org/wiki/Leistungsabh%C3%A4ngige_Schwerverkehrsabgabe",
+    "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+    "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/italy",
+    "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+    "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+    "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+    "https://blogcfl.lu/?p=23174",
+    "https://fr.wikipedia.org/wiki/Dudelange",
+    "https://fr.wikipedia.org/wiki/Leudelange",
+    "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/voiture-societe-salarie/leasing.html",
+    "https://europa.eu/youreurope/citizens/vehicles/registration/registration-abroad/index_en.htm",
+    "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/vehicule-demenagement-transfrontalier.html",
+    "https://snca.public.lu/fr/professionnels/professionnels-automobile/depot-en-bloc.html",
+    "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/controle-technique-obligatoire-vehicule.html"
+   ]
+  },
+  "italie-frankrijk": {
+   "lead": "In de haven van Savona–Vado Ligure komen nieuwe wagens aan land, in Ligurië en Piemonte staan ex-lease wagens te wachten en de klant zit in Lyon, Marseille of aan de Côte d'Azur. De rit gaat over de Mont Blanc of door de Fréjus, of langs de kust via Ventimiglia. Onderweg gelden Italiaanse en Franse rijverboden, bij aankomst Franse belastingregels voor wagenparken.",
+   "facts": [
+    {
+     "label": "Mont Blanc",
+     "value": "11,6 km tunnel tussen Chamonix en Courmayeur"
+    },
+    {
+     "label": "Fréjus",
+     "value": "12,87 km, E70, tol voor alle verkeer"
+    },
+    {
+     "label": "Ventimiglia",
+     "value": "7 km van de grens, aansluiting op de A10"
+    },
+    {
+     "label": "Franse weekendstop",
+     "value": "Zaterdag 22 uur tot zondag 22 uur"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Ligurië: Savona en Vado",
+     "body": [
+      "In de haven van Savona–Vado Ligure komen nieuwe wagens aan land. Savona Terminal Auto behandelt ro-roverkeer en Vado heeft een ro-rokade van 200 meter met spooraansluiting. Sinds 2022 groeit er het verkeer van nieuwe wagens uit China. Voor wie nieuwe wagens naar een Frans wagenpark of dealer wil laten rijden, is dit dus een logisch ophaalpunt.",
+      "Ventimiglia ligt 7 km van de Frans-Italiaanse grens aan de Ligurische kust en heeft een aansluiting op de A10. Elke vrijdag trekt de wekelijkse straatmarkt Fransen aan, wat veel verkeer geeft. Een ophaling in of rond Ventimiglia plant u dus liever niet op een vrijdagochtend."
+     ]
+    },
+    {
+     "heading": "De Mont Blanc-tunnel en de A40",
+     "body": [
+      "De Mont Blanc-tunnel is 11,611 km lang, open sinds 1965, en verbindt Chamonix met Courmayeur. Hij verkort de rit Frankrijk–Turijn met ongeveer 50 km en Frankrijk–Milaan met ongeveer 100 km. Aan Franse kant is de A40 de Autoroute Blanche: van Mâcon naar Passy, waarna de RN 205 naar Chamonix en de tunnel leidt. ATMB beheert het stuk Bellegarde–Passy.",
+      "Op de A40 liggen tolpunten in Viry, Nangy en Cluses, plus de tol van de tunnel zelf. Enkele stukken zijn gratis, onder meer Passy–Sallanches. De tunnel verkort de rit, maar het tempo wordt in de tunnel bepaald door de regels voor vrachtverkeer: groepen van vijf, 150 meter afstand en 50 tot 70 km/u."
+     ]
+    },
+    {
+     "heading": "De Fréjus-tunnel en de Franse zijde",
+     "body": [
+      "De Fréjus-wegtunnel is 12,87 km lang, loopt onder de Col du Fréjus van Modane naar Bardonecchia en draagt de E70. Hij verwerkt volgens Wikipedia het grootste deel van het zware wegverkeer op deze Alpenroute. Er geldt tol voor alle verkeer.",
+      "In de tunnel geldt 70 km/u en een tussenafstand van 150 meter. Branden in 2005, 2007, 2010 en 2014 hebben telkens tot sluitingen geleid, de ene langer dan de andere. Wie een planning maakt, zet de tunnel dus niet als enige route op papier, maar houdt de Mont Blanc als alternatief achter de hand."
+     ]
+    },
+    {
+     "heading": "Rijverboden aan weerszijden van de grens",
+     "body": [
+      "Italië publiceert elk jaar via het ministerie een kalender met rijverboden voor voertuigen boven 7,5 ton buiten de bebouwde kom, vastgelegd in een decreet. In de zomer geldt het verbod ook op vrijdag en met langere uren. Het algemene principe: geen vrachtwagens boven 7,5 ton op zon- en feestdagen, van juni tot september van 7 tot 22 uur, anders van 9 tot 22 uur.",
+      "Frankrijk heeft een weekendverbod voor vrachtwagens boven 7,5 ton, van zaterdag 22 uur tot zondag 22 uur, plus feestdagen. Daar komen op een aantal zomerzaterdagen verboden van 7 tot 19 uur bij. Italië piekt rond 15 augustus. Beide landen raken ritten naar de Italiaanse kust en terug in de vakantieweken, dus een aflevering in Zuid-Frankrijk midden augustus is weinig realistisch."
+     ]
+    },
+    {
+     "heading": "Aankomst in de Alpen en aan de Côte d'Azur",
+     "body": [
+      "Auvergne-Rhône-Alpes grenst aan Italië via de Alpentunnels. VPauto vermeldt Lyon als veilinglocatie. Grenoble heeft sinds 2017 een beperkte verkeerszone en een zone voor lage emissies voor bestel- en vrachtwagens, Saint-Étienne en Clermont-Ferrand hebben zones die begonnen met bestel- en vrachtwagens zonder Crit'Air-klasse en nadien tot de hele agglomeratie zijn uitgebreid.",
+      "Aan de Côte d'Azur landt men op de luchthaven van Nice, de derde van Frankrijk. Alcopa Auction en VPauto vermelden Marseille als veilinglocatie. Genève is de grootste trekpleister voor Franse grensarbeiders in Zwitserland. Vanuit Haute-Savoie en het Pays de Gex steken dagelijks mensen de grens over naar hun werk."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Jaartaksen op bedrijfswagens",
+     "body": "Vennootschappen betalen in Frankrijk twee jaarlijkse taksen op personenwagens die ze voor hun activiteit gebruiken: één op de CO2-uitstoot en één op de uitstoot van luchtverontreinigende stoffen. Voertuigen die uitsluitend elektrisch of op waterstof rijden, zijn vrijgesteld. Een wagen in lange huur of lease met aankoopoptie geldt als gehouden door de onderneming; kortetermijnhuur tot een maand niet."
+    },
+    {
+     "kind": "regel",
+     "title": "Quota voor elektrische bedrijfswagens",
+     "body": "De Loi d'orientation des mobilités verplicht bedrijven met meer dan 100 lichte voertuigen om bij vernieuwing een minimumaandeel elektrische en plug-in hybride wagens te nemen: 20 procent van 2024 tot 2026, 40 procent van 2027 tot 2029 en 70 procent vanaf 2030. Meer dan 3.700 bedrijven vallen eronder."
+    },
+    {
+     "kind": "regel",
+     "title": "Een Italiaanse wagen in Frankrijk is ook belastbaar",
+     "body": "Ook een wagen die niet in Frankrijk is ingeschreven, kan belastbaar zijn als hij er voor de activiteit van een onderneming wordt gebruikt, dan voor de periode dat hij er effectief is. Het CO2-tarief van de jaartaks stijgt elk jaar tot 2027. Ook pick-ups met minstens vijf zitplaatsen vallen eronder."
+    },
+    {
+     "kind": "plek",
+     "title": "Ayvens en Arval in Rueil-Malmaison",
+     "body": "Ayvens, ontstaan uit de overname van LeasePlan door ALD Automotive, en Arval, de leasemaatschappij van BNP Paribas, hebben hun zetel in Rueil-Malmaison. Ayvens verkoopt voertuigen aan het einde van het contract door, onder meer via het platform Ayvens Carmarket. Zo komen ex-lease wagens in grote partijen op de markt."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke tunnel is sneller: Mont Blanc of Fréjus?",
+     "a": "De Mont Blanc verkort de rit Frankrijk–Turijn met ongeveer 50 km en Frankrijk–Milaan met ongeveer 100 km. De Fréjus verwerkt het merendeel van het zware verkeer en heeft tol voor alle verkeer. De keuze volgt uit uw ophaaladres."
+    },
+    {
+     "q": "Mogen vrachtwagens op zaterdag Frankrijk in?",
+     "a": "Frankrijk heeft een weekendverbod voor vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur, en op een aantal zomerzaterdagen tussen 7 en 19 uur. Reken bij vertrek uit Italië dus met die uren."
+    },
+    {
+     "q": "Is een wagen in lange lease in Frankrijk belastbaar voor mijn bedrijf?",
+     "a": "Een wagen in langdurige huur of in lease met aankoopoptie geldt als gehouden door de onderneming, die dan de twee jaarlijkse taksen betaalt. Kortetermijnhuur tot een maand is vrijgesteld, en volledig elektrische voertuigen eveneens."
+    }
+   ],
+   "seoDescription": "Wagenpark van Italië naar Frankrijk laten vervoeren: Savona, Mont Blanc of Fréjus, rijverboden, Franse bedrijfswagentaksen en ZFE's.",
+   "sources": [
+    "https://www.shippingitaly.it/2026/01/01/a-vado-ligure-un-nuovo-traffico-di-auto-saic/?output=pdf",
+    "https://en.wikipedia.org/wiki/Ventimiglia",
+    "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+    "https://fr.wikipedia.org/wiki/Autoroute_A40_(France)",
+    "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+    "https://mit.gov.it/node/21641",
+    "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+    "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+    "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+    "https://www.vpauto.fr/",
+    "https://www.alcopa-auction.fr/",
+    "https://fr.wikipedia.org/wiki/Zone_%C3%A0_faibles_%C3%A9missions_mobilit%C3%A9",
+    "https://fr.wikipedia.org/wiki/A%C3%A9roport_de_Nice-C%C3%B4te_d%27Azur",
+    "https://fr.wikipedia.org/wiki/Travailleur_frontalier",
+    "https://entreprendre.service-public.gouv.fr/vosdroits/F22203",
+    "https://fr.wikipedia.org/wiki/Loi_d%27orientation_des_mobilit%C3%A9s",
+    "https://fr.wikipedia.org/wiki/Ayvens",
+    "https://fr.wikipedia.org/wiki/Arval"
+   ]
+  },
+  "italie-duitsland": {
+   "lead": "Een leasemaatschappij in Verona of Trento stuurt een partij wagens naar Beieren: bedrijfswagens voor een München-vestiging, nieuwe wagens voor het afleveringscentrum van een Duits merk. De rit gaat over de A22 naar de Brenner, door Tirol en over de A93 naar de Duitse grens. Elk traject heeft zijn eigen verbodskalender en zijn eigen files.",
+   "facts": [
+    {
+     "label": "A22",
+     "value": "313 km van Modena tot de Brennergrens"
+    },
+    {
+     "label": "Zwaar verkeer",
+     "value": "Ongeveer een derde van het verkeer op de A22"
+    },
+    {
+     "label": "Duitse tol",
+     "value": "Toll Collect boven 3,5 ton, op Autobahnen"
+    },
+    {
+     "label": "Duits zondagsverbod",
+     "value": "Boven 7,5 ton, van 0 tot 22 uur"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Trentino-Zuid-Tirol",
+     "body": [
+      "De A22 Autostrada del Brennero is 313 km lang, loopt van de A1 bij Modena tot de Brennergrens en kruist de A4 bij Verona. Ongeveer een derde van het verkeer is zwaar verkeer. Beheerder is Autostrada del Brennero S.p.A. Met slechts twee rijstroken per richting zijn files gebruikelijk en kop-staartbotsingen komen voor.",
+      "In Zuid-Tirol (Alto Adige) geldt naast de nationale feestdagen pinkstermaandag als plaatselijke feestdag. Een ophaling in Bolzano of Brixen die op pinkstermaandag valt, loopt dus geen gewone werkdag. Interbrennero, de interporto van Trento, ligt vlak bij de A22 en heeft een spoorterminal en een douanesectie."
+     ]
+    },
+    {
+     "heading": "De Brenner en de grens",
+     "body": [
+      "De Brennerpas ligt op 1.375 meter en de snelweg draagt het nummer E45: A22 in Italië, A13 in Oostenrijk. Sinds Schengen (1997) zijn er geen vaste grenscontroles meer. Oostenrijk voerde in 2015 wel opnieuw controles in. Een Brenner-basistunnel voor het spoor moet vracht van de weg halen, maar de opening is verschoven naar een later jaartal.",
+      "De Brenner blijft dus nog een wegroute. Wie wagens naar Beieren laat rijden, houdt rekening met mogelijke controles aan de grens en met de drukte van het zware verkeer op de A22."
+     ]
+    },
+    {
+     "heading": "Kufstein en de blokafhandeling",
+     "body": [
+      "In Oostenrijk loopt de A13 naar Innsbruck en de A12, de Inntalautobahn, ongeveer 153 km lang, begint als voortzetting van de Duitse A93 bij Kiefersfelden en Kufstein. Voor voertuigen boven 7,5 ton geldt bij Kufstein-Nord zuidwaarts een blokafhandeling van maximaal 250 vrachtwagens per uur, dan blijft één rijstrook over en staan files tot op de A8 München–Salzburg.",
+      "Die regeling geldt naar het zuiden, tegen uw rijrichting in. Wie heen en terug combineert, voor het retourvervoer naar Italië, plant de terugrit liever buiten de dosering. In Beieren geldt bij blokafhandeling een doorgangsverbod voor vrachtwagens richting Oostenrijk in plaatsen langs de A8 en A93, om sluipverkeer te vermijden. Tirol kent bovendien een sectoraal rijverbod voor bepaalde goederen op de A12."
+     ]
+    },
+    {
+     "heading": "Verboden en tol in Italië, Oostenrijk en Duitsland",
+     "body": [
+      "Italië verbiedt voertuigen boven 7,5 ton op zondagen van 9 tot 22 uur, in de zomer van 7 tot 22 uur, met extra vrijdagen en zaterdagen. Voor een voertuig uit het buitenland met bewijs van herkomst en bestemming begint het verbod vier uur later, en richting buitenland eindigt het twee uur eerder. Oostenrijk verbiedt op zaterdag vanaf 15 uur tot zondag 22 uur.",
+      "Duitsland rekent Toll Collect aan voor vrachtwagens boven 3,5 ton op Autobahnen en Bundesstraßen, met een CO2-component. Het zondagsverbod loopt van 0 tot 22 uur voor voertuigen boven 7,5 ton. Een transport naar München moet dus in elk land binnen de toegelaten uren blijven. Geef bij de offerteaanvraag de gewenste leverdag door, zodat de route daarop wordt afgestemd."
+     ]
+    },
+    {
+     "heading": "Aankomst in Beieren",
+     "body": [
+      "Beieren is de regio die het dichtst bij Italië ligt, met de A8 naar Salzburg, de A93 naar Kufstein en de Brenner. In München ligt BMW Welt, naast het BMW Museum en het Olympiapark, tegelijk tentoonstelling en afleveringscentrum voor nieuwe wagens. Audi Forum Ingolstadt heeft een Kundencenter waar kopers dagelijks nieuwe Audi's afhalen. De IAA Mobility vindt sinds 2021 om de twee jaar in september plaats in München.",
+      "BLG Logistics heeft een autoterminal in Kelheim aan de Donau, met sinds 2023 een vaste autotrein naar Turkije. Op de A8 tussen Aichelberg en Hohenstadt overwint de Albaufstieg ongeveer 380 hoogtemeters met tot 6,3 procent helling. Bergaf geldt 50 km/u voor vrachtwagens."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Interporto di Trento",
+     "body": "Interbrennero ligt in Trento Nord op ongeveer 200 meter van de A22-afrit, beslaat 100 hectare en heeft een spoorterminal met RoLa, vrachtwagens op de trein, en een douanesectie. Een verzamelplek voor een wagenpark dat uit verschillende Noord-Italiaanse locaties komt."
+    },
+    {
+     "kind": "tip",
+     "title": "Duitse leasewagen mee naar het buitenland",
+     "body": "Een Duitse leasewagen meenemen bij een verhuizing naar het buitenland is vaak contractueel verboden. Omschrijven is ook praktisch moeilijk, omdat de Zulassungsbescheinigung Teil II meestal bij de leasemaatschappij blijft. Vraag de verhuurder toestemming vóór u een rit boekt."
+    },
+    {
+     "kind": "regel",
+     "title": "De 1 procent-regeling",
+     "body": "Privégebruik van een Duitse bedrijfswagen wordt belast via de 1-procentregeling: per maand telt 1 procent van de bruto-catalogusprijs bij eerste inschrijving als voordeel, met een toeslag van 0,03 procent per kilometer woon-werkafstand. Het alternatief is een sluitend Fahrtenbuch, een rittenboek."
+    },
+    {
+     "kind": "regel",
+     "title": "Elektrisch, buitenlandse plaat en grote aanvragers",
+     "body": "Zuiver elektrische voertuigen hebben een tijdelijke vrijstelling van Kfz-Steuer, daarna een halvering. Een buitenlands ingeschreven voertuig mag een jaar tijdelijk in Duitsland rijden, bij uitoefening van EU-vrijheden nooit langer dan drie jaar. Grote aanvragers kunnen zich als Großkunde laten registreren voor internetinschrijving."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Waarom is een rit van Italië naar München niet gewoon in één keer te rijden?",
+     "a": "Omdat de rijverboden niet overeenkomen. Italië, Oostenrijk en Duitsland hebben elk andere uren, en buitenlandse voertuigen starten het Italiaanse verbod vier uur later. De vertrek- en aankomsttijd worden dus samen met de kalender gekozen."
+    },
+    {
+     "q": "Treft de blokafhandeling bij Kufstein mijn transport naar Duitsland?",
+     "a": "De dosering geldt voor vrachtwagens boven 7,5 ton die zuidwaarts bij Kufstein-Nord naar Italië rijden. Op de heenrit naar Duitsland rijdt u de andere kant op, maar op de terugrit speelt ze wel."
+    },
+    {
+     "q": "Mag ik een Duitse leasewagen zomaar in Italië of Oostenrijk inzetten?",
+     "a": "Dat staat in uw leasecontract. Een Duitse leasewagen meenemen naar het buitenland is vaak contractueel verboden. De Zulassungsbescheinigung Teil II blijft meestal bij de leasemaatschappij, wat omschrijven bemoeilijkt."
+    }
+   ],
+   "seoDescription": "Wagenpark van Italië naar Duitsland laten vervoeren: A22 en Brenner, Kufstein, rijverboden en Duitse bedrijfswagenregels in Beieren.",
+   "sources": [
+    "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+    "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+    "https://en.wikipedia.org/wiki/Brenner_Pass",
+    "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+    "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+    "https://it.wikipedia.org/wiki/Festività_in_Italia",
+    "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+    "https://it.wikipedia.org/wiki/Interporto_di_Trento",
+    "https://de.wikipedia.org/wiki/BMW_Welt",
+    "https://de.wikipedia.org/wiki/Audi_Forum_Ingolstadt",
+    "https://de.wikipedia.org/wiki/Internationale_Automobil-Ausstellung",
+    "https://de.wikipedia.org/wiki/BLG_Logistics_Group",
+    "https://de.wikipedia.org/wiki/Albaufstieg_(A_8)",
+    "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+    "https://de.wikipedia.org/wiki/Firmenwagen",
+    "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/Steuerverguenstigungen/steuerverguenstigungen_node.html",
+    "https://www.buzer.de/s1.htm?a=46&g=FZV&dorg=1",
+    "https://www.buzer.de/s1.htm?g=FZV+2023&f=1"
+   ]
+  },
+  "italie-spanje": {
+   "lead": "In Atessa, in Abruzzo, bouwt Stellantis bestelwagens die in heel Europa in wagenparken terechtkomen. Wie zulke wagens, of een partij leasewagens uit Lazio, naar Barcelona of Tarragona laat rijden, volgt de Ligurische kust, de Franse Middellandse Zeekust en de AP-7. Onderweg liggen dure tolwegen, tunnels en twee landen met eigen rijverboden.",
+   "facts": [
+    {
+     "label": "A10",
+     "value": "158 km, 78 tunnels tussen Genua en Nice"
+    },
+    {
+     "label": "AP-7",
+     "value": "1.007 km langs de Spaanse Middellandse Zeekust"
+    },
+    {
+     "label": "Atessa",
+     "value": "Stellantis-bestelwagens, capaciteit 250.000 per jaar"
+    },
+    {
+     "label": "Hesje",
+     "value": "Verplicht om bij pech uit te stappen buiten de bebouwde kom"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Lazio en Abruzzo",
+     "body": [
+      "Lazio en Abruzzo liggen rond Rome. Rome-Fiumicino ligt ongeveer 30 km van de stad en is de drukste luchthaven van Italië, Ciampino bedient nog lowcost- en chartervluchten. Het ACI Vallelunga Circuit in Campagnano di Roma, ongeveer 32 km ten noorden van Rome, is sinds 1967 eigendom van ACI en organiseert naast races ook rijveiligheidscursussen.",
+      "In Atessa bouwt Stellantis in de fabriek Sevel Sud bestelwagens als de Fiat Ducato, Peugeot Boxer, Citroën Jumper en Opel Movano, met een capaciteit van 250.000 per jaar. Veel van die bestelwagens worden later aan bedrijven verhuurd of verleaset. Civitavecchia heeft veerlijnen naar Barcelona, Sardinië en Sicilië. Of die verbinding voor uw partij een optie is, hangt af van de rederij."
+     ]
+    },
+    {
+     "heading": "Langs de Ligurische kust: A10",
+     "body": [
+      "De Italiaanse A10, de Autostrada dei Fiori, loopt over 158 km tussen Genua en Nice, met 78 tunnels, en behoort tot de duurste tolwegen van Italië. Op het stuk tussen Albisola en Genua-Voltri geldt 80 km/u.",
+      "Bij Genua stortte op 14 augustus 2018 een deel van de Morandibrug in. Dat herinnert eraan hoeveel druk er op deze kustweg staat. Voor een autotransporter, die geen snelle bochten neemt, betekent het kustparcours vooral een trage, geconcentreerde rit. Laat bij uw vraag weten tot welke dag de wagens in Spanje moeten zijn, zodat een eventuele dag extra in de planning zit."
+     ]
+    },
+    {
+     "heading": "Door Zuid-Frankrijk: A8 en A9",
+     "body": [
+      "Aan de grens bij Menton wordt de Italiaanse A10 de Franse A8, La Provençale. Die is 224 km lang en loopt van Aix-en-Provence langs Fréjus, Cannes, Nice en Monaco naar Menton. De A8 heeft tolpleinen onder meer bij La Barque, Antibes, Nice-Saint-Isidore en La Turbie. Bij Orange sluit de A8 aan op de A7 en de A9.",
+      "De A9 is 280,5 km lang, hoort bij de E15 en is een tolweg van Autoroutes du Sud de la France (ASF, Vinci Autoroutes). Ze loopt langs Nîmes, Montpellier, Béziers, Narbonne en Perpignan naar de Col du Perthus. In Frankrijk geldt voor vrachtwagens boven 7,5 ton een verbod van zaterdag 22 uur tot zondag 22 uur, in vakantieperiodes uitgebreid."
+     ]
+    },
+    {
+     "heading": "Spanje: AP-7 en Catalonië",
+     "body": [
+      "Aan de Franse grens bij La Jonquera gaat de A9 over in de Spaanse AP-7, die over 1.007 km langs de Middellandse Zeekust loopt. De Catalaanse stukken tussen La Jonquera en Salou zijn tolvrij sinds de concessie afliep. Spanje heeft voor vrachtwagens boven 7.500 kg beperkingen op bepaalde wegen en data, onder meer op de N-230 richting de Franse grens op vrijdagavonden in de winter.",
+      "De Spaanse rentingvloot, de operationele lease, telt ruim een miljoen voertuigen en groeit nog. Daaronder zijn grote bedrijven goed voor het grootste deel. Voor een Italiaanse partij die in Spanje in dienst komt, is een afstemming met de lokale renting- of leasemaatschappij dus zinvol. Mcars vervoert de wagens op open, meerlaagse autotransporters; het inschrijven blijft een zaak van de ontvanger."
+     ]
+    },
+    {
+     "heading": "Uitrusting en alarm voor wie zelf aan het stuur zit",
+     "body": [
+      "Als chauffeurs of fleetbeheerders zelf een stuk meerijden, helpt het de Italiaanse basisregels te kennen. Een personenwagen heeft een gevarendriehoek en een reflecterend hesje aan boord, en dimlichten of dagrijlichten zijn ook overdag verplicht. Buiten de bebouwde kom mag een bestuurder bij pech niet uitstappen en op de weg lopen zonder reflecterend hesje of reflecterende banden, ook niet op de pechstrook.",
+      "De gevarendriehoek staat buiten de bebouwde kom minstens 50 meter achter het voertuig. Het alarmnummer 112 werkt in twee trappen: een centrale neemt op, lokaliseert de beller en schakelt door naar politie, carabinieri, brandweer of ambulance. In enkele regio's blijven 113, 115 en 118 daarnaast in gebruik."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Haven van Barcelona",
+     "body": "Volgens Wikipedia is Barcelona de grootste autohaven van de Middellandse Zee, met twee gespecialiseerde terminals aan de Dársena Sur. Ferry's varen er naar Palma, Ibiza, Formentera en Menorca. Een partij voor Barcelona wordt best in overleg met de terminal op een vast tijdstip afgeleverd."
+    },
+    {
+     "kind": "plek",
+     "title": "Haven van Tarragona",
+     "body": "In Tarragona behandelen drie terminals voertuigen, met stockage voor 47.000 voertuigen. Meer dan 40 procent van de wagens komt of vertrekt per spoor, vooral import uit het Verre Oosten en export naar het Middellandse Zeegebied. De haven kreeg van ANFAC al meermaals de beste score voor voertuiglogistiek."
+    },
+    {
+     "kind": "regel",
+     "title": "Huurder melden bij de DGT",
+     "body": "Rentingbedrijven kunnen bij de DGT online de huurder van elk voertuig melden, zodat boetes en meldingen naar de werkelijke gebruiker gaan. Dat is bedoeld voor voertuigen die meer dan 30 dagen na elkaar bij dezelfde gebruiker zijn. Grote vloten kunnen ook de gewone bestuurder per voertuig registreren."
+    },
+    {
+     "kind": "regel",
+     "title": "Formentera: toelating voor voertuigen",
+     "body": "Wie van 1 juni tot 30 september met een voertuig op Formentera wil rijden, heeft een toelating nodig, aangevraagd via formentera.eco. De regeling steunt op de Balearische wet 7/2019. Voor een bedrijfswagen op het eiland is dat een reden om vroeg te beginnen."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is de Ligurische kustroute een betrouwbare keuze voor een wagenpark naar Spanje?",
+     "a": "Ze is druk en bevat veel tunnels. De A10 heeft 78 tunnels tussen Genua en Nice en een snelheidsbeperking van 80 km/u tussen Albisola en Genua-Voltri. Reken op een trage rit en neem een marge in de planning op."
+    },
+    {
+     "q": "Betaal ik tol op de weg door Zuid-Frankrijk en Spanje?",
+     "a": "In Frankrijk wel: de A8 en de A9 zijn tolwegen met tolpleinen. In Spanje zijn de Catalaanse stukken van de AP-7 tussen La Jonquera en Salou tolvrij. Verder zuidwaarts blijft op sommige stukken tol bestaan."
+    },
+    {
+     "q": "Wat moet een chauffeur bij pech in Italië dragen?",
+     "a": "Een reflecterend hesje of reflecterende banden zijn verplicht om buiten de bebouwde kom op de weg te lopen. De gevarendriehoek staat minstens 50 meter achter het voertuig. Bel 112 voor hulp."
+    }
+   ],
+   "seoDescription": "Wagenpark van Italië naar Spanje laten vervoeren: Atessa en Lazio, A10-tunnels, Franse A8 en A9, de AP-7 en de havens van Catalonië.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rome_Fiumicino_Airport",
+    "https://en.wikipedia.org/wiki/ACI_Vallelunga_Circuit",
+    "https://en.wikipedia.org/wiki/Sevel_Sud",
+    "https://en.wikipedia.org/wiki/Port_of_Civitavecchia",
+    "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+    "https://en.wikipedia.org/wiki/Autoroute_A9",
+    "https://en.wikipedia.org/wiki/A8_autoroute",
+    "https://en.wikipedia.org/wiki/Autopista_AP-7",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+    "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+    "https://ae-renting.es/prensa-noticias/notas-de-prensa/el-renting-crece-un-8-en-parque-y-un-9-en-clientes-hasta-septiembre/",
+    "https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/italy/index_en.htm",
+    "https://aci.gov.it/codice-della-strada/art-162/",
+    "https://www.poliziadistato.it/articolo/22479",
+    "https://it.wikipedia.org/wiki/Numero_unico_di_emergenza_112",
+    "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+    "https://www.porttarragona.cat/es/servicio-negocio/negocio/traficos/vehiculos",
+    "https://www.dgt.es/nuestros-servicios/para-colaboradores-y-empresas/alquiler-renting-y-grandes-flotas-/",
+    "https://www.formentera.eco/"
+   ]
+  },
+  "italie-zwitserland": {
+   "lead": "Een leasemaatschappij in Milaan of Como brengt een partij wagens naar Ticino, Zürich of Luzern: de rit is kort, maar de grens is een douanegrens. Zwitserland ligt buiten de EU, en wie er een bedrijfswagen binnenbrengt, heeft te maken met invoerbelastingen, vergunningen en een apart vignet voor het wagenpark.",
+   "facts": [
+    {
+     "label": "Grens",
+     "value": "Chiasso, A9 wordt de Zwitserse A2"
+    },
+    {
+     "label": "Nachtverbod",
+     "value": "Boven 3,5 ton, elke dag van 22 tot 5 uur"
+    },
+    {
+     "label": "Douanevergunning",
+     "value": "15.30 voor een bedrijfswagen van een buitenlandse werkgever"
+    },
+    {
+     "label": "E-vignet",
+     "value": "Gebonden aan de nummerplaat, in bulk te kopen"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Lombardije",
+     "body": [
+      "Lombardije grenst aan Zwitserland via Chiasso/Brogeda, de Gotthard- en San Bernardino-routes, Splügen en Livigno. Milaan-Malpensa ligt in de provincie Varese, ongeveer 49 km ten noordwesten van Milaan. Het is de tweede drukste luchthaven van Italië en de grootste voor vracht, dus een logisch punt voor wagens van wie vliegt en zijn bedrijfswagen laat volgen.",
+      "Het circuit van Franciacorta in Castrezzato (provincie Brescia) is sinds 2019 eigendom van Porsche en heet sinds 2021 Porsche Experience Center Franciacorta. Voor elektrische wagens geldt de bollo-vrijstelling: volledig elektrische wagens zijn vijf jaar vrijgesteld van wegenbelasting en Lombardije en Piemonte stellen ze volgens de bron blijvend vrij. Boven 185 kW komt er een toeslag bij."
+     ]
+    },
+    {
+     "heading": "Over de grens bij Chiasso",
+     "body": [
+      "In Chiasso gaat de Zwitserse A2 over in de Italiaanse A9 richting Como en Milaan. Chiasso is de zuidelijkste gemeente van Zwitserland en leeft van transit, douane en expeditiebedrijven.",
+      "Verder noordwaarts is de Monte Ceneri (554 meter) de enige verbinding binnen Zwitserland tussen Noord- en Zuid-Ticino; de A2 loopt er sinds 1984 over. De A13 loopt ongeveer 195 km van St. Margrethen via Chur en de San Bernardino naar Bellinzona en Ascona en sluit daar aan op de A2. Reken bij de planning dus op meer dan één mogelijke aanrijroute naar Ticino."
+     ]
+    },
+    {
+     "heading": "Passen en tunnels in Zwitserland",
+     "body": [
+      "De Gotthard-tunnel was in september 2023 drie dagen dicht door een scheur in het plafond. Een tweede buis is in 2016 bij referendum goedgekeurd. De San Bernardino-tunnel (klaar in 1967) tussen Thusis en Bellinzona is het alternatief voor de Gotthard; de pasweg is alleen van mei tot november open.",
+      "De Grote Sint-Bernhardtunnel (5.798 m) verbindt Martigny in Wallis met Aosta, met een limiet van 80 km/u en tolklassen volgens aantal assen en hoogte. De pas zelf is gewoonlijk van oktober tot mei dicht, de tunnel moet het hele jaar open zijn. De douaneformaliteiten gebeuren aan Zwitserse kant. De Simplonpas (2.006 m) verbindt Brig met Domodossola en wordt het hele jaar open gehouden."
+     ]
+    },
+    {
+     "heading": "Verbod en douane aan de grens",
+     "body": [
+      "Zwitserland verbiedt zondag en 's nachts (22 tot 5 uur) voertuigen boven 3,5 ton, opleggertrekkers boven 5 ton en voertuigen met aanhangwagen boven 3,5 ton. Uitzonderingen verlopen via het kanton van binnenkomst. Een vrachtwagen die te laat aan de grens staat, wacht dus tot de volgende ochtend.",
+      "Een wagen uit Italië moet aan de grens worden aangegeven bij de douane (BAZG). Invoer uit de EU kan met een oorsprongsdocument douanevrij zijn, maar automobielbelasting en btw komen daarbovenop. Wie de regels niet volgt, betaalt de invoerbelastingen en riskeert een douanestrafprocedure. Mcars vervoert; de aangifte en het papierwerk blijven bij de klant of een douane-expediteur."
+     ]
+    },
+    {
+     "heading": "Zwitserse regels voor bedrijfswagens",
+     "body": [
+      "Een inwoner van Zwitserland die een bedrijfswagen van een buitenlandse werkgever krijgt, moet vóór de eerste binnenkomst een douanevergunning 15.30 aanvragen. De wagen mag dan alleen voor dienstritten en woon-werkverkeer dienen, niet voor privéritten. Bedrijven met zetel in Zwitserland mogen in principe geen niet-ingeklaarde voertuigen gebruiken. Een tijdelijke aangifte voor twaalf grensoverschrijdende ritten per jaar, met een waarborg, is de belangrijkste uitzondering.",
+      "Het plaatnummer wordt toegekend aan de houder, niet aan het voertuig, en de platen blijven eigendom van het kanton. Leasing verandert niets aan de douanebehandeling, maar kan wel gevolgen hebben voor de Zwitserse inschrijving. De douane verwijst daarvoor naar het kantonale Strassenverkehrsamt."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Galliker in Altishofen",
+     "body": "In Altishofen (kanton Luzern) ligt het hoofdkwartier van Galliker, met overdekte stalling voor 6.000 voertuigen in twee parkeergebouwen. Van daaruit worden elke dag nieuwe wagens van meer dan 20 merken naar dealers in heel Zwitserland gebracht. Sinds 2024 staat er een laadterminal voor elektrische autotransporters."
+    },
+    {
+     "kind": "tip",
+     "title": "E-vignet voor een wagenpark",
+     "body": "Voor een wagenpark kunnen e-vignetten in één keer worden gekocht via het Via-portaal, met een CSV-lijst van voertuigtype, land en nummerplaat. Met de optie Öffentlich einsehbar kan iedereen nagaan of een plaat een geldig e-vignet heeft, handig voor pool- en huurwagens."
+    },
+    {
+     "kind": "regel",
+     "title": "Huurwagen en Vormerkschein 15.25",
+     "body": "Een huurwagen van een officieel buitenlands verhuurbedrijf mag een inwoner van Zwitserland alleen met een Vormerkschein 15.25 binnenbrengen. Binnen acht dagen na het begin van de huur moet de wagen weer het land uit of bij een Zwitserse verhuurder zijn ingeleverd."
+    },
+    {
+     "kind": "plek",
+     "title": "Carauktion in Altendorf",
+     "body": "Carauktion AG, een online veilingplatform voor wagens met twee veilingformules en een afdeling voor vlootbeheerders, heeft zijn zetel in Altendorf (kanton Schwyz). Het is geassocieerd lid van het Zwitserse leasingverbond. Een veiling kan een afhaal- en leveradres in Centraal-Zwitserland opleveren."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Waarom is een rit naar Zwitserland anders dan naar een EU-land?",
+     "a": "Zwitserland ligt buiten de EU. De wagen moet aan de grens bij de douane worden aangegeven, en automobielbelasting en btw komen bovenop de invoer. Dat regelt de klant of een douane-expediteur."
+    },
+    {
+     "q": "Mag een Zwitsers bedrijf zomaar met een niet-ingeklaarde wagen rijden?",
+     "a": "In principe niet. Bedrijven met zetel in Zwitserland mogen geen niet-ingeklaarde voertuigen gebruiken, met als belangrijkste uitzondering een tijdelijke aangifte voor twaalf grensoverschrijdende ritten per jaar, met een waarborg."
+    },
+    {
+     "q": "Is de Gotthard het enige alternatief om Ticino te bereiken?",
+     "a": "Nee. De San Bernardino-tunnel is het alternatief, de Grote Sint-Bernhardtunnel verbindt Wallis met Aosta en de Simplonpas is het hele jaar open. Elke route heeft eigen beperkingen en tolklassen."
+    }
+   ],
+   "seoDescription": "Wagenpark van Italië naar Zwitserland laten vervoeren: Chiasso, Gotthard en passen, douane, e-vignet en regels voor bedrijfswagens.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Milan_Malpensa_Airport",
+    "https://en.wikipedia.org/wiki/Autodromo_di_Franciacorta",
+    "https://it.wikipedia.org/wiki/Tassa_automobilistica",
+    "https://de.wikipedia.org/wiki/Chiasso",
+    "https://de.wikipedia.org/wiki/Monte_Ceneri",
+    "https://de.wikipedia.org/wiki/Autobahn_A13_(Schweiz)",
+    "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+    "https://en.wikipedia.org/wiki/San_Bernardino_Pass",
+    "https://en.wikipedia.org/wiki/Great_St_Bernard_Tunnel",
+    "https://en.wikipedia.org/wiki/Simplon_Pass",
+    "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+    "https://www.nau.ch/tech/import-von-autos-in-die-schweiz-66946610",
+    "https://www.bazg.admin.ch/de/unverzollte-fahrzeuge-nutzung-schweiz-regeln",
+    "https://www.bazg.admin.ch/de/einfuhr-schweiz-strassenfahrzeuge-firmen",
+    "https://de.wikipedia.org/wiki/Kontrollschild_(Schweiz)",
+    "https://www.bazg.admin.ch/de/faq-umzugsgut",
+    "https://www.galliker.com/en/locations/headquarters-altishofen",
+    "https://www.galliker.com/en/over-galliker/news-stories/e-power-terminal-in-altishofen-goes-into-operation",
+    "https://www.bazg.admin.ch/de/e-vignette-fuer-firmen",
+    "https://www.carauktion.ch"
+   ]
+  },
+  "italie-oostenrijk": {
+   "lead": "Een leasemaatschappij in Udine of Verona stuurt een partij wagens naar Tirol of Karinthië: bedrijfswagens voor een vestiging in Innsbruck of Villach. De rit gaat over de Brenner of over Tarvisio, door Oostenrijkse verbodskalenders en tolklassen. Bij aankomst wacht een eigen leasefiscaliteit, de NoVA, die ook voor buitenlandse leasemaatschappijen geldt.",
+   "facts": [
+    {
+     "label": "A23",
+     "value": "120 km van Palmanova over Udine naar Tarvisio"
+    },
+    {
+     "label": "Passante di Mestre",
+     "value": "32,3 km omleiding rond Mestre op de A4"
+    },
+    {
+     "label": "Oostenrijks verbod",
+     "value": "Zaterdag 15 uur tot zondag 22 uur boven 7,5 ton"
+    },
+    {
+     "label": "NoVA",
+     "value": "Geldt voor leasewagens met vaste standplaats in Oostenrijk"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Veneto en Friuli",
+     "body": [
+      "Veneto en Friuli-Venezia Giulia grenzen aan Oostenrijk bij Tarvisio en de Plöckenpas. De A23 is 120 km lang (E55), loopt van Palmanova bij de A4 over Udine naar Tarvisio en gaat aan de grens over in de Oostenrijkse A2 Süd Autobahn.",
+      "De Passante di Mestre, 32,3 km lang en geopend in 2009, is het deel van de A4 dat Mestre omzeilt voor doorgaand verkeer naar Oostenrijk, Slovenië en Oost-Europa. De oude route door Mestre heet nu de A57. Wie wagens in de buurt van Venetië ophaalt, vermijdt zo de drukte van de stad zelf."
+     ]
+    },
+    {
+     "heading": "De Brenner als hoofdroute",
+     "body": [
+      "De A22 (E45) loopt over ongeveer 315 km van bij Modena naar de Brennerpas, via Verona, Trento en Bolzano. Aan de pas, op ongeveer 1.375 meter, sluit ze aan op de Oostenrijkse A13 richting Innsbruck. Ongeveer een derde van de 30.000 tot 40.000 voertuigen per dag is zwaar verkeer en met twee rijstroken ontstaan er op piekmomenten files.",
+      "Oostenrijk voerde in 2015 weer grenscontroles in aan de Brenner, terwijl de douane- en immigratieposten sinds 1997 weg waren. De Brenner Basistunnel voor het spoor is in 2006 gestart, maar de oplevering is opgeschoven. De weg blijft dus de hoofdverbinding voor wie wagens naar Tirol brengt."
+     ]
+    },
+    {
+     "heading": "Verboden en tol in Oostenrijk",
+     "body": [
+      "Oostenrijk kent een weekendverbod van zaterdag 15 uur tot zondag 22 uur voor voertuigen boven 7,5 ton en jaarrond een nachtverbod van 22 tot 5 uur. Op bepaalde feestdagen geldt bovendien een apart transitverbod op de A12 en A13 richting Italië. Op zaterdagen in de zomer kennen Tiroolse omleidingsroutes een verbod van 8 tot 15 uur. Tirol heeft ook een sectoraal verbod voor bepaalde goederen zoals papier, cement en graan.",
+      "De Brenner is een Sondermautstrecke in de Oostenrijkse GO-Maut voor voertuigen boven 3,5 ton, met hogere tarieven en een nachttarief van 22 tot 5 uur. Italië hanteert intussen zijn eigen jaarkalender met zomeruitbreiding op vrijdag. Kies dus een venster dat in beide landen openstaat."
+     ]
+    },
+    {
+     "heading": "Het oosten als alternatief: Tauern en Villach",
+     "body": [
+      "Staan de wagens in Friuli, dan is de weg via Tarvisio en Villach interessanter dan de omweg naar de Brenner. De A10 Tauernautobahn loopt over 192,7 km van Salzburg naar Villach, met de Tauern- en Katschbergtunnel. Villach is het Oostenrijkse knooppunt richting Italië.",
+      "Kärnten grenst aan Italië bij de Plöckenpas (Kötschach-Mauthen, richting Friuli) en aan Slovenië via de A11 en de Karawankentunnel. Verkeer uit Duitsland en België komt via Salzburg en de Tauernautobahn naar Villach. Of de snelwegovergang van de A2 bij Tarvisio voor uw rit de beste keuze is, stemt u af met de transporteur."
+     ]
+    },
+    {
+     "heading": "Oostenrijkse regels voor wagenparken",
+     "body": [
+      "Een leasewagen met vaste standplaats in Oostenrijk is NoVA-plichtig, ook als de leasemaatschappij in het buitenland zit. De leasingnemer of gebruiker is de belasting verschuldigd. Bij grensoverschrijdende leasing binnen de EU/EER kan de NoVA bij de inschrijving beperkt worden tot het deel dat overeenkomt met de tijdelijke gebruiksduur. Elektrische voertuigen zijn vrijgesteld.",
+      "Een bedrijfswagen wordt ingeschreven bij een Zulassungsstelle voor het district van de bedrijfszetel en voor lease- en bedrijfswagens vraagt die bijkomende documenten. Een voertuig dat in een EU-lidstaat is ingeschreven, valt voor gebruik binnen de EU niet onder douaneregels. Mcars vervoert de wagens; de inschrijving en belasting blijven bij de ontvanger."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "NoVA en de gebruiksduur",
+     "body": "NoVA is een percentage van de nettowaarde dat vooral van de CO2-uitstoot afhangt, op personenwagens, motorfietsen boven 125 cc en kleine voertuigen voor personenvervoer (klasse N1). Voor huurwagens, taxi's en rijschoolwagens kan ze teruggevraagd worden bij meer dan 80 procent gebruik voor dat doel."
+    },
+    {
+     "kind": "regel",
+     "title": "Digitaal vignet per nummerplaat",
+     "body": "Het digitale vignet hangt aan de nummerplaat en de geldigheid is online na te kijken met plaat en land van inschrijving. Eén digitaal vignet dekt tot drie voertuigen die een Wechselkennzeichen delen. Voor een wagenpark is controle van elke plaat vóór vertrek dus de eenvoudigste manier om boetes te vermijden."
+    },
+    {
+     "kind": "regel",
+     "title": "Bestelwagens in Wenen en Niederösterreich",
+     "body": "In Wenen en het oosten van Niederösterreich geldt het IG-L-verbod voor alle voertuigen die als Lkw (klasse N) zijn ingeschreven, ongeacht het gewicht, dus ook kleine bestelwagens. De allereerste emissieklassen zijn er het hele jaar verboden. Een leasebestelwagen naar Wenen controleert u dus vooraf."
+    },
+    {
+     "kind": "plek",
+     "title": "Plöckenpas bij Kötschach-Mauthen",
+     "body": "De Plöckenpas ligt bij Kötschach-Mauthen in Kärnten en verbindt Oostenrijk met Friuli. Voor een snelle verbinding richting Udine bestaat er dus een bergweg naast de snelwegen. Voor een autotransporter is een pasweg zelden de verstandigste keuze: kies bij zwaar transport de snelweg."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke Italiaanse snelweg voert van Friuli naar Oostenrijk?",
+     "a": "De A23 loopt van Palmanova over Udine naar Tarvisio en gaat aan de grens over in de Oostenrijkse A2 Süd Autobahn. Voor de Brenner neemt u de A22 vanaf Modena of Verona."
+    },
+    {
+     "q": "Moet mijn Italiaanse leasewagen NoVA betalen in Oostenrijk?",
+     "a": "Een leasewagen met vaste standplaats in Oostenrijk is NoVA-plichtig, ook bij een buitenlandse leasemaatschappij. Bij grensoverschrijdende leasing binnen de EU/EER kan de belasting beperkt worden tot het deel dat overeenkomt met de gebruiksduur. Elektrische voertuigen zijn vrijgesteld."
+    },
+    {
+     "q": "Is het digitale vignet nodig voor elke wagen?",
+     "a": "Het digitale vignet hangt aan de nummerplaat en is online te controleren met plaat en land van inschrijving. Eén vignet dekt tot drie voertuigen die een Wechselkennzeichen delen, dus controleer elke plaat afzonderlijk."
+    }
+   ],
+   "seoDescription": "Wagenpark van Italië naar Oostenrijk laten vervoeren: A23 en Brenner, Oostenrijkse rijverboden, NoVA, vignet en leaseregels in Tirol.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Autostrada_A23_(Italy)",
+    "https://en.wikipedia.org/wiki/Passante_di_Mestre",
+    "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+    "https://en.wikipedia.org/wiki/Brenner_Pass",
+    "https://trans.info/de/oesterreich-lkw-fahrverbote-2026-479461",
+    "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+    "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+    "https://mit.gov.it/node/21641",
+    "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+    "https://de.wikipedia.org/wiki/Pl%C3%B6ckenpass",
+    "https://de.wikipedia.org/wiki/Karawanken_Autobahn",
+    "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/normverbrauchsabgabe-nova.html",
+    "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/2/Seite.060118",
+    "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/9/Seite.063501",
+    "https://www.asfinag.at/maut-vignette/digitale-vignette/",
+    "https://www.wko.at/transport/lkw-fahrverbot-feinstaub-wien-niederoesterreich"
+   ]
+  },
+  "italie-polen": {
+   "lead": "Italië en Polen delen geen grens. Een partij leasewagens uit Veneto of Friuli op weg naar Silezië moet kiezen tussen een westelijke as over de Brenner en door Duitsland, en een oostelijke over Villach en Tsjechië. Aan de Poolse kant wachten e-TOLL, milieuzones en een leasemarkt die vooral van bedrijven komt.",
+   "facts": [
+    {
+     "label": "Westelijke as",
+     "value": "A22, Brenner, Duitse A4 tot Görlitz (583 km)"
+    },
+    {
+     "label": "Oostelijke as",
+     "value": "A10 naar Villach, Tsjechische D1 tot de Poolse grens"
+    },
+    {
+     "label": "Poolse tol",
+     "value": "e-TOLL boven 3,5 ton, via on-board unit of app"
+    },
+    {
+     "label": "Tolsectie A4",
+     "value": "Katowice–Kraków, 61 km met twee tolstations"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Veneto en Friuli",
+     "body": [
+      "Veneto en Friuli-Venezia Giulia kijken naar Oostenrijk, Slovenië en Polen. De A4 Venetië–Triëst kende de snelste groei van zwaar vrachtverkeer van alle Italiaanse snelwegen door het verkeer met Oost-Europa. In de zomer komt daar het vakantieverkeer naar de Sloveense en Kroatische kust bij. Via Villesse leidt de A34 naar de grens bij Gorizia.",
+      "Op de A4 wordt een derde rijstrook aangelegd, dus werven zijn te verwachten. Fernetti bij Triëst is een belangrijke grensovergang voor Italiaanse goederen richting Balkan, maar voor Polen is dat een omweg. Wie wagens in Udine of Treviso ophaalt, kiest meestal liever de A23 of de A22."
+     ]
+    },
+    {
+     "heading": "De westelijke as: Brenner en Duitsland",
+     "body": [
+      "De westelijke as volgt de A22 (Modena–Brenner, ongeveer 315 km) en de Oostenrijkse A13 naar Innsbruck, daarna Duitsland. De Duitse A4 is 583 km lang, van Aken via Erfurt en Eisenach naar Dresden en Görlitz, aan de Poolse grens.",
+      "Duitsland rekent Lkw-Maut boven 3,5 ton, kent een zondagsverbod van 0 tot 22 uur boven 7,5 ton en in juli en augustus een zaterdagverbod van 7 tot 20 uur op bepaalde wegen. Oostenrijk heeft een weekendverbod van zaterdag 15 uur tot zondag 22 uur en een nachtverbod. Voor een rit van meerdere dagen is dat een kalender die u vooraf moet uitrekenen."
+     ]
+    },
+    {
+     "heading": "De oostelijke as: Villach en Tsjechië",
+     "body": [
+      "De oostelijke as gaat over de Oostenrijkse A10 Tauernautobahn (192,7 km, Salzburg–Villach, tunnels van 6,4 en 5,9 km) naar Villach en Zuid-Oostenrijk, daarna via Tsjechië naar Polen. De Tsjechische D1 loopt over 376,5 km van Praag via Brno en Ostrava naar de Poolse grens bij Věřňovice, waar ze in Bohumín de Poolse A1 wordt. Het is de drukste Tsjechische snelweg, met tot 99.000 voertuigen per dag bij Praag.",
+      "In Brno sluit de D1 aan op de D2 (E65) en de E461. In Oostenrijk is de GO-Maut van toepassing voor voertuigen boven 3,5 ton, met Brenner, Tauern en Arlberg als Sondermautstrecken tegen hogere tarieven."
+     ]
+    },
+    {
+     "heading": "Italiaanse verbodskalender op de heenreis",
+     "body": [
+      "Italië publiceert elk jaar een kalender met rijverboden boven 7,5 ton buiten de bebouwde kom, vastgelegd in een ministerieel decreet. In de zomer geldt het ook op vrijdag, met een piek rond 15 augustus. Buitenlandse voertuigen hebben een lichtere regeling als ze hun herkomst en bestemming kunnen aantonen.",
+      "Voor de informatie onderweg: 1518 is het gratis nummer voor verkeersinformatie (CCISS Viaggiare informati en de verkeerspolitie), geen noodnummer. Op autosnelwegen mag pechhulp en wegslepen alleen door instanties en bedrijven die de wegbeheerder daarvoor heeft gemachtigd."
+     ]
+    },
+    {
+     "heading": "Aankomst in Silezië",
+     "body": [
+      "Opper-Silezië (Katowice, Gliwice, Tychy) grenst aan Tsjechië via de A1 bij Gorzyczki en aan Slowakije. De A4 doorkruist de regio, en het stuk Mysłowice–Kraków is een tolweg van 61 km met tolstations in Mysłowice en Balice. De Stellantis-fabriek in Tychy bouwt de nieuwe Fiat 500 en de Lancia Ypsilon. Katowice Airport ligt in Pyrzowice, ongeveer 30 km ten noorden van de stad.",
+      "Neder-Silezië (Wrocław, Zgorzelec) grenst aan Duitsland bij Jędrzychowice en aan Tsjechië. Op de A4 is het stuk van Karwiany tot Żernica een tolsectie, de ring van Gliwice is tolvrij. Wrocław Airport ligt ongeveer 10 km ten westen van het centrum."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "e-TOLL in Polen",
+     "body": "Polen werkt met e-TOLL voor voertuigen boven 3,5 ton en bussen, op een net van ongeveer 5.870 km. Betaling loopt via GNSS met een on-board unit of via een app. Vraag bij de transporteur wie de registratie doet voor de rit."
+    },
+    {
+     "kind": "regel",
+     "title": "Milieuzones in Krakau en Warschau",
+     "body": "In de milieuzone van Krakau worden in Polen ingeschreven voertuigen automatisch herkend. In Warschau richt de tweede fase zich op vrachtwagens en bussen van recente inschrijving en op voertuigen van eigenaars die niet in Warschau gevestigd zijn. De stad heeft een officiële online controle per voertuig."
+    },
+    {
+     "kind": "tip",
+     "title": "Accijns bij eerste inschrijving",
+     "body": "De Poolse accijns geldt voor elke eerste inschrijving van een personenwagen, ook voor een leasewagen uit het buitenland. Voor een bedrijfsvoertuig dient iemand die het bedrijf mag vertegenwoordigen, eigenaar of gevolmachtigde, de inschrijvingsaanvraag in."
+    },
+    {
+     "kind": "tip",
+     "title": "Leasemarkt in Polen",
+     "body": "De Poolse leasingmarkt financierde in 2025 een record. Leasing en verhuur samen zijn goed voor één op twee nieuw ingeschreven wagens. Leasing aan particulieren is klein, het wagenpark komt dus vooral van bedrijven. Ongeveer 29.000 elektrische wagens werden via leasing of verhuur ingeschreven."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke route is beter voor een wagenpark naar Polen: via Duitsland of via Tsjechië?",
+     "a": "Beide kunnen. De westelijke as gaat over de Brenner en de Duitse A4 tot Görlitz, de oostelijke over Villach en de Tsjechische D1 naar de grens bij Věřňovice. De keuze volgt uit het ophaaladres en de rijverboden."
+    },
+    {
+     "q": "Moet ik tol betalen op de Poolse snelwegen?",
+     "a": "Voor voertuigen boven 3,5 ton geldt e-TOLL. Daarnaast zijn delen van de A4, zoals Katowice–Kraków en Karwiany–Żernica, tolwegen met eigen tolstations."
+    },
+    {
+     "q": "Is een leasewagen uit Italië in Polen accijnsplichtig?",
+     "a": "Ja, de Poolse accijns geldt voor elke eerste inschrijving van een personenwagen, ook een leasewagen uit het buitenland. Een bevoegde vertegenwoordiger dient de aanvraag in. Mcars regelt die formaliteiten niet."
+    }
+   ],
+   "seoDescription": "Wagenpark van Italië naar Polen laten vervoeren: Brenner of Villach, Duitse A4 of Tsjechische D1, e-TOLL en Poolse leasemarkt in Silezië.",
+   "sources": [
+    "https://it.wikipedia.org/wiki/Autostrada_A4_(Italia)",
+    "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+    "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+    "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+    "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+    "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+    "https://etoll.gov.pl/en/about-system/",
+    "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+    "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+    "https://mit.gov.it/node/21641",
+    "https://www.poliziadistato.it/articolo/22479",
+    "https://aci.gov.it/codice-della-strada/art-175/",
+    "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+    "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+    "https://um.warszawa.pl/waw/sct/sprawdz-pojazd",
+    "https://polandinsight.com/polands-leasing-market-hits-record-pln-119-5bn-in-2025-as-ev-financing-gains-momentum-31181/",
+    "https://www.podatnik.info/publikacje/podatek-akcyzowy-od-samochodu-kto-i-kiedy-musi-go-zaplacic,637972",
+    "https://mobility.autopay.eu/pl/oplaty-drogowe/polska/",
+    "https://en.wikipedia.org/wiki/Tychy",
+    "https://en.wikipedia.org/wiki/Katowice_International_Airport",
+    "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Airport",
+    "https://it.wikipedia.org/wiki/Fernetti"
+   ]
+  }
+ }
+}

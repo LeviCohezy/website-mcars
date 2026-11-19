@@ -5,6 +5,8 @@ import { MediaBand, QuoteCta } from "@/components/blocks";
 import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import { Reveal } from "@/components/scroll";
+import RoutesNetwork from "@/components/routes-network";
+import RoutesReach from "@/components/routes-reach";
 import Section from "@/components/section";
 import { SectionHeader } from "@/components/ui";
 import { corridorRoutes, countryRoutes, flagAsset } from "@/data/routes";
@@ -27,13 +29,24 @@ export default function RoutesOverview() {
       <PageHero
         size="full"
         eyebrow="Bestemmingen & routes"
-        title="Tot in elke uithoek van Europa."
+        title={
+          <>
+            Vanuit België.
+            <br />
+            Door heel Europa.
+            <br />
+            <span className="text-white/55">Elke week.</span>
+          </>
+        }
         subtitle="Onze niche: België en Nederland richting Frankrijk tot Noord-Spanje. En verder rijden we overal naartoe."
         crumbs={[{ label: "Routes" }]}
         video="/hero.mp4"
-        badges={[{ label: `${countryRoutes.length} bestemmingen` }, { label: `${corridorRoutes.length} vaste corridors` }]}
-        primaryCta={{ label: "Offerte", href: "/offerte" }}
+        primaryCta={{ label: "Offerte aanvragen", href: "/offerte" }}
+        marquee={false}
+        reviews
       />
+
+      <RoutesReach corridors={corridorRoutes.length} />
 
       {/* Countries — ruled index */}
       <Section space="loose">
@@ -68,33 +81,8 @@ export default function RoutesOverview() {
         <MediaBand image="/fleet/germany-autobahn.jpg" line="Elke week heel Frankrijk door, met vaste stops onderweg." caption="Van Roeselare tot Noord-Spanje" />
       </Section>
 
-      {/* Corridors */}
-      <Section space="loose">
-        <SectionHeader
-          label="Vaste corridors"
-          index="02"
-          lead="Rechtstreeks"
-          trail="tussen de landen."
-          intro="Op deze assen rijden we op regelmatige basis. Uw wagen sluit aan op een bestaande rit — efficiënt, zonder omwegen."
-          className="mb-14"
-        />
-        <ul className="grid border-t border-zinc-950 sm:grid-cols-2 sm:gap-x-10">
-          {corridorRoutes.map((r, i) => (
-            <Reveal as="li" key={r.slug} delay={i * 50} className="border-b border-zinc-200">
-              <Link href={`/routes/${r.slug}`} className="group flex items-center gap-5 py-5">
-                <span className="flex flex-none items-center -space-x-2">
-                  <Image src={flagAsset[r.from!.flag]} alt="" width={64} height={44} className="h-8 w-auto" />
-                  <Image src={flagAsset[r.to!.flag]} alt="" width={64} height={44} className="h-8 w-auto" />
-                </span>
-                <span className="flex-1 text-lg font-medium tracking-tight text-zinc-950">
-                  {r.from!.name} <span className="text-zinc-400">→</span> {r.to!.name}
-                </span>
-                <Arrow />
-              </Link>
-            </Reveal>
-          ))}
-        </ul>
-      </Section>
+      {/* Corridors — pinned sequence: pills → black wipe → route finder on a globe */}
+      <RoutesNetwork corridors={corridorRoutes.map((r) => ({ slug: r.slug, fixed: Boolean(r.fixed) }))} />
 
       <QuoteCta />
     </PageShell>

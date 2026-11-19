@@ -1,0 +1,59 @@
+{
+  "sub": "Gekocht of verhuisd naar Italië? Mcars brengt uw wagen van België naar het zuiden op een open autotransporter, verzekerd en met CMR.",
+  "problem": {
+    "title": "U vertrekt naar Italië, uw wagen blijft in België achter",
+    "body": "Misschien hebt u een appartement gekocht aan de Ligurische kust, of u neemt een nieuwe job aan in Milaan. Uw wagen wilt u meenemen, maar de rit heen is lang en u vliegt liever. Daarbij geldt dat een niet-inwoner met een Belgische plaat niet onbeperkt in Italië mag blijven rijden. Wie er gaat wonen, moet de wagen op termijn laten inschrijven. Het helpt dan als hij gewoon op uw nieuwe adres wordt afgeleverd.",
+    "situations": [
+      { "title": "Nieuwe job in Milaan", "body": "U begint maandag en uw wagen staat nog in Gent. Wij halen hem op bij uw huidige adres en leveren hem af waar u gaat wonen." },
+      { "title": "Appartement aan zee", "body": "Het tweede verblijf is gekocht en u wilt er een wagen hebben. Geen twee dagen rijden, wel een keer afspreken met onze chauffeur." },
+      { "title": "Wagen blijft volgen", "body": "U vliegt eerst en regelt de woning. De wagen komt later, zodra u ter plaatse bent om hem in ontvangst te nemen." }
+    ]
+  },
+  "solution": {
+    "title": "Van uw deur in België naar uw adres in Italië",
+    "body": "U vraagt een offerte aan op onze website of per telefoon. Binnen vierentwintig uur hoort u van ons. We spreken een ophaaldag af, of u brengt de wagen zelf naar ons depot in Roeselare, wat voordeliger is. De chauffeur inspecteert de wagen, maakt foto's en tekent de CMR met u. Dan laadt hij hem op een open, meerlaagse transporter met andere wagens. Op de dag zelf belt hij u over de aankomst. U betaalt voor de ophaling."
+  },
+  "usps": [
+    { "title": "Eén contactpersoon", "body": "Wie uw dossier opent, volgt het ook op. Vragen over de afspraak lost u op met dezelfde stem, in uw eigen taal." },
+    { "title": "Open transporter met lier", "body": "Onze wagens zijn open en meerlaags, met een lier aan boord. Start uw wagen niet meer, dan krijgt hij toch een plaats." },
+    { "title": "Bij de deur of op het depot", "body": "Ophalen kan bij u thuis of op ons depot in Roeselare. Daar mag u uw wagen op elk uur van de dag afzetten." },
+    { "title": "Zonder verrassingen", "body": "Foto's en inspectie bij ophaling, een getekende CMR en een verzekering tijdens het transport. U weet vooraf waar u aan toe bent." }
+  ],
+  "steps": [
+    { "title": "Vraag een offerte", "body": "Laat ons weten waar de wagen vertrekt en in welke Italiaanse regio hij heen moet. Een voorstel krijgt u binnen vierentwintig uur." },
+    { "title": "Kies uw moment", "body": "We plannen samen de ophaling, thuis of op het depot. U weet wie uw chauffeur wordt en hoe u hem bereikt." },
+    { "title": "Ophaling en CMR", "body": "Bij het laden gaat de chauffeur de wagen rond, noteert opmerkingen en tekent de CMR-vrachtbrief samen met u." },
+    { "title": "Aflevering in Italië", "body": "De chauffeur belt vooraf en zet de wagen af op het afgesproken adres. U of uw gemachtigde neemt hem daar in ontvangst." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, ook de CMR",
+    "body": "Het vertrekpunt bepaalt hoe goed we de staat van uw wagen kunnen vastleggen. Daarom controleren we bij ophaling de carrosserie en het interieur en bewaren we de foto's intern. De CMR-vrachtbrief ondertekenen we samen met u, zodat elke partij weet wat er is vervoerd. Tijdens de reis is uw wagen verzekerd. De Italiaanse inschrijving of andere formaliteiten regelt u zelf, of een dealer of dossierbehandelaar.",
+    "items": ["Inspectie bij het laden", "Foto's van de staat", "CMR met uw handtekening", "Verzekering tijdens vervoer"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Italië",
+    "body": "Wij zijn gevestigd in West-Vlaanderen en rijden dagelijks in België, dus het ophalen kent geen geheimen. In Italië doen we zowel Lombardije als Toscane aan, en ook de kust van Ligurië. Onze chauffeurs spreken Nederlands of Frans en weten wat u nodig hebt als u een wagen naar het buitenland stuurt.",
+    "regions": ["Lombardije", "Toscane", "Ligurië", "Emilia-Romagna", "Veneto"]
+  },
+  "faq": [
+    { "q": "Mag ik met een Belgische plaat blijven rijden in Italië?", "a": "Als niet-inwoner mag u er een beperkte tijd mee rijden. Wie inwoner wordt, moet de wagen laten inschrijven. Kijk dit na bij de Italiaanse overheid voor u vertrekt." },
+    { "q": "Wie laat de wagen inschrijven?", "a": "Dat doet u zelf, of een garage of dossierbehandelaar ter plaatse. Mcars vervoert de wagen en regelt geen papierwerk of inschrijving." },
+    { "q": "Kan ik mijn wagen zelf naar Roeselare brengen?", "a": "Ja, dat kan 24 uur op 24 en het is voordeliger. Spreek vooraf af met ons, dan weten we dat uw wagen komt." },
+    { "q": "Wat als mijn wagen niet meer start?", "a": "Dat is geen probleem. Elke vrachtwagen heeft een lier. Staat de wagen volledig geblokkeerd, dan komt er een heftruck ter plaatse. Meld het ons vooraf bij de aanvraag." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wat we afspreken, komt er ook: dezelfde vaste chauffeurs brengen uw wagen naar Italië zoals vooraf besproken.",
+    "snel": "Uw aanvraag wordt vlot ingepland en uw wagen wordt vlot afgeleverd, ook op de lange rit naar het zuiden.",
+    "volgbaar": "Dankzij track en trace weet u op elk moment waar uw wagen zich bevindt, en de chauffeur belt u op de dag zelf.",
+    "verzekerd": "Uw wagen is verzekerd tijdens het hele transport en bij ophaling krijgt u een CMR-vrachtbrief mee."
+  },
+  "reasons": [
+    { "title": "Jarenlange ervaring", "body": "Wij brengen al jaren wagens van particulieren veilig van België naar Italië en kennen de rit door en door." },
+    { "title": "Passie voor het vak", "body": "Auto's vervoeren is geen uitzendwerk voor ons. We behandelen elke wagen alsof het die van onszelf is." },
+    { "title": "Honderden ritten gereden", "body": "Honderden ritten maken dat weinig ons nog verrast, van een verhuiswagen tot een zomerauto voor het tweede verblijf." },
+    { "title": "Eigen chauffeurs", "body": "Bewust geen onderaannemers: uw wagen blijft van ophaling tot levering in handen van ons eigen vaste team." },
+    { "title": "Breed aanbod transporten", "body": "Personenwagen, SUV, sportwagen of oldtimer, wij vervoeren wat u kwijt moet naar Italië en terug." },
+    { "title": "Oog voor vernieuwing", "body": "We volgen nieuwe technieken en werkwijzen op, zodat uw transport elk jaar vlotter en beter opgevolgd verloopt." }
+  ],
+  "seoDescription": "Auto van België naar Italië laten vervoeren als particulier. Open autotransporter, CMR en verzekerd. Vraag een offerte, antwoord binnen 24 uur."
+}

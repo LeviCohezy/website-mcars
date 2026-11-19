@@ -6,6 +6,8 @@
 
 export const site = {
   name: "Mcars",
+  /** Canonical origin, used for the sitemap. */
+  url: "https://mcars.be",
   legalName: "Mcars BV",
   vat: "BE 0816.739.802",
   founded: 2009,

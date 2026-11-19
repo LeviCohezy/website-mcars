@@ -1,0 +1,1164 @@
+{
+  "service": "auto-importeren",
+  "origin": "italie",
+  "pages": {
+    "italie": {
+      "lead": "U kocht een wagen in Italië, bij een dealer of bij een particulier in Bologna of Parma, en hij moet naar België. Voor die rit gelden Italiaanse regels: welke plaat de wagen mag dragen, welke papieren de verkoper moet meegeven en wanneer een vrachtwagen buiten de steden niet mag rijden. Wie dat vooraf weet, voorkomt dat een koop blijft hangen op een ontbrekend document.",
+      "facts": [
+        {
+          "label": "Foglio di via",
+          "value": "Niet-ingeschreven wagen: voorlopige plaat, route vermeld, maximaal 60 dagen geldig"
+        },
+        {
+          "label": "Zondagsverbod",
+          "value": "Vrachtwagens boven 7,5 ton mogen buiten de bebouwde kom niet rijden"
+        },
+        {
+          "label": "Revisione",
+          "value": "Eerste keuring na vier jaar, daarna om de twee jaar"
+        },
+        {
+          "label": "Alarmnummer",
+          "value": "112, met doorschakeling naar politie, brandweer of ambulance"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Documenten die de Italiaanse verkoper moet meegeven",
+          "body": [
+            "Zonder volledige papieren wordt de wagen in België niet ingeschreven, ook al staat hij al op uw erf. In Italië is het kentekenbewijs de carta di circolazione: zonder dat document en zonder inschrijving mag geen auto, moto of aanhangwagen op de weg. Op de kaart prijkt de naam van de eigenaar, aangevuld met die van een eventuele vruchtgebruiker of leasingnemer. Kijk dus na wie erop staat, want dat is wie de wagen mag verkopen.",
+            "De Europese regels voor een herinschrijving vragen meer dan de kaart alleen. Laat de verkoper bij de overdracht dit meegeven:"
+          ],
+          "points": [
+            "het kentekenbewijs, beide delen als het er twee zijn",
+            "een eigendomsbewijs",
+            "bewijs dat de btw betaald is",
+            "bewijs van verzekering",
+            "bewijs dat de wagen in Italië technisch is goedgekeurd"
+          ]
+        },
+        {
+          "heading": "Welke plaat de wagen draagt",
+          "body": [
+            "Een wagen die nog op naam van de verkoper staat en een geldige Italiaanse plaat heeft, is een gewone Italiaanse auto. Anders ligt het bij een wagen die nooit is ingeschreven of al is uitgeschreven. Die mag volgens artikel 99 van de Codice della Strada alleen naar de grens rijden met een foglio di via en een voorlopige plaat van de Motorizzazione. Op dat document staat de route, en het is maximaal 60 dagen geldig.",
+            "Fabrieksnieuwe wagens die voor uitvoer bestemd zijn en waarvan de douaneformaliteiten vervuld zijn, krijgen een carta di circolazione van maximaal één jaar, verlengbaar, met een speciale herkenningsplaat. Vraag de verkoper dus in welke situatie de wagen zit. Laat u hem op een autotransporter ophalen, dan hoeft hij voor die rit zelf niet over de weg, maar de papieren heeft u daarna nog altijd nodig."
+          ]
+        },
+        {
+          "heading": "Revisione: wat de keuring over de wagen zegt",
+          "body": [
+            "In Italië is de periodieke keuring, de revisione, verplicht: de eerste binnen vier jaar na de eerste inschrijving, daarna om de twee jaar (artikel 80 van de Codice della Strada). Voor een koper uit België is de datum van de laatste revisione een nuttig gegeven. Ze laat zien of de wagen onderhouden werd en hoe compleet het dossier is, nog voor u met een Belgische keuring te maken krijgt.",
+            "Vraag het keuringsbewijs in origineel. Zonder bewijs dat de wagen in het vorige land technisch is goedgekeurd, is het dossier voor de herinschrijving onvolledig. Staat de revisione bijna op vervallen, spreek dan met de verkoper af wie de keuring nog voor de ophaling laat doen."
+          ]
+        },
+        {
+          "heading": "Wanneer een vrachtwagen in Italië niet rijdt",
+          "body": [
+            "Een autotransporter weegt ruim meer dan 7,5 ton. Voor voertuigen boven die grens geldt buiten de bebouwde kom een rijverbod op zon- en feestdagen: van januari tot mei en van oktober tot december van 9 tot 22 uur, van juni tot september van 7 tot 22 uur. De rechtsgrond is artikel 6 van de Codice della Strada: de prefect kan het vrachtverkeer verbieden op feestdagen en op de dagen die een ministerieel besluit aanwijst.",
+            "Nationale feestdagen zijn onder meer 1 januari, 6 januari, paasmaandag, 25 april, 1 mei, 2 juni, 15 augustus en 25 en 26 december. Daarnaast heeft elke gemeente een eigen feestdag voor de patroonheilige, die enkel op haar grondgebied geldt. Een ophaling plant u dus niet op die dagen, en voor de zomermaanden kijkt u de actuele verbodskalender na."
+          ]
+        },
+        {
+          "heading": "Tol, uitrusting en pech onderweg",
+          "body": [
+            "Tol wordt in Italië per gereden kilometer berekend, tussen instap- en uitstapstation, en voertuigen vallen in vijf klassen volgens het aantal assen. Op enkele trajecten, zoals de A36 Pedemontana Lombarda, staan geen slagbomen: portalen lezen de nummerplaat en wie geen badge heeft, betaalt zelf uiterlijk 15 dagen na de doorrit.",
+            "Wie zelf een wagen overbrengt, heeft een gevarendriehoek en een reflecterend hesje nodig, en dimlichten of dagrijlichten zijn ook overdag verplicht. Bij pech buiten de bebouwde kom stapt u niet uit zonder hesje en staat de driehoek minstens 50 meter achter de wagen. Pechhulp en wegslepen op een autosnelweg gebeuren enkel door bedrijven die de wegbeheerder machtigt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "ZTL en Scudo Verde in Firenze",
+          "body": "Firenze heeft vijf ZTL-sectoren. A, B en O zijn actief van maandag tot vrijdag van 7.30 tot 20 uur en op zaterdag tot 16 uur, niet op zon- en feestdagen; in het zomerhalfjaar geldt de zone ook op donderdag-, vrijdag- en zaterdagnacht. Camera's lezen de plaat. Daarnaast is er de milieuzone Scudo Verde met 77 camerapoorten, dag en nacht actief. Spreek met de verkoper een ophaalplek buiten de zone af."
+        },
+        {
+          "kind": "plek",
+          "title": "Napels en de Tangenziale",
+          "body": "Napels heeft meerdere ZTL's met elk eigen uren, onder meer Centro Antico, Chiaia en Tarsia-Pignasecca-Dante, met elektronische poorten. In Vomero geldt op werkdagen in de late namiddag een verbod voor privévoertuigen. De Tangenziale di Napoli (A56) is een stadssnelweg met vast tarief, te betalen bij de afrit. Een wagen uit het zuiden laat u dus best aan de rand van de stad klaarzetten."
+        },
+        {
+          "kind": "plek",
+          "title": "Villa San Giovanni",
+          "body": "Villa San Giovanni, aan de punt van Calabrië, is de belangrijkste veerterminal naar Sicilië; onder meer Caronte & Tourist vaart er naar Messina. De brug over de Straat van Messina is niet gebouwd, de overtocht blijft per veer. Wie in Calabrië of op Sicilië een wagen koopt, rekent voor het transport dus altijd op een overtocht naar het vasteland."
+        },
+        {
+          "kind": "tip",
+          "title": "Sicilië rechtstreeks verlaten",
+          "body": "Vanaf Sicilië kan het vasteland rechtstreeks per veer bereikt worden: Palermo en Termini Imerese naar Civitavecchia, Palermo naar Genua en Catania naar Ravenna. Zo vermijdt men de lange rit door Calabrië. Op het eiland zelf is de A20 langs de noordkust een tolweg, en de A19 verbindt Palermo dwars door het binnenland met Catania."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik de wagen zelf naar België rijden?",
+          "a": "Is de wagen nog ingeschreven, dan rijdt hij met zijn Italiaanse plaat. Is hij uitgeschreven of nooit ingeschreven, dan mag hij enkel met een foglio di via en een voorlopige plaat naar de grens, met vermelding van de route en maximaal 60 dagen geldig. Op een autotransporter speelt dat voor de rit zelf minder."
+        },
+        {
+          "q": "Kan de wagen op zondag worden opgehaald?",
+          "a": "Een vrachtwagen boven 7,5 ton mag buiten de bebouwde kom op zon- en feestdagen niet rijden. Een ophaling op zondag is dus meestal geen goed idee. Plan de overdracht op een weekdag en vraag de verkoper om de wagen dan klaar te hebben, met alle papieren erbij."
+        },
+        {
+          "q": "Wat als het ophaaladres in een ZTL ligt?",
+          "a": "Gemeenten kunnen in de binnenstad zones met beperkt verkeer instellen en voertuigen weren. Camera's tellen de passages en de boete volgt later. Vraag de verkoper om de wagen aan de rand van de zone klaar te zetten, zodat een vrachtwagen er niet in hoeft."
+        },
+        {
+          "q": "Hoe vaak moet een Italiaanse wagen gekeurd worden?",
+          "a": "De eerste revisione moet binnen vier jaar na de eerste inschrijving gebeuren, daarna om de twee jaar. Vraag de verkoper naar de datum van de laatste keuring en naar het bewijs ervan, want dat hoort bij het dossier voor de herinschrijving."
+        }
+      ],
+      "seoDescription": "Auto importeren uit Italië naar België: papieren van de verkoper, foglio di via, revisione, rijverboden voor vrachtwagens en ZTL-zones. Offerte binnen 24 uur.",
+      "sources": [
+        "https://aci.gov.it/codice-della-strada/art-99/",
+        "https://aci.gov.it/codice-della-strada/art-93/",
+        "https://aci.gov.it/codice-della-strada/art-80/",
+        "https://aci.gov.it/codice-della-strada/art-134/",
+        "https://europa.eu/youreurope/citizens/vehicles/registration/formalities//italy/index_it.htm",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://aci.gov.it/codice-della-strada/art-6/",
+        "https://it.wikipedia.org/wiki/Festività_in_Italia",
+        "https://www.autobrennero.it/it/pedaggio/costi-autostrada/",
+        "https://www.tcs.ch/it/camping-viaggi/informazioni-turistiche/utile-da-sapere/costi-di-viaggio-e-pedaggi/free-flow-pedemontana.php",
+        "https://www.poliziadistato.it/articolo/22479",
+        "https://aci.gov.it/codice-della-strada/art-175/",
+        "https://aci.gov.it/codice-della-strada/art-7/",
+        "https://www.parkingmycar.it/blog/ztl-firenze-regole/",
+        "https://www.parkingmycar.it/blog/zone-a-traffico-limitato-napoli/",
+        "https://en.wikipedia.org/wiki/Villa_San_Giovanni",
+        "https://en.wikipedia.org/wiki/Strait_of_Messina_Bridge",
+        "https://en.wikipedia.org/wiki/Port_of_Civitavecchia",
+        "https://en.wikipedia.org/wiki/Autostrada_A20_(Italy)",
+        "https://en.wikipedia.org/wiki/Autostrada_A19_(Italy)"
+      ]
+    },
+    "italie-belgie": {
+      "lead": "Een wagen gekocht in Piemonte of Valle d'Aosta, bestemd voor een Belgische inschrijving. De rit loopt door de Mont Blanc-tunnel of de Fréjus, over Franse en Luxemburgse autosnelwegen en eindigt langs de E411. Daarna begint het Belgische dossier: E705, keuring, aanvraagformulier en inschrijving. Hier leest u wat op die weg en in dat dossier anders is dan bij een aankoop in eigen land.",
+      "facts": [
+        {
+          "label": "Mont Blanc",
+          "value": "11,6 km, één buis; vrachtwagens rijden in groepen van vijf"
+        },
+        {
+          "label": "E705",
+          "value": "Gratis elektronisch douanesignaal waarmee de DIV de invoer kan nagaan"
+        },
+        {
+          "label": "Italiaans verbod",
+          "value": "Autotransport staat niet in de lijst van vrijstellingen"
+        },
+        {
+          "label": "Aanvraagformulier",
+          "value": "Twee maanden geldig na het bezoek aan het keuringsstation"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in het noordwesten van Italië",
+          "body": [
+            "De regio die naar België kijkt, is het noordwesten: Piemonte, Valle d'Aosta en Ligurië. Vanuit Turijn loopt de A32 naar de Fréjus, vanuit Aosta komt u bij de Mont Blanc-tunnel uit. Een verkoper in die streek weet vaak niet dat een Belgische koper de volledige buitenlandse papieren nodig heeft; de verzekeringstussenpersoon schrijft de wagen in België immers in op basis van het originele, volledige buitenlandse inschrijvingsbewijs.",
+            "Vraag de verkoper dus vóór de ophaling om een foto van het kentekenbewijs, beide delen, en om het koopcontract. Zo weet u dat het dossier klopt voor de wagen op de transporter staat."
+          ]
+        },
+        {
+          "heading": "De Mont Blanc-tunnel op de weg naar het noorden",
+          "body": [
+            "De tunnel is 11,6 km lang, verbindt Chamonix met Courmayeur op de E25 en heeft één buis met twee rijstroken. Vrachtwagens rijden er in groepen van vijf, met 150 meter tussenafstand en tussen 50 en 70 km/u. Beheerd wordt hij door MBT-EEIG, voor de helft ATMB aan Franse en SITMB aan Italiaanse kant. Dat tempo bepaalt mee hoe lang een rit duurt, maar Mcars doet daarover geen toezeggingen.",
+            "Gaat de tunnel dicht voor onderhoud, zoals in 2025 meerdere maanden gebeurde, dan wijkt het grootste deel van het vrachtverkeer uit naar de Fréjus-tunnel. Die ligt tussen Modane en Bardonecchia, met toegang via de A43 uit Lyon of Chambéry en de A32 uit Turijn. Zo'n omleiding is een reden om altijd een marge te laten in uw planning."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Italië, Frankrijk en Zwitserland",
+          "body": [
+            "Buiten de bebouwde kom mogen vrachtwagens en combinaties boven 7,5 ton in Italië op zon- en feestdagen niet rijden, ook niet als ze leeg zijn. Buitenlandse voertuigen starten het verbod vier uur later, en ritten naar het buitenland mogen twee tot vier uur voor het einde van het verbod vertrekken. Autotransport staat niet in de lijst van vrijstellingen. Wie het verbod overtreedt, riskeert een boete, een schorsing van rijbewijs en kentekenbewijs van één tot vier maanden en moet stilstaan tot het verbod eindigt.",
+            "Wie via Frankrijk of Zwitserland doorrijdt, krijgt er ook andere regels bij. Frankrijk kent een verbod van zaterdag 22 uur tot zondag 22 uur, Zwitserland laat vrachtwagens de hele zondag en elke nacht stilstaan. Voor een wagen die in het weekend wordt aangekocht, betekent dat vaak dat hij pas begin van de week op weg kan."
+          ]
+        },
+        {
+          "heading": "Het Belgische dossier: E705 en keuring",
+          "body": [
+            "Een in het buitenland gekochte wagen moet u in België invoeren voor hij op uw naam kan worden ingeschreven. Via de E705, een gratis elektronisch signaal van de douane, controleert de DIV of het voertuig op regelmatige wijze in België is. U vraagt ze aan via de E705-toepassing in MyMinfin of bij een douanehulpkantoor; de wettelijke behandeltermijn bedraagt 120 dagen.",
+            "Is de wagen nog niet op uw naam gezet, ga dan met het buitenlandse inschrijvingsbewijs naar een keuringscentrum voor een tweedehandskeuring of administratieve keuring. Daar krijgt u het aanvraagformulier tot inschrijving. Dat blijft twee maanden geldig na het bezoek, de datum staat in vak X13."
+          ]
+        },
+        {
+          "heading": "Inschrijving, Car-Pass en belasting",
+          "body": [
+            "De verzekeringstussenpersoon schrijft de wagen online in met het ingevulde formulier en het originele buitenlandse bewijs. Lukt dat niet, dan krijgt u een bewijs van afwijzing en het formulier met verzekeringsvignet terug, en gaat het dossier per post of op afspraak naar de DIV. Is de wagen minder dan twee maanden geleden gekeurd in een EU-land en heeft hij een groen keuringsbewijs, dan volstaat in Vlaanderen een visuele keuring.",
+            "Op de Car-Pass van een ingevoerde wagen staat dat hij tweedehands uit het buitenland komt; de kilometerstanden van voor de Belgische inschrijving ontbreken meestal. In Vlaanderen betaalt elke eigenaar een eenmalige belasting op de inverkeerstelling. Mcars vervoert de wagen; keuring, inschrijving en belasting regelt u zelf of via uw garage."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Mont Blanc-tunnel",
+          "body": "Op 24 maart 1999 brak in de tunnel brand uit in een Belgische vrachtwagen, met 39 doden. De tunnel bleef tot 9 maart 2002 dicht. Sindsdien ligt het beheer bij één entiteit en gelden strikte afstanden en groepsregels voor vrachtwagens. Wie een wagen uit het Aostadal laat komen, ziet dat terug in de manier waarop een transporter de tunnel in en uit gaat."
+        },
+        {
+          "kind": "plek",
+          "title": "E411 naar Sterpenich",
+          "body": "De E411/A4 (\"Autoroute des Ardennes\") is 188 km lang en verbindt Brussel via Waver, Namen en Aarlen met de Luxemburgse A6 bij Sterpenich. Voor wie uit Luxemburg komt, is dit de laatste Belgische etappe. De regio Namen en provincie Luxemburg is daarom de aankomstzone voor wagens die uit Italië via Luxemburg komen."
+        },
+        {
+          "kind": "plek",
+          "title": "DIV-antennes in Namen en Aarlen",
+          "body": "De DIV heeft in deze streek regionale antennes in Namen/Belgrade en Aarlen/Neufchâteau. Als het online inschrijven niet lukt en het dossier op afspraak naar de DIV moet, ligt een van deze loketten dicht bij de E411. Neem het originele buitenlandse inschrijvingsbewijs en het aanvraagformulier mee."
+        },
+        {
+          "kind": "tip",
+          "title": "Levering op het depot",
+          "body": "Uw wagen kan ook op het depot van Mcars in Roeselare (Moorseelsesteenweg 16B) worden afgeleverd, dat is 24/7 mogelijk en voordeliger. Wie het dossier met de keuring nog moet afronden, kan de wagen daar rustig overnemen en de keuringsafspraak zelf plannen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik de wagen aangeven vooraleer hij ingeschreven wordt?",
+          "a": "Ja. Een in het buitenland gekochte wagen moet u in België invoeren voor hij op uw naam kan staan. Daarvoor vraagt u de E705 aan via MyMinfin of bij een douanehulpkantoor. Daarna volgt de keuring met het buitenlandse inschrijvingsbewijs."
+        },
+        {
+          "q": "Welk papier van de Italiaanse verkoper is het belangrijkst?",
+          "a": "Het volledige, originele buitenlandse inschrijvingsbewijs, aangezien de verzekeringstussenpersoon de wagen daarmee online inschrijft. Ontbreekt een deel van het bewijs, dan loopt het dossier vast, ook als de wagen zelf in orde is."
+        },
+        {
+          "q": "Wat als de Mont Blanc-tunnel dicht is?",
+          "a": "Dan wijkt het grootste deel van het vrachtverkeer uit naar de Fréjus-tunnel. De ophaling blijft mogelijk, maar de route en de planning schuiven mee op. Houd daar rekening mee als u een vaste datum voor de keuring heeft."
+        },
+        {
+          "q": "Staat een Italiaanse wagen als tweedehands op de Car-Pass?",
+          "a": "Ja. Op de Car-Pass van een ingevoerde wagen staat dat hij tweedehands uit het buitenland komt, en de kilometerstanden van voor de Belgische inschrijving ontbreken meestal. Vraag de verkoper daarom een onderhoudshistoriek en foto's van de teller."
+        }
+      ],
+      "seoDescription": "Auto importeren van Italië naar België: Mont Blanc en Fréjus, Italiaanse rijverboden, E705, keuring en inschrijving bij de DIV. Vraag een offerte.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/italy",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/switzerland",
+        "https://www.lautomobile.aci.it/?p=37274",
+        "https://www.ilpost.it/2025/09/01/traforo-monte-bianco-chiuso/",
+        "https://fin.belgium.be/nl/particulieren/internationaal/voertuig-importeren",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-importeren/voertuig-ingevoerd-uit-de-eu",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/inschrijven/een-auto-inschrijven",
+        "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/keuring-van-tweedehandsvoertuigen-bij-verkoop-tweedehandskeuring",
+        "https://www.car-pass.be/nl/faq",
+        "https://www.vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/belasting-op-de-inverkeerstelling",
+        "https://nl.wikipedia.org/wiki/A4_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Dienst_voor_Inschrijvingen_van_Voertuigen"
+      ]
+    },
+    "italie-nederland": {
+      "lead": "Een klassieker op de Auto e Moto d'Epoca in Bologna, of een Italiaanse occasion uit de Emilia-Romagna, voor een Nederlandse koper. De wagen moet over de Brenner of de Gotthard, door Oostenrijk of Zwitserland en Duitsland, en komt aan bij een RDW-keuringsstation in Limburg. Dit is wat in Italië, onderweg en bij de RDW telt.",
+      "facts": [
+        {
+          "label": "A22 Brennerautosnelweg",
+          "value": "313 tot 315 km, ongeveer een derde zwaar verkeer, files gebruikelijk"
+        },
+        {
+          "label": "Gotthardtunnel",
+          "value": "16,9 km, één rijstrook per richting, 80 km/u, inhaalverbod"
+        },
+        {
+          "label": "RDW-keuring",
+          "value": "Afspraak nodig; origineel buitenlands kentekenbewijs en identiteitsbewijs meenemen"
+        },
+        {
+          "label": "Eendagskenteken",
+          "value": "Gratis, enkel met afspraak, geldt alleen op de keuringsdag"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Emilia-Romagna: waar de A1, A14 en A22 samenkomen",
+          "body": [
+            "Bij Modena sluit de A22 aan op de A1, bij Verona kruist ze de A4, en de A14 loopt langs de Adriatische kust. Wie in de Emilia-Romagna koopt, staat dus op het knooppunt van de routes naar het noorden. De regio heeft geen buitengrens; de rit naar Nederland begint met de A22 richting Brenner of met de A1 en A9 richting Chiasso en de Zwitserse A2.",
+            "Ligt de wagen bij een verkoper in de stad, vraag dan of het ophaaladres in een zone met beperkt verkeer ligt. Camera's tellen elke passage in een Italiaans stadscentrum, de boete volgt maanden later per post, en een hotel kan de plaat registreren. Dat is geen probleem als de wagen aan de rand wordt klaargezet."
+          ]
+        },
+        {
+          "heading": "De weg naar het noorden: Brenner of Gotthard",
+          "body": [
+            "Over de Brenner loopt de E45: de A22 in Italië, de A13 in Oostenrijk, van Bolzano naar Innsbruck. De pas ligt op ongeveer 1.375 m en geldt als de drukste Alpenroute voor vrachtverkeer. De A22 heeft maar twee rijstroken per richting; ongeveer een derde van het verkeer is zwaar en files zijn gebruikelijk.",
+            "Het alternatief is de Gotthard in Zwitserland. De wegtunnel is 16,9 km, heeft één buis met één rijstrook per richting, 80 km/u en een inhaalverbod. Na de brand van 2001 werd het aantal vrachtwagens beperkt tot maximaal 150 per uur. In 2023 was de tunnel enkele dagen dicht door een scheur in het plafond. Welke as een transporteur kiest, hangt van de dag, het verkeer en het adres af."
+          ]
+        },
+        {
+          "heading": "Rijverboden onderweg",
+          "body": [
+            "Italië verbiedt vrachtwagens boven 7,5 ton op zondag en feestdagen buiten de bebouwde kom; de bronnen verschillen over het begin van het verbod, dus kijk de actuele kalender na. Oostenrijk geeft een verbod van zaterdag 15 uur tot zondag 22 uur, en in de zomer gelden extra beperkingen op de Brennerroute.",
+            "Zwitserland laat vrachtwagens boven 3,5 ton op zon- en feestdagen de hele dag stilstaan en elke nacht van 22 tot 5 uur, zonder zaterdag- of zomerverbod. Duitsland heft Toll Collect vanaf 3,5 ton en kent een zondagsverbod van 0 tot 22 uur boven 7,5 ton. Een wagen die zaterdagavond wordt opgehaald, staat dus vaak ergens stil tot maandag."
+          ]
+        },
+        {
+          "heading": "De RDW-keuring in Limburg",
+          "body": [
+            "Wie een auto uit een EU-land invoert, maakt als eerste stap een afspraak bij een RDW-keuringsstation. Als aanvrager komt in aanmerking wie minstens 18 jaar is en in de BRP staat, of een rechtspersoon met KvK-inschrijving die in Nederland gevestigd is. Naar de keuring neemt u het originele buitenlandse kentekenbewijs en een geldig identiteitsbewijs mee; een Certificaat van Overeenstemming is optioneel.",
+            "In Limburg hebt u de stations in Elsloo en Venlo. Venlo ligt aan de A67 (E34) die in Duitsland de A40 wordt. Zolang u het Nederlandse kentekenbewijs nog niet hebt, is rijden met de auto na de keuring niet toegestaan."
+          ]
+        },
+        {
+          "heading": "Bpm, APK en wat de ANWB adviseert",
+          "body": [
+            "Valt de auto onder de APK-plicht en ontbreekt een geldige buitenlandse APK, dan laat u hem keuren zodra het kentekenbewijs binnen is. De RDW kan de vervaldatum van een geldige buitenlandse keuring overnemen op basis van het keuringsrapport, een vermelding op het kentekenbewijs of een sticker op de plaat. Na de keuring doet u bpm-aangifte bij de Belastingdienst; voor een gebruikte auto kan de bpm worden verlaagd met de koerslijst, een taxatierapport of de forfaitaire tabel, en de gekozen methode is definitief.",
+            "De ANWB raadt een koopcontract aan met koper, verkoper, chassisnummer, kilometerstand, datum eerste toelating, schadeverleden, bekende gebreken en de vermelding of het een ex-leaseauto was. Een opvallend lage bpm bij een dure importauto kan op grote schade wijzen. Zelf terugrijden op een buitenlands kenteken geeft geen recht op pechhulp van de Wegenwacht; wordt de auto op een transporter opgehaald, dan is geen kenteken nodig."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Auto e Moto d'Epoca in Bologna",
+          "body": "Deze beurs voor klassiekers en oldtimers vindt elk jaar in oktober plaats in BolognaFiere, met duizenden voertuigen te zien en te koop. Wie hier een wagen koopt, heeft meteen een verkoper en een koopcontract nodig, en een transport naar Nederland. Laat de papieren controleren voor u betaalt."
+        },
+        {
+          "kind": "event",
+          "title": "Automotoretrò in Parma",
+          "body": "Automotoretrò is een beurs voor historische auto's en motoren, onderdelen en automobilia, elk jaar in maart in Fiere di Parma. Wie van de beurs een wagen of onderdelen mee wil, laat die op een open autotransporter naar Nederland brengen in plaats van te rijden op een plaat die vervalt."
+        },
+        {
+          "kind": "tip",
+          "title": "ZTL en boetes per post",
+          "body": "In Italiaanse stadscentra tellen camera's elke passage in een ZTL. Per post ontvangt u de boete pas na enkele maanden tot bijna een jaar. Een Nederlandse koper die zelf een wagen komt ophalen, krijgt die boete dus pas thuis. Laat de wagen aan de rand van de zone overdragen en vraag de verkoper om bewijs van aanbetaling."
+        },
+        {
+          "kind": "plek",
+          "title": "RDW Elsloo en Venlo",
+          "body": "De RDW-keuringsstations in Elsloo en Venlo zijn open op werkdagen van 8 tot 17 uur en niet op feestdagen. Plan de keuring dus op een werkdag."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik de wagen met een tijdelijk kenteken zelf ophalen?",
+          "a": "Dat lukt vaak niet. Bij export vervalt het originele kenteken, en een tijdelijk kenteken geldt vaak alleen in het land van aankoop. Het eendagskenteken van de RDW geldt enkel in Nederland en alleen op de keuringsdag."
+        },
+        {
+          "q": "Wat moet er in het koopcontract staan?",
+          "a": "Gegevens van koper en verkoper, chassisnummer, kilometerstand, datum eerste toelating, schadeverleden, bekende gebreken en of de auto ex-lease of ex-huur was. Een handgeschreven, ondertekende verkoopovereenkomst is beter dan niets."
+        },
+        {
+          "q": "Heb ik een Certificaat van Overeenstemming nodig?",
+          "a": "Bij de RDW is het Certificaat van Overeenstemming optioneel bij de keuring van een auto uit een EU-land. Het kan de afhandeling wel vereenvoudigen, dus vraag de verkoper of de wagen er een heeft."
+        }
+      ],
+      "seoDescription": "Auto importeren uit Italië naar Nederland: Brenner of Gotthard, rijverboden, RDW-keuring in Limburg, bpm en koopcontract. Offerte binnen 24 uur.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.toll-collect.de/en/",
+        "https://www.evz.de/en/topics/transport/car/fines-abroad/ztl-italy/",
+        "https://www.autoemotodepoca.com/",
+        "https://www.automotoretro.it/",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/invoeren-binnen-europa",
+        "https://ondernemersplein.overheid.nl/internationaal-ondernemen/importeren/auto-importeren",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/tips-bij-invoer",
+        "https://www.anwb.nl/auto/importeren",
+        "https://www.rdw.nl/keuren/eendagskenteken-aanvragen",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://nl.wikipedia.org/wiki/Rijksweg_67",
+        "https://nl.wikipedia.org/wiki/Rijksweg_76"
+      ]
+    },
+    "italie-luxemburg": {
+      "lead": "Wie in Luxemburg woont en in Italië een wagen koopt, maakt een omweg over de Alpen: via de Fréjus, door de Elzas of over de Gotthard. In Luxemburg wacht dan een vaste volgorde van stappen, van gereserveerd nummer tot vignette 705. Dit is wat u in Italië, onderweg en bij de Luxemburgse diensten moet weten.",
+      "facts": [
+        {
+          "label": "Fréjus-tunnel",
+          "value": "12,9 km, tolweg, tweede koker sinds 2025 in gebruik"
+        },
+        {
+          "label": "A35 door de Elzas",
+          "value": "Tolvrij van Lauterbourg tot Saint-Louis bij Bazel"
+        },
+        {
+          "label": "Luxemburgs transitverbod",
+          "value": "Zaterdag 21.30 tot zondag 21.45 uur, vrachtwagens boven 7,5 ton"
+        },
+        {
+          "label": "Vignette 705",
+          "value": "Af te halen bij de douane in Howald of Diekirch"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in het noordwesten, met de Fréjus als poort",
+          "body": [
+            "Een wagen uit Piemonte of Valle d'Aosta verlaat Italië meestal door de Fréjus-tunnel, die Bardonecchia met Modane verbindt. De tweede koker van 12,9 km werd eind juli 2025 ingehuldigd; het is daarmee de langste wegtunnel met twee kokers van Europa, beheerd door SITAF aan Italiaanse en SFTRF aan Franse kant. De tunnel is een tolweg voor alle verkeer.",
+            "Voor een koper uit Luxemburg is de vraag vooral of de papieren kloppen. Een in het buitenland gekochte tweedehandswagen schrijft u enkel in als u in Luxemburg woont en in het nationaal register staat. De verkoper geeft een factuur mee of, bij een verkoop tussen particulieren, een door beide partijen getekend contract."
+          ]
+        },
+        {
+          "heading": "Twee assen naar het noorden: Elzas of Gotthard",
+          "body": [
+            "Er zijn twee gebruikelijke wegen. De ene loopt via Frankrijk en de A35 door de Elzas, de andere via de Gotthard in Zwitserland. De A35 is ongeveer 172 tot 180 km lang, tolvrij en loopt van Lauterbourg via Straatsburg, Colmar en Mulhouse naar Saint-Louis. Bij Straatsburg telt ze ongeveer 160.000 voertuigen per dag, met 70 km/u en regelmatig verzadiging in de spits; bij Bartenheim zijn er avondfiles van grensarbeiders.",
+            "De Gotthardtunnel is een buis met tegenliggers. Aan beide uiteinden zijn files de regel rond Pasen en tijdens de zomer. Zwitserland heft op alle wegen de LSVA voor voertuigen boven 3,5 ton, voor binnen- en buitenlandse voertuigen. Welke as wordt gekozen, is een logistieke afweging op de dag zelf."
+          ]
+        },
+        {
+          "heading": "Rijverboden: Italië, Zwitserland, Frankrijk en Luxemburg",
+          "body": [
+            "Italië verbiedt vrachtwagens boven 7,5 ton op alle buitenstedelijke wegen op zon- en feestdagen; in de zomer komt daar op bepaalde zaterdagen en vrijdagavonden een verbod bij. Een overtreding kost ook een schorsing van rijbewijs en kentekenbewijs van één tot vier maanden.",
+            "Zwitserland verbiedt voertuigen boven 3,5 ton op zondag en feestdagen van 0 tot 24 uur en elke nacht van 22 tot 5 uur. Een vrachtwagen die zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder. Frankrijk kent een weekendverbod en enkele zomerzaterdagen. Luxemburg verbiedt transit richting Frankrijk voor vrachtwagens boven 7,5 ton van zaterdag 21.30 uur tot zondag 21.45 uur, ook voor feestdagen."
+          ]
+        },
+        {
+          "heading": "De stappen in Luxemburg",
+          "body": [
+            "Guichet.lu geeft de volgorde: nummer reserveren bij de SNCA, platen laten maken, een BA-verzekering afsluiten, inklaren bij de ADA voor de vignette 705, kanselarijzegel betalen bij de AED, keuring indien nodig en daarna een afspraak bij de SNCA. Na bevestiging van het nummer krijgt u een ministeriële toelating per post en laat u de platen maken bij een erkende platenmaker. Luxemburgse platen zijn geel met zwarte tekens.",
+            "Voor de vignette 705 legt u originelen voor: het vorige inschrijvingsbewijs, het COC, de factuur met btw-nummer van de verkoper, het verzekeringsattest en uw nationaal identificatienummer; particulieren ook hun identiteitskaart of paspoort. Een buitenlands keuringsbewijs moet uit hetzelfde land komen als de buitenlandse inschrijving en in een officiële taal van Luxemburg zijn opgesteld of beëdigd vertaald."
+          ]
+        },
+        {
+          "heading": "Rijden vóór de inschrijving en belasting",
+          "body": [
+            "Tot de inschrijving rijdt de wagen enkel tussen het verkooppunt en de plaats van inschrijving of keuring, met rode platen of platen met het gereserveerde nummer, en onder dekking van een BA-verzekering. Rode platen huurt u bij de SNCA, bedoeld voor inwoners; ze gelden in Luxemburg, België en Nederland. Rijdt de wagen op een autotransporter, dan speelt dat tot aan de overdracht minder.",
+            "Een voorlopig belastingvignet van 30 dagen ontvangt u op het moment van inschrijving. De ADA berekent de verkeersbelasting; blijft ze meer dan 60 dagen onbetaald, dan kan de wagen worden geïmmobiliseerd. Bij een douanecentrum betaalt een particulier de Luxemburgse btw op een nieuwe wagen uit een andere EU-lidstaat, en daar wordt ook formulier 446-L ingediend."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Douanecentra in Howald en Diekirch",
+          "body": "De vignette 705 haalt u af bij de douane: het Centre douanier Luxembourg-Howald aan de Croix de Gasperich, of het Centre douanier Nord in Diekirch. Zonder dit document is de definitieve inschrijving van een ingevoerde wagen niet mogelijk."
+        },
+        {
+          "kind": "plek",
+          "title": "SNCA en SNCT in Sandweiler en Esch",
+          "body": "Het centrale SNCA-loket ligt in Sandweiler, waar ook een SNCT-keuringsstation zit. Een afspraak maakt u online en elk document legt u in origineel voor. In het zuiden vindt u een SNCA-loket en SNCT-station in Esch-sur-Alzette, en een tweede station in Livange."
+        },
+        {
+          "kind": "plek",
+          "title": "A3 naar de Franse grens",
+          "body": "De A3 loopt van de Croix de Gasperich over Bettembourg en Dudelange naar de Franse grens bij Zoufftgen en gaat daar over in de Franse A31 richting Metz. Het is de belangrijkste verbinding met Frankrijk. Een wagen uit Italië via Frankrijk komt hier Luxemburg binnen."
+        },
+        {
+          "kind": "tip",
+          "title": "Wagen uit Zwitserland",
+          "body": "Koopt u in Zwitserland of een ander land buiten de EU, dan zijn invoerrechten en btw verschuldigd. Met een T1-document worden rechten en btw geschorst tot in Luxemburg, maar daarvoor is een borg nodig, meestal via een douane-expediteur. Voor een Italiaanse wagen speelt dat niet, wel voor een omweg via een andere aankoopplaats."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik in Luxemburg wonen om een wagen in te schrijven?",
+          "a": "Ja. Alleen een koper die in Luxemburg woont en in het nationaal register staat, kan een in het buitenland aangekochte tweedehandswagen in Luxemburg laten inschrijven. De verkoper geeft een factuur of, tussen particulieren, een door beide partijen getekend contract mee."
+        },
+        {
+          "q": "Wat is de vignette 705?",
+          "a": "Een douanedocument dat nodig is voor de definitieve inschrijving van een ingevoerde wagen. U haalt het af in Howald of Diekirch, met onder meer het vorige inschrijvingsbewijs, het COC en de factuur van de verkoper."
+        },
+        {
+          "q": "Wat als de belasting niet betaald wordt?",
+          "a": "U krijgt bij de inschrijving een voorlopig belastingvignet van 30 dagen. U krijgt van de ADA het berekende bedrag aan verkeersbelasting, en na uw betaling komt het definitieve vignet. Blijft ze meer dan 60 dagen onbetaald, dan kan de wagen worden geïmmobiliseerd."
+        }
+      ],
+      "seoDescription": "Auto importeren van Italië naar Luxemburg: Fréjus, A35 of Gotthard, rijverboden, vignette 705, SNCA en SNCT. Vraag een offerte, antwoord binnen 24 uur.",
+      "sources": [
+        "https://mit.gov.it/node/20940",
+        "https://fr.wikipedia.org/wiki/Tunnel_routier_du_Fr%C3%A9jus",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://de.wikipedia.org/wiki/Leistungsabh%C3%A4ngige_Schwerverkehrsabgabe",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/italy",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/payer-taxe-vehicule-ue.html",
+        "https://snca.public.lu/fr/plaques/plaques-rouges.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/reimmatriculation-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/vehicule-demenagement-transfrontalier.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A3_(Luxembourg)",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/importation-vehicule-hors-ue.html"
+      ]
+    },
+    "italie-frankrijk": {
+      "lead": "Een Franse koper die in Italië een wagen vindt, rijdt hem niet zomaar over de grens. Vooraf moet het quitus fiscal geregeld zijn, de plaat moet geldig zijn en de CO2-malus kan alles duurder maken. De route loopt via Ventimiglia of onder de Alpen door, en de Franse en Italiaanse rijverboden spelen elk weekend mee.",
+      "facts": [
+        {
+          "label": "Quitus fiscal",
+          "value": "Vereist bij iedere wagen die in een ander EU-land gekocht werd"
+        },
+        {
+          "label": "Mont Blanc",
+          "value": "Verkort Frankrijk-Turijn met ongeveer 50 km"
+        },
+        {
+          "label": "Fréjus",
+          "value": "Maximale voertuighoogte 4,30 m, 70 km/u, 150 m afstand"
+        },
+        {
+          "label": "Franse weekendverbod",
+          "value": "Boven 7,5 ton: van zaterdag 22 uur tot zondag 22 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Hoe ver Frankrijk de Italiaanse aankoop volgt",
+          "body": [
+            "Voor de Franse inschrijving van elke wagen, nieuw of tweedehands, uit een ander EU-land is een quitus fiscal nodig, aan te vragen bij de belastingdienst van uw woonplaats. Voor de technische conformiteit volstaat het Europees certificaat van overeenstemming van de fabrikant, dat bestaat voor voertuigen tot 3,5 t met een eerste inschrijving na 1996. Zonder COC volgt een réception à titre isolé bij de Dreal van uw regio.",
+            "Een wagen uit het noordwesten van Italië is dus vooral een papieren kwestie. Vraag aan de verkoper het kentekenbewijs in origineel, de factuur, het COC en bewijs van de technische keuring."
+          ]
+        },
+        {
+          "heading": "Fréjus, Mont Blanc en de A40",
+          "body": [
+            "De Mont Blanc-tunnel (11,6 km, open sinds 1965) verkort de rit tussen Frankrijk en Turijn met ongeveer 50 km. Naar de tunnel loopt de A40, de Autoroute Blanche, van Mâcon naar Passy; daarna leidt de RN 205 naar Chamonix. Op de A40 liggen tolpunten in Viry, Nangy en Cluses, naast de tol van de tunnel zelf.",
+            "De Fréjus-tunnel (12,87 km) verwerkt volgens Wikipedia het grootste deel van het zware wegverkeer op deze Alpenroute. Er geldt 70 km/u en 150 m tussenafstand. De maximale voertuighoogte is 4,30 m; een open autotransporter met geladen wagens moet dat meten. Na de brand van 4 juni 2005 volgden meerdere korte sluitingen. Een Franse koper met een zware lading moet dus altijd een marge inbouwen."
+          ]
+        },
+        {
+          "heading": "Langs de kust: Ventimiglia en Menton",
+          "body": [
+            "Wie de kustroute neemt, rijdt via Ventimiglia, 7 km van de Frans-Italiaanse grens, met een aansluiting op de A10. Op vrijdag trekt de wekelijkse straatmarkt Fransen aan, waardoor er veel verkeer is. De A8 eindigt bij Menton in een tunnel op de Italiaanse grens en gaat daar over in de A10 richting Genua.",
+            "De Tenda-tunnel is geen optie. Voertuigen boven 3,5 t zijn er verboden, en een ANAS-verordening herhaalt dat verbod. Een autotransporter zit er ruim boven. Dat sluit de kortste weg in het zuiden van Piemonte voor ons uit."
+          ]
+        },
+        {
+          "heading": "Rijverboden in beide landen",
+          "body": [
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur, plus op feestdagen. In de zomer komen daar enkele extra zaterdagen bij van 7 tot 19 uur. Italië publiceert elk jaar een kalender van rijverboden voor voertuigen boven 7,5 ton buiten de bebouwde kom; in de zomer geldt het verbod ook op vrijdag en met langere uren, met een piek rond 15 augustus.",
+            "Beide raken ritten naar de Italiaanse kust en terug in de vakantieweken. Een wagen die vrijdagnamiddag in Piemonte wordt afgeleverd, rijdt zelden diezelfde dag door Frankrijk."
+          ]
+        },
+        {
+          "heading": "Platen, btw en CO2-malus",
+          "body": [
+            "Bij het binnenrijden van Frankrijk moeten de platen geldig zijn; anders kan de politie het voertuig immobiliseren. Zijn de buitenlandse platen niet meer geldig, dan rijdt de wagen met tijdelijke WW-platen en een voorlopig WW-certificaat. Sommige landen geven tijdelijke uitvoerplaten, andere eisen dat de wagen eerst uit het register wordt geschrapt; informeer bij het consulaat.",
+            "Een wagen is voor de btw nieuw bij niet meer dan 6.000 km of minder dan zes maanden na de eerste inschrijving. De CO2-malus is verschuldigd bij de eerste inschrijving in Frankrijk, ook voor tweedehandswagens uit het buitenland, en het bedrag daalt met de ouderdom. Wagens met een eerste buitenlandse inschrijving van vóór 1 januari 2015 zijn vrijgesteld, net als elektrische en waterstofvoertuigen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "A8 tussen Nice en Menton",
+          "body": "Tunnels en viaducten met stevige hellingen volgen elkaar op over de A8 tussen Nice en Menton. Vrachtwagens zijn in de tunnels beperkt tot 70 km/u en in juli en augustus is het druk. Een Italiaanse wagen die de kust volgt, komt hier door."
+        },
+        {
+          "kind": "plek",
+          "title": "A7 en de drukste dagen",
+          "body": "De A7 komt bij Marseille aan. De drukste dagen vallen tussen het laatste weekend van juli en het eerste van augustus; op drukke dagen wordt de snelheid verlaagd naar 110, 90 of 70 km/u. Bij Orange splitst de A9 af richting Spanje."
+        },
+        {
+          "kind": "regel",
+          "title": "WW-platen in roze",
+          "body": "WW-platen zijn bestemd voor voertuigen die op hun definitieve inschrijving wachten. Vanaf 2026 zijn ze roze en staat de vervaldatum van het voorlopige bewijs op de plaat. Een wagen die in Frankrijk aankomt zonder geldige platen, krijgt dus een WW-plaat."
+        },
+        {
+          "kind": "tip",
+          "title": "Btw terugvragen",
+          "body": "Heeft u btw betaald in zowel het land van aankoop als het land van inschrijving, dan vraagt u terugbetaling, eerst bij de verkoper en vervolgens bij de belastingdienst van het aankoopland. Houd de facturen bij, want zonder bewijs gaat dat niet."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat is een quitus fiscal?",
+          "a": "Een belastingattest dat u bij de belastingdienst van uw woonplaats aanvraagt voor elke wagen die in een ander EU-land is gekocht. Zonder dit document kan de Franse inschrijving niet door."
+        },
+        {
+          "q": "Welke malus betaal ik op een Italiaanse occasion?",
+          "a": "De CO2-malus is verschuldigd bij de eerste inschrijving in Frankrijk, ook voor tweedehandswagens uit het buitenland. Het bedrag daalt met de ouderdom; wagens van vóór 2015 en elektrische voertuigen zijn vrijgesteld. De inschrijvingsdatum bepaalt het tarief, niet de aankoopdatum."
+        },
+        {
+          "q": "Kan een autotransporter door de Tenda-tunnel?",
+          "a": "Nee. Voertuigen boven 3,5 t zijn in de nieuwe Tenda-tunnel verboden, ook volgens een ANAS-verordening. Een transporter kiest dus voor de Fréjus of Mont Blanc, of voor de kustroute langs Ventimiglia."
+        }
+      ],
+      "seoDescription": "Auto importeren van Italië naar Frankrijk: quitus fiscal, CO2-malus, WW-platen, Mont Blanc en Fréjus, rijverboden. Offerte op maat, antwoord binnen 24 uur.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://fr.wikipedia.org/wiki/Autoroute_A40_(France)",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/Ventimiglia",
+        "https://mit.gov.it/node/21641",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/traforo-del-frejus-costo-orari-e-chiusure/",
+        "https://protezionecivile.provincia.cuneo.it/_allegati/2026/04/nuova_ordinanza_ANAS.pdf",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F20992",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F35947",
+        "https://fr.wikipedia.org/wiki/Plaque_d%27immatriculation_fran%C3%A7aise",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_fr.htm",
+        "https://fr.wikipedia.org/wiki/Autoroute_A8_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)"
+      ]
+    },
+    "italie-duitsland": {
+      "lead": "Een wagen uit Zuid-Tirol, Trentino of de Po-vallei, bestemd voor een Duits kenteken. De rit loopt over de Brenner, langs Kufstein en de A93 naar München. Op die weg is vrachtverkeer beperkt, en bij Duitse inschrijving past het kenteken van de Italiaanse verkoper niet in het Duitse systeem. Dit is wat u moet weten voor u koopt.",
+      "facts": [
+        {
+          "label": "Winterbanden A22",
+          "value": "Verplicht van 15 november tot 15 april op de hele A22"
+        },
+        {
+          "label": "Blokafhandeling Kufstein",
+          "value": "Maximaal 250 vrachtwagens per uur zuidwaarts, daarna een rijstrook"
+        },
+        {
+          "label": "Kurzzeitkennzeichen",
+          "value": "Maximaal vijf dagen geldig; niet voor wagens uit een andere EU-lidstaat"
+        },
+        {
+          "label": "Toll Collect",
+          "value": "Duitse vrachtwagentol vanaf 3,5 ton, ook op Bundesstraßen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Trentino-Zuid-Tirol: de laatste Italiaanse kilometers",
+          "body": [
+            "De A22 Autostrada del Brennero is 313 km lang en loopt van de A1 bij Modena tot de Brennergrens. Ze kruist de A4 bij Verona en wordt beheerd door Autostrada del Brennero S.p.A. Winterbanden of kettingen aan boord moeten er zijn op de hele A22, van 15 november tot 15 april. Een wagen die u in die periode ophaalt, moet dus goed op de rit voorbereid zijn.",
+            "Vlak voor de Brenner, ongeveer bij km 299 bij Vipiteno, ligt de Autoporto Sadobre, een vrachtwagenparking. Daar staan transporters als er voor de grens gewacht moet worden. Net over de grens, op de Luegbrücke in Tirol, rijdt het verkeer in principe met één rijstrook per richting, omdat er ernaast een nieuwe brug wordt gebouwd; op drukke dagen gaan er twee open, en voertuigen boven 3,5 t nemen dan de binnenste strook."
+          ]
+        },
+        {
+          "heading": "Kufstein: de blokafhandeling",
+          "body": [
+            "Via de Duitse A8 en de A93 naar Kiefersfelden bereikt u bij Kufstein de Oostenrijkse A12. Bij blokafhandeling laat Tirol voertuigen boven 7,5 ton op de A12 zuidwaarts bij Kufstein-Nord een maximum van 250 vrachtwagens per uur toe. Dan blijft één rijstrook over en staan files tot op de A8 München–Salzburg. Welke dagen dat zijn, staat in een jaarlijkse dosierkalender.",
+            "Bij blokafhandeling geldt in Beieren een doorgangsverbod voor vrachtwagens richting Oostenrijk en de Brenner in plaatsen langs de A8 en A93, om sluipverkeer te vermijden. Voor een transporter betekent dat: op de snelweg blijven en wachten. Het Tiroolse sectorale rijverbod voor bepaalde goederen boven 7,5 ton werd bovendien in 2005 en 2011 door het Hof van Justitie als ongerechtvaardigde beperking van het vrije goederenverkeer beoordeeld."
+          ]
+        },
+        {
+          "heading": "Rijverboden in drie landen",
+          "body": [
+            "Italië verbiedt vrachtwagens boven 7,5 ton op zon- en feestdagen van 9 tot 22 uur, in de maanden juni tot september van 7 tot 22 uur, met zomervrijdagen van 16 tot 22 uur en enkele zomerzaterdagen. Voor voertuigen uit het buitenland met bewijs van herkomst en bestemming begint het verbod vier uur later.",
+            "Oostenrijk heeft een verbod van zaterdag 15 uur tot zondag 22 uur, met in de zomer een extra zaterdagverbod op toeristische routes. Duitsland verbiedt vrachtwagens op zon- en feestdagen van 0 tot 22 uur. Samen laten die regels een wagen die zaterdagochtend uit Bolzano vertrekt vaak ergens op de Brennerroute wachten."
+          ]
+        },
+        {
+          "heading": "Duitse inschrijving: geen Kurzzeitkennzeichen",
+          "body": [
+            "Wilt u een in het buitenland gekochte wagen zelf naar Duitsland brengen, dan moet hij ingeschreven en verzekerd zijn, wat het makkelijkst lukt met een uitvoerplaat uit het land van aankoop. Een Duits Kurzzeitkennzeichen kan niet worden gebruikt voor een wagen die in een andere EU-lidstaat gekocht is. Het is bovendien maximaal vijf dagen geldig en enkel voor proef-, keurings- en overbrengingsritten; er zijn wederzijdse afspraken met onder meer Italië, maar niet overal.",
+            "Voor de Duitse inschrijving zijn de buitenlandse voertuigpapieren en het COC nodig. Ontbreekt het COC, dan kan het bij de fabrikant opgevraagd worden; bestaat het niet, dan is een Vollgutachten van een keuringsinstantie zoals TÜV nodig (§ 21 StVZO). Bij een wagen van meer dan drie jaar oud wil de Zulassungsstelle het bewijs van een geldige periodieke keuring."
+          ]
+        },
+        {
+          "heading": "Papieren, btw en milieuplakette",
+          "body": [
+            "Tijdens de Duitse inschrijving neemt de Zulassungsbehörde het buitenlandse inschrijvingsbewijs af, houdt het zes maanden bij zich en brengt het Kraftfahrt-Bundesamt op de hoogte. Bestaat het bewijs uit twee delen en ontbreekt deel II, dan kan de wagen pas ingeschreven worden na een bevestiging van de buitenlandse autoriteit via het Kraftfahrt-Bundesamt. Op een nieuw voertuig uit een andere EU-lidstaat is Duitse btw verschuldigd, ook voor een particulier.",
+            "Fiscaal is een voertuig nieuw bij niet meer dan 6.000 km of niet langer dan zes maanden na de eerste ingebruikname. De Kfz-Steuer begint op de dag van inschrijving en wordt door de douane geïnd. Of de wagen een groene plakette krijgt, hangt af van de emissiesleutel in de Zulassungsbescheinigung Teil I (veld 14.1)."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Autoporto Sadobre bij Vipiteno",
+          "body": "De Autoporto Sadobre ligt bij Vipiteno (Sterzing), ongeveer op km 299 van de A22, vlak voor de Brenner. Het is een vrachtwagenparking waar chauffeurs wachten als de grens of de A12 vastzit. Voor een Duitse koper betekent het dat een rit uit Trentino een onvoorspelbare tussenstop kan hebben."
+        },
+        {
+          "kind": "regel",
+          "title": "Umweltzones in Beieren",
+          "body": "Beieren heeft Umweltzones in Augsburg, München en Regensburg; Neu-Ulm heeft de zijne opgeheven. In München geldt sinds februari 2023 een rijverbod voor oudere diesels binnen de Mittlerer Ring, met uitzonderingen voor onder meer bewoners en leveringen. Een oudere Italiaanse diesel moet dus eerst bekijken of de plakette lukt."
+        },
+        {
+          "kind": "plek",
+          "title": "A93 naar Kiefersfelden",
+          "body": "Het zuidelijke deel van de A93 loopt van Dreieck Inntal (A8) naar de grensovergang Kiefersfelden en gaat daar over in de Oostenrijkse A12 richting Innsbruck. Het is de weg naar de Brenner en naar Italië, en ook de weg waarlangs de wagens uit Zuid-Tirol Beieren binnenkomen."
+        },
+        {
+          "kind": "tip",
+          "title": "Wagen zonder COC",
+          "body": "Een COC ontbreekt meestal bij auto's van vóór 1996, bij omgebouwde voertuigen en bij voertuigen uit landen buiten de EU. Vraag de Italiaanse verkoper om een Europees gelijkvormigheidsattest voor de koop, want een Vollgutachten van TÜV of DEKRA kost tijd en werk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een Duits Kurzzeitkennzeichen gebruiken?",
+          "a": "Nee, niet voor een wagen die in een andere EU-lidstaat gekocht is. Het is een nationale plaat, hoogstens vijf dagen geldig, en dient enkel voor proef-, keurings- en overbrengingsritten. Gebruik een uitvoerplaat van het land van aankoop."
+        },
+        {
+          "q": "Wanneer is een Vollgutachten nodig?",
+          "a": "Als er geen COC bestaat, bijvoorbeeld bij een wagen van vóór 1996 of een omgebouwd voertuig. Een keuringsinstantie zoals TÜV of DEKRA maakt dan het rapport op volgens § 21 StVZO. Voor wagens van buiten de EU geldt dat rapport enkel in Duitsland."
+        },
+        {
+          "q": "Wat is de blokafhandeling bij Kufstein?",
+          "a": "Een maatregel van Tirol om de A12 zuidwaarts te beperken: voertuigen boven 7,5 ton krijgen een maximum per uur toegelaten. Er blijft één rijstrook over en de file reikt tot op de A8 München–Salzburg."
+        }
+      ],
+      "seoDescription": "Auto importeren uit Italië naar Duitsland: Brenner, blokafhandeling Kufstein, rijverboden, COC en Vollgutachten, Kurzzeitkennzeichen. Offerte binnen 24 uur.",
+      "sources": [
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://de.wikipedia.org/wiki/Luegbr%C3%BCcke",
+        "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+        "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://www.evz.de/reisen-verkehr/auto/ueberfuehrung-und-zulassung.html",
+        "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+        "https://www.buzer.de/s1.htm?a=8&g=FZV&dorg=1",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/kurzzeitkennzeichen/",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/kraftfahrzeugsteuer_node.html",
+        "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/fahrverbote-umweltzonen/umweltplaketten/",
+        "https://gis.uba.de/website/umweltzonen/index.php",
+        "https://de.wikipedia.org/wiki/Dieselfahrverbot",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_93"
+      ]
+    },
+    "italie-spanje": {
+      "lead": "Een wagen gekocht aan de kust van Toscane of in Lazio, bestemd voor een Spaanse inschrijving in Catalonië. De rit loopt via de Ligurische kust, Frankrijk en de AP-7. In Spanje geldt een vaste volgorde: de wagen moet eerst in Italië zijn uitgeschreven, dan volgen ITV, belasting en inschrijving. Dit vertelt waar het misloopt.",
+      "facts": [
+        {
+          "label": "Autostrada dei Fiori",
+          "value": "A10: 158 km, 78 tunnels tussen Genua en Nice"
+        },
+        {
+          "label": "Spaanse registratiebelasting",
+          "value": "Eenmalig, gekoppeld aan de CO2-uitstoot"
+        },
+        {
+          "label": "Groene platen",
+          "value": "60 dagen voor wagens die nog niet definitief ingeschreven zijn"
+        },
+        {
+          "label": "Uitschrijving",
+          "value": "De DGT vraagt eerst uitschrijving in het land van herkomst"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Lazio of aan de Toscaanse kust",
+          "body": [
+            "Civitavecchia, de haven van Rome, heeft veerlijnen naar Barcelona, Tunis, Sardinië en Sicilië met Tirrenia, Grimaldi Lines en GNV. Wie in de buurt van Rome koopt, ziet dus dat de wagen op zee naar Spanje kan. Een autotransporter van Mcars rijdt over de weg, via de Ligurische kust en Frankrijk. Livorno heeft een ro-ro-autoterminal met opslag voor 6.000 wagens, een teken dat veel wagens daar via de zee in en uit gaan.",
+            "Rond Rome ligt de Grande Raccordo Anulare (A90), de tolvrije ring van 68,2 km met zes rijstroken. De Fascia Verde binnen de GRA is van maandag tot zaterdag verboden voor benzine- en dieselwagens die onder een oudere emissienorm vallen. Een oudere wagen die in Rome staat, gaat dus niet zonder meer de stad in."
+          ]
+        },
+        {
+          "heading": "De weg: A10, A8, A9 en AP-7",
+          "body": [
+            "De Italiaanse A10, de Autostrada dei Fiori, is 158 km lang tussen Genua en Nice, telt 78 tunnels en behoort tot de duurste tolwegen van Italië. Tussen Albisola en Genua-Voltri geldt 80 km/u. Een deel van de Morandibrug bij Genua zakte op 14 augustus 2018 in elkaar. Aan de grens wordt de A10 de Franse A8, de Provençale van 224 km, met tolpleinen onder meer bij La Barque, Antibes, Nice-Saint-Isidore en La Turbie.",
+            "Bij Orange sluit de A9 (280,5 km) aan op de A7; ze is een tolweg van ASF. Aan de Franse grens bij La Jonquera gaat ze over in de Spaanse AP-7, 1.007 km langs de Middellandse Zee."
+          ]
+        },
+        {
+          "heading": "Rijverboden en wegbeperkingen",
+          "body": [
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur, uitgebreid in vakantieperiodes. Italië geeft verbodsregels voor zondagen en zomervrijdagen en voor geselecteerde zomerzaterdagen. Bij aankomst uit het buitenland start het verbod vier uur later, op voorwaarde dat u bewijs van herkomst en bestemming hebt.",
+            "Spanje kent beperkingen voor voertuigen boven 7.500 kg op bepaalde wegen en data, onder meer op de N-230 richting de Franse grens op vrijdagavonden in de winter. Ook aan de Spaanse kant bestaat dus een rijkalender."
+          ]
+        },
+        {
+          "heading": "Uitschrijven in Italië, inschrijven in Spanje",
+          "body": [
+            "Alleen de titularis kan een buitenlandse wagen in Spanje laten inschrijven. Het voertuig moet eerst in het land van herkomst voor export zijn uitgeschreven, zo vraagt de DGT. Vraag de Italiaanse verkoper dus vóór de overdracht naar het bewijs van uitschrijving; zonder dat bewijs vraagt Spanje om meer.",
+            "Eerste stap in Spanje is de ITV: het keuringsstation controleert wagen en papieren. Op te halen en mee te nemen: het inschrijvingsbewijs van het land van herkomst en een homologatiebewijs. Dat kan het Europese gelijkvormigheidsattest zijn, een ficha reducida van een ingenieur, of voor voertuigen van vóór 2002 een vooraf opgemaakte individuele homologatie. Een geldig keuringsbewijs van een andere EU-lidstaat wordt erkend, zolang het geldig is volgens de Spaanse frequenties."
+          ]
+        },
+        {
+          "heading": "Belasting, platen en rijden vóór de inschrijving",
+          "body": [
+            "Eenmalig en afhankelijk van de CO2-uitstoot is de registratiebelasting (Impuesto de Matriculación). Betaling, vrijstelling of niet-onderworpenheid bewijst u met modelo 576, 06 of 05 van de AEAT; in Baskenland en Navarra via de eigen Hacienda Foral. Voor een nieuw voertuig uit een andere EU-lidstaat moet de btw in Spanje aangetoond worden met modelo 309 of 300.",
+            "Zolang de wagen niet in Spanje is ingeschreven, mag er niet mee gereden worden, behalve met nog geldige tijdelijke platen uit het land van herkomst en een verzekering. De groene tijdelijke platen gelden 60 dagen voor wagens die nog niet definitief ingeschreven zijn. De nummerplaten koopt de eigenaar na de inschrijving bij een gespecialiseerde winkel; daarna volgt de verplichte verzekering."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Haven van Tarragona",
+          "body": "In de haven van Tarragona behandelen drie terminals voertuigen, met stockage voor 47.000 wagens. Meer dan de helft van de wagens komt of vertrekt per spoor, historisch gaat het om export naar het Middellandse Zeegebied en import uit het Verre Oosten. Een Italiaanse wagen die daar aankomt, gaat vaak nog een stuk over de weg."
+        },
+        {
+          "kind": "regel",
+          "title": "ZBE van Barcelona",
+          "body": "Een metropolitaan register voor buitenlandse en andere toegelaten voertuigen regelt de toegang tot de lage-emissiezone van Barcelona. De voorwaarden staan in het reglement van dat register; kijk ze na vóór u een wagen naar Barcelona laat brengen. Dat geldt ook voor een wagen die u van een Italiaanse verkoper overneemt."
+        },
+        {
+          "kind": "plek",
+          "title": "Andorra via de N-145",
+          "body": "Slechts één weg is toegelaten tussen Spanje en Andorra: de N-145 door het Valira-dal, tussen La Seu d'Urgell en Sant Julià de Lòria, met de douanepost in La Farga de Moles. Wie een wagen in Italië koopt voor een adres in Andorra, passeert dus de Catalaanse Pyreneeën."
+        },
+        {
+          "kind": "tip",
+          "title": "Stalling in Lazio",
+          "body": "Ligt de verkoper in Lazio of Abruzzo en moet de wagen uit een garage worden gehaald, dan ligt de ZTL VAM van Rome voor voertuigen langer dan 7,5 m dicht van 5 tot 24 uur. Een autotransporter komt het centrum dus niet in. Spreek een plek aan de rand af."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik de wagen zelf naar Spanje rijden?",
+          "a": "Een wagen zonder Spaanse inschrijving mag niet gebruikt worden om mee te rijden. Wel toegestaan zijn nog geldige tijdelijke platen uit het land van herkomst, als de wagen verzekerd is. Een wagen die op een transporter staat, speelt daar minder."
+        },
+        {
+          "q": "Wat is rehabilitación?",
+          "a": "Had de wagen vroeger al Spaanse platen, dan kan via rehabilitación de oude plaat weer terugkomen. Een wagen die nooit in Spanje ingeschreven was, krijgt een nieuwe plaat via matriculación."
+        },
+        {
+          "q": "Wat doet de ITV bij een Italiaanse wagen?",
+          "a": "De ITV controleert de wagen en de papieren en maakt de Spaanse ITV-fiche op. U brengt het Italiaanse inschrijvingsbewijs en een homologatiebewijs mee, zoals het COC."
+        }
+      ],
+      "seoDescription": "Auto importeren van Italië naar Spanje: A10 en AP-7, uitschrijving in Italië, ITV, registratiebelasting en groene platen. Offerte op maat, binnen 24 uur.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Port_of_Civitavecchia",
+        "https://en.wikipedia.org/wiki/Port_of_Livorno",
+        "https://en.wikipedia.org/wiki/Grande_Raccordo_Anulare",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/ztl-roma-orari-mappa-e-permessi/",
+        "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/A8_autoroute",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricula-temporal-placas-verdes/",
+        "https://www.porttarragona.cat/es/servicio-negocio/negocio/traficos/vehiculos",
+        "https://www.zbe.barcelona/es/zones-baixes-emissions/la-zbe.html",
+        "https://es.wikipedia.org/wiki/Frontera_entre_Andorra_y_Espa%C3%B1a"
+      ]
+    },
+    "italie-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU. Een wagen uit Italië bereikt de grens bij Chiasso of in de bergen en moet daar aangegeven worden, met een e-dec en een koopfactuur. Daarna beslist elk kanton zelf over de termijn voor de inschrijving. Wat u in Lombardije, onderweg en bij de Zwitserse douane moet regelen, leest u hier.",
+      "facts": [
+        {
+          "label": "Gotthard",
+          "value": "16,9 km, één buis, maximaal 150 vrachtwagens per uur"
+        },
+        {
+          "label": "Invoerrechten",
+          "value": "Op wegvoertuigen vervallen, aangifte blijft verplicht"
+        },
+        {
+          "label": "e-dec",
+          "value": "Tot 30 dagen vóór de grensoverschrijding op te maken"
+        },
+        {
+          "label": "Inschrijvingstermijn",
+          "value": "Zürich één maand, Graubünden drie maanden na invoer"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Lombardije en de Brogeda-grens",
+          "body": [
+            "Over 31,5 km voert de A9 van Lainate bij Milaan langs Como naar de Zwitserse grens. De Italiaanse douanepost ligt in Como Brogeda; daar sluit de weg aan op de Zwitserse A2 naar Lugano, de Gotthard en de San Bernardino. Een wagen uit Lombardije verlaat Italië dus meestal bij Chiasso, de zuidelijkste gemeente van Zwitserland, die leeft van transit, douane en expeditiebedrijven.",
+            "De A36 Pedemontana Lombarda is free flow: portalen lezen de plaat en wie geen badge heeft, betaalt zelf achteraf. Livigno is een belastingvrije zone zonder Italiaanse btw. Wie vandaar naar de rest van Italië rijdt, passeert een controle van de Guardia di Finanza. De toegang loopt via de Foscagnopas, de Forcola di Livigno in de zomer of de Munt la Schera-tunnel in Zwitserland."
+          ]
+        },
+        {
+          "heading": "Gotthard, San Bernardino en de bergpassen",
+          "body": [
+            "De Gotthard-wegtunnel (Göschenen–Airolo, 16,9 km, geopend 5 september 1980) heeft één buis met één rijstrook per richting en een limiet van 80 km/u. Na de brand van 24 oktober 2001 mogen maximaal 150 vrachtwagens per uur binnen. In september 2023 was hij enkele dagen dicht na een scheur in het plafond. De Gotthardpas is alleen in de zomer open.",
+            "De San Bernardino-tunnel is het alternatief; de pasweg is alleen van mei tot november open. De Grote Sint-Bernhardtunnel (5.798 m) verbindt Martigny met Aosta, met tolklassen volgens assen en hoogte en 80 km/u; de pas is gewoonlijk van oktober tot mei dicht, de tunnel altijd open. De Simplonpas (2.006 m) wordt het hele jaar open gehouden."
+          ]
+        },
+        {
+          "heading": "Rijverboden langs de route",
+          "body": [
+            "Zwitserland verbiedt voertuigen boven 3,5 ton, opleggertrekkers boven 5 ton en voertuigen met aanhangwagen boven 3,5 ton op zondag en 's nachts van 22 tot 5 uur. Uitzonderingen verleent het kanton van binnenkomst. Italië heeft een jaarkalender van rijverboden voor voertuigen boven 7,5 ton, met zomerverboden ook op vrijdag en zaterdag, met een piek op 15 augustus van 7 tot 22 uur.",
+            "Voor een wagen die zaterdag wordt aangekocht, betekent het dat hij meestal pas maandag de grens over kan."
+          ]
+        },
+        {
+          "heading": "Aangifte aan de Zwitserse douane",
+          "body": [
+            "Sinds 1 januari 2024 heft Zwitserland geen invoerrechten meer op industriële goederen, waaronder wegvoertuigen. De wagen moet wel aangegeven worden. Bij de aangifte brengt u mee: de elektronische douaneaangifte (e-dec), factuur of koopcontract, het inschrijvingsbewijs (ook als het al geannuleerd is) en een identiteitsbewijs. Tot 30 dagen voor de grensoverschrijding kunt u de e-dec opmaken in de gratis webtoepassing van de Zwitserse douane.",
+            "Bij het grenskantoor meldt u een wagen die u in het buitenland kocht tijdens de openingsuren aan. Inklaren in het binnenland kan met een Vormerkschein 15.25, die u aan de grens aanvraagt. De douane raadt een douane-expediteur aan. Bij twijfelachtige of ontbrekende waardeopgave mag het kantoor de waarde zelf schatten. Zwitserse invoer kent ook een automobielbelasting en btw, naast de aangifte."
+          ]
+        },
+        {
+          "heading": "Inschrijving per kanton: COC, CO2 en uitlaatgas",
+          "body": [
+            "Of er een elektronisch COC bestaat, ziet u in het ASTRA-portaal aan de hand van het chassisnummer. Zo niet, dan is een papieren COC van dealer of fabrikant nodig; dat bestaat enkel voor voertuigen met EG-typegoedkeuring en garandeert de toelating niet. Elk kanton hanteert een eigen inschrijvingstermijn voor een in het buitenland gekochte wagen: Zürich telt één maand vanaf de invoerdatum, Graubünden drie maanden.",
+            "Voor nieuwe wagens die de CO2-doelwaarde overschrijden, is een sanctie verschuldigd, achteraf geïnd door het Bundesamt für Energie. Vrijgesteld zijn wagens die meer dan 12 maanden voor de aangifte in het buitenland werden ingeschreven, en wagens die meer dan 6 maanden ingeschreven waren en meer dan 5.000 km hebben. Wagens uit ongeveer 1976 tot 2006 vragen een Abgaswartungsdokument, tenzij OBD ze vrijstelt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Chiasso",
+          "body": "De Zwitserse A2 loopt in Chiasso door als de Italiaanse A9 naar Como en Milaan. De gemeente leeft van transit, douane en expeditiebedrijven. Voor een wagen die hier wordt aangegeven, zijn douane-expediteurs vlakbij, wat tijd scheelt als de e-dec nog niet klaar is."
+        },
+        {
+          "kind": "regel",
+          "title": "Samnaun buiten het douanegebied",
+          "body": "Samnaun ligt buiten het Zwitserse douanegebied. De hoofdtoegang loopt over Oostenrijks grondgebied via Spiss; de weg over Zwitsers grondgebied vanaf Vinadi is beperkt tot voertuigen van maximaal 2,3 m breed en 3,0 m hoog en niet wintervast. Een autotransporter kan daar dus niet door."
+        },
+        {
+          "kind": "plek",
+          "title": "Strassenverkehrsamt Graubünden",
+          "body": "Het Strassenverkehrsamt Graubünden zit in Chur, met keuringsstations in onder meer Davos, Ilanz, Thusis, Samedan, Scuol, Müstair, Roveredo en het Val Poschiavo. Een geïmporteerde wagen kan dus ook in het Engadin gekeurd worden."
+        },
+        {
+          "kind": "tip",
+          "title": "Area C in Milaan",
+          "body": "Area C is de zone binnen de Cerchia dei Bastioni in Milaan, ongeveer 8 km² met 43 camerapoorten. Ze is op weekdagen overdag betalend voor elk voertuig, diesels tot en met de oudste normen en privévoertuigen langer dan 7 m mogen er niet in. Een ophaling in het centrum doet u dus aan de rand."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik de wagen echt aangeven aan de Zwitserse grens?",
+          "a": "Ja. Zwitserland ligt buiten het douane- en belastinggebied van de EU, en de wagen moet worden aangegeven, ook al zijn de invoerrechten sinds 2024 vervallen. Neem factuur, inschrijvingsbewijs en identiteitsbewijs mee."
+        },
+        {
+          "q": "Hoe lang heb ik om de wagen in te schrijven?",
+          "a": "Dat verschilt per kanton. Een maand na de invoerdatum verstrijkt de termijn in Zürich, drie maanden in Graubünden. Kijk de termijn dus na bij het kanton van uw woonplaats."
+        },
+        {
+          "q": "Is er een alternatief voor de Gotthard?",
+          "a": "Ja: de San Bernardino-tunnel, de Grote Sint-Bernhardtunnel en de Simplonpas. De Gotthardpas is alleen in de zomer open, de San Bernardino-pas van mei tot november en de Sint-Bernhardpas gewoonlijk van oktober tot mei dicht."
+        }
+      ],
+      "seoDescription": "Auto importeren van Italië naar Zwitserland: Chiasso en Gotthard, e-dec aan de douane, COC en inschrijving per kanton. Vraag een offerte binnen 24 uur.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Autostrada_A9_(Italy)",
+        "https://en.wikipedia.org/wiki/Livigno",
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://www.tcs.ch/it/camping-viaggi/informazioni-turistiche/utile-da-sapere/costi-di-viaggio-e-pedaggi/free-flow-pedemontana.php",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/San_Bernardino_Pass",
+        "https://en.wikipedia.org/wiki/Great_St_Bernard_Tunnel",
+        "https://en.wikipedia.org/wiki/Simplon_Pass",
+        "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+        "https://mit.gov.it/node/21641",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/import-export/fahrzeugexport-schweiz/",
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://www.zh.ch/de/mobilitaet/fahrzeuge-kontrollschilder/import-fahrzeuge.html",
+        "https://www.gr.ch/DE/institutionen/verwaltung/djsg/stva/fahrzeugausweis/Seiten/import.aspx",
+        "https://de.wikipedia.org/wiki/Chiasso",
+        "https://de.wikipedia.org/wiki/Samnaun",
+        "https://www.gr.ch/DE/institutionen/verwaltung/djsg/stva/ueberuns/Seiten/Standorte.aspx"
+      ]
+    },
+    "italie-oostenrijk": {
+      "lead": "Wie een wagen in Zuid-Tirol of Trentino koopt voor een Oostenrijks adres, rijdt over de Brenner zonder een eigenlijke grens te zien. Papierwerk is er wel: NoVA, Genehmigungsdatenbank en een Einzelgenehmigung als de wagen geen EU-goedkeuring heeft. Dit zijn de punten die verkopers in Italië vaak niet kennen.",
+      "facts": [
+        {
+          "label": "Brennerpas",
+          "value": "Ongeveer 1.370 m, E45: A22 in Italië, A13 in Oostenrijk"
+        },
+        {
+          "label": "NoVA",
+          "value": "Betalen vóór de inschrijving, zelf berekend met formulier NoVA 2"
+        },
+        {
+          "label": "Transitplaat",
+          "value": "Maximaal vier weken geldig, de vroegste termijn telt"
+        },
+        {
+          "label": "Zuid-Tirol",
+          "value": "Pinkstermaandag is er een lokale feestdag"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Trentino-Zuid-Tirol: de Brennerroute",
+          "body": [
+            "De Brennerpas ligt op ongeveer 1.370 m op de E45: de A22 in Italië, de A13 in Oostenrijk, van Innsbruck over Bolzano en Verona tot bij Modena. De A22 is 313 km lang, loopt van de A1 bij Modena tot de Brennergrens en kruist de A4 bij Verona. Ongeveer een derde van het verkeer is zwaar. Autostrada del Brennero S.p.A. is de beheerder.",
+            "In Zuid-Tirol is pinkstermaandag een lokale feestdag, naast de nationale. Een ophaling in die regio plant u dus niet op die dag. De A22 werd in 1959 opgericht en kreeg in 1961 een concessie; de Europabrücke aan Oostenrijkse kant dateert van 1963."
+          ]
+        },
+        {
+          "heading": "Rijverboden en tol op de Brenner",
+          "body": [
+            "Oostenrijk heeft een verbod van zaterdag 15 uur tot zondag 22 uur boven 7,5 ton en jaarrond een nachtverbod van 22 tot 5 uur. Op zaterdagen in de zomer gelden verboden van 8 tot 15 uur op Tiroolse omleidingsroutes. Tirol kent ook een sectoraal rijverbod voor bepaalde goederen, zoals papier, cement en graan, boven 7,5 ton. Italië publiceert een kalender van rijverboden boven 7,5 ton buiten de bebouwde kom, met zomeruitbreiding op vrijdag.",
+            "De Brenner is een Sondermautstrecke in de Oostenrijkse GO-Maut voor voertuigen boven 3,5 ton, met hogere tarieven en een nachttarief van 22 tot 5 uur. Alternatief via het oosten is de A10 Tauernautobahn (192,7 km, Salzburg–Villach, met de Tauern- en Katschbergtunnel); de Italiaanse aansluiting bij Tarvisio hebben wij niet nagekeken."
+          ]
+        },
+        {
+          "heading": "Kopen, belasten, inschrijven: de Oostenrijkse volgorde",
+          "body": [
+            "Voor de belasting geldt een wagen als nieuw bij minder dan 6.000 km of minder dan zes maanden na de eerste ingebruikname; gebruikt is hij pas bij meer dan 6.000 km én meer dan zes maanden. Bij een gebruikte wagen uit een ander EU-land wordt de btw aan de buitenlandse verkoper betaald en komt er in Oostenrijk geen btw bij. Voor een nieuwe wagen geldt geen btw in het land van aankoop, wel de Oostenrijkse Erwerbsteuer.",
+            "De registratiebelasting NoVA betaalt u in beide gevallen vóór de inschrijving aan het bevoegde Finanzamt; wie de wagen voor het eerst op zijn naam laat zetten, berekent ze zelf met formulier NoVA 2. Ook schenking, erfenis en verhuizing gelden als invoer waarop NoVA verschuldigd is. Voor gebruikte wagens uit de EU of EER wordt ze berekend volgens de regels van de dag van de eerste inschrijving."
+          ]
+        },
+        {
+          "heading": "Documenten van de Italiaanse verkoper",
+          "body": [
+            "Oostenrijk noemt zelf wat de verkoper moet meegeven: koopcontract of betaalde factuur, de originele buitenlandse voertuigpapieren, het EU-conformiteitsattest, en garantiekaart, onderhoudsboekje en handleiding. Koopt u van een particulier, dan adviseert de overheid het koopcontract te laten bekrachtigen door een rechtbank of notaris.",
+            "Rijden op een buitenlandse uitvoer- of transitplaat mag in Oostenrijk zolang die geldig is, maar hoogstens vier weken; bij wachttijden bij de overheid komen er vier weken bij. Zowel de buitenlandse als de Oostenrijkse termijn is van kracht, en de eerste die afloopt telt. De groene Oostenrijkse overbrengingsplaat kan in het buitenland problemen geven, dus regelt u de transitplaat via de buitenlandse verkoper. Als alternatief wordt vervoer op een aanhangwagen met name vermeld."
+          ]
+        },
+        {
+          "heading": "Typegoedkeuring en keuring",
+          "body": [
+            "Hoewel een wagen met EU-typegoedkeuring geen Oostenrijkse goedkeuring nodig heeft, kan hij pas ingeschreven worden zodra zijn gegevens in de Genehmigungsdatenbank staan. Dat invoeren komt toe aan de Generalimporteur van het merk, en de Landeshauptmann doet het als die niet of te laat handelt. Zonder EU-typegoedkeuring is een Einzelgenehmigung nodig bij de Technische Prüfstelle van de deelstaat waar de eigenaar zijn hoofdverblijf heeft, met onder meer een eigendomsbewijs en foto's.",
+            "Ook bij een langer geldige buitenlandse keuring is de Oostenrijkse keuringstermijn bepalend. Een gebruikte wagen die aan keuring toe is, kan alleen ingeschreven worden met een geldig positief keuringsverslag. Douanerechten voor voertuigen bestaan niet tussen EU-landen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Tirol: A13 over de Brenner",
+          "body": "Tirol grenst aan Italië via de A13 over de Brennerpas, via de Reschenpass op de B180 en via het Timmelsjoch, dat enkel in de zomer open is. Meestal rijdt verkeer uit België en Duitsland binnen via Kufstein of via de Fernpass vanuit Reutte. Voor een Italiaanse wagen is de A13 het logische vervolg van de A22."
+        },
+        {
+          "kind": "plek",
+          "title": "Kärnten en Tarvisio",
+          "body": "Kärnten grenst aan Italië bij Tarvisio en via de Plöckenpass bij Kötschach-Mauthen naar Friuli, en aan Slovenië via de A11 en de Karawankentunnel. Verkeer uit Duitsland komt over Salzburg en de A10 naar Knoten Villach. Wie in Friuli koopt, kan zo ook oostelijk Oostenrijk bereiken."
+        },
+        {
+          "kind": "regel",
+          "title": "Grensverkeer en controles",
+          "body": "Aan de Brenner waren de douane- en immigratieposten sinds 1997 weg, maar Oostenrijk voerde in 2015 weer grenscontroles in; kijk de actuele stand na. Daarom is het verstandig papieren van wagen en chauffeur bij de hand te hebben, ook al is er geen vaste grens."
+        },
+        {
+          "kind": "tip",
+          "title": "Meldplicht bij afwijkingen",
+          "body": "Bij de Landesprüfstelle meldt u onverwijld dat een ingevoerde wagen afwijkt van de seriestaat op een manier die de verkeers- of bedrijfsveiligheid of het milieu kan raken. Dat geldt bijvoorbeeld voor een omgebouwde sportwagen uit Italië."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat is de NoVA?",
+          "a": "De Normverbrauchsabgabe is de Oostenrijkse registratiebelasting. U betaalt ze vóór de inschrijving aan het Finanzamt, berekend met formulier NoVA 2 op de dag van de eerste inschrijving."
+        },
+        {
+          "q": "Welke documenten moet de verkoper meegeven?",
+          "a": "Het koopcontract of de betaalde factuur, de originele buitenlandse voertuigpapieren, het COC, en garantiekaart, onderhoudsboekje en handleiding. Bij een particulier raadt Oostenrijk aan het contract te laten bekrachtigen."
+        },
+        {
+          "q": "Mag ik met een Italiaanse plaat rijden?",
+          "a": "Op een buitenlandse uitvoer- of transitplaat mag u in Oostenrijk rijden zolang die geldig is, maximaal vier weken, plus eventueel vier weken bij wachttijden. De vroegste termijn telt."
+        }
+      ],
+      "seoDescription": "Auto importeren van Italië naar Oostenrijk: Brenner, rijverboden, NoVA, Genehmigungsdatenbank en transitplaat. Vraag een offerte, antwoord binnen 24 uur.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://it.wikipedia.org/wiki/Festività_in_Italia",
+        "https://trans.info/de/oesterreich-lkw-fahrverbote-2026-479461",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://mit.gov.it/node/21641",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/Seite.061510",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061522",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061521",
+        "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/normverbrauchsabgabe-nova.html",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061523",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061524",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/13/Seite.061610",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/9/Seite.063509",
+        "https://de.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://de.wikipedia.org/wiki/Reschenpass",
+        "https://de.wikipedia.org/wiki/Pl%C3%B6ckenpass"
+      ]
+    },
+    "italie-polen": {
+      "lead": "Een wagen gekocht in Veneto of Friuli, bestemd voor Katowice, Wrocław of Gliwice. Geen rechtstreekse grens: u kiest tussen de westelijke as via de Brenner en Duitsland, of de oostelijke via Villach en Tsjechië. In Polen volgt een korte reeks termijnen, met accijns en tijdelijke inschrijving. Dit is wat u moet plannen.",
+      "facts": [
+        {
+          "label": "Poolse inschrijving",
+          "value": "Tijdelijk 30 dagen, daarna definitief; verlenging met 14 dagen mogelijk"
+        },
+        {
+          "label": "Accijnsaangifte",
+          "value": "AKC-U/S, uiterlijk 14 dagen na ontstaan van de belastingplicht"
+        },
+        {
+          "label": "Slovenië",
+          "value": "Schengen-binnengrens, 232 km lang, sinds 2007"
+        },
+        {
+          "label": "Poolse tol",
+          "value": "e-TOLL voor voertuigen boven 3,5 ton, via GNSS of app"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Veneto en Friuli-Venezia Giulia als vertrekregio",
+          "body": [
+            "De regio kijkt richting Oostenrijk (Tarvisio, Plöckenpas) en Slovenië (Fernetti, Gorizia). De grens met Slovenië is 232 km lang en sinds 2007 een Schengen-binnengrens, zodat er geen vaste controles zijn. De haven van Monfalcone, de noordelijkste zeehaven van de Middellandse Zee, heeft een car terminal van 93.000 m² voor 4.300 voertuigen met PDI-werkplaats.",
+            "De haven van Triëst heeft een vrijhavenstatuut met vijf vrije zones; een groot deel van het haventerrein valt buiten het douanegebied van de EU. Wie in Triëst of Monfalcone een wagen koopt of ophaalt, vraagt de verkoper naar de douanestatus van de wagen, want dat bepaalt of hij als EU-goed geldt."
+          ]
+        },
+        {
+          "heading": "Twee assen naar Polen",
+          "body": [
+            "De westelijke as gaat via de A22 en de Oostenrijkse A13 naar Innsbruck, dan Duitsland. De Duitse A4 is 583 km lang en loopt van Aken via Erfurt en Eisenach naar Dresden en Görlitz, aan de Poolse grens. De oostelijke as volgt de Oostenrijkse A10 Tauernautobahn (192,7 km, tunnels van 6,4 en 5,9 km) naar Villach en Zuid-Oostenrijk.",
+            "Daarna loopt de Tsjechische D1 over 376,5 km, compleet sinds december 2025, van Praag via Brno en Ostrava naar de Poolse grens bij Věřňovice, waar ze in Bohumín de Poolse A1 wordt. Het is de drukste Tsjechische snelweg. In Brno sluit ze aan op de D2."
+          ]
+        },
+        {
+          "heading": "Rijverboden en tol",
+          "body": [
+            "Oostenrijk kent een weekendverbod van zaterdag 15 uur tot zondag 22 uur boven 7,5 ton en een nachtverbod van 22 tot 5 uur. De Oostenrijkse GO-Maut geldt voor voertuigen boven 3,5 ton, met hogere tarieven op de Brenner, de Tauern en de Arlberg. Duitsland heft Lkw-Maut boven 3,5 ton, verbiedt vrachtwagens op zon- en feestdagen van 0 tot 22 uur en kent in juli en augustus een zaterdagverbod van 7 tot 20 uur op bepaalde wegen.",
+            "Polen heft e-TOLL op voertuigen boven 3,5 ton op ongeveer 5.870 km net, via GNSS met On-Board-Unit of app. Italië publiceert een kalender van rijverboden boven 7,5 ton, met zomeruitbreiding op vrijdag en een piek op 15 augustus."
+          ]
+        },
+        {
+          "heading": "Poolse inschrijving: termijnen en documenten",
+          "body": [
+            "Bij het eerste bezoek aan het kantoor wordt de wagen tijdelijk ingeschreven voor 30 dagen: u krijgt een tijdelijke vergunning en platen. De definitieve inschrijving volgt binnen 30 kalenderdagen; is ze niet op tijd rond, dan kan de tijdelijke inschrijving met 14 dagen worden verlengd. Na die termijn is de openbare weg niet langer toegankelijk voor de wagen.",
+            "Basisdocumenten zijn het aanvraagformulier, een eigendomsbewijs (factuur of verkoopcontract), het buitenlandse kentekenbewijs, bewijs van technische keuring, bewijs van betaling van de leges en waar nodig het accijnsdocument. Een kopie volstaat niet altijd, want er worden originelen verlangd en een weigering ligt op de loer. Documenten in een vreemde taal vragen een Poolse vertaling door een beëdigd vertaler of een Poolse consul."
+          ]
+        },
+        {
+          "heading": "Accijns, keuring en boetes",
+          "body": [
+            "Het accijnsdocument is enkel nodig bij een eerste inschrijving van personenwagens, bepaalde lichte vierwielers en bepaalde N1-bestelwagens. De accijnsaangifte AKC-U/S dient u uiterlijk 14 dagen na het ontstaan van de belastingplicht in; de accijns zelf moet 30 dagen na het binnenbrengen van de wagen betaald zijn. Elke koper van een nog niet in Polen ingeschreven wagen betaalt ze, particulier of bedrijf.",
+            "Volgens het stadsloket van Warschau is geen Poolse keuring nodig als de wagen uit een EU-, EER/EVA-land of Zwitserland komt en uit de papieren een nog geldige volgende keuringsdatum blijkt; een Poolse gids beweert het tegendeel. Sinds 1 januari 2024 staan administratieve boetes op het overschrijden van de inschrijvingstermijn, in twee trappen. De accijnsaangifte kan elektronisch via PUESC."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Opper-Silezië: A1 bij Gorzyczki",
+          "body": "De Poolse A1 eindigt aan de Tsjechische grens bij Gorzyczki en sluit er aan op de D1. Het laatste stuk Świerklany–Gorzyczki opende volledig op 23 mei 2014. Voor een wagen uit Italië via Tsjechië is dit de poort tot Katowice en Gliwice."
+        },
+        {
+          "kind": "plek",
+          "title": "Neder-Silezië: A4 bij Jędrzychowice",
+          "body": "De Poolse A4 begint aan de Duitse grens bij Jędrzychowice, vlak bij Zgorzelec–Görlitz, en loopt via Wrocław, Opole, Gliwice, Katowice en Kraków naar de Oekraïense grens bij Korczowa. Het stuk Mysłowice–Kraków Balice is betalend. De A4 is de poort voor wagens via Dresden."
+        },
+        {
+          "kind": "regel",
+          "title": "Vertaling van papieren",
+          "body": "Een EU-kentekenbewijs hoeft niet vertaald als het enkel de geharmoniseerde EU-codes bevat; bij nationale aantekeningen kan het kantoor toch een vertaling vragen. Een COC en het uittreksel uit de typegoedkeuring hoeven niet vertaald te worden. Vraag de Italiaanse verkoper dus het volledige kentekenbewijs mee, want bij een verloren bewijs is een duplicaat nodig."
+        },
+        {
+          "kind": "tip",
+          "title": "Marktwaarde en accijns",
+          "body": "Voor de accijns wordt uitgegaan van de Poolse marktwaarde van de wagen. Een kunstmatig lage prijs op het koopcontract leidt tot heraanslag op marktwaarde. Een wagen met grote motor haalt u dus niet zonder te rekenen naar Polen, en wie dat vooraf bekijkt, voorkomt een verrassing bij de aangifte."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag de wagen tijdelijk ingeschreven zijn?",
+          "a": "Tijdelijk 30 dagen, met een tijdelijke vergunning en platen. De definitieve inschrijving volgt binnen 30 kalenderdagen, en bij vertraging kan de tijdelijke inschrijving met 14 dagen worden verlengd."
+        },
+        {
+          "q": "Wat als ik de termijn mis?",
+          "a": "Verstrijkt de tijdelijke inschrijving zonder definitieve, dan mag de wagen niet meer op de openbare weg. Sinds 1 januari 2024 staan er ook administratieve boetes op het overschrijden van de inschrijvingstermijn."
+        },
+        {
+          "q": "Betaal ik accijns op een Italiaanse occasion?",
+          "a": "Elke koper van een in Polen nog niet ingeschreven personenwagen betaalt accijns, particulier of bedrijf. De aangifte AKC-U/S moet uiterlijk 14 dagen na het ontstaan van de belastingplicht, de betaling 30 dagen na het binnenbrengen."
+        }
+      ],
+      "seoDescription": "Auto importeren van Italië naar Polen: routes via Brenner of Villach, rijverboden, e-TOLL, tijdelijke inschrijving en accijns. Offerte binnen 24 uur.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italy%E2%80%93Slovenia_border",
+        "https://it.wikipedia.org/wiki/Porto_di_Monfalcone",
+        "https://en.wikipedia.org/wiki/Port_of_Trieste",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+        "https://trans.info/de/oesterreich-lkw-fahrverbote-2026-479461",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://mit.gov.it/node/21641",
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://www.podatnik.info/publikacje/podatek-akcyzowy-od-samochodu-kto-i-kiedy-musi-go-zaplacic,637972",
+        "https://warszawa19115.pl/en/-/rejestracja-pojazdu-uzywanego-sprowadzonego-z-zagranicy",
+        "https://formularze.net/blog/rejestracja-samochodu-z-zagranicy-krok-po-kroku",
+        "https://en.wikipedia.org/wiki/A1_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/Expressway_S1_(Poland)"
+      ]
+    }
+  }
+}

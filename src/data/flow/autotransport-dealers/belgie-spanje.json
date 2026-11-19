@@ -1,0 +1,59 @@
+{
+  "sub": "Verkocht u een wagen aan een Spaanse handelaar of koopt u voorraad aan de Costa? Mcars brengt ze van België naar Spanje.",
+  "problem": {
+    "title": "Spaanse handelaars kopen graag Belgische occasies",
+    "body": "Een Belgische wagen met een nette historiek doet het goed bij Spaanse handelaars, en omgekeerd is het zonnige aanbod aan de kust interessant voor uw klanten. Maar Spanje ligt ver, en een wagen op eigen kracht laten rijden is zelden een goed idee. Hij krijgt kilometers bij die de koper niet wil. Daarom laten dealers hun verkochte partij liever laden en vervoeren, zodat de wagen onbeschadigd en zonder extra kilometers aankomt.",
+    "situations": [
+      { "title": "Verkocht aan Spaanse collega", "body": "Een handelaar in Spanje kocht van u. Onze chauffeur laadt de wagen bij u en levert hem op het afgesproken adres in Spanje." },
+      { "title": "Partij voor de kust", "body": "U levert enkele wagens aan een dealer die ze weer doorverkoopt aan Belgen met een tweede verblijf. Samen op één transporter rijden ze mee." },
+      { "title": "Klant verhuist naar Spanje", "body": "Uw klant kocht bij u en wil zijn wagen mee naar Spanje. Wij nemen hem mee en leveren hem af waar hij dan woont." }
+    ]
+  },
+  "solution": {
+    "title": "Uw wagens zonder omweg naar Spanje",
+    "body": "Vraag een offerte aan met de wagens, het ophaaladres en de bestemming in Spanje. Daarna hoort u binnen 24 uur van ons. Wij spreken met u de ophaling af. Dat kan bij u, of u levert aan op ons depot in Roeselare, dag en nacht. De chauffeur laadt de wagens op een open meerlaagse transporter, doet de inspectie, neemt foto's en maakt de CMR-vrachtbrief op. Op de dag zelf belt hij u en uw koper. Een wagen die niet vlot rijdt, haalt de lier op het platform. Van laden tot lossen zijn de wagens verzekerd."
+  },
+  "usps": [
+    { "title": "Geen kilometers erbij", "body": "Een wagen op de transporter krijgt onderweg geen kilometers bij. Uw Spaanse koper ontvangt hem met dezelfde stand als bij vertrek." },
+    { "title": "Meerdere wagens samen", "body": "Een partij van een of twee wagens of meer? Op een meerlaagse transporter gaat ze in één keer naar uw koper." },
+    { "title": "Rechtstreeks contact", "body": "U hebt één aanspreekpunt bij Mcars. Dat belt u, en onze chauffeur belt op de dag zelf met u of uw koper." },
+    { "title": "Voordelig via ons depot", "body": "Brengt u de wagens naar Roeselare, dan is het voordeliger dan ophaling bij u. Aanleveren kan 24 uur op 24." }
+  ],
+  "steps": [
+    { "title": "Aanvraag indienen", "body": "Geef de wagens, het ophaaladres en de bestemming door. Binnen 24 uur ontvangt u onze offerte op maat." },
+    { "title": "Afspraak maken", "body": "We bespreken de ophaling met u en de aflevering met uw Spaanse koper, zodat iemand aanwezig is bij het lossen." },
+    { "title": "Laden met CMR", "body": "Inspectie, foto's en de CMR-vrachtbrief gebeuren bij het laden. U en de chauffeur weten dus wat er vertrekt." },
+    { "title": "Levering in Spanje", "body": "De chauffeur belt vooraf en brengt de wagens naar de koper. Die controleert mee en tekent de CMR." }
+  ],
+  "care": {
+    "title": "Alles vastgelegd, van laden tot lossen",
+    "body": "Een wagen die ver reist, moet goed gedocumenteerd vertrekken. De chauffeur bekijkt de wagen bij ophaling, noteert wat hij ziet en neemt foto's als intern bewijs. De CMR-vrachtbrief gaat mee. Tijdens het transport zijn de wagens verzekerd. De Spaanse inschrijving en wat de koper daar nodig heeft, regelen koper en verkoper onderling. Wij vervoeren en doen dat discreet.",
+    "items": ["Inspectie bij het laden", "Foto's als intern dossier", "CMR-vrachtbrief aan boord", "Verzekering tijdens de rit"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Spanje",
+    "body": "Wij kennen de Spaanse kant niet alleen van naam. We vervoeren ook wagens van Belgen met een tweede verblijf in Spanje, en weten dus hoe een levering op een Spaans adres verloopt. Aan de Belgische kant komen we dagelijks langs. Zo past uw ophaling in een rit die toch al loopt. Onze chauffeurs spreken Nederlands of Frans, wat tijdens het laden en lossen goed van pas komt.",
+    "regions": ["West-Vlaanderen", "Brabant", "Catalonië", "Valencia", "Andalusië", "Costa Blanca"]
+  },
+  "faq": [
+    { "q": "Mag de wagen op Belgische handelaarsplaten rijden?", "a": "De wagen rijdt niet zelf, hij gaat op de transporter. Welke plaat of papieren de koper in Spanje nodig heeft, regelt u met uw koper." },
+    { "q": "Kan ik wagens van particulieren mee laten rijden?", "a": "Ja, maar wel tegen een offerte die we samen opstellen. Meld bij de aanvraag dat het om een klant gaat, dan stemmen we de levering af." },
+    { "q": "Betaal ik vooraf?", "a": "Bedrijven betalen op factuur, particulieren vóór de ophaling. Een garage of een dealer valt onder de eerste groep, dus u ontvangt na de rit een factuur." },
+    { "q": "Wat doet u als de koper niet thuis is?", "a": "De chauffeur belt op de dag zelf. Als u iemand anders aanwijst om de wagen te ontvangen, laden we daar uit." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Een afspraak voor Spanje is een afspraak. Onze vaste chauffeurs komen op het moment dat we met u hebben afgesproken.",
+    "snel": "Uw wagens staan vlot op de planning en rijden zonder tijdverlies door naar uw koper aan de Spaanse kant.",
+    "volgbaar": "Dankzij track en trace weet u in elk stadium waar de wagen zit, en de chauffeur belt u wanneer hij aankomt.",
+    "verzekerd": "Tijdens de hele reis naar Spanje is elke wagen verzekerd. Op de CMR-vrachtbrief staat zwart op wit in welke staat hij is vertrokken."
+  },
+  "reasons": [
+    { "title": "Ervaring over de jaren", "body": "Mcars bouwde jarenlang kennis op met wagentransport. Die ervaring helpt ons ook bij de lange afstand naar Spanje." },
+    { "title": "Echte passie", "body": "Wij houden van auto's en van netjes werk. Daarom zorgen we dat een wagen ook na de reis naar Spanje er piekfijn bijstaat." },
+    { "title": "Ritten door de jaren heen", "body": "We reden al honderden ritten voor garages en dealers. Elke rit richting zuiden leerde ons weer iets bij." },
+    { "title": "Onze eigen mensen", "body": "Wij rekenen op eigen chauffeurs, geen losse krachten. U spreekt dus altijd met iemand die uw wagen echt kent." },
+    { "title": "Veel soorten transport", "body": "Van een enkele verkochte wagen tot een volle transporter: ons aanbod past bij wat uw zaak vandaag nodig heeft." },
+    { "title": "Openstaan voor nieuw", "body": "We zoeken voortdurend naar betere manieren om te werken. Nieuwe tools en technieken maken uw transport naar Spanje beter beheersbaar." }
+  ],
+  "seoDescription": "Autotransport van België naar Spanje voor garages en dealers: verkochte wagens op open transporter met lier, CMR en verzekering. Vraag een offerte."
+}

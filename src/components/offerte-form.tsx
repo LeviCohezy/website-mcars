@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useId, useRef, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
 import { site } from "@/lib/site";
+import OfferteSummary from "./offerte-summary";
 
 /*
  * Offerte autotransport — the full quote form on /offerte.
@@ -39,10 +41,14 @@ const STAAT = [
 ] as const;
 
 type Leg = { mode: "depot" | "adres"; land: string; stad: string; postcode: string; straat: string; datum: string };
-type Car = { id: number; merk: string; model: string; bouwjaar: string; staat: string; extra: string; files: string[] };
+// Uploaded files live only in the browser (object URLs) for previewing; the
+// e-mail lists their names and asks the customer to attach them.
+// `kind`: car photos (gallery) vs. documents such as a volmacht.
+type Upload = { name: string; url: string; image: boolean; pdf: boolean; kind: "photo" | "doc" };
+type Car = { id: number; merk: string; model: string; bouwjaar: string; staat: string; extra: string; aantal: number; files: Upload[] };
 
 const emptyLeg = (): Leg => ({ mode: "depot", land: "", stad: "", postcode: "", straat: "", datum: "" });
-const emptyCar = (id: number): Car => ({ id, merk: "", model: "", bouwjaar: "", staat: "rijdt", extra: "", files: [] });
+const emptyCar = (id: number): Car => ({ id, merk: "", model: "", bouwjaar: "", staat: "rijdt", extra: "", aantal: 1, files: [] });
 
 const subscribeNone = () => () => {};
 
@@ -65,6 +71,7 @@ const ICONS = {
   upload: <path d="M7 18a4.5 4.5 0 0 1-.6-9A6 6 0 0 1 18 8a4.5 4.5 0 0 1-1 10M12 12v9M8.5 15.5L12 12l3.5 3.5" />,
   trash: <path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3" />,
   plus: <path d="M12 5v14M5 12h14" />,
+  minus: <path d="M5 12h14" />,
   chevron: <path d="M6 9l6 6 6-6" />,
   shield: <><path d="M12 3l7 3v6c0 4.4-3 7.4-7 9-4-1.6-7-4.6-7-9V6z" /><path d="M9 12l2 2 4-4" /></>,
   clock: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
@@ -72,6 +79,8 @@ const ICONS = {
   map: <path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14" />,
   send: <path d="M21 3L3 10.5l7 2.5 2.5 7zM10 13l5-5" />,
   info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 8h.01" /></>,
+  close: <path d="M6 6l12 12M18 6L6 18" />,
+  file: <><path d="M14 3H6v18h12V7z" /><path d="M14 3v4h4" /></>,
 } as const;
 type IconName = keyof typeof ICONS;
 
@@ -83,42 +92,76 @@ function I({ name, className = "size-5" }: { name: IconName; className?: string 
   );
 }
 
-export default function OfferteForm() {
+type Defaults = { vanLand?: string; naarLand?: string };
+
+/**
+ * `stepped`: one card at a time with a progress bar and Vorige/Volgende (used
+ * inside the service × place pages). `defaults` preselects the countries.
+ */
+export default function OfferteForm({ stepped = false, defaults }: { stepped?: boolean; defaults?: Defaults } = {}) {
   // Read the query once on the client; remount the form with the prefill.
   const search = useSyncExternalStore(subscribeNone, () => window.location.search, () => "");
-  return <OfferteFormInner key={search} search={search} />;
+  return <OfferteFormInner key={search} search={search} stepped={stepped} defaults={defaults} />;
 }
 
-function OfferteFormInner({ search }: { search: string }) {
+const STEPS = ["Vertrek", "Bestemming", "Uw auto", "Uw gegevens"];
+
+function OfferteFormInner({ search, stepped, defaults }: { search: string; stepped: boolean; defaults?: Defaults }) {
   const q = new URLSearchParams(search);
   const van = q.get("van") ?? "";
   const naar = q.get("naar") ?? "";
   const datum = q.get("datum") ?? "";
 
   const [retour, setRetour] = useState(false);
-  const [vertrek, setVertrek] = useState<Leg>(() => (van ? { ...emptyLeg(), mode: "adres", stad: van, datum } : { ...emptyLeg(), datum }));
-  const [bestemming, setBestemming] = useState<Leg>(() => (naar ? { ...emptyLeg(), mode: "adres", stad: naar } : emptyLeg()));
+  const [vertrek, setVertrek] = useState<Leg>(() =>
+    van ? { ...emptyLeg(), mode: "adres", stad: van, datum }
+    : defaults?.vanLand && LANDEN.includes(defaults.vanLand) ? { ...emptyLeg(), mode: "adres", land: defaults.vanLand, datum }
+    : { ...emptyLeg(), datum });
+  const [bestemming, setBestemming] = useState<Leg>(() =>
+    naar ? { ...emptyLeg(), mode: "adres", stad: naar }
+    : defaults?.naarLand && LANDEN.includes(defaults.naarLand) ? { ...emptyLeg(), mode: "adres", land: defaults.naarLand }
+    : emptyLeg());
   const [cars, setCars] = useState<Car[]>([emptyCar(1)]);
   const [klant, setKlant] = useState<"Particulier" | "Bedrijf">("Particulier");
-  const [contact, setContact] = useState({ bedrijf: "", naam: "", email: "", telefoon: "", bericht: "" });
+  const [contact, setContact] = useState({ bedrijf: "", btw: "", naam: "", email: "", telefoon: "", bericht: "" });
   const [sent, setSent] = useState<string[] | null>(null);
   const [tried, setTried] = useState(false);
+  const [step, setStep] = useState(0);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const legOk = (l: Leg) => l.mode === "depot" || (l.land && l.stad.trim() && l.postcode.trim());
   const carsOk = cars.every((c) => c.merk && c.model.trim() && c.staat);
   const contactOk = contact.naam.trim() && /\S+@\S+\.\S+/.test(contact.email) && contact.telefoon.trim().length >= 6;
   const valid = legOk(vertrek) && legOk(bestemming) && carsOk && contactOk;
+  const stepOk = [legOk(vertrek), legOk(bestemming), carsOk, contactOk];
+  /** In stepped mode only the current card is on screen. */
+  const on = (n: number) => !stepped || step === n;
+  const go = (n: number) => {
+    if (n > step && !stepOk[step]) return setTried(true);
+    setTried(false);
+    setStep(n);
+    const top = formRef.current?.getBoundingClientRect().top ?? 0;
+    if (top < 80) window.scrollBy({ top: top - 110, behavior: "smooth" });
+  };
 
   const depot = `Depot Mcars, ${site.address.street}, ${site.address.city}`;
   const legText = (l: Leg) =>
     l.mode === "depot" ? depot : [l.straat, [l.postcode, l.stad].filter(Boolean).join(" "), l.land].filter(Boolean).join(", ");
+  const stop = (l: Leg) => ({
+    depot: l.mode === "depot",
+    country: l.land,
+    label: l.mode === "depot" ? "Depot Mcars" : l.stad.trim() || l.land || "Adres",
+  });
   const fmt = (iso: string) => (iso ? iso.split("-").reverse().join("/") : "geen voorkeur");
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
     setTried(true);
-    if (!valid) return;
-    const files = cars.flatMap((c) => c.files);
+    if (!valid) {
+      if (stepped) setStep(stepOk.findIndex((ok) => !ok));
+      return;
+    }
+    const files = cars.flatMap((c) => c.files.map((f) => f.name));
     const lines = [
       `Type rit: ${retour ? "Heen en terug" : "Enkele rit"}`,
       ``,
@@ -130,13 +173,15 @@ function OfferteFormInner({ search }: { search: string }) {
       `  Datum: ${fmt(bestemming.datum)}`,
       ``,
       ...cars.flatMap((c, i) => [
-        `AUTO ${i + 1}: ${c.merk} ${c.model}${c.bouwjaar ? ` (${c.bouwjaar})` : ""}`,
+        `AUTO ${i + 1}: ${c.merk} ${c.model}${c.bouwjaar ? ` (${c.bouwjaar})` : ""}${c.aantal > 1 ? ` — ${c.aantal} stuks` : ""}`,
         `  Staat: ${STAAT.find((s) => s.id === c.staat)?.label}`,
         ...(c.extra.trim() ? [`  Extra: ${c.extra.trim()}`] : []),
-        ...(c.files.length ? [`  Foto's/volmacht: ${c.files.join(", ")} (als bijlage)`] : []),
+        ...(c.files.some((f) => f.kind === "photo") ? [`  Foto's: ${c.files.filter((f) => f.kind === "photo").map((f) => f.name).join(", ")} (als bijlage)`] : []),
+        ...(c.files.some((f) => f.kind === "doc") ? [`  Documenten: ${c.files.filter((f) => f.kind === "doc").map((f) => f.name).join(", ")} (als bijlage)`] : []),
       ]),
       ``,
       `KLANT: ${klant}${klant === "Bedrijf" && contact.bedrijf ? ` — ${contact.bedrijf}` : ""}`,
+      ...(klant === "Bedrijf" && contact.btw.trim() ? [`BTW-nummer: ${contact.btw.trim()}`] : []),
       `Naam: ${contact.naam}`,
       `E-mail: ${contact.email}`,
       `Telefoon: ${contact.telefoon}`,
@@ -164,6 +209,22 @@ function OfferteFormInner({ search }: { search: string }) {
             </ul>
           </div>
         )}
+        {/* Overview of the request: the route, then the cars */}
+        <div className="mt-8">
+          <OfferteSummary
+            cars={cars.map((c) => ({
+              id: c.id,
+              title: [c.merk, c.model.trim()].filter(Boolean).join(" "),
+              aantal: c.aantal,
+              bouwjaar: c.bouwjaar,
+              staat: STAAT.find((x) => x.id === c.staat)?.label ?? "",
+              photo: c.files.find((f) => f.kind === "photo")?.url,
+            }))}
+            from={stop(vertrek)}
+            to={stop(bestemming)}
+            retour={retour}
+          />
+        </div>
         <p className="mt-6 text-sm text-white/60">
           Lukt het niet? Bel of WhatsApp <a href={site.phoneHref} className="text-white underline underline-offset-4">{site.phone}</a>.
         </p>
@@ -172,9 +233,33 @@ function OfferteFormInner({ search }: { search: string }) {
   }
 
   return (
-    <form onSubmit={submit} noValidate className="space-y-4 text-white sm:space-y-5">
+    <form ref={formRef} onSubmit={submit} noValidate className="space-y-4 text-white sm:space-y-5">
+      {stepped && (
+        <ol className="grid grid-cols-4 gap-2 sm:gap-3">
+          {STEPS.map((label, i) => (
+            <li key={label}>
+              <button
+                type="button"
+                onClick={() => i < step && go(i)}
+                aria-current={i === step ? "step" : undefined}
+                disabled={i > step}
+                className="block w-full text-left disabled:cursor-default"
+              >
+                <span className="block h-1 overflow-hidden rounded-full bg-white/15">
+                  <span className={`block h-full rounded-full bg-white transition-transform duration-500 ease-out origin-left ${i <= step ? "scale-x-100" : "scale-x-0"}`} />
+                </span>
+                <span className={`mt-3 flex items-baseline gap-2 text-sm font-medium transition-colors ${i === step ? "text-white" : i < step ? "text-white/70" : "text-white/35"}`}>
+                  <span className="text-xs tabular-nums">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="hidden sm:inline">{label}</span>
+                </span>
+              </button>
+            </li>
+          ))}
+        </ol>
+      )}
+
       {/* Trip type */}
-      <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
+      {on(0) && <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
         {[
           { v: false, t: "Enkele rit", s: "Van A naar B", icon: "arrow" as const },
           { v: true, t: "Heen en terug", s: "Van A naar B en terug", icon: "swap" as const },
@@ -201,34 +286,25 @@ function OfferteFormInner({ search }: { search: string }) {
             </button>
           );
         })}
-      </div>
+      </div>}
 
       {/* Vertrek / Bestemming */}
-      <div className="grid gap-4 sm:gap-5 lg:grid-cols-2">
-        <LegCard
+      <div className={stepped ? "" : "grid gap-4 sm:gap-5 lg:grid-cols-2"}>
+        {on(0) && <LegCard
           step="01" icon="pin" title="Vertrek" question="Hoe wilt u het voertuig aanleveren?" adresLabel="Ophalen op adres"
-          depotNote="Uw voertuig wordt aangeleverd aan ons depot in Roeselare." stadPlaceholder="Bijv. Roeselare" postcodePlaceholder="Bijv. 8800"
+          stadPlaceholder="Bijv. Roeselare" postcodePlaceholder="Bijv. 8800"
           leg={vertrek} set={setVertrek} tried={tried}
-        />
-        <LegCard
+        />}
+        {on(1) && <LegCard
           step="02" icon="flag" title="Bestemming" question="Hoe wilt u het voertuig afleveren?" adresLabel="Levering op adres"
-          depotNote="Uw voertuig wordt afgehaald aan ons depot in Roeselare." stadPlaceholder="Bijv. Nice" postcodePlaceholder="Bijv. 06000"
+          stadPlaceholder="Bijv. Nice" postcodePlaceholder="Bijv. 06000"
           leg={bestemming} set={setBestemming} tried={tried}
-        />
+        />}
       </div>
 
       {/* Autogegevens */}
-      <Card>
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <CardTitle step="03" icon="car">Autogegevens</CardTitle>
-          <button
-            type="button"
-            onClick={() => setCars((cs) => [...cs, emptyCar(Math.max(...cs.map((c) => c.id)) + 1)])}
-            className="inline-flex min-h-11 items-center gap-2 rounded-xl px-4 text-sm font-medium text-white ring-1 ring-white/30 transition-colors hover:bg-white hover:text-zinc-950"
-          >
-            <I name="plus" className="size-4" /> Voeg nog een auto toe
-          </button>
-        </div>
+      {on(2) && <Card>
+        <CardTitle step="03" icon="car">Autogegevens</CardTitle>
         <div className="mt-6 space-y-4">
           {cars.map((c, i) => (
             <CarFields
@@ -241,11 +317,18 @@ function OfferteFormInner({ search }: { search: string }) {
               remove={() => setCars((cs) => cs.filter((x) => x.id !== c.id))}
             />
           ))}
+          <button
+            type="button"
+            onClick={() => setCars((cs) => [...cs, emptyCar(Math.max(...cs.map((c) => c.id)) + 1)])}
+            className="flex min-h-16 w-full items-center justify-center gap-2.5 rounded-2xl border border-dashed border-white/25 text-base font-medium text-white transition-colors hover:border-white hover:bg-white hover:text-zinc-950"
+          >
+            <I name="plus" className="size-5" /> Auto toevoegen
+          </button>
         </div>
-      </Card>
+      </Card>}
 
       {/* Contactgegevens */}
-      <Card>
+      {on(3) && <Card>
         <CardTitle step="04" icon="user">Contactgegevens</CardTitle>
         <div className="mt-6 grid gap-x-6 gap-y-5 lg:grid-cols-2">
           <div className="space-y-5">
@@ -271,21 +354,40 @@ function OfferteFormInner({ search }: { search: string }) {
                 ))}
               </div>
             </div>
-            {klant === "Bedrijf" && (
-              <Field label="Bedrijfsnaam" icon="building" value={contact.bedrijf} onChange={(v) => setContact({ ...contact, bedrijf: v })} autoComplete="organization" placeholder="Naam van uw bedrijf" />
-            )}
             <Field label="Naam" req icon="user" value={contact.naam} onChange={(v) => setContact({ ...contact, naam: v })} autoComplete="name" placeholder="Uw naam" invalid={tried && !contact.naam.trim()} />
             <Field label="E-mailadres" req icon="mail" type="email" value={contact.email} onChange={(v) => setContact({ ...contact, email: v })} autoComplete="email" placeholder="voorbeeld@domein.be" invalid={tried && !/\S+@\S+\.\S+/.test(contact.email)} />
+            <Field label="Telefoonnummer" req icon="phone" type="tel" value={contact.telefoon} onChange={(v) => setContact({ ...contact, telefoon: v })} autoComplete="tel" placeholder="Bijv. 0470 12 34 56" invalid={tried && contact.telefoon.trim().length < 6} />
           </div>
           <div className="flex flex-col gap-5">
-            <Field label="Telefoonnummer" req icon="phone" type="tel" value={contact.telefoon} onChange={(v) => setContact({ ...contact, telefoon: v })} autoComplete="tel" placeholder="Bijv. 0470 12 34 56" invalid={tried && contact.telefoon.trim().length < 6} />
+            {klant === "Bedrijf" && (
+              <>
+                <Field label="Bedrijfsnaam" icon="building" value={contact.bedrijf} onChange={(v) => setContact({ ...contact, bedrijf: v })} autoComplete="organization" placeholder="Naam van uw bedrijf" />
+                <Field label="BTW-nummer" icon="building" value={contact.btw} onChange={(v) => setContact({ ...contact, btw: v.toUpperCase() })} placeholder="Bijv. BE0123.456.789" />
+              </>
+            )}
             <Area label="Bericht" icon="chat" value={contact.bericht} onChange={(v) => setContact({ ...contact, bericht: v })} placeholder="Nog extra informatie? Laat het ons weten." grow />
           </div>
         </div>
-      </Card>
+      </Card>}
+
+      {stepped && step < 3 && (
+        <div className="flex items-center justify-between gap-3">
+          {step > 0 ? (
+            <button type="button" onClick={() => go(step - 1)} className="flex min-h-14 items-center gap-2 rounded-2xl px-6 text-base font-medium text-white ring-1 ring-white/20 transition-colors hover:bg-white/10">
+              <I name="arrow" className="size-5 rotate-180" /> Vorige
+            </button>
+          ) : <span />}
+          <div className="flex items-center gap-4">
+            {tried && !stepOk[step] && <p role="alert" className="text-sm font-medium text-red-400">Vul de verplichte velden (*) in.</p>}
+            <button type="button" onClick={() => go(step + 1)} className="flex min-h-14 items-center gap-2 rounded-2xl bg-white px-8 text-base font-medium text-zinc-950 transition-colors hover:bg-zinc-200">
+              Volgende <I name="arrow" className="size-5" />
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Trust row + submit */}
-      <div className="rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 sm:p-8">
+      {on(3) && <div className="rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 sm:p-8">
         <ul className="grid grid-cols-2 gap-5 lg:grid-cols-4 lg:divide-x lg:divide-white/10">
           {([
             { t: "Veilig transport", s: "Uw voertuig in goede handen", icon: "shield" },
@@ -318,7 +420,12 @@ function OfferteFormInner({ search }: { search: string }) {
           Vrijblijvende aanvraag — geen definitieve boeking.
           <br className="hidden sm:block" /> Wij nemen zo snel mogelijk contact met u op.
         </p>
-      </div>
+        {stepped && (
+          <button type="button" onClick={() => go(2)} className="mx-auto mt-4 flex items-center gap-2 text-sm font-medium text-white/60 transition-colors hover:text-white">
+            <I name="arrow" className="size-4 rotate-180" /> Vorige stap
+          </button>
+        )}
+      </div>}
     </form>
   );
 }
@@ -500,16 +607,21 @@ function StaatSelect({ value, onChange }: { value: string; onChange: (v: string)
 }
 
 function LegCard({
-  step, icon, title, question, adresLabel, depotNote, stadPlaceholder, postcodePlaceholder, leg, set, tried,
+  step, icon, title, question, adresLabel, stadPlaceholder, postcodePlaceholder, leg, set, tried,
 }: {
-  step: string; icon: IconName; title: string; question: string; adresLabel: string; depotNote: string;
+  step: string; icon: IconName; title: string; question: string; adresLabel: string;
   stadPlaceholder: string; postcodePlaceholder: string; leg: Leg; set: (l: Leg) => void; tried: boolean;
 }) {
   const p = (patch: Partial<Leg>) => set({ ...leg, ...patch });
   const option = (on: boolean) =>
-    `flex min-h-[4.5rem] items-center gap-3 rounded-xl px-4 py-3 text-left text-sm ring-1 transition-colors ${
-      on ? "bg-white text-zinc-950 ring-white" : "bg-white/[0.04] text-white ring-white/10 hover:ring-white/30"
+    `flex min-h-[3.75rem] items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-medium ring-1 transition-colors ${
+      on ? "bg-white/[0.08] text-white ring-white" : "bg-white/[0.04] text-white/70 ring-white/10 hover:text-white hover:ring-white/30"
     }`;
+  const radio = (on: boolean) => (
+    <span aria-hidden className={`flex size-4 flex-none items-center justify-center rounded-full ring-1 ${on ? "ring-white" : "ring-white/40"}`}>
+      {on && <span className="size-2 rounded-full bg-white" />}
+    </span>
+  );
   return (
     <Card>
       <CardTitle step={step} icon={icon}>{title}</CardTitle>
@@ -517,29 +629,28 @@ function LegCard({
         {question}
         <span className="text-white/40"> *</span>
       </p>
-      <div className="mt-2 grid gap-2 sm:grid-cols-[1.35fr_1fr]">
-        <button type="button" onClick={() => p({ mode: "depot" })} aria-pressed={leg.mode === "depot"} className={option(leg.mode === "depot")}>
-          <I name="home" className="size-6 flex-none" />
-          <span>
-            <span className="block font-medium">Depot Mcars</span>
-            <span className={`block ${leg.mode === "depot" ? "text-zinc-500" : "text-white/50"}`}>
-              {site.address.street}, {site.address.city}
-            </span>
-          </span>
+      <div role="radiogroup" aria-label={question} className="mt-2 grid gap-2 sm:grid-cols-2">
+        <button type="button" role="radio" onClick={() => p({ mode: "depot" })} aria-checked={leg.mode === "depot"} className={option(leg.mode === "depot")}>
+          {radio(leg.mode === "depot")}
+          <I name="home" className="size-5 flex-none" />
+          Depot Mcars
         </button>
-        <button type="button" onClick={() => p({ mode: "adres" })} aria-pressed={leg.mode === "adres"} className={`${option(leg.mode === "adres")} font-medium`}>
-          <I name="truck" className="size-6 flex-none" />
+        <button type="button" role="radio" onClick={() => p({ mode: "adres" })} aria-checked={leg.mode === "adres"} className={option(leg.mode === "adres")}>
+          {radio(leg.mode === "adres")}
+          <I name="truck" className="size-5 flex-none" />
           {adresLabel}
         </button>
       </div>
 
       {leg.mode === "depot" ? (
-        <p className="mt-4 flex items-center gap-3 rounded-xl bg-white/[0.06] px-4 py-3 text-sm text-white/70">
-          <I name="pin" className="size-4 flex-none text-white" />
-          {depotNote}
+        <p role="note" className="mt-7 flex items-center gap-3 rounded-xl bg-amber-200/10 px-4 py-3 text-sm font-medium text-amber-50 ring-1 ring-amber-200/25 backdrop-blur-md">
+          <span className="flex size-7 flex-none items-center justify-center rounded-full bg-amber-200/20 text-amber-200 ring-1 ring-amber-200/30">
+            <I name="pin" className="size-3.5" />
+          </span>
+          {site.address.street}, {site.address.city}
         </p>
       ) : (
-        <div className="mt-5 grid gap-5 sm:grid-cols-2">
+        <div className="mt-7 grid gap-5 sm:grid-cols-2">
           <Select label="Land" req value={leg.land} onChange={(v) => p({ land: v })} options={LANDEN} placeholder="Selecteer land" invalid={tried && !leg.land} />
           <Field label="Stad / Plaats" req value={leg.stad} onChange={(v) => p({ stad: v })} placeholder={stadPlaceholder} autoComplete="address-level2" invalid={tried && !leg.stad.trim()} />
           <Field label="Postcode" req value={leg.postcode} onChange={(v) => p({ postcode: v })} placeholder={postcodePlaceholder} autoComplete="postal-code" invalid={tried && !leg.postcode.trim()} />
@@ -558,7 +669,26 @@ function CarFields({
 }: {
   index: number; car: Car; set: (patch: Partial<Car>) => void; remove: () => void; canRemove: boolean; tried: boolean;
 }) {
-  const fileId = useId();
+  const photoId = useId();
+  const docId = useId();
+  const [viewer, setViewer] = useState<Upload["kind"] | null>(null);
+  const photos = car.files.filter((f) => f.kind === "photo");
+  const docs = car.files.filter((f) => f.kind === "doc");
+
+  const add = (list: File[], kind: Upload["kind"]) =>
+    set({
+      files: [
+        ...car.files,
+        ...list.map((f) => ({ name: f.name, url: URL.createObjectURL(f), image: f.type.startsWith("image/"), pdf: f.type === "application/pdf", kind })),
+      ],
+    });
+  const drop = (url: string) => {
+    URL.revokeObjectURL(url);
+    const files = car.files.filter((f) => f.url !== url);
+    set({ files });
+    if (!files.some((f) => f.kind === viewer)) setViewer(null);
+  };
+
   return (
     <div className="rounded-2xl bg-white/[0.03] p-5 ring-1 ring-white/10 sm:p-6">
       <div className="flex items-center justify-between">
@@ -576,49 +706,244 @@ function CarFields({
           </button>
         )}
       </div>
-      <div className="mt-4 grid gap-5 sm:grid-cols-3">
-        <Select label="Merk" req value={car.merk} onChange={(v) => set({ merk: v })} options={MERKEN} placeholder="Selecteer merk" invalid={tried && !car.merk} />
-        <Field label="Model" req value={car.model} onChange={(v) => set({ model: v })} placeholder="Bijv. Golf, X5, 911" invalid={tried && !car.model.trim()} />
-        <Field label="Bouwjaar" optional value={car.bouwjaar} onChange={(v) => set({ bouwjaar: v.replace(/\D/g, "").slice(0, 4) })} placeholder="Bijv. 2022" />
-      </div>
-      <div className="mt-5 grid gap-5 lg:grid-cols-3">
-        <StaatSelect value={car.staat} onChange={(v) => set({ staat: v })} />
-        <Area
-          label="Extra informatie"
-          value={car.extra}
-          onChange={(v) => set({ extra: v })}
-          placeholder="Bijv. schade, niet-rijdbaar, meerdere voertuigen, rolbaar, front lift functie, topbox, fietsdragers, speciale afmetingen, …"
-        />
-        <div>
-          <Label htmlFor={fileId} optional>Foto&apos;s voertuig / volmacht</Label>
-          <label
-            htmlFor={fileId}
-            className="group mt-2 flex min-h-32 cursor-pointer flex-col items-center justify-center rounded-xl border border-dashed border-white/25 bg-white/[0.03] px-4 py-5 text-center text-sm transition-colors hover:border-white/60 hover:bg-white/[0.06]"
-          >
-            <I name="upload" className="size-8 text-white transition-transform duration-300 group-hover:-translate-y-0.5" />
-            <span className="mt-2 text-white">Klik om foto&apos;s van het voertuig en/of een volmacht te uploaden</span>
-            <span className="mt-1 text-xs text-white/45">JPG, PNG of PDF (max. 10 MB)</span>
-            <span className="mt-1 flex items-center gap-1 text-xs text-white/45">
-              <I name="info" className="size-3.5" /> Meerdere bestanden mogelijk
-            </span>
-          </label>
-          <input
-            id={fileId}
-            type="file"
-            multiple
-            accept="image/jpeg,image/png,application/pdf"
-            className="sr-only"
-            onChange={(e) => set({ files: [...(e.target.files ?? [])].map((f) => f.name) })}
-          />
-          {car.files.length > 0 && (
-            <ul className="mt-2 flex flex-wrap gap-1.5">
-              {car.files.map((f) => (
-                <li key={f} className="max-w-full truncate rounded-full bg-white/10 px-3 py-1 text-xs text-white/80">{f}</li>
-              ))}
-            </ul>
-          )}
+      {/* 4:3 photo + three thumbnails on the left; details, remarks and documents next to it */}
+      <div className="mt-4 grid gap-6 md:grid-cols-[minmax(0,20rem)_minmax(0,1fr)] lg:grid-cols-[minmax(0,26rem)_minmax(0,1fr)]">
+        <CarPhotos photos={photos} title={[car.merk, car.model.trim()].filter(Boolean).join(" ") || `Auto ${index + 1}`} inputId={photoId} onOpen={() => setViewer("photo")} />
+
+        <div className="grid content-start gap-5 xl:grid-cols-2">
+          <Select label="Merk" req value={car.merk} onChange={(v) => set({ merk: v })} options={MERKEN} placeholder="Selecteer merk" invalid={tried && !car.merk} />
+          <Field label="Model" req value={car.model} onChange={(v) => set({ model: v })} placeholder="Bijv. Golf, X5, 911" invalid={tried && !car.model.trim()} />
+          <Field label="Bouwjaar" optional value={car.bouwjaar} onChange={(v) => set({ bouwjaar: v.replace(/\D/g, "").slice(0, 4) })} placeholder="Bijv. 2022" />
+          <StaatSelect value={car.staat} onChange={(v) => set({ staat: v })} />
+          <div className="xl:col-span-2">
+            <Area
+              label="Extra informatie"
+              value={car.extra}
+              onChange={(v) => set({ extra: v })}
+              placeholder="Bijv. schade, niet-rijdbaar, meerdere voertuigen, rolbaar, front lift functie, topbox, fietsdragers, speciale afmetingen, …"
+            />
+          </div>
+          {/* Documents (volmacht, …) — separate from the car photos */}
+          <div className="flex flex-wrap gap-2 xl:col-span-2">
+            <label
+              htmlFor={docId}
+              className="inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-xl px-4 text-sm font-medium text-white ring-1 ring-white/30 transition-colors hover:bg-white hover:text-zinc-950"
+            >
+              <I name="file" className="size-4" /> Document uploaden (bv. volmacht)
+            </label>
+            {docs.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setViewer("doc")}
+                aria-label={`${docs.length} ${docs.length === 1 ? "document" : "documenten"} bekijken`}
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-white/10 px-4 text-sm font-medium text-white transition-colors hover:bg-white/20"
+              >
+                <I name="file" className="size-4" /> {docs.length}
+              </button>
+            )}
+            {/* Same car several times: one card with a quantity */}
+            <div className="ml-auto flex min-h-11 items-center gap-1 rounded-xl pl-4 ring-1 ring-white/15 focus-within:ring-white/50">
+              <span className="mr-1 text-sm text-white/60">Aantal</span>
+              <button
+                type="button"
+                onClick={() => set({ aantal: Math.max(1, car.aantal - 1) })}
+                disabled={car.aantal <= 1}
+                aria-label="Aantal verlagen"
+                className="flex size-9 items-center justify-center rounded-lg text-white transition-colors hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent"
+              >
+                <I name="minus" className="size-4" />
+              </button>
+              <input
+                type="number"
+                inputMode="numeric"
+                min={1}
+                max={99}
+                value={car.aantal}
+                onChange={(e) => set({ aantal: Math.min(99, Math.max(1, Number(e.target.value) || 1)) })}
+                aria-label={`Aantal keer auto ${index + 1}`}
+                className="w-10 [appearance:textfield] bg-transparent text-center text-sm font-medium text-white outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+              />
+              <button
+                type="button"
+                onClick={() => set({ aantal: Math.min(99, car.aantal + 1) })}
+                aria-label="Aantal verhogen"
+                className="mr-1 flex size-9 items-center justify-center rounded-lg text-white transition-colors hover:bg-white/10"
+              >
+                <I name="plus" className="size-4" />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+
+      <FileInput id={photoId} accept="image/jpeg,image/png,image/webp,image/heic" label="Foto's van het voertuig toevoegen" onFiles={(l) => add(l, "photo")} />
+      <FileInput id={docId} accept="application/pdf,image/jpeg,image/png" label="Document uploaden, bijvoorbeeld een volmacht" onFiles={(l) => add(l, "doc")} />
+
+      {viewer && (
+        <FileViewer
+          title={viewer === "photo" ? `Foto's · Auto ${index + 1}` : `Documenten · Auto ${index + 1}`}
+          addLabel={viewer === "photo" ? "Foto's toevoegen" : "Document toevoegen"}
+          inputId={viewer === "photo" ? photoId : docId}
+          files={viewer === "photo" ? photos : docs}
+          onRemove={drop}
+          onClose={() => setViewer(null)}
+        />
+      )}
     </div>
+  );
+}
+
+function FileInput({ id, accept, label, onFiles }: { id: string; accept: string; label: string; onFiles: (list: File[]) => void }) {
+  return (
+    <input
+      id={id}
+      type="file"
+      multiple
+      accept={accept}
+      aria-label={label}
+      className="sr-only"
+      onChange={(e) => {
+        onFiles([...(e.target.files ?? [])]);
+        e.target.value = "";
+      }}
+    />
+  );
+}
+
+/**
+ * Car photos: the first one large (4:3) with three thumbnails under it.
+ * Empty: clicking adds photos (several at once). With photos: hovering shows a
+ * plus, clicking opens the photo side panel (browse, delete, add more).
+ */
+function CarPhotos({ photos, title, inputId, onOpen }: { photos: Upload[]; title: string; inputId: string; onOpen: () => void }) {
+  const [main, ...rest] = photos;
+  const more = photos.length - 4;
+  const slot = "relative overflow-hidden rounded-xl ring-1 ring-white/10";
+  const emptyCls = "flex cursor-pointer flex-col items-center justify-center border border-dashed border-white/20 bg-white/[0.03] text-white/45 ring-0 transition-colors hover:border-white/50 hover:text-white/80";
+  const hoverPlus = (
+    <span aria-hidden className="absolute inset-0 flex items-center justify-center bg-zinc-950/50 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100">
+      <span className="flex size-10 items-center justify-center rounded-full bg-white text-zinc-950">
+        <I name="plus" className="size-5" />
+      </span>
+    </span>
+  );
+  const filled = (img: Upload, className: string, children?: React.ReactNode) => (
+    <button key={img.url} type="button" onClick={onOpen} aria-label={`Foto's bekijken (${photos.length})`} className={`${slot} group block ${className}`}>
+      {/* eslint-disable-next-line @next/next/no-img-element -- local blob preview */}
+      <img src={img.url} alt="" className="size-full object-cover" />
+      {children}
+      {hoverPlus}
+    </button>
+  );
+  const empty = (key: number, className: string, children: React.ReactNode) =>
+    main ? (
+      <button key={key} type="button" onClick={onOpen} aria-label="Foto's toevoegen" className={`${slot} ${emptyCls} ${className}`}>{children}</button>
+    ) : (
+      <label key={key} htmlFor={inputId} className={`${slot} ${emptyCls} ${className}`}>{children}</label>
+    );
+
+  return (
+    <div className="self-start">
+      {main
+        ? filled(
+            main,
+            "aspect-[4/3] w-full rounded-2xl",
+            <span className="absolute inset-x-0 bottom-0 truncate bg-gradient-to-t from-zinc-950/80 to-transparent px-4 pt-8 pb-3 text-left text-sm font-medium text-white">
+              {title}
+            </span>,
+          )
+        : empty(
+            -1,
+            "aspect-[4/3] w-full gap-2 rounded-2xl",
+            <>
+              <I name="car" className="size-10" />
+              <span className="text-sm font-medium">{title}</span>
+              <span className="text-xs">Klik om foto&apos;s toe te voegen</span>
+            </>,
+          )}
+      <div className="mt-2 grid grid-cols-3 gap-2">
+        {[0, 1, 2].map((i) =>
+          rest[i]
+            ? filled(
+                rest[i],
+                "aspect-[4/3]",
+                i === 2 && more > 0 && (
+                  <span className="absolute inset-0 flex items-center justify-center bg-zinc-950/60 text-sm font-medium text-white">+{more}</span>
+                ),
+              )
+            : empty(i, "aspect-[4/3]", <I name="plus" className="size-4" />),
+        )}
+      </div>
+    </div>
+  );
+}
+
+/** Side panel: scrollable list of uploads with delete, and an add button on top; portalled to <body>. */
+function FileViewer({
+  title, addLabel, inputId, files, onRemove, onClose,
+}: {
+  title: string; addLabel: string; inputId: string; files: Upload[]; onRemove: (url: string) => void; onClose: () => void;
+}) {
+  useEffect(() => {
+    const root = document.documentElement;
+    const prev = root.style.overflow;
+    root.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => {
+      root.style.overflow = prev;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [onClose]);
+
+  return createPortal(
+    <div className="fixed inset-0 z-[100]" role="dialog" aria-modal="true" aria-label={title}>
+      <button type="button" aria-label="Sluiten" onClick={onClose} className="absolute inset-0 bg-zinc-950/70 backdrop-blur-sm" />
+      <div className="absolute inset-y-0 right-0 flex w-full max-w-md flex-col bg-zinc-900 text-white shadow-2xl ring-1 ring-white/10">
+        <div className="flex items-center justify-between gap-3 border-b border-white/10 px-5 py-4">
+          <p className="font-medium">
+            {title} <span className="text-white/45">({files.length})</span>
+          </p>
+          <button type="button" onClick={onClose} aria-label="Sluiten" className="flex size-10 items-center justify-center rounded-xl text-white/70 ring-1 ring-white/15 transition-colors hover:text-white">
+            <I name="close" className="size-4" />
+          </button>
+        </div>
+        <div className="border-b border-white/10 px-5 py-4">
+          {/* Points at the card's own file input, so new files land in the same list */}
+          <label
+            htmlFor={inputId}
+            className="flex min-h-11 w-full cursor-pointer items-center justify-center gap-2 rounded-xl bg-white text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-200"
+          >
+            <I name="plus" className="size-4" /> {addLabel}
+          </label>
+        </div>
+        <ul className="flex-1 space-y-4 overflow-y-auto overscroll-contain p-5">
+          {files.map((f) => (
+            <li key={f.url} className="overflow-hidden rounded-xl bg-white/[0.04] ring-1 ring-white/10">
+              {f.image ? (
+                // eslint-disable-next-line @next/next/no-img-element -- local blob preview
+                <img src={f.url} alt={f.name} className="max-h-80 w-full bg-black object-contain" />
+              ) : f.pdf ? (
+                <iframe src={f.url} title={f.name} className="h-80 w-full bg-white" />
+              ) : null}
+              <div className="flex items-center justify-between gap-3 px-4 py-3">
+                <a href={f.url} target="_blank" rel="noreferrer" className="min-w-0 truncate text-sm text-white/80 underline-offset-4 hover:underline">
+                  {f.name}
+                </a>
+                <button
+                  type="button"
+                  onClick={() => onRemove(f.url)}
+                  aria-label={`${f.name} verwijderen`}
+                  className="flex size-9 flex-none items-center justify-center rounded-lg text-white/60 ring-1 ring-white/15 transition-colors hover:bg-red-500/10 hover:text-red-400 hover:ring-red-400/50"
+                >
+                  <I name="trash" className="size-4" />
+                </button>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>,
+    document.body,
   );
 }

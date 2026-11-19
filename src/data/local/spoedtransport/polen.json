@@ -1,0 +1,1097 @@
+{
+  "service": "spoedtransport",
+  "origin": "polen",
+  "pages": {
+    "polen": {
+      "lead": "Een wagen moet vandaag nog uit Polen weg, en het is een feestdag of een zomervrijdagavond. Polen kent geen algemeen zondagverbod voor vrachtwagens, maar wel vaste verbodsdagen en een zomerregeling die een zware transporter urenlang aan de kant houdt. Wie spoed vraagt, kijkt dus eerst naar de kalender en pas daarna naar de kaart.",
+      "facts": [
+        {
+          "label": "Gewichtsgrens",
+          "value": "Rijverboden gelden boven 12 ton toegelaten totaalgewicht"
+        },
+        {
+          "label": "Gewone zondag",
+          "value": "Buiten de zomer geen algemeen zondagverbod voor vrachtwagens"
+        },
+        {
+          "label": "Feestdagen",
+          "value": "Verbod van 8 tot 22 uur, de avond ervoor meestal vanaf 18 uur"
+        },
+        {
+          "label": "Warschau",
+          "value": "Boven 16 ton leveren in de spits vraagt een C16-identificator"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wanneer een zware transporter in Polen stilstaat",
+          "body": [
+            "Het Poolse verbod richt zich op voertuigen met een toegelaten totaalgewicht boven 12 ton. Het geldt op wettelijke feestdagen van 8 tot 22 uur, en op de vooravond van de meeste daarvan al vanaf 18 uur. Bussen vallen erbuiten.",
+            "Een deel van die feestdagen heeft een vaste datum: Nieuwjaar, 1 mei, 3 mei (Dag van de Grondwet), 15 augustus, 1 november, 11 november en de twee kerstdagen. Andere schuiven elk jaar mee. Voor een spoedrit betekent dat: een opdracht die op de vooravond van 1 mei of 11 november nog moet vertrekken, krijgt maar een smal venster tot 18 uur.",
+            "Buiten die dagen en de zomer mag een open autotransporter op een gewone zaterdag of zondag in Polen gewoon rijden. Dat verschilt met Duitsland en Frankrijk, en het maakt Polen op een rustig weekend soms de makkelijkste schakel van de rit."
+          ]
+        },
+        {
+          "heading": "De zomerregeling in het weekend",
+          "body": [
+            "Van eind juni tot eind augustus komt er een extra regeling bij voor dezelfde zware voertuigen. Op vrijdag mag er niet gereden worden van 18 tot 22 uur, op zaterdag van 8 tot 14 uur en op zondag de hele dag van 8 tot 22 uur.",
+            "Voor een dringende rit uit Polen in juli betekent dit dat vrijdagnamiddag het laatste uur is waarin u de chauffeur nog goed kunt laten vertrekken. Wie het zaterdagvoormiddag mist, wacht tot de middag. Een transporter die in die uren onderweg is, moet al op een parking of terrein staan.",
+            "Valt een feestdag in de zomerperiode, dan gelden de regels van die feestdag en niet de zomeruren. Kijk de actuele kalender van het jaar na, want de data schuiven van jaar tot jaar."
+          ]
+        },
+        {
+          "heading": "Wat niet vrijgesteld is, en wat een overtreding kost",
+          "body": [
+            "De wettelijke uitzonderingen zijn beperkt tot bederfelijke of gekoelde goederen, levende dieren, gecombineerd vervoer, voertuigen voor wegenwerken en landbouwmachines. Het vervoer van wagens staat niet op die lijst zoals de bron ze weergeeft. Reken dus niet op een uitzondering omdat de wagen dringend nodig is.",
+            "Boetes treffen niet alleen de chauffeur. Ook de vervoerder en de verantwoordelijke binnen het bedrijf kunnen beboet worden. Een serieuze transporteur plant daarom rond de verboden in plaats van ze te riskeren."
+          ],
+          "points": [
+            "Controleer het gewicht van de volledige combinatie, niet alleen van de lading.",
+            "Vraag bij elke spoedopdracht naar de datum van de eerstvolgende feestdag.",
+            "Houd bij ophaling op vrijdagavond rekening met de zomeruren."
+          ]
+        },
+        {
+          "heading": "Laden of lossen in Warschau",
+          "body": [
+            "De hoofdstad heeft een eigen regime voor zware voertuigen. Boven 16 ton geldt een verbod van 7 tot 10 uur en van 16 tot 20 uur. Doorgaand verkeer mag er de hele dag niet in. Wie in die uren toch moet leveren, heeft een C16-identificator van de stedelijke wegbeheerder nodig.",
+            "Het is dus verstandig om een afleveradres in Warschau buiten de spitsuren te plannen. Een ophaling om half negen in de ochtend op een adres in de stad loopt anders vast op papier, nog voor het verkeer een rol speelt."
+          ]
+        },
+        {
+          "heading": "Wat Mcars hierin concreet doet",
+          "body": [
+            "Mcars vervoert op open, meerlaagse autotransporters. Elke vrachtwagen heeft een lier, en voor een volledig geblokkeerde wagen komt er een heftruck ter plaatse. Bij ophaling maakt de chauffeur een inspectie en foto's, en de rit gaat met een CMR-vrachtbrief. U vraagt een offerte op maat en krijgt binnen 24 uur antwoord.",
+            "Geef bij uw aanvraag de gewenste ophaaldatum en het adres door. De planner kijkt dan na of de rit die dag kan vertrekken of dat een verbodsdag in de weg zit. Levering op het depot in Roeselare kan 24/7 en is voordeliger, wat bij een wagen die uit Polen komt een nuttig alternatief kan zijn voor levering aan huis."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Milieuzone Warschau",
+          "body": "Warschau heeft een Strefa Czystego Transportu. Wie niet in de stad gevestigd is, mag er met benzine minstens Euro 3 of bouwjaar vanaf 2000 in, en met diesel minstens Euro 5 of bouwjaar vanaf 2009. De stadswacht controleert via de nationale voertuigdatabank. Zeker bij een oudere wagen die op eigen kracht moet rijden, loont het om dit na te kijken."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone Krakau",
+          "body": "Krakau heeft een milieuzone binnen de vierde ringweg, ongeveer het grootste deel van het stadsgebied. Een rechtbank vernietigde onderdelen van het gemeentebesluit, onder meer de koppeling met een meldadres, maar de zone en de emissienormen blijven gelden zolang het vonnis niet definitief is. Kijk de stand voor vertrek na."
+        },
+        {
+          "kind": "regel",
+          "title": "C5- en C10-zones in Warschau",
+          "body": "Naast de C16-regeling heeft Warschau zones met een gewichtsgrens van 5 en 10 ton, met eigen identificatoren. Voor voertuigen boven 16 ton is zo'n identificator zes maanden geldig, voor lichtere twaalf maanden. Een kleinere bestelwagen met aanhanger kan dus ook geraakt worden, niet alleen de grote transporter."
+        },
+        {
+          "kind": "tip",
+          "title": "Wanneer het loket wel dicht is",
+          "body": "Driekoningen en Kerstavond zijn in Polen vrije dagen, ook al staan ze niet op de lijst met vrachtwagenverbod. Bedrijven en loketten zijn dan dicht, zodat laden of papieren afhalen niet lukt. Plan ophalen op die dagen dus niet in zonder het vooraf met het adres af te spreken."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter in Polen op zondag rijden?",
+          "a": "Buiten de zomerperiode en de feestdagen wel, want er is geen algemeen zondagverbod. In de zomer geldt op zondag een verbod van 8 tot 22 uur voor voertuigen boven 12 ton, en autotransport staat niet bij de uitzonderingen."
+        },
+        {
+          "q": "Telt het aantal wagens op de oplegger mee voor het verbod?",
+          "a": "Het verbod hangt af van het toegelaten totaalgewicht van het voertuig, niet van het aantal wagens. Een volle meerlaagse transporter moet u daarom als zwaar voertuig beschouwen, en vraag bij een kleinere combinatie na welk gewicht op de papieren staat."
+        },
+        {
+          "q": "Hoe weet ik of mijn ophaaldag een verbodsdag is?",
+          "a": "Kijk naar de feestdag, de vooravond ervan en de zomerweekends. De exacte data veranderen elk jaar. Geef bij uw aanvraag de gewenste ophaaldatum door, dan kan de planner meteen nakijken of de rit die dag kan vertrekken."
+        }
+      ],
+      "seoDescription": "Spoedtransport in Polen: wanneer vrachtwagens boven 12 ton niet mogen rijden, wat de zomerregeling betekent en wat u regelt voor een dringende autorit.",
+      "sources": [
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://warszawa19115.pl/-/identyfikator-c16",
+        "https://warszawa19115.pl/-/identyfikator-c5-c10",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://www.autocentrum.pl/newsy/wyrok-w-sprawie-sct-w-krakowie-sad-podwazyl-kryterium-meldunku-ale-strefa-zostaje/",
+        "https://www.infakt.pl/blog/wymiar-czasu-pracy-2026-r-pelna-lista-swiat-i-tabele/"
+      ]
+    },
+    "polen-belgie": {
+      "lead": "Een wagen in Kraków of Rzeszów die snel naar België moet, vertrekt aan het oostelijke uiteinde van de E40. Die weg loopt door Polen, Duitsland en België tot aan de kust. Onderweg bepalen het Poolse tolsysteem, de Duitse zondag en de grenscontroles hoe snel een rit werkelijk kan zijn.",
+      "facts": [
+        {
+          "label": "E40",
+          "value": "Eén doorgaande as van Korczowa tot Adinkerke"
+        },
+        {
+          "label": "Poolse tol",
+          "value": "Boven 3,5 ton betaalt u via satelliet, zonder tolpoorten"
+        },
+        {
+          "label": "Duitse zondag",
+          "value": "Rijverbod van 0 tot 22 uur boven 7,5 ton"
+        },
+        {
+          "label": "Rijtijd",
+          "value": "Hoogstens 9 uur per dag, twee keer per week 10"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Zuid-Polen",
+          "body": [
+            "Zuid-Polen heeft een goed uitgebouwd wegennet voor de eerste honderden kilometers. De S7 loopt zonder onderbreking over 281 km tussen Warschau en Kraków. Tussen Kraków en Myślenice is een bestaande dubbele rijbaan deels in verbouwing, en verder zuidwaarts ligt de Zakopianka-corridor met een tunnel, voor wie vanuit het gebergte een wagen moet laten ophalen.",
+            "Wie in Kraków of Rzeszów een wagen heeft staan, rijdt voor België westwaarts over de A4. Een deel daarvan, tussen Katowice en Kraków, is een concessieweg waar iedereen tol betaalt. Dat stuk ligt dus aan het begin van uw rit, niet aan het einde."
+          ]
+        },
+        {
+          "heading": "Poolse tol zonder poorten",
+          "body": [
+            "Polen laat vrachtvoertuigen boven 3,5 ton betalen via e-TOLL, een systeem dat met satellietplaatsbepaling werkt. Er staan geen tolpoorten. De positie van het voertuig gaat door via een boordtoestel, een extern lokalisatiesysteem of de gratis app e-TOLL PL.",
+            "Het betalende net is ongeveer 5.870 km lang en werd uitgebreid, vooral met verlengingen van wegen die al betaalden. De Poolse belastingdienst beheert het systeem. Voor u als klant betekent dit weinig, behalve dat een transporteur zonder registratie of toestel in Polen niet mag rijden."
+          ]
+        },
+        {
+          "heading": "Duitsland in het midden van de rit",
+          "body": [
+            "Tussen Zgorzelec en Aken ligt de lange Duitse etappe. Daar geldt op zon- en feestdagen een rijverbod van 0 tot 22 uur voor vrachtwagens boven 7,5 ton. In de zomer komt er een zaterdagverbod bij op een lijst van wegvakken.",
+            "Een transporteur die vrijdagavond in Zuid-Polen vertrekt, kan zaterdag nog ver geraken. Komt hij zaterdagnacht aan de Duitse grens, dan wacht hij op zondagavond 22 uur. Zeg bij een spoedaanvraag dus altijd of de wagen vóór het weekend weg moet."
+          ]
+        },
+        {
+          "heading": "Aan de Duitse grens",
+          "body": [
+            "Polen voert tijdelijke controles uit aan de grens met Duitsland, op tientallen punten, onder meer bij Świecko, Olszyna en Kołbaskowo. Vervoerders melden voor vrachtwagens wachttijden van meer dan een uur.",
+            "Duitsland controleert ook aan zijn kant. De bronnen spreken elkaar tegen over hoe lang beide regelingen lopen, dus beschouw de grensdrukte als een wisselende factor. Een rit die op papier netjes past binnen de rijtijden kan zo toch een uur langer duren, en bij een dringende opdracht is dat net het uur dat telt."
+          ]
+        },
+        {
+          "heading": "Aankomst in Luik en de Oostkantons",
+          "body": [
+            "Vanuit Duitsland komt u in België binnen bij Lichtenbusch. Daar neemt de E40 het over richting Luik, met het knooppunt Loncin waar E40, E42 en E25 samenkomen. De E40 steekt er de Maas over in Herstal.",
+            "Wie in deze regio een wagen moet afleveren, rijdt daarna meestal verder over de A15/E42, die bij Bierset begint, vlak naast de vrachtluchthaven. Voor een adres in Luik zelf is dit dus de eerste echte stad na de grens, en een goede plek om te overnachten of rijtijd te herstellen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Korczowa",
+          "body": "Korczowa is het oostelijke eindpunt van de A4 en ligt aan de grens met Oekraïne, een Schengen-buitengrens. De E40 eindigt er. Voor een wagen die in Zuid-Oost-Polen staat, is dit de streek waar de A4 begint te lopen. Reken op drukte van vrachtverkeer rond de grensovergang."
+        },
+        {
+          "kind": "regel",
+          "title": "Duitse tol en Belgische toestellen",
+          "body": "In Duitsland gebruikt men Toll Collect, een systeem met satellietplaatsbepaling en een boordtoestel. Een Belgisch Satellic-toestel werkt daar niet. Een transporteur die vanuit België naar Polen en terug rijdt, heeft dus telkens het juiste toestel per land nodig."
+        },
+        {
+          "kind": "plek",
+          "title": "Liège Airport",
+          "body": "Liège Airport in Bierset, ongeveer tien kilometer ten westen van Luik, is de grootste vrachtluchthaven van België en is dag en nacht open. Het ligt naast de A15/E42. Wie in de buurt een wagen laat afleveren, kan er 's nachts rekenen op een actieve omgeving in plaats van een lege weg."
+        },
+        {
+          "kind": "regel",
+          "title": "Vrachtbrief aan boord",
+          "body": "In België moet de vrachtbrief in minstens drie originele exemplaren worden opgemaakt, voor afzender, geadresseerde en vervoerder. Het document reist mee met het voertuig. Ook een dringende rit vertrekt dus niet zonder papieren, en dat geldt evengoed bij aankomst in Luik."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een wagen uit Kraków binnen één dag in België zijn?",
+          "a": "Dat hangt af van de rijtijden, want een chauffeur mag per dag hoogstens 9 uur rijden, twee keer per week 10, en moet na 4,5 uur 45 minuten pauzeren. Voor zo'n afstand is meestal meer dan één rijdag nodig."
+        },
+        {
+          "q": "Wat als de transporter zaterdagnacht aan de Duitse grens staat?",
+          "a": "Dan geldt het Duitse zondagsverbod tot 22 uur. De chauffeur kan voor die tijd niet verder over de Autobahn. Vraag daarom bij een spoedrit naar de vertrekdag, zodat de wagen vóór het weekend voorbij Duitsland geraakt."
+        },
+        {
+          "q": "Moet ik als klant iets doen voor de Poolse tol?",
+          "a": "Nee. De tol voor zware voertuigen is een zaak van de transporteur, die zich in e-TOLL registreert en een boordtoestel of de app gebruikt. U hoeft enkel de ophaaldatum en het adres door te geven."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar België: de E40 van Korczowa tot Luik, Duitse zondagen, grenscontroles en rijtijden die uw dringende autorit bepalen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://aa.com.tr/en/europe/poland-extends-border-controls-with-germany-and-lithuania-until-october/3884308",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://en.wikipedia.org/wiki/Expressway_S7_(Poland)",
+        "https://en.wikipedia.org/wiki/Korczowa",
+        "https://nl.wikipedia.org/wiki/Liege_Airport",
+        "https://mobilit.belgium.be/nl/weg/transport/rij-en-rusttijden/rijtijden",
+        "https://mobilit.belgium.be/nl/weg/transport/vrachtbrief/opmaak-gebruik-en-bewaarplicht",
+        "https://nl.wikipedia.org/wiki/A3_%28Belgi%C3%AB%29"
+      ]
+    },
+    "polen-nederland": {
+      "lead": "Vertrekt uw wagen in Poznań of Zielona Góra, dan rijdt de transporter eerst naar Świecko. Daar sluit de Poolse A2 aan op de Duitse A12. Dat is de kortste lijn naar Nederland, en ook de lijn waar de grenscontroles en de Duitse zondag het meest bepalen wanneer een wagen echt aankomt.",
+      "facts": [
+        {
+          "label": "A2",
+          "value": "Begint bij Świecko en loopt via Poznań en Łódź naar Warschau"
+        },
+        {
+          "label": "Tol A2",
+          "value": "Concessiestukken passen hun tarieven geregeld aan"
+        },
+        {
+          "label": "Grens",
+          "value": "Polen controleert tijdelijk aan de Duitse grens"
+        },
+        {
+          "label": "Nederland",
+          "value": "Geen algemeen weekendverbod voor vrachtverkeer"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Poznań en Świecko",
+          "body": [
+            "De A2 begint bij Świecko aan de Duitse grens en loopt over Poznań en Łódź naar Warschau. Het deel Świecko tot Warschau is ongeveer 452 km lang. Het laatste stukje aan de grens zelf is technisch nog geen snelweg.",
+            "Een groot deel tussen Świecko en Konin is tolweg, met uitzondering van de ring van Poznań. De tarieven op de concessiestukken wijzigen geregeld, voor alle voertuigcategorieën. Vraag een transporteur dus niet om een vaste kostprijs op basis van een oude tarieflijst."
+          ]
+        },
+        {
+          "heading": "Controles en files bij de grens",
+          "body": [
+            "Sinds de grenscontroles zijn ingevoerd, staan er voor Świecko geregeld files, vooral voor het vrachtverkeer. Het vakblad Transport Online beschrijft de gevolgen voor logistiek en leveringen, en de brug bij Frankfurt (Oder) draagt veel containertrucks en zwaar verkeer.",
+            "Voor een dringende rit is dat het onzekerste uur. Een transporteur kan zijn rijtijden perfect plannen en toch een lange file ontmoeten op de A12 vóór de grens. Houd daarom in uw eigen planning een marge, zeker als de wagen op een vaste dag in Nederland moet zijn."
+          ]
+        },
+        {
+          "heading": "Duitsland als transitland",
+          "body": [
+            "Zowel Nederland als Polen liggen aan weerszijden van Duitsland, en daar geldt op zon- en feestdagen een rijverbod van 0 tot 22 uur boven 7,5 ton. Nederland heeft geen algemeen weekend- of feestdagverbod, Polen enkel in de zomer en op feestdagen.",
+            "In de praktijk is Duitsland dus de beperkende schakel. Een open autotransporter die zaterdag in Poznań laadt, rijdt vlot tot de Duitse grens en kan daarna op zondag niet verder tot de avond. Een vertrek op maandag is vaak betrouwbaarder dan een ophaling op zaterdag."
+          ]
+        },
+        {
+          "heading": "Aankomst in Gelderland en Utrecht",
+          "body": [
+            "De A12 gaat bij Zevenaar over in de Duitse A3. Wie uit Polen via de Ruhr komt, rijdt Nederland dus binnen in Gelderland. Daar loopt het project ViA15, een uitbreiding van de A12 en A15 bij knooppunt Ressen-Oudbroeken, en wordt de A1 tussen Apeldoorn en Twello verbreed.",
+            "Verder naar Utrecht ligt de Galecopperbrug op de ring. Bij onderhoud rekent Rijkswaterstaat daar op meer dan een uur extra reistijd. Kies voor een afleveradres in deze regio dus niet de ochtendspits, tenzij het echt niet anders kan."
+          ]
+        },
+        {
+          "heading": "Papieren en openingsuren in Nederland",
+          "body": [
+            "Officiële feestdagen zijn in Nederland niet automatisch vrij. Of een bedrijf werkt, hangt af van de cao of het contract, bijvoorbeeld op Goede Vrijdag en 5 mei. Een garage waar u de wagen wilt laten afleveren, kan dus open of dicht zijn.",
+            "De RDW-keuringsstations zijn open op werkdagen van 8 tot 17 uur en dicht op feestdagen. Het kentekenbewijs komt na goedkeuring binnen vijf werkdagen. Wie een wagen uit Polen invoert of naar Polen uitvoert, regelt die stappen zelf of via een dealer. Mcars vervoert de wagen en regelt geen inschrijving."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "A12 voor Świecko",
+          "body": "Door de Duitse en Poolse controles ontstaan lange files op de A12 vóór de grensovergang bij Świecko. Spoed over deze grens blijft daardoor moeilijk te plannen. Een vertrek vroeg in de ochtend op een gewone weekdag geeft meestal de beste kans op een vlotte passage."
+        },
+        {
+          "kind": "regel",
+          "title": "Exportmelding bij de RDW",
+          "body": "Een online exportmelding voor een wagen die al in het buitenland staat, beoordeelt de RDW binnen tien werkdagen. Voor een wagen die van Nederland naar Polen gaat, is dat geen dringende stap, maar wel een termijn die met uw transportdatum rekening moet houden."
+        },
+        {
+          "kind": "plek",
+          "title": "Galecopperbrug bij Utrecht",
+          "body": "De Galecopperbrug op de A12 over het Amsterdam-Rijnkanaal is een van de drukste punten van de Utrechtse ring. Bij onderhoud ontstaat er snel meer dan een uur vertraging. Een open autotransporter die hier moet passeren, plant het best buiten de spits."
+        },
+        {
+          "kind": "regel",
+          "title": "Duits rijverbod voor Nederlandse ritten",
+          "body": "Het Duitse rijverbod op zon- en feestdagen tot 22 uur raakt alle ritten tussen Nederland en Polen die over Duitsland lopen. Nederland zelf kent zo'n verbod niet. Spoed vanuit Nederland naar het oosten moet dus vaak al voor zaterdagmiddag de Duitse grens over zijn."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is de tol op de A2 hetzelfde voor elke transporteur?",
+          "a": "Nee. De Poolse tol voor zware voertuigen boven 3,5 ton loopt via e-TOLL, en op de concessiestukken van de A2 gelden eigen tarieven die geregeld wijzigen. Dat regelt de transporteur zelf, u hoeft er niets voor te doen."
+        },
+        {
+          "q": "Wanneer vertrekt een transporter best uit Poznań voor Nederland?",
+          "a": "Een gewone weekdag is het veiligst. Zaterdag en zondag botsen op Duitsland, en rond Świecko kunnen controles de rit vertragen. Geef uw uiterste afleverdatum door, dan kan de planner terugrekenen naar de beste vertrekdag."
+        },
+        {
+          "q": "Wat als mijn Nederlandse garage dicht is op een feestdag?",
+          "a": "Dan kan de wagen niet worden overgenomen. Nederlandse bedrijven zijn op officiële feestdagen niet verplicht gesloten, maar velen zijn het wel. Spreek het afleveradres en de openingsuren dus vooraf af, zeker rond Goede Vrijdag en 5 mei."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Nederland: de A2 vanaf Świecko, files aan de Duitse grens en rijverboden die bepalen hoe snel uw wagen echt aankomt.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://wartowiedziec.pl/komunikacja-i-transport/81579-podwyzki-na-autostradzie-a2-od-wrzesnia-kierowcy-zaplaca-wiecej",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://www.nadodrzanski.strazgraniczna.pl/nad/aktualnosci/66852,Tymczasowe-kontrole-graniczne-na-granicy-z-Niemcami-ruszyly-o-polnocy.pdf",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a12",
+        "https://nl.wikipedia.org/wiki/Galecopperbrug",
+        "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/voertuig-exporteren"
+      ]
+    },
+    "polen-luxemburg": {
+      "lead": "Een wagen in Wrocław of Legnica die snel naar Luxemburg moet, rijdt eerst westwaarts over de A4 tot Görlitz en daarna dwars door Duitsland. Voor Luxemburg zelf is de bestemming gunstig, want het weekendverbod daar treft vooral wie het land doorkruist. Het is Duitsland dat de planning bepaalt.",
+      "facts": [
+        {
+          "label": "A4 Polen",
+          "value": "Begint bij Jędrzychowice en loopt via Wrocław en Katowice"
+        },
+        {
+          "label": "Bestemming",
+          "value": "Rit die in Luxemburg eindigt valt niet onder het doorvoerverbod"
+        },
+        {
+          "label": "Duitsland",
+          "value": "Zondag en feestdagen van 0 tot 22 uur boven 7,5 ton"
+        },
+        {
+          "label": "SNCA",
+          "value": "Contactcenter open maandag tot vrijdag, 7.30 tot 16.30 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Neder-Silezië",
+          "body": [
+            "De Poolse A4 begint bij de grensovergang Jędrzychowice–Ludwigsdorf en loopt via Wrocław, Katowice en Kraków naar Korczowa. Van de grens tot Wrocław is het ongeveer 151 km zonder tol en zonder pechstrook, een belangrijk detail als de wagen op een pechstrook niets te zoeken heeft.",
+            "Rond Wrocław zelf ligt een ring van 22,7 km die als autosnelweg is aangelegd en het nummer A8 draagt, ook al hoort ze bij de S8-corridor. Voor een ophaling in de omgeving van Wrocław is dat de snelste weg naar de A4, zonder door de stad te moeten."
+          ]
+        },
+        {
+          "heading": "Tol en registratie in Polen",
+          "body": [
+            "Zware voertuigen registreren zich in e-TOLL: een account, het voertuig en een betaalmethode, plus een goedgekeurd boordtoestel of de app e-TOLL PL. Dat is een zaak van de vervoerder.",
+            "Voor u betekent het dat een transporteur die dit niet in orde heeft, Polen niet kan inrijden. Vraag bij een spoedopdracht niet naar de tol maar naar de planning, want de tol bepaalt de snelheid van de rit niet.",
+            "De app is gratis, zodat ook een kleine vervoerder het systeem kan gebruiken zonder eigen toestel."
+          ]
+        },
+        {
+          "heading": "Door Duitsland tot Trier",
+          "body": [
+            "De gebruikelijke route volgt de Duitse A4 van Görlitz via Dresden, Erfurt en Eisenach, en daarna richting Koblenz of Frankfurt tot Trier. De Duitse A4 telt 583 km tussen Aken en Görlitz.",
+            "In Duitsland geldt voor vrachtwagens boven 7,5 ton en voor vrachtwagens met aanhanger een rijverbod op zon- en feestdagen van 0 tot 22 uur. Van 1 juli tot 31 augustus komt daar een zaterdagverbod bij van 7 tot 20 uur op 32 trajecten. Voor Duitse tol betaalt de transporteur via Toll Collect, voor voertuigen boven 3,5 ton, met een CO2-toeslag.",
+            "Wie dus op vrijdagavond uit Wrocław vertrekt, haalt zaterdag Dresden en Erfurt, maar in de zomermiddag kan hij vastlopen op een verboden traject."
+          ]
+        },
+        {
+          "heading": "Bestemming Luxemburg",
+          "body": [
+            "Het Luxemburgse rijverbod geldt voor vrachtwagens boven 7,5 ton in doorvoer richting Duitsland, van zaterdag 23.30 uur tot zondag 21.45 uur, en ook voor en op feestdagen. Een rit die in Luxemburg eindigt, valt er niet onder.",
+            "Ligt het anders, en moet een wagen vanuit Luxemburg naar Polen, dan is de rit doorvoer richting Duitsland en geldt het verbod wel. Zondagnacht na 21.45 uur kan de transporter dan pas de grens over. Reken voor die richting dus met een vertrek vanaf zondagavond of op een weekdag."
+          ]
+        },
+        {
+          "heading": "Papieren en loketten in Luxemburg",
+          "body": [
+            "Luxemburg kent twee feestdagen die België niet kent: Europadag op 9 mei en de nationale feestdag op 23 juni. Loketten zoals de SNCA en de douane kunnen dan dicht zijn.",
+            "De SNCA is bereikbaar van maandag tot vrijdag. Voor exportplaten rekent ze zelf gemiddeld op een volle dag, omdat de aanvraag langs de SNCA, de verzekeraar en de platenmaker loopt. Een dringende uitvoer in het weekend lukt dus niet.",
+            "Plan een dringende uitvoer of inschrijving dus op een werkdag en niet op een feestdag. Mcars vervoert de wagen, het papierwerk regelt u zelf of via een garage."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Wasserbillig en de A64",
+          "body": "De Luxemburgse A1 gaat bij Wasserbillig over in de Duitse A64, die na ongeveer 14 km in Trier eindigt. De A64 sluit niet rechtstreeks aan op de Duitse A1, dus verder gaat het via de B51 of de A64a en A602. Wie hier aankomt met een zware transporter, kijkt best vooraf welke afrit hij neemt."
+        },
+        {
+          "kind": "plek",
+          "title": "Schengen en de A13",
+          "body": "Het oostelijke deel van de Luxemburgse A13 loopt van Hellange naar Schengen, waar een viaduct van 607 meter de Moezel oversteekt. Aan de overkant, bij Perl, gaat ze over in de Duitse A8 richting Saarlouis. Dat is een alternatieve aanrijroute voor ritten uit het zuiden van Duitsland."
+        },
+        {
+          "kind": "tip",
+          "title": "Hoogwater in Remich",
+          "body": "In Remich overstroomt de Moezel in het voorjaar geregeld. Bij hoogwater zijn adressen aan de oever mogelijk niet bereikbaar. Wie een wagen in Remich moet afleveren, spreekt een alternatief afleverpunt af, zodat de rit niet strandt op een afgesloten kade."
+        },
+        {
+          "kind": "event",
+          "title": "Carnaval in Remich",
+          "body": "Remich viert drie dagen carnaval, de Fuesend. Het hoogtepunt is het Stréimännchen, een stropop die vanaf de Moezelbrug wordt verbrand. Rond die dagen is het centrum druk. Een wagen die in die week moet aankomen, laat u best een dag vroeger of later leveren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Geldt het Luxemburgse weekendverbod voor een rit naar Luxemburg?",
+          "a": "Nee. Het verbod treft de doorvoer van vrachtwagens boven 7,5 ton richting Duitsland of Frankrijk. Vervoer met Luxemburg als bestemming en doorvoer richting België vallen er niet onder."
+        },
+        {
+          "q": "Mag een transporter in Luxemburg op een parking wachten tijdens het verbod?",
+          "a": "Voor voertuigen die onder het verbod vallen, niet. Ze moeten vooraf een privéterrein bereiken of het land verlaten. Dat telt niet voor een rit die in Luxemburg eindigt, maar wel voor wie daarna doorrijdt."
+        },
+        {
+          "q": "Kan ik zaterdag een exportplaat in Luxemburg regelen?",
+          "a": "Niet via de SNCA, want haar contactcenter is open van maandag tot vrijdag, 7.30 tot 16.30 uur. Een exportplaat kost bovendien gemiddeld een volle dag. Regel dit dus vóór het weekend, of laat de rit tot maandag wachten."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Luxemburg: de A4 vanaf Wrocław, het Duitse zondagsverbod en wat het Luxemburgse doorvoerverbod voor uw wagen betekent.",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://www.etoll.gov.pl/en/",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=LU",
+        "https://en.wikipedia.org/wiki/Public_holidays_in_Luxembourg",
+        "https://snca.public.lu/fr/plaques/exportation.html",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Autoroute_13_(Luxemburg)",
+        "https://fr.wikipedia.org/wiki/Remich",
+        "https://en.wikipedia.org/wiki/Remich"
+      ]
+    },
+    "polen-frankrijk": {
+      "lead": "Een wagen uit Warschau of Łódź die naar Frankrijk moet, doorkruist Polen, Duitsland en dan het land met het strengste weekend van de drie. Op de kaart is het één lange as. Voor wie spoed vraagt, rekent een transporteur beter terug vanaf het Franse weekend dan vooruit vanaf Polen.",
+      "facts": [
+        {
+          "label": "Frans weekend",
+          "value": "Zaterdag 22 uur tot zondag 22 uur, boven 7,5 ton"
+        },
+        {
+          "label": "Autotransport",
+          "value": "Staat niet in de lijst met permanente afwijkingen"
+        },
+        {
+          "label": "Prefect",
+          "value": "Individuele afwijking mogelijk voor dringend vervoer na een onvoorziene gebeurtenis"
+        },
+        {
+          "label": "15 augustus",
+          "value": "In Polen geldt dan het feestdagverbod, niet de zomerregeling"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Warschau en Łódź",
+          "body": [
+            "De S8 loopt over 554 km van Wrocław via Łódź en Warschau naar Białystok. Het stuk door Warschau is het drukste snelwegstuk van Polen, en is tijdens de spits voor vrachtwagens verboden. Een ophaling in de hoofdstad plant u daarom buiten die uren.",
+            "De S2 is de zuidelijke ring van Warschau, 34,1 km lang, en verbindt de A2 ten westen en ten oosten van de stad. De tunnel van Ursynów, ongeveer 2,3 km, opende in december 2021. Voor een wagen die uit het centrum naar het westen moet, vermijdt de ring de stad volledig."
+          ]
+        },
+        {
+          "heading": "Poolse feestdagen en vrije dagen",
+          "body": [
+            "Valt een feestdag in de zomerperiode, zoals 15 augustus, dan geldt die dag het feestdagverbod van 8 tot 22 uur in plaats van de zomerregeling. Op een gewone zomerzaterdag stopt het verbod al om 14 uur; op een feestdag is de hele dag verloren.",
+            "Valt een feestdag op een zaterdag, dan hebben werknemers recht op een andere vrije dag. Reken rond die data op bedrijven die een extra dag dicht zijn. Een garage in Łódź kan dus al voor de feestdag zijn laatste openingsdag hebben gehad."
+          ]
+        },
+        {
+          "heading": "Het Franse weekend",
+          "body": [
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur. Rond feestdagen loopt het verbod van 22 uur op de vooravond tot 22 uur op de feestdag. Valt een feestdag op zaterdag, of is een zondag ook de vooravond van een feestdag, dan geldt het verbod de volledige dag.",
+            "In de zomer komen er hoogstens zeven verbodszaterdagen bij op het hele net, van 7 tot 19 uur. De permanente uitzonderingen betreffen levende dieren, bederfelijke waren, pers, luchtvracht en ziekenhuisgoederen, maar niet het gewone vervoer van voertuigen. Een autotransporter boven 7,5 ton valt dus onder het verbod."
+          ]
+        },
+        {
+          "heading": "Een afwijking aanvragen voor dringend vervoer",
+          "body": [
+            "De prefect kan een individuele afwijking toestaan, voor ten hoogste een jaar, onder meer voor dringend vervoer na een onvoorziene gebeurtenis. Voor ritten uit het buitenland beslist de prefect van het departement waar men Frankrijk binnenrijdt.",
+            "De afwijking moet aan boord zijn, ingevuld met de datum van de rit en de nummerplaat. Of een bepaalde opdracht dringend genoeg is, bepaalt de overheid, niet de transporteur of de klant. Reken er bij een gewone verkoop of verhuis dus niet op.",
+            "Informeer bij uw aanvraag naar de datum, want elke afwijking is voor één rit en één voertuig."
+          ]
+        },
+        {
+          "heading": "Aankomst in de Elzas en Lotharingen",
+          "body": [
+            "In Grand Est ligt de A355, de westelijke omleiding van Straatsburg. Sinds ze open is, mag doorgaand vrachtverkeer niet meer over de M35 door de stad. Een autotransporter in transit neemt dus de omleiding.",
+            "Rond Thionville en Metz rijden dagelijks tienduizenden grensarbeiders naar Luxemburg, bovenop het transitverkeer tussen de Benelux en Zuid-Frankrijk. Ook de A36 door Mulhouse geldt als moeilijk, en tussen Belfort en Montbéliard is het druk. Plan aankomst in de regio dus niet op het moment dat de spits begint."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Bison Futé voor transporteurs",
+          "body": "Bison Futé biedt transporteurs een gratis abonnement met berichten in real time over rijverboden en de opheffing ervan bij zwaar weer. Een planner die dit volgt, weet vóór de chauffeur Frankrijk binnenrijdt of een verbod is aangepast, en kan de rit daarop afstemmen."
+        },
+        {
+          "kind": "regel",
+          "title": "1 mei in Frankrijk",
+          "body": "1 mei is in Frankrijk de enige feestdag waarop wettelijk niet gewerkt wordt, behalve in sectoren die niet kunnen stilvallen. Laden of lossen bij een bedrijf lukt die dag doorgaans niet. Bruggen tussen een feestdag en het weekend zijn niet wettelijk geregeld, dus hangt het af van de cao of de werkgever."
+        },
+        {
+          "kind": "regel",
+          "title": "Luxemburg als verbodsstuk",
+          "body": "Luxemburg verbiedt vrachtwagens boven 7,5 ton die uit België of Duitsland komen en naar Frankrijk rijden van zaterdag 21.30 uur tot zondag 21.45 uur. Wie vanuit Polen via Duitsland en Luxemburg naar Frankrijk rijdt, krijgt dus nog een extra grens met een weekendverbod."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een wagen uit Warschau zaterdagavond Frankrijk binnenrijden?",
+          "a": "Een zware autotransporter boven 7,5 ton niet, want het Franse verbod loopt vanaf zaterdag 22 uur tot zondag 22 uur. De rit vertrekt best zo dat de transporter vóór die tijd een parking of terrein heeft bereikt."
+        },
+        {
+          "q": "Wat gebeurt er als ik op een Poolse zaterdagfeestdag moet ophalen?",
+          "a": "Dan geldt het feestdagverbod van 8 tot 22 uur en niet de zomeruren. Daarnaast hebben Poolse werknemers dan recht op een andere vrije dag, zodat het adres misschien nog een extra dag dicht is. Spreek dit vooraf af."
+        },
+        {
+          "q": "Is een Franse afwijking voor dringend vervoer realistisch?",
+          "a": "Zelden. De prefect kan ze toestaan voor dringend vervoer na een onvoorziene gebeurtenis, maar voor gewone autotransporten is het geen vaste route. Reken in uw planning dus met het volledige weekendverbod."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Frankrijk: Poolse en Duitse verboden, het Franse weekend van zaterdag 22 uur en wat een dringende autorit realistisch betekent.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+        "https://en.wikipedia.org/wiki/Expressway_S2_(Poland)",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.infor.pl/prawo/praca/czas-pracy/7454673,dni-wolne-od-pracy-w-2026-roku-kiedy-najlepiej-zaplanowac-urlop.html",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://www.bison-fute.gouv.fr/derogations-de-circulation.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A355_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A36_(France)",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405"
+      ]
+    },
+    "polen-duitsland": {
+      "lead": "Een wagen in Szczecin die naar Duitsland moet, staat bijna aan de grens. Toch is dit de plek waar controles, wachtrijen en de Duitse rijverboden de planning bepalen. Spoed betekent hier niet sneller rijden, maar de juiste dag kiezen.",
+      "facts": [
+        {
+          "label": "Grens",
+          "value": "Bij Szczecin liggen Kołbaskowo en Rosówek als overgangen"
+        },
+        {
+          "label": "Duitse zondag",
+          "value": "Verbod van 0 tot 22 uur boven 7,5 ton"
+        },
+        {
+          "label": "Uitzonderingen",
+          "value": "Vervoer van auto's staat niet in de wettelijke lijst"
+        },
+        {
+          "label": "Ontheffing",
+          "value": "Dringende gevallen via de lokale verkeersautoriteit, schriftelijk aan boord"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Szczecin en Świnoujście",
+          "body": [
+            "Bij Szczecin liggen twee grensovergangen voor personen- en goederenverkeer: Kołbaskowo aan de A6 en Rosówek aan de DK13. Wachtrijen richting Duitsland ontstaan volgens de bronnen vooral bij Rosówek.",
+            "Verder naar het noorden verbindt de Świnoujście-tunnel, 1,78 km lang en sinds 30 juni 2023 open, de twee delen van de stad. Ze is open voor wagens, minibussen en bestelwagens, maar gevaarlijke stoffen zijn verboden. Voor een zware transporter loont het om het toegelaten voertuigtype na te kijken.",
+            "Voor een adres in de haven of op het eiland is de tunnel de enige vaste verbinding."
+          ]
+        },
+        {
+          "heading": "Poolse controles aan de Duitse grens",
+          "body": [
+            "Polen voert tijdelijke controles uit op tientallen overgangen langs de Duitse grens. Rosówek staat uitdrukkelijk in de regeling die de huidige periode volgt. De regeling wordt telkens herzien, waarbij het toepassingsgebied van enkele overgangen verandert.",
+            "Beschouw de controles daarom als een variabele. Wie een dringende opdracht op een vaste datum heeft, laat de transporteur vroeg vertrekken en houdt een ruime marge. Hou ook papieren van wagen en chauffeur bij de hand, zodat een controle geen extra tijd kost.",
+            "Laat de transporter bij twijfel liever een uur vroeger vertrekken."
+          ]
+        },
+        {
+          "heading": "Het Duitse zon- en feestdagverbod",
+          "body": [
+            "Het verbod staat in paragraaf 30 van de Duitse wegcode. Het geldt van middernacht tot 22 uur voor vrachtwagens boven 7,5 ton en voor elke vrachtwagen met aanhanger, ongeacht het gewicht. Een vrachtwagen tot 7,5 ton zonder aanhanger valt er niet onder.",
+            "De wettelijke uitzonderingen zijn beperkt tot onder meer gecombineerd vervoer spoor-weg en haven-weg, verse melk, vlees, vis en licht bederfelijke groenten en fruit, en pech- en bergingsvoertuigen. Het vervoer van auto's staat niet op de lijst. Op zondagavond vanaf 22 uur mag de transporter weer vertrekken."
+          ]
+        },
+        {
+          "heading": "Zomerzaterdagen en een ontheffing",
+          "body": [
+            "In de zomer geldt op zaterdag ook een verbod op bepaalde assen, tot 20 uur. Daaronder vallen onder meer de A9 tussen de Berliner Ring en München en de A7 en A2 op delen van hun traject.",
+            "In dringende gevallen kan de plaatselijke wegenautoriteit een ontheffing verlenen als vervoer met andere middelen niet mogelijk is. De ontheffing is schriftelijk en moet aan boord zijn. Voor een gewone verhuis of aankoop is dat geen vanzelfsprekende weg.",
+            "Wie op zaterdag in juli of augustus moet vertrekken, bekijkt eerst of de gekozen route op de lijst van verboden trajecten staat."
+          ]
+        },
+        {
+          "heading": "Aankomst in Berlijn en Brandenburg",
+          "body": [
+            "Wie via Brandenburg binnenkomt, rijdt vaak over de Berliner Ring (A10), 196 km lang, de op een na langste snelwegring van Europa. Het westelijke deel is vierstrooks zonder vluchtstrook en de noordelijke ring is druk.",
+            "In Berlijn zelf opende in augustus 2025 een nieuw stuk van de stadsring A100, tussen Dreieck Neukölln en Treptower Park. Sindsdien zijn er geregeld files in Treptow, en rond Dreieck Funkturm werden bruggen afgebroken en gesperd. Een afleveradres in het zuiden of oosten van Berlijn plant u dus buiten de spits."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Feestdagen per deelstaat",
+          "body": "Hervormingsdag op 31 oktober is een feestdag in Brandenburg en Mecklenburg-Voor-Pommeren, maar niet in Berlijn. Internationale Vrouwendag op 8 maart geldt in Berlijn en Mecklenburg-Voor-Pommeren. Op zulke dagen geldt het rijverbod enkel in de deelstaat waar de dag een feestdag is."
+        },
+        {
+          "kind": "plek",
+          "title": "Luchthaven BER",
+          "body": "BER ligt in Schönefeld, in Brandenburg, aan de A113, en is de derde luchthaven van Duitsland. Wie een wagen laat afleveren terwijl hij zelf invliegt, kan hier landen en de wagen aan de rand van Berlijn overnemen, zonder het stadscentrum in te hoeven."
+        },
+        {
+          "kind": "regel",
+          "title": "Rijtijden en rust",
+          "body": "De Europese regels gelden ook in Duitsland: hoogstens 9 uur rijden per dag, een dagelijkse rust van normaal minstens 11 uur, 56 uur per week en 90 uur over twee weken. Het BALM en de politie controleren dat langs de weg, zodat een beslissing om sneller te rijden geen optie is."
+        },
+        {
+          "kind": "tip",
+          "title": "Gespreide zomervakanties",
+          "body": "De Duitse zomervakanties duren zes tot zeven weken en zijn gespreid over vijf groepen deelstaten, van half juni tot half september. Beieren en Baden-Württemberg hebben altijd de laatste. In juli en augustus is er dus bijna steeds ergens in Duitsland vakantieverkeer op de weg."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter in Duitsland zondag na 22 uur weer rijden?",
+          "a": "Ja, het verbod loopt tot 22 uur. Vanaf dan mag de chauffeur weer vertrekken. In de zomer eindigt het zaterdagverbod op de aangeduide trajecten al om 20 uur, zodat de nacht van zaterdag op zondag vrij is."
+        },
+        {
+          "q": "Geldt het Duitse verbod ook voor een kleine vrachtwagen met aanhanger?",
+          "a": "Ja. Een vrachtwagen tot 7,5 ton zonder aanhanger valt er niet onder, maar zodra een aanhanger meegetrokken wordt, geldt het verbod ongeacht het gewicht. Vraag bij een kleinere combinatie dus altijd naar de samenstelling."
+        },
+        {
+          "q": "Hoe lang duren de grenscontroles bij Szczecin?",
+          "a": "Dat wisselt. De Poolse regeling wordt telkens herzien en verlengd, en de wachttijd verschilt per overgang en per dag. Houd daarom een ruime marge in uw planning en controleer de actuele stand kort voor vertrek."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Duitsland: grenscontroles bij Szczecin, het Duitse zondagsverbod en zomerzaterdagen die een dringende autorit beperken.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C5%9Awinouj%C5%9Bcie_Tunnel",
+        "https://motoryzacja.interia.pl/wiadomosci/news-kontrole-na-granicy-z-niemcami-zostaja-ministerstwo-podalo-n,nId,23541179",
+        "https://www.gesetze-im-internet.de/stvo_2013/__30.html",
+        "https://www.gesetze-im-internet.de/ferreisev_1985/BJNR007740985.html",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_10",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_100",
+        "https://de.wikipedia.org/wiki/Flughafen_Berlin_Brandenburg",
+        "https://de.wikipedia.org/wiki/Gesetzliche_Feiertage_in_Deutschland",
+        "https://de.wikipedia.org/wiki/Lenk-_und_Ruhezeiten",
+        "https://de.wikipedia.org/wiki/Schulferien"
+      ]
+    },
+    "polen-spanje": {
+      "lead": "Een wagen in Gdańsk of Toruń die naar Spanje moet, begint zijn reis in de verste hoek van Polen. De rit loopt door Duitsland en Frankrijk tot aan La Jonquera, langs rijverbodskalenders die elk op een ander moment beginnen. Een spoedrit naar Spanje is daarom vooral een puzzel van weekenden en feestdagen.",
+      "facts": [
+        {
+          "label": "Spanje",
+          "value": "Geen algemeen zondagverbod, wel verboden per wegvak en kalender"
+        },
+        {
+          "label": "La Jonquera",
+          "value": "Bekijk zowel de Spaanse als de Franse beperkingen"
+        },
+        {
+          "label": "Autotransport",
+          "value": "Staat niet bij de Spaanse uitzonderingen"
+        },
+        {
+          "label": "Poolse vrije dagen",
+          "value": "Veertien wettelijke vrije dagen, oudejaarsdag niet"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek aan de Poolse kust",
+          "body": [
+            "De S5 begint bij Grudziądz, waar ze aansluit op de A1 richting Gdańsk, en loopt via Poznań naar Wrocław. Voor een wagen uit Pommeren is dat de weg naar het zuidwesten van het land, waar de Duitse grens ligt.",
+            "Gdańsk Lech Wałęsa Airport ligt ongeveer twaalf kilometer ten noordwesten van het centrum en 23 km van Gdynia. Wie invliegt om zijn wagen op te wachten of juist achter te laten, kan die er in de regio overdragen, zodat de chauffeur de oplegger niet door de stad hoeft te zetten."
+          ]
+        },
+        {
+          "heading": "Poolse vrije dagen en wat dat voor de planning betekent",
+          "body": [
+            "Polen telt veertien wettelijke vrije dagen. Oudejaarsdag is er niet bij. Een bedrijf of loket is op die dagen dicht, ook als er voor vrachtwagens geen rijverbod geldt.",
+            "Voor een lange rit naar Spanje wil dat zeggen dat de ophaling zelf een eerste knelpunt is. Een transporteur die op een feestdag aan een lege garage komt, verliest een dag voordat de rit begonnen is. Spreek het ophaaladres en het uur dus af met iemand die de sleutels heeft.",
+            "Dat voorkomt een mislukte ophaling."
+          ]
+        },
+        {
+          "heading": "Duitsland en Frankrijk als lange tussenstuk",
+          "body": [
+            "De route volgt eerst de Duitse autosnelwegen naar het zuidwesten, bijvoorbeeld de A5 van Frankfurt via Karlsruhe naar Freiburg en Basel, en daarna de Franse A9, een tolweg van ASF, tot Orange en verder naar de Spaanse AP-7. Het precieze Franse en Duitse vervolg is niet voor elke rit hetzelfde.",
+            "Onderweg ontmoet een transporteur vier kalenders: Polen, Duitsland, Frankrijk en Spanje. Elk land legt een ander verbod op voor zware voertuigen, en ze vallen niet samen. Een vertrek dat in Polen vlot gaat, kan in Frankrijk botsen op een zaterdagavond. Daarom rekent een planner van het eindpunt terug."
+          ]
+        },
+        {
+          "heading": "Spanje: verboden per wegvak en per kalender",
+          "body": [
+            "Spanje heeft op de wegen van de DGT geen algemeen zondagsrijverbod voor vrachtwagens. Het verbod voor voertuigen boven 7.500 kg geldt per kalender en per wegvak, enkel op de trajecten en uren die in de jaarlijkse resolutie staan.",
+            "Uitgezonderd zijn onder meer levend vee, bederfelijke waren onder ATP-voorwaarden, postvervoer op weekdagen en pechhulpvoertuigen. Autotransport staat niet in die lijst. In de zomer mogen zware voertuigen op zon- en feestdagen 's avonds Madrid niet binnenrijden over de grote uitvalswegen, wat vooral telt als de wagen naar het binnenland moet."
+          ]
+        },
+        {
+          "heading": "Catalonië en de grens bij La Jonquera",
+          "body": [
+            "De Servei Català de Trànsit verwijst voor de AP-7 bij La Jonquera uitdrukkelijk naar de Franse beperkingen op Bison Futé. Wie de grens over wil, moet beide kalenders bekijken. Voor een rit naar Barcelona of de Costa Brava is dat de eerste regio waarin u aankomt.",
+            "Voor dringende ritten kan in Catalonië per geval een vrijstelling worden aangevraagd. Die wordt online behandeld en geldt alleen zolang de noodsituatie duurt. Een gewone aankoop of verhuis valt daar niet onder.",
+            "Controleer de lijst kort voor vertrek."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Speciale verkeersoperaties van de DGT",
+          "body": "De DGT werkt met vaste speciale operaties rond de Goede Week, 1 mei, begin juli, 1 augustus, 15 augustus, de brug van El Pilar, Allerheiligen en de brug van 6 tot 8 december. Wegenwerken liggen dan stil en de drukte piekt. Een autotransporter plant zich er beter niet midden in."
+        },
+        {
+          "kind": "regel",
+          "title": "Beperkingen in de Val d'Aran",
+          "body": "Naast de algemene beperkingen kent Catalonië wegspecifieke regels voor de Val d'Aran, op de N-230 en de C-28, en voor delen van de N-II, N-240 en N-340. Op de N-230 ligt de Túnel de Vielha met een doorrijhoogte van 4,8 m, iets om vooraf na te meten bij een geladen transporter."
+        },
+        {
+          "kind": "plek",
+          "title": "AP-7 en de Spaanse Middellandse Zeekust",
+          "body": "Aan de Col du Perthus gaat de Franse A9 over in de Spaanse AP-7 richting Girona en Barcelona. Er staat een tolstation, en door grenscontroles zijn er vaak files. Een transporter die hier op het einde van een lange dag aankomt, riskeert zijn rusttijd al te halen voor hij Spanje echt in is."
+        },
+        {
+          "kind": "tip",
+          "title": "Geen Alpen onderweg",
+          "body": "Een rit van Polen naar Catalonië loopt door Duitsland en Frankrijk en laat de Alpenpassen links liggen. De beperkingen zitten dus in de kalenders van de vier landen en niet in de bergen. Voor een planner betekent dat: de dag kiezen is belangrijker dan de route."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is een wagen uit Gdańsk in een weekend in Spanje?",
+          "a": "Dat is zelden haalbaar. De rit loopt door vier landen met elk eigen rijverboden, en een zware transporter staat in Duitsland en Frankrijk in het weekend lang stil. Reken op een rit die ten minste een weekdag overspant."
+        },
+        {
+          "q": "Geldt het Spaanse verbod ook voor autotransport?",
+          "a": "Wel, als de rit over een verboden wegvak en uur loopt. Autotransport staat niet bij de uitzonderingen. Het verbod geldt niet overal: het staat per kalender en per wegvak in de jaarlijkse resolutie van de DGT."
+        },
+        {
+          "q": "Kan ik een vrijstelling krijgen als de wagen dringend nodig is?",
+          "a": "In Catalonië kan per geval een vrijstelling worden aangevraagd voor noodsituaties, enkel zolang die duurt. Voor een gewone aankoop of verhuis is zo'n vrijstelling niet bedoeld. Plan dus liever rond de verboden."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Spanje: vier verbodskalenders, het Spaanse systeem per wegvak en de grens bij La Jonquera voor een dringende autorit.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expressway_S5_(Poland)",
+        "https://en.wikipedia.org/wiki/Gda%C5%84sk_Lech_Wa%C5%82%C4%99sa_Airport",
+        "https://www.infakt.pl/blog/wymiar-czasu-pracy-2026-r-pelna-lista-swiat-i-tabele/",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/estado-del-trafico/restricciones/2026/Resolucion-DGT_Medidas-circulacion-2026_ANEXO-II.pdf",
+        "https://transit.gencat.cat/ca/informacio-viaria/professionals-transport/mesures-especials/",
+        "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Viella",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)"
+      ]
+    },
+    "polen-italie": {
+      "lead": "Een wagen in Gliwice of Katowice die naar Noord-Italië moet, heeft twee wegen: noordwaarts via Duitsland en de Brenner, of zuidwaarts via Tsjechië en Oostenrijk naar Villach. Welke de snelste is, hangt minder van de afstand af dan van de dag van de week en het uur van vertrek.",
+      "facts": [
+        {
+          "label": "Twee assen",
+          "value": "Via de Brenner en Duitsland, of via Tsjechië en Villach"
+        },
+        {
+          "label": "Italiaanse zomer",
+          "value": "Extra verboden op zaterdagen en enkele vrijdagen in juli en augustus"
+        },
+        {
+          "label": "Uit het buitenland",
+          "value": "Met bewijs van herkomst start het Italiaanse verbod vier uur later"
+        },
+        {
+          "label": "Kalender",
+          "value": "Elk jaar opnieuw vastgelegd bij ministerieel decreet"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Opper-Silezië",
+          "body": [
+            "In Gliwice kruisen de A1 (noord-zuid) en de A4 (oost-west). Ook de nationale wegen 78 en 88 lopen er door. De stad schoof sinds de jaren negentig van staal en kolen naar auto- en machinebouw, zodat er veel bedrijven en leveranciers zijn waar wagens kunnen vertrekken.",
+            "De A1 eindigt aan de Tsjechische grens bij Gorzyczki en sluit er aan op de Tsjechische D1. Het laatste stuk Świerklany–Gorzyczki werd op 23 mei 2014 volledig geopend. Wie naar Italië wil via het zuiden, rijdt hier de grens over."
+          ]
+        },
+        {
+          "heading": "De twee assen naar Italië",
+          "body": [
+            "De westelijke as loopt over de Duitse A4 naar Dresden en verder westwaarts, daarna via de Oostenrijkse A13 en de Italiaanse A22 over de Brenner. De A22 is ongeveer 315 km lang tussen Modena en de Brenner.",
+            "De oostelijke as loopt over de Tsjechische D1, die sinds december 2025 volledig open is: 376,5 km van Praag via Brno en Ostrava naar de Poolse grens. Het is de drukste Tsjechische snelweg. Bij Brno sluit de D1 aan op de D2. Verder volgt de Oostenrijkse A10 Tauernautobahn tussen Salzburg en Villach, 192,7 km met twee lange tunnels."
+          ]
+        },
+        {
+          "heading": "De Italiaanse kalender voor zware voertuigen",
+          "body": [
+            "Voor vrachtwagens boven 7,5 ton komen er in juli en augustus extra verbodsdagen: de zaterdagen, in juli en eind augustus overdag tot 16 uur, begin augustus tot 22 uur, en enkele vrijdagen eind juli en begin augustus vanaf 16 uur. Op 15 augustus (Ferragosto) geldt het verbod van 7 tot 22 uur.",
+            "Voor de feestdagen in het koude halfjaar, zoals 1 en 6 januari en 8, 25 en 26 december, loopt het verbod van 9 tot 22 uur. Het ministerie van Infrastructuur legt de kalender elk jaar eind december vast, dus dagen en uren verschillen van jaar tot jaar."
+          ]
+        },
+        {
+          "heading": "Een afwijking voor ritten uit het buitenland",
+          "body": [
+            "Voertuigen die uit het buitenland komen, mogen met bewijs van herkomst vier uur later aan het verbod beginnen. Voor voertuigen met bestemming buitenland eindigt het verbod twee uur eerder.",
+            "Voor een transporter die uit Polen komt, is dat tot op zekere hoogte een voordeel. Het bewijs van herkomst moet wel aan boord zijn, en de afwijking schrapt het verbod niet. Wie het verbod negeert, riskeert naast een boete de schorsing van rijbewijs en kentekenbewijs voor een tot vier maanden.",
+            "Bewaar het bewijs dus goed."
+          ]
+        },
+        {
+          "heading": "Aankomst in Veneto en Friuli",
+          "body": [
+            "De Italiaanse A4 tussen Venetië en Triëst kende de snelste groei van zwaar vrachtverkeer van alle Italiaanse snelwegen, door het verkeer met Oost-Europa. Op delen wordt een derde rijstrook aangelegd, wat werven betekent.",
+            "Naar het noorden loopt de A23, 120 km van Palmanova over Udine naar Tarvisio, waar ze overgaat in de Oostenrijkse A2 Süd. Dit is de natuurlijke binnenkomst als de rit via Villach loopt.",
+            "Voor een afleveradres rond Udine, Triëst of Venetië rekent u op drukte op de A4 in de zomer, wanneer het vakantieverkeer naar de Sloveense en Kroatische kust zich bij het vrachtverkeer voegt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Poolse feestdagen met Pasen",
+          "body": "Een deel van de Poolse feestdagen met vrachtwagenverbod verschuift elk jaar: Paaszondag, Paasmaandag, Pinksterzondag en Sacramentsdag in de eerste dagen van juni. Een vertrek in die week begin juni of rond Pasen moet u dus op de kalender van dat jaar controleren."
+        },
+        {
+          "kind": "regel",
+          "title": "Paasverboden in Italië",
+          "body": "Rond Pasen gelden in Italië extra verboden voor zware voertuigen: Goede Vrijdag in de namiddag en avond, paaszaterdag overdag en de dinsdag na Pasen in de voormiddag. Wie zijn wagen rond Pasen uit Polen naar Italië wil laten rijden, wint niets met een vertrek op die dagen."
+        },
+        {
+          "kind": "tip",
+          "title": "De bora bij Triëst",
+          "body": "De bora is een valwind die vooral in de winter in vlagen waait en in Triëst geregeld meer dan 120 km/u haalt. Ze treft ook het Karstplateau en kan plots opsteken. Een open meerlaagse transporter vangt veel wind, dus een chauffeur vertraagt op die stukken en een winterse rit krijgt daardoor een langere tijdsmarge."
+        },
+        {
+          "kind": "regel",
+          "title": "Losse trekkers en kleine afstanden",
+          "body": "In Italië vallen losse trekkers zonder oplegger buiten het verbod. Ook de terugrit naar de standplaats binnen 80 km is toegelaten, zolang die niet over de autosnelweg gaat. Een geladen autotransporter valt hier dus niet onder, wel de combinatie met oplegger."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke route is sneller, via de Brenner of via Villach?",
+          "a": "Dat hangt af van de dag. Via de Brenner passeert u Duitsland met zijn zondagsverbod, via Villach Tsjechië en Oostenrijk met hun eigen weekendregels. Een planner kiest de as die de minste verbodsuren op uw ophaaldag oplevert."
+        },
+        {
+          "q": "Betekent de afwijking voor buitenlandse ritten dat ik vrij kan rijden?",
+          "a": "Nee. Ze schuift het begin van het verbod vier uur op voor voertuigen die uit het buitenland komen, met bewijs van herkomst aan boord. De verboden zelf blijven bestaan."
+        },
+        {
+          "q": "Hoe weet ik welke dagen in Italië verboden zijn?",
+          "a": "De kalender wordt elk jaar vastgelegd bij ministerieel decreet. Raadpleeg dus altijd de actuele lijst van dat jaar, en geef de gewenste aankomstdatum door, zodat de planner kan nakijken of die op een verbodsdag valt."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Italië: twee assen via de Brenner of Villach, de Italiaanse verbodskalender en de afwijking voor ritten uit het buitenland.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gliwice",
+        "https://en.wikipedia.org/wiki/A1_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://mit.gov.it/node/21641",
+        "https://aci.gov.it/codice-della-strada/art-6/",
+        "https://it.wikipedia.org/wiki/Autostrada_A4_(Italia)",
+        "https://en.wikipedia.org/wiki/Autostrada_A23_(Italy)",
+        "https://en.wikipedia.org/wiki/Bora_(wind)",
+        "https://www.timocom.co.uk/truck-driving-bans/poland"
+      ]
+    },
+    "polen-zwitserland": {
+      "lead": "Een wagen in Katowice die naar Zwitserland moet, rijdt bijna zijn hele weg door Duitsland. Aan het einde wacht een land met een rijverbod dat ook 's nachts geldt, het hele jaar door. Een dringende rit moet daar uren vooraf worden afgestemd op het Zwitserse nachtverbod.",
+      "facts": [
+        {
+          "label": "Nachtverbod",
+          "value": "Elke nacht van 22 tot 5 uur, het hele jaar"
+        },
+        {
+          "label": "Zondag",
+          "value": "Ook zondag en feestdagen zijn verbodsdagen voor zwaar verkeer"
+        },
+        {
+          "label": "Autotransport",
+          "value": "Staat niet in de lijst met wettelijke uitzonderingen"
+        },
+        {
+          "label": "Vergunning",
+          "value": "Alleen voor dringende ritten, voor de kortste route"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Katowice",
+          "body": [
+            "De S1 loopt vanaf de A1 bij Katowice Airport in Pyrzowice naar de Slowaakse grens bij Zwardoń. Van de geplande 132,81 km is 93,1 km klaar. Voor een wagen die in de buurt van de luchthaven staat, is dit de aansluiting naar de A1 en daarna westwaarts naar de A4.",
+            "Wie vanuit Silezië naar Zwitserland rijdt, gaat westwaarts naar Duitsland. In Polen zelf gelden verboden op feestdagen en in de zomer, en boetes treffen de chauffeur, de vervoerder en de verantwoordelijke binnen het bedrijf. Een serieuze transporteur vertrekt dus niet in een verbodsvenster."
+          ]
+        },
+        {
+          "heading": "Door Duitsland naar Basel",
+          "body": [
+            "De Duitse A5 telt 440 km en eindigt in Weil am Rhein aan de Zwitserse grens, langs Karlsruhe en Frankfurt. De A9 (530 km) kruist de A4 bij het Hermsdorfer Kreuz. Vanuit Dresden volgt een transporteur de A4 westwaarts en neemt dan de A5 naar het zuiden.",
+            "Zesstrooksuitbreidingen zijn vermeld voor Walldorf–Baden-Baden en Baden-Baden–Offenburg. Dat geeft werven op het drukste stuk van de zuidelijke route, waar het zwaar verkeer zich opstapelt richting Basel.",
+            "Reken bij een dringende rit dus op trager verkeer waar wegen worden verbreed."
+          ]
+        },
+        {
+          "heading": "Het Zwitserse nacht- en zondagsverbod",
+          "body": [
+            "Het verbod treft niet alleen zware vrachtwagens. Het geldt ook voor opleggertrekkers met een toegelaten treingewicht boven 5 ton en voor voertuigen die een aanhangwagen boven 3,5 ton trekken. Een autotransporter valt er dus onder.",
+            "Het nachtverbod bestaat sinds 1 juli 1934 en moet oververmoeide chauffeurs voorkomen. Wie op zaterdagavond wordt tegengehouden, kan pas op maandag om 5 uur verder. De wettelijke uitzonderingen gaan over personenvervoer, landbouw, hulpdiensten, post, bederfelijke goederen, levende dieren en dagbladen, maar niet over voertuigtransport.",
+            "Het verbod geldt het hele jaar."
+          ]
+        },
+        {
+          "heading": "Een uitzonderingsvergunning aanvragen",
+          "body": [
+            "Een vergunning is er alleen voor dringende ritten die niet met organisatorische maatregelen of een ander vervoermiddel te vermijden zijn, en alleen voor de kortste route. Ze wordt afgegeven door het kanton waar het voertuig gestald is of waar de rit begint. Bij ritten uit het buitenland is het kanton van binnenkomst bevoegd.",
+            "De aanvraag loopt via het online portaal van ASTRA en moet in Wallis uiterlijk twee werkdagen voor vertrek binnen zijn. Aanvragen uit het weekend worden niet behandeld, daarvoor bestaat een noodprocedure via de kantonspolitie. Bij een vergunde rit is een lege aan- of terugrit van hoogstens 30 minuten toegelaten."
+          ]
+        },
+        {
+          "heading": "Douane en aankomst in Zürich en Basel",
+          "body": [
+            "Zwitserland ligt buiten de EU. Douaneaangiften voor voertuigen kunnen van maandag tot vrijdag, en slechts enkele kantoren zijn ook op zaterdagvoormiddag open. De grens bij Basel Weil-Autobahn is een van de overgangen waar handelswaren in uitzonderlijke situaties ook buiten de openingsuren kunnen worden ingeklaard.",
+            "Mcars vervoert de wagen, maar de douane-aangifte en de inschrijving regelt u zelf of via een douane-expediteur. Voor een spoedrit kijkt u dus naar die openingsuren, niet alleen naar de rijtijd.",
+            "Ligt uw afleveradres in Zürich, dan voegt de Gubristtunnel nog een mogelijk oponthoud toe."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Gubristtunnel bij Zürich",
+          "body": "In de Gubristtunnel, ongeveer 3,3 km tussen Weiningen en Regensdorf, staat volgens de bron op 350 dagen per jaar file. De derde buis is open, maar de oude buizen worden één voor één gesaneerd. Een afleveradres in Zürich plant u dus ruim vóór de spits."
+        },
+        {
+          "kind": "plek",
+          "title": "Nordumfahrung Zürich",
+          "body": "De noordelijke ringweg van Zürich, 11,6 km op de A1 en A4, is een van de drukste snelwegstukken van het land en wordt van vier naar zes rijstroken verbreed. Zware transporters rijden hier tussen de vrachtwagens van de hele regio."
+        },
+        {
+          "kind": "regel",
+          "title": "Paasdagen in Zwitserland",
+          "body": "Rond Pasen zijn Goede Vrijdag, paaszondag en Paasmaandag verbodsdagen voor zwaar verkeer. Alleen de zaterdag ertussen is een rijdag. Ook Hemelvaart en Pinkstermaandag vallen weg. Een spoedrit rond die dagen heeft maar een smal venster."
+        },
+        {
+          "kind": "regel",
+          "title": "Emissievrije voertuigen",
+          "body": "Emissievrije zware voertuigen tot 4.250 kg zijn vrijgesteld van het verbod, als het meergewicht boven 3,5 ton alleen door de aandrijftechniek komt. Dat geldt dus niet voor een gewone dieseltransporter. Sinds 1 juli 2026 zijn bovendien de regels voor lege ritten bij vergunde transporten in heel Zwitserland gelijkgetrokken."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een transporter 's nachts in Zwitserland doorrijden?",
+          "a": "Nee. Het nachtverbod geldt elke nacht van 22 tot 5 uur, zonder seizoensverschillen. Een chauffeur die tegen middernacht de grens bereikt, moet wachten tot 5 uur 's ochtends, tenzij een vergunning aan boord is."
+        },
+        {
+          "q": "Kan ik in het weekend een uitzonderingsvergunning regelen?",
+          "a": "Nauwelijks. Aanvragen die in het weekend binnenkomen, worden niet behandeld; er bestaat enkel een noodprocedure via de kantonspolitie. De aanvraag moet normaal twee werkdagen voor vertrek binnen zijn."
+        },
+        {
+          "q": "Zijn de Zwitserse douanekantoren in het weekend open?",
+          "a": "Meestal niet. Aangiften voor voertuigen gaan van maandag tot vrijdag, en slechts enkele kantoren zijn zaterdagvoormiddag open. Een spoedrit over de grens hangt dus ook af van die openingsuren."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Zwitserland: de route via Duitsland, het Zwitserse nacht- en zondagsverbod en wanneer een uitzonderingsvergunning mogelijk is.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expressway_S1_(Poland)",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_9",
+        "https://www.sg.ch/verkehr/strassenverkehr/sonderbewilligungen/sonntags--und-nachtfahrverbot.html",
+        "https://www.vs.ch/de/web/scn/autorisation-speciale-de-nuit-et-jours-feries",
+        "https://de.wikipedia.org/wiki/Nachtfahrverbot",
+        "https://www.bazg.admin.ch/dam/de/sd-web/xG5rXtRXNkO2/mit_fahrzeugen_durchdenschweizerzollform1549.pdf",
+        "https://www.bazg.admin.ch/dam/de/sd-web/jWPwp7TfGIv3/info-ausdehnung-zolloeffnungszeiten-bei-versorgnungsengpaessen_de.pdf",
+        "https://de.wikipedia.org/wiki/Gubristtunnel",
+        "https://de.wikipedia.org/wiki/Nordumfahrung_Zürich"
+      ]
+    },
+    "polen-oostenrijk": {
+      "lead": "Een wagen in Gliwice of Bielsko-Biała die naar Wenen of Niederösterreich moet, rijdt zuidwaarts naar de Tsjechische grens en daarna over de D1 langs Brno. Er is geen Duitsland tussen, maar wel een land met weekendverboden en een Oostenrijk dat zaterdagmiddag al sluit.",
+      "facts": [
+        {
+          "label": "Tsjechië",
+          "value": "Zondag en feestdagen van 13 tot 22 uur, boven 7,5 ton"
+        },
+        {
+          "label": "Oostenrijk",
+          "value": "Nachtverbod 22 tot 5 uur, zaterdag vanaf 15 uur"
+        },
+        {
+          "label": "Zondag Oostenrijk",
+          "value": "Zon- en feestdagverbod van 0 tot 22 uur"
+        },
+        {
+          "label": "Autotransport",
+          "value": "Staat niet in de lijst met uitzonderingen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Opper-Silezië",
+          "body": [
+            "De Poolse A1 telt 584 km en loopt van Rusocin bij Gdańsk tot Gorzyczki aan de Tsjechische grens, waar ze via Věřňovice aansluit op de D1. Bij Gliwice Sośnica kruist ze de A4.",
+            "Op delen van de A1 geldt e-TOLL, van Toruń Południe tot Piotrków Trybunalski Południe en weer van Woźniki tot Gorzyce. Het noordelijke deel is een concessie. Voor een rit naar het zuiden is de tol vooral het gedeelte vlak bij de grens.",
+            "Pas de vertrektijd aan op het Tsjechische en Oostenrijkse weekend, niet op de snelste wagenroute."
+          ]
+        },
+        {
+          "heading": "Tsjechië tussen twee grenzen",
+          "body": [
+            "De D1 is 376,5 km lang en loopt van Praag via Brno en Přerov naar Ostrava en de Poolse grens. Ze is sinds eind 2025 volledig open, nadat het laatste stuk Říkovice–Přerov klaar kwam. Bij Brno-jih komt de D2 samen met de D1.",
+            "Voor vrachtwagens boven 7,5 ton geldt op snelwegen en eerste-klaswegen een verbod op zon- en feestdagen van 13 tot 22 uur. Van 1 juli tot 31 augustus komen vrijdag van 17 tot 21 uur en zaterdag van 7 tot 13 uur erbij. De Tsjechische tol voor zware voertuigen loopt via een boordtoestel dat aan één voertuig gekoppeld is."
+          ]
+        },
+        {
+          "heading": "Het Oostenrijkse weekend",
+          "body": [
+            "Oostenrijk verbiedt vrachtwagens boven 7,5 ton elke nacht van 22 tot 5 uur, op zaterdag van 15 tot 24 uur en op zon- en feestdagen van 0 tot 22 uur. De uitzonderingen vormen een gesloten lijst: onder meer gecombineerd vervoer binnen 65 km van een terminal, levend vee, post, bepaalde verse levensmiddelen, dringende herstellingen aan nutsvoorzieningen en takel- en pechdiensten.",
+            "Autotransport staat niet in de selectie die de kamer van koophandel opsomt. Een geluidsarme vrachtwagen met attest en L-bord is vrijgesteld van het nachtverbod, maar rijdt dan maximaal 60 km/u. Voor een spoedrit is het zaterdagverbod vanaf 15 uur het belangrijkste uur."
+          ]
+        },
+        {
+          "heading": "Aankomst in Niederösterreich",
+          "body": [
+            "Vanuit het noorden komt u Oostenrijk binnen via Drasenhofen. De A5 (Nord/Weinviertel) begint bij Eibesbrunn en eindigt voorlopig bij Poysdorf. Daarna loopt de weg over de B7 naar de grensovergang met Mikulov. De Tsjechische D52 is open van Modřice tot Pohořelice; de aansluiting op Oostenrijk staat nog als gepland vermeld, dus de bouwstatus moet u zelf nakijken.",
+            "Verkeer uit Polen en Tsjechië rijdt over de A5, terwijl verkeer uit Duitsland en België over de A1 via Amstetten, Melk en St. Pölten komt. Naar Wenen kan een transporter zo de snelste route kiezen, afhankelijk van waar de wagen vandaan komt."
+          ]
+        },
+        {
+          "heading": "Wat Mcars in deze keten doet",
+          "body": [
+            "Mcars vervoert op open, meerlaagse autotransporters. Elke wagen op de transporter wordt bij ophaling geïnspecteerd en gefotografeerd, en de rit gaat met een CMR-vrachtbrief. Een geblokkeerde wagen komt met een lier of, als het echt niet anders kan, met een heftruck ter plaatse op de transporter.",
+            "Een offerte op maat krijgt u binnen 24 uur. Particulieren betalen vóór de ophaling, bedrijven op factuur. De wagen is verzekerd tijdens het transport. Bij een spoedopdracht is het bovendien nuttig om de gewenste aankomstdatum direct te vermelden, zodat de planning de weekendverboden van Tsjechië en Oostenrijk kan meenemen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Zomerzaterdagen op de A4 Ost",
+          "body": "Op de A4 Ostautobahn tussen het knooppunt Schwechat en de grens bij Nickelsdorf geldt elke zaterdag van begin juli tot begin september een verbod van 8 tot 15 uur, in beide richtingen. Dat is de weg uit Wenen naar Hongarije, en dus ook van belang als een rit daar doorheen loopt."
+        },
+        {
+          "kind": "plek",
+          "title": "Poysdorf en Drasenhofen",
+          "body": "Poysdorf is voorlopig het einde van de Oostenrijkse A5. Daarna volgt de grensovergang bij Drasenhofen. Een verdrag uit 2009 regelt de verbinding van de Tsjechische D52 met de Oostenrijkse A5, maar de bouwstatus is niet bevestigd. Reken dus op een stuk gewone weg rond de grens."
+        },
+        {
+          "kind": "regel",
+          "title": "GO-Maut en de GO-Box",
+          "body": "Oostenrijk heft tol voor voertuigen boven 3,5 ton via GO-Maut, met een GO-Box. Polen gebruikt e-TOLL met een boordtoestel en account. Wie vanuit Silezië naar Wenen rijdt, heeft dus drie systemen nodig: het Poolse, het Tsjechische en het Oostenrijkse."
+        },
+        {
+          "kind": "tip",
+          "title": "Zaterdagen met Brennerverbod",
+          "body": "Door de werken aan de Luegbrücke gelden extra zaterdagverboden voor zware voertuigen richting de Brenner. Dat treft een rit via Tirol, niet de route via Villach en Wenen. Wie liever geen onverwachte verbodszaterdag tegenkomt, kiest voor een aankomst in het oosten van Oostenrijk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een transporter zaterdagavond Oostenrijk inrijden?",
+          "a": "Voor vrachtwagens boven 7,5 ton niet, want het weekendverbod loopt vanaf zaterdag 15 uur tot zondag 22 uur, met een nachtverbod van 22 tot 5 uur. Een rit uit Polen komt dus best vrijdag of vroeg in de week aan."
+        },
+        {
+          "q": "Wat gebeurt er als de transporter op zondag door Tsjechië rijdt?",
+          "a": "In Tsjechië geldt op zon- en feestdagen een verbod van 13 tot 22 uur voor vrachtwagens boven 7,5 ton op snelwegen en eerste-klaswegen. Het begint pas in de middag, de ochtend is dus een mogelijk venster."
+        },
+        {
+          "q": "Is de D1 volledig open tussen Praag en de Poolse grens?",
+          "a": "Ja, de D1 is sinds december 2025 volledig open. Het is wel de drukste Tsjechische snelweg, met zwaar verkeer rond Praag. Plan een rit via Brno en Ostrava daarom niet in de spits."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Polen naar Oostenrijk: de D1 via Brno, Tsjechische en Oostenrijkse weekendverboden en wat een dringende autorit naar Wenen vraagt.",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Autostrada_A1_(Polska)",
+        "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/czech-republic",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://www.wko.at/transport/lkw-fahrverbote-oesterreich-ueberblick",
+        "https://en.wikipedia.org/wiki/Motorways_in_Austria",
+        "https://de.wikipedia.org/wiki/Nord/Weinviertel_Autobahn",
+        "https://www.go-maut.at/en",
+        "https://www.etoll.gov.pl/en/",
+        "https://md.gov.cz/Zivotni-situace/Dalnicni-kupony-a-mytne-Dalnicni-kupony-a-mytne/mytne?lang=en-GB"
+      ]
+    }
+  }
+}

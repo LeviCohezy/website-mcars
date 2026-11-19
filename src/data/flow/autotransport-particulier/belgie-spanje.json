@@ -1,0 +1,59 @@
+{
+  "sub": "Naar de Costa Blanca of Costa del Sol zonder zelf te rijden: wij brengen uw wagen op een open autotransporter van België naar Spanje.",
+  "problem": {
+    "title": "U wilt in Spanje een wagen hebben, maar niet drie dagen rijden",
+    "body": "Een appartement aan de Costa Blanca, een villa bij Málaga of een overwintering in het zuiden. Veel Belgen vliegen en laten de wagen liever volgen. De afstand is groot en een heen- en terugrit kost u een week. Wie in Spanje gaat wonen, moet de wagen bovendien na een korte termijn laten inschrijven. Wie enkel overwintert, houdt de Belgische plaat. Zo of zo moet de wagen eerst aankomen.",
+    "situations": [
+      { "title": "Overwinteren aan zee", "body": "U blijft de koude maanden in het zuiden en wilt uw eigen wagen mee. Wij brengen hem tot aan uw oprit." },
+      { "title": "Verhuis naar Spanje", "body": "U verhuist definitief en regelt de woning eerst. De wagen volgt per transporter, ook als u zelf al gevlogen bent." },
+      { "title": "Wagen blijft ginder", "body": "Na jaren pendelen kiest u voor een wagen die in Spanje blijft. Wij zetten hem af en u neemt hem over." }
+    ]
+  },
+  "solution": {
+    "title": "Van België tot aan uw villa in Spanje",
+    "body": "Mcars is gespecialiseerd in wagens van tweedeverblijvers in Spanje. U vraagt een offerte aan en hoort binnen vierentwintig uur van ons. We plannen samen de ophaling, thuis of op het depot in Roeselare. De chauffeur controleert uw wagen, maakt foto's en tekent met u de CMR. Hij laadt op een open, meerlaagse transporter en rijdt zuidwaarts. Op de dag van aankomst belt hij u. Betalen doet u voor de ophaling, en uw wagen is verzekerd onderweg."
+  },
+  "usps": [
+    { "title": "Wagens van tweedeverblijvers", "body": "Dit is voor ons dagelijkse praktijk. We weten dat u niet altijd thuis bent en spreken graag een moment af dat bij u past." },
+    { "title": "Eén vaste stem", "body": "U belt met dezelfde persoon van begin tot einde. Wijzigt uw aankomst, dan hoeft u niet opnieuw te beginnen." },
+    { "title": "Verzekerd en vastgelegd", "body": "Inspectie en foto's bij ophaling, een getekende CMR en verzekering tijdens het transport. Zo ligt de staat van uw wagen vast." },
+    { "title": "Elke soort wagen", "body": "Personenwagen, SUV, cabrio of camionette: de transporter vervoert het allemaal. Zelfs een moto, buggy of boot kan mee." }
+  ],
+  "steps": [
+    { "title": "Vraag uw offerte aan", "body": "Zeg ons welke wagen het is en welke streek in Spanje de bestemming is. Binnen vierentwintig uur hebt u antwoord." },
+    { "title": "Plan het moment", "body": "Samen kiezen we een dag voor de ophaling. U kunt de wagen ook op elk uur naar ons depot in Roeselare brengen." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur loopt met u rond de wagen, noteert wat opvalt en tekent met u de CMR. Dan vertrekt hij." },
+    { "title": "Aflevering in Spanje", "body": "Hij belt u vooraf op en zet de wagen af op het afgesproken adres. Wie ter plaatse is, neemt hem over." }
+  ],
+  "care": {
+    "title": "Het transport klopt tot en met de CMR",
+    "body": "Voor een lange reis wilt u zeker zijn van de staat van uw wagen. Daarom legt de chauffeur bij ophaling alles vast: een inspectie, foto's voor ons intern dossier en een CMR-vrachtbrief die u mee ondertekent. Onderweg blijft de wagen gedekt door onze verzekering. De Spaanse inschrijving, de belastingen en het andere papierwerk valt buiten ons werk. Dat regelt u zelf, of een gestor of garage ter plaatse.",
+    "items": ["Inspectie bij het laden", "Foto's als intern bewijs", "CMR die u mee tekent", "Verzekerd van laden tot lossen"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Spanje",
+    "body": "Wij zijn begonnen in Roeselare en komen sinds jaren in het zuiden van Spanje. We rijden zowel naar de Costa Blanca als naar Andalusië, en onze chauffeurs weten hoe een urbanisatie met smalle straten of een gesloten oprit werkt. Spreekt u Nederlands of Frans, dan hoeft u zich niet te verontschuldigen: wij verstaan u.",
+    "regions": ["Costa Blanca", "Costa del Sol", "Costa Cálida", "Andalusië", "Valencia"]
+  },
+  "faq": [
+    { "q": "Moet mijn Belgische wagen in Spanje ingeschreven worden?", "a": "Wie resident van Spanje wordt, moet de wagen binnen een korte termijn laten inschrijven. Wie enkel overwintert en elders blijft wonen, doorgaans niet. Vraag het na bij de Spaanse overheid." },
+    { "q": "Regelen jullie de papieren in Spanje?", "a": "Nee. Wij vervoeren de wagen. De inschrijving en de belastingen regelt u zelf, of via een gestor of garage in Spanje." },
+    { "q": "Kunnen jullie ook mijn wagen na het seizoen terug naar België brengen?", "a": "Ja, ook de terugrit is mogelijk. Vraag gewoon een nieuwe offerte aan, dan plannen we de ophaling in Spanje en de levering op uw adres." },
+    { "q": "Kan ik betalen bij aflevering?", "a": "Nee, als particulier betaalt u vóór de ophaling. Na de aflevering is er dus niets meer te regelen, behalve het in ontvangst nemen van uw wagen." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Een afspraak is een afspraak: vaste chauffeurs zetten uw wagen op het afgesproken moment klaar voor de reis naar de zon.",
+    "snel": "We plannen uw wagen vlot in en leveren hem vlot af, zodat u niet lang op uw eigen auto in Spanje wacht.",
+    "volgbaar": "Met track en trace ziet u waar uw wagen onderweg is, en onze chauffeur belt u zelf op de dag van levering.",
+    "verzekerd": "Tijdens de hele rit naar Spanje is uw wagen verzekerd, en de CMR-vrachtbrief legt de overdracht netjes vast."
+  },
+  "reasons": [
+    { "title": "Ervaring op de lange rit", "body": "Al jaren zetten wij wagens van overwinteraars en tweedeverblijvers veilig af in het zuiden van Spanje." },
+    { "title": "Liefde voor auto's", "body": "Wie dit vak uit passie doet, laat zich zien in de kleine dingen: een nette inspectie en een zorgvuldige lading." },
+    { "title": "Honderden ritten", "body": "Na honderden ritten weten we hoe we een wagen veilig vastzetten en tijdig op bestemming krijgen." },
+    { "title": "Geen onderaannemers", "body": "We kiezen er bewust voor om met eigen chauffeurs te rijden, Nederlands- en Franstalig, voor één vertrouwd gezicht." },
+    { "title": "Alles wat rijdt of vaart", "body": "Van gewone personenwagen tot moto, buggy of boot: ons aanbod is breed, ook richting Spanje." },
+    { "title": "Open voor nieuwe ideeën", "body": "We blijven onze werkwijze verbeteren en investeren in slimmere opvolging, zodat u gerust kunt vertrekken." }
+  ],
+  "seoDescription": "Autotransport van België naar Spanje voor particulieren en tweedeverblijvers. Open transporter, CMR en verzekerd. Offerte binnen 24 uur."
+}

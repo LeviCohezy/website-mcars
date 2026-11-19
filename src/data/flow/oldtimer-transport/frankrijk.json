@@ -1,0 +1,59 @@
+{
+  "sub": "Klassiekers in Frankrijk ophalen en terugbrengen, voor salons, ventes aux enchères, rally's of een nieuwe eigenaar, vervoerd met zorg en met een duidelijke CMR.",
+  "problem": {
+    "title": "Een klassieker in Frankrijk heeft een lange weg naar huis",
+    "body": "Frankrijk is groot en uw oldtimer staat zelden in een stad. Soms is het een schuur in de Dordogne, soms een stand op een salon in Parijs, soms een garage in Lyon. Mcars rijdt er elke week, maar de ophaling blijft maatwerk. De verkoper wil weten wanneer iemand komt, u wilt weten wat er in de wagen en in de papieren zit, en niemand wil zijn klassieker aan een onbekende toevertrouwen.",
+    "situations": [
+      { "title": "Kopen op Rétromobile", "body": "U ziet in Parijs een wagen die u wil hebben. Het salon is voorbij, de koop is rond en de wagen moet naar huis." },
+      { "title": "Vondst in de Dordogne", "body": "Een landhuis, een schuur en een wagen die al jaren stilstaat. De lier haalt hem eruit, ook als hij niet meer rolt." },
+      { "title": "Verkocht aan een Fransman", "body": "Uw klassieker is verkocht aan een koper in Frankrijk. Hij verwacht een nette overdracht, in het Frans indien nodig." }
+    ]
+  },
+  "solution": {
+    "title": "Wij halen uw klassieker op en leveren hem af waar u wilt",
+    "body": "Zeg ons waar de wagen staat en waarheen hij moet. Binnen 24 uur krijgt u een offerte op maat. Een vast aanspreekpunt volgt uw rit en belt met de verkoper of de koper. De chauffeur, Nederlands- of Franstalig, belt op de dag zelf voor hij aankomt. Hij bekijkt de wagen, maakt foto's en stelt de CMR-vrachtbrief op. Uw klassieker gaat verzekerd op een open meerlaagse transporter. Staat hij vast, dan helpt de lier of een heftruck. Bij levering controleren we samen de staat en wordt de CMR ondertekend."
+  },
+  "usps": [
+    { "title": "Elke week in Frankrijk", "body": "Wij rijden wekelijks door heel Frankrijk, ook naar stockageparken. Uw klassieker hoeft dus niet te wachten op een uitzonderlijke rit." },
+    { "title": "Franstalige chauffeurs", "body": "Een deel van onze chauffeurs spreekt Frans. Met de eigenaar van een kasteel of een garagist loopt de overdracht gewoon vlot." },
+    { "title": "Lier en heftruck", "body": "Elke vrachtwagen heeft een lier voor wagens die niet meer rijden. Is de wagen geblokkeerd, dan komt er een heftruck ter plaatse." },
+    { "title": "Discreet vervoer", "body": "Een zeldzame klassieker trekt aandacht. Wij houden wat u ons toevertrouwt voor ons en gaan zorgvuldig met de wagen om." }
+  ],
+  "steps": [
+    { "title": "Aanvraag", "body": "Stuur ons merk, bouwjaar, afmetingen, adres en de vraag of de wagen nog rolt. Binnen 24 uur volgt de offerte op maat." },
+    { "title": "Planning", "body": "Wij maken een afspraak met de verkoper of koper. Particulieren betalen vóór de ophaling, bedrijven krijgen een factuur." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur belt, onderzoekt de wagen met de eigenaar, neemt foto's en tekent de CMR. Dan wordt de klassieker veilig vastgezet." },
+    { "title": "Levering", "body": "De transporter komt aan op het afgesproken adres of op ons depot in Roeselare. Ontvanger en chauffeur bekijken de staat samen." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, ook de CMR",
+    "body": "Een Franse klassieker heeft vaak een dossier. Het attest, de carte grise en de eventuele fiscale papieren regelt de eigenaar of een tussenpersoon, niet de vervoerder. Wij zorgen voor de wagen zelf: een controle bij ophaling, foto's die wij intern bewaren, een CMR-vrachtbrief en een verzekering tijdens het transport. Zo weet iedereen in welke staat de wagen vertrok en aankwam.",
+    "items": ["Controle bij ophaling", "Interne foto's als bewijs", "Eigen CMR-vrachtbrief erbij", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Frankrijk",
+    "body": "Frankrijk is geen onbekend terrein. Wij rijden er elke week en kennen de manier waarop handelaars, verzamelaars en clubs werken. Wij halen wagens op in Normandië en in de Dordogne, in de Provence en rond Lyon. Wat de klant ook zoekt, wij overleggen eerst met u en met de verkoper en rijden dan pas. Zo weet iedereen vooraf wat er gebeurt en waar de wagen terechtkomt.",
+    "regions": ["Normandië", "Dordogne", "Provence", "Rhône-Alpes", "Île-de-France", "Bretagne"]
+  },
+  "faq": [
+    { "q": "Mag een collectiewagen op een transporter mee?", "a": "Ja. Vervoer op een open transporter kan voor elke klassieker. De carte grise de collection bepaalt enkel hoe u de wagen zelf gebruikt, niet hoe hij vervoerd wordt." },
+    { "q": "Wat heb ik nodig bij de ophaling?", "a": "De verkoper geeft de papieren van de wagen mee, zodat u die kunt gebruiken bij de inschrijving. Mcars geeft de CMR mee. Een fiscaal document voor invoer regelt u zelf of via een tussenpersoon." },
+    { "q": "Rijdt u ook naar kleine dorpen?", "a": "Meestal wel. Een transporter komt niet overal, maar wij zoeken met de verkoper een plek in de buurt waar laden veilig kan. Dat bespreken wij vooraf." },
+    { "q": "Kan het ook met een gewone auto?", "a": "Ja. Wij vervoeren evengoed een sportwagen, een SUV of een motor. Een klassieker volgt hetzelfde traject: offerte, afspraak, ophaling met CMR en levering." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wij zijn week na week in Frankrijk onderweg en houden ons aan wat we met u afspreken, met chauffeurs die u leert kennen.",
+    "snel": "Uw klassieker wordt vlot opgenomen in onze Franse planning, en wij rijden hem zonder omweg naar de plek waar hij moet zijn.",
+    "volgbaar": "U ziet via track en trace waar de oldtimer rijdt, en de chauffeur belt u op de dag zelf voor hij arriveert.",
+    "verzekerd": "Elke klassieker reist verzekerd met ons mee, en de CMR-vrachtbrief houdt bij ophaling en levering alles netjes vast."
+  },
+  "reasons": [
+    { "title": "Ervaring in Frankrijk", "body": "Al jaren rijden wij klassiekers door heel Frankrijk, en onze chauffeurs weten hoe het er daar aan toegaat." },
+    { "title": "Passie voor het vak", "body": "Wij doen dit werk met veel plezier, en bij een mooie oldtimer zetten wij graag een extra stap." },
+    { "title": "Ritten bij de vleet", "body": "We reden honderden keren met kostbare wagens op pad, en die routine komt uw klassieker aan beide kanten van de grens ten goede." },
+    { "title": "Eigen chauffeurs, bewust", "body": "Onze Nederlands- en Franstalige chauffeurs zijn van ons, en dat is een keuze die we met overtuiging maken." },
+    { "title": "Ruim aanbod aan transport", "body": "Naast oldtimers vervoeren wij ook sportwagens, SUV's en meer, zodat u voor elke wagen bij ons terechtkunt." },
+    { "title": "Altijd vooruitkijken", "body": "Wij blijven ons werk vernieuwen en investeren in goed materiaal, zodat uw klassieker modern en zorgvuldig vervoerd wordt." }
+  ],
+  "seoDescription":"Oldtimer transport in Frankrijk: klassiekers ophalen en leveren voor salons, verkoop of rally. Wekelijks over heel Frankrijk, met lier en CMR. Offerte op maat."
+}

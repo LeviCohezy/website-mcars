@@ -87,7 +87,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </Section>
       )}
 
-      {/* 4 · Why Mcars — highlights as cards resting on a photograph */}
+      {/* 4 · Why Mcars — text and highlights beside a photo */}
       <Section space="none" bleed>
         <HighlightPanel
           image={detailImage}
@@ -95,6 +95,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           label="Waarom Mcars"
           lead="Zo pakken we het aan,"
           trail="rit na rit."
+          intro="Eigen vloot, vaste chauffeurs en één aanspreekpunt. Dat blijft bij elke rit hetzelfde."
           items={service.highlights}
         />
       </Section>

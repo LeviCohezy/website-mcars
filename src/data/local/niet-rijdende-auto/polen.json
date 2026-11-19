@@ -1,0 +1,976 @@
+{
+  "service": "niet-rijdende-auto",
+  "origin": "polen",
+  "pages": {
+    "polen": {
+      "lead": "Een wagen die in Polen niet meer start, geen keuring heeft of na een aanrijding is blijven staan, mag daar niet zomaar zelf weg. Wie zo'n auto naar België wil brengen of binnen Polen wil laten verplaatsen, heeft een transporter met lier nodig. Hier leest u wat de Poolse regels voor schadewagens en projectwagens in de praktijk betekenen.",
+      "facts": [
+        { "label": "Keuring", "value": "Zonder geldige technische keuring mag een wagen in Polen niet rijden" },
+        { "label": "Totaal verlies", "value": "Een berekening van de verzekeraar, geen rijverbod: herstel blijft toegelaten" },
+        { "label": "Zomerverbod", "value": "Boven 12 ton geldt een weekendverbod enkel in de zomer" },
+        { "label": "Tol", "value": "Vrachtwagens boven 3,5 ton betalen via e-TOLL, zonder tolpoorten" }
+      ],
+      "sections": [
+        {
+          "heading": "Geen keuring, dan ook geen rit op eigen wielen",
+          "body": [
+            "Een voertuig zonder geldige technische keuring mag in Polen niet op de openbare weg. De Poolse overheid waarschuwt daar uitdrukkelijk voor op haar pagina over de invoer van voertuigen. Voor een projectwagen met verlopen keuring, een klassieker die jaren in een schuur stond of een auto die na een ongeval nog niet is nagekeken, is een transporter dus de enige correcte manier om hem te verplaatsen.",
+            "Elke vrachtwagen van Mcars heeft een lier, waarmee een wagen die niet start of niet rolt op de oplegger geraakt. Zit hij helemaal vast, bijvoorbeeld met geblokkeerde wielen, dan is een heftruck ter plaatse nodig. Geef dat bij uw aanvraag door, dan weten we vooraf hoe de ophaling moet verlopen."
+          ]
+        },
+        {
+          "heading": "Na een aanrijding: kentekenbewijs en extra keuring",
+          "body": [
+            "Bij een aanrijding beslist de agent ter plaatse of het kentekenbewijs wordt ingehouden. Dat kan zelfs bij lichte schade, zoals een kapotte koplamp. De inhouding wordt elektronisch vastgelegd in de nationale voertuigdatabank CEPiK, dus het hoeft niet te blijken uit een papier dat u kwijt bent.",
+            "Een bijkomende technische keuring is verplicht wanneer dragende delen van de carrosserie, het chassis of het frame beschadigd zijn, of wanneer remmen of besturing schade hebben. Dat staat in artikel 81 van de Poolse wegenverkeerswet. Zolang die keuring niet gedaan is, verplaatst u de wagen het veiligst op een transporter."
+          ]
+        },
+        {
+          "heading": "Totaal verlies, schroot en projectwagens",
+          "body": [
+            "Een totaal verlies, in het Pools szkoda całkowita, is in Polen een berekening van de verzekeraar en geen rijverbod. De eigenaar mag de wagen laten herstellen als hij aan de technische en administratieve eisen voldoet. Blijft de wagen ingeschreven, dan is er geen nieuwe inschrijving nodig. Voor wie zo'n wagen als project koopt, is dat de kern.",
+            "Let wel op het verschil met schroot. Een wagen die als schroot is uitgeschreven, kan in Polen in de regel niet opnieuw worden ingeschreven, op enkele uitzonderingen na. Een hersteld wrak dat uit het buitenland wordt ingevoerd, kan wel een Poolse inschrijving krijgen, met de vereiste documenten en een geldige Poolse keuring. Vraag de verkoper dus na in welke status de wagen staat, voor u hem laat laden."
+          ]
+        },
+        {
+          "heading": "Een Pools ingeschreven wagen die in het buitenland strandt",
+          "body": [
+            "Raakt een in Polen ingeschreven wagen in het buitenland volledig vernield, in het Pools kasacja, dan moet hij binnen 30 dagen worden uitgeschreven. Dat gebeurt bij het kantoor van de laatste inschrijving, met een bewijs van de vernietiging. Bewaar dus het sloopbewijs dat u in het buitenland krijgt.",
+            "Staat zo'n wagen in België, dan takelt Mcars zelf na pech of een ongeval en brengt hem naar de garage of het adres dat u aangeeft. Is hij nog te redden, dan kan hij ook terug naar Polen voor herstel. Wordt het toch de sloop, dan weet u waarom de termijn van 30 dagen telt."
+          ]
+        },
+        {
+          "heading": "Rijverboden voor zware wagens in Polen",
+          "body": [
+            "Polen kent geen rijverbod voor vrachtwagens op elke gewone zondag. Een algemeen weekend- of zondagverbod het hele jaar door bestaat niet. De verboden gelden voor voertuigen boven 12 ton op wettelijke feestdagen, op de vooravond ervan en in de zomer.",
+            "Op feestdagen als Paasmaandag, 1 mei, 3 mei, 15 augustus, 1 november of 11 november loopt het verbod van 8 tot 22 uur. In de zomer geldt het op vrijdag van 18 tot 22 uur, op zaterdag van 8 tot 14 uur en op zondag van 8 tot 22 uur. Autotransport staat niet bij de uitzonderingen in de bron, en een volle autotransporter blijft doorgaans boven die 12 ton. Plan een ophaling dus op andere uren."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "e-TOLL voor zware voertuigen",
+          "body": "Polen heft tol op voertuigen boven 3,5 ton via e-TOLL. Er zijn geen tolpoorten: de positie van het voertuig gaat via satelliet door, met een boordtoestel, een extern lokalisatiesysteem of de gratis app e-TOLL PL. De Poolse belastingdienst KAS beheert het systeem. Voor een autotransporter is dit een vaste post op snelwegen, expreswegen en bepaalde nationale wegen."
+        },
+        {
+          "kind": "regel",
+          "title": "LPG-installatie na schade",
+          "body": "Heeft de wagen een LPG-installatie, dan kan na een ongeval een dichtheidstest van de tank nodig zijn. Die moet een door de technische inspectie TDT erkend bedrijf uitvoeren en de tank moet er daarvoor worden uitgebouwd. Een wagen in die situatie rijdt niet, dus rekent u op transport naar het erkende bedrijf en terug."
+        },
+        {
+          "kind": "regel",
+          "title": "Tijdelijk uit het verkeer",
+          "body": "Voor een personenwagen die structurele herstelling nodig heeft, kan de wagen 3 tot 12 maanden tijdelijk uit het verkeer worden genomen. De verplichte OC-verzekering blijft, maar de premie daalt na indiening van de documenten bij de verzekeraar. Een projectwagen die maanden in een werkplaats staat, blijft dus verzekerd en verplaatsbaar per transporter."
+        },
+        {
+          "kind": "plek",
+          "title": "Expresweg S7 tussen Warschau en Kraków",
+          "body": "De S7 loopt van Gdynia via Warschau en Kraków naar Rabka bij de Slowaakse grens. Het stuk Warschau-Kraków is ononderbroken. Tussen Kraków en Myślenice ligt een bestaande dubbele rijbaan die gedeeltelijk wordt omgebouwd. Wie een wagen tussen Mazovië en Klein-Polen laat vervoeren, rijdt grotendeels over deze as."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik mijn wagen zelf naar het keuringsstation rijden als de keuring verlopen is?",
+          "a": "Nee. In Polen mag een voertuig zonder geldige technische keuring niet op de openbare weg rijden, en de overheid waarschuwt daar zelf voor. Zo'n wagen verplaatst u op een transporter, ook voor de rit naar het keuringsstation of naar de garage."
+        },
+        {
+          "q": "Mijn verzekeraar heeft de wagen als totaal verlies afgeschreven. Mag hij nog weg of worden hersteld?",
+          "a": "Ja. Een totaal verlies is een berekening van de verzekeraar en geen rijverbod. De eigenaar mag de wagen laten herstellen als hij aan de technische en administratieve eisen voldoet. Blijft hij ingeschreven, dan is geen nieuwe inschrijving nodig."
+        },
+        {
+          "q": "Staat er in Polen een zondagverbod voor vrachtwagens?",
+          "a": "Niet op elke zondag. Het verbod voor voertuigen boven 12 ton geldt op feestdagen, de vooravond ervan en in de zomer. Buiten die periodes mag een transporter ook op zondag rijden. Kijk de actuele data na voor u de ophaling vastlegt."
+        },
+        {
+          "q": "Moet een wagen die in Polen staat winterbanden hebben?",
+          "a": "Nee, winterbanden zijn in Polen niet wettelijk verplicht en er is geen seizoensverplichting. De banden moeten wel technisch in orde zijn, met minstens 1,6 mm profiel en zonder zichtbare schade. Een wagen met lekke banden is lastiger te laden, meld dat bij de aanvraag."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto laten vervoeren in Polen: wat keuring, schaderegels en rijverboden betekenen voor lier- en heftruckvervoer door Mcars.",
+      "sources": [
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://www.auto-swiat.pl/porady/prawo/dodatkowe-badanie-techniczne-po-wypadku-podpowiadamy-jak-je-zalatwic/fslswwd",
+        "https://www.warta.pl/porada/zatrzymanie-dowodu-rejestracyjnego-co-dalej/",
+        "https://cuk.pl/porady/szkoda-calkowita-a-dalsze-uzytkowanie-pojazdu",
+        "https://warszawa19115.pl/en/-/wyrejestrowanie-pojazdu-z-powodu-zniszczenia-kasacji-za-granica",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://www.warta.pl/porada/aktualne-przepisy-dotyczace-opon-zimowych-jakie-sa-wymogi-i-kiedy-nalezy-je-stosowac/",
+        "https://en.wikipedia.org/wiki/Expressway_S7_(Poland)"
+      ]
+    },
+    "polen-belgie": {
+      "lead": "Een wagen die in het zuidwesten van Polen is gekocht of gestrand en naar België moet, volgt meestal de A4 naar Görlitz en de E40 door Duitsland tot bij Aken en Luik. Rijdt hij niet meer, dan start die reis met een lier of een heftruck. In België begint daarna het keuringsverhaal, want niet elke schadewagen mag meteen de weg op.",
+      "facts": [
+        { "label": "Hoofdas", "value": "De E40 loopt van Zgorzelec over Dresden, Aken en Luik naar Adinkerke" },
+        { "label": "Pechstrook", "value": "Op de Poolse A4 tussen de grens en Wrocław ontbreekt de pechstrook" },
+        { "label": "Rood bewijs", "value": "Code 1 op een rood keuringsbewijs betekent verboden tot het verkeer" },
+        { "label": "Duitse zondag", "value": "Vrachtwagens boven 7,5 ton staan in Duitsland zondag van 0 tot 22 uur stil" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Neder-Silezië, vlak bij de A4",
+          "body": [
+            "De Poolse A4 begint bij Jędrzychowice aan de Duitse grens, tegenover Görlitz, en loopt via Wrocław, Opole, Gliwice en Katowice naar het oosten. Wie in Neder-Silezië of rond Opole een schadewagen of projectwagen heeft staan, zit dus dicht bij de uitvalsweg naar België. In Europa heet dit tracé de E40, en dezelfde E40 brengt de wagen uiteindelijk tot bij Luik.",
+            "Op het eerste stuk tussen de grens en Wrocław, ruim 150 km, is de A4 niet tolplichtig, maar er is ook geen pechstrook. Voor een ophaling is dat concreet: een wagen die u zelf naar de oprit probeert te rijden en onderweg stilvalt, staat meteen op de rijstrook. Laat hem liever staan waar hij staat. Mcars komt met de lier naar het erf of de parking."
+          ]
+        },
+        {
+          "heading": "Door Duitsland tot aan Aken",
+          "body": [
+            "Na Görlitz neemt de Duitse A4 het over, via Dresden, Chemnitz, Erfurt, Eisenach en Keulen naar Aken. Dit is het lange middenstuk van de rit en hier telt de kalender. Vrachtwagens boven 7,5 ton mogen in Duitsland op zon- en feestdagen van 0 tot 22 uur niet rijden. Een transport dat op zaterdag laat vertrekt, houdt daar rekening mee.",
+            "Voor de Duitse vrachtwagentol gebruikt een transporter Toll Collect, een systeem met satellietplaatsbepaling en een boordtoestel. Een Belgisch Satellic-toestel werkt daar niet. Dat is een zaak voor de vervoerder en niet voor u, maar het verklaart waarom een rit door Duitsland meer voorbereiding vraagt dan een rit binnen België."
+          ]
+        },
+        {
+          "heading": "Aankomst via Lichtenbusch en Luik",
+          "body": [
+            "Voorbij Aken komt de wagen via Lichtenbusch België binnen. De E40/A3 verbindt daar de Duitse A44 met Luik en Brussel, over ongeveer 134 km, en heeft in het Land van Herve twee rijstroken per richting. Het stuk tussen Luik en de Duitse grens is het oudste deel en werd samen met de E313 aangelegd als Koning Boudewijnsnelweg.",
+            "Een wagen die niet rijdt, kan de laatste kilometers niet zelf afleggen. Laat hem daarom rechtstreeks afleveren waar hij verder behandeld wordt: bij uw hersteller, bij het keuringscentrum of op ons depot in Roeselare, Moorseelsesteenweg 16B. Levering op het depot kan 24/7 en is voordeliger."
+          ]
+        },
+        {
+          "heading": "In België: keuring na ongeval en rode bewijzen",
+          "body": [
+            "Is de wagen in Polen beschadigd geraakt, dan kan een bevoegde expert in België beslissen dat hij een keuring na ongeval moet ondergaan. Die bestaat uit een volledige technische keuring en daarna een specifieke meting. De wielgeometrie wordt gemeten op een uitlijnbank en het chassis op een driedimensionale meetbank, telkens tegen de toleranties van de fabrikant. U krijgt de meetresultaten mee.",
+            "In Vlaanderen betekent een rood keuringsbewijs met code 1 verboden tot het verkeer, met herkeuring uiterlijk twee maanden later. Code 2 wijst op ernstige gebreken en een verplichte herkeuring. Zonder geldig bewijs mag u enkel de kortste weg rijden tussen uw woonplaats, de hersteller en het keuringscentrum. Een herkeuring in hetzelfde centrum bekijkt alleen de eerder vastgestelde gebreken."
+          ]
+        },
+        {
+          "heading": "Bij ophaling en uitrijden",
+          "body": [
+            "Bij de ophaling maakt de chauffeur een inspectie en foto's als intern bewijs van de staat van de wagen. Er is een CMR-vrachtbrief en de wagen is verzekerd tijdens het transport. Particulieren betalen vóór de ophaling, bedrijven op factuur.",
+            "Papieren zoals het Poolse kentekenbewijs en de eigendomsstukken regelt u of de verkoper zelf; Mcars vervoert en regelt geen inschrijving of keuring. Vraag de offerte aan met de exacte staat van de wagen: start hij niet, rolt hij niet, zijn de wielen geblokkeerd? Binnen 24 uur krijgt u een antwoord op maat."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Wanneer een wagen in België als afgedankt geldt",
+          "body": "Volgens Febelauto geldt een wagen als afgedankt wanneer het keuringsbewijs meer dan twee jaar vervallen is, wanneer hij zes jaar na de eerste ingebruikname nog geen keuringsbewijs heeft, of wanneer de boorddocumenten langer dan een maand ontbreken. Wie een oude projectwagen uit Polen haalt, controleert dat dus eerst."
+        },
+        {
+          "kind": "regel",
+          "title": "Late keuring en verzekering",
+          "body": "Wie te laat naar de technische keuring gaat, betaalt een toeslag. Bij een ongeval kan de verzekeraar bovendien weigeren te vergoeden als er geen geldig keuringsbewijs is. Voor een wagen die lang in Polen stond, is een geldige keuring in België dus geen detail maar een voorwaarde voor een rustig verzekeringsdossier."
+        },
+        {
+          "kind": "tip",
+          "title": "Groen bewijs met code 4 of 5",
+          "body": "Op een groen keuringsbewijs betekent code 5 dat een gebrek snel hersteld moet worden zonder herkeuring, en code 4 dat een onderdeel opgevolgd moet worden. Een wagen met zo'n code rijdt wel, maar ligt onder verscherpt toezicht. Laat die punten herstellen bij de hersteller waar de wagen heen gaat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik na aankomst met de Poolse schadewagen meteen naar de keuring rijden?",
+          "a": "Zonder geldig keuringsbewijs mag u in Vlaanderen alleen de kortste weg rijden tussen uw woonplaats, de hersteller en het keuringscentrum. Heeft een expert een keuring na ongeval opgelegd, dan moet die eerst gebeuren. Laat de wagen daarom eerst bij de hersteller leveren."
+        },
+        {
+          "q": "Wat gebeurt er in België met een wagen die technisch een totaal verlies is?",
+          "a": "Volgens Febelauto is hij een afgedankt voertuig en dus een gevaarlijke afvalstof. Hij moet onmiddellijk worden ingeleverd bij een garagehouder, invoerder of erkend centrum, gratis als hij compleet is. Wie dat negeert, begaat een milieumisdrijf."
+        },
+        {
+          "q": "Wat als ik de wagen rond kerst wil laten ophalen in Polen?",
+          "a": "Polen telt veertien wettelijke vrije dagen, en sinds 2025 is ook Kerstavond, 24 december, een wettelijke vrije dag. Oudejaarsdag is dat niet. Plan een ophaling die van een loket of een bedrijf afhangt dus niet op 24 december."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar België vervoeren: ophalen met lier of heftruck, rit via de E40 en de Belgische keuring na ongeval uitgelegd.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://nl.wikipedia.org/wiki/A3_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A13_%28Belgi%C3%AB%29",
+        "https://www.gocavlaanderen.be/detail-page/keuring-na-ongeval-geometriemeting",
+        "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/resultaat-groen-of-rood-keuringsbewijs",
+        "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/wanneer-naar-de-technische-keuring",
+        "https://www.febelauto.be/nl/faq",
+        "https://www.infakt.pl/blog/wymiar-czasu-pracy-2026-r-pelna-lista-swiat-i-tabele/"
+      ]
+    },
+    "polen-nederland": {
+      "lead": "Een wagen uit het westen van Polen die naar Nederland moet, rijdt over de A2 naar Świecko, over de Duitse A12 naar Berlijn en dan noordwaarts door Duitsland. Voor een niet-rijdende auto komt in Nederland een eigen regime bij: de RDW kan een rijverbod laten registreren, en dan mag de wagen pas weer weg na een keuring. Dat bepaalt hoe u het transport voorbereidt.",
+      "facts": [
+        { "label": "Poolse as", "value": "De A2 loopt van Świecko via Poznań en Łódź naar Warschau" },
+        { "label": "WOK", "value": "Wachten Op Keuring: rijden mag pas na goedkeuring door de RDW" },
+        { "label": "Kentekenregister", "value": "Politie, verzekeraar of RDW plaatst het rijverbod in het register" },
+        { "label": "Blijft gelden", "value": "Verzekering, motorrijtuigenbelasting en APK blijven ook tijdens een WOK verplicht" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Groot-Polen en Lubusz",
+          "body": [
+            "De Poolse A2 begint bij Świecko aan de Duitse grens en sluit daar aan op de Duitse A12 naar Berlijn. Daarna loopt ze via Poznań en Łódź naar Warschau. Wie in Groot-Polen of Lubusz een schadewagen laat ophalen, zit dus op de natuurlijke uitvalsweg naar het westen en naar Nederland.",
+            "Het stuk Świecko tot Konin is een tolweg in beheer van de private maatschappij Autostrada Wielkopolska. Vanaf Konin oostwaarts beheert de staat de weg. Voor een wagen op een oplegger is dat een detail van de vervoerder. Voor u telt vooral dat de A2 een doorlopende, goed bereikbare as is waarlangs een lier-ophaling in Poznań of Zielona Góra vlot naar de grens kan."
+          ]
+        },
+        {
+          "heading": "Aan de grens bij Świecko",
+          "body": [
+            "Polen voert tijdelijke controles uit aan de grens met Duitsland, en de Poolse grenswacht meldde de start zelf. Duitsland controleert in de andere richting. Voor een transport met een niet-rijdende wagen is het belangrijk dat de papieren van wagen en chauffeur bij de hand liggen.",
+            "Zorg dat de eigenaar of verkoper vooraf het kentekenbewijs, het koopcontract en een kopie van zijn identiteit meegeeft. Mcars maakt bij het laden foto's en een CMR-vrachtbrief op, maar die vervangen de eigendomsstukken niet. Ontbreekt er iets, dan merkt u dat beter in Polen op dan aan de grens."
+          ]
+        },
+        {
+          "heading": "Als de Poolse agent het kentekenbewijs heeft ingehouden",
+          "body": [
+            "Na een aanrijding in Polen kan de agent het kentekenbewijs inhouden. Het wordt na herstel en een geslaagde extra keuring afgehaald bij het kantoor verkeer, het wydział komunikacji. Bij lichte aanrijdingen kan de agent een ontvangstbewijs geven dat zeven dagen rijden toelaat, maar dat is vaak te kort om een wagen te herstellen en te laten keuren.",
+            "Wilt u de wagen uit Polen naar Nederland brengen voor herstel, ga dan na of het kentekenbewijs nog in uw bezit is of dat het is ingehouden. Een wagen zonder volledige papieren komt in Nederland sowieso in een lastigere keuringsprocedure terecht, en in Polen kan hij zonder bewijs niet rijden."
+          ]
+        },
+        {
+          "heading": "In Nederland: WOK en de RDW",
+          "body": [
+            "WOK staat voor Wachten Op Keuring: een verbod om met het voertuig over de weg te rijden tot de RDW het heeft goedgekeurd. Gronden zijn schade, niet voldoen aan de permanente eisen, een niet-goedgekeurde aanpassing of niet verschijnen na een oproep. Bij waterschade is een keuring altijd verplicht.",
+            "De RDW verwacht dat het voertuig vóór de keuring is hersteld. Bij schade vraagt ze waar mogelijk de onderbeplating te verwijderen en de uitlijning te laten controleren. VIN, motornummer en typeplaat moeten leesbaar zijn. Op de dag van de keuringsafspraak mag een WOK-voertuig via de kortste route naar het station en terug, mits verzekerd. Voordien blijft de wagen op een transporter."
+          ]
+        },
+        {
+          "heading": "Oost-Nederland en de Duitse doorgang",
+          "body": [
+            "Vanuit Duitsland komt de rit Nederland binnen over de oostgrens, bij de Duitse Nedersaksen en het Münsterland, en richting Polen loopt het verkeer over Osnabrück. Via die weg is Oost-Nederland de eerste regio waar de wagen aankomt.",
+            "Een ingevoerd voertuig met schade krijgt in Nederland een extra schadekeuring, en het kentekenbewijs laat dan vaak langer op zich wachten. Reken in uw planning dus op een tussenstap bij een hersteller, nog vóór het keuringsstation. Staat de wagen na de keuring weer op naam, dan is een tweede transport meestal niet meer nodig, want dan mag hij zelf verder rijden."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Wie een rijverbod mag laten registreren",
+          "body": "De politie of de douane kan beslissen dat de RDW een beschadigde auto moet keuren en laat daarvoor een signalering in het kentekenregister zetten. Schade-experts kunnen dat ook, maar alleen bij zware schade. De eigenaar krijgt schriftelijk bericht van de RDW. Een wagen met zo'n signalering rijdt dus niet verder."
+        },
+        {
+          "kind": "regel",
+          "title": "Taxatierapport voor de bpm",
+          "body": "Voor de bpm van een ingevoerde schadeauto mag een taxatierapport worden gebruikt, maar enkel bij meer dan normale gebruiksschade of als het voertuig niet in een koerslijst staat. Een gewone Poolse schadewagen valt dus niet vanzelf onder die regel. Bij export van een schadevoertuig is er geen teruggaaf van bpm."
+        },
+        {
+          "kind": "regel",
+          "title": "Total Loss Bureaus en gecertificeerde opkopers",
+          "body": "Total-lossvoertuigen worden in Nederland door de verzekeraars afgewikkeld via hun Total Loss Bureaus. Die mogen ze alleen verkopen aan opkopers, zoals demontage- en handelsbedrijven, die door Stichting VbV zijn gecertificeerd. Wie zo'n wagen wil kopen en laten vervoeren, vraagt dus eerst of de koper gecertificeerd is."
+        },
+        {
+          "kind": "regel",
+          "title": "Een geschorst voertuig op de openbare weg",
+          "body": "Een geschorst voertuig, zoals een projectwagen, mag niet op de openbare weg staan of rijden. Parkeren op straat valt dus ook onder het verbod. Laat een projectwagen uit Polen daarom afleveren op een privéterrein of bij een werkplaats, niet aan de stoeprand voor uw deur."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik met een WOK-voertuig zelf naar het keuringsstation rijden?",
+          "a": "Enkel op de dag van de keuringsafspraak, via de kortste route naar het station en terug, en met een geldige verzekering. Voordien mag het voertuig niet over de weg. Laat het tot dan op een transporter of in een werkplaats staan."
+        },
+        {
+          "q": "Hoe weet ik dat het verbod na de keuring is opgeheven?",
+          "a": "Na goedkeuring haalt de RDW het verbod binnen vijf werkdagen weg. U kunt dat nakijken in de kentekencheck van de RDW onder Status van het voertuig. Rijd pas weer op de openbare weg als daar de status in orde staat."
+        },
+        {
+          "q": "Mag ik een wagen die niet meer te redden is zelf slopen?",
+          "a": "Nee. Een personenauto mag u niet zelf slopen; dat moet bij een sloopbedrijf met RDW-erkenning. U krijgt een vrijwaringsbewijs, de motorrijtuigenbelasting stopt automatisch en de verzekering zet u zelf stop. Ontbreekt het kentekenbewijs, vraag dan eerst een demontagecode aan."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Nederland laten vervoeren: A2 en Świecko, Poolse papieren en wat WOK en de RDW voor uw schadewagen betekenen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://mobility.autopay.eu/pl/oplaty-drogowe/polska/",
+        "https://www.nadodrzanski.strazgraniczna.pl/nad/aktualnosci/66852,Tymczasowe-kontrole-graniczne-na-granicy-z-Niemcami-ruszyly-o-polnocy.pdf",
+        "https://www.auto-swiat.pl/porady/prawo/dodatkowe-badanie-techniczne-po-wypadku-podpowiadamy-jak-je-zalatwic/fslswwd",
+        "https://www.rdw.nl/keuren/keuren-na-verbod-voor-rijden",
+        "https://www.rijksoverheid.nl/onderwerpen/auto/vraag-en-antwoord/mag-ik-met-een-beschadigde-auto-de-weg-op",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/tips-bij-invoer",
+        "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/auto_en_vervoer/belastingen_op_auto_en_motor/bpm/afschrijving_met_koerslijst_taxatierapport_of_forfaitaire_tabel",
+        "https://stichtingvbv.nl/schadeafwikkeling/gecertificeerde-total-loss-bureaus/",
+        "https://www.rdw.nl/schorsen",
+        "https://www.rdw.nl/slopen/auto-kampeerauto-brommer-of-bestelbus-slopen"
+      ]
+    },
+    "polen-luxemburg": {
+      "lead": "Wie in Polen een wagen heeft staan die niet meer rijdt en hem naar Luxemburg wil laten brengen, kiest meestal voor de Duitse A4 richting Eisenach en Frankfurt en dan Trier. Het Groothertogdom heeft eigen regels voor wagens die uit het verkeer zijn of herstel nodig hebben, vooral rond platen en keuring. Die bepalen of de wagen op een transporter moet aankomen.",
+      "facts": [
+        { "label": "Poolse ring", "value": "De ring van Wrocław is een autosnelweg met het nummer A8" },
+        { "label": "Duitse zomer", "value": "Zomerzaterdagverbod in Duitsland loopt op 32 trajecten van 7 tot 20 uur" },
+        { "label": "Platen", "value": "Bij definitieve uitschrijving in Luxemburg worden de platen vernietigd" },
+        { "label": "Aanhangwagen", "value": "Een wagen op een aanhangwagen heeft geen tijdelijke inschrijving nodig" }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrekken uit Neder-Silezië, via Wrocław",
+          "body": [
+            "De ring van Wrocław is 22,7 km lang. Hij hoort bij de corridor van de S8, maar is aangelegd als autosnelweg en draagt daarom het nummer A8. Wie in en rond Wrocław een wagen laat ophalen, rijdt met de transporter dus meteen over een volwaardige snelweg naar de A4 of de S8 en moet niet eerst door stadsverkeer.",
+            "De S8 verbindt Wrocław met Łódź, Warschau en Białystok. Een ophaling in Łódź of Warschau kan zo bij Wrocław aansluiten op de westelijke uitvalsweg. Voor een wagen die niet rijdt, is dat belangrijk: de lier trekt hem op de oplegger, en van daaruit blijft hij tot Luxemburg staan zonder dat u een kilometer hoeft te rijden."
+          ]
+        },
+        {
+          "heading": "Door Duitsland naar Trier",
+          "body": [
+            "De Duitse A4 loopt over 583 km van Aken via Keulen, Eisenach, Erfurt en Dresden naar Görlitz. Voor Luxemburg rijdt een transporter vanaf Görlitz via Dresden en Erfurt tot Eisenach en dan richting Frankfurt en Trier. In juli en augustus geldt op zaterdagen een rijverbod van 7 tot 20 uur voor zware vrachtwagens op 32 trajecten. Een ophaling op vrijdag of zondag past beter.",
+            "Bij Trier gaat de rit over de A64 naar Wasserbillig. Die weg is ongeveer 14 km lang en heeft geen rechtstreekse aansluiting op de Duitse A1. Voor wie van Duitse kant komt, loopt het verder via de B51 of de A64a en A602. Een chauffeur kent dat, maar het kan de aankomsttijd op de laatste kilometers verschuiven."
+          ]
+        },
+        {
+          "heading": "Aankomst in het oosten van Luxemburg",
+          "body": [
+            "Aan de Luxemburgse kant gaat de A64 bij Wasserbillig over in de A1, een snelweg van 36,2 km die over Mertert, Flaxweiler en Senningerberg naar de Croix de Gasperich loopt. Vlak voor de Duitse grens ligt op de A1 de rustplaats van Wasserbillig. De wagen gaat van daar nog door naar het adres dat u opgaf.",
+            "Wasserbillig ligt aan de samenvloeiing van Moezel en Sûre en is met 132 meter de laagst gelegen plaats van het land. Naar het Duitse Oberbillig vaart een autoveer over de Moezel, voor de wagen die we vervoeren is dat geen optie, want de transporter blijft op de snelweg."
+          ]
+        },
+        {
+          "heading": "Platen weg, keuring nodig: Luxemburgse regels voor wagens uit het verkeer",
+          "body": [
+            "Is een in Luxemburg ingeschreven wagen na een ongeval definitief onbruikbaar, dan moet dat binnen vijf werkdagen aan de SNCA worden gemeld. Soms doet de verzekeraar dat voor de eigenaar. Bij die uitschrijving moeten de platen van de wagen. Ze worden vernietigd, tenzij ze nodig zijn voor een andere wagen op naam van dezelfde houder. De wagen vertrekt dus zonder platen en moet worden vervoerd.",
+            "Guichet.lu vermeldt dat een wagen die op een aanhangwagen wordt vervoerd, geen tijdelijke inschrijving nodig heeft. Een niet-ingeschreven of uitgeschreven wagen kan dus zonder platen worden getransporteerd. Rode platen dienen enkel voor een rechtstreekse rit naar een garage voor herstelling of nazicht, en een wagen die niet rijdt of niet door de keuring raakt, valt daarbuiten."
+          ]
+        },
+        {
+          "heading": "Herstellen, wijzigen en herinschrijven",
+          "body": [
+            "Na een zware ongevalsherstelling aan wielen, ophanging, stuurinrichting, remmen of airbags, en na herstelling of ombouw van het chassis, is een technische keuring verplicht. Stelt een verzekeringsexpert of de politie een gebrek vast, dan kan een bijzondere oproep voor de keuring volgen. Een technische wijziging die de goedgekeurde kenmerken verandert, moet voor de volgende rit worden gekeurd.",
+            "Dat laatste speelt vooral bij projectwagens. Een afzonderlijke wijziging moet binnen twee maanden worden geregistreerd. Wilt u een uitgeschreven wagen herinschrijven en is het keuringsbewijs meer dan twee jaar vervallen, dan moet hij eerst door de keuring bij een erkend Luxemburgs centrum."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Tijdelijke uitschrijving en de verkeersbelasting",
+          "body": "Een tijdelijke uitschrijving kan om eender welke reden, bijvoorbeeld bij een wagen die een hele winter stilstaat. De aangifte bij de SNCA gebeurt binnen vijf werkdagen, met enkel deel 1 van het inschrijvingsbewijs. De verkeersbelasting blijft verschuldigd zolang de wagen niet is uitgeschreven, en terugbetaling kan pas na die uitschrijving."
+        },
+        {
+          "kind": "regel",
+          "title": "Verkeersbelasting en periodieke keuring",
+          "body": "Volgens de ACL weigeren de keuringsinstanties de periodieke keuring als de betalingstermijn van de verkeersbelasting met meer dan 60 dagen is overschreden. Is de belasting meer dan twee jaar onbetaald, dan moet de schuld eerst bij de ADA worden vereffend voor er een nieuw belastingvignet komt. Een lang stilstaande wagen kost dus meer dan alleen parkeerruimte."
+        },
+        {
+          "kind": "tip",
+          "title": "Uitrusting in de Poolse wagen laten zitten",
+          "body": "Voor een in Polen ingeschreven personenwagen is de verplichte uitrusting beperkt tot een brandblusser en een gevarendriehoek. Een fluohesje en een verbanddoos zijn daar niet verplicht. Ontbreken de twee verplichte stukken, dan kan dat een boete of een afgekeurde keuring opleveren. Laat ze dus in de wagen zitten tijdens het transport."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mijn wagen heeft geen platen meer. Kan hij toch naar Luxemburg?",
+          "a": "Ja, op een transporter wel. Guichet.lu zegt dat een wagen op een aanhangwagen geen tijdelijke inschrijving nodig heeft, en een niet-ingeschreven wagen kan dus zonder platen worden getransporteerd. Rijden op eigen wielen kan dan niet."
+        },
+        {
+          "q": "Kan ik met rode platen een wagen die niet rijdt naar de garage brengen?",
+          "a": "Nee. Rode platen laten enkel een rechtstreekse rit naar een garage toe, en de wagen moet verzekerd en, als hij keuringsplichtig is, in orde met de keuring zijn. Een wagen die niet rijdt of niet door de keuring raakt, valt daar buiten."
+        },
+        {
+          "q": "Heeft het zin om een stilstaande wagen niet uit te schrijven?",
+          "a": "Niet als hij maandenlang stilstaat. De verkeersbelasting blijft verschuldigd zolang de wagen niet is uitgeschreven, en een tijdelijke uitschrijving vraagt aangifte bij de SNCA binnen vijf werkdagen. Vraag het vóór de ophaling na."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Luxemburg laten transporteren: via Wrocław en Trier, en wat uitschrijving, platen en keuring in Luxemburg betekenen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://en.wikipedia.org/wiki/List_of_motorways_in_Luxembourg",
+        "https://fr.wikipedia.org/wiki/Autoroute_A1_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/Wasserbillig",
+        "https://snca.public.lu/fr/vehicules/vendre-hors-circulation/vehicule-accidente.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://snca.public.lu/fr/plaques/plaques-rouges.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/controle-technique-obligatoire-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/vendre-retirer-vehicule/mise-hors-circulation-temporaire.html",
+        "https://www.acl.lu/fr/loisirs/vehicules-historiques/",
+        "https://www.auto-swiat.pl/porady/obowiazkowe-wyposazenie-samochodu-w-2026-roku-w-polsce-kluczowe-sa-dwie-rzeczy/mhvw7nh"
+      ]
+    },
+    "polen-frankrijk": {
+      "lead": "Tussen Polen en Frankrijk ligt Duitsland, en een wagen die niet rijdt reist dus door drie rechtsstelsels. Wie zijn schadewagen of projectwagen uit het midden van Polen naar Frankrijk laat brengen, moet vooral de Franse kant kennen: daar bepaalt een expert of een wagen mag rijden, en een verzekeraar kan hem als economisch onherstelbaar bestempelen.",
+      "facts": [
+        { "label": "Warschau", "value": "De milieuzone van Warschau weert oudere benzine- en dieselwagens" },
+        { "label": "Frankrijk, verkoop", "value": "Een niet-rijdende wagen verkoopt u enkel aan een professional met SIRET" },
+        { "label": "VEI", "value": "Zijn herstelkosten hoger dan de waarde, dan stelt de verzekeraar overname voor" },
+        { "label": "Franse weekendstop", "value": "Zaterdag 22 uur tot zondag 22 uur geldt een vrachtwagenverbod" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Warschau en de milieuzone",
+          "body": [
+            "Sinds de tweede fase van de Strefa Czystego Transportu mogen oudere benzinewagens, grofweg van vóór 2000 of onder Euro 3, en oudere diesels, grofweg van vóór 2009 of onder Euro 5, de Warschause zone niet meer in. Er zijn vrijstellingen, en een toegang op maximaal vier dagen per jaar. De zone ligt binnen Prymasa Tysiąclecia, Jerozolimskie, Trasa Łazienkowska, Stanów Zjednoczonych, Wiatraczna en de noordelijke spoorbypass.",
+            "Staat uw projectwagen binnen die ring, vraag dan niet enkel naar het adres maar ook naar het bouwjaar van het voertuig. De stadswacht controleert in de zone via de CEPiK-databank, en wie ten onrechte binnenrijdt, riskeert een boete. Het is voor de latere eigenaar dus nuttig te weten of de wagen na herstel in Warschau nog welkom zou zijn."
+          ]
+        },
+        {
+          "heading": "De rit: Duitse A4, Franse A4",
+          "body": [
+            "Van Warschau gaat de rit over de Poolse A2 naar Świecko en dan door Duitsland. Het Duitse deel loopt over de A4 of via Berlijn en de A12. Aan Franse kant is de A4 tussen Parijs en Straatsburg, ongeveer 482 km via Reims en Metz, met de aftakking A320 bij Freyming-Merlebach de gebruikelijke weg naar Duitsland.",
+            "Voor zware vrachtwagens telt in Duitsland sinds 2024 de vrachtwagentol met een CO2-component, en emissievrije voertuigen zijn vrijgesteld. In Frankrijk geldt voor vrachtwagens boven 7,5 ton een weekendverbod van zaterdag 22 uur tot zondag 22 uur en op feestdagen, met extra zomerzaterdagen. Een transport naar Frankrijk houdt in zijn planning dus rekening met die stilstand van een volledige dag."
+          ]
+        },
+        {
+          "heading": "Grand Est: de Elzas en Straatsburg",
+          "body": [
+            "Wie naar het oosten van Frankrijk rijdt, komt in Grand Est terecht. De A35 loopt tolvrij van noord naar zuid door de Elzas, van Lauterbourg via Straatsburg, Colmar en Mulhouse naar Saint-Louis bij Bazel. Parallel ligt de Duitse A5, en veel vrachtwagens kiezen de Elzasser kant om de Duitse tol te vermijden, wat de weg druk maakt.",
+            "Sinds de A355 is geopend, de westelijke omleiding van Straatsburg, is doorgaand vrachtverkeer verboden op de M35 door de stad. Een autotransporter in transit neemt dus de omleiding. Bij een ophaling in Straatsburg zelf is het verstandig vooraf het adres en de toegang te bevestigen."
+          ]
+        },
+        {
+          "heading": "Frankrijk: expert, rijverbod en VEI",
+          "body": [
+            "Na een ongeval kan de politie of gendarmerie een gevaarlijk beschadigde wagen immobiliseren en de carte grise inhouden. De prefectuur legt dan een rijverbod op. Een expert bepaalt of de wagen veilig kan rijden en technisch herstelbaar is. Oordeelt hij van niet, dan volgen een rijverbod en een opposition au transfert, maar de wagen mag nog wel in zijn staat verkocht worden aan een autoprofessional of aan de verzekeraar.",
+            "Liggen de herstelkosten hoger dan de waarde van de wagen vóór het schadegeval, dan stelt de verzekeraar binnen 15 dagen na het expertiseverslag voor hem over te nemen. De eigenaar heeft 30 dagen om te antwoorden. Weigert hij of antwoordt hij niet, dan schrijft de prefectuur een verzet tegen overdracht in. Wie niet akkoord gaat met de expert, kan op eigen kosten een tegenexpertise laten doen."
+          ]
+        },
+        {
+          "heading": "Herstel, verkoop en vernietiging in Frankrijk",
+          "body": [
+            "Een zwaar beschadigde maar herstelbare wagen tot 3,5 ton moet worden hersteld door een autoprofessional, volgens het expertiseverslag. Pas na een tweede verslag van de expert heft de prefectuur het rijverbod op. Een niet-rijdend voertuig mag niet aan een particulier worden verkocht, alleen aan een professional met een SIRET-nummer.",
+            "Vernietiging gebeurt bij een erkend VHU-centrum, dat in het SIV-register op de site van ANTS staat. Het vernietigingsattest gaat samen met de carte grise naar de prefectuur. De veilinghuizen Alcopa Auction en VPauto hebben aparte categorieën voor niet-rijdende en beschadigde voertuigen, bedoeld voor professionals."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Online controle in Warschau",
+          "body": "De stad Warschau heeft een officiële online controle waar u per voertuig nakijkt of het de milieuzone in mag. Vraag de nummerplaat of het VIN van uw projectwagen vooraf op en voer de controle uit voor u een ophaling binnen de zone plant. Zo weet u of dat binnenrijden zelfs voor een korte laadbeurt een probleem is."
+        },
+        {
+          "kind": "regel",
+          "title": "Technische keuring in Frankrijk",
+          "body": "De Franse keuring telt 133 controlepunten. Er zijn 72 daarvan die tot een herkeuring kunnen leiden, en die moet binnen twee maanden gebeuren. Kritieke gebreken moeten hersteld zijn vóór verkoop aan een particulier. Na een afgekeurde keuring kan de wagen in die staat nog verkocht worden binnen de twee maanden, waarna de koper de herkeuring doet."
+        },
+        {
+          "kind": "plek",
+          "title": "Alcopa Auction en VPauto",
+          "body": "Alcopa Auction kent aparte categorieën voor hors-service en niet-rijdende voertuigen, en de verkoop is er voorbehouden aan professionals. VPauto veilt niet-rijdende en beschadigde wagens eveneens in een aparte categorie, naast gerechtelijke verkopen. Wie daar een wagen koopt en naar Polen of België wil brengen, laat hem ophalen op de locatie."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik een niet-rijdende wagen in Frankrijk aan een particulier verkopen?",
+          "a": "Nee, een niet-rijdend voertuig mag in Frankrijk niet aan een particulier worden verkocht. Het kan enkel naar een professional met een SIRET-nummer. Kritieke gebreken uit de keuring moeten hersteld zijn voor verkoop aan een particulier."
+        },
+        {
+          "q": "Wat betekent VEI voor mijn wagen?",
+          "a": "VEI staat voor véhicule économiquement irréparable. Liggen de herstelkosten hoger dan de waarde van de wagen vóór het schadegeval, dan stelt de verzekeraar voor hem over te nemen. U heeft 30 dagen om te antwoorden, daarna volgt een verzet tegen overdracht."
+        },
+        {
+          "q": "Komt mijn oude wagen nog in de Warschause milieuzone?",
+          "a": "Niet als hij te oud is, tenzij een vrijstelling geldt of u binnen de vier dagen per jaar blijft. De stadswacht controleert via de CEPiK-databank. Kijk het vooraf na op de online controle van de stad."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Frankrijk vervoeren: Warschause milieuzone, rit via de Duitse en Franse A4, en Franse regels rond expert en VEI.",
+      "sources": [
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://um.warszawa.pl/waw/sct/sprawdz-pojazd",
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A355_(France)",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F1707",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F34300/17?idFicheParent=N367",
+        "https://www.alcopa-auction.fr/",
+        "https://www.vpauto.fr/",
+        "https://fr.wikipedia.org/wiki/Contr%C3%B4le_technique_des_v%C3%A9hicules_automobiles_en_France"
+      ]
+    },
+    "polen-duitsland": {
+      "lead": "Tussen Szczecin en Berlijn is de grens zo dichtbij dat een niet-rijdende wagen er bijna in één dag overheen kan, op de oplegger. Toch is dit een grens met controles, en Duitsland heeft eigen regels voor wagens die zijn afgemeld, gesloopt of in afwachting van keuring staan. Wie dat vooraf weet, voorkomt dat een projectwagen op een lastig moment strandt.",
+      "facts": [
+        { "label": "Overgangen", "value": "Świecko, Olszyna en Kołbaskowo behoren tot de gecontroleerde grensposten" },
+        { "label": "Duitse afmelding", "value": "Na de Außerbetriebsetzung mag een wagen niet openbaar geparkeerd staan" },
+        { "label": "Kurzzeitkennzeichen", "value": "Zonder geldige keuring enkel naar een keuringsstation in eigen of aangrenzend district" },
+        { "label": "Berlijn", "value": "In Berlijn geldt een Umweltzone, in Brandenburg niet" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen rond Szczecin en Świnoujście",
+          "body": [
+            "West-Pommeren grenst aan Duitsland bij Kołbaskowo, op de A6, en bij Rosówek op de DK13. De S3 begint in Świnoujście aan de Oostzee en loopt via Szczecin zuidwaarts naar Gorzów Wielkopolski, Zielona Góra en Legnica. Een wagen die hier staat, kan op één as naar het zuiden of over de A6 naar de grens.",
+            "In Świnoujście verbindt de tunnel van 1,78 km de twee delen van de stad en het eiland Uznam met de S3. Hij is open voor wagens, minibussen en bestelwagens, maar niet voor voertuigen met gevaarlijke stoffen. Controleer daarom vooraf aan welke kant van de Świna de wagen staat voor de ophaling wordt vastgelegd."
+          ]
+        },
+        {
+          "heading": "De grens: Kołbaskowo, Świecko en wachttijden",
+          "body": [
+            "Polen voert tijdelijke controles uit aan de Duitse grens, op 52 punten, waaronder Świecko, Olszyna en Kołbaskowo. Vervoerders melden wachttijden van meer dan een uur voor vrachtwagens. Duitsland controleert ook zelf aan de overgangen, en de bronnen verschillen van mening over hoe lang elke maatregel nog loopt.",
+            "Aan de brug tussen Świecko en Frankfurt (Oder) rijden vooral containertrucks en zwaar verkeer van Polen naar Duitsland. Bij de herinvoering van de controles stonden er lange, trage rijen. Een andere keer liep de file op de A12 op tot ongeveer 7 km, en er wordt een extra rijstrook in de controlezone overwogen. Plan een ophaling daarom met speling."
+          ]
+        },
+        {
+          "heading": "Brandenburg en Berlijn: waar herstellers zitten",
+          "body": [
+            "Wie een projectwagen uit Polen naar Berlijn of Brandenburg brengt, komt via de A12 aan. Berlijn heeft een Umweltzone met een groene sticker; Brandenburg en Mecklenburg-Voor-Pommeren hebben er geen. Voor een wagen die op de oplegger staat is de zone geen probleem, maar na herstel wel.",
+            "In Berlijn zit de Classic Remise in een tramdepot uit 1899 tot 1901, in de Wiebestraße in Moabit. Het complex telt 88 glazen stallingsboxen, ongeveer 30 bedrijven, onder meer restaurateurs en handelaars, en rond 200 events per jaar. Een wagen die een restauratie nodig heeft, vindt daar een adres om af te leveren."
+          ]
+        },
+        {
+          "heading": "Duitse regels voor afgemelde en gesloopte wagens",
+          "body": [
+            "Wie een personenwagen voor sloop afgeeft bij een erkende instantie, moet hem onverwijld buiten bedrijf laten stellen met het Verwertungsnachweis. Daarna gaan Zulassungsbescheinigung Teil I en II terug. Wordt een Duits ingeschreven wagen in een ander EU-land gesloopt, dan geldt het sloopbewijs van dat land. Bij elke afmelding moet worden aangegeven of het voertuig als afval wordt afgevoerd.",
+            "De Zulassungsbehörde weigert een nieuwe inschrijving als ze weet dat het voertuig al voor sloop is afgegeven. Na de Außerbetriebsetzung mag een voertuig niet meer op openbare wegen of pleinen geparkeerd staan. Laat een afgemelde wagen dus op een privéterrein afleveren."
+          ]
+        },
+        {
+          "heading": "Herinschrijven en keuren in Duitsland",
+          "body": [
+            "Een afgemelde wagen opnieuw inschrijven, Wiederzulassung, vraagt Zulassungsbescheinigung Teil I en II. Is de keuringstermijn intussen verstreken, dan is eerst een Hauptuntersuchung nodig. Zijn de gegevens van een lang stilgelegd voertuig al gewist en zijn de technische bewijzen niet meer voor te leggen, dan is een Gutachten volgens § 21 StVZO nodig.",
+            "Met een Kurzzeitkennzeichen zonder geldige Hauptuntersuchung mag u enkel naar een keuringsstation in het eigen of een aangrenzend Zulassungsbezirk. Stelt de keuring een gebrek vast, dan is ook de rit naar de hersteller toegelaten, behalve als de wagen als verkeersonveilig is ingeschaald. Een wagen die niet rijdt, valt daar buiten en reist op een transporter."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Classic Remise Berlin",
+          "body": "De Classic Remise in Berlijn is een stalling, werkplaats en handelsplek voor klassiekers in een oud tramdepot. Er werken restaurateurs en handelaars, en er zijn glazen boxen voor opgeslagen wagens. Wie een niet-rijdende klassieker uit Polen wil laten restaureren, kan hem hierheen laten brengen. Vraag vooraf bij het complex wie ter plaatse de wagen aanneemt."
+        },
+        {
+          "kind": "event",
+          "title": "Veterama in Mannheim",
+          "body": "De Veterama in Mannheim, elk jaar in oktober op het Maimarktgelände, is een volgens de beschrijving de grootste onderdelenmarkt van Europa voor old- en youngtimers, met ongeveer 4.000 standhouders. Er worden onderdelen, gereedschap, literatuur en complete voertuigen aangeboden. Wie daar een projectwagen koopt, kan hem na afloop laten ophalen en naar Polen of België brengen."
+        },
+        {
+          "kind": "regel",
+          "title": "Verzekeraar en extra keuring in Polen",
+          "body": "Ook de verzekeraar kan in Polen na herstel een extra keuring opleggen. Het attest van het keuringsstation is nodig om de kosten terug te vorderen. Wie een in Polen beschadigde en herstelde wagen later naar Duitsland wil laten brengen, bewaart dat attest dus bij de papieren van de wagen."
+        },
+        {
+          "kind": "regel",
+          "title": "Slepen op de Autobahn",
+          "body": "Een voertuig dat buiten de Autobahn is stilgevallen, mag bij het wegslepen niet de Autobahn op. Motorfietsen mogen helemaal niet gesleept worden. Een niet-rijdende wagen verplaatst u daarom met een oplegger en niet met een sleepstang."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een afgemelde wagen gewoon op straat laten staan tot de ophaling?",
+          "a": "Nee. Na de Außerbetriebsetzung mag een voertuig in Duitsland niet meer op openbare wegen of pleinen geparkeerd staan. Zet de wagen op een privéterrein of in een werkplaats, zodat de transporter hem daar kan laden."
+        },
+        {
+          "q": "Wat als de keuring van mijn Duitse projectwagen is verlopen?",
+          "a": "Voor een nieuwe inschrijving is dan eerst een Hauptuntersuchung nodig. Met een Kurzzeitkennzeichen mag u zonder geldige keuring enkel naar een keuringsstation in uw eigen of een aangrenzend district rijden. Een wagen die niet rijdt, laat u daarheen vervoeren."
+        },
+        {
+          "q": "Hoe lang staat een transporter aan de Poolse grens te wachten?",
+          "a": "Dat wisselt. Vervoerders melden wachttijden van meer dan een uur voor vrachtwagens, op punten als Świecko, Olszyna en Kołbaskowo. Vraag bij de aanvraag naar speling in de planning en kijk de actuele toestand na."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Duitsland vervoeren: grenscontroles Kołbaskowo en Świecko, Berlijn en Duitse regels voor afgemelde wagens.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expressway_S3_(Poland)",
+        "https://en.wikipedia.org/wiki/%C5%9Awinouj%C5%9Bcie_Tunnel",
+        "https://aa.com.tr/en/europe/poland-extends-border-controls-with-germany-and-lithuania-until-october/3884308",
+        "https://thestar.com.my/news/world/2024/09/18/feature-a-firsthand-view-of-german-polish-border-as-checks-reinstated",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://de.wikipedia.org/wiki/Umweltzone",
+        "https://de.wikipedia.org/wiki/Classic_Remise",
+        "https://de.wikipedia.org/wiki/Veterama",
+        "https://www.buzer.de/s1.htm?a=17&g=FZV",
+        "https://www.buzer.de/s1.htm?a=16&g=FZV&dorg=1",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/kurzzeitkennzeichen/",
+        "https://www.gesetze-im-internet.de/stvo_2013/__15a.html",
+        "https://www.auto-swiat.pl/porady/prawo/dodatkowe-badanie-techniczne-po-wypadku-podpowiadamy-jak-je-zalatwic/fslswwd"
+      ]
+    },
+    "polen-spanje": {
+      "lead": "Van Polen naar Spanje is het een van de langste ritten die een niet-rijdende wagen kan maken: door Duitsland en Frankrijk, tot voorbij La Jonquera. In Spanje zijn de regels voor een wagen die niet door de keuring raakt of na een ongeval is geschonden streng, en een slecht gekozen laadplek in Warschau kan de rit al in het begin vertragen.",
+      "facts": [
+        { "label": "Warschau", "value": "Boven 16 ton gelden stadsbeperkingen, met identificator C16 van het stadsbestuur" },
+        { "label": "ITV negativa", "value": "De wagen verlaat het keuringsstation met middelen buiten het voertuig zelf" },
+        { "label": "Baja definitiva", "value": "Een definitieve uitschrijving in Spanje is onomkeerbaar" },
+        { "label": "Catalonië", "value": "Catalonië legt eigen rijbeperkingen voor vrachtverkeer op, los van de DGT" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Warschau en de C16-regel",
+          "body": [
+            "In Warschau geldt een verbod voor vrachtwagens boven 16 ton van 7 tot 10 uur en van 16 tot 20 uur. Voor doorgaand transitverkeer geldt het verbod de klok rond. Wie in die uren moet leveren of laden, heeft een identificator C16 nodig van de stedelijke wegbeheerder ZDM. Naast C16 bestaan er zones met een grens van 5 en 10 ton, met de identificatoren C5 en C10.",
+            "Een volle autotransporter blijft doorgaans boven die 16 ton. Spreek bij een ophaling in Warschau daarom een laadplek af aan de rand van de stad of buiten de zone, en een uur buiten de beperkte uren. Wij kijken vooraf met u welk adres haalbaar is."
+          ]
+        },
+        {
+          "heading": "Door Duitsland en Frankrijk: rijverboden onderweg",
+          "body": [
+            "Van Świecko gaat de rit over de A12 en de A5, of via de A4. In Frankrijk loopt de Poolse wagen over de A9 naar Orange en La Jonquera. De Franse A9 is een tolweg van ASF en draagt veel vrachtverkeer tussen Spanje en de rest van Europa, waardoor ze als een gevaarlijke snelweg geldt.",
+            "De rijverboden onderweg lopen uiteen. Spanje hanteert beperkingen voor zware voertuigen boven 7.500 kg op bepaalde wegen. Duitsland kent op zon- en feestdagen een verbod en in juli en augustus ook op zaterdag van 7 tot 20 uur. Polen heeft zijn eigen zomerweekends en nationale feestdagen. Op papier lijkt de rit gemakkelijk, maar met vier landen moet de planning rekening houden met elke kalender."
+          ]
+        },
+        {
+          "heading": "Catalonië en La Jonquera",
+          "body": [
+            "La Jonquera wordt doorkruist door de AP-7 en de N-II, die beide over de grens doorlopen. De gemeente is een dienstencentrum voor het wegtransport en leeft grotendeels van de activiteit rond de grenspost. De AP-7 begint er aan de Franse grens en loopt als Franse A9 door.",
+            "Catalonië legt zijn eigen rijbeperkingen voor vrachtverkeer vast. Voor 2026 is dat resolutie ISP/300/2026 van 6 februari, later gewijzigd, met aparte categorieën voor gewoon goederenvervoer, uitzonderlijk vervoer, gevaarlijke stoffen en weersomstandigheden. De Servei Català de Trànsit verwijst voor de AP-7 bij La Jonquera uitdrukkelijk naar de Franse beperkingen op Bison Futé, zodat u beide kalenders bekijkt."
+          ]
+        },
+        {
+          "heading": "Spaanse ITV: wanneer een wagen niet meer mag rijden",
+          "body": [
+            "Bij een ITV-uitslag negativa, met minstens één zeer ernstig gebrek, mag de wagen niet rijden en moet hij het keuringsstation verlaten met middelen buiten het voertuig zelf, dus op een transporter. Bij een uitslag desfavorable, een ernstig gebrek, mag u enkel nog naar de garage of om de situatie te regulariseren, en binnen twee maanden moet de wagen opnieuw gekeurd worden.",
+            "Ook met een verlopen ITV mag u niet rijden: volgens de DGT moet de wagen dan met een takelwagen of ander vervoermiddel naar het keuringsstation. Na een ongeval met belangrijke schade aan stuurinrichting, ophanging, transmissie, remmen of chassis kan de agent een buitengewone keuring voorstellen. Die moet de wagen doorstaan voor hij weer rijdt."
+          ]
+        },
+        {
+          "heading": "Total loss, CAT en definitieve uitschrijving",
+          "body": [
+            "Een wagen die een verzekeraar total loss verklaarde met schade aan veiligheidsonderdelen, kan pas van eigenaar veranderen na een gunstige ITV die dateert van ná die verklaring. Wie zich van een voertuig ontdoet, moet bewijzen dat het in een erkend verwerkingscentrum, een CAT, terechtkwam. Afgifte is kosteloos als carrosserie en aandrijflijn aanwezig zijn en er geen onderdelen zijn uitgehaald.",
+            "De definitieve uitschrijving, baja definitiva, is onomkeerbaar: de wagen gaat naar een erkende sloperij, die de uitschrijving zelf aan de DGT doorgeeft. Een projectwagen die u wilt redden, mag dus nooit die status krijgen. Onderdelen demonteren voor hergebruik mag enkel in een CAT, en een definitief uitgeschreven voertuig mag nooit opnieuw tot rijdend voertuig worden opgebouwd."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Een wagen die langer dan een maand blijft staan",
+          "body": "Een wagen die langer dan een maand op dezelfde plek staat met schade die rijden onmogelijk maakt of zonder platen, kan als afval naar een CAT gebracht worden. Hetzelfde geldt voor een wagen die na pech of ongeval op een privéterrein staat en binnen twee maanden niet wordt opgehaald. Laat een gestrande wagen in Spanje dus niet maandenlang liggen."
+        },
+        {
+          "kind": "regel",
+          "title": "Verzekering en ITV op de openbare weg",
+          "body": "Elk voertuig dat op de openbare weg geparkeerd staat, moet verzekerd zijn en een geldige ITV hebben, ook als het niet rijdt en ook tijdens een tijdelijke uitschrijving. Een projectwagen die langs de straat staat te wachten tot hij wordt opgehaald, valt dus onder dezelfde verplichtingen als een gewone wagen."
+        },
+        {
+          "kind": "tip",
+          "title": "Uitschrijving zonder vernietigingscertificaat",
+          "body": "Staat een wagen nog ingeschreven terwijl hij fysiek niet meer bestaat, dan kan de uitschrijving zonder vernietigingscertificaat als er de laatste tien jaar geen ITV of verzekering voor geregistreerd is. Dit is vooral relevant voor wie een oude projectwagen overneemt met een onduidelijke geschiedenis."
+        },
+        {
+          "kind": "plek",
+          "title": "ITV-stations per regio",
+          "body": "ITV-keuringsstations vallen in Spanje onder de autonome gemeenschap waarin ze liggen. Meestal zijn het concessies, soms baat de overheid ze zelf uit. Wie een niet-rijdende wagen naar een station laat brengen, kiest dus een station in de regio waar de wagen wordt ingeschreven of hersteld."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een Poolse transporter zomaar Warschau binnen om een wagen te laden?",
+          "a": "Niet altijd. Voor voertuigen boven 16 ton gelden beperkte uren in Warschau en voor transit een verbod de klok rond. Wie moet laden binnen die uren, heeft een identificator C16 nodig. Spreek een laadplek buiten de zone af."
+        },
+        {
+          "q": "Mag ik een wagen met verlopen ITV zelf naar het station rijden?",
+          "a": "Nee. Volgens de DGT moet de wagen dan met een takelwagen of ander vervoermiddel naar het keuringsstation. Zelf rijden zonder geldige ITV is niet toegelaten, ook niet voor die ene rit."
+        },
+        {
+          "q": "Wat gebeurt er met mijn wagen na een baja definitiva?",
+          "a": "Die uitschrijving is onomkeerbaar. De wagen gaat naar een erkende sloperij, die de uitschrijving aan de DGT doorgeeft, en kan nooit opnieuw rijdend worden opgebouwd. Wilt u een projectwagen redden, laat hem dan nooit definitief uitschrijven."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Spanje laten vervoeren: Warschau C16, rijverboden in Duitsland, Frankrijk en Catalonië, en de Spaanse ITV-regels.",
+      "sources": [
+        "https://warszawa19115.pl/-/identyfikator-c16",
+        "https://warszawa19115.pl/-/identyfikator-c5-c10",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://es.wikipedia.org/wiki/La_Junquera",
+        "https://transit.gencat.cat/ca/informacio-viaria/professionals-transport/mesures-especials/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/vas-a-comprar-o-vender-un-vehiculo-de-segunda-mano/comprar-un-vehiculo-de-segunda-mano/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5868",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/no-vas-a-usar-tu-vehiculo/baja-definitiva/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/no-vas-a-usar-tu-vehiculo/baja-temporal/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "https://es.wikipedia.org/wiki/Inspecci%C3%B3n_t%C3%A9cnica_de_veh%C3%ADculos"
+      ]
+    },
+    "polen-italie": {
+      "lead": "Een wagen die in Opper-Silezië staat en naar Italië moet, kiest tussen twee wegen: noordelijk over de Duitse A4 en de Brenner, of oostelijk via Tsjechië en Oostenrijk. Voor een niet-rijdende auto telt vooral wat Italië zelf zegt over keuring, slepen en voertuigen die uit het verkeer zijn. Daar zitten harde grenzen in.",
+      "facts": [
+        { "label": "Poolse tolweg", "value": "A4 Katowice-Kraków heeft twee tolstations, Mysłowice en Balice" },
+        { "label": "Oostenrijkse A10", "value": "De Tauernautobahn loopt van Salzburg naar Villach, met twee lange tunnels" },
+        { "label": "Slepen", "value": "Op de Italiaanse autosnelweg mag u geen wagen slepen, enkel een aanhangwagen" },
+        { "label": "Fermo", "value": "Bij een fermo amministrativo mag het voertuig niet meer de weg op" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Opper-Silezië, tussen Gliwice en Katowice",
+          "body": [
+            "Bij Gliwice-Sośnica kruist de Poolse A4 de A1, die richting Ostrava en de Tsjechische grens loopt. Wie in Opper-Silezië een wagen laat ophalen, staat dus op een knooppunt waar zowel de westelijke as via Duitsland als de zuidelijke as via Tsjechië begint. De A4 loopt van de Duitse grens bij Jędrzychowice over Wrocław en Katowice naar Kraków.",
+            "Het stuk van de A4 tussen Katowice en Kraków is 61 km lang, wordt uitgebaat door Stalexport en heeft twee tolstations, in Mysłowice en Balice. Een transporter richting het oosten of het zuiden loopt daar dus langs. Voor de wagen op de oplegger verandert er niets, maar de planning rekent met de opgelegde tol."
+          ]
+        },
+        {
+          "heading": "Kraków en de Poolse milieuzone",
+          "body": [
+            "Krakau heeft een Strefa Czystego Transportu binnen de vierde ringweg, een groot deel van het stadsgebied. Het toegangsrecht is aan emissienormen gekoppeld. Een projectwagen die na herstel in Kraków een nieuwe eigenaar krijgt, moet dus ook aan de normen voldoen als hij daar nog moet rijden. Sommige delen van het gemeentebesluit zijn bij een rechtbank betwist, maar de zone blijft gelden.",
+            "Rond Katowice is er nog geen zone, maar de stad kreeg de formele verplichting er een in te voeren. Kijk bij een ophaling in een van deze steden vooraf de actuele stand van de zone na."
+          ]
+        },
+        {
+          "heading": "De weg naar het zuiden: Brenner, Tauern en D1",
+          "body": [
+            "De westelijke as loopt over de Duitse A4, 583 km van Aken naar Görlitz, en dan via de Brenner. De A22 van Modena naar de Brenner is ongeveer 315 km lang en sluit aan op de Oostenrijkse A13 naar Innsbruck. Oostenrijk heft op Brenner, Tauern en Arlberg hogere tarieven, de zogenaamde Sondermautstrecken. De oostelijke as gaat over de Tauernautobahn A10, 192,7 km van Salzburg naar Villach, met tunnels van 6,4 en 5,9 km.",
+            "Italië heeft een jaarkalender van rijverboden boven 7,5 ton buiten de bebouwde kom. In de zomer gelden ze ook op vrijdag, met een piek rond 15 augustus. Dat bepaalt wanneer een transport Italië in kan."
+          ]
+        },
+        {
+          "heading": "Aankomst in Veneto en Friuli",
+          "body": [
+            "De A23 van 120 km loopt van Palmanova over Udine naar Tarvisio en gaat aan de grens over in de Oostenrijkse A2 Süd Autobahn. Dit is de ingang voor wie via Villach komt. De A4 Venetië-Triëst kende de snelste groei van zwaar vrachtverkeer van alle Italiaanse snelwegen, door het verkeer met Oost-Europa.",
+            "In de zomer komt daar het vakantieverkeer naar de Sloveense en Kroatische kust bij. Via Villesse leidt de A34 naar de grens bij Gorizia. Voor een niet-rijdende wagen is het verstandig de levering te plannen buiten de drukke zomerdagen."
+          ]
+        },
+        {
+          "heading": "Italiaanse regels voor keuring en slepen",
+          "body": [
+            "Na een ongeval met zware schade die de veiligheid in twijfel trekt, verwittigt de politie de Motorizzazione, die een individuele keuring kan opleggen. Een voertuig dat niet voor de verplichte keuring werd aangeboden, wordt geschorst tot de keuring is gedaan, en mag dan alleen nog naar een erkende werkplaats of het keuringskantoor rijden.",
+            "Op de autosnelweg is het verboden een voertuig te slepen dat geen aanhangwagen is, ook op opritten, knooppunten en parkings. Buiten de autosnelweg mag een defect voertuig alleen in een dringende noodsituatie worden gesleept, met een stevige en goed zichtbare verbinding en knipperlichten of een signaal op het gesleepte voertuig. Een transporter is dus de normale oplossing."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Fermo amministrativo",
+          "body": "Bij een fermo amministrativo mag het voertuig niet meer op de weg komen en volgens de bron vervalt ook de geldigheid van de BA-verzekering. Bij een fermo als verkeerssanctie wordt de eigenaar zelf bewaarder en moet hij het voertuig op eigen kosten wegzetten op een plek die niet openbaar toegankelijk is, met een zegel erop."
+        },
+        {
+          "kind": "regel",
+          "title": "Een achtergelaten wagen laten weghalen",
+          "body": "De politie mag een geparkeerd voertuig laten weghalen als het er door zijn staat verlaten uitziet. Wordt een weggehaald voertuig na 180 dagen niet opgeëist en is er geen diefstal aangegeven, dan trekt de politie platen en documenten in en wordt het ambtshalve uitgeschreven."
+        },
+        {
+          "kind": "regel",
+          "title": "Verzekering bij een voertuig uit het verkeer",
+          "body": "Sinds eind 2023 geldt de verzekeringsplicht in Italië niet voor voertuigen die formeel uit het verkeer zijn genomen, waarvoor een gebruiksverbod geldt of die ongeschikt zijn als vervoermiddel. Een projectwagen die niet rijdt, kan dus buiten de verzekeringsplicht vallen zolang hij zo staat."
+        },
+        {
+          "kind": "regel",
+          "title": "Voertuigen die niet op de autosnelweg mogen",
+          "body": "Voertuigen waarvan de lading slecht vastzit of buiten de toegelaten grenzen uitsteekt, en voertuigen waarvan de staat of de banden gevaar opleveren, mogen niet op de autosnelweg. Een wagen met platte banden of zichtbaar losse delen hoort dus op een transporter."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik een defecte wagen in Italië op de autosnelweg slepen?",
+          "a": "Nee. Op de autosnelweg is het verboden een voertuig te slepen dat geen aanhangwagen is. Buiten de autosnelweg kan het in een dringende noodsituatie, met een stevige en zichtbare verbinding en een signaal op het gesleepte voertuig."
+        },
+        {
+          "q": "Wat als mijn wagen niet voor de keuring is aangeboden?",
+          "a": "Dan wordt hij geschorst voor het verkeer tot de keuring is gedaan. Hij mag dan enkel nog naar een erkende werkplaats of het keuringskantoor rijden. Een wagen die niet rijdt, laat u daarom op een transporter naar de werkplaats brengen."
+        },
+        {
+          "q": "Kan ik een wagen die langs de weg is achtergelaten laten staan?",
+          "a": "Beter niet. De politie mag een geparkeerd voertuig laten weghalen als het er door zijn staat verlaten uitziet. Na 180 dagen zonder opeising worden platen en documenten ingetrokken en wordt het voertuig ambtshalve uitgeschreven."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Italië vervoeren: A4 en tolstations bij Katowice, Brenner of Tauern, en de Italiaanse regels rond keuring en slepen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://mobility.autopay.eu/pl/oplaty-drogowe/polska/",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+        "https://mit.gov.it/node/21641",
+        "https://en.wikipedia.org/wiki/Autostrada_A23_(Italy)",
+        "https://it.wikipedia.org/wiki/Autostrada_A4_(Italia)",
+        "https://aci.gov.it/codice-della-strada/art-80/",
+        "https://aci.gov.it/codice-della-strada/art-175/",
+        "https://aci.gov.it/codice-della-strada/art-165/",
+        "https://aci.gov.it/codice-della-strada/art-193/",
+        "https://aci.gov.it/codice-della-strada/art-159/",
+        "https://aci.gov.it/codice-della-strada/art-103/",
+        "https://aci.gov.it/codice-della-strada/art-214/",
+        "https://it.wikipedia.org/wiki/Fermo_amministrativo"
+      ]
+    },
+    "polen-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU, en dat merkt een niet-rijdende wagen sneller dan een rijdende. De rit gaat van Polen door Duitsland naar Bazel of Zürich, en aan de grens begint een douaneprocedure die ook voor een schadewagen geldt. Een wagen met gebreken heeft bovendien een eigen status in Zwitserland, die de wet heel precies omschrijft.",
+      "facts": [
+        { "label": "Douanegrens", "value": "Zwitserland ligt buiten de EU: de grens is een douanegrens" },
+        { "label": "Altfahrzeug", "value": "Een wagen die niet rijklaar is, geldt als gecontroleerd afval" },
+        { "label": "Zwitsers verbod", "value": "Zondag, feestdagen en elke nacht van 22 tot 5 uur" },
+        { "label": "Douane", "value": "Bij invoer geeft u het voertuig ongevraagd aan bij de douane" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Groot-Polen, met de A2 in zicht",
+          "body": [
+            "Wie in Groot-Polen een wagen laat ophalen, rijdt voor Zwitserland vaak via Świecko en de Duitse A12 naar Berlijn, en daarna zuidwaarts. Het stuk Świecko tot Konin van de A2 is ongeveer 255 km en wordt door AWSA geëxploiteerd. De Poznańse ring en het stuk Konin tot Stryków zijn voor personenwagens gratis.",
+            "De tol op dit stuk is een zaak van de vervoerder, want voor de tol telt het voertuig dat rijdt en niet de wagen die op de oplegger staat. Voor u telt vooral dat Poznań goed bereikbaar is voor een ophaling met lier, en dat de A2 doorloopt tot aan de grens."
+          ]
+        },
+        {
+          "heading": "Door Duitsland en de Elzas naar Bazel",
+          "body": [
+            "De gebruikelijke as loopt van Frankfurt over de Duitse A5, 440 km lang, naar Bazel. Die weg eindigt in Weil am Rhein aan de Zwitserse grens, langs Karlsruhe en Frankfurt. Zesstrooksuitbreidingen zijn vermeld voor Walldorf tot Baden-Baden en Baden-Baden tot Offenburg.",
+            "Veel vrachtwagens namen in de Elzas de tolvrije A35 om de Duitse tol op de A5 te mijden. Sinds de A355 is doorgaand vrachtverkeer op de Straatsburgse M35 verboden. De Duitse A9 loopt langs Leipzig, Hof, Neurenberg en München en kruist de A4 bij het Hermsdorfer Kreuz. Hij is een mogelijke noord-zuidas voor wie niet via Frankfurt wil."
+          ]
+        },
+        {
+          "heading": "Zwitserse rijverboden en de omgeving van Zürich",
+          "body": [
+            "In Zwitserland geldt een rijverbod voor voertuigen boven 3,5 ton op zondag en feestdagen en elke nacht van 22 tot 5 uur. Wie op zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder. Een aankomst op zaterdag moet dus in de planning zitten.",
+            "Bij Zürich ligt de Nordumfahrung, 11,6 km lang, met meer dan 100.000 voertuigen per dag. Ze wordt van vier naar zes rijstroken verbreed. De Gubristtunnel kent volgens de bron op 350 dagen per jaar file. De derde buis ging open, maar de oude buizen worden één voor één gesaneerd. Reken op oponthoud."
+          ]
+        },
+        {
+          "heading": "Douane en Altfahrzeug: wat een schadewagen bij invoer betekent",
+          "body": [
+            "Wie een voertuig uit Polen in Zwitserland invoert, geeft het ongevraagd aan bij de douane via e-dec. Daarbij komen Automobilsteuer en invoer-btw. Voor een kantonale inschrijving is een douaneattest 13.20 A nodig, en particuliere importeurs hebben ook een CO2-certificering nodig.",
+            "Voertuigen die niet rijklaar zijn of meer dan lichte schade hebben, gelden in Zwitserland als Altfahrzeug en dus als gecontroleerd afval volgens de afvalverordening VeVA. Zulke wagens mogen alleen met een vergunning van het federale milieuagentschap BAFU worden uitgevoerd. Of een niet-rijklare wagen bij invoer eveneens zo wordt gezien, vraagt u best aan de douane."
+          ]
+        },
+        {
+          "heading": "Als een Zwitserse wagen in het buitenland strandt",
+          "body": [
+            "Raakt een in Zwitserland ingeschreven wagen in het buitenland beschadigd en wordt hij daar hersteld of gesloopt, dan meldt u dat bij het dichtstbijzijnde buitenlandse douanekantoor. Komt hij terug, dan geeft u alle herstellingen ongevraagd aan bij de Zwitserse grens.",
+            "Een wagen met technische gebreken krijgt in het kanton Solothurn pas exportplaten na een controle van de bedrijfsveiligheid door een garage met werkplaats. Een wagen die niet rijdt, kan dus niet op eigen wielen over de grens. In Zug moeten wagens met een Mängelstempel eerst een officiële veiligheidskeuring ondergaan voor ze opnieuw platen krijgen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Auto Zürich",
+          "body": "Auto Zürich is een jaarlijkse autobeurs in Messe Zürich in Oerlikon, eind oktober of begin november. De TCS noemt het het grootste auto-live-event van Zwitserland. Wie er een wagen wil tonen of een projectwagen wil kopen en laten brengen, plant de levering buiten de beursdrukte."
+        },
+        {
+          "kind": "regel",
+          "title": "Inklaring buiten de openingsuren",
+          "body": "De Zwitserse douane noemt Basel Weil-Autobahn bij de overgangen waar handelswaren in uitzonderlijke situaties ook buiten de openingsuren ingeklaard kunnen worden. Elders kan dat niet. Een wagen die laat op de dag aankomt, wacht dus soms tot de volgende ochtend."
+        },
+        {
+          "kind": "regel",
+          "title": "Periodieke keuring door het kanton",
+          "body": "De periodieke keuring gebeurt door de kantonale Strassenverkehrsämter, en een houder mag ook een erkende private organisatie zoals de TCS kiezen. Veel kantons hebben achterstand. Een wagen die lang stilstond, heeft dus vaak een keuring nodig waarvoor u een afspraak kunt moeten afwachten."
+        },
+        {
+          "kind": "tip",
+          "title": "Onderdelen en ongevalswagens",
+          "body": "Werkende onderdelen worden in Zwitserland als wisselstuk verkocht. Ongevalswagens zijn daarvoor bijzonder gewild, omdat hun onderdelen recenter zijn. Wie een schadewagen in Polen koopt voor de onderdelen, houdt rekening met de afvalregels in Zwitserland."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is een niet-rijdende wagen in Zwitserland een afvalstof?",
+          "a": "Voertuigen die niet rijklaar zijn of meer dan lichte schade hebben, gelden als Altfahrzeug en dus als gecontroleerd afval. De uitvoer vraagt een BAFU-vergunning. Rijklare of licht beschadigde voertuigen gelden als gebruikt goed."
+        },
+        {
+          "q": "Kan een wagen met gebreken op eigen wielen de grens over?",
+          "a": "Niet altijd. In Solothurn krijgt een wagen met technische gebreken pas exportplaten na een controle van de bedrijfsveiligheid door een garage. Een wagen die niet rijdt, vervoert u daarom op een transporter."
+        },
+        {
+          "q": "Wanneer rijdt een vrachtwagen in Zwitserland niet?",
+          "a": "Voor voertuigen boven 3,5 ton geldt een verbod op zondag, feestdagen en elke nacht van 22 tot 5 uur. Wie op zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Zwitserland vervoeren: A5 en Elzas, Zwitserse rijverboden, douane en de status van een Altfahrzeug.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://mobility.autopay.eu/pl/oplaty-drogowe/polska/",
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_9",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://de.wikipedia.org/wiki/Nordumfahrung_Z%C3%BCrich",
+        "https://de.wikipedia.org/wiki/Gubristtunnel",
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.bafu.admin.ch/de/altfahrzeuge",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://so.ch/fileadmin/internet/bjd/bjd-mfk/Fahrzeuge/PDF/Gesuch_fuer_Exportschilder.pdf",
+        "https://cdn.zg.ch/dam/jcr:bf6dc027-1258-4cfb-958c-ad40d30deb1f/ZU_M_FZ_Merkblatt_Exportfahrzeuge_20250429%20(QR).pdf",
+        "https://www.tcs.ch/de/der-tcs/sektionen/zuerich/events/auto-zuerich.php",
+        "https://de.wikipedia.org/wiki/Motorfahrzeugkontrolle"
+      ]
+    },
+    "polen-oostenrijk": {
+      "lead": "Van Katowice naar Oostenrijk rijdt een transporter bijna altijd over de A1, de Tsjechische D1 en dan Brno en Wenen. Voor een wagen die niet rijdt, zijn er in Oostenrijk eigen regels over slepen, platen en keuring, en het land is streng voor wagens die zonder plaat op de openbare weg staan.",
+      "facts": [
+        { "label": "Tsjechische D1", "value": "De D1 is de drukste snelweg van Tsjechië en loopt tot Polen" },
+        { "label": "Oostenrijkse sleepregel", "value": "Slepen kan maximaal 40 km/u, met een verbinding van hoogstens acht meter" },
+        { "label": "Plaatloos", "value": "Een wagen zonder plaat mag niet openbaar geparkeerd staan" },
+        { "label": "Pechstrook", "value": "Een defecte wagen laat u niet achter op de pechstrook" }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen rond Katowice, bij de A1 naar Gorzyczki",
+          "body": [
+            "De Poolse A1 loopt over 584 km van Rusocin bij Gdańsk naar Gorzyczki aan de Tsjechische grens, waar ze via Věřňovice op de D1 aansluit. Bij Gliwice Sośnica kruist ze de A4. Wie in Opper-Silezië een wagen laat ophalen, rijdt dus rechtstreeks naar de Tsjechische grens. Op de A1 geldt e-TOLL van Toruń Południe tot Piotrków Trybunalski Południe en weer van Woźniki tot Gorzyce.",
+            "Katowice heeft nog geen milieuzone, maar kreeg de formele verplichting er een in te voeren wegens overschrijdingen van stikstofdioxide. Kijk bij een ophaling in het stadscentrum vooraf de stand van zaken na."
+          ]
+        },
+        {
+          "heading": "De Tsjechische D1 en haar regels",
+          "body": [
+            "De D1 is 376,5 km lang en loopt van Praag via Brno en Přerov naar Ostrava. Ze eindigt aan de Poolse grens bij Věřňovice en is de drukste snelweg van het land, met tot 99.000 voertuigen per dag bij Praag. Bij Brno-jih komt de D2 bij de D1.",
+            "Tsjechië heft een elektronische kilometerheffing voor voertuigen boven 3,5 ton, verplicht met een boordtoestel dat aan één geregistreerd voertuig is gekoppeld. Voor vrachtwagens boven 7,5 ton geldt een rijverbod op snelwegen en klasse I-wegen op zon- en feestdagen van 13 tot 22 uur. Van juli tot en met augustus komt daar vrijdag van 17 tot 21 uur en zaterdag van 7 tot 13 uur bij."
+          ]
+        },
+        {
+          "heading": "Oostenrijk: Weinviertel en Wenen",
+          "body": [
+            "Oostenrijk heeft een nachtverbod van 22 tot 5 uur, een zaterdagverbod van 15 tot 24 uur en een zon- en feestdagverbod van 0 tot 22 uur voor vrachtwagens boven 7,5 ton. Zomerzaterdagen kennen op de A4 Oost tussen Schwechat en Nickelsdorf een verbod van 8 tot 15 uur. Een transport dat zaterdagmiddag Oostenrijk nadert, moet vóór 15 uur klaar zijn met rijden.",
+            "Verkeer uit Tsjechië en Polen komt Niederösterreich binnen over de A5, die tot Poysdorf loopt, en daarna via de B7 naar de grensovergang Drasenhofen. De aansluiting van de A5 op de Tsjechische grens is gepland, niet open. Voor tol gebruikt Oostenrijk de GO-Maut met een GO-Box, terwijl Polen e-TOLL heeft."
+          ]
+        },
+        {
+          "heading": "Slepen, pechstrook en platen in Oostenrijk",
+          "body": [
+            "Een defecte wagen slepen met een touw of stang mag alleen als de stuurinrichting voldoende werkt en minstens één remsysteem voldoende werkt. Zijn alle remmen uitgevallen, dan mag het alleen met een stang en een duidelijk zwaarder trekkend voertuig. De verbinding mag hoogstens acht meter lang zijn en moet goed zichtbaar zijn, bijvoorbeeld met een rode doek. Bij privé slepen geldt 40 km/u. De bestuurder van het gesleepte voertuig heeft een rijbewijs voor die klasse nodig.",
+            "Een defecte wagen mag niet op de pechstrook van de snelweg achterblijven: daar staat een boete op en de sleepkosten komen erbij. Een voertuig zonder nummerplaten mag niet op de openbare weg geparkeerd staan. Wordt het weggesleept, dan haalt u het alleen op met een eigendomsbewijs en binnen twee maanden, en sleep- en stallingskosten zijn voor de eigenaar."
+          ]
+        },
+        {
+          "heading": "Keuring, afmelden en projectwagens",
+          "body": [
+            "De overheid kan een voertuig oproepen voor een bijzondere controle als ze twijfelt of het nog verkeers- en bedrijfsveilig is, bijvoorbeeld na een aangifte, en ook bij voertuigen waarvan de eerste inschrijving meer dan twaalf jaar geleden is. Bij de periodieke keuring krijgt een wagen alleen een vignet als er geen zware gebreken zijn.",
+            "Voor projectwagens geldt: ligt de laatste afmelding meer dan tien jaar terug, dan moet het voertuig volgens de ÖMVV doorgaans eerst opnieuw in de centrale goedkeuringsdatabank ingevoerd worden. Een voertuig zonder Oostenrijkse papieren heeft een Einzelgenehmigung van de deelstaat nodig. Is er geen bewijs van een eerdere inschrijving, dan kan een verklaring op eer als eigendomsbewijs dienen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Platen in bewaring geven",
+          "body": "Wie een wagen lang laat stilstaan, kan de nummerplaten tot één jaar in bewaring geven bij de Zulassungsstelle van zijn woondistrict. Dat is kosteloos, maar niet per voertuig bij Wechselkennzeichen. Pas als de platen minstens 45 dagen in bewaring liggen, vervalt voor die periode de verzekerings- of motorvoertuigenbelasting."
+        },
+        {
+          "kind": "regel",
+          "title": "Afmelden is soms verplicht",
+          "body": "Afmelden is in Oostenrijk verplicht als een voertuig niet langer voor de openbare weg bestemd is of als de verplichte aansprakelijkheidsverzekering ontbreekt of beëindigd is. Een projectwagen die jaren stilstaat, valt vaak onder die regel en heeft bij een latere inschrijving de papieren nodig."
+        },
+        {
+          "kind": "plek",
+          "title": "Keuring bij een Landesprüfstelle",
+          "body": "De bijzondere controle gebeurt bij een Landesprüfstelle of een door de Landeshauptmann gemachtigde instantie, zoals een garage. De eigenaar moet het goedkeuringsdocument van het voertuig voorleggen, bijvoorbeeld het Typenschein. Zonder dat document verloopt de keuring niet vlot."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik mijn defecte wagen in Oostenrijk zelf laten slepen door een vriend?",
+          "a": "Ja, onder voorwaarden. De stuurinrichting en minstens één remsysteem moeten werken, de verbinding mag hoogstens acht meter lang zijn en goed zichtbaar, en u mag niet harder dan 40 km/u. Laat anders een transporter komen."
+        },
+        {
+          "q": "Wat gebeurt er met een wagen zonder plaat op de openbare weg?",
+          "a": "Hij mag er niet geparkeerd staan en wordt door de overheid weggesleept. Ophalen kan alleen met een eigendomsbewijs en binnen twee maanden. De sleep- en stallingskosten zijn voor de eigenaar."
+        },
+        {
+          "q": "Kan een Poolse projectwagen in Oostenrijk worden ingeschreven?",
+          "a": "Een voertuig zonder Oostenrijkse papieren heeft een Einzelgenehmigung van de deelstaat nodig. Is er geen bewijs van een eerdere inschrijving, dan kan een verklaring op eer als eigendomsbewijs dienen. Vraag het vooraf na bij de ÖMVV."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Polen naar Oostenrijk laten vervoeren: A1 naar Gorzyczki, Tsjechische D1 en de Oostenrijkse regels voor slepen en plaatloze wagens.",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Autostrada_A1_(Polska)",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+        "https://md.gov.cz/Zivotni-situace/Dalnicni-kupony-a-mytne-Dalnicni-kupony-a-mytne/mytne?lang=en-GB",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/czech-republic",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://de.wikipedia.org/wiki/Nord/Weinviertel_Autobahn",
+        "https://www.go-maut.at/en",
+        "https://www.oesterreich.gv.at/themen/mobilitaet/kfz/1/Seite.062500.html",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/5/Seite.061000",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/1/1/Seite.060800",
+        "https://www.oeamtc.at/thema/panne-unfall/richtiges-verhalten-auf-dem-pannenstreifen-16184078",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/Seite.060430",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/Seite.060500",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/2/Seite.060900",
+        "https://www.oemvv.at/rechtliches"
+      ]
+    }
+  }
+}

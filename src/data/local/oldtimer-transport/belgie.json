@@ -1,0 +1,1120 @@
+{
+  "service": "oldtimer-transport",
+  "origin": "belgie",
+  "pages": {
+    "belgie": {
+      "lead": "Een oldtimer in België heeft een eigen status, een eigen plaat en een eigen keuring. Wie zijn klassieker naar een beurs in Brussel, een concours aan zee of een nieuwe eigenaar wil brengen, kijkt best eerst wat die O-plaat precies toelaat. Hier staan de regels en de plekken die in België voor klassiekers tellen, en wat ze voor het vervoer betekenen.",
+      "facts": [
+        {
+          "label": "O-plaat",
+          "value": "Vanaf 30 jaar in gebruik, na oldtimerkeuring"
+        },
+        {
+          "label": "Vlaamse keuring",
+          "value": "Om de 2 jaar tot 50 jaar, daarna om de 5 jaar"
+        },
+        {
+          "label": "Zoute Grand Prix",
+          "value": "Elk jaar in oktober in Knokke-Heist, vijf dagen"
+        },
+        {
+          "label": "InterClassics Brussels",
+          "value": "Elk jaar in november in Brussels Expo"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat de O-plaat wel en niet toelaat",
+          "body": [
+            "In België is een oldtimer een voertuig dat meer dan 30 jaar in gebruik is en op een O-plaat is ingeschreven. Voor die inschrijving moet de wagen eerst naar de oldtimerkeuring. Een voertuig van 25 tot 30 jaar dat eerder al een O-plaat had, mag die houden zolang het op naam van dezelfde eigenaar blijft. Motorfietsen, bromfietsen en lichte vierwielers kunnen al vanaf 25 jaar als oldtimer worden ingeschreven, zonder oldtimerkeuring.",
+            "De plaat heeft grenzen. Met een O-plaat rijdt u niet commercieel of beroepsmatig, doet u geen woon-werk- of woon-schoolverkeer en voert u geen betaald vervoer uit. U gebruikt de wagen ook niet als werktuig. Wilt u uw kilometers sparen, dan kan de klassieker ook gewoon op een transporter mee naar zijn bestemming."
+          ]
+        },
+        {
+          "heading": "Een klassieker kopen of verkopen in België",
+          "body": [
+            "Wie een oldtimer koopt, krijgt van de verkoper het aanvraagformulier met de vermelding oldtimer in vak X13, hoogstens twee maanden oud, plus het laatste inschrijvingsbewijs. Ontbreekt die keuringsvermelding, dan moet de koper zelf naar de oldtimerkeuring. Spreek dus vooraf af wie wat meegeeft, vóór de wagen wordt opgehaald.",
+            "Wilt u herkomst en originaliteit aantonen, dan biedt BEHVA, de Belgische federatie voor historische voertuigen, onder meer expertiseverslagen voor de verzekering en de FIVA Identity Card aan. Mcars haalt de wagen op bij de verkoper, met inspectie, foto's voor intern gebruik en een CMR-vrachtbrief. Het papierwerk voor de inschrijving regelt u zelf of via uw dealer."
+          ]
+        },
+        {
+          "heading": "Keuring en belasting verschillen per gewest",
+          "body": [
+            "In Vlaanderen gaat een oldtimer van 30 tot 50 jaar om de 2 jaar naar de periodieke keuring en een oldtimer ouder dan 50 jaar om de 5 jaar, gerekend vanaf de eerste inschrijving. Die regels gelden sinds 1 november 2022. De keuringsregels verschillen per gewest, en een vrijstelling uit een ander gewest geldt niet voor een Vlaams voertuig. Uw oldtimer laten keuren in een ander gewest mag wel.",
+            "Ook de belasting is anders. In Vlaanderen worden voertuigen die minstens 30 jaar geleden in het verkeer zijn gebracht forfaitair belast, voor de jaarlijkse verkeersbelasting en voor de belasting op de inverkeerstelling. Dat forfait hangt niet af van de O-plaat: de voorwaarden voor de plaat en voor het forfait zijn verschillend. Een klassieke vrachtwagen van meer dan 30 jaar valt bovendien buiten de kilometerheffing voor vrachtwagens."
+          ]
+        },
+        {
+          "heading": "Aan zee: de Zoute Grand Prix",
+          "body": [
+            "De Zoute Grand Prix is het klassiekerfeest van de Belgische kust. Elk jaar in oktober loopt de Car Week vijf dagen in Knokke-Heist, met rally's, een concours d'élégance, veilingen, een gallery en een 4x4-village. In 2026 was het de 17e editie, met twee internationale veilingen. In 2025 kwam er een Zoute Iconic Rally bij voor jongere klassiekers uit de jaren 1976 tot 2005.",
+            "THE WEEKEND komt in april en brengt vier autowerelden samen: Classic, Iconic, GT en 4x4. Wie er een wagen wil tonen of kopen, kan hem laten brengen. Mcars rijdt dagelijks in België en levert aan het adres dat u opgeeft."
+          ]
+        },
+        {
+          "heading": "In Brussel: InterClassics en Autoworld",
+          "body": [
+            "InterClassics Brussels is de klassiekerbeurs van november in Brussels Expo, op 40.000 m² met klassiekers, youngtimers en supercars. In 2026 was het de elfde editie. Er is een BEHVA Village voor oldtimerclubs en een zone Private Sales waar particulieren klassiekers tot bouwjaar 2005 te koop aanbieden. Wie daar koopt, heeft meteen een wagen die nog naar huis moet.",
+            "Autoworld in het Jubelpark toont sinds 1986 meer dan 300 voertuigen in de zuidelijke hal van het paleis uit 1880, met veel vroege Belgische merken. Het museum organiseert geregeld tijdelijke tentoonstellingen. Gaat een wagen naar of van zo'n expo, geef dan bij de offerte de afmetingen door."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Zoute Grand Prix",
+          "body": "Vijf dagen in oktober in Knokke-Heist met rally's, concours, veilingen en een 4x4-village, met in april nog THE WEEKEND. Reken op drukte rond de kust en geef bij uw aanvraag door op welke dag de wagen daar moet staan."
+        },
+        {
+          "kind": "event",
+          "title": "InterClassics Brussels",
+          "body": "Klassiekerbeurs in november in Brussels Expo. Particulieren verkopen er via Private Sales wagens tot bouwjaar 2005, dus de kans is groot dat een gekochte klassieker meteen een vervoerder nodig heeft."
+        },
+        {
+          "kind": "plek",
+          "title": "Autoworld",
+          "body": "Automuseum in het Jubelpark in Brussel, sinds 1986 open, met meer dan 300 voertuigen en wisselende tentoonstellingen. Wie een wagen wil uitlenen of ophalen voor een expo, spreekt vooraf de laad- en lostijd af met het museum."
+        },
+        {
+          "kind": "tip",
+          "title": "BEHVA en de FIVA Identity Card",
+          "body": "De Belgische federatie voor historische voertuigen levert expertiseverslagen voor de verzekering en de FIVA Identity Card. Handig als u een klassieker verkoopt en de koper de herkomst van de wagen wil kunnen nagaan."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet mijn wagen een O-plaat hebben om vervoerd te worden?",
+          "a": "Voor het vervoer zelf niet: tijdens de rit rijdt de wagen niet op eigen kracht, hij staat op de transporter. De O-plaat is een statuut voor wie rijdt: meer dan 30 jaar in gebruik en eerst naar de oldtimerkeuring. Een klassieker met een gewone plaat of zonder plaat kunnen we evengoed vervoeren."
+        },
+        {
+          "q": "Wat vraag ik aan de verkoper als ik een oldtimer koop?",
+          "a": "Het aanvraagformulier met de vermelding oldtimer in vak X13, hoogstens twee maanden oud, en het laatste inschrijvingsbewijs. Staat die vermelding er niet op, dan moet u zelf met de wagen naar de oldtimerkeuring voor u hem op uw naam zet."
+        },
+        {
+          "q": "Kan een klassieker naar de Zoute Grand Prix of InterClassics gebracht worden?",
+          "a": "Wie naar een event wil, kan zijn wagen laten brengen. Zeg bij uw aanvraag op welke dag hij moet aankomen en of hij nog rijdt. Elke vrachtwagen heeft een lier; staat de wagen volledig vast, dan is ter plaatse een heftruck nodig."
+        }
+      ],
+      "seoDescription": "Oldtimer transport in België: O-plaat, keuring, Zoute Grand Prix en InterClassics Brussels. Mcars brengt uw klassieker open en verzekerd op bestemming.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven/inschrijven/een-oldtimer-inschrijven",
+        "https://www.gocavlaanderen.be/detail-page/oldtimer",
+        "https://www.vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/verkeersbelastingen-voor-oldtimers",
+        "https://www.viapass.be/nl/voor-wie/",
+        "https://www.zoutegrandprix.be/",
+        "https://www.interclassics.events/nl/interclassics-brussels",
+        "https://nl.wikipedia.org/wiki/Autoworld",
+        "https://www.behva.be/nl"
+      ]
+    },
+    "belgie-nederland": {
+      "lead": "Van België naar Nederland rijdt een klassieker meestal over de E19, die bij Hazeldonk in de A16 overgaat. Komt de wagen van een Gentse beurs of moet hij naar een museum in Den Haag, dan spelen aan beide kanten van de grens andere oldtimerregels. Hier leest u wat er in Oost-Vlaanderen, onderweg en in Zuid- en Midden-Nederland telt.",
+      "facts": [
+        {
+          "label": "Gent LEZ",
+          "value": "Oldtimers vanaf 30 jaar mogen binnen na gratis registratie"
+        },
+        {
+          "label": "Nederlandse wegenbelasting",
+          "value": "Vrijstelling vanaf 40 jaar én voor 1 januari 1988"
+        },
+        {
+          "label": "Westerscheldetunnel",
+          "value": "Maximale doorrijhoogte 4,30 meter, geen vluchtstrook"
+        },
+        {
+          "label": "Invoer",
+          "value": "Motorrijtuig van 25 jaar of ouder: aangifte, geen bpm"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Oost-Vlaanderen: de zone van Gent",
+          "body": [
+            "Gent heeft sinds 1 januari 2020 een lage-emissiezone binnen de stadsring R40. Oldtimers ouder dan 30 jaar mogen er in na registratie. Een Belgisch voertuig moet daarvoor als oldtimer zijn ingeschreven met een O-plaat of een gepersonaliseerde plaat, en mag niet commercieel of voor woon-werkverkeer worden gebruikt. De registratie bestaat sinds 17 mei 2024, is gratis en moet uiterlijk de dag na het binnenrijden gebeuren.",
+            "Dat doet ertoe als u de wagen zelf naar een afspraak in het centrum rijdt, bijvoorbeeld voor een laatste check bij de verkoper. Wie met een buitenlands voertuig de Vlaamse zones in wil, moet het eerst laten registreren. Een Nederlandse koper die zijn klassieker in Gent komt bekijken, denkt daar dus best aan. Staat de wagen aan de rand van de stad, dan haalt Mcars hem daar op."
+          ]
+        },
+        {
+          "heading": "Ghent Collection Cars en de rit naar het noorden",
+          "body": [
+            "Eind februari staat Flanders Expo in het teken van Ghent Collection Cars, een verkoopbeurs voor klassieke wagens waar meer dan 250 exemplaren te koop staan. Wie er koopt voor een adres in Nederland, heeft een korte rit over de grens voor de boeg. Spreek met de verkoper af dat de wagen na de beurs klaarstaat, met sleutels en papieren erbij.",
+            "Bij de ophaling doet de chauffeur een inspectie, we nemen foto's voor intern gebruik en u krijgt een CMR-vrachtbrief mee. Particulieren betalen vóór de ophaling. Start de wagen niet meer, dan gaat hij met de lier op de vrachtwagen."
+          ]
+        },
+        {
+          "heading": "De weg: E19, A16 en de Westerscheldetunnel",
+          "body": [
+            "De E19 loopt in Nederland over de A16 van Rotterdam via Breda naar de Belgische grens bij Hazeldonk en Meer. In België heet ze A1 en loopt ze naar Antwerpen en Brussel. Het is een van de drukste snelwegen van het land, met dagelijkse pendelfiles en zwaar vrachtverkeer tussen de havens van Antwerpen en Rotterdam. Spreek de aankomst van uw klassieker dus liever niet af op een spitsmoment.",
+            "Wie vanuit Gent via Zeeuws-Vlaanderen rijdt, komt bij de Westerscheldetunnel (N62). Die is 6,6 km lang en heeft een maximale doorrijhoogte van 4,30 m, 100 km/u met trajectcontrole en geen vluchtstrook. Personenwagens betalen er sinds 30 december 2024 geen tol meer; vrachtwagens betalen nog tot 2033 op het tolplein bij Borssele. Nederland kent geen algemeen weekend- of feestdagverbod voor vrachtwagens."
+          ]
+        },
+        {
+          "heading": "Aankomst in Nederland: belasting, keuring en platen",
+          "body": [
+            "Een klassieker is in Nederland vrijgesteld van motorrijtuigenbelasting als hij minstens 40 jaar geleden én vóór 1 januari 1988 voor het eerst in gebruik is genomen. Voor personenauto's en motoren gaat dat automatisch. Auto's van bouwjaar 1987 of ouder die nog geen 40 jaar zijn, kunnen een overgangsregeling met verlaagd tarief kiezen, maar mogen dan in januari, februari en december niet de openbare weg op.",
+            "Voertuigen van 30 jaar of ouder moeten om de 2 jaar naar de APK; vanaf 50 jaar vervalt de plicht. Donkerblauwe platen zijn mogelijk voor wagens die vóór 1 januari 1978 in gebruik zijn genomen. Bij invoer van een motorrijtuig van 25 jaar of ouder betaalt u geen bpm, maar u doet wel aangifte. Dat regelt u zelf of via uw dealer, wij vervoeren de wagen."
+          ]
+        },
+        {
+          "heading": "Bestemmingen aan de Nederlandse kant",
+          "body": [
+            "Zuid-Holland is de eerste Randstadregio vanuit België. Het Louwman Museum aan de Leidsestraatweg 57 in Den Haag toont ruim 275 auto's, met als oudste een De Dion-Bouton et Trépardoux uit 1887, en houdt wisselende tentoonstellingen rond één merk of thema. Wie via Breda naar het zuidoosten doorrijdt, komt in Midden-Brabant terecht.",
+            "Classic Park in Boxtel, naast de A2, koopt en verkoopt klassiekers, ook in consignatie, en heeft een museum. Het DAF Museum in Eindhoven staat op de plek waar DAF begon. De Tulpenrallye, sinds 1949 de oudste klassiekerrally van Nederland, wordt in mei gereden; de editie van 2026 finishte in Eindhoven."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Lage-emissiezone Gent voor oldtimers",
+          "body": "Oldtimers ouder dan 30 jaar rijden de zone binnen de R40 in na gratis registratie, uiterlijk de dag na het binnenrijden. Voor een Belgische wagen horen daar de O-plaat en privégebruik bij."
+        },
+        {
+          "kind": "event",
+          "title": "Ghent Collection Cars",
+          "body": "Verkoopbeurs in Flanders Expo, eind februari, met meer dan 250 klassieke wagens te koop. Wie hier koopt voor een Nederlands adres, laat de wagen na de beurs ophalen bij de verkoper."
+        },
+        {
+          "kind": "tip",
+          "title": "Westerscheldetunnel",
+          "body": "Zes komma zes kilometer onder de Westerschelde, met een doorrijhoogte van 4,30 m en zonder vluchtstrook. Vrachtwagens betalen er nog tol tot 2033. Voor een hoog geladen transporter is dit een punt om bij de routekeuze mee te nemen."
+        },
+        {
+          "kind": "plek",
+          "title": "Classic Park Boxtel",
+          "body": "Handelaar in klassieke en exclusieve auto's langs de A2 tussen Eindhoven en 's-Hertogenbosch, met consignatieverkoop en een museum. Een Belgische klassieker die hier in consignatie gaat, komt vaak per transporter aan."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat als mijn klassieker niet meer start?",
+          "a": "Dan gaat hij met de lier op de vrachtwagen, want elke vrachtwagen heeft er een. Zit de wagen helemaal vast, bijvoorbeeld door een geblokkeerde aandrijving, dan vragen we een heftruck ter plaatse. Meld dat bij de aanvraag, zodat het in de offerte staat."
+        },
+        {
+          "q": "Is er in Nederland een rijverbod voor vrachtwagens in het weekend?",
+          "a": "Een algemeen rijverbod voor vrachtwagens in het weekend of op feestdagen bestaat in Nederland niet. Beperkingen gelden voor uitzonderlijk vervoer, bij gladheid en bij zicht onder 200 meter. Een klassieker kan dus ook op zaterdag of zondag aankomen."
+        },
+        {
+          "q": "Wanneer zijn Nederlandse kantoren of keuringsstations dicht?",
+          "a": "Op Koningsdag, Bevrijdingsdag, Hemelvaart en Tweede Pinksterdag, naast Goede Vrijdag, Tweede Paasdag en Kerst. Plant u de inschrijving of een APK vlak na de levering, kijk dan eerst of die dag niet in de lijst valt."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Nederland: Gentse LEZ, E19, Westerscheldetunnel en Nederlandse regels voor klassiekers. Mcars vervoert uw wagen.",
+      "sources": [
+        "https://www.vlaanderen.be/lage-emissiezones-lez",
+        "https://nl.wikipedia.org/wiki/Lage-emissiezone",
+        "https://www.flanderscollectioncars.be/",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://nl.wikipedia.org/wiki/Westerscheldetunnel",
+        "https://www.anwb.nl/verkeer/nieuws/nederland/2024/december/westerscheldetunnel-n62-tolvrij",
+        "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/auto_en_vervoer/belastingen_op_auto_en_motor/motorrijtuigenbelasting/vrijstelling_onder_andere_voor_oldtimers",
+        "https://www.rdw.nl/apk/wanneer-en-hoe-vaak-apk-keuren",
+        "https://www.louwmanmuseum.nl/",
+        "https://www.classicpark.nl/",
+        "https://www.tulpenrallye.nl/",
+        "https://www.timocom.co.uk/truck-driving-bans/netherlands"
+      ]
+    },
+    "belgie-luxemburg": {
+      "lead": "Van Brussel naar Luxemburg is het één lange rit op dezelfde weg: de A4/E411 tot de grens en de A6 erna. Voor een klassieker is de vraag wat er aan de andere kant gebeurt, want Luxemburg kent een eigen statuut voor historische voertuigen. Dit zijn de regels en plekken tussen de Ardennen en de hoofdstad die uw rit raken.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A4/E411 tot de grens, daarna A6/E25"
+        },
+        {
+          "label": "Historisch voertuig",
+          "value": "Minstens 30 jaar oud en niet gemoderniseerd"
+        },
+        {
+          "label": "Keuring",
+          "value": "Om de twee jaar, vóór 1950 vrijgesteld"
+        },
+        {
+          "label": "Autojumble",
+          "value": "Elk jaar in maart in Luxexpo The Box"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in de Ardennen: Bastenaken en de Legend Boucles",
+          "body": [
+            "De Legend Boucles is de historische opvolger van de Boucles de Spa, die traditioneel in februari werd gereden. Sinds 2015 is de rally verhuisd naar de provincie Luxemburg, met Bastenaken als centrum. Historische wedstrijdwagens rijden de rally zelf, terwijl oudere wagens deelnemen aan een regelmatigheidsproef die Classic heet. Wie meedoet, haalt zijn wagen uit een garage ergens in het land naar de Ardennen.",
+            "Vanuit Luik loopt de E25/A26 langs de Baraque de Fraiture, de hoogst gelegen autosnelweg van België, op ongeveer 650 m. Op die hoogte is het kouder en natter dan in het laagland, en dat weer krijgt een wagen op een open transporter ook. Mcars rijdt dagelijks in België, dus een ophaling in de Ardennen is geen buitenlandse rit."
+          ]
+        },
+        {
+          "heading": "De weg: A4, E411 en de grensovergang",
+          "body": [
+            "Op Belgisch grondgebied draagt de E411 het nummer A4 en heet ze Autoroute des Ardennes; ze loopt van Brussel langs Waver, Ottignies-Louvain-la-Neuve en Namen tot Aarlen. Tot Aarlen delen E411 en E25 dezelfde weg. Aan Luxemburgse kant sluit de A6 aan bij Kleinbettingen: 20,8 km tot Luxemburg-stad, via Steinfort, Mamer, Strassen en Cessange. Voor wie van Brussel komt, is dat één doorlopende autosnelweg.",
+            "De grensovergang heeft meerdere namen. De Luxemburgse verkeerscentrale spreekt van Weyler, andere bronnen van Kleinbettingen of Windhof. Het is dezelfde grens. De A6 werd in 1982 doorgetrokken tot de Belgische grens en ontlast sindsdien de N6, de oude weg door Mamer en Steinfort."
+          ]
+        },
+        {
+          "heading": "Het Luxemburgse statuut: véhicule historique",
+          "body": [
+            "Een véhicule historique is in Luxemburg een voertuig dat minstens 30 jaar geleden is gebouwd of voor het eerst ingeschreven, waarvan het type niet meer wordt geproduceerd en dat in oorspronkelijke staat is bewaard. Niet-tijdseigen wijzigingen aan chassis, koetswerk, stuurinrichting, remmen, overbrenging, ophanging of motor sluiten het statuut uit. De classificatie verloopt via een afspraak bij een gemachtigde instelling, die een verslag opmaakt; de SNCA valideert. Breng alle documenten uit de periode van de wagen mee.",
+            "Na de classificatie gaat het voertuig om de twee jaar naar de technische keuring. Historische voertuigen die vóór 1 januari 1950 voor het eerst in het verkeer kwamen, zijn vrijgesteld van de periodieke keuring, maar hebben een conformiteitsvignet nodig. Ook de jaarlijkse verkeersbelasting is voor historische voertuigen forfaitair, met vrijstelling vóór 1950."
+          ]
+        },
+        {
+          "heading": "Platen, FIVA en de LOF",
+          "body": [
+            "Een historisch voertuig kan een nummer uit de lopende reeks of een gepersonaliseerd nummer krijgen. Wie een plaat wil in het formaat van de eerste inschrijving, vraagt een gepersonaliseerd nummer van 4 of 5 cijfers aan. De vroegere platen met witte tekens op een zwarte achtergrond zijn bijna verdwenen, behalve op klassiekers, waarvoor een uitzondering geldt.",
+            "De Lëtzebuerger Oldtimer Federatioun (LOF), opgericht in 1992 en gevestigd in Diekirch, is de nationale FIVA-autoriteit. Een FIVA-identiteitskaart vraagt u daar aan als eigenaar van een in Luxemburg ingeschreven voertuig dat in Luxemburg wordt geïnspecteerd, rijklaar is en van onderen op een brug bekeken kan worden. Een klassieker die nog uit België moet komen, kan die kaart dus pas na zijn inschrijving krijgen."
+          ]
+        },
+        {
+          "heading": "Aankomst in het westen van Luxemburg",
+          "body": [
+            "Het westen van Luxemburg ligt het dichtst bij België. Bij Bertrange vertrekt de ACL Classic Tour, een rit voor klassiekers over landschappelijke Luxemburgse wegen, in mei. De ACL biedt ook een Rétro-Évaluation aan voor voertuigen ouder dan 20 jaar, met een staatstest en een waardeschatting door een expert. Voor wagens van ongeveer 30 jaar stelt ze het dossier samen om het statuut te vragen.",
+            "Wie een klassieker naar Luxemburg brengt om hem daar te laten classificeren, laat hem leveren op het adres van de keuringsinstelling of van de eigenaar. Mcars regelt het vervoer, de afspraak met de instelling blijft voor u."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Legend Boucles",
+          "body": "Historische opvolger van de Boucles de Spa, sinds 2015 in de provincie Luxemburg met Bastenaken als centrum. Wedstrijdwagens rijden de rally, oudere wagens de regelmatigheidsproef Classic. Houd rekening met winterse omstandigheden in de Ardennen."
+        },
+        {
+          "kind": "event",
+          "title": "Autojumble",
+          "body": "Jaarlijkse beurs van historische en verzamelvoertuigen, georganiseerd door de LOF in Luxexpo The Box op Kirchberg, elk jaar in maart vlak voor het seizoen. Een wagen die er verkocht wordt, kan vanaf Kirchberg naar België terugkeren."
+        },
+        {
+          "kind": "plek",
+          "title": "Conservatoire National de Véhicules Historiques",
+          "body": "Het nationale museum voor historische voertuigen in Diekirch, in de rue de Stavelot, met jaarlijks wisselende thematentoonstellingen. Open van dinsdag tot zondag. Een wagen voor een tentoonstelling bereikt Diekirch zonder snelweg tot aan de deur."
+        },
+        {
+          "kind": "event",
+          "title": "Luxembourg Classic",
+          "body": "Oldtimerrally in september, georganiseerd door Motor Presse Stuttgart. In 2025 startte en eindigde ze bij GRIDX in Wickrange, in 2026 lag de finale op de Place Guillaume II. Wagens gebouwd vóór 2003 waren toegelaten."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan mijn verbouwde klassieker het Luxemburgse statuut krijgen?",
+          "a": "Niet-tijdseigen wijzigingen aan chassis, koetswerk, stuurinrichting, remmen, overbrenging, ophanging of motor sluiten het statuut uit. De wagen mag niet gemoderniseerd zijn en moet in goede staat van werking verkeren. Laat dit beoordelen door een gemachtigde instelling voor u de wagen laat vervoeren."
+        },
+        {
+          "q": "Mijn klassieker heeft lang stilgestaan. Wat betekent dat in Luxemburg?",
+          "a": "Is de keuring al meer dan 2 jaar verlopen, dan moet de wagen eerst naar een erkende Luxemburgse keuringsinstantie. Bij herinschrijving van een uitgeschreven historisch voertuig gelden ruimere termijnen: pas na meer dan 4 jaar moet er eerst gekeurd of vereffend worden. Een lier maakt het laden van een wagen die niet start eenvoudiger."
+        },
+        {
+          "q": "Valt mijn rit onder het Luxemburgse rijverbod op zondag?",
+          "a": "Het verbod geldt voor vrachtwagens boven 7,5 ton in transit naar Frankrijk of Duitsland, op zondag en feestdagen. Vrijgesteld zijn leveringen in Luxemburg zelf, en ook transit richting België valt buiten de regeling. Een rit van Brussel naar Luxemburg-stad loopt er dus niet op vast; een doorrit naar een Frans of Duits adres wel."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Luxemburg: A4/E411, het statuut véhicule historique, Autojumble en Legend Boucles. Mcars vervoert uw klassieker.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://en.wikipedia.org/wiki/A6_motorway_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Boucles_de_Spa",
+        "https://nl.wikipedia.org/wiki/A26_%28Belgi%C3%AB%29",
+        "https://snca.public.lu/fr/vehicules/vehicules-historiques.html",
+        "https://snca.public.lu/fr/vehicules/vehicules-historiques/classification-vehicule-historique.html",
+        "https://snca.public.lu/fr/vehicules/vehicules-historiques/plaques-collection.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/conformite-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/reimmatriculation-vehicule.html",
+        "https://www.lof.lu/",
+        "https://www.lof.lu/autojumble/a-propos/",
+        "https://www.acl.lu/fr/loisirs/vehicules-historiques/",
+        "https://www.cnvh.lu/",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/luxembourg",
+        "https://www.chronicle.lu/event/13614-5th-luxembourg-vintage-car-rally"
+      ]
+    },
+    "belgie-frankrijk": {
+      "lead": "Naar Frankrijk vertrekt een klassieker vanuit Henegouwen over de A8 naar Rijsel of de A7 richting Parijs. Aan de overkant bepaalt de carte grise de collection wat er mag en moet, en een zaterdagverbod voor zware vrachtwagens kan een rit naar een beurs of rally verschuiven. Dit overzicht volgt de wagen van Leuze tot Le Mans.",
+      "facts": [
+        {
+          "label": "Carte grise",
+          "value": "Collectievermelding vanaf 30 jaar, aan te vragen via ANTS"
+        },
+        {
+          "label": "Keuring",
+          "value": "Collectiewagens vanaf bouwjaar 1960 om de vijf jaar"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Van zaterdag 22 uur tot zondag 22 uur, voor voertuigen boven 7,5 ton"
+        },
+        {
+          "label": "Rétromobile",
+          "value": "Parijs, Porte de Versailles, meestal in februari"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Henegouwen: Leuze en de Mahy-collectie",
+          "body": [
+            "Henegouwen grenst aan Frankrijk, en wie vanuit Charleroi, Bergen of Doornik naar het zuiden rijdt, komt langs de klassiekerplekken van de streek. In Leuze-en-Hainaut toont Automuseum Mahymobiles ongeveer 250 oude wagens op 6.000 m², in een voormalige textielfabriek. Individuele bezoekers kunnen er van half maart tot eind oktober op bepaalde halve dagen terecht, groepen op afspraak.",
+            "De collectie Mahy telt ongeveer duizend wagens. Ze stond een halve eeuw in het Wintercircus in Gent, en 230 wagens verhuisden in 1986 naar Autoworld in Brussel. Haalt u een wagen uit een museum of een privégarage in de streek, geef dan bij de offerte de afmetingen en de toestand door."
+          ]
+        },
+        {
+          "heading": "Chimay en de N5",
+          "body": [
+            "In het zuiden van Henegouwen ligt het Circuit de Chimay, een stratencircuit uit 1926, sinds 1992 4,42 km lang en bekend van de Grand Prix des Frontières. Wie daar een wagen heeft staan of naartoe wil, moet over kleinere wegen. De N5 loopt 112 km van Brussel via Charleroi naar de Franse grens bij Couvin.",
+            "Tussen Yves-Gomezée en Philippeville hebben de betonstukken volgens de bron een slecht wegdek. Een laag gebouwde klassieker op een open transporter heeft meer aan een snelweg. Daarom kiest een transporter voor het grootste deel van de rit liever de E42 of de A7."
+          ]
+        },
+        {
+          "heading": "De weg: E42, Rijsel en de A1",
+          "body": [
+            "De E42 loopt van Rijsel via de Franse A27 naar de grens bij Baisieux, waar ze aansluit op de Belgische A8 naar Doornik. Rijsel heeft scherpe bochten, onvermijdelijke rijstrookwissels voor westwaarts verkeer, flitspalen en regelmatig spitsvertraging op de A25/A27-sectie. De zone à faibles émissions van Rijsel geldt sinds 1 januari 2025 en omvat ook de A1; ze weert voertuigen met Crit'Air 4 en 5 en voertuigen zonder klasse.",
+            "Naar Parijs volgt u de A1: 211 km, beheerd door SANEF, volgens Wikipedia de drukste autoroute van Frankrijk, met tolpoorten bij Chamant en Fresnes-lès-Montauban. Rond 137 km van Parijs splitst de E19 naar Brussel af van de E15, die over de A1 naar Rijsel gaat. Of een klassieker zonder klasse in de zone van Rijsel mag, vraagt u vooraf na bij de metropool."
+          ]
+        },
+        {
+          "heading": "Zaterdagverbod voor vrachtwagens",
+          "body": [
+            "Een oldtimertransport met een vrachtwagen vanaf 7,5 ton moet in Frankrijk stilstaan tussen zaterdag 22 uur en zondag 22 uur. Rond feestdagen start het verbod om 22 uur de avond tevoren en eindigt het om 22 uur op de feestdag zelf. Tijdens de zomer komen er soms extra zaterdagverboden bij, en de officiële kalender vindt u op Bison Futé. Rond Parijs (A6, A10, A13) gelden extra verboden op vrijdag, zaterdag en zondag. Autotransport staat niet bij de vrijstellingen.",
+            "Een transporter die zaterdagavond nog onderweg is, staat tot zondag 22 uur stil. Heeft u een beurs op maandag of een rallystart op zondag, laat de wagen dan vroeg genoeg vertrekken. Mcars rijdt elke week over heel Frankrijk."
+          ]
+        },
+        {
+          "heading": "Aankomst in Frankrijk: statuut, keuring en quitus",
+          "body": [
+            "Een carte grise de collection kan voor een voertuig van minstens 30 jaar dat niet meer geproduceerd wordt en waarvan de technische kenmerken niet gewijzigd zijn. De vermelding is niet verplicht en komt er niet automatisch. Voor de aanvraag is een attest nodig van de constructeur of van de FFVE, de Fédération française des véhicules d'époque; de aanvraag loopt online via ANTS. Collectievoertuigen tot 3,5 ton met een eerste inschrijving vanaf 1960 gaan om de vijf jaar naar de keuring, die van vóór 1960 zijn vrijgesteld.",
+            "Ook voor een klassieker uit België blijft een fiscaal document nodig: een quitus fiscal bij herkomst uit de EU. Met het collectiestatuut is geen typegoedkeuring of certificaat van overeenstemming meer nodig. Een collectiewagen mag zwarte platen zonder regionale aanduiding dragen. Het papierwerk is voor de koper of zijn dealer."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Rétromobile",
+          "body": "De oldtimerbeurs van Parijs in Paris Expo Porte de Versailles, doorgaans in februari, sinds 1976. Artcurial houdt er sinds 2011 de grote veiling. Wie er koopt, moet de wagen nog uit Parijs naar huis krijgen, rond Parijs gelden extra rijverboden."
+        },
+        {
+          "kind": "event",
+          "title": "Le Mans Classic",
+          "body": "Begin juli op het Circuit des 24 Heures, georganiseerd door de Automobile Club de l'Ouest en Peter Auto. De wagens rijden in zes plateaus van 1923 tot 1984. De volgende editie is aangekondigd voor juli 2027."
+        },
+        {
+          "kind": "plek",
+          "title": "Circuit de Croix-en-Ternois",
+          "body": "Circuit van ongeveer 1,9 km langs de D939 bij Saint-Pol-sur-Ternoise, bestaat sinds 1973. Op het programma staat onder meer een Grand Prix Historique. Het ligt in Hauts-de-France, de Franse regio het dichtst bij Henegouwen."
+        },
+        {
+          "kind": "plek",
+          "title": "Musée national de la Voiture et du Tourisme",
+          "body": "In het kasteel van Compiègne, met koetsen en een dertigtal vroege auto's, waaronder de elektrische La Jamais Contente uit 1899. Elk jaar start aan het museum de Rallye des ancêtres, bedoeld voor voertuigen van vóór 1906."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet mijn klassieker in Frankrijk een carte grise de collection krijgen?",
+          "a": "Nee, de vermelding is niet verplicht en komt er niet automatisch. Het kan wel voordelen hebben, zoals de vijfjaarlijkse keuring vanaf bouwjaar 1960 en geen typegoedkeuring meer. Beslis dat samen met uw dealer of de ANTS, niet met de transporteur."
+        },
+        {
+          "q": "Kan een klassieker van vóór 1960 zonder Franse keuring blijven rijden?",
+          "a": "Collectievoertuigen van vóór 1960 zijn vrijgesteld van keuring, net als collectievoertuigen van meer dan 3,5 ton. Voor wagens tot 3,5 ton met een eerste inschrijving vanaf 1960 geldt de keuring om de vijf jaar in plaats van om de twee jaar."
+        },
+        {
+          "q": "Wat betekent het zaterdagverbod voor mijn rit naar Le Mans Classic?",
+          "a": "In de zomer kunnen bijkomende zaterdagverboden gelden naast het gewone verbod van zaterdag 22 uur tot zondag 22 uur. Wie naar Le Mans Classic wil, kan zijn wagen laten brengen, maar de aankomst valt best vóór het weekend."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Frankrijk: carte grise de collection, Rétromobile, Le Mans Classic en het zaterdagverbod. Mcars rijdt wekelijks in Frankrijk.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E42",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://nl.wikipedia.org/wiki/Mahymobiles",
+        "https://fr.wikipedia.org/wiki/Circuit_de_Chimay",
+        "https://nl.wikipedia.org/wiki/N5_%28Belgi%C3%AB%29",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F1925",
+        "https://www.impots.gouv.fr/vous-etes-un-particulier-et-vous-souhaitez-obtenir-un-quitus-fiscal",
+        "https://fr.wikipedia.org/wiki/V%C3%A9hicule_de_collection",
+        "https://fr.wikipedia.org/wiki/R%C3%A9tromobile",
+        "https://www.lemansclassic.com/",
+        "https://fr.wikipedia.org/wiki/Circuit_de_Croix-en-Ternois",
+        "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_la_voiture_et_du_tourisme"
+      ]
+    },
+    "belgie-duitsland": {
+      "lead": "Duitsland heeft een druk klassiekerseizoen van beurzen, circuits en rally's, en een helder statuut: de H-plaat. Wie een klassieker vanuit België naar Duitsland laat brengen, vertrekt meestal in Luik en komt via Aken binnen in Noordrijn-Westfalen of Rijnland-Palts. Hier staan de wegen, de verboden en de plekken die voor die rit tellen.",
+      "facts": [
+        {
+          "label": "H-Kennzeichen",
+          "value": "Oldtimer vanaf 30 jaar, met Gutachten van een keurder"
+        },
+        {
+          "label": "Zondagverbod",
+          "value": "Vrachtwagens boven 7,5 ton: zondag en feestdag tot 22 uur"
+        },
+        {
+          "label": "Nürburgring",
+          "value": "Oldtimer-Grand-Prix sinds 1973, begin augustus"
+        },
+        {
+          "label": "Techno Classica",
+          "value": "Nu in september in Messe Dortmund"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Luik: Spa-Francorchamps en Stavelot",
+          "body": [
+            "De Luikse Oostkantons grenzen aan Duitsland: de E40 loopt bij Lichtenbusch naar Aken, de E42 gaat voorbij Sankt Vith naar Prüm en Bitburg. Het Circuit de Spa-Francorchamps ligt in Stavelot, is 7,004 km lang, telt 20 bochten en heeft een hoogteverschil van 102,2 m. In de abdij van Stavelot is het museum van het circuit gevestigd.",
+            "Nergens in België valt zoveel regen als in de Hoge Venen. Van eind december tot eind februari ligt de gemiddelde dagtemperatuur onder nul, en in de winter ligt er sneeuw. Onze chauffeurs spreken Nederlands en Frans, wat in Luik en de Oostkantons van pas komt. Vanuit Roeselare rijden we naar uw adres in de streek."
+          ]
+        },
+        {
+          "heading": "De weg: E40, A44 en de E42",
+          "body": [
+            "De E40 loopt in België als A10 van de kust via Jabbeke, Brugge en Gent naar Brussel, daarna als A3 via Leuven, Luik en Verviers naar Lichtenbusch. In Duitsland begint de A44 bij Aken, waar ze op de Belgische A3 aansluit, en loopt via Jülich en Mönchengladbach naar Krefeld en Düsseldorf. Vanaf Aken gaat de E40 verder over de A4 naar Keulen.",
+            "Een tweede doorgang is de E42: Luik, Battice (A3), dan de A27 tot Sankt-Vith en bij Steinebrück de Duitse A60. Voor Rijnland-Palts is dat de logische weg. Op de A44 liggen bij Düsseldorf Airport de Flughafenbrücke over de Rijn, de Ilvericher Altrheinschlinge-tunnel en de Flughafentunnel."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Duitsland",
+          "body": [
+            "Duitsland heeft een zondag- en feestdagverbod van 0 tot 22 uur voor vrachtwagens boven 7,5 ton en voor alle combinaties met aanhangwagen (§ 30 lid 3 StVO). Het geldt landelijk. In de zomer komt er een zaterdagverbod van 7 tot 20 uur bij op een jaarlijks gepubliceerde lijst van wegvakken. In 2026 liep dat van begin juli tot eind augustus en telde de lijst 32 wegvakken. In de app van de Autobahn GmbH vindt u een kaart van de BGL met omleidingen.",
+            "Landelijke feestdagen met rijverbod in 2026: Nieuwjaar, Goede Vrijdag, Paasmaandag, 1 mei, Hemelvaart, Pinkstermaandag, 3 oktober, Kerst en tweede Kerstdag. Regionaal komen Sacramentsdag, 15 augustus (Beieren, Saarland), 31 oktober en 1 november erbij. Vrijgesteld zijn onder meer takel- en bergingsvoertuigen. Een boete kan zowel de chauffeur treffen als de eigenaar die de rit opdroeg."
+          ]
+        },
+        {
+          "heading": "Het statuut: H-plaat, 07 en Umweltzonen",
+          "body": [
+            "Een oldtimer is in Duitsland een voertuig dat minstens 30 jaar geleden voor het eerst in het verkeer kwam, grotendeels in originele toestand is en in goede staat verkeert. Voor de inschaling is een Gutachten nodig van een erkend deskundige of keurder, met een onderzoek van de omvang van een Hauptuntersuchung. Daarmee vraagt u een H-Kennzeichen aan: een gewone plaat met de letter H achter het nummer. Een Saisonkennzeichen kan ook op een H-plaat.",
+            "Het rode kenteken, waarvan het nummer met 07 begint, laat toe zonder Zulassung te rijden naar en op oldtimerevenementen en voor proef-, overbrengings-, herstel- en onderhoudsritten. Een Fahrzeugscheinheft moet bij elke rit aan boord zijn. Oldtimers met H-plaat of 07-plaat mogen zonder plakette de Umweltzonen in. Voor buitenlandse oldtimers geldt een minimumleeftijd van 30 jaar en een goede staat; een FIVA-pas kan dat aantonen."
+          ]
+        },
+        {
+          "heading": "Aankomst in Noordrijn-Westfalen en Rijnland-Palts",
+          "body": [
+            "Noordrijn-Westfalen is de eerste regio na Aken. De Techno Classica, jarenlang in Essen, vindt nu in september plaats in Messe Dortmund, met een grote handelaarsmarkt. De Retro Classics, de stambeurs uit Stuttgart, wordt sinds 2026 ook in Essen gehouden. Het Grand Meeting, opvolger van de Classic Days, is eind juli of begin augustus op Rittergut Birkhof in Korschenbroich bij Düsseldorf.",
+            "In Rijnland-Palts houdt de Nürburgring begin augustus de Oldtimer-Grand-Prix, sinds 1973, met ongeveer 500 historische racewagens. Het Technik Museum Speyer toont oldtimers naast vliegtuigen, een onderzeeër en het ruimteveer Buran. In Grolsheim bij Bingen am Rhein is Classicbid gevestigd, de klassiekertak van Auktion & Markt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Oldtimer-Grand-Prix Nürburgring",
+          "body": "Elk jaar begin augustus op de Nürburgring, sinds 1973, met ongeveer 500 historische racewagens. Tot 2022 heette het evenement AvD-Oldtimer-Grand-Prix. Wie er wagens naartoe brengt, rekent op drukke toegangswegen."
+        },
+        {
+          "kind": "event",
+          "title": "Techno Classica",
+          "body": "Jarenlang in Essen, nu in september in Messe Dortmund (Westfalenhallen), met oldtimers, youngtimers, onderdelen, clubs en een grote handelaarsmarkt. Handelaars en kopers laten er geregeld wagens heen en weer rijden."
+        },
+        {
+          "kind": "event",
+          "title": "Grand Meeting",
+          "body": "Opvolger van de Classic Days, eind juli of begin augustus op Rittergut Birkhof in Korschenbroich bij Düsseldorf, met Racing Legends en het concours Jewels in the Park. Het ligt vlak achter Aken."
+        },
+        {
+          "kind": "plek",
+          "title": "Technik Museum Speyer",
+          "body": "Museum met 25.000 m² hallen en 100.000 m² buitenterrein, waar oldtimers staan naast vliegtuigen, een onderzeeër en het ruimteveer Buran. Het zustermuseum ligt in Sinsheim."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat betekent een rood 07-kenteken voor mijn klassieker?",
+          "a": "Het laat toe zonder Zulassung te rijden naar en op oldtimerevenementen en voor proef-, overbrengings-, herstel- en onderhoudsritten. Gewoon dagelijks gebruik valt er niet onder. De plaat mag alleen op het voertuig waarvoor ze is uitgegeven, en het Fahrzeugscheinheft hoort bij elke rit aan boord."
+        },
+        {
+          "q": "Mag mijn Belgische klassieker in de Duitse Umweltzonen?",
+          "a": "Oldtimers met H-plaat of 07-plaat mogen zonder plakette binnen. Voor buitenlandse oldtimers geldt een minimumleeftijd van 30 jaar en een goede staat van bewaring. Een FIVA-pas kan dat aantonen en het inschrijvingsbewijs ligt best zichtbaar in de wagen."
+        },
+        {
+          "q": "Kan een transporter op zondag in Duitsland leveren?",
+          "a": "Het zondag- en feestdagverbod geldt van 0 tot 22 uur voor vrachtwagens boven 7,5 ton en voor alle combinaties met aanhangwagen. Autotransport is geen vrijstelling. Een levering aan een Duits adres plant u dus op een andere dag, of na 22 uur."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Duitsland: H-plaat, zondagverbod, E40 via Aken en events als Techno Classica en Nürburgring. Mcars vervoert uw klassieker.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Circuit_Spa-Francorchamps",
+        "https://nl.wikipedia.org/wiki/Abdij_van_Stavelot",
+        "https://nl.wikipedia.org/wiki/Hoge_Venen",
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_44",
+        "https://en.wikipedia.org/wiki/European_route_E42",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://transport-online.de/news/ferienfahrverbote-bgl-ausweichstreckenkarte-app-abrufbar-84731.html",
+        "https://www.buzer.de/s1.htm?a=2&g=FZV",
+        "https://www.buzer.de/s1.htm?a=23&g=StVZO",
+        "https://www.buzer.de/s1.htm?a=10&g=FZV",
+        "https://www.buzer.de/s1.htm?a=43&g=FZV&dorg=1",
+        "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/fahrverbote-umweltzonen/umweltplaketten/",
+        "https://www.technoclassica.de/",
+        "https://www.grandmeeting.de/",
+        "https://de.wikipedia.org/wiki/Technik-Museum_Speyer"
+      ]
+    },
+    "belgie-spanje": {
+      "lead": "Naar Spanje is een klassieker dagenlang onderweg: de rit loopt dwars door Frankrijk, via Bordeaux naar Biriatou of door de Rhônevallei naar La Jonquera. Wie zijn wagen in Spanje wil inschrijven of naar een rally aan de Middellandse Zee brengt, moet de Spaanse regels voor een vehículo histórico kennen. Dit overzicht loopt van Nijvel tot Barcelona.",
+      "facts": [
+        {
+          "label": "Historisch voertuig",
+          "value": "Minstens 30 jaar oud en in originele staat"
+        },
+        {
+          "label": "Gebruik",
+          "value": "Volgens de DGT hoogstens 96 dagen per jaar"
+        },
+        {
+          "label": "Retromóvil Madrid",
+          "value": "IFEMA Madrid, elk jaar in december"
+        },
+        {
+          "label": "Tol",
+          "value": "A63 en AP-8 naar Biriatou zijn tolwegen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek bij Nijvel: de E19 naar het zuiden",
+          "body": [
+            "Wie in Brussel of Waals-Brabant vertrekt, rijdt de E19 op: in België de A7 via Nijvel, La Louvière en Mons naar Frankrijk. Bij Nijvel lag het circuit Nijvel-Baulers, waar in 1972 en 1974 de Belgische Formule 1-Grand Prix werd gereden. Het sloot in 1981 en is nu grotendeels een bedrijventerrein.",
+            "Voor Spanje vervoert Mcars onder meer wagens van tweedeverblijvers, en een klassieker die elke zomer mee naar het zuiden gaat, hoort daar evengoed bij. Meld bij de offerte merk, bouwjaar en of de wagen nog rijdt."
+          ]
+        },
+        {
+          "heading": "De weg door Frankrijk",
+          "body": [
+            "Wie van Brussel naar Parijs rijdt, volgt de E19 door naar de Franse A2 en het knooppunt met de A1. Verder zuidwaarts heeft u de keuze. Aan de Atlantische kant loopt de A63 over 206 km van Bordeaux naar de Spaanse grens bij Biriatou, waar ze aansluit op de AP-8. Op deze tolplichtige route rijdt zwaar vrachtverkeer uit heel Europa richting het Iberisch schiereiland.",
+            "Langs de Middellandse Zee passeert u de grens bij La Jonquera, dat tegenover Le Perthus ligt en bereikbaar is via de AP-7 en de N-II. Doorreizend in Frankrijk geldt het weekendverbod voor vrachtwagens vanaf 7,5 ton, met een extra verbod rond Parijs. Zo'n rit plant u dus rond het weekend heen."
+          ]
+        },
+        {
+          "heading": "Spanje: wanneer is een klassieker een vehículo histórico",
+          "body": [
+            "Het statuut vraagt minstens 30 jaar sinds eerste inschrijving of bouw én een originele staat, met motor, remmen, stuurinrichting, ophanging en carrosserie ongewijzigd. Verzamelvoertuigen zonder die kenmerken komen niet in aanmerking. Groep A, wagens die in Spanje zijn ingeschreven met een geldige ITV, krijgt het statuut via een eenvoudige wijziging, houdt de gewone plaat en krijgt een ronde gele sticker met zwarte H op de voorruit.",
+            "Groep B zijn wagens die nooit in Spanje waren ingeschreven of er definitief waren uitgeschreven. Zij krijgen een historische plaat. Daarvoor zijn een geschiktheidsrapport van een Servicio Técnico de Vehículos Históricos, een ITV voor inschrijving als historisch en de belastingbewijzen nodig. Een klassieker die uit België komt, is voor Spanje meestal een invoer, dus groep B."
+          ]
+        },
+        {
+          "heading": "Keuring, gebruik en beperkingen",
+          "body": [
+            "De ITV voor historische wagens is om de 2 jaar als de wagen jonger is dan 40 jaar, om de 3 jaar van 40 tot 45 jaar en om de 4 jaar boven 45 jaar. Boven 60 jaar is hij vrijgesteld. Een klassieker met verlopen ITV moet voor die keuring op een takelwagen of ander vervoermiddel naar het station worden gebracht. Een transporter met lier is daar geschikt voor.",
+            "Een historisch voertuig is bedoeld voor occasioneel gebruik: volgens de DGT hoogstens 96 dagen per jaar, niet voor dagelijks vervoer of beroepsgebruik. Wagens die geen 60 km/u halen mogen niet op autosnelwegen; zonder gordels vooraan geldt maximaal 80 km/u. Ritten en bijeenkomsten met meer dan 15 historische voertuigen moeten vooraf bij de verkeersoverheid gemeld worden. Moet de weg dicht, dan geldt het als sportevenement en is een vergunning nodig."
+          ]
+        },
+        {
+          "heading": "Aankomst: Catalonië en Baskenland",
+          "body": [
+            "Aan de Middellandse kant is Catalonië de eerste regio. Espíritu de Montjuïc is een festival voor historische racewagens op het Circuit de Barcelona-Catalunya, in maart of april; bezoekers komen ook met een eigen klassieker van vóór 1996. De Rally Costa Brava, sinds 2010 een rally voor historische wagens, wordt traditioneel in maart gereden. De tramontana, een koude noordenwind, is hevig in de Empordà vlak onder de Franse grens en kan meerdere dagen duren.",
+            "Aan de Atlantische kant is Baskenland de eerste regio. De AP-8 begint aan de brug van Biriatou bij Behobia, gaat daar over in de Franse A63 en is een tolweg. Irun is een logistiek knooppunt met het transportcentrum ZAISA in Behobia. Via Trafikoa legt Baskenland eigen rijverboden op voor goederenvoertuigen boven 7.500 kg op aangeduide dagen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Retromóvil Madrid",
+          "body": "Internationale beurs voor antieke, klassieke en verzamelvoertuigen in IFEMA Madrid, elk jaar in december (23e editie in 2026). Ook restaurateurs en onderdelenhandelaars staan er. Wie in Madrid koopt, wil zijn wagen vaak terug naar België."
+        },
+        {
+          "kind": "event",
+          "title": "Rally Costa Brava",
+          "body": "Rally voor historische wagens, traditioneel in maart, gebaseerd in Girona en met hoofdkwartier in Palamós. Ze telt mee voor het Spaanse en Europese kampioenschap historische rally's."
+        },
+        {
+          "kind": "tip",
+          "title": "FEVA-kalender",
+          "body": "De Federación Española de Vehículos Antiguos, opgericht in 1993, vertegenwoordigt FIVA in Spanje en bundelt meer dan 35 musea en collecties. Haar kalender is een goede ingang voor ritten en bijeenkomsten, bijvoorbeeld in november de Rallye Platja d'Aro Històric."
+        },
+        {
+          "kind": "regel",
+          "title": "Rijverboden van Trafikoa",
+          "body": "Baskenland legt jaarlijks eigen rijverboden op voor goederenvoertuigen boven 7.500 kg, op weekends, feestdagen, brugdagen en begin en einde van vakantieperiodes. De kalender staat in de jaarlijkse resolutie van Trafikoa."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik mijn klassieker in Spanje dagelijks gebruiken?",
+          "a": "Nee. Een historisch voertuig is bedoeld voor occasioneel gebruik, volgens de DGT hoogstens 96 dagen per jaar, en niet voor dagelijks vervoer of beroepsgebruik. Wie een tweede verblijf heeft, kiest daarom soms voor een gewone wagen daar en laat de klassieker alleen in het seizoen komen."
+        },
+        {
+          "q": "Moet ik een rally of bijeenkomst met mijn klassieker melden?",
+          "a": "Bij meer dan 15 historische voertuigen moet de rit of bijeenkomst vooraf bij de verkeersoverheid gemeld worden. Moet de weg geheel of deels dicht, dan geldt het als sportevenement en is een vergunning nodig. Dat regelt de organisator, niet de transporteur."
+        },
+        {
+          "q": "Is er in Spanje een weekendverbod voor vrachtwagens?",
+          "a": "Er is geen algemeen weekendverbod voor vrachtwagens boven 7,5 ton. Verboden gelden enkel op bepaalde wegvakken en tijdstippen, volgens bijlage II van de DGT-resolutie. Baskenland heeft daarnaast eigen verboden via Trafikoa, dus bekijk de kalender van de regio waar de wagen aankomt."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Spanje: vehículo histórico, ITV, AP-7 en A63 en events als Retromóvil Madrid. Mcars vervoert uw klassieker open.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Circuit_Nivelles-Baulers",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://en.wikipedia.org/wiki/A63_autoroute",
+        "https://en.wikipedia.org/wiki/La_Jonquera",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/vehiculos-historicos/como-hago-mi-vehiculo-historico/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/vehiculos-historicos/matriculacion-vehiculos-historicos/grupo-b/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/vehiculos-historicos/eventos-de-vehiculos-historicos/",
+        "https://feva.es/",
+        "https://www.ifema.es/retromovil-madrid",
+        "https://www.espiritudemontjuic.com/",
+        "https://es.wikipedia.org/wiki/Rally_Costa_Brava",
+        "https://es.wikipedia.org/wiki/Tramontana",
+        "https://es.wikipedia.org/wiki/Autopista_del_Cant%C3%A1brico",
+        "https://es.wikipedia.org/wiki/Ir%C3%BAn",
+        "https://www.trafikoa.euskadi.eus/medidas-especiales-de-regulacion-del-trafico/webtraf00-content/es/"
+      ]
+    },
+    "belgie-italie": {
+      "lead": "Een klassieker op weg naar Italië steekt de Alpen over, door de Mont Blanc- of Fréjustunnel of via de Brenner. Dat is geen gewone rit: de tunnels hebben eigen regels voor vrachtwagens en Italië deelt oude auto's in volgens een eigen systeem met registers. Hier staat wat er vanaf Namen tot Turijn en Milaan telt.",
+      "facts": [
+        {
+          "label": "Minimumleeftijd",
+          "value": "20 jaar, met Certificato di Rilevanza Storica"
+        },
+        {
+          "label": "Mont Blanc-tunnel",
+          "value": "11,6 km, vrachtwagens rijden in groepen van vijf"
+        },
+        {
+          "label": "Auto e Moto d'Epoca",
+          "value": "Eind oktober in BolognaFiere"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Zon- en feestdagen boven 7,5 ton, ook leeg"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Namen: Mettet en de Ardennen",
+          "body": [
+            "Naar Italië rijdt u zuidwaarts, en de weg begint bij Namen. Daar kruist de E411 de E42, en vanaf daar loopt het via de Ardennen en Luxemburg richting Metz. In Mettet, ten zuiden van Namen, werden in de jaren vijftig op het vroegere stratencircuit Formule 2-races gereden, met winnaars als Stirling Moss en Alberto Ascari.",
+            "Een Alfa Romeo, Lancia of Ferrari die uit een Belgische garage terug naar Italië gaat, doet de omgekeerde reis van de wagens uit de fabriek. Hij moet op een open transporter door de Alpen. Geef bij de offerte merk, bouwjaar en afmetingen door, en zeg erbij of de wagen nog start."
+          ]
+        },
+        {
+          "heading": "Door de Alpen: Mont Blanc, Fréjus en de Brenner",
+          "body": [
+            "Chamonix en Courmayeur zijn verbonden door de Mont Blanc-tunnel (11,6 km), een enkele buis met twee rijstroken. Na de brand van 24 maart 1999 met een Belgische vrachtwagen, met 39 doden, bleef hij tot 9 maart 2002 dicht. Vrachtwagens rijden er in groepen van vijf, met 150 m afstand en tussen 50 en 70 km/u. ATMB meldde in april 2026 dat er dat jaar geen lange sluiting gepland is.",
+            "De Fréjustunnel (12,87 km) verbindt Modane met Bardonecchia. Een tweede buis ging open op 1 augustus 2025; per richting blijft één rijstrook, de andere dient als vluchtstrook, dus de capaciteit blijft gelijk. De Brennerautosnelweg A22 loopt van de Brennerpas tot Modena, ongeveer 315 km, met aan Oostenrijkse kant de Europabrücke. Voor de Brenner Basistunnel, de spoortunnel, wordt nu 2032 of later verwacht."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Italië",
+          "body": [
+            "Op zon- en feestdagen mogen vrachtwagens en combinaties boven 7,5 ton in Italië niet buiten de bebouwde kom rijden, ook niet als ze leeg zijn. Tussen januari en mei en tussen oktober en december duurt het verbod van 9 tot 22 uur; van juni tot september loopt het van 7 tot 22 uur. In de zomer van 2026 kwam daar elke zaterdag van begin juli tot eind augustus een verbod van 8 tot 16 uur bij, naast enkele vrijdagen en twee zaterdagen met een langer verbod. Autotransport staat niet in de lijst van vrijstellingen.",
+            "Wie het verbod overtreedt, riskeert een boete, een schorsing van rijbewijs en kentekenbewijs van 1 tot 4 maanden en de plicht om tot het einde van het verbod stil te staan. Spreek de levering van uw klassieker dus niet af op een zondag in Italië."
+          ]
+        },
+        {
+          "heading": "Het Italiaanse statuut: storico of d'epoca",
+          "body": [
+            "Italië kent twee categorieën. Veicoli d'epoca zijn uit het PRA geschrapt, bestemd voor musea of collecties, en mogen alleen op de weg tijdens toegelaten manifestaties, met een vergunning voor traject en duur. Veicoli di interesse storico e collezionistico mogen gewoon rijden als ze aan de voorwaarden voldoen. Zij staan in een van vijf registers: ASI, Storico Lancia, Italiano FIAT, Italiano Alfa Romeo of Storico FMI voor motoren. De minimumleeftijd is 20 jaar; het bewijs is het Certificato di Rilevanza Storica.",
+            "De keuring is om de twee jaar voor voertuigen van historisch belang en om de vijf jaar voor veicoli d'epoca. Wagens van vóór 1 januari 1960 mogen sinds 20 november 2021 bij elke erkende werkplaats worden gekeurd. Vanaf het jaar waarin een wagen 30 jaar wordt, vervalt de bollo automatisch, zolang hij niet beroepsmatig wordt gebruikt."
+          ]
+        },
+        {
+          "heading": "Aankomst in Piëmont en Lombardije",
+          "body": [
+            "Het noordwesten ligt het dichtst bij Frankrijk en België. In Turijn toont het Museo Nazionale dell'Automobile meer dan 200 originele wagens van 80 merken. De Stellantis Heritage Hub in de vroegere Officina 81 van Mirafiori bewaart ongeveer 300 voertuigen van Fiat, Lancia en Abarth. De Kleine Sint-Bernhardpas gaat elke winter dicht, meestal vanaf de eerste helft van november; ANAS verwijst dan naar de Grote Sint-Bernhardtunnel of de Fréjus.",
+            "In Lombardije staat Milano AutoClassica elk jaar in november in Fiera Milano Rho. Het Museo Storico Alfa Romeo in Arese heropende in 2015 met ruim 250 historische wagens in de collectie. De Splügenpas gaat elke winter in november dicht."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Auto e Moto d'Epoca",
+          "body": "Elk jaar eind oktober in BolognaFiere, volgens de organisator de grootste beurs van Europa voor klassieke auto's en moto's, met aparte zones voor handelaars, restaurateurs en onderdelen. Wie hier koopt, heeft vaak nog een lange rit naar huis."
+        },
+        {
+          "kind": "event",
+          "title": "1000 Miglia",
+          "body": "Sinds 1977 een regelmatigheidsrit in etappes voor historische wagens op het traject Brescia-Rome-Brescia. Alleen modellen gebouwd tot en met 1957 die aan de oorspronkelijke race deelnamen of ervoor waren ingeschreven, worden toegelaten."
+        },
+        {
+          "kind": "event",
+          "title": "Concorso d'Eleganza Villa d'Este",
+          "body": "In de tweede helft van mei in Cernobbio aan het Comomeer, sinds 1929. Historische wagens uit de jaren 1920 tot 1970 staan in Villa d'Este en Villa Erba. Een wagen voor het concours komt best enkele dagen eerder aan."
+        },
+        {
+          "kind": "plek",
+          "title": "ASI in Turijn",
+          "body": "De Automotoclub Storico Italiano, opgericht in 1966, zetelt in Villa Rey in Turijn, groepeert meer dan 300 clubs en is lid van FIVA. ASI is een van de vijf registers waarin een voertuig van historisch belang kan staan."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet mijn Belgische klassieker in Italië een CRS hebben?",
+          "a": "Voor het vervoer niet. Wie de wagen in Italië als storico wil laten rijden, heeft het Certificato di Rilevanza Storica nodig, vanaf een minimumleeftijd van 20 jaar. Op het kentekenbewijs staat dan veicolo storico. Dat regelt u in Italië, niet bij de transporteur."
+        },
+        {
+          "q": "Kan ik mijn wagen naar de 1000 Miglia laten brengen?",
+          "a": "Wie naar de 1000 Miglia wil, kan zijn wagen laten brengen. De rit start en eindigt op de Viale Venezia in Brescia en staat enkel open voor modellen tot en met 1957 die aan de oorspronkelijke race deelnamen of ervoor waren ingeschreven. Controleer eerst of uw model in aanmerking komt."
+        },
+        {
+          "q": "Wat verandert er voor wagens van 20 tot 29 jaar?",
+          "a": "Nationaal geldt voor wagens van 20 tot 29 jaar een halvering van de bollo, op voorwaarde dat het CRS op de carta di circolazione is aangetekend. Regio's wijken af: Lombardije en Trento stellen wagens in een erkend register vrij, Emilia-Romagna doet dat voor niet-beroepsmatig gebruik."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Italië: Mont Blanc- en Fréjustunnel, Brenner, CRS-statuut en events als Auto e Moto d'Epoca. Mcars vervoert uw klassieker.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Circuit_Jules_Tacheny",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/italy",
+        "https://aci.gov.it/codice-della-strada/art-60/",
+        "https://www.sicurauto.it/guide-utili/revisione-auto-storiche-e-d-epoca-quando-e-come-farla/",
+        "https://www.sicurauto.it/guide-utili/pratiche-auto/bollo-auto-storiche-30-anni-e-20-anni-quanto-si-paga/",
+        "https://autoemotodepoca.com/en/exhibit/",
+        "https://it.wikipedia.org/wiki/Mille_Miglia",
+        "https://it.wikipedia.org/wiki/Concorso_d%27eleganza_Villa_d%27Este",
+        "https://it.wikipedia.org/wiki/Automotoclub_Storico_Italiano",
+        "https://www.museoauto.com/",
+        "https://www.stellantisheritage.com/en-uk/heritage/places/heritage-hub/event-space",
+        "https://stradeanas.it/it/print/108474",
+        "https://www.milanoautoclassica.com/",
+        "https://it.wikipedia.org/wiki/Museo_storico_Alfa_Romeo"
+      ]
+    },
+    "belgie-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU, heeft een nachtverbod voor vrachtwagens en één wegtunnel die het verkeer naar Ticino doseert. Voor een klassieker komt daar het Zwitserse veteranenstatuut bij, met een jaarlijks kilometerplafond. Dit overzicht vertrekt in Brussel en eindigt bij Basel en Luzern, de eerste regio's waar een rit uit België aankomt.",
+      "facts": [
+        {
+          "label": "Veteranenfahrzeug",
+          "value": "Meer dan 30 jaar oud, privé, hoogstens 3.000 km per jaar"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Nachtverbod voor vrachtwagens boven 3,5 ton, dagelijks van 22 tot 5 uur"
+        },
+        {
+          "label": "Swiss Classic World",
+          "value": "Messe Luzern, elk jaar eind mei"
+        },
+        {
+          "label": "Gotthardtunnel",
+          "value": "Lengte 16,9 km, één buis, hoogstens 150 vrachtwagens per uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Brussel: de zone en de ring",
+          "body": [
+            "Wie in Brussel een klassieker heeft staan, begint in een gewest met eigen regels. Het volledige Brussels Hoofdstedelijk Gewest (161 km²) valt onder de lage-emissiezone van Brussel, met als uitzonderingen de ring R0 en enkele toegangswegen naar transitparkings. Of uw wagen er in mag, vraagt u na bij de Brusselse overheid. Spreek bij twijfel een ophaalplek af aan of buiten de ring R0.",
+            "Levering op het depot in Roeselare, Moorseelsesteenweg 16B, kan 24/7 en is voordeliger. Ook vanaf daar vertrekt de rit naar Zwitserland meestal zuidwaarts over Frankrijk en Luxemburg of via Duitsland. Meld bij de offerte of de klassieker laag staat of een bijzondere vorm heeft."
+          ]
+        },
+        {
+          "heading": "De Gotthard en de wintersluiting van de passen",
+          "body": [
+            "In de Gotthardwegtunnel (16,9 km, A2, Göschenen-Airolo) rijdt het verkeer door één buis, met één rijstrook per richting, een inhaalverbod en een limiet van 80 km/u. De brand van oktober 2001 had als gevolg dat er per uur hoogstens 150 vrachtwagens de tunnel mogen inrijden. Een scheur in het plafond sloot hem in september 2023 voor enkele dagen af. Rond Pasen en tijdens de zomer staan er geregeld files aan beide kanten van de tunnel.",
+            "De Gotthardpas (2.107 m) tussen Andermatt en Airolo is gesloten van november tot mei, dus voor wegverkeer is er in de winter geen alternatief voor de tunnel. De Tremola, de oude Gotthardweg aan de zuidkant, is tussen 1937 en 1941 met granieten kasseien aangelegd en in 2009-2011 gerestaureerd: een bekende weg voor klassiekers en fotoshoots, maar niet voor een transporter."
+          ]
+        },
+        {
+          "heading": "Rijverboden: zondag, nacht en feestdagen",
+          "body": [
+            "Voor vrachtwagens boven 3,5 ton geldt in Zwitserland een verbod op elke zondag van 0 tot 24 uur en op elke nacht van 22 tot 5 uur. Ook trekkers boven 5 ton en voertuigen met een aanhangwagen boven 3,5 ton moeten zich eraan houden. Voor een klassieker die zaterdag om 22 uur nog onderweg is met een niet-vrijgestelde vrachtwagen, betekent dat ruim een etmaal wachten: ongeveer 31 uur, tot maandag 5 uur. Op acht federale feestdagen geldt bovendien een verbod over de hele dag: Nieuwjaar, Goede Vrijdag, Paasmaandag, Hemelvaart, Pinkstermaandag, 1 augustus, Kerst en 26 december.",
+            "Goede Vrijdag geldt niet in Ticino en Wallis. Vrijstelling krijgen nood- en politiediensten, takelwagens en bergingsvoertuigen, dringend vervoer van bederfelijke waren en ritten met een speciale vergunning. Autotransport staat niet in de lijst. Moet een klassieker zaterdagavond bij een beurs staan, laat hem dan liever op vrijdag aankomen."
+          ]
+        },
+        {
+          "heading": "Veteranenfahrzeug: de Zwitserse regels",
+          "body": [
+            "Het Zwitserse statuut heet Veteranenfahrzeug. De eerste inverkeerstelling moet meer dan 30 jaar geleden zijn en de wagen mag alleen privé worden gebruikt, zonder economisch doel. Een veteraan mag gemiddeld hoogstens 3.000 km per jaar rijden, of 60 bedrijfsuren, en de voorwaarden moeten op elk moment vervuld blijven. Het keuringsinterval kan tot zes jaar worden verlengd. De status staat als Code 180 in het inschrijvingsbewijs en wordt toegekend tijdens een gewone keuring; de kantons passen de regels verschillend toe.",
+            "De wagen moet overeenkomen met de oorspronkelijke uitvoering, en aanpassingen moeten uit de periode stammen. Achteraf dagrijlichten monteren doet de status vervallen. Roestherstellingen moeten vakkundig zijn en mogen aan de buitenkant van het koetswerk niet zichtbaar zijn. Een FIVA Identity Card is geen voorwaarde, maar helpt om geschiedenis en originaliteit aan te tonen."
+          ]
+        },
+        {
+          "heading": "Aankomst: Basel en Luzern",
+          "body": [
+            "Basel is de eerste regio voor wie uit België komt. Pantheon Basel in Muttenz is een oldtimerforum met museum, werkplaats, restaurant en evenementenruimte op ongeveer 7.500 m². Rond het Pantheon wordt sinds 2013 een oldtimer- en onderdelenmarkt gehouden. De RAID, vroeger RAID Suisse-Paris, start traditioneel eind augustus in de regio Basel en is in 2026 hervat met een nieuw organisatiecomité. In Safenwil toont Emil Frey Classics 50 à 60 klassiekers in een voormalige textielfabriek.",
+            "In Luzern is de Swiss Classic World elk jaar eind mei in Messe Luzern, drie dagen van vrijdag tot zondag. Bij de beurs hoort een eendaagse rally en een markt waar particulieren klassiekers kopen en verkopen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Pantheon Basel",
+          "body": "Oldtimerforum in Muttenz (Hofackerstrasse) met museum, werkplaats, restaurant en evenementenruimte op ongeveer 7.500 m². Basel is de eerste Zwitserse regio voor wie uit België komt, dus ook de eerste halte voor een klassieker op weg naar werkplaats of markt."
+        },
+        {
+          "kind": "event",
+          "title": "Swiss Classic World",
+          "body": "Oldtimerbeurs in Messe Luzern, elk jaar eind mei, drie dagen van vrijdag tot zondag, met een markt voor particulieren en een eendaagse rally. Aflevering op zaterdag is mogelijk, op zondag niet door het vrachtverbod."
+        },
+        {
+          "kind": "event",
+          "title": "RAID",
+          "body": "Oldtimerrally, vroeger RAID Suisse-Paris, die traditioneel eind augustus in de regio Basel start en door Frankrijk rijdt. In 2026 is hij, na een jaar onderbreking, opnieuw van start gegaan onder een nieuw organisatiecomité."
+        },
+        {
+          "kind": "plek",
+          "title": "Oldtimer Galerie Toffen",
+          "body": "Handelaar in klassiekers bij Bern, met een veiling in het voorjaar en eind december de Gstaad Classic Car Auction. Zwitserland ligt buiten de EU-douane-unie, dus een wagen uit België passeert eerst de grens."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik mijn klassieker met Code 180 het hele jaar gebruiken?",
+          "a": "Een Veteranenfahrzeug mag gemiddeld hoogstens 3.000 km per jaar rijden, of 60 bedrijfsuren, en alleen privé gebruikt worden. De voorwaarden moeten op elk moment vervuld blijven, anders vervalt de status. Een klassieker die veel pendelt, past dus niet in dit statuut."
+        },
+        {
+          "q": "Kan een klassieker op zondag in Zwitserland aankomen?",
+          "a": "Voor vrachtwagens boven 3,5 ton geldt elke zondag een verbod van 0 tot 24 uur en elke nacht een verbod van 22 tot 5 uur. Autotransport staat niet bij de uitzonderingen. Een aankomst plant u dus van maandag tot zaterdag overdag."
+        },
+        {
+          "q": "Wat als de Gotthardtunnel dicht is?",
+          "a": "De Gotthardpas is van november tot mei gesloten, dus er is in de winter geen alternatief via de weg. Na een scheur in het plafond bleef de tunnel in september 2023 enkele dagen gesloten. Naar Ticino kunt u dan beter wachten of via een ander traject plannen."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Zwitserland: Veteranenfahrzeug, Gotthard, zondag- en nachtverbod en Swiss Classic World. Mcars vervoert uw klassieker.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://de.wikipedia.org/wiki/Gotthardpass",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/switzerland",
+        "https://so.ch/verwaltung/bau-und-justizdepartement/motorfahrzeugkontrolle/fahrzeuge/veteranenfahrzeuge/",
+        "https://www.tcs.ch/de/der-tcs/sektionen/zuerich/news/mfk-veteranen.php",
+        "https://www.axa.ch/de/privatkunden/blog/unterwegs/sicherheit-auf-der-strasse/oldtimer-kaufen-zulassen.html",
+        "https://www.basel.com/de/attraktionen/pantheon-basel-66439d9a89",
+        "https://www.zwischengas.com/en/articles/various/Das-Pantheon-in-Basel-erfolgreich-im-Dienste-des-Oldtimers.html",
+        "https://www.raid.ch/en",
+        "https://www.museums.ch/de/museumsbesuch/museen/museen/emil-frey-classics-oldtimer-museum-2861.html",
+        "https://www.swissclassicworld.ch/",
+        "https://www.tcs.ch/de/der-tcs/sektionen/schwyz/news/swiss-classic-world.php",
+        "https://www.oldtimergalerie.ch/",
+        "https://nl.wikipedia.org/wiki/Lage-emissiezone"
+      ]
+    },
+    "belgie-oostenrijk": {
+      "lead": "Oostenrijk is een land van klassiekerrally's, heuvelklimmen en een strikt, goed gedocumenteerd statuut voor historische voertuigen. Wie zijn wagen van België naar Oostenrijk laat brengen, rijdt bijna altijd door Duitsland en komt binnen bij Passau, Salzburg of Kufstein. Dit overzicht begint in Limburg, de Belgische kant die naar Aken en Duitsland kijkt.",
+      "facts": [
+        {
+          "label": "Historisch voertuig",
+          "value": "Bouwjaar 1955 of ouder, of 30 jaar en op de rode lijst"
+        },
+        {
+          "label": "Gebruik",
+          "value": "Hoogstens 120 dagen per jaar, met rittenboek"
+        },
+        {
+          "label": "Keuring",
+          "value": "Om de twee jaar, met rood keuringsvignet"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Vrachtwagens boven 7,5 ton niet van 22 tot 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Limburg: E314, Zolder en de Maas",
+          "body": [
+            "Wie vanuit Hasselt of Genk naar het oosten rijdt, doet dat over de E314. Die loopt over 88 km van knooppunt Heverlee bij Leuven via Aarschot, Zolder, Genk en Maasmechelen naar de grens. De Scharbergbrug (ongeveer 1.300 m) over Maas en Julianakanaal is de enige snelwegbrug tussen België en Nederland. Aan Nederlandse kant gaat de weg verder als A76 richting Heerlen en Aken.",
+            "Circuit Zolder heeft een eigen afrit op de E314: Zolder-Terlaemen. Tussen Genk-Oost en Maasmechelen heeft de weg ruim tien kilometer lang geen op- of afritten, in het Nationaal Park Hoge Kempen. Valt een klassieker daar uit, dan kan niemand er van de weg af. Bij pech of een ongeval in België neemt Mcars het takelen zelf voor zijn rekening."
+          ]
+        },
+        {
+          "heading": "Door Duitsland naar Oostenrijk",
+          "body": [
+            "Verkeer uit België komt Oostenrijk binnen bij Passau, waar in Suben de A8 Innkreis Autobahn begint, bij Salzburg over de Duitse A8 en de grensovergang Walserberg, of bij Kufstein over de A12 Inntal Autobahn, die aansluit op de Duitse A93. De A10 Tauern Autobahn loopt van Salzburg naar Kärnten. Duitsland heeft onderweg zijn eigen verboden voor vrachtwagens, die we bij de route naar Duitsland uitleggen.",
+            "Naar Vorarlberg en Zwitserland gaat het over de S16 en de Arlbergtunnel. Die is ongeveer 14 km lang en een tolweg. Sinds 2015 moeten vrachtwagens en bussen boven 3,5 ton langs detectors die motor-, uitlaat- en remtemperatuur controleren, en een te warm voertuig mag de tunnel niet in. Oostenrijk voerde in 2015 ook weer grenscontroles in aan de Brenner."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Oostenrijk en Tirol",
+          "body": [
+            "In heel Oostenrijk mogen vrachtwagens boven 7,5 ton niet rijden van 22 tot 5 uur, tenzij ze geluidsarm erkend zijn; dan geldt meestal 60 km/u. Het weekendverbod loopt van zaterdag 15 tot 24 uur en zondag of feestdag 0 tot 22 uur, voor trekkers en vrachtwagens boven 7,5 ton en voor vrachtwagens met aanhangwagen als een van beide boven 3,5 ton is. Tijdens vakantieperiodes zijn bijkomende verboden mogelijk. Op autosnelwegvakken met drie of meer rijstroken geldt een linkerstrookverbod.",
+            "Bij Kufstein past Tirol op de A93/A12 een Blockabfertigung toe: vrachtwagens worden gedoseerd en het onderliggend wegennet is voor vrachtwagens boven 7,5 ton dicht. Telkens publiceert het Land Tirol de data. Historische voertuigen zijn uitgezonderd van het emissieklasseverbod voor zware voertuigen op de A12 in Tirol."
+          ]
+        },
+        {
+          "heading": "Het Oostenrijkse statuut: historisches Fahrzeug",
+          "body": [
+            "Een historisches Fahrzeug is in Oostenrijk een voertuig van bouwjaar 1955 of ouder, of een voertuig van minstens 30 jaar oud dat op de officiële lijst van historische voertuigen staat (Gesamterlass 2026). Die approbierte Liste, ook de rode lijst, wordt sinds 1 januari 2018 beheerd door het Kuratorium Historische Mobilität Österreich (KHMÖ) en is sinds 2019 digitaal raadpleegbaar. Het voertuig moet in staat 1 tot 3 verkeren; staat 4 of 5 kan niet. De wezenlijke bouwgroepen moeten origineel zijn.",
+            "Een historische wagen mag hoogstens 120 dagen per jaar rijden, een motorfiets 60 dagen. De ritten staan in een controleerbaar rittenboek; een elektronisch mag, een gewone Excel-lijst niet. Historische voertuigen gaan om de twee jaar naar de keuring (§ 57a) en krijgen een rood keuringsvignet. Voor erkende historische voertuigen is sinds 2019 geen NoVA verschuldigd."
+          ]
+        },
+        {
+          "heading": "Van Salzburg tot Gröbming: de Oostenrijkse klassiekerkalender",
+          "body": [
+            "De Classic Expo in het Messezentrum Salzburg duurt drie dagen in oktober, met een veiling, een privémarkt voor wagens en onderdelen en clubstanden. In de Steiermark vertrekt en finisht de Ennstal-Classic elk jaar in juli in Gröbming: vier dagen, ongeveer 1.000 km, voor wagens tot bouwjaar 1976, beperkt tot 200 deelnemers en sinds 1993. De route doet de Red Bull Ring aan. In januari volgt in Gröbming de Planai-Classic.",
+            "In het voorjaar is er de Oldtimer Messe in Tulln en in april de Seiberer Bergpreis in Weißenkirchen in de Wachau. In Tirol staat de Ötztal Classic in juli op de kalender van de ÖMVV, de koepel van de Oostenrijkse oldtimerclubs."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Classic Expo Salzburg",
+          "body": "Internationale oldtimerbeurs in het Messezentrum Salzburg, drie dagen in oktober, met veiling, privémarkt voor wagens en onderdelen en clubstanden. Salzburg ligt aan de eerste Oostenrijkse grensovergang na München."
+        },
+        {
+          "kind": "event",
+          "title": "Ennstal-Classic",
+          "body": "Oldtimerrally met vertrek en aankomst in Gröbming, elk jaar in juli, vier dagen en ongeveer 1.000 km, voor wagens tot bouwjaar 1976. De route doet de Red Bull Ring aan en de haarspeldbochten van de Stoderzinken."
+        },
+        {
+          "kind": "plek",
+          "title": "Kaiser-Franz-Josefs-Höhe",
+          "body": "Aan de Großglockner Hochalpenstraße staat de hoogst gelegen autotentoonstelling van Oostenrijk, met onder meer een wagen uit 1934 en de eerste voertuigen die de weg bereden."
+        },
+        {
+          "kind": "regel",
+          "title": "Rode lijst van het KHMÖ",
+          "body": "De approbierte Liste bepaalt welke wagens van minstens 30 jaar als historisch gelden. Ze is sinds 2019 digitaal raadpleegbaar. Controleer er uw model op voor u de wagen naar Oostenrijk laat brengen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mijn klassieker is 28 jaar. Is hij in Oostenrijk historisch?",
+          "a": "Een historisches Fahrzeug is een voertuig van bouwjaar 1955 of ouder, of een voertuig van minstens 30 jaar dat op de officiële lijst staat. Een wagen van 28 jaar haalt dat dus niet, ook al staat zijn model op de lijst. Voor het vervoer maakt dat niets uit."
+        },
+        {
+          "q": "Mag ik mijn klassieker de hele zomer in Oostenrijk gebruiken?",
+          "a": "Een historische wagen mag hoogstens 120 dagen per jaar rijden, een motorfiets 60 dagen. De ritten moeten in een controleerbaar rittenboek staan; een elektronisch rittenboek mag, een gewone Excel-lijst niet."
+        },
+        {
+          "q": "Kan een klassieker op zondag in Oostenrijk worden afgeleverd?",
+          "a": "Voor vrachtwagens boven 7,5 ton geldt zaterdag van 15 tot 24 uur en zondag of op een feestdag van 0 tot 22 uur een verbod, en 's nachts van 22 tot 5 uur. Plant een levering dus op een weekdag overdag."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Oostenrijk: historisches Fahrzeug, rode lijst, Tiroolse beperkingen en Classic Expo. Mcars vervoert uw klassieker open.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/A2_%28Belgi%C3%AB%29",
+        "https://en.wikipedia.org/wiki/Arlberg_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/lkw-fahrverbote.html",
+        "https://transport-online.de/news/sektorales-fahrverbot-verkehrsverbaende-schalten-eu-kommissionspraesidentin-von-der-leyen-ein-44016.html",
+        "https://www.khmoe.at/news/78_gesamterlass-2026-fuer-historische-fahrzeuge",
+        "https://www.khmoe.at/",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/Seite.060500",
+        "https://www.oemvv.at/rechtliches",
+        "https://www.wko.at/tirol/verkehr-betriebsstandort/lkw-fahrverbote-a12-inntalautobahn-tirol",
+        "https://www.classicexpo.at/",
+        "https://www.ennstal-classic.at/",
+        "https://www.oemvv.at/kalender",
+        "https://www.oldtimermesse.at/",
+        "https://www.grossglockner.at/de/die-hochalpenstrasse/unterwegs-am-grossglockner/oldtimer",
+        "https://de.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn"
+      ]
+    },
+    "belgie-polen": {
+      "lead": "Naar Polen is het ver: de E40 loopt van de kust bij Adinkerke dwars door Duitsland tot Zgorzelec, en in Polen gaat ze verder als A4. Voor een klassieker op een open transporter maken drie dingen het verschil: de grenscontroles, de Poolse tol en het monumentenstatuut zabytek. Hier leest u wat er van West-Vlaanderen tot Poznań en Warschau telt.",
+      "facts": [
+        {
+          "label": "Zabytek",
+          "value": "Monumentenstatuut vanaf 25 jaar, met gele platen"
+        },
+        {
+          "label": "Keuring monument",
+          "value": "Eén levenslang geldige keuring, behalve bij betaald personenvervoer"
+        },
+        {
+          "label": "Retro Motor Show",
+          "value": "Poznań, elk jaar in september op MTP"
+        },
+        {
+          "label": "Poolse tol",
+          "value": "e-TOLL voor voertuigen boven 3,5 ton, via satelliet"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in West-Vlaanderen: Ieper en de kust",
+          "body": [
+            "De E40 begint in Adinkerke aan de kust en loopt langs Brugge en Gent naar Brussel. West-Vlaanderen is dus waar de rit naar Polen begint. De Ypres Rally wordt doorgaans in het laatste weekend van juni gereden, volledig op asfalt, voor het eerst in 1965. Ze was een WRC-ronde in 2021 en 2022, en de historische editie telt sinds 2025 mee voor het FIA European Historic Rally Championship.",
+            "Wie na Ieper een rallywagen of klassieker aan een nieuwe eigenaar in Polen overdraagt, begint een lange rit. Mcars heeft negen open, meerlaagse autotransporters met Kässbohrer-opbouw en acht vaste chauffeurs. Is de wagen na de rally beschadigd of vastgelopen, dan vragen we bij de aanvraag naar de toestand."
+          ]
+        },
+        {
+          "heading": "De weg: E40, Duitsland en de Poolse grens",
+          "body": [
+            "Vanaf Adinkerke trekt de E40 langs Brugge en Gent door naar Brussel, Leuven, Luik en Lichtenbusch. In Duitsland volgt ze de A44 en de A4 bij Aken en Keulen, dan de A45, A5, A7 en opnieuw de A4 via Eisenach, Erfurt, Chemnitz en Dresden naar Görlitz. Poolse bewegwijzering noemt ze A4, van Zgorzelec via Legnica, Wrocław, Katowice en Kraków tot Korczowa.",
+            "Aan de Duitse grens houdt Polen tijdelijk controles op tientallen punten, zoals Świecko, Olszyna en Kołbaskowo. Voor vrachtwagens spreken vervoerders van wachttijden die boven het uur uitkomen. Voor Duitse tol gebruikt u Toll Collect, met GNSS en een boordtoestel; een Belgisch Satellic-toestel werkt daar niet."
+          ]
+        },
+        {
+          "heading": "Poolse tol en rijverboden",
+          "body": [
+            "Zonder tolpoorten werkt e-TOLL in Polen, een satellietsysteem dat de heffing voor voertuigen boven 3,5 ton registreert. Het net is ongeveer 5.870 km, en de positie gaat door via een boordtoestel, een ELS of de app e-TOLL PL. Op 1 februari 2026 werd het net met ongeveer 645 km uitgebreid, vooral met verlengingen van reeds betalende wegen. De A4 tussen Katowice en Kraków is een concessieweg waar iedereen tol betaalt, voorbij Wrocław.",
+            "Voor oldtimertransport met een vrachtwagen zijn er in Polen geen algemene beperkingen op zondag of 's nachts. Het verbod geldt voor voertuigen boven 12 ton op feestdagen en in de zomer: in 2026 van 26 juni tot 30 augustus op vrijdagavond, zaterdagochtend en zondag. Uitzonderingen zijn er voor bederfelijke goederen, levende dieren en gecombineerd vervoer. Autotransport staat niet in de lijst. In Warschau is transit voor voertuigen boven 16 ton de hele dag verboden."
+          ]
+        },
+        {
+          "heading": "Het Poolse statuut: pojazd zabytkowy",
+          "body": [
+            "Een wagen kan in Polen als monument (zabytek) worden geregistreerd als hij minstens 25 jaar oud is, het model minstens 15 jaar niet meer geproduceerd wordt en de wagen grotendeels zijn originele onderdelen behoudt, inclusief de motor. Een jongere wagen kan uitzonderlijk als monument gelden als hij uniek is door bijzondere constructie, historische betekenis, sportprestaties of originele restauratie. De provinciale monumentenzorger (WKZ) beslist en kan ook weigeren; de praktijk verschilt per regio.",
+            "De aanvraag gaat met een technische fiche (biała karta), meestal opgesteld door een expert. Een monument krijgt gele platen; terug naar witte platen kan niet meer. Er volstaat één keuring die levenslang geldig blijft, behalve bij betaald personenvervoer, en de wagen hoeft niet aan alle Poolse technische eisen te voldoen. Amerikaanse verlichting hoeft bijvoorbeeld niet aangepast."
+          ]
+        },
+        {
+          "heading": "Aankomst in Groot-Polen en rond Warschau",
+          "body": [
+            "Groot-Polen ligt het dichtst bij Duitsland. Via Świecko sluit de A2 aan op de Duitse A12 naar Berlijn, en via Olszyna en Forst loopt de A18 (76,5 km) naar de A4. Als grootste oldtimerbeurs van Polen geldt de Retro Motor Show in Poznań, die elk jaar in september van vrijdag tot zondag op MTP plaatsvindt. Tor Poznań in Przeźmierowo is 4,083 km lang en het enige Poolse circuit met FIA-homologatie.",
+            "Het Muzeum Motoryzacji van Automobilklub Wielkopolski heropende in 2021 op het MTP-terrein met meer dan 150 voertuigen van leden. Bij Warschau toont het Muzeum Motoryzacji i Techniki in Otrębusy ongeveer 300 historische voertuigen. De Rajd Barbórka sluit elk jaar in december het Poolse rallyseizoen af, met de slotproef Kryterium Asów in het centrum."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Ypres Rally",
+          "body": "Doorgaans in het laatste weekend van juni rond Ieper, volledig op asfalt, voor het eerst gereden in 1965. De historische editie telt sinds 2025 mee voor het FIA European Historic Rally Championship."
+        },
+        {
+          "kind": "event",
+          "title": "Retro Motor Show Poznań",
+          "body": "Elk jaar in september op het MTP-terrein, van vrijdag tot zondag, en volgens de bron de grootste oldtimerbeurs van Polen. Poznań ligt aan de A2, de eerste grote stad na de Duitse grens bij Świecko."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone Krakau",
+          "body": "In de milieuzone van Krakau kunnen niet-conforme voertuigen van buiten de stad tot eind 2028 tegen betaling binnen. Daarna blijven enkel de wettelijke uitzonderingen over, waaronder historische voertuigen."
+        },
+        {
+          "kind": "plek",
+          "title": "Muzeum Motoryzacji i Techniki",
+          "body": "Museum in Otrębusy aan de ul. Warszawska 21, ten zuidwesten van Warschau, met ongeveer 300 historische voertuigen en open sinds 1995. Een wagen voor de collectie komt via de A2 en de uitvalswegen van Warschau."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet mijn Belgische klassieker in Polen als zabytek geregistreerd worden?",
+          "a": "Dat is niet verplicht voor het vervoer. Het statuut is een keuze voor wie de wagen in Polen inschrijft: minstens 25 jaar oud, het model minstens 15 jaar uit productie en grotendeels originele onderdelen. De provinciale monumentenzorger beslist."
+        },
+        {
+          "q": "Rijdt een transporter op zondag in Polen?",
+          "a": "Polen heeft geen algemeen zondagverbod voor vrachtwagens. Het verbod geldt voor voertuigen boven 12 ton op feestdagen en in de zomer, op vrijdagavond, zaterdagochtend en zondag. Buiten die periodes kan een levering ook op zondag, maar kijk toch naar de lokale borden."
+        },
+        {
+          "q": "Hoe lang moet ik aan de grens rekenen?",
+          "a": "Vervoerders melden wachttijden van meer dan een uur voor vrachtwagens aan de Poolse controles op de Duitse grens. Die tijd hangt af van het moment. Daarom geven wij geen vaste aankomsttijd, maar volgen we de situatie onderweg."
+        }
+      ],
+      "seoDescription": "Oldtimer transport van België naar Polen: zabytek-statuut, e-TOLL, Poolse rijverboden en de Retro Motor Show in Poznań. Mcars vervoert uw klassieker.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Rally_van_Ieper",
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://aa.com.tr/en/europe/poland-extends-border-controls-with-germany-and-lithuania-until-october/3884308",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://www.etoll.gov.pl/en/news/changes-to-the-e-toll-as-of-1-february-2026",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.auto-swiat.pl/porady/prawo/jak-zarejestrowac-auto-jako-zabytkowe/2966dwn",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://en.wikipedia.org/wiki/A18_autostrada_(Poland)",
+        "https://www.tradefairdates.com/Retro+Motor+Show-M2398/Pozna%C5%84.html",
+        "https://fia-cez.com/en/calendar/poznan/",
+        "https://autokatalog.pl/blog/2021/muzeum-motoryzacji-na-mtp-ponownie-otwarte",
+        "https://automuseums.info/poland/motorisation-and-technical-museum"
+      ]
+    }
+  }
+}

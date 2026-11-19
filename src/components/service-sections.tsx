@@ -15,13 +15,14 @@ import { ArrowChip, Eyebrow } from "./ui";
  * overlapping cards, cinematic case — so the page doesn't read as five identical ruled lists.
  */
 
-/** Dark photo panel with the highlights as white cards resting on the image. */
+/** "Waarom Mcars": grey panel with the text and highlights on the left, a tall photo on the right. */
 export function HighlightPanel({
   image,
   alt,
   label,
   lead,
   trail,
+  intro,
   items,
 }: {
   image: string;
@@ -29,40 +30,53 @@ export function HighlightPanel({
   label: string;
   lead: string;
   trail?: string;
+  intro?: string;
   items: Highlight[];
 }) {
   return (
-    <section className="relative flex min-h-[86vh] flex-col overflow-hidden rounded-[2rem] bg-zinc-950">
-      <Parallax speed={0.06} className="absolute inset-x-0 -top-[15%] h-[130%]">
-        <div role="img" aria-label={alt} className="size-full bg-cover bg-center" style={{ backgroundImage: `url(${asset(image)})` }} />
-      </Parallax>
-      <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-zinc-950/75 via-zinc-950/20 to-zinc-950/70" />
-
-      <div className="relative z-10 flex flex-1 flex-col px-5 pt-12 pb-5 sm:px-10 sm:pt-16 sm:pb-8 lg:px-14">
+    <section className="grid gap-8 rounded-[2rem] bg-zinc-100 p-5 sm:p-8 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:p-10">
+      <div className="flex flex-col px-1 pt-3 sm:px-2 lg:py-6 lg:pl-4">
         <Reveal>
-          <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-white/70 uppercase">
-            <span aria-hidden className="size-1.5 rounded-full bg-white" />
+          <p className="inline-flex rounded-full border border-zinc-950 px-4 py-1.5 text-[0.7rem] font-medium tracking-[0.16em] text-zinc-950 uppercase">
             {label}
           </p>
-          <h2 className="mt-6 max-w-3xl text-4xl font-light leading-[1.04] tracking-[-0.03em] text-balance text-white sm:text-5xl lg:text-6xl">
-            {lead} {trail && <span className="text-white/50">{trail}</span>}
+          <h2 className="mt-6 max-w-xl text-4xl leading-[1.04] font-light tracking-[-0.03em] text-balance text-zinc-950 sm:text-5xl">
+            {lead} {trail && <span className="text-zinc-400">{trail}</span>}
           </h2>
+          {intro && <p className="mt-5 max-w-lg text-base leading-relaxed text-zinc-500">{intro}</p>}
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a href="#prijs" className="group inline-flex items-center gap-3 rounded-full bg-zinc-950 py-2 pr-2 pl-6 text-sm font-medium text-white transition-colors hover:bg-zinc-800">
+              Prijs aanvragen
+              <ArrowChip />
+            </a>
+            <Link href="/reviews" className="inline-flex items-center rounded-full border border-zinc-950 px-6 py-2 text-sm font-medium text-zinc-950 transition-colors hover:bg-zinc-950 hover:text-white">
+              Reviews
+            </Link>
+          </div>
         </Reveal>
 
-        <div className={`mt-auto grid gap-3 pt-24 sm:grid-cols-2 ${items.length >= 3 ? "lg:grid-cols-3" : ""}`}>
+        <div aria-hidden className="min-h-10 flex-1" />
+        <ul className="border-t border-zinc-300">
           {items.map((h, i) => (
-            <Reveal key={h.title} delay={i * 90} className="flex flex-col rounded-[1.5rem] bg-white/95 p-6 backdrop-blur-xl sm:min-h-60 sm:p-7">
-              <div className="flex items-center justify-between text-xs font-medium tracking-[0.18em] text-zinc-400 uppercase">
-                <span className="tabular-nums">{String(i + 1).padStart(2, "0")}</span>
-                <span className="flex size-10 items-center justify-center rounded-full bg-zinc-950 text-white">
+            <li key={h.title} className="border-b border-zinc-300 last:border-b-0">
+              <Reveal delay={i * 90} className="flex gap-4 py-5">
+                <span className="mt-0.5 flex size-10 flex-none items-center justify-center rounded-full bg-zinc-950 text-white">
                   <Icon name={h.icon} className="size-[1.1rem]" />
                 </span>
-              </div>
-              <h3 className="mt-auto pt-6 text-xl sm:pt-10 font-medium tracking-tight text-zinc-950 sm:text-2xl">{h.title}</h3>
-              <p className="mt-2 text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
-            </Reveal>
+                <div>
+                  <h3 className="text-lg font-medium tracking-tight text-zinc-950">{h.title}</h3>
+                  <p className="mt-1 text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
+                </div>
+              </Reveal>
+            </li>
           ))}
-        </div>
+        </ul>
+      </div>
+
+      <div className="relative aspect-[4/3] overflow-hidden rounded-[1.5rem] bg-zinc-200 lg:aspect-auto lg:min-h-[40rem]">
+        <Parallax speed={0.05} className="absolute inset-x-0 -top-[10%] h-[120%]">
+          <div role="img" aria-label={alt} className="size-full bg-cover bg-center" style={{ backgroundImage: `url(${asset(image)})` }} />
+        </Parallax>
       </div>
     </section>
   );

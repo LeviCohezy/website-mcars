@@ -1,0 +1,59 @@
+{
+  "sub": "Staat uw wagen na pech of een ongeval bij een Duitse garage of op een stalling? Wij halen hem op en brengen hem naar België.",
+  "problem": {
+    "title": "Uw wagen staat in Duitsland en moet naar huis",
+    "body": "Een motor die ermee ophoudt in Noordrijn-Westfalen, een ongeval op weg naar een beurs, een schade waarvoor de Duitse werkplaats geen onderdelen heeft. De wagen staat nu ergens op een terrein van een garage of berging. Verder rijden kan niet, een herstelling ter plaatse is niet gewenst. U wilt dat hij terugkomt naar België, naar uw eigen garage.",
+    "situations": [
+      { "title": "Garage zonder oplossing", "body": "De Duitse werkplaats kan de wagen niet herstellen of de wachttijd is te lang. U wilt hem liever bij uw eigen garage thuis." },
+      { "title": "Berging van de wegdienst", "body": "Na het takelen staat de wagen bij een berger of op een stalling. U wilt hem daar weg voor de dagen blijven oplopen." },
+      { "title": "Terug van een beurs of reis", "body": "Op weg naar of van een rit in Duitsland gaat er iets mis. U vliegt of rijdt anders naar huis en de wagen volgt." }
+    ]
+  },
+  "solution": {
+    "title": "Wij halen de wagen in Duitsland en brengen hem thuis",
+    "body": "U vertelt ons waar de wagen staat, wat er mee gebeurd is en waar hij heen moet. Uw offerte op maat ontvangt u binnen 24 uur. Op de afgesproken dag rijdt onze chauffeur met een open, meerlaagse transporter naar de garage of het adres. Rijdt de wagen niet meer, dan trekt de lier hem op de oplegger. Is hij helemaal geblokkeerd, dan regelen wij ter plaatse een heftruck. Bij ophaling inspecteert de chauffeur hem, maakt foto's en maakt de CMR op. Daarna rijdt hij verzekerd naar België, naar uw adres of uw garage."
+  },
+  "usps": [
+    { "title": "Eén aanspreekpunt", "body": "Eén persoon bij Mcars neemt uw aanvraag op en blijft uw contact. Dat spaart u het bellen met Duitse garages in een taal die u niet spreekt." },
+    { "title": "Eigen lier aan boord", "body": "Elke vrachtwagen heeft een lier, dus ook een wagen die niet meer start of niet meer stuurt, komt netjes op de oplegger." },
+    { "title": "Tot in België", "body": "De rit eindigt waar u wilt: aan huis, bij uw garage of op ons depot in Roeselare, waar levering dag en nacht kan." },
+    { "title": "Open en verzekerd", "body": "Wij rijden met open, meerlaagse transporters. De wagen is verzekerd tijdens het transport en we leggen de staat vast bij ophaling." }
+  ],
+  "steps": [
+    { "title": "Aanvraag en offerte", "body": "U geeft het adres in Duitsland, de staat van de wagen en de bestemming door. U ontvangt binnen 24 uur een offerte op maat." },
+    { "title": "Planning met de garage", "body": "Wij maken een afspraak met de werkplaats of berging, zodat de wagen klaarstaat en iemand de sleutels kan meegeven." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur inspecteert de wagen, neemt foto's en maakt de CMR op. Particulieren betalen vooraf, bedrijven betalen na factuur." },
+    { "title": "Levering in België", "body": "De chauffeur belt vooraf en brengt de wagen naar het afgesproken adres. Zelf komen halen op ons depot in Roeselare kan ook." }
+  ],
+  "care": {
+    "title": "Wij verzorgen alles, ook de CMR",
+    "body": "Wat in Duitsland bij een garage gebeurd is, wilt u kunnen terugvinden. Daarom schrijft de chauffeur bij ophaling de staat van de wagen op en maakt hij foto's. Die bewaren we intern als bewijs. De CMR-vrachtbrief reist mee en wordt bij aflevering getekend. Gedurende het hele transport is de wagen verzekerd. Zo kunt u bij aankomst rustig vergelijken.",
+    "items": ["Inspectie bij ophaling", "Foto's als intern bewijs", "CMR-vrachtbrief ondertekend bij levering", "Verzekerd tijdens het transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Duitsland naar België",
+    "body": "Voor een wagen in het Rijn-Ruhrgebied of de Eifel hebt u een transporteur nodig die zijn werk kent. Een afspraak met de berger of garage maken we vooraf, zodat de chauffeur niet voor een gesloten poort staat. Eenmaal in België takelen wij zelf bij pech of een ongeval, en onze chauffeurs praten Nederlands of Frans. Wij rijden zowel in Noordrijn-Westfalen als in de Eifel.",
+    "regions": ["Noordrijn-Westfalen", "Eifel", "Rijn-Ruhrgebied", "Rijnland", "Aachen en omgeving", "Oostkantons"]
+  },
+  "faq": [
+    { "q": "Komt Mcars de wagen bij de berger op de Autobahn halen?", "a": "Nee. Op de Autobahn gaat dat via de Duitse wegdienst en berger. Wij halen de wagen daarna op bij de garage, de stalling of het adres." },
+    { "q": "Wat als de wagen niet meer rijdt?", "a": "Dat is te doen. Onze lier sleept hem op de oplegger. Is hij volledig geblokkeerd, dan komt er een heftruck ter plaatse. Meld het bij de aanvraag." },
+    { "q": "Wat moet ik doorgeven?", "a": "Het exacte adres, de contactpersoon, wat er met de wagen is en waar hij naartoe moet. Controleer ook of de berger of garage de wagen mag meegeven." },
+    { "q": "Regelt Mcars de rest van het dossier?", "a": "Nee. Wij vervoeren de wagen. Het dossier met verzekeraar, schade of stalling regelt u zelf. Wij bezorgen u de CMR en foto's bij ophaling." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wat wij met u en de Duitse garage afspreken komt uit: vaste chauffeurs, hetzelfde aanspreekpunt, zonder verrassingen onderweg naar België.",
+    "snel": "Zodra de garage de wagen vrijgeeft, plannen wij de ophaling vlot in en brengen wij hem zonder tijdverlies richting huis.",
+    "volgbaar": "Dankzij track en trace weet u op elk moment waar uw wagen zich bevindt, en de chauffeur belt u bij aankomst.",
+    "verzekerd": "Tijdens het hele transport is uw wagen verzekerd en de CMR-vrachtbrief legt de staat bij ophaling vast."
+  },
+  "reasons": [
+    { "title": "Jaren op de baan", "body": "Wij staan al jaren op de weg met autotransport, dus een ophaling bij een Duitse werkplaats of berging brengt ons niet uit balans." },
+    { "title": "Echte liefde voor auto's", "body": "Wij zijn zelf autoliefhebbers. Daarom gaan we voorzichtig om met elke wagen, ook met een die al heel wat heeft meegemaakt." },
+    { "title": "Ritten op ritten", "body": "Honderden gereden ritten betekenen honderden keren dat we een wagen hebben geladen, vastgezet en netjes afgeleverd bij de ontvanger." },
+    { "title": "Eigen mensen aan het stuur", "body": "Bij ons zitten vaste chauffeurs van Mcars aan het stuur. Zij kennen onze manier van werken en praten Nederlands of Frans met u." },
+    { "title": "Breed aanbod voertuigen", "body": "Of het nu een gewone personenwagen is, een sportwagen of een oldtimer: ons open transport past bij heel wat voertuigen." },
+    { "title": "Kijken naar de toekomst", "body": "Wij blijven investeren in betere werkwijzen, zodat het terughalen van een wagen uit Duitsland elk jaar wat vlotter gaat." }
+  ],
+  "seoDescription": "Depannage van Duitsland naar België: wij halen uw wagen na pech of ongeval op bij garage, stalling of adres en brengen hem naar België."
+}

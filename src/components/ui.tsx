@@ -66,10 +66,10 @@ export function ArrowButton({
  * Small uppercase label used above section headings. A dot instead of a
  * pill keeps it quiet — the heading does the talking.
  */
-export function Eyebrow({ children, className = "" }: { children: ReactNode; className?: string }) {
+export function Eyebrow({ children, className = "", dark = false }: { children: ReactNode; className?: string; dark?: boolean }) {
   return (
-    <p className={`flex items-center gap-2.5 self-start text-xs font-medium tracking-[0.18em] text-zinc-500 uppercase ${className}`}>
-      <span aria-hidden className="size-1.5 flex-none rounded-full bg-zinc-950" />
+    <p className={`flex items-center gap-2.5 self-start text-xs font-medium tracking-[0.18em] uppercase ${dark ? "text-zinc-400" : "text-zinc-500"} ${className}`}>
+      <span aria-hidden className={`size-1.5 flex-none rounded-full ${dark ? "bg-white" : "bg-zinc-950"}`} />
       {children}
     </p>
   );
@@ -83,15 +83,17 @@ export function SplitHeading({
   lead,
   trail,
   className = "",
+  dark = false,
 }: {
   lead: string;
   trail?: string;
   className?: string;
+  dark?: boolean;
 }) {
   return (
     <h2 className={`text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-balance sm:text-4xl lg:text-[3.25rem] ${className}`}>
-      <span className="text-zinc-950">{lead} </span>
-      {trail && <span className="text-zinc-400">{trail}</span>}
+      <span className={dark ? "text-white" : "text-zinc-950"}>{lead} </span>
+      {trail && <span className={dark ? "text-white/45" : "text-zinc-400"}>{trail}</span>}
     </h2>
   );
 }
@@ -109,6 +111,7 @@ export function SectionHeader({
   intro,
   action,
   className = "",
+  dark = false,
 }: {
   label: string;
   index?: string;
@@ -117,21 +120,22 @@ export function SectionHeader({
   intro?: ReactNode;
   action?: ReactNode;
   className?: string;
+  dark?: boolean;
 }) {
   return (
-    <div className={`grid gap-6 border-t border-zinc-200 pt-6 lg:grid-cols-[1fr_3fr] lg:gap-10 ${className}`}>
+    <div className={`grid gap-6 border-t pt-6 ${dark ? "border-white/15" : "border-zinc-200"} lg:grid-cols-[1fr_3fr] lg:gap-10 ${className}`}>
       <div className="flex items-center justify-between gap-4 lg:items-start lg:justify-start">
-        <Eyebrow>{label}</Eyebrow>
+        <Eyebrow dark={dark}>{label}</Eyebrow>
         {index && <span className="text-xs font-medium tabular-nums text-zinc-400 lg:hidden">{index}</span>}
       </div>
       <div className="lg:pt-0">
         <div className="flex items-start justify-between gap-8">
-          <SplitHeading lead={lead} trail={trail} className="max-w-4xl" />
+          <SplitHeading lead={lead} trail={trail} dark={dark} className="max-w-4xl" />
           {index && (
             <span className="hidden pt-2 text-xs font-medium tabular-nums text-zinc-400 lg:block">{index}</span>
           )}
         </div>
-        {intro && <div className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-500">{intro}</div>}
+        {intro && <div className={`mt-6 max-w-2xl text-lg leading-relaxed ${dark ? "text-white/55" : "text-zinc-500"}`}>{intro}</div>}
         {action && <div className="mt-8">{action}</div>}
       </div>
     </div>

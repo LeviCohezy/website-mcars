@@ -1,0 +1,1200 @@
+{
+  "service": "eventtransport",
+  "origin": "luxemburg",
+  "pages": {
+    "luxemburg": {
+      "lead": "Een nieuwe wagen die op Kirchberg op een stand hoort te staan, een sportwagen voor een shoot bij de luchthaven, een klassieker voor een rit door het zuiden: in Luxemburg liggen de eventplekken dicht bij elkaar, maar elke plek heeft eigen toegangsregels. Wie een wagen laat brengen, wil vooral weten waar de oplegger kan lossen en op welke dagen zware vrachtwagens niet mogen rijden.",
+      "facts": [
+        {
+          "label": "Beurscomplex",
+          "value": "Luxexpo The Box op Kirchberg, ongeveer 30.000 m² modulaire ruimte"
+        },
+        {
+          "label": "Afrit",
+          "value": "Afrit 8 van de A1 leidt naar Luxexpo"
+        },
+        {
+          "label": "Milieuzones",
+          "value": "Luxemburg heeft er geen, een sticker is niet nodig"
+        },
+        {
+          "label": "Centrum",
+          "value": "Leveren in de voetgangerszone kan tussen 6 en 10 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Luxexpo The Box, de vaste beursplek van het land",
+          "body": [
+            "Het grootste adres voor beurzen, productlanceringen en congressen is Luxexpo The Box, op het Kirchbergplateau aan de Circuit de la Foire Internationale. Het complex heeft ongeveer 30.000 m² modulaire ruimte. De indeling verschilt dus van event tot event, en daarmee ook de plek waar uw wagen binnenkomt.",
+            "Met een personenwagen of vrachtwagen rijdt u via afrit 8 van de A1. Luxexpo heeft een noord- en een zuidingang en de organisatie helpt u bij de keuze van de juiste. Vraag dat tijdig na, want een autotransporter met meerdere wagens past niet zomaar door elke toegang. Bezoekers parkeren op Parking Nord (ongeveer 750 plaatsen) of Parking Sud (ongeveer 650 plaatsen). Voor de oplegger spreekt u een aparte laad- en loszone af met de organisator."
+          ]
+        },
+        {
+          "heading": "De International Motor Show in november",
+          "body": [
+            "Elk najaar, maar niet elk jaar, vult de International Motor Show Luxembourg de hallen. U ziet er productiewagens, sportwagens, luxemodellen, klassiekers, moto's, racewagens, een tuningafdeling en stuntshows. Na de vijfentwintigste editie is de volgende pas na een tussenjaar aangekondigd, dus kijk de eerstvolgende editie na voor u een transport plant.",
+            "Op die vijfentwintigste editie organiseerde ACL Sport voor het eerst de ACL Race X, een tijdrit voor 24 Luxemburgse piloten in cross cars. Zo'n racewagen komt zelden op eigen wielen naar een beurs. Wie er een wil tonen, laat hem op de oplegger brengen en bespreekt vooraf met de beursorganisatie hoe laat de hal bereikbaar is."
+          ]
+        },
+        {
+          "heading": "Zondagsverbod, feestdagen en tol",
+          "body": [
+            "Voor vrachtwagens boven 7,5 ton in doorvoer naar Frankrijk of Duitsland geldt een verbod op zon- en feestdagen dat al de avond ervoor ingaat. Luxemburg telt elf wettelijke feestdagen, waaronder Paasmaandag, Hemelvaart, Pinkstermaandag, de nationale feestdag op 23 juni en 15 augustus. Er bestaat een vrijstelling voor materiaal van toegelaten economische, sportieve, culturele, educatieve of politieke evenementen. Of uw rit daaronder valt, vraagt u vooraf na.",
+            "Tol is in Luxemburg geen punt voor personenwagens en bedrijfsvoertuigen onder 12 ton, ook niet voor tunnels en bruggen. Een vrachtwagen met een toegelaten massa van minstens 12 ton betaalt wel het Eurovignet op de autosnelwegen, ook leeg en ook als samenstel met aanhanger. Het is een tijdsgebonden gebruiksrecht in een gedeelde databank, geen kilometerheffing."
+          ]
+        },
+        {
+          "heading": "Leveren in het centrum van de hoofdstad",
+          "body": [
+            "In het stadscentrum is de voetgangerszone afgesloten met verzinkbare paaltjes. Tussen 6 en 10 uur staan ze omlaag en zijn leveringen en toegang gewaarborgd. Buiten dat venster meldt u zich aan bij de technische paal. Parkeren is er verboden en de snelheid is beperkt tot 20 km/u. Op de Place d'Armes en de straten errond mag enkel in het ochtendvenster geladen en gelost worden.",
+            "Organisatoren van evenementen, werken en verhuizingen kunnen bij de Service Circulation van de stad een tijdelijke toegangsvignet voor de voetgangerszone aanvragen. Dat regelt de organisator of de klant zelf, niet de vervoerder. Heeft u een wagen voor een presentatie in de oude stad, plan dan de aankomst in de vroege ochtend."
+          ]
+        },
+        {
+          "heading": "Showwagens zonder inschrijving",
+          "body": [
+            "Een handelaar mag met professionele rode platen een niet-ingeschreven wagen verplaatsen om hem aan een klant voor te stellen. Een showwagen zonder inschrijving die niet onder die regeling valt, blijft aangewezen op vervoer op de vrachtwagen. Voor prototypes, studiemodellen en voorserie-exemplaren is de oplegger dus vaak de enige correcte weg.",
+            "Mcars rijdt met open, meerlaagse autotransporters en heeft op elke vrachtwagen een lier. Bij ophaling controleren de chauffeurs de wagen, nemen ze foto's als intern bewijs en maken ze een CMR-vrachtbrief op. Omdat het transport open is, krijgt een gepoetste showwagen onderweg wind en weer mee; bespreek dat vooraf als de lak ertoe doet."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Tram T1 naar Luxexpo",
+          "body": "Tramlijn T1 verbindt Luxembourg Airport rechtstreeks met Luxexpo, via de haltes Luxexpo en Alphonse Weicker, en met het stadscentrum. Wie zijn wagen laat brengen, kan zelf met vliegtuig en tram aansluiten en de wagen op de beursvloer in ontvangst nemen."
+        },
+        {
+          "kind": "plek",
+          "title": "Luxembourg Airport (Findel)",
+          "body": "Findel is een belangrijke vrachtluchthaven en de thuisbasis van Cargolux. Een wagen voor een lancering of shoot die per luchtvracht aankomt, landt hier. De A1 heeft twee afritten voor de luchthaven: Senningerberg en Cargo Center. Een oplegger voor de laatste kilometers kan daar aansluiten."
+        },
+        {
+          "kind": "regel",
+          "title": "Vrijstelling voor eventmateriaal",
+          "body": "Materiaal voor toegelaten economische, sportieve, culturele, educatieve of politieke evenementen is vrijgesteld van het zon- en feestdagsrijverbod voor vrachtwagens. Dat betekent niet dat elke rit er automatisch onder valt. Vraag vooraf na of uw transport als eventmateriaal telt."
+        },
+        {
+          "kind": "event",
+          "title": "ACL Sport en klassiekerritten",
+          "body": "De ACL organiseert het hele jaar opleidingen, roadtrips en uitstappen voor liefhebbers, ook rijopleidingen voor eigenaars van historische voertuigen. De club heeft een eigen kartingbaan in Mondercange en kantoren in Bertrange en Ingeldorf. Voor een klassieker op de oplegger is dat een mogelijke bestemming."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een transport voor Luxexpo op zondag rijden?",
+          "a": "Het verbod geldt voor vrachtwagens boven 7,5 ton in doorvoer naar Frankrijk of Duitsland. Materiaal voor toegelaten evenementen is vrijgesteld, maar of uw rit daaronder valt, vraagt u vooraf na bij de organisator of de bevoegde dienst."
+        },
+        {
+          "q": "Heb ik een milieusticker nodig voor mijn sportwagen in Luxemburg?",
+          "a": "Nee. Luxemburg heeft geen milieuzones en voor personenwagens is geen milieusticker of vignet nodig. Voor wagens op de oplegger verandert dat niet, want de zones bestaan simpelweg niet."
+        },
+        {
+          "q": "Hoe laat kan een autotransporter in het centrum van Luxemburg-stad leveren?",
+          "a": "In de voetgangerszone zijn leveringen gewaarborgd tussen 6 en 10 uur, wanneer de paaltjes omlaag staan. Daarbuiten moet u zich melden bij de technische paal en blijft parkeren verboden."
+        },
+        {
+          "q": "Welke ingang van Luxexpo gebruik ik met een grote vrachtwagen?",
+          "a": "U rijdt via afrit 8 van de A1 naar Kirchberg. Luxexpo heeft een noord- en een zuidingang en de organisatie helpt bij de keuze. Vraag het vooraf, zeker voor een oplegger met meerdere wagens."
+        }
+      ],
+      "seoDescription": "Eventtransport in Luxemburg: wagens naar Luxexpo, de Motor Show en shoots, op open autotransport. Afritten, laadvensters en rijverboden uitgelegd.",
+      "sources": [
+        "https://thebox.lu/",
+        "https://thebox.lu/fr/acceder-a-luxexpo",
+        "https://chronicle.lu/category/motor-sports/58005-25th-international-motor-show-luxembourg-draws-crowds-with-new-acl-race-x-event",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=LU",
+        "https://web.uta.com/en/tolls/luxembourg",
+        "https://guichet.public.lu/fr/entreprises/import-export/transit/transit-ue/e-vignette-poids-lourds.html",
+        "https://www.vdl.lu/fr/se-deplacer/en-voiture/livraisons-et-vignette-dacces",
+        "https://snca.public.lu/fr/professionnels/professionnels-automobile/plaques-rouges-pro.html",
+        "https://en.wikipedia.org/wiki/Luxembourg_Airport",
+        "https://www.acl.lu/fr/loisirs/vehicules-historiques/",
+        "https://en.wikipedia.org/wiki/Public_holidays_in_Luxembourg"
+      ]
+    },
+    "luxemburg-belgie": {
+      "lead": "Een nieuwe wagen uit Mamer die in januari op het Autosalon van Brussel moet staan, een rallywagen voor de Ardennen of een klassieker voor een rit rond Bastenaken: vanuit het westen van Luxemburg loopt alles over één autosnelweg naar België. Het zondagsverbod voor zware vrachtwagens speelt op deze route niet mee, maar de plekken waar u uiteindelijk lost, hebben elk hun eigen regels.",
+      "facts": [
+        {
+          "label": "Snelweg",
+          "value": "A6 loopt 20,8 km van Croix de Gasperich tot de Belgische grens"
+        },
+        {
+          "label": "Doorlopend",
+          "value": "Luxemburgse A6/E25 en Belgische A4/E411 vormen één autosnelweg"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Doorvoer naar België valt niet onder het Luxemburgse zondagsverbod"
+        },
+        {
+          "label": "Brussels Expo",
+          "value": "Twaalf paleizen en parking voor ongeveer 12.000 wagens"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in het westen van Luxemburg",
+          "body": [
+            "Het westen rond Bertrange, Mamer, Capellen, Steinfort, Mersch en Bissen kijkt naar België. De A6 loopt er van de Croix de Gasperich naar de Belgische grens. De aansluitingen volgen elkaar van oost naar west op: Croix de Cessange met de A4, Helfenterbrück, Strassen, Bridel, Mamer, de rustplaats Capellen en Steinfort/Windhof.",
+            "Staat uw wagen bij een garage, een merkvertegenwoordiger of een privéadres in een van die dorpen, dan zit de oplegger snel op de snelweg. Voor adressen in een dorpskern bestaat nog de oude N6 tussen Luxemburg en Aarlen, door Mamer en Steinfort. Sinds de A6 in 1982 tot aan de grens werd doorgetrokken, is die weg ontlast. Spreek een ophaalplek af waar een lange autotransporter kan keren."
+          ]
+        },
+        {
+          "heading": "Eén snelweg naar Brussel, geen verbod onderweg",
+          "body": [
+            "Van Luxemburg naar Brussel volgt u één doorlopende autosnelweg: de A6 tot de grens en dan de Belgische A4, de Autoroute des Ardennes, als E411. Die loopt via Aarlen, Namen en Ottignies-Louvain-la-Neuve naar Oudergem. Tot Aarlen delen E411 en E25 dezelfde weg. Onderweg passeert u de ringen van Namen en Brussel.",
+            "Het Luxemburgse rijverbod op zondag en feestdagen geldt voor vrachtwagens boven 7,5 ton die in doorvoer naar Frankrijk of Duitsland rijden. Doorvoer naar België valt er niet onder, en vervoer binnen Luxemburg evenmin. Een wagen voor een zondagsevent in Brussel hoeft dus niet op vrijdag al vertrokken te zijn om dat verbod te omzeilen."
+          ]
+        },
+        {
+          "heading": "Brussels Expo en het Autosalon",
+          "body": [
+            "Brussels Expo op de Heizel in Laken is met ongeveer 115.000 m² het grootste beurscomplex van de Benelux, met twaalf paleizen en parking voor ongeveer 12.000 wagens. U bereikt het vanaf de ring R0. In januari houdt FEBIAC er het Autosalon van Brussel, een salon met personenwagens, motoren en lichte bedrijfsvoertuigen dat bestaat sinds 1902 en toen in het Jubelpark begon.",
+            "Het salon wordt sinds enkele jaren niet meer elk jaar gehouden. Er was een jaar zonder editie en een volwaardig salon met meer dan honderd exposanten keerde pas daarna terug. Wie een wagen naar Brussel wil laten brengen, controleert dus eerst of er in die januarimaand wel een editie is, en vraagt de organisatie naar de laadtijden per paleis."
+          ]
+        },
+        {
+          "heading": "Namen en de provincie Luxemburg",
+          "body": [
+            "Aan Belgische kant ligt de streek rond Namen en de provincie Luxemburg het dichtst bij u. Het Circuit Jules Tacheny in Mettet opende in 2010, is 2,28 km lang en telt tien bochten. Het past vooral bij kleinere raceklassen en trainingen. Mettet heeft ook een racetraditie: op het vroegere stratencircuit werden in de jaren vijftig Formule 2-races gereden, met winnaars als Stirling Moss en Alberto Ascari.",
+            "De Rallye de Wallonie wordt meestal eind april gereden in de streek rond Namen, met het rallycentrum in Jambes. De eerste editie was in 1984 en ze telt mee voor het Belgisch kampioenschap. Een rallywagen uit Luxemburg volgt dezelfde E411 en verlaat de snelweg bij Namen."
+          ]
+        },
+        {
+          "heading": "Spa-Francorchamps en Zolder",
+          "body": [
+            "Verder oostwaarts ligt het Circuit de Spa-Francorchamps in Stavelot: 7,004 km, twintig bochten en ruim 100 meter hoogteverschil. Er wordt sinds 1924 een 24 urenrace voor wagens gereden. De Formule 1 blijft er op de kalender, maar rijdt er niet meer elk jaar. Wie naar Spa rijdt, komt bij Verviers op de bochtige A27, met meerdere viaducten, waaronder dat van de Eau Rouge bij Francorchamps.",
+            "In Limburg heeft Circuit Zolder een eigen afrit op de E314, Zolder-Terlaemen. De omloop is 4,011 km lang met tien bochten. Op het programma staan onder meer de 24 Hours of Zolder, de NASCAR Whelen Euro Series en de Supercar Challenge. Vraag de circuitbeheerder naar de toegang voor een oplegger."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Eén grens, drie namen",
+          "body": "De grensovergang op de A6 heeft verschillende namen. De verkeerscentrale CITA noemt hem Weyler, de Belgische kant, terwijl andere bronnen van Kleinbettingen en Windhof spreken, de Luxemburgse kant. Het gaat om dezelfde overgang. Weet de chauffeur welke naam uw navigatie gebruikt, dan volgen er geen misverstanden over het afspreekpunt."
+        },
+        {
+          "kind": "event",
+          "title": "Legend Boucles in Bastenaken",
+          "body": "De Legend Boucles is de historische opvolger van de Boucles de Spa, die traditioneel in februari reden. Sinds 2015 zit hij in de provincie Luxemburg, met Bastenaken als centrum. Het is een rally voor historische wedstrijdwagens, met daarnaast een regelmatigheidsproef Classic voor oudere wagens."
+        },
+        {
+          "kind": "event",
+          "title": "Rally van Ieper",
+          "body": "De Rally van Ieper is de grootste rally van België, volledig op asfalt, en wordt gewoonlijk het laatste weekend van juni gereden. Ze bestaat sinds 1965 als de 12 uren van Ieper en hoort sinds enige tijd weer bij het FIA European Historic Rally Championship. Een rallywagen uit Luxemburg rijdt daarvoor dwars door het land."
+        },
+        {
+          "kind": "regel",
+          "title": "Brusselse lage-emissiezone",
+          "body": "De lage-emissiezone beslaat het hele Brussels Hoofdstedelijk Gewest, behalve de Ring R0 en enkele toegangswegen naar transitparkings. Wie een wagen op eigen wielen naar een Brusselse eventlocatie brengt, valt onder die regels. Laat de organisator weten hoe uw wagen daarin past."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Valt een transport van Luxemburg naar België onder het zondagsverbod?",
+          "a": "Nee. Het Luxemburgse verbod geldt voor zware vrachtwagens in doorvoer naar Frankrijk of Duitsland. Doorvoer naar België en vervoer binnen Luxemburg vallen er niet onder, wat de planning rond een weekend eenvoudiger maakt."
+        },
+        {
+          "q": "Welke weg neemt een autotransporter van Luxemburg-stad naar Brussels Expo?",
+          "a": "Via de A6 naar de grens, dan de Belgische A4/E411 langs Aarlen en Namen tot de Brusselse ring R0. Vanaf de ring rijdt de oplegger naar de Heizel in Laken."
+        },
+        {
+          "q": "Is Mettet geschikt om een wagen heen te laten brengen voor een trackday?",
+          "a": "Het Circuit Jules Tacheny is 2,28 km lang en past vooral bij kleinere raceklassen en trainingen. Of een open dag voor uw type wagen bestaat, vraagt u aan de circuitbeheerder."
+        },
+        {
+          "q": "Rijdt de Formule 1 elk jaar in Spa-Francorchamps?",
+          "a": "Nee. De Grote Prijs blijft in Spa, maar wordt niet meer elk jaar gereden en wisselt af met Barcelona. Voor een wagen naar een ander evenement op het circuit, zoals de 24 uur, geldt dat niet."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar België: wagens naar Brussels Expo, Spa, Zolder en Namen, over de A6 en E411, zonder zondagsverbod.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Mamer",
+        "https://cita.lu/en/tentt_sipo.html",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://en.wikipedia.org/wiki/A6_motorway_(Luxembourg)",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://nl.wikipedia.org/wiki/Brussels_Expo",
+        "https://autosalon.be/nl",
+        "https://nl.wikipedia.org/wiki/Autosalon_van_Brussel",
+        "https://nl.wikipedia.org/wiki/Circuit_Jules_Tacheny",
+        "https://nl.wikipedia.org/wiki/Rallye_de_Wallonie",
+        "https://fr.wikipedia.org/wiki/Boucles_de_Spa",
+        "https://nl.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+        "https://nl.wikipedia.org/wiki/A27_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Circuit_Zolder",
+        "https://nl.wikipedia.org/wiki/A2_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Rally_van_Ieper",
+        "https://nl.wikipedia.org/wiki/Lage-emissiezone",
+        "https://nl.wikipedia.org/wiki/Grand_Prix_Formule_1_van_Belgi%C3%AB"
+      ]
+    },
+    "luxemburg-nederland": {
+      "lead": "Een wagen die vanuit Kirchberg naar Maastricht, Eindhoven of Amsterdam moet voor een beurs, een shoot of een rally, rijdt niet over één landsgrens maar over twee: eerst België, dan Nederland. Dat tussenland bepaalt de route, de heffingen en de planning meer dan de afstand zelf. Hieronder staat wat er in Luxemburg-stad, onderweg en aan Nederlandse kant speelt.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A6, door België via Luik en de A25, dan de Nederlandse A2"
+        },
+        {
+          "label": "A2",
+          "value": "Loopt 217 km van Amsterdam tot de Belgische grens bij Maastricht"
+        },
+        {
+          "label": "Transitland",
+          "value": "België heft een kilometerheffing op vrachtwagens boven 3,5 ton"
+        },
+        {
+          "label": "MECC Maastricht",
+          "value": "Vier beurshallen met samen bijna 30.000 m²"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Luxemburg-stad en op Kirchberg",
+          "body": [
+            "Luxemburg-stad is het knooppunt van alle richtingen en heeft zelf geen landsgrens. Wie een wagen laat ophalen op Kirchberg of in de bovenstad, rijdt eerst via de brug Grande-Duchesse Charlotte: die verbindt het plateau van Kirchberg met Limpertsberg en het stadscentrum. Zit uw wagen in de bovenstad, bedenk dan dat een autotransporter zich daar niet overal kan keren.",
+            "De stad heeft P+R-parkings bij Bouillon, Stade, Kirchberg en Beggen en stadsparkings zoals Glacis, Luxexpo, Knuedler en Gare. De vrije plaatsen staan in realtime op de website van de stad. Wie de wagen komt overhandigen en daarna met het openbaar vervoer verder wil, kan zijn eigen wagen op zo'n P+R achterlaten. Als ophaalpunt voor de oplegger zelf is een brede straat of een bedrijfsterrein praktischer."
+          ]
+        },
+        {
+          "heading": "De weg door België naar Maastricht",
+          "body": [
+            "Er ligt een transitland tussen Luxemburg en Nederland. De E25 volgt eerst de Luxemburgse A6 tot de grens, loopt in België over de A4 tussen Aarlen en Neufchâteau, rond Luik over A3 en A602 en daarna over de A25 van Luik naar Visé. Aan Nederlandse kant gaat de weg door als de A2 vanaf de grens bij Maastricht.",
+            "Wie liever via Brussel rijdt, neemt de Belgische A4 als E411, de Autoroute des Ardennes. De Nederlandse A2 is 217 km lang, loopt van knooppunt Amstel in Amsterdam tot de grens en draagt tot Utrecht het nummer E35 en daarna E25. In Maastricht onderbrak tot december 2016 een stuk N2 met verkeerslichten de A2. De vierstrooks Koning Willem-Alexandertunnel, in twee lagen gebouwd, heeft die knelpunt weggehaald."
+          ]
+        },
+        {
+          "heading": "Heffingen en verboden onderweg",
+          "body": [
+            "België heft via Viapass een kilometerheffing op vrachtvoertuigen boven 3,5 ton, op wegen in Vlaanderen, Brussel en de door SOFICO beheerde wegen in Wallonië. De registratie loopt met een On-Board Unit. Een transport tussen Nederland en Luxemburg raakt dat stuk in elk geval, dus de heffing hoort bij de kostprijs van elke rit op deze route.",
+            "Nederland kent geen algemeen weekend- of feestdagenverbod voor vrachtverkeer. Dat is een verschil met Duitsland, Frankrijk of Italië: een wagen voor een zondagsevent in Maastricht of Eindhoven kan dus op zondag zelf aankomen. Over het Belgische deel spreken de bronnen elkaar tegen, dus de actuele regels voor zwaar verkeer in België bekijkt u best op de dag van de planning opnieuw."
+          ]
+        },
+        {
+          "heading": "Maastricht en Zuid-Limburg",
+          "body": [
+            "Aan Nederlandse kant ligt Limburg het dichtst bij Luxemburg. MECC Maastricht ligt in de kantoorwijk Randwyck, op loopafstand van station Maastricht Randwyck, en beslaat ongeveer 45.000 m² met vier beurshallen van samen bijna 30.000 m². Maastricht heeft sinds 1 januari 2025 een zero-emissiezone voor bestel- en vrachtauto's, wat de aanrijroute voor een wagen op een oplegger beïnvloedt.",
+            "In het heuvelland ligt de Mergellandroute, een bewegwijzerde route van ongeveer 110 km die de ANWB in 1960 uitzette: u volgt de bruine borden. Bij Vaals ligt het hoogste punt van Europees Nederland, de Vaalserberg met 322,4 m, vlak bij het drielandenpunt met België en Duitsland. Voor een shoot met een klassieker zijn dat bekende decors. Raceway Venray heeft een ovaal van 880 m met hellende bochten en een beperkt aantal geluidsdagen per jaar."
+          ]
+        },
+        {
+          "heading": "Eindhoven, Zandvoort en de Randstad",
+          "body": [
+            "Eindhoven en Tilburg hebben sinds 1 januari 2025 een zero-emissiezone voor bestel- en vrachtauto's, 's-Hertogenbosch sinds 1 maart 2025. In oktober houdt Eindhoven de Dutch Design Week op meer dan 120 locaties. In mei rijdt de Tulpenrallye, sinds 1949 de oudste klassiekerrally van Nederland, met wisselende start en finish. In Noord-Brabant en Limburg is carnaval van zondag tot en met dinsdag, zeven weken voor Pasen: wie dan ophaalt of levert, houdt rekening met afgesloten straten.",
+            "Verder naar het noorden ligt RAI Amsterdam aan de A10, met parkeergarages die op kentekenherkenning werken en vooraf online te reserveren zijn. Circuit Zandvoort heeft behalve grote wedstrijden ook circuitdagen waarop u zelf rijdt, en mag maar een beperkt aantal geluidsdagen per jaar gebruiken. Dat bepaalt mee wanneer evenementen er kunnen plaatsvinden."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Schueberfouer op het Glacis",
+          "body": "De Schueberfouer, de grote kermis van Luxemburg-stad, staat elk jaar ongeveer twintig dagen op het Glacis in Limpertsberg, van rond 24 augustus tot begin september. Het Glacis is anders een stadsparking. In die weken is een laad- of ophaalplek daar dus geen optie."
+        },
+        {
+          "kind": "event",
+          "title": "Luxembourg Classic",
+          "body": "De Luxembourg Classic is een oldtimerrally in september, georganiseerd door Motor Presse Stuttgart. Meer dan honderdtwintig teams reden in de laatste vermelde editie mee, met de finale op de Place Guillaume II, het Knuedler, in de hoofdstad. Wie een klassieker naar de start of van de finish wil laten vervoeren, plant rond die stadsplek."
+        },
+        {
+          "kind": "regel",
+          "title": "Zero-emissiezones in Nederland",
+          "body": "Rotterdam, Den Haag, Delft, Leiden en Gouda hebben sinds 1 januari 2025 een zero-emissiezone voor bestel- en vrachtauto's, Alphen aan den Rijn volgt. Voor een autotransporter naar een Randstadlocatie betekent dat: eerst nagaan of de vrachtwagen zelf de zone in mag."
+        },
+        {
+          "kind": "plek",
+          "title": "Jaarbeurs Utrecht en de Motorbeurs",
+          "body": "De Jaarbeurs in Utrecht ligt op loopafstand van station Utrecht Centraal en heeft eigen parkeerterreinen. Hier houdt Nederland de grote Motorbeurs. Voor een motor of een wagen op de oplegger vraagt u de organisatie naar de laadzone bij de hal."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Via welk land loopt een transport van Luxemburg naar Nederland?",
+          "a": "Via België. De Luxemburgse A6 gaat bij de grens over in de Belgische A4, daarna volgt u de E25 rond Luik en de A25 naar Visé. Aan Nederlandse kant begint de A2 bij Maastricht."
+        },
+        {
+          "q": "Is er een zondagsverbod voor vrachtwagens in Nederland?",
+          "a": "Nederland kent geen algemeen weekend- of feestdagenverbod voor vrachtverkeer. Een zondagsaankomst voor een event in Maastricht of Eindhoven is dus mogelijk, zolang het Belgische deel van de route en uw laadvenster het toelaten."
+        },
+        {
+          "q": "Wat is de kortste weg van Luxemburg-stad naar MECC Maastricht?",
+          "a": "Via de A6 naar België, dan de E25 langs Luik en Visé naar Maastricht, waar de Koning Willem-Alexandertunnel de A2 sinds 2016 doorlopend maakt. MECC ligt in de wijk Randwyck."
+        },
+        {
+          "q": "Wat betekent de Belgische kilometerheffing voor mijn rit?",
+          "a": "Ze geldt voor vrachtvoertuigen boven 3,5 ton op wegen in Vlaanderen, Brussel en de SOFICO-wegen in Wallonië. Registratie loopt via een On-Board Unit, en een transport tussen Nederland en Luxemburg raakt dat stuk."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Nederland: wagens naar MECC Maastricht, Zandvoort, RAI en rally's, via België en de A2, op open autotransport.",
+      "sources": [
+        "https://www.vdl.lu/fr/se-deplacer/en-voiture",
+        "https://en.wikipedia.org/wiki/Kirchberg,_Luxembourg",
+        "https://en.wikipedia.org/wiki/Schueberfouer",
+        "https://web.de/magazine/auto/luxembourg-classic-rallye-2026-roehrl-geistdoerfer-endlich-vereint-42715178",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Netherlands)",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://www.viapass.be/",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.mecc.nl/",
+        "https://nl.wikipedia.org/wiki/MECC_Maastricht",
+        "https://nl.wikipedia.org/wiki/Mergellandroute",
+        "https://nl.wikipedia.org/wiki/Vaalserberg",
+        "https://nl.wikipedia.org/wiki/Raceway_Venray",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://nl.wikipedia.org/wiki/Dutch_Design_Week",
+        "https://www.tulpenrallye.nl/",
+        "https://nl.wikipedia.org/wiki/Carnaval",
+        "https://www.rai.nl/bereikbaarheid",
+        "https://nl.wikipedia.org/wiki/Circuit_Zandvoort",
+        "https://nl.wikipedia.org/wiki/Jaarbeurs_(Utrecht)"
+      ]
+    },
+    "luxemburg-frankrijk": {
+      "lead": "Een Bugatti voor Molsheim, een historische sportwagen voor Le Mans of een stand op Rétromobile: vanuit het zuiden van Luxemburg beginnen die ritten op dezelfde weg, de A3 naar Dudelange en de Franse A31 bij Zoufftgen. Het is een korte, drukke aanloop naar een land waar een rijverbod en een vrijstelling voor evenementen elkaar precies aanvullen.",
+      "facts": [
+        {
+          "label": "A3",
+          "value": "15 km van Luxemburg-stad tot de Franse grens bij Dudelange"
+        },
+        {
+          "label": "A31",
+          "value": "349 km van Zoufftgen tot Beaune, gratis tot Toul"
+        },
+        {
+          "label": "Luxemburgs verbod",
+          "value": "Doorvoer naar Frankrijk boven 7,5 ton: zaterdag 21.30 tot zondag 21.45 uur"
+        },
+        {
+          "label": "Eventvrijstelling",
+          "value": "Frankrijk vrijstelling geldt als het event binnen vier dagen valt"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in de Minett",
+          "body": [
+            "Het zuiden van Luxemburg, rond Esch-sur-Alzette, Dudelange, Bettembourg en Pétange, grenst aan Lotharingen. Het is de logische vertrekstreek voor wie naar Frankrijk wil. Let wel op het adres: de rue de l'Alzette in Esch is een voetgangersstraat van 800 meter, en een autotransporter komt daar niet zomaar aan de deur.",
+            "Belval, op het grondgebied van Esch en Sanem, is een voormalig staalterrein dat is omgevormd tot een wijk met de universiteit en de Rockhal, de grootste concertzaal van het land. Voor een lancering of shoot in zo'n omgeving spreekt u de oprit en het laadpunt vooraf af. In Sanem zit ook een tweede site van het Centre de Formation pour Conducteurs, dat rijveiligheidsopleidingen voor bedrijven geeft."
+          ]
+        },
+        {
+          "heading": "GRIDX in Wickrange en de Luxembourg Classic",
+          "body": [
+            "GRIDX in Wickrange, aan de rue des Trois Cantons, is een belevingscomplex rond mobiliteit, retail, events, horeca, musea en een hotel. Er zit onder meer het museum The Golden Age of Rally met ex-fabrieksrallywagens, en merken ter plaatse zijn onder meer Ducati en Alpine. Wie er een wagen heen wil laten brengen voor een presentatie of fotosessie, heeft één adres voor veel aanleidingen. Voor het vervoer vraagt u een offerte op maat; Mcars antwoordt binnen 24 uur, en rijdt elke week over heel Frankrijk.",
+            "De Luxembourg Classic van september startte en eindigde in een recente editie bij GRIDX. Toegelaten waren wagens gebouwd vóór 2003; in de zandloperklasse enkel met analoge instrumenten. Een deelnemer die zijn klassieker naar de start wil laten vervoeren, rijdt de A3 niet zelf, maar laadt hem in Wickrange op de oplegger."
+          ]
+        },
+        {
+          "heading": "A3 en A31: korte aanloop, drukke weg",
+          "body": [
+            "De Luxemburgse A3 loopt van achter het station van Luxemburg-stad naar de Franse grens en gaat bij Dudelange over in de A31. Het traject is 15 km lang, waarvan 13,2 km autosnelweg. Een verbreding van twee naar drie rijstroken is gepland. De Franse A31 bestaat sinds 1966, begint bij Zoufftgen en loopt via Thionville en Metz, langs Nancy en Toul naar Beaune. Ze draagt E17, E21, E23 en vanaf Langres E25.",
+            "Bij het knooppunt Hauconcourt komen ongeveer honderdduizend voertuigen per dag langs: een van de drukste wegen van Frankrijk. Veel Franse grensarbeiders rijden dagelijks naar Luxemburg, met files rond Thionville en op de terugweg uit Luxemburg tussen 15 en 20 uur. Vrachtwagens mogen er sinds 2009 overdag, van 7 tot 20 uur, niet inhalen. Het deel Toul-Zoufftgen is gratis; Beaune-Toul is tolweg onder APRR."
+          ]
+        },
+        {
+          "heading": "Twee verbodsregimes en één vrijstelling",
+          "body": [
+            "Luxemburg verbiedt vrachtwagens boven 7,5 ton in doorvoer naar Frankrijk van zaterdag, of de dag voor een feestdag, 21.30 uur tot zondag of de feestdag 21.45 uur. Binnenlands vervoer, vervoer met bestemming Luxemburg en doorvoer naar België zijn vrijgesteld. Op de openbare weg staan, ook op snelwegparkings, mag in die periode niet.",
+            "Frankrijk past zijn algemeen rijverbod toe op goederenvoertuigen boven 7,5 ton en voegt in de zomer op een aantal zaterdagen een verbod van 7 tot 19 uur toe, op het hele net. Voor evenementen is er een permanente afwijking: vrachtwagens met voertuigen of materiaal voor economische, sportieve of culturele evenementen zijn vrijgesteld, op voorwaarde dat het evenement ten laatste vier dagen vóór of na de rit plaatsvindt. Houd dus een bewijs van het evenement bij de hand."
+          ]
+        },
+        {
+          "heading": "Wat u in Grand Est en Bourgondië tegenkomt",
+          "body": [
+            "Grand Est is de eerste Franse regio. De Col de la Schlucht (1.139 m) op de D417 tussen Gérardmer en Munster is de bekendste Vogezenpas en sluit in de winter slechts uitzonderlijk. In Mulhouse toont het Musée national de l'Automobile meer dan 500 voertuigen, waaronder 123 Bugatti's, en sinds 2011 ligt er een autodroom van 450 meter voor het jaarlijkse autofestival. Molsheim is de thuisbasis van Bugatti, met de eindassemblage en de Fondation Bugatti.",
+            "Verder langs de A31 liggen in Bourgondië het circuit Dijon-Prenois (3,8 km, historische races, Grand Prix de l'Âge d'Or) en Nevers Magny-Cours, waar van 1991 tot 2008 de Franse F1 reed. Daar horen ook de Classic Days en het Conservatoire de la monoplace française bij."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Rétromobile in Parijs",
+          "body": "Rétromobile is de oldtimerbeurs van Parijs, sinds 1981 in Paris Expo Porte de Versailles (paviljoenen 1, 2 en 3), doorgaans in februari. De beurs bestaat sinds 1976 en haalde een bezoekersrecord in zijn vijftigste editie. Wie een klassieker wil tonen, laat hem naar de hal brengen."
+        },
+        {
+          "kind": "event",
+          "title": "Mondial de l'Auto",
+          "body": "Het autosalon van Parijs vindt om de twee jaar plaats, in oktober van de even jaren, in Paris Expo Porte de Versailles. De eerste editie dateert van 1898. Het is dus een vaste afspraak voor wie een concept- of showwagen vanuit Luxemburg wil laten brengen."
+        },
+        {
+          "kind": "event",
+          "title": "24 Uur en Classic van Le Mans",
+          "body": "De 24 Uur van Le Mans wordt sinds 1923 elk jaar in juni gereden, het circuit van 13,626 km loopt grotendeels over openbare weg. Le Mans Classic brengt begin juli historische sportwagens samen, tweejaarlijks, met ongeveer 8.500 clubwagens. Het circuit wordt elk jaar een tiental dagen afgesloten."
+        },
+        {
+          "kind": "event",
+          "title": "Chantilly Arts & Elegance",
+          "body": "Chantilly Arts & Elegance is een concours d'élégance van Peter Auto op het domein van het Château de Chantilly, meestal in september en sinds 2019 om de twee jaar. Er hoort een concours d'état, een clubtreffen en een veiling bij. Mcars haalt de wagen op in Luxemburg en brengt hem op een open oplegger naar het Franse domein."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik een wagen op zaterdagavond van Luxemburg naar Frankrijk laten vervoeren?",
+          "a": "Vrachtwagens boven 7,5 ton in doorvoer naar Frankrijk mogen niet rijden van zaterdag 21.30 tot zondag 21.45 uur, ook niet vóór een feestdag. Plan het vertrek dus op vrijdag of uiterlijk zaterdag overdag."
+        },
+        {
+          "q": "Geldt de Franse eventvrijstelling ook voor één showwagen?",
+          "a": "De afwijking geldt voor vrachtwagens die voertuigen of materiaal vervoeren voor economische, sportieve of culturele evenementen, als dat evenement binnen vier dagen voor of na de rit valt. Houd bewijs van het evenement bij u."
+        },
+        {
+          "q": "Hoe druk is de A31 vlak over de Luxemburgse grens?",
+          "a": "Zeer druk. Rond Thionville zijn er files van Franse grensarbeiders, en op de terugweg uit Luxemburg tussen 15 en 20 uur. Vrachtwagens mogen er overdag niet inhalen, dus de snelheid is vaak die van de voorligger."
+        },
+        {
+          "q": "Is er tol tussen de grens en Beaune?",
+          "a": "Het deel Toul-Zoufftgen is gratis. Van Toul tot Beaune is de A31 een tolweg onder APRR, met de tolpoort van Gye. Voor een transport verder naar Lyon is de A6 daar eveneens tolweg."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Frankrijk: wagens naar Rétromobile, Le Mans en Molsheim via A3 en A31, met uitleg over rijverboden en vrijstelling.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/A3_(Luxemburg)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://fr.wikipedia.org/wiki/Esch-sur-Alzette",
+        "https://en.wikipedia.org/wiki/Belval,_Luxembourg",
+        "https://www.cfc.lu/",
+        "https://www.gridx.lu/",
+        "https://www.chronicle.lu/event/13614-5th-luxembourg-vintage-car-rally",
+        "https://fr.wikipedia.org/wiki/Col_de_la_Schlucht",
+        "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_l%27automobile",
+        "https://fr.wikipedia.org/wiki/Molsheim",
+        "https://fr.wikipedia.org/wiki/Circuit_de_Dijon-Prenois",
+        "https://fr.wikipedia.org/wiki/Circuit_de_Nevers_Magny-Cours",
+        "https://fr.wikipedia.org/wiki/R%C3%A9tromobile",
+        "https://fr.wikipedia.org/wiki/Mondial_de_l%27automobile_de_Paris",
+        "https://fr.wikipedia.org/wiki/24_Heures_du_Mans",
+        "https://fr.wikipedia.org/wiki/Le_Mans_Classic",
+        "https://fr.wikipedia.org/wiki/Chantilly_Arts_%26_Elegance_Richard_Mille"
+      ]
+    },
+    "luxemburg-duitsland": {
+      "lead": "Een wagen voor de Nordschleife, een stand op de Essen Motor Show of een rondje Hockenheim: vanuit het oosten van Luxemburg ligt Duitsland letterlijk aan de overkant van de Moezel. Dat klinkt dichtbij, maar Duitsland zet zijn rijverboden en tol anders in dan Luxemburg. Wie die twee dingen kent, plant een ritje naar de Eifel of Rijnland-Palts veel rustiger.",
+      "facts": [
+        {
+          "label": "A13",
+          "value": "41 km van Pétange naar Schengen, daar de Duitse A8"
+        },
+        {
+          "label": "A1",
+          "value": "37 km tot Wasserbillig, daarna de Duitse A64 naar Trier"
+        },
+        {
+          "label": "Luxemburgs verbod",
+          "value": "Doorvoer naar Duitsland: zaterdag 23.30 tot zondag 21.45 uur"
+        },
+        {
+          "label": "Duits zondagsverbod",
+          "value": "Zondag en feestdagen van 0 tot 22 uur, boven 7,5 ton"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Moezelland en Mullerthal",
+          "body": [
+            "Het oosten van Luxemburg grenst over de volledige lengte aan Duitsland; Moezel en Sûre vormen er de grens. In het uiterste zuidoosten ligt Schengen, bij het drielandenpunt met Duitsland (Perl) en Frankrijk (Apach). Het akkoord van Schengen werd er in 1985 getekend en er is een Europees museum. Een wagen op een adres in het dorp is dus een kwestie van nauwe wegen aan de Moezel.",
+            "Mondorf-les-Bains is een kuuroord tegen de Franse grens en heeft het enige casino van het land, Casino 2000. In het thermaal park, het Parc Thermal, stond in september het Concours Elegance & Power Mondorf op de agenda: een tentoonstelling van prestige- en verzamelwagens, georganiseerd door de Rotary Club Esch-sur-Alzette voor het goede doel. Voor een show- of verzamelwagen op de oplegger is dit een plek met bestemming."
+          ]
+        },
+        {
+          "heading": "A13, A1 en wat erachter ligt",
+          "body": [
+            "De A13 is met 41 km de langste snelweg van Luxemburg. Ze loopt van Pétange in het westen naar Schengen en steekt daar de Moezel over op een viaduct. Daarna gaat ze over in de Duitse A8, die begint bij Perl en E29 draagt. De A1 (ongeveer 37 km, E44) loopt van Croix de Gasperich naar Wasserbillig en wordt daar de Duitse A64 richting Trier.",
+            "De A64 is ongeveer 14 km lang, met de Sauertalbrücke van 1.195 m lengte en 98 m hoogte, en heeft maar één aansluiting: Trier (B51). Ze heeft geen rechtstreekse aansluiting op de Duitse A1. Wie verder moet, gebruikt de B51 of de A64a/A602. De A8 is 505 km lang en loopt via Saarlouis, Saarbrücken, Neunkirchen, Karlsruhe en Stuttgart naar München, terwijl de A6 (484 km) het alternatief naar Neurenberg is."
+          ]
+        },
+        {
+          "heading": "Wanneer een vrachtwagen niet mag rijden",
+          "body": [
+            "Luxemburg verbiedt transit richting Duitsland voor vrachtwagens boven 7,5 ton van zaterdag, of de dag voor een feestdag, 23.30 uur tot zondag of de feestdag 21.45 uur. Een bestemming in Luxemburg is vrijgesteld. Parkeren op de openbare weg is in die periode niet toegelaten, dus een vrachtwagen die op zaterdagavond blijft staan, zoekt een terrein buiten de openbare weg.",
+            "Duitsland verbiedt op zondagen en wettelijke feestdagen van 0 tot 22 uur het rijden voor vrachtwagens boven 7,5 ton en voor elke vrachtwagen met aanhanger voor commercieel goederenvervoer, op alle openbare wegen. In de zomer komt daar elke zaterdag van 1 juli tot 31 augustus tussen 7 en 20 uur een verbod op 32 genoemde trajecten bij. Voor de tol geldt dat voertuigen boven 3,5 ton betalen op alle Bundesstraßen en vrijwel alle autosnelwegen, met een CO2-toeslag; betalen gaat met een OBU of de TollNow-app."
+          ]
+        },
+        {
+          "heading": "De Nürburgring en de Eifel",
+          "body": [
+            "De Nürburgring ligt in de Eifel, in de gemeente Nürburg in Rijnland-Palts. De Nordschleife is 20,8 km lang. Is ze niet bezet door events of tests, dan mag iedereen er tegen betaling rijden met een voor de openbare weg toegelaten wagen, de zogeheten Touristenfahrten. Op weekdagen gebruikt de auto-industrie het circuit voor testritten en rijtrainingen.",
+            "De 24 uur van de Nürburgring valt meestal in een weekend in mei of juni, op de combinatie van Nordschleife en Grand-Prix-baan (25,378 km), georganiseerd door de ADAC Nordrhein. De campings gaan de maandag ervoor al open. In april opent het motorseizoen met het evenement Anlassen, en begin augustus is er de Oldtimer-Grand-Prix, sinds 1973 een van de grootste historische race-events van Europa."
+          ]
+        },
+        {
+          "heading": "Rijnland-Palts, Baden en het Ruhrgebied",
+          "body": [
+            "Technik Museum Speyer toont oldtimers naast vliegtuigen, een onderzeeër en de Buran. De Hockenheimring (4,574 km, DTM-opener en -finale sinds 2000) organiseert jaarlijks het dragrace-evenement NitrOlympX, en sinds 2007 ook Formula Student Germany. De Formule 1 reed er van 1970 tot 2019.",
+            "In Noordrijn-Westfalen vindt eind november en begin december de Essen Motor Show plaats, met auto's, motorsport, tuning en old- en youngtimers. NRW heeft de meeste Umweltzonen van Duitsland, waaronder Aken, Keulen, Düsseldorf en het Ruhrgebied; alleen een groene sticker geeft toegang. Hessen telt er zes."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Touristenfahrten op de Nordschleife",
+          "body": "Als de Nordschleife niet bezet is door events of tests, mag iedereen er tegen betaling rijden met een voor de openbare weg toegelaten wagen. Een sportwagen die u daar wil gebruiken, komt dus niet noodzakelijk op eigen wielen aan. Controleer vooraf of de baan open is op uw dag."
+        },
+        {
+          "kind": "event",
+          "title": "Essen Motor Show",
+          "body": "De Essen Motor Show vindt elk jaar eind november en begin december plaats in Messe Essen en geldt als tweede autobeurs van Duitsland na de IAA. Er is plaats voor auto's, motorsport, tuning en old- en youngtimers. Voor een tuningwagen of klassieker is dit een jaarlijkse bestemming."
+        },
+        {
+          "kind": "regel",
+          "title": "Umweltzonen in Duitsland",
+          "body": "Noordrijn-Westfalen heeft de meeste Umweltzonen van Duitsland, onder meer Aken, Bonn, Keulen, Düsseldorf en de grote zone Ruhrgebied. Enkel de groene sticker geeft toegang. Een wagen die op eigen wielen naar een beurs in zo'n stad rijdt, moet die sticker dus hebben."
+        },
+        {
+          "kind": "event",
+          "title": "Oldtimer-Grand-Prix",
+          "body": "De Oldtimer-Grand-Prix op de Nürburgring, begin augustus sinds 1973, brengt ongeveer 500 historische racewagens samen. Voor een deelnemer uit Luxemburg loopt het transport over de A1 en de A64 via Trier."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter op zaterdagavond van Luxemburg naar Duitsland rijden?",
+          "a": "Niet in doorvoer: vrachtwagens boven 7,5 ton mogen van zaterdag 23.30 tot zondag 21.45 uur niet richting Duitsland. Een bestemming in Luxemburg zelf is vrijgesteld. Plan het vertrek voor of na die periode."
+        },
+        {
+          "q": "Wanneer geldt het Duitse zomerverbod op zaterdag?",
+          "a": "Elke zaterdag van 1 juli tot 31 augustus, van 7 tot 20 uur, op 32 genoemde snelweg- en bondswegtrajecten. Daarnaast geldt zondag en op feestdagen van 0 tot 22 uur een algemeen verbod."
+        },
+        {
+          "q": "Hoe rijd ik van Luxemburg-stad naar de Nürburgring?",
+          "a": "Via de A1 en E44 naar Wasserbillig, over de Duitse A64 naar Trier, en vandaar door de Eifel naar Nürburg. De A64 heeft geen aansluiting op de Duitse A1, dus verder rijdt u via de B51."
+        },
+        {
+          "q": "Betaalt een personenwagen op de oplegger Duitse tol?",
+          "a": "Het is de vrachtwagen die tol betaalt, niet de wagen op de oplegger. Voertuigen boven 3,5 ton betalen op Bundesstraßen en bijna alle autosnelwegen, met OBU of TollNow-app."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Duitsland: wagens naar de Nürburgring, Essen en Hockenheim, met uitleg over A64, rijverboden en tol.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Schengen,_Luxembourg",
+        "https://en.wikipedia.org/wiki/Mondorf-les-Bains",
+        "https://www.info-lux.com/mondorf-les-bains-animation-concours-elegance-power-mondorf-2026/pays/luxembourg-belgique/canton-remich/mondorf/",
+        "https://nl.wikipedia.org/wiki/A13_(Luxemburg)",
+        "https://nl.wikipedia.org/wiki/A1_(Luxemburg)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_6",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://www.toll-collect.de/en/",
+        "https://de.wikipedia.org/wiki/Nürburgring",
+        "https://de.wikipedia.org/wiki/24-Stunden-Rennen_auf_dem_Nürburgring",
+        "https://de.wikipedia.org/wiki/AvD-Oldtimer-Grand-Prix",
+        "https://de.wikipedia.org/wiki/Technik-Museum_Speyer",
+        "https://de.wikipedia.org/wiki/Hockenheimring_Baden-Württemberg",
+        "https://de.wikipedia.org/wiki/Essen_Motor_Show",
+        "https://gis.uba.de/website/umweltzonen/index.php"
+      ]
+    },
+    "luxemburg-spanje": {
+      "lead": "Een sportwagen voor het circuit van Montmeló, een prototype voor een lancering in Barcelona of een klassieker voor een rally op Mallorca: een rit van Luxemburg naar Spanje duurt langer dan één dag en volgt één hoofdas, dwars door Frankrijk. Wie een event in het zuiden plant, kijkt naar de Rhônevallei en de zomerdrukte, niet alleen naar de afstand.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A3, A31, A6, A7, A9 en AP-7 door Frankrijk"
+        },
+        {
+          "label": "A7 in de zomer",
+          "value": "Tussen Vienne en Orange tot 180.000 voertuigen per dag"
+        },
+        {
+          "label": "Le Perthus",
+          "value": "Daar gaat de Franse A9 over in de Spaanse AP-7"
+        },
+        {
+          "label": "Spaanse verboden",
+          "value": "Geen algemeen weekendverbod, wel per traject, datum en uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in het noorden van Luxemburg",
+          "body": [
+            "Het noorden, de Nordstad en de Éislek rond Ettelbruck, Diekirch, Colmar-Berg en Wiltz, ligt 20 tot 50 km van de hoofdstad. Een transport naar Spanje rijdt van daaruit eerst naar Luxemburg-stad en dan op de A3 naar Frankrijk. In Colmar-Berg ligt het Circuit Goodyear (geopend in 1976, volledige omloop 4,035 km), eigendom van Goodyear en dient als testbaan. De laatste wedstrijd was een ronde van de TCR Benelux in 2016. Het is dus geen publiek trackdaycircuit.",
+            "In Diekirch, op de linkeroever van de Sûre, ligt het Conservatoire National de Véhicules Historiques aan de rue de Stavelot 20-22. Het is het nationale museum voor historische voertuigen, deelt het gebouw met het museum van de brouwerij Diekirch en is open van dinsdag tot zondag."
+          ]
+        },
+        {
+          "heading": "De Rhônevallei: A31, A6, A7 en A9",
+          "body": [
+            "Voor deze rit verbinden de Franse snelwegen zich logisch. U rijdt de A31 tot Beaune (gratis tot Toul, daarna tolweg onder APRR) en neemt dan de A6 naar Lyon. Die A6 is ongeveer 445 km lang en tolweg onder APRR, behalve tussen de afritten 9 en 13. In Lyon is de Fourvière-tunnel sinds 2006 beperkt tot 70 km/u, en de 16 km A6/A7 door de stad zijn sinds 2020 stadsboulevards.",
+            "De A7, de autoroute du Soleil, is ongeveer 306 km lang en loopt van Lyon naar Marseille. De middensectie is tolweg. Bij Orange takt de A9 af naar Nîmes, Montpellier en Spanje. Ze is 280,5 km lang en gaat bij Le Perthus over in de Spaanse AP-7 naar Girona en Barcelona."
+          ]
+        },
+        {
+          "heading": "Zomerdrukte en rijverboden in Frankrijk",
+          "body": [
+            "Tussen Vienne en Orange kan het op de A7 in de zomer tot 180.000 voertuigen per dag worden. De chassé-croisé eind juli en begin augustus levert files van honderden kilometers op. Sinds 2004 verlaagt een regeling de snelheid op drukke dagen tot 110, 90 of 70 km/u. De A9 staat bekend als gevaarlijk door het vele vrachtverkeer, met gevoelige knooppunten bij Orange en Montpellier en files bij Le Perthus door grenscontroles.",
+            "Franse goederenvoertuigen boven 7,5 ton hebben bovendien een weekendverbod en in de zomer verbod op bepaalde zaterdagen van 7 tot 19 uur op het hele net. Dat valt precies in de vakantiepiek van de A7 en A9. Wie een wagen in juli of augustus naar het zuiden brengt, kijkt daarom de verbodsdagen van dat jaar na. Mcars rijdt open, meerlaagse autotransporters met een lier aan boord."
+          ]
+        },
+        {
+          "heading": "Catalonië: de eerste regio na de grens",
+          "body": [
+            "Catalonië ligt aan de Spaanse kant het dichtst bij Frankrijk. Het circuit van Barcelona-Catalunya in Montmeló en Granollers opende in 1991 en ontvangt de MotoGP. Het Circuit de Calafat bij L'Ametlla de Mar heeft 3.250 m, een rallycrosstracé, een slipbaan en een 4x4-parcours. Automobile Barcelona, het autosalon op Montjuïc, bestaat sinds 1919.",
+            "De lage-emissiezone ZBE Rondes de Barcelona beslaat meer dan 95 km² en geldt op werkdagen van 7 tot 20 uur voor voertuigen zonder DGT-milieusticker, sinds 2022 ook voor vrachtwagens. Voor buitenlandse voertuigen bestaat een metropolitaan register. De voorwaarden daarvan staan in het reglement van dat register; neem ze vóór de rit door."
+          ]
+        },
+        {
+          "heading": "Verder zuidwaarts: Valencia, Madrid, Aragón en Jerez",
+          "body": [
+            "Bij het Circuit Ricardo Tormo in Cheste, 20 km van Valencia, sluit de MotoGP traditioneel het seizoen af, met aparte verkeersbeperkingen op de A-3 en de CV-50. Feria Valencia heeft 231.000 m² overdekte ruimte en Motor Época, de Feria del Vehículo Histórico. In Madrid is het Madring-circuit de thuisbasis van de Spaanse Formule 1-Grand Prix in september, en de IFEMA-hallen hebben een eigen motorkalender met onder meer Retromóvil en Motortec.",
+            "MotorLand Aragón bij Alcañiz en het Circuito de Jerez hebben rond hun grote weekends eigen wegbeperkingen, in Jerez op de A-382. Spanje kent geen algemeen weekendverbod voor vrachtwagens boven 7,5 ton, maar wel verboden per traject, datum en uur, zoals op de Andalusische kustwegen op zaterdagen in de zomer en op de toegangswegen van Madrid op zondagavond."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Automobile Barcelona",
+          "body": "Automobile Barcelona is het autosalon van Barcelona in de hallen van Fira de Barcelona op Montjuïc. Het is tweejaarlijks, in de oneven jaren, in mei, en het enige Spaanse salon dat door de OICA is erkend. Wie een nieuwe wagen wil tonen, laat hem naar Montjuïc brengen."
+        },
+        {
+          "kind": "regel",
+          "title": "Rode platen type S",
+          "body": "Rode platen van het type S dekken ook verplaatsingen voor onderhoud en tentoonstelling van museumstukken die niet in Spanje zijn ingeschreven. Een buitenlands voertuig moet dan het bewijs van tijdelijke inschrijving uit het land van herkomst bij zich hebben. Voor een rit op de oplegger speelt dat niet."
+        },
+        {
+          "kind": "tip",
+          "title": "Cap de Formentor",
+          "body": "De weg naar Cap de Formentor op Mallorca, de Ma-2210 bij Pollença, is een bekende fotoroute. Van half mei tot half oktober is hij overdag beperkt toegankelijk. Mallorca bereikt een wagen enkel per schip, zodat de rit over de weg in een haven op het vasteland eindigt."
+        },
+        {
+          "kind": "plek",
+          "title": "Circuit de Barcelona-Catalunya",
+          "body": "Het circuit van Montmeló en Granollers ligt in de provincie Barcelona en ontvangt de MotoGP-Gran Premio de Cataluña. Jarenlang kreeg het ook de Spaanse F1. Mcars brengt de wagen er op een open, meerlaagse autotransporter heen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang is de route van Luxemburg naar Barcelona over de weg?",
+          "a": "Het is één lange rit via de A31, A6, A7 en A9 naar Le Perthus en dan de AP-7. De totale afstand hangt af van uw bestemming in Spanje, dus de chauffeur plant de overnachting volgens de rijverboden onderweg."
+        },
+        {
+          "q": "Kan ik in de zomer een wagen naar de Costa laten brengen?",
+          "a": "Ja, maar de A7 tussen Vienne en Orange kent dan tot 180.000 voertuigen per dag en eind juli en begin augustus een chassé-croisé. Reken op files van honderden kilometers."
+        },
+        {
+          "q": "Heb ik voor Barcelona een sticker nodig?",
+          "a": "De ZBE Rondes de Barcelona geldt op werkdagen van 7 tot 20 uur voor voertuigen zonder DGT-milieusticker, ook voor vrachtwagens. Voor buitenlandse voertuigen bestaat een register."
+        },
+        {
+          "q": "Mag een autotransporter in Spanje op zondag rijden?",
+          "a": "Spanje heeft geen algemeen weekendverbod voor vrachtwagens boven 7,5 ton. Wel gelden verboden per traject, datum en uur volgens de DGT, zoals op de toegangswegen van Madrid op zondagavonden in de zomer."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Spanje: wagens naar Barcelona, Valencia en Madrid via A31, A7 en A9, met uitleg over zomerdrukte en verboden.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Circuit_Goodyear",
+        "https://fr.wikipedia.org/wiki/Colmar-Berg",
+        "https://www.cfc.lu/",
+        "https://www.visitluxembourg.com/fr/attraction/conservatoire-national-de-vehicules-historiques-diekirch",
+        "https://fr.wikipedia.org/wiki/Diekirch",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/spain",
+        "https://es.wikipedia.org/wiki/Automobile_Barcelona",
+        "https://es.wikipedia.org/wiki/Circuito_de_Barcelona-Catalu%C3%B1a",
+        "https://es.wikipedia.org/wiki/Circuito_de_Calafat",
+        "https://www.zbe.barcelona/es/zones-baixes-emissions/la-zbe.html",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://www.dgt.es/nuestros-servicios/para-colaboradores-y-empresas/fabricantes-talleres-concesionarios-y-entidades-financieras/solicitud-de-placas-rojas-y-libro-talonario/",
+        "https://es.wikipedia.org/wiki/Circuito_Ricardo_Tormo",
+        "https://es.wikipedia.org/wiki/Feria_Valencia",
+        "https://es.wikipedia.org/wiki/Madring",
+        "https://www.ifema.es/calendario/motor-automovil-transporte",
+        "https://es.wikipedia.org/wiki/MotorLand_Arag%C3%B3n",
+        "https://es.wikipedia.org/wiki/Circuito_de_Jerez"
+      ]
+    },
+    "luxemburg-italie": {
+      "lead": "Een prototype voor EICMA in Milaan, een klassieker voor de 1000 Miglia of een sportwagen voor een tribune in Monza: tussen Luxemburg en Noord-Italië liggen twee alpenroutes, elk met tunnels, rijverboden en wintergrenzen die de planning bepalen. Wie een wagen naar een Italiaans event laat brengen, kiest eerst de as en pas daarna de dag.",
+      "facts": [
+        {
+          "label": "Twee assen",
+          "value": "Via Elzas en Bazel naar de Gotthard, of via Mont Blanc en Fréjus"
+        },
+        {
+          "label": "Gotthardtunnel",
+          "value": "Eén buis, 80 km/u, maximaal 150 vrachtwagens per uur"
+        },
+        {
+          "label": "Italiaans verbod",
+          "value": "Zon- en feestdagen boven 7,5 ton, in de zomer ook zaterdag"
+        },
+        {
+          "label": "Winterbanden",
+          "value": "Verplicht in Luxemburg bij winterse omstandigheden, zonder vaste periode"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Wiltz en het noorden van Luxemburg",
+          "body": [
+            "Een wagen die vanuit Wiltz of de omgeving naar Noord-Italië vertrekt, begint met een rit naar het zuiden van Luxemburg. In Wiltz trekt op pinkstermaandag de bloemencorso van het Fête du Genêt, het bremfeest, door de stad, en het Festival de Wiltz speelt in een openluchttheater met meer dan 1.200 plaatsen in de kasteeltuinen. Op die dagen is het centrum geen ophaalplek voor een oplegger.",
+            "Het vliegveld van Noertrange, in de gemeente Winseler bij Wiltz, dient enkel voor recreatieve luchtvaart. Voor een wagen die per vliegtuig aankomt, is het dus geen bestemming."
+          ]
+        },
+        {
+          "heading": "Winterbanden en uitrusting bij een alpenrit",
+          "body": [
+            "In Luxemburg mag u bij winterse omstandigheden, zoals ijzel, aangereden of smeltende sneeuw en ijs- of rijmplekken, alleen rijden met winter- of vierseizoensbanden op alle wielen. Die dragen de markering M+S, M.S. of M&S, of het alpine symbool. Er is geen vaste kalenderperiode en de regel geldt ook voor voertuigen met een buitenlandse plaat, niet voor geparkeerde voertuigen.",
+            "Voor vrachtwagens, bussen en zware kampeerwagens boven 3.500 kg volstaan winterbanden op de wielen van alle aangedreven assen. Voor een wagen die op de oplegger staat, is dat een regel van de vrachtwagen, niet van de showwagen. In de Alpen kan het weer binnen enkele uren omslaan, dus een winterreis naar Noord-Italië houdt rekening met die banden."
+          ]
+        },
+        {
+          "heading": "Twee assen: Gotthard of Mont Blanc en Fréjus",
+          "body": [
+            "De noordelijke as loopt via de Elzas: de Franse A35, ongeveer 172 tot 180 km, is tolvrij van Lauterbourg via Straatsburg, Colmar en Mulhouse naar Saint-Louis, waar ze overgaat in de Zwitserse A3 naar Bazel. Bij Straatsburg is ze vaak verzadigd en geldt 70 km/u; doorgaand vrachtverkeer op de Straatsburgse M35 is sinds de opening van de A355 verboden.",
+            "De Gotthard-wegtunnel (ongeveer 16,9 km, sinds 1980 open) is één buis met verkeer in beide richtingen, inhaalverbod en 80 km/u. Sinds een ongeval met brand in 2001 mogen er maximaal 150 vrachtwagens per uur binnen. Rond Pasen en in de zomer zijn files aan beide uiteinden gebruikelijk. Een tweede buis is goedgekeurd."
+          ]
+        },
+        {
+          "heading": "Mont Blanc en Fréjus als alternatief",
+          "body": [
+            "De Mont Blanc-tunnel (ongeveer 11,6 km, sinds 1965) verbindt Chamonix met Courmayeur. Na de brand van 24 maart 1999 was hij ongeveer drie jaar dicht. Vrachtwagens met gevaarlijke stoffen zijn er verboden en voertuigen moeten minstens 150 m afstand houden. Ook in latere jaren waren er onderhoudssluitingen van samen enkele weken.",
+            "De Fréjustunnel (ongeveer 12,9 km, sinds 1980) verbindt de Franse A43 met de Italiaanse A32 en is een tolweg. Een tweede buis werd ingehuldigd in Bardonecchia, zodat nu één buis verkeer naar Italië draagt en de andere naar Frankrijk. Mcars rijdt met open, meerlaagse autotransporters met Kässbohrer-opbouw. Open betekent dat de wagen de weersomstandigheden van de passage meekrijgt."
+          ]
+        },
+        {
+          "heading": "Aankomst: Milaan, Monza, Turijn en Genua",
+          "body": [
+            "Italië verbiedt goederenvoertuigen boven 7,5 ton op alle buitenstedelijke wegen op zon- en feestdagen, van 9 tot 22 uur in januari-mei en oktober-december en van 7 tot 22 uur in juni-september. In de zomer komen daar zaterdagen en enkele vrijdagavonden bij. Een overtreding kost een schorsing van rijbewijs en kentekenbewijs van 1 tot 4 maanden, en de vrachtwagen blijft staan tot het verbod eindigt.",
+            "Fiera Milano heeft twee sites: Rho-Pero, geopend in 2005, en Fiera Milano Città (Portello). EICMA, de motorbeurs, vindt elk jaar in november in Rho plaats. De Autodromo Nazionale di Monza dateert van 1922 en huisvest de F1, GT World Challenge Europe, een WEC-race en in november of december de Monza Rally Show. De Salone Nautico van Genua houdt in september meer dan duizend boten, handig voor wie een boot op een trailer wil laten brengen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "ZTL in Turijn, Genua en Rome",
+          "body": "Een ZTL wordt aangeduid met een bord en een onderbord met toegelaten voertuigen en uren; dynamische panelen tonen ZTL ATTIVA of NON ATTIVA. De ZTL Centrale van Turijn is actief op werkdagen van 7.30 tot 10.30 uur, het historische centrum van Genua dagelijks de hele dag. Lever buiten die vensters."
+        },
+        {
+          "kind": "event",
+          "title": "Salone Auto Torino",
+          "body": "Salone Auto Torino vindt in september in open lucht plaats in het centrum van Turijn, met toegang tot Piazza Castello en de Musei Reali, gratis toegang en testritten vanuit de Giardini Reali. Er kwam een aparte B2B-dag bij. Voor een wagen op een open oplegger is de aankomst in het centrum een planningsvraag, geen formaliteit."
+        },
+        {
+          "kind": "event",
+          "title": "Concorso d'Eleganza Villa d'Este en 1000 Miglia",
+          "body": "In de tweede helft van mei houdt Cernobbio het Concorso d'Eleganza Villa d'Este, sinds 2009 georganiseerd door BMW Group en het hotel. In juni start en eindigt de 1000 Miglia op de Viale Venezia in Brescia, voor wagens gebouwd tot 1957. Een klassieker voor een van beide events komt uit Luxemburg over de Gotthard."
+        },
+        {
+          "kind": "regel",
+          "title": "Voorlopige platen voor beurswagens",
+          "body": "Niet-ingeschreven voertuigen mogen met een foglio di via en een voorlopige plaat over de weg naar toegelaten tentoonstellingen of beurzen van nieuwe en gebruikte voertuigen, volgens artikel 99. Een nieuwe wagen die u op de oplegger brengt, vraagt dit niet, een rit op eigen wielen wel."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke weg is beter voor een autotransporter naar Milaan: Gotthard of Mont Blanc?",
+          "a": "Dat is een logistieke afweging. De Gotthard heeft één buis, 80 km/u en een maximum van 150 vrachtwagens per uur, met files rond Pasen en in de zomer. Mont Blanc en Fréjus liggen verder westelijk."
+        },
+        {
+          "q": "Wat gebeurt er als een vrachtwagen in Italië toch op zondag rijdt?",
+          "a": "De overtreding kost een schorsing van rijbewijs en kentekenbewijs van 1 tot 4 maanden, en de vrachtwagen moet stilstaan tot het verbod eindigt. Plan de aankomst dus buiten die uren."
+        },
+        {
+          "q": "Zijn winterbanden in Luxemburg verplicht?",
+          "a": "Bij winterse omstandigheden wel: winter- of vierseizoensbanden op alle wielen, geen vaste periode. Vrachtwagens boven 3.500 kg volstaan met winterbanden op de aangedreven assen."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Italië: wagens naar Milaan, Monza en Turijn via Gotthard of Mont Blanc, met winterregels en rijverboden.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Wiltz",
+        "https://transports.public.lu/en/transporter/transports-aeriens/infrastructures.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/pneus-hiver.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://fr.wikipedia.org/wiki/Tunnel_du_Mont-Blanc",
+        "https://fr.wikipedia.org/wiki/Tunnel_routier_du_Fr%C3%A9jus",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/italy",
+        "https://it.wikipedia.org/wiki/Fiera_Milano",
+        "https://it.wikipedia.org/wiki/EICMA",
+        "https://it.wikipedia.org/wiki/Autodromo_nazionale_di_Monza",
+        "https://www.superyacht24.it/2025/09/03/al-prossimo-salone-nautico-di-genova-oltre-1-000-barche-123-novita-e-96-premiere/?output=pdf",
+        "https://it.wikipedia.org/wiki/Zona_a_traffico_limitato",
+        "https://www.unipolmove.it/blog/ztl-a-torino-mappa-orari-e-multe/",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/ztl-genova-mappa-orari-e-parcheggi/",
+        "https://it.motor1.com/news/793665/salone-auto-torino-2026-date-espositori-biglietti/",
+        "https://en.wikipedia.org/wiki/Concorso_d%27Eleganza_Villa_d%27Este",
+        "https://en.wikipedia.org/wiki/Mille_Miglia",
+        "https://aci.gov.it/codice-della-strada/art-99/"
+      ]
+    },
+    "luxemburg-zwitserland": {
+      "lead": "Een wagen voor Auto Zürich in november, een klassieker voor het Concours d'Élégance Suisse aan het Meer van Genève of een prototype voor een stand in Basel: Zwitserland ligt buiten de EU, en dat bepaalt wat u vóór de grens moet weten. Vanuit het noorden van Luxemburg rijdt het transport via de Elzas tot Basel, waar de Zwitserse regels meteen beginnen.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A3, A31, A4 en A35 naar Saint-Louis en Basel"
+        },
+        {
+          "label": "Alternatief",
+          "value": "Via Saarland en de Duitse A8 en A5 naar Weil am Rhein"
+        },
+        {
+          "label": "Zwitsers verbod",
+          "value": "Boven 3,5 ton: zondag volledig, elke nacht 22 tot 5 uur"
+        },
+        {
+          "label": "Raceauto's",
+          "value": "Niet-ingeschreven wagens hebben een Carnet ATA of ZAVV nodig"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen in Clervaux en Vianden",
+          "body": [
+            "Het noorden van Luxemburg grenst aan België en Duitsland en heeft geen snelweg tot aan de grens. In Clervaux vormt de Our de grens met Duitsland en ligt het drielandenpunt met België. Het kasteel toont de fototentoonstelling The Family of Man. Vianden ligt aan de Our, ongeveer 47 km rijden van de hoofdstad, met een kasteel uit de elfde tot veertiende eeuw dat sinds 1977 van de staat is en elk jaar in oktober de notenmarkt kent.",
+            "Zulke adressen liggen aan smalle wegen langs de Our. Een autotransporter van meer dan twaalf meter komt daar zelden tot aan de deur. Spreek een ophaalplek af op een parking of aan een brede weg, en denk aan het uitrusten van het voertuig: een gevarendriehoek en een veiligheidsvest zijn verplicht, het vest binnen handbereik, dus niet in de koffer. Een brandblusser is enkel verplicht boven 3.500 kg."
+          ]
+        },
+        {
+          "heading": "De weg naar Basel: A35 of de Duitse A5",
+          "body": [
+            "De gebruikelijke as loopt over de A31, de A4 en de A35 naar Basel. De A35 (E25) is tolvrij en eindigt aan de Zwitserse grens bij Saint-Louis, waar ze overgaat in de Zwitserse A3. Bij Sausheim sluit de A36 aan en ten noorden van Straatsburg deelt de A35 ongeveer 9 km met de A4. Veel vrachtwagens namen de A35 om de Duitse tol op de parallelle A5 te mijden; sinds de A355 is doorgaand vrachtverkeer op de Straatsburgse M35 verboden.",
+            "Als alternatief begint de Duitse A8 bij Perl aan de Luxemburgse grens en bereikt via Saarbrücken en Neunkirchen Karlsruhe, waar ze de A5 kruist. De A5 (440 km, E35) loopt tot Weil am Rhein aan de Zwitserse grens, langs Karlsruhe en Frankfurt. Zesstrooksuitbreidingen zijn vermeld voor Walldorf-Baden-Baden en Baden-Baden-Offenburg."
+          ]
+        },
+        {
+          "heading": "Zwitserse verboden, tol en douane",
+          "body": [
+            "Zwitserland verbiedt vrachtwagens boven 3,5 ton op zondag en feestdagen de hele dag en elke nacht van 22 tot 5 uur. Een vrachtwagen die op zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder. Via een kanton bestaan uitzonderingsvergunningen. De LSVA, de zware-vrachtverkeersheffing, geldt op alle wegen voor voertuigen boven 3,5 ton, ook voor buitenlandse. Het maximale gewicht ligt sinds 2005 op 40 ton.",
+            "Een niet in Zwitserland ingeschreven wagen kan niet zomaar de grens over voor een beurs: Zwitserland hoort niet bij de EU. Racewagens en andere niet-ingeschreven voertuigen hebben een Carnet ATA of een tijdelijke douaneaangifte (ZAVV) nodig, en de douane raadt voor racewagens het Carnet ATA aan. Zwitsers ingeschreven wagens mogen zonder douanepapieren tijdelijk naar het buitenland en terug. Die papieren regelt u zelf of via een douane-expediteur."
+          ]
+        },
+        {
+          "heading": "Basel en Zürich",
+          "body": [
+            "Basel is de eerste Zwitserse regio vanuit Luxemburg. Auto/Mobil Basel, de jaarlijkse autobeurs in september, vond recent plaats in de St. Jakobshalle. Messe Basel van de MCH Group heeft ongeveer 162.000 m² tentoonstellingsoppervlak met Art Basel en Swissbau. In Muttenz is Pantheon Basel een oldtimerforum van ongeveer 7.500 m², en eind augustus start in de regio de RAID, een oldtimerrally door Frankrijk.",
+            "Auto Zürich is nu de grote Zwitserse autobeurs, elk jaar begin november in Messe Zürich, met vier publieksdagen en een mediadag met besloten vooropening ervoor. Hal 6, Manufaktur & Classic, combineert kleine-serie-wagens met klassiekers. Openbare omloopraces waren sinds 1955 verboden; sinds 1 juli zijn ze onder voorwaarden toegelaten na een beslissing van de Bondsraad."
+          ]
+        },
+        {
+          "heading": "Genève, Bern en de passen",
+          "body": [
+            "Het Autosalon van Genève bestaat niet meer: de laatste editie was in 2024, in afgeslankte vorm. Palexpo in Le Grand-Saconnex heeft zeven hallen met samen 102.000 m², een eigen afrit van de A1 en ligt op ongeveer 500 m van de luchthaven. In juni houdt het Concours d'Élégance Suisse zijn show in het park van het Château de Coppet. Zermatt is sinds 1931 autovrij: een wagen voor Zermatt wordt in Täsch afgeleverd.",
+            "Eind december organiseert de Oldtimer Galerie in Gstaad de Classic Car Auction. De Furkapas (2.429 m) is een film- en fotolocatie uit Goldfinger en in de winter dicht. De Sustenpas (2.224 m) is gewoonlijk alleen van juni tot oktober open. Op de Gotthard is de oude weg, de Tremola, gerestaureerd en populair bij klassiekers."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Auto Zürich",
+          "body": "Auto Zürich is elk jaar begin november in Messe Zürich, met vier publieksdagen en een mediadag. Hal 6, Manufaktur & Classic, combineert kleine-serie-wagens en klassiekers. Wie een wagen wil tonen, laat hem naar Zürich brengen en vraagt naar de laadtijden voor de mediadag."
+        },
+        {
+          "kind": "regel",
+          "title": "Carnet ATA voor racewagens",
+          "body": "Niet-ingeschreven voertuigen, zoals racewagens, hebben voor tijdelijke uitvoer een Carnet ATA of een tijdelijke douaneaangifte nodig. Voor racewagens raadt de Zwitserse douane het Carnet ATA aan. Zwitsers ingeschreven wagens mogen zonder papieren tijdelijk naar het buitenland en terug."
+        },
+        {
+          "kind": "plek",
+          "title": "Palexpo bij de luchthaven van Genève",
+          "body": "Palexpo ligt in Le Grand-Saconnex, op ongeveer 500 m van de luchthaven en het station Genève-Aéroport, met zeven hallen van samen 102.000 m². Hal 6 is over de snelweg heen gebouwd. Het autosalon is weg, maar de hallen blijven voor andere beurzen beschikbaar."
+        },
+        {
+          "kind": "tip",
+          "title": "Täsch voor Zermatt",
+          "body": "Zermatt is sinds 1931 autovrij. De weg stopt voor bezoekers in Täsch; de laatste 5 km zijn enkel met speciale vergunning toegankelijk voor inwoners, eigenaars van een tweede verblijf, taxi's en leveringen. Een wagen voor een shoot in Zermatt wordt in Täsch afgeleverd."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat moet ik regelen als mijn racewagen tijdelijk naar Zwitserland gaat?",
+          "a": "Een niet-ingeschreven voertuig heeft een Carnet ATA of een tijdelijke douaneaangifte (ZAVV) nodig. Voor racewagens raadt de Zwitserse douane het Carnet ATA aan. Dat regelt u zelf of via een douane-expediteur."
+        },
+        {
+          "q": "Mag een vrachtwagen in Zwitserland op zondag rijden?",
+          "a": "Nee, voor vrachtwagens boven 3,5 ton geldt op zondag en feestdagen een verbod van 0 tot 24 uur, plus een nachtverbod van 22 tot 5 uur. Wie zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder."
+        },
+        {
+          "q": "Is er nog een Autosalon in Genève?",
+          "a": "Nee. De 91e en laatste editie was in 2024. De naam leeft voort in Qatar. In Zwitserland is Auto Zürich nu de grote autobeurs, elk jaar begin november."
+        },
+        {
+          "q": "Betaalt een personenwagen op de oplegger Zwitserse LSVA?",
+          "a": "De LSVA geldt voor voertuigen boven 3,5 ton, binnen- en buitenlandse, op alle wegen. Ze betreft dus de vrachtwagen, niet de personenwagen die erop staat."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Zwitserland: wagens naar Auto Zürich, Basel en Genève via Basel, met uitleg over verboden, LSVA en Carnet ATA.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Clervaux",
+        "https://en.wikipedia.org/wiki/Vianden",
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/verkeersregels",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://de.wikipedia.org/wiki/Leistungsabh%C3%A4ngige_Schwerverkehrsabgabe",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://www.messen.de/de/16558/basel/auto-mobil-basel/info",
+        "https://de.wikipedia.org/wiki/Messe_Basel",
+        "https://www.basel.com/de/attraktionen/pantheon-basel-66439d9a89",
+        "https://www.raid.ch/en",
+        "https://www.auto-zuerich.ch/",
+        "https://de.wikipedia.org/wiki/Rundstreckenrennen",
+        "https://de.wikipedia.org/wiki/Genfer_Auto-Salon",
+        "https://de.wikipedia.org/wiki/Palexpo",
+        "https://www.concoursdelegancesuisse.com",
+        "https://de.wikipedia.org/wiki/Zermatt",
+        "https://www.oldtimergalerie.ch",
+        "https://de.wikipedia.org/wiki/Furkapass",
+        "https://de.wikipedia.org/wiki/Sustenpass",
+        "https://de.wikipedia.org/wiki/Gotthardpass"
+      ]
+    },
+    "luxemburg-oostenrijk": {
+      "lead": "Een klimkoers, een Alpenroute voor een shoot of een stand op een voertuigbeurs in Salzburg: de rit van Luxemburg naar Oostenrijk loopt bijna helemaal door Duitsland en komt dan in een land met strenge zaterdag- en nachtverboden. Wie een wagen naar een Oostenrijks event laat brengen, plant niet op afstand maar op rijverbod.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A13 en Duitse A8 via Stuttgart en München naar Salzburg"
+        },
+        {
+          "label": "Alternatief",
+          "value": "A6 naar Neurenberg en A3 naar Passau"
+        },
+        {
+          "label": "Oostenrijks verbod",
+          "value": "Nacht 22 tot 5, zaterdag 15 tot 24, zondag 0 tot 22"
+        },
+        {
+          "label": "Großglockner",
+          "value": "Open van begin mei tot begin november, 's nachts gesloten"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen rond Eschdorf",
+          "body": [
+            "In het noorden van Luxemburg ligt Eschdorf, waar elk jaar begin mei de European Hill Race plaatsvindt. De klimkoers werd voor het eerst gereden in 1988, wordt georganiseerd door de Union des Pilotes Luxembourg en keerde in 2024 na vijf jaar onderbreking terug met de 32e editie, met punten voor het Luxemburgse, Duitse en Belgische kampioenschap. In 2014 was Eschdorf gastheer van de eerste FIA Hill Climb Masters.",
+            "Tijdens de klimkoers is parkeren langs de driestrooksweg in de startzone verboden; toeschouwers bereiken het lagere deel van het parcours te voet of met een pendelbus. Wie een wagen laat brengen, spreekt de plaats vooraf af met de organisator. Een autotransporter heeft in zo'n zone geen plek op de dag zelf, en het inladen gebeurt dus op een afgesproken punt buiten het parcours."
+          ]
+        },
+        {
+          "heading": "Snelheid, dimlicht en wat nog meer telt",
+          "body": [
+            "In Luxemburg geldt voor personenwagens 50 km/u in de bebouwde kom, 90 km/u daarbuiten en 130 km/u op de autosnelweg. Bij regen of nat wegdek is dat 110 km/u, in tunnels 90 km/u. Dimlicht is verplicht in tunnels en bij zicht onder 100 m; dagrijlicht volstaat dan niet. De alcohollimiet is 0,5 promille, en 0,2 promille voor bestuurders met minder dan twee jaar rijbewijs.",
+            "Die grenzen gelden voor elke chauffeur die het laatste stuk zelf rijdt, bijvoorbeeld van de oplegger naar de startlijn."
+          ]
+        },
+        {
+          "heading": "De weg: A13, A8 en Oostenrijkse snelwegen",
+          "body": [
+            "De Luxemburgse A13 gaat bij Schengen over in de Duitse A8, die 505 km lang is en via Saarlouis, Saarbrücken, Karlsruhe, Stuttgart en München naar Bad Reichenhall loopt. Een alternatief is de Duitse A3 (769 km), die via Frankfurt, Neurenberg en Regensburg bij Neuhaus am Inn nabij Passau eindigt. Dat is de oostelijke route naar Oostenrijk.",
+            "In Oostenrijk loopt de A1, de West Autobahn, van Wenen naar Salzburg en verder tot de Duitse grens bij Walserberg. De A12, de Inntal Autobahn, loopt van Kufstein naar Innsbruck en Zams. Verkeer uit Luxemburg komt meestal binnen via Salzburg (Walserberg) of via Passau en Suben. Voor Salzburg, Oberösterreich en Tirol zijn dat de dichtstbijzijnde toegangspunten."
+          ]
+        },
+        {
+          "heading": "Oostenrijkse rijverboden en tol",
+          "body": [
+            "Voor vrachtwagens boven 7,5 ton geldt in Oostenrijk een nachtverbod van 22 tot 5 uur, een zaterdagverbod van 15 tot 24 uur het hele jaar en een zon- en feestdagverbod van 0 tot 22 uur. Wie zaterdag na 15 uur binnenrijdt, staat tot 5 uur de eerstvolgende werkdag stil. Op bepaalde zaterdagen in juli en augustus gelden extra corridorverboden op de A12, A13, A14 en A4 Oost, meestal van 7 tot 15 uur. Op de A12 geldt een permanent sectoraal verbod voor bepaalde langeafstandsgoederen.",
+            "Oostenrijkse tol, GO-Maut, is een kilometerheffing op snelwegen voor voertuigen boven 3,5 ton, met een GO-Box in het voertuig. Voor wie de wagen na het event houdt: de NoVA ontstaat bij inschrijving in Oostenrijk, niet bij het passeren van de grens. Een voertuig zonder EU-typegoedkeuring heeft een Einzelgenehmigung nodig. Dat regelt de koper zelf; Mcars vervoert de wagen."
+          ]
+        },
+        {
+          "heading": "Red Bull Ring, Großglockner en de beurzen",
+          "body": [
+            "De Red Bull Ring in Spielberg, Steiermark, is 4,326 km lang met tien bochten en een helling die tot 12 procent stijgt. De Formule 1 komt er in juli, de MotoGP in augustus en jaarlijks de DTM. Het Driving Center biedt rijervaringen, onder meer driften met de eigen wagen, offroad- en wintertrainingen.",
+            "De Großglockner Hochalpenstraße is 48 km lang met 36 haarspeldbochten tussen Fusch en Heiligenblut, met het Hochtor op 2.504 m. Ze is open van begin mei tot begin november, 's nachts gesloten, met een limiet van 70 km/u. In Salzburg staat het Messezentrum, in Ried is er in februari de Automesse Ried met een oldtimerluik. In de Tiroolse districten Reutte en Imst geldt een verbod voor bijzonder luide motorfietsen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "European Hill Race Eschdorf",
+          "body": "De European Hill Race is een klimkoers begin mei in Eschdorf, voor het eerst gereden in 1988 en georganiseerd door de Union des Pilotes Luxembourg. Parkeren langs de driestrooksweg in de startzone is verboden; spreek de plaats voor wagens vooraf af met de organisator."
+        },
+        {
+          "kind": "plek",
+          "title": "Red Bull Ring in Spielberg",
+          "body": "De baan in het Murtal is 4,326 km lang, heeft tien bochten en ligt tegen een helling. De Formule 1 komt in juli, de MotoGP in augustus. Het Driving Center biedt rijervaringen, ook voor wie met de eigen wagen komt."
+        },
+        {
+          "kind": "regel",
+          "title": "Zaterdag na 15 uur",
+          "body": "In Oostenrijk geldt voor vrachtwagens boven 7,5 ton een zaterdagverbod van 15 tot 24 uur en een nachtverbod van 22 tot 5 uur. Wie zaterdag na 15 uur binnenrijdt, staat tot 5 uur de eerstvolgende werkdag stil. Een event op zondagochtend vraagt dus een aankomst op vrijdag of zaterdagvoormiddag."
+        },
+        {
+          "kind": "tip",
+          "title": "Großglockner: openingstijden",
+          "body": "De Großglockner Hochalpenstraße is alleen open van begin mei tot begin november en 's nachts gesloten. De laatste inrit is 45 minuten voor sluiting en toegang is betalend met een dagticket. Evenementen op en rond de weg zijn een oldtimertractortreffen in september, de Vespa Alp Days en de Saalbach Classic."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een autotransporter op zaterdagavond Oostenrijk binnenrijden?",
+          "a": "Niet na 15 uur: het zaterdagverbod loopt van 15 tot 24 uur. Wie later binnenrijdt, staat tot 5 uur de eerstvolgende werkdag stil. Plan de aankomst op vrijdag of zaterdagvoormiddag."
+        },
+        {
+          "q": "Betaal ik NoVA als mijn wagen alleen voor een event naar Oostenrijk gaat?",
+          "a": "De NoVA ontstaat bij inschrijving in Oostenrijk, niet bij het passeren van de grens. Wie de wagen na het event houdt, berekent haar zelf met formulier NoVA 2."
+        },
+        {
+          "q": "Is de Großglockner open voor een fotoshoot in oktober?",
+          "a": "Tot begin november wel, maar 's nachts is de weg gesloten en de laatste inrit is 45 minuten voor sluiting. Controleer de openingsuren voor uw periode."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Oostenrijk: wagens naar de Red Bull Ring, de Großglockner en Salzburg, met Duitse route en Oostenrijkse verboden.",
+      "sources": [
+        "https://chronicle.lu/category/motor-sports/49643-european-hillrace-eschdorf-to-make-comeback-this-weekend",
+        "https://www.anwb.nl/vakantie/luxemburg/reisvoorbereiding/verkeersregels",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://en.wikipedia.org/wiki/Motorways_in_Austria",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://www.go-maut.at/en",
+        "https://www.bmf.gv.at/themen/steuern/kraftfahrzeuge/normverbrauchsabgabe-uebersicht/fahrzeugimport/eigenimport-aus-mitgliedstaaten-der-europaeischen-union.html",
+        "https://noe.gv.at/noe/KFZueberpruefung-Genehmigung/Import_von_Fahrzeugen.html",
+        "https://www.redbullring.com/de/events-tickets/formel-1/",
+        "https://www.redbullring.com/de/track/red-bull-ring-f1-motogp-track/",
+        "https://www.redbullring.com/de/",
+        "https://www.grossglockner.at/",
+        "https://www.grossglockner.at/de/die-hochalpenstrasse/unterwegs-am-grossglockner/oldtimer",
+        "https://www.classicexpo.at/",
+        "https://www.oemvv.at/kalender",
+        "https://www.tirol.gv.at/verkehr/verkehrs-und-seilbahnrecht/fahrverbote-in-tirol/"
+      ]
+    },
+    "luxemburg-polen": {
+      "lead": "Een wagen voor de Warsaw Motor Show, een stand op de Poznań Motor Show of een rally in Mazovië: Het grootste deel van de rit loopt door Duitsland. Wie vertrekt in het oosten van Luxemburg, volgt de Moezel naar Trier en kiest dan tussen een zuidelijke as via Dresden en een noordelijke via Berlijn.",
+      "facts": [
+        {
+          "label": "A4 zuid",
+          "value": "Duitse A4 naar Görlitz, Poolse A4 naar Wrocław en Katowice"
+        },
+        {
+          "label": "A12 noord",
+          "value": "Duitse A12 gaat bij Świecko over in de Poolse A2"
+        },
+        {
+          "label": "Poolse zomer",
+          "value": "Boven 12 ton extra verboden op vrijdag, zaterdag en zondag"
+        },
+        {
+          "label": "Tol",
+          "value": "Duitse tol boven 3,5 ton, Poolse e-TOLL met boordtoestel"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek langs de Moezel en de Sûre",
+          "body": [
+            "In het oosten van Luxemburg, rond Remich, Grevenmacher, Wasserbillig en Echternach, begint de rit naar Polen. Remich viert drie dagen carnaval, de Fuesend, met als hoogtepunt de verbranding van het Stréimännchen, een stropop, vanop de Moezelbrug. Elk jaar op pinksterdinsdag trekt de springprocessie door Echternach, die sinds 2010 op de Unesco-lijst van immaterieel erfgoed staat. Op die dag is het centrum geen plek voor een ophaling of levering.",
+            "De Luxemburgse A1 gaat bij Wasserbillig over in de Duitse A64, ongeveer 14 km tot Trier. De A64 heeft geen rechtstreekse aansluiting op de Duitse A1; verder gaat het via de B51 of de A64a/A602. Wie in het voorjaar een wagen laat ophalen, houdt dus rekening met de datum van het carnaval en met pinksteren."
+          ]
+        },
+        {
+          "heading": "Zuidroute: A4 via Erfurt en Dresden",
+          "body": [
+            "De Duitse A4 is 583 km lang en loopt van Aken via Keulen, Eisenach, Erfurt en Dresden naar Görlitz aan de Poolse grens. Bij het Kirchheimer Dreieck draagt ze E45. De Poolse A4 begint bij Jędrzychowice, 667 km lang, en loopt via Wrocław en Katowice naar Kraków en Korczowa. Op de Poolse A4 geldt het e-TOLL-systeem vanaf kort na de Duitse grens tot Katowice Murckowska, en weer vanaf Balice ten zuiden van Kraków. Het stuk Jędrzychowice-Katowice is in concessie.",
+            "Duitsland rekent tol voor voertuigen boven 3,5 ton op alle Bundesstraßen en vrijwel alle autosnelwegen, met een CO2-toeslag. Poolse e-TOLL vraagt een account, een voertuig en een betaalmethode, en een goedgekeurd boordtoestel of de e-TOLL PL-app."
+          ]
+        },
+        {
+          "heading": "Noordroute: A12 en A2 naar Warschau",
+          "body": [
+            "Wie via Berlijn rijdt, neemt de Duitse A12 (58 km, E30) van de Berliner Ring naar Frankfurt (Oder) en de Poolse grens bij Świecko. Sinds juni 2012 gaat ze zonder onderbreking over in de Poolse A2 naar Poznań, Łódź en Warschau. De A2 loopt vanaf Świecko over een Oderbrug van 581 m. Een concessie geldt voor het westelijke deel en e-TOLL begint bij Konin Wschód.",
+            "Door de Duitse en Poolse grenscontroles ontstaan op de A12 vóór Świecko lange files die vooral het vrachtverkeer raken. Spoed over deze grens is daardoor moeilijk te plannen. Een event in Warschau of Poznań vraagt dus een aanrijdmarge."
+          ]
+        },
+        {
+          "heading": "Poolse rijverboden en milieuzone",
+          "body": [
+            "Polen verbiedt vrachtwagens boven 12 ton op twaalf feestdagen van 8 tot 22 uur, de avond ervoor meestal van 18 tot 22 uur. In de zomer geldt bovendien vrijdag van 18 tot 22 uur, zaterdag van 8 tot 14 uur en zondag van 8 tot 22 uur. Buiten de zomer bestaat een algemeen zondagverbod niet. Voor evenementen in de zomer raakt dat de laad- en lostijden bij beurzen in juli en augustus.",
+            "Wie met een niet-conforme wagen naar een evenement in het centrum van Warschau wil, kan op vier dagen per jaar toch de milieuzone in. De zone ligt binnen de grenzen van de Prymasa Tysiąclecia, Jerozolimskie, Trasa Łazienkowska, Stanów Zjednoczonych, Wiatraczna en de noordelijke spoorbypass."
+          ]
+        },
+        {
+          "heading": "Warschau, Poznań en Kielce",
+          "body": [
+            "De Warsaw Motor Show loopt in oktober in Ptak Warsaw Expo in Nadarzyn, net buiten Warschau, met supercars, klassiekers, elektrische wagens, offroad- en expeditievoertuigen, tuning, driftdemonstraties, detailing en car audio. De Warsaw Oldtimer Show loopt als begeleidend evenement. Autodrom Słomczyn ligt bij Grójec, ongeveer 50 km ten zuiden van Warschau, met rallycross, autocross, karting en drift.",
+            "De Poznań Motor Show is elk jaar in april op het beursterrein MTP aan de ul. Głogowska 14, met tegelijk de vakbeurs TTM. Tor Poznań werd na klachten gesloten en weer geopend; kijk vóór een circuitdag na of de baan open is. In Kielce houdt Targi Kielce de landbouwtechniekbeurs AGROTECH, de plek voor landbouwmachines en aanhangwagens."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Warsaw Motor Show",
+          "body": "De Warsaw Motor Show loopt in oktober in Ptak Warsaw Expo in Nadarzyn, net buiten Warschau, met sport- en luxewagens, klassiekers, elektrische wagens, tuning en driftdemonstraties. De Warsaw Oldtimer Show loopt ernaast. Wie een supercar wil tonen, laat hem naar Nadarzyn brengen."
+        },
+        {
+          "kind": "event",
+          "title": "Poznań Motor Show",
+          "body": "Dit is het grote Poolse autosalon, elk jaar in april op het beursterrein MTP in Poznań (ul. Głogowska 14). Tegelijk loopt in de MTP-hallen de vakbeurs voor autotechniek TTM. Poznań ligt op de noordelijke route via de A12 en A2."
+        },
+        {
+          "kind": "event",
+          "title": "Rajd Barbórka",
+          "body": "De Rajd Barbórka sluit elk jaar in december het Poolse rallyseizoen af in Warschau. De slotproef is het Kryterium Asów op de ulica Karowa in het centrum. De vakpers waarschuwde dat de proef kan veranderen; kijk het programma elk jaar opnieuw na."
+        },
+        {
+          "kind": "tip",
+          "title": "Echternach en Remich op de kalender",
+          "body": "Remich viert drie dagen carnaval en Echternach heeft de springprocessie op pinksterdinsdag. Op die dagen is het centrum geen plek voor een ophaling of levering. Een oplegger voor Polen plant daar niet in."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Via welke route rijdt een autotransporter van Luxemburg naar Warschau?",
+          "a": "Via Trier en Duitsland, ofwel zuidelijk over de A4 via Erfurt en Dresden naar Görlitz, ofwel noordelijk over de A12 en A2 via Berlijn naar Świecko."
+        },
+        {
+          "q": "Mag een vrachtwagen in Polen op zondag rijden?",
+          "a": "Buiten de zomer bestaat er geen algemeen zondagverbod. Van eind juni tot eind augustus geldt wel vrijdag 18-22, zaterdag 8-14 en zondag 8-22 uur voor wagens boven 12 ton."
+        },
+        {
+          "q": "Wat zijn de grenscontroles aan de Poolse grens?",
+          "a": "Op de A12 vóór Świecko ontstaan lange files door Duitse en Poolse grenscontroles. Spoed is daardoor moeilijk te plannen. Rekening houden met een marge is aangewezen."
+        },
+        {
+          "q": "Kan ik met een niet-conforme wagen naar Warschau-centrum?",
+          "a": "Op vier dagen per jaar kan een niet-conforme wagen toch de milieuzone in voor een evenement in het centrum. De zone is afgebakend door een reeks straten en een spoorbypass."
+        }
+      ],
+      "seoDescription": "Eventtransport van Luxemburg naar Polen: wagens naar de Warsaw Motor Show en Poznań via de A4 of A12, met Poolse rijverboden en e-TOLL uitgelegd.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Remich",
+        "https://fr.wikipedia.org/wiki/Echternach",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://www.etoll.gov.pl/en/",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://pl.wikipedia.org/wiki/Autostrada_A2_(Polska)",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=PL",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.autocentrum.pl/newsy/wszyscy-patrzyli-na-krakow-a-warszawa-po-cichu-dokrecila-srube-ii-etap-sct-stal-sie-faktem/",
+        "https://www.autocentrum.pl/newsy/najwieksze-swieto-motoryzacji-w-warszawie-wraca-warsaw-motor-show-2026-juz-w-pazdzierniku/",
+        "https://easterneurope.tcr-series.com/?p=9027",
+        "https://www.autocentrum.pl/wydarzenia/poznan-motor-show-2026/",
+        "https://www.autocentrum.pl/newsy/poznan-motor-show-2026-ruszyl-z-mocnym-akcentem/",
+        "https://motoryzacja.interia.pl/wiadomosci/news-tor-poznan-zostal-zamkniety-a-nastepnie-otwarty,nId,23328177",
+        "https://en.wikipedia.org/wiki/Targi_Kielce",
+        "https://www.eska.pl/news/moto/avia-unimot-63-rajd-barborka-wielka-impreza-motoryzacyjna-juz-w-ten-weekend-w-warszawie-aa-EgB4-1qcN-Z9QM.html"
+      ]
+    }
+  }
+}

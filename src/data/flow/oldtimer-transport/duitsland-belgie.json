@@ -1,0 +1,59 @@
+{
+  "sub": "Uw klassieker uit Duitsland naar België, na een aankoop op een beurs of bij een verzamelaar, opgehaald en afgeleverd met inspectie, foto's en CMR.",
+  "problem": {
+    "title": "Uw nieuwe klassieker staat nog in Duitsland",
+    "body": "Duitsland heeft veel oldtimers en veel oldtimerbeurzen. Wie daar een wagen koopt, staat voor een praktisch probleem: de wagen moet naar België, en liefst niet op eigen kracht. Misschien heeft hij nog een H-plaat of een rood kenteken, misschien rijdt hij niet meer. Intussen wil u weten wie hem komt halen, wanneer iemand belt en in welke staat hij aankomt.",
+    "situations": [
+      { "title": "Gekocht op een beurs", "body": "U kocht op een oldtimerbeurs in Dortmund of Essen een wagen en wilt hem naar huis laten brengen, zonder zelf een oplegger te zoeken." },
+      { "title": "Particuliere verkoper", "body": "De verkoper woont op het platteland en heeft geen tijd om te wachten. Een transporteur belt vooraf en regelt de afspraak." },
+      { "title": "Terug naar een Belgische eigenaar", "body": "Uw wagen stond bij een restaurateur of specialist in Duitsland en gaat nu terug naar zijn eigenaar in België." }
+    ]
+  },
+  "solution": {
+    "title": "Van de Duitse verkoper naar uw garage",
+    "body": "Na uw aanvraag krijgt u binnen 24 uur een offerte. Een vast aanspreekpunt regelt met u en met de verkoper wanneer en waar de wagen wordt opgehaald. De chauffeur belt op de dag zelf. Bij ophaling controleert hij de wagen, maakt foto's en vult de CMR-vrachtbrief in. De klassieker reist verzekerd op een open meerlaagse transporter. Rolt hij niet, dan helpt de lier. In België rijden wij naar uw adres of naar ons depot in Roeselare en bekijkt u de wagen samen met de chauffeur."
+  },
+  "usps": [
+    { "title": "Eén aanspreekpunt", "body": "U heeft één contact, van de eerste vraag tot de aflevering. Dat bespaart u het gezoek tussen de verkoper, de chauffeur en kantoor." },
+    { "title": "Nederlands en Frans", "body": "Onze vaste chauffeurs spreken Nederlands en Frans. De afspraken met een Duitse verkoper loopt u via ons aanspreekpunt, dat het contact opvolgt." },
+    { "title": "Levering in Roeselare", "body": "Aflevering op ons depot kan op elk uur van de dag en is voordeliger dan aan huis. Handig als u de wagen zelf ophaalt." },
+    { "title": "Open, maar zorgvuldig", "body": "Onze transporters zijn open en meerlaags. Elke wagen wordt stevig vastgezet, bij ophaling gefotografeerd en tijdens het transport verzekerd." }
+  ],
+  "steps": [
+    { "title": "Aanvraag", "body": "U stuurt merk, model, afmetingen en het adres van de verkoper. Vermeld of de wagen nog rijdt. Binnen 24 uur volgt een offerte." },
+    { "title": "Planning", "body": "Wij stemmen een datum af met u en met de verkoper. Particulieren betalen vóór de ophaling, bedrijven krijgen achteraf een factuur." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur belt vooraf, kijkt de wagen na, neemt foto's en stelt samen met de verkoper de CMR-vrachtbrief op." },
+    { "title": "Levering", "body": "De transporter rijdt naar uw adres in België of naar het depot in Roeselare. U bekijkt de staat en tekent de CMR." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, ook de CMR",
+    "body": "Wij vervoeren de wagen, meer doen wij niet. Dat betekent: een controle bij ophaling, foto's die wij intern bewaren, een CMR-vrachtbrief en een verzekering tijdens het transport. Het papierwerk voor de Belgische inschrijving, de oldtimerkeuring en de O-plaat blijft bij u of uw dealer. Vraag de verkoper om alle documenten van de wagen mee te geven. Zo ligt er bij aankomst niets in de weg.",
+    "items": ["Controle bij ophaling", "Foto's voor intern gebruik", "CMR-vrachtbrief bij ophaling opgemaakt", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Duitsland naar België",
+    "body": "Wij werken vanuit Roeselare en kennen de weg tussen beide landen. Een klassieker uit Duitsland komt bij ons niet in een groot systeem terecht, maar bij een team met een vast aanspreekpunt. Wij halen op in Noordrijn-Westfalen en in Nedersaksen, en ook elders in Duitsland als de wagen daar staat.",
+    "regions": ["Noordrijn-Westfalen", "Nedersaksen", "Beieren", "Baden-Württemberg", "Hessen"]
+  },
+  "faq": [
+    { "q": "Mag de wagen met een Duitse plaat mee op de transporter?", "a": "Ja, op een transporter maakt de plaat voor het vervoer niet uit. Wat de wagen daarna in België mag, hangt af van uw inschrijving en de oldtimerkeuring." },
+    { "q": "Wie regelt de Belgische inschrijving?", "a": "U zelf, of uw dealer. Mcars vervoert de wagen en geeft een CMR-vrachtbrief mee. Vraag de verkoper om de wagenpapieren bij de ophaling door te geven." },
+    { "q": "Kan ik de wagen ophalen in Roeselare?", "a": "Ja. Aflevering op ons depot kan op elk uur van de dag. Spreek de dag en het uur vooraf af met uw aanspreekpunt." },
+    { "q": "Hoe weet de verkoper wanneer jullie komen?", "a": "De chauffeur belt op de dag zelf vooraf. De afspraak zelf maken wij samen met u en de verkoper tijdens de planning." }
+  ],
+  "pillars": {
+    "betrouwbaar": "U kunt op ons rekenen als uw aangekochte klassieker in Duitsland klaarstaat: dezelfde vaste chauffeurs, en wat beloofd is, wordt gedaan.",
+    "snel": "Zodra de koop rond is, plannen wij vlot in en brengen wij uw oldtimer vanuit Duitsland zonder tijdverlies naar België.",
+    "volgbaar": "Met track en trace volgt u de terugreis van uw nieuwe aankoop, en de chauffeur belt u voor hij in België aankomt.",
+    "verzekerd": "Onderweg uit Duitsland is uw klassieker verzekerd, en de CMR-vrachtbrief toont zwart op wit in welke staat hij werd opgehaald."
+  },
+  "reasons": [
+    { "title": "Lange ervaring", "body": "Wij hebben jarenlang ervaring met het ophalen van klassiekers bij verzamelaars en handelaars over de grens en brengen ze netjes naar huis." },
+    { "title": "Passie die u voelt", "body": "Wij houden van het vak en van de wagens die wij laden, en daarom gaan we er zorgvuldig mee om." },
+    { "title": "Veel ritten achter de rug", "body": "Honderden ritten hebben ons geleerd hoe we ook een fragiele oldtimer van een Duitse verkoper veilig tot bij u krijgen." },
+    { "title": "Geen onderaannemers", "body": "Onze eigen chauffeurs rijden de hele terugreis, zodat dezelfde mensen uw klassieker van de verkoper tot bij u begeleiden." },
+    { "title": "Alles wat rolt", "body": "Een klassieker, een moto, een aanhangwagen of een boot: ons aanbod aan transporten is breed genoeg voor uw aankoop." },
+    { "title": "Steeds een stap verder", "body": "Wij blijven nieuwe ideeën uitproberen om ons werk beter te maken, ook voor de ritten richting België." }
+  ],
+  "seoDescription":"Oldtimer transport van Duitsland naar België na aankoop op een beurs of bij een verzamelaar. Open meerlaagse transporter, lier en CMR. Offerte binnen 24 uur."
+}

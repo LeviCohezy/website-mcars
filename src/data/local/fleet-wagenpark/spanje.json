@@ -1,0 +1,1138 @@
+{
+ "service": "fleet-wagenpark",
+ "origin": "spanje",
+ "pages": {
+  "spanje": {
+   "lead": "Een leasemaatschappij in Madrid, een poolwagen op Mallorca, een partij nieuwe wagens in de haven van Valencia: een Spaans wagenpark ligt zelden op één plek. Wie meerdere voertuigen tegelijk wil laten verplaatsen, krijgt te maken met een grote rentingmarkt, milieuzones per gemeente en een eigen kalender met rijverboden voor vrachtwagens. Hieronder leest u wat dat in de praktijk betekent.",
+   "facts": [
+    {
+     "label": "Rentingvloot",
+     "value": "Meer dan een miljoen voertuigen in operationele lease, nog groeiend"
+    },
+    {
+     "label": "Autohavens",
+     "value": "ANFAC beoordeelt er acht, van Barcelona tot Vigo"
+    },
+    {
+     "label": "Rijverboden",
+     "value": "Geen algemeen weekendverbod, wel verboden per weg en tijdstip"
+    },
+    {
+     "label": "Milieuzones",
+     "value": "Gemeenten boven 50.000 inwoners moeten een zone voor lage emissies invoeren"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Renting: operationele lease op Spaanse wijze",
+     "body": [
+      "In Spanje heet operationele lease renting. De rentingvloot telt meer dan een miljoen voertuigen en blijft jaar na jaar groeien, zowel in het aantal voertuigen als in het aantal klanten. Grote bedrijven met meer dan vierentwintig voertuigen houden het grootste deel van die vloot. Zelfstandigen en particulieren vormen het kleinste segment, maar het groeit het snelst.",
+      "Dat geeft u twee soorten opdrachten. Een groot wagenpark wisselt in blokken van tientallen wagens van locatie, een zelfstandige met één renting-auto wil één wagen over de grens zien. Ruim een op de zeven rentingvoertuigen is geëlektrificeerd, en bij nieuwe inschrijvingen heeft meer dan de helft een alternatieve aandrijving. Elektrische wagens horen dus steeds vaker bij een transport."
+     ]
+    },
+    {
+     "heading": "Wie krijgt de boete: huurder en gewone bestuurder",
+     "body": [
+      "Rentingbedrijven kunnen bij de Spaanse verkeersdienst DGT online de huurder van elk voertuig melden, zodat boetes en meldingen naar de werkelijke gebruiker gaan. Dat is bedoeld voor wagens die langer dan dertig opeenvolgende dagen bij dezelfde gebruiker zijn, niet voor deelwagens. Verhuurders en bedrijven met grote vloten kunnen ook per voertuig de gewone bestuurder registreren en voertuigrapporten in bulk opvragen.",
+      "Voor wie wagens laat verplaatsen, is dat meer dan administratie. Staat een wagen een paar dagen op een vrachtwagen of in een stalling, dan blijft de registratie bij de gebruiker lopen. Spreek met de leasemaatschappij af wie in die periode als gebruiker geldt en wanneer de nieuwe bestuurder wordt gemeld. Zo komen verkeersboetes niet bij de verkeerde persoon terecht."
+     ]
+    },
+    {
+     "heading": "Autohavens als begin- of eindpunt",
+     "body": [
+      "In een jaar werden in Spanje ruim vijf miljoen voertuigen logistiek verplaatst. De zee is daarbij de grootste modus, met een groot aandeel export. Daarna volgt de weg, en op afstand het spoor. De acht havens die de constructeursvereniging ANFAC beoordeelt, zijn Barcelona, Málaga, Pasaia, Sagunto, Santander, Tarragona, Valencia en Vigo.",
+      "Tarragona, Santander en Sagunto kregen in het laatste rapport de beste scores. Málaga en Santander groeiden het sterkst. Voor een wagenpark betekent dit dat nieuwe leasewagens vaak in een haven aankomen en dat het laatste stuk, van terminal naar klant, over de weg gaat. Daar komt een open autotransporter van pas, ook als de wagens maar kort in Spanje stonden."
+     ]
+    },
+    {
+     "heading": "Milieuzones en wagens met buitenlandse plaat",
+     "body": [
+      "De Spaanse klimaatwet verplicht gemeenten met meer dan 50.000 inwoners en de eilandgebieden om een milieuzone in te voeren. Voor gemeenten boven 20.000 inwoners geldt dat bij overschrijding van de luchtkwaliteitsnormen. Hoe streng zo'n zone is, beslist elke gemeente zelf.",
+      "Veel zones kijken naar het milieulabel van de DGT. Een wagen met buitenlandse plaat kan dat label niet krijgen. De DGT voorziet enkel een gelijkstelling voor landen met een eigen milieuklassering, zoals Duitsland, Oostenrijk, Denemarken en Frankrijk. België staat daar niet bij. Wie een Belgische of Nederlandse wagen naar een stad met zo'n zone laat brengen, vraagt vooraf bij de gemeente na wat voor een buitenlandse plaat geldt."
+     ]
+    },
+    {
+     "heading": "Rijverboden voor vrachtwagens: twee kalenders",
+     "body": [
+      "Spanje kent geen algemeen weekendverbod voor zware vrachtwagens. De verboden staan elk jaar in een resolutie van de DGT, per weg, dag en uur. Ze gelden op de wegen waar de DGT toezicht houdt. Catalonië regelt zijn verkeersbeperkingen zelf, via een eigen jaarlijkse resolutie. Wie door Catalonië rijdt, moet dus twee kalenders nakijken.",
+      "Daarbovenop komen de feestdagen. Negen daarvan gelden in heel Spanje, elke autonome regio legt er eigen dagen bij en elke gemeente lokale. Een levering die u op een bepaalde dag in een bepaalde stad verwacht, kan daardoor een dag opschuiven. Plan wagens uit meerdere regio's dus niet allemaal op dezelfde datum."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Huurder melden bij de DGT",
+     "body": "Rentingbedrijven melden bij de DGT online wie de huurder is van een voertuig dat langer dan dertig dagen bij dezelfde gebruiker blijft. Boetes en meldingen gaan dan naar die gebruiker. Voor een transport van een leasewagen is het slim om de datum van overdracht schriftelijk vast te leggen."
+    },
+    {
+     "kind": "plek",
+     "title": "De acht autohavens van ANFAC",
+     "body": "Barcelona, Málaga, Pasaia, Sagunto, Santander, Tarragona, Valencia en Vigo zijn de havens waar nieuwe en gebruikte wagens aan land komen of scheep gaan. Ligt uw leasewagen of poolwagen bij een van die terminals, vraag dan de stalling of terminal naar de laadtijden voor een autotransporter."
+    },
+    {
+     "kind": "regel",
+     "title": "Milieulabel van de DGT",
+     "body": "Het label (0, ECO, C of B) kleven is vrijwillig, maar gemeenten mogen de toegang tot een milieuzone ervan laten afhangen. Een wagen met Belgische plaat kan geen Spaans label krijgen. Controleer dus per gemeente of u er met een buitenlandse plaat mag rijden of lossen."
+    },
+    {
+     "kind": "tip",
+     "title": "Plan feestdagen in uw ritkalender",
+     "body": "Naast negen nationale feestdagen bestaan er regionale en lokale. Een wagenpark verspreid over meerdere regio's loopt daardoor tegen verschillende vrije dagen aan. Bundel wagens per regio en vraag voor elke stad de lokale feestdagen na."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mag een autotransporter in Spanje in het weekend rijden?",
+     "a": "Er is geen algemeen weekendverbod voor zware vrachtwagens. Wel bestaan er verboden op bepaalde wegen en uren, vastgelegd in een jaarlijkse DGT-resolutie. In Catalonië geldt een aparte resolutie, dus kijk beide na voor de dag van uw rit."
+    },
+    {
+     "q": "Kan een wagen met Belgische plaat een Spaans milieulabel krijgen?",
+     "a": "Nee. De DGT geeft geen label aan wagens met buitenlandse plaat en erkent enkel de milieuklassering van enkele landen, waar België niet bij hoort. Per milieuzone beslist de gemeente wat dan geldt."
+    },
+    {
+     "q": "Via welke haven komen leasewagens het vaakst Spanje binnen?",
+     "a": "ANFAC beoordeelt acht havens, van Barcelona tot Vigo. Tarragona, Santander en Sagunto scoorden in het laatste rapport het best. Welke haven voor uw wagens telt, hangt af van het merk en de fabriek of importeur."
+    }
+   ],
+   "seoDescription": "Wagenpark of leasewagens in Spanje laten vervoeren: renting, milieuzones, autohavens en rijverboden voor vrachtwagens. Vraag een offerte.",
+   "sources": [
+    "https://ae-renting.es/prensa-noticias/notas-de-prensa/el-renting-crece-un-8-en-parque-y-un-9-en-clientes-hasta-septiembre/",
+    "https://www.dgt.es/nuestros-servicios/para-colaboradores-y-empresas/alquiler-renting-y-grandes-flotas-/",
+    "https://anfac.com/el-transporte-de-vehiculos-en-espana-crece-un-72-en-2025-y-supera-los-cinco-millones-de-unidades-por-primera-vez-desde-la-pandemia/",
+    "https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/distintivo-ambiental/",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+    "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+    "https://www.boe.es/eli/es-ct/res/2025/02/11/isp430/con",
+    "https://www.garrigues.com/es_ES/noticia/publicado-boe-calendario-laboral-espana-2027"
+   ]
+  },
+  "spanje-belgie": {
+   "lead": "Een leasewagen die in het Baskenland uit contract gaat, moet terug naar een wagenpark in West-Vlaanderen. Dan schuiven vier dingen in elkaar: de Spaanse haven of stalling waar de wagen staat, de Franse Atlantische as naar het noorden, de rijverboden voor vrachtwagens onderweg en de Belgische regels voor bedrijfswagens bij aankomst. Hieronder leest u wat per stuk telt.",
+   "facts": [
+    {
+     "label": "Franse A63",
+     "value": "Tolweg van Bordeaux tot de Spaanse grens bij Biriatou"
+    },
+    {
+     "label": "Franse rijverbod",
+     "value": "Zaterdag 22 u. tot zondag 22 u. voor zware vrachtwagens"
+    },
+    {
+     "label": "Zeebrugge",
+     "value": "Omschreven als belangrijkste autohaven ter wereld voor nieuwe wagens"
+    },
+    {
+     "label": "Kilometerheffing",
+     "value": "Ook lichte N1-vrachtwagens met koetswerkcode BC vallen eronder"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in het Baskenland: Pasaia en Bilbao",
+     "body": [
+      "De haven van Pasaia in Gipuzkoa is belangrijk voor voertuigtransport. De fabrieken van Mercedes in Vitoria, Volkswagen in Pamplona en Opel in Figueruelas verschepen er een deel van hun productie, en er worden ook wagens ingevoerd. Wie een lot nieuwe bedrijfswagens uit die fabrieken in België nodig heeft, kan ze dus ook langs de weg laten komen.",
+      "Verder westelijk ligt Bilbao, met acht ro-ro-hellingen en aparte ro-ro- en autoterminals. Brittany Ferries vaart er naar Portsmouth en Rosslare. Voor een wagenpark met wagens in zowel het Verenigd Koninkrijk als Spanje is Bilbao het logische kruispunt. Wagens die u vanuit die regio naar België laat rijden, vertrekken meestal van een terminal, een stalling of het adres van de leasemaatschappij."
+     ]
+    },
+    {
+     "heading": "De weg: Irun, A63, Parijs en Rijsel",
+     "body": [
+      "De westelijke grensovergang ligt bij Irun, waar de Spaanse AP-8 aansluit op de Franse A63 bij Biriatou. De A63 loopt van daar 206 kilometer naar Bordeaux, is tolplichtig en heeft aansluitingen bij Biarritz en Bayonne (A64). Volgens Wikipedia draagt ze zwaar vrachtverkeer uit heel Europa naar het Iberisch schiereiland, dus wees voorbereid op een drukke weg.",
+      "Vanaf Bordeaux gaat de rit naar het noorden, rond Parijs en verder over de A1 naar Rijsel. Die A1 is 211 kilometer lang, wordt beheerd door SANEF en is volgens Wikipedia de drukste autoroute van Frankrijk. Brussel bereikt u daarna via de E19. Wie in Catalonië staat, kan ook de oostelijke overgang bij La Jonquera nemen, bereikbaar via de AP-7 en de N-II."
+     ]
+    },
+    {
+     "heading": "Rijverboden: Spanje, Frankrijk en rond Parijs",
+     "body": [
+      "In Spanje geldt voor vrachtwagens boven 7,5 ton geen algemeen weekendverbod. Verboden bestaan enkel voor genoemde wegvakken en tijdstippen, volgens de jaarlijkse DGT-resolutie. Wel mogen wagens met gevaarlijke goederen (ADR) op zondag en feestdagen van 8 tot 24 uur niet rijden. Dat raakt een autotransporter zelden, maar een lading met batterijen of vloeistoffen kan anders zijn.",
+      "Frankrijk is strenger. Zware vrachtwagens rijden er niet van zaterdag 22 uur tot zondag 22 uur. Rond Parijs geldt bovendien een extra verbod op de A6, A10 en A13. Een rit die vrijdagavond in het Baskenland vertrekt, belandt zo gemakkelijk in het verbod. Een vertrek vroeg in de week levert minder gedoe op."
+     ]
+    },
+    {
+     "heading": "Aankomst in West-Vlaanderen: Zeebrugge, N31 en de A17",
+     "body": [
+      "Zeebrugge verwerkte in een topjaar 2,96 miljoen wagens, bijna evenveel invoer als uitvoer. De haven ontsluit via de N31, een expresweg van ongeveer 18 kilometer naar Brugge. Voor vrachtwagens geldt daar op het grootste deel 70 kilometer per uur. Sinds het stuk A11 tussen Westkapelle en Brugge is er een extra ontsluiting, ook richting Knokke-Heist.",
+      "De A17/E403 loopt van Doornik via Moeskroen en Wevelgem naar Roeselare, met afritten Rumbeke en Beveren, en verder via Izegem en Torhout naar Brugge. Voor ons is dat de dagelijkse weg naar het depot in Roeselare, Moorseelsesteenweg 16B. Levering op het depot kan 24/7 en is voordeliger dan aan huis."
+     ]
+    },
+    {
+     "heading": "Belgische regels voor een wagenpark uit het buitenland",
+     "body": [
+      "Een onderneming kan in België alleen een voertuig inschrijven als ze in de Kruispuntbank van Ondernemingen staat en een vaste vestiging in België heeft waar het voertuig wordt beheerd of gebruikt. Voor een tijdelijke opdracht bestaat de W-plaat, met een officieel attest van de vestiging in het buitenland.",
+      "Voor lichte bestelwagens is de kilometerheffing belangrijk: N1-wagens met koetswerkcode BC vallen eronder, ook al wegen ze niet meer dan 3,5 ton. Emissievrije vrachtwagens zitten in de laagste CO2-klasse van de Vlaamse heffing. Mcars vervoert; inschrijving, keuring en heffing regelt u zelf of via uw leasemaatschappij."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Keuringsritme in Vlaanderen",
+     "body": "Een personenwagen moet in Vlaanderen voor het eerst naar de keuring op vier jaar en daarna om de twee jaar. Ook bestelwagens en lichte vrachtwagens schakelen over op een tweejaarlijks ritme. De houder volgt zelf de vervaldatum op, de herinneringskaart is een extra dienst."
+    },
+    {
+     "kind": "plek",
+     "title": "A11 naar Zeebrugge",
+     "body": "Het stuk A11 tussen Westkapelle en Brugge sluit aan op de N31/E403 bij de Blauwe Toren en ontsluit de haven van Zeebrugge extra. Voor wagens die per schip aankomen en daarna per autotransporter verder moeten, is dat de weg vanaf de terminal."
+    },
+    {
+     "kind": "regel",
+     "title": "Car-Pass voor lichte bestelwagens",
+     "body": "De Car-Pass-plicht geldt niet alleen voor personenwagens maar ook voor lichte bestelwagens die tweedehands worden verkocht. Gaat een Spaanse leasewagen na transport rechtstreeks de remarketing in, houd dan rekening met die plicht bij verkoop."
+    },
+    {
+     "kind": "tip",
+     "title": "Plaat sneller in handen",
+     "body": "Voor bepaalde platen en documenten biedt de DIV via bpost spoedlevering op dezelfde dag aan, als de aanvraag vóór 13 uur is verwerkt. Weekends en feestdagen tellen niet mee. Boek de aflevering van de wagen dus liever niet vlak voor een vrije dag."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke grensovergang is beter voor een wagen uit het Baskenland: Irun of La Jonquera?",
+     "a": "Vanuit het Baskenland ligt Irun voor de hand, via de A63 naar Bordeaux. La Jonquera is de oostelijke overgang en alleen logisch als de wagen toch in Catalonië staat. Op beide trajecten is er tol en zwaar vrachtverkeer."
+    },
+    {
+     "q": "Moet mijn bedrijf een vestiging in België hebben om de wagen in te schrijven?",
+     "a": "Ja. Een onderneming kan in België alleen inschrijven als ze in de Kruispuntbank staat en een vaste vestiging heeft waar de wagen wordt beheerd of gebruikt. Voor tijdelijk gebruik bestaat de W-plaat."
+    },
+    {
+     "q": "Wat als mijn leasewagen op vrijdagavond in Spanje klaarstaat?",
+     "a": "Dan rijdt hij in Frankrijk meestal tegen het weekendverbod aan, dat van zaterdag 22 uur tot zondag 22 uur loopt. Laat de wagen daarom bij voorkeur vroeg in de week ophalen."
+    }
+   ],
+   "seoDescription": "Leasewagens en wagenpark van Spanje naar België laten vervoeren: Baskische havens, A63, Franse rijverboden en Belgische regels.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Puerto_de_Pasajes",
+    "https://es.wikipedia.org/wiki/Puerto_de_Bilbao",
+    "https://en.wikipedia.org/wiki/A63_autoroute",
+    "https://en.wikipedia.org/wiki/La_Jonquera",
+    "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+    "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+    "https://www.timocom.co.uk/truck-driving-bans/france",
+    "https://nl.wikipedia.org/wiki/N31_%28Belgi%C3%AB%29",
+    "https://nl.wikipedia.org/wiki/A11_%28Belgi%C3%AB%29",
+    "https://nl.wikipedia.org/wiki/A17_%28Belgi%C3%AB%29",
+    "https://nl.wikipedia.org/wiki/Haven_van_Brugge-Zeebrugge",
+    "https://mobilit.belgium.be/nl/weg/inschrijven/verhuizen-met-uw-voertuig/verhuizen-naar-belgie-met-uw-voertuig",
+    "https://mobilit.belgium.be/nl/weg/inschrijven/tijdelijke-inschrijving-w-plaat",
+    "https://www.viapass.be/nl/voor-wie/",
+    "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/wanneer-naar-de-technische-keuring",
+    "https://www.car-pass.be/nl/faq",
+    "https://mobilit.belgium.be/nl/weg/inschrijven-en-schrappen/kentekenplaat-en-inschrijvingsbewijzen/levering-en-prijs"
+   ]
+  },
+  "spanje-nederland": {
+   "lead": "Een lot bestelwagens van een Galicische fabriek of een reeks leasewagens uit Santander moet naar een leasemaatschappij in Zeeland of West-Brabant. Dat is een rit langs de hele Franse westkust, door België en over de Nederlandse grens. Hieronder leest u wat er op die weg speelt voor een wagenpark: havens, tol, rijverboden en de Nederlandse leaseregels bij aankomst.",
+   "facts": [
+    {
+     "label": "Franse A10",
+     "value": "Parijs-Bordeaux, 557 kilometer en bijna volledig tolplichtig"
+    },
+    {
+     "label": "Belgische Viapass",
+     "value": "Heffing voor wagens boven 3,5 ton van Antwerpen en Brussel naar Frankrijk"
+    },
+    {
+     "label": "Nederlandse lease",
+     "value": "Ongeveer twee op de drie nieuwe auto's is een leaseauto"
+    },
+    {
+     "label": "Grenzen",
+     "value": "Hazeldonk (A16), Zandvliet (A4) en Zelzate (N62)"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in het noordwesten: Santander en Vigo",
+     "body": [
+      "In de haven van Santander is autoverkeer een van de hoofdactiviteiten. De haven bedient de fabrieken van Volkswagen in Landaben, Mercedes-Benz in Vitoria en Renault in Palencia en Valladolid, en is gespecialiseerd in ro-ro. Een leasemaatschappij die nieuwe wagens uit die fabrieken heeft staan, kan ze van daaruit naar de Benelux laten komen.",
+      "Verder westelijk heeft Vigo in Bouzas een ro-ro-terminal voor voertuigen. In de Zona Franca zit ook de Stellantis-fabriek van Balaídos, die in haar topjaar meer dan 550.000 voertuigen bouwde, vooral bestelwagens zoals de Citroën Berlingo, Peugeot Partner, Toyota ProAce City en Fiat Doblò. Wie bestelwagens voor een Nederlandse flotte afneemt, haalt ze dus vaak uit Galicië."
+     ]
+    },
+    {
+     "heading": "Spaanse wegen: AP-9, kuststrook en meseta",
+     "body": [
+      "Het noordwesten heeft geen grens met Frankrijk. Wie naar het noorden rijdt, kiest de A-8 langs de kust naar Irun, of de weg door het binnenland over de A-6, A-52 en AP-66. In Galicië is de AP-9 een tolweg met een concessie van Audasa tot ver in de toekomst. Het stuk Redondela-Vigo is tolvrij en zware voertuigen krijgen korting op alle trajecten.",
+      "Dat telt voor een autotransporter die in Vigo laadt: zware voertuigen krijgen korting, maar tol blijft een kostenpost op de offerte. Vraag bij een groot lot daarom vooraf welke weg u verkiest. Mcars rijdt open, op meerlaagse trailers met Kässbohrer-opbouw, en geeft u een offerte op maat."
+     ]
+    },
+    {
+     "heading": "Door Frankrijk en België: A10, E19 en Viapass",
+     "body": [
+      "Vanaf Irun volgt u de Franse westkant: de A10 van Bordeaux naar Parijs is 557 kilometer, de langste autoroute van Frankrijk, en bijna volledig tolplichtig. Uitzonderingen liggen bij Parijs, Tours en Bordeaux. Daarna loopt de E19 van Parijs via België naar Amsterdam, 551 kilometer. Een alternatief is de oostroute via Lyon en de A9 naar de Pyreneeën, maar dat is voor een wagen uit het noordwesten een omweg.",
+      "In België betalen vrachtvoertuigen boven 3,5 ton de Viapass-heffing op de weg van Antwerpen of Brussel richting Frankrijk. Frankrijk kent een weekendverbod boven 7,5 ton, dat op sommige zomerzaterdagen overdag nog eens wordt uitgebreid, vooral richting Middellandse Zee. Het trajectverbod geldt dus ook voor wie op de Atlantische zijde blijft: plan het laatste Franse stuk op een weekdag."
+     ]
+    },
+    {
+     "heading": "Aankomst in Zeeland en West-Brabant",
+     "body": [
+      "De regio ligt het dichtst bij Roeselare. U komt Nederland binnen over Hazeldonk (A16), Zandvliet (A4) of Zelzate (N62). In Vlissingen heeft CLdN een ro-ro-terminal van meer dan 100 hectare met vier sluisvrije ligplaatsen, spoor- en binnenvaartaansluiting en een eigen PDI-centrum. North Sea Port vormt één havengebied van 60 kilometer, met Terneuzen, Vlissingen en Gent. In Gent ligt een ro-ro-terminal van DFDS aan het Mercatordok.",
+      "Louwman Group, importeur van Toyota en verdeler van BYD, heeft zijn hoofdkantoor in Raamsdonksveer, bij de A27. Port of Moerdijk sluit aan op de A17. Voor een autotransporter betekent dat korte, goed bereikbare afleverpunten, waar een heel lot in één keer kan lossen."
+     ]
+    },
+    {
+     "heading": "Nederlandse regels: lease, RDW en bpm",
+     "body": [
+      "In Nederland rijden ruim 1,3 miljoen leasevoertuigen, waarvan ruim 870.000 zakelijke personenleaseauto's. De VNA vertegenwoordigt naar eigen zeggen ongeveer negen op de tien leaseauto's. Bijna de helft van de zakelijke leaseauto's is volledig elektrisch, bij private lease veel minder. Een transporteur ziet dus veel elektrische wagens op de trailer, met hun eigen aandachtspunten bij het laden.",
+      "Een wagen uit Spanje inschrijven loopt via de RDW-keuring en de bpm-aangifte. Is er een geldige EU-apk, dan volgt geen nieuwe apk. Daarna komen het kentekenbewijs, de platen, de motorrijtuigenbelasting en de WA-verzekering. Een Spaanse ITV-vermelding kan door de RDW worden overgenomen. Dat regelt de klant of zijn leasemaatschappij; Mcars vervoert enkel."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Massale tenaamstelling bij de RDW",
+     "body": "Een wagenpark van vijftig of meer voertuigen kan bij de RDW in één keer worden overgeschreven naar een andere rechtspersoon. Voor leasevoertuigen met een verstrekkingsvoorbehoud geldt een aparte overeenkomst. Bij een groot transport kunt u zo de papierwerklast beperken."
+    },
+    {
+     "kind": "regel",
+     "title": "Zero-emissiezones voor bestelauto's",
+     "body": "Bestelauto's met emissieklasse 5 mogen de zero-emissiezones tijdelijk nog in, klasse 6 langer. Een ontheffing vraagt de eigenaar enkel aan bij de RDW. De overheid waarschuwt voor niet-officiële websites die geld vragen. Controleer de stand voor u een bestelwagen aflevert."
+    },
+    {
+     "kind": "regel",
+     "title": "Vrijstelling bpm voor buitenlandse bedrijven",
+     "body": "Voor een auto van een buitenlandse onderneming bestaat een vrijstelling van bpm en motorrijtuigenbelasting. Wie in Nederland woont en van een buitenlandse werkgever een auto krijgt, kan een werknemersvrijstelling aanvragen vóór de eerste rit op de Nederlandse weg."
+    },
+    {
+     "kind": "tip",
+     "title": "Apk-ritme van leaseauto's",
+     "body": "Een auto op benzine of elektriciteit moet na vier jaar voor het eerst naar de apk, een diesel na drie jaar, daarna jaarlijks. Wie een wagenpark van drie tot vier jaar oud overbrengt, ziet de eerste keuring dus snel aankomen."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke route is het snelst voor bestelwagens uit Vigo?",
+     "a": "De westroute: A-8 of de meseta naar Irun, A10 naar Parijs en E19 naar Nederland. De oostroute via Lyon en de A9 is langer. Geef bij uw aanvraag de laadplaats en het afleverpunt door, dan plant Mcars de route."
+    },
+    {
+     "q": "Wat gebeurt er met de Spaanse ITV als een wagen in Nederland komt?",
+     "a": "De RDW kan een Spaanse ITV-vermelding overnemen. Is er een geldige EU-apk, dan is geen nieuwe apk nodig. Voor de rest volgen RDW-keuring, bpm-aangifte, kentekenbewijs en platen."
+    },
+    {
+     "q": "Kan een autotransporter overal in Zeeland en West-Brabant lossen?",
+     "a": "Bij een heel lot loont het om één groot afleverpunt te kiezen, zoals een terminal of bedrijventerrein, in plaats van tien adressen. Ligt het adres in een zero-emissiezone, vraag dan vooraf de toegangsregels na."
+    }
+   ],
+   "seoDescription": "Leasewagens en wagenpark van Spanje naar Nederland vervoeren: Santander en Vigo, A10, Viapass en Nederlandse leaseregels.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Puerto_de_Santander",
+    "https://es.wikipedia.org/wiki/Puerto_de_Vigo",
+    "https://es.wikipedia.org/wiki/Stellantis_Vigo",
+    "https://es.wikipedia.org/wiki/Autopista_del_Atl%C3%A1ntico",
+    "https://en.wikipedia.org/wiki/A10_autoroute",
+    "https://en.wikipedia.org/wiki/European_route_E19",
+    "https://www.viapass.be/",
+    "https://cldn.com/our-terminals",
+    "https://www.northseaport.com/",
+    "https://nl.wikipedia.org/wiki/Louwman_Group",
+    "https://www.vna-lease.nl/",
+    "https://www.rijksoverheid.nl/onderwerpen/auto/vraag-en-antwoord/hoe-kan-ik-een-auto-uit-het-buitenland-in-nederland-importeren-invoeren",
+    "https://www.rdw.nl/kopen-of-verkopen/veel-kentekenbewijzen-tegelijk-overschrijven",
+    "https://www.opwegnaarzes.nl/bedrijven/buitenlandse-voertuigen",
+    "https://www.nederlandwereldwijd.nl/auto-importeren/rijden-met-buitenlands-kenteken",
+    "https://www.rdw.nl/apk/wanneer-en-hoe-vaak-apk-keuren"
+   ]
+  },
+  "spanje-luxemburg": {
+   "lead": "Een leasemaatschappij in Leudelange, een wagenpark in Barcelona dat naar Luxemburg moet: voor het zakencentrum van een klein land rijden veel bedrijfswagens over de grens. Van de Catalaanse haven tot de bedrijventerreinen in het zuiden van het Groothertogdom loopt de rit door de Rhônevallei. Hieronder leest u wat dat betekent voor een wagenpark.",
+   "facts": [
+    {
+     "label": "Franse A31",
+     "value": "Gratis tot Toul, daarna tolweg tot Beaune"
+    },
+    {
+     "label": "Luxemburgs verbod",
+     "value": "Transit naar Frankrijk: zaterdag 21.30 u. tot zondag 21.45 u."
+    },
+    {
+     "label": "Milieuzone Barcelona",
+     "value": "Werkdagen 7 tot 20 u., zonder label of gelijkwaardige norm geen toegang"
+    },
+    {
+     "label": "Bedrijfswagen",
+     "value": "Privégebruik is in Luxemburg een belastbaar voordeel in natura"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Barcelona: haven en milieuzone",
+     "body": [
+      "De haven van Barcelona is volgens Wikipedia de grootste autohaven van de Middellandse Zee, met twee gespecialiseerde terminals aan de Dársena Sur. Het recordjaar wordt toegeschreven aan de nabijheid van de fabrieken van Nissan en SEAT. Voor een wagenpark betekent dat veel nieuwe wagens op één plek, ook als de bestemming de Luxemburgse leasemarkt is.",
+      "De milieuzone Rondes de Barcelona geldt van maandag tot vrijdag, van 7 tot 20 uur. Voertuigen zonder DGT-label mogen er niet rijden. Wagens met buitenlandse plaat moeten aantonen dat ze aan dezelfde milieueisen voldoen, bijvoorbeeld een benzinewagen met een recente emissienorm. Dat loopt via het register van de AMB. Laad dus liever buiten de ring of laat de wagen eerst in het register zetten. De luchthaven El Prat ligt 15 kilometer ten zuidwesten van het centrum."
+     ]
+    },
+    {
+     "heading": "De AP-7 naar de Franse grens",
+     "body": [
+      "De Catalaanse stukken van de AP-7 tussen La Jonquera en Salou zijn sinds de zomer van 2021 tolvrij, toen de concessie afliep. Voor een autotransporter naar de grens valt daardoor een tolpost weg. Aan La Jonquera, de belangrijkste overgang over de oostelijke Pyreneeën, gaat de AP-7 over in de Franse A9.",
+      "Die A9 is 280,5 kilometer lang en loopt van Le Perthus naar Orange. Ze heet La Catalane tot Narbonne en La Languedocienne daarna, en is tolplichtig onder ASF. Wikipedia noemt haar gevaarlijk door het vele vrachtverkeer. De knooppunten van Orange en Montpellier zijn gevoelig, en aan de Col du Perthus ontstaan files door grenscontroles. Reken aan de grens dus op oponthoud."
+     ]
+    },
+    {
+     "heading": "Frankrijk door: A7, Lyon, A6 en A31",
+     "body": [
+      "Bij Orange sluit de A9 aan op de A7, de Autoroute du Soleil, ongeveer 306 kilometer tussen Marseille en Lyon. De middensectie is tolweg. In de zomer kan het er tot 180.000 voertuigen per dag worden en de chassé-croisé eind juli en begin augustus veroorzaakt files van honderden kilometers. Op drukke dagen verlaagt een dynamisch systeem de snelheid tot 110, 90 of 70 kilometer per uur.",
+      "In Lyon ligt de Fourvière-tunnel, waar de limiet sinds jaren 70 bedraagt. De 16 kilometer A6 en A7 door de stad zijn stadsboulevards. Bij Beaune verlaat u de A6 voor de A31, die 349 kilometer loopt van Beaune naar de Luxemburgse grens bij Zoufftgen. Tot Toul is de A31 gratis, van Toul tot Beaune is het een tolweg van APRR."
+     ]
+    },
+    {
+     "heading": "Rijverboden in Frankrijk en Luxemburg",
+     "body": [
+      "Frankrijk verbiedt goederenvoertuigen boven 7,5 ton in het weekend en kent op enkele zomerzaterdagen een extra verbod van 7 tot 19 uur op het hele net. Dat valt precies in de vakantiepiek op de A7 en A9, waar wagens al moeilijk vooruit komen. Spanje heeft geen algemeen weekendverbod, maar wel seizoensbeperkingen op de N-340, A-7 en AP-7, en op zaterdagen in juni tot augustus op de Andalusische kustwegen van 10 tot 14 uur.",
+      "Luxemburg verbiedt vrachtwagens boven 7,5 ton in transit naar Frankrijk van zaterdag 21.30 uur tot zondag 21.45 uur, ook voor feestdagen. Een rit die vrijdag in Barcelona vertrekt, loopt dus bijna zeker tegen een van beide weekendverboden aan."
+     ]
+    },
+    {
+     "heading": "Aankomst in het Luxemburgse zuiden",
+     "body": [
+      "De Minett-regio grenst aan Frankrijk en is de uitvalsweg naar het zuiden van Europa. De intermodale terminal Bettembourg-Dudelange van CFL (33 hectare) is dag en nacht open. Er vertrekt een autoroute ferroviaire voor opleggers naar Le Boulou in Zuid-Frankrijk, een traject van 1.045 kilometer. Onder de klanten zit de auto-industrie.",
+      "Leudelange, aan de A4, huisvest de hoofdzetels van verzekeraars LALUX en Foyer en van transportbedrijf Arthur Welter: veel bedrijfswagens dus. Wie een wagen met Spaanse papieren in Luxemburg wil inschrijven, heeft het volledige buitenlandse inschrijvingsbewijs, douane-afhandeling met btw en een SNCA-afspraak nodig. Dat regelt u zelf; Mcars vervoert."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Voordeel in natura bij bedrijfswagens",
+     "body": "Het privégebruik van een bedrijfswagen is in Luxemburg een belastbaar voordeel in natura, met sociale bijdragen, ook voor grensarbeiders. Bij de forfaitaire methode telt een maandelijks percentage van de nieuwwaarde, lager voor elektrische wagens. Een wagenpark verandert daardoor vaak bij contractwissel."
+    },
+    {
+     "kind": "regel",
+     "title": "Overname van de leasewagen",
+     "body": "Koopt de werknemer de leasewagen aan het einde van de lease over onder de marktwaarde, dan is het verschil een belastbaar voordeel. Dat is relevant voor wagens die naar de bestuurder gaan in plaats van naar remarketing. Een transport verandert niets aan die berekening."
+    },
+    {
+     "kind": "plek",
+     "title": "Bettembourg-Dudelange",
+     "body": "De terminal van CFL ligt naast het rangeerstation van Bettembourg en is het hele jaar dag en nacht open. Een wagenpark dat tussen Zuid-Frankrijk en Luxemburg rijdt, kan er dus ook per trein aankomen, naast de weg die Mcars rijdt."
+    },
+    {
+     "kind": "tip",
+     "title": "Belgische grensarbeiders",
+     "body": "Een inwoner van België hoeft een in Luxemburg ingeschreven wagen niet in België in te schrijven als die hem door een Luxemburgse werkgever ter beschikking is gesteld. Houd bij een controle in België het Luxemburgse arbeidscontract bij de hand."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Kan een Belgische werknemer een Luxemburgse bedrijfswagen privé gebruiken?",
+     "a": "Ja, mits de wagen in Luxemburg is ingeschreven en door een Luxemburgse werkgever is verstrekt. Het privégebruik is wel een belastbaar voordeel in natura, ook voor grensarbeiders."
+    },
+    {
+     "q": "Hoe lang is de rit van Barcelona naar Luxemburg ongeveer?",
+     "a": "Dat hangt af van tol, verkeer en rijverboden. Door de Franse en Luxemburgse weekendverboden loopt de rit zelden zonder stop. Offerte en planning volgen na uw aanvraag; een precieze termijn belooft Mcars niet vooraf."
+    },
+    {
+     "q": "Is de AP-7 tussen Barcelona en de Franse grens betalend?",
+     "a": "De Catalaanse stukken tussen La Jonquera en Salou zijn tolvrij sinds de concessie afliep. Verderop, in Frankrijk, is de A9 wel tolplichtig onder ASF."
+    }
+   ],
+   "seoDescription": "Wagenpark van Barcelona naar Luxemburg vervoeren: AP-7, A9, A7, A31, rijverboden en Luxemburgse regels voor bedrijfswagens.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+    "https://www.zbe.barcelona/zones-baixes-emissions/vehicles-afectats.html",
+    "https://es.wikipedia.org/wiki/Aeropuerto_Josep_Tarradellas_Barcelona-El_Prat",
+    "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+    "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+    "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+    "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+    "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+    "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+    "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+    "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/spain",
+    "https://blogcfl.lu/?p=23174",
+    "https://fr.wikipedia.org/wiki/Leudelange",
+    "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+    "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/voiture-societe-salarie/leasing.html",
+    "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/voiture-societe-salarie/taxe-circulation-belgique.html"
+   ]
+  },
+  "spanje-frankrijk": {
+   "lead": "Een leasemaatschappij met wagens in Madrid, een fabriek in Valladolid, een poolpark bij de luchthaven Barajas: wie een Spaans wagenpark naar Frankrijk brengt, vertrekt uit het binnenland en moet kiezen tussen de Atlantische kant bij Irun en de Middellandse kant bij Le Perthus. Hieronder leest u wat per kant telt voor bedrijfswagens en leasewagens.",
+   "facts": [
+    {
+     "label": "Franse A63",
+     "value": "Drie delen: gratis, Atlandes en ASF, met vijf tolpunten"
+    },
+    {
+     "label": "Franse jaartaks",
+     "value": "Vennootschappen betalen twee jaarlijkse taksen op bedrijfswagens"
+    },
+    {
+     "label": "Elektrische quota",
+     "value": "Boven 100 lichte voertuigen verplicht een aandeel elektrisch of plug-in"
+    },
+    {
+     "label": "Rijverbod",
+     "value": "Zaterdag 22 u. tot zondag 22 u. boven 7,5 ton"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek uit Madrid en het binnenland",
+     "body": [
+      "De luchthaven Adolfo Suárez Madrid-Barajas ligt twaalf kilometer ten noordoosten van het centrum en is de drukste van Spanje. Wie vliegt terwijl de wagen rijdt, of een poolwagen bij de luchthaven laat ophalen, gebruikt dat als vast punt.",
+      "Renault España heeft assemblagefabrieken in Valladolid en Palencia en een motorenfabriek in Valladolid. Stellantis Madrid ligt in het district Villaverde en bouwt sinds enkele jaren de Citroën C4 en de elektrische ë-C4. Wagens uit die fabrieken kunnen rechtstreeks over de weg naar Frankrijk, zonder tussen te komen in een haven."
+     ]
+    },
+    {
+     "heading": "Van Madrid naar Irun: A-1 en de tolvrije AP-1",
+     "body": [
+      "Vanuit Madrid loopt de A-1 via Burgos naar Irun. Op de AP-1 tussen Burgos en Armiñón is de tol sinds 2018 verdwenen. Voor een autotransporter valt daar dus een tolpost weg op de weg naar de grens.",
+      "Pas op voor de Madrileense zondagavonden. De toegangswegen naar de hoofdstad zijn eind juni tot begin september op zondag van 21 tot 23 uur verboden voor zware vrachtwagens, de A-5 zelfs tot 24 uur. Een wagenpark dat in Madrid wordt opgehaald, vertrekt dus liever op een weekdag of vroeg op de zondag."
+     ]
+    },
+    {
+     "heading": "De A63: drie delen, vijf tolpunten",
+     "body": [
+      "De A63 loopt van Biriatou, tegenover Irun, naar Bordeaux. Het stuk Bordeaux-Salles is gratis (DIR Atlantique). Door de Landes is ze betalend en door Atlandes tot tweemaal drie rijstroken verbreed. Van Saint-Geours-de-Maremne tot Biriatou is het weer een tolweg van ASF.",
+      "Er is tol zonder tickets, met vijf tolpunten tussen Bordeaux en Spanje. Voertuigen onder 7,5 ton kunnen twee tolpunten in de Landes via een gratis alternatief mijden. Voor een autotransporter geldt dat alternatief niet. Zware vrachtwagens rijden hier met honderden andere tot aan de ring van Bordeaux, waar een flink deel van het vrachtverkeer doorgaand is."
+     ]
+    },
+    {
+     "heading": "De Middellandse kant: A9, A709 en Le Perthus",
+     "body": [
+      "Staat uw wagenpark aan de Middellandse Zee, dan gaat u via de Col du Perthus op ongeveer 290 meter hoogte. De A9, de Spaanse AP-7, de N-II en de D900 lopen er door de pas. De oude douanekantoren zijn buiten gebruik.",
+      "De A9 loopt langs Nîmes, Montpellier, Béziers, Narbonne en Perpignan. Sinds 2017 gaat de doorgaande A9 zonder tolbarrière om Montpellier heen, het lokale stuk is de tolvrije A709. Een knelpunt blijft de wisselaar bij Orange, het verplichte punt tussen A7 en A9. Zware vrachtwagens zijn er talrijk."
+     ]
+    },
+    {
+     "heading": "Franse regels voor bedrijfswagens bij aankomst",
+     "body": [
+      "Vennootschappen betalen twee jaarlijkse taksen op personenwagens die ze voor hun activiteit gebruiken: één op de CO2-uitstoot en één op luchtverontreinigende stoffen. Zuiver elektrische en waterstofvoertuigen zijn vrijgesteld, eenmanszaken ook. Een wagen geldt als gehouden bij een huur van lange duur of leasing met aankoopoptie, kortetermijnhuur tot dertig dagen niet.",
+      "Ook een wagen die niet in Frankrijk is ingeschreven, kan belastbaar zijn voor de periode dat hij er effectief voor een onderneming wordt gebruikt. Dat is belangrijk voor een poolwagen die tijdelijk naar een Franse vestiging gaat. Mcars rijdt elke week over heel Frankrijk, ook langs stockageparken zoals BCA en TEA, en kan een Spaanse lot dus aan een Frans adres aanvullen."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Quota voor elektrische wagens",
+     "body": "De Loi d'orientation des mobilités verplicht bedrijven met meer dan honderd lichte voertuigen om bij vernieuwing een minimumaandeel elektrische en plug-in hybride wagens te nemen. Dat aandeel stijgt in stappen tot 2030. Meer dan 3.700 bedrijven vallen eronder."
+    },
+    {
+     "kind": "plek",
+     "title": "Veilingzalen bij Bordeaux en Châtellerault",
+     "body": "Alcopa Auction heeft een veilingzaal in Châtellerault en VPauto vermeldt Bordeaux als veilinglocatie. Voor wagens die na lease in Spanje in Frankrijk worden doorverkocht, zijn dat de plekken waar ze vaak aankomen."
+    },
+    {
+     "kind": "regel",
+     "title": "Feestdagen en vrachtverkeer",
+     "body": "Het Franse verbod boven 7,5 ton geldt niet alleen in het weekend maar ook op feestdagen, vanaf 22 uur de avond ervoor tot 22 uur op de feestdag. Een bijkomende reden om een rit niet vlak voor een vrije dag te laten eindigen."
+    },
+    {
+     "kind": "tip",
+     "title": "Ring van Bordeaux",
+     "body": "Op de ring van Bordeaux is maar een klein deel van de verplaatsingen doorgaand verkeer. Op het oostelijke en zuidelijke deel is vrachtverkeer een groot stuk van het verkeer, waarvan ongeveer de helft in transit. Houd er rekening mee bij het kiezen van een aankomstuur."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is de AP-1 tussen Burgos en Armiñón tolvrij?",
+     "a": "Ja, sinds 2018. Daarmee zijn de grote Atlantische doorgangen in het noorden van Spanje voor een autotransporter goedkoper geworden dan voorheen. Op de Franse A63 blijft het wel een tolweg."
+    },
+    {
+     "q": "Moet mijn poolwagen in Frankrijk ook belast worden?",
+     "a": "Een wagen die niet in Frankrijk is ingeschreven kan belastbaar zijn zolang hij er voor een onderneming wordt gebruikt. Overleg met uw fiscalist, Mcars vervoert enkel en geeft geen fiscaal advies."
+    },
+    {
+     "q": "Welke kant van Frankrijk raden jullie aan?",
+     "a": "Dat hangt af van waar de wagens staan. Uit Madrid is de Atlantische kant bij Irun logisch, uit Valencia of Catalonië de Middellandse kant. Beide kunnen met tol en files; we kijken mee bij de offerte."
+    }
+   ],
+   "seoDescription": "Wagenpark van Madrid of het Spaanse binnenland naar Frankrijk vervoeren: A-1, A63, A9 en Franse regels voor bedrijfswagens.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Aeropuerto_Adolfo_Su%C3%A1rez_Madrid-Barajas",
+    "https://es.wikipedia.org/wiki/Renault_Espa%C3%B1a",
+    "https://es.wikipedia.org/wiki/Stellantis_Madrid",
+    "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transportes/Paginas/2021/310821-peajes.aspx",
+    "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+    "https://fr.wikipedia.org/wiki/Autoroute_A63_(France)",
+    "https://en.wikipedia.org/wiki/Col_du_Perthus",
+    "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+    "https://entreprendre.service-public.gouv.fr/vosdroits/F22203",
+    "https://fr.wikipedia.org/wiki/Loi_d%27orientation_des_mobilit%C3%A9s",
+    "https://www.alcopa-auction.fr/",
+    "https://www.vpauto.fr/",
+    "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+    "https://fr.wikipedia.org/wiki/Rocade_de_Bordeaux"
+   ]
+  },
+  "spanje-duitsland": {
+   "lead": "Een partij nieuwe wagens in de haven van Tarragona, een leasemaatschappij in Zuid-Duitsland die ze wil afnemen: dat is een rit van de Catalaanse kust over de Franse A9 en dan noordwaarts, richting de A5 langs de Rijn. Hieronder leest u wat er onderweg speelt voor wagenparken: terminals, tol, rijverboden en de Duitse regels voor lease- en bedrijfswagens.",
+   "facts": [
+    {
+     "label": "Haven Tarragona",
+     "value": "Drie voertuigterminals en stockage voor 47.000 voertuigen"
+    },
+    {
+     "label": "Franse A9",
+     "value": "Tolplichtig onder ASF, tot afrit 41 tweemaal drie rijstroken"
+    },
+    {
+     "label": "Duitse maut",
+     "value": "Vanaf 3,5 ton, met een CO2-component, op autobahnen en bundesstraßen"
+    },
+    {
+     "label": "Duitse 1%-regel",
+     "value": "Privégebruik bedrijfswagen: 1% van de catalogusprijs per maand"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Tarragona: drie terminals en het spoor",
+     "body": [
+      "In de haven van Tarragona behandelen drie terminals voertuigen: Bergé Gefco, Noatum Terminal Tarragona en Bergé Marítima. Er is stockage voor 47.000 voertuigen. Een groot deel van de wagens komt of vertrekt per spoor. Historisch gaat het om export naar het Middellandse Zeegebied en import uit het Verre Oosten, vooral Zuid-Korea. Port Tarragona meldt dat ANFAC haar voor het derde jaar op rij de beste Spaanse haven voor voertuiglogistiek noemde.",
+      "Voor een leasemaatschappij is dat een logisch inzamelpunt: veel wagens, één terminal, en een open autotransporter die de eerste rit naar het noorden neemt. Belangrijk is dat u bij een groot lot de laadtijd afspreekt met de terminal."
+     ]
+    },
+    {
+     "heading": "Martorell: de SEAT- en CUPRA-fabriek aan de A-2",
+     "body": [
+      "De fabriek en hoofdzetel van SEAT liggen sinds 1993 in Martorell, in de Baix Llobregat, aan de A-2 bij kilometer 585. Er worden modellen van SEAT en CUPRA gebouwd. Wie in Duitsland leasewagens van dat merk laat leveren, krijgt ze vaak van daaruit.",
+      "Een wagenpark dat uit meerdere fabrieksplekken komt, laat u best groeperen. Een lot van Martorell en een lot van de haven van Tarragona liggen op dezelfde AP-7. Mcars rijdt open op meerlaagse autotransporters met Kässbohrer-opbouw; elke wagen wordt bij ophaling geïnspecteerd en gefotografeerd, met een CMR-vrachtbrief."
+     ]
+    },
+    {
+     "heading": "Frankrijk: AP-7, A9 en de A36",
+     "body": [
+      "De AP-7 is ongeveer 1.007 kilometer lang en heeft tolpunten onder meer bij La Jonquera en rond Granollers en La Roca del Vallès. Aan de grens gaat ze over in de A9, die door ASF wordt geëxploiteerd, sinds 2006 onderdeel van Vinci Autoroutes. De verbreding tot de Spaanse grens was klaar in 2019.",
+      "Bij Montpellier splitst de A9 zich in A9 en A709. Wie de verkeerde afrit mist, kan tot 35 kilometer tot de volgende A9-afrit hebben. Verder noordwaarts verbindt de A36 Beaune met Besançon, Montbéliard, Belfort en Mulhouse, waar de Duitse grens ligt. Tussen Belfort-Nord en Voujeaucourt is ze tolvrij."
+     ]
+    },
+    {
+     "heading": "Rijverboden en maut onderweg",
+     "body": [
+      "In Spanje geldt een DGT-resolutie met beperkingen voor voertuigen boven 7.500 kg op bepaalde wegen en data. Genoemd worden onder meer de N-230 richting de Franse grens op vrijdagavond in de winter, van 17 tot 24 uur. In Frankrijk loopt het verbod van zaterdag 22 uur tot zondag 22 uur, uitgebreid in de zomer.",
+      "Duitsland verbiedt vrachtwagens boven 7,5 ton op zon- en feestdagen van 0 tot 22 uur, en in juli en augustus ook op zaterdag van 7 tot 20 uur. De Duitse vrachtwagenmaut geldt vanaf 3,5 ton op autobahnen en bundesstraßen en bevat een CO2-component. Ze wordt gecontroleerd via on-boardunits en portieken."
+     ]
+    },
+    {
+     "heading": "Aankomst in Baden-Württemberg en Duitse leaseregels",
+     "body": [
+      "De regio grenst aan Frankrijk en Zwitserland. De A5 eindigt in Weil am Rhein aan de Zwitserse grens, waar de EU-douanegrens ligt. Bij Kehl ligt de Europabrücke naar Straatsburg, de drukste grensovergang tussen Baden en de Elzas; ze was tijdelijk beperkt tot 3,5 ton en een nieuwe brug is gepland. Op de A8 geeft de Albaufstieg een steile helling, met 50 kilometer per uur bergaf voor vrachtwagens.",
+      "Meer dan twee derde van de nieuwe Duitse personenwagens staat op naam van een bedrijf. Een Duitse leasewagen mag vaak niet worden meegenomen naar het buitenland: contractueel is dat meestal verboden en de Fahrzeugbrief blijft bij de leasemaatschappij. Reken dus op wagens die terugkeren."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Eén jaar, maximaal drie jaar",
+     "body": "Een buitenlands ingeschreven voertuig mag tijdelijk een jaar in Duitsland rijden. Bij de uitoefening van EU-vrijheden zoals vrij verkeer van werknemers kan die termijn langer zijn, nooit meer dan drie jaar. Dat raakt een Spaanse poolwagen die lang in Duitsland blijft."
+    },
+    {
+     "kind": "regel",
+     "title": "Kfz-Steuer en elektrische wagens",
+     "body": "Voor zuiver elektrische voertuigen geldt een tijdelijke vrijstelling van Kfz-Steuer, gevolgd door een halvering. Hybrides vallen er niet onder. Een aanvraag is niet nodig. Voor een wagenpark met veel elektrische wagens is dat belangrijk bij de keuze van de inschrijvingsplaats."
+    },
+    {
+     "kind": "tip",
+     "title": "Großkunden bij i-Kfz",
+     "body": "De FZV voorziet voor internetinschrijving in een aparte koppeling voor grote aanvragers. Een leasemaatschappij of flotte kan zich als Großkunde laten registreren en aanvragen indienen via die weg. Dat bespaart tijd bij een lot van meerdere wagens."
+    },
+    {
+     "kind": "plek",
+     "title": "Europabrücke Kehl",
+     "body": "De brug tussen Kehl en Straatsburg is de drukste overgang van Baden naar de Elzas. Voor een nieuwe brug is een planningsakkoord gepubliceerd. Wie een autotransporter laat komen, vraagt best vooraf welke overgang bruikbaar is."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mag een wagen uit een Duitse lease in Spanje blijven?",
+     "a": "Dat staat in het leasecontract. Meenemen naar het buitenland is vaak verboden en de Fahrzeugbrief blijft bij de leasemaatschappij. Vraag toestemming vóór u een transport boekt."
+    },
+    {
+     "q": "Moet ik de maut op de Duitse autobahn zelf betalen?",
+     "a": "De maut geldt voor vrachtwagens vanaf 3,5 ton en wordt gecontroleerd via on-boardunits. Hoe ze in de prijs van een rit terechtkomen, leest u in de offerte."
+    },
+    {
+     "q": "Rijdt een autotransporter in juli en augustus op zaterdag in Duitsland?",
+     "a": "In die twee maanden geldt een extra verbod op zaterdag van 7 tot 20 uur, bovenop het verbod op zon- en feestdagen. Plan een aankomst in Zuid-Duitsland op een weekdag."
+    }
+   ],
+   "seoDescription": "Leasewagens van Tarragona of Martorell naar Duitsland vervoeren: AP-7, A9, A36, maut, rijverboden en Duitse leaseregels.",
+   "sources": [
+    "https://www.porttarragona.cat/es/servicio-negocio/negocio/traficos/vehiculos",
+    "https://www.porttarragona.cat/es/",
+    "https://es.wikipedia.org/wiki/SEAT",
+    "https://en.wikipedia.org/wiki/Autopista_AP-7",
+    "https://en.wikipedia.org/wiki/Autoroute_A9",
+    "https://fr.wikipedia.org/wiki/Autoroute_A36_(France)",
+    "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+    "https://en.wikipedia.org/wiki/Toll_Collect",
+    "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+    "https://de.wikipedia.org/wiki/Europabr%C3%BCcke_(Kehl)",
+    "https://de.wikipedia.org/wiki/Albaufstieg_(A_8)",
+    "https://www.kba.de/DE/Statistik/Fahrzeuge/Neuzulassungen/neuzulassungen_node.html",
+    "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+    "https://www.buzer.de/s1.htm?a=46&g=FZV&dorg=1",
+    "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/Steuerverguenstigungen/steuerverguenstigungen_node.html",
+    "https://de.wikipedia.org/wiki/Firmenwagen"
+   ]
+  },
+  "spanje-italie": {
+   "lead": "Een poolpark in Valencia, een leasemaatschappij in Turijn of Genua: tussen de Spaanse Levante en Noordwest-Italië ligt de hele Franse Rivièra. Wie wagens voor een bedrijf over die as laat verplaatsen, rijdt over tolwegen, door tientallen tunnels en langs rijverboden in drie landen. Hieronder leest u wat dat concreet betekent.",
+   "facts": [
+    {
+     "label": "Franse A8",
+     "value": "La Provençale, 224 kilometer van Aix-en-Provence naar Menton"
+    },
+    {
+     "label": "Italiaanse A10",
+     "value": "158 kilometer, 78 tunnels tussen Genua en Nice"
+    },
+    {
+     "label": "Italiaanse verboden",
+     "value": "Zondagen overdag en zomervrijdagen vanaf 16 u. boven 7,5 ton"
+    },
+    {
+     "label": "Salone Auto Torino",
+     "value": "Elk jaar in september in open lucht in Turijn"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Valencia en Murcia",
+     "body": [
+      "Het stuk van de AP-7 tussen Salou en Alicante is tolvrij. Verder zuidwaarts blijft tol over tussen Crevillente en Cartagena en tussen Cartagena en Vera. De ringweg van Alicante is tolvrij geworden. De A-7, de Autovía del Mediterráneo, is tolvrij en met ongeveer 1.090 kilometer de langste autovía van Spanje.",
+      "Parallel aan de AP-7 loopt langs de Costa Blanca de N-332 tot Pilar de la Horadada. Vanuit Madrid komt de A-3 naar Valencia, ongeveer 360 kilometer, met een viaduct over het stuwmeer van Contreras. In de zomer zijn files er gewoon. Wie wagens uit het binnenland naar de kust brengt, plant daar best niet op een zomerzaterdag."
+     ]
+    },
+    {
+     "heading": "Uitschrijven en de weg naar de grens",
+     "body": [
+      "Voor een wagen die Spanje definitief verlaat, vraagt de DGT om hem uit te schrijven in het land van herkomst vóór de verplaatsing. Bij een leasewagen die naar een Italiaanse vestiging gaat, regelt de leasemaatschappij of de bestuurder dat.",
+      "De AP-7 volgt de kust naar La Jonquera en gaat daar over in de A9. Bij Orange sluit de A9 aan op de A7. Vandaar loopt de A8 La Provençale van Aix-en-Provence langs Fréjus, Cannes, Nice en Monaco naar Menton. De A9 is een tolweg van ASF; op de A8 liggen tolpleinen onder meer bij La Barque, Antibes, Nice-Saint-Isidore en La Turbie."
+     ]
+    },
+    {
+     "heading": "De Ligurische kust en de Alpen",
+     "body": [
+      "Aan de grens wordt de Franse A8 de Italiaanse A10, de Autostrada dei Fiori naar Genua. Ze is 158 kilometer lang met 78 tunnels tussen Genua en Nice en behoort tot de duurste tolwegen van Italië. Tussen Albisola en Genua-Voltri geldt 80 kilometer per uur. Bij Genua stortte op 14 augustus 2018 een deel van de Morandibrug in.",
+      "Een alternatief via de Alpen is de Fréjustunnel, 12,87 kilometer lang, tussen Modane en Bardonecchia. Er geldt 70 kilometer per uur met 150 meter afstand. Sinds 2025 is een tweede buis in gebruik. Door de Mont-Blanctunnel rijden vrachtwagens in groepen van vijf, met 150 meter afstand en 50 tot 70 kilometer per uur."
+     ]
+    },
+    {
+     "heading": "Rijverboden in Frankrijk en Italië",
+     "body": [
+      "Frankrijk verbiedt vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur, uitgebreid in vakantieperiodes. Italië kent een eigen kalender: verbod boven 7,5 ton op zondagen van 9 tot 22 uur, van juni tot september vanaf 7 uur, op zomervrijdagen van 16 tot 22 uur en op geselecteerde zomerzaterdagen.",
+      "Bij aankomst uit het buitenland start het Italiaanse verbod vier uur later, mits u bewijs van herkomst en bestemming hebt. Die regel helpt een transporteur uit Spanje, maar een rit die in het weekend op de A10 eindigt, loopt toch het risico dat de chauffeur stil moet staan."
+     ]
+    },
+    {
+     "heading": "Aankomst in het noordwesten van Italië",
+     "body": [
+      "In de haven van Savona-Vado Ligure komen nieuwe wagens aan land. Savona Terminal Auto behandelt ro-ro-verkeer en Vado heeft een ro-ro-kade van 200 meter met spooraansluiting. Sinds enkele jaren groeit het verkeer van nieuwe wagens uit China.",
+      "Italiaanse langetermijnverhuur loopt gewoonlijk 24 tot 60 maanden. In de huur zitten meestal de wegenbelasting, verzekeringen, onderhoud en pechhulp. Aan het einde levert de klant de wagen in en controleert de eigenaar de staat. Niet-gemelde schade of te veel kilometers worden aangerekend. Een leasewagen wordt ingeschreven op naam van de leasinggever."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Salone Auto Torino",
+     "body": "Het salon vindt elk jaar in september plaats in open lucht in het centrum van Turijn, met gratis toegang en testritten vanuit de Giardini Reali. Er komt ook een B2B-dag bij. Wie wagens naar Turijn wil laten brengen, houdt rekening met de drukte in de binnenstad."
+    },
+    {
+     "kind": "regel",
+     "title": "Semaforo antismog in Piemonte",
+     "body": "In 76 gemeenten van Piemonte gelden structurele verkeersbeperkingen. Van 15 september tot 15 april komen er bij niveau oranje of rood tijdelijke rijverboden bij, ook voor dieselwagens met emissienorm 5. Vraag voor een aflevering in de winter na welk niveau op die dag geldt."
+    },
+    {
+     "kind": "regel",
+     "title": "Gebruiker langer dan dertig dagen",
+     "body": "Krijgt iemand anders dan de titularis een voertuig langer dan dertig dagen ter beschikking, dan moet de gebruiker dat binnen dertig dagen laten registreren. Dat raakt poolwagens en bedrijfswagens op naam van een werknemer."
+    },
+    {
+     "kind": "plek",
+     "title": "Savona en Vado Ligure",
+     "body": "In Vado Ligure staat een ro-ro-kade met spooraansluiting en in Savona een autoterminal. Wagens die per schip aankomen, kunnen daar worden opgehaald. Controleer vooraf de laadtijden met de terminal."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke route is beter naar Turijn: de kust of de Alpen?",
+     "a": "De kust via de A8 en A10 is lang en duur met veel tunnels. Via de Fréjustunnel bereikt u Piemonte rechtstreeks, maar voor vrachtwagens gelden er strenge regels over snelheid en afstand. Mcars kiest de route samen met u."
+    },
+    {
+     "q": "Kan een poolwagen langer dan een maand in Italië blijven?",
+     "a": "Wie een voertuig langer dan dertig dagen ter beschikking krijgt zonder titularis te zijn, moet dat binnen dertig dagen laten registreren. Overleg met de leasemaatschappij."
+    },
+    {
+     "q": "Wat als mijn wagen in het weekend moet aankomen?",
+     "a": "Frankrijk en Italië hebben allebei weekendverboden voor zware vrachtwagens. Een aankomst op zaterdagavond of zondag is daarom moeilijk. Kies bij voorkeur een weekdag."
+    }
+   ],
+   "seoDescription": "Wagenpark van Valencia of Murcia naar Italië vervoeren: AP-7, A9, A8, A10, rijverboden en Italiaanse regels voor leasewagens.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+    "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Mediterr%C3%A1neo",
+    "https://es.wikipedia.org/wiki/Costa_Blanca",
+    "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Este",
+    "https://www.dgt.es/nuestros-servicios/tu-vehiculo/quieres-traer-o-llevarte-un-vehiculo-del-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+    "https://en.wikipedia.org/wiki/A8_autoroute",
+    "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+    "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+    "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+    "https://www.shippingitaly.it/2026/01/01/a-vado-ligure-un-nuovo-traffico-di-auto-saic/?output=pdf",
+    "https://it.wikipedia.org/wiki/Noleggio_a_lungo_termine",
+    "https://aci.gov.it/codice-della-strada/art-91/",
+    "https://aci.gov.it/codice-della-strada/art-94/",
+    "https://it.motor1.com/news/793665/salone-auto-torino-2026-date-espositori-biglietti/",
+    "https://www.regione.piemonte.it/web/node/17270"
+   ]
+  },
+  "spanje-zwitserland": {
+   "lead": "Een bedrijf met een filiaal in Genève dat wagens uit Málaga of Sevilla wil laten komen: dan loopt de rit van de Costa del Sol over de Spaanse A-4 en AP-7, door Zuid-Frankrijk en naar een land dat buiten de EU ligt. Hieronder leest u wat dat betekent voor wagenparken: tol, rijverboden, douane en e-vignet.",
+   "facts": [
+    {
+     "label": "Zwitsers rijverbod",
+     "value": "Zondags en 's nachts van 22 tot 5 u. boven 3,5 ton"
+    },
+    {
+     "label": "Geen EU-lid",
+     "value": "Aangifte bij de douane vóór de wagen het land in rijdt"
+    },
+    {
+     "label": "E-vignet",
+     "value": "Voor een wagenpark in één keer te kopen via het Via-portaal"
+    },
+    {
+     "label": "Gotthard",
+     "value": "Tunnel van 16,9 km, maximaal 150 vrachtwagens per uur"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Andalusië",
+     "body": [
+      "De A-4 verbindt Madrid met Córdoba, Sevilla en Cádiz. In de pas van Despeñaperros, tussen Venta de Cárdenas en Santa Elena, liggen sinds 2012 twee nieuwe rijbanen op viaducten. De AP-4 tussen Sevilla en Cádiz is vanaf Dos Hermanas tot Jerez tolvrij, het stuk Jerez-Puerto Real al langer.",
+      "Aan de Costa del Sol is de AP-7 tussen Torremolinos of Fuengirola en Guadiaro nog betalend, met Ausol als concessiehouder. De tolvrije A-7 doorkruist de kust met de oude N-340 ernaast; niet alle stukken zijn volwaardige autosnelwegen. In Algeciras liggen kruispunten met verkeerslichten en tussen Guadiaro en Estepona rotondes. Een transporteur houdt daar bij het plannen rekening mee."
+     ]
+    },
+    {
+     "heading": "Door Spanje en Frankrijk naar Genève",
+     "body": [
+      "Vanuit Andalusië loopt de rit naar het noorden en dan over de AP-7 naar La Jonquera. Die overgang is de belangrijkste over de oostelijke Pyreneeën; de AP-7 volgt er de oude Romeinse Via Augusta. Aan de Franse kant loopt de A9 van Orange, een tolweg van ASF.",
+      "In Spanje geldt voor voertuigen boven 7.500 kg een DGT-resolutie met beperkingen op bepaalde wegen en dagen. Er bestaan uitzonderingen voor onder meer levende dieren en bederfelijke waren, maar reken er voor een autotransporter niet op. In Frankrijk geldt het weekendverbod van zaterdag 22 uur tot zondag 22 uur, uitgebreid in vakantieperiodes."
+     ]
+    },
+    {
+     "heading": "Zwitserse rijverboden en de Gotthard",
+     "body": [
+      "Zwitserland verbiedt zondags en 's nachts, van 22 tot 5 uur, voertuigen boven 3,5 ton, trekkers met oplegger boven 5 ton en ook voertuigen met aanhanger boven 3,5 ton. Uitzonderingen zijn er enkel voor onvermijdelijke ritten; vanuit het buitenland beslist het kanton van binnenkomst. Een aankomst na tien uur 's avonds is dus geen optie.",
+      "De Gotthardtunnel is 16,9 kilometer lang en laat maximaal 150 vrachtwagens per uur door. Dat is vooral relevant voor wie van de Zwitserse zuidkant naar het noorden rijdt, op de A2 tussen Basel en Chiasso."
+     ]
+    },
+    {
+     "heading": "Buiten de EU: douane voor bedrijfswagens",
+     "body": [
+      "Zwitserland is geen EU-lid. De wagen moet uit eigen beweging worden aangemeld bij een douanekantoor voor handelsgoederen. Sinds 2024 zijn er geen invoerrechten meer op wegvoertuigen, maar automobielbelasting en btw blijven. Een inwoner van Zwitserland die een bedrijfswagen van een buitenlandse werkgever krijgt, vraagt vóór de eerste binnenkomst een douanevergunning aan en mag de wagen enkel voor dienstritten en woon-werkverkeer gebruiken.",
+      "Bedrijven met zetel in Zwitserland mogen in principe geen niet-ingeklaarde voertuigen gebruiken. De belangrijkste uitzondering is een tijdelijke aangifte voor twaalf grensoverschrijdende ritten per jaar, met een waarborg. Een buitenlands bedrijf mag zulke voertuigen enkel tijdelijk voor grensoverschrijdend vervoer inzetten; binnenlands vervoer is verboden. Wie zich niet aan de regels houdt, betaalt de invoerbelastingen."
+     ]
+    },
+    {
+     "heading": "Aankomst in Genève en Vaud",
+     "body": [
+      "De A1 begint aan de grensovergang Bardonnex-Saint-Julien-en-Genevois en sluit daar aan op de Franse A41. Dat is de binnenkomst voor wie uit Zuid-Frankrijk of Spanje komt. Het kanton Genève is bijna volledig door Frankrijk omsloten en een groot deel van de inwoners heeft geen Zwitsers paspoort. De luchthaven ligt vier kilometer van het centrum en heeft een Franse sector, ingesteld door een verdrag van 1958.",
+      "Voor wagenparken is het e-vignet belangrijk. Het hangt aan de nummerplaat en kan voor een groot aantal wagens in één keer via het Via-portaal worden gekocht, met een CSV-lijst. Zwitserse bedrijven die zakenpartner van de douane zijn, betalen op factuur."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Vormerkschein voor huurwagens",
+     "body": "Een huurwagen van een officieel buitenlands verhuurbedrijf mag een inwoner van Zwitserland enkel met een Vormerkschein 15.25 binnenbrengen. Binnen acht dagen na het begin van de huur moet de wagen weer het land uit of bij een Zwitserse verhuurder zijn ingeleverd."
+    },
+    {
+     "kind": "regel",
+     "title": "Plaatnummer hoort bij de houder",
+     "body": "In Zwitserland wordt het plaatnummer toegekend aan de houder, niet aan het voertuig. De platen zelf blijven eigendom van het kanton en moeten bij niet-gebruik worden ingeleverd. Een e-vignet kan pas naar een nieuwe plaat nadat de douane de wijziging per e-mail heeft bevestigd."
+    },
+    {
+     "kind": "tip",
+     "title": "Publiek e-vignet-register",
+     "body": "Met de optie Öffentlich einsehbar kan iedereen op het Via-portaal nagaan of een nummerplaat een geldig e-vignet heeft. Handig voor pool- en huurwagens waarvan de gebruiker vaak wisselt."
+    },
+    {
+     "kind": "regel",
+     "title": "Privégebruik en btw",
+     "body": "Privégebruik van een bedrijfsvoertuig wordt voor de Zwitserse btw als eigen verbruik belast, forfaitair als een maandelijks percentage van de aankoopprijs. Leasing verandert niets aan de douanebehandeling maar kan wel gevolgen hebben voor de inschrijving bij het kantonale Strassenverkehrsamt."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mag een autotransporter op zondag Zwitserland binnen?",
+     "a": "Nee. Voertuigen boven 3,5 ton mogen er zondags en 's nachts niet rijden. Uitzonderingen zijn voor onvermijdelijke ritten; vanuit het buitenland beslist het kanton van binnenkomst."
+    },
+    {
+     "q": "Moet mijn Spaanse leasewagen aangemeld worden bij de Zwitserse douane?",
+     "a": "Ja, de wagen moet uit eigen beweging bij een douanekantoor worden aangemeld. Mcars vervoert; de aangifte regelt u of uw douane-expediteur."
+    },
+    {
+     "q": "Heeft een wagen in Zwitserland een e-vignet nodig?",
+     "a": "Het vignet hangt aan de nummerplaat. Voor een wagenpark koopt u ze in één keer via het Via-portaal. Of de plaat een geldig vignet heeft, controleert u er ook."
+    }
+   ],
+   "seoDescription": "Wagenpark van Andalusië naar Zwitserland vervoeren: A-4, AP-7, Franse A9, Zwitserse rijverboden, douane en e-vignet.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Sur",
+    "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+    "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Mediterr%C3%A1neo",
+    "https://en.wikipedia.org/wiki/La_Jonquera",
+    "https://en.wikipedia.org/wiki/Autoroute_A9",
+    "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+    "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+    "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+    "https://www.bazg.admin.ch/de/unverzollte-fahrzeuge-nutzung-schweiz-regeln",
+    "https://www.bazg.admin.ch/de/einfuhr-schweiz-strassenfahrzeuge-firmen",
+    "https://de.wikipedia.org/wiki/Autobahn_A1_(Schweiz)",
+    "https://de.wikipedia.org/wiki/Kanton_Genf",
+    "https://de.wikipedia.org/wiki/Flughafen_Genf",
+    "https://www.bazg.admin.ch/de/e-vignette-fuer-firmen",
+    "https://de.wikipedia.org/wiki/Kontrollschild_(Schweiz)",
+    "https://de.wikipedia.org/wiki/Mehrwertsteuer_(Schweiz)",
+    "https://www.bazg.admin.ch/de/faq-umzugsgut"
+   ]
+  },
+  "spanje-oostenrijk": {
+   "lead": "Een verhuurder die zijn wagens op Mallorca of Tenerife heeft staan en ze naar een leasemaatschappij in Innsbruck wil brengen, rijdt eerst een stuk over zee. Daarna volgt de lange weg over Catalonië, de Franse Rivièra, Genua en de Brenner. Hieronder leest u wat er op elk stuk speelt voor een wagenpark: veerhavens, seizoenspieken, rijverboden en de Oostenrijkse NoVA.",
+   "facts": [
+    {
+     "label": "Veerhaven Barcelona",
+     "value": "Lijnen naar Palma, Alcúdia, Ibiza, Formentera, Ciutadella en Maó"
+    },
+    {
+     "label": "Italiaanse A22",
+     "value": "Modena tot Brennero, circa 315 kilometer, ongeveer een derde zwaar verkeer"
+    },
+    {
+     "label": "Oostenrijks verbod",
+     "value": "Zaterdag 15 u. tot zondag 22 u., extra zomerzaterdag overdag"
+    },
+    {
+     "label": "NoVA",
+     "value": "Verschuldigd op een leasewagen met vaste standplaats in Oostenrijk"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek op de Balearen",
+     "body": [
+      "Vanuit de haven van Barcelona varen ferry's naar Palma, Alcúdia, Ibiza, Formentera, Ciutadella en Maó; de bron noemt Baleària en Trasmediterránea als rederijen. Voor een transport over de weg eindigt de zeereis dus in een haven op het vasteland.",
+      "Wie op Mallorca of Ibiza een wagenpark heeft, ziet de vraag in pieken. De luchthaven van Palma is sterk seizoensgebonden en krijgt veel vluchten uit Duitsland en het Verenigd Koninkrijk. Ook Ibiza heeft in de winter vooral binnenlandse bestemmingen en in de zomer veel meer routes. Wie wagens van een eiland wil laten ophalen, plant dat dus liever buiten de zomerpiek, wanneer vluchten en veerboten minder vol zitten."
+     ]
+    },
+    {
+     "heading": "Vertrek op de Canarische Eilanden",
+     "body": [
+      "Tussen de Canarische eilanden vaart Fred. Olsen Express onder meer tussen Santa Cruz de Tenerife en Agaete, Los Cristianos en La Gomera, Playa Blanca en Corralejo en Las Palmas en Morro Jable. De rederij heeft sinds 2024 een aparte vrachtdochter. De haven van Las Palmas de Gran Canaria is volgens de bron de belangrijkste van de eilanden en de vierde van Spanje.",
+      "Een wagenpark van de Canarische Eilanden bereikt het vasteland enkel per schip, vanuit Huelva of Cádiz. Pas daar neemt een autotransporter het over. Dat maakt de totale rit naar Oostenrijk lang en met meerdere overgangen, waarbij elke schakel zijn eigen planning heeft."
+     ]
+    },
+    {
+     "heading": "De weg naar de Brenner",
+     "body": [
+      "Vanuit het Spaanse vasteland loopt de rit over de AP-7 naar La Jonquera, de Franse A9, de A7 en de A8 naar Menton, en de Italiaanse A10 naar Genua. Het vervolg naar het noorden gaat langs de A4 en de A22. De A22 loopt van Modena tot Brennero over circa 315 kilometer via Verona, Trento en Bolzano en wordt bij de pas de Oostenrijkse A13.",
+      "Op de Brennerpas zijn sinds Schengen geen vaste grenscontroles meer, maar Oostenrijk voerde in 2015 weer controles in. Bij Innsbruck kruist de A13 de A12 in het Inntal. De A22 voert veel zwaar verkeer, ongeveer een derde van het geheel. Wie dat traject plant, houdt rekening met dat zware verkeer."
+     ]
+    },
+    {
+     "heading": "Rijverboden: Oostenrijk, Italië en Kufstein",
+     "body": [
+      "Oostenrijk verbiedt zware vrachtwagens van zaterdag 15 uur tot zondag 22 uur, met een extra zomerzaterdag van 7 tot 15 uur op toeristische routes. Italië heeft zijn eigen kalender met verboden op zon- en feestdagen en op zomervrijdagen vanaf 16 uur.",
+      "Kufstein speelt vooral mee als de rit ook via Duitsland loopt: daar wordt zuidwaarts blokafhandeling toegepast voor voertuigen boven 7,5 ton, maximaal 250 per uur op de A12. Voor de rit uit Spanje is dat zelden relevant, tenzij de weg via München loopt. Naast de verboden is er het sectorale rijverbod in Tirol, dat het Hof van Justitie ongerechtvaardigd noemde."
+     ]
+    },
+    {
+     "heading": "Aankomst in Tirol en de NoVA",
+     "body": [
+      "Tirol grenst aan Duitsland, Italië en Zwitserland. De A13 loopt over de Brennerpas, het Reschenpass-traject verloopt via de B180 en de Timmelsjoch is enkel in de zomer open. Verkeer uit België en Duitsland komt meestal binnen bij Kufstein of over de Fernpass vanuit Reutte.",
+      "Een leasewagen met vaste standplaats in Oostenrijk is NoVA-plichtig, ook als de leasemaatschappij in het buitenland zit; de gebruiker is de belasting verschuldigd. Bij grensoverschrijdende lease binnen de EU of EER kan de NoVA bij de inschrijving beperkt worden tot het deel dat overeenkomt met de tijdelijke gebruiksduur. Elektrische voertuigen zijn vrijgesteld. Mcars vervoert; aangifte en inschrijving regelt u of uw leasemaatschappij."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Toelating voor Formentera",
+     "body": "Wie van 1 juni tot 30 september met een voertuig op Formentera wil rijden, heeft een toelating nodig. De regeling steunt op een Balearische wet en wordt aangevraagd via formentera.eco, met aparte procedures voor vakantie, werk en andere situaties. Een verhuurpark moet dat per wagen regelen."
+    },
+    {
+     "kind": "plek",
+     "title": "Muelle de Ribera in Santa Cruz",
+     "body": "In de haven van Santa Cruz de Tenerife is de Muelle de Ribera de zone voor ferry's en ro-ro-schepen. Het is de belangrijkste haven van het eiland, vóór Los Cristianos in het zuiden. Tenerife heeft ook een tweede luchthaven, Tenerife Norte, voor vluchten tussen de eilanden en naar het vasteland."
+    },
+    {
+     "kind": "regel",
+     "title": "Digitaal vignet per nummerplaat",
+     "body": "Het digitale vignet hangt aan de nummerplaat en is online na te kijken met plaat en land van inschrijving. Eén vignet dekt tot drie voertuigen die een Wechselkennzeichen delen. Controleer vóór de rit of de wagen die u levert een geldig vignet heeft."
+    },
+    {
+     "kind": "regel",
+     "title": "Bedrijfswagen en Zulassungsstelle",
+     "body": "Een bedrijfswagen wordt ingeschreven bij de Zulassungsstelle die bevoegd is voor het district van de bedrijfszetel; een eenmanszaak mag kiezen tussen woonplaats en zetel. Voor lease- en bedrijfswagens vraagt de Zulassungsstelle bijkomende documenten."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Kan Mcars wagens van een eiland ophalen?",
+     "a": "Een autotransporter rijdt over de weg, dus de wagens moeten eerst met de ferry het vasteland bereiken. Vanaf het haventerrein of de stalling op het vasteland kan Mcars ze ophalen."
+    },
+    {
+     "q": "Is NoVA ook verschuldigd bij een Spaanse lease?",
+     "a": "Een leasewagen met vaste standplaats in Oostenrijk is NoVA-plichtig, ook als de leasemaatschappij in het buitenland zit. Voor tijdelijk gebruik bestaat een beperking tot de gebruiksduur."
+    },
+    {
+     "q": "Zijn er douaneformaliteiten tussen Italië en Oostenrijk?",
+     "a": "Voor het gebruik binnen de EU van voertuigen die in een lidstaat zijn ingeschreven, gelden geen douaneregels. Wel kunnen er controles aan de Brenner zijn, sinds Oostenrijk die in 2015 herinvoerde."
+    }
+   ],
+   "seoDescription": "Wagenpark vanaf de Balearen of Canarische Eilanden naar Oostenrijk vervoeren: veerhavens, A22, Brenner, rijverboden en NoVA.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+    "https://www.formentera.eco/",
+    "https://es.wikipedia.org/wiki/Aeropuerto_de_Palma_de_Mallorca",
+    "https://es.wikipedia.org/wiki/Aeropuerto_de_Ibiza",
+    "https://es.wikipedia.org/wiki/Fred._Olsen_Express",
+    "https://es.wikipedia.org/wiki/Puerto_de_Las_Palmas",
+    "https://es.wikipedia.org/wiki/Puerto_de_Santa_Cruz_de_Tenerife",
+    "https://es.wikipedia.org/wiki/Aeropuerto_de_Tenerife_Sur",
+    "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+    "https://en.wikipedia.org/wiki/Brenner_Pass",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+    "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+    "https://de.wikipedia.org/wiki/Inntal_Autobahn",
+    "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/normverbrauchsabgabe-nova.html",
+    "https://www.asfinag.at/maut-vignette/digitale-vignette/",
+    "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/2/Seite.060118",
+    "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/9/Seite.063501"
+   ]
+  },
+  "spanje-polen": {
+   "lead": "Een poolwagenpark in Zaragoza dat naar een leasemaatschappij in Poznań moet: dat is een van de langste ritten die een autotransporter kan rijden. De rit loopt over de Catalaanse AP-7, de Franse A9, door Duitsland en dan over de A2 of A4 de Poolse grens over. Hieronder leest u wat dat voor een wagenpark betekent: fabrieken, tol, rijverboden en Poolse regels bij aankomst.",
+   "facts": [
+    {
+     "label": "Stellantis Zaragoza",
+     "value": "Fabriek in Figueruelas sinds 1982, onder meer Opel Corsa en Peugeot 208"
+    },
+    {
+     "label": "Duitse A12",
+     "value": "Berlijn tot Frankfurt (Oder), 58 kilometer"
+    },
+    {
+     "label": "Poolse e-TOLL",
+     "value": "Zware voertuigen registreren met goedgekeurd toestel of app"
+    },
+    {
+     "label": "Poolse leasing",
+     "value": "Leasing en verhuur zijn goed voor een op twee nieuwe wagens"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Aragón: Zaragoza en Figueruelas",
+     "body": [
+      "De fabriek van Stellantis Zaragoza staat in Figueruelas en draait sinds 1982, toen General Motors haar bouwde voor de Opel Corsa. Nu worden er onder meer de Opel Corsa, de Peugeot 208, de Lancia Ypsilon en de Leapmotor B10 gebouwd. Een wagenpark dat naar Polen gaat, komt vaak uit zo'n fabriek of van een poolpark in de regio.",
+      "De luchthaven van Zaragoza ligt ongeveer tien kilometer van het centrum. Ze was de derde vrachtluchthaven van Spanje, het passagiersverkeer is beperkt. Dat past bij een regio waar logistiek voorop staat. MotorLand Aragón heeft een kartcircuit van 2.049 meter en het TechnoPark, ongeveer 21 hectare voor onderzoek, testen en ontwikkeling in de motorsector."
+     ]
+    },
+    {
+     "heading": "Spaanse regels voor wagens in een wagenpark",
+     "body": [
+      "Een personenwagen is in Spanje vrijgesteld van de technische keuring (ITV) tot vier jaar, gaat daarna tweejaarlijks tot tien jaar en jaarlijks vanaf tien jaar. Dat ritme bepaalt wanneer een wagenpark in Zaragoza een keuring moet plannen voor het transport vertrekt.",
+      "Wie naar de kust rijdt, neemt de AP-2 tussen Zaragoza en El Vendrell, 215 kilometer. Die weg is sinds 2021 tolvrij. Aan de kust sluit de AP-7 aan, waar de Catalaanse stukken tussen La Jonquera en Salou eveneens tolvrij zijn. Aan La Jonquera begint de Franse A9, een tolweg."
+     ]
+    },
+    {
+     "heading": "De lange weg: Frankrijk en Duitsland",
+     "body": [
+      "Door Frankrijk en Duitsland zijn meerdere routes mogelijk. De Duitse A5 is een logische noord-zuidas: 445 kilometer van het Hattenbacher Dreieck langs Frankfurt, Karlsruhe en Freiburg naar Basel. Rijverboden onderweg: Spanje volgens de jaarlijkse DGT-resolutie, Frankrijk van zaterdag 22 uur tot zondag 22 uur, Duitsland op zon- en feestdagen van 0 tot 22 uur, en in juli en augustus ook op zaterdag van 7 tot 20 uur.",
+      "Voor de Duitse vrachtwagenmaut geldt sinds enkele jaren een CO2-component voor voertuigen boven 3,5 ton. Zonder on-boardunit kan een traject vooraf online of aan een betaalterminal worden geboekt."
+     ]
+    },
+    {
+     "heading": "Grens bij Frankfurt (Oder) en Świecko",
+     "body": [
+      "De Duitse A12 loopt van Berlijn tot Frankfurt (Oder), 58 kilometer lang. Aan de Poolse kant begint bij Świecko de A2 naar Poznań, Łódź en Warschau, met tol op het grootste deel tot Konin. Een alternatief is de A4 vanaf Jędrzychowice naar Wrocław, Katowice en Kraków; de grens tot Wrocław is niet tolplichtig. De Poolse A4 werd in 2016 de eerste volledige grens-tot-grens-snelweg van het land.",
+      "Aan de grens van Frankfurt (Oder) en Świecko kunnen files tot ongeveer zeven kilometer ontstaan door Duitse en Poolse controles. Een extra rijstrook in de controlezone wordt onderzocht. Plan de aankomst dus niet in de ochtendspits. Voor zware voertuigen geldt de Poolse e-TOLL, met registratie via een goedgekeurd toestel of app."
+     ]
+    },
+    {
+     "heading": "Aankomst in Groot-Polen en Poolse regels",
+     "body": [
+      "Słubice ligt aan de Oder recht tegenover Frankfurt (Oder) en hoort bij de speciale economische zone Kostrzyn-Słubice. Volkswagen Poznań heeft twee fabrieken voor bedrijfswagens: Poznań-Antoninek bouwt de Caddy, Września bouwt de Crafter en de MAN TGE. De S3 is de noord-zuidas langs de westgrens, van Świnoujście tot de Tsjechische grens.",
+      "Voor een bedrijfsvoertuig dient iemand die het bedrijf mag vertegenwoordigen de inschrijvingsaanvraag in. De Poolse leasingmarkt is sterk gegroeid en leasing en verhuur zijn samen goed voor een op twee nieuwe wagens. Lichte voertuigen vormen het grootste deel. Het wagenpark komt dus vooral van bedrijven, niet van particulieren."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "regel",
+     "title": "Milieuzone Warschau",
+     "body": "De milieuzone van Warschau wordt voor inwoners en bedrijven met zetel in de hoofdstad pas later strenger, maar de tweede fase richt zich al op voertuigen van eigenaars die er niet gevestigd zijn. Controleer vooraf of de wagen de zone in mag, via de officiële online controle van de stad."
+    },
+    {
+     "kind": "regel",
+     "title": "Milieuzone Krakau",
+     "body": "In de milieuzone van Krakau worden in Polen ingeschreven voertuigen automatisch herkend. Een vervoerder met Poolse platen hoeft niets extra te doen. Voor een wagenpark met buitenlandse platen geldt dat niet, dus vraag na wat bij uw wagens nodig is."
+    },
+    {
+     "kind": "tip",
+     "title": "Accijns bij eerste inschrijving",
+     "body": "De Poolse accijns geldt voor elke eerste inschrijving van een personenwagen, ook voor een leasewagen uit het buitenland. Reken dat in vóór u een transport boekt; Mcars regelt de aangifte niet."
+    },
+    {
+     "kind": "plek",
+     "title": "Volkswagen in Września",
+     "body": "Września ligt ongeveer vijftig kilometer ten oosten van Poznań en is sinds 2016 de plek waar Volkswagen de Crafter en de MAN TGE bouwt. Een leasemaatschappij die bestelwagens uit Aragón en Polen combineert, ziet beide stromen elkaar kruisen."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Kan een wagen uit Zaragoza rechtstreeks naar Poznań?",
+     "a": "Over de weg wel, maar de rit loopt door Spanje, Frankrijk en Duitsland, met rijverboden en tol in elk land. Mcars plant een route na uw aanvraag."
+    },
+    {
+     "q": "Moet mijn wagen een Poolse keuring hebben?",
+     "a": "Voor de inschrijving in Polen is een geldige technische keuring nodig, naast de buitenlandse papieren, de Poolse verzekering en het koopcontract in het Pools. Dat regelt u of uw leasemaatschappij."
+    },
+    {
+     "q": "Hoe zit het met tol in Duitsland?",
+     "a": "De Duitse maut geldt voor voertuigen boven 3,5 ton, bevat een CO2-component en wordt gecontroleerd via on-boardunits en portieken. Zonder toestel boekt u het traject vooraf online of aan een betaalterminal."
+    }
+   ],
+   "seoDescription": "Wagenpark van Zaragoza of Aragón naar Polen vervoeren: AP-2, AP-7, A9, A12, Poolse A2 en A4, rijverboden en Poolse regels.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Stellantis_Zaragoza",
+    "https://es.wikipedia.org/wiki/Aeropuerto_de_Zaragoza",
+    "https://es.wikipedia.org/wiki/MotorLand_Arag%C3%B3n",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+    "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transportes/Paginas/2021/310821-peajes.aspx",
+    "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+    "https://en.wikipedia.org/wiki/Bundesautobahn_12",
+    "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+    "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+    "https://www.etoll.gov.pl/en/",
+    "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+    "https://en.wikipedia.org/wiki/S%C5%82ubice",
+    "https://www.auto-swiat.pl/wiadomosci/aktualnosci/volkswagen-rozbudowuje-fabryke-we-wrzesni-bedzie-produkowal-nowy-model/rc4lvyc",
+    "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+    "https://polandinsight.com/polands-leasing-market-hits-record-pln-119-5bn-in-2025-as-ev-financing-gains-momentum-31181/",
+    "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+    "https://www.podatnik.info/publikacje/podatek-akcyzowy-od-samochodu-kto-i-kiedy-musi-go-zaplacic,637972"
+   ]
+  }
+ }
+}

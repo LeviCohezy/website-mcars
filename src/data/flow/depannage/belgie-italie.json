@@ -1,0 +1,59 @@
+{
+  "sub": "Is uw wagen in België gestrand en moet hij naar een werkplaats of eigenaar in Italië? Wij laden hem in België op en rijden hem door.",
+  "problem": {
+    "title": "Pech in België, maar de wagen hoort in Italië",
+    "body": "Uw wagen is uitgevallen in de Ardennen of ergens anders in België. Het gaat niet om een rit naar de buurman: hij moet naar een Toscaanse garage, naar een tweede verblijf aan zee of naar een eigenaar in Lombardije. Rijden kan niet meer, en een vriend met een aanhangwagen is te riskant over zo'n afstand. U zoekt een transporteur die de wagen opneemt en tot aan de Italiaanse deur brengt.",
+    "situations": [
+      { "title": "Wagen voor een Italiaanse garage", "body": "Een specialist in Italië kent uw merk of model beter. De wagen valt in België stil en moet naar hem toe, ook zonder eigen motor." },
+      { "title": "Tweede verblijf in Italië", "body": "Uw wagen blijft bij het huis in Italië. Na een panne in België wilt u hem daar hebben, zodat hij klaarstaat bij uw aankomst." },
+      { "title": "Wagen verkocht aan een Italiaan", "body": "De koper woont in Italië en de wagen start niet meer. Hij moet vervoerd worden zoals hij is, niet eerst hersteld." }
+    ]
+  },
+  "solution": {
+    "title": "Wij ophalen in België en afleveren in Italië",
+    "body": "In België takelen we zelf na pech of een ongeval, en een wagen die niet meer rijdt, trekken we met de lier op de oplegger. Is hij volledig geblokkeerd, dan komt er een heftruck. U zegt ons waar de wagen staat en welk adres in Italië de bestemming is. Wij antwoorden met een offerte op maat binnen 24 uur. Onze chauffeur inspecteert de wagen, neemt foto's en maakt de CMR op. Daarna rijdt hij op een open, meerlaagse transporter naar het afgesproken adres in Italië, en de wagen blijft onderweg verzekerd."
+  },
+  "usps": [
+    { "title": "Takelen in België", "body": "Staat de wagen na pech of ongeval nog op een Belgisch adres of bij een Belgische garage, dan halen wij hem zelf op. U regelt geen aparte takelaar." },
+    { "title": "Eén aanspreekpunt", "body": "U spreekt van de eerste vraag tot de aflevering met dezelfde persoon. Dat scheelt heen en weer bellen met drie partijen." },
+    { "title": "Chauffeur belt zelf", "body": "Op de dag van ophaling belt de chauffeur u of de garage. Op de dag van aflevering doet hij hetzelfde met de ontvanger in Italië." },
+    { "title": "Open en verzekerd", "body": "Wij rijden open, meerlaagse transporters. De wagen is verzekerd tijdens het transport en we leggen zijn staat vast bij ophaling." }
+  ],
+  "steps": [
+    { "title": "Aanvraag", "body": "U geeft het ophaaladres in België en het afleveradres in Italië door, met wat er mis is met de wagen. Wij maken een offerte op maat." },
+    { "title": "Planning", "body": "We spreken een ophaalmoment af met u of de garage. Ook de Italiaanse ontvanger wordt vooraf op de hoogte gebracht." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur keurt de wagen, maakt foto's en maakt de CMR op. Particulieren betalen voor de ophaling, bedrijven op factuur." },
+    { "title": "Levering in Italië", "body": "Onze chauffeur brengt de wagen naar het afgesproken adres, zoals een werkplaats of een tweede verblijf, en overhandigt de papieren." }
+  ],
+  "care": {
+    "title": "Wij verzorgen alles, ook de CMR",
+    "body": "Een wagen die over de Alpen gaat, wilt u goed gedocumenteerd weten. Daarom beoordelen we hem bij ophaling met de chauffeur en leggen we de staat vast in foto's. Die houden we intern bij. De CMR-vrachtbrief gaat mee in de cabine en staat op naam van de juiste partijen. Tijdens de rit blijft de wagen verzekerd. Bij aflevering ziet de ontvanger meteen of er iets is veranderd.",
+    "items": ["Inspectie op het ophaaladres", "Foto's bij ophaling", "CMR-vrachtbrief in de cabine", "Verzekerd tijdens de rit"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Italië",
+    "body": "Mcars start in Roeselare en rijdt dagelijks in België, van de kust tot de Ardennen. Een wagen die in de provincie Luxemburg of Namen gestrand is, halen we daar op. Aan Italiaanse kant staat hij dan bij een garage of woning waar de ontvanger weet dat hij komt. Wij rijden zowel in Toscane als in Lombardije, en onze chauffeurs praten Nederlands of Frans met u.",
+    "regions": ["Luxemburg (provincie)", "Namen", "Lombardije", "Toscane", "Ligurië", "Veneto"]
+  },
+  "faq": [
+    { "q": "Mijn wagen start niet meer. Kan hij toch mee?", "a": "Ja. Onze lier trekt hem op de oplegger. Staat hij volledig geblokkeerd, dan komt er een heftruck ter plaatse. Meld dat vooraf in uw aanvraag." },
+    { "q": "Wie ontvangt de wagen in Italië?", "a": "Iemand die u ons vooraf opgeeft, zoals de garage of de eigenaar. De chauffeur belt hem op de dag van aflevering en geeft de papieren af." },
+    { "q": "Moet ik zelf iets in Italië regelen?", "a": "Wij vervoeren alleen. Alles rond herstelling, papieren of een inschrijving in Italië regelt u zelf of via de garage die de wagen overneemt." },
+    { "q": "Waar kan ik de wagen laten komen in België?", "a": "Op elk adres, bij een garage of op ons depot in Roeselare. Levering op het depot kan dag en nacht en is voordeliger." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wat wij afspreken met u en de Italiaanse ontvanger houden wij aan, en de wagen wordt door vaste chauffeurs van Mcars begeleid.",
+    "snel": "Uw gestrande wagen wordt vlot ingepland en rijdt zonder omwegen door naar het Italiaanse adres, zodat hij niet langer dan nodig stilstaat.",
+    "volgbaar": "U ziet via track en trace waar de wagen onderweg is, en de chauffeur belt u of de Italiaanse ontvanger voor aankomst.",
+    "verzekerd": "De wagen is verzekerd zolang hij op onze transporter staat, en de CMR-vrachtbrief legt vast in welke staat hij vertrekt."
+  },
+  "reasons": [
+    { "title": "Jarenlange ervaring", "body": "Wij vervoeren al jaren wagens die niet meer zelf rijden, en weten wat er komt kijken bij een lange rit naar Italië." },
+    { "title": "Passie voor het vak", "body": "Een wagen is voor veel mensen meer dan een voertuig. Wij behandelen hem zoals we onze eigen wagen zouden behandelen." },
+    { "title": "Honderden ritten gereden", "body": "Honderden ritten hebben ons geleerd hoe we een defecte wagen veilig laden, vastzetten en afleveren, ook als niets meer werkt." },
+    { "title": "Eigen chauffeurs", "body": "Wij kiezen bewust voor eigen chauffeurs in plaats van onderaannemers, zodat u bij elke rit met hetzelfde team te maken hebt." },
+    { "title": "Breed aanbod", "body": "Van personenwagen tot camionette, van moto tot boot: ook voor een geblokkeerd voertuig vinden wij de juiste manier van laden." },
+    { "title": "Oog voor vernieuwing", "body": "Wij blijven ons materiaal en onze manier van werken verbeteren, zodat een rit naar Italië steeds vlotter verloopt." }
+  ],
+  "seoDescription": "Depannage van België naar Italië: wij halen uw wagen na pech of ongeval op in België en brengen hem naar Italië. Offerte binnen 24 uur."
+}

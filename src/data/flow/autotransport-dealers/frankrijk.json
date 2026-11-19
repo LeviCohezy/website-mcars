@@ -1,0 +1,59 @@
+{
+  "sub": "Wagens kopen of verkopen in Frankrijk? Mcars rijdt elke week over heel Frankrijk en haalt ze op bij zaal, stockagepark of garage.",
+  "problem": {
+    "title": "De wagen die u kocht, staat ver van de grens",
+    "body": "Een Franse veiling of een online platform geeft u keuze die u in België niet vindt. Maar de wagen staat in een zaal in de Provence of op een stockagepark in de Île-de-France, en u zit in uw garage. Zelf gaan halen betekent een chauffeur die twee dagen weg is, en bij meerdere wagens een lange reeks ritten. Veel dealers die in Frankrijk kopen, zoeken daarom iemand die de hele partij in één keer ophaalt.",
+    "situations": [
+      { "title": "Aankoop op een veiling", "body": "U wint een lot en de wagens staan verspreid over een stockagepark. Wij halen ze op volgens de afspraak die u met de verkoper maakt." },
+      { "title": "Inruil bij een Franse collega", "body": "Een Franse handelaar heeft wagens die bij uw klanten passen. We laden ze bij hem en brengen ze naar uw terrein of uw showroom." },
+      { "title": "Verkocht aan een Franse garage", "body": "U verkocht een wagen aan een garage in Frankrijk. Wij halen hem bij u op en brengen hem tot bij de nieuwe eigenaar." }
+    ]
+  },
+  "solution": {
+    "title": "Elke week onderweg in Frankrijk, naar uw terrein",
+    "body": "Stuur ons de wagens, de ophaaladressen en waar u ze wilt. Binnen 24 uur ligt er een offerte klaar. Wij rijden elke week over heel Frankrijk, ook naar stockageparken zoals BCA en TEA, en combineren wagens zodat een rit loont. Uw vaste aanspreekpunt bij Mcars plant alles met u en met de verkoper. De chauffeur laadt op een open meerlaagse transporter, doet de inspectie, neemt foto's en tekent de CMR. Op de leverdag belt hij u vooraf. Is een wagen niet rijklaar, dan haalt de lier hem op het platform. Tijdens het transport zijn uw wagens verzekerd."
+  },
+  "usps": [
+    { "title": "Elke week in Frankrijk", "body": "Wij rijden wekelijks over heel Frankrijk. Uw wagen hoeft dus niet te wachten op een uitzonderlijke rit in uw richting." },
+    { "title": "Ook stockageparken", "body": "We kennen het werk op parken als BCA en TEA: aanmelden, wagens zoeken, laden. Zo verloopt de ophaling vlot, ook bij een grote partij." },
+    { "title": "Franstalige chauffeurs", "body": "Een deel van onze chauffeurs is Franstalig. Zij praten met de verkoper of de zaal in de eigen taal en lossen kleine problemen ter plekke op." },
+    { "title": "Lier of heftruck", "body": "Een aankoop die niet meer rijdt, nemen we mee met de lier. Staat hij volledig geblokkeerd, dan komt er ter plaatse een heftruck aan te pas." }
+  ],
+  "steps": [
+    { "title": "Aanvraag met lijst", "body": "Stuur de wagens, waar ze staan en waar ze heen moeten. Een offerte op maat ligt binnen 24 uur klaar." },
+    { "title": "Planning met de verkoper", "body": "Wij stemmen de ophaling af met de zaal, het park of de garage en met u. Uw aanspreekpunt bewaakt het geheel." },
+    { "title": "Ophaling en CMR", "body": "De chauffeur controleert elke wagen, neemt foto's en maakt de CMR op. Daarna vertrekt hij met de partij richting België." },
+    { "title": "Levering bij u", "body": "De wagens komen aan op uw terrein of ons depot. De chauffeur belt op de dag zelf en u tekent mee af." }
+  ],
+  "care": {
+    "title": "Vrachtbrief, foto's en verzekering in orde",
+    "body": "Een wagen die u op afstand koopt, wilt u pas goedkeuren als u weet in welke staat hij vertrok. Daarom legt onze chauffeur bij elke ophaling vast wat hij ziet, met foto's als intern bewijs en een CMR-vrachtbrief. Tijdens de rit zijn de wagens verzekerd. Voor documenten zoals de carte grise of een keuringsverslag zorgt u zelf, of uw verkoper. Wij vervoeren de wagen en laden wat de verkoper vrijgeeft, niet meer.",
+    "items": ["Inspectie bij het laden", "Foto's als intern bewijs", "CMR-vrachtbrief gaat mee", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Frankrijk",
+    "body": "Frankrijk is een van onze vaste bestemmingen. Elke week gaat er een wagen van ons de grens over, en we zijn gewend aan de gang van zaken bij Franse verkopers: afspraken, laadplaatsen en wachttijden. We rijden in het noorden en rond Parijs, maar ook in het zuidoosten en aan de Atlantische kust. Heeft u een aankoop op een plek die u zelf niet kent? Zeg het ons, dan zoeken we uit hoe de wagen er best uit komt.",
+    "regions": ["Hauts-de-France", "Île-de-France", "Grand Est", "Provence", "Occitanië", "Bretagne"]
+  },
+  "faq": [
+    { "q": "Rijdt Mcars ook naar stockageparken?", "a": "Ja. Wij halen wagens op bij stockageparken zoals BCA en TEA, naast zalen en garages. Geef bij uw aanvraag de locatie en het lotnummer door." },
+    { "q": "Hoe vaak rijdt u in Frankrijk?", "a": "Elke week rijden wij over heel Frankrijk. Op welke dag er een transporter naar uw regio gaat, bespreken we bij de planning." },
+    { "q": "Wat als de wagen een eigenaar in leasing heeft?", "a": "Een wagen mag pas mee als de verkoper hem vrijgeeft. Wie echt eigenaar is, zoekt u op met uw verkoper. Wij laden wat hij overhandigt." },
+    { "q": "Kan ik meerdere aankopen combineren?", "a": "Ja. Wagens uit dezelfde streek rijden samen mee op één transporter. Geef de ophaaladressen door, dan kijken we wat samen kan." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wij houden woord, week na week. Dezelfde chauffeurs die Frankrijk kennen, komen bij uw zaal, park of garage langs.",
+    "snel": "Omdat we geregeld in Frankrijk rijden, plannen we uw wagens vlot in en leveren we ze vlot bij u af.",
+    "volgbaar": "U ziet via track en trace waar uw Franse wagens rijden, en de chauffeur belt u vooraf zodra hij in de buurt is.",
+    "verzekerd": "Alles wat we in Frankrijk laden is verzekerd tijdens het transport, en de CMR-vrachtbrief noteert de staat bij elke ophaling."
+  },
+  "reasons": [
+    { "title": "Jarenlange routine", "body": "Wij weten al jaren hoe het eraan toegaat in Franse stockageparken en bij garages. Die routine bespaart u veel gedoe." },
+    { "title": "Passie voor wagens", "body": "Wij doen dit werk omdat we ervan houden. Dat voel je aan de zorg waarmee elke Franse wagen bij u terechtkomt." },
+    { "title": "Honderden Franse ritten", "body": "We reden honderden ritten, waarvan een flink deel in Frankrijk. Onze chauffeurs kennen de Franse kant van het vak." },
+    { "title": "Bewust eigen team", "body": "Onze chauffeurs zijn van Mcars, niet van een onderaannemer. Daardoor weet u steeds wie uw wagen ophaalt en wie belt." },
+    { "title": "Ruim transportaanbod", "body": "Of u nu één aankoop heeft of meerdere wagens uit dezelfde streek, wij combineren en regelen het transport." },
+    { "title": "Mee met de tijd", "body": "Wij passen nieuwe technieken toe in planning en opvolging, zodat het transport uit Frankrijk steeds soepeler verloopt." }
+  ],
+  "seoDescription": "Autotransport voor dealers en garages naar en uit Frankrijk: wekelijks over heel Frankrijk, ook stockageparken als BCA en TEA. Vraag een offerte."
+}

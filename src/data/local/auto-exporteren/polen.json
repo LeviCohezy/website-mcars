@@ -1,0 +1,912 @@
+{
+  "service": "auto-exporteren",
+  "origin": "polen",
+  "pages": {
+    "polen": {
+      "lead": "Uw wagen staat in Polen en is verkocht aan een koper in het buitenland. Voor hij op de transporter rijdt, moet hij in Polen worden uitgeschreven, en dat vraagt voorbereiding. Daarnaast bepalen rijverboden voor zware voertuigen, milieuzones in de grote steden en het tolsysteem wanneer en waar een ophaling praktisch haalbaar is.",
+      "facts": [
+        {
+          "label": "Uitschrijven",
+          "value": "Binnen 30 dagen na verkoop naar het buitenland"
+        },
+        {
+          "label": "Waar",
+          "value": "Enkel bij het kantoor van de laatste inschrijving"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Voertuigen boven 12 ton op wettelijke feestdagen, 8 tot 22 uur"
+        },
+        {
+          "label": "Winterbanden",
+          "value": "Niet wettelijk verplicht, wel een profiel van minstens 1,6 mm"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Uitschrijven in Polen: eerst dit, dan de rit",
+          "body": [
+            "Verkoopt of schenkt u een in Polen ingeschreven wagen aan iemand in het buitenland, dan laat u hem binnen 30 dagen uitschrijven. In het Pools heet dat wyrejestrowanie. Het kan enkel bij het kantoor waar de wagen het laatst was ingeschreven. Het loket dat toevallig dichter bij uw werk ligt, helpt u dus niet verder.",
+            "Staat de wagen op de naam van meerdere eigenaars, dan komen ze allemaal langs of geeft elk van hen een volmacht. Regel dat vóór de ophaaldag, niet erna. De termijn van 30 dagen is een wettelijke termijn en loopt, ook als het transport nog niet is geboekt. Een offerte voor het vervoer kunt u bij Mcars al aanvragen terwijl het dossier bij het kantoor ligt. Wij antwoorden binnen 24 uur."
+          ]
+        },
+        {
+          "heading": "Welke papieren het kantoor wil zien",
+          "body": [
+            "Het kantoor vraagt een aanvraag en een verklaring dat de wagen in het buitenland is verkocht of geschonken, met bewijs van de overdracht. Dat is het koopcontract of de schenkingsakte. Kunt u in plaats daarvan aantonen dat de wagen intussen in het buitenland is ingeschreven, dan volstaat ook dat. Verder legt u een identiteitsbewijs voor. Bedrijven brengen een uittreksel uit het KRS-register mee.",
+            "Bijlagen gaan in origineel of als notarieel gewaarmerkte kopie naar het loket. Een document in een andere taal heeft een Poolse vertaling nodig van een beëdigd vertaler of een consul. Een Nederlandstalig of Frans koopcontract laat u dus eerst vertalen. Is het uitschrijven rond, dan verwittigt u uw verzekeraar."
+          ]
+        },
+        {
+          "heading": "Rijverbod voor vrachtwagens: geen gewone zondag, wel feestdagen",
+          "body": [
+            "Polen heeft geen algemeen zondagverbod voor vrachtwagens. Het verbod geldt voor voertuigen boven 12 ton op wettelijke feestdagen, van 8 tot 22 uur, en op de vooravond ervan. Op de lijst staan Nieuwjaar, Pasen met paasmaandag, 1 en 3 mei, Pinksteren, Sacramentsdag in het begin van de zomer, 15 augustus, 1 november, 11 november en Kerstmis met tweede kerstdag.",
+            "Polen telt veertien wettelijke vrije dagen. Kerstavond, Wigilia, is er sinds enkele jaren bij; oudejaarsdag niet. Wie een ophaling rond die dagen plant, kijkt dus eerst naar de kalender. Een gewone zondag buiten de zomerregeling is voor een vrachtwagen in Polen geen verboden dag, al hangt de planning ook af van wat er aan de andere kant van de grens geldt."
+          ]
+        },
+        {
+          "heading": "Milieuzones in Warschau, Krakau en straks Katowice",
+          "body": [
+            "Poolse milieuzones heten Strefa Czystego Transportu, afgekort SCT. Krakau heeft er een binnen de vierde ringweg. Warschau heeft er ook een, binnen de straten Prymasa Tysiąclecia, Jerozolimskie, Trasa Łazienkowska, Stanów Zjednoczonych, Wiatraczna en de noordelijke spoorbypass. Wie er niet gevestigd is of er geen belasting betaalt, heeft voor benzine minstens Euro 3 nodig en voor diesel minstens Euro 5.",
+            "Voor een verkopende particulier of garage telt dat vooral als u de wagen zelf nog naar een ophaalpunt in de stad rijdt. De stadswacht controleert via de databank van het voertuigregister, en wie ten onrechte binnenrijdt, riskeert een boete. Staat er een oudere wagen te koop, kies dan liever een ophaalplek buiten de zone."
+          ]
+        },
+        {
+          "heading": "Tol, uitrusting en banden in het verkoopdossier",
+          "body": [
+            "Zware voertuigen betalen in Polen tol via e-TOLL. Dat systeem werkt met satellietplaatsbepaling, zonder poorten, en geldt voor motorvoertuigen boven 3,5 ton. De vervoerder volgt het op met een boordtoestel, een extern lokalisatiesysteem of de gratis app e-TOLL PL. Het net beslaat ongeveer 5.870 km aan snelwegen, expreswegen en nationale wegen. Dat regelt de vervoerder; voor u verandert er niets.",
+            "Is de wagen zelf bij de verkoop uitgerust, houd dan rekening met de Poolse minimumregels. Voor een in Polen ingeschreven personenwagen zijn enkel een brandblusser en een gevarendriehoek verplicht. Een fluohesje of verbanddoos moet niet. Winterbanden zijn evenmin verplicht, op voorwaarde dat de banden technisch in orde zijn."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "C16-identificator in Warschau",
+          "body": "Voor voertuigen boven 16 ton geldt in Warschau een verbod van 7 tot 10 uur en van 16 tot 20 uur, voor doorgaand transit de hele dag. Wie in die uren moet leveren, heeft een C16-identificator van de stedelijke wegbeheerder nodig. Een beladen autotransporter zit al snel boven die grens, dus kiest u best een ophaaltijdstip buiten de spits."
+        },
+        {
+          "kind": "tip",
+          "title": "Online controle van de Warschause zone",
+          "body": "De stad Warschau biedt een officiële website waar u per voertuig nakijkt of het de milieuzone in mag. Voer daar het kenteken van de wagen in vóór u een ophaaladres in de stad afspreekt. Zo weet u zeker of de wagen zelf naar een laadplek kan rijden of beter ter plaatse blijft staan."
+        },
+        {
+          "kind": "regel",
+          "title": "Krakau: vonnis over de milieuzone nog niet definitief",
+          "body": "De administratieve rechtbank van Krakau vernietigde delen van het gemeentebesluit over de zone, onder meer de koppeling van toegangsrecht aan een meldadres. Het vonnis is niet definitief. De zone, haar grenzen en emissienormen blijven gelden, dus kijk bij een ophaling in Krakau de actuele stand na."
+        },
+        {
+          "kind": "plek",
+          "title": "Katowice: milieuzone in voorbereiding",
+          "body": "Katowice heeft nog geen milieuzone, maar kreeg wegens overschrijdingen van stikstofdioxide de formele verplichting er een in te voeren. De stad betwist de meetgegevens en werkt aan een ontwerp. Wie een wagen in Opper-Silezië verkoopt, vraagt bij de ophaling best na of er intussen een zone is."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang duurt het uitschrijven en kan ik in beroep gaan?",
+          "a": "Eenvoudige dossiers worden meteen afgehandeld, dossiers die opheldering vragen duren tot een maand en bijzonder complexe tot twee maanden. Tegen de beslissing kunt u binnen 14 dagen kosteloos beroep aanvragen bij het Samorządowe Kolegium Odwoławcze."
+        },
+        {
+          "q": "Moet ik een brandblusser en fluohesje bij de wagen laten?",
+          "a": "In Polen zijn enkel een brandblusser en een gevarendriehoek verplicht, een fluohesje en verbanddoos niet. Ontbrekende verplichte uitrusting kan een boete of een afgekeurde keuring opleveren. Vraag uw koper welke uitrusting het land van bestemming vraagt."
+        },
+        {
+          "q": "Kan de wagen op zondag worden opgehaald?",
+          "a": "Buiten feestdagen en de zomerregeling geldt in Polen geen zondagverbod voor vrachtwagens. In de zomer zijn er wel extra beperkingen op de weekends, die verschillen per route. Plan het tijdstip daarom samen met de vervoerder en let ook op de regels van het land waar de wagen heen gaat."
+        }
+      ],
+      "seoDescription": "Auto exporteren vanuit Polen: uitschrijven binnen 30 dagen, rijverboden, milieuzones in Warschau en Krakau en wat dat betekent voor het transport.",
+      "sources": [
+        "https://warszawa19115.pl/en/-/wyrejestrowanie-pojazdu-z-powodu-wywozu-z-kraju-jezeli-pojazd-zostal-zarejestrowany-za-granica-lub-zbyty-za-granice",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.infakt.pl/blog/wymiar-czasu-pracy-2026-r-pelna-lista-swiat-i-tabele/",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://www.auto-swiat.pl/porady/obowiazkowe-wyposazenie-samochodu-w-2026-roku-w-polsce-kluczowe-sa-dwie-rzeczy/mhvw7nh",
+        "https://www.warta.pl/porada/aktualne-przepisy-dotyczace-opon-zimowych-jakie-sa-wymogi-i-kiedy-nalezy-je-stosowac/",
+        "https://warszawa19115.pl/-/identyfikator-c16",
+        "https://um.warszawa.pl/waw/sct/sprawdz-pojazd",
+        "https://www.autocentrum.pl/newsy/wyrok-w-sprawie-sct-w-krakowie-sad-podwazyl-kryterium-meldunku-ale-strefa-zostaje/"
+      ]
+    },
+    "polen-belgie": {
+      "lead": "Een Belgische koper heeft uw wagen in Polen gekocht, bijvoorbeeld in Wrocław of Katowice. Tussen de Poolse A4 en de Brusselse ring loopt de rit door heel Duitsland, met grenscontroles en een lijst rijverboden. Dit is wat u als verkoper vooraf moet weten, en wat uw koper in België daarna zelf regelt.",
+      "facts": [
+        {
+          "label": "Hoofdas",
+          "value": "E40: Poolse A4, Duitse A4 en A44, Belgische A3"
+        },
+        {
+          "label": "Zomerverbod",
+          "value": "Boven 12 ton: vrijdagavond, zaterdagochtend, zondag"
+        },
+        {
+          "label": "Duitse grens",
+          "value": "Poolse controles op 52 punten, wachttijden voor vrachtwagens"
+        },
+        {
+          "label": "Aankomst",
+          "value": "Belgische invoer via E705 en keuring vóór inschrijving"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Van de Poolse A4 tot Brussel op één Europese weg",
+          "body": [
+            "Voor deze richting volgt de rit de E40. In Polen is dat de A4, die bij Jędrzychowice, vlak bij Zgorzelec en Görlitz, aan de Duitse grens begint en via Wrocław, Opole, Gliwice, Katowice en Kraków naar het oosten loopt. Staat uw wagen in Neder-Silezië, dan rijdt de transporter vanaf Wrocław westwaarts. Het stuk van Karwiany bij Wrocław tot Żernica ten oosten van Gliwice is een tolsectie, de ring van Gliwice is tolvrij.",
+            "De ring van Wrocław telt 22,7 km en hoort bij de S8-corridor, maar is aangelegd als autosnelweg met het nummer A8. Kijk bij het afspreken van een ophaalpunt naar die ring: wie uit het zuiden of oosten van de stad komt, rijdt daar vaak overheen. Voorbij Görlitz loopt de E40 verder over Dresden, Erfurt, Eisenach en Aken naar Lichtenbusch."
+          ]
+        },
+        {
+          "heading": "Controles aan de Duitse grens",
+          "body": [
+            "Polen voert tijdelijke controles uit aan de grens met Duitsland, op 52 punten. Daaronder vallen Świecko, Olszyna en Kołbaskowo. Vervoerders melden wachttijden van meer dan een uur voor vrachtwagens. Ook Duitsland controleert in de andere richting, en op de Duitse A4 richting Zgorzelec meldden vervoerders kilometerlange files. Over de einddata spreken de bronnen elkaar tegen, dus reken niet op een vaste regeling.",
+            "Voor u als verkoper betekent dat vooral: houd de papieren van de wagen en van de chauffeur bij de hand en zorg dat het laden niet op het laatste moment gebeurt. Een ophaling die door een lange rij aan de grens uitloopt, is geen uitzondering. Mcars rijdt open en meerlaags, dus een volle transporter staat in diezelfde rij als iedere andere vrachtwagen."
+          ]
+        },
+        {
+          "heading": "Zomerweekends in Polen en zondag in Duitsland",
+          "body": [
+            "Polen kent geen algemeen verbod op zondag of 's nachts voor vrachtwagens. In de zomer geldt voor voertuigen boven 12 ton wel een regeling: op vrijdag van 18 tot 22 uur, op zaterdag van 8 tot 14 uur en op zondag van 8 tot 22 uur. Uitzonderingen bestaan voor bederfelijke en gekoelde goederen, levende dieren, gecombineerd vervoer, wegenwerken en landbouwmachines. Autotransport staat niet in de lijst zoals de bron ze geeft.",
+            "Zodra de transporter Duitsland in rijdt, verandert de regel. Daar geldt een zondagverbod van middernacht tot 22 uur voor vrachtwagens boven 7,5 ton, en in de zomer ook op zaterdag voor een lijst van wegvakken. Een vertrek op vrijdagmiddag moet dus rekening houden met wat de zondag in Duitsland doet. Spreek met uw koper daarom pas een leverdag af als de planning rond is."
+          ]
+        },
+        {
+          "heading": "Tol onderweg: e-TOLL, Toll Collect en het Belgische toestel",
+          "body": [
+            "Het Poolse e-TOLL-net is uitgebreid met ongeveer 645 km, vooral als verlenging van wegen waar al tol gold. Dat zegt iets over de richting van het beleid: er komt steeds meer betalend wegennet bij, ook voor een transporter die enkel doorreist.",
+            "In Duitsland gebruikt men Toll Collect, eveneens met satellietbepaling en een boordtoestel. Een Belgisch Satellic-toestel werkt daar niet. Een vervoerder die tussen Polen en België rijdt, heeft dus een toestel nodig dat in beide landen en onderweg geldig is, of een tweede toestel. Voor u als verkoper blijft dat onzichtbaar. Het is een zaak van de vervoerder, maar het hoort bij de planning van zo'n rit."
+          ]
+        },
+        {
+          "heading": "Wat uw Belgische koper zelf regelt",
+          "body": [
+            "Een wagen die u in het buitenland kocht, moet u in België invoeren voor hij op uw naam kan worden ingeschreven. De E705 is een gratis elektronisch signaal van de douane waarmee de dienst voor inschrijvingen kan nagaan dat het voertuig regelmatig in België is. De koper vraagt hem aan via MyMinfin of bij een douanehulpkantoor.",
+            "Staat de wagen nog niet op zijn naam, dan biedt hij hem met het buitenlandse inschrijvingsbewijs aan in een keuringscentrum. Daar krijgt hij het aanvraagformulier tot inschrijving. De verzekeringstussenpersoon schrijft de wagen online in met dat formulier en het originele, volledige buitenlandse inschrijvingsbewijs. Geef dat document dus altijd aan uw koper of aan de chauffeur mee. Mcars vervoert; de inschrijving zelf blijft een zaak van uw koper."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Car-Pass en buitenlandse herkomst",
+          "body": "Op de Car-Pass van een ingevoerde wagen staat dat het voertuig tweedehands uit het buitenland komt. De kilometerstanden van vóór de Belgische inschrijving ontbreken meestal. Voor een Poolse wagen bewaart de koper dus best zijn eigen foto's van de teller bij het laden."
+        },
+        {
+          "kind": "tip",
+          "title": "Visuele keuring in Vlaanderen",
+          "body": "Is de wagen minder dan twee maanden geleden gekeurd in België of een andere EU-lidstaat en heeft hij een groen keuringsbewijs met normale geldigheid, dan volstaat in Vlaanderen een visuele keuring in plaats van een volledige. Vraag de verkoper in Polen naar het recente keuringsbewijs."
+        },
+        {
+          "kind": "plek",
+          "title": "E40/A3 door het Land van Herve",
+          "body": "In België draagt de E40 de naam A3 en verbindt ze Brussel via Luik met de Duitse A44 bij Lichtenbusch. Door het Land van Herve heeft de weg twee rijstroken per richting. Het stuk van Luik tot de grens is het oudste deel van de E40 en is samen met de E313 aangelegd als Koning Boudewijnsnelweg."
+        },
+        {
+          "kind": "regel",
+          "title": "Vlaamse belasting op de inverkeerstelling",
+          "body": "In Vlaanderen betaalt elke eigenaar van een nieuw of tweedehandsvoertuig een eenmalige belasting op de inverkeerstelling. Ze is verschuldigd vanaf het moment dat de wagen op de openbare weg wordt gebruikt en wordt geïnd door de Vlaamse Belastingdienst."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik de wagen laten leveren op het depot in Roeselare?",
+          "a": "Ja. Mcars heeft een depot in Roeselare, Moorseelsesteenweg 16B. Levering daar kan dag en nacht en is voordeliger dan aan huis. Voor een Belgische koper die elders woont is dat vaak de handigste afspraak na een lange rit uit Polen."
+        },
+        {
+          "q": "Wat als de online inschrijving bij de verzekeraar mislukt?",
+          "a": "Dan geeft de verzekeringstussenpersoon een bewijs van afwijzing en het formulier met verzekeringsvignet terug. Het volledige dossier gaat daarna naar de dienst voor inschrijvingen, per post of op afspraak. Het is de koper die dat doet, niet de vervoerder."
+        },
+        {
+          "q": "Hoe lang is het aanvraagformulier tot inschrijving geldig?",
+          "a": "Twee maanden na het bezoek aan het keuringsstation. De datum staat in vak X13 van het formulier. De technische keuring is in België een bevoegdheid van de gewesten, dus Vlaanderen, Brussel en Wallonië geven elk eigen instructies aan hun keuringsstations."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Polen naar België: de E40-route, rijverboden, tol en wat uw Belgische koper regelt voor E705, keuring en inschrijving.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+        "https://aa.com.tr/en/europe/poland-extends-border-controls-with-germany-and-lithuania-until-october/3884308",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://www.etoll.gov.pl/en/news/changes-to-the-e-toll-as-of-1-february-2026",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://fin.belgium.be/nl/particulieren/internationaal/voertuig-importeren",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-importeren/voertuig-ingevoerd-uit-de-eu",
+        "https://www.car-pass.be/nl/faq",
+        "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/keuring-van-tweedehandsvoertuigen-bij-verkoop-tweedehandskeuring",
+        "https://www.vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/belasting-op-de-inverkeerstelling",
+        "https://nl.wikipedia.org/wiki/A3_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A13_%28Belgi%C3%AB%29",
+        "https://mobilit.belgium.be/nl/weg/voertuigen/technische-controle",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/inschrijven/een-auto-inschrijven"
+      ]
+    },
+    "polen-nederland": {
+      "lead": "Uw wagen staat in Poznań of Łódź en een Nederlandse koper heeft hem gekocht. De rit loopt over de A2 naar Świecko, dan door Duitsland richting Osnabrück en de Nederlandse grens bij Oldenzaal. Dit zijn de punten waar de rit anders is dan een binnenlands transport, en wat de koper bij de RDW moet doen.",
+      "facts": [
+        {
+          "label": "Poolse A2",
+          "value": "475 km, E30, van Świecko naar Warschau"
+        },
+        {
+          "label": "Tol A2",
+          "value": "Concessiewegen: tarieven wijzigen geregeld per vak"
+        },
+        {
+          "label": "Nederland",
+          "value": "Geen algemeen weekendverbod voor vrachtverkeer"
+        },
+        {
+          "label": "Aankomst",
+          "value": "Afspraak bij RDW-keuringsstation, originele papieren"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Uit Polen over de A2 naar Świecko",
+          "body": [
+            "De Poolse A2 begint bij Świecko aan de Duitse grens, sluit er aan op de Duitse A12 richting Berlijn en loopt via Poznań, Łódź en Warschau. Ze draagt het Europese nummer E30 en is 475 km geopend. Het stuk Świecko-Warschau is 452 km. De bron meldt dat de weg technisch niet tot de grens reikt: de laatste ongeveer 3,9 km is nog een tweebaansweg.",
+            "Staat uw wagen in Groot-Polen, dan komt de A2 vanzelf in beeld. Een deel van de weg is een tolweg in handen van een privémaatschappij, Autostrada Wielkopolska. Vanaf Konin oostwaarts beheert de staat de weg. De tarieven op die concessie wijzigen geregeld, met aparte lijsten voor Świecko-Nowy Tomyśl en Nowy Tomyśl-Konin. Een vervoerder rekent dat vooraf in zijn rit door."
+          ]
+        },
+        {
+          "heading": "Tolposten die er niet meer staan",
+          "body": [
+            "Op de A2 vindt u een paar vakken die anders werken dan de rest. Świecko-Nowy Tomyśl en Nowy Tomyśl-Konin zijn tolwegen, met uitzondering van het westelijkste stuk en de Poznańse ring. Konin-Stryków was een tolsectie met vrij verkeer, waarvan de tolposten niet meer in gebruik zijn.",
+            "Voor de verkoper verandert er niets aan de papieren, maar de tolvakken bepalen wel welke route de chauffeur kiest. Spreek het ophaaladres daarom af in overleg met hem, bij voorkeur op een plek met genoeg ruimte voor een volle autotransporter om te keren en te laden. Dat geldt zeker als de wagen in een woonwijk van Poznań of Łódź staat."
+          ]
+        },
+        {
+          "heading": "Door Duitsland naar Nederland: wie mag wanneer rijden",
+          "body": [
+            "Nederland kent geen algemeen weekend- of feestdagenverbod voor vrachtverkeer. Duitsland heeft dat wel, op zondag, en Polen kent een verbod op feestdagen en in de zomerweekends. Op de weg tussen Świecko en de Nederlandse grens passeert de transporter dus eerst twee landen met rijverboden voor hij in een land komt waar hij vrij mag rijden.",
+            "Voor Duitsland geldt Toll Collect boven 3,5 ton, een zondagverbod van 0 tot 22 uur boven 7,5 ton en in de zomer een zaterdagverbod van 7 tot 20 uur op bepaalde wegen. De doorgaande as van Polen via Hannover naar Nederland is de A2 en daarna de A30 bij Bad Bentheim. Voor u betekent dit: een koper die de wagen 'dit weekend' verwacht, vraagt meer dan de planning kan beloven."
+          ]
+        },
+        {
+          "heading": "Nederlandse grensovergangen in het noordoosten",
+          "body": [
+            "Vanuit Polen komt de rit het Nederlandse wegennet meestal binnen in het noordoosten. De A1 eindigt bij de grensovergang Oldenzaal Autoweg bij De Lutte en gaat daar over in de Duitse A30 richting Osnabrück. Dat is de gebruikelijke as richting Hannover, Berlijn en Polen. Verder noordelijk liggen Zwartemeer aan de A37 en Bad Nieuweschans aan de A7. Bij Enschede is Glanerbrug de grens voor de N35.",
+            "De A37 loopt ongeveer 42 km van Hoogeveen naar de grens bij Zwartemeer. Aan Duitse kant wordt het de B402 richting Meppen, een gewone Bundesstraße en dus geen Autobahn. Woont uw koper in Groningen of Drenthe, dan is dat een route om rekening mee te houden. In Veendam zit bovendien de RDW-divisie die het kentekenregister beheert."
+          ]
+        },
+        {
+          "heading": "Bij de RDW: afspraak, papieren en geen rit voor het kentekenbewijs",
+          "body": [
+            "Een wagen uit een EU-land invoeren begint met een afspraak bij een RDW-keuringsstation. De aanvrager is minstens 18 jaar en staat in de BRP, of is een in Nederland gevestigde rechtspersoon met KvK-inschrijving. Naar de keuring neemt de koper het originele buitenlandse kentekenbewijs mee en een geldig identiteitsbewijs. Een Certificaat van Overeenstemming is optioneel. De koper kan zelf komen of een RDW-erkend bedrijf laten gaan.",
+            "Na de keuring mag er niet met de wagen gereden worden tot het Nederlandse kentekenbewijs er is. Wie na een Poolse aankoop snel wil rijden, wacht dus liever tot de papieren rond zijn. Met een eendagskenteken, dat alleen geldt op de dag van de afspraak, kan de wagen wel naar het keuringsstation, voor de kortste route heen en terug."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Wat de Poolse verkoper moet meegeven",
+          "body": "Controleer bij de overdracht of het kentekenbewijs compleet is, want in sommige landen bestaat het uit meerdere delen. Kijk ook na of het chassisnummer op het document overeenkomt met dat in de wagen. Vraag altijd een aankoopnota of verkoopovereenkomst, desnoods handgeschreven en ondertekend. De RDW raadt dat aan voor wie in het buitenland koopt."
+        },
+        {
+          "kind": "tip",
+          "title": "Wat in het koopcontract hoort",
+          "body": "De ANWB raadt een koopcontract aan met gegevens van koper en verkoper, het chassisnummer, de kilometerstand, de datum van eerste toelating en het schadeverleden. Vermeld ook bekende gebreken en of de wagen ex-lease- of huurauto was. Zo'n contract is voor de Poolse verkoper ook het bewijs bij het uitschrijven."
+        },
+        {
+          "kind": "tip",
+          "title": "Een lage bpm bij een dure wagen",
+          "body": "Een opvallend lage bpm bij een dure importwagen kan volgens de ANWB wijzen op grote schade in het verleden. De koper laat de wagen daarom bij aankoop in Polen liefst nakijken en vraagt de volledige onderhoudshistoriek op."
+        },
+        {
+          "kind": "plek",
+          "title": "RDW-stations in het oosten",
+          "body": "De RDW heeft zestien keuringsstations. In het oosten en noorden zijn dat onder meer Almelo, Zwolle, Arnhem, Heerenveen en Groningen. Een koper uit het noordoosten van het land kiest best een station dat bij het aankomstadres van de transporter past, zodat de wagen niet nog ver hoeft."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan mijn Nederlandse koper de wagen niet zelf in Polen komen halen?",
+          "a": "Vaak lukt dat niet: het originele kenteken vervalt bij export en een tijdelijk kenteken geldt meestal enkel in het land van aankoop. Wordt de wagen op een autotransporter opgehaald, dan is geen kenteken nodig. Wie op een buitenlands kenteken terugrijdt, heeft ook geen recht op pechhulp van de Wegenwacht."
+        },
+        {
+          "q": "Hoe snel heeft de koper een Nederlands kentekenbewijs?",
+          "a": "Na de keuring doet de koper bpm-aangifte bij de Belastingdienst. Daarna volgt het kentekenbewijs, volgens de overheid binnen vijf werkdagen. Wie de wagen maar kort in Nederland gebruikt, moet een vrijstelling voor bpm en mrb aanvragen vóór de eerste rit. Die geldt maximaal twee weken."
+        },
+        {
+          "q": "Wordt een geldige Poolse keuring in Nederland overgenomen?",
+          "a": "De RDW kan de vervaldatum van een nog geldige APK uit een EU-land overnemen. Als bewijs dient het originele keuringsrapport, een vermelding op het buitenlandse kentekenbewijs of een sticker op de plaat. Heeft de wagen APK-plicht en geen geldige keuring, dan moet hij direct na het kentekenbewijs worden gekeurd."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Polen naar Nederland: de A2 via Świecko, tol, rijverboden onderweg en wat uw Nederlandse koper bij de RDW moet regelen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://wartowiedziec.pl/komunikacja-i-transport/81579-podwyzki-na-autostradzie-a2-od-wrzesnia-kierowcy-zaplaca-wiecej",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.toll-collect.de/en/",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_30",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://nl.wikipedia.org/wiki/Rijksweg_1",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a37",
+        "https://nl.wikipedia.org/wiki/Rijksdienst_voor_het_Wegverkeer",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/invoeren-binnen-europa",
+        "https://www.rdw.nl/keuren/eendagskenteken-aanvragen",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/tips-bij-invoer",
+        "https://www.anwb.nl/auto/importeren",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://www.nederlandwereldwijd.nl/auto-importeren/stappenplan",
+        "https://ondernemersplein.overheid.nl/internationaal-ondernemen/importeren/auto-importeren"
+      ]
+    },
+    "polen-luxemburg": {
+      "lead": "De wagen staat in Opper-Silezië of Neder-Silezië, de koper woont in Luxemburg. Tussen die twee ligt vrijwel heel Duitsland, met Trier als laatste halte voor de grens. Luxemburg heeft bovendien zijn eigen transitverbod en een inschrijvingsprocedure met een vaste volgorde. Daarover gaat deze pagina, vanuit uw rol als Poolse verkoper.",
+      "facts": [
+        {
+          "label": "Poolse A4",
+          "value": "667 km, begint bij Jędrzychowice aan de Duitse grens"
+        },
+        {
+          "label": "Duitse A4",
+          "value": "583 km van Aken tot Görlitz, E40"
+        },
+        {
+          "label": "Transitverbod",
+          "value": "Luxemburg: zaterdag 23.30 tot zondag 21.45 uur, boven 7,5 ton"
+        },
+        {
+          "label": "Koper",
+          "value": "Moet in Luxemburg wonen en in het register staan"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De Poolse A4 en haar tolzones",
+          "body": [
+            "De Poolse A4 meet 667 km en begint bij Jędrzychowice aan de Duitse grens, op de overgang Jędrzychowice-Ludwigsdorf. Vandaar loopt ze via Wrocław en Katowice naar Kraków en Korczowa. Het e-TOLL-systeem geldt vanaf kort na de Duitse grens tot Katowice Murckowska, en opnieuw vanaf Balice ten zuiden van Kraków. Het stuk Jędrzychowice-Katowice is een concessieweg van Stalexport Autostrada Małopolska.",
+            "Staat uw wagen rond Gliwice of Katowice, dan helpt het te weten dat de ring van Gliwice tolvrij is en dat de A4 door Opper-Silezië via Gliwice en Katowice loopt. Voor een Luxemburgse koper is dat de gebruikelijke weg naar het westen: eerst naar de grens bij Görlitz, dan de Duitse A4."
+          ]
+        },
+        {
+          "heading": "Het alternatief via Berlijn: de A12 en de A2",
+          "body": [
+            "Een tweede mogelijkheid loopt via Berlijn. De Duitse A12 verbindt de Berlijnse ring met Frankfurt (Oder) en de Poolse grens bij Świecko. Sinds juni 2012 gaat ze daar zonder onderbreking over in de Poolse A2 naar Poznań, Łódź en Warschau. Vlak na de grens loopt de A2 over een Oderbrug van 581 m. Staat uw wagen in Groot-Polen of Midden-Polen, dan kan de chauffeur dit traject kiezen.",
+            "Op de A2 geldt een concessie van Autostrada Wielkopolska voor het westelijke deel. Het e-TOLL-systeem begint daar bij Konin Wschód. Welke van de twee trajecten de transporter neemt, hangt af van de plek van de wagen en van de wachtrijen aan de grens. Dat beslist de planning, niet de koper en niet u."
+          ]
+        },
+        {
+          "heading": "Door Duitsland tot Trier",
+          "body": [
+            "De Duitse A4 loopt over 583 km van Aken via Keulen, Eisenach, Erfurt en Dresden naar Görlitz. Bij het Kirchheimer Dreieck draagt ze E45. In omgekeerde richting, vanuit Polen, volgt de chauffeur ze naar het westen en kiest dan een afslag richting Koblenz of Frankfurt om bij Trier te komen. Duitsland heft vrachtwagentol boven 3,5 ton op alle Bundesstraßen en vrijwel alle autosnelwegen, met een CO2-toeslag.",
+            "Aan de Luxemburgse kant begint de laatste etappe bij Trier. De Luxemburgse A1, die E44 draagt, gaat bij Wasserbillig over in de Duitse A64, ongeveer 14 km tot Trier. De A64 heeft geen rechtstreekse aansluiting op de Duitse A1. Verder gaat het via de B51 of de A64a en de A602. Een ervaren chauffeur kent die omweg. Voor een nieuwe koper kan ze verwarrend zijn, dus spreek het aankomstadres goed af."
+          ]
+        },
+        {
+          "heading": "Luxemburg: transitverbod en rustplaatsen",
+          "body": [
+            "Transit richting Duitsland is in Luxemburg verboden voor vrachtwagens boven 7,5 ton, van zaterdag 23.30 uur tot zondag 21.45 uur, ook vóór feestdagen. Voor de heenrit naar Luxemburg verandert er niets, maar de terugweg richting Duitsland valt in dat venster. De planning houdt daar rekening mee, en een levering op een werkdag past er dan beter in dan een late zaterdag.",
+            "De A1 meet 36,2 km tussen de Croix de Gasperich en de Duitse grens bij Wasserbillig. Onderweg liggen Senningerberg, Munsbach, Flaxweiler en Mertert. Vlak voor de grens ligt de rustplaats Wasserbillig, de laatste stopplaats vóór Trier. Voor een koper die weet waar zijn wagen in het laatste stuk rijdt, is ze een nuttig oriëntatiepunt."
+          ]
+        },
+        {
+          "heading": "Wat uw Luxemburgse koper moet regelen",
+          "body": [
+            "Om een in het buitenland gekochte tweedehandswagen in Luxemburg in te schrijven, moet de koper in Luxemburg wonen en in het nationaal register staan. Als verkoper geeft u een factuur mee, of bij een verkoop tussen particulieren een contract dat beide partijen tekenen. De volgorde volgens de overheid: nummer reserveren, platen laten maken, burgerlijke aansprakelijkheid verzekeren, inklaren voor het vignet 705, kanselarijzegel betalen, keuren indien nodig en een afspraak maken.",
+            "Luxemburgse platen zijn geel met zwarte tekens; de gewone reeks bestaat uit twee letters en vier cijfers. Zonder Europees COC, of bij onvolledige documenten, controleert de dienst voor inschrijvingen de technische gegevens op dossier. Was de wagen nooit in een EU-land ingeschreven, dan is een verslag van een erkende technische dienst nodig. Mcars vervoert de wagen; de koper regelt dit zelf of via een tussenpersoon."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Documenten voor het vignet 705",
+          "body": "Voor het vignet 705 legt de koper originelen voor: het vorige inschrijvingsbewijs, het COC, de factuur met btw-nummer van de verkoper, het verzekeringsattest en het nationaal identificatienummer. Particulieren tonen ook hun identiteitskaart of paspoort. Geef dus de originele papieren aan de chauffeur mee, geen kopieën."
+        },
+        {
+          "kind": "plek",
+          "title": "Douanecentra in Diekirch en Howald",
+          "body": "Het vignet 705 wordt afgeleverd in de douanecentra van de administratie in Diekirch, het Centre douanier Nord, en in Howald bij Luxemburg-Stad. Voor de koper in het noorden van het land ligt Diekirch voor de hand. Een koper uit de hoofdstad rijdt naar Howald."
+        },
+        {
+          "kind": "regel",
+          "title": "Voorlopig belastingvignet",
+          "body": "Bij de inschrijving krijgt de koper een voorlopig belastingvignet van 30 dagen. De administratie berekent de verkeersbelasting en stuurt het bedrag; na betaling volgt het definitieve vignet. Blijft de belasting meer dan 60 dagen onbetaald, dan kan de wagen worden geïmmobiliseerd."
+        },
+        {
+          "kind": "tip",
+          "title": "Erkende keuringsinstanties",
+          "body": "Als er een keuring nodig is, kan de koper terecht bij de Société nationale de contrôle technique, DEKRA Automotive of Luerenzweiler Kontrollstatioun. Een buitenlands keuringsbewijs moet uit hetzelfde land komen als de buitenlandse inschrijving, dus uit Polen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn koper met rode platen van Polen naar huis rijden?",
+          "a": "Rode platen huren bij de dienst voor inschrijvingen is bedoeld voor inwoners van Luxemburg. De geldigheid staat op de fiche en bedraagt hoogstens 15 werkdagen. Rijden met rode platen mag in Luxemburg, België en Nederland. Voor een rit door Duitsland en Polen is dat dus geen oplossing."
+        },
+        {
+          "q": "Moet de Poolse keuring in het Frans of Duits zijn?",
+          "a": "Een buitenlands keuringsbewijs moet uit hetzelfde land komen als de buitenlandse inschrijving en opgesteld zijn in een officiële taal van Luxemburg, of beëdigd vertaald zijn. Een Poolstalig keuringsbewijs laat de koper dus liefst vooraf vertalen."
+        },
+        {
+          "q": "Mag de wagen in Luxemburg rijden vóór de inschrijving?",
+          "a": "Alleen tussen verkooppunt en plaats van inschrijving of keuring, met rode platen of met platen met het gereserveerde nummer, en met een verzekering. Wie de wagen op een transporter laat brengen, omzeilt dat probleem: de wagen rijdt dan pas na de inschrijving."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Polen naar Luxemburg: de A4 naar Görlitz, Duitse tol, het Luxemburgse transitverbod en de inschrijving met vignet 705 voor uw koper.",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://pl.wikipedia.org/wiki/Autostrada_A2_(Polska)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://fr.wikipedia.org/wiki/Autoroute_A1_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/List_of_motorways_in_Luxembourg",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/payer-taxe-vehicule-ue.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/conformite-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/controle-technique-obligatoire-vehicule.html",
+        "https://snca.public.lu/fr/plaques/plaques-rouges.html",
+        "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Luxembourg",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/numero-immatriculation.html"
+      ]
+    },
+    "polen-frankrijk": {
+      "lead": "Een Franse koper heeft uw wagen in Polen gekocht en wil hem in Lotharingen, de Elzas of verder in Frankrijk. Er is geen rechtstreekse grens: de rit gaat over de Poolse A2 of A4, dwars door Duitsland en komt bij Saarbrücken of Straatsburg Frankrijk binnen. Dit is wat dat voor u als verkoper betekent, en wat uw koper in Frankrijk zelf regelt.",
+      "facts": [
+        {
+          "label": "Poolse A2",
+          "value": "Grens tot Warschau, gebouwd tussen 2001 en 2012"
+        },
+        {
+          "label": "Franse A4",
+          "value": "Parijs-Straatsburg, 482 km, via Reims en Metz"
+        },
+        {
+          "label": "Weekendverbod",
+          "value": "Frankrijk: zaterdag 22 tot zondag 22 uur, boven 7,5 ton"
+        },
+        {
+          "label": "Koper",
+          "value": "Quitus fiscal bij de belastingdienst, anders geen inschrijving"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Twee Poolse wegen naar het westen",
+          "body": [
+            "Vanuit Polen gebruikt een transporter naar Frankrijk meestal de A2 via Świecko of de A4 via Jędrzychowice. De A2 begint bij Świecko aan de Duitse grens, sluit ongeveer 4 km verder aan op de Duitse A12 naar Berlijn en loopt via Poznań en Łódź naar Warschau. Het stuk tussen de grens en Warschau, ongeveer 452 km, is gebouwd tussen 2001 en 2012.",
+            "Op het grootste deel van het stuk tussen de grens en Konin geldt tol, de ring van Poznań is gratis. De A4 meet 669 km en loopt van Jędrzychowice via Wrocław, Katowice en Kraków naar de Oekraïense grens bij Korczowa. Voor wagens in Zuid-Polen ligt de A4 voor de hand, voor wagens in Groot-Polen de A2."
+          ]
+        },
+        {
+          "heading": "Door Duitsland naar Metz en Straatsburg, en de tol onderweg",
+          "body": [
+            "De Duitse A4 loopt over 583 km van Aken via Erfurt en Eisenach naar Dresden en Görlitz. Wie uit Polen via Jędrzychowice komt, volgt haar naar het westen en kiest dan een route richting Saarbrücken of Straatsburg. Aan Franse kant is de A4 tussen Parijs en Straatsburg 482 km lang en loopt ze via Reims en Metz. Via de aftakking A320 bij Freyming-Merlebach rijdt men Duitsland uit.",
+            "Polen heft tol op zware voertuigen via e-TOLL, dat in 2021 de oudere viaTOLL verving. De tarieven hangen af van gewicht en euronorm. In Duitsland komt de vrachtwagenmaut boven 3,5 ton op bijna alle autosnelwegen en alle Bundesstraßen, met een CO2-toeslag en een vrijstelling voor emissievrije voertuigen. Elk land heeft zijn eigen systeem, dus vraag een offerte voor uw exacte ophaaladres.",
+            "Mcars rijdt elke week over heel Frankrijk. Voor een Poolse verkoper betekent dat: de laatste etappe in Frankrijk is geen uitzondering, maar een bekende route. De wagen gaat naar een adres, een garage of een stockagepark naar keuze van uw koper."
+          ]
+        },
+        {
+          "heading": "Rijverboden: Frankrijk wel, Polen niet vast",
+          "body": [
+            "Polen kent geen vast weekendverbod voor vrachtwagens. Een verbod bestaat enkel op feestdagen en in de zomer. Frankrijk wel: boven 7,5 ton mogen vrachtwagens er niet rijden van zaterdag 22 uur tot zondag 22 uur, en op feestdagen, met extra zomerzaterdagen.",
+            "Voor een transporter die een Franse bestemming heeft, is een ophaling op vrijdag in Polen dus kwetsbaar: wie op zaterdagavond nog in Duitsland rijdt, bereikt Frankrijk pas na zondag 22 uur. Plan een ophaling in het begin van de week, dan loopt de levering niet vast in het Franse weekend. Dat blijft een planningsvraag voor de vervoerder en een reden om de leverdatum niet te vroeg te beloven."
+          ]
+        },
+        {
+          "heading": "Lotharingen en de Elzas: A31 en A35",
+          "body": [
+            "Veel Franse kopers wonen in het oosten van het land. De A31 loopt van de Luxemburgse grens bij Zoufftgen, waar ze aansluit op de Luxemburgse A3, via Thionville, Metz, Nancy en Dijon naar Beaune, over 349 km. Tot Toul is ze tolvrij. Van Toul tot Beaune is ze een tolweg in concessie bij APRR.",
+            "De A35 loopt tolvrij van noord naar zuid door de Elzas, van Lauterbourg, waar ze aansluit op de Duitse B9, via Straatsburg, Colmar en Mulhouse naar Saint-Louis. Voor een koper in de Elzas is dat de logische weg naar huis."
+          ]
+        },
+        {
+          "heading": "Wat uw Franse koper regelt voor de inschrijving",
+          "body": [
+            "Voor elke wagen die in een ander EU-land is gekocht, is voor de Franse inschrijving een quitus fiscal nodig, nieuw of tweedehands. De koper vraagt het aan bij de belastingdienst van zijn woonplaats. Voor de technische conformiteit volstaat het Europees certificaat van overeenstemming van de fabrikant. Dat bestaat enkel voor voertuigen tot 3,5 ton met een eerste inschrijving na 1996.",
+            "Zonder COC of gelijkwaardig attest is een réception à titre isolé nodig bij de Dreal van de regio; in Île-de-France is dat de Drieat. Vraag dus als Poolse verkoper naar het COC, het complete kentekenbewijs en de factuur. Mcars vervoert; het dossier voor de inschrijving blijft in handen van uw koper."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Wanneer is een wagen nieuw voor de btw",
+          "body": "Voor de btw geldt een wagen als nieuw als hij niet meer dan 6.000 km heeft gereden, of als hij minder dan zes maanden na de eerste inschrijving wordt geleverd. Een nieuwe wagen uit een ander EU-land wordt belast in het land van inschrijving. Een Poolse wagen met weinig kilometers kan dus onder die regel vallen."
+        },
+        {
+          "kind": "tip",
+          "title": "Btw die in twee landen betaald is",
+          "body": "Heeft iemand zowel in het land van aankoop als in het land van inschrijving btw betaald, dan kan hij terugbetaling vragen. Dat gebeurt eerst bij de verkoper en daarna bij de belastingdienst van het aankoopland. Houd als Poolse verkoper uw factuur dus netjes bij."
+        },
+        {
+          "kind": "regel",
+          "title": "CO2-malus bij de eerste Franse inschrijving",
+          "body": "De Franse CO2-malus is verschuldigd bij de eerste inschrijving in Frankrijk, ook voor wagens die al in het buitenland waren ingeschreven. Het bedrag daalt met de ouderdom, gerekend vanaf de eerste buitenlandse inschrijving. Het tarief hangt af van de datum van inschrijving, niet van de datum van bestelling."
+        },
+        {
+          "kind": "tip",
+          "title": "Het SIV-nummer op de Franse plaat",
+          "body": "Het Franse nummer in het formaat AA-123-AA, sinds 2009 in gebruik, blijft levenslang bij het voertuig, ook bij verhuis of verkoop binnen Frankrijk. De departementscode op de plaat kiest de eigenaar vrij. Voor uw koper is het dus een nummer dat hij nooit meer hoeft te wijzigen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat als de Poolse platen niet meer geldig zijn bij het binnenrijden van Frankrijk?",
+          "a": "Bij het binnenrijden moeten de platen geldig zijn, anders kan de politie de wagen immobiliseren. Zijn de buitenlandse platen niet meer geldig, dan rijdt de wagen met tijdelijke Franse WW-platen en een voorlopig WW-certificaat. De nieuwe reeks is roze, met de vervaldatum van het voorlopige bewijs op de plaat."
+        },
+        {
+          "q": "Is een oudere wagen vrijgesteld van de CO2-malus?",
+          "a": "Wagens met een eerste buitenlandse inschrijving van vóór 1 januari 2015 zijn volledig vrijgesteld van de CO2-malus, net als elektrische en waterstofvoertuigen. Daarnaast bestaat een aparte malus op het gewicht, die niet door die vrijstelling wordt gedekt."
+        },
+        {
+          "q": "Moet de Poolse plaat eerst worden ingeleverd?",
+          "a": "Sommige landen geven tijdelijke uitvoerplaten, andere eisen dat de wagen vóór vertrek uit het register wordt geschrapt en dat de platen worden ingeleverd. Franse overheidssites raden aan dat na te vragen bij het consulaat van het land van aankoop, dus bij de Poolse vertegenwoordiging."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Polen naar Frankrijk: A2 en A4 naar Duitsland, rijverboden, tol en wat uw Franse koper regelt voor quitus fiscal en malus.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://etoll.mf.gov.pl/en/e-toll-system/about-system",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F20992",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F35947",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_fr.htm",
+        "https://fr.wikipedia.org/wiki/Plaque_d%27immatriculation_fran%C3%A7aise"
+      ]
+    },
+    "polen-duitsland": {
+      "lead": "Uw wagen staat in West-Polen, bijvoorbeeld in Poznań, Szczecin of Zielona Góra, en de koper woont in Duitsland. Dat is de kortste export vanuit Polen, maar de grens is ook de drukste: er staan al jaren controles aan beide kanten. Daarover, en over wat de Duitse koper bij zijn inschrijving nodig heeft, gaat deze pagina.",
+      "facts": [
+        {
+          "label": "Hoofdovergang",
+          "value": "Świecko-Frankfurt (Oder), A2 sluit aan op A12"
+        },
+        {
+          "label": "Noordelijke grens",
+          "value": "Pomellen: Duitse A11 gaat over in Poolse A6"
+        },
+        {
+          "label": "Zuidelijke grens",
+          "value": "Forst: Duitse A15 gaat over in Poolse A18"
+        },
+        {
+          "label": "Kurzzeitkennzeichen",
+          "value": "Hoogstens vijf dagen, enkel nationaal bruikbaar"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Frankfurt (Oder) en Świecko: de A12 en de A2",
+          "body": [
+            "De Duitse A12 loopt 58 km van Berlijn naar Frankfurt (Oder) en de Poolse grens. Ze maakt deel uit van de E30. Aan Poolse kant gaat ze verder als DK 2 en sluit ze bij Świecko aan op de A2. De Poolse A2 loopt via Poznań en Łódź naar Warschau, waar ze S2 wordt. Het grootste deel tot Konin is tolplichtig, met tolpunten onder meer bij Tarnawa, Torzym en Jordanowo.",
+            "Voor een wagen die in Poznań staat, is dit de voor de hand liggende weg naar Berlijn. De Frankfurter brug draagt vooral containertrucks en zwaar verkeer van Polen naar Duitsland. Een autotransporter staat dus in dezelfde rij als de rest van het vrachtverkeer, ook als de lading weinig weegt."
+          ]
+        },
+        {
+          "heading": "Wat de controles in de praktijk betekenen",
+          "body": [
+            "Duitsland voert steekproefcontroles uit aan de Poolse grens. Polen begon op zijn beurt met tijdelijke controles aan de grens met Duitsland, gemeld door de Poolse grenswacht van de afdeling Nadodrzański. Bij de herinvoering stond er een lange, trage vrachtwagenrij richting Duitsland. Op de A12 liepen de files door de controles op tot ongeveer 7 km.",
+            "Er wordt overwogen om in de controlezone tussen Frankfurt (Oder) en Świecko een extra rijstrook te leggen. Wie een ophaling wil laten samenvallen met een vaste uitlevering in Berlijn of Brandenburg, houdt er best rekening mee dat de rit niet op het uur nauwkeurig te plannen is."
+          ]
+        },
+        {
+          "heading": "Noord en zuid: Pomellen en Forst",
+          "body": [
+            "Staat de wagen in West-Pommeren, dan ligt een andere overgang dichterbij. De Duitse A11 verbindt de Berlijnse ring met de grensovergang Pomellen en gaat daar over in de Poolse A6 richting Szczecin. De Poolse S3 begint in Świnoujście aan de Oostzee en loopt via Szczecin naar Gorzów Wielkopolski, Zielona Góra en Legnica.",
+            "In het zuiden loopt de Duitse A15 van Dreieck Spreewald via Cottbus naar Forst. Aan de Neisse gaat ze over in de Poolse A18, die aansluit op de A4 naar Wrocław. Zuidelijker ligt dus een derde overgang, Olszyna-Forst. Na hitteschade was een betonstuk van de A15 eens 48 uur dicht: een voorbeeld van hoe snel een grensroute kan veranderen. De planning houdt daar rekening mee."
+          ]
+        },
+        {
+          "heading": "Waar de Duitse koper woont: Berlijn of Saksen",
+          "body": [
+            "In Berlijn en Brandenburg liggen twee plekken die voor Poolse verkopers interessant zijn. BCA heeft een veilingcentrum Berlin-Ost in Hoppegarten, en Autobid.de heeft een locatie in Berlijn. Dat zijn bekende adressen voor handelaars in de regio. Vraagt uw koper om de wagen daar af te leveren, geef het adres dan door bij de offerte.",
+            "Woont de koper in Saksen, dan eindigt de Duitse A4 in Görlitz aan de Poolse grens. Vlak ervoor gaat ze door de Tunnel Königshainer Berge, 3,3 km lang. In het zuiden loopt de A17 van Dresden naar de Tsjechische grens bij Breitenau. Voor een Pools-Saksisch traject, bijvoorbeeld van Wrocław naar Dresden, is dat de logische keuze."
+          ]
+        },
+        {
+          "heading": "Wat uw Duitse koper nodig heeft",
+          "body": [
+            "Voor de Duitse inschrijving van een EU-importwagen zijn de buitenlandse voertuigpapieren en het COC nodig. Ontbreekt het COC, dan kan het bij de fabrikant worden opgevraagd. Bestaat het niet, dan is een Vollgutachten van een keuringsinstantie zoals TÜV nodig. Voor wagens ouder dan drie jaar vraagt de Zulassungsstelle een bewijs van een geldige periodieke keuring. Een keuring uit het EU-land van herkomst kan volstaan; vraag dat vooraf na.",
+            "Op een nieuw voertuig uit een ander EU-land is Duitse btw verschuldigd, ook voor een particulier. Wie de wagen op eigen wielen wil laten rijden, doet dat het eenvoudigst met een uitvoerplaat van het land van aankoop. Ga bij uw eigen Poolse kantoor na wat daar mogelijk is. Mcars vervoert; de koper voert de inschrijving uit."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Kurzzeitkennzeichen niet voor EU-aankoop",
+          "body": "Een Duits Kurzzeitkennzeichen kan niet worden gebruikt voor een wagen die in een andere EU-lidstaat is gekocht. Het is hoogstens vijf dagen geldig en enkel voor proef-, keurings- en overbrengingsritten. Het is een nationale plaat: er zijn wederzijdse afspraken met onder meer Oostenrijk en Italië, maar in de Benelux en Frankrijk zijn problemen gemeld."
+        },
+        {
+          "kind": "regel",
+          "title": "Groene milieuplakette en emissiesleutel",
+          "body": "Of een wagen een groene milieuplakette krijgt, hangt af van de emissiesleutel in de Zulassungsbescheinigung Teil I, veld 14.1. Is de norm bij een buitenlandse wagen niet uit de papieren af te leiden, dan kan een attest van de fabrikant nodig zijn. Anders telt het jaar van eerste inschrijving."
+        },
+        {
+          "kind": "regel",
+          "title": "Nieuwe wagen: Fahrzeugeinzelbesteuerung",
+          "body": "Fiscaal is een landvoertuig nieuw als het niet meer dan 6.000 km gereden heeft of als de eerste ingebruikname niet langer dan zes maanden geleden is. De particuliere koper doet dan aangifte per voertuig binnen tien dagen na de verwerving. Dat kan van belang zijn voor een bijna nieuwe wagen uit een Poolse dealerstock."
+        },
+        {
+          "kind": "tip",
+          "title": "COC ontbreekt bij oudere wagens",
+          "body": "Een COC ontbreekt meestal bij auto's van vóór 1996, motorfietsen van vóór 2005, omgebouwde voertuigen en voertuigen uit landen buiten de EU. Staat er in Polen een klassieker of een omgebouwde wagen te koop voor een Duitse koper, vraag dan vooraf of er een COC bestaat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat als deel II van het Poolse kentekenbewijs ontbreekt?",
+          "a": "Bestaat het buitenlandse inschrijvingsbewijs uit twee delen en ontbreekt deel II, dan kan de wagen in Duitsland pas worden ingeschreven na een bevestiging van de buitenlandse autoriteit via het Kraftfahrt-Bundesamt. Geef dus alle delen mee aan de koper."
+        },
+        {
+          "q": "Wie int de Duitse Kfz-Steuer en vanaf wanneer?",
+          "a": "De Kfz-Steuer begint te lopen op de dag van de inschrijving en wordt geïnd door de douane, het Hauptzollamt, niet door het Finanzamt. Betaling gebeurt via SEPA-domiciliëring. Dat is dus een zaak van de koper na aankomst."
+        },
+        {
+          "q": "Wat gebeurt er met het Poolse bewijs na de Duitse inschrijving?",
+          "a": "De Zulassungsbehörde houdt het buitenlandse inschrijvingsbewijs in, bewaart het zes maanden en verwittigt het Kraftfahrt-Bundesamt. Zorg dat u de wagen eerst in Polen hebt uitgeschreven, want daar loopt een eigen termijn van 30 dagen."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Polen naar Duitsland: de A12 bij Frankfurt (Oder), grenscontroles, alternatieve overgangen en wat uw Duitse koper moet regelen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://thestar.com.my/news/world/2024/09/18/feature-a-firsthand-view-of-german-polish-border-as-checks-reinstated",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://www.nadodrzanski.strazgraniczna.pl/nad/aktualnosci/66852,Tymczasowe-kontrole-graniczne-na-granicy-z-Niemcami-ruszyly-o-polnocy.pdf",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_11",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_15",
+        "https://en.wikipedia.org/wiki/Expressway_S3_(Poland)",
+        "https://de.wikipedia.org/wiki/BCA_Marketplace",
+        "https://de.wikipedia.org/wiki/Tunnel_Königshainer_Berge",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_17",
+        "https://www.evz.de/reisen-verkehr/auto/ueberfuehrung-und-zulassung.html",
+        "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+        "https://www.buzer.de/s1.htm?a=8&g=FZV&dorg=1",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/kurzzeitkennzeichen/",
+        "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/fahrverbote-umweltzonen/umweltplaketten/",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/kraftfahrzeugsteuer_node.html",
+        "https://www.finanzverwaltung.nrw.de/sites/default/files/asset/document/merkblatt_fahrzeugeinzelbesteuerung_fae201_202_0.pdf"
+      ]
+    },
+    "polen-spanje": {
+      "lead": "Een koper in Spanje heeft uw wagen in Polen gekocht. Dat is een van de langste exportritten van dit land: de wagen verlaat Polen via Duitsland, doorkruist Frankrijk en komt in Catalonië of aan de Costa Blanca aan. Spanje eist dat de wagen eerst in het land van herkomst is uitgeschreven. Dat begint dus bij u, de Poolse verkoper.",
+      "facts": [
+        {
+          "label": "Uitschrijven",
+          "value": "Spanje eist uitschrijving in het land van herkomst"
+        },
+        {
+          "label": "Grens",
+          "value": "AP-7 naar La Jonquera, dan Franse A9"
+        },
+        {
+          "label": "Inschrijving",
+          "value": "Eerst ITV-keuring met buitenlands kentekenbewijs en homologatiebewijs"
+        },
+        {
+          "label": "Platen",
+          "value": "Groene tijdelijke platen gelden 60 dagen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Eerst uitschrijven in Polen, dan pas inschrijven in Spanje",
+          "body": [
+            "Enkel de titularis kan een buitenlandse wagen in Spanje laten inschrijven. De Spaanse verkeersdienst DGT vraagt bovendien dat de wagen eerst in het land van herkomst voor export is uitgeschreven. Voor u als Poolse verkoper betekent dat: het uitschrijven bij het Poolse kantoor is geen formaliteit die u mag laten liggen tot na de levering. Zonder dat bewijs kan uw koper in Spanje niet verder.",
+            "Plan het uitschrijven daarom bij de verkoop zelf. Geef het bewijs van uitschrijving en het koopcontract in origineel mee met de wagen, zodat de koper ze in Spanje kan voorleggen. Mcars vervoert de wagen; de papieren blijven uw zaak en die van uw koper."
+          ]
+        },
+        {
+          "heading": "Door Polen: A2, S2, A1 en de e-TOLL-registratie",
+          "body": [
+            "De Poolse A2 loopt tot Biała Podlaska en wordt rond Warschau formeel S2. Bij Łódź sluit ze aan op de A1, die als E75 richting Gdańsk en Katowice loopt. Ook de S8 verbindt Wrocław, Łódź, Warschau en Białystok. Staat uw wagen in Midden-Polen, dan komt de chauffeur dus via een van deze assen naar het westen.",
+            "Voor tol op zware voertuigen registreert de vervoerder zich in e-TOLL, met een account, een voertuig en een betaalmethode. Daarna kiest hij een goedgekeurd boordtoestel of gebruikt de app e-TOLL PL. Dat is een taak van de vervoerder en niet van u."
+          ]
+        },
+        {
+          "heading": "Vier landen, vier systemen voor rijverboden",
+          "body": [
+            "Op de weg van Polen naar Spanje passeert de transporter meerdere landen met eigen rijverboden. Polen kent een verbod in de zomerweekends en op nationale feestdagen. In Duitsland is het zondagverbod er van 0 tot 22 uur, en in juli en augustus ook zaterdag van 7 tot 20 uur. Frankrijk blokkeert het weekend van zaterdag 22 uur tot zondag 22 uur. Spanje volgt een eigen kalender voor voertuigen boven 7.500 kg op bepaalde wegen.",
+            "Aan Spaanse kant volgt de rit de AP-7 naar La Jonquera. Aan Franse kant gaat het over de A9, een tolweg van ASF naar Orange. Het verdere Franse en Duitse vervolg naar het noorden is niet in alle bronnen bevestigd, en de Duitse A5 via Frankfurt, Karlsruhe, Freiburg en Basel wordt als een mogelijke noord-zuid-as genoemd. De exacte weg beslist de vervoerder, afhankelijk van verboden en drukte. Verwacht dus een lange rit met stops."
+          ]
+        },
+        {
+          "heading": "Aankomst in Catalonië en aan de Costa Blanca",
+          "body": [
+            "Veel Spaanse kopers wonen in Catalonië, dichtbij de Franse grens. De AP-7 komt daar de grens binnen en loopt langs de kust naar Valencia en Alicante. Verder zuidelijk, aan de Costa Blanca, loopt de A-7 tolvrij over ongeveer 1.090 km van Algeciras tot Barcelona. De N-332 volgt parallel aan de AP-7 de kust tot Pilar de la Horadada. Het stuk van de AP-7 tussen Salou en Alicante is tolvrij sinds de concessie afliep.",
+            "Mcars vervoert ook wagens van tweedeverblijvers in Spanje. Ligt het afleveradres op een urbanisatie of in een bergdorp, spreek de laadplek dan vooraf af, want een volle autotransporter rijdt niet door elke smalle straat. Voor Madrid en het binnenland geeft de A-3 een verbinding naar Valencia over ongeveer 360 km, waar in de zomer files gewoon zijn."
+          ]
+        },
+        {
+          "heading": "Wat de Spaanse koper regelt bij de ITV en DGT",
+          "body": [
+            "De eerste stap in Spanje is de ITV: het keuringsstation controleert wagen en papieren en maakt de ITV-fiche op. De koper brengt het inschrijvingsbewijs van het land van herkomst mee, en een homologatiebewijs. Dat kan het Europese gelijkvormigheidsattest zijn, op te vragen bij het merk, of een ficha reducida die een ingenieur opstelt.",
+            "Voor wagens van vóór 2002 is een individuele homologatie nodig die vooraf door een ingenieur wordt gemaakt. Daarna komt de Impuesto de Matriculación, een eenmalige belasting gekoppeld aan de CO2-uitstoot. In Baskenland en Navarra loopt dat via de Hacienda Foral. Een nieuw voertuig uit een ander EU-land vraagt een btw-bewijs bij de Spaanse belastingdienst. Geef de koper dus alle Poolse documenten mee."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Haven van Barcelona",
+          "body": "De haven van Barcelona is volgens Wikipedia de grootste autohaven van de Middellandse Zee, met twee gespecialiseerde terminals aan de Dársena Sur. Het recordjaar wordt toegeschreven aan de nabijheid van de fabrieken van Nissan en SEAT. Voor een handelaar of exporteur in Barcelona is een afleveradres bij de haven daarom niet vreemd. Geef het adres bij de offerte door."
+        },
+        {
+          "kind": "plek",
+          "title": "SEAT in Martorell",
+          "body": "De fabriek en hoofdzetel van SEAT liggen sinds 1993 in Martorell, aan de A-2 bij km 585. Er worden modellen van SEAT en CUPRA gebouwd. Wie een Poolse wagen aan een SEAT-garage in de regio verkoopt, weet dat het gelijkvormigheidsattest voor de ITV bij het merk op te vragen is."
+        },
+        {
+          "kind": "plek",
+          "title": "De weg naar Andorra: N-145",
+          "body": "Tussen Spanje en Andorra is er maar één toegelaten wegverbinding: de N-145 door het Valira-dal, tussen La Seu d'Urgell en Sant Julià de Lòria, met een douanepost in La Farga de Moles. Een Poolse wagen voor een koper in Andorra moet dus eerst die weg op."
+        },
+        {
+          "kind": "regel",
+          "title": "Groene tijdelijke platen",
+          "body": "De groene tijdelijke platen gelden 60 dagen voor wagens die nog niet definitief zijn ingeschreven, bijvoorbeeld wagens die in het buitenland zijn gekocht of een niet-Spaanse plaat dragen. Voor een nieuwe wagen met bestemming de Canarische Eilanden, Ceuta of Melilla geldt een kortere termijn van 10 dagen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn Spaanse koper met de wagen rijden zolang hij nog niet is ingeschreven?",
+          "a": "Nee. Zolang de wagen niet in Spanje is ingeschreven, mag er niet mee gereden worden. Een uitzondering bestaat voor tijdelijke platen uit het land van herkomst die nog geldig zijn, op voorwaarde dat de wagen verzekerd is. Bij een transport per vrachtwagen speelt dat niet."
+        },
+        {
+          "q": "Wordt de Poolse keuring in Spanje overgenomen?",
+          "a": "Een geldig keuringsbewijs van een andere EU-lidstaat wordt bij inschrijving in Spanje erkend, zolang het geldig is volgens de Spaanse keuringsfrequenties. De ITV blijft wel de eerste stap, want daar wordt de wagen gecontroleerd en de fiche opgemaakt."
+        },
+        {
+          "q": "Wanneer koopt de koper de Spaanse nummerplaten?",
+          "a": "De nummerplaten koopt de eigenaar na de inschrijving bij een gespecialiseerde winkel. Daarna moet de verplichte verzekering worden afgesloten. Een wagen die nooit in Spanje ingeschreven was, krijgt een nieuwe plaat; een wagen die vroeger al Spaans was, krijgt via rehabilitación zijn oude plaat terug."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Polen naar Spanje: uitschrijven in Polen, de lange rit via Duitsland en Frankrijk en wat uw Spaanse koper regelt bij ITV en DGT.",
+      "sources": [
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/quieres-traer-o-llevarte-un-vehiculo-del-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricula-temporal-placas-verdes/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+        "https://www.etoll.gov.pl/en/",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Costa_Blanca",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Este",
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+        "https://es.wikipedia.org/wiki/SEAT",
+        "https://es.wikipedia.org/wiki/Frontera_entre_Andorra_y_Espa%C3%B1a"
+      ]
+    },
+    "polen-italie": {
+      "lead": "Een Italiaanse koper heeft een wagen gekocht die in Silezië of Klein-Polen staat. Die rit kent twee gangbare wegen: noordelijk via Duitsland en de Brenner, of oostelijk via Tsjechië en Oostenrijk naar Villach. Elk van de twee trekt door andere rijverboden en tolsystemen. Hier leest u wat voor uw verkoop en de levering telt.",
+      "facts": [
+        {
+          "label": "Oostelijke as",
+          "value": "Poolse A1, Tsjechische D1, dan Oostenrijkse A10"
+        },
+        {
+          "label": "Westelijke as",
+          "value": "Duitse A4, Oostenrijkse A13, Italiaanse A22 over de Brenner"
+        },
+        {
+          "label": "Italiaanse koper",
+          "value": "Registreert via een Sportello Telematico dell'Automobilista"
+        },
+        {
+          "label": "Wintertijd",
+          "value": "Winterbanden of kettingen op de A22, 15 november tot 15 april"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Tychy en de Poolse Fiat-fabriek",
+          "body": [
+            "In Tychy, in Opper-Silezië, staat een Stellantis-fabriek die in 1975 opende en sinds 1992 volledig Fiat is. Ze bouwt de nieuwe Fiat 500 en de Lancia Ypsilon. Tot 2012 was Tychy exclusief de bouwplaats van de tweede Fiat Panda, en tot mei 2016 bouwde de fabriek ook de tweede Ford Ka. In 2008 liep er bijna een half miljoen wagens van de band.",
+            "Wie in de regio een Fiat of Lancia aan een Italiaanse koper verkoopt, geeft best het onderhoudsboekje en alle papieren mee, want de Italiaanse inschrijving vraagt een compleet dossier. De A4 tussen Katowice en Kraków is 61 km lang, wordt uitgebaat door Stalexport en heeft twee tolstations, Mysłowice en Balice."
+          ]
+        },
+        {
+          "heading": "Twee wegen naar Italië, twee soorten drukte",
+          "body": [
+            "De oostelijke as begint op de Poolse A4, die bij Gliwice-Sośnica de A1 kruist richting Ostrava. De Tsjechische D1 loopt over 376,5 km van Praag via Brno en Ostrava naar de Poolse grens bij Věřňovice, waar ze in Bohumín de Poolse A1 wordt. Ze is de drukste snelweg van Tsjechië, met tot 99.000 voertuigen per dag bij Praag. Bij Brno sluit de D1 aan op de D2 en de E461.",
+            "Daarna volgt de Oostenrijkse A10 Tauernautobahn: 192,7 km tussen Salzburg en Villach, met tunnels van 6,4 en 5,9 km. De westelijke as gaat over de A22 van Modena tot de Brenner, ongeveer 315 km, en de Oostenrijkse A13 naar Innsbruck. Welke as de chauffeur kiest, hangt af van de plek van de wagen en de verkeersdruk."
+          ]
+        },
+        {
+          "heading": "Tol en verboden in Oostenrijk en Italië",
+          "body": [
+            "In Oostenrijk geldt de GO-Maut voor voertuigen boven 3,5 ton, sinds 2004. Brenner, Tauern en Arlberg zijn Sondermautstrecken met hogere tarieven. Daarbovenop kan er een transitverbod op de A12 en A13 richting Italië gelden, van 9 tot 22 uur, op bepaalde dagen. Dat is geen vast rijverbod, maar het kan uw levering een dag opschuiven.",
+            "Italië zelf werkt met een jaarkalender van rijverboden voor voertuigen boven 7,5 ton, buiten de bebouwde kom. In de zomer gelden ze ook op vrijdag, met 15 augustus als piek. Een Italiaanse koper die een levering voor midden augustus verwacht, vraagt dus meer van de planning dan een normale rit. Spreek een datum daarom pas af als de vervoerder de kalender heeft nagekeken."
+          ]
+        },
+        {
+          "heading": "Aankomst in Friuli en Veneto",
+          "body": [
+            "Dichtbij de oostelijke as ligt Friuli-Venezia Giulia. De A23 loopt 120 km van Palmanova over Udine naar Tarvisio en gaat aan de grens over in de Oostenrijkse A2. Fernetti bij Triëst is een van de belangrijkste grensovergangen voor Italiaanse goederen richting de Balkan, met een interporto ernaast.",
+            "De haven van Triëst heeft een vrijhavenstatuut met vijf vrije zones. Een groot deel van het haventerrein valt buiten het douanegebied van de EU, en aan de Riva Traiana ligt een ro-ro-terminal. Verscheept uw koper de wagen vanuit Triëst verder, geef dan het terminaladres door bij de offerte."
+          ]
+        },
+        {
+          "heading": "Wat de Italiaanse koper bij de inschrijving moet doen",
+          "body": [
+            "Een wagen uit een ander EU-land wordt in Italië ingeschreven via een Sportello Telematico dell'Automobilista, bij de Motorizzazione, een ACI-PRA-kantoor of een erkend agentschap. Kentekenregistratie en PRA-inschrijving gebeuren daar in één beweging. Voor een gebruikte EU-wagen vraagt het loket onder meer het formulier istanza unificata, een gewaarmerkte verkoopverklaring, een identiteitsbewijs en de codice fiscale.",
+            "Buitenlandse documenten moeten vergezeld zijn van een gecertificeerde Italiaanse vertaling, door een consulaat, een diplomatieke vertegenwoordiging of een beëdigd vertaler. Een Pools koopcontract laat u dus liefst meteen vertalen. Betaal als Italiaanse koper geen voorschot of volledige prijs voordat documenten en staat van de wagen zijn gecontroleerd."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Autoporto Sadobre bij Vipiteno",
+          "body": "De Autoporto Sadobre bij Vipiteno ligt op ongeveer km 299 van de A22, vlak voor de Brenner, en dient als vrachtwagenparking. Voor een transporter die op het einde van een rijverbod wil wachten, is dit een parking vlak voor de Brenner."
+        },
+        {
+          "kind": "regel",
+          "title": "Winterbanden op de A22",
+          "body": "Op de volledige A22 zijn winterbanden of kettingen aan boord verplicht van 15 november tot 15 april. Een transporter die in dat seizoen over de Brenner rijdt, moet daarop zijn uitgerust."
+        },
+        {
+          "kind": "plek",
+          "title": "Luegbrücke op de A13",
+          "body": "Op de Luegbrücke, 1.804 m lang en net over de grens in Tirol, is er in principe nog één rijstrook per richting. Op drukke dagen gaan er twee open, waarbij voertuigen boven 3,5 ton de binnenste strook moeten nemen. Naast de brug wordt een nieuwe gebouwd."
+        },
+        {
+          "kind": "regel",
+          "title": "Rijden met buitenlandse plaat na drie maanden",
+          "body": "Wie al langer dan drie maanden in Italië woont, mag de aangekochte wagen niet zelf met de buitenlandse plaat of een tijdelijke exportplaat naar huis rijden. De bron noemt vervoer door een gespecialiseerd bedrijf als de gangbare oplossing, dus een transporter."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan mijn Italiaanse koper de wagen niet zelf in Polen komen halen?",
+          "a": "Dat hangt van zijn woonplaats af. Wie al langer dan drie maanden in Italië woont, mag de wagen niet met een buitenlandse of tijdelijke exportplaat naar huis rijden. Voor die kopers is vervoer door een gespecialiseerd bedrijf de gangbare oplossing."
+        },
+        {
+          "q": "Welke kosten komen er bij de Italiaanse inschrijving?",
+          "a": "Er zijn kosten voor de IPT volgens voertuigtype en provincie, ACI-rechten, zegelrecht op de aanvraag en op het Documento Unico, rechten van de Motorizzazione en de nummerplaten. Wij noemen hier geen bedragen; het loket geeft de actuele tarieven."
+        },
+        {
+          "q": "Hoe vaak moet een ingeschreven wagen in Italië naar de keuring?",
+          "a": "De eerste periodieke keuring, de revisione, volgt binnen vier jaar na de eerste inschrijving en daarna om de twee jaar. Vraag de Poolse verkoper dus naar de datum van de laatste keuring."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Polen naar Italië: de oostelijke en westelijke as, Fiat-fabriek Tychy, tol en verboden en wat uw Italiaanse koper regelt.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tychy",
+        "https://mobility.autopay.eu/pl/oplaty-drogowe/polska/",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+        "https://trans.info/de/oesterreich-lkw-fahrverbote-2026-479461",
+        "https://mit.gov.it/node/21641",
+        "https://en.wikipedia.org/wiki/Autostrada_A23_(Italy)",
+        "https://it.wikipedia.org/wiki/Fernetti",
+        "https://en.wikipedia.org/wiki/Port_of_Trieste",
+        "https://www.alvolante.it/da_sapere/legge-e-burocrazia/importare-un-auto-dall-estero-costi-tempi-e-tasse-381577",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://de.wikipedia.org/wiki/Luegbr%C3%BCcke",
+        "https://aci.gov.it/codice-della-strada/art-80/"
+      ]
+    }
+  }
+}

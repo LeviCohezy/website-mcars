@@ -1,0 +1,59 @@
+{
+  "sub": "Uw klassieker van België naar Spanje, voor een tweede verblijf, een rally aan de kust of een nieuwe eigenaar, met één aanspreekpunt van ophaling tot levering.",
+  "problem": {
+    "title": "Uw oldtimer moet mee naar het zuiden",
+    "body": "Voor veel klassiekers is Spanje een bestemming op zich. De wagen gaat mee naar het tweede verblijf, naar een regelmatigheidsrit of naar een koper die er woont. Zelf rijden is een lange en zware rit voor een oude wagen, en een oplegger heeft u waarschijnlijk niet. Bovendien wilt u zeker zijn dat de wagen er aankomt zoals hij vertrok, met een duidelijk verslag en iemand die u kunt bellen als er vragen zijn.",
+    "situations": [
+      { "title": "Mee naar het tweede verblijf", "body": "Uw klassieker brengt de zomer door in het zuiden. U wilt hem laten brengen en in het najaar weer laten ophalen." },
+      { "title": "Retromóvil in Madrid", "body": "U wilt uw wagen laten zien op de oldtimerbeurs in Madrid, of u hebt er een gekocht en wilt hem naar huis." },
+      { "title": "Verkocht in Spanje", "body": "Een Spaanse koper heeft uw wagen gekocht. Hij verwacht een nette levering, met een transporteur die de wagen goed beschermt." }
+    ]
+  },
+  "solution": {
+    "title": "Van uw garage in België tot ginds in Spanje",
+    "body": "U vraagt een offerte aan en hoort binnen 24 uur van ons. Daarna werkt u met één vast aanspreekpunt, dat de afspraken met u en met de ontvanger in Spanje opvolgt. De chauffeur belt u op de ophaaldag, kort voor hij aankomt. Hij kijkt de wagen na, maakt foto's en stelt de CMR-vrachtbrief op. Uw klassieker staat verzekerd op een open meerlaagse transporter met Kässbohrer-opbouw. Bij een defect gebruiken wij de lier. In Spanje rijdt de chauffeur naar het adres dat u opgaf en laat de ontvanger de CMR tekenen."
+  },
+  "usps": [
+    { "title": "Ervaring met Spanje", "body": "Wij vervoeren al jaren wagens van tweedeverblijvers naar Spanje. Een klassieker die elke zomer mee naar het zuiden gaat, past daar vanzelf bij." },
+    { "title": "Ophaling in heel België", "body": "België rijden wij dagelijks. Of uw wagen nu in West-Vlaanderen staat of in Limburg, wij komen hem bij u ophalen." },
+    { "title": "Open maar verzekerd", "body": "Wij rijden open en meerlaags, en elke wagen wordt stevig vastgezet. Tijdens het hele transport is uw klassieker verzekerd." },
+    { "title": "Nederlands en Frans", "body": "Onze vaste chauffeurs spreken Nederlands en Frans. Dat is handig in de gesprekken onderweg en bij de overdracht aan de ontvanger." }
+  ],
+  "steps": [
+    { "title": "Aanvraag", "body": "U geeft merk, bouwjaar, afmetingen en het adres in Spanje door. Meld ook of de wagen nog rijdt. Binnen 24 uur volgt de offerte." },
+    { "title": "Planning", "body": "Wij spreken een ophaaldag af met u en bellen met de ontvanger. Particulieren betalen vóór ophaling, bedrijven op factuur." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur belt voor hij aankomt, bekijkt de wagen, neemt foto's en maakt samen met u de CMR op." },
+    { "title": "Levering", "body": "De wagen wordt afgeladen op het afgesproken adres in Spanje. U of de ontvanger controleert de staat en tekent de CMR." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, ook de CMR",
+    "body": "Een klassieker verdient een duidelijk dossier. Bij ophaling controleren wij de wagen met u en leggen de staat vast met foto's, die we intern bijhouden. De CMR-vrachtbrief gaat mee tot aan de levering. Verzekering dekt het transport. Een vehículo histórico met zijn gele H-sticker, de Spaanse inschrijving en de keuring vallen niet onder ons werk. Die regelt u zelf, of via uw dealer of een expediteur ter plaatse.",
+    "items": ["Controle bij ophaling", "Foto's als intern bewijs", "CMR-vrachtbrief tot aan levering", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Spanje",
+    "body": "Spanje staat bij ons vast op de kaart, vooral voor wagens van tweedeverblijvers. In België komen wij overal, dagelijks. Aan Spaanse kant rijden wij zowel in Catalonië als in Andalusië, en ook in andere streken als dat nodig is. U weet dus vooraf wat er gebeurt, bij wie en wanneer.",
+    "regions": ["Catalonië", "Valencia", "Andalusië", "Madrid", "Costa Blanca"]
+  },
+  "faq": [
+    { "q": "Mag mijn klassieker met een Belgische plaat in Spanje rijden?", "a": "Voor het transport is dat niet van belang, want de wagen staat op de transporter. Wat er daarna met uw plaat en uw papieren mag, vraagt u best aan de Spaanse autoriteiten of een dealer." },
+    { "q": "Kunnen jullie de wagen ook weer ophalen in het najaar?", "a": "Ja. Wij brengen de wagen graag terug naar België. Plan de terugrit samen met ons, dan weten wij waar en wanneer wij hem komen halen." },
+    { "q": "Is mijn wagen verzekerd tijdens het transport?", "a": "Ja. Tijdens het vervoer is de wagen verzekerd. Bij ophaling maken we foto's en een CMR-vrachtbrief, zodat de staat bij vertrek en aankomst is vastgelegd." },
+    { "q": "Wat als mijn klassieker niet meer rijdt?", "a": "Dan gebruiken we de lier. Zit de wagen helemaal vast, dan laten we ter plaatse een heftruck komen. Geef dat bij de aanvraag door, dan plannen we het goed." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Een afspraak voor de rit naar Spanje is een afspraak: u rekent op dezelfde vaste chauffeurs die uw klassieker ophalen en afleveren.",
+    "snel": "Wij plannen uw oldtimer vlot in en rijden hem efficiënt naar de Spaanse kust, zodat hij niet langer wacht dan nodig.",
+    "volgbaar": "Dankzij track en trace ziet u waar uw wagen zich bevindt, en de chauffeur belt u zodra hij dicht bij het adres is.",
+    "verzekerd": "Uw klassieker is tijdens het transport verzekerd, en met de CMR-vrachtbrief houdt u een duidelijk bewijs van ophaling en levering."
+  },
+  "reasons": [
+    { "title": "Ervaring over de jaren", "body": "Sinds jaren vervoeren wij klassiekers, ook voor tweedeverblijvers die hun oldtimer in Spanje willen hebben of terug naar huis brengen." },
+    { "title": "Liefde voor oude wagens", "body": "Een oldtimer is meer dan een vervoermiddel. Wij benaderen elke klassieker met het respect dat hij verdient." },
+    { "title": "Al honderden ritten", "body": "Na honderden ritten kennen wij de handelingen die nodig zijn om een kostbare wagen veilig te laden en te lossen." },
+    { "title": "Eigen mensen achter het stuur", "body": "Wij kiezen er bewust voor om met eigen chauffeurs te werken, zodat u weet wie uw wagen naar Spanje brengt." },
+    { "title": "Veel soorten voertuigen", "body": "Of het nu gaat om een cabrio, een sportwagen of een camionette, ons aanbod aan transporten dekt wat u nodig hebt." },
+    { "title": "Open voor nieuwe wegen", "body": "Wij zoeken voortdurend naar betere manieren van werken, zodat uw klassieker steeds met up-to-date materiaal reist." }
+  ],
+  "seoDescription":"Oldtimer transport van België naar Spanje voor tweede verblijf, rally of verkoop. Open meerlaagse transporter, lier, CMR en verzekering. Offerte binnen 24 uur."
+}

@@ -1,0 +1,59 @@
+{
+  "sub": "Een wagen in Frankrijk gekocht, bij een garage of op een stockagepark? Mcars rijdt elke week over heel Frankrijk en brengt hem naar België.",
+  "problem": {
+    "title": "U kocht in Frankrijk, de wagen staat nog ver weg",
+    "body": "Frankrijk heeft veel tweedehandsaanbod, bij garages, merkdealers en op grote stockageparken. Als de koop beslist is, staat de wagen soms honderden kilometers van u. Zelf gaan halen betekent een heen- en terugreis, met extra vervoer om er te geraken. Daarbij komt de vraag of de platen nog kloppen en of de verkoper het volledige Franse inschrijvingsbewijs meegeeft. Dat is uw koop, niet de zijne.",
+    "situations": [
+      { "title": "Stockagepark", "body": "U kocht via BCA of een gelijkaardig park. Wij rijden daar regelmatig en laden de wagen mee in een ritje naar België." },
+      { "title": "Franse merkdealer", "body": "De dealer verkoopt over de grens maar levert niet. Wij nemen de wagen over op zijn terrein en brengen hem naar u." },
+      { "title": "Particulier in de provincie", "body": "Een privéverkoper woont ver van een snelle verbinding. Wij bellen hem, rijden naar zijn adres en laden de wagen op." }
+    ]
+  },
+  "solution": {
+    "title": "Wij laden uw Franse wagen en leveren hem in België af",
+    "body": "Bezorg ons het adres in Frankrijk en een paar gegevens over de wagen. Wij maken een offerte op maat, die u binnen 24 uur terugkrijgt. Een vaste chauffeur haalt de wagen op en neemt hem mee op een open meerlaagse transporter. Hij doet de inspectie, maakt foto's en legt alles vast in de CMR-vrachtbrief. Dan volgt de rit naar uw adres of naar ons depot in Roeselare. Onderweg is de wagen verzekerd en u hoort van ons wanneer hij dichtbij is."
+  },
+  "usps": [
+    { "title": "Elke week in Frankrijk", "body": "Wij rijden wekelijks over heel Frankrijk, dus een wagen op de plek waar u hem kocht is voor ons geen vreemde bestemming." },
+    { "title": "Ook stockageparken", "body": "BCA en TEA zijn bekende adressen voor ons. Onze chauffeurs weten hoe zo'n park werkt en wat ze daar van de afhaler vragen." },
+    { "title": "Nederlands- en Franstalig", "body": "Onze chauffeurs praten met uw Franse verkoper in zijn taal en met u in de uwe. Er gaat dus niets verloren in de vertaling." },
+    { "title": "Een vaste contactpersoon", "body": "Eén persoon volgt uw dossier op. U belt hem of haar, en op de dag van ophaling en levering belt de chauffeur zelf." }
+  ],
+  "steps": [
+    { "title": "Aanvraag en offerte", "body": "Laat ons weten waar de wagen staat en waar hij heen moet. Binnen 24 uur volgt een offerte die past bij uw wagen." },
+    { "title": "Ophaling plannen", "body": "We spreken met de Franse verkoper of het park een dag af en laten u weten wanneer de chauffeur er aankomt." },
+    { "title": "Laden met CMR", "body": "De chauffeur controleert de wagen, neemt foto's en ondertekent de CMR-vrachtbrief. Daarna gaat de wagen vast op de transporter." },
+    { "title": "Afleveren in België", "body": "De chauffeur belt u voor aankomst. Samen bekijkt u de wagen en tekent u voor ontvangst op de CMR." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, ook de CMR",
+    "body": "Als de chauffeur uw wagen in Frankrijk overneemt, loopt hij er eerst rond. Wat hij ziet, schrijft hij op, en hij fotografeert de wagen. Die foto's zijn voor intern gebruik. De CMR-vrachtbrief reist mee en wordt bij levering opnieuw getekend. De wagen is verzekerd zolang hij bij ons is. De Belgische inschrijving, keuring en douane laten wij bij u of uw dealer. Zeg ons wel wat u nodig hebt, dan zoeken we mee naar de juiste volgorde.",
+    "items": ["Rondgang en notities bij laden", "Foto's als intern bewijs", "CMR bij ophaling en levering", "Verzekerd van laden tot lossen"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor een wagen uit Frankrijk",
+    "body": "Frankrijk is geen uitzondering voor ons maar een vaste bestemming. We rijden er wekelijks en kennen de stockageparken, de garages en de privéadressen op het platteland. Onze Franstalige chauffeurs maken afspraken zonder tolk. U hoeft dus niet zelf te bellen met een verkoper die geen Nederlands spreekt. Wij organiseren de rit, u regelt de inschrijving in België.",
+    "regions": ["Noord-Frankrijk", "Île-de-France", "Normandië", "Bretagne", "Auvergne-Rhône-Alpes", "Provence"]
+  },
+  "faq": [
+    { "q": "Rijden jullie ook naar kleinere dorpen in Frankrijk?", "a": "Ja. We rijden wekelijks over heel Frankrijk. Geef het exacte adres door, dan plannen we de ophaling in dezelfde rit waar mogelijk." },
+    { "q": "Wat moet de Franse verkoper meegeven?", "a": "Het volledige inschrijvingsbewijs, de factuur en alle papieren van de wagen. Zonder compleet dossier lukt de Belgische inschrijving niet. Mcars vervoert; het papierwerk blijft voor u." },
+    { "q": "Mogen jullie ook uit een stockagepark halen?", "a": "Ja, wij laden regelmatig op parken zoals BCA en TEA. Geef ons het volgnummer of de naam van de verkoper, dan regelen we de afspraak." },
+    { "q": "Is mijn wagen verzekerd tijdens het transport?", "a": "Ja, vanaf het laden tot het lossen. Bij ophaling leggen we de staat vast met foto's en een CMR-vrachtbrief, zodat bij levering niets betwist hoeft te worden." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Op Franse bodem geldt hetzelfde als overal: wat wij beloven, doen wij, met chauffeurs die u bij naam leert kennen.",
+    "snel": "Omdat wij elke week in Frankrijk rijden, schuift uw wagen vlot mee in de planning en komt hij vlot bij u aan.",
+    "volgbaar": "Met track en trace volgt u uw wagen vanaf Frankrijk, en de chauffeur belt u op de dag van levering zelf op.",
+    "verzekerd": "Vanaf het laden tot het lossen is uw wagen verzekerd, en de CMR-vrachtbrief legt vast hoe hij bij ophaling in Frankrijk stond."
+  },
+  "reasons": [
+    { "title": "Een lange staat van dienst", "body": "Al jaren rijden wij heen en weer tussen Frankrijk en België, en die routine komt uw wagen ten goede." },
+    { "title": "Gedreven door auto's", "body": "Onze passie voor wagens maakt dat we ook bij een kleine kras of een bijzonder model extra oplettend blijven." },
+    { "title": "Honderden ritten op de teller", "body": "Het aantal ritten loopt in de honderden, en elke rit leerde ons beter omgaan met stockageparken en garages." },
+    { "title": "Eigen chauffeurs aan het stuur", "body": "Onze Nederlands- en Franstalige chauffeurs zijn bewust eigen mensen. Zij praten met de Franse verkoper in zijn taal." },
+    { "title": "Voor elke wagen een plek", "body": "Gewone wagens, sportwagens, oldtimers, camionettes of moto's: ons aanbod aan transporten is even breed als uw vraag." },
+    { "title": "Altijd in beweging", "body": "Wij blijven zoeken naar betere manieren om te werken, zodat u ook vanuit Frankrijk een eenvoudige aanvraag hebt." }
+  ],
+  "seoDescription": "Auto importeren uit Frankrijk? Mcars rijdt wekelijks over heel Frankrijk en brengt uw gekochte wagen veilig naar België."
+}

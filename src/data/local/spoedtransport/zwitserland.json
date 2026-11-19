@@ -1,0 +1,1033 @@
+{
+  "service": "spoedtransport",
+  "origin": "zwitserland",
+  "pages": {
+    "zwitserland": {
+      "lead": "Het is zaterdagavond kwart voor tien en de wagen moet nog vandaag uit Zwitserland weg. Dat lukt een autotransporter niet: in Zwitserland geldt elke nacht van 22.00 tot 05.00 uur een rijverbod voor zwaar verkeer, en daarbovenop elke zondag. Hier leest u wat spoed in Zwitserland wel kan betekenen, welke uitzondering bestaat en wat u best vooraf in orde brengt.",
+      "facts": [
+        {
+          "label": "Nachtverbod",
+          "value": "Elke nacht van 22.00 tot 05.00 uur, het hele jaar"
+        },
+        {
+          "label": "Zondagsverbod",
+          "value": "Alle zondagen en feestdagen zoals Pasen, Hemelvaart, 1 augustus en Kerstmis"
+        },
+        {
+          "label": "Vergunning",
+          "value": "Alleen voor dringende ritten die niet te vermijden zijn"
+        },
+        {
+          "label": "Douane",
+          "value": "Voertuigaangiften van maandag tot vrijdag, enkele kantoren ook zaterdagvoormiddag"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Een autotransporter valt onder het verbod",
+          "body": [
+            "Het Zwitserse verbod is niet alleen voor de grote vrachtwagen met oplegger bedoeld. Het geldt ook voor opleggertrekkers met een toegelaten treingewicht boven 5 ton en voor voertuigen die een aanhangwagen boven 3,5 ton trekken. Een autotransporter zit in die categorie.",
+            "De wettelijke uitzonderingen gaan over personenvervoer, landbouw, hulpdiensten, de post, bederfelijke goederen, levende dieren en dagbladen. Het vervoer van voertuigen staat er niet bij. Een spoedrit met een wagen op de laadvloer krijgt dus nooit automatisch voorrang, hoe goed de reden ook is. Wie in Zwitserland dringend iets wil laten vervoeren, vertrekt best op een dag en een uur waarop zwaar verkeer er gewoon mag rijden."
+          ]
+        },
+        {
+          "heading": "Nacht, zondag en feestdagen: waar u op rekent",
+          "body": [
+            "Het nachtrijverbod bestaat sinds 1934 en moet voorkomen dat chauffeurs oververmoeid rijden. Het kent geen seizoenen: in december geldt het even strikt als in juli.",
+            "Het zondagsrijverbod geldt op alle zondagen en op deze feestdagen. Een autotransporter die zo'n dag nog op de weg staat, wordt bij een overtreding vastgehouden tot het weer mag rijden. Plan de rit dus zo dat de wagen vóór het begin van het verbod op zijn bestemming of op een toegelaten stalplaats staat:"
+          ],
+          "points": [
+            "Nieuwjaar, Goede Vrijdag en Paasmaandag",
+            "Hemelvaart en Pinkstermaandag",
+            "1 augustus en Kerstmis",
+            "26 december, behalve wanneer Kerstmis op een maandag of vrijdag valt"
+          ]
+        },
+        {
+          "heading": "Feestdagen verschillen per kanton",
+          "body": [
+            "Alleen 1 augustus is op federaal niveau vastgelegd. Alle andere wettelijke feestdagen bepalen de kantons zelf. Wordt een feestdag in een kanton of een deel ervan niet gevierd, dan geldt het zondagsrijverbod daar die dag niet. Goede Vrijdag is bijvoorbeeld geen verbodsdag in Ticino en Wallis.",
+            "Voor een spoedrit is dat een kleine opening, maar geen plan om op te bouwen. Een rit loopt zelden binnen één kanton, en achter de volgende kantonsgrens kan dezelfde dag wel een verbodsdag zijn. Kijk dus altijd na welke kantons de wagen op de weg tegenkomt."
+          ]
+        },
+        {
+          "heading": "De uitzonderingsvergunning: wanneer en hoe",
+          "body": [
+            "Een vergunning is er alleen voor dringende ritten die niet met organisatorische maatregelen of een ander vervoermiddel te vermijden zijn, en alleen voor de kortste route. De aanvraag loopt via het online portaal van ASTRA. Het kanton waar het voertuig gestald is of waar de rit begint, geeft ze af, en ze geldt in heel Zwitserland.",
+            "Reken met een aanvraagtermijn: in Wallis moet ze twee werkdagen voor vertrek binnen zijn, en aanvragen die in het weekend binnenkomen worden niet behandeld. Voor dat geval bestaat een noodprocedure via de kantonspolitie. Een lege aan- of terugrit mag bij een vergunde rit hoogstens 30 minuten duren. Mcars rijdt met open autotransporters en valt onder dezelfde regels: vermeld bij uw aanvraag dus meteen of de rit op een verbodsdag moet vertrekken."
+          ]
+        },
+        {
+          "heading": "Wat spoed hier realistisch is",
+          "body": [
+            "Rond Pasen zijn Goede Vrijdag, paaszondag en Paasmaandag verbodsdagen. Alleen de zaterdag ertussen is een rijdag. Ook Hemelvaart en Pinkstermaandag vallen weg. Wie in zo'n week een wagen nodig heeft, plant bij voorkeur op de werkdagen ervoor.",
+            "Daarbovenop hangt een rit over de Zwitserse grens af van de openingsuren van de douane. Die behandelt voertuigen op werkdagen, met op zaterdagvoormiddag slechts enkele open kantoren. Brengt u de wagen zelf naar ons depot in Roeselare, dan kan dat op elk uur van de dag. Dat is voordeliger, en het geeft de chauffeur een vaste startplek voor de rit."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Stick'AIR in Genève",
+          "body": "De enige milieuzoneregeling van Zwitserland. Bij vervuilingspieken is het centrum van het kanton Genève tussen 6 en 22 uur verboden voor de meest vervuilende voertuigen, ook met een buitenlandse plaat. Staat de wagen of de bestemming in het centrum, vraag dan vooraf na of de regeling die dag actief is."
+        },
+        {
+          "kind": "tip",
+          "title": "Crit'Air telt in Genève mee",
+          "body": "De Franse Crit'Air-vignet wordt in Genève erkend als gelijkwaardig aan de Stick'AIR-sticker, stickers uit andere landen niet. Een wagen met Franse papieren die bij een piek naar Genève moet, heeft dus al een geldig bewijs. Een Stick'AIR-sticker blijft geldig zolang het voertuig bestaat."
+        },
+        {
+          "kind": "event",
+          "title": "World Economic Forum in Davos",
+          "body": "Elk jaar in januari of februari komt het forum vijf dagen samen in Davos, in Graubünden. Politie en leger zijn dan ingezet en er gelden beperkingen in Davos. Een ophaling of levering in die week plant u best ruim vooraf met de organisatie of het hotel."
+        },
+        {
+          "kind": "plek",
+          "title": "Gubristtunnel bij Zürich",
+          "body": "Volgens de bron staat de Gubristtunnel op 350 dagen per jaar in de file. Een derde buis heeft verlichting gebracht, maar de oude buizen worden na elkaar gesaneerd. Wie in de regio Zürich laadt, rekent op extra marge, zeker als de rit in de ochtendspits vertrekt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter in Zwitserland op zondag rijden?",
+          "a": "Nee. Voertuigtransport staat niet in de lijst van wettelijke uitzonderingen. Zondag is een verbodsdag, net als de genoemde feestdagen, tenzij een kanton een rit uitzonderlijk vergunt voor een dringende en onvermijdelijke verplaatsing."
+        },
+        {
+          "q": "Kan een spoedrit 's nachts vertrekken als er haast bij is?",
+          "a": "Niet zonder vergunning. Het verbod geldt van 22.00 tot 05.00 uur, het hele jaar. Ook een dringende reden volstaat niet vanzelf, want de vergunning wordt alleen verleend als de rit niet anders te organiseren is."
+        },
+        {
+          "q": "Wie vraagt de vergunning aan, en hoe laat moet dat?",
+          "a": "De aanvraag verloopt online via ASTRA bij het bevoegde kanton. In Wallis ligt de grens bij twee werkdagen voor vertrek, en wat in het weekend binnenkomt, wordt niet behandeld. Reken dus niet op een aanvraag op vrijdagavond."
+        },
+        {
+          "q": "Wat als de wagen op een feestdag moet vertrekken?",
+          "a": "Controleer eerst of die feestdag in de betrokken kantons gevierd wordt. Alleen 1 augustus is overal gelijk. Wordt de dag ergens niet gevierd, dan geldt het zondagsverbod daar niet, maar de volgende kantonsgrens kan dat weer veranderen."
+        }
+      ],
+      "seoDescription": "Spoedtransport in Zwitserland: nachtverbod, zondag en feestdagen voor autotransporters, en hoe een uitzonderingsvergunning werkt voor dringende ritten.",
+      "sources": [
+        "https://www.sg.ch/verkehr/strassenverkehr/sonderbewilligungen/sonntags--und-nachtfahrverbot.html",
+        "https://www.vs.ch/de/web/scn/autorisation-speciale-de-nuit-et-jours-feries",
+        "https://www.bj.admin.ch/dam/bj/de/data/publiservice/service/zivilprozessrecht/kant-feiertage.pdf",
+        "https://de.wikipedia.org/wiki/Nachtfahrverbot",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/switzerland",
+        "https://www.bazg.admin.ch/dam/de/sd-web/xG5rXtRXNkO2/mit_fahrzeugen_durchdenschweizerzollform1549.pdf",
+        "https://www.ge.ch/document/points-essentiels-connaitre-cas-activation-du-dispositif-stick-air",
+        "https://www.ge.ch/node/21285",
+        "https://de.wikipedia.org/wiki/Weltwirtschaftsforum",
+        "https://de.wikipedia.org/wiki/Gubristtunnel"
+      ]
+    },
+    "zwitserland-belgie": {
+      "lead": "Een wagen staat in Basel en moet zo snel mogelijk in België zijn. Aan Zwitserse kant ligt de grootste vertraging: in het weekend en 's nachts mag een autotransporter er niet rijden. In België speelt dan weer de rij- en rusttijd van de chauffeur. Wie de rit rond die twee grenzen plant, komt veel sneller aan dan wie op een zaterdagavond vertrekt.",
+      "facts": [
+        {
+          "label": "Weekendstop",
+          "value": "Zaterdag 22 uur tot maandag 5 uur: ongeveer 31 uur stilstand"
+        },
+        {
+          "label": "Grensovergang",
+          "value": "Weil am Rhein, waar de Zwitserse A2 en Duitse A5 samenkomen"
+        },
+        {
+          "label": "Rijtijd chauffeur",
+          "value": "Hoogstens 9 uur per dag, na 4,5 uur minstens 45 minuten pauze"
+        },
+        {
+          "label": "Vrachtbrief",
+          "value": "Minstens drie originele exemplaren reizen mee met het voertuig"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het weekend in Zwitserland kost ruim een dag",
+          "body": [
+            "Zwitserland verbiedt zwaar verkeer elke zondag van 0 tot 24 uur en elke nacht van 22 tot 5 uur. Tel die twee bij elkaar en een weekend wordt lang. Een voertuig dat zaterdag om 22 uur nog onderweg is, staat tot maandag om 5 uur stil: ongeveer 31 uur.",
+            "Voor een spoedrit naar België zijn er daarom twee verstandige momenten: de werkdagen en de zaterdag overdag. Wie op vrijdag laat laadt en pas op zaterdagnamiddag vertrekt, verliest weinig tijd. Wie op zaterdag 21 uur nog wil starten, haalt de Belgische grens in de praktijk pas dinsdag, ook als de chauffeur zelf wil doorrijden."
+          ]
+        },
+        {
+          "heading": "Welke uitzonderingen er zijn, en welke niet",
+          "body": [
+            "Uitgezonderd van het verbod zijn nood- en politiediensten, takelwagens en bergingsvoertuigen, het dringende vervoer van bederfelijke waren en ritten met een speciale vergunning. Autotransport staat niet in de lijst.",
+            "Een vergunning komt van het kanton waar de rit begint. Voor een wagen in Basel is dat dus een Zwitserse beslissing, niet een Belgische. Ze wordt enkel toegekend als er geen alternatief bestaat. Dat is zelden het geval voor een wagen die gewoon dringend ergens heen moet. Reken er dus niet op."
+          ]
+        },
+        {
+          "heading": "Van Basel naar de Belgische grens",
+          "body": [
+            "Voor de meeste ritten naar België begint de weg aan de Duitse A5, die in Weil am Rhein op de Zwitserse A2 aansluit. Wie via Luxemburg rijdt, komt in België binnen via de E411 bij Sterpenich of de N4 bij Martelange. Dat is ook de streek waar de weg naar West-Vlaanderen zijn laatste grote etappe krijgt.",
+            "In het Zwitserse stuk zelf loopt het verkeer rond Basel soms trager. Op de A2 ten zuiden van de stad wordt de Belchentunnel gesaneerd, en tussen Härkingen en Wiggertal deelt de weg zijn tracé met de A1. Een chauffeur met een volle laadvloer houdt daar rekening mee."
+          ]
+        },
+        {
+          "heading": "Aankomst in België: rijtijd en papieren",
+          "body": [
+            "Voor goederenvervoer boven 3,5 ton gelden in België de Europese rij- en rusttijden, geregistreerd met een tachograaf. Een chauffeur rijdt hoogstens negen uur per dag, twee keer per week tien. Per week is 56 uur het maximum en over twee weken 90 uur. Een rit uit Zwitserland begint dus vaak al na een lange dag aan het stuur.",
+            "De vrachtbrief gaat altijd mee, ook bij een dringende rit. Bij ophaling maken wij foto's als intern bewijs en een CMR-vrachtbrief op, en de wagen is verzekerd tijdens het transport. Vanuit ons depot in Roeselare rijden we België dagelijks, zodat de laatste kilometers tot uw adres meestal geen apart probleem zijn."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Weil am Rhein: A5 naar A2",
+          "body": "De Duitse A5 eindigt aan de grensovergang Weil am Rhein en sluit er aan op de Zwitserse A2, richting Chiasso. Dit is de gebruikelijke weg tussen Zwitserland en de Benelux. Voor een rit uit Basel naar België is dat het eerste stuk, nog voor de chauffeur Duitsland of de Elzas kiest."
+        },
+        {
+          "kind": "plek",
+          "title": "Belchentunnel ten zuiden van Basel",
+          "body": "De Belchentunnel op de A2 is ongeveer 3,2 kilometer lang en loopt onder de Jura. De twee oude buizen worden gesaneerd, de derde buis vangt het verkeer op. Voor wie van het binnenland naar Basel moet, kan dat extra wachttijd geven vlak voor de grens."
+        },
+        {
+          "kind": "event",
+          "title": "Foire de Libramont",
+          "body": "De landbouw- en bosbouwbeurs duurt elk jaar vier dagen eind juli in Libramont-Chevigny, in de provincie Luxemburg. Reken dan op drukte rond de N89 en de E411. Een wagen die uit Zwitserland via die weg naar België rijdt, kan in die dagen langer onderweg zijn."
+        },
+        {
+          "kind": "tip",
+          "title": "Martelange en de tankstations",
+          "body": "In Martelange loopt de Belgisch-Luxemburgse grens enkele kilometers lang langs de N4. Aan de Luxemburgse kant staan tankstations in rij. Een autotransporter die er tankt of een rustpauze neemt, zit tussen veel ander verkeer. Houd daar rekening mee als de rit strak gepland is."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan mijn wagen op zondag in Zwitserland worden opgehaald?",
+          "a": "Niet door een autotransporter. Zondag is een verbodsdag voor zwaar verkeer, en vervoer van voertuigen staat niet bij de uitzonderingen. Een ophaling op vrijdag of zaterdag overdag lukt wel en kost veel minder tijd."
+        },
+        {
+          "q": "Zijn de Belgische rijtijden een probleem voor een spoedrit?",
+          "a": "Ze beperken wat één chauffeur op een dag kan rijden. Na 4,5 uur rijden volgt een pauze van minstens 45 minuten. Een lange rit uit Zwitserland wordt dus nooit in één stuk gereden, ook niet als het dringend is."
+        },
+        {
+          "q": "Wat moet er in België altijd mee met een dringende rit?",
+          "a": "De vrachtbrief, in minstens drie originele exemplaren voor afzender, geadresseerde en vervoerder. Daarnaast registreert de tachograaf de rij- en rusttijden van de chauffeur. Zwitserland zelf stelt bijkomend een nacht- en zondagsverbod."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar België: weekendstop, nachtverbod, de weg via Basel en de Belgische rijtijden voor een dringende autotransportrit.",
+      "sources": [
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/switzerland",
+        "https://www.sg.ch/verkehr/strassenverkehr/sonderbewilligungen/sonntags--und-nachtfahrverbot.html",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://www.astra.admin.ch/de/a2-tunnel-belchen",
+        "https://de.wikipedia.org/wiki/Autobahn_A2_(Schweiz)",
+        "https://mobilit.belgium.be/nl/weg/transport/rij-en-rusttijden/rijtijden",
+        "https://mobilit.belgium.be/nl/weg/transport/vrachtbrief/opmaak-gebruik-en-bewaarplicht",
+        "https://fr.wikipedia.org/wiki/Foire_de_Libramont",
+        "https://nl.wikipedia.org/wiki/N4_%28Belgi%C3%AB%29"
+      ]
+    },
+    "zwitserland-nederland": {
+      "lead": "Een wagen in Basel die snel in Nederland moet zijn, rijdt bijna de hele weg door Duitsland. Dat betekent twee weekendverboden na elkaar: eerst het Zwitserse, daarna het Duitse. Een spoedrit rond een weekend of feestdag vraagt dus planning aan beide kanten van de grens. U leest hier hoe die twee regels op elkaar aansluiten en wat u in Nederland zelf nog moet weten.",
+      "facts": [
+        {
+          "label": "Hoofdroute",
+          "value": "Duitse A5 vanaf Weil am Rhein, ongeveer 445 kilometer lang"
+        },
+        {
+          "label": "Alternatief",
+          "value": "De E25 via Mulhouse, Straatsburg, Metz en Luxemburg"
+        },
+        {
+          "label": "Duits verbod",
+          "value": "Zondag en feestdagen van 0 tot 22 uur, boven 7,5 ton"
+        },
+        {
+          "label": "Zwitsers verbod",
+          "value": "Zondag en elke nacht van 22 tot 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Twee verboden, één weekend",
+          "body": [
+            "Zwitserland laat zwaar verkeer op zondag en 's nachts niet toe. Duitsland verbiedt vrachtwagens boven 7,5 ton en vrachtwagens met aanhanger op zon- en feestdagen van 0 tot 22 uur. Wie dus zaterdagavond uit Zwitserland vertrekt, staat in Duitsland de volgende dag opnieuw stil.",
+            "Het verschil in einduur is bruikbaar. Het Zwitserse verbod loopt tot maandag 5 uur, het Duitse eindigt zondag om 22 uur. De wagen kan dus een rit beginnen op een zondagavond in Duitsland, maar niet in Zwitserland zelf. Voor een spoedrit uit Basel is de werkdag ervoor of de zaterdag overdag in de praktijk de enige snelle keuze."
+          ]
+        },
+        {
+          "heading": "Zomerzaterdagen en tol in Duitsland",
+          "body": [
+            "In de zomer komen er in Duitsland bepaalde zaterdagen bij: van 7 tot 20 uur mogen zware voertuigen dan niet op een reeks hoofdassen. Kijk na of de gekozen route daar langs loopt, want een omweg kost op zo'n dag minder dan wachten.",
+            "Voor voertuigen boven 3,5 ton geldt bovendien Toll Collect. Dat is geen tijdsprobleem, maar wel een reden waarom sommige transporteurs liever via de Elzas en Luxemburg rijden. De E25 loopt dan langs Mulhouse, Straatsburg en Metz richting de Benelux. Mcars rijdt met open, meerlaagse autotransporters en kiest de route per rit, afhankelijk van de dag en de planning."
+          ]
+        },
+        {
+          "heading": "Aankomst in Nederland",
+          "body": [
+            "Vanuit Zwitserland komt de wagen meestal binnen via Limburg of Gelderland. In Limburg zijn de Roertunnel en de Tunnel Swalmen op de A73 een aandachtspunt: vrachtwagens hoger dan 4,10 meter mogen er niet in. Een automatisch systeem sluit de tunnel af voor al het verkeer als een te hoge wagen binnenrijdt. Een geladen autotransporter meet u dus vooraf na.",
+            "Officiële feestdagen zijn in Nederland niet wettelijk vrij. Goede Vrijdag en Bevrijdingsdag zijn zulke dagen: of een bedrijf dan werkt, hangt af van de cao of het contract. Bel dus voor een levering naar een garage of bedrijf eerst of er iemand is."
+          ]
+        },
+        {
+          "heading": "Wat u zelf regelt bij een wagen uit Zwitserland",
+          "body": [
+            "Zwitserland ligt buiten de EU. Wie met een voertuig uit een niet-EU-land de Unie binnenkomt, heeft een invoerdocument van de douane nodig, bij een verhuizing niet ouder dan twaalf maanden. Mcars vervoert de wagen en regelt dat papierwerk niet; dat doet de eigenaar zelf, of een douane-expediteur.",
+            "De RDW-keuringsstations zijn open op werkdagen van 8.00 tot 17.00 uur en gesloten op feestdagen. Een spoedrit die op vrijdagavond aankomt, levert dus pas na het weekend een afspraak op. Laat de papieren daarom klaar liggen voor de wagen op de laadvloer staat."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Weil-Autobahn: buiten de openingsuren",
+          "body": "De Zwitserse douane noemt Basel Weil-Autobahn als overgang waar handelswaren in uitzonderlijke situaties ook buiten de openingsuren kunnen worden ingeklaard. Elders kan dat niet. Voor een rit naar Nederland die laat in de avond de grens nadert, is dat geen vanzelfsprekendheid."
+        },
+        {
+          "kind": "plek",
+          "title": "Rheinfelden: tweede snelwegovergang",
+          "body": "Bij Rheinfelden is de Zwitserse A3 via een Rijnbrug met de Duitse A861 verbonden. Dat is een tweede autosnelweggrens met Duitsland, ten oosten van Basel. Voor wie in het oosten van de regio laadt, scheelt het een omweg door het stadscentrum."
+        },
+        {
+          "kind": "event",
+          "title": "Amstel Gold Race in Zuid-Limburg",
+          "body": "De wielerkoers wordt in het derde weekend van april in Zuid-Limburg gereden, met start in Maastricht en finish voorbij de Cauberg. Wegen in het Heuvelland zijn dan afgesloten. Een levering in die streek plant u op een andere dag."
+        },
+        {
+          "kind": "event",
+          "title": "Nijmeegse Vierdaagse",
+          "body": "De Vierdaagse start op de derde dinsdag van juli en duurt vier dagen, met honderdduizenden bezoekers aan de feesten. In en rond Nijmegen is laden en lossen dan moeilijk. Wie een wagen naar Gelderland laat komen, kiest beter een andere week."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waarom duurt een spoedrit uit Zwitserland over het weekend zoveel langer?",
+          "a": "Omdat twee landen zware voertuigen op zondag weren. Zwitserland tot maandag 5 uur, Duitsland tot zondag 22 uur. Wie op zaterdagavond vertrekt, verliest daardoor bijna een dag, ook als de chauffeur graag zou doorrijden."
+        },
+        {
+          "q": "Moet ik als verhuizer iets aan de douane doorgeven?",
+          "a": "Ja. Een voertuig uit een niet-EU-land heeft bij binnenkomst in de EU een invoerdocument van de douane nodig. Bij een verhuizing mag dat niet ouder zijn dan twaalf maanden. U of uw expediteur regelt dat, wij vervoeren de wagen."
+        },
+        {
+          "q": "Kan de wagen op Goede Vrijdag in Nederland worden geleverd?",
+          "a": "Goede Vrijdag is een officiële feestdag, maar geen wettelijke vrije dag. Het hangt af van uw werkgever en de cao. In Zwitserland zelf is het wel een verbodsdag voor zwaar verkeer, behalve in Ticino en Wallis."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Nederland: Zwitserse en Duitse rijverboden, de weg via de A5 en wat u in Nederland zelf regelt.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.toll-collect.de/en/",
+        "https://www.nederlandwereldwijd.nl/auto-importeren/stappenplan",
+        "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a73",
+        "https://www.bazg.admin.ch/dam/de/sd-web/jWPwp7TfGIv3/info-ausdehnung-zolloeffnungszeiten-bei-versorgnungsengpaessen_de.pdf",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_861",
+        "https://nl.wikipedia.org/wiki/Amstel_Gold_Race",
+        "https://nl.wikipedia.org/wiki/Nijmeegse_Vierdaagse"
+      ]
+    },
+    "zwitserland-luxemburg": {
+      "lead": "Van Zwitserland naar Luxemburg rijdt een autotransporter meestal over de Elzas: Basel, Mulhouse, Straatsburg, Metz. Dat is een korte rit, maar met drie landen en drie reeksen regels. Wie een wagen dringend in Luxemburg nodig heeft, loopt vooral tegen het Zwitserse weekend aan en tegen de uitvoerpapieren die de eigenaar zelf in orde moet hebben.",
+      "facts": [
+        {
+          "label": "Gebruikelijke as",
+          "value": "A35 door de Elzas, dan A4 en A31 via Metz"
+        },
+        {
+          "label": "Alternatief",
+          "value": "Duitse A5, dan A8 via Saarland naar Perl"
+        },
+        {
+          "label": "Uitvoer Zwitserland",
+          "value": "E-dec-aangifte bij een douanekantoor voor handelsgoederen"
+        },
+        {
+          "label": "SNCA-loket",
+          "value": "Contactcenter maandag tot vrijdag, 7.30 tot 16.30 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Zwitserse uitvoer, eerst en vooral",
+          "body": [
+            "Zwitserland is geen EU-land, dus een wagen die er vertrekt, moet formeel worden uitgevoerd. De eigenaar geeft hem ongevraagd aan bij een douanekantoor voor handelsgoederen, met het inschrijvingsbewijs (ook als het geschrapt is), een identiteitsbewijs en de elektronische uitvoeraangifte.",
+            "Een wagen mag op uitvoerplaten wegrijden of op een ander voertuig worden vervoerd. Voor een transport op een autotransporter is het tweede het geval. Vragen over de platen gaan naar het kantonnale wegverkeersbureau. Mcars vervoert de wagen; de aangifte zelf regelt u, of een douane-expediteur, tijdens de openingsuren van het kantoor."
+          ]
+        },
+        {
+          "heading": "De Elzas: A35, A355 en vluchtstroken",
+          "body": [
+            "De A35 is tolvrij en eindigt aan de Zwitserse grens bij Saint-Louis. Bij Sausheim sluit de A36 aan. Ten noorden van Straatsburg deelt de A35 een stuk met de A4 uit Metz en Nancy.",
+            "Veel vrachtwagens kozen deze weg om de Duitse tol op de A5 te mijden. Sinds de A355 is doorgaand vrachtverkeer op de Straatsburgse M35 verboden: een autotransporter in transit neemt de westelijke omleiding. Voor wie liever via Duitsland rijdt, begint de A8 in Perl aan de Luxemburgse grens en loopt langs Saarbrücken naar Karlsruhe, waar ze de A5 kruist."
+          ]
+        },
+        {
+          "heading": "Frankrijk, Zwitserland en wat Luxemburg niet raakt",
+          "body": [
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton in het weekend en kent extra zomerzaterdagen. Zwitserland verbiedt zondag en nacht. Zet die twee naast elkaar en u ziet waarom een spoedrit vooral werkdagen zoekt.",
+            "Luxemburg heeft zelf een weekendverbod voor transit richting Frankrijk en Duitsland. Dat raakt een rit die in Luxemburg eindigt niet: vrachtwagens met bestemming Luxemburg vallen er niet onder. Wel mag een voertuig tijdens zo'n verbod niet op de openbare weg of op een snelwegparking staan, wat op de terugweg voor de chauffeur telt, niet voor uw wagen."
+          ]
+        },
+        {
+          "heading": "Aankomst en papieren in Luxemburg",
+          "body": [
+            "Voor een buitenlandse wagen volgen in Luxemburg de gewone stappen: SNCA, verzekering, douane-afhandeling met btw en de vignette 705, kanselarijzegel, keuring en volledig inschrijvingsbewijs. De pagina maakt geen apart geval van Zwitserland.",
+            "Het contactcenter van de SNCA is bereikbaar van maandag tot vrijdag. Papieren voor een dringende inschrijving raken in het weekend dus niet in orde. Voor exportplaten rekent de SNCA zelf gemiddeld op een volle dag, omdat de aanvraag langs de SNCA, de verzekeraar en de platenmaker loopt. Wie een wagen binnen een bepaalde dag wil laten rijden, regelt de papieren dus vóór het transport, niet erna."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Parking Berchem richting Frankrijk",
+          "body": "De vrachtwagenparking van Berchem is uitgebreid van 54 naar 107 plaatsen en blijft gratis. Aanleiding was dat de parking in het weekend vol stond met vrachtwagens die op het einde van het Franse verbod wachtten. Voor een transporter die vanuit Luxemburg weer richting Frankrijk moet, is het een vaste halte."
+        },
+        {
+          "kind": "plek",
+          "title": "Croix de Bettembourg",
+          "body": "Aan de Croix de Bettembourg kruist de A3 de A13. Zo kan een chauffeur uit het zuiden oostwaarts naar Schengen en Saarland, of westwaarts naar Pétange, zonder door de hoofdstad te rijden. Wie uit de Elzas komt, bespaart er een stuk drukke stadsrand mee."
+        },
+        {
+          "kind": "event",
+          "title": "Schueberfouer",
+          "body": "De grote kermis van de stad staat elk jaar ongeveer twintig dagen op het Glacis in Limpertsberg, van rond 24 augustus tot begin september. Het Glacis is anders een stadsparking. Een levering in Luxemburg-stad plant u in die periode liever op een andere plek."
+        },
+        {
+          "kind": "regel",
+          "title": "Feestdagen: Europadag en nationale feestdag",
+          "body": "Europadag op 9 mei en de nationale feestdag op 23 juni zijn wettelijke feestdagen in Luxemburg, in België niet. Loketten zoals de SNCA en de douane kunnen dan gesloten zijn. Een spoedrit met papieren die nog moeten worden afgehandeld, plant u er niet op."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik de wagen in Zwitserland zelf aangeven voor de uitvoer?",
+          "a": "Ja, de eigenaar of een expediteur doet de e-dec-uitvoeraangifte bij een douanekantoor voor handelsgoederen. Mcars vervoert enkel. Zorg dat het inschrijvingsbewijs en een identiteitsbewijs bij de hand zijn."
+        },
+        {
+          "q": "Kan de wagen zondag in Luxemburg worden geleverd?",
+          "a": "Het Luxemburgse verbod treft doorvoer, niet vervoer met bestemming Luxemburg. Maar de rit komt uit Zwitserland, en daar rijdt een autotransporter op zondag niet. Zondagslevering is dus praktisch uitgesloten."
+        },
+        {
+          "q": "Is de A35 altijd de beste weg?",
+          "a": "Ze is tolvrij en kort, maar zit vaak druk. Sinds de omleiding bij Straatsburg mogen doorgaande vrachtwagens niet meer over de stadsweg. De Duitse A5 en A8 zijn de uitwijk, met de Duitse tol als nadeel."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Luxemburg: uitvoer uit Zwitserland, de weg via de Elzas en de SNCA-papieren die u zelf voor een wagen in orde brengt.",
+      "sources": [
+        "https://www.bazg.admin.ch/de/ausfuhr-fahrzeuge-schweiz",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://snca.public.lu/fr/plaques/exportation.html",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=LU",
+        "https://paperjam.lu/article/parking-intelligent-contre-cha",
+        "https://fr.wikipedia.org/wiki/Autoroute_A3_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/Schueberfouer",
+        "https://en.wikipedia.org/wiki/Public_holidays_in_Luxembourg"
+      ]
+    },
+    "zwitserland-frankrijk": {
+      "lead": "Een wagen in Basel of Genève die dringend in Frankrijk moet zijn, passeert de grens in een weekend zelden vlot. Aan de Franse kant parkeren vrachtwagens op de vluchtstrook omdat de toegang tot Zwitserland dicht is, en aan Zwitserse kant geldt nacht- en zondagsverbod. Spoed betekent hier: de rit leggen op de uren dat beide landen zware voertuigen toelaten.",
+      "facts": [
+        {
+          "label": "Franse grens",
+          "value": "A35 bij Saint-Louis, A40 bij Annemasse, A36 richting Mulhouse"
+        },
+        {
+          "label": "Frans weekendverbod",
+          "value": "Zaterdag 22 uur tot zondag 22 uur, boven 7,5 ton"
+        },
+        {
+          "label": "Afwijking",
+          "value": "Prefect van het binnenkomstdepartement, document aan boord"
+        },
+        {
+          "label": "Voertuigtransport",
+          "value": "Niet vermeld in de Franse lijst van permanente afwijkingen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het Franse weekendverbod, van zaterdag tot zondag",
+          "body": [
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur. Rond feestdagen loopt het van 22 uur op de vooravond tot 22 uur op de dag zelf. Valt een feestdag op zaterdag, of is een zondag ook een vooravond, dan geldt het verbod de hele dag.",
+            "Daar komen verbodszaterdagen bij: in de zomer vijf zaterdagen van half juli tot begin augustus, telkens van 7 tot 19 uur. In de winter geldt op een paar zaterdagen een extra verbod op Alpenassen, onder meer Bourg-en-Bresse–Chamonix en Grenoble–Chambéry. De lijst van permanente afwijkingen noemt het gewone vervoer van voertuigen niet. Een autotransporter boven 7,5 ton valt er dus onder."
+          ]
+        },
+        {
+          "heading": "Wat de prefect kan toestaan",
+          "body": [
+            "Voor een dringende rit na een onvoorziene gebeurtenis kan de prefect een individuele afwijking toestaan. Voor ritten uit het buitenland beslist de prefect van het departement waar men Frankrijk binnenrijdt. Een rit uit Basel komt dus voor de prefect van de Elzas terecht, een rit uit Genève voor die van Haute-Savoie.",
+            "De afwijking moet aan boord zijn, ingevuld met de datum van de rit en de nummerplaat van het voertuig. Voor een wagen die gewoon dringend ergens heen moet, is ze zelden haalbaar. Mcars rijdt met open autotransporters en kan een afwijking niet afdwingen. Vraag in uw offerteaanvraag daarom meteen naar de dag waarop de wagen klaar staat."
+          ]
+        },
+        {
+          "heading": "Welke dag geldt nu precies in Zwitserland?",
+          "body": [
+            "De bronnen spreken elkaar tegen over het zondagsvenster in Zwitserland: 0 tot 24 uur op zondag, of al vanaf zaterdag 22 uur. Het verschil is klein op papier maar groot op een planning. Neem als maatstaf de tekst van ASTRA of van het kanton, niet een gids.",
+            "Zwitserse feestdagen verschillen per kanton, en de verbodsregels gelden ook dan. Een vergunning krijgt u bovendien van het kanton waar de rit begint, of bij ritten uit het buitenland van het kanton van binnenkomst. Voor een wagen die het land verlaat, is het eerste dus het kanton waar de wagen staat."
+          ]
+        },
+        {
+          "heading": "Aankomst in Frankrijk: Elzas, Jura en Rhônevallei",
+          "body": [
+            "Vanuit Basel komt u in Grand Est terecht. Daar is de A35 tolvrij en druk, de doorgang van de A36 door Mulhouse moeilijk en tussen Belfort en Montbéliard het verkeer zwaar, met een limiet van 110 kilometer per uur. Vanuit de Jura of Genève rijdt u verder over de A6 naar Beaune, waar de A6, de A31 en de aansluiting naar de A36 samenkomen.",
+            "Op 1 mei is Frankrijk de enige dag waarop wettelijk niet gewerkt wordt, en bruggen tussen een feestdag en het weekend zijn niet wettelijk geregeld. Een garage of bedrijf kan dan gesloten zijn. Bel vooraf of er iemand is om de wagen aan te nemen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "A35 bij de Zwitserse grens",
+          "body": "De Franse A35 begint aan de Zwitserse grens bij Saint-Louis en sluit er aan op de Zwitserse A3 naar Basel. In het weekend en op feestdagen staan er vrachtwagens op de vluchtstrook, omdat de toegang tot Zwitserland dan dicht is. Rij er defensief en plan de rit niet op zo'n moment."
+        },
+        {
+          "kind": "plek",
+          "title": "A40 naar Annemasse en Mont Blanc",
+          "body": "De A40 loopt via Annemasse, vlak bij Genève, naar Passy en de Mont Blanc-tunnel. Wie uit Genève komt, vindt hier de Franse aansluiting. In de Mont Blanc-tunnel zijn de oudste, meest vervuilende vrachtwagens geweerd en houden voertuigen 150 meter afstand."
+        },
+        {
+          "kind": "tip",
+          "title": "Bison Futé",
+          "body": "Bison Futé biedt transporteurs een gratis abonnement met berichten in real time over rijverboden en de opheffing ervan bij zwaar weer. Voor een rit die vlak voor een verbod vertrekt, is dat de snelste manier om te weten of de planning nog klopt."
+        },
+        {
+          "kind": "plek",
+          "title": "A12 boven Vevey",
+          "body": "De Zwitserse A12 blijft ongeveer 15 kilometer boven 800 meter hoogte en klimt bij Vevey steil. De bron noemt het traject gevoelig voor ijzel en sneeuw. Voor een rit richting Genève en de Franse grens betekent dat in de winter een trager tempo."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan mijn wagen op zaterdagnamiddag nog Frankrijk in?",
+          "a": "Tot zaterdag 22 uur mag een zware vrachtwagen Frankrijk in, behalve op verbodszaterdagen in de zomer of op Alpenassen in de winter. Na dat uur geldt het weekendverbod tot zondag 22 uur."
+        },
+        {
+          "q": "Wie vraagt een Franse afwijking aan?",
+          "a": "De afwijking wordt toegekend door de prefect van het departement waar men Frankrijk binnenrijdt, en moet aan boord zijn met datum en nummerplaat. Het gewone vervoer van voertuigen staat niet in de lijst van permanente afwijkingen."
+        },
+        {
+          "q": "Hoe weet ik of een zomerzaterdag verboden is?",
+          "a": "De extra zaterdagen worden elk jaar bij ministerieel besluit vastgelegd, in de zomer hoogstens zeven. Bison Futé publiceert de lijst en een gratis abonnement meldt wijzigingen. Controleer de lijst telkens voor u een datum vastlegt."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Frankrijk: Zwitserse en Franse weekendverboden, afwijking via de prefect en de grens bij Basel en Genève.",
+      "sources": [
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://www.bison-fute.gouv.fr/derogations-de-circulation.html",
+        "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+        "https://www.bussgeld-info.de/lkw-fahrverbot-schweiz/",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A40_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A36_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://fr.wikipedia.org/wiki/Tunnel_du_Mont-Blanc",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+        "https://de.wikipedia.org/wiki/Autobahn_A12_(Schweiz)"
+      ]
+    },
+    "zwitserland-duitsland": {
+      "lead": "Van Basel naar Duitsland is de grens kort, maar de regels erachter zijn dat niet. Een autotransporter staat in Zwitserland stil op zondag en 's nachts, en in Duitsland geldt per deelstaat een andere lijst feestdagen. Wie een wagen dringend naar Stuttgart, Frankfurt of verder wil laten brengen, kijkt dus eerst naar de kalender en daarna naar de kaart.",
+      "facts": [
+        {
+          "label": "Grens",
+          "value": "Weil am Rhein, waar de A5 eindigt aan de A2"
+        },
+        {
+          "label": "Duits zondagsverbod",
+          "value": "Tot 22 uur, daarna mag een zware transporter weer vertrekken"
+        },
+        {
+          "label": "Autotransport",
+          "value": "Niet in de lijst van wettelijke uitzonderingen, § 30 StVO"
+        },
+        {
+          "label": "Rusttijd chauffeur",
+          "value": "Dagelijks minstens 11 uur, per week hoogstens 56 uur rijden"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het Duitse verbod is korter dan het Zwitserse",
+          "body": [
+            "Duitsland verbiedt zware voertuigen op zon- en feestdagen van 0 tot 22 uur. Dat is anders dan in Zwitserland, waar het verbod aansluit op een nachtverbod van 22 tot 5 uur. Een zware autotransporter kan dus op zondagavond vanaf 22 uur Duitsland weer in beweging komen.",
+            "Een vrachtwagen tot 7,5 ton zonder aanhanger valt niet onder dat zondagsverbod, maar zodra een vrachtwagen een aanhanger trekt, geldt het wel, ongeacht het gewicht. De wettelijke uitzonderingen zijn beperkt tot onder meer gecombineerd vervoer, verse melk, vlees, vis en pech- en bergingsvoertuigen. Het vervoer van auto's staat niet in die lijst."
+          ]
+        },
+        {
+          "heading": "Feestdagen die per deelstaat verschillen",
+          "body": [
+            "Sacramentsdag geldt in onder meer Baden-Württemberg, Beieren, Hessen en Noordrijn-Westfalen. Hervormingsdag op 31 oktober geldt in onder meer Nedersaksen en Hamburg. Allerheiligen op 1 november geldt in Baden-Württemberg, Beieren, Noordrijn-Westfalen, Rijnland-Palts en het Saarland.",
+            "Voor een rit uit Basel is vooral Baden-Württemberg belangrijk. Driekoningen, Sacramentsdag en Allerheiligen zijn daar wettelijke feestdagen, dagen met een rijverbod die in bijvoorbeeld Nedersaksen gewone werkdagen zijn. Kijk dus altijd na in welke deelstaat de wagen moet aankomen en welke dag het is. Een transporter die een deelstaatgrens oversteekt, kan op dezelfde dag van een rijdag in een verbodsdag belanden."
+          ]
+        },
+        {
+          "heading": "Zomerzaterdagen en ontheffingen",
+          "body": [
+            "In de zomer geldt op een reeks assen ook op zaterdag een rijverbod. De A5 komt daar twee keer in voor: Darmstadt–Karlsruhe-Süd en Offenburg–Neuenburg. Dat laatste stuk ligt tussen Freiburg en Basel, precies waar een rit uit Zwitserland begint. Het zaterdagverbod eindigt in juli en augustus op de aangeduide trajecten om 20 uur.",
+            "In dringende gevallen kan de plaatselijke Straßenverkehrsbehörde een ontheffing verlenen als vervoer met andere middelen niet mogelijk is. De ontheffing is schriftelijk en moet aan boord zijn. Voor een rit boven 3,5 ton geldt bovendien de EU-regeling voor rijtijden: negen uur per dag, na 4,5 uur een pauze van 45 minuten."
+          ]
+        },
+        {
+          "heading": "Aankomst in het zuidwesten van Duitsland",
+          "body": [
+            "Baden-Württemberg grenst aan Frankrijk en Zwitserland. De Europabrücke tussen Kehl en Straatsburg is de drukste grensovergang tussen Baden en de Elzas. De Albaufstieg op de A8 haalt ongeveer 380 hoogtemeters met een steile helling, en bergaf geldt voor vrachtwagens 50 kilometer per uur.",
+            "Verder noordwaarts is het Frankfurter Kreuz het drukste snelwegknooppunt van het land, tussen A3 en A5. Plan een aankomst in het weekend of op een verbodsdag niet: de wagen staat dan hoogstens op een parking te wachten. Vraag in uw offerteaanvraag naar de dag en het adres, dan weten we meteen welke regels op die rit spelen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Europabrücke Kehl–Straatsburg",
+          "body": "De brug tussen Kehl en Straatsburg is de drukste grensovergang tussen Baden en de Elzas. Ze was wegens schade tijdelijk alleen open tot 3,5 ton, en er is een planningsakkoord voor een nieuwe brug. Een autotransporter checkt vooraf of de brug open is."
+        },
+        {
+          "kind": "plek",
+          "title": "Albaufstieg op de A8",
+          "body": "Tussen Aichelberg en Hohenstadt klimt de A8 ongeveer 380 hoogtemeters met een steile helling, in twee aparte dalen per rijrichting. Bergaf geldt 50 kilometer per uur voor vrachtwagens. Voor een rit naar München of Stuttgart is dat een vast vertragingspunt."
+        },
+        {
+          "kind": "regel",
+          "title": "Feestdagen in Baden-Württemberg",
+          "body": "Driekoningen, Sacramentsdag en Allerheiligen zijn er wettelijke feestdagen met een rijverbod voor zware voertuigen. In Nedersaksen zijn het gewone werkdagen. Wie een wagen laat leveren in Stuttgart of Freiburg, kijkt dus naar het Duitse kalender, niet naar de Belgische."
+        },
+        {
+          "kind": "plek",
+          "title": "Luchthaven Stuttgart",
+          "body": "Stuttgart Airport ligt in Leinfelden-Echterdingen aan de A8, is de grootste van Baden-Württemberg en de zevende van Duitsland. Wie met het vliegtuig komt om zijn wagen op te wachten, kiest een aankomstdag waarop de transporter ook mag rijden."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter op zondag in Duitsland rijden?",
+          "a": "Zware voertuigen mogen er op zon- en feestdagen niet van 0 tot 22 uur. Autotransport staat niet bij de uitzonderingen. Na 22 uur mag het weer, tenzij het een andere verbodsdag is."
+        },
+        {
+          "q": "Geldt dezelfde feestdagenlijst overal in Duitsland?",
+          "a": "Nee. Sacramentsdag, Hervormingsdag en Allerheiligen gelden alleen in bepaalde deelstaten. Rijdt de wagen door meerdere deelstaten, dan telt elke feestdag waar de transporter zich op dat moment bevindt."
+        },
+        {
+          "q": "Is een ontheffing voor een spoedrit realistisch?",
+          "a": "In dringende gevallen kan de Straßenverkehrsbehörde een ontheffing geven als er geen ander middel is. Ze moet schriftelijk aan boord zijn. Voor een wagen die gewoon snel ergens moet zijn, is ze zelden te verkrijgen."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Duitsland: Duits zondagsverbod, feestdagen per deelstaat en zomerzaterdagen, en de grens bij Basel en Weil am Rhein.",
+      "sources": [
+        "https://www.gesetze-im-internet.de/stvo_2013/__30.html",
+        "https://www.gesetze-im-internet.de/ferreisev_1985/BJNR007740985.html",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://de.wikipedia.org/wiki/Lenk-_und_Ruhezeiten",
+        "https://de.wikipedia.org/wiki/Gesetzliche_Feiertage_in_Deutschland",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Europabrücke_(Kehl)",
+        "https://de.wikipedia.org/wiki/Albaufstieg_(A_8)",
+        "https://de.wikipedia.org/wiki/Flughafen_Stuttgart",
+        "https://de.wikipedia.org/wiki/Frankfurter_Kreuz"
+      ]
+    },
+    "zwitserland-spanje": {
+      "lead": "Wie in Genève, Vaud of Wallis een wagen heeft staan die dringend naar Spanje moet, kiest voor een lange rit door drie landen met elk een eigen kalender. Zwitserland staat een autotransporter op zondag en 's nachts niet toe, Frankrijk houdt het weekend vrij, en in Spanje verschilt het verbod per wegvak. Dit is wat dat voor een spoedrit betekent.",
+      "facts": [
+        {
+          "label": "Zwitserse grens",
+          "value": "Bardonnex–Saint-Julien, waar de A1 op de Franse A41 aansluit"
+        },
+        {
+          "label": "Franse grens bij Spanje",
+          "value": "Col du Perthus, AP-7 gaat over in de Franse A9"
+        },
+        {
+          "label": "Spaans verbod",
+          "value": "Per kalender en per wegvak, geen algemeen zondagsverbod"
+        },
+        {
+          "label": "Franse weekendstop",
+          "value": "Zaterdag 22 uur tot zondag 22 uur, boven 7,5 ton"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Genève, Vaud en Wallis",
+          "body": [
+            "De Zwitserse A1 begint aan de grensovergang Bardonnex–Saint-Julien-en-Genevois en sluit er aan op de Franse A41. Dat is de uitgang voor wie naar Zuid-Frankrijk of Spanje rijdt. De Glion-tunnel boven Montreux (1.350 meter, twee buizen) draagt de A9; een alternatief langs het meer is er nauwelijks.",
+            "In Oberwallis is de A9 nog niet af. Het stuk Siders–Gamsen is in aanbouw, dus wie in het hoge Wallis laadt, rijdt een deel over gewone wegen. Vraag bij de aanvraag naar het exacte adres, zodat we weten welk traject de transporter neemt. Bij ophaling maken we foto's en een CMR-vrachtbrief."
+          ]
+        },
+        {
+          "heading": "Frankrijk: de lange as naar de Pyreneeën",
+          "body": [
+            "Op de Franse route naar Spanje gelden het weekendverbod voor vrachtwagens boven 7,5 ton en de extra verbodszaterdagen in de zomer. De Franse A9 (280,5 km, E15) loopt van Orange tot de Spaanse grens en is een tolweg.",
+            "Aan de Col du Perthus gaat de A9 over in de Spaanse AP-7 richting Girona en Barcelona. Daar staat een tolstation en door de grenscontroles zijn er vaak files. La Jonquera/Le Perthus is de belangrijkste grensovergang over de Oostelijke Pyreneeën; de AP-7 volgt de oude Romeinse Via Augusta."
+          ]
+        },
+        {
+          "heading": "Spanje rekent per wegvak, niet per zondag",
+          "body": [
+            "Spanje heeft op de wegen van de DGT geen algemeen zondagsrijverbod voor vrachtwagens. Het verbod voor voertuigen boven 7.500 kilogram geldt per kalender en per wegvak: enkel op de trajecten en uren uit de jaarresolutie. De uitzonderingen gaan over levend vee, bederfelijke waren onder ATP-voorwaarden, postvervoer en pechhulpvoertuigen. Autotransport staat niet in die lijst.",
+            "Voor een spoedrit betekent dat meer vrijheid dan in Zwitserland, maar ook een kalender om op te letten. Rond San José is de A-3 richting Valencia op de vooravond in de late namiddag dicht voor deze voertuigen. Kijk de jaarresolutie na op de dag van uw rit."
+          ]
+        },
+        {
+          "heading": "Aankomst in Catalonië",
+          "body": [
+            "Catalonië ligt het dichtst bij de Franse grens, en dus bij een rit uit Zwitserland. Naast de algemene beperkingen gelden er wegspecifieke beperkingen voor de Val d'Aran en voor stukken van de N-II, N-240 en N-340. De AP-7 begint aan de Franse grens in La Jonquera en volgt de hele kust, met het Europese nummer E-15.",
+            "In de winter kan de tramontana, een koude, turbulente noordenwind, in de Empordà net onder de Franse grens hevig waaien. Episodes duren soms meerdere dagen. Een open autotransporter met een hoog beladen laadvloer houdt daar rekening mee."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Speciale operaties van de DGT",
+          "body": "De Spaanse verkeersdienst werkt met vaste operaties waarin wegenwerken stilgelegd worden en de drukte piekt: de Goede Week, 1 mei, begin juli, 1 augustus, 15 augustus, eind augustus, de brug van El Pilar, Allerheiligen en de brug van 6 tot 8 december. Reken op extra vertraging."
+        },
+        {
+          "kind": "tip",
+          "title": "Grote Sint-Bernhardtunnel in het najaar",
+          "body": "In de Grote Sint-Bernhardtunnel worden elk najaar herstellingen uitgevoerd, soms met sluiting gedurende nachten of dagen. Het verkeer wordt dan omgeleid over de pas of de Simplon. Voor een rit richting Italië en Zuid-Frankrijk kan dat de voorkeursroute veranderen."
+        },
+        {
+          "kind": "plek",
+          "title": "Tunnel van Vielha",
+          "body": "De Túnel de Vielha (5.230 meter) ligt op de N-230, die Lleida met Vielha en de Franse grens verbindt. De doorrijhoogte is 4,8 meter. Voor een geladen autotransporter is dat een punt om te controleren als de rit via de Val d'Aran loopt."
+        },
+        {
+          "kind": "tip",
+          "title": "Tramontana in de Empordà",
+          "body": "De tramontana is een koude, turbulente wind uit het noorden die vooral in de winter voorkomt en bijzonder hevig is net onder de Franse grens. Episodes kunnen meerdere dagen duren. Een transporter met open laadvloer wacht dan soms een rustiger moment af."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Rijdt een autotransporter in Spanje ook op zondag?",
+          "a": "Meestal wel. Spanje kent geen algemeen zondagsverbod voor vrachtwagens op de wegen van de DGT, maar wel verboden per wegvak en uur. Raadpleeg de kalender van de resolutie voor de dag en de weg van uw rit."
+        },
+        {
+          "q": "Waarom is de rit uit Zwitserland moeilijker te plannen dan uit België?",
+          "a": "Omdat de rit begint in een land met een streng nacht- en zondagsverbod. Het eerste stuk beperkt de start, de rest bepaalt Frankrijk met zijn weekend. In Spanje zelf hangt het af van het wegvak."
+        },
+        {
+          "q": "Kan ik zelf iets doen om de rit sneller te laten verlopen?",
+          "a": "Zorg dat de wagen op een werkdag klaarstaat, met een toegankelijk adres en alle sleutels. Brengt u hem naar ons depot in Roeselare, dan kan dat op elk uur. Dat is voordeliger dan ophalen."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Spanje: vertrek rond Genève, het Franse weekendverbod en de Spaanse verboden per wegvak voor een dringende wagenrit.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Autobahn_A1_(Schweiz)",
+        "https://de.wikipedia.org/wiki/Glion-Tunnel",
+        "https://de.wikipedia.org/wiki/Autobahn_A9_(Schweiz)",
+        "https://de.wikipedia.org/wiki/Grosser-St.-Bernhard-Tunnel",
+        "https://en.wikipedia.org/wiki/La_Jonquera",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/estado-del-trafico/restricciones/2026/Resolucion-DGT_Medidas-circulacion-2026_ANEXO-II.pdf",
+        "https://transit.gencat.cat/ca/informacio-viaria/professionals-transport/mesures-especials/",
+        "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Viella",
+        "https://es.wikipedia.org/wiki/Tramontana"
+      ]
+    },
+    "zwitserland-italie": {
+      "lead": "Van Zwitserland naar Italië lijkt de weg kort: Chiasso ligt aan het eind van de A2. Maar de tunnel in het midden doseert het vrachtverkeer, de passen zijn in de winter dicht, en Italië heeft zelf een kalender met rijverboden. Wie een wagen dringend over de Alpen wil brengen, plant dus op de uren en dagen dat alle drie meewerken.",
+      "facts": [
+        {
+          "label": "Gotthardtunnel",
+          "value": "16,9 km, één buis, 80 km/u, inhaalverbod"
+        },
+        {
+          "label": "Doseersysteem",
+          "value": "Maximaal 150 vrachtwagens per uur, ongeveer 150 meter afstand"
+        },
+        {
+          "label": "Gotthardpas",
+          "value": "Gesloten van november tot mei, geen alternatief in de winter"
+        },
+        {
+          "label": "Italiaans verbod",
+          "value": "Zon- en feestdagen, in de zomer ook vrijdag en zaterdag"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De Gotthard doseert wie erdoor mag",
+          "body": [
+            "De Gotthard-wegtunnel op de A2 tussen Göschenen en Airolo heeft één buis met één rijstrook per richting, 80 kilometer per uur en een inhaalverbod. Sinds de brand in 2001 mogen maximaal 150 vrachtwagens per uur binnen. Het doseersysteem houdt ongeveer 150 meter afstand tussen vrachtwagens. Wachttijd vóór de tunnel is dus normaal, aan beide kanten.",
+            "In de winter is er geen alternatief: de Gotthardpas is dan van november tot mei gesloten. Een spoedrit die op de Gotthard rekent, moet de wachtrij in de planning opnemen. Dat geldt ook voor Pasen en de zomer, wanneer aan beide uiteinden vaak files staan."
+          ]
+        },
+        {
+          "heading": "Als de tunnel dicht is",
+          "body": [
+            "Is de Gotthardtunnel afgesloten, dan wijkt het verkeer uit. De San Bernardinoroute werd een ongeplande uitwijk, zoals in 2001 en 2006, maar ze is daar nooit voor ontworpen: steile hellingen en haarspeldbochten maken ze lastig voor vrachtwagens. Tussen Thusis en Mesocco is de A13 grotendeels een Autostrasse zonder middenberm. Een autotransporter met een volle laadvloer is daar geen goede keuze.",
+            "Voor wie liever naar het westen uitwijkt, zijn de Simplon en de Grote Sint-Bernhard de andere kruisingen. Die laatste tunnel krijgt elk najaar herstellingen, soms met nachtsluiting."
+          ]
+        },
+        {
+          "heading": "Sneeuwkettingen en banden",
+          "body": [
+            "Zwitserland heeft geen wettelijke winterbandenplicht, maar wie met zomerbanden een ongeval veroorzaakt, riskeert een boete en een lagere tussenkomst van de verzekeraar. Waar het bord Schneeketten obligatorisch staat, zijn kettingen verplicht op minstens twee wielen van de aangedreven as. Vierwielaangedreven wagens zijn alleen vrijgesteld met het onderbord 4×4 ausgenommen.",
+            "Spijkerbanden zijn van 1 november tot 30 april toegelaten, met maximaal 80 kilometer per uur, behalve op autosnelwegen en autowegen. Voor een spoedrit in de winter is dit een van de eerste dingen die de chauffeur controleert. Een geladen wagen op de transporter kan daarbij verlies van tempo betekenen."
+          ]
+        },
+        {
+          "heading": "Italië: eigen verboden, eigen uitzonderingen",
+          "body": [
+            "Italië legt elk jaar een kalender vast voor vrachtwagens boven 7,5 ton. In juli en augustus komen vrijdagen en zaterdagen bij, met een piek op 15 augustus van 7 tot 22 uur. Rond Pasen gelden extra verboden op Goede Vrijdag, paaszaterdag en de dinsdag na Pasen.",
+            "Voor ritten uit het buitenland geldt een afwijking: voertuigen die uit het buitenland komen, mogen met bewijs van herkomst vier uur later aan het verbod beginnen, en voor voertuigen met bestemming buitenland eindigt het verbod twee uur eerder. In Lombardije zijn de Splügenpas in de winter en Area C in Milaan beperkend voor wie daar moet leveren."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Axenstrasse langs de Urnersee",
+          "body": "De A4 eindigt als autosnelweg bij Brunnen. Daarna volgt de Axenstrasse langs de Urnersee naar Flüelen, een smalle weg die herhaaldelijk wordt afgesloten door steenslag en lawines. Voor wie van Zürich naar de Gotthard rijdt, is dat een zwak punt in de rit."
+        },
+        {
+          "kind": "plek",
+          "title": "Monte Ceneri",
+          "body": "De Monte Ceneri (554 meter) is de enige verbinding binnen Zwitserland tussen Noord- en Zuid-Ticino. De A2 loopt er sinds 1984 over. Een transporter die uit de Gotthard komt, rijdt hier verder naar Chiasso; wie een wagen in Ticino ophaalt, komt er altijd langs."
+        },
+        {
+          "kind": "regel",
+          "title": "Livigno als belastingvrije zone",
+          "body": "Livigno is een belastingvrije zone: er wordt geen Italiaanse btw geheven en wie naar de rest van Italië rijdt, passeert een douanecontrole van de Guardia di Finanza. De vallei is bereikbaar via de Foscagnopas, de Forcola di Livigno (enkel in de zomer) en de Munt la Schera-tunnel."
+        },
+        {
+          "kind": "regel",
+          "title": "Area C in Milaan",
+          "body": "Area C is op weekdagen overdag betalend voor elk voertuig, met 43 camerapoorten. Diesels tot en met Euro 3 en privévoertuigen langer dan 7 meter mogen er niet in. Een levering aan een adres in het centrum vraagt dus een andere oplossing dan een autotransporter."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een autotransporter de Gotthardtunnel nemen als het dringend is?",
+          "a": "Alleen binnen de dosering: maximaal 150 vrachtwagens per uur, en aan de ingang kan een wachtrij staan. Dringend telt niet als voorrang. In de winter is de pas gesloten, dus de tunnel is dan de enige route."
+        },
+        {
+          "q": "Wat als de tunnel dicht is?",
+          "a": "Dan kiest de chauffeur tussen San Bernardino, Simplon of Grote Sint-Bernhard, afhankelijk van sneeuw en tunnelwerken. De San Bernardinoroute is niet voor vrachtverkeer ontworpen, dus de keuze valt meestal op een andere pas."
+        },
+        {
+          "q": "Geldt het Italiaanse verbod ook voor een rit die in Zwitserland begint?",
+          "a": "Ja, zodra de transporter in Italië rijdt. Voor voertuigen uit het buitenland begint het verbod vier uur later, mits bewijs van herkomst. Controleer de kalender voor de dag waarop de rit Italië bereikt."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Italië: Gotthard met doseersysteem, uitwijkroutes, winterregels en Italiaanse rijverboden voor een dringende wagenrit.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://de.wikipedia.org/wiki/Gotthard-Strassentunnel",
+        "https://de.wikipedia.org/wiki/Gotthardpass",
+        "https://de.wikipedia.org/wiki/San-Bernardino-Tunnel",
+        "https://de.wikipedia.org/wiki/Autobahn_A13_(Schweiz)",
+        "https://de.wikipedia.org/wiki/Winterreifenpflicht",
+        "https://www.beobachter.ch/gesetze-recht/strassenverkehr/mussen-jetzt-die-winterreifen-drauf-641750",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://mit.gov.it/node/21641",
+        "https://de.wikipedia.org/wiki/Axenstrasse",
+        "https://de.wikipedia.org/wiki/Monte_Ceneri",
+        "https://en.wikipedia.org/wiki/Livigno",
+        "https://en.wikipedia.org/wiki/Milan_Area_C"
+      ]
+    },
+    "zwitserland-oostenrijk": {
+      "lead": "De rit van Zwitserland naar Oostenrijk is kort: via St. Margrethen over de Rijn en door Vorarlberg. Toch staan er een nachtverbod, een zaterdagverbod en een drukke grens tussen u en een snelle levering. Wie een wagen dringend naar Vorarlberg of Tirol wil laten brengen, leest hier waar de uren verloren gaan.",
+      "facts": [
+        {
+          "label": "Grensovergang",
+          "value": "St. Margrethen, vaak overbelast door ontbrekende snelwegverbinding"
+        },
+        {
+          "label": "Oostenrijks verbod",
+          "value": "Nacht 22 tot 5, zaterdag 15 tot 24, zondag 0 tot 22"
+        },
+        {
+          "label": "Arlbergtunnel",
+          "value": "Ongeveer 14 km, 80 km/u, hotspot-detector boven 3,5 ton"
+        },
+        {
+          "label": "Tol",
+          "value": "GO-Maut boven 3,5 ton, met GO-Box"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het Oostenrijkse zaterdagverbod komt erbij",
+          "body": [
+            "Oostenrijk verbiedt vrachtwagens boven 7,5 ton 's nachts van 22 tot 5 uur, op zaterdag van 15 tot 24 uur het hele jaar en op zon- en feestdagen van 0 tot 22 uur. Wie zaterdag na 15 uur Oostenrijk binnenrijdt, staat stil tot 5 uur op de volgende werkdag.",
+            "Dat verschilt met Zwitserland, waar zaterdag overdag wel een rijdag is. Een spoedrit uit Zwitserland moet dus zaterdagochtend vertrekken en vóór 15 uur ver genoeg zijn. De uitzonderingen op het weekendverbod vormen een gesloten lijst: autotransport staat niet in de door de WKO opgesomde selectie. Voor Vorarlberg zijn er bovendien extra corridorverboden op bepaalde zomerzaterdagen, onder meer op de A14."
+          ]
+        },
+        {
+          "heading": "St. Margrethen en de grens",
+          "body": [
+            "De grensdouane van St. Margrethen, richting Höchst en Bregenz, is vaak overbelast, onder meer omdat een autosnelwegverbinding met de Oostenrijkse A14 ontbreekt. In het dorp zitten logistieke bedrijven en een groot douanevrij entrepot.",
+            "Uit Zwitserland vertrekt de wagen formeel op een uitvoeraangifte. De eigenaar geeft hem aan bij een douanekantoor voor handelsgoederen, met inschrijvingsbewijs en identiteitsbewijs. Is er voorkeursinvoer in het bestemmingsland, dan moet het oorsprongsbewijs vóór de uitvoer worden opgemaakt. Mcars vervoert de wagen; de aangifte hoort bij de eigenaar of de expediteur."
+          ]
+        },
+        {
+          "heading": "Vorarlberg en de Arlberg",
+          "body": [
+            "De Zwitserse A13 loopt van St. Margrethen door de Rijnvallei naar Sargans en Chur. Aan Oostenrijkse kant loopt de A14 van Hörbranz via Bregenz, Dornbirn en Feldkirch naar Bludenz. Vrachtwagens betalen er overal tol.",
+            "Bij Bludenz gaat de A14 over in de Arlberg Schnellstraße. De Arlbergtunnel is ongeveer 14 kilometer lang, met een limiet van 80 kilometer per uur. Voertuigen boven 3,5 ton passeren aan beide ingangen een hotspot-detector en mogen bij te hete onderdelen niet door. Liechtenstein ligt tussen beide landen, heeft een douane-unie met Zwitserland en neemt deel aan Schengen."
+          ]
+        },
+        {
+          "heading": "Tirol: dosering en nachtverbod",
+          "body": [
+            "Wie verder naar Tirol moet, krijgt te maken met het nachtrijverbod op de A12 voor voertuigen boven 7,5 ton: in de zomer op werkdagen van 22 tot 5 uur, van 1 november tot 30 april al vanaf 20 uur. Op zon- en feestdagen is het van 23 tot 5 uur.",
+            "Bij Kufstein Nord worden vrachtwagens vanuit Duitsland op vooraf vastgelegde dagen gedoseerd doorgelaten. Dat raakt vooral wie via Beieren naar Tirol komt, niet de rit uit Zwitserland via Vorarlberg. Toch is het goed te weten: Tirol sluit in de winter, met Pinksteren en in de zomer het lagere wegennet af voor doorgaand verkeer dat een file wil ontwijken."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Arlbergtunnel",
+          "body": "De tunnel verbindt St. Anton in Tirol met Langen in Vorarlberg en is geopend sinds 1 december 1978. De tol wordt aan de oostzijde geïnd. Voertuigen boven 3,5 ton passeren aan beide ingangen een hotspot-detector, en wie te hete onderdelen heeft, mag niet door."
+        },
+        {
+          "kind": "regel",
+          "title": "Nachtrijverbod A12 in Tirol",
+          "body": "Op de A12 geldt voor voertuigen boven 7,5 ton van 1 mei tot 31 oktober op werkdagen een verbod van 22 tot 5 uur, en van 1 november tot 30 april al vanaf 20 uur. Euro VI-voertuigen zijn alleen onder voorwaarden uitgezonderd. Een late aankomst in Tirol is dus in de winter eerder onmogelijk dan in Vorarlberg."
+        },
+        {
+          "kind": "tip",
+          "title": "Geluidsarme vrachtwagen",
+          "body": "Een geluidsarme vrachtwagen is vrijgesteld van het nachtrijverbod als hij een attest van de constructeur aan boord heeft en een L-bord naast de voorste nummerplaat draagt. 's Nachts mag hij maximaal 60 kilometer per uur rijden. Vraag aan de transporteur of zijn voertuig zo'n attest heeft."
+        },
+        {
+          "kind": "plek",
+          "title": "Liechtenstein tussen beide landen",
+          "body": "Liechtenstein ligt tussen Zwitserland en Oostenrijk, heeft een douane-unie met Zwitserland en neemt deel aan Schengen en de EER zonder EU-lid te zijn. Een rit door het vorstendom heeft geen aparte aangifte nodig, maar de verbodsregels aan weerszijden blijven gelden."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan mijn wagen zaterdagavond nog in Oostenrijk aankomen?",
+          "a": "Alleen als de transporter vóór 15 uur binnen is en op zijn bestemming stopt. Daarna geldt het zaterdagverbod tot middernacht, en het nachtverbod loopt door tot 5 uur de volgende werkdag."
+        },
+        {
+          "q": "Moet ik de wagen in Zwitserland zelf uitvoeren?",
+          "a": "De eigenaar of een expediteur doet de uitvoeraangifte bij een douanekantoor voor handelsgoederen, met inschrijvingsbewijs en ID. Wij vervoeren de wagen, wij regelen de aangifte niet."
+        },
+        {
+          "q": "Waarom is een rit door Vorarlberg zo gevoelig voor files?",
+          "a": "Door de overbelaste grens bij St. Margrethen en het ontbreken van een snelwegverbinding met de A14. Daar komt de Arlberg bij, met zijn detector en snelheidslimiet van 80 kilometer per uur voor zwaar verkeer."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Oostenrijk: zaterdag- en nachtverbod, de grens bij St. Margrethen, de Arlberg en de regels in Vorarlberg en Tirol.",
+      "sources": [
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://www.wko.at/transport/lkw-fahrverbote-oesterreich-ueberblick",
+        "https://www.wko.at/tirol/verkehr-betriebsstandort/lkw-fahrverbote-a12-inntalautobahn-tirol",
+        "https://www.tirol.gv.at/verkehr/verkehrs-und-seilbahnrecht/lkw-dosierung/",
+        "https://www.tirol.gv.at/presse/meldungen/meldung/rund-411400-fahrzeuge-zurueckgewiesen/",
+        "https://de.wikipedia.org/wiki/St._Margrethen",
+        "https://en.wikipedia.org/wiki/A13_motorway_(Switzerland)",
+        "https://de.wikipedia.org/wiki/Rheintal/Walgau_Autobahn",
+        "https://en.wikipedia.org/wiki/Arlberg_Road_Tunnel",
+        "https://www.bazg.admin.ch/de/ausfuhr-fahrzeuge-schweiz",
+        "https://en.wikipedia.org/wiki/Liechtenstein"
+      ]
+    },
+    "zwitserland-polen": {
+      "lead": "Er is geen rechtstreekse weg van Zwitserland naar Polen: de rit loopt bijna volledig door Duitsland, van Basel via Frankfurt en Dresden naar de Poolse grens. Dat betekent drie verbodskalenders achter elkaar: Zwitserland, Duitsland en Polen. Een spoedrit naar Wrocław of Katowice vraagt daarom een planning die uren en dagen van alle drie in rekening brengt.",
+      "facts": [
+        {
+          "label": "Gebruikelijke as",
+          "value": "A5 naar Frankfurt, dan A4 via Eisenach, Erfurt en Dresden"
+        },
+        {
+          "label": "Poolse grens",
+          "value": "Jędrzychowice, waar de Poolse A4 begint"
+        },
+        {
+          "label": "Pools verbod",
+          "value": "Boven 12 ton op feestdagen en vooravonden"
+        },
+        {
+          "label": "Duitse tol",
+          "value": "Boven 3,5 ton op bijna alle autosnelwegen, met CO2-toeslag"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Drie landen, drie verbodskalenders",
+          "body": [
+            "Zwitserland laat zwaar verkeer op zondag en 's nachts niet toe. Wie zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder. Duitsland verbiedt vrachtwagens boven 7,5 ton en vrachtwagens met aanhanger op zon- en feestdagen van 0 tot 22 uur, en in de zomer op zaterdagen van 7 tot 20 uur op 32 trajecten.",
+            "Polen kent een verbod voor vrachtwagens boven 12 ton op twaalf feestdagen van 8 tot 22 uur, en op de vooravond van de meeste feestdagen al van 18 tot 22 uur. In de zomer komen er vrijdagen, zaterdagen en zondagen bij. Het Poolse verbod gaat dus later in dan het Duitse, maar eindigt op dezelfde tijd."
+          ]
+        },
+        {
+          "heading": "De weg: Basel, Frankfurt, Dresden",
+          "body": [
+            "De Duitse A5 loopt langs Karlsruhe en Frankfurt, waar het Frankfurter Kreuz de A3 kruist. Daar neemt de A4 het over via Eisenach, Erfurt en Dresden naar Görlitz. Wie via Berlijn rijdt, neemt de A12 naar de Poolse A2.",
+            "De Poolse A4 begint bij Jędrzychowice, bij de overgang met Ludwigsdorf, en loopt via Wrocław en Katowice naar Kraków. Kort na de grens tot Katowice geldt e-TOLL. Voor de Duitse stukken geldt de vrachtwagentol op alle Bundesstraßen en vrijwel alle autosnelwegen, met een CO2-toeslag."
+          ]
+        },
+        {
+          "heading": "Uitvoer uit Zwitserland, grenscontroles in Polen",
+          "body": [
+            "Zwitserland is geen EU-lid, dus de wagen moet formeel worden uitgevoerd. De eigenaar geeft hem aan bij een douanekantoor voor handelsgoederen met een e-dec-uitvoeraangifte, het inschrijvingsbewijs (ook als het geschrapt is) en een identiteitsbewijs. Uitrijden kan op uitvoerplaten of op een ander voertuig, zoals een autotransporter.",
+            "Polen voert tijdelijke grenscontroles uit aan de grens met Duitsland. Aan de A12 voor Świecko ontstaan daardoor lange files die vooral het vrachtverkeer raken. Spoed over deze grens blijft daardoor moeilijk te plannen, en de Poolse grenswacht vraagt de papieren van wagen en chauffeur."
+          ]
+        },
+        {
+          "heading": "Aankomst in Neder-Silezië en daarbuiten",
+          "body": [
+            "De dichtstbijzijnde Poolse regio voor een rit via Dresden is Neder-Silezië, met Wrocław. De A4 loopt van de grens bij Jędrzychowice via Wrocław, Opole, Gliwice en Katowice naar Kraków. De ring van Wrocław (22,7 kilometer) hoort bij de S8-corridor maar is aangelegd als autosnelweg, A8.",
+            "Valt een feestdag in de zomerperiode, zoals 15 augustus, dan geldt die dag het feestdagverbod van 8 tot 22 uur in plaats van de zomerregeling. Driekoningen en Kerstavond zijn vrije dagen zonder vrachtwagenverbod, maar loketten en bedrijven zijn dan dicht. Valt een feestdag op zaterdag, dan geven werknemers recht op een andere vrije dag, en bedrijven kunnen een extra dag dicht blijven."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Nordumfahrung Zürich",
+          "body": "De Nordumfahrung (A1/A4, 11,6 kilometer) is een van de drukste snelwegstukken van Zwitserland, met meer dan 100.000 voertuigen per dag. Ze wordt van vier naar zes rijstroken verbreed. Wie in Zürich laadt voor een rit naar Polen, rekent op vertraging op weg naar Schaffhausen."
+        },
+        {
+          "kind": "plek",
+          "title": "Rosówek bij Szczecin",
+          "body": "Polen controleert aan 50 plaatsen aan de Duitse grens, waaronder Rosówek (DK13) bij Szczecin. Voor een rit via Berlijn naar het noorden kan dat de gekozen grensovergang beïnvloeden. Houd de papieren van wagen en chauffeur bij de hand."
+        },
+        {
+          "kind": "regel",
+          "title": "Warschau en de C16-identificator",
+          "body": "In Warschau geldt een verbod voor vrachtwagens boven 16 ton van 7 tot 10 uur en van 16 tot 20 uur. Wie in die uren moet leveren, heeft een C16-identificator van de stedelijke wegbeheerder nodig. Voor transitverkeer geldt het verbod de klok rond."
+        },
+        {
+          "kind": "tip",
+          "title": "S3 naar Tsjechië bij Lubawka",
+          "body": "Het S3-stuk van Kamienna Góra naar de Tsjechische grens bij Lubawka is open, maar de laatste drie kilometer blijven dicht tot de aansluitende Tsjechische D11 klaar is. Voor een rit naar Neder-Silezië is dat geen route, wel een omweg die u beter vermijdt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang is de rit van Zwitserland naar Polen realistisch?",
+          "a": "Dat hangt af van de dag. Wie in het weekend vertrekt, staat in Zwitserland en Duitsland stil op zondag. Op werkdagen valt de rit uiteen in rijdagen met pauzes. Een uur kunnen wij niet beloven."
+        },
+        {
+          "q": "Moet ik zelf iets aan de douane doorgeven bij uitvoer uit Zwitserland?",
+          "a": "Ja. De uitvoeraangifte via e-dec is een taak van de eigenaar of zijn expediteur. Wij vervoeren de wagen en regelen die aangifte niet."
+        },
+        {
+          "q": "Wat gebeurt er aan de Poolse grens met Duitsland?",
+          "a": "Polen voert tijdelijke grenscontroles uit, wat bij de overgangen tot lange files leidt. Een transporter met papieren in orde komt er door, maar de planning moet extra marge hebben."
+        }
+      ],
+      "seoDescription": "Spoedtransport van Zwitserland naar Polen: rijverboden in drie landen, de weg via Frankfurt en Dresden, uitvoer uit Zwitserland en de Poolse grenscontroles.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=PL",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.bazg.admin.ch/de/ausfuhr-fahrzeuge-schweiz",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://motoryzacja.interia.pl/wiadomosci/news-kontrole-na-granicy-z-niemcami-zostaja-ministerstwo-podalo-n,nId,23541179",
+        "https://warszawa19115.pl/-/identyfikator-c16",
+        "https://de.wikipedia.org/wiki/Nordumfahrung_Zürich"
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sub": "Uw wagen uit Duitsland naar België op een open autotransporter, bij ophaling gecontroleerd en gefotografeerd, bij levering netjes afgezet.",
+  "problem": {
+    "title": "Uw wagen staat in Duitsland, maar u woont in België",
+    "body": "Misschien hebt u een wagen gekocht bij een Duitse garage, of u komt terug van een uitzending en de wagen staat er nog. Een wagen ophalen over die afstand kost u een dag of meer, plus een trein of vlucht ernaartoe. Eenmaal in België heeft de wagen een Belgische plaat nodig voor de openbare weg. Het is dan fijn als hij gewoon voor uw deur staat.",
+    "situations": [
+      { "title": "Gekocht in Duitsland", "body": "Het aanbod in Duitsland is groot en u vond daar precies uw model. Wij halen de wagen bij de verkoper op en brengen hem naar u." },
+      { "title": "Terug uit Duitsland", "body": "Uw job daar is afgelopen en u keert terug. De wagen komt mee op de transporter, zodat u niet nog eens moet rijden." },
+      { "title": "Wagen van een familielid", "body": "Een erfenis of een schenking in Duitsland. Wij vervoeren de wagen naar uw adres, zonder dat u zelf de reis moet doen." }
+    ]
+  },
+  "solution": {
+    "title": "Wij halen de wagen in Duitsland en leveren hem in België af",
+    "body": "Vraag een offerte aan en u krijgt binnen vierentwintig uur antwoord van een vast aanspreekpunt. Daarna spreken we de ophaaldag af met de verkoper of met u. De chauffeur inspecteert de wagen, maakt foto's en tekent de CMR. Hij laadt hem op een open, meerlaagse transporter en rijdt naar België. Hij belt u op de dag zelf over de aankomst en zet de wagen af op uw adres of op ons depot in Roeselare."
+  },
+  "usps": [
+    { "title": "Ophaling bij de verkoper", "body": "Wij spreken rechtstreeks met de garage of de privéverkoper in Duitsland af. U hoeft zelf niet mee te reizen." },
+    { "title": "Eén aanspreekpunt", "body": "Dezelfde persoon volgt uw aanvraag op van begin tot einde. Nederlands of Frans, u kiest de taal waarin we praten." },
+    { "title": "Staat vastgelegd", "body": "Bij ophaling gebeurt een inspectie met foto's en een getekende CMR. Zo is er geen discussie over de staat bij aankomst." },
+    { "title": "Levering ook op het depot", "body": "Wilt u de wagen liever zelf komen halen? In Roeselare kan dat op elk uur, zonder extra afspraak met ons kantoor." }
+  ],
+  "steps": [
+    { "title": "Offerte aanvragen", "body": "Geef ons het adres van de verkoper in Duitsland en uw afleveradres in België. Binnen vierentwintig uur volgt ons voorstel." },
+    { "title": "Ophaalmoment afspreken", "body": "We stemmen de dag af met de verkoper en met u. Zo staat de wagen klaar als de chauffeur aankomt." },
+    { "title": "Laden met CMR", "body": "Bij het laden controleert de chauffeur de wagen, maakt foto's en tekent de CMR-vrachtbrief. Dat is onze vaste werkwijze." },
+    { "title": "Aflevering in België", "body": "De chauffeur belt vooraf en rijdt naar uw adres of naar ons depot. Daar neemt u de wagen in ontvangst." }
+  ],
+  "care": {
+    "title": "Het transport is volledig vastgelegd, ook de CMR",
+    "body": "Een wagen die u niet hebt zien laden, wilt u bij aankomst kunnen vergelijken. Daarom maken we bij de ophaling een inspectie en foto's die wij intern bewaren, en tekenen we de CMR-vrachtbrief. Uw wagen is verzekerd zolang hij bij ons is. Voor de inschrijving in België, de verzekering van de nieuwe plaat of de keuring zorgt u zelf, of een garage of dealer. Wij vervoeren de wagen.",
+    "items": ["Inspectie bij de ophaling", "Foto's van elke zijde", "CMR-vrachtbrief ondertekend door beiden", "Verzekerd tijdens het transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Duitsland naar België",
+    "body": "Wij zitten in Roeselare, aan de Belgische kant van de route, en kennen de aflevering hier tot op de straat. In Duitsland halen we wagens op in het Rijnland en in Beieren, en bij garages in het hele land. Onze acht vaste chauffeurs zijn vertrouwd met afspraken met verkopers, ook als die enkel Duits spreken.",
+    "regions": ["Noordrijn-Westfalen", "Beieren", "Nedersaksen", "Baden-Württemberg", "Hessen"]
+  },
+  "faq": [
+    { "q": "Wat heb ik nodig om de wagen in België te laten inschrijven?", "a": "Als nieuwe wagen moet u hem laten inschrijven en een Belgische plaat aanvragen. Mcars doet dat niet, dus vraag het aan uw verzekeraar of dealer. De DIV levert de achterplaat." },
+    { "q": "Moet ik zelf naar Duitsland reizen?", "a": "Nee. Wij spreken met de verkoper af en halen de wagen op. U hoeft er niet bij te zijn, als de verkoper de sleutels en papieren meegeeft." },
+    { "q": "Kan een wagen die niet start ook mee?", "a": "Ja, elke vrachtwagen heeft een lier. Is de wagen volledig geblokkeerd, dan is er een heftruck ter plaatse nodig. Meld dat vooraf bij uw aanvraag." },
+    { "q": "Wanneer betaal ik?", "a": "Particulieren betalen vóór de ophaling. Eerst krijgt u een offerte op maat, die u rustig kunt bekijken voor u iets beslist." }
+  ],
+  "pillars": {
+    "betrouwbaar": "U kunt op ons rekenen: wat we beloven voor uw wagen uit Duitsland, doen we, met dezelfde chauffeurs als altijd.",
+    "snel": "Uw ophaling in Duitsland wordt snel ingepland en uw wagen staat vlot weer in België.",
+    "volgbaar": "Via track en trace volgt u de wagen op weg naar huis, en de chauffeur belt vooraf zelf aan.",
+    "verzekerd": "Vanaf het moment van laden is uw wagen verzekerd, en de CMR-vrachtbrief hoort bij elke overdracht."
+  },
+  "reasons": [
+    { "title": "Jarenlange routine", "body": "Wij rijden al jaren op en neer tussen Duitsland en België en weten waar het bij ophalingen op aankomt." },
+    { "title": "Echte passie", "body": "Het blijft ons vak en onze hobby: een mooie wagen verdient een zorgvuldige hand, ook als hij uit het buitenland komt." },
+    { "title": "Ritten bij de vleet", "body": "Honderden ritten later gebeurt er weinig dat we niet eerder zagen, en dat merkt u aan een rustig verloop." },
+    { "title": "Onze eigen mensen", "body": "Wij werken niet met tussenpersonen. Een eigen vaste chauffeur haalt uw wagen op en levert hem af." },
+    { "title": "Voor elke wagen een plek", "body": "Of het nu een gezinswagen, een sportwagen of een oldtimer is, onze transporters hebben er ruimte voor." },
+    { "title": "Meegaan met de tijd", "body": "We zoeken voortdurend naar betere manieren van werken, zodat uw aankoop sneller en beter opgevolgd thuiskomt." }
+  ],
+  "seoDescription": "Auto uit Duitsland naar België laten vervoeren als particulier. Open autotransporter, CMR en verzekerd. Vraag een offerte, antwoord binnen 24 uur."
+}

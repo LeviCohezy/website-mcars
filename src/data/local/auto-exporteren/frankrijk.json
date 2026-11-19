@@ -1,0 +1,1064 @@
+{
+  "service": "auto-exporteren",
+  "origin": "frankrijk",
+  "pages": {
+    "frankrijk": {
+      "lead": "U hebt uw wagen in Frankrijk verkocht aan een koper in het buitenland, en nu moet hij nog naar zijn nieuwe eigenaar geraken. Met de Franse carte grise alleen rijdt die koper niet vrij door Europa, want de afscheurbare strook geldt enkel in Frankrijk. Wie de wagen laat vervoeren, omzeilt dat probleem. Mcars haalt elke week wagens op over heel Frankrijk, bij particulieren, garages en stockageparken.",
+      "facts": [
+        {
+          "label": "Aangifte ANTS",
+          "value": "Binnen vijftien dagen na het tekenen van het certificat de cession"
+        },
+        {
+          "label": "Formulier",
+          "value": "Cerfa 15776, in twee exemplaren getekend door beide partijen"
+        },
+        {
+          "label": "Rijverbod vrachtwagens",
+          "value": "Boven 7,5 ton: za 22 uur tot zo 22 uur"
+        },
+        {
+          "label": "Strook carte grise",
+          "value": "Één maand rijden in Frankrijk, nooit in het buitenland"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat u als Franse verkoper zelf regelt",
+          "body": [
+            "Bij een verkoop naar het buitenland ligt de Franse administratie bij u als verkoper. U tekent samen met de koper het certificat de cession, formulier cerfa 15776, in twee exemplaren. Daarna meldt u de overdracht bij de ANTS, binnen vijftien dagen na het tekenen. Ook als de koper in het buitenland woont, vult u zijn gegevens in.",
+            "Na de aangifte krijgt u een code de cession die vijftien dagen geldig is. Die code geeft u door aan de koper. Alleen de persoon op wiens naam de carte grise staat, mag verkopen. Staan er meerdere eigenaars op, dan tekenen ze allemaal. Bent u ondertussen verhuisd, dan past u eerst het adres aan."
+          ]
+        },
+        {
+          "heading": "Wat de koper in zijn eigen land nodig heeft",
+          "body": [
+            "De buitenlandse koper schrijft de wagen in zijn land van verblijf in. Wat zijn inschrijvingsdienst precies vraagt, verschilt van land tot land, en soms komen er douaneformaliteiten bij. Vraag hem dus vóór de verkoop welke papieren hij daar moet voorleggen.",
+            "Een nuttig stuk is het Europees certificaat van overeenstemming, dat u bij de merkdealer opvraagt. Spreek ook af wie het volledige dossier bij de wagen steekt, zodat de papieren samen met de auto op het afleveradres aankomen. Mcars vervoert de wagen en regelt die papieren niet, maar een compleet dossier voorkomt dat de koper een tweede keer moet wachten."
+          ]
+        },
+        {
+          "heading": "Waarom de koper er niet zomaar mee wegrijdt",
+          "body": [
+            "Op de carte grise schrijft de verkoper onuitwisbaar 'vendu le', met datum en uur van de overdracht en zijn handtekening. Het volledige document gaat mee met de koper. De afscheurbare strook laat hem één maand in Frankrijk rijden, maar geeft geen recht om in het buitenland te rijden.",
+            "Daarom laten veel kopers uit het buitenland hun wagen liever brengen. Het gaat om een rit van honderden kilometers met een wagen waarvan de papieren net veranderd zijn. Op een open, meerlaagse autotransporter van Mcars wordt de wagen geladen zonder dat de koper zelf moet rijden. Bij de ophaling maken we een inspectie, foto's voor intern gebruik en een CMR-vrachtbrief, en de wagen is verzekerd tijdens het transport."
+          ]
+        },
+        {
+          "heading": "Weekend en feestdagen: wanneer een vrachtwagen stilstaat",
+          "body": [
+            "In Frankrijk mogen voertuigen en combinaties van meer dan 7,5 ton voor goederenvervoer op het hele wegennet niet rijden van zaterdag 22 uur tot zondag 22 uur. Ook een autotransporter staat dus in het weekend stil. Heeft uw koper haast om de wagen 'dit weekend' te hebben, schuif de ophaling dan naar vrijdag of naar maandag.",
+            "Frankrijk telt elf wettelijke feestdagen: 1 januari, paasmaandag, 1 mei, 8 mei, Hemelvaart, pinkstermaandag, 14 juli, 15 augustus, 1 november, 11 november en 25 december. Spreek ophalingen rond die dagen tijdig af en controleer samen met de verkoper of de wagen dan beschikbaar is. Levering op ons depot in Roeselare kan wel 24/7 en is voordeliger."
+          ]
+        },
+        {
+          "heading": "Tol en knooppunten op de weg naar de grens",
+          "body": [
+            "Tol op de Franse snelwegen wordt per traject berekend en hangt af van de voertuigklasse. Er zijn vijf klassen. Een vrachtwagen of combinatie met drie of meer assen, 3 m of hoger of met een trekkend voertuig boven 3,5 ton valt in klasse 4. Voor zware voertuigen telt ook de emissieklasse mee. Ongeveer 9.200 km snelweg is in concessie gegeven, en de tarieven worden elk jaar op 1 februari herzien.",
+            "Bij Beaune komen de A6, de A31 uit Luxemburg en Metz en de aansluiting naar de A36 richting Besançon en Mulhouse samen. Wie uit België via Luxemburg naar het zuiden rijdt, komt hier op de A6. Voor wagens uit het midden van Frankrijk is dat knooppunt vaak de plek waar de rit naar het oosten of zuiden zich bepaalt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Keuring bij verkoop aan een particulier",
+          "body": "Bij verkoop aan een particulier van een wagen die ouder is dan vier jaar hoort een Frans keuringsverslag van minder dan zes maanden oud. Vraag bij uw verkoop na of dit voor uw koper geldt en regel het vóór de ophaling, zodat de wagen met een volledig dossier vertrekt."
+        },
+        {
+          "kind": "regel",
+          "title": "Extra feestdagen in Alsace-Moselle",
+          "body": "In Alsace-Moselle komen Goede Vrijdag, in bepaalde gemeenten, en 26 december bovenop de elf nationale feestdagen. Haalt u een wagen op in de Elzas of in Moezel, kijk dan na of de gekozen dag daar een feestdag is."
+        },
+        {
+          "kind": "plek",
+          "title": "Calais, Duinkerke en de Kanaaltunnel",
+          "body": "De Franse terminal van de Kanaaltunnel ligt in Coquelles, bereikbaar via afrit 42 van de A16. Afrit 47 leidt naar de haven van Calais, de afritten 57 en 58 naar Duinkerke. Het is de streek waar de rit van Frankrijk naar België het kortst is."
+        },
+        {
+          "kind": "tip",
+          "title": "Verwittig uw verzekeraar",
+          "body": "De verkoper verwittigt ook zijn verzekeraar van de overdracht, zodat het contract stopt. Doe dat bij het tekenen van de verkoop en niet pas wanneer de transporteur komt, want vanaf dan staat de wagen op naam van de koper."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik de app Simplimmat gebruiken als de koper in het buitenland woont?",
+          "a": "Nee. Simplimmat werkt enkel als verkoper én koper in Frankrijk wonen. Bij een verkoop naar het buitenland doet u de aangifte via de ANTS-site of via een erkende professional, zoals een garage. De gegevens van de buitenlandse koper moeten daarbij ingevuld worden."
+        },
+        {
+          "q": "Wat is een certificat de situation administrative en hoe oud mag het zijn?",
+          "a": "Het toont of er een pand of een verzet tegen overdracht op de wagen rust. De verkoper bezorgt de koper zo'n attest dat minder dan vijftien dagen oud is. Vraag het dus pas aan wanneer de verkoop vaststaat, zodat het nog geldig is als de koper zijn dossier indient."
+        },
+        {
+          "q": "Kan een wagen in de winter in de bergen worden opgehaald?",
+          "a": "Ja, maar van 1 november tot 31 maart geldt in aangeduide gemeenten van 34 departementen in de bergmassieven winteruitrusting. Vrachtwagens met aanhangwagen of oplegger moeten daar altijd kettingen aan boord hebben, ook met winterbanden. De prefect legt per gemeente vast waar dat geldt."
+        }
+      ],
+      "seoDescription": "Auto exporteren vanuit Frankrijk: wat de verkoper bij de ANTS regelt, wat de koper nodig heeft en hoe Mcars de wagen over de grens vervoert.",
+      "sources": [
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F1707",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+        "https://www.vinci-autoroutes.com/fr/classes-vehicules",
+        "https://www.ecologie.gouv.fr/politiques-publiques/peages-autoroutes-francaises",
+        "https://www.service-public.gouv.fr/particuliers/actualites/A14389",
+        "https://fr.wikipedia.org/wiki/Autoroute_A16_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)"
+      ]
+    },
+    "frankrijk-belgie": {
+      "lead": "Een wagen in Frankrijk verkopen en hem in België laten afleveren lijkt een korte rit, want bij Rijsel ligt de grens vlakbij. Toch krijgt u onderweg te maken met drukke stadsdoorgangen, Franse rijverboden en een Belgische afleverplek die niet altijd naast de snelweg ligt. Mcars rijdt dagelijks in België en elke week over heel Frankrijk, dus beide uiteinden van deze rit zijn voor ons gewone routes.",
+      "facts": [
+        {
+          "label": "Hoofdas",
+          "value": "E42: Franse A27 naar de grens bij Baisieux, dan Belgische A8"
+        },
+        {
+          "label": "Parijs naar Rijsel",
+          "value": "A1, 211 km, tolweg van SANEF met twee tolpoorten"
+        },
+        {
+          "label": "Rond Parijs",
+          "value": "Extra rijverboden voor vrachtwagens op A6, A10 en A13"
+        },
+        {
+          "label": "Belgisch deel",
+          "value": "Kilometerheffing van Viapass voor zware voertuigen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Rijsel: bochten en spitsuren",
+          "body": [
+            "De meeste wagens die van Noord-Frankrijk naar België gaan, rijden via Rijsel. De E42 loopt daar over de Franse A27 naar de grens bij Baisieux, waar ze aansluit op de Belgische A8. De A27 is kort en tolvrij, maar vlak bij Rijsel zijn er scherpe bochten, flitspalen en onvermijdelijke rijstrookwissels voor verkeer dat westwaarts rijdt.",
+            "Op de Franse A25/A27-sectie zit regelmatig spitsvertraging. Een ophaling bij een garage of particulier in de Rijselse regio plant u dus best buiten de ochtend- en avondspits, zodat de transporter niet vastzit op het laatste stuk voor de grens. Veel mensen wonen aan de ene kant van deze grens en werken aan de andere, waardoor het verkeer in beide richtingen een vaste ritmiek heeft."
+          ]
+        },
+        {
+          "heading": "Van Parijs naar het noorden: de A1",
+          "body": [
+            "Staat de wagen rond Parijs, dan loopt de rit over de Franse A1 naar Rijsel. Die weg is 211 km lang, wordt beheerd door SANEF en heet de drukste autoroute van Frankrijk. Er zijn twee tolpoorten: Chamant bij Senlis en Fresnes-lès-Montauban.",
+            "Ongeveer 137 km van Parijs, bij het knooppunt met de A2, splitst de E19 naar Brussel af van de E15, die over de A1 naar Rijsel gaat. Voor een Belgische koper in het Brusselse of Vlaams-Brabantse valt de keuze dus al ruim voor Rijsel. De A22 bij Rijsel leidt naar Gent en sluit op de A27 richting Brussel aan. Vertelt u ons waar de koper woont, dan kiezen we de aansluiting die het dichtst bij het afleveradres uitkomt."
+          ]
+        },
+        {
+          "heading": "Rijverboden voor ritten richting België",
+          "body": [
+            "Rond Parijs gelden op de A6, de A10 en de A13 extra verboden voor vrachtwagens: vrijdag van 16 tot 21 uur, zaterdag van 10 tot 18 uur en op zondagen en feestdagen van 22 tot 24 uur. Wie vrijdagnamiddag een wagen in de Parijse regio laat ophalen, loopt dus tegen een ander venster aan dan de rest van Frankrijk.",
+            "Vrijstellingen van het Franse verbod bestaan voor bederfelijke levensmiddelen, levende dieren en hulpdiensten, maar niet voor autotransport. In de zomer kunnen er bijkomende zaterdagverboden gelden, met de officiële kalender op Bison Futé. Voor een koper in België is de eenvoudigste oplossing een ophaling in het begin van de week, met aflevering op ons depot in Roeselare als u het voordeliger wilt houden."
+          ]
+        },
+        {
+          "heading": "Aankomst in West-Vlaanderen",
+          "body": [
+            "De Belgische kant van de grens ligt voor Mcars thuis. De E17/A14 eindigt bij Rekkem aan de Franse grens en sluit daar aan op de Franse A22. Vlak bij de grens telt de weg nog maar twee rijstroken per richting, wat bij drukte vertraging geeft.",
+            "Voor een koper in Kortrijk, Roeselare of de rest van West-Vlaanderen is deze rit een van onze meest rechte lijnen: Rijsel, de grens, en daarna het Belgische net. Levering op het depot in Roeselare, Moorseelsesteenweg 16B, kan 24/7. Is het afleveradres een thuisadres of een garage, dan rijden onze Nederlands- en Franstalige chauffeurs er rechtstreeks naartoe en laden de wagen af met de lier of, bij een geblokkeerde wagen, met een heftruck ter plaatse."
+          ]
+        },
+        {
+          "heading": "Naar de Ardennen en Namen via Couvin",
+          "body": [
+            "Ligt het afleveradres in de Ardennen of rond Namen, dan loopt de rit niet langer over Rijsel. De N5/E420 kreeg bij Couvin in de provincie Namen een omleiding in snelwegprofiel. Aan de grens sluit ze aan op de Franse A304 richting Charleville-Mézières.",
+            "De A54 maakt deel uit van de E420 tussen Nijvel en Reims, en die verbinding werd belangrijker toen de nieuwe Belgische en Franse stukken tussen Couvin en Reims opengingen. Een wagen uit de Champagne of de Franse Ardennen hoeft dus niet eerst naar Rijsel om in Namen of Charleroi te geraken. Dat scheelt kilometers en laat ons toe de ophalingen in Noordoost-Frankrijk te bundelen met rijden naar Wallonië."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "A22 tussen Rijsel en Neuville-en-Ferrain",
+          "body": "De A22 is het korte, tolvrije stuk snelweg van Rijsel naar de grens bij Neuville-en-Ferrain. Over de grens gaat hij verder als de Belgische A14 richting Kortrijk en Gent. De weg is stedelijk en in de spits druk, dus plan een ophaling in Rijsel niet in dat tijdvak."
+        },
+        {
+          "kind": "plek",
+          "title": "A27 naar Doornik en Brussel",
+          "body": "De A27 verbindt Rijsel over 13 km en tolvrij met de grens bij Camphin-en-Pévèle en gaat daar over in de Belgische A8 richting Doornik en Brussel. Voor een Brusselse koper is dit de logische weg wanneer de wagen vlak bij Rijsel staat."
+        },
+        {
+          "kind": "regel",
+          "title": "Viapass op het Belgische deel",
+          "body": "Op het Belgische deel van de rit geldt de kilometerheffing van Viapass voor zware voertuigen, met de CO2-klasse in het boordtoestel. Frankrijk heft daarentegen aan tolpoorten zoals Chamant en Fresnes-lès-Montauban. Het verschil verklaart waarom dezelfde afstand aan beide kanten anders wordt afgerekend."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzones blijven bestaan",
+          "body": "De Franse milieuzones, de zones à faibles émissions, blijven bestaan. Het parlement schrapte ze in april 2026, maar de Conseil constitutionnel vernietigde die schrapping. Een oudere wagen die in een grootstad wordt opgehaald, kan dus beperkingen kennen. Kijk de actuele stand van de gemeente na."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft een autotransporter vrijstelling van het Franse weekendverbod?",
+          "a": "Nee. Vrijstellingen gelden voor bederfelijke levensmiddelen en levende dieren, voor gevaarlijke goederen in bepaalde gevallen en voor hulpdiensten. Autotransport staat niet op die lijst. Individuele vergunningen kunnen bij de regionale overheid worden aangevraagd, maar daar rekent een planning best niet op."
+        },
+        {
+          "q": "Welke grensovergangen gebruikt een wagen voor een koper in Henegouwen?",
+          "a": "Voor Doornik en Brussel loopt de rit via de Belgische A8 bij Lamain en Blandain, die aansluit op de Franse A27. Voor Bergen en de Centrumregio is de E19/A7 bij Hensies de logische ingang, waar ze overgaat in de Franse A2 richting Valenciennes."
+        },
+        {
+          "q": "Wat moet er in een wagen aanwezig zijn als hij nog in Frankrijk rijdt?",
+          "a": "In elke wagen die in Frankrijk rijdt, moeten een fluohesje met CE-markering binnen handbereik en een gehomologeerde gevarendriehoek liggen. Dat geldt ook voor buitenlandse voertuigen. Laat beide dus in de wagen liggen en haal ze niet uit voor de verkoop."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar België: ophaling rond Rijsel of Parijs, rijverboden, Belgische afleverplek en Mcars als vervoerder via de E42 en A1.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E42",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://fr.wikipedia.org/wiki/Autoroute_A22_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A27_(France)",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://nl.wikipedia.org/wiki/A14_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/N5_%28Belgi%C3%AB%29",
+        "https://www.banquedesterritoires.fr/loi-de-simplification-les-zfe-remises-en-piste-apres-la-decision-du-conseil-constitutionnel",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F19459"
+      ]
+    },
+    "frankrijk-nederland": {
+      "lead": "Een Nederlandse koper van een Franse wagen krijgt de auto bijna altijd via België binnen. Tussen het Franse ophaaladres en de eerste Nederlandse afrit ligt een lange as met drie landen, twee ringwegen en een stevig stuk Belgisch wegennet. Wie de wagen laat vervoeren, hoeft zelf geen kilometers te maken en kan zich voorbereiden op de inschrijving bij de RDW.",
+      "facts": [
+        {
+          "label": "Hoofdas",
+          "value": "E19: Parijs, Brussel, Antwerpen, Breda, ongeveer 551 km"
+        },
+        {
+          "label": "Doorgang",
+          "value": "België is transitland: A1, R1, R0 en A7"
+        },
+        {
+          "label": "Nederlandse inschrijving",
+          "value": "RDW-keuring, bpm-aangifte, Nederlands kentekenbewijs en platen"
+        },
+        {
+          "label": "Grensovergangen",
+          "value": "Hazeldonk (A16), Zandvliet (A4) en Zelzate (N62)"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Lille en Parijs",
+          "body": [
+            "Bij Rijsel sluiten de A22 richting Gent en de A27 richting Brussel aan op het Franse net, en de A2 loopt naar Brussel, Luik en Bergen. Voor een wagen die Noord-Frankrijk verlaat richting Nederland is dat de poort naar het noorden. Wie in de Parijse regio woont, rijdt het grootste deel van de route over de A1.",
+            "Mcars rijdt elke week over heel Frankrijk, dus ook een adres buiten de grote steden valt in onze lopende rondes. Bij ophaling controleert de chauffeur de wagen, maakt foto's voor intern gebruik en stelt de CMR-vrachtbrief op. Op de rit zelf is de wagen verzekerd."
+          ]
+        },
+        {
+          "heading": "De E19: Parijs naar Amsterdam",
+          "body": [
+            "De E19 tussen Amsterdam en Parijs is 551 km lang en wordt in het artikel dat we raadpleegden de drukste weg van Europa genoemd. In Nederland loopt hij over de A4, A13, A20 en A16 tussen Rotterdam, Breda en de grens. In België volgt hij de A1, de R1 rond Antwerpen, de R0 rond Brussel en de A7. In Frankrijk gebruikt hij de A2 en de A1.",
+            "Voor ons betekent dat: lange stukken op zware assen, ringwegen die in de spits dichtslibben en veel vrachtverkeer. Daarom bouwen we de rit zo op dat de ringen rond Antwerpen en Brussel niet op het slechtste uur gepasseerd worden."
+          ]
+        },
+        {
+          "heading": "Wagens uit het zuiden van Frankrijk",
+          "body": [
+            "Staat de wagen veel verder naar het zuiden, dan verandert de route. Richting Bordeaux loopt de A10 van Parijs over 557 km en is de langste autoroute van Frankrijk. Ze is grotendeels tolweg; vrij zijn de stukken bij Parijs, Tours en Bordeaux.",
+            "Wie uit de Rhônevallei komt, rijdt over de A7 tussen Marseille en Lyon, 306 km. Daar zijn rond de vakantiedagen files van honderden kilometers gebruikelijk. Een koper die een wagen uit Zuid-Frankrijk wil, moet dus weten dat de rit naar Nederland meer is dan een aan elkaar geschakelde etappe: de planning hangt af van het seizoen."
+          ]
+        },
+        {
+          "heading": "Registreren in Nederland: wat u mag verwachten",
+          "body": [
+            "Voor een wagen uit Frankrijk begint de Nederlandse inschrijving met een keuring bij de RDW, op basis van het buitenlandse kentekenbewijs. Daarna volgt de bpm-aangifte. Pas dan krijgt de koper een Nederlands kentekenbewijs, platen, wegenbelasting en een verzekering.",
+            "Die volgorde bepaalt wat u de koper meegeeft: het buitenlandse kentekenbewijs moet bij de wagen zitten wanneer hij bij de RDW aankomt. Een wagen die op een transporter staat, moet niet rijdend door twee grenzen naar een keuringsstation. Mcars vervoert uw wagen en doet zelf geen inschrijving of aangifte."
+          ]
+        },
+        {
+          "heading": "Aankomst in Zeeland en West-Brabant",
+          "body": [
+            "De Nederlandse regio die het dichtst bij Roeselare ligt, is Zeeland en West-Brabant. De A16 komt bij Hazeldonk binnen, de A4 bij Zandvliet en de N62 bij Zelzate. Dit is de logische inrit vanuit Frankrijk en Spanje.",
+            "De N62 loopt 41 km als autoweg van de A58 bij Goes langs het havengebied Vlissingen-Oost naar Terneuzen. Het laatste stuk, de Tractaatweg, heeft twee keer twee rijstroken tot aan de grens bij Zelzate. De A4 loopt via Bergen op Zoom naar de grens bij Zandvliet en gaat daar over in de Belgische A12 richting knooppunt Antwerpen-Noord."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Milieuzone in Amsterdam",
+          "body": "Amsterdam heeft een milieuzone voor dieselpersonen- en bestelauto's, dieselvrachtauto's, bussen en brom- en snorfietsen. Dieselvrachtauto's hebben in zo'n zone minstens emissieklasse 6 nodig. Laat u een wagen aan huis in Amsterdam afleveren, vraag het ons dan vooraf zodat we het juiste voertuig sturen."
+        },
+        {
+          "kind": "plek",
+          "title": "RDW in Zoetermeer",
+          "body": "Het hoofdkantoor van de RDW staat in Zoetermeer. Daar zit de divisie die toezicht houdt op erkende bedrijven en die ingevoerde of omgebouwde voertuigen goedkeurt. Voor een koper in de Randstad ligt het dossier dus dichtbij."
+        },
+        {
+          "kind": "regel",
+          "title": "Btw bij een voor de btw nieuwe wagen",
+          "body": "Een particulier die een voor de btw nieuwe auto verkoopt aan iemand in een ander EU-land, rekent geen btw aan en kan een deel van de btw terugvragen in het land waar hij de auto kocht. Het gaat om een Europese regel die u best met de dealer of de belastingdienst overloopt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft de wagen een nieuwe apk nodig als de Franse keuring nog geldig is?",
+          "a": "Bij een geldige Europese apk is er geen nieuwe apk nodig, maar de RDW-keuring blijft deel van de procedure. De koper brengt het buitenlandse kentekenbewijs mee. Vraag vóór de verkoop welke papieren de RDW verwacht, zodat het dossier compleet bij de wagen zit."
+        },
+        {
+          "q": "Wanneer zit er file op de A7 richting het noorden?",
+          "a": "Bij vakantiebegin zuidwaarts en bij vakantieslot noordwaarts, vooral eind juli en begin augustus, staan er op de A7 files van honderden kilometers. Een wagen die uit de Rhônevallei naar Nederland moet, rijdt dan best buiten die vakantiedagen, ook al betekent dat een latere aankomst."
+        },
+        {
+          "q": "Mag een vrachtwagen in Frankrijk ook op zomerzaterdagen rijden?",
+          "a": "In juli en augustus gelden op meerdere zaterdagen extra verboden, vooral richting de Middellandse Zee en rond de tunnels van de Mont Blanc en de Fréjus. De exacte data veranderen elk jaar. Plan een ophaling in de zomer dus niet op zaterdag zonder de kalender na te kijken."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Nederland: de E19 via België, RDW-keuring en bpm-aangifte, ophaling in Noord- of Zuid-Frankrijk door Mcars.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://en.wikipedia.org/wiki/A10_autoroute",
+        "https://en.wikipedia.org/wiki/A7_autoroute",
+        "https://www.rijksoverheid.nl/onderwerpen/auto/vraag-en-antwoord/hoe-kan-ik-een-auto-uit-het-buitenland-in-nederland-importeren-invoeren",
+        "https://nl.wikipedia.org/wiki/Provinciale_weg_62",
+        "https://nl.wikipedia.org/wiki/Rijksweg_4",
+        "https://www.milieuzones.nl/locaties-milieuzones",
+        "https://nl.wikipedia.org/wiki/Rijksdienst_voor_het_Wegverkeer",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_nl.htm",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/"
+      ]
+    },
+    "frankrijk-luxemburg": {
+      "lead": "Een Franse wagen die in Luxemburg wordt ingeschreven, moet eerst Lotharingen uit. Tot aan de Luxemburgse grens bij Zoufftgen is het één lange as, de A31, die daar overgaat in de A3 naar de hoofdstad. Op die as weegt de spits van de grensarbeiders zwaar. Wie de wagen laat vervoeren, rijdt niet zelf door die file en bereikt Luxemburg zonder dat de wagen al ingeschreven hoeft te zijn.",
+      "facts": [
+        {
+          "label": "Hoofdas",
+          "value": "A31 tot Zoufftgen, daar de Luxemburgse A3 naar de hoofdstad"
+        },
+        {
+          "label": "Inhaalverbod",
+          "value": "Vrachtwagens mogen op de A31 van 7 tot 20 uur niet inhalen"
+        },
+        {
+          "label": "Tol",
+          "value": "Zoufftgen tot Toul gratis, Toul tot Beaune betalend"
+        },
+        {
+          "label": "Inschrijving",
+          "value": "Bij de SNCA, met douane-afhandeling, btw en keuringsbewijs"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat de koper in Luxemburg moet regelen",
+          "body": [
+            "Een wagen die in het buitenland werd gekocht, wordt in Luxemburg ingeschreven bij de SNCA. Dat is een dossier met meerdere stappen, en elke stap vraagt een papier dat uit Frankrijk moet komen. Vraag de verkoper dus vroeg om het volledige buitenlandse inschrijvingsbewijs en het keuringsbewijs.",
+            "Volgens de Luxemburgse overheid heeft de koper onder meer nodig:"
+          ],
+          "points": [
+            "een Luxemburgs kenteken via de SNCA en een verzekering",
+            "douane-afhandeling met betaling van de btw",
+            "een kanselarijzegel",
+            "een geldig keuringsbewijs, waarbij een buitenlands bewijs kan blijven gelden of een keuring in Luxemburg volgt",
+            "een Europees conformiteitsbewijs voor wagens die na 1 februari 2016 voor het eerst zijn ingeschreven"
+          ]
+        },
+        {
+          "heading": "Rijden vóór de inschrijving",
+          "body": [
+            "Een Franse wagen die rijdend naar Luxemburg moet, heeft geen eenvoudige papieren. Wordt hij verplaatst vóór de inschrijving, dan kan dat volgens de Luxemburgse regels enkel met rode platen of met de geplande plaat, plus een geldige verzekering. Voor een koper die nog geen Luxemburgs kenteken heeft, is dat een extra stap.",
+            "Vervoer lost dat praktisch op. Mcars haalt de wagen op bij de Franse verkoper, controleert hem bij het laden en brengt hem naar het adres in Luxemburg. We vervoeren, we regelen de inschrijving niet. Spreek met de koper af wanneer hij de wagen kan ontvangen en op welk adres we hem mogen afleveren."
+          ]
+        },
+        {
+          "heading": "De A31 van Beaune tot Zoufftgen",
+          "body": [
+            "De A31, de autoroute de Lorraine-Bourgogne, is 349 km lang en werd in 1966 geopend. Ze begint aan de Luxemburgse grens bij Zoufftgen en eindigt bij Beaune op de A6. Onderweg passeert ze Thionville en Metz, loopt ze langs Nancy en Toul en ten oosten van Dijon.",
+            "De A31 draagt de nummers E17, E21, E23 en vanaf Langres E25. Ze vervoert internationaal vrachtverkeer van en naar de Benelux, Duitsland, Bourgondië en de Rhônevallei. Het deel Toul tot Zoufftgen is gratis. Van Beaune tot Toul is de weg tolweg onder APRR, met de tolpoort van Gye. Voor een koper in Luxemburg is dat de weg die Lotharingen met het Groothertogdom verbindt."
+          ]
+        },
+        {
+          "heading": "Spits rond Thionville en op de A3",
+          "body": [
+            "Aan de Franse kant ligt het knooppunt Hauconcourt, een van de drukste wegen van Frankrijk. Tienduizenden Franse grensarbeiders rijden er dagelijks naar Luxemburg, met files rond Thionville. Op de terugweg uit Luxemburg zit de A31 vol tussen 15 en 20 uur.",
+            "Aan Luxemburgse kant loopt de A3 van achter het station van Luxemburg-stad naar de Franse grens bij Dudelange. Het traject is 15 km lang, waarvan 13,2 km als autosnelweg. De A3 wordt intens gebruikt door grensarbeiders en door doorgaand verkeer tussen Noord- en Zuid-Europa. Een aflevering in de stad plant u dus buiten de spitsen, anders staat de transporter vast op de laatste kilometers."
+          ]
+        },
+        {
+          "heading": "Weekendstop in Luxemburg",
+          "body": [
+            "Luxemburg kent een eigen weekendstop. Vrachtwagens van meer dan 7,5 ton in transit richting Frankrijk mogen niet rijden van zaterdag, of de dag voor een feestdag, 21.30 uur tot zondag, of de feestdag, 21.45 uur. Binnenlands vervoer, vervoer met bestemming Luxemburg en transit naar België zijn vrijgesteld.",
+            "Voor een wagen die in Luxemburg wordt afgeleverd, blijft de aankomst dus mogelijk. Wat ons raakt, is de terugrit naar Frankrijk, want dat valt onder het verbod voor transit richting Frankrijk. Zet de aflevering liever op een vroeger moment in de week, zodat de wagen niet wacht op het eind van het weekend."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Inhaalverbod op de A31",
+          "body": "Op de A31 mogen vrachtwagens sinds juni 2009 overdag, tussen 7 en 20 uur, niet inhalen. Een autotransporter blijft daardoor achter traag verkeer hangen. Reken bij de planning van een aflevering in Luxemburg dus op een rustig tempo op de Lotharingse stukken."
+        },
+        {
+          "kind": "plek",
+          "title": "Aire de Berchem op de A3",
+          "body": "De Aire de Berchem ligt aan beide kanten van de A3 in de gemeente Roeser, ongeveer 5 km ten zuiden van de hoofdstad en 8 km voor de Franse grens. Wikipedia noemt het naar omzet het grootste tankstationcomplex van Europa."
+        },
+        {
+          "kind": "regel",
+          "title": "Parkeerverbod tijdens de weekendstop",
+          "body": "Tijdens de Luxemburgse weekendstop mag een vrachtwagen niet op de openbare weg staan, ook niet op snelwegparkings. Een chauffeur kan zijn rustpauze in dat tijdvak dus niet op een parking nemen en moet de planning daar rekening mee houden."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet een wagen die op een vrachtwagen wordt vervoerd al ingeschreven zijn in Luxemburg?",
+          "a": "Nee. Een wagen die op een aanhangwagen of vrachtwagen wordt vervoerd, hoeft in Luxemburg niet ingeschreven te zijn. De inschrijving volgt dus na de aflevering, zodra de koper alle papieren bijeen heeft en de wagen op zijn eigen adres staat."
+        },
+        {
+          "q": "Wat is de vignette 705 en wanneer krijgt de koper die?",
+          "a": "De vignette 705 is het bewijs dat de douane-afhandeling met betaling van de btw is gebeurd. Ze hoort bij de inschrijving van een in het buitenland gekochte wagen in Luxemburg. De koper regelt dat zelf of met een douane-expediteur, niet via de transporteur."
+        },
+        {
+          "q": "Hoe komt een wagen uit de Rhônevallei in Luxemburg?",
+          "a": "Via de A6 noordwaarts tot Beaune, waar de A31 aansluit op de A6. Bij dat knooppunt is de A6 tolweg onder APRR en daalt de weg van vijf naar vier rijstroken per richting. Vanaf Beaune loopt de A31 helemaal naar Zoufftgen en de Luxemburgse grens."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Luxemburg: de A31 naar Zoufftgen, inschrijving bij de SNCA en Mcars als vervoerder van uw wagen.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://nl.wikipedia.org/wiki/A3_(Luxemburg)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://fr.wikipedia.org/wiki/Aire_de_Berchem"
+      ]
+    },
+    "frankrijk-duitsland": {
+      "lead": "Wie een Franse wagen aan een Duitse koper verkoopt, ziet twee wegvakken met elk hun eigen regels. Tot aan de Rijn rijdt een autotransporter over Franse autoroutes en over de gratis snelweg door de Elzas. Voorbij de grens begint de Duitse tolheffing voor zware voertuigen, en die bepaalt mee hoe een transporteur zijn route kiest. Mcars haalt de wagen op in Frankrijk en brengt hem tot bij de koper.",
+      "facts": [
+        {
+          "label": "Uitvalsweg",
+          "value": "A4 van Parijs naar Straatsburg, 482 km, via Reims en Metz"
+        },
+        {
+          "label": "Elzas",
+          "value": "A35 is gratis van Saint-Louis tot Lauterbourg"
+        },
+        {
+          "label": "Duitse tol",
+          "value": "Lkw-Maut boven 3,5 ton op bijna alle autosnelwegen"
+        },
+        {
+          "label": "Duitse A5",
+          "value": "Ongeveer 440 km tot aan Weil am Rhein bij Bazel"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De A4 van Parijs naar de Duitse grens",
+          "body": [
+            "De Franse A4 loopt over 482 km van Parijs, Porte de Bercy, naar Straatsburg. Ze passeert Reims en Metz, waarbij Metz ten noorden en oosten wordt omzeild. Voor wagens uit het noordoosten van Frankrijk is dit de gewone uitvalsweg naar Duitsland.",
+            "Bij Vendenheim sluit de A4 aan op de A35, die het verkeer naar het noorden leidt, ook naar Duitsland. Voor een koper in het Duitse Rijnland-Palts of Baden-Württemberg is dat de eerste afslag waar de route zich vertakt. Mcars rijdt elke week over heel Frankrijk, dus de ophaling in Reims, Metz of Straatsburg past in onze gewone rondes."
+          ]
+        },
+        {
+          "heading": "Waarom vrachtwagens door de Elzas rijden",
+          "body": [
+            "De A35 loopt langs de Rijn door de Elzas, van Saint-Louis aan de Zwitserse grens via Mulhouse, Colmar en Straatsburg tot Lauterbourg. Daar sluit ze aan op de Duitse B9. De weg is gratis.",
+            "Veel vrachtwagens kiezen de A35 om de Duitse Lkw-Maut op de parallelle A5 te mijden. Dat verklaart waarom de Elzas zoveel zwaar verkeer kent. Wie een wagen laat ophalen in de Elzas, moet er dus rekening mee houden dat de A35 vol vrachtverkeer zit. Voor onze eigen rit is de gratis weg langs de Rijn dan een bewuste keuze, geen toeval."
+          ]
+        },
+        {
+          "heading": "Duitse Lkw-Maut voor zware voertuigen",
+          "body": [
+            "Duitsland heft Lkw-Maut op voertuigen boven 3,5 ton, sinds juli 2024. Voordien lag de grens bij 7,5 ton. De heffing geldt op bijna alle autosnelwegen en sinds juli 2018 ook op alle Bundesstraßen. Uitbater is Toll Collect.",
+            "Voor een koper die zijn Franse wagen wil binnenkrijgen, is dat vooral een zaak van routekeuze, niet van papierwerk. Een transporteur die de tolweg wil mijden, kiest de gratis A35 tot de Rijn en neemt pas daarna een Duitse weg. Die keuze maakt de transporteur, niet de koper."
+          ]
+        },
+        {
+          "heading": "Aankomst in Saarland en Rijnland-Palts",
+          "body": [
+            "De Duitse regio die het dichtst bij Lotharingen ligt, is Rijnland-Palts met het Saarland. De A6 begint in Saarbrücken bij grensovergang Goldene Bremm, waar ze aansluit op de Franse A320, de E50 richting Parijs. Vandaar loopt ze via Kaiserslautern, Mannheim en Heilbronn naar Beieren.",
+            "Een stukje noordelijker begint de A8 in Perl aan de Moezel, tegenover Schengen. In Luxemburg gaat ze verder als A13. Voor een wagen die in Metz of Nancy staat, is de A320 naar Saarbrücken dan ook de logische weg naar het Saarland."
+          ]
+        },
+        {
+          "heading": "Aankomst in Baden-Württemberg",
+          "body": [
+            "Wie in het zuidwesten van Duitsland woont, krijgt de wagen langs de Rijn. De Duitse A5 loopt over ongeveer 440 km van Hessen naar Weil am Rhein, met 2x2 tot 2x4 rijstroken. Bij Frankfurt is ze achtstrooks.",
+            "Tussen Baden en de Elzas liggen meerdere bruggen over de Rijn. De Europabrücke tussen Kehl en Straatsburg, de B28 of E52, is de drukste grensovergang tussen beide streken. Voor een koper aan de Rijn ligt de Elzas dus het dichtst. Zegt u ons waar het afleveradres ligt, dan kiezen we de oversteek die het best past."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Transitverbod in Straatsburg",
+          "body": "Door Straatsburg geldt voor vrachtwagens een transitverbod. De westelijke ring A355 nam de transit over. Een transporteur die vanuit de Elzas naar Duitsland rijdt, kiest dus de ring en niet het stadscentrum, ook als het adres er vlakbij ligt."
+        },
+        {
+          "kind": "regel",
+          "title": "CO2-toeslag op de Duitse Lkw-Maut",
+          "body": "Op de Duitse Lkw-Maut komt een CO2-toeslag. Emissievrije voertuigen, de CO2-klasse 5, zijn vrijgesteld. Dat verschil speelt dus enkel bij de keuze van het voertuig dat de rit rijdt."
+        },
+        {
+          "kind": "tip",
+          "title": "Tol boeken zonder On-Board-Unit",
+          "body": "Zonder On-Board-Unit moet de route vooraf via app of internetportaal geboekt worden voor de Duitse Lkw-Maut. De vroegere tolterminals zijn sinds 2019 afgebouwd. Een transporteur zonder die unit kan dus niet gewoon bij de grens afrekenen."
+        },
+        {
+          "kind": "plek",
+          "title": "Kaiserslautern Military Community",
+          "body": "De Kaiserslautern Military Community, rond Ramstein, Landstuhl, Sembach en Kaiserslautern, telt ongeveer 40.000 Amerikaanse militairen en is de grootste Amerikaanse basis buiten de Verenigde Staten. Het is een regio met veel verhuizende wagens."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke rijverboden gelden voor een autotransporter in Duitsland?",
+          "a": "Op zon- en feestdagen mogen vrachtwagens boven 7,5 ton en elke vrachtwagen met aanhanger van 0 tot 22 uur niet rijden. In juli en augustus komt daar op zaterdag van 7 tot 20 uur een verbod bij op bepaalde autosnelwegen en Bundesstraßen. Gecombineerd vervoer en bederfelijke waren zijn uitgezonderd."
+        },
+        {
+          "q": "Is de Franse A4 tolweg?",
+          "a": "Ja. De A4 is tolweg met barrièretol onder meer in Saint-Avold en een tol zonder barrière in Boulay. De A35 in de Elzas is daarentegen gratis, net als het stuk van de A31 dat de Luxemburgse grens met Toul verbindt."
+        },
+        {
+          "q": "Kan de wagen ook naar Frankfurt?",
+          "a": "Ja. Bij de afrit Freyming-Merlebach takt de A320 van de A4 af naar Duitsland, onder meer richting Frankfurt. Vanaf de grens volgt dan de Duitse tolheffing voor zware voertuigen, zoals bij elke andere Duitse bestemming."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Duitsland: A4 en A35 naar de Rijn, Duitse Lkw-Maut en aflevering in Saarland of Baden-Württemberg door Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_6",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://de.wikipedia.org/wiki/Kaiserslautern_Military_Community",
+        "https://de.wikipedia.org/wiki/Europabrücke_(Kehl)"
+      ]
+    },
+    "frankrijk-spanje": {
+      "lead": "Een Franse wagen die naar Spanje gaat, volgt een van twee grote assen: de A9 langs de Middellandse Zee naar Le Perthus, of de A63 langs de Atlantische kust naar Biriatou. Welke u kiest, hangt af van waar de wagen staat en waar de koper woont. Mcars rijdt elke week over heel Frankrijk en brengt ook wagens van tweedeverblijvers naar Spanje.",
+      "facts": [
+        {
+          "label": "Middellandse Zee",
+          "value": "A9, 280 km van Orange tot de Col du Perthus"
+        },
+        {
+          "label": "Atlantische kant",
+          "value": "A63, ongeveer 206 km van Bordeaux tot Biriatou"
+        },
+        {
+          "label": "Grens",
+          "value": "Controles bij Le Perthus en tol bij Biriatou geven files"
+        },
+        {
+          "label": "Tol A9 en A63",
+          "value": "Beide in concessie, de A9 bij ASF, de A63 in drie delen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De A9 langs de Middellandse Zee",
+          "body": [
+            "De A9 loopt over 280,5 km van Orange, waar ze aansluit op de A7, naar de Spaanse grens bij Le Perthus. Tot Narbonne heet ze La Languedocienne, daarna La Catalane. Concessiehouder is ASF. Onderweg liggen Nîmes, Montpellier, Béziers, Narbonne en Perpignan.",
+            "Sinds enkele jaren gaat de doorgaande A9 zonder tol om Montpellier heen. Het lokale stuk is de A709. Knelpunten zijn de wisselaar van Orange, het verplichte punt tussen de A7 en de A9, en de grens zelf. Het zware vrachtverkeer maakt de A9 druk en ongevalsgevoelig, wat voor een transporteur een reden is om marge in de planning te laten."
+          ]
+        },
+        {
+          "heading": "Le Perthus en de Spaanse grens",
+          "body": [
+            "Col du Perthus ligt op ongeveer 290 m hoogte. Aan de pas gaat de A9 over in de Spaanse AP-7 richting Girona en Barcelona, met een tolstation. Ook de N-II, de D900 en de E-15 lopen door de pas. De oude douanekantoren zijn buiten gebruik.",
+            "Voor een wagen met een Spaanse koper in Catalonië is Le Perthus de logische ingang. Reken aan het tolstation op wachttijd. Onze chauffeurs zijn Nederlands- en Franstalig, dus spreek het afleveradres en een contactnummer van de koper duidelijk af vóór de rit."
+          ]
+        },
+        {
+          "heading": "De A63: Bordeaux naar Biriatou",
+          "body": [
+            "De A63 loopt over ongeveer 206 km van Bordeaux naar de Spaanse grens bij Biriatou, tegenover Irun, waar ze aansluit op de Spaanse AP-1 en AP-8. Het noordelijke stuk tot Salles is tolvrij. Het middenstuk door de Landes is tolweg bij Atlandes en tot 2x3 rijstroken verbreed. Het zuidelijke stuk is tolweg bij ASF.",
+            "Op de A63 is er tol zonder tickets, met vijf tolpunten tussen Bordeaux en Spanje. Bij Bayonne sluit de A63 aan op de A64 naar Pau en Toulouse. De A10 eindigt op de ring van Bordeaux; het deel vanaf Poitiers is in concessie bij ASF, maar de laatste 19 km voor Bordeaux zijn gratis. Voor een wagen uit de Dordogne of uit Parijs is dit de gewone weg naar het Baskenland."
+          ]
+        },
+        {
+          "heading": "Aankomst in Catalonië en het Baskenland",
+          "body": [
+            "Catalonië ligt het dichtst bij Frankrijk. De haven van Barcelona is volgens Wikipedia de grootste autohaven van de Middellandse Zee, en de hoofdzetel van SEAT staat sinds 1993 in Martorell aan de A-2. Rond Barcelona is de autosector dus sterk aanwezig.",
+            "Aan de westkant ligt het Baskenland, met de haven van Pasaia en de haven van Bilbao. Brittany Ferries vaart van Bilbao naar Portsmouth en Rosslare. De fabriek van Mercedes in Vitoria en die van Volkswagen in Pamplona verschepen via Pasaia een deel van hun productie. Tussen Spanje en Andorra bestaat maar één toegelaten wegverbinding, de N-145 door het Valira-dal, met een douanepost in La Farga de Moles."
+          ]
+        },
+        {
+          "heading": "Kust, tweede verblijven en vrije snelweg",
+          "body": [
+            "Vanaf de Catalaanse grens loopt de AP-7 verder langs de kust. Het stuk tussen Salou en Alicante is tolvrij sinds de concessie afliep, en de A-7, met ongeveer 1.090 km de langste autovía van Spanje, is tolvrij. Wie een Franse wagen naar de Costa Blanca laat brengen, rijdt dus een groot deel van de kust zonder tol.",
+            "De Costa del Sol is een belangrijke bestemming voor residentieel toerisme, met vooral Britse, Duitse, Scandinavische en Franse bezoekers en inwoners. In Nerja is ongeveer een vijfde van de bevolking buitenlands. Ook voor wie tijdelijk of definitief naar Spanje verhuist, is een wagen vervoeren vaak de eenvoudigste oplossing."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Beperkingen in Catalonië",
+          "body": "Catalonië legt jaarlijks per resolutie beperkingen op voor goederenvervoer. Zo gold er op zon- en feestdagen een beperking van 8 tot 24 uur op het interstedelijke net. De regels veranderen elk jaar, dus kijk de actuele resolutie van het Servei Català de Trànsit na."
+        },
+        {
+          "kind": "regel",
+          "title": "IGIC op de Canarische Eilanden",
+          "body": "Op de Canarische Eilanden geldt geen btw maar de IGIC, een algemene indirecte belasting. Die belast ook de invoer van goederen. Wat dat precies betekent voor een wagen die van het vasteland of uit een ander EU-land komt, vraagt u best aan de Canarische fiscus of een douane-expediteur."
+        },
+        {
+          "kind": "tip",
+          "title": "A7 en de wissel bij Orange",
+          "body": "Op de A7 vallen de drukste dagen tussen het laatste weekend van juli en het eerste van augustus. Op drukke dagen wordt de snelheid verlaagd naar 110, 90 of 70 km/u. Bij Orange splitst de A9 af naar Spanje, een plek om rekening mee te houden."
+        },
+        {
+          "kind": "tip",
+          "title": "Registratiebelasting in sommige EU-landen",
+          "body": "Sommige EU-landen heffen bij de inschrijving een eenmalige registratiebelasting, vaak afhankelijk van motorvermogen en emissieklasse. Vraag de koper vóór de verkoop na wat inschrijving in zijn land kost, zodat de wagen niet duurder blijkt dan verwacht."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een vrachtwagen in Spanje in het weekend rijden?",
+          "a": "Spanje heeft geen algemeen weekendverbod voor vrachtwagens. Gevaarlijke stoffen mogen op zon- en feestdagen niet van 8 tot 24 uur. Regionale verboden rond Madrid en Barcelona worden op korte termijn aangekondigd. Het weekend bepaalt de planning dus vooral aan de Franse kant."
+        },
+        {
+          "q": "Waarom staat er bij de Spaanse grens vaak file?",
+          "a": "Bij Le Perthus zorgen grenscontroles en een tolstation voor files. Aan het grenstolstation van Biriatou en bij de uitritten van Bordeaux is er op de A63 vaak file, vooral rond 7 uur en rond 16 uur. Een planning buiten die uren verkort de wachttijd."
+        },
+        {
+          "q": "Tot waar rijdt de vrachtwagen als de koper op de Balearen woont?",
+          "a": "Tot een haven op het vasteland. Naar de Balearen varen ferry's vanuit Barcelona, Valencia en Dénia, en vanuit Palma gaan lijnen naar Barcelona, Valencia, Ibiza en Maó. Voor een transport over de weg eindigt de rit dus aan de kade, niet op het eiland zelf."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Spanje: A9 naar Le Perthus, A63 naar Biriatou en aflevering in Catalonië of aan de kust door Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A63_(France)",
+        "https://en.wikipedia.org/wiki/Col_du_Perthus",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A10_(France)",
+        "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Impuesto_General_Indirecto_Canario",
+        "https://es.wikipedia.org/wiki/Costa_del_Sol",
+        "https://boe.es/buscar/pdf/2025/BOE-A-2025-4085-consolidado.pdf",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot"
+      ]
+    },
+    "frankrijk-italie": {
+      "lead": "De rit van Frankrijk naar Italië gaat onder de Alpen door of langs de kust, en beide keuzes hebben hun eigen beperkingen. In de Mont Blanc-tunnel en de Fréjustunnel rijden vrachtwagens op afstand en op beperkte snelheid. Langs de Côte d'Azur zorgen tunnels en zomerfiles voor vertraging. Mcars haalt de wagen op in Frankrijk en vervoert hem op een open autotransporter naar de Italiaanse koper.",
+      "facts": [
+        {
+          "label": "Mont Blanc-tunnel",
+          "value": "11,6 km tussen Chamonix en Courmayeur, één buis met twee richtingen"
+        },
+        {
+          "label": "Fréjustunnel",
+          "value": "12,87 km tussen Modane en Bardonecchia, tol voor alle verkeer"
+        },
+        {
+          "label": "Kustroute",
+          "value": "A8 tot Menton, daar de Italiaanse A10 naar Ventimiglia"
+        },
+        {
+          "label": "Italiaanse stop",
+          "value": "Geen zware vrachtwagens op zon- en feestdagen buiten de bebouwde kom"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Door de Mont Blanc-tunnel",
+          "body": [
+            "De Mont Blanc-tunnel is 11,611 km lang, verbindt Chamonix met Courmayeur en ligt er sinds 1965. Hij verkort de rit van Frankrijk naar Turijn met ongeveer 50 km en naar Milaan met ongeveer 100 km. De tunnel heeft één buis voor verkeer in beide richtingen.",
+            "Naar de tunnel leidt de A40, de Autoroute Blanche, van Mâcon naar Passy. Daarna volgt de RN 205 naar Chamonix. ATMB beheert het stuk Bellegarde tot Passy. Op de A40 liggen tolpunten in Viry, Nangy en Cluses, plus de tol van de tunnel zelf. Enkele stukken, onder meer tussen Passy en Sallanches, zijn gratis. Voor een wagen uit de Franse Alpen is dit een korte weg naar Piëmont of Lombardije."
+          ]
+        },
+        {
+          "heading": "Door de Fréjustunnel",
+          "body": [
+            "De Fréjus-wegtunnel loopt over 12,87 km onder de Col du Fréjus van Modane in Frankrijk naar Bardonecchia in Italië en draagt de E70. Hij werd in 1980 geopend. Volgens Wikipedia verwerkt hij het grootste deel van het zware wegverkeer op deze Alpenroute. Er geldt tol voor alle verkeer.",
+            "Aan Franse kant sluit hij aan op de A43, aan Italiaanse kant op de A32. De tunnel heeft een tweede koker en is daarmee de langste wegtunnel met twee kokers van Europa, beheerd door SITAF aan Italiaanse en SFTRF aan Franse kant. Voor wagens uit Lyon en de Rhônevallei is dit een voor de hand liggende keuze richting Turijn."
+          ]
+        },
+        {
+          "heading": "Langs de kust naar Menton",
+          "body": [
+            "De A8, La Provençale, loopt over ongeveer 223 km van de A7 bij Coudoux via Aix-en-Provence, Fréjus, Cannes en Nice naar Menton. Ze is tolweg, met ASF tot Aix en daarna Escota, met tolvrije stukken langs Aix, Cannes en Nice.",
+            "Tussen Nice en Menton bestaat de A8 uit een aaneenschakeling van tunnels en viaducten met stevige hellingen. Vrachtwagens zijn in de tunnels beperkt tot 70 km/u. In juli en augustus is het druk, met geregeld files bij Aix en Cannes. De A8 eindigt bij Menton in een tunnel op de Italiaanse grens en gaat daar over in de Italiaanse A10 richting Ventimiglia en Genua. Een wagen voor Ligurië rijdt dus zonder pas, maar met veel tunnelkilometers."
+          ]
+        },
+        {
+          "heading": "Zon- en feestdagen in Italië",
+          "body": [
+            "Italië kent een verbod op zon- en feestdagen. Buiten de bebouwde kom mogen vrachtwagens boven 7,5 ton dan niet rijden: van juni tot september van 7 tot 22 uur, de rest van het jaar van 9 tot 22 uur.",
+            "Rond 15 augustus piekt het verbod met 7 tot 22 uur. Dat raakt ritten naar de Italiaanse kust in de vakantieweken, ook voor een autotransporter die in Frankrijk is vertrokken. Wie in augustus een wagen voor een Italiaanse koper wil laten brengen, houdt daar best rekening mee."
+          ]
+        },
+        {
+          "heading": "Verder dan de grens: Milaan, Florence en Rome",
+          "body": [
+            "Italiaanse steden hebben hun eigen toegangsregels. Area C in Milaan, ongeveer 8 km² met 43 camerapoorten, is op weekdagen overdag betalend voor elk voertuig. Diesels tot en met de oudste emissieklasse 3 en privévoertuigen langer dan 7 m mogen er niet in.",
+            "De Fascia Verde van Rome, binnen de ring GRA, is van maandag tot zaterdag permanent verboden voor benzine- en dieselwagens van emissieklasse 3 of ouder. Bij smogalarm worden de beperkingen uitgebreid. In Florence geldt sinds 2025 de milieuzone Scudo Verde met 77 camerapoorten. Dat zijn punten waar een koper van een oudere Franse wagen best vooraf over nadenkt: soms is de wagen te oud voor het adres waar hij naartoe moet."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Tenda-tunnel niet voor zware voertuigen",
+          "body": "De nieuwe Tenda-tunnel tussen Cuneo en de Roya-vallei is geopend na de sluiting door storm Alex in 2020. Voertuigen boven 3,5 ton zijn er verboden en een ANAS-verordening herhaalt dat. Voor een autotransporter is Tenda dus geen optie."
+        },
+        {
+          "kind": "plek",
+          "title": "Ventimiglia en de vrijdagmarkt",
+          "body": "Ventimiglia ligt 7 km van de Frans-Italiaanse grens aan de Ligurische kust, met een aansluiting op de A10. Elke vrijdag trekt de wekelijkse straatmarkt Fransen aan, wat veel verkeer geeft. Een aflevering in Ventimiglia op vrijdag vraagt dus extra planning."
+        },
+        {
+          "kind": "regel",
+          "title": "ZTL van Florence",
+          "body": "De ZTL van Florence heeft vijf sectoren. A, B en O zijn actief van maandag tot vrijdag van 7.30 tot 20 uur en op zaterdag tot 16 uur, niet op zon- en feestdagen. In het zomerhalfjaar geldt ze ook in de nacht van donderdag tot zaterdag. Camera's lezen de nummerplaten."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe moet een vrachtwagen door de Mont Blanc-tunnel?",
+          "a": "In de tunnel ligt de snelheid tussen 50 en 70 km/u, houden voertuigen 150 m afstand en mogen vrachtwagens in groepen van vijf binnen. De doorstroom per tijdseenheid is beperkt. Een wachtrij vooraan is dus normaal en hoort bij de rit."
+        },
+        {
+          "q": "Welke tunnel gebruikt het zware verkeer als de Mont Blanc dicht is?",
+          "a": "Bij sluiting van de Mont Blanc-tunnel wijkt het grootste deel van het vrachtverkeer uit naar de Fréjustunnel. Voor onderhoud zijn lange sluitingen mogelijk, naast korte onderbrekingen 's nachts. Plan dus ruimte in voor drukte aan de Fréjus."
+        },
+        {
+          "q": "Mag een autotransporter in de zomer ook op vrijdag naar Italië?",
+          "a": "Het ministerie van Infrastructuur publiceert elk jaar een kalender met rijverboden voor voertuigen boven 7,5 ton buiten de bebouwde kom. In de zomer geldt het verbod ook op vrijdag en met langere uren. Kijk dus altijd de kalender van het lopende jaar na."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Italië: Mont Blanc- en Fréjustunnel, de A8 langs de kust en Italiaanse rijverboden. Mcars vervoert uw wagen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://fr.wikipedia.org/wiki/Autoroute_A40_(France)",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://mit.gov.it/node/20940",
+        "https://fr.wikipedia.org/wiki/Autoroute_A8_(France)",
+        "https://mit.gov.it/node/21641",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/ztl-roma-orari-mappa-e-permessi/",
+        "https://www.parkingmycar.it/blog/ztl-firenze-regole/",
+        "https://protezionecivile.provincia.cuneo.it/_allegati/2026/04/nuova_ordinanza_ANAS.pdf",
+        "https://en.wikipedia.org/wiki/Ventimiglia"
+      ]
+    },
+    "frankrijk-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU, en dat verandert alles aan een verkoop uit Frankrijk. De wagen moet aan de grens ongevraagd bij de douane worden aangegeven en er horen belastingen bij. Mcars vervoert de wagen op een open autotransporter van het Franse adres naar de Zwitserse koper; de douane regelt de koper zelf of via een douane-expediteur.",
+      "facts": [
+        {
+          "label": "Douane",
+          "value": "Ongevraagde aangifte bij het BAZG, formulier 13.20A bij aankomst"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Zware voertuigen rijden niet tussen 22 en 5 uur"
+        },
+        {
+          "label": "Bazel",
+          "value": "A35 eindigt in Saint-Louis en sluit aan op de Zwitserse A3"
+        },
+        {
+          "label": "Genève",
+          "value": "A40 loopt via Annemasse, vlak bij de stad, naar Passy"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Belasting en papieren bij de invoer",
+          "body": [
+            "Bij invoer in Zwitserland gelden de automobielbelasting en btw, ook over de invoerkosten en het vervoer tot de bestemming. Dat is een zaak van de koper en staat los van het transport.",
+            "Service Public noemt twee nuttige documenten voor een buitenlandse koper: het Europees certificaat van overeenstemming, dat de merkdealer afgeeft, en een exportcertificaat, dat het Franse douanekantoor geeft. Mcars vervoert de wagen en regelt die papieren niet. Een douane-expediteur doet dat wel, en wie dat vooraf bespreekt met de koper, voorkomt dat de wagen aan de grens blijft staan."
+          ]
+        },
+        {
+          "heading": "Bazel: waar Elzas en Duitsland samenkomen",
+          "body": [
+            "De Franse A35 begint aan de Zwitserse grens bij Saint-Louis en sluit er aan op de Zwitserse A3 naar Bazel. Daar staat een douanepost. Wie via Duitsland komt, rijdt over de A5 die bij Weil am Rhein aan de Zwitserse grens eindigt.",
+            "Een douane-expediteur omschrijft Basel/Weil am Rhein-Autobahn als het grootste wegdouanekantoor van Zwitserland. Het BAZG noemt het ook bij de grensovergangen waar handelsgoederen in uitzonderlijke situaties buiten de openingsuren worden ingeklaard; op andere overgangen kan dat niet. Een aankomst na sluitingstijd is dus geen vanzelfsprekende oplossing. Spreek met de koper af wanneer hij of zijn expediteur aan de grens kan zijn."
+          ]
+        },
+        {
+          "heading": "Nacht- en zondagverbod in Zwitserland",
+          "body": [
+            "Zwitserland kent een zondag- en nachtverbod voor vrachtwagens, van 22 tot 5 uur, voor voertuigen boven 3,5 ton, opleggertrekkers boven 5 ton en voertuigen met aanhangwagen boven 3,5 ton. Een autotransporter met oplegger valt daar dus onder.",
+            "De Zwitserse feestdagen verschillen per kanton en de verbodsregels gelden ook dan. Bronnen spreken elkaar tegen over het exacte zondagsvenster. Neem bij de planning daarom de tekst van het federale wegenbureau ASTRA of het kanton als maatstaf en reken niet op een rit in de nacht."
+          ]
+        },
+        {
+          "heading": "Genève en de Haute-Savoie",
+          "body": [
+            "De A40 loopt via Annemasse, vlak bij Genève, naar Passy en de Mont Blanc-tunnel. De Zwitserse A1 begint aan de grensovergang Bardonnex en Saint-Julien-en-Genevois en sluit er aan op de Franse A41. Dat is de binnenkomst voor wie uit Zuid-Frankrijk of Spanje komt.",
+            "Het kanton Genève is bijna volledig door Frankrijk omsloten. In het kanton zitten veel internationale organisaties, banken en handelshuizen. Genève is ook de grootste trekpleister voor Franse grensarbeiders: bijna de helft van hen werkt er, en ze wonen in de Haute-Savoie en het Pays de Gex. Een Franse wagen die aan een koper in Genève wordt verkocht, komt dus vaak uit hetzelfde grensgebied."
+          ]
+        },
+        {
+          "heading": "De Jura: Transjurane en Les Verrières",
+          "body": [
+            "De Zwitserse A16, de Transjurane, loopt over 84 km van Biel door de Jura naar Boncourt aan de Franse grens. Ze is sinds het voorjaar van 2017 volledig klaar. De weg wisselt vierstrooks autosnelweg af met tweestrooks Autostrasse en heeft veel tunnels, waaronder Pierre Pertuis, Mont Terri en Bure.",
+            "Les Verrières in het kanton Neuchâtel is de grensovergang op de hoofdweg Neuchâtel-Pontarlier, met veel pendelverkeer. De Franse A36 voert via Besançon, Montbéliard en Belfort naar Mulhouse; tussen Belfort-Nord en Voujeaucourt is ze tolvrij. Voor een koper in Neuchâtel of Biel is dit de gewone ingang vanuit Oost-Frankrijk."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Oorsprongsbewijs van de dealer",
+          "body": "Een preferentieel oorsprongsbewijs, bij voorkeur van de dealer in het uitvoerland, maakt in de meeste gevallen douanevrije invoer in Zwitserland mogelijk. Vraag de koper of hij het document nodig heeft en wie het opmaakt."
+        },
+        {
+          "kind": "regel",
+          "title": "Vrijstelling voor verhuizers",
+          "body": "Wie als verhuizer een wagen langer dan zes maanden bezat en gebruikte, kan volgens een gids als verhuisgoed vrijstelling van btw en automobielbelasting krijgen, met formulier 18.44. Controleer dit bij het BAZG voor uw eigen geval voor u de wagen laat vervoeren."
+        },
+        {
+          "kind": "plek",
+          "title": "Ports Francs in Genève",
+          "body": "De Ports Francs et Entrepôts de Genève, in La Praille in Lancy, zijn een vrijhaven waar goederen als in transit gelden. Invoerrechten en belastingen zijn pas verschuldigd wanneer de goederen het entrepot verlaten. De bron noemt kunst, wijn en goud; klassieke wagens worden er niet vermeld."
+        },
+        {
+          "kind": "plek",
+          "title": "De trinationale agglomeratie Bazel",
+          "body": "De agglomeratie Bazel strekt zich uit over Zwitserland, Duitsland en Frankrijk. Verhuizen over de grens binnen dezelfde stadsregio komt hier dus veel voor. Een wagen die van Saint-Louis naar een adres in Bazel gaat, steekt de grens over zonder ver te rijden."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet de wagen aan de Zwitserse grens bij de douane worden aangegeven?",
+          "a": "Ja, bij aankomst en zonder dat iemand erom vraagt. Wie de wagen invoert, geeft hem aan bij het BAZG, dat formulier 13.20A afgeeft. Mcars vervoert de wagen; de aangifte doet de invoerder of een douane-expediteur."
+        },
+        {
+          "q": "Waarom staan er in het weekend vrachtwagens op de pechstrook bij Saint-Louis?",
+          "a": "Vrachtwagens parkeren in het weekend en op feestdagen op de vluchtstrook van de A35 bij de Zwitserse grens, omdat de toegang tot Zwitserland dan voor hen dicht is. Een wagen die op vrijdagavond de Zwitserse grens nadert, kan dus aan de grens moeten wachten."
+        },
+        {
+          "q": "Kan een transporteur toch 's nachts naar Zwitserland rijden?",
+          "a": "Alleen met een bijzondere vergunning. Die vraagt men aan bij het kanton waar de rit begint of, bij ritten uit het buitenland, het kanton van binnenkomst. Voor een gewone autotransporter is het geen rit waarop u moet rekenen; plan de rit zo dat hij overdag valt."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Zwitserland: douane-aangifte, invoerbelasting, nachtverbod en aflevering in Bazel, Genève of de Jura door Mcars.",
+      "sources": [
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.ibani.com/de/leitfaden/fahrzeug-import-schweiz-steuern-verzollung",
+        "https://www.nau.ch/tech/import-von-autos-in-die-schweiz-66946610",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F1707",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://gerlach-customs.com/ch-de/standorte/basel-weil-autobahn-import/",
+        "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://fr.wikipedia.org/wiki/Autoroute_A40_(France)",
+        "https://de.wikipedia.org/wiki/Kanton_Genf",
+        "https://de.wikipedia.org/wiki/Autobahn_A16_(Schweiz)",
+        "https://fr.wikipedia.org/wiki/Ports_Francs_et_Entrepôts_de_Genève"
+      ]
+    },
+    "frankrijk-oostenrijk": {
+      "lead": "Tussen Frankrijk en Oostenrijk ligt geen rechtstreekse grens. Een Franse wagen voor een Oostenrijkse koper moet door Duitsland, en komt dus langs de Franse en Duitse weekendstop en twee tolsystemen voor zware voertuigen. Mcars haalt de wagen op in Frankrijk en brengt hem op een open autotransporter tot in Vorarlberg, Tirol of Salzburg.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Geen rechtstreekse grens: de rit loopt via Duitsland"
+        },
+        {
+          "label": "Oostenrijkse tol",
+          "value": "GO-Maut voor voertuigen boven 3,5 ton op autosnelwegen"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Boven 7,5 ton loopt het verbod van zaterdag 15 uur tot zondag 22 uur"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Het hele jaar van 22 tot 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Eerst door Duitsland",
+          "body": [
+            "De Franse A4 tussen Parijs en Straatsburg, 482 km lang, en de A35 door de Elzas zijn de gebruikelijke uitvalswegen naar Duitsland. Bij de afrit Freyming-Merlebach loopt de A320 naar Duitsland, onder meer richting Frankfurt.",
+            "Op de Duitse A5 ligt bij Karlsruhe het knooppunt met de A8, die oostwaarts richting Zuid-Duitsland en Oostenrijk loopt. Het Duitse stuk van de A8 tussen München en Salzburg hebben we niet apart nagekeken, dus we beloven er niets over. Voor Duitsland gelden bovendien eigen tol- en zondagsregels voor zware voertuigen."
+          ]
+        },
+        {
+          "heading": "Oostenrijkse tol voor zware voertuigen",
+          "body": [
+            "Oostenrijk heft sinds 1 januari 2004 de GO-Maut op voertuigen boven 3,5 ton, op autosnelwegen en snelwegen. De heffing werkt met de GO-Box en ongeveer 430 portieken. Tussen 22 en 5 uur geldt een nachttarief. Voor de koper verandert er niets aan de papieren.",
+            "Dat is een zaak van de transporteur, niet van de koper. Toch kent het laatste stuk van de rit een ander tolsysteem dan het Franse, met een eigen apparaat, de GO-Box. Dat weegt mee in de keuze voor een route over autosnelwegen of over gewone wegen."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Oostenrijk",
+          "body": [
+            "Oostenrijk verbiedt vrachtwagens en trekker-opleggers boven 7,5 ton te rijden van zaterdag 15 uur tot zondag 22 uur. Daarbovenop geldt het hele jaar een nachtverbod van 22 tot 5 uur.",
+            "Het zaterdagse verbod begint dus al in de namiddag, ruim vóór het Franse. Wie een wagen op zaterdag in Oostenrijk wil laten afleveren, kan dat niet met een vrachtwagen van deze klasse. Een aflevering in de loop van de week past beter, en een rit overdag ook, want 's nachts rijdt een zware vrachtwagen niet. Vertel ons het afleveradres en de gewenste dag, dan zeggen we wat realistisch is."
+          ]
+        },
+        {
+          "heading": "Aankomst in Vorarlberg",
+          "body": [
+            "Vorarlberg is de Oostenrijkse regio die het dichtst bij Frankrijk ligt. De A14 loopt tot de grens bij Hörbranz, waar ze aansluit op de Duitse A96 naar Lindau en München. Aan de Rijnzijde liggen bruggen bij Lustenau naar Au, Widnau en Diepoldsau in Zwitserland, en bij Feldkirch ligt de overgang naar Liechtenstein.",
+            "Naar de rest van Oostenrijk gaat het over de S16 en de Arlbergtunnel. Verkeer uit Frankrijk, Spanje en Zwitserland komt in Vorarlberg binnen. Voor een koper in Vorarlberg loopt de rit dus naar de A96 en niet naar Salzburg."
+          ]
+        },
+        {
+          "heading": "Aankomst in Salzburg en Tirol",
+          "body": [
+            "Verkeer uit München, en dus uit Frankrijk, komt in Salzburg binnen over de Duitse A8 en de grensovergang Walserberg. Naar het zuiden loopt de A10, de Tauernautobahn, naar Kärnten, Italië en Slovenië. Naar Tirol rijdt men via het Große Deutsche Eck over de A8 en A93, richting Kiefersfelden en Kufstein.",
+            "Tirol grenst aan Duitsland, aan Italië over de A13 en de Brennerpas, en aan Zwitserland. De A12 loopt tot de grens bij Kufstein en sluit er aan op de Duitse A93. Verkeer komt meestal binnen bij Kufstein, of over de Fernpass vanuit Reutte. Een wagen voor Innsbruck volgt dus de Inntal Autobahn, een koper in Salzburg kiest Walserberg."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Rijnbruggen bij Lustenau",
+          "body": "In Vorarlberg verbinden Rijnbruggen bij Lustenau het land met Au, Widnau en Diepoldsau in Zwitserland. Bij Feldkirch-Tisis en Schaanwald ligt de overgang naar Liechtenstein. Voor een wagen met Oostenrijkse bestemming zijn dit de punten waar een grensregio drukker wordt."
+        },
+        {
+          "kind": "regel",
+          "title": "Zomerverbod op Tiroolse omleidingsroutes",
+          "body": "In de zomer geldt op Tiroolse omleidingsroutes, zoals de B178, B320, B177, B179, B181 en B182, op zaterdag een verbod van 8 tot 15 uur voor vrachtwagens boven 7,5 ton buiten de bebouwde kom. De data veranderen jaarlijks, dus kijk de actuele kalender na."
+        },
+        {
+          "kind": "regel",
+          "title": "Aparte tol op de Tauernautobahn",
+          "body": "Op de A10 Tauernautobahn tussen Flachau en Rennweg, met de Tauerntunnel en de Katschbergtunnel, geldt een aparte tol in plaats van het vignet. De A10 loopt over 192,7 km van Salzburg naar Villach en heeft ongeveer 24 km tunnels, die nu twee rijstroken per richting hebben."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Overlappen de rijverboden van Frankrijk, Duitsland en Oostenrijk?",
+          "a": "Elk land heeft een eigen weekendstop en ze beginnen op verschillende uren. Daardoor is het weekend voor een autotransporter op deze route bijna volledig dicht. Een rit begint daarom op een weekdag, en een aflevering op zaterdag of zondag is bij zware vrachtwagens uitgesloten."
+        },
+        {
+          "q": "Wat zijn de Sondermautstrecken in Oostenrijk?",
+          "a": "Zes trajecten, zoals Brenner, Tauern en Arlberg, hebben hogere tarieven dan de gewone tol. Die gelden voor zware voertuigen op die tunnels en passen. Voor een rit naar Innsbruck of naar de Arlbergtunnel zijn ze dus relevant, voor een rit naar Linz niet."
+        },
+        {
+          "q": "Kan een Duitse of Zwitserse tolbox in Oostenrijk worden gebruikt?",
+          "a": "Ja. Een Duitse Toll2Go-box en de Zwitserse Tripon-box kunnen in Oostenrijk worden gebruikt voor de GO-Maut. Een transporteur die al zo'n box heeft, kan die dus in Oostenrijk gebruiken."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Oostenrijk: de rit via Duitsland, GO-Maut, Oostenrijkse rijverboden en aflevering in Vorarlberg, Tirol of Salzburg.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://trans.info/de/oesterreich-lkw-fahrverbote-2026-479461",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://de.wikipedia.org/wiki/Rheintal/Walgau_Autobahn",
+        "https://de.wikipedia.org/wiki/Lustenau",
+        "https://de.wikipedia.org/wiki/Kleines_Deutsches_Eck",
+        "https://de.wikipedia.org/wiki/Inntal_Autobahn"
+      ]
+    },
+    "frankrijk-polen": {
+      "lead": "Polen ligt ver van Frankrijk, en de rit loopt door heel Duitsland. Wie een Franse wagen naar een Poolse koper laat brengen, rijdt via Berlijn of via Dresden naar een van twee grensovergangen, en komt daarna op Poolse autosnelwegen waar zware voertuigen via e-TOLL betalen. Mcars haalt de wagen op in Frankrijk en vervoert hem op een open autotransporter.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Door Duitsland naar Świecko of naar Jędrzychowice bij Görlitz"
+        },
+        {
+          "label": "Duitse A4",
+          "value": "583 km van Aken via Erfurt en Dresden naar Görlitz"
+        },
+        {
+          "label": "Poolse A2",
+          "value": "Vanaf Świecko via Poznań en Łódź naar Warschau"
+        },
+        {
+          "label": "Poolse A4",
+          "value": "669 km van Jędrzychowice via Wrocław naar Korczowa"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Eerst het oosten van Frankrijk uit",
+          "body": [
+            "De Franse A4 loopt over 482 km van Parijs naar Straatsburg, via Reims en Metz. Met de aftakking A320 bij Freyming-Merlebach vormt ze de gebruikelijke weg naar Duitsland. Er is geen rechtstreekse grens met Polen: de rit loopt door Duitsland, richting Berlijn en Świecko, of richting Dresden en Görlitz.",
+            "Mcars rijdt elke week over heel Frankrijk, dus de ophaling in Lotharingen of de Elzas past in een gewone ronde. Bij ophaling controleren we de wagen, maken we foto's voor intern gebruik en stellen we de CMR-vrachtbrief op."
+          ]
+        },
+        {
+          "heading": "Door Duitsland: twee corridors",
+          "body": [
+            "De Duitse A4 loopt over 583 km van Aken via Erfurt en Eisenach naar Dresden en Görlitz, aan de Poolse grens. Dat is de zuidelijke corridor, voor wagens die in Neder-Silezië, Opper-Silezië of Zuid-Polen moeten zijn.",
+            "De noordelijke corridor loopt naar Berlijn. De Poolse A2 begint bij Świecko aan de Duitse grens en sluit er aan op de Duitse A12 naar Berlijn. Vandaar gaat ze via Poznań en Łódź naar Warschau. Welke corridor we kiezen, hangt af van waar de koper woont: Poznań en Warschau liggen aan de noordelijke, Wrocław en Katowice aan de zuidelijke."
+          ]
+        },
+        {
+          "heading": "Poolse autosnelwegen en tol",
+          "body": [
+            "Het stuk van de A2 tussen de grens en Warschau is ongeveer 452 km lang en werd tussen 2001 en 2012 gebouwd. Op de A2 is het grootste deel van het stuk grens tot Konin betalend; de ring van Poznań is gratis. Het stuk Świecko tot Konin is een concessie van een private maatschappij, daarna beheert de staat de weg.",
+            "De Poolse A4 loopt over 669 km van de Duitse grens bij Jędrzychowice, bij Zgorzelec en Görlitz, via Wrocław, Katowice en Kraków naar de Oekraïense grens bij Korczowa. Het stuk Mysłowice tot Kraków is betalend."
+          ]
+        },
+        {
+          "heading": "Franse en Duitse stops onderweg",
+          "body": [
+            "Voor ritten naar Polen geldt in Frankrijk het weekendverbod voor zware vrachtwagens en in Duitsland het zondagsverbod. Het Duitse stuk is groot, want Duitsland ligt tussen de Franse oostgrens en de Poolse. Elke dag dat een transporter niet mag rijden, telt dus mee in de totale reis.",
+            "Plan de ophaling dus niet op een vrijdagavond, want wat dan nog in Frankrijk staat, wacht tot na het weekend. In Duitsland komt daar de eigen Lkw-Maut bij, die de keuze tussen autosnelweg en Bundesstraße beïnvloedt."
+          ]
+        },
+        {
+          "heading": "Aankomst in Groot-Polen, Lubusz en Neder-Silezië",
+          "body": [
+            "De Poolse regio die het dichtst bij Duitsland ligt, is Groot-Polen met Lubusz. Hoofdovergang is Świecko, tegenover Frankfurt (Oder), waar de Poolse A2 aansluit op de Duitse A12. Zuidelijker ligt Olszyna, tegenover Forst, met de A18 die aansluit op de Duitse A15.",
+            "Voor Neder-Silezië is Jędrzychowice bij Zgorzelec en Görlitz de ingang. De ring van Wrocław is 22,7 km lang. Hij hoort bij de S8-corridor maar is aangelegd als autosnelweg en draagt het nummer A8. Een koper in Poznań rijdt dus naar de A2, een koper in Wrocław naar de A4."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Inschrijving in Polen na invoer",
+          "body": "Een wagen uit de EU moet in Polen volgens Poolse gidsen dertig dagen na het binnenbrengen worden geregistreerd, en de accijnsaangifte AKC-U/S volgt binnen veertien dagen. Het zijn gidsen en geen overheidsbron, dus laat de koper de termijnen bij zijn dienst bevestigen."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone in Warschau",
+          "body": "Sinds de tweede fase van de Warschause Strefa Czystego Transportu mogen benzinewagens gebouwd vóór 2000 en diesels gebouwd vóór 2009 de zone niet meer in, behalve met vrijstelling of op maximaal vier dagen per jaar. Een afleveradres binnen de zone is een aandachtspunt voor oudere wagens."
+        },
+        {
+          "kind": "tip",
+          "title": "Controleer de wagen voor Warschau",
+          "body": "De stad Warschau heeft een officiële online controle waar u per voertuig nakijkt of het de milieuzone in mag. De stadswacht controleert via de CEPiK-databank. Gebruik het hulpmiddel vóór de koop, niet pas wanneer de wagen al onderweg is."
+        },
+        {
+          "kind": "plek",
+          "title": "Tolsectie Katowice tot Kraków",
+          "body": "De tolsectie van de A4 tussen Katowice en Kraków is 61 km lang, wordt uitgebaat door Stalexport en heeft twee tolstations, Mysłowice en Balice. Voor een koper in Zuid-Polen is dit het stuk waar de rit nog een tolsectie kent."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat is e-TOLL en geldt het voor een autotransporter?",
+          "a": "e-TOLL geldt voor voertuigen boven 3,5 ton en bussen, op ongeveer 5.870 km betalend net van autosnelwegen, expreswegen en nationale wegen. Het werkt met GNSS en een On-Board-Unit of app, en verving viaTOLL in 2021. Een autotransporter valt daar dus onder."
+        },
+        {
+          "q": "Geldt in Polen een weekendverbod voor vrachtwagens?",
+          "a": "Polen heeft geen vast weekendverbod voor vrachtwagens; enkel in de zomer van 2009 gold er een. Dat betekent dat een aflevering in Polen op zaterdag of zondag niet door een Pools rijverbod wordt tegengehouden, al blijft het Franse en Duitse stuk wel bepalend voor de planning."
+        },
+        {
+          "q": "Zijn er grenscontroles tussen Duitsland en Polen?",
+          "a": "Polen voert tijdelijke grenscontroles uit aan de grens met Duitsland, en Duitsland controleert in de andere richting. Hou de papieren van wagen en chauffeur bij de hand. De stand van zaken kan veranderen, dus kijk de actuele situatie na vóór de rit."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Frankrijk naar Polen: de rit door Duitsland, Poolse A2 en A4, e-TOLL en aflevering in Groot-Polen of Neder-Silezië door Mcars.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://www.autocentrum.pl/publikacje/porady/sprowadzony-samochod-jak-zarejestrowac/",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://um.warszawa.pl/waw/sct/sprawdz-pojazd",
+        "https://mobility.autopay.eu/pl/oplaty-drogowe/polska/",
+        "https://www.nadodrzanski.strazgraniczna.pl/nad/aktualnosci/66852,Tymczasowe-kontrole-graniczne-na-granicy-z-Niemcami-ruszyly-o-polnocy.pdf"
+      ]
+    }
+  }
+}

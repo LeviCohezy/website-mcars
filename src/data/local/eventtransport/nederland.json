@@ -1,0 +1,1172 @@
+{
+  "service": "eventtransport",
+  "origin": "nederland",
+  "pages": {
+    "nederland-belgie": {
+      "lead": "Zeeuws-Vlaanderen, Walcheren en West-Brabant liggen dichter bij Antwerpen dan bij Amsterdam, en wie van daar een wagen naar een beurs, circuit of presentatie in België wil brengen, kiest eerst zijn grens. Tunnel, brug of E19: elke keuze heeft eigen regels voor een zware, hoge autotransporter. Zo loopt zo'n eventrit van Nederland naar België.",
+      "facts": [
+        {
+          "label": "Grensovergangen",
+          "value": "Hazeldonk (A16), Zandvliet (A4) en Zelzate (N62)"
+        },
+        {
+          "label": "Westerscheldetunnel",
+          "value": "6,6 km, maximaal 4,30 m hoog, geen vluchtstrook"
+        },
+        {
+          "label": "Brussels Motor Show",
+          "value": "In januari in de paleizen van Brussels Expo"
+        },
+        {
+          "label": "Circuit Zolder",
+          "value": "4,011 km lang met 10 bochten, Heusden-Zolder"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Zeeland: de Westerscheldetunnel en de hoogte van uw transporter",
+          "body": [
+            "De Westerscheldetunnel op de N62 is 6,6 kilometer lang en verbindt Ellewoutsdijk op Zuid-Beveland met Terneuzen in Zeeuws-Vlaanderen. Personenwagens en motoren rijden er tolvrij, maar vrachtwagens en andere grotere voertuigen betalen nog tol. Die wordt in beide richtingen geheven op het tolplein bij Borssele.",
+            "Voor de doorrijhoogte in de tunnel geldt een maximum van 4,30 meter, bij 100 kilometer per uur met trajectcontrole. De tunnel heeft geen vluchtstrook. Een volledig geladen autotransporter is hoog, dus de chauffeur controleert de hoogte van de oplegger vóór hij naar de tunnel rijdt. Voor een niet-rijdende showwagen is dat extra belangrijk: stilvallen in een tunnel zonder vluchtstrook is geen plek om een lier uit te rollen."
+          ]
+        },
+        {
+          "heading": "De weg: A16 naar Hazeldonk en wat er bij de Moerdijkbruggen speelt",
+          "body": [
+            "Langs de E19 loopt de A16 van Rotterdam via Breda naar de Belgische grens bij Hazeldonk. Op de weg ernaartoe rijdt u langs de Drechttunnel bij Zwijndrecht en over de Moerdijkbruggen. Aan Belgische kant gaat dezelfde weg als A1 naar Antwerpen en Brussel.",
+            "Voor de Nederlandse kilometerheffing heeft een transporter een contract met een dienstverlener en een werkend boordtoestel dat aan staat zolang de wagen in Nederland rijdt. U kiest tussen Nedlinq, dat enkel voor Nederland geldt, en EETS-aanbieders die ook andere landen dekken. In België blijft de kilometerheffing per gewest bestaan: Brussel indexeert zijn tarieven, Vlaanderen voegt een CO2-toeslag toe, Wallonië past zijn tarieven aan. In het boordtoestel moet elke gebruiker zijn CO2-klasse laten registreren."
+          ]
+        },
+        {
+          "heading": "Rijverboden en weekends: wat u wél en niet moet verwachten",
+          "body": [
+            "In Nederland bestaat er geen algemeen rijverbod voor vrachtwagens op zaterdag, zondag of feestdagen. Beperkingen in het weekend en tijdens de spits gelden alleen voor uitzonderlijk vervoer: langer dan 22 meter, breder dan 3 meter, zwaarder dan 60 ton of met meer dan vijf assen. Daar valt een autotransporter niet onder.",
+            "Bij gladheid of bij zicht onder 200 meter komen er wel beperkingen. Voor een event op zaterdag of zondag in Antwerpen of Brussel betekent dit dat de rit op vrijdagavond of zaterdagochtend kan vertrekken, zonder dat het Nederlandse stuk de planning bepaalt. Wie voor een beurs in januari rijdt, houdt rekening met winterse omstandigheden op het Brabantse stuk van de A16."
+          ]
+        },
+        {
+          "heading": "Antwerpen: Antwerp Expo, Nekkerhal en de luchthaven",
+          "body": [
+            "Aan de Jan Van Rijswijcklaan, dicht bij de Antwerpse ring, vindt u Antwerp Expo. Een wagen voor een stand of presentatie moet daar dus eerst het drukke stuk ring op en daarna de smalle straten in. De Nekkerhal in Mechelen is een evenementenhal van ongeveer 18.500 vierkante meter zonder steunpilaren, 301 meter lang en 60 meter breed. Ze ligt aan de N15 en is via de Mechelse ring verbonden met de E19.",
+            "Op de Nekkerhal vonden autobeurzen plaats, waaronder de droomwagenbeurs Dreamcar International, die er sinds 1990 liep en in 2016 uitweek naar Kortrijk Xpo. De luchthaven van Antwerpen in Deurne ligt ongeveer vijf kilometer van het stadscentrum en is een hub voor zakenluchtvaart. Voor een shoot bij een privévlucht is dat een adres om met de luchthaven af te spreken."
+          ]
+        },
+        {
+          "heading": "Limburg: testbanen, karting en een konvooi van Mustangs",
+          "body": [
+            "Belgisch Limburg ligt tegen Nederlands Limburg en Noord-Brabant aan. In Lommel ligt het Lommel Proving Ground van Ford: 322 hectare met ongeveer 80 kilometer testbanen, in gebruik sinds 1965 en gesloten voor het publiek. Meer dan 1.300 Ford Mustangs reden in september 2019 samen in konvooi, goed voor een wereldrecord.",
+            "Karting Genk was in 2011 en 2018 gastheer van wereldkampioenschappen karting. Voor wie vanuit Brabant komt, liggen deze plekken op een natuurlijke lijn met Eindhoven en Heusden-Zolder. Mcars rijdt dagelijks in België en haalt wagens op die voor zo'n locatie bestemd zijn; het adres, de poort en het uur spreekt u vooraf met de terreinbeheerder af."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Brussels Motor Show op de Heizel",
+          "body": "De Brussels Motor Show, het Autosalon van Brussel, vindt plaats in januari in de paleizen van Brussels Expo op de Heizel. FEBIAC organiseert het salon, met personenwagens, motoren en lichte bedrijfsvoertuigen. Een salon dat sinds 1902 bestaat, vraagt een nette planning voor wie een stand moet beleveren."
+        },
+        {
+          "kind": "regel",
+          "title": "Brusselse lage-emissiezone",
+          "body": "Het volledige Brussels Hoofdstedelijk Gewest valt onder de Brusselse lage-emissiezone, met uitzondering van de Ring R0 en een aantal toegangswegen naar transitparkings. Een wagen die op eigen wielen naar een Brusselse eventlocatie rijdt, moet daarom aan de LEZ-regels voldoen. Controleer vooraf of de wagen toegelaten is."
+        },
+        {
+          "kind": "plek",
+          "title": "Circuit Zolder in Heusden-Zolder",
+          "body": "Circuit Zolder ligt bij Viversel in Heusden-Zolder en is 4,011 kilometer lang met 10 bochten. Op het programma staan onder meer de 24 Hours of Zolder, de NASCAR Whelen-reeks sinds 2015 en de Supercar Challenge sinds 2001. Wie met een raceauto komt, spreekt vooraf af waar de transporter mag lossen."
+        },
+        {
+          "kind": "tip",
+          "title": "Wintertrackdays in Zolder",
+          "body": "In de wintermaanden, van december tot februari, staan er op Circuit Zolder trackdays, een driftdag en rallytestdagen op de kalender. Dat zijn de maanden waarin Nederlandse eigenaars hun sportwagen liever laten vervoeren dan zelf over zoute wegen te rijden. Kijk de actuele kalender na."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een volledig geladen autotransporter door de Westerscheldetunnel?",
+          "a": "De maximale doorrijhoogte is 4,30 meter en de tunnel heeft geen vluchtstrook. Vrachtwagens betalen er tol. De chauffeur meet de hoogte van de geladen oplegger en kiest anders de A16 via Hazeldonk of de grensovergang bij Zandvliet."
+        },
+        {
+          "q": "Waarom werkt een Belgisch tolkastje niet in Nederland?",
+          "a": "Toestellen van Satellic, de Belgische dienstverlener, werken uitsluitend in België. Een toestel van Toll Collect uit Duitsland werkt niet in Nederland. Voor ritten door beide landen heeft de transporter een Nederlands-compatibel toestel of een dienstverlener die in beide landen is erkend."
+        },
+        {
+          "q": "Zijn overheidskantoren en keuringsstations in Nederland op feestdagen gesloten?",
+          "a": "Ze kunnen dicht zijn op Koningsdag (27 april), Bevrijdingsdag (5 mei), Hemelvaart, tweede Pinksterdag, Goede Vrijdag, tweede Paasdag en met Kerst. Wie een wagen vlak voor of na zo'n dag laat vervoeren voor papierwerk, plant daar zelf rekening mee."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar België: Westerscheldetunnel, E19, Antwerp Expo, Brussels Motor Show en Zolder. Mcars rijdt open, offerte op maat.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Westerscheldetunnel",
+        "https://www.anwb.nl/verkeer/nieuws/nederland/2024/december/westerscheldetunnel-n62-tolvrij",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://nl.wikipedia.org/wiki/Vrachtwagenheffing",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://www.timocom.co.uk/truck-driving-bans/netherlands",
+        "https://nl.wikipedia.org/wiki/Nekkerhal",
+        "https://nl.wikipedia.org/wiki/Antwerp_Expo",
+        "https://kortrijkxpo.com/en/calendar/fair/pxk/308/dreamcar-international-2016",
+        "https://nl.wikipedia.org/wiki/Internationale_Luchthaven_Antwerpen",
+        "https://nl.wikipedia.org/wiki/Lommel_Proving_Ground",
+        "https://nl.wikipedia.org/wiki/Genk",
+        "https://autosalon.be/nl",
+        "https://nl.wikipedia.org/wiki/Lage-emissiezone",
+        "https://nl.wikipedia.org/wiki/Circuit_Zolder",
+        "https://www.circuit-zolder.be/nl/kalender"
+      ]
+    },
+    "nederland-duitsland": {
+      "lead": "Wie in Utrecht of Gelderland een wagen heeft die naar een beurs, een race of een rit in Duitsland moet, rijdt over de A12 naar Zevenaar en komt via de A3 in Noordrijn-Westfalen of de Eifel uit. Geen transitland, wel een ander verkeersregime. Dit is de eventrit van Nederland naar Duitsland, met de Jaarbeurs als vertrekpunt.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A12 naar Zevenaar, daarna A3 richting Oberhausen"
+        },
+        {
+          "label": "Jaarbeurs Utrecht",
+          "value": "Op loopafstand van station Utrecht Centraal"
+        },
+        {
+          "label": "Zondagverbod",
+          "value": "In Duitsland van 0 tot 22 uur boven 7,5 ton"
+        },
+        {
+          "label": "Nordschleife",
+          "value": "20,8 km lang in de Eifel, Touristenfahrten"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Utrecht: de Jaarbeurs en de Motorbeurs",
+          "body": [
+            "Station Utrecht Centraal ligt op loopafstand van de Jaarbeurs in Utrecht, die ook over eigen parkeerterreinen beschikt. In de Jaarbeurs vindt de Motorbeurs plaats, de grote motorbeurs van Nederland. Wie vandaar een wagen of motor naar een Duitse beurs of circuitdag wil laten brengen, vindt in Utrecht een centraal ophaaladres.",
+            "Utrecht heeft een zero-emissiezone voor bestel- en vrachtauto's, net als Amersfoort en Nijmegen, en Arnhem is sinds 1 juni 2026 de laatste in dit rijtje. Bespreek vooraf met Mcars of de wagen aan de rand van de stad staat of dat de transporter met een toegelaten voertuig moet komen. Wij rijden met open, meerlaagse autotransporters en elke wagen heeft een lier."
+          ]
+        },
+        {
+          "heading": "Gelderland: Vierdaagse, Zwarte Cross en Het Loo",
+          "body": [
+            "De Nijmeegse Vierdaagse start op de derde dinsdag van juli en duurt vier dagen. Honderdduizenden bezoekers komen naar de Vierdaagsefeesten, zodat het in en rond Nijmegen moeilijk laden en lossen is. Plan een ophaling in die week bij voorkeur ruim voor of na de feesten.",
+            "De Zwarte Cross bij Lichtenvoorde in de Achterhoek is een vierdaags muziek- en motorcrossfestival in juli met meer dan 250.000 bezoekers. Ook dan is het druk op de wegen in de streek, en wie van daar een wagen naar Duitsland wil laten rijden, kiest een ander uur dan de bezoekersstroom."
+          ]
+        },
+        {
+          "heading": "De weg: A12, Zevenaar en de Duitse A3",
+          "body": [
+            "Vanaf Utrecht loopt de Nederlandse A12 via Arnhem tot aan de Duitse grens bij Bergh/Zevenaar, onder het nummer E35. Aan Duitse kant gaat ze verder als Bundesautobahn 3 richting Oberhausen. Op de A12 tussen Duiven en de grens geldt 130 km/h, maar tussen 6 en 19 uur 100 km/h. Rijkswaterstaat blijft op de A12 verbreden, onder meer tussen Bunnik en Driebergen en tussen Driebergen en Ede.",
+            "De A3 loopt van de Nederlandse grens bij Elten (Emmerich) tot Passau, ongeveer 778 kilometer, langs Oberhausen, Duisburg, Düsseldorf, Keulen, Frankfurt, Würzburg, Neurenberg en Regensburg. Bij Oberhausen en Duisburg begint het Ruhrgebied. Het eerste stuk is vol vrachtverkeer, dus u rekent op een rustig begin van de rit en een drukker eind."
+          ]
+        },
+        {
+          "heading": "Duitse regels: tol, zondag en zomerzaterdag",
+          "body": [
+            "In Duitsland geldt voor vrachtwagens boven 7,5 ton en voor aanhangercombinaties een zondag- en feestdagverbod van 0 tot 22 uur voor commercieel vervoer. Van 1 juli tot en met 31 augustus geldt daarnaast op zaterdag van 7 tot 20 uur een zomerverbod op geselecteerde autosnelwegen en Bundesstraßen. Bederfelijke levensmiddelen en gecombineerd vervoer behoren onder meer tot de uitzonderingen.",
+            "Voor een event op maandag of zondagavond in Duitsland plant u de rit dus op vrijdag of zaterdagochtend, of zorgt u dat de wagen al tijdens de week is afgeleverd. Levering op ons depot in Roeselare kan 24/7, zodat de wagen vóór het weekend klaarstaat."
+          ]
+        },
+        {
+          "heading": "Noordrijn-Westfalen en de Eifel: Essen, Düsseldorf en de Nordschleife",
+          "body": [
+            "De Retro Classics, de stambeurs uit Stuttgart, wordt ook in Essen gehouden. De Caravan Salon in Düsseldorf valt elk jaar eind augustus of begin september. Verder naar het zuiden, in de Eifel, opent het motorseizoen op de Nürburgring elk jaar in april met het evenement Anlassen. Op weekdagen wordt de Nürburgring gebruikt voor testritten van de auto-industrie en de pers, en voor rijtrainingen.",
+            "De Oldtimer-Grand-Prix op de Nürburgring, begin augustus sinds 1973, is een van de grootste historische race-events van Europa met ongeveer 500 historische racewagens. Een wagen voor zo'n weekend gaat vaak op de vrachtwagen, want een racewagen is zelden toegelaten voor de openbare weg."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Essen Motor Show",
+          "body": "De Essen Motor Show loopt elk jaar van eind november tot begin december in Messe Essen: tuning, motorsport, performance en classic cars, met een Car Market. Ze geldt als tweede autobeurs van Duitsland na de IAA. Wie er een tuning- of showwagen heeft, laat hem brengen en haalt hem na afloop op."
+        },
+        {
+          "kind": "event",
+          "title": "Grand Meeting in Korschenbroich",
+          "body": "Het Grand Meeting, de opvolger van de Classic Days van Schloss Dyck, vindt eind juli of begin augustus plaats op Rittergut Birkhof in Korschenbroich bij Düsseldorf, met onder meer Racing Legends en het concours Jewels in the Park. Een concoursauto laat u er niet op eigen wielen bij komen."
+        },
+        {
+          "kind": "plek",
+          "title": "Nordschleife en Touristenfahrten",
+          "body": "In de Eifel, in de gemeente Nürburg, vindt u de Nürburgring. De Nordschleife is 20,8 kilometer lang. Wanneer events of tests de baan niet bezetten, kan iedereen er tegen betaling rondrijden, mits de wagen is toegelaten op de openbare weg. Dat zijn de Touristenfahrten."
+        },
+        {
+          "kind": "event",
+          "title": "24 uur van de Nürburgring",
+          "body": "De 24 uur van de Nürburgring wordt meestal in een weekend in mei of juni gereden op de combinatie van Nordschleife en Grand-Prix-baan, 25,378 kilometer. Organisator is de ADAC Nordrhein. De campings voor toeschouwers gaan al de maandag ervoor open, dus de omgeving loopt dan vol."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat heeft een transporter nodig voor de Duitse vrachtwagenheffing?",
+          "a": "De Duitse vrachtwagenheffing van Toll Collect geldt voor vrachtwagens boven 3,5 ton, met een boordtoestel of de TollNow-app. Het tarief hangt af van de CO2-klasse, en de indeling voor trucks boven 16 ton verandert per 1 juli 2026."
+        },
+        {
+          "q": "Wat betekent de snelheidsbeperking op de A12 voor mijn aankomsttijd?",
+          "a": "Tussen Duiven en de Duitse grens geldt 130 km/h, maar tussen 6 en 19 uur 100 km/h. Rijkswaterstaat blijft bovendien de A12 verbreden, onder meer tussen Bunnik en Driebergen. Reken op extra marge als de wagen op een vast uur bij de hal moet zijn."
+        },
+        {
+          "q": "Waarom een wagen laten vervoeren naar een concours als hij zelf kan rijden?",
+          "a": "Een wagen die op een concours beoordeeld wordt, rijdt u liever niet over honderden kilometers snelweg met steenslag en regen. Op een open transporter ziet hij wel weer en wegvuil, maar vult hij geen kilometers. Plan aan de hal tijd in om hem op te poetsen."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Duitsland: Jaarbeurs Utrecht, de A12 naar de A3, Essen, Düsseldorf en de Nürburgring. Mcars rijdt open, offerte op maat.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Jaarbeurs_(Utrecht)",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://www.milieuzones.nl/",
+        "https://nl.wikipedia.org/wiki/Nijmeegse_Vierdaagse",
+        "https://nl.wikipedia.org/wiki/Zwarte_Cross",
+        "https://nl.wikipedia.org/wiki/Rijksweg_12",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://www.toll-collect.de/en/",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://de.wikipedia.org/wiki/Retro_Classics",
+        "https://de.wikipedia.org/wiki/Caravan_Salon",
+        "https://de.wikipedia.org/wiki/Essen_Motor_Show",
+        "https://www.essen-motorshow.de/automobilmesse/",
+        "https://www.grandmeeting.de/",
+        "https://de.wikipedia.org/wiki/Nürburgring",
+        "https://de.wikipedia.org/wiki/24-Stunden-Rennen_auf_dem_Nürburgring",
+        "https://de.wikipedia.org/wiki/AvD-Oldtimer-Grand-Prix"
+      ]
+    },
+    "nederland-frankrijk": {
+      "lead": "Van Rotterdam of Den Haag naar Parijs of Rijsel rijdt de wagen dezelfde as als bijna iedereen: de E19, door België en dan de Franse A1. Wie een wagen naar een beurs, een concours of een circuitdag in Frankrijk wil brengen, kiest die rit vanuit Zuid-Holland met een duidelijk plan voor tol, zondagen en lossen aan de beurshal.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "E19 via Antwerpen en Brussel, 551 km vanaf Amsterdam"
+        },
+        {
+          "label": "Louwman Museum",
+          "value": "Leidsestraatweg 57 in Den Haag, ruim 275 auto's"
+        },
+        {
+          "label": "Mondial de l'Auto",
+          "value": "Om de twee jaar in oktober, Porte de Versailles"
+        },
+        {
+          "label": "Rijsel-Parijs",
+          "value": "A1 is 211 km en een tolweg van SANEF"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Zuid-Holland: Louwman, Ahoy en de zero-emissiezones",
+          "body": [
+            "Het Louwman Museum staat aan de Leidsestraatweg 57 in Den Haag en toont ruim 275 auto's. Het museum organiseert wisselende tentoonstellingen rond één merk of thema, naast de vaste collectie. Rotterdam Ahoy, gevestigd aan de Ahoyweg 10, dient als beurs- en evenementenhal van Rotterdam en biedt ruim 2.200 parkeerplaatsen. Er vinden vak- en publieksbeurzen plaats, zoals de maritieme beurs Europort.",
+            "Rotterdam, Den Haag, Delft, Leiden en Gouda hebben een zero-emissiezone voor bestel- en vrachtauto's, Alphen aan den Rijn volgt. In de Bollenstreek bij Lisse is de Keukenhof acht weken per jaar open, in het voorjaar, en trekt dan veel bezoekers uit het buitenland. In die weken plant u een ophaling in de buurt van Leiden en Lisse met extra reistijd."
+          ]
+        },
+        {
+          "heading": "De E19: de drukste weg van Europa",
+          "body": [
+            "De E19 tussen Amsterdam, Antwerpen, Brussel en Parijs is 551 kilometer lang en wordt in het bronartikel de drukste weg van Europa genoemd. In Nederland loopt ze over A4, A13, A20 en A16, in België over A1, R1 rond Antwerpen, R0 rond Brussel en A7, in Frankrijk over A2 en A1. Op de Belgische ringen voegen een autotransporter en het forenzenverkeer samen.",
+            "Rijdt u voor een event in Parijs, dan staat u op de Belgische ringen vaak lang tussen vrachtwagens. Plan een marge in als de wagen op een vast tijdstip bij de hal moet zijn. Mcars rijdt wekelijks in heel Frankrijk, ook naar stockageparken, en geeft u een offerte op maat."
+          ]
+        },
+        {
+          "heading": "Frankrijk: tol, rijverbod en zomerzaterdagen",
+          "body": [
+            "De Franse A1 tussen Parijs en Rijsel is 211 kilometer lang, open sinds 1954 en wordt beheerd door SANEF. Het bronartikel noemt ze de drukste autoroute van Frankrijk. Op deze tolweg liggen onder meer de tolpleinen Chamant en Fresnes-lès-Montauban.",
+            "In Frankrijk geldt voor zwaar vrachtverkeer een weekendverbod. De bronnen verschillen over de uren, dus controleer de exacte tijden bij de transporteur. In juli en augustus komen daar op meerdere zaterdagen extra verbodsperiodes bij, vooral richting de Middellandse Zee en rond de Mont-Blanc- en Fréjustunnel. Voor een event in Noord-Frankrijk of Parijs is dat zelden relevant, maar wie een wagen verder zuidwaarts laat doorrijden, houdt er rekening mee."
+          ]
+        },
+        {
+          "heading": "Rijsel en Noord-Frankrijk: Grand Palais, Compiègne en Coquelles",
+          "body": [
+            "Ter hoogte van Rijsel haken de A22 richting Gent en de A27 richting Brussel aan op het Franse net, terwijl de A2 naar Brussel, Luik en Bergen leidt. Lille Grand Palais is het congres- en beurscentrum van Rijsel, in de zakenwijk Euralille op wandelafstand van de stations Lille-Europe en Lille-Flandres, met ongeveer 45.000 vierkante meter oppervlakte.",
+            "Het Circuit de Croix-en-Ternois in Pas-de-Calais ligt langs de D939 bij Saint-Pol-sur-Ternoise, is ongeveer 1,9 kilometer lang en bestaat sinds 1973. Onder meer een Grand Prix Historique staat op het programma. In het kasteel van Compiègne toont het Musée national de la Voiture et du Tourisme een dertigtal vroege auto's, waaronder de elektrische La Jamais Contente uit 1899. Via afrit 42 van de A16 bereikt u Coquelles, waar de Franse terminal van de Kanaaltunnel ligt."
+          ]
+        },
+        {
+          "heading": "Parijs: beurzen, Montlhéry en Chantilly",
+          "body": [
+            "Comexposium organiseert Rétromobile, dat in Paris Expo Porte de Versailles de paviljoenen 1, 2 en 3 in beslag neemt. De Autodrome de Linas-Montlhéry in de Essonne, ongeveer 30 kilometer van Parijs, dateert van 1924 en is bekend om zijn snelheidsring met kombochten. Eigenaar UTAC gebruikt het terrein vooral voor voertuigtests. Op de autodroom vinden ook publieksevents plaats, zoals Les Grandes Heures Automobiles, het Youngtimers Festival, de US Motor Show, het Jap'n'Car Festival en het Café Racer Festival.",
+            "Het Circuit Carole in Tremblay-en-France is 2.055 meter lang en bedoeld voor motoren en karts; de Franse motorbond FFM beheert het. Zulke terreinen liggen aan de rand van Parijs, buiten de drukste ringen. Een transporter laadt er het liefst vroeg."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Mondial de l'Auto in Parijs",
+          "body": "Het Mondial de l'Auto vindt om de twee jaar plaats, in oktober van de even jaren, in Paris Expo Porte de Versailles. De eerste editie dateert van 1898. Organisatoren zijn Hopscotch Groupe en de Plateforme automobile. Wie een wagen voor een stand levert, plant de rit ruim voor de opbouwdagen."
+        },
+        {
+          "kind": "event",
+          "title": "Tour Auto: vertrek in Parijs",
+          "body": "Het vertrek van de Tour Auto ligt altijd in Parijs: meestal in het Grand Palais, in sommige jaren in Paris Expo Porte de Versailles. De wedstrijddagen lopen van dinsdag tot zaterdag. Deelnemers die hun klassieker laten vervoeren, laten hem vóór dat vertrek in Parijs aanleveren."
+        },
+        {
+          "kind": "event",
+          "title": "Chantilly Arts & Elegance",
+          "body": "Chantilly Arts & Elegance is een concours d'élégance van Peter Auto op het domein van het Château de Chantilly in de Oise, sinds 2014, meestal in september en sinds 2019 om de twee jaar. Ook een concours d'état, een clubtreffen en een veiling maken er deel van uit."
+        },
+        {
+          "kind": "plek",
+          "title": "Paris Nord Villepinte",
+          "body": "Paris Nord Villepinte in Seine-Saint-Denis is volgens de Parijse kamer van koophandel het grootste beurzencomplex van Frankrijk. Het ligt vlak bij de luchthaven Charles-de-Gaulle, met de A1 en A3 in de buurt. Afritten 1 en 2 van de A104 leiden ernaartoe."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een transporter op zaterdag of zondag een wagen voor een event in Frankrijk afleveren?",
+          "a": "Vrachtwagens die voertuigen of materiaal vervoeren voor economische, sportieve, culturele of andere evenementen hebben een permanente afwijking op de Franse rijverboden, op voorwaarde dat het evenement ten laatste vier dagen vóór of na de rit plaatsvindt."
+        },
+        {
+          "q": "Wat als mijn wagen voor een zero-emissiezone in Rotterdam of Den Haag moet worden opgehaald?",
+          "a": "Rotterdam, Den Haag, Delft, Leiden en Gouda kennen een zero-emissiezone die voor bestel- en vrachtauto's geldt. Spreek daarom af of de wagen aan de rand van de zone kan worden opgehaald, zodat de transporter niet de zone in hoeft."
+        },
+        {
+          "q": "Waar laat ik een wagen lossen die naar Paris Nord Villepinte moet?",
+          "a": "Het complex ligt vlak bij de luchthaven Charles-de-Gaulle en is bereikbaar via de A104. Spreek met de organisatie af welke ingang voor transporters open is en op welk uur, zodat de chauffeur niet in de file rond de afritten staat."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Frankrijk: wagens naar Paris Expo, Rijsel en Chantilly via de E19. Zo werken tol, zomerzaterdagen en lossen. Offerte op maat.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Louwman_Museum",
+        "https://www.louwmanmuseum.nl/",
+        "https://www.ahoy.nl/",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://nl.wikipedia.org/wiki/Keukenhof",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://www.viapass.be/",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://fr.wikipedia.org/wiki/Lille_Grand_Palais",
+        "https://fr.wikipedia.org/wiki/Circuit_de_Croix-en-Ternois",
+        "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_la_voiture_et_du_tourisme",
+        "https://fr.wikipedia.org/wiki/Tunnel_sous_la_Manche",
+        "https://fr.wikipedia.org/wiki/R%C3%A9tromobile",
+        "https://fr.wikipedia.org/wiki/Autodrome_de_Linas-Montlh%C3%A9ry",
+        "https://fr.wikipedia.org/wiki/Circuit_Carole",
+        "https://fr.wikipedia.org/wiki/Mondial_de_l%27automobile_de_Paris",
+        "https://fr.wikipedia.org/wiki/Tour_Auto",
+        "https://fr.wikipedia.org/wiki/Chantilly_Arts_%26_Elegance_Richard_Mille",
+        "https://fr.wikipedia.org/wiki/Parc_des_expositions_de_Paris-Nord_Villepinte"
+      ]
+    },
+    "nederland-italie": {
+      "lead": "Brabant kijkt naar Duitsland, en van daar naar de Alpen. Een wagen uit de Brainportregio die naar Monza, Bozen of Milaan moet, rijdt de hele lengte van Duitsland, kruist de Brenner of de Gotthard en komt in een land waar een stadscentrum zijn eigen regels heeft. Zo ziet een eventrit van Nederland naar Italië eruit.",
+      "facts": [
+        {
+          "label": "Brabanthallen",
+          "value": "55.000 m² in 's-Hertogenbosch, na RAI en Jaarbeurs het grootste"
+        },
+        {
+          "label": "Brenner",
+          "value": "Pas op 1.375 m, E45 met A13 en A22"
+        },
+        {
+          "label": "A22 Brenner-Modena",
+          "value": "Ongeveer 315 km, twee rijstroken per richting"
+        },
+        {
+          "label": "Stelvio",
+          "value": "88 haarspeldbochten, jaarlijks een fietsdag zonder motorverkeer"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Brabant: Brabanthallen, Autotron en het DAF Museum",
+          "body": [
+            "Na de RAI en de Jaarbeurs zijn de Brabanthallen in 's-Hertogenbosch, met 55.000 vierkante meter, het grootste beurscomplex van Nederland. Er vinden vakbeurzen, automarkten en grote evenementen plaats. Tot 2003 was het Autotron in Rosmalen een automuseum en themapark. De collectie ging naar het Nationaal Automobiel Museum, nu het Louwman Museum, en vandaag is Autotron een beurs- en evenementenlocatie.",
+            "Het DAF Museum aan de Tongelresestraat 27 in Eindhoven staat op de plek waar DAF begon en toont voertuigen uit de hele DAF-geschiedenis. Het is open van dinsdag tot zondag. De Automotive Campus in Helmond is de ontmoetings- en vestigingsplaats voor automotive en slimme mobiliteit in de Brainportregio, met testfaciliteiten, opleidingen en bedrijven. Een prototype dat naar een Italiaanse lancering gaat, verlaat die regio vaak per vrachtwagen."
+          ]
+        },
+        {
+          "heading": "Zuidoost-Brabant: Eurocircuit, ELE Rally en zero-emissiezones",
+          "body": [
+            "Het Eurocircuit in Valkenswaard is een permanent rallycrosscircuit van ongeveer 1 kilometer, deels onverhard. Het Europees kampioenschap rallycross komt er langs en Dakar-teams stellen er hun voertuigen voor. De ELE Rally is een tweedaagse snelheidsrally in Zuidoost-Brabant, tussen half mei en juni, met start en finish in Son en Breugel. De klassementsproeven lopen van ten zuidoosten van Helmond tot ten noordwesten van Eindhoven.",
+            "Een zero-emissiezone voor bestel- en vrachtauto's geldt in Eindhoven en Tilburg sinds 1 januari 2025 en in 's-Hertogenbosch sinds 1 maart 2025. De vroegere milieuzones voor dieselvrachtauto's zijn daardoor vervallen. Elk jaar in oktober vindt in Eindhoven de Dutch Design Week plaats, op meer dan 120 locaties in de stad. Dan zijn laden en lossen er lastig."
+          ]
+        },
+        {
+          "heading": "Over de Alpen: Brenner, A22 en de Franse tunnels",
+          "body": [
+            "Brennerroute: E45, met de Oostenrijkse A13 en de Italiaanse A22, van Innsbruck over de Brenner naar Bozen en Verona. De pas ligt op 1.375 meter en het bronartikel noemt de Brenner de drukste Alpenroute voor vrachtverkeer. De A22 Brenner-Modena is ongeveer 315 kilometer lang, bilingue bewegwijzerd en telt 30.000 tot 40.000 voertuigen per dag, waarvan een derde vrachtverkeer. Omdat er per richting slechts twee rijstroken zijn, ontstaan er geregeld files.",
+            "Via Frankrijk kan het ook. De Mont Blanc-tunnel is 11,6 kilometer lang met twee rijstroken in één buis; vrachtwagens rijden in groepen van vijf, minimaal 150 meter uit elkaar, tussen 50 en 70 km/h. De Fréjus-tunnel is 12,9 kilometer lang, met toegang via de A43 en de A32. De tweede buis is geopend, maar de capaciteit blijft gelijk: één rijstrook plus pechstrook per richting."
+          ]
+        },
+        {
+          "heading": "Zuid-Tirol en de Dolomieten: klimkoersen en rally's",
+          "body": [
+            "Messe Bozen ligt in de industriezone van Bolzano, bij station Bozen Süd, met 25.000 vierkante meter hal en 15.000 vierkante meter buitenterrein. De klimkoers Trento-Bondone, 17,3 kilometer lang en sinds 1925, wordt in juli gereden en telt mee voor het Europees bergkampioenschap. De Winter Marathon is een regelmatigheidsrit voor historische wagens in Madonna di Campiglio, elk jaar eind januari, over meer dan 500 kilometer Dolomietenwegen en passen.",
+            "De Südtirol Classic Schenna is een internationale oldtimerrally vanuit Schenna bij Meran, elk jaar in juli, met een tweede Golden Edition in oktober. De Coppa d'Oro delle Dolomiti vertrekt elk jaar in juli in Cortina d'Ampezzo en gaat over passen als Giau, Falzarego en Fedaia. Op bergwegen met haarspelden is een lange transporter niet welkom; spreek af waar de wagen van boven af wordt overgedragen."
+          ]
+        },
+        {
+          "heading": "ZTL: de zone waarin u niet zomaar lost",
+          "body": [
+            "Een ZTL, zona a traffico limitato, wordt aangeduid met een bord en een onderbord met de toegelaten voertuigen en eventuele uren. Dynamische panelen moeten ZTL ATTIVA of ZTL NON ATTIVA tonen. Camera's mogen volgens de ministeriële richtlijnen van 2019 ook binnen de zone staan.",
+            "ZTL's en voetgangerszones worden per gemeente vastgelegd bij besluit van het college. Toegang kan betalend zijn. Elke stad heeft dus eigen uren en vergunningen, na te vragen bij de gemeente of de organisator. Een autotransporter van meerdere verdiepingen is geen voertuig dat u in een historisch centrum wilt zien. Vraag bij elk event de laad- en loslocatie buiten de zone op en spreek daarna het uur af."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Autodromo Nazionale di Monza",
+          "body": "Sinds 1922 ligt de Autodromo Nazionale di Monza in het Parco di Monza. Terugkerende data zijn de Formule 1 Gran Premio d'Italia begin september, de GT World Challenge Europe in april, de WEC-race in juli en de Monza Rally Show eind november of begin december."
+        },
+        {
+          "kind": "event",
+          "title": "EICMA in Fiera Milano Rho",
+          "body": "Elk jaar in november wordt EICMA, de internationale motor- en fietsbeurs, gehouden in Fiera Milano in Rho. Fiera Milano Rho-Pero werd in 2005 geopend en ligt aan de Strada Statale del Sempione 28. De tweede site, Fiera Milano Città in Portello, ligt in de stad."
+        },
+        {
+          "kind": "regel",
+          "title": "Foglio di via voor niet-ingeschreven voertuigen",
+          "body": "Met een foglio di via en een voorlopige plaat mag een niet-ingeschreven voertuig over de weg naar toegelaten tentoonstellingen of beurzen van nieuwe en gebruikte voertuigen. Dat is artikel 99 van de Italiaanse wegcode. De organisator of de importeur regelt dit, niet de transporteur."
+        },
+        {
+          "kind": "tip",
+          "title": "De Stelvio op een fietsdag",
+          "body": "De Stelvio telt 88 haarspeldbochten: 48 aan Zuid-Tiroolse kant en 40 aan Lombardische kant. Elk jaar, op de laatste zaterdag van augustus of de eerste van september, is de pas een dag afgesloten voor gemotoriseerd verkeer voor een fietsdag. Plan een shoot daar niet op die dag."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een autotransporter op zondag in Italië rijden?",
+          "a": "Italië kent een zondagsverbod voor vrachtwagens boven 7,5 ton, van oktober tot mei ongeveer 8 of 9 tot 22 uur en van juni tot september van 7 tot 22 uur. Het geldt ook op feestdagen en drukke dagen. De bronnen verschillen op het uur."
+        },
+        {
+          "q": "Wanneer kom ik een ZTL-boete te weten?",
+          "a": "Camera's tellen elke passage en de boete komt maanden tot bijna een jaar later per post. Hotels in een ZTL kunnen uw plaat registreren. Soms moeten elektrische auto's eerst bij de gemeente geregistreerd zijn. Vraag dus vooraf of een wagen de zone in mag."
+        },
+        {
+          "q": "Wanneer is Brabant moeilijk bereikbaar voor een transporter?",
+          "a": "Vooral in Noord-Brabant en Limburg viert men carnaval, van zondag tot en met dinsdag, zeven weken vóór Pasen. Veel plaatsen beginnen al eerder met de festiviteiten. Plan ophalingen in die weken met extra tijd."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Italië: vertrek in Brabant, over de Brenner naar Zuid-Tirol, Monza en Milaan, met ZTL-regels. Mcars rijdt open.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Brabanthallen_'s-Hertogenbosch",
+        "https://nl.wikipedia.org/wiki/Autotron",
+        "https://www.dafmuseum.nl/",
+        "https://www.automotivecampus.com/",
+        "https://nl.wikipedia.org/wiki/Eurocircuit",
+        "https://nl.wikipedia.org/wiki/ELE_Rally",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://www.milieuzones.nl/vrachtautos",
+        "https://nl.wikipedia.org/wiki/Dutch_Design_Week",
+        "https://nl.wikipedia.org/wiki/Carnaval",
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://de.wikipedia.org/wiki/Messe_Bozen",
+        "https://en.wikipedia.org/wiki/Trento-Bondone_Hill_Climb",
+        "https://www.wintermarathon.it/",
+        "https://www.suedtirolclassic.com/",
+        "https://www.coppadorodelledolomiti.it/",
+        "https://it.wikipedia.org/wiki/Zona_a_traffico_limitato",
+        "https://aci.gov.it/codice-della-strada/art-7/",
+        "https://aci.gov.it/codice-della-strada/art-99/",
+        "https://www.evz.de/en/topics/transport/car/fines-abroad/ztl-italy/",
+        "https://it.wikipedia.org/wiki/Autodromo_nazionale_di_Monza",
+        "https://it.wikipedia.org/wiki/Fiera_Milano",
+        "https://it.wikipedia.org/wiki/EICMA",
+        "https://it.wikipedia.org/wiki/Passo_dello_Stelvio"
+      ]
+    },
+    "nederland-luxemburg": {
+      "lead": "Vanuit Maastricht naar Luxemburg rijdt u dwars door België: Luik, de Ardennen, de Belgische A4 en dan Luxemburg-Stad. Een wagen die op de Kirchberg op een stand, een lancering of een shoot moet staan, legt dus drie landen af. Zo gaat zo'n eventrit, van de beurshallen van Zuid-Limburg naar Luxexpo The Box.",
+      "facts": [
+        {
+          "label": "Vertrek",
+          "value": "MECC Maastricht, in de wijk Randwyck"
+        },
+        {
+          "label": "Route",
+          "value": "A2/E25 via Luik en de Ardennen, A6 in Luxemburg"
+        },
+        {
+          "label": "Luxexpo",
+          "value": "Bereikbaar via afrit 8 van de A1, noord- en zuidingang"
+        },
+        {
+          "label": "Motor Show",
+          "value": "International Motor Show Luxembourg, in november"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Maastricht: MECC, InterClassics en TEFAF",
+          "body": [
+            "MECC Maastricht ligt in de kantoorwijk Randwyck, op loopafstand van station Maastricht Randwyck. Het complex is ongeveer 45.000 vierkante meter groot, met vier beurshallen van samen bijna 30.000 vierkante meter. In januari, meestal in het tweede of derde weekend, is er de klassiekerbeurs InterClassics Maastricht. Die bestaat sinds 1994. In maart vindt in dezelfde hallen de kunstbeurs TEFAF plaats, en dan is het rond Randwyck druk.",
+            "Wie een klassieker of een kunstwerk op wielen laat brengen of ophalen, plant de lading dus buiten de beursdagen zelf. Een open, meerlaagse autotransporter heeft ruimte nodig om te manoeuvreren. Spreek het laadadres af met de organisatie, en bespreek of de wagen binnen of buiten de hal wordt overgedragen."
+          ]
+        },
+        {
+          "heading": "Maastricht in en uit: de A2-tunnel en de zone",
+          "body": [
+            "In Maastricht gaat de A2 door de Koning Willem-Alexandertunnel. De hoofdrijbaan is de A2, de parallelbaan heet N2. Voor het centrum neemt u afrit 53 (Geusselt) of afrit 54 (Europaplein) op de N2. Tot december 2016 werd de A2 hier onderbroken door een stuk N2 met verkeerslichten; de vierstrooks tunnel, in twee lagen gebouwd, heeft die onderbreking weggenomen.",
+            "Voor een transporter betekent dat een rit zonder stoplichten tot aan de afrit. Vanaf de afrit gaat het door de stad. Spreek het laadadres met de organisatie af en bekijk de laatste kilometers vooraf op de kaart."
+          ]
+        },
+        {
+          "heading": "De weg: A2, E25 en de Belgische Ardennen",
+          "body": [
+            "De Nederlandse A2 loopt van Amsterdam tot de Belgische grens bij Maastricht, 217 kilometer lang, beheerd door Rijkswaterstaat. Tot Utrecht draagt ze E35, daarna E25 tot de grens. In België gaat de weg verder als A25 van Visé naar Luik, rond Luik over de A3 en de A602, en daarna over de A4 van Neufchâteau naar Aarlen. In Luxemburg volgt de A6 van Kleinbettingen naar Luxemburg-Stad.",
+            "Wie via Brussel rijdt in plaats van via Luik, neemt de Belgische A4, die Autoroute des Ardennes heet en deel uitmaakt van de E411 Brussel, Namen en Aarlen. Voor vrachtvoertuigen boven 3,5 ton geldt op het Belgische deel de kilometerheffing van Viapass, met een boordtoestel. Een transport tussen Nederland en Luxemburg raakt dit stuk altijd."
+          ]
+        },
+        {
+          "heading": "Zondag en feestdag: wat Luxemburg anders doet",
+          "body": [
+            "Voor transit richting Frankrijk en Duitsland geldt in Luxemburg een weekend- en feestdagrijverbod voor vrachtwagens boven 7,5 ton. Van het verbod zijn transit richting België en vervoer binnen Luxemburg uitgezonderd. Een eventwagen die in Luxemburg zelf wordt afgeleverd, wordt dus niet geraakt door het verbod dat een vrachtwagen naar Metz of Trier wel treft.",
+            "Dat verschilt van Frankrijk en Duitsland, waar een transporter op zondag niet zomaar mag rijden. Wie een wagen van Luxemburg door wil laten rijden naar Parijs of Keulen, plant de heenrit of terugrit op een werkdag of vraagt vooraf aan Mcars wat realistisch is. Hoe dat gaat, beschrijven we op de pagina's van die landen."
+          ]
+        },
+        {
+          "heading": "Kirchberg en de binnenstad: laden op een plateau",
+          "body": [
+            "Luxexpo The Box ligt op het Kirchbergplateau, aan het Circuit de la Foire Internationale 10, met ongeveer 30.000 vierkante meter modulaire ruimte voor beurzen, productlanceringen en congressen. Het plateau en de bovenstad zijn met Limpertsberg verbonden via de brug Grande-Duchesse Charlotte. Aan Luxexpo liggen Parking Nord, met ongeveer 750 plaatsen, en Parking Sud, met ongeveer 650 plaatsen.",
+            "Verzinkbare paaltjes sluiten de voetgangerszone in het stadscentrum af. Zolang de paaltjes omlaag staan, tussen 6 en 10 uur, zijn leveringen en toegang gewaarborgd. Buiten die uren meldt men zich aan bij de technische paal. Men mag er niet parkeren en de snelheid ligt begrensd op 20 km/u. Vraag vooraf of een autotransporter de zone in mag, en kies anders een losplek vlak voor de zone."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "International Motor Show Luxembourg",
+          "body": "De International Motor Show Luxembourg is een auto- en motorbeurs in Luxexpo The Box op de Kirchberg, in november. Het aanbod omvat productie-, sport-, luxe- en klassieke wagens, moto's, racewagens, een tuningafdeling en stuntshows. Wie een wagen wil tonen, laat hem er op tijd brengen."
+        },
+        {
+          "kind": "plek",
+          "title": "Luxembourg Airport en Cargolux",
+          "body": "Luxembourg Airport is een belangrijke vrachtluchthaven en thuisbasis van Cargolux. Hier landen wagens voor lanceringen of shoots die per luchtvracht aankomen. Daarna moet er een transport volgen naar de eventlocatie, bijvoorbeeld naar de Kirchberg."
+        },
+        {
+          "kind": "regel",
+          "title": "Rode platen voor handelaars",
+          "body": "Met professionele rode platen kan een handelaar een niet-ingeschreven wagen verplaatsen om hem aan een klant te tonen. Valt een showwagen zonder inschrijving niet onder die regeling, dan blijft vervoer op de vrachtwagen de oplossing."
+        },
+        {
+          "kind": "plek",
+          "title": "ACL: karting en historische voertuigen",
+          "body": "In Mondercange beschikt de ACL over een eigen kartingbaan en het hele jaar door biedt ze opleidingen, roadtrips en uitstappen aan voor liefhebbers, waaronder rijopleidingen voor eigenaars van historische voertuigen. Wie met een klassieker aan zo'n uitstap deelneemt, laat hem desnoods vervoeren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een transporter op zondag materiaal voor een beurs in Luxemburg leveren?",
+          "a": "Van het zon- en feestdagsrijverbod voor vrachtwagens is materiaal voor toegelaten economische, sportieve, culturele, educatieve of politieke evenementen vrijgesteld. Of een rit daaronder valt, vraagt u vooraf na bij de organisator."
+        },
+        {
+          "q": "Kan mijn klant met het vliegtuig komen en de wagen op Luxexpo vinden?",
+          "a": "Ja. Tramlijn T1 verbindt Luxembourg Airport rechtstreeks met Luxexpo, met haltes Luxexpo en Alphonse Weicker, en met het stadscentrum. Wie zijn wagen laat brengen, kan zelf met vliegtuig en tram aansluiten."
+        },
+        {
+          "q": "Moet ik in Maastricht rekening houden met een zero-emissiezone voor bestel- en vrachtwagens?",
+          "a": "Maastricht heeft sinds 1 januari 2025 een zero-emissiezone voor bestel- en vrachtauto's. De aparte milieuzone voor dieselvrachtauto's is er op 1 januari 2026 opgeheven. Controleer de actuele regels voor het laadadres."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Luxemburg: MECC Maastricht, A2/E25 door België, Luxexpo en de Motor Show op de Kirchberg. Mcars rijdt open, offerte op maat.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/MECC_Maastricht",
+        "https://nl.wikipedia.org/wiki/InterClassics",
+        "https://nl.wikipedia.org/wiki/Rijksweg_2",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://www.milieuzones.nl/vrachtautos",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Netherlands)",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://www.viapass.be/",
+        "https://thebox.lu/",
+        "https://thebox.lu/fr/acceder-a-luxexpo",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=LU",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://www.vdl.lu/fr/se-deplacer/en-voiture/livraisons-et-vignette-dacces",
+        "https://en.wikipedia.org/wiki/Luxembourg_Airport",
+        "https://snca.public.lu/fr/professionnels/professionnels-automobile/plaques-rouges-pro.html",
+        "https://www.acl.lu/",
+        "https://chronicle.lu/category/motor-sports/58005-25th-international-motor-show-luxembourg-draws-crowds-with-new-acl-race-x-event"
+      ]
+    },
+    "nederland-oostenrijk": {
+      "lead": "Vanuit het Utrechtse en het Veluwse land naar de Red Bull Ring, de Großglockner of een beurs in Salzburg is het een lange dag over één en dezelfde as: A12, dan de Duitse A3 tot Passau, daarna Oostenrijk. Hier ligt het verschil niet in de weg zelf, maar in de uren waarop een zware transporter mag rijden. Zo plant u een eventrit van Nederland naar Oostenrijk.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A12, Duitse A3 tot Passau, daarna A8 in Oostenrijk"
+        },
+        {
+          "label": "Zaterdagverbod",
+          "value": "Van 15 tot 24 uur voor voertuigen boven 7,5 ton"
+        },
+        {
+          "label": "Red Bull Ring",
+          "value": "4,326 km lang, tien bochten, ligt tegen een helling"
+        },
+        {
+          "label": "Großglockner",
+          "value": "48 km en 36 haarspeldbochten, hoogste punt 2.504 m"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Utrechtse Heuvelrug en Veluwe: Soestdijk, Het Loo en Soesterberg",
+          "body": [
+            "In de tuinen van Paleis Soestdijk in Baarn vindt eind augustus het concours voor klassieke auto's plaats dat vroeger Concours d'Elegance heette en nu Wheels at the Palace. Een jury beoordeelt er een zeventigtal wagens in klassen. Het concours stond jarenlang bij Paleis Het Loo in Apeldoorn en is daarna naar Soestdijk verhuisd. Wie nog Het Loo als locatie in het hoofd heeft, zit dus fout.",
+            "Het Nationaal Militair Museum ligt op de voormalige vliegbasis Soesterberg en toont tanks, legervoertuigen en vliegtuigen, binnen en buiten. Een militair voertuig dat naar een Oostenrijkse show moet, hoort op een transporter thuis; een lier helpt bij het laden. Mcars vervoert ook oldtimers, sportwagens en camionettes."
+          ]
+        },
+        {
+          "heading": "De weg: van Zevenaar naar Passau",
+          "body": [
+            "De Nederlandse A12 sluit bij Zevenaar aan op de Duitse A3, met nummer E35 tot de grens. De A3 loopt van Elten aan de Nederlandse grens tot Passau, ongeveer 778 kilometer, en gaat daar over de Inn. In Oostenrijk is ze de A8, de Innkreisautobahn.",
+            "Voor Oberösterreich komt het verkeer uit België, Nederland, Luxemburg en Noord-Duitsland binnen over de Duitse A3 bij Passau en de grensovergang Suben, waar de A8 begint. Voor Salzburg komt het binnen over de Duitse A8 en de grensovergang Walserberg bij de stad Salzburg. Welke grens u kiest, hangt af van het adres. Voor de tol- en zondagsregels in Duitsland verwijzen we naar de pagina van dat land; hier gaat het om wat daarna komt."
+          ]
+        },
+        {
+          "heading": "Oostenrijkse rijverboden: zaterdag vanaf 15 uur",
+          "body": [
+            "In Oostenrijk mogen voertuigen boven 7,5 ton, en wagens boven 3,5 ton met aanhanger, zaterdag van 15 tot 24 uur en op zon- en feestdagen van 0 tot 22 uur niet rijden, het hele jaar. Seizoensgebonden komen er op drukke transitroutes, zoals de Brenner en de Fernpass, extra beperkingen bij.",
+            "Concreet betekent dit voor een event op zaterdag of zondag in Salzburg, Linz of Tirol dat de wagen vrijdag of zaterdagvoormiddag moet aankomen. Bij een weekend op de Red Bull Ring komt de transporter uiterlijk vrijdagmiddag, of anders op maandag. Spreek bij de offerte een aankomstvenster af."
+          ]
+        },
+        {
+          "heading": "Oberösterreich en Salzburg: Ried, Messezentrum en Großglockner",
+          "body": [
+            "Automesse Ried is een autobeurs op het beursterrein van Ried in Oberösterreich, in februari, met een oldtimerluik. In Salzburg ligt het Messezentrum aan Am Messezentrum 1, een beurscomplex waar onder meer voertuigbeurzen plaatsvinden.",
+            "De Großglockner Hochalpenstraße is een 48 kilometer lange panoramaweg met 36 haarspeldbochten tussen Fusch in Salzburg en Heiligenblut in Karinthië. Het Hochtor ligt op 2.504 meter en het hoogste berijdbare punt is de Edelweißspitze op 2.571 meter, via een zijweg. Voor een fotoshoot met een sportwagen of een klassieker is dit een van de bekendste plekken van het land. Spreek af waar de wagen van de transporter komt en wie hem boven brengt."
+          ]
+        },
+        {
+          "heading": "Steiermark: de Red Bull Ring in Spielberg",
+          "body": [
+            "De Red Bull Ring ligt in Spielberg in het Murtal in Steiermark, Red Bull Ring Straße 1. De baan is 4,326 kilometer lang, heeft tien bochten en ligt tegen een helling, met een maximale stijging van 12 procent. Voor een racewagen die op een trailer of op een transporter aankomt, is de toegang tot het paddock een zaak van de organisator.",
+            "De Steiermark ligt aan de zuidoostkant van de rit. Verkeer uit Duitsland en België komt over de A8 bij Suben en het Voralpenkreuz de A9 op, door de Bosruck- en Gleinalmtunnel naar Graz. De A9 eindigt bij grensovergang Spielfeld. Plan de laatste kilometers naar het circuit met de organisatie."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "F1, MotoGP en DTM op de Red Bull Ring",
+          "body": "De Formule 1 Grote Prijs van Oostenrijk wordt in juli op de Red Bull Ring gereden. De MotoGP Grote Prijs van Oostenrijk staat in augustus op de kalender en ook de DTM komt er jaarlijks. Wie een raceauto brengt, plant de aanlevering ruim voor het weekend."
+        },
+        {
+          "kind": "regel",
+          "title": "Großglockner: seizoen en nachtsluiting",
+          "body": "De Großglockner Hochalpenstraße is alleen open van begin mei tot begin november en is 's nachts gesloten. Per periode verschillen de openingsuren, en u kunt tot 45 minuten voor sluiting nog binnenrijden. In de winter is de weg dicht. Een shoot buiten het seizoen is dus onmogelijk."
+        },
+        {
+          "kind": "event",
+          "title": "Oldtimertreffen rond de Großglockner",
+          "body": "Vaste evenementen op en rond de Großglockner Hochalpenstraße zijn een oldtimertractortreffen in Bruck/Fusch in september met een gezamenlijke rit naar het Fuscher Törl, de Vespa Alp Days en de Saalbach Classic. Voor elektrische wagens heeft de weg ook een eigen programma."
+        },
+        {
+          "kind": "regel",
+          "title": "Luide motoren in Reutte en Imst",
+          "body": "Voor bijzonder luide motorfietsen is er een rijverbod in de Tiroolse districten Reutte en Imst. Gaat u met een motor naar een treffen of toerrit in die streek, controleer dan vooraf het standgeluid op het kentekenbewijs."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik op de Red Bull Ring zelf rijden met mijn eigen wagen?",
+          "a": "De Red Bull Ring heeft een eigen Driving Center met rijervaringen, onder meer driften met de eigen wagen, offroad- en wintertrainingen, en een zakelijk aanbod voor meetings en incentives. Vraag het circuit welke wagens zijn toegelaten."
+        },
+        {
+          "q": "Hoe werkt de toegang tot de Großglockner Hochalpenstraße?",
+          "a": "Een dagticket geeft toegang, tegen betaling, en de snelheid is beperkt tot 70 km/u. Een wagen laat u liefst brengen tot Fusch of Heiligenblut, zodat de chauffeur of de eigenaar zelf de pas op rijdt."
+        },
+        {
+          "q": "Wat als de wagen na het event in Oostenrijk blijft?",
+          "a": "Dan gaat het om invoer. Bij de inschrijving in Oostenrijk ontstaat de NoVA, de normverbruiksafgifte, en de wagen mag pas worden ingeschreven nadat die is betaald. Dat regelt u zelf of via een dealer. Mcars vervoert enkel."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Oostenrijk: Soestdijk, A3 naar Passau, rijverboden, Red Bull Ring en Großglockner. Mcars rijdt open, offerte op maat.",
+      "sources": [
+        "https://autorai.nl/wheels-at-the-palace-een-nieuwe-naam-voor-vertrouwd-recept/",
+        "https://nl.wikipedia.org/wiki/Paleis_Soestdijk",
+        "https://www.autoreview.nl/nieuws/id/27401/klassiekershow-concours-delegance-niet-langer-op-t-loo",
+        "https://nl.wikipedia.org/wiki/Nationaal_Militair_Museum",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://nl.wikipedia.org/wiki/Rijksweg_12",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn",
+        "https://de.wikipedia.org/wiki/Kleines_Deutsches_Eck",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://www.oemvv.at/kalender",
+        "https://www.classicexpo.at/",
+        "https://www.grossglockner.at/",
+        "https://www.grossglockner.at/de/die-hochalpenstrasse/unterwegs-am-grossglockner/oldtimer",
+        "https://www.redbullring.com/de/track/red-bull-ring-f1-motogp-track/",
+        "https://www.redbullring.com/de/events-tickets/formel-1/",
+        "https://www.redbullring.com/de/",
+        "https://de.wikipedia.org/wiki/Pyhrn_Autobahn",
+        "https://www.tirol.gv.at/verkehr/verkehrs-und-seilbahnrecht/fahrverbote-in-tirol/",
+        "https://www.bmf.gv.at/themen/steuern/kraftfahrzeuge/normverbrauchsabgabe-uebersicht/fahrzeugimport/eigenimport-aus-mitgliedstaaten-der-europaeischen-union.html"
+      ]
+    },
+    "nederland-polen": {
+      "lead": "Vanuit Assen, Zwolle of Enschede naar Poznań of Warschau gaat de rit door het noorden van Duitsland, via Osnabrück en Berlijn naar de grens bij Świecko. Wie een wagen voor een beurs, een circuitdag of een oldtimershow in Polen laat vervoeren, moet rekenen op Poolse rijverboden en tolstukken die het Nederlandse deel nauwelijks voorbereidt.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "De route loopt via Osnabrück en Berlijn naar de Poolse A2 bij Świecko"
+        },
+        {
+          "label": "Poolse A2",
+          "value": "Świecko-Warschau is 452 km, deels tolweg"
+        },
+        {
+          "label": "TT Circuit Assen",
+          "value": "Ongeveer 4,5 km lang, permanent circuit sinds 1955"
+        },
+        {
+          "label": "Poolse zondag",
+          "value": "Vrachtwagens boven 12 ton mogen niet van 8 tot 22 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Assen: TT Circuit, TT Festival en Truckstar",
+          "body": [
+            "Het TT Circuit Assen is ongeveer 4,5 kilometer lang en bestaat als permanent circuit sinds 1955. In het laatste weekend van juni wordt de TT van Assen verreden, sinds 2016 met de races op zondag. Een week eerder loopt in Assen het TT Festival. Op het circuit vindt sinds 1980 elk jaar in het laatste weekend van juli het Truckstar Festival plaats.",
+            "Wie in die weken een wagen in Drenthe moet ophalen, rekent op drukte op de toegangswegen. Beter is een ophaling een week eerder of later, of op een ander adres in de regio. Mcars rijdt met open, meerlaagse autotransporters en elke vrachtwagen heeft een lier, zodat een wagen die niet meer rolt toch op de oplegger kan."
+          ]
+        },
+        {
+          "heading": "Noord- en Oost-Nederland: Twente, Ruinerwold en Leeuwarden",
+          "body": [
+            "Twente Airport, tussen Enschede, Hengelo en Oldenzaal, is sinds 2017 weer open voor zaken- en privévluchten. Er zijn geen lijnvluchten. Er worden ook vliegtuigen ontmanteld en gestald, en het terrein wordt voor tests en evenementen gebruikt. De Oldtimerdag Ruinerwold in de gemeente De Wolden in Drenthe vindt sinds 1993 elk jaar plaats op de derde zaterdag van augustus, met oude voertuigen in elf categorieën. WTC Expo in Leeuwarden is met ongeveer 45.000 vierkante meter het grootste beurscomplex van Friesland.",
+            "Een zero-emissiezone voor bestel- en vrachtauto's geldt in Assen en Zwolle sinds 1 januari 2025, in Groningen sinds 1 april 2025 en in Enschede sinds 1 juli 2025. Deventer volgt later. De grensovergangen naar Duitsland liggen bij Bad Nieuweschans (A7), Zwartemeer (A37), De Lutte bij Oldenzaal (A1) en Glanerbrug bij Enschede (N35)."
+          ]
+        },
+        {
+          "heading": "De weg: Osnabrück, Berlijn en de Poolse A2",
+          "body": [
+            "De asrichting Polen loopt via Osnabrück. Door Nedersaksen volgt de A30 en de A2, de E30 van Amsterdam over Berlijn naar Warschau. Aan de Poolse grens bij Świecko sluit de Duitse A12 aan op de Poolse A2, die E30 draagt en via Poznań, Łódź en Warschau loopt. De A2 is 475 kilometer geopend; Świecko-Warschau is 452 kilometer. Technisch reikt de snelweg niet tot de grens: de laatste 3,9 kilometer is een tweebaansweg.",
+            "Op de A2 zijn Świecko-Nowy Tomyśl, met uitzondering van het westelijkste stuk, en Nowy Tomyśl-Konin, met uitzondering van de Poznańse ring, tolwegen. Konin-Stryków was een tolsectie met vrij verkeer; de tolposten zijn niet meer in gebruik. Het Poolse e-TOLL-systeem geldt voor voertuigen en combinaties boven 3,5 ton, ook buitenlandse die enkel doorreizen, op snelwegen, autowegen en geselecteerde nationale wegen. Registratie is verplicht."
+          ]
+        },
+        {
+          "heading": "Poolse rijverboden: zondag, feestdag en zomer",
+          "body": [
+            "Op zon- en feestdagen van 8 tot 22 uur, en soms ook de avond ervoor van 18 tot 22 uur, rijden vrachtwagens boven 12 ton niet in Polen. In de zomer komen daar extra verboden bij: vrijdag 18 tot 22 uur en zaterdag 8 tot 14 uur. Een autotransporter valt onder die 12 ton.",
+            "Voor evenementen in juli en augustus raakt het zomerverbod op zaterdag en zondag de laad- en lostijden bij beurzen. Een wagen voor een beurs op zaterdagochtend moet dus vrijdagavond vóór 18 uur zijn aangekomen. Vraag bij de offerte wat het venster is en reken in Polen niet op afwijkingen die u uit Frankrijk of Luxemburg kent."
+          ]
+        },
+        {
+          "heading": "Poznań en Warschau: beurzen, oldtimers en circuit",
+          "body": [
+            "Het beursterrein MTP ligt in het centrum van Poznań, recht tegenover het hoofdstation, met meer dan 110.000 vierkante meter binnenruimte in 16 hallen. De beurs bestaat sinds 1921. Tor Poznań in Przeźmierowo is 4,083 kilometer lang en is het enige Poolse circuit met een FIA-homologatie. Kijk vóór een circuitdag na of de baan open is.",
+            "De Warsaw Oldtimer Show loopt als begeleidend evenement naast de Warsaw Motor Show. Auto Nostalgia in Warschau geldt als de oudste oldtimerbeurs van Polen; waar en of de beurs nu doorgaat, vraagt u bij de organisator na. Het Muzeum Motoryzacji i Techniki in Otrębusy aan de ul. Warszawska 21, ten zuidwesten van Warschau, toont ongeveer 300 historische voertuigen en bestaat sinds 1995."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Warsaw Motor Show in Nadarzyn",
+          "body": "De Warsaw Motor Show vindt plaats in Ptak Warsaw Expo in Nadarzyn, net buiten Warschau, in oktober. Het aanbod bestaat uit sport- en luxewagens, klassiekers, elektrische wagens, offroad- en expeditievoertuigen, tuning, driftdemonstraties, detailing en car audio."
+        },
+        {
+          "kind": "event",
+          "title": "Retro Motor Show Poznań",
+          "body": "De Retro Motor Show in Poznań, elk jaar in september op MTP, van vrijdag tot zondag, wordt omschreven als de grootste oldtimerbeurs van Polen. Een klassieker voor deze beurs moet op vrijdagochtend aankomen, want het zondagverbod in Polen laat geen late levering toe."
+        },
+        {
+          "kind": "regel",
+          "title": "Warschau: milieuzone en vier uitzonderingsdagen",
+          "body": "Op 4 dagen per jaar kan een niet-conforme wagen voor een evenement in het centrum van Warschau toch de milieuzone in. De grenzen van de zone zijn Prymasa Tysiąclecia, Jerozolimskie, Trasa Łazienkowska, Stanów Zjednoczonych, Wiatraczna en de noordelijke spoorbypass."
+        },
+        {
+          "kind": "event",
+          "title": "Rajd Barbórka sluit het seizoen",
+          "body": "In december besluit de Rajd Barbórka in Warschau elk jaar het Poolse rallyseizoen. Als slotproef geldt het Kryterium Asów op de ulica Karowa in het centrum. Voor wagens die de proef rijden, is een transporter naar de Poolse hoofdstad een logische keuze."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik als klant iets doen voor de Poolse tolregistratie?",
+          "a": "Nee, dat is een zaak van de transporteur. Het Poolse e-TOLL-systeem geldt voor voertuigen en combinaties boven 3,5 ton, ook buitenlandse die enkel doorreizen, en de registratie is verplicht. Particuliere concessiewegen hebben hun eigen tol."
+        },
+        {
+          "q": "Rijdt de transporter ook op feestdagen door Polen?",
+          "a": "Nee. Vrachtwagens boven 12 ton mogen op feestdagen van 8 tot 22 uur niet rijden en soms ook de avond ervoor van 18 tot 22 uur. Plan de levering voor een beurs rond een Poolse feestdag dus een dag eerder."
+        },
+        {
+          "q": "Is Tor Poznań altijd open voor een circuitdag?",
+          "a": "Niet altijd. De baan werd na klachten over geluid door de milieu-inspectie GIOŚ gesloten en kort daarna weer geopend. Kijk vóór een circuitdag na of de baan open is en bevestig dat bij de organisator vóór de wagen vertrekt."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Polen: Assen en Twente als vertrek, Poolse A2 en e-TOLL, rijverboden, MTP Poznań en Warsaw Motor Show. Offerte op maat.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/TT-Circuit_Assen",
+        "https://nl.wikipedia.org/wiki/TT_Assen",
+        "https://www.ducati.com/be/nl/evenementen/motogp-assen",
+        "https://nl.wikipedia.org/wiki/Twente_Airport",
+        "https://nl.wikipedia.org/wiki/Ruinerwold",
+        "https://nl.wikipedia.org/wiki/WTC_Expo",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://etoll.gov.pl/en/registration-in-e-toll",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://en.wikipedia.org/wiki/Pozna%C5%84_International_Fair",
+        "https://fia-cez.com/en/calendar/poznan/",
+        "https://motoryzacja.interia.pl/wiadomosci/news-tor-poznan-zostal-zamkniety-a-nastepnie-otwarty,nId,23328177",
+        "https://www.tradefairdates.com/Retro+Motor+Show-M2398/Pozna%C5%84.html",
+        "https://www.autocentrum.pl/newsy/najwieksze-swieto-motoryzacji-w-warszawie-wraca-warsaw-motor-show-2026-juz-w-pazdzierniku/",
+        "https://www.autocentrum.pl/newsy/wszyscy-patrzyli-na-krakow-a-warszawa-po-cichu-dokrecila-srube-ii-etap-sct-stal-sie-faktem/",
+        "https://automuseums.info/poland/motorisation-and-technical-museum",
+        "https://www.eska.pl/news/moto/avia-unimot-63-rajd-barborka-wielka-impreza-motoryzacyjna-juz-w-ten-weekend-w-warszawie-aa-EgB4-1qcN-Z9QM.html"
+      ]
+    },
+    "nederland-spanje": {
+      "lead": "Van de duinen bij Zandvoort of de flevolandse polders naar een circuit in Catalonië of Valencia is het meer dan duizend kilometer door drie landen. Wie een wagen voor een race, een rally of een beurs in Spanje laat vervoeren, begint in een regio met zero-emissiezones en eindigt op wegen die tijdens het motorweekend zelf beperkt zijn.",
+      "facts": [
+        {
+          "label": "Zandvoort",
+          "value": "4,259 km lang, geopend in 1948, nabij de Noordzee"
+        },
+        {
+          "label": "A10 Parijs-Bordeaux",
+          "value": "557 km, grotendeels tolweg, de langste autoroute"
+        },
+        {
+          "label": "AP-7",
+          "value": "Spaanse tolsnelweg langs de Middellandse Zee, circa 1.007 km"
+        },
+        {
+          "label": "Automobile Barcelona",
+          "value": "Mei van de oneven jaren, Fira de Barcelona"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Zandvoort: toevoerwegen, geluidsdagen en het seizoen",
+          "body": [
+            "Circuit Zandvoort ligt in de duinen ten noorden van Zandvoort, vlak bij de Noordzee. Het circuit opende in 1948 en is 4,259 kilometer lang. De Van Lennepweg is een van de belangrijkste toevoerwegen, dus een transporter die er een wagen komt ophalen, kent vooraf zijn laatste kilometers.",
+            "Naast de grote wedstrijden heeft Zandvoort de Historic Grand Prix in juni, DTM, paas- en pinksterraces en circuitdagen waarop u zelf rijdt. Het circuit mag bovendien maar een beperkt aantal geluidsdagen per jaar gebruiken, en dat bepaalt mee wanneer er evenementen plaatsvinden. Een wagen die voor een Spaanse winterprogramma moet worden voorbereid, vertrekt dus zelden midden in het hoogseizoen."
+          ]
+        },
+        {
+          "heading": "Amsterdam, Haarlem en Schiphol: zones en wegwerkzaamheden",
+          "body": [
+            "Schiphol heeft een zero-emissiezone voor bestel- en vrachtauto's. Amsterdam heeft die sinds 1 januari 2025, Haarlem sinds 1 juni 2025. Almere en Zaanstad volgen later. Een wagen die in Amsterdam, Haarlem of op Schiphol moet worden opgehaald, wordt dus liefst aan de rand van de zone overgedragen.",
+            "Op de A10 Zuid loopt het project Zuidasdok: verbreding van de snelweg, een tunnel en de vernieuwing van het station Amsterdam Zuid. Reken op afsluitingen. In Lelystad vindt elk jaar in juni op Vaderdag de Nationale Oldtimerdag plaats. Op en rond die dag is het rond Lelystad druk met klassiekers die op de weg staan."
+          ]
+        },
+        {
+          "heading": "De weg: E19, Bordeaux of Lyon, en de AP-7",
+          "body": [
+            "De E19 tussen Amsterdam, Antwerpen, Brussel en Parijs is 551 kilometer lang. Vanaf Parijs hebt u de keuze. De Franse A10 Parijs-Bordeaux is 557 kilometer lang en de langste autoroute van Frankrijk; ze is bijna volledig tolplichtig, met uitzonderingen bij Parijs, Tours en Bordeaux. Daarna volgt het Baskenland.",
+            "De oostroute loopt via Lyon. De A7 Lyon-Marseille is 306 kilometer lang en kent bij vakantiebegin en -einde files van honderden kilometers, vooral eind juli en begin augustus. De A9 loopt van Orange langs Nîmes, Montpellier, Béziers, Narbonne en Perpignan naar Le Perthus aan de Spaanse grens en gaat daar over in de AP-7. De Spaanse AP-7 begint bij La Jonquera en loopt langs Figueres, Girona, Barcelona en Tarragona, en is een tolsnelweg."
+          ]
+        },
+        {
+          "heading": "Catalonië: Montjuïc, Montmeló en de Costa Brava",
+          "body": [
+            "Het Circuit de Barcelona-Catalunya ligt in Montmeló en Granollers, opende in 1991 en ontvangt de MotoGP, het Gran Premio de Cataluña. Espíritu de Montjuïc is een festival voor historische racewagens op datzelfde circuit, in het voorjaar. Bezoekers kunnen er ook met een eigen klassieker van vóór 1996 of een youngtimer terecht.",
+            "De Rally Costa Brava is sinds 2010 een rally voor historische wagens, traditioneel in maart, met hoofdkwartier in Palamós. De Rally Catalunya heeft sinds 2005 zijn basis in Salou, op de parking van PortAventura. Wie zijn wagen niet zelf naar de start wil rijden, laat hem vanuit Nederland brengen. De Costa Brava ligt het dichtst bij de Franse grens."
+          ]
+        },
+        {
+          "heading": "Aragón, Valencia en Madrid: wegen die tijdens het event beperkt zijn",
+          "body": [
+            "Rond MotorLand Aragón bij Alcañiz geldt eind augustus een beperking op de omliggende wegen. Tijdens het motorsportweekend in Cheste, bij Valencia in november, gelden aparte verkeersbeperkingen op de A-3, de CV-50 en de wegen errond. Dat staat in de DGT-resolutie, bijlage VIII.",
+            "In Madrid vindt Retromóvil plaats in IFEMA, een beurs voor antieke, klassieke en verzamelvoertuigen in december, met ook restaurateurs en onderdelenhandelaars. Madring is het stadscircuit in de zone IFEMA-Valdebebas en de thuis van de Spaanse Formule 1-Grand Prix, die in september wordt gereden. Rond dat weekend zijn de wegen in die zone bezet. Voor al deze locaties geldt: laat de organisator weten welke weg de transporter het laatste stuk neemt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Automobile Barcelona",
+          "body": "In de hallen van Fira de Barcelona op Montjuïc vindt u Automobile Barcelona, het autosalon van Barcelona. Het is tweejaarlijks, in de oneven jaren, in mei, bestaat sinds 1919 en is het enige Spaanse salon dat door de OICA is erkend. Wie een wagen voor een stand levert, boekt de rit ruim vooraf."
+        },
+        {
+          "kind": "regel",
+          "title": "Rode platen type S",
+          "body": "Ook verplaatsingen voor onderhoud en tentoonstelling van museumstukken die niet in Spanje zijn ingeschreven, vallen onder rode platen type S. Het bewijs van tijdelijke inschrijving uit het land van herkomst moet een buitenlands voertuig dan ook bij zich hebben. Dat regelt de eigenaar met een Spaanse partner."
+        },
+        {
+          "kind": "plek",
+          "title": "Feria Valencia en Motor Época",
+          "body": "Feria Valencia ligt in Benimàmet en heeft 231.000 vierkante meter overdekte expositieruimte, de op twee na grootste van Spanje. In Feria Valencia vindt Motor Época plaats, de Feria del Vehículo Histórico. De beurs trekt klassiekers uit heel Spanje."
+        },
+        {
+          "kind": "plek",
+          "title": "Circuito de Navarra bij Los Arcos",
+          "body": "Het Circuito de Navarra ligt bij Los Arcos, opende in 2010 en heeft een FIA Grade 2-homologatie. Na een heraanleg is het tracé ongeveer 4,3 kilometer lang. Het circuit werd verkocht aan de Britse organisator MotorSport Vision, dus de klantenkring is er internationaal."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een wagen laten brengen naar Cheste zonder de verkeersbeperkingen in te zien?",
+          "a": "Nee. Tijdens het motorsportweekend in Cheste gelden aparte beperkingen op de A-3, de CV-50 en de wegen errond. Vraag de organisator welke aanrijroute voor transporters is toegestaan en op welk uur de wagen mag worden afgeleverd."
+        },
+        {
+          "q": "Wie regelt de papieren voor een wagen die in Spanje blijft?",
+          "a": "Dat regelt u zelf, of via uw dealer of een expediteur. De wagen wordt door Mcars vervoerd, maar inschrijving, keuring of douane regelt Mcars niet. Wie de wagen in Spanje wil inschrijven, vraagt de instanties welke documenten nodig zijn."
+        },
+        {
+          "q": "Wat gebeurt er rond het circuit van Jerez in april?",
+          "a": "Rond het circuit van Jerez geldt tijdens het grote motorweekend in april een beperking op de A-382. Wie verder naar Andalusië rijdt, vraagt de organisator welke aanrijroute voor transporters open is."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Spanje: Zandvoort, de A10 naar Bordeaux en de AP-7, Montmeló, Cheste en Madrid. Mcars rijdt open, offerte op maat.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Circuit_Zandvoort",
+        "https://www.octane-magazine.com/events/historic-grand-prix-zandvoort/",
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a10",
+        "https://autorai.nl/nationale-oldtimerdag-2026/",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://en.wikipedia.org/wiki/A10_autoroute",
+        "https://en.wikipedia.org/wiki/A7_autoroute",
+        "https://en.wikipedia.org/wiki/A9_autoroute",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://es.wikipedia.org/wiki/Circuito_de_Barcelona-Catalu%C3%B1a",
+        "https://www.espiritudemontjuic.com/",
+        "https://es.wikipedia.org/wiki/Rally_Costa_Brava",
+        "https://es.wikipedia.org/wiki/Rally_Catalu%C3%B1a",
+        "https://es.wikipedia.org/wiki/Automobile_Barcelona",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://www.ifema.es/retromovil-madrid",
+        "https://es.wikipedia.org/wiki/Madring",
+        "https://www.dgt.es/nuestros-servicios/para-colaboradores-y-empresas/fabricantes-talleres-concesionarios-y-entidades-financieras/solicitud-de-placas-rojas-y-libro-talonario/",
+        "https://es.wikipedia.org/wiki/Feria_Valencia",
+        "https://es.wikipedia.org/wiki/Rally_Sierra_Morena"
+      ]
+    },
+    "nederland-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU, en dat merkt een eventwagen die uit Zuid-Limburg of Noord-Limburg komt al aan de grens bij Basel. Op een race, een beurs of een fotoshoot in de Alpen telt behalve de afstand ook de douane, het nachtverbod voor vrachtwagens en de vraag of de baan dat weekend wel open is. Dit is de rit van Nederland naar Zwitserland.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Duitse A5 naar Weil am Rhein, 445 km"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Vrachtwagens boven 3,5 ton niet van 22 tot 5 uur"
+        },
+        {
+          "label": "Gotthardtunnel",
+          "value": "16,9 km, 80 km/h, maximaal 150 vrachtwagens per uur"
+        },
+        {
+          "label": "Palexpo Genève",
+          "value": "Zeven hallen, 102.000 m², eigen afrit van de A1"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het Limburgse Heuvelland: Amstel Gold, Mergelland en Vaalserberg",
+          "body": [
+            "De Amstel Gold Race wordt in het derde weekend van april in Zuid-Limburg gereden, met start op de Markt in Maastricht en finish bij Berg en Terblijt, voorbij de Cauberg. Wegen in het Heuvelland zijn dan afgesloten, dus een ophaling daar plant u op een ander weekend.",
+            "De Mergellandroute is een bewegwijzerde toeristische route van ongeveer 110 kilometer door het Zuid-Limburgse Heuvelland, in 1960 uitgezet door de ANWB; automobilisten volgen de bruine borden. De Vaalserberg bij Vaals is met 322,4 meter het hoogste punt van Europees Nederland, en vlak bij de top ligt het Drielandenpunt met België en Duitsland. Wie voor een shoot met een klassieker in het Heuvelland wil laden, spreekt het uur af met de eigenaar van de wagen."
+          ]
+        },
+        {
+          "heading": "Noord-Limburg: Raceway Venray",
+          "body": [
+            "Raceway Venray, ook Circuit de Peel genoemd, heeft een ovaal van 880 meter met hellende bochten, een korte ovaal van 440 meter en een kartbaan. Er rijden stockcars en de NASCAR Whelen-reeks. Het circuit heeft een vergunning voor een beperkt aantal geluidsdagen per jaar.",
+            "Voor een transporter betekent dat: spreek het laaduur af met het circuit en vraag op welke dagen er geluid is, want op die dagen komen de teams met hun trailers. Een stockcar of ovalwagen die naar een Zwitserse heuvelklim gaat, rijdt zelden op eigen wielen. Mcars rijdt open en vraagt u vooraf naar de afmetingen van de wagen."
+          ]
+        },
+        {
+          "heading": "De weg: A5 of E25 naar Basel",
+          "body": [
+            "De Duitse A5 loopt van Hattenbach in Hessen over Karlsruhe, Baden-Baden en Freiburg tot de Zwitserse grens bij Weil am Rhein, 445 kilometer lang. Wie liever door Luxemburg rijdt, neemt de E25 via Metz (A31 en A4), Straatsburg en Mulhouse (A35) naar de Zwitserse grens bij Saint-Louis en Basel.",
+            "Voorbij Basel loopt de Zwitserse A2 naar Chiasso als E35, met de Gotthard als hoogste punt op 1.175 meter. De tunnel heeft één rijstrook per richting, en de files zijn vaker aan de noordzijde. Voor een event in Zürich of Genève rijdt u niet door de tunnel, maar voor Ticino en Italië wel."
+          ]
+        },
+        {
+          "heading": "Zwitserse rijverboden en de Gotthard",
+          "body": [
+            "In Zwitserland mogen vrachtwagens boven 3,5 ton en trekkers en opleggers boven 5 ton op zon- en feestdagen de hele dag niet rijden, en 's nachts niet van 22 tot 5 uur. Er is geen zaterdag- of zomerverbod. Dat nachtverbod maakt van een late aanrijding een probleem: een transporter die om 21 uur in Basel aankomt, kan 's nachts niet meer verder.",
+            "De Gotthard-wegtunnel is 16,9 kilometer lang, heeft één rijstrook per richting, een snelheidslimiet van 80 km/h en inhaalverbod. Hoogstens 150 vrachtwagens per uur mogen binnen sinds de brand van 2001. Een scheur in het plafond hield de tunnel in september 2023 drie dagen gesloten. In de zomer is de Gotthardpas een alternatief; in de winter is de pasweg gesloten."
+          ]
+        },
+        {
+          "heading": "Basel, Zürich en Genève: waar de beurzen zitten",
+          "body": [
+            "De MCH Group baat de beursterreinen van Basel, met 162.000 vierkante meter tentoonstellingsoppervlakte, en Zürich, met 33.000 vierkante meter, uit. Auto/Mobil Basel is een jaarlijkse autobeurs in september, met recente edities in de St. Jakobshalle. Basel is de eerste Zwitserse stad na de grens, dus een wagen voor die beurs is snel op zijn plaats.",
+            "In Messe Zürich combineert hal 6, Manufaktur & Classic, kleine-serie-wagens met klassiekers. In Hinwil in het Zürcher Oberland zit het vroegere Sauber-team, dat in 2024 volledig bij Audi is ondergebracht en sinds seizoen 2026 als Audi F1 Team rijdt. Aan de Bodensee toont de autobau erlebniswelt in Romanshorn de privéverzameling sportwagens, klassiekers en racewagens van Fredy Lienhard, en is tegelijk eventlocatie."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Auto Zürich in Messe Zürich",
+          "body": "Auto Zürich is elk jaar begin november in Messe Zürich, met vier publieksdagen. In 2026 telde de beurs 72 merken. Aan de publieksdagen gaat een mediadag met een besloten vooropening vooraf. Wie een wagen voor een stand levert, rekent op aanlevering vóór die mediadag."
+        },
+        {
+          "kind": "plek",
+          "title": "Palexpo bij de luchthaven van Genève",
+          "body": "Palexpo heeft zeven hallen met samen 102.000 vierkante meter en een eigen afrit van de A1. De luchthaven en het station liggen op ongeveer 500 meter. Een wagen kan er dus rechtstreeks vanaf de snelweg naar de hal rijden, zonder door de stad te moeten."
+        },
+        {
+          "kind": "regel",
+          "title": "Omloopraces weer toegelaten",
+          "body": "Openbare races op een omloop waren in Zwitserland wettelijk verboden sinds het ongeval op Le Mans in 1955, met alleen een uitzondering voor karts tot 250 cc. Sinds 1 juli 2026 zijn omloopraces onder voorwaarden opnieuw toegelaten, volgens een beslissing van de Bondsraad."
+        },
+        {
+          "kind": "event",
+          "title": "RAID, de oldtimerrally vanuit Basel",
+          "body": "Traditioneel eind augustus start de RAID, vroeger RAID Suisse-Paris, een oldtimerrally, in de regio Basel en rijdt daarna door Frankrijk. Na een jaar pauze is hij in 2026 hervat met een nieuw organisatiecomité. Kijk vooraf na of de editie doorgaat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft een racewagen douanepapieren nodig om Zwitserland in te komen?",
+          "a": "Tijdelijk naar het buitenland en terug mogen Zwitsers ingeschreven wagens zonder douanepapieren. Niet-ingeschreven voertuigen, zoals racewagens, hebben daarvoor een Carnet ATA of een tijdelijke douaneaangifte (ZAVV) nodig. Voor racewagens raadt de douane het Carnet ATA aan."
+        },
+        {
+          "q": "Is het Autosalon van Genève nog een reden om naar Zwitserland te rijden?",
+          "a": "Nee. De 91e en laatste editie vond plaats in 2024, in afgeslankte vorm met ongeveer twintig exposanten, daarna werd het salon stopgezet. De naam leeft voort in Qatar. Auto Zürich is nu de grote Zwitserse autobeurs."
+        },
+        {
+          "q": "Kan een transporter tot Zermatt rijden?",
+          "a": "Nee, Zermatt is sinds 1931 autovrij. De weg stopt voor bezoekers in Täsch. Het laatste stuk van 5 kilometer mag alleen met een speciale vergunning. Voor Zermatt levert men een wagen daarom af in Täsch."
+        }
+      ],
+      "seoDescription": "Eventtransport van Nederland naar Zwitserland: vertrek in Limburg, A5 naar Basel, Zwitserse rijverboden, Auto Zürich en Palexpo. Mcars rijdt open.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Amstel_Gold_Race",
+        "https://nl.wikipedia.org/wiki/Mergellandroute",
+        "https://nl.wikipedia.org/wiki/Vaalserberg",
+        "https://nl.wikipedia.org/wiki/Raceway_Venray",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Switzerland)",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://de.wikipedia.org/wiki/Gotthard-Strassentunnel",
+        "https://de.wikipedia.org/wiki/Messe_Basel",
+        "https://www.messen.de/de/16558/basel/auto-mobil-basel/info",
+        "https://www.auto-zuerich.ch/",
+        "https://de.wikipedia.org/wiki/Palexpo",
+        "https://de.wikipedia.org/wiki/Genfer_Auto-Salon",
+        "https://de.wikipedia.org/wiki/Rundstreckenrennen",
+        "https://www.raid.ch/en",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://de.wikipedia.org/wiki/Zermatt"
+      ]
+    },
+    "nederland": {
+      "lead": "Een wagen die in Nederland op een stand, een paddock of een besloten feest moet staan, komt zelden op een rustig moment aan. De hallen liggen aan drukke ringwegen, de circuits in de duinen of achter de kust, en voor vrachtwagens gelden eigen heffingen. Dit is wat u moet weten voor een wagen die naar, van of binnen Nederland naar een event rijdt.",
+      "facts": [
+        {
+          "label": "Heffing",
+          "value": "Per kilometer voor vrachtwagens boven 3.500 kg, ook leeg"
+        },
+        {
+          "label": "Noodnummer",
+          "value": "112, en 0800-8002 voor rijkswegen"
+        },
+        {
+          "label": "Strooiseizoen",
+          "value": "Op rijkswegen van 1 oktober tot 1 mei"
+        },
+        {
+          "label": "RAI Amsterdam",
+          "value": "Europaplein 24, direct aan de ring A10"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "RAI Amsterdam: de ring A10 en parkeren op kenteken",
+          "body": [
+            "De RAI ligt aan het Europaplein 24, direct aan de ring A10. De parkeergarages werken met kentekenherkenning en u reserveert er vooraf online. Een autotransporter past niet in zo'n garage. Spreek daarom met de organisator van het evenement af waar en wanneer er gelost mag worden, en geef de chauffeur het kenteken en de naam van het evenement mee.",
+            "Een autosalon vindt u in Amsterdam niet meer terug: de AutoRAI is voor het laatst georganiseerd in 2015. Wie vandaag een wagen naar de RAI laat brengen, doet dat voor een vakbeurs, een lancering of een besloten presentatie. Levering op ons depot in Roeselare kan 24/7, handig als de wagen een dag vroeger klaar staat dan de stand."
+          ]
+        },
+        {
+          "heading": "Zandvoort en Assen: twee circuits, elk met een eigen kalender",
+          "body": [
+            "Circuit Zandvoort ligt in de duinen aan de kust en er wordt sinds 1948 geracet. Het is de thuisbasis van de Formule 1 Dutch Grand Prix en heeft daarnaast veel race-evenementen en circuitdagen waarop u zelf rijdt. Voor zo'n circuitdag laat u een sportwagen of een racewagen brengen en haalt u hem na afloop weer op, zodat de rit naar huis geen risico meer is voor een wagen die net hard gereden heeft.",
+            "De TT Assen wordt elk jaar eind juni verreden op het TT Circuit Assen. Dat weekend zit de streek vol bezoekers. Plan levering of ophaling ruim voor of na die dagen en vraag de organisator welke toegang er open is voor transporters."
+          ]
+        },
+        {
+          "heading": "Concours en rally: Beesd en de Tulpenrallye",
+          "body": [
+            "Wheels Mariënwaerdt in Beesd heeft naast het concours een Super Car Paddock met moderne sport- en luxewagens. Merken tonen er conceptauto's en Europese introducties. Zo'n wagen rijdt u niet zelf naar een weide. Hij gaat op de vrachtwagen, en een wagen die niet meer rolt, komt met de lier op de oplegger. Staat de wagen volledig geblokkeerd, dan is een heftruck ter plaatse nodig.",
+            "De Tulpenrallye organiseert naast de hoofdrally in mei ook een Pre-2000 rally, eveneens in mei, en een tweedaagse Compact rally in maart. Deelnemers die hun wagen niet zelf naar de start willen rijden, laten hem brengen. Mcars rijdt met open, meerlaagse autotransporters en maakt een offerte op maat."
+          ]
+        },
+        {
+          "heading": "Vrachtwagenheffing: wat de transporter nodig heeft",
+          "body": [
+            "Nederland heft een vergoeding per gereden kilometer op vrachtwagens van categorie N2 en N3 met een technische maximummassa boven 3.500 kg. Nederlandse en buitenlandse vrachtwagens vallen eronder, ook als ze leeg rijden. De heffing geldt op bijna alle snelwegen en op een aantal provinciale en gemeentelijke wegen. De actuele wegenkaart staat op de officiële site.",
+            "Wie de heffing wil betalen, heeft een contract met een dienstaanbieder en een tolkastje nodig. Zonder tolkastje rijden kan een boete opleveren, ook op wegen waar de heffing niet geldt. De belasting zware motorrijtuigen, het Nederlandse Eurovignet, is vervallen. Een Eurovignet voor vrachtauto's is alleen nog nodig in Luxemburg en Zweden. Dat is een zaak van de transporteur."
+          ]
+        },
+        {
+          "heading": "Pech en winter op de weg naar het event",
+          "body": [
+            "Bij acuut gevaar, bijvoorbeeld stilstaan op een geopende spitsstrook, belt u 112. Voor andere onveilige situaties op rijkswegen is er de Landelijke Informatielijn van Rijkswaterstaat, 0800-8002. Rijkswaterstaat beheert de meeste snelwegen en een aantal autowegen; de overige wegen zijn van provincies, gemeenten en waterschappen. Bij een evenement op een kleinere weg weet u dus niet automatisch wie erover gaat.",
+            "Van 1 oktober tot 1 mei loopt het winterseizoen voor gladheidbestrijding op rijkswegen. Besluit Rijkswaterstaat te strooien, dan ligt er binnen ongeveer twee uur zout op alle rijkswegen, samen zo'n 3.300 km. Een open transporter brengt dat zout mee naar de plaats van aankomst. Wilt u de wagen schoon op een stand zetten, plan dan tijd in om hem ter plekke op te poetsen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Milieuzones gelden alleen voor diesel",
+          "body": "Milieuzones in Nederland gelden alleen voor dieselvoertuigen; voertuigen op andere brandstof mogen er altijd in. In Amsterdam, Arnhem (alleen personenauto's), Den Haag en Utrecht zijn er zones voor dieselpersonen- en bestelauto's. Een benzinewagen of elektrische wagen op weg naar een stand in die steden krijgt hier dus geen probleem."
+        },
+        {
+          "kind": "regel",
+          "title": "Eén bord voor alle zones",
+          "body": "Milieuzones en zero-emissiezones worden met één nieuw verkeersbord aangeduid. Via de kentekencheck op milieuzones.nl kijkt u na of een voertuig een milieuzone in mag. Die check zegt niets over zero-emissiezones, dus voor een bestel- of vrachtwagen op weg naar een stad is een tweede controle nodig."
+        },
+        {
+          "kind": "plek",
+          "title": "Louwman Museum in Den Haag",
+          "body": "Het Louwman Museum in Den Haag wordt ook gebruikt als locatie voor congressen, feesten en diners. Wie er een wagen voor een feest of een merkavond wil neerzetten, spreekt vooraf met het museum af waar de transporter kan lossen."
+        },
+        {
+          "kind": "event",
+          "title": "British Superbikes en PureDriving in Assen",
+          "body": "Het TT Circuit Assen heeft naast de TT ook een ronde van de British Superbikes en in november een racecursus voor auto's, PureDriving. Voor die cursus laten deelnemers hun sportwagen brengen, zodat ze de wagen niet op de openbare weg hoeven te belasten."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een klassieker van meer dan 40 jaar oud zonder aanvraag een milieuzone in?",
+          "a": "Ja, voertuigen van 40 jaar of ouder zijn landelijk en automatisch vrijgesteld van de milieuzones. Een vrijstelling krijgt u automatisch, een ontheffing moet worden aangevraagd. Voor jongere diesels kijkt u de zone en het kenteken na op milieuzones.nl."
+        },
+        {
+          "q": "Moet een showwagen op eigen wielen een gevarendriehoek of vest aan boord hebben?",
+          "a": "In Nederland hoeft u geen verplichte items in de auto te hebben, dus ook geen gevarendriehoek of veiligheidsvest. Wel moet u ander verkeer waarschuwen als uw stilstaande auto een obstakel is, met een driehoek of met de knipperende waarschuwingslichten."
+        },
+        {
+          "q": "Wie takelt mijn wagen als hij op de snelweg stilvalt?",
+          "a": "Op rijkswegen regelen de weginspecteurs van Rijkswaterstaat de berging. Zij beveiligen het incident en laten defecte voertuigen naar een veilige plek brengen. Bij acuut gevaar belt u 112, voor andere onveilige situaties 0800-8002."
+        }
+      ],
+      "seoDescription": "Eventtransport in Nederland: wagens naar RAI, Zandvoort en Assen. Wat u moet weten over heffing, milieuzones en lossen. Mcars rijdt open, offerte op maat.",
+      "sources": [
+        "https://www.rai.nl/bereikbaarheid",
+        "https://www.circuitzandvoort.nl/",
+        "https://www.ttcircuit.com/",
+        "https://wheelsevents.nl/",
+        "https://www.tulpenrallye.nl/",
+        "https://www.vrachtwagenheffing.nl/",
+        "https://ondernemersplein.overheid.nl/heffing-voor-vrachtwagens-vanaf-3500-kg",
+        "https://www.belastingdienst.nl/wps/wcm/connect/nl/auto-en-vervoer/content/bzm-vervallen",
+        "https://www.milieuzones.nl/locaties-milieuzones",
+        "https://www.milieuzones.nl/vrijstellingen-en-ontheffingen",
+        "https://www.rijkswaterstaat.nl/wegen/ongeval-en-pech/pech-op-de-snelweg",
+        "https://www.rijkswaterstaat.nl/wegen/wegbeheer/winter-op-de-weg/strooien-en-zout",
+        "https://www.louwmanmuseum.nl/"
+      ]
+    }
+  }
+}

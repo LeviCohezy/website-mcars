@@ -1,0 +1,1042 @@
+{
+  "service": "autotransport-particulier",
+  "origin": "zwitserland",
+  "pages": {
+    "zwitserland": {
+      "lead": "Wie naar Zwitserland verhuist of er een tweede verblijf heeft, merkt snel dat dit land zijn eigen regels kent. Het ligt buiten de EU, heeft een eigen douane en laat de kantons de wagens inschrijven. Op deze pagina leest u wat dat betekent als u uw wagen op een autotransporter laat zetten, van en naar België en binnen Zwitserland zelf.",
+      "facts": [
+        {
+          "label": "Douane",
+          "value": "Zwitserland ligt buiten de EU-douane; aangifte gebeurt bij een bemand douanekantoor"
+        },
+        {
+          "label": "Nieuwe plaat",
+          "value": "Uiterlijk één jaar na de verhuizing hoort u Zwitserse platen aan te vragen"
+        },
+        {
+          "label": "Buitenlander",
+          "value": "Wie in het buitenland woont, rijdt zes maanden per twaalf zonder douaneformaliteiten"
+        },
+        {
+          "label": "Autovrij",
+          "value": "Zermatt is sinds 1931 autovrij; wagens worden in Täsch afgeleverd"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De verhuisprocedure voor uw wagen",
+          "body": [
+            "Wie zijn woonplaats naar Zwitserland verlegt, volgt voor de wagen de procedure voor verhuisgoed, in het Duits Übersiedlungsgut. Een voorwaarde is dat u de wagen vóór de verhuizing minstens zes maanden in het buitenland gebruikte en hem in Zwitserland blijft gebruiken. Welke belastingen of rechten er voor uw wagen precies verschuldigd zijn, laat u rechtstreeks bij de Zwitserse douane nakijken, want gidsen spreken elkaar daar weleens tegen.",
+            "De wagen wordt bij de eerste grensoverschrijding na de verhuizing aangegeven, bij een bemand douanekantoor dat verhuisgoed behandelt en tijdens de openingsuren voor handelsgoederen. Een voorafgaande melding is overbodig, maar de wagen moet zelf meekomen. Dat geldt ook als hij op een autotransporter aankomt."
+          ]
+        },
+        {
+          "heading": "Van douane naar nummerplaat",
+          "body": [
+            "De aangifte gebeurt met formulier 18.44. Daarna geeft de douane het keuringsverslag 13.20 A af. Dat verslag hebt u nodig bij het kantonale Strassenverkehrsamt, de dienst die de wagen inschrijft. Voor die inschrijving moet bovendien een Zwitserse verzekeraar een elektronisch verzekeringsbewijs rechtstreeks naar het wegenbureau sturen.",
+            "Uiterlijk één jaar na de verhuizing hoort u Zwitserse platen aan te vragen. Wie twaalf maanden in Zwitserland woont, zonder ooit langer dan drie maanden aan een stuk in het buitenland te zijn geweest, heeft ook een Zwitsers rijbewijs nodig. Mcars vervoert de wagen en bezorgt hem op het afgesproken adres. De douane, de keuring en de inschrijving blijven uw zaak, of die van de expediteur die u daarvoor inschakelt."
+          ]
+        },
+        {
+          "heading": "Tijdelijk verblijf, tweede verblijf en terugkeer",
+          "body": [
+            "Wie in het buitenland woont en een tweede verblijf in Zwitserland heeft, mag de eigen wagen tot zes maanden per periode van twaalf maanden zonder douaneformaliteiten gebruiken. Het vignet komt voor uw rekening en de wagen moet in het buitenland ingeschreven staan.",
+            "Een in het buitenland ingeschreven wagen is voor inwoners van Zwitserland in principe verboden terrein. Ook een wagen die familie of vrienden uit het buitenland tijdelijk uitlenen, valt daaronder. Zet u dus niet gewoon de wagen van uw broer uit Brugge in de garage van uw nieuwe woning.",
+            "Zwitserse terugkeerders die minstens één jaar in het buitenland woonden, volgen dezelfde procedure als nieuwe inwoners, ook als hun Zwitserse woonplaats al die tijd behouden bleef. Staat de wagen op naam van een ouder of een werkgever, dan vraagt de douane een schriftelijke bevestiging van wie hem gebruikte, sinds wanneer en waarvoor."
+          ]
+        },
+        {
+          "heading": "Winter, kettingen en autotreinen",
+          "body": [
+            "Zwitserland heeft geen wettelijke winterbandenplicht. Wel riskeert u een boete en een lagere tussenkomst van de verzekeraar als u met zomerbanden een ongeval op een winterse weg veroorzaakt. Sneeuwkettingen zijn verplicht waar het bord Schneeketten obligatorisch staat, ook voor wie zelf achter het stuur zit.",
+            "Tussen Kandersteg en Goppenstein is er geen weg. Wie van het Berner Oberland naar Wallis wil, zet de wagen op de autotrein van de BLS door de Lötschbergtunnel. Routeplanners tonen dat stuk vaak als gewone weg. Een autotransporter rijdt daar niet over de spoorbaan, dus bij een adres in een van beide valleien bespreekt u vooraf de aanrijroute."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Zermatt en de parkeergarage van Täsch",
+          "body": "Zermatt is sinds 1931 autovrij. De weg stopt in Täsch, waar een parkeergarage met meer dan 2.000 plaatsen ligt en pendeltreinen ongeveer om de 20 minuten naar Zermatt rijden. Het laatste stuk van 5 km is alleen voor vergunninghouders. Laat u een wagen naar Zermatt brengen, dan spreekt u Täsch als afleveradres af."
+        },
+        {
+          "kind": "plek",
+          "title": "Luchthaven Zürich in Kloten",
+          "body": "De luchthaven ligt in Kloten, ongeveer 13 km ten noorden van het stadscentrum, aan de A51. Wie zelf naar Zürich vliegt terwijl de wagen over de weg komt, spreekt een afleveradres in de buurt van de luchthaven af of een garage in de stad. Zo staat de wagen klaar wanneer u landt."
+        },
+        {
+          "kind": "regel",
+          "title": "Jaarvignet voor snelwegen",
+          "body": "Voor autosnelwegen en autowegen is een jaarvignet verplicht, ook voor buitenlandse wagens. Het geldt van 1 december van het vorige jaar tot 31 januari van het volgende jaar. Er bestaat een kleefvignet en een e-vignet gekoppeld aan de nummerplaat. Het geldt voor wie zelf rijdt, niet voor de transporter."
+        },
+        {
+          "kind": "tip",
+          "title": "Spijkerbanden en 80 per uur",
+          "body": "Spijkerbanden zijn toegestaan van 1 november tot 30 april met een maximumsnelheid van 80 km/u, maar verboden op autosnelwegen en autowegen. Uitzonderingen zijn de San Bernardino-route en de Gotthardtunnel. Wie een wagen met spijkerbanden laat vervoeren, doet er goed aan dat vooraf te melden."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik na mijn verhuizing nog met mijn Belgische nummerplaat rijden?",
+          "a": "Als inwoner van Zwitserland in principe niet. Buitenlands ingeschreven wagens zijn bedoeld voor wie in het buitenland woont, tot zes maanden per periode van twaalf maanden. Ook een wagen die vrienden of familie uitlenen, valt onder dat verbod. Reken dus op Zwitserse platen binnen het jaar."
+        },
+        {
+          "q": "Moet ik zelf mee naar het douanekantoor als de wagen op een transporter staat?",
+          "a": "De wagen moet bij de eerste grensoverschrijding na de verhuizing aangegeven worden en moet er zelf bij zijn. Vooraf aanmelden hoeft niet. Spreek met uw transporteur af waar en wanneer het kantoor bemand is, binnen de openingsuren voor handelsgoederen."
+        },
+        {
+          "q": "Heb ik een Zwitsers rijbewijs nodig als ik er blijf wonen?",
+          "a": "Ja. Wie twaalf maanden in Zwitserland woont, zonder tussendoor langer dan drie maanden ononderbroken in het buitenland te zijn geweest, heeft een Zwitsers rijbewijs nodig. Regel dit tijdig, ook al staat uw wagen intussen al op Zwitserse platen."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren in Zwitserland: verhuisprocedure, douane, nummerplaten en winterregels. Mcars vervoert uw wagen op een open transporter.",
+      "sources": [
+        "https://www.bazg.admin.ch/de/umzug-fahrzeuge",
+        "https://www.bazg.admin.ch/de/unverzollte-fahrzeuge-nutzung-schweiz-regeln",
+        "https://www.bazg.admin.ch/dam/de/sd-web/xG5rXtRXNkO2/mit_fahrzeugen_durchdenschweizerzollform1549.pdf",
+        "https://www.bazg.admin.ch/de/faq-umzugsgut",
+        "https://www.ag.ch/de/themen/mobilitaet-verkehr/strassenverkehr/fahrzeuge/fahrzeug-import/einfuhr-als-uebersiedlungsgut",
+        "https://de.wikipedia.org/wiki/Zermatt",
+        "https://de.wikipedia.org/wiki/Flughafen_Zürich",
+        "https://de.wikipedia.org/wiki/Lötschbergtunnel",
+        "https://de.wikipedia.org/wiki/Winterreifenpflicht",
+        "https://www.beobachter.ch/gesetze-recht/strassenverkehr/mussen-jetzt-die-winterreifen-drauf-641750",
+        "https://www.bazg.admin.ch/de/schweizer-autobahnvignette-gebuehr-zwei-arten"
+      ]
+    },
+    "zwitserland-belgie": {
+      "lead": "U trekt weg uit Zwitserland en uw wagen moet mee naar België. Dan hebt u te maken met een kantonaal wegenbureau dat de uitreis begeleidt, een douanekantoor voor de uitvoer en een Belgische gemeente die u binnen acht dagen wil inschrijven. Daartussen ligt een rit waarop zwaar verkeer op vaste uren niet mag rijden.",
+      "facts": [
+        {
+          "label": "Zwaar verkeer",
+          "value": "Nooit rijden tussen 22 en 5 uur, en niet op zondag"
+        },
+        {
+          "label": "Uitreizen",
+          "value": "Met Zwitserse platen kan, mits verzekering, keuring en belasting in orde zijn"
+        },
+        {
+          "label": "Uitvoer",
+          "value": "De wagen meldt u spontaan aan bij een douanekantoor via e-dec"
+        },
+        {
+          "label": "In België",
+          "value": "Binnen 8 dagen inschrijven in het bevolkingsregister van uw gemeente"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Uitreizen met Zwitserse platen",
+          "body": [
+            "Wie uit Zwitserland wegtrekt, mag in principe met geldige Zwitserse platen uitreizen. Het kanton Aargau noemt drie voorwaarden: een Zwitserse verzekering die blijft lopen tot de wagen in het buitenland is ingeschreven, een geldige keuring en betaalde verkeersbelasting. Andere kantons hanteren eigen regels, dus vraag het bij uw eigen Strassenverkehrsamt na.",
+            "De wagen zelf geeft u spontaan aan bij een douanekantoor voor handelsgoederen. U hebt het inschrijvingsbewijs bij, ook als de wagen al uitgeschreven is, een identiteitsbewijs en de elektronische uitvoeraangifte e-dec. Wegrijden kan op uitvoerplaten, of de wagen reist mee op een ander voertuig. Op een transporter is dat laatste het geval."
+          ]
+        },
+        {
+          "heading": "Ophalen in Basel en Noordwest-Zwitserland",
+          "body": [
+            "Voor België ligt het noordwesten het dichtst bij. In Basel begint de Zwitserse A3 aan de autosnelwegdouane Basel/Saint-Louis, als voortzetting van de Franse A35. Ze loopt als Nordtangente door de stad, over de Dreirosenbrücke en door de Horburgtunnel, en daarna via het Fricktal richting Zürich.",
+            "Een adres aan de rand van Basel of langs de A3 is voor een meerlaagse transporter makkelijker dan een smalle straat in de oude stad. Laat in uw aanvraag weten of u in een woonwijk met parkeerdruk woont. Zo kan de chauffeur bij het laden de juiste plek kiezen, met de lier klaar voor een wagen die niet meer wil starten."
+          ]
+        },
+        {
+          "heading": "Rijverbod en Zwitserse zwaarverkeersheffing",
+          "body": [
+            "Zwitserland verbiedt zwaar verkeer boven 3,5 ton elke zondag en elke nacht van 22 tot 5 uur. Een autotransporter staat niet in de lijst van uitzonderingen. Een wagen die op zaterdag om 22 uur nog rijdt, staat ongeveer 31 uur stil tot maandag om 5 uur. Plan uw ophaaldag dus niet zo dat alles op de laatste zaterdagavond moet gebeuren.",
+            "Daarnaast geldt de LSVA, de heffing op zwaar verkeer. Ze geldt op alle wegen, niet alleen op snelwegen, en voor buitenlandse voertuigen zoals voor Zwitserse. Sinds 2026 worden de kilometers automatisch geregistreerd via een boordsysteem. Dat is de zaak van de vervoerder; als particulier hoeft u er niets voor te regelen."
+          ]
+        },
+        {
+          "heading": "Inschrijven in België na aankomst",
+          "body": [
+            "Pas wanneer een voertuig in België ingeschreven is en een nummerplaat heeft, mag het de openbare weg op. Reken daarom op transport tot aan uw deur. Eerst schrijft u zich binnen acht dagen in bij de gemeente. Daarna volgen de aangifte bij de douane, via de e705-toepassing of een douanekantoor, een Belgische verzekering en de inschrijving door de verzekeraar of door de DIV.",
+            "Plaat en inschrijvingsbewijs worden u per post toegestuurd. Vooraan hangt u zelf een reproductieplaat, die u in de detailhandel laat maken. Een Zwitsers rijbewijs valt buiten de EU en de EER: u mag er de eerste 185 dagen na inschrijving mee rijden, en niet elk buitenlands rijbewijs kan worden omgewisseld."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Feestdagen en het vrachtverbod",
+          "body": "Het dagverbod geldt op acht federale feestdagen: Nieuwjaar, Goede Vrijdag, Paasmaandag, Hemelvaart, Pinkstermaandag, 1 augustus, Kerst en 26 december. Goede Vrijdag geldt niet in Ticino en Wallis. Kantonale feestdagen veroorzaken geen vrachtverbod. Rond zo'n dag zit uw ophaling dus vast aan wat er op de weg mag."
+        },
+        {
+          "kind": "plek",
+          "title": "DIV-antennes Namen en Aarlen",
+          "body": "Voor een adres in de provincie Namen of Luxemburg heeft de DIV regionale antennes in Namen/Belgrade en Aarlen/Neufchâteau. Het Luxemburgse deel van België is de doorgangsstreek richting Zwitserland. Een dossier dat de verzekeraar niet online kan inschrijven, gaat per post naar de DIV in Brussel of op afspraak naar een loket."
+        },
+        {
+          "kind": "plek",
+          "title": "E411 door de Ardennen",
+          "body": "De E411/A4 verbindt Brussel via Waver, Namen en Aarlen met de Luxemburgse A6 bij Sterpenich, over 188 km. Voor een afleveradres in de Ardennen of rond Namen is dit de as waarlangs de transporter binnenkomt. Verwacht daar geen brede woonstraten; spreek een plek aan de hoofdweg af."
+        },
+        {
+          "kind": "tip",
+          "title": "Pendelen naar Luxemburg",
+          "body": "Veel inwoners van Aarlen werken in de Luxemburgse financiële sector, en omgekeerd komen Luxemburgers er winkelen. Wie als Zwitserse terugkeerder in zo'n grensstreek gaat wonen, kan beter vooraf nagaan in welke gemeente en bij welke verzekeraar de wagen wordt ingeschreven."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat gebeurt er met mijn Zwitserse nummerplaten bij het wegtrekken?",
+          "a": "In principe mag u met geldige Zwitserse platen uitreizen, als verzekering, keuring en verkeersbelasting in orde zijn. Voor vragen over de platen zelf wendt u zich tot het kantonale Strassenverkehrsamt, want elk kanton regelt dat zelf."
+        },
+        {
+          "q": "Mag mijn wagen in België rijden voor hij ingeschreven is?",
+          "a": "Nee. Een voertuig mag pas op de openbare weg als het is ingeschreven en een nummerplaat draagt. Daarom laat u de wagen best op een transporter tot aan uw adres brengen en regelt u de inschrijving daarna."
+        },
+        {
+          "q": "Kan mijn Zwitsers rijbewijs in België gebruikt worden?",
+          "a": "Zwitserland is geen EU- of EER-land. Met een erkend rijbewijs van daarbuiten mag u de eerste 185 dagen na inschrijving rijden. Daarna volgt een Belgisch rijbewijs, al kan niet elk buitenlands rijbewijs worden omgewisseld. Informeer daarom tijdig bij uw gemeente."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar België: uitreizen, rijverbod voor zwaar verkeer en inschrijven in België. Offerte binnen 24 uur.",
+      "sources": [
+        "https://www.ag.ch/de/themen/mobilitaet-verkehr/strassenverkehr/fahrzeuge/fahrzeug-export/wegzug-ins-ausland",
+        "https://www.bazg.admin.ch/de/ausfuhr-fahrzeuge-schweiz",
+        "https://de.wikipedia.org/wiki/Autobahn_A3_(Schweiz)",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/switzerland",
+        "https://www.bazg.admin.ch/de/die-lsva-auf-einen-blick",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/verhuizen-met-uw-voertuig/verhuizen-naar-belgie-met-uw-voertuig",
+        "https://mobilit.belgium.be/nl/weg/rijden/rijbewijzen/buitenlands-rijbewijs",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/kentekenplaat-en-inschrijvingsbewijzen/reproductieplaat",
+        "https://nl.wikipedia.org/wiki/A4_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Dienst_voor_Inschrijvingen_van_Voertuigen",
+        "https://nl.wikipedia.org/wiki/Aarlen"
+      ]
+    },
+    "zwitserland-nederland": {
+      "lead": "U verhuist van Zwitserland naar Nederland en uw wagen moet mee. Dat is een rit van Basel of Zürich naar Eindhoven, Utrecht of Maastricht, met een EU-grens voor u en Duitse rijverbodsregels voor zware wagens onderweg. Hier ziet u wat er aan Zwitserse kant, onderweg en bij de Nederlandse keuring speelt.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "De Duitse A5 loopt 445 km van Hessen tot Weil am Rhein"
+        },
+        {
+          "label": "Invoerdocument",
+          "value": "Het douanedocument voor niet-EU-voertuigen mag bij de keuring maximaal 12 maanden oud zijn"
+        },
+        {
+          "label": "BRP",
+          "value": "Wie langer dan 4 maanden in Nederland woont, schrijft zich in"
+        },
+        {
+          "label": "Keuring",
+          "value": "De eigenaar moet zelf naar het RDW-keuringsstation"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Van Basel naar Nederland",
+          "body": [
+            "Basel ligt in een trinationale agglomeratie: het grootste deel van de inwoners woont in Zwitserland, de rest in Duitsland en Frankrijk. Wie in de stadsregio woont, weet dat de grens daar een formaliteit is voor mensen, maar niet voor een wagen met een Zwitsers kenteken. Controleer dus aan welke kant van de grens uw wagen staat vóór de transporter komt.",
+            "De gebruikelijke weg naar Nederland is de Duitse A5, 445 km vanaf Hattenbach in Hessen tot Weil am Rhein. Bij Frankfurt rijden er ongeveer 150.000 voertuigen per dag. Een alternatief loopt via België, Luxemburg, Metz en Straatsburg over de E25 en de A35 naar Saint-Louis."
+          ]
+        },
+        {
+          "heading": "Zwitserland uit en de EU in",
+          "body": [
+            "Wie met een niet-EU-voertuig de EU binnenkomt, heeft een invoerdocument van de Nederlandse douane nodig. Bij een verhuizing van buiten de EU betaalt u geen invoerrechten op de meeverhuisde auto, maar u doet wel invoeraangifte bij de douane. Dat document mag bij de keuring niet ouder zijn dan 12 maanden.",
+            "Aan de Zwitserse kant geeft u de wagen uit bij een douanekantoor voor handelsgoederen. Wie dat niet zelf wil doen, kan een expediteur of douane-agent inschakelen. Die betaalt de rechten meestal voor u en factureert achteraf. Mcars vervoert de wagen en regelt geen douane, wat een expediteur wel kan."
+          ]
+        },
+        {
+          "heading": "Nederlandse keuring en kentekenbewijs",
+          "body": [
+            "Naar het RDW-keuringsstation gaat de eigenaar persoonlijk, met het volledige originele buitenlandse kentekenbewijs en een geldig identiteitsbewijs. Niemand anders kan de aanvraag doen. Om de auto naar het keuringsstation te krijgen noemt de overheid drie opties: de vrijstelling voor kortstondig gebruik, een eendagskenteken, of vervoer op een autoambulance, zoals een autotransporter.",
+            "Bij vervoer op zo'n transporter is voor de auto geen verzekering nodig. Pas na de registratie moet de auto WA-verzekerd zijn, vanaf het moment dat hij op naam staat. De Belastingdienst stuurt vanzelf bericht over de motorrijtuigenbelasting. Met Nederlandse platen mag de wagen pas de weg op."
+          ]
+        },
+        {
+          "heading": "Rijverboden en tol onderweg",
+          "body": [
+            "Zwitserland verbiedt zware wagens boven 3,5 ton op zondag en feestdagen de hele dag en elke nacht van 22 tot 5 uur. Er is geen zaterdagverbod en geen zomerverbod. Dat verandert zodra de transporter Duitsland binnenrijdt, waar op zondag een verbod geldt voor wagens boven 7,5 ton.",
+            "In Duitsland betaalt zwaar verkeer boven 3,5 ton ook tol via Toll Collect. Dat is de zaak van de vervoerder. Voor u telt vooral dat de aankomst in Nederland kan schuiven als de rit in een verbodsperiode valt, en dat u daarom beter flexibel blijft over de dag van levering."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Maastricht Aachen Airport",
+          "body": "Langs de A2 in Beek, ongeveer 8 km ten noorden van Maastricht, ligt de luchthaven. Corendon en Wizz Air vliegen er, en naast Schiphol is het de enige Nederlandse luchthaven met vrachtvluchten. Wie hier landt terwijl de wagen over de weg komt, kan een afleveradres in Zuid-Limburg kiezen."
+        },
+        {
+          "kind": "plek",
+          "title": "Eindhoven Airport bij afrit 29",
+          "body": "De luchthaven ligt aan de westkant van Eindhoven, tussen Best en Veldhoven, bij afrit 29 van de N2. Rond Brainport zitten ASML, DAF Trucks, VDL, Philips en NXP; veel nieuwkomers uit Zwitserland komen voor zo'n werkgever. Een afleveradres bij de Randweg is goed bereikbaar voor een transporter."
+        },
+        {
+          "kind": "regel",
+          "title": "Duitse tol en zomerverbod",
+          "body": "Duitsland heft Toll Collect boven 3,5 ton en verbiedt zondags wagens boven 7,5 ton van 0 tot 22 uur. Op zomerzaterdagen geldt op bepaalde wegen een verbod van 7 tot 20 uur. Voor een rit door Duitsland betekent dat zondagen en zomerzaterdagen zelden bruikbare ritdagen."
+        },
+        {
+          "kind": "tip",
+          "title": "Bpm-aangifte op papier",
+          "body": "Wie naar Nederland verhuist en de auto meeneemt, betaalt geen bpm maar moet wel een bpm-aangifte doen. Dat kan alleen op papier. Vraag de vrijstelling bij de Belastingdienst aan voordat de keuring plaatsvindt. Wacht daar dus niet mee tot de transporter voor de deur staat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag ik met mijn Zwitserse plaat in Nederland rijden?",
+          "a": "Wie niet in Nederland woont, mag er tot zes maanden per jaar met een auto op buitenlands kenteken rijden. Wie zich inschrijft in de BRP, want langer dan vier maanden wonen verplicht dat, mag niet meer met een buitenlands kenteken rijden."
+        },
+        {
+          "q": "Hoe krijg ik mijn wagen naar de keuring zonder Nederlandse platen?",
+          "a": "De overheid noemt drie opties: de vrijstelling voor kortstondig gebruik van maximaal twee weken, een eendagskenteken of vervoer op een autoambulance. Een autotransporter telt daarbij en dan is voor de auto geen verzekering nodig."
+        },
+        {
+          "q": "Kan ik de douane in Zwitserland aan iemand anders overlaten?",
+          "a": "Ja. Een expediteur of douane-agent kan de formaliteiten uitvoeren, betaalt de rechten meestal voor u en factureert achteraf. De wagen krijgt als bewijs van inklaring formulier 13.20 A. De transporter zelf doet de aangifte niet."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Nederland: douane, RDW-keuring en rijverboden onderweg. Mcars rijdt open, offerte binnen 24 uur.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://www.nederlandwereldwijd.nl/auto-importeren/stappenplan",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/verhuizen-naar-nederland-en-uw-voertuig-meenemen",
+        "https://www.nederlandwereldwijd.nl/auto-importeren/rijden-met-buitenlands-kenteken",
+        "https://de.wikipedia.org/wiki/Trinationale_Agglomeration_Basel",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.toll-collect.de/en/",
+        "https://nl.wikipedia.org/wiki/Maastricht_Aachen_Airport",
+        "https://nl.wikipedia.org/wiki/Eindhoven_Airport",
+        "https://nl.wikipedia.org/wiki/Brainport"
+      ]
+    },
+    "zwitserland-luxemburg": {
+      "lead": "U vertrekt uit Zwitserland, meestal uit de regio Basel, en uw wagen moet naar Luxemburg. Dat betekent een rit langs de Elzas of over de Duitse A5, een aangifte aan Zwitserse kant en daarna de Luxemburgse stappen bij de SNCA. Hier leest u wat onderweg en bij aankomst meetelt voor wie als particulier verhuist.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Via de tolvrije A35 langs Straatsburg, of via Duitse A5 en A8"
+        },
+        {
+          "label": "Termijn",
+          "value": "Inschrijven binnen 6 maanden na de aankomstverklaring in de gemeente"
+        },
+        {
+          "label": "SNCA",
+          "value": "Loketten in Sandweiler, Esch-sur-Alzette en Fridhaff bij Diekirch"
+        },
+        {
+          "label": "Keuring",
+          "value": "Een Zwitsers keuringsbewijs blijft bruikbaar bij de inschrijving"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Twee wegen van Basel naar Luxemburg",
+          "body": [
+            "De gebruikelijke as loopt via de Elzas. De tolvrije A35 (E25) eindigt aan de Zwitserse grens bij Saint-Louis en gaat daar over in de Zwitserse A3 naar Basel. Bij Sausheim sluit de A36 aan. Ten noorden van Straatsburg deelt de A35 ongeveer 9 km met de A4 vanuit Metz en Nancy, die richting Luxemburg loopt.",
+            "Een tweede weg loopt over de Duitse A5, 440 km lang, tot Weil am Rhein aan de Zwitserse grens, langs Karlsruhe en Frankfurt. Daar begint de Duitse A8 bij Perl aan de Luxemburgse grens en bereikt ze via Saarbrücken Karlsruhe. Welke weg de transporter neemt, hangt van de planning en het zwaar verkeer op de dag zelf af."
+          ]
+        },
+        {
+          "heading": "Aankomst via Frankrijk en Luxemburg",
+          "body": [
+            "Veel vrachtwagens namen de A35 om de Duitse tol op de A5 te mijden. Sinds de A355 in december 2021 is doorgaand vrachtverkeer op de Straatsburgse M35 verboden, en daalde het aantal zware voertuigen daar in acht maanden met ongeveer een derde. Dat maakt de doorgang rond Straatsburg rustiger dan vroeger.",
+            "Luxemburg zelf verbiedt vrachtwagens boven 7,5 ton in transit richting Frankrijk van zaterdag 21.30 uur tot zondag 21.45 uur. Frankrijk kent een weekendverbod voor zware wagens en in de zomer ook een verbod op zaterdag. Voor een rit uit Zwitserland betekent dat: reken op werkdagen, en leg uw leveringsadres vast in de week."
+          ]
+        },
+        {
+          "heading": "De stappen in Luxemburg",
+          "body": [
+            "Wie naar Luxemburg verhuist, laat de wagen binnen zes maanden na de aankomstverklaring inschrijven. U meldt zich eerst bij het Bureau de la population van uw gemeente. Daarna volgt een vaste volgorde: een inschrijvingsnummer aanvragen, een BA-verzekering bij een in Luxemburg erkende verzekeraar, het kanselarijzegel betalen, de douane voor de vignette 705 en een afspraak bij de SNCA.",
+            "Daar legt u de originele documenten voor: het volledige buitenlandse inschrijvingsbewijs, het verzekeringsattest, het douanedocument en een identiteitsbewijs. Voor wagens met een eerste inschrijving na 1 februari 2016 komt daar het certificaat van overeenstemming bij. De SNCA kan beëdigde vertalingen vragen. Mcars vervoert de wagen; deze stappen blijven bij u."
+          ]
+        },
+        {
+          "heading": "Keuring, rijbewijs en btw bij een verhuis",
+          "body": [
+            "Een geldig keuringsbewijs uit Zwitserland of een andere EER-lidstaat blijft bruikbaar bij de inschrijving, maar de geldigheidsduur wordt volgens de Luxemburgse regels bepaald. Hebt u geen geldig bewijs, dan gaat de wagen eerst naar de keuring bij een erkende Luxemburgse instantie.",
+            "Een rijbewijs van buiten de EER, dus ook een Zwitsers, moet binnen één jaar na uw vestiging worden omgezet in een Luxemburgs rijbewijs. Wie verhuist, kan als particulier vrijgesteld zijn van Luxemburgse btw op de wagen. De voorwaarden vraagt u na bij de douane. Een gepersonaliseerd inschrijvingsnummer hoort bij u en niet bij de wagen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "EuroAirport Basel-Mulhouse",
+          "body": "Frankrijk en Zwitserland baten de luchthaven samen uit, al ligt ze volledig op Frans grondgebied in Saint-Louis. In de terminal zitten een Franse en een Zwitserse sector. Wie hier een wagen laat afleveren of ophalen, moet vooraf weten in welke sector hij staat, want dat bepaalt langs welke grens de transporter erbij moet."
+        },
+        {
+          "kind": "plek",
+          "title": "SNCA in Esch-sur-Alzette",
+          "body": "Het zuidelijke SNCA-loket voor inschrijvingen ligt in Esch-sur-Alzette, de tweede stad van het land, vlak bij Frankrijk. De stad is ontsloten via de A4, de A13 en de N4 en N31. Wie in het zuiden woont, komt hier voor de afspraak en kan de wagen er na de aankomst laten voorrijden."
+        },
+        {
+          "kind": "plek",
+          "title": "Rue de l'Alzette in Esch",
+          "body": "De rue de l'Alzette in Esch is een voetgangersstraat van 800 meter. Een adres daar is niet zomaar met een autotransporter bereikbaar. Spreek een plek aan de rand van het centrum af en rijd de laatste meters zelf, of kies een parkeerplaats in een zijstraat."
+        },
+        {
+          "kind": "regel",
+          "title": "Voetgangerszone in Luxemburg-stad",
+          "body": "De voetgangerszone in het stadscentrum is afgesloten met verzinkbare paaltjes. Leveringen zijn gewaarborgd tussen 6 en 10 uur, wanneer de paaltjes omlaag staan. Buiten die uren kunt u zich melden aan de technische paal. De snelheid is er beperkt tot 20 km/u en parkeren is verboden."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang heb ik om mijn wagen in Luxemburg in te schrijven?",
+          "a": "Zes maanden na de aankomstverklaring in uw gemeente. Die aangifte doet de termijn lopen. Voor een buitenlandse student die enkel in Luxemburg studeert, geldt geen inschrijvingsplicht voor de wagen. Plan de afspraak bij de SNCA tijdig."
+        },
+        {
+          "q": "Hoe weet ik waar mijn afspraak bij de SNCA moet zijn?",
+          "a": "De SNCA heeft drie loketten: Fridhaff in het noorden, Sandweiler in het centrum en Esch-sur-Alzette in het zuiden. Een afspraak maakt u online. Alle documenten moeten in origineel worden voorgelegd, dus neem ze mee uit Zwitserland."
+        },
+        {
+          "q": "Is mijn Zwitserse rijbewijs genoeg om in Luxemburg te blijven rijden?",
+          "a": "Niet blijvend. Een rijbewijs van buiten de EER moet binnen één jaar na uw vestiging in Luxemburg worden omgezet in een Luxemburgs rijbewijs. Een rijbewijs uit een EER-land hoeft dat niet, al raadt de overheid registratie wel aan."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Luxemburg: routes via de Elzas of Duitsland, inschrijving bij de SNCA en rijverboden.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/vehicule-demenagement-transfrontalier.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/payer-taxe-vehicule-ue.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/permis-conduire/international/transcription-enregistement-permis.html",
+        "https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg",
+        "https://fr.wikipedia.org/wiki/Esch-sur-Alzette",
+        "https://www.vdl.lu/fr/se-deplacer/en-voiture/livraisons-et-vignette-dacces"
+      ]
+    },
+    "zwitserland-frankrijk": {
+      "lead": "U woont in Genève, Neuchâtel of Basel en uw wagen moet naar Frankrijk, voor een verhuizing of een verblijf in de Franse Alpen of de Jura. De grens tussen beide landen is er voor veel mensen een dagelijkse pendelroute, maar voor een wagen met Zwitserse plaat telt ze wel. Hier leest u wat u aan beide kanten moet regelen.",
+      "facts": [
+        {
+          "label": "Inschrijven",
+          "value": "In Frankrijk binnen één maand na uw vestiging"
+        },
+        {
+          "label": "Genève",
+          "value": "Stick'AIR geldt bij vervuilingspieken, ook voor wagens met buitenlandse plaat"
+        },
+        {
+          "label": "Luchthaven",
+          "value": "Genève heeft een Franse sector met eigen weg naar Frankrijk"
+        },
+        {
+          "label": "Keuring",
+          "value": "Wagens ouder dan vier jaar: keuringsverslag van maximaal zes maanden oud"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Genève, omringd door Frankrijk",
+          "body": [
+            "Frankrijk omsluit het kanton Genève bijna volledig. Er zitten veel internationale organisaties, banken en handelshuizen, en een groot deel van de inwoners heeft geen Zwitsers paspoort. Wie hier komt werken, verhuist vaak naar Frankrijk of omgekeerd, en neemt zijn wagen mee.",
+            "De luchthaven ligt ongeveer 4 km van het centrum, aan de A1. Ze heeft een Franse sector, sinds een verdrag van 1958, bereikbaar vanuit Ferney-Voltaire via een douanevrije weg. Verkeer van en naar Frankrijk hoeft dus niet langs de Zwitserse douane. Wie zijn wagen aan de luchthaven laat afleveren of ophalen, moet dus weten welke kant van de terminal hij kiest."
+          ]
+        },
+        {
+          "heading": "Stick'AIR en Crit'Air in Genève",
+          "body": [
+            "Stick'AIR is de enige milieuzone van Zwitserland. Tijdens vervuilingspieken mogen de meest vervuilende voertuigen tussen 6 en 22 uur niet in het centrum van het kanton komen. Sinds 15 januari 2020 is de regeling van kracht, ook voor wagens met een buitenlandse plaat.",
+            "Genève erkent de Franse Crit'Air-vignet als gelijkwaardig aan de Stick'AIR-sticker. Stickers uit andere landen worden niet erkend. Een Stick'AIR-sticker blijft geldig zolang het voertuig bestaat. Wie zijn wagen na de verhuizing in Frankrijk nog in Genève gebruikt, regelt dus best één van beide stickers vóór een piek de zone sluit."
+          ]
+        },
+        {
+          "heading": "De weg tussen de grens en uw adres",
+          "body": [
+            "Zwitserland verbiedt zware wagens boven 3,5 ton op zondag en 's nachts van 22 tot 5 uur. Een uitzonderingsvergunning is er enkel voor ritten die onvermijdelijk zijn. Bronnen spreken elkaar tegen over het exacte zondagsvenster, dus controleer het bij ASTRA of het kanton als u een ophaaldag kiest. Aan Franse kant geldt een weekendverbod boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur en op feestdagen.",
+            "Aan de A35 bij de Zwitserse grens zie je dat verbod: vrachtwagens parkeren er in het weekend op de vluchtstrook, omdat de toegang tot Zwitserland dan voor hen dicht is. Vanuit Genève loopt de A40 via Annemasse naar Passy en de Mont-Blanctunnel, voor wie naar de Alpen wil."
+          ]
+        },
+        {
+          "heading": "Inschrijven in Frankrijk",
+          "body": [
+            "Wie zich in Frankrijk vestigt en er zijn hoofdverblijf van maakt, moet de wagen binnen één maand na de vestiging inschrijven. Het adres op het bewijs is het Franse woonadres. Via de ANTS vraagt u online aan, of u schakelt een erkende autoprofessional in. Bij het loket van de prefectuur kunt u daar niet meer terecht.",
+            "Bij de aanvraag horen het oorspronkelijke inschrijvingsbewijs, een bewijs van woonst van minder dan zes maanden oud en het formulier cerfa 13750. Voor wagens ouder dan vier jaar komt er een keuringsverslag van minder dan zes maanden oud bij. Na de aanvraag krijgt u een voorlopig bewijs (CPI): daarmee mag u één maand rijden, alleen in Frankrijk. Mcars vervoert; de inschrijving blijft uw taak."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Les Verrières in de Jura",
+          "body": "Les Verrières, in het kanton Neuchâtel, is de grensovergang op de hoofdweg Neuchâtel-Pontarlier. Er is veel pendelverkeer, onder meer van Franse grensarbeiders die in de kantons Neuchâtel en Jura werken. Voor een adres in de Franse Jura is dit de kortste ingang vanuit het Zwitserse Mittelland."
+        },
+        {
+          "kind": "regel",
+          "title": "Mont-Blanctunnel en voertuighoogte",
+          "body": "In de Mont-Blanctunnel zijn de oudste, meest vervuilende vrachtwagens geweerd, houden voertuigen 150 meter afstand en is de vrije hoogte onder het gewelf 4,35 m. Wie een wagen naar een chalet in Chamonix laat brengen, merkt dus dat de transporter de tunnel niet altijd kan of mag nemen."
+        },
+        {
+          "kind": "plek",
+          "title": "Luchthaven Bern-Belp",
+          "body": "De luchthaven Bern-Belp ligt ongeveer 6 km ten zuidoosten van Bern, bij de afrit Rubigen van de A6. Er landen vooral privéjets; lijnvluchten zijn beperkt. Wie hier landt en zijn wagen daarna in Frankrijk wil terugvinden, spreekt een afleveradres af in plaats van een parkeerplaats."
+        },
+        {
+          "kind": "tip",
+          "title": "Zwitsers bezit in Frankrijk",
+          "body": "Ongeveer één op de tien Franse tweede verblijven is van iemand die in het buitenland woont, en Zwitsers horen bij die eigenaars. Langs de Atlantische kust en in de bergen ligt het aandeel tweede verblijven hoger. Een afleveradres in zo'n streek is in de winter minder bereikbaar dan in de zomer."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag ik in Frankrijk met mijn Zwitserse plaat rijden?",
+          "a": "Wie zich in Frankrijk vestigt en er zijn hoofdverblijf van maakt, moet de wagen binnen één maand inschrijven. Met het voorlopige bewijs (CPI) mag u daarna één maand rijden, en dan alleen in Frankrijk. Plan de aanvraag dus meteen na aankomst."
+        },
+        {
+          "q": "Heb ik een Crit'Air- of Stick'AIR-sticker nodig voor Genève?",
+          "a": "Genève erkent de Franse Crit'Air-vignet als gelijkwaardig aan de Stick'AIR-sticker. Stickers uit andere landen niet. De regeling geldt bij vervuilingspieken en ook voor buitenlandse platen, tussen 6 en 22 uur in het centrum."
+        },
+        {
+          "q": "Waarom staan vrachtwagens in het weekend langs de A35 bij Basel?",
+          "a": "Omdat de toegang tot Zwitserland dan voor zware wagens dicht is en Frankrijk in het weekend een eigen verbod kent. Voor uw wagen betekent dat: ophaling en levering vallen het best op een werkdag."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Frankrijk: Stick'AIR in Genève, rijverboden aan de grens en inschrijving binnen één maand.",
+      "sources": [
+        "https://www.ge.ch/document/points-essentiels-connaitre-cas-activation-du-dispositif-stick-air",
+        "https://www.ge.ch/node/21285",
+        "https://de.wikipedia.org/wiki/Flughafen_Genf",
+        "https://de.wikipedia.org/wiki/Kanton_Genf",
+        "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+        "https://www.bussgeld-info.de/lkw-fahrverbot-schweiz/",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A40_(France)",
+        "https://www.justice.fr/fiche/etranger-installe-france-faire-immatriculer-vehicule",
+        "https://www.justice.fr/fiche/expatrie-revenir-france-vehicule",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://fr.wikipedia.org/wiki/Tunnel_du_Mont-Blanc",
+        "https://de.wikipedia.org/wiki/Les_Verrières",
+        "https://de.wikipedia.org/wiki/Flughafen_Bern-Belp",
+        "https://www.insee.fr/fr/statistiques/5416748"
+      ]
+    },
+    "zwitserland-duitsland": {
+      "lead": "U woont in Schaffhausen, aan de Bodensee of in de regio Basel en uw wagen moet naar Duitsland. Het is een grens waar elke dag pendelaars overheen gaan, maar voor een wagen met Zwitserse plaat is het de buitengrens van de EU. Hier ziet u wat u vóór en na de rit regelt.",
+      "facts": [
+        {
+          "label": "A4",
+          "value": "Via Schaffhausen en Thayngen komt de A4 uit Duitsland Zwitserland binnen"
+        },
+        {
+          "label": "Autoveer",
+          "value": "Romanshorn: autoveer over de Bodensee naar Friedrichshafen"
+        },
+        {
+          "label": "Zulassung",
+          "value": "Wie naar Duitsland verhuist, schrijft de wagen in bij de Kfz-Zulassungsstelle"
+        },
+        {
+          "label": "Verhuisgoed",
+          "value": "Wagen onder voorwaarden vrij van invoerrechten als Übersiedlungsgut"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Schaffhausen en aan de Bodensee",
+          "body": [
+            "Aan de Hoogrijn ligt Schaffhausen, de noordelijkste stad van Zwitserland. Voor Zuid-Duitsland, richting Singen of Stuttgart, is dit de kortste ingang. De A4 komt bij Thayngen uit Duitsland binnen en loopt via Schaffhausen en Winterthur naar Zürich; het stuk tussen de grensovergang en de aansluiting Thayngen mag zonder vignet bereden worden.",
+            "Verder oostelijk vormen Kreuzlingen en het Duitse Konstanz één agglomeratie van ongeveer 130.000 inwoners. Grensoverschrijdend wonen en werken is er de regel. Wie hier woont en verhuist, verlegt soms enkel zijn adres over een straat."
+          ]
+        },
+        {
+          "heading": "De Duitse inschrijving",
+          "body": [
+            "Verhuist u naar Duitsland met een wagen die in het buitenland is ingeschreven, dan vraagt u bij de Kfz-Zulassungsstelle een Duitse Zulassung aan. Daar legt u een SEPA-domiciliëring voor de Kfz-Steuer voor, een elektronische verzekeringsbevestiging (het eVB-nummer), uw identiteitskaart of paspoort met Meldebestätigung en een bewijs dat u over de wagen mag beschikken, zoals het koopcontract.",
+            "Wie uit een land buiten de EU, zoals Zwitserland, naar Duitsland verhuist, kan de wagen onder bepaalde voorwaarden als verhuisgoed (Übersiedlungsgut) vrij van invoerrechten meebrengen. De voorwaarden staan bij de Duitse douane. Mcars brengt de wagen tot aan het afgesproken adres. De aangifte en de inschrijving blijven bij u."
+          ]
+        },
+        {
+          "heading": "Baden-Württemberg: Stuttgart en de Umweltzone",
+          "body": [
+            "Baden-Württemberg ligt als eerste voor wie via Basel of Schaffhausen Duitsland binnenrijdt. De luchthaven van Stuttgart ligt in Leinfelden-Echterdingen, aan de A8, en is de grootste van de deelstaat. Wie zelf vliegt en de wagen laat brengen, spreekt een afleveradres in die buurt af.",
+            "Het land heeft sinds 2023 de meeste Umweltzones afgeschaft, onder meer in Karlsruhe, Heidelberg, Mannheim en Freiburg. Stuttgart, Ludwigsburg en omgeving en Pforzheim hielden er een. Stuttgart kent daarnaast sinds 2019 een rijverbod voor diesels onder Euro 5 in het hele stadsgebied. Een oudere diesel naar Stuttgart laat u dus eerst nakijken."
+          ]
+        },
+        {
+          "heading": "Zwitserse feestdagen en de rit",
+          "body": [
+            "Alleen 1 augustus is op federaal niveau een nationale feestdag. Alle andere wettelijke feestdagen bepalen de kantons zelf. Het zondagsrijverbod voor zwaar verkeer geldt op die dagen alleen waar ze gevierd worden. Wie uw ophaaldag kiest, kijkt dus eerst in welk kanton u woont.",
+            "De Duitse A5 eindigt bij Weil am Rhein aan de Zwitserse grens bij Basel en sluit er aan op de Zwitserse A2. Vanuit Baden-Württemberg loopt de A81 richting Schaffhausen, de andere ingang naar het noorden van Zwitserland."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Autoveer Romanshorn-Friedrichshafen",
+          "body": "Een autoveer steekt de Bodensee over van Romanshorn naar Friedrichshafen in Duitsland. Wie zelf rijdt en zijn tweede wagen al in Duitsland wil hebben, kan dit gebruiken. Voor een wagen op een open meerlaagse transporter blijft de weg over land de normale route."
+        },
+        {
+          "kind": "regel",
+          "title": "Saisonkennzeichen voor een tweede verblijf",
+          "body": "Een vaste periode van minstens twee en hoogstens elf volle maanden per jaar is waarvoor een Saisonkennzeichen geldt. Op de openbare weg is de wagen buiten die periode niet welkom, en parkeren is evenmin toegestaan. Handig voor een wagen die enkel in de zomer in uw Duitse tweede verblijf staat."
+        },
+        {
+          "kind": "tip",
+          "title": "Afmelden bij wegtrekken uit Duitsland",
+          "body": "Wie ooit uit Duitsland vertrekt, meldt de wagen af bij eender welke Kfz-Zulassungsstelle of via het onlineportaal, niet bij een Duitse ambassade. De Duitse polis eindigt na de afmelding, dus vraag uw schadevrije jaren op voor de nieuwe verzekeraar."
+        },
+        {
+          "kind": "regel",
+          "title": "Kfz-Steuer en overschrijving",
+          "body": "De Kfz-Steuer stopt met de afmelding. Omdat de belasting vooraf wordt betaald, ontstaat meestal een tegoed dat het Hauptzollamt terugstort. Bij een verkoop telt niet de verkoopdatum, maar de datum van de overschrijving op naam van de koper."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik mijn Zwitserse wagen zomaar in Duitsland inschrijven?",
+          "a": "Nee. U vraagt een Duitse Zulassung aan bij de Kfz-Zulassungsstelle, met een SEPA-domiciliëring voor de Kfz-Steuer, een eVB-nummer, uw identiteit met Meldebestätigung en een bewijs dat u over de wagen beschikt."
+        },
+        {
+          "q": "Betaal ik invoerrechten als ik van Zwitserland naar Duitsland verhuis?",
+          "a": "Onder bepaalde voorwaarden kan een wagen als verhuisgoed vrij van invoerrechten naar Duitsland mee. De voorwaarden staan bij de Duitse douane. Vraag ze na vóór de transporter komt, want de aangifte hoort bij u of uw expediteur."
+        },
+        {
+          "q": "Waar is het in Zwitserland op zondag rustig voor een transporter?",
+          "a": "Overal. Het zondagsrijverbod voor zwaar verkeer geldt op alle zondagen, naast het nachtverbod van 22 tot 5 uur. Op kantonale feestdagen geldt het alleen waar die dag gevierd wordt."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Duitsland: vertrek in Schaffhausen of Basel, Duitse Zulassung en Umweltzones.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Autobahn_A4_(Schweiz)",
+        "https://de.wikipedia.org/wiki/Schaffhausen",
+        "https://de.wikipedia.org/wiki/Kreuzlingen",
+        "https://de.wikipedia.org/wiki/Romanshorn",
+        "https://www.evz.de/reisen-verkehr/auto/ueberfuehrung-und-zulassung.html",
+        "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+        "https://www.zoll.de/DE/Privatpersonen/Umzug-Heirat-Erbschaft-Studium/umzug-heirat-erbschaft-studium_node.html",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/Beginn-und-Ende-der-Steuerpflicht/beginn-und-ende-der-steuerpflicht_node.html",
+        "https://www.buzer.de/s1.htm?a=10&g=FZV",
+        "https://de.wikipedia.org/wiki/Flughafen_Stuttgart",
+        "https://gis.uba.de/website/umweltzonen/index.php",
+        "https://de.wikipedia.org/wiki/Dieselfahrverbot",
+        "https://www.bj.admin.ch/dam/bj/de/data/publiservice/service/zivilprozessrecht/kant-feiertage.pdf",
+        "https://www.sg.ch/verkehr/strassenverkehr/sonderbewilligungen/sonntags--und-nachtfahrverbot.html",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5"
+      ]
+    },
+    "zwitserland-spanje": {
+      "lead": "U woont in Wallis of aan het Meer van Genève en uw wagen moet naar Spanje, voor een verhuizing of een tweede verblijf aan de kust. Dat is een rit van Zwitserland door Frankrijk naar La Jonquera, met een Zwitserse plaat die in Spanje niet zomaar mag blijven. Hier leest u wat onderweg en bij de Spaanse inschrijving telt.",
+      "facts": [
+        {
+          "label": "Weg",
+          "value": "De Zwitserse A9 loopt 241 km van Ballaigues naar Brig"
+        },
+        {
+          "label": "Inschrijven",
+          "value": "Als inwoner van Spanje schrijft u de wagen binnen één maand in"
+        },
+        {
+          "label": "Placas verdes",
+          "value": "Tijdelijke groene platen geven twee maanden rijrecht, verlengbaar"
+        },
+        {
+          "label": "Grens",
+          "value": "Over de Oostelijke Pyreneeën is La Jonquera de voornaamste overgang"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Vaud en Wallis",
+          "body": [
+            "Voor Spanje ligt de Genèvese regio het dichtst bij. De A9 loopt ongeveer 241 km van Ballaigues bij de Franse grens bij Vallorbe via Lausanne, Vevey en Sion naar Brig. Ze ligt op de kortste Alpenroute tussen Dijon en Milaan en ontsluit Montreux, Verbier, Crans-Montana, Zermatt en Saas-Fee.",
+            "Naar Verbier klimt de weg vanuit het dal in 13 haarspeldbochten meer dan 650 meter. Het dorp ligt op ongeveer 1.490 m en heeft veel toeristenbedden. Wie hier een wagen laat ophalen, spreekt een laadplek aan het begin van de klim af, niet bovenaan in het dorp."
+          ]
+        },
+        {
+          "heading": "De rit naar de Spaanse grens",
+          "body": [
+            "Van Zwitserland naar Spanje gaat de weg door Frankrijk. De Franse A9 loopt 280,5 km tot Orange, is tolplichtig en vervolgt zuidwaarts naar de Spaanse grens. Daar sluit de AP-7 aan, die aan de Franse grens in La Jonquera begint en de hele Middellandse Zeekust volgt als E-15.",
+            "De Oostelijke Pyreneeën worden vooral gekruist bij La Jonquera, de belangrijkste grensovergang. Daar loopt de AP-7 langs het tracé van de oude Romeinse Via Augusta. Spanje kent in 2026 beperkingen voor voertuigen boven 7.500 kg op bepaalde wegen en dagen. Voor een open meerlaagse transporter is het dus nuttig de actuele kalender na te kijken vóór u een leverdag afspreekt."
+          ]
+        },
+        {
+          "heading": "Uw wagen inschrijven in Spanje",
+          "body": [
+            "Na uw vestiging als inwoner van Spanje moet de buitenlandse wagen er ingeschreven worden. Volgens de overheid hebt u daarvoor één maand, te rekenen vanaf het moment dat u resident wordt. Op doorreis zijn betekent dat u niets hoeft te ondernemen. Fiscaal wordt de registratiebelasting verschuldigd als de definitieve inschrijving niet binnen 30 dagen na het begin van het gebruik in Spanje is aangevraagd. Bij een verhuis van de hoofdverblijfplaats loopt die termijn tot 60 dagen.",
+            "Haalt u de termijn niet, dan kunt u bij de DGT tijdelijke groene platen aanvragen, waarmee u twee maanden mag rijden terwijl de inschrijving loopt. Voor de inschrijving zelf brengt u mee: een ingevuld formulier, uw identiteitsbewijs, de Spaanse ITV-fiche, de originele buitenlandse boorddocumenten, belastingbewijzen en een bewijs van woonplaats. De DGT werkt aan het loket op afspraak."
+          ]
+        },
+        {
+          "heading": "Vrijstelling, tweede verblijf en stilstand",
+          "body": [
+            "Verhuizers kunnen vrijstelling van de registratiebelasting krijgen. U moet minstens twaalf maanden vóór de verhuis buiten Spanje gewoond hebben, de wagen moet in het vorige woonland gekocht en gebruikt zijn en u mag hem twaalf maanden niet verkopen. Een wagen die al van u was, vraagt geen bewijs van aankoopbelastingen, wel de registratie- en verkeersbelasting.",
+            "De gemeentelijke verkeersbelasting (IVTM) betaalt u jaarlijks aan de gemeente waar u woont, voor elke wagen die op 1 januari is ingeschreven, ook als hij stilstaat. Voor een wagen die lang stilstaat, bijvoorbeeld aan een tweede verblijf, bestaat de tijdelijke uitschrijving (baja temporal): maximaal één jaar, telkens verlengbaar. Op privéterrein hoeft de wagen in die periode geen verzekering of ITV te hebben. Rijden mag niet."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Girona-Costa Brava",
+          "body": "De luchthaven ligt op ongeveer 13 km van Girona en 74 km van Barcelona, op ongeveer 40 minuten rijden van de Franse grens. De Costa Brava met Lloret de Mar, L'Estartit en Platja d'Aro wordt erdoor bediend. Wie zijn wagen aan de Costa Brava laat afleveren en zelf invliegt, landt hier."
+        },
+        {
+          "kind": "plek",
+          "title": "Barcelona-El Prat",
+          "body": "De luchthaven Josep Tarradellas Barcelona-El Prat ligt ongeveer 15 km ten zuidwesten van het centrum en is de op een na drukste van Spanje. Wie in Barcelona woont of verhuist, laat zijn wagen aanrijden op een adres buiten de drukste straten."
+        },
+        {
+          "kind": "plek",
+          "title": "Andorra en de N-145",
+          "body": "Eén enkele toegelaten weg verbindt Spanje met Andorra: de N-145 door het Valira-dal, tussen La Seu d'Urgell en Sant Julià de Lòria, met de douanepost in La Farga de Moles. Een wagen naar Andorra rijdt dus altijd langs die ene post."
+        },
+        {
+          "kind": "regel",
+          "title": "ITV hangt af van de regio",
+          "body": "ITV-keuringsstations vallen in Spanje onder de autonome gemeenschap waarin ze liggen. Doorgaans gaat het om concessies, al exploiteert de overheid ze in sommige gemeenschappen zelf. Vraag dus bij de regio waar u woont welk station u moet gebruiken voor de keuring van uw wagen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn Zwitserse wagen in Spanje blijven rijden als ik er woon?",
+          "a": "Nee. Wie inwoner van Spanje wordt, moet zijn buitenlandse wagen in Spanje inschrijven, binnen één maand vanaf het moment dat u resident bent. Op doorreis zijn betekent dat u niets hoeft te ondernemen. Reken de inschrijving dus in bij uw verhuisplanning."
+        },
+        {
+          "q": "Wat als ik de termijn voor inschrijving niet haal?",
+          "a": "Dan kunt u bij de DGT tijdelijke groene platen (placas verdes) aanvragen, waarmee u twee maanden mag rijden terwijl de inschrijving loopt. De termijn is verlengbaar. Bewaar al uw documenten, want bij een controle moeten ze kloppen."
+        },
+        {
+          "q": "Kan ik mijn wagen in Spanje tijdelijk uitschrijven als hij stilstaat?",
+          "a": "Ja, via de tijdelijke uitschrijving (baja temporal): maximaal één jaar, telkens met een jaar verlengbaar. Op privéterrein hoeft de wagen in die periode geen verzekering of ITV te hebben. Rijden mag in die periode niet."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Spanje: via Wallis en Frankrijk naar La Jonquera, inschrijving binnen één maand bij de DGT.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Autobahn_A9_(Schweiz)",
+        "https://de.wikipedia.org/wiki/Verbier",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/La_Jonquera",
+        "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+        "http://administracion.gob.es/tu-espacio-europeo/derechos-obligaciones/ciudadanos/vehiculos/traslado/matriculacion",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/no-vas-a-usar-tu-vehiculo/baja-temporal/",
+        "https://es.wikipedia.org/wiki/Aeropuerto_de_Gerona-Costa_Brava",
+        "https://es.wikipedia.org/wiki/Aeropuerto_Josep_Tarradellas_Barcelona-El_Prat",
+        "https://es.wikipedia.org/wiki/Frontera_entre_Andorra_y_Espa%C3%B1a",
+        "https://es.wikipedia.org/wiki/Inspecci%C3%B3n_t%C3%A9cnica_de_veh%C3%ADculos"
+      ]
+    },
+    "zwitserland-italie": {
+      "lead": "U woont in Ticino, in Wallis of ergens in de Alpen en uw wagen moet naar Italië, voor een verhuizing of een tweede verblijf. Tussen u en de Italiaanse grens ligt een berg: de Gotthard, de San Bernardino, de Simplon of de Grote Sint-Bernhard. Hier leest u welke weg wanneer open is en wat de Italiaanse inschrijving van u vraagt.",
+      "facts": [
+        {
+          "label": "Gotthard",
+          "value": "Tunnel van 16,9 km, een rijstrook per richting, maximaal 80 km/u"
+        },
+        {
+          "label": "Inschrijven",
+          "value": "In Italië binnen drie maanden na de inschrijving als inwoner"
+        },
+        {
+          "label": "Sint-Bernhard",
+          "value": "De pas is gewoonlijk van oktober tot mei dicht; de tunnel niet"
+        },
+        {
+          "label": "ZTL",
+          "value": "Camera's lezen de nummerplaat; boetes volgen vaak maanden later"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ticino, het zonnige zuiden van Zwitserland",
+          "body": [
+            "Ticino heet de Sonnenstube der Schweiz, door het zachte klimaat. Het laagste punt van Zwitserland ligt er aan het Lago Maggiore, op 193 meter. De luchthaven Lugano-Agno ligt ongeveer 3 km ten westen van Lugano, maar heeft nauwelijks nog lijnvluchten. Vliegt u naar Ticino, dan komt u gewoonlijk aan in Milaan of Zürich.",
+            "Voor een wagen die van Ticino naar Italië moet, is de grens dichtbij: Chiasso ligt op de A2, de snelweg die van Basel naar Chiasso loopt. Wie in Lugano woont en de wagen laat ophalen, spreekt een laadplek aan de rand van de stad af en niet in de oude kern."
+          ]
+        },
+        {
+          "heading": "De bergen tussen u en Italië",
+          "body": [
+            "De Gotthard-wegtunnel van 16,9 km heeft één buis met één rijstrook per richting en een limiet van 80 km/u. Sinds de brand van 2001 mogen er maximaal 150 vrachtwagens per uur in. Op de Gotthardpas zelf is alleen zomerverkeer mogelijk. De San Bernardino-tunnel tussen Thusis en Bellinzona is het alternatief; de pasweg is er van mei tot november open.",
+            "Verder westwaarts verbindt de Grote Sint-Bernhardtunnel van 5.798 m Martigny in Wallis met Aosta. De pas is gewoonlijk van oktober tot mei dicht, de tunnel moet het hele jaar open zijn, en de douaneformaliteiten gebeuren aan de Zwitserse kant. De Simplonpas (2.006 m) tussen Brig en Domodossola blijft het hele jaar open."
+          ]
+        },
+        {
+          "heading": "Uw wagen in Italië inschrijven",
+          "body": [
+            "Gaat u in Italië wonen met een wagen met buitenlandse plaat, dan laat u die binnen drie maanden na uw inschrijving als inwoner in Italië inschrijven. Een inwoner die met een buitenlands ingeschreven wagen rijdt die niet van hem is, moet een gedateerd document aan boord hebben, ondertekend door de eigenaar, met de titel en de duur van het gebruik.",
+            "Duurt dat gebruik langer dan 30 dagen in een kalenderjaar, dan moet de gebruiker de wagen laten opnemen in het REVE, het register voor buitenlandse voertuigen. Als niet-inwoner rijdt u hoogstens één jaar in Italië met een wagen die in het buitenland is ingeschreven. Negeert u de termijn, dan riskeert u een boete en kan de wagen worden ingehouden."
+          ]
+        },
+        {
+          "heading": "ZTL, Milaan en de Povlakte",
+          "body": [
+            "ZTL-zones worden met camera's op de nummerplaat gecontroleerd. Een centrale Italiaanse website met alle ZTL's en hun uren bestaat niet, en bezoekers ontvangen de boete vaak pas maanden later per post. Een transporter rijdt daarom beter niet het historische centrum in. Spreek een plek erbuiten af.",
+            "In Milaan geldt Area B sinds 25 februari 2019. Ze is veel groter dan Area C en weert de meest vervuilende én grote voertuigen. Afleveren met een autotransporter gebeurt daarom beter aan de rand van de stad. In de Povlakte zijn mist en nevel in de winter frequent, en de luchtkwaliteit is er in de winter het slechtst van Europa. Rijverboden wegens smog vallen dus vooral in de wintermaanden."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Milaan-Malpensa",
+          "body": "De luchthaven ligt in de provincie Varese, ongeveer 49 km ten noordwesten van Milaan. Als tweede drukste luchthaven van Italië is het ook de grootste voor vracht. Wie hier landt terwijl de wagen op transport staat, kan een afleveradres in de Lombardische rand kiezen."
+        },
+        {
+          "kind": "regel",
+          "title": "ZTL Centrale in Turijn",
+          "body": "Wie in Turijn het centrum in wil, let op de ZTL Centrale: maandag tot vrijdag van 7.30 tot 10.30 uur, niet op zaterdag en feestdagen, met camerabewaking. Een wagen in het centrum afleveren kan dus best buiten dat venster. Wie via de Grote Sint-Bernhard naar Piemonte rijdt, komt hier uit."
+        },
+        {
+          "kind": "regel",
+          "title": "Zomerverboden in Italië",
+          "body": "Italië kent een jaarkalender van rijverboden voor voertuigen boven 7,5 ton buiten de bebouwde kom. In de zomer komen ook vrijdag en zaterdag onder de verboden, met een piek op 15 augustus van 7 tot 22 uur. Op zon- en feestdagen van juni tot september geldt een verbod van 7 tot 22 uur. In de zomer vraagt een leverdag dus extra marge."
+        },
+        {
+          "kind": "tip",
+          "title": "Luchthaven Milaan-Bergamo",
+          "body": "De luchthaven Milaan-Bergamo ligt in Orio al Serio, 3,7 km van Bergamo en 45 km van Milaan, vlak bij de A4. Het is een van de grootste Ryanair-bases. Voor een wagen die in Lombardije moet aankomen terwijl u laagbudget vliegt, is dit een afleveradres met goede aansluiting op de A4."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag mijn Zwitserse wagen in Italië rijden zonder inschrijving?",
+          "a": "Als niet-inwoner rijdt u hoogstens één jaar in Italië met een wagen die in het buitenland is ingeschreven. Wie inwoner wordt, moet de wagen binnen drie maanden na de inschrijving als inwoner laten inschrijven. Daarna riskeert u boete en inhouding."
+        },
+        {
+          "q": "Wat als mijn zoon of vriend met mijn Zwitserse wagen in Italië rijdt?",
+          "a": "Een inwoner van Italië die met een buitenlands ingeschreven wagen rijdt die niet van hem is, moet een gedateerd, door de eigenaar ondertekend document bij zich hebben met de titel en de duur van het gebruik. Duurt het langer dan 30 dagen per jaar, dan volgt het REVE."
+        },
+        {
+          "q": "Welke pas of tunnel is het hele jaar open?",
+          "a": "De Gotthard-tunnel, de San Bernardino-tunnel en de Grote Sint-Bernhardtunnel zijn het hele jaar open. De Simplonpas wordt ook het hele jaar open gehouden. De passen van de Gotthard, San Bernardino en Grote Sint-Bernhard zijn in de winter dicht of beperkt."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Italië: Gotthard, Simplon en Sint-Bernhard, ZTL-zones en inschrijving in Italië.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/San_Bernardino_Pass",
+        "https://en.wikipedia.org/wiki/Great_St_Bernard_Tunnel",
+        "https://en.wikipedia.org/wiki/Simplon_Pass",
+        "https://mit.gov.it/node/21641",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://aci.gov.it/codice-della-strada/art-93-bis/",
+        "https://aci.gov.it/codice-della-strada/art-132/",
+        "https://www.sicurauto.it/news/codice-della-strada/auto-con-targa-estera-dal-2022-tre-mesi-per-reimmatricolarle/",
+        "https://it.wikipedia.org/wiki/Zona_a_traffico_limitato",
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://en.wikipedia.org/wiki/Po_Valley",
+        "https://de.wikipedia.org/wiki/Kanton_Tessin",
+        "https://de.wikipedia.org/wiki/Flughafen_Lugano",
+        "https://www.unipolmove.it/blog/ztl-a-torino-mappa-orari-e-multe/",
+        "https://en.wikipedia.org/wiki/Milan_Malpensa_Airport",
+        "https://en.wikipedia.org/wiki/Milan_Bergamo_Airport"
+      ]
+    },
+    "zwitserland-oostenrijk": {
+      "lead": "U woont in het Rijndal, in Graubünden of rond Zürich en uw wagen moet naar Oostenrijk, voor een verhuizing of een winterverblijf in Vorarlberg of Tirol. De afstand is kort, maar de regels voor een buitenlandse plaat zijn in Oostenrijk streng en de maand om in te schrijven loopt snel. Hier leest u wat onderweg en bij aankomst telt.",
+      "facts": [
+        {
+          "label": "Maandregel",
+          "value": "Wie in Oostenrijk woont, mag één maand met buitenlandse plaat rijden"
+        },
+        {
+          "label": "Rijndal",
+          "value": "De Zwitserse A13 loopt 195 km van St. Margrethen naar Bellinzona"
+        },
+        {
+          "label": "Toerist",
+          "value": "Woont u elders, dan rijdt u hoogstens één jaar met buitenlandse plaat"
+        },
+        {
+          "label": "Pickerl",
+          "value": "Periodieke keuring volgt de 3-2-1-regel na eerste inschrijving"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het Rijndal en Graubünden",
+          "body": [
+            "De Zwitserse A13 begint in St. Margrethen, loopt door de Rijnvallei langs de grens met Oostenrijk en Liechtenstein naar Sargans en Chur en gaat door de San Bernardinotunnel naar Bellinzona. Liechtenstein ligt tussen beide landen, heeft een douane-unie met Zwitserland en neemt deel aan Schengen en de EER zonder EU-lid te zijn.",
+            "In Graubünden zit het Strassenverkehrsamt in Chur, met keuringsstations onder meer in Davos, Samedan en Scuol. Het Unterengadin heeft dankzij de autotrein door de Vereinatunnel tussen Klosters Selfranga en Sagliains een verbinding die niet van het weer afhangt. Per richting rijden er één tot drie autotreinen per uur."
+          ]
+        },
+        {
+          "heading": "Passen en winter in Graubünden",
+          "body": [
+            "De Julierpas (2.284 m) tussen Tiefencastel en Silvaplana is het hele jaar open en is de gebruikelijke weg naar het Engadin. De Flüelapas (2.383 m) tussen Davos en Susch is lawinegevoelig en elke winter gesloten, gewoonlijk van begin januari tot april of mei.",
+            "Wie in het Engadin woont en zijn wagen naar Oostenrijk laat brengen, vraagt dus eerst welke weg op de dag van ophaling open is. Het vliegveld van Samedan, op 1.707 m en 5 km van St. Moritz, heeft geen lijnvluchten meer en wordt vooral in de winter door privéjets gebruikt. Zelf invliegen doet u dus beter in Zürich."
+          ]
+        },
+        {
+          "heading": "Aankomst in Vorarlberg en Tirol",
+          "body": [
+            "Vorarlberg ligt het dichtst. Ongeveer 63 km lang is de Oostenrijkse A14, van Hörbranz via Bregenz, Dornbirn, Hohenems en Feldkirch naar Bludenz. Personenwagens betalen tol tussen Hohenems en Bludenz maar niet tussen de Duitse grens en Hohenems; vrachtwagens betalen overal. Bij Bludenz gaat de A14 over in de Arlberg Schnellstraße en de Arlbergtunnel van ongeveer 14 km, met een limiet van 80 km/u.",
+            "Aan beide ingangen controleert een hotspot-detector voertuigen boven 3,5 ton, en bij te hete onderdelen blijft de doorgang gesloten. Oostenrijk verbiedt vrachtwagens boven 7,5 ton 's nachts van 22 tot 5 uur, op zaterdag van 15 tot 24 uur en op zon- en feestdagen van 0 tot 22 uur."
+          ]
+        },
+        {
+          "heading": "De Oostenrijkse inschrijving",
+          "body": [
+            "Ligt uw hoofdverblijfplaats in Oostenrijk, dan mag een wagen met buitenlandse plaat er slechts één maand rijden, geteld vanaf de eerste keer dat de wagen het land binnenkomt. Eenmalig kan die maand met een maand verlengd worden. Daarna levert u kentekenbewijs en platen in bij de Landespolizeidirektion of de Bezirkshauptmannschaft.",
+            "Inschrijven gebeurt bij een Zulassungsstelle van een verzekeraar, in het district van uw hoofdverblijf, na een Oostenrijkse aansprakelijkheidsverzekering. Ook de NoVA, de normverbruiksbelasting, ontstaat bij inschrijving; wat die voor een wagen uit Zwitserland betekent, vraagt u aan het Finanzamt. De wagen rijdt op onze transporter mee; de papieren en de inschrijving doet u zelf."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Eén jaar voor wie elders woont",
+          "body": "Wie zijn hoofdverblijf buiten Oostenrijk heeft, zoals een toerist of tweedeverblijver, mag met een buitenlandse plaat maximaal één jaar in Oostenrijk rijden, te rekenen vanaf de invoer. Komt het zwaartepunt van uw leven in Oostenrijk te liggen, dan schrijft u de wagen om."
+        },
+        {
+          "kind": "regel",
+          "title": "Pickerl en de 3-2-1-regel",
+          "body": "De periodieke keuring van personenwagens, het Pickerl, volgt de 3-2-1-regel: de eerste keuring drie jaar na de eerste inschrijving, de tweede twee jaar later, daarna elk jaar. Een keuring tussen één maand vóór en vier maanden na de vervalmaand wordt toegestaan, al erkennen andere landen die tolerantie vaak niet."
+        },
+        {
+          "kind": "tip",
+          "title": "Originele papieren aan boord",
+          "body": "Onderweg in Oostenrijk moeten rijbewijs en kentekenbewijs in origineel aan boord zijn; kopieën worden niet aanvaard. Op de smartphone kunnen Oostenrijkse documenten ook digitaal als eAusweis worden getoond. Laat de originele papieren dus niet in de wagen achter op de transporter."
+        },
+        {
+          "kind": "plek",
+          "title": "Luchthaven St. Gallen-Altenrhein",
+          "body": "De luchthaven ligt aan de Bodensee, vlak bij de Oostenrijkse grens. People's vliegt er in lijndienst op Wenen en tijdens het World Economic Forum landen er veel privéjets. Wie vanuit Wenen terugvliegt naar zijn wagen in het Rijndal, heeft hier een dichtbije luchthaven."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag ik na mijn verhuizing met mijn Zwitserse plaat rijden?",
+          "a": "Wie zijn hoofdverblijfplaats in Oostenrijk heeft, mag een wagen met buitenlandse plaat één maand gebruiken, te rekenen vanaf de eerste binnenkomst. Over de grens rijden stopt de termijn niet. Eén keer is een maand verlenging mogelijk."
+        },
+        {
+          "q": "Waar schrijf ik mijn wagen in Oostenrijk in?",
+          "a": "Niet bij een overheidsloket, maar bij een Zulassungsstelle van een verzekeraar in het district van uw hoofdverblijf. Eerst hebt u een Oostenrijkse aansprakelijkheidsverzekering nodig. Op het moment van de inschrijving krijgt u de platen meteen mee."
+        },
+        {
+          "q": "Betaal ik tol op de A14 als particulier?",
+          "a": "Tussen de Duitse grens en Hohenems rijden personenwagens gratis, maar tussen Hohenems en Bludenz betalen ze tol. Voor wie de wagen zelf naar Oostenrijk rijdt, hoort er ook een vignet bij. Een transporter betaalt zijn eigen tol als zwaar voertuig."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Oostenrijk: Rijndal en Graubünden, Arlberg en de maandregel voor buitenlandse platen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A13_motorway_(Switzerland)",
+        "https://de.wikipedia.org/wiki/Rheintal/Walgau_Autobahn",
+        "https://en.wikipedia.org/wiki/Arlberg_Road_Tunnel",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/austria",
+        "https://en.wikipedia.org/wiki/Liechtenstein",
+        "https://de.wikipedia.org/wiki/Vereinatunnel",
+        "https://de.wikipedia.org/wiki/Julierpass",
+        "https://de.wikipedia.org/wiki/Flüelapass",
+        "https://www.gr.ch/DE/institutionen/verwaltung/djsg/stva/ueberuns/Seiten/Standorte.aspx",
+        "https://de.wikipedia.org/wiki/Flugplatz_Samedan",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/10/Seite.063160",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/2/Seite.060118",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/Seite.060500",
+        "https://www.oeamtc.at/thema/vorschriften-strafen/mitfuehrpflichten-in-oesterreich-16455483",
+        "https://de.wikipedia.org/wiki/Flugplatz_St._Gallen-Altenrhein"
+      ]
+    },
+    "zwitserland-polen": {
+      "lead": "U vertrekt uit Zwitserland en uw wagen moet naar Polen, bijvoorbeeld bij een terugkeer of een nieuwe baan. Er is geen rechtstreekse weg: de rit loopt door Duitsland, over de A5 en de A4, tot aan de Poolse grens bij Zgorzelec. Hier leest u wat u bij het vertrek, onderweg en bij de Poolse inschrijving moet weten.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Door Duitsland, over A5 en A4, tot de Poolse grens"
+        },
+        {
+          "label": "Duitse A4",
+          "value": "583 km van Aken via Dresden naar Görlitz"
+        },
+        {
+          "label": "Poolse A4",
+          "value": "Begint bij Jędrzychowice en loopt via Wrocław en Katowice naar Kraków"
+        },
+        {
+          "label": "Aankomst",
+          "value": "Accijns via AKC-U/S binnen 30 dagen na binnenkomst"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Oost-Zwitserland",
+          "body": [
+            "Voor Polen ligt de regio rond Zürich en Oost-Zwitserland het dichtst, via Zuid-Duitsland. Zürich en Schaffhausen liggen aan de A4, die bij Thayngen uit Duitsland binnenkomt; de Duitse grens ligt dus dichtbij. Laat bij de aanvraag weten in welk kanton u woont, want de Zwitserse feestdagen verschillen per kanton en bepalen op welke dagen zware wagens mogen rijden.",
+            "De uitvoer uit Zwitserland vraagt een e-dec-uitvoeraangifte bij een douanekantoor voor handelsgoederen, met uw inschrijvingsbewijs, ook als het geschrapt is, en identiteitsbewijs. Omdat Zwitserland niet tot de EU behoort, is dit een echte uitvoer. Uitrijden kan op uitvoerplaten of op een ander voertuig, zoals een autotransporter."
+          ]
+        },
+        {
+          "heading": "Door Duitsland naar Polen",
+          "body": [
+            "De gebruikelijke as loopt van Basel over de Duitse A5 naar Frankfurt en dan over de A4 via Eisenach, Erfurt en Dresden. De A4 is 583 km lang en loopt van Aken via Keulen naar Görlitz. Als alternatief kunt u via Berlijn en de A12 naar de Poolse A2 rijden. De A9 kruist de A4 bij het Hermsdorfer Kreuz.",
+            "In Duitsland geldt op zondag en feestdagen van 0 tot 22 uur een rijverbod voor vrachtwagens boven 7,5 ton, en op bepaalde trajecten ook op zomerzaterdagen van 7 tot 20 uur in juli en augustus. Voor vrachtwagens boven 3,5 ton wordt tol geheven op alle Bundesstraßen en vrijwel alle autosnelwegen, met een CO2-toeslag."
+          ]
+        },
+        {
+          "heading": "Grens en Poolse snelwegen",
+          "body": [
+            "Bij Jędrzychowice, aan de overgang Jędrzychowice-Ludwigsdorf, start de Poolse A4, die via Wrocław en Katowice naar Kraków gaat. Tol betaalt u op het stuk van Karwiany bij Wrocław tot Żernica ten oosten van Gliwice, terwijl de ring van Gliwice tolvrij is. E-TOLL is van toepassing vanaf kort na de grens tot Katowice Murckowska.",
+            "Polen verbiedt vrachtwagens boven 12 ton op twaalf feestdagen van 8 tot 22 uur, en in de zomer ook op vrijdagavond, zaterdagochtend en zondag. Voor een levering in Polen betekent dat: neem de feestdagen en de zomerweekends niet als leverdag, ook niet als de wagen al aan de grens staat."
+          ]
+        },
+        {
+          "heading": "De Poolse inschrijving",
+          "body": [
+            "Voor een wagen uit Zwitserland noemt een Poolse gids de accijns via AKC-U/S binnen 30 dagen, een geldige keuring en een bewijs van uitschrijving in het land van herkomst. Vertaling van de voertuigdocumenten zou niet nodig zijn voor EU-, EVA- en Zwitserse wagens. Of bij een niet-EU-wagen extra douane- en btw-stappen volgen, staat niet op die pagina. Vraag het na bij de Poolse douane.",
+            "Op de dag van inschrijving moet de verplichte aansprakelijkheidsverzekering (OC) uiterlijk ingaan. Het kentekenbewijs is doorgaans binnen 30 dagen klaar en de status volgt u via info-car.pl. Staat een wagen niet eerder in Polen ingeschreven, dan levert de gratis databank CEPiK er geen gegevens over."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Katowice Airport in Pyrzowice",
+          "body": "De luchthaven ligt in Pyrzowice, ongeveer 30 km ten noorden van Katowice (40 km over de weg). Wie in Opper-Silezië moet zijn, bijvoorbeeld in Tychy waar Stellantis een fabriek heeft, vliegt hier in en laat de wagen over de weg komen via de A4."
+        },
+        {
+          "kind": "plek",
+          "title": "Kraków Airport in Balice",
+          "body": "Kraków Airport ligt 11 km ten westen van het centrum. LOT, Wizz Air, Ryanair, easyJet en Lufthansa vliegen er. De tolsectie van de A4 Katowice-Krakau eindigt bij het tolstation Balice, vlak bij de luchthaven, wat het een handige afleverplek maakt voor wie uit het westen komt."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone in Warschau",
+          "body": "Warschau heeft een Strefa Czystego Transportu. Oudere benzinewagens en diesels mogen de zone niet in, behalve met vrijstelling of op maximaal 4 dagen per jaar. Inwoners krijgen de vrijstelling alleen met een aanvraag bij het stedelijk wegenbureau ZDM en als ze in Warschau belasting betalen, dus niet automatisch bij een verhuis."
+        },
+        {
+          "kind": "plek",
+          "title": "Lotnisko Chopina en Modlin",
+          "body": "Lotnisko Chopina is de grootste luchthaven van Polen. Warschau-Modlin ligt in Nowy Dwór Mazowiecki, ongeveer 40 km ten noorden van het centrum, en is sinds 2012 de lowcostluchthaven. Wie zelf vliegt terwijl de wagen over de weg komt, spreekt een afleveradres af in de buurt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waar schrijf ik mijn wagen in Polen in?",
+          "a": "Bij de dienst verkeer van uw woonplaats: het starostwo powiatowe, het stadhuis in een stad met powiatrechten of, in Warschau, het districtskantoor. Een gevolmachtigde kan de aanvraag indienen. Ook een Poolse gids spreekt over een recentere regel; vraag het loket vooraf."
+        },
+        {
+          "q": "Heb ik een Poolse verzekering nodig vóór de inschrijving?",
+          "a": "Ja. De verplichte aansprakelijkheidsverzekering (OC) moet ten laatste op de dag van inschrijving lopen, en bij het afhalen van het definitieve kentekenbewijs toont u een geldige polis. Regel de polis dus vóór de afspraak."
+        },
+        {
+          "q": "Wat gebeurt er als mijn wagen zaterdagavond in Zwitserland nog onderweg is?",
+          "a": "Zwitserland verbiedt zwaar verkeer elke nacht van 22 tot 5 uur en op zondag. Wie zaterdagavond wordt tegengehouden, kan pas maandag om 5 uur verder. Reken daarom op werkdagen voor ophaling."
+        }
+      ],
+      "seoDescription": "Autotransport voor particulieren van Zwitserland naar Polen: de weg door Duitsland, uitvoer uit Zwitserland en inschrijving van uw wagen in Polen.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_9",
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://www.bazg.admin.ch/de/ausfuhr-fahrzeuge-schweiz",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/switzerland",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=PL",
+        "https://www.autocentrum.pl/publikacje/porady/jak-zarejestrowac-samochod-z-zagranicy-poradnik/",
+        "https://warszawa19115.pl/en/-/rejestracja-pojazdu-uzywanego-sprowadzonego-z-zagranicy",
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://www.autocentrum.pl/newsy/wszyscy-patrzyli-na-krakow-a-warszawa-po-cichu-dokrecila-srube-ii-etap-sct-stal-sie-faktem/",
+        "https://en.wikipedia.org/wiki/Katowice_International_Airport",
+        "https://en.wikipedia.org/wiki/John_Paul_II_International_Airport_Krak%C3%B3w%E2%80%93Balice",
+        "https://en.wikipedia.org/wiki/Warsaw_Modlin_Airport",
+        "https://de.wikipedia.org/wiki/Autobahn_A4_(Schweiz)"
+      ]
+    }
+  }
+}

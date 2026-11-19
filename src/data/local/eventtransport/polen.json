@@ -1,0 +1,318 @@
+{
+ "service": "eventtransport",
+ "origin": "polen",
+ "pages": {
+  "polen": {
+   "lead": "Een supercar voor de Warsaw Motor Show, een rallyauto voor de Barbórka in Warschau, een klassieker voor een Poolse oldtimerbeurs: wie zijn wagen naar een evenement in Polen laat brengen, botst op regels die anders zijn dan in België. Vrachtwagens hebben er hun eigen verboden, een eigen tolsysteem en in Warschau een stadsregime waar een autotransporter niet zomaar binnen mag.",
+   "facts": [
+    {
+     "label": "Warsaw Motor Show",
+     "value": "Elk jaar in oktober in Ptak Warsaw Expo, Nadarzyn."
+    },
+    {
+     "label": "Feestdagenverbod",
+     "value": "Vrachtwagens boven 12 ton rijden niet van 8 tot 22 uur."
+    },
+    {
+     "label": "Tol zwaar verkeer",
+     "value": "e-TOLL via satelliet, boven 3,5 ton, zonder tolpoorten."
+    },
+    {
+     "label": "Verplichte uitrusting",
+     "value": "Enkel brandblusser en gevarendriehoek, geen hesje of verbanddoos."
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Ptak Warsaw Expo en de Warsaw Motor Show",
+     "body": [
+      "De Warsaw Motor Show vindt elk jaar in oktober plaats in Ptak Warsaw Expo in Nadarzyn, net buiten Warschau. Volgens de beursvereniging UFI is dat met ongeveer 143.000 m² overdekte ruimte het grootste beurscomplex van het land. Op de beurs staan sport- en luxewagens, klassiekers, elektrische wagens, offroad- en expeditievoertuigen, tuning, driftdemonstraties, detailing en car audio. Naast de beurs loopt de Warsaw Oldtimer Show.",
+      "Voor uw transport betekent dit dat de hal buiten de stad ligt en u het stadscentrum van Warschau kunt mijden. Wie een showwagen, een klassieker of een tuningproject wil laten tonen, vraagt de organisator eerst wanneer de laadplaatsen open zijn. Mcars brengt de wagen op een open, meerlaagse transporter naar de hal, met een lier aan boord voor wagens die niet meer zelf rijden."
+     ]
+    },
+    {
+     "heading": "Warschau: milieuzone en vrachtverbod",
+     "body": [
+      "Het centrum van Warschau heeft een Strefa Czystego Transportu, de Poolse milieuzone. De grenzen lopen langs Prymasa Tysiąclecia, Jerozolimskie, Trasa Łazienkowska, Stanów Zjednoczonych, Wiatraczna en de noordelijke spoorbypass. Wie niet in Warschau gevestigd is, heeft voor benzine minstens Euro 3 of bouwjaar vanaf 2000 nodig, voor diesel minstens Euro 5. De stadswacht controleert via de voertuigdatabank CEPiK. Voor evenementen in het centrum is er een uitweg: op vier dagen per jaar mogen ook niet-conforme wagens binnen.",
+      "De transporter zelf valt onder iets anders. Vrachtwagens boven 16 ton mogen er van 7 tot 10 uur en van 16 tot 20 uur niet rijden, en doorgaand transitverkeer is er de klok rond verboden. Wie in die uren toch moet leveren, heeft een C16-identificator van de stedelijke wegbeheerder ZDM nodig. Spreek daarom een lostijd buiten de spits af."
+     ]
+    },
+    {
+     "heading": "Feestdagen: wanneer de transporter stilstaat",
+     "body": [
+      "Polen kent geen rijverbod voor vrachtwagens op elke gewone zondag. Het verbod geldt voor voertuigen boven 12 ton op wettelijke feestdagen, van 8 tot 22 uur, en op de vooravond daarvan. Het gaat onder meer om Nieuwjaar, Paaszondag en Paasmaandag, 1 en 3 mei, Pinksterzondag, Sacramentsdag in juni, 15 augustus, 1 en 11 november en beide kerstdagen. Kerstavond is sinds kort een wettelijke vrije dag, maar staat niet op de lijst met rijverboden.",
+      "Een autotransporter met lading zit ruim boven die 12 ton. Valt uw beurs, rally of shoot rond Pasen, 3 mei of 11 november, plan de levering dan een dag vroeger of later. Zo staat de wagen er op tijd en verliest u geen opbouwdag aan een verbod dat u niet kunt omzeilen."
+     ]
+    },
+    {
+     "heading": "Tol en uitrusting als u zelf rijdt",
+     "body": [
+      "Zwaar verkeer betaalt in Polen tol via e-TOLL. Dat geldt voor motorvoertuigen boven 3,5 ton en voor autobussen, op de betalende vakken van snelwegen, expreswegen en nationale wegen, samen ongeveer 5.870 km. Er zijn geen tolpoorten: de positie van het voertuig gaat via satelliet door, met een boordtoestel, een extern lokalisatiesysteem of de gratis app e-TOLL PL. De Poolse belastingdienst KAS beheert het systeem.",
+      "Rijdt u met uw eigen showwagen naar een Poolse beurs, dan is de verplichte uitrusting kort: een brandblusser en een gevarendriehoek. Een fluohesje en een verbanddoos zijn in Polen niet verplicht. Ontbreekt wat wel verplicht is, dan riskeert u een boete of een afgekeurde keuring. Rij dan liever niet zelf, maar laat de wagen op een transporter aankomen zoals hij vertrokken is."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Rajd Barbórka in Warschau",
+     "body": "De Rajd Barbórka sluit elk jaar in december het Poolse rallyseizoen af in Warschau, met als slotproef het Kryterium Asów op de ulica Karowa in het centrum. De vakpers waarschuwde dat die proef kan verdwijnen of veranderen, omdat de stad de straat wil herinrichten met een smallere rijbaan. Kijk het programma elk jaar opnieuw na voor u een rallyauto vervoert."
+    },
+    {
+     "kind": "event",
+     "title": "Auto Nostalgia",
+     "body": "Auto Nostalgia in Warschau geldt als de oudste oldtimerbeurs van Polen en wordt georganiseerd door Grupa MTP. De editie die wij kennen, vond in het voorjaar plaats in EXPO XXI. Of en waar de beurs nu doorgaat, vraagt u bij de organisator na voor u een klassieker boekt."
+    },
+    {
+     "kind": "plek",
+     "title": "Muzeum Motoryzacji i Techniki, Otrębusy",
+     "body": "Dit museum aan de ul. Warszawska 21, ten zuidwesten van Warschau, toont ongeveer 300 historische voertuigen en bestaat sinds 1995. Wilt u een wagen laten tonen of fotograferen voor een evenement of clubdag in het museum, spreek de aflevering dan vooraf met het museum af."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mag een autotransporter op zondag rijden in Polen?",
+     "a": "Op een gewone zondag buiten de zomer wel. Polen heeft geen algemeen zondagverbod voor vrachtwagens; de verboden gelden op feestdagen, de vooravond ervan en in een zomerperiode. Uw wagen rijdt onderweg ook door andere landen, waar strengere verboden gelden, dus de hele route telt."
+    },
+    {
+     "q": "Moet mijn wagen winterbanden hebben voor een evenement in Polen?",
+     "a": "Nee, winterbanden zijn in Polen niet wettelijk verplicht en er is geen seizoensplicht. De banden moeten wel in orde zijn, met minstens 1,6 mm profiel en zonder zichtbare schade. Voor een decemberevenement zoals de Barbórka is een winterband toch verstandig."
+    },
+    {
+     "q": "Kan mijn wagen vanuit Roeselare naar Polen vertrekken?",
+     "a": "Ja. U kunt uw wagen op ons depot in Roeselare, Moorseelsesteenweg 16B, laten leveren. Dat kan 24/7 en is voordeliger dan ophaling aan huis. Bij ophaling maken we een inspectie en foto's, en u krijgt een CMR-vrachtbrief mee."
+    }
+   ],
+   "seoDescription": "Eventtransport in Polen: uw wagen naar de Warsaw Motor Show, de Barbórka of een oldtimerbeurs. Regels voor vrachtwagens, tol en milieuzone Warschau.",
+   "sources": [
+    "https://www.autocentrum.pl/newsy/najwieksze-swieto-motoryzacji-w-warszawie-wraca-warsaw-motor-show-2026-juz-w-pazdzierniku/",
+    "https://ufi.org/membership/ufi-members/member/UFIACCOUNT-4210",
+    "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+    "https://www.autocentrum.pl/newsy/wszyscy-patrzyli-na-krakow-a-warszawa-po-cichu-dokrecila-srube-ii-etap-sct-stal-sie-faktem/",
+    "https://warszawa19115.pl/-/identyfikator-c16",
+    "https://www.timocom.co.uk/truck-driving-bans/poland",
+    "https://www.infakt.pl/blog/wymiar-czasu-pracy-2026-r-pelna-lista-swiat-i-tabele/",
+    "https://etoll.gov.pl/en/about-system/",
+    "https://www.auto-swiat.pl/porady/obowiazkowe-wyposazenie-samochodu-w-2026-roku-w-polsce-kluczowe-sa-dwie-rzeczy/mhvw7nh",
+    "https://www.warta.pl/porada/aktualne-przepisy-dotyczace-opon-zimowych-jakie-sa-wymogi-i-kiedy-nalezy-je-stosowac/",
+    "https://www.eska.pl/news/moto/avia-unimot-63-rajd-barborka-wielka-impreza-motoryzacyjna-juz-w-ten-weekend-w-warszawie-aa-EgB4-1qcN-Z9QM.html",
+    "https://www.auto-swiat.pl/wiadomosci/aktualnosci/afera-z-rajdem-barborka-2025-to-moze-byc-ostatnie-kryterium-asow-na-karowej/yk2gwmx",
+    "https://autokatalog.pl/blog/2023/targi-auto-nostalgia-2023-warszawa-22-23-kwietnia-gielda-pojazdow-zabytkowych",
+    "https://automuseums.info/poland/motorisation-and-technical-museum"
+   ]
+  },
+  "polen-belgie": {
+   "lead": "Een wagen die voor het Autosalon in Brussel, een trackdag op Zolder of een raceweekend in Spa-Francorchamps vanuit Polen vertrekt, volgt van begin tot eind dezelfde as: de E40. Ze begint bij Zgorzelec op de Poolse A4, loopt dwars door Duitsland en komt via Aken en Luik in België aan. Onderweg bepalen grenscontroles en Duitse zondagen uw planning.",
+   "facts": [
+    {
+     "label": "Route",
+     "value": "De E40: Poolse A4, Duitsland, Aken, Luik."
+    },
+    {
+     "label": "Duits zondagverbod",
+     "value": "Vrachtwagens boven 7,5 ton rijden er van 0 tot 22 uur niet."
+    },
+    {
+     "label": "Circuit Zolder",
+     "value": "Eigen afrit Zolder-Terlaemen op de E314."
+    },
+    {
+     "label": "Autosalon Brussel",
+     "value": "Doorgaans in januari in Brussels Expo, niet elk jaar."
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Ophalen rond Wrocław en de A4",
+     "body": [
+      "De Poolse A4 begint aan de Duitse grens bij Jędrzychowice, vlak bij Zgorzelec en Görlitz, en loopt via Wrocław, Opole, Gliwice, Katowice, Kraków, Tarnów en Rzeszów naar de Oekraïense grens. Voor een rit naar België telt vooral het westelijke stuk. Het deel van Karwiany bij Wrocław tot Żernica ten oosten van Gliwice is een tolsectie, de ring van Gliwice is tolvrij. De ring van Wrocław is 22,7 km lang, hoort bij de S8-corridor en draagt als autosnelweg het nummer A8.",
+      "Een wagen die in Neder-Silezië staat te wachten, ligt dus dicht bij de snelweg naar het westen. Spreek de laadplaats af op een plek waar een lange transporter kan keren en laden, niet in een smalle straat in het centrum van Wrocław."
+     ]
+    },
+    {
+     "heading": "De grens en Duitsland: wachten en zondagen",
+     "body": [
+      "Polen en Duitsland voeren tijdelijke controles uit aan hun gemeenschappelijke grens, op tientallen grensposten, waaronder Świecko, Olszyna en Kołbaskowo. Vervoerders melden voor vrachtwagens wachttijden van meer dan een uur. Bouw dus ruimte in als de wagen op een vaste tijd op een stand of in een paddock moet staan.",
+      "Doorreizend door Duitsland geldt voor vrachtwagens boven 7,5 ton het zondagverbod van 0 tot 22 uur, en in de zomer ook een zaterdagverbod op een lijst van wegvakken. Voor de Duitse tol gebruikt een zwaar voertuig Toll Collect, met een boordtoestel via satelliet. Een Belgisch Satellic-toestel werkt daar niet. Moet de wagen maandagochtend op een beurs staan, laat hem dan vrijdag of zaterdag vertrekken."
+     ]
+    },
+    {
+     "heading": "Zolder: winterdagen en wedstrijdweekends",
+     "body": [
+      "Circuit Zolder ligt bij Viversel in Heusden-Zolder, in Limburg, op het adres Terlaemen 30. De omloop is 4,011 km lang, telt 10 bochten en opende in 1963. Het circuit heeft een eigen afrit op de E314, Zolder-Terlaemen, wat het voor een transporter makkelijk bereikbaar maakt. In de wintermaanden, van december tot februari, staan er trackdays, een driftdag en rallytestdagen op de kalender.",
+      "Wie in Polen een raceauto, trackdaywagen of rallyproject heeft staan en die op de baan wil hebben zonder de kilometers erop te rijden, laat hem op een transporter komen. Vraag het circuit vooraf waar de transporter mag lossen. Een wagen die niet meer rijdt, laadt Mcars met de lier op; is hij volledig geblokkeerd, dan is er een heftruck ter plaatse nodig."
+     ]
+    },
+    {
+     "heading": "Brussels Expo en het Autosalon",
+     "body": [
+      "Brussels Expo ligt op de Heizel in Laken en is met ongeveer 115.000 m² het grootste beurscomplex van de Benelux. Het heeft 12 paleizen en parking voor ongeveer 12.000 wagens, bereikbaar vanaf de ring R0. Het Autosalon van Brussel, georganiseerd door FEBIAC, vindt doorgaans in januari plaats en bestaat sinds 1902, met personenwagens, motoren en lichte bedrijfsvoertuigen.",
+      "Sinds 2020 wordt het salon niet meer elk jaar gehouden. Controleer dus eerst of er een editie is voor u een wagen uit Polen naar de Heizel laat komen. Vraag de standhouder of organisator daarna naar het laadvenster: een transporter na een lange rit wil niet in de file op de ring staan."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Spa-Francorchamps",
+     "body": "Het Circuit de Spa-Francorchamps ligt in Stavelot, provincie Luik, en is 7,004 km lang met 20 bochten en ruim 100 m hoogteverschil. Sinds 1924 wordt er een 24 urenrace voor wagens gereden. De Formule 1 komt terug naar België, maar niet meer elk jaar. Kijk dus na of er een F1-weekend is voor u een transport naar Spa plant."
+    },
+    {
+     "kind": "event",
+     "title": "Evenementen op Circuit Zolder",
+     "body": "Op Zolder staan onder meer de 24 Hours of Zolder, de NASCAR Whelen Euro Series (sinds 2015), de Supercar Challenge (sinds 2001) en de Belgian Truck Grand Prix. Voor wie een wagen laat brengen, is vooral de planning belangrijk: op wedstrijdweekends is er veel meer vrachtverkeer rond het circuit dan op een gewone trackday."
+    },
+    {
+     "kind": "tip",
+     "title": "De A27 naar Spa",
+     "body": "De A27 is bij Verviers bochtig en telt meerdere viaducten, waaronder het viaduc de Lambermont, het viaduct van de Eau Rouge bij Francorchamps en het viaduc de Bellevaux. Voor een lange transporter is dat een stuk om rustig te nemen. Plan de laatste kilometers naar Spa niet te krap."
+    },
+    {
+     "kind": "regel",
+     "title": "Lage-emissiezone Brussel",
+     "body": "De Brusselse lage-emissiezone beslaat het volledige Brussels Hoofdstedelijk Gewest, behalve de Ring R0 en enkele toegangswegen naar transitparkings. Een wagen die op eigen wielen naar een Brusselse eventlocatie rijdt, valt onder die regels. Komt hij aan op een transporter, kijk dan ook de toegang voor de transporter zelf na."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke weg neemt een transport van Polen naar Luik of Limburg?",
+     "a": "Meestal de E40. In Polen is dat de A4 vanaf Zgorzelec via Legnica en Wrocław. In Duitsland volgt ze onder meer de A4 via Dresden, Erfurt en Eisenach, en bij Aken gaat het via de A44 naar Lichtenbusch en Luik."
+    },
+    {
+     "q": "Kan een raceauto uit Polen rechtstreeks naar het circuit komen?",
+     "a": "Dat kan. Bespreek met het circuit of de organisator waar en wanneer een transporter mag lossen. Mcars haalt de wagen in Polen op, maakt bij ophaling een inspectie en foto's als intern bewijs van de staat, en levert af op het afgesproken adres."
+    },
+    {
+     "q": "Gaat het Autosalon van Brussel elk jaar door?",
+     "a": "Niet altijd. Het salon bestaat sinds 1902 maar werd sinds 2020 niet meer elk jaar gehouden. Het gaat doorgaans door in januari in Brussels Expo, georganiseerd door FEBIAC. Vraag de editie na voor u een wagen uit Polen laat komen."
+    }
+   ],
+   "seoDescription": "Eventtransport van Polen naar België: uw wagen naar het Autosalon in Brussel, Zolder of Spa. De E40, Duitse zondagen en grenscontroles op een rij.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/European_route_E40",
+    "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+    "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+    "https://aa.com.tr/en/europe/poland-extends-border-controls-with-germany-and-lithuania-until-october/3884308",
+    "https://www.timocom.co.uk/truck-driving-bans/germany",
+    "https://en.wikipedia.org/wiki/Toll_Collect",
+    "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+    "https://nl.wikipedia.org/wiki/Circuit_Zolder",
+    "https://www.circuit-zolder.be/nl/kalender",
+    "https://nl.wikipedia.org/wiki/Brussels_Expo",
+    "https://nl.wikipedia.org/wiki/Autosalon_van_Brussel",
+    "https://autosalon.be/nl",
+    "https://nl.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+    "https://nl.wikipedia.org/wiki/A27_%28Belgi%C3%AB%29",
+    "https://nl.wikipedia.org/wiki/Lage-emissiezone"
+   ]
+  },
+  "polen-nederland": {
+   "lead": "Op de Poznań Motor Show in april staan de nieuwste modellen, op de Retro Motor Show in september de klassiekers, en in Nederland wachten de TT van Assen en de hallen van Amsterdam en Rotterdam. Wie een wagen van Poznań naar Nederland laat brengen, volgt de A2 tot Świecko en rijdt dan door Duitsland. Dat vraagt een planning rond tolvakken, grensfiles en Nederlandse stadszones.",
+   "facts": [
+    {
+     "label": "Poznań Motor Show",
+     "value": "Elk jaar in april op het MTP-terrein."
+    },
+    {
+     "label": "Tol op de A2",
+     "value": "Tolvakken tussen Świecko en Konin, Poznańse ring vrij."
+    },
+    {
+     "label": "TT Assen",
+     "value": "Laatste weekend van juni, races op zondag."
+    },
+    {
+     "label": "Zero-emissiezones",
+     "value": "Rotterdam, Den Haag en Utrecht sluiten dieselvrachtwagens uit."
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Poznań: MTP, Motor Show en TTM",
+     "body": [
+      "De Poznań Motor Show is het grote Poolse autosalon en vindt elk jaar in april plaats op het beursterrein MTP aan de ul. Głogowska 14. Tegelijk loopt in de MTP-hallen de vakbeurs voor autotechniek TTM. Het terrein ligt in het centrum van Poznań, recht tegenover het hoofdstation, met meer dan 110.000 m² binnenruimte in 16 hallen. De beurs bestaat er sinds 1921.",
+      "Een beursterrein midden in de stad betekent dat een lange transporter zijn lading vaak niet voor de deur kwijt kan. Vraag de organisatie welke poort en welk laadvenster voor uw stand gelden. Wagens die na de beurs naar Nederland moeten, staan binnen enkele kilometers van de A2."
+     ]
+    },
+    {
+     "heading": "De A2 naar Świecko: tol, files en zomerverbod",
+     "body": [
+      "De Poolse A2 begint bij Świecko aan de Duitse grens, sluit er aan op de Duitse A12 richting Berlijn en loopt via Poznań, Łódź en Warschau. Tolplichtig zijn de vakken van Świecko tot Nowy Tomyśl, met uitzondering van het westelijkste stuk, en van Nowy Tomyśl tot Konin, met uitzondering van de Poznańse ring. Het stuk Konin tot Stryków was een tolsectie waarvan de tolposten niet meer in gebruik zijn.",
+      "Door de Duitse en Poolse grenscontroles ontstaan op de A12 voor Świecko lange files die vooral het vrachtverkeer raken. In de zomer komt het Poolse verbod voor vrachtwagens boven 12 ton erbij: vrijdag van 18 tot 22 uur, zaterdag van 8 tot 14 uur en zondag van 8 tot 22 uur, grofweg van eind juni tot eind augustus. Dat raakt laad- en lostijden bij beurzen in juli en augustus."
+     ]
+    },
+    {
+     "heading": "Assen en het noorden",
+     "body": [
+      "Het TT Circuit Assen is ongeveer 4,5 km lang en bestaat als permanent circuit sinds 1955. De TT wordt verreden in het laatste weekend van juni, sinds 2016 met de races op zondag. In de week ervoor loopt het TT Festival. Op hetzelfde circuit vindt sinds 1980 elk jaar in het laatste weekend van juli het Truckstar Festival plaats.",
+      "Vanuit Polen reist u naar het noorden van Nederland via Osnabrück. Grensovergangen zijn Bad Nieuweschans op de A7, Zwartemeer op de A37, De Lutte bij Oldenzaal op de A1 en Glanerbrug bij Enschede op de N35. WTC Expo in Leeuwarden, met ongeveer 45.000 m² het grootste beurscomplex van Friesland, ligt nog een eind verder naar het noorden."
+     ]
+    },
+    {
+     "heading": "Randstad: RAI, Ahoy en de zero-emissiezones",
+     "body": [
+      "RAI Amsterdam ligt aan het Europaplein 24, direct aan de ring A10. De parkeergarages werken met kentekenherkenning en zijn vooraf online te reserveren. Op de A10 Zuid loopt het project Zuidasdok, met verbreding, een tunnel en afsluitingen. Rotterdam Ahoy aan de Ahoyweg 10 is de beurs- en evenementenhal van Rotterdam, met ruim 2.200 parkeerplaatsen.",
+      "Voor de transporter geldt iets anders dan voor de wagen die erop staat. Rotterdam, Den Haag, Delft, Leiden en Gouda hebben een zero-emissiezone voor bestel- en vrachtauto's, net als Utrecht, Amersfoort, Nijmegen, Eindhoven en Tilburg. Of een transporter er in mag, vraagt u vooraf aan de gemeente. Spreek anders af dat de wagen aan de rand wordt overgenomen."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Retro Motor Show Poznań",
+     "body": "De Retro Motor Show loopt elk jaar in september van vrijdag tot zondag op het MTP-terrein in Poznań en wordt omschreven als de grootste oldtimerbeurs van Polen. Een klassieker die u daar wilt tonen of verkopen, reist best open en meerlaags, met foto's bij het laden als bewijs van de staat bij vertrek."
+    },
+    {
+     "kind": "plek",
+     "title": "Tor Poznań, Przeźmierowo",
+     "body": "Het circuit is 4,083 km lang en het enige Poolse circuit met een FIA-homologatie. Na geluidsklachten werd de baan eerder door de milieu-inspectie GIOŚ gesloten en kort daarna weer geopend. Kijk dus vóór elke circuitdag na of de baan open is, voor u er een wagen heen laat brengen."
+    },
+    {
+     "kind": "event",
+     "title": "British Superbikes en PureDriving in Assen",
+     "body": "Naast de TT heeft het TT Circuit Assen ook een ronde van de British Superbikes en in november een racecursus voor auto's, PureDriving. Voor wie met een eigen sportwagen naar die cursus wil, is een transport vanuit Polen een alternatief voor de lange rit door Duitsland."
+    },
+    {
+     "kind": "regel",
+     "title": "Geluidsdagen op Circuit Zandvoort",
+     "body": "Circuit Zandvoort mag maar een beperkt aantal geluidsdagen per jaar gebruiken. Dat bepaalt mee wanneer er evenementen plaatsvinden. Vraag dus naar de kalender voor u een raceauto naar de duinen laat brengen, zodat u niet voor een lege baan staat."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Wat vraag ik aan de organisator van de Poznań Motor Show voor ik mijn wagen laat brengen?",
+     "a": "Vraag welke poort en welk laadvenster voor uw stand gelden, want het terrein ligt midden in de stad. Vraag ook wanneer de wagens na afloop weg mogen, zodat de transporter op het juiste moment aan de poort staat."
+    },
+    {
+     "q": "Waarom is leveren in Nijmegen in juli lastig?",
+     "a": "De Nijmeegse Vierdaagse start op de derde dinsdag van juli en duurt vier dagen, met honderdduizenden bezoekers aan de Vierdaagsefeesten. In en rond de stad is het dan moeilijk laden en lossen. Plan een levering naar Nijmegen buiten die week."
+    },
+    {
+     "q": "Kan ik mijn wagen na de beurs laten ophalen in plaats van zelf terug te rijden?",
+     "a": "Ja. Mcars rijdt open en meerlaags en laadt ook wagens die niet meer rijden met de lier. U vraagt een offerte op maat en krijgt binnen 24 uur antwoord. Bij ophaling krijgt u een CMR-vrachtbrief."
+    }
+   ],
+   "seoDescription": "Eventtransport van Polen naar Nederland: Poznań Motor Show, A2 met tol, TT Assen, RAI en Ahoy. Wat u moet weten over zones, files en zomerverbod.",
+   "sources": [
+    "https://www.autocentrum.pl/wydarzenia/poznan-motor-show-2026/",
+    "https://www.autocentrum.pl/newsy/poznan-motor-show-2026-ruszyl-z-mocnym-akcentem/",
+    "https://en.wikipedia.org/wiki/Pozna%C5%84_International_Fair",
+    "https://www.tradefairdates.com/Retro+Motor+Show-M2398/Pozna%C5%84.html",
+    "https://fia-cez.com/en/calendar/poznan/",
+    "https://motoryzacja.interia.pl/wiadomosci/news-tor-poznan-zostal-zamkniety-a-nastepnie-otwarty,nId,23328177",
+    "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+    "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+    "https://www.timocom.co.uk/truck-driving-bans/poland",
+    "https://nl.wikipedia.org/wiki/TT-Circuit_Assen",
+    "https://nl.wikipedia.org/wiki/TT_Assen",
+    "https://nl.wikipedia.org/wiki/WTC_Expo",
+    "https://www.rai.nl/bereikbaarheid",
+    "https://www.ahoy.nl/",
+    "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+    "https://www.ttcircuit.com/",
+    "https://www.circuitzandvoort.nl/",
+    "https://nl.wikipedia.org/wiki/Nijmeegse_Vierdaagse"
+   ]
+  }
+ }
+}

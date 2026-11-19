@@ -90,7 +90,7 @@ function ArrowChip({ className = "size-9" }: { className?: string }) {
 
 function Tag({ label }: { label: string }) {
   return (
-    <span className="absolute top-4 left-4 flex items-center gap-1.5 rounded-lg bg-zinc-950/70 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-sm">
+    <span className="absolute top-4 left-4 flex items-center gap-1.5 rounded-lg bg-zinc-950/70 px-3.5 py-2 text-sm font-medium text-white backdrop-blur-sm">
       <span className="size-1.5 rounded-full bg-white" aria-hidden />
       {label}
     </span>
@@ -113,18 +113,18 @@ function PhotoCard({
   return (
     <Link
       href={href}
-      className={`group relative block rounded-xl transition-[filter] duration-300 hover:brightness-110 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none ${className}`}
+      className={`group relative block rounded-xl transition-[filter,transform] duration-300 ease-out hover:brightness-110 motion-safe:hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none ${className}`}
       style={{
-        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.65), rgb(9 9 11 / 0.1) 45%), url(${asset(`/about/${img}.png`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
+        backgroundImage: `linear-gradient(to top, rgb(9 9 11 / 0.8), rgb(9 9 11 / 0.15) 55%), url(${asset(`/about/${img}.png`)}), linear-gradient(160deg, #3f3f46, #18181b)`,
         backgroundSize: "cover, cover, cover",
         backgroundPosition: "center, center, center",
       }}
     >
       <Tag label={tag} />
-      <span className="absolute bottom-4 left-4 max-w-[75%] text-base leading-snug font-semibold text-white sm:text-lg">
+      <span className="absolute bottom-5 left-5 max-w-[75%] text-xl leading-snug font-semibold text-white sm:text-2xl">
         {caption}
       </span>
-      <span className="absolute right-4 bottom-4">
+      <span className="absolute right-5 bottom-5">
         <ArrowChip />
       </span>
       <span
@@ -385,7 +385,7 @@ export default function ServicesPhilosophy() {
               <Link
                 key={service.label}
                 href={service.href}
-                className="group relative flex items-start justify-between gap-4 rounded-xl bg-zinc-100 p-5 transition-colors duration-300 hover:bg-zinc-200/70 focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none"
+                className="group relative flex items-start justify-between gap-4 rounded-xl bg-zinc-100 p-5 transition-[background-color,transform] duration-300 ease-out hover:bg-zinc-200/70 motion-safe:hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-zinc-950 focus-visible:ring-offset-2 focus-visible:outline-none"
               >
                 <span className="self-center text-xl leading-snug font-medium tracking-tight text-zinc-950 sm:text-2xl">
                   {service.label}

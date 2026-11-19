@@ -1,0 +1,1096 @@
+{
+  "service": "auto-importeren",
+  "origin": "belgie",
+  "pages": {
+    "belgie": {
+      "lead": "U kocht een wagen in het buitenland en wilt hem in België op uw naam zetten. Het papierwerk begint dan al voor de wagen hier staat: de douane moet hem kennen, een keuringscentrum moet hem zien en pas daarna volgt de inschrijving. Mcars brengt de wagen vanuit het buitenland naar ons depot in Roeselare of rechtstreeks naar uw adres.",
+      "facts": [
+        {
+          "label": "Douanesignaal",
+          "value": "E705, gratis en elektronisch, aan te vragen via MyMinfin of een douanehulpkantoor"
+        },
+        {
+          "label": "Keuring",
+          "value": "Tweedehandskeuring of administratieve keuring met het buitenlandse inschrijvingsbewijs"
+        },
+        {
+          "label": "Car-Pass",
+          "value": "Vermeldt dat de wagen tweedehands uit het buitenland komt"
+        },
+        {
+          "label": "Inschrijving",
+          "value": "Online via de verzekeringstussenpersoon, anders via de DIV"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Eerst de douane, dan de keuring",
+          "body": [
+            "Voor u een in het buitenland gekochte wagen in België op uw naam kunt laten inschrijven, moet u hem eerst invoeren. Het bewijs daarvan is de E705: een gratis elektronisch signaal van de douane waarmee de DIV kan nagaan of de wagen regelmatig in België is. U vraagt de E705 aan in de E705-toepassing van MyMinfin, of u gaat naar een douanehulpkantoor naar keuze.",
+            "De wettelijke behandeltermijn bedraagt 120 dagen. Wacht dus niet tot de wagen op uw oprit staat om dit in gang te zetten. Het transport zelf is het eenvoudige deel: de wagen komt op een vrachtwagen binnen, de douanestap loopt ernaast."
+          ]
+        },
+        {
+          "heading": "Het buitenlandse inschrijvingsbewijs moet compleet zijn",
+          "body": [
+            "Staat de ingevoerde wagen nog niet op uw naam, dan biedt u hem met het buitenlandse inschrijvingsbewijs aan in een keuringscentrum. Daar krijgt u het aanvraagformulier tot inschrijving. Een verzekeringstussenpersoon schrijft de wagen daarna online in op basis van dat formulier en het originele buitenlandse inschrijvingsbewijs.",
+            "Dat betekent iets praktisch voor de aankoop: vraag de verkoper het originele, volledige bewijs mee te geven. Een kopie of een half document brengt het dossier tot stilstand. Mcars noteert bij ophaling de staat van de wagen en maakt foto's, maar de papieren blijven bij u en de verkoper."
+          ]
+        },
+        {
+          "heading": "Als de online inschrijving niet lukt",
+          "body": [
+            "Soms weigert het systeem de online inschrijving. De verzekeraar geeft dan een bewijs van afwijzing, een schermafdruk, en het formulier met het verzekeringsvignet terug. Het volledige dossier gaat dan naar de DIV, per post of op afspraak.",
+            "Het aanvraagformulier blijft twee maanden geldig na het bezoek aan het keuringsstation. De datum staat in vak X13. Plan de keuring dus pas als de wagen echt klaarstaat en u de rest van het dossier ook rond hebt, anders loopt de geldigheid af terwijl u nog papieren verzamelt."
+          ]
+        },
+        {
+          "heading": "Keuring en Car-Pass bij een ingevoerde wagen",
+          "body": [
+            "In België liggen de bevoegdheden voor de technische keuring bij de gewesten. Elk van de drie gewesten, Vlaanderen, Brussel en Wallonië, stuurt zijn eigen keuringsstations aan met eigen instructies. In Vlaanderen volstaat een visuele keuring wanneer de wagen minder dan twee maanden geleden in België of een andere EU-lidstaat gekeurd werd en een groen keuringsbewijs met normale geldigheid heeft.",
+            "Een ingevoerde wagen krijgt een Car-Pass waarop vermeld wordt dat hij als tweedehandswagen uit het buitenland komt. Meestal zijn de kilometerstanden van voor de Belgische inschrijving niet terug te vinden. Wie uit Nederland importeert heeft het beter: Car-Pass neemt daar de tellerhistoriek over van de RDW."
+          ]
+        },
+        {
+          "heading": "Wagen van buiten de EU",
+          "body": [
+            "Komt de wagen van buiten de EU, dan loopt het anders. U geeft hem aan bij het eerste douanekantoor waar u de EU binnenkomt. Wat rechten en belastingen betreft, stuurt de FOD Mobiliteit u door naar de FOD Financiën.",
+            "Daarna vraagt u eerst een homologatie aan bij de dienst van uw gewest: het Departement Mobiliteit en Openbare Werken in Vlaanderen, Brussel Mobiliteit in Brussel of de Service Public de Wallonie in Wallonië. Voldoet de wagen, dan wordt de individuele goedkeuring behandeld in een keuringscentrum en krijgt u pas dan het aanvraagformulier voor de inschrijving."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "DIV-antennes in elke provincie",
+          "body": "De DIV heeft regionale antennes in onder meer Brugge/Oostende, Gent-Zwijnaarde, Antwerpen/Kontich, Hasselt/Alken, Charleroi/Gosselies, Mons/Maisières, Luik/Grâce-Hollogne, Verviers/Eupen, Namen/Belgrade en Aarlen/Neufchâteau. Kies de antenne die dicht bij het afleveradres van de wagen ligt."
+        },
+        {
+          "kind": "plek",
+          "title": "Zeebrugge als autohaven",
+          "body": "Zeebrugge wordt omschreven als de belangrijkste haven ter wereld voor de import en export van nieuwe wagens, met onder meer ICO Terminals, Wallenius Wilhelmsen Logistics en C.RO Terminal. Staat uw wagen daar aan de kade, dan gaat het vervoer naar uw adres over de weg verder."
+        },
+        {
+          "kind": "regel",
+          "title": "Buitenlandse plaat in de Vlaamse LEZ",
+          "body": "Buitenlandse voertuigen zijn in de lage-emissiezones van Antwerpen en Gent pas toegelaten na registratie, en een LEZ geldt 7 dagen op 7. Wie een nog niet ingeschreven wagen met buitenlandse plaat zelf een stad laat inrijden, moet dit dus eerst regelen."
+        },
+        {
+          "kind": "tip",
+          "title": "Verkeersbelasting op de inverkeerstelling",
+          "body": "In Vlaanderen betaalt elke eigenaar van een nieuw of tweedehandsvoertuig een eenmalige belasting op de inverkeerstelling, verschuldigd zodra de wagen op de openbare weg wordt gebruikt. De Vlaamse Belastingdienst int ze. Reken er dus mee bij de aankoop uit het buitenland."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heb ik de E705 al nodig als de wagen nog op transport staat?",
+          "a": "De E705 is het bewijs dat de wagen regelmatig in België is, en de DIV gebruikt hem bij de inschrijving. Vraag hem aan zodra u de wagen gekocht hebt, want de wettelijke behandeltermijn kan 120 dagen bedragen."
+        },
+        {
+          "q": "Wat moet de buitenlandse verkoper meegeven?",
+          "a": "Het originele, volledige buitenlandse inschrijvingsbewijs. De verzekeringstussenpersoon schrijft de wagen online in op basis van dat origineel en het aanvraagformulier. Met een kopie of een onvolledig document komt u niet door de online procedure."
+        },
+        {
+          "q": "Wat als de online inschrijving geweigerd wordt?",
+          "a": "U krijgt van de verzekeraar een bewijs van afwijzing en het formulier met verzekeringsvignet terug. Daarmee gaat u met het volledige dossier naar de DIV, per post of op afspraak in een van de regionale antennes."
+        }
+      ],
+      "seoDescription": "Auto importeren naar België: wat de E705, de keuring en de DIV-inschrijving vragen en hoe Mcars uw wagen uit het buitenland naar Roeselare brengt.",
+      "sources": [
+        "https://fin.belgium.be/nl/particulieren/internationaal/voertuig-importeren",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-importeren/voertuig-ingevoerd-uit-de-eu",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-importeren/voertuig-ingevoerd-van-buiten-de-eu",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/inschrijven/een-auto-inschrijven",
+        "https://www.car-pass.be/nl/faq",
+        "https://www.vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/belasting-op-de-inverkeerstelling",
+        "https://nl.wikipedia.org/wiki/Dienst_voor_Inschrijvingen_van_Voertuigen",
+        "https://nl.wikipedia.org/wiki/Haven_van_Brugge-Zeebrugge",
+        "https://www.vlaanderen.be/lage-emissiezones-lez",
+        "https://mobilit.belgium.be/nl/weg/voertuigen/technische-controle"
+      ]
+    },
+    "belgie-nederland": {
+      "lead": "U kocht een wagen in Antwerpen, Gent of Hasselt en hij moet in Nederland op kenteken. Dan gelden de regels van de RDW, niet die van de verkoper. Zonder afspraak op een keuringsstation, zonder compleet kentekenbewijs en zonder plan voor de bpm komt de wagen er niet door. Mcars brengt hem op de vrachtwagen over de grens.",
+      "facts": [
+        {
+          "label": "Instantie",
+          "value": "RDW-keuringsstation, afspraak vooraf, aanvrager minstens 18 jaar en in de BRP"
+        },
+        {
+          "label": "Meenemen",
+          "value": "Origineel buitenlands kentekenbewijs en geldig identiteitsbewijs"
+        },
+        {
+          "label": "Eendagskenteken",
+          "value": "Gratis, enkel met afspraak, enkel op de keuringsdag"
+        },
+        {
+          "label": "Daarna",
+          "value": "Bpm-aangifte bij de Belastingdienst; gekozen afschrijvingsmethode is definitief"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat de Belgische verkoper moet meegeven",
+          "body": [
+            "Naar het RDW-keuringsstation neemt u het originele buitenlandse kentekenbewijs mee en een geldig identiteitsbewijs. Een Certificaat van Overeenstemming is optioneel. De RDW raadt aan bij de aankoop na te gaan of het kentekenbewijs compleet is, want in sommige landen bestaat het uit meerdere delen, en of het chassisnummer op het document overeenkomt met dat in de wagen.",
+            "Vraag de verkoper ook altijd een aankoopnota of verkoopovereenkomst, desnoods handgeschreven en ondertekend. De ANWB raadt een koopcontract aan met gegevens van koper en verkoper, chassisnummer, kilometerstand, datum eerste toelating, schadeverleden, bekende gebreken en de vermelding of het een ex-lease- of huurwagen was."
+          ]
+        },
+        {
+          "heading": "Waarom zelf ophalen zelden lukt",
+          "body": [
+            "Zelf rijden klinkt goedkoop maar loopt vaak vast. Het originele kenteken vervalt bij export en een tijdelijk kenteken is meestal alleen geldig in het land van aankoop. Wordt de wagen op een autoambulance of transporter opgehaald, dan is geen kenteken nodig.",
+            "Wie toch op een buitenlands kenteken naar Nederland terugrijdt, heeft geen recht op pechhulp van de Wegenwacht. Daar komt bij dat de wagen na de keuring pas mag rijden met het Nederlandse kentekenbewijs in handen. Op een open meerlaagse autotransporter van Mcars rijdt hij niet zelf, dus die problemen stellen zich op de rit niet."
+          ]
+        },
+        {
+          "heading": "Keuring, APK en eendagskenteken",
+          "body": [
+            "Het begint met een afspraak bij een RDW-keuringsstation. Na de keuring mag u niet met de wagen rijden tot u het Nederlandse kentekenbewijs hebt. Heeft de wagen APK-plicht en geen geldige buitenlandse keuring, dan moet hij direct na ontvangst van het kentekenbewijs worden gekeurd.",
+            "De RDW kan de vervaldatum van een nog geldige APK uit een EU- of EVA-land overnemen. Bewijs daarvoor is het originele keuringsrapport, een vermelding op het buitenlandse kentekenbewijs of een sticker op de buitenlandse plaat. Het eendagskenteken is gratis maar geldt alleen op de dag van de keuring, voor de kortste route heen en terug, met Nederlandse verzekering en zelfgemaakte witte platen."
+          ]
+        },
+        {
+          "heading": "Bpm en wat een lage bpm verraadt",
+          "body": [
+            "Na de keuring doet u bpm-aangifte bij de Belastingdienst. Voor een gebruikte wagen mag de bpm worden verlaagd via de koerslijst, een taxatierapport of de forfaitaire tabel. De gekozen methode is definitief. De Belastingdienst controleert bij gebruikte wagens ook of de waarde op de koerslijst zelf klopt, dus het bedrag kan afwijken van uw aangifte.",
+            "De ANWB wijst erop dat een opvallend lage bpm bij een dure importwagen kan wijzen op grote schade in het verleden. Vraag de verkoper in België dus naar het schadeverleden voor u betaalt."
+          ]
+        },
+        {
+          "heading": "De weg: E19, A16 en A4",
+          "body": [
+            "Vanuit de Antwerpse regio volgt u de E19 naar de grens bij Meer en Hazeldonk, in Nederland de A16 via Breda en Rotterdam. Onderweg liggen de Moerdijkbruggen en de Drechttunnel. Een tweede grensovergang is Zandvliet, waar de Belgische A12 overgaat in de Nederlandse A4 richting Bergen op Zoom.",
+            "Nederland heft een kilometerheffing voor vrachtwagens boven 3,5 ton, met een eigen boordtoestel. Toestellen van Satellic werken enkel in België. Een algemeen weekend- of feestdagenverbod voor vrachtwagens bestaat er niet. Kijk de actuele heffingsregels na voor u rijdt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "RDW-stations in West-Brabant en Zeeland",
+          "body": "De RDW heeft in West-Brabant keuringsstations in Roosendaal en Rijen. In Zeeland is er geen. Wie uit de Antwerpse regio komt, kiest dus meestal een van die twee. RDW-stations zijn open overdag en niet op feestdagen."
+        },
+        {
+          "kind": "plek",
+          "title": "Westerscheldetunnel bij Terneuzen",
+          "body": "Tussen Terneuzen en Zuid-Beveland ligt de Westerscheldetunnel (6,6 km, N62). Personenwagens en motoren betalen er geen tol meer, andere motorvoertuigen nog wel, en de maximale doorrijhoogte is 4,30 m. Voor een rit vanuit Gent is de N62 een alternatief voor Antwerpen."
+        },
+        {
+          "kind": "regel",
+          "title": "Eendagskenteken alleen op de keuringsdag",
+          "body": "Het eendagskenteken vraagt u pas aan als er al een keuringsafspraak staat. Het geldt alleen in Nederland en alleen op die dag. Een wagen die vooraf nog een lange rit uit België maakt, kan er dus niet op rijden."
+        },
+        {
+          "kind": "tip",
+          "title": "Feestdagen en gesloten loketten",
+          "body": "Rond Koningsdag, Bevrijdingsdag, Hemelvaart, Tweede Pinksterdag, Goede Vrijdag, Tweede Paasdag en Kerst kunnen kantoren en keuringsstations gesloten zijn. Plan de aflevering zo dat de wagen niet net voor zo'n dag aankomt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik de wagen nog laten keuren als hij uit België komt?",
+          "a": "Ja, de RDW keurt elke importwagen bij het inschrijven. Een nog geldige APK uit een EU- of EVA-land kan wel worden overgenomen, met het originele keuringsrapport, een vermelding op het kentekenbewijs of een sticker op de plaat als bewijs."
+        },
+        {
+          "q": "Kan ik zelf rijden met mijn Belgische plaat?",
+          "a": "Meestal niet verstandig: het originele kenteken vervalt bij export en een tijdelijk kenteken geldt vaak enkel in het land van aankoop. Op een transporter is geen kenteken nodig. Pechhulp van de Wegenwacht ontbreekt op een buitenlands kenteken."
+        },
+        {
+          "q": "Wanneer betaal ik bpm?",
+          "a": "Na de keuring doet u bpm-aangifte bij de Belastingdienst. Voor een gebruikte wagen kiest u een afschrijvingsmethode (koerslijst, taxatierapport of forfaitaire tabel). Die keuze is definitief, dus reken de opties eerst na."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Nederland: RDW-keuring, bpm, kentekenbewijs en eendagskenteken. Mcars vervoert uw wagen op de transporter naar Nederland.",
+      "sources": [
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/invoeren-binnen-europa",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/tips-bij-invoer",
+        "https://www.anwb.nl/auto/importeren",
+        "https://www.rdw.nl/keuren/eendagskenteken-aanvragen",
+        "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/auto_en_vervoer/belastingen_op_auto_en_motor/bpm/afschrijving_met_koerslijst_taxatierapport_of_forfaitaire_tabel",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://nl.wikipedia.org/wiki/Westerscheldetunnel",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://www.timocom.co.uk/truck-driving-bans/netherlands",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html"
+      ]
+    },
+    "belgie-luxemburg": {
+      "lead": "Uw nieuwe baan zit in Kirchberg of Capellen en de wagen die u in België kocht, moet mee. Luxemburg schrijft alleen in voor wie er woont en in het nationaal register staat, en de volgorde van de stappen ligt vast. Mcars brengt de wagen over de A4 en A6 naar Luxemburg terwijl u de formaliteiten voorbereidt.",
+      "facts": [
+        {
+          "label": "Wie schrijft in",
+          "value": "Enkel inwoners die in het Luxemburgse nationaal register staan"
+        },
+        {
+          "label": "Plaatkleur",
+          "value": "Geel met zwarte tekens, gewone reeks twee letters en vier cijfers"
+        },
+        {
+          "label": "Douanedocument",
+          "value": "Vignette 705, af te halen in Howald of Diekirch"
+        },
+        {
+          "label": "Voorlopig vignet",
+          "value": "Belastingvignet van 30 dagen bij de inschrijving"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat de Belgische verkoper moet leveren",
+          "body": [
+            "Voor een in het buitenland gekochte tweedehandswagen geeft de verkoper een factuur mee of, bij verkoop tussen particulieren, een door beide partijen getekend contract. Bij de vignette 705 legt u originelen voor: het vorige inschrijvingsbewijs, het COC, de factuur met btw-nummer van de verkoper, het verzekeringsattest en uw nationaal identificatienummer. Particulieren voegen identiteitskaart of paspoort toe.",
+            "Een Belgische garage kent dat lijstje niet altijd. Stuur het vooraf door, want ontbreekt het COC of het btw-nummer op de factuur, dan staat de wagen in Luxemburg op de oprit zonder dat u verder kunt. Controleer de actuele documentenlijst bij het Luxemburgse loket."
+          ]
+        },
+        {
+          "heading": "De volgorde volgens Guichet.lu",
+          "body": [
+            "Guichet.lu geeft een vaste volgorde: nummer reserveren bij de SNCA, platen laten maken, BA-verzekering afsluiten, inklaren bij de ADA met de vignette 705, kanselarijzegel betalen bij de AED, keuring indien nodig en ten slotte een afspraak bij de SNCA. Na de bevestiging van het gereserveerde nummer krijgt u een ministeriële toelating per post en laat u de platen maken bij een erkende platenmaker.",
+            "Vóór de inschrijving mag de wagen alleen rijden tussen verkooppunt en plaats van inschrijving of keuring, met rode platen of platen met het gereserveerde nummer, en met een BA-verzekering. Een wagen die op een transporter aankomt, vermijdt die tussenfase grotendeels."
+          ]
+        },
+        {
+          "heading": "Vignette 705: waar en wanneer",
+          "body": [
+            "De vignette 705 wordt afgeleverd in de douanecentra van de ADA in Diekirch (Centre douanier Nord) en in Howald bij Luxemburg-stad, aan de Croix de Gasperich. Het is het douanedocument dat nodig is voor de definitieve inschrijving van een ingevoerde wagen. Bij een als nieuw beschouwde wagen uit een andere EU-lidstaat dient een particulier ook formulier 446-L in bij een douanecentrum en betaalt daar de Luxemburgse btw.",
+            "Voor Belgen die in Luxemburg gaan werken is Howald praktisch: het ligt langs de snelweg waarover de wagen aankomt. Let op de openingsuren van het douanecentrum voor u de aflevering plant."
+          ]
+        },
+        {
+          "heading": "Keuring en technische conformiteit",
+          "body": [
+            "Bij inschrijving moet de wagen op een technische controle worden aangeboden om de conformiteit te toetsen. Een geldig keuringsbewijs van een ander EER-land of Zwitserland blijft geldig bij inschrijving, op voorwaarde dat het uit hetzelfde land komt als de buitenlandse inschrijving en opgesteld is in een officiële taal van Luxemburg of beëdigd vertaald is. Een Belgisch bewijs in het Nederlands, Frans of Duits voldoet dus.",
+            "Zonder Europees COC, of bij onvolledige of tegenstrijdige documenten, controleert de SNCA de technische gegevens op dossier. Is dat onvolledig, dan is een verslag van een erkende technische dienst nodig. Keuringsstations zijn de SNCT, DEKRA en Luerenzweiler Kontrollstatioun."
+          ]
+        },
+        {
+          "heading": "De rit van A4 naar A6",
+          "body": [
+            "Vanuit Brussel is het één doorlopende autosnelweg: de Belgische A4 of E411, de Autoroute des Ardennes, loopt via Waver, Namen en Aarlen naar Sterpenich, waar de Luxemburgse A6 aansluit. De A6 is 20,8 km lang en loopt tot Luxemburg-stad.",
+            "Luxemburg is aangesloten bij het eurovignet voor vrachtwagens vanaf 12 ton op autosnelwegen. België zit er niet in. Het zondag- en feestdagverbod geldt voor transit naar Frankrijk of Duitsland, niet voor transit naar België, en leveringen in Luxemburg zelf zijn vrijgesteld. Een aflevering in Luxemburg valt dus niet onder dat verbod."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "SNCA-loket in Sandweiler",
+          "body": "De inschrijvingsdienst SNCA heeft drie loketten. Het centrale loket ligt in Sandweiler en op hetzelfde adres zit een SNCT-keuringsstation. U maakt online een afspraak en moet elk document in origineel voorleggen. Een kopie van het Belgische bewijs volstaat niet."
+        },
+        {
+          "kind": "plek",
+          "title": "Europese instellingen op Kirchberg",
+          "body": "Kirchberg is het zakendistrict van de stad en de plek waar de meeste EU-instellingen in Luxemburg zitten, onder meer het Hof van Justitie en de Europese Investeringsbank. Veel nieuwkomers met een buitenlandse wagen komen dus in deze buurt terecht en laten hem eerst nog uit België overbrengen."
+        },
+        {
+          "kind": "plek",
+          "title": "NAVO-agentschap en Europese School in het westen",
+          "body": "In Capellen heeft het NAVO-agentschap NSPA sinds 1968 zijn hoofdzetel, en in Mamer staat de tweede Europese School van het land. Gezinnen van internationaal personeel wonen vaak in deze westelijke gemeenten, dichtbij de grens met Aarlen."
+        },
+        {
+          "kind": "regel",
+          "title": "Rode platen zijn voor inwoners",
+          "body": "De huur van rode platen bij de SNCA is voorbehouden aan inwoners van Luxemburg. De geldigheid staat op de fiche de mise en circulation en is kort. Rijden met rode platen mag in Luxemburg, België en Nederland, maar niet verder."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik in Luxemburg inschrijven als ik nog in België woon?",
+          "a": "Nee. Voor de Luxemburgse inschrijving van een tweedehandswagen uit het buitenland moet de koper in Luxemburg wonen en in het nationaal register opgenomen zijn. Pas na uw verhuis of aanmelding kan de procedure bij de SNCA starten."
+        },
+        {
+          "q": "Wat gebeurt er als ik de verkeersbelasting niet betaal?",
+          "a": "Bij de inschrijving krijgt u een voorlopig belastingvignet van 30 dagen. De ADA berekent de verkeersbelasting en stuurt het bedrag, waarna het definitieve vignet volgt. Na meer dan 60 dagen onbetaalde belasting riskeert de wagen geïmmobiliseerd te worden."
+        },
+        {
+          "q": "Is de Belgische keuring voldoende?",
+          "a": "Een keuringsbewijs uit hetzelfde land als de buitenlandse inschrijving blijft geldig, als het in een officiële taal van Luxemburg is opgesteld of beëdigd vertaald werd. Zonder geldig bewijs keurt een SNCT- of DEKRA-station de wagen."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Luxemburg: vignette 705, SNCA-inschrijving, gele platen en keuring. Mcars brengt uw wagen over de A4 en A6.",
+      "sources": [
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/payer-taxe-vehicule-ue.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/conformite-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/reimmatriculation-vehicule.html",
+        "https://snca.public.lu/fr/plaques/plaques-rouges.html",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://en.wikipedia.org/wiki/A6_motorway_(Luxembourg)",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/luxembourg",
+        "https://guichet.public.lu/en/entreprises/import-export/transit/transit-ue/e-vignette-poids-lourds.html",
+        "https://en.wikipedia.org/wiki/Kirchberg,_Luxembourg",
+        "https://fr.wikipedia.org/wiki/Agence_OTAN_de_soutien_et_d%27acquisition",
+        "https://fr.wikipedia.org/wiki/Mamer"
+      ]
+    },
+    "belgie-frankrijk": {
+      "lead": "U kocht een wagen in Doornik, Bergen of Charleroi en hij moet in Frankrijk op een Frans kenteken. Dan komen er drie dingen samen: een fiscaal attest van de Franse belastingdienst, een bewijs van technische conformiteit en een eventuele malus bij de eerste Franse inschrijving. Mcars rijdt wekelijks over heel Frankrijk en brengt uw wagen op de transporter naar het adres van uw keuze.",
+      "facts": [
+        {
+          "label": "Fiscaal attest",
+          "value": "Quitus fiscal voor elke EU-wagen, aan te vragen bij uw belastingkantoor"
+        },
+        {
+          "label": "Conformiteit",
+          "value": "Europees COC van de fabrikant, anders een réception à titre isolé"
+        },
+        {
+          "label": "Tijdelijke platen",
+          "value": "WW-platen met voorlopig certificaat als de buitenlandse platen niet meer geldig zijn"
+        },
+        {
+          "label": "Malus",
+          "value": "CO2-malus bij de eerste Franse inschrijving, ook voor tweedehandswagens"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het quitus fiscal komt eerst",
+          "body": [
+            "Een quitus fiscal is vereist voor de Franse inschrijving van elke wagen die in een ander EU-land gekocht werd, of hij nu nieuw is of tweedehands. U vraagt het aan bij de belastingdienst van uw woonplaats in Frankrijk. Het is een officieel belastingdocument en geen formaliteit die de verkoper in België kan regelen.",
+            "De btw speelt hier mee. Een wagen geldt voor de btw als nieuw als hij niet meer dan 6.000 km heeft gereden of minder dan zes maanden na de eerste inschrijving wordt geleverd. Bij een nieuwe wagen uit een ander EU-land gaat de belasting naar het land waar hij ingeschreven wordt. Betaalde u zowel in België als in Frankrijk btw, dan vraagt u eerst bij de verkoper en daarna bij de Belgische belastingdienst terugbetaling."
+          ]
+        },
+        {
+          "heading": "COC of een individuele keuring",
+          "body": [
+            "Voor de technische conformiteit volstaat het Europese certificaat van overeenstemming van de fabrikant. Het COC bestaat alleen voor voertuigen tot 3,5 ton met een eerste inschrijving na 1996, en niet voor gewijzigde voertuigen of prototypes. Vraag de Belgische verkoper het COC dus mee te geven of bij het merk aan te vragen.",
+            "Zonder COC of gelijkwaardig attest van de fabrikant is een réception à titre isolé nodig bij de Dreal van uw regio. In Île-de-France heet die dienst de Drieat. Dat is een extra traject met een eigen planning, en een wagen met aanpassingen komt er vaker in terecht dan een standaardmodel."
+          ]
+        },
+        {
+          "heading": "Platen en tijdelijk rijden in Frankrijk",
+          "body": [
+            "Rijdt u Frankrijk binnen, zorg dan dat de platen geldig zijn, want met ongeldige platen kan de politie het voertuig immobiliseren. Zijn de buitenlandse platen niet meer geldig, dan rijdt de wagen met tijdelijke Franse WW-platen en een voorlopig WW-certificaat. De reeks loopt van WW-001-AA tot WW-999-ZZ en is bedoeld voor voertuigen die wachten op hun definitieve inschrijving.",
+            "Service Public raadt aan bij het consulaat van het land van aankoop na te vragen of dat land tijdelijke uitvoerplaten geeft of eist dat de wagen eerst wordt geschrapt. Wie de wagen laat vervoeren in plaats van er zelf mee te rijden, hoeft die vraag voor de rit zelf niet te beantwoorden."
+          ]
+        },
+        {
+          "heading": "Malus bij de eerste Franse inschrijving",
+          "body": [
+            "Bij de eerste inschrijving in Frankrijk wordt de Franse CO2-malus aangerekend, ook op tweedehandswagens die al in het buitenland ingeschreven stonden. Hoe ouder de wagen, gerekend vanaf de eerste buitenlandse inschrijving, hoe lager het bedrag. Volledig vrijgesteld zijn wagens die voor 1 januari 2015 voor het eerst in het buitenland ingeschreven werden, evenals elektrische en waterstofvoertuigen. Daarnaast bestaat een aparte malus op het gewicht.",
+            "De malus is verschuldigd op de dag van de inschrijving. Het tarief hangt af van de datum van inschrijving, niet van de datum van bestelling of aankoop. Een Belgische wagen die lang op een parking blijft staan voor hij ingeschreven wordt, kan dus in een andere tariefperiode vallen."
+          ]
+        },
+        {
+          "heading": "De weg: Rijsel, de A1 en het zaterdagverbod",
+          "body": [
+            "Vanuit West-Vlaanderen sluit de E17 bij Rekkem aan op de Franse A22 naar Rijsel, en de A18 bij Adinkerke op de A16 naar Duinkerke. Vanuit Henegouwen loopt de E19 via Hensies naar de Franse A2 en de A8 bij Lamain en Blandain naar de A27. Rond Rijsel zijn de rijstrookwissels onvermijdelijk en loopt de spits geregeld vertraging op.",
+            "Naar Parijs neemt u de A1, die door SANEF wordt beheerd en twee tolpoorten heeft, Chamant bij Senlis en Fresnes-lès-Montauban. Voor vrachtwagens vanaf 7,5 ton geldt een rijverbod van zaterdag 22 uur tot zondag 22 uur, op feestdagen vanaf de avond ervoor. Autotransport staat niet in de lijst van vrijstellingen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Eurotunnel bij Coquelles",
+          "body": "De Franse terminal van de Kanaaltunnel ligt in Coquelles en is bereikbaar via afrit 42 van de A16. Afrit 47 leidt naar de haven van Calais en de afritten 57 en 58 naar Duinkerke. De shuttles zetten personenwagens, bestelwagens en vrachtwagens in ongeveer 35 minuten over."
+        },
+        {
+          "kind": "regel",
+          "title": "ZFE van Rijsel",
+          "body": "De zone à faibles émissions van Rijsel omvat ook de A1 als onderdeel van het hoofdwegennet. Wie geen sticker heeft, riskeert een boete. Een ingevoerde wagen die zelf Rijsel inrijdt, moet dus eerst nagekeken worden op de milieuklasse. Kijk de actuele stand na bij de metropool."
+        },
+        {
+          "kind": "regel",
+          "title": "Extra verboden rond Parijs",
+          "body": "Op de A6, A10 en A13 rond Parijs gelden extra rijverboden voor vrachtwagens: vrijdagnamiddag, zaterdag overdag en zondagavond. Wie een wagen naar het zuiden of westen van Parijs moet brengen, plant de rit zo dat de vrachtwagen die uren niet in die zone rijdt."
+        },
+        {
+          "kind": "tip",
+          "title": "Het SIV-nummer blijft bij de wagen",
+          "body": "Het voertuig houdt zijn leven lang hetzelfde Franse SIV-nummer in het formaat AA-123-AA, ook na een verhuis of verkoop binnen Frankrijk. Welke departementscode er op de plaat komt, bepaalt de eigenaar zelf. Een Belgische import krijgt dat nummer pas bij de definitieve inschrijving."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wie vraagt het quitus fiscal aan, ik of de verkoper?",
+          "a": "U, als koper, bij de belastingdienst van uw woonplaats in Frankrijk. De Belgische verkoper moet vooral de facturen en het volledige inschrijvingsbewijs meegeven. Zonder quitus fiscal kan de wagen niet worden ingeschreven."
+        },
+        {
+          "q": "Betaal ik malus op een wagen die al in België reed?",
+          "a": "Ja, de malus is verschuldigd bij de eerste inschrijving in Frankrijk, ook voor tweedehandswagens. Het bedrag daalt met de ouderdom vanaf de eerste buitenlandse inschrijving, en wagens van vóór 1 januari 2015 en elektrische wagens zijn vrijgesteld."
+        },
+        {
+          "q": "Waarom zoveel mensen een transporter nemen voor Frankrijk?",
+          "a": "Omdat de platen bij het binnenrijden geldig moeten zijn, anders kan de politie de wagen immobiliseren. Een wagen die op een vrachtwagen wordt vervoerd, rijdt de grens niet zelf over. Mcars rijdt wekelijks over heel Frankrijk."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Frankrijk: quitus fiscal, COC, WW-platen en malus. Mcars rijdt wekelijks over heel Frankrijk en brengt uw wagen.",
+      "sources": [
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F20992",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F35947",
+        "https://fr.wikipedia.org/wiki/Plaque_d%27immatriculation_fran%C3%A7aise",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_fr.htm",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://en.wikipedia.org/wiki/European_route_E42",
+        "https://fr.wikipedia.org/wiki/Autoroute_A16_(France)",
+        "https://fr.wikipedia.org/wiki/Tunnel_sous_la_Manche",
+        "https://nl.wikipedia.org/wiki/A14_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A7_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A8_%28Belgi%C3%AB%29"
+      ]
+    },
+    "belgie-duitsland": {
+      "lead": "U kocht een wagen in Luik, Verviers of Eupen en hij moet in Duitsland op kenteken. Wie dat zelf met Belgische plaat probeert, botst op de Duitse regels voor Kurzzeitkennzeichen en op het COC. Mcars brengt de wagen op een open autotransporter over de E40 naar Aken en verder, zodat het papierwerk op de plaats van bestemming kan beginnen.",
+      "facts": [
+        {
+          "label": "Kurzzeitkennzeichen",
+          "value": "Niet bruikbaar voor een wagen gekocht in een andere EU-lidstaat"
+        },
+        {
+          "label": "Papieren",
+          "value": "Buitenlandse voertuigpapieren plus COC, anders een Vollgutachten van TÜV of DEKRA"
+        },
+        {
+          "label": "Keuring",
+          "value": "Bewijs van periodieke keuring voor wagens ouder dan drie jaar"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Zondag en feestdag van 0 tot 22 uur voor vrachtwagens boven 7,5 ton"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Waarom het Duitse Kurzzeitkennzeichen niet helpt",
+          "body": [
+            "Wie een in het buitenland gekochte wagen zelf naar Duitsland rijdt, moet zorgen dat hij ingeschreven en verzekerd is, het eenvoudigst met een uitvoerplaat van het land van aankoop. Voor een wagen die in een andere EU-lidstaat gekocht werd, komt een Duits Kurzzeitkennzeichen niet in aanmerking. Het is bovendien hoogstens vijf dagen geldig en bedoeld voor proef-, keurings- en overbrengingsritten.",
+            "Het is een nationale plaat. Er bestaan wederzijdse afspraken met Oostenrijk, Italië, Denemarken en Zwitserland, maar in de Benelux en Frankrijk zijn problemen gemeld. Een Belgische wagen die op een transporter naar Duitsland gaat, laat dat probleem achter zich."
+          ]
+        },
+        {
+          "heading": "COC, Vollgutachten en de Zulassungsstelle",
+          "body": [
+            "Voor de Duitse inschrijving van een EU-importwagen zijn de buitenlandse voertuigpapieren en het COC nodig. Een ontbrekend COC vraagt u op bij de fabrikant. Is er geen COC beschikbaar, dan moet een keuringsinstantie zoals TÜV een Vollgutachten opmaken. Een COC ontbreekt meestal bij auto's van vóór 1996, bij omgebouwde voertuigen en bij voertuigen die van buiten de EU zijn ingevoerd.",
+            "Ontbreekt deel II van een buitenlands inschrijvingsbewijs dat uit twee delen bestaat, dan kan de Duitse inschrijving pas volgen nadat de buitenlandse autoriteit dit via het Kraftfahrt-Bundesamt bevestigd heeft. Vraag de Belgische verkoper dus beide delen."
+          ]
+        },
+        {
+          "heading": "Keuring, milieuplakette en belasting",
+          "body": [
+            "Voor wagens ouder dan drie jaar vraagt de Zulassungsstelle het bewijs van een geldige periodieke keuring. Een keuring uit het EU-land van herkomst kan volstaan; vraag dat vooraf na. Het buitenlandse inschrijvingsbewijs wordt door de Zulassungsbehörde ingehouden en zes maanden bewaard, waarna ook het Kraftfahrt-Bundesamt op de hoogte gebracht wordt.",
+            "De emissiesleutel in veld 14.1 van de Zulassungsbescheinigung Teil I bepaalt of de wagen een groene milieuplakette krijgt. Kunt u de norm van een buitenlandse wagen niet uit de papieren halen, dan vraagt men mogelijk een attest van de fabrikant. De Kfz-Steuer loopt vanaf de dag van de inschrijving en wordt geïnd door de douane, via SEPA-domiciliëring."
+          ]
+        },
+        {
+          "heading": "Nieuw voertuig en btw",
+          "body": [
+            "Ook een particuliere koper betaalt Duitse btw op een nieuw voertuig dat uit een ander EU-land komt. Samen met de inschrijving dient u dan een mededeling over de intracommunautaire verwerving in, en het formulier daarvoor vindt u bij de Zulassungsstelle. Fiscaal is een landvoertuig nieuw als het niet meer dan 6.000 km gereden heeft of als de eerste ingebruikname niet langer dan zes maanden geleden is.",
+            "De particuliere koper doet aangifte per voertuig, de Fahrzeugeinzelbesteuerung, binnen tien dagen na de verwerving. Een jonge Belgische wagen met weinig kilometers valt dus snel in deze categorie."
+          ]
+        },
+        {
+          "heading": "De weg: E40, A44 en het zondagverbod",
+          "body": [
+            "Vanuit Luik loopt de Belgische E40 of A3 over 134 km naar Brussel en in de andere richting naar de grens bij Lichtenbusch, waar de Duitse A44 begint. Een tweede doorgang is de E42 via Verviers, Malmedy en Sankt Vith naar de Duitse A60 richting Prüm en Bitburg.",
+            "Duitsland heeft een landelijk zondag- en feestdagverbod van 0 tot 22 uur voor vrachtwagens boven 7,5 ton en voor alle combinaties met aanhangwagen. In de zomer geldt een extra zaterdagverbod op een lijst van wegvakken. Autotransport staat niet bij de vrijstellingen. Satellic-toestellen werken in Duitsland niet; daar geldt Toll Collect."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Grensovergang Lichtenbusch",
+          "body": "Bij Lichtenbusch begint de Duitse A44 en eindigt de Belgische A3 of E40. De weg loopt via Aken, Jülich en Mönchengladbach naar Düsseldorf. Voor wie in het Rijn-Ruhrgebied woont, is dit de kortste ingang vanuit Luik."
+        },
+        {
+          "kind": "regel",
+          "title": "Umweltzonen in Noordrijn-Westfalen",
+          "body": "Noordrijn-Westfalen heeft de meeste Umweltzonen van Duitsland, onder meer Aken, Bonn, Düsseldorf, Keulen, Krefeld, Mönchengladbach en het Ruhrgebied. Alleen de groene sticker geeft toegang. Een ingevoerde wagen zonder duidelijke emissiesleutel moet daar eerst worden uitgeklaard."
+        },
+        {
+          "kind": "plek",
+          "title": "Expats in Düsseldorf",
+          "body": "Düsseldorf telt een van de grootste Japanse gemeenschappen van Europa, met ruim 8.000 mensen en honderden Japanse bedrijven. Het is een typische expatstad waar wagens bij aankomst en vertrek verhuizen, en waar een uit België aangekochte wagen vaak in een stedelijke Umweltzone belandt."
+        },
+        {
+          "kind": "regel",
+          "title": "Kfz-Steuer via de douane",
+          "body": "De Duitse Kfz-Steuer begint te lopen op de dag van de inschrijving en wordt geïnd door het Hauptzollamt, niet door het Finanzamt. Betalen gebeurt via SEPA-domiciliëring, dus een Belgische rekening volstaat. Houd er rekening mee bij de maandelijkse kosten van de wagen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een Kurzzeitkennzeichen gebruiken voor een wagen uit België?",
+          "a": "Nee. Voor een wagen die in een andere EU-lidstaat gekocht werd, komt een Duits Kurzzeitkennzeichen niet in aanmerking. Het eenvoudigst is een uitvoerplaat van het land van aankoop, of de wagen op een transporter laten vervoeren."
+        },
+        {
+          "q": "Wat als het COC ontbreekt?",
+          "a": "Dan kan u het bij de fabrikant opvragen. Bestaat het niet, dan is een Vollgutachten van TÜV of een gelijkaardige keuringsinstantie nodig volgens paragraaf 21 StVZO. Meestal ontbreekt het COC bij wagens van vóór 1996 of omgebouwde wagens."
+        },
+        {
+          "q": "Mag een autotransporter op zondag naar Duitsland rijden?",
+          "a": "Nee, vrachtwagens boven 7,5 ton mogen er op zondag en feestdagen van 0 tot 22 uur niet rijden en autotransport staat niet bij de vrijstellingen. Plan de aflevering dus vóór of na dat venster."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Duitsland: COC, Vollgutachten, keuring en Kfz-Steuer. Mcars rijdt uw wagen via Aken en verder naar het adres.",
+      "sources": [
+        "https://www.evz.de/reisen-verkehr/auto/ueberfuehrung-und-zulassung.html",
+        "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+        "https://www.buzer.de/s1.htm?a=8&g=FZV&dorg=1",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/kurzzeitkennzeichen/",
+        "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/fahrverbote-umweltzonen/umweltplaketten/",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/kraftfahrzeugsteuer_node.html",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://nl.wikipedia.org/wiki/A3_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A27_%28Belgi%C3%AB%29",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_44",
+        "https://gis.uba.de/website/umweltzonen/index.php",
+        "https://de.wikipedia.org/wiki/Japaner_in_Düsseldorf"
+      ]
+    },
+    "belgie-spanje": {
+      "lead": "U kocht een wagen bij een Belgische garage en wilt hem in Spanje op uw naam, bijvoorbeeld voor uw tweede verblijf aan de Costa Blanca. Dan moet hij eerst in België zijn uitgeschreven, daarna langs een ITV-station en pas na de registratiebelasting kunt u platen kopen. Mcars brengt wagens van tweedeverblijvers naar Spanje, zodat u niet zelf hoeft te rijden.",
+      "facts": [
+        {
+          "label": "Uitschrijven",
+          "value": "Wagen moet eerst in het land van herkomst voor export zijn uitgeschreven"
+        },
+        {
+          "label": "Keuring",
+          "value": "ITV-station maakt de Spaanse ficha técnica op"
+        },
+        {
+          "label": "Belasting",
+          "value": "Registratiebelasting aantonen met modelo 576, 06 of 05"
+        },
+        {
+          "label": "Tijdelijke platen",
+          "value": "Groene platen, 60 dagen geldig voor nog niet ingeschreven wagens"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Eerst uitschrijven in België",
+          "body": [
+            "Een buitenlandse wagen laat u in Spanje alleen inschrijven op naam van de titularis. De DGT vraagt dat het voertuig eerst in het land van herkomst voor export is uitgeschreven. Voor een Belgische wagen betekent dat: de verkoper of u regelt de uitschrijving in België voor de wagen op de weg gaat.",
+            "Neem vervolgens alle originele documenten mee naar Spanje: het inschrijvingsbewijs van het land van herkomst en een homologatiebewijs. Bij een tweedehandswagen van een particulier uit de EU hoort ook een koopcontract met vertaling, plus het bewijs van de Impuesto de Transmisiones Patrimoniales."
+          ]
+        },
+        {
+          "heading": "ITV en homologatiebewijs",
+          "body": [
+            "Eerste stap in Spanje is de ITV: het keuringsstation controleert wagen en papieren en maakt de Spaanse fiche op. Als homologatiebewijs aanvaardt de ITV het Europese gelijkvormigheidsattest dat u bij het merk opvraagt, een door een ingenieur opgestelde ficha reducida, of voor voertuigen van vóór 2002 een individuele homologatie die vooraf door een ingenieur wordt gemaakt.",
+            "Spanje erkent het keuringsbewijs van een andere EU-lidstaat zolang het volgens de Spaanse keuringsfrequenties geldig blijft. Een elektronische ficha, de NIVE, is vereist. Zorg dat de Belgische keuring dus niet vlak voor de verscheping verloopt."
+          ]
+        },
+        {
+          "heading": "Registratiebelasting en btw",
+          "body": [
+            "De Impuesto de Matriculación is eenmalig en gekoppeld aan de CO2-uitstoot. De betaling, vrijstelling of niet-onderwerping bewijst u met modelo 576, 06 of 05 van de AEAT. Baskenland en Navarra regelen dit via hun eigen Hacienda Foral. Aanhangwagens vallen buiten deze belasting.",
+            "Voor een nieuw voertuig uit een ander EU-land moet de btw in Spanje aangetoond worden met modelo 309 of 300, of met een bewijs van btw-registratie. Wie een jonge wagen bij een Belgische dealer koopt, moet dus eerst nagaan of dat voertuig fiscaal als nieuw geldt."
+          ]
+        },
+        {
+          "heading": "Tijdelijk rijden en platen",
+          "body": [
+            "Rijden met de wagen is niet toegestaan zolang hij niet in Spanje ingeschreven is. Uitzondering: tijdelijke platen uit het land van herkomst die nog geldig zijn, op voorwaarde dat de wagen verzekerd is. Wagens zonder definitieve inschrijving, bijvoorbeeld omdat ze in het buitenland gekocht zijn, rijden 60 dagen met groene tijdelijke platen.",
+            "De nummerplaten zelf koopt de eigenaar na de inschrijving bij een gespecialiseerde winkel; daarna moet de verplichte verzekering afgesloten worden. Een wagen die nooit in Spanje ingeschreven was krijgt een nieuwe plaat, een wagen die vroeger Spaans was krijgt via rehabilitación zijn oude plaat terug."
+          ]
+        },
+        {
+          "heading": "De weg: via Parijs naar de Pyreneeën",
+          "body": [
+            "De rit loopt vanuit België via de E19 naar de Franse A2 en de A1 richting Parijs, en dan zuidwaarts. Aan de Atlantische kant leidt de A63 van Bordeaux naar de grens bij Biriatou en Hendaye, waar de Spaanse AP-8 begint. Aan de Middellandse kant ligt de grens bij La Jonquera, bereikbaar via de AP-7.",
+            "Een algemeen weekendverbod voor vrachtwagens boven 7,5 ton bestaat in Spanje niet. Verboden gelden enkel op genoemde wegvakken en tijdstippen volgens de jaarlijkse DGT-resolutie. Doorreizend in Frankrijk geldt wel het zaterdag- en zondagverbod en het extra verbod rond Parijs."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Costa Blanca en Dénia",
+          "body": "Aan de Costa Blanca vormen de Britten de grootste buitenlandse gemeenschap, en in sommige gemeenten zijn inwoners uit Noord-Europa even talrijk als de lokale bevolking. Dénia is bereikbaar via de N-332 en de AP-7, afrit 62. Voor een tweedeverblijver is dat de streek waar de wagen meestal naartoe moet."
+        },
+        {
+          "kind": "plek",
+          "title": "ZAISA in Irun",
+          "body": "Irun grenst aan Hendaye, Urrugne en Biriatou en is een logistiek knooppunt op de as Parijs-Madrid, met het transportcentrum ZAISA in Behobia. Daar komt de A63 uit Frankrijk binnen. De Baskische verkeersdienst Trafikoa legt eigen rijverboden op voor vrachtwagens boven 7.500 kg."
+        },
+        {
+          "kind": "regel",
+          "title": "ZBE-register in Barcelona",
+          "body": "Voor de lage-emissiezone van Barcelona bestaat een metropolitaan register voor buitenlandse voertuigen. De voorwaarden staan in het reglement van dat register. Wie een Belgische wagen in de regio Barcelona laat afleveren, kijkt dat vooraf na."
+        },
+        {
+          "kind": "tip",
+          "title": "Haven van Valencia",
+          "body": "De haven van Valencia heeft twee terminals voor auto's en ro-ro-lading en behandelde in 2019 ruim 565.000 voertuigen. Wie zijn wagen naar de Costa Blanca of de Balearen wil, rekent in de buurt van Valencia best op drukte rond de terminals."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik met mijn Belgische plaat rondrijden tot de inschrijving?",
+          "a": "Zolang de wagen niet in Spanje is ingeschreven, mag er niet mee gereden worden, behalve met nog geldige tijdelijke platen uit het land van herkomst en met verzekering. Groene tijdelijke platen gelden 60 dagen voor nog niet ingeschreven wagens."
+        },
+        {
+          "q": "Welke belasting hoort bij de inschrijving?",
+          "a": "De eenmalige Impuesto de Matriculación, gekoppeld aan de CO2-uitstoot. U bewijst betaling of vrijstelling met modelo 576, 06 of 05 van de AEAT. In Baskenland en Navarra gaat dat via de Hacienda Foral."
+        },
+        {
+          "q": "Heb ik een COC nodig voor Spanje?",
+          "a": "Als homologatiebewijs aanvaardt de ITV een COC van het merk, een ficha reducida van een ingenieur, of voor wagens van vóór 2002 een individuele homologatie. Vraag het COC bij de Belgische dealer of het merk vóór het transport."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Spanje: ITV, matriculación, modelo 576 en tijdelijke platen. Mcars brengt wagens van tweedeverblijvers naar Spanje.",
+      "sources": [
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricula-temporal-placas-verdes/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "https://en.wikipedia.org/wiki/A63_autoroute",
+        "https://en.wikipedia.org/wiki/La_Jonquera",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://es.wikipedia.org/wiki/Costa_Blanca",
+        "https://es.wikipedia.org/wiki/Denia",
+        "https://es.wikipedia.org/wiki/Ir%C3%BAn",
+        "https://www.trafikoa.euskadi.eus/medidas-especiales-de-regulacion-del-trafico/webtraf00-content/es/",
+        "https://www.zbe.barcelona/es/zones-baixes-emissions/la-zbe.html",
+        "https://es.wikipedia.org/wiki/Puerto_de_Valencia"
+      ]
+    },
+    "belgie-italie": {
+      "lead": "U kocht een wagen bij een Belgische dealer en hij moet naar Italië, naar Turijn, Milaan of verder. Italië schrijft in via een loket dat Sportello Telematico dell'Automobilista heet, vraagt vertaalde documenten en verwacht dat wie er al lang woont niet zelf met de buitenlandse plaat naar huis rijdt. Mcars brengt de wagen over de Alpen op een open meerlaagse transporter.",
+      "facts": [
+        {
+          "label": "Loket",
+          "value": "Sportello Telematico dell'Automobilista: Motorizzazione, ACI-PRA-kantoor of erkend agentschap"
+        },
+        {
+          "label": "Documenten",
+          "value": "Istanza unificata, gewaarmerkte verkoopverklaring, identiteitsbewijs en codice fiscale"
+        },
+        {
+          "label": "Vertaling",
+          "value": "Gecertificeerde Italiaanse vertaling door consulaat of beëdigd vertaler"
+        },
+        {
+          "label": "Revisione",
+          "value": "Eerste keuring binnen vier jaar na eerste inschrijving, daarna tweejaarlijks"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Rijden met Belgische plaat: de grens van drie maanden",
+          "body": [
+            "Woont u al langer dan drie maanden in Italië, dan mag u de aangekochte wagen niet zelf naar huis rijden met de buitenlandse plaat of een tijdelijke exportplaat. Als gangbare oplossing wordt in de bron vervoer door een gespecialiseerd bedrijf genoemd. Voor een Belg die naar Italië verhuist, is een transporter dus geen luxe maar de normale weg.",
+            "Geen enkele auto, moto of aanhangwagen mag in Italië rijden zonder carta di circolazione en inschrijving. De kaart staat op naam van de eigenaar en vermeldt ook een eventuele vruchtgebruiker of leasingnemer."
+          ]
+        },
+        {
+          "heading": "Wat de STA vraagt",
+          "body": [
+            "Een wagen uit een ander EU-land wordt in Italië ingeschreven via een STA: bij de Motorizzazione, een ACI-PRA-kantoor of een erkend agentschap. Kentekenregistratie en PRA-inschrijving gebeuren daar in één beweging. Bij een gebruikte EU-wagen verlangt de STA onder meer het formulier istanza unificata, een gewaarmerkte verkoopverklaring, een identiteitsbewijs en de codice fiscale van de koper. Voor een nieuwe wagen komt daar het Europees COC bij.",
+            "Volgens de EU-regels horen bij een herinschrijving ook het kentekenbewijs (beide delen als het er twee zijn), een eigendomsbewijs, bewijs van betaalde btw, bewijs van verzekering en bewijs dat de wagen in het vorige land technisch is goedgekeurd. De Belgische verkoper levert dus meer dan een factuur."
+          ]
+        },
+        {
+          "heading": "Vertalingen en kostenposten",
+          "body": [
+            "Een gecertificeerde Italiaanse vertaling hoort bij elk buitenlands document, opgemaakt door een consulaat, een diplomatieke vertegenwoordiging of een beëdigd vertaler. Een Belgisch inschrijvingsbewijs in het Nederlands of Frans gaat dus niet zomaar door.",
+            "De kostenposten bij inschrijving zijn de provinciale overdrachtsbelasting IPT, volgens voertuigtype en provincie, ACI-rechten, zegelrecht op de aanvraag en op het Documento Unico, rechten van de Motorizzazione en de nummerplaten. Betaal geen voorschot of volledige prijs voordat de documenten en de staat van de wagen zijn gecontroleerd, en ga na of voor de Italiaanse inschrijving technische aanpassingen nodig zijn."
+          ]
+        },
+        {
+          "heading": "Keuring en artikel 93",
+          "body": [
+            "De periodieke keuring, de revisione, komt volgens artikel 80 van de Codice della Strada voor het eerst binnen vier jaar na de eerste inschrijving en daarna om de twee jaar. Een Belgische wagen die al ouder is, moet dus meteen na de inschrijving aan de beurt kunnen komen.",
+            "Vanaf dan is de carta di circolazione het document dat in de wagen hoort. Zonder dat document en zonder inschrijving mag het voertuig niet op de Italiaanse weg. Vraag de Belgische verkoper daarom ook naar de datum van de laatste Belgische keuring en bewaar het bewijs bij het dossier, want de autoriteiten willen aantonen dat de wagen in het vorige land technisch is goedgekeurd."
+          ]
+        },
+        {
+          "heading": "De Alpen en het zondagverbod",
+          "body": [
+            "De Alpen kruist u via de Mont Blanc-tunnel (11,6 km, één buis met twee richtingen), de Fréjustunnel (bijna 13 km, tweede koker geopend) of de Brenner, waar de A22 tot Modena loopt.",
+            "Italië verbiedt vrachtwagens boven 7,5 ton buiten de bebouwde kom op zon- en feestdagen, ook leeg. Buitenlandse voertuigen starten het verbod later en ritten naar het buitenland mogen enkele uren voor het einde vertrekken. Autotransport staat niet bij de vrijstellingen. Doorreizend in Frankrijk geldt het zaterdag-zondagverbod, in Zwitserland de hele zondag."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Fréjustunnel en voertuighoogte",
+          "body": "De Fréjustunnel (12,9 km) is de langste wegtunnel met twee kokers van Europa, beheerd door SITAF en SFTRF. De maximale voertuighoogte is er 4,30 m. Voor een beladen meerlaagse autotransporter is dat een punt om vooraf na te kijken."
+        },
+        {
+          "kind": "plek",
+          "title": "Mont Blanc-tunnel",
+          "body": "De Mont Blanc-tunnel verbindt Chamonix met Courmayeur. Bij sluiting voor onderhoud wijkt het grootste deel van het vrachtverkeer uit naar de Fréjus. Voor 2026 waren geen volledige sluitingen gepland, wel korte nachtelijke onderbrekingen. Kijk bij een rit naar het Aostadal de actuele stand na."
+        },
+        {
+          "kind": "regel",
+          "title": "Splügenpas en Livigno",
+          "body": "De Splügenpas (SS36, ongeveer 2.120 m) gaat elke winter in november dicht en heropent pas in het voorjaar. Livigno is een belastingvrije zone zonder Italiaanse btw, met douanecontrole bij het verlaten richting de rest van Italië. Voor een wagen naar Livigno of het Engadin speelt dit mee."
+        },
+        {
+          "kind": "tip",
+          "title": "Brennerautosnelweg A22",
+          "body": "De A22 loopt van de Brennergrens tot Modena, ongeveer 313 km, en ongeveer een derde van het verkeer is zwaar verkeer. Van 15 november tot 15 april zijn winterbanden of kettingen verplicht. Vlak voor de Brenner ligt de Autoporto Sadobre bij Vipiteno als vrachtwagenparking."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik de gekochte wagen zelf naar Italië rijden?",
+          "a": "Wie al langer dan drie maanden in Italië woont, mag dat niet met de buitenlandse of een tijdelijke exportplaat. De bron noemt vervoer door een gespecialiseerd bedrijf als de gangbare oplossing, dus een transporter is hier de normale keuze."
+        },
+        {
+          "q": "Moeten mijn Belgische papieren vertaald worden?",
+          "a": "Bij buitenlandse documenten hoort een gecertificeerde Italiaanse vertaling van een consulaat, een diplomatieke vertegenwoordiging of een beëdigd vertaler. Laat dat regelen voor de wagen in Italië aankomt."
+        },
+        {
+          "q": "Welke tunnel neemt een autotransporter naar Italië?",
+          "a": "Dat hangt af van de bestemming en de sluitingen. Naar Piëmont en Aostadal kiest men Mont Blanc of Fréjus, naar het noordoosten de Brenner. Bij sluiting van de Mont Blanc-tunnel wijkt het vrachtverkeer uit naar de Fréjus."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Italië: STA-loket, vertalingen, revisione en de Alpentunnels. Mcars vervoert uw wagen over de Mont Blanc, Fréjus of Brenner.",
+      "sources": [
+        "https://www.alvolante.it/da_sapere/legge-e-burocrazia/importare-un-auto-dall-estero-costi-tempi-e-tasse-381577",
+        "https://europa.eu/youreurope/citizens/vehicles/registration/formalities//italy/index_it.htm",
+        "https://aci.gov.it/codice-della-strada/art-93/",
+        "https://aci.gov.it/codice-della-strada/art-80/",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/italy",
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/traforo-del-frejus-costo-orari-e-chiusure/",
+        "https://www.ilgiorno.it/sondrio/cronaca/passo-spluga-ripaerto-i0wdq13b",
+        "https://en.wikipedia.org/wiki/Livigno",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://mit.gov.it/node/20940"
+      ]
+    },
+    "belgie-zwitserland": {
+      "lead": "U kocht een wagen in België en hij moet naar Zürich, Bern of Genève. Zwitserland ligt buiten het douane- en belastinggebied van de EU, dus de wagen wordt bij de grens aangegeven, er komen belastingen bij en per kanton gelden eigen termijnen voor de inschrijving. Mcars vervoert de wagen; de aangifte regelt u zelf of een douane-expediteur.",
+      "facts": [
+        {
+          "label": "Douanegebied",
+          "value": "Buiten het EU-douanegebied: aangifte van de wagen is altijd verplicht"
+        },
+        {
+          "label": "Aangifte",
+          "value": "E-dec, factuur of koopcontract, inschrijvingsbewijs en identiteitsbewijs"
+        },
+        {
+          "label": "Termijn",
+          "value": "Inschrijving per kanton, bijvoorbeeld een maand in Zürich, drie in Graubünden"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Vrachtwagens boven 3,5 ton: zondag volledig en elke nacht van 22 tot 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De wagen wordt aan de grens aangegeven",
+          "body": [
+            "Het douane- en belastinggebied van de EU omvat Zwitserland niet. Invoerrechten op wegvoertuigen heft het niet meer, maar de wagen moet wel nog altijd worden aangegeven. Een in het buitenland gekochte wagen moet tijdens de openingsuren worden aangegeven bij het grenskantoor. Wie liever in het binnenland inklaart, vraagt aan de grens een Vormerkschein 15.25 en geeft de wagen daarna binnen een korte termijn aan bij een douanekantoor in het binnenland.",
+            "De douane raadt een douane-expediteur aan. Bij twijfelachtige of ontbrekende waardeopgave mag het douanekantoor de waarde zelf schatten, en vreemde valuta worden omgerekend naar Zwitserse frank."
+          ]
+        },
+        {
+          "heading": "Wat de Belgische verkoper moet meegeven",
+          "body": [
+            "Bij de aangifte hoort de elektronische douaneaangifte, e-dec, factuur of koopcontract, het inschrijvingsbewijs (ook als het al geannuleerd is) en een identiteitsbewijs. De e-dec kan via de gratis webtoepassing van de Zwitserse douane tot 30 dagen vóór de grensoverschrijding worden opgemaakt.",
+            "Een Belgische garage die niet vertrouwd is met Zwitserse invoer, geeft dat dossier vaak onvolledig mee. Vraag het originele inschrijvingsbewijs en de factuur met duidelijke prijs en btw-vermelding. Wie op eigen wielen naar Zwitserland rijdt, heeft meestal tijdelijke buitenlandse platen nodig; daarover informeert het land van uitvoer of de verkoper, niet de Zwitserse douane."
+          ]
+        },
+        {
+          "heading": "Belastingen en CO2-sanctie",
+          "body": [
+            "Bij invoer van personenwagens en bepaalde lichte bestelwagens is een automobielbelasting verschuldigd op de voertuigwaarde. Daarbovenop komt btw bij invoer, meestal berekend op de betaalde prijs, vermeerderd met de transportkosten tot de bestemming in Zwitserland en de automobielbelasting. Als verhuisgoed kan een wagen volgens de douane niet vrij van belasting en rechten ingevoerd worden.",
+            "Voor nieuwe personen- en bestelwagens die de CO2-doelwaarde overschrijden, is vóór de eerste inschrijving een sanctie verschuldigd. Die wordt achteraf door het Bundesamt für Energie geïnd. Vrijgesteld zijn wagens die meer dan 12 maanden vóór de aangifte in het buitenland werden ingeschreven, of meer dan 6 maanden en meer dan 5.000 km."
+          ]
+        },
+        {
+          "heading": "Kanton, COC en uitlaatonderhoud",
+          "body": [
+            "In het ASTRA-portaal controleert u met het chassisnummer of er een elektronisch COC bestaat. Zo niet, dan is een papieren COC van dealer of fabrikant nodig, en dat bestaat alleen voor voertuigen met EG-typegoedkeuring. Per kanton verschilt hoeveel tijd u krijgt om een in het buitenland gekochte wagen in te schrijven: in Zürich geldt één maand vanaf de invoerdatum en in Graubünden drie maanden.",
+            "Voor wagens die ongeveer tussen 1976 en 2006 voor het eerst in het verkeer kwamen, is een Abgaswartungsdokument nodig, tenzij ze dankzij OBD zijn vrijgesteld. Een trekhaak moet bij de inschrijving worden gemeld, zodat hij op het inschrijvingsbewijs komt."
+          ]
+        },
+        {
+          "heading": "De Gotthard en het nachtverbod",
+          "body": [
+            "De gebruikelijke binnenkomst vanuit België is de Duitse A5 tot Weil am Rhein, waar de Zwitserse A2 naar Basel en de Gotthard aansluit. De Gotthardtunnel is 16,9 km lang, heeft één buis met één rijstrook per richting, inhaalverbod en 80 km/u. Vrachtwagens komen via een doseersysteem binnen, met ongeveer 150 m afstand. Wachttijd voor de tunnel is dus normaal.",
+            "Vrachtwagens boven 3,5 ton mogen in Zwitserland niet rijden op zondag van 0 tot 24 uur en elke nacht van 22 tot 5 uur. Er geldt ook een dagverbod op acht federale feestdagen. Autotransport staat niet bij de vrijgestelde voertuigen. Een transporter die zaterdag om 22 uur nog rijdt, staat ongeveer 31 uur stil tot maandagochtend."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Weil am Rhein en het douanekantoor",
+          "body": "De Duitse A5 eindigt bij Weil am Rhein en sluit aan op de Zwitserse A2. Het autosnelwegkantoor Basel/Weil wordt door een expediteur omschreven als het grootste wegdouanekantoor van Zwitserland. Buiten de openingsuren is inklaring van handelswaren er geen vanzelfsprekendheid."
+        },
+        {
+          "kind": "regel",
+          "title": "Zondags- en nachtverbod",
+          "body": "Zwitserland verbiedt vrachtwagens boven 3,5 ton op zondag en 's nachts. Uitzonderingen zijn er voor nood- en politiediensten, takelwagens en dringend vervoer van bederfelijke waren, en voor ritten met een speciale vergunning van het kanton waar de wagen binnenkomt. Autotransport staat niet in die lijst."
+        },
+        {
+          "kind": "tip",
+          "title": "Files aan de Gotthardtunnel",
+          "body": "Aan beide uiteinden van de Gotthardtunnel ontstaan vaak files op drukke vakantieperiodes rond Pasen en in de zomer. In 2023 was de tunnel enkele dagen dicht na een scheur in het plafond. Plan een marge in voor de aankomst van uw wagen."
+        },
+        {
+          "kind": "regel",
+          "title": "Kanton bepaalt de inschrijvingstermijn",
+          "body": "Zürich hanteert voor een in het buitenland gekochte wagen één maand vanaf de invoerdatum, Graubünden drie maanden. Wie de wagen laat afleveren in een van die kantons, controleert eerst bij het kantonnale wegenverkeersbureau hoeveel tijd er is, want de termijn loopt vanaf de invoer."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoeveel tijd heb ik om de wagen in Zwitserland in te schrijven?",
+          "a": "Dat verschilt per kanton. In Zürich telt één maand vanaf de invoerdatum, in Graubünden drie maanden. Vraag het na bij het kantonnale wegenverkeersbureau van uw woonplaats voor u de wagen laat afleveren."
+        },
+        {
+          "q": "Kan ik de wagen als verhuisgoed belastingvrij invoeren?",
+          "a": "Volgens de FAQ van de Zwitserse douane niet. Een wagen mag niet als verhuisgoed vrij van belasting en rechten worden ingevoerd, in tegenstelling tot wat sommige gidsen zeggen. Reken dus op automobielbelasting en btw bij invoer."
+        },
+        {
+          "q": "Kan een autotransporter 's nachts of op zondag naar Zwitserland rijden?",
+          "a": "Nee. Vrachtwagens boven 3,5 ton mogen er elke zondag en elke nacht van 22 tot 5 uur niet rijden, en op acht federale feestdagen evenmin. Autotransport staat niet bij de vrijstellingen, dus de aankomst valt altijd op een rijdag."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Zwitserland: douane-aangifte, e-dec, kantonale termijnen en het zondagsverbod. Mcars brengt uw wagen naar het grenskantoor.",
+      "sources": [
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://www.bazg.admin.ch/en/faq-road-vehicles-and-watercraft",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/import-export/fahrzeugexport-schweiz/",
+        "https://www.zh.ch/de/mobilitaet/fahrzeuge-kontrollschilder/import-fahrzeuge.html",
+        "https://www.gr.ch/DE/institutionen/verwaltung/djsg/stva/fahrzeugausweis/Seiten/import.aspx",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/switzerland",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://de.wikipedia.org/wiki/Gotthard-Strassentunnel",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://gerlach-customs.com/ch-de/standorte/basel-weil-autobahn-import/",
+        "https://www.bazg.admin.ch/dam/de/sd-web/jWPwp7TfGIv3/info-ausdehnung-zolloeffnungszeiten-bei-versorgnungsengpaessen_de.pdf"
+      ]
+    },
+    "belgie-oostenrijk": {
+      "lead": "U kocht een wagen in Luik of Eupen en hij moet naar Salzburg, Innsbruck of Wenen. Oostenrijk wil de NoVA betaald zien voor de inschrijving, kijkt naar de geldigheid van de buitenlandse plaat en vraagt dat het merk de wagen in de Genehmigungsdatenbank heeft. Mcars brengt de wagen via Duitsland op een open autotransporter, wat de overheid zelf als alternatief vermeldt.",
+      "facts": [
+        {
+          "label": "NoVA",
+          "value": "Registratiebelasting, vóór inschrijving bij het Finanzamt, formulier NoVA 2"
+        },
+        {
+          "label": "Buitenlandse plaat",
+          "value": "Hoogstens vier weken geldig, de vroegste termijn telt"
+        },
+        {
+          "label": "Typegoedkeuring",
+          "value": "Gegevens moeten in de Genehmigungsdatenbank staan, meestal via de generalimporteur"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Elke nacht van 22 tot 5 uur boven 7,5 ton"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "NoVA en btw bij een wagen uit België",
+          "body": [
+            "Voor de belasting geldt een wagen als nieuw als hij minder dan 6.000 km heeft gereden of minder dan zes maanden vóór de aankoop voor het eerst in gebruik is genomen. Eén van beide volstaat; gebruikt is hij pas bij meer dan 6.000 km én meer dan zes maanden. Een gebruikte wagen uit een ander EU-land betaalt de btw aan de buitenlandse verkoper, in Oostenrijk komt er geen btw meer bij. Een nieuwe wagen betaalt geen btw in het land van aankoop, maar wel Oostenrijkse Erwerbsteuer.",
+            "In beide gevallen moet de registratiebelasting NoVA vóór de inschrijving aan het bevoegde Finanzamt betaald worden. Met formulier NoVA 2 berekent de persoon op wiens naam de wagen voor het eerst ingeschreven wordt, de belasting zelf. NoVA is eveneens verschuldigd bij schenking, erfenis en verhuizing, want ook die gelden als eigen invoer."
+          ]
+        },
+        {
+          "heading": "Documenten die de Belgische verkoper meegeeft",
+          "body": [
+            "De Oostenrijkse overheid somt op wat de verkoper in het EU-land van aankoop moet meegeven: het koopcontract of de betaalde factuur, de originele buitenlandse voertuigpapieren, het EU-conformiteitsattest, en de garantiekaart, het onderhoudsboekje en de handleiding. Bij aankoop van een particulier raadt de overheid aan het koopcontract te laten bekrachtigen door een rechtbank of notaris.",
+            "Een Belgische garage kent die lijst niet altijd. Stuur ze door bij de koop. Een compleet dossier voorkomt dat de wagen in Oostenrijk staat te wachten op een stuk dat in België is gebleven."
+          ]
+        },
+        {
+          "heading": "Typegoedkeuring en keuring",
+          "body": [
+            "Voor een wagen met EU-typegoedkeuring is geen Oostenrijkse goedkeuring vereist, al moeten zijn gegevens wel in de Genehmigungsdatenbank staan voor hij ingeschreven kan worden. Die opname is een taak van de Generalimporteur van het merk, en gebeurt ze niet of te laat, dan springt de Landeshauptmann bij. Ontbreekt de EU-typegoedkeuring, dan vraagt u een Einzelgenehmigung aan bij de Technische Prüfstelle van de deelstaat waar de eigenaar zijn hoofdverblijf heeft.",
+            "Ook wanneer de buitenlandse keuring langer geldig is, blijft de Oostenrijkse keuringstermijn gelden. Moet een gebruikte wagen gekeurd worden, dan hoort er bij de inschrijving een geldig positief keuringsverslag. Douanerechten op voertuigen bestaan binnen de EU niet."
+          ]
+        },
+        {
+          "heading": "Waarom de overheid een aanhangwagen noemt",
+          "body": [
+            "Met een buitenlandse uitvoer- of transitplaat mag u in Oostenrijk rijden zolang de plaat geldig is, met een maximum van vier weken. De buitenlandse en de Oostenrijkse termijn gelden allebei: de vroegste telt. De groene Oostenrijkse overbrengingsplaat kan in het buitenland voor problemen zorgen, daarom raadt de overheid aan de transitplaat via de buitenlandse verkoper te regelen.",
+            "Als alternatief wordt vervoer op een aanhangwagen met zoveel woorden genoemd. Een open autotransporter van Mcars is zo'n alternatief: de wagen rijdt de grens niet over op eigen plaat."
+          ]
+        },
+        {
+          "heading": "De weg: via Duitsland naar Oostenrijk",
+          "body": [
+            "Vanuit Luik rijdt u over de E40 en de Duitse A44 naar Aken, daarna door Duitsland. Verkeer uit België komt Oostenrijk meestal binnen bij Suben (A8), bij Walserberg nabij Salzburg of bij Kufstein. Doorreizend in Duitsland geldt het zondagverbod van 0 tot 22 uur en het zomerzaterdagverbod.",
+            "In Oostenrijk geldt een weekendverbod op zaterdag van 15 tot 24 uur en op zondag en feestdagen van 0 tot 22 uur voor vrachtwagens boven 7,5 ton. Voor vrachtwagens boven 3,5 ton geldt een kilometertol, de GO-Maut. Op de A93 en A12 bij Kufstein past Tirol een Blockabfertigung toe: vrachtwagens worden gedoseerd."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Blockabfertigung bij Kufstein",
+          "body": "Op de A93 en A12 bij Kufstein doseert Tirol vrachtwagens en is het onderliggend wegennet voor vrachtwagens boven 7,5 ton dicht. Het Land Tirol publiceert de data telkens zelf. Wie een wagen naar Innsbruck brengt, rekent op wachttijd."
+        },
+        {
+          "kind": "plek",
+          "title": "Suben en Passau",
+          "body": "Verkeer uit België, Nederland, Luxemburg en Noord-Duitsland komt Oberösterreich binnen over de Duitse A3 bij Passau en de grensovergang Suben, waar de A8 Innkreis Autobahn begint. Dit is de logische ingang voor een wagen die naar Linz of het Mühlviertel moet."
+        },
+        {
+          "kind": "plek",
+          "title": "Walserberg bij Salzburg",
+          "body": "Verkeer uit München, en dus uit Frankrijk, België, Nederland en Luxemburg, komt Salzburg binnen over de Duitse A8 bij Walserberg. Zuidwaarts leidt de A10 Tauern Autobahn naar Kärnten, Italië en Slovenië. Naar Tirol rijdt men via het Große Deutsche Eck."
+        },
+        {
+          "kind": "plek",
+          "title": "Arlbergtunnel",
+          "body": "Op de S16 ligt de Arlbergtunnel, ongeveer 14 km lang en een tolweg. Detectors meten de motor-, uitlaat- en remtemperatuur van vrachtwagens en bussen boven 3,5 ton, die er verplicht langs moeten. De tunnel blijft gesloten voor een voertuig dat te warm is."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Betaal ik btw in Oostenrijk op een wagen uit België?",
+          "a": "Bij een gebruikte wagen uit een ander EU-land betaalt u de btw aan de buitenlandse verkoper; in Oostenrijk komt er geen btw meer bij. Een nieuwe wagen betaalt geen btw in het land van aankoop maar wel Erwerbsteuer."
+        },
+        {
+          "q": "Hoe lang mag ik met de Belgische plaat rijden?",
+          "a": "Hoogstens vier weken, zolang de buitenlandse plaat geldig is. Bij wachttijden bij de overheid kunnen daar vier weken bij komen. De buitenlandse en de Oostenrijkse termijn gelden allebei: de vroegste telt."
+        },
+        {
+          "q": "Welke papieren moet de Belgische verkoper meegeven?",
+          "a": "Koopcontract of betaalde factuur, de originele buitenlandse voertuigpapieren, het EU-conformiteitsattest, de garantiekaart, het onderhoudsboekje en de handleiding. Bij een particuliere verkoper raadt de overheid een bekrachtiging door notaris of rechtbank aan."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Oostenrijk: NoVA, Genehmigungsdatenbank, plaatgeldigheid en weekendverbod. Mcars vervoert de wagen via Duitsland.",
+      "sources": [
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/Seite.061510",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061521",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061522",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061523",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061524",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/13/Seite.061610",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/lkw-fahrverbote.html",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/go-maut.html",
+        "https://en.wikipedia.org/wiki/Arlberg_Road_Tunnel",
+        "https://transport-online.de/news/sektorales-fahrverbot-verkehrsverbaende-schalten-eu-kommissionspraesidentin-von-der-leyen-ein-44016.html",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn",
+        "https://de.wikipedia.org/wiki/Kleines_Deutsches_Eck",
+        "https://www.timocom.co.uk/truck-driving-bans/germany"
+      ]
+    },
+    "belgie-polen": {
+      "lead": "U kocht een wagen in Luik, Hasselt of Tongeren en hij moet naar Polen, naar Wrocław, Poznań of Warschau. De Poolse inschrijving loopt in twee stappen en kent een eigen accijns op personenwagens, die de koper betaalt. Mcars brengt de wagen via Duitsland naar de Poolse grens en verder, terwijl u de documenten verzamelt die het kantoor in Polen in origineel wil zien.",
+      "facts": [
+        {
+          "label": "Tijdelijke inschrijving",
+          "value": "30 dagen, met tijdelijke vergunning en platen, daarna definitieve inschrijving"
+        },
+        {
+          "label": "Accijns",
+          "value": "Accijnsdocument bij de eerste inschrijving van personenwagens in Polen"
+        },
+        {
+          "label": "Documenten",
+          "value": "Originelen: eigendomsbewijs, buitenlands kentekenbewijs, bewijs van keuring"
+        },
+        {
+          "label": "Vertaling",
+          "value": "Beëdigde Poolse vertaling voor documenten in een vreemde taal"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Twee stappen: tijdelijk en definitief",
+          "body": [
+            "Bij het eerste bezoek aan het kantoor wordt het voertuig tijdelijk ingeschreven voor 30 dagen: u krijgt een tijdelijke vergunning, de pozwolenie czasowe, en kentekenplaten. De definitieve inschrijving volgt binnen 30 kalenderdagen. Is die niet op tijd rond, dan kan de tijdelijke inschrijving op het kantoor met 14 dagen worden verlengd. Is de termijn voorbij zonder definitieve inschrijving, dan hoort de wagen niet meer op de openbare weg.",
+            "Sinds begin 2024 staan er administratieve boetes op het overschrijden van de inschrijvingstermijn, in twee trappen: ruim een maand te laat en meer dan een half jaar te laat. Een wagen die lang in een Belgische garage wacht, loopt hier geen gevaar. Zodra hij in Polen rijdt, loopt de klok."
+          ]
+        },
+        {
+          "heading": "Wat de Belgische verkoper meegeeft",
+          "body": [
+            "Basisdocumenten voor de inschrijving van een gebruikte wagen uit de EU zijn het aanvraagformulier, een eigendomsbewijs (factuur of verkoopcontract), het buitenlandse kentekenbewijs, bewijs van technische keuring, bewijs van betaling van de leges en, waar van toepassing, het accijnsdocument. Er worden originelen gevraagd; een kopie kan tot weigering leiden.",
+            "Bent u het buitenlandse kentekenbewijs kwijt, dan hebt u een duplicaat nodig of een attest van de instantie die het voertuig het laatst inschreef. Vraag de verkoper dus altijd het volledige kentekenbewijs mee. De buitenlandse platen worden bij de inschrijving ingeleverd; kwam de wagen zonder platen naar Polen, dan tekent de aanvrager een verklaring dat er geen platen zijn."
+          ]
+        },
+        {
+          "heading": "Accijns op personenwagens",
+          "body": [
+            "Het accijnsdocument is enkel nodig bij een eerste inschrijving in Polen van personenwagens, bepaalde lichte vierwielers, bepaalde N1-bestelwagens en speciale voertuigen. Aanvaard worden bewijs van betaalde accijns in Polen of bewijs dat geen accijns verschuldigd is, bijvoorbeeld een vrijstellingsattest. Accijns betaalt elke koper van een wagen die in Polen nog niet ingeschreven is, of het nu een particulier is of een bedrijf.",
+            "De accijnsaangifte moet binnen veertien dagen na het ontstaan van de belastingplicht worden ingediend; de accijns zelf moet binnen dertig dagen na het binnenbrengen van de wagen betaald zijn. De aangifte kan elektronisch via het platform PUESC. De grondslag is de Poolse marktwaarde: een kunstmatig lage prijs op het contract leidt tot heraanslag. Wie een wagen met grote motor naar Polen haalt, rekent daar vooraf mee."
+          ]
+        },
+        {
+          "heading": "Keuringsbewijs en vertalingen",
+          "body": [
+            "Als bewijs van keuring aanvaardt de wet drie mogelijkheden: een attest van een Pools keuringsstation, het EU-kentekenbewijs als daarin de keuring en de vervaldatum staan, of een ander document van een bevoegde EU-instantie dat de keuring en de geldigheid bevestigt.",
+            "Documenten in een vreemde taal moeten met een Poolse vertaling worden ingediend, gemaakt door een beëdigd vertaler of een Poolse consul. Een EU-kentekenbewijs hoeft niet vertaald als het enkel de geharmoniseerde EU-codes bevat; voor nationale aantekeningen kan het kantoor toch een vertaling vragen. Een Europees gelijkvormigheidsattest hoeft niet vertaald."
+          ]
+        },
+        {
+          "heading": "De weg: E40 door Duitsland naar Görlitz",
+          "body": [
+            "De E40 loopt van Luik naar Lichtenbusch, door Duitsland over de A44, A4 bij Aken en Keulen, A45, A5, A7 en opnieuw A4 via Eisenach, Erfurt, Chemnitz en Dresden naar Görlitz. In Polen is ze de A4 van Zgorzelec via Legnica en Wrocław naar Katowice en Kraków. Doorreizend door Duitsland gelden het zondagverbod en het zomerzaterdagverbod.",
+            "Polen en Duitsland voeren tijdelijke controles uit aan hun gemeenschappelijke grens, met wachttijden van meer dan een uur voor vrachtwagens. Voor vrachtwagens boven 3,5 ton heft Polen tol via e-TOLL, een satellietsysteem zonder poorten. Het Poolse verbod op feestdagen en in de zomer geldt boven 12 ton. Autotransport staat niet in de lijst van uitzonderingen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "A4 bij Zgorzelec en Jędrzychowice",
+          "body": "De Poolse A4 begint aan de Duitse grens bij Jędrzychowice, vlak bij Zgorzelec en Görlitz, en loopt via Wrocław, Opole, Gliwice en Katowice naar Kraków. Voor een wagen naar Neder-Silezië is dit de natuurlijke binnenkomst vanuit het Duitse Dresden."
+        },
+        {
+          "kind": "plek",
+          "title": "Świecko en Olszyna",
+          "body": "Bij Świecko sluit de Poolse A2 aan op de Duitse A12 naar Berlijn, en bij Olszyna sluit de A18 aan op de Duitse A15. Hou papieren van wagen en chauffeur bij de hand, want Polen controleert tijdelijk aan de Duitse grens."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone Warschau",
+          "body": "In Warschau mogen benzinewagens gebouwd vóór 2000 en diesels gebouwd vóór 2009 de milieuzone niet meer in, behalve met vrijstelling of op maximaal 4 dagen per jaar. De stad heeft een officiële online controle per voertuig. Voor oudere wagens vraagt een afleveradres binnen die zone extra aandacht."
+        },
+        {
+          "kind": "tip",
+          "title": "Poolse markt op papier en online",
+          "body": "De automarkt van Słomczyn was in de jaren negentig de grootste van Polen, met meer dan 800 wagens op het terrein. Volgens een reportage wordt daar nu nauwelijks nog gehandeld: de tweedehandshandel is naar online platformen verhuisd."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag ik met de tijdelijke Poolse platen rijden?",
+          "a": "De tijdelijke inschrijving geldt 30 dagen. Is de definitieve inschrijving niet op tijd rond, dan kan ze met 14 dagen worden verlengd. Is de termijn voorbij zonder definitieve inschrijving, dan hoort de wagen niet meer op de openbare weg."
+        },
+        {
+          "q": "Moet ik Poolse accijns betalen op een wagen uit België?",
+          "a": "Ja, bij de eerste inschrijving van een personenwagen in Polen betaalt de koper accijns, of bewijst dat er geen is. De aangifte kan via PUESC, op basis van de Poolse marktwaarde. Een kunstmatig lage prijs op het contract leidt tot heraanslag."
+        },
+        {
+          "q": "Moeten mijn Belgische papieren vertaald worden?",
+          "a": "Documenten in een vreemde taal moeten met een Poolse vertaling door een beëdigd vertaler of consul worden ingediend. Een EU-kentekenbewijs met alleen geharmoniseerde codes en een COC hoeven niet vertaald te worden."
+        }
+      ],
+      "seoDescription": "Auto importeren van België naar Polen: tijdelijke inschrijving, accijns, vertalingen en e-TOLL. Mcars vervoert uw wagen via Duitsland naar Polen.",
+      "sources": [
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://warszawa19115.pl/en/-/rejestracja-pojazdu-uzywanego-sprowadzonego-z-zagranicy",
+        "https://www.podatnik.info/publikacje/podatek-akcyzowy-od-samochodu-kto-i-kiedy-musi-go-zaplacic,637972",
+        "https://formularze.net/blog/rejestracja-samochodu-z-zagranicy-krok-po-kroku",
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://autoblog.spidersweb.pl/gielda-w-slomczynie-2020-r",
+        "https://um.warszawa.pl/waw/sct/sprawdz-pojazd"
+      ]
+    }
+  }
+}

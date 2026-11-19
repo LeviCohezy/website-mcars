@@ -1,0 +1,697 @@
+{
+  "service": "fleet-wagenpark",
+  "origin": "polen",
+  "pages": {
+    "polen": {
+      "lead": "Een Poolse leasemaatschappij, een poolbeheerder of een importeur verplaatst zelden één wagen. Het gaat om reeksen: nieuwe bedrijfswagens, einde-leaseklanten die terug moeten, pool die van vestiging wisselt. In Polen komen daar een eigen tolsysteem, een eigenzinnige rijverbodenregeling en stedelijke milieuzones bij. Deze pagina zet op een rij wat u moet weten voor wagenparkvervoer van, naar en binnen Polen.",
+      "facts": [
+        {
+          "label": "Tol",
+          "value": "e-TOLL voor voertuigen boven 3,5 ton, via satelliet en boordtoestel"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Geen verbod op gewone zondagen; wel op feestdagen en zomerweekends, boven 12 ton"
+        },
+        {
+          "label": "Milieuzones",
+          "value": "Krakau en Warschau hebben een Strefa Czystego Transportu"
+        },
+        {
+          "label": "Leasemarkt",
+          "value": "Het wagenpark komt vooral van bedrijven, particuliere leasing is klein"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Een leasemarkt die op bedrijven draait",
+          "body": [
+            "De Poolse leasingvereniging ZPL meldde voor 2025 een recordjaar. Voertuigen zijn veruit het grootste deel van wat er gefinancierd wordt, en de lichte voertuigen vormen de grootste groep. Ook zware transportvoertuigen bleven groeien. Leasing en verhuur samen zitten achter een groot deel van de nieuw ingeschreven wagens, en het aantal elektrische wagens dat via lease of verhuur werd ingeschreven, is in één jaar bijna verdrievoudigd.",
+            "Voor wie wagens laat vervoeren heeft dat een praktisch gevolg. Leasing aan particulieren is er klein, dus de wagens die u in Polen ophaalt of aflevert, horen bijna altijd bij een bedrijf: een leasemaatschappij, een verhuurder, een poolbeheerder of een werkgever met een eigen wagenpark. Reken dus op partijen, vaste overdrachtsmomenten en een contactpersoon die het contract kent."
+          ]
+        },
+        {
+          "heading": "e-TOLL: tol zonder poorten",
+          "body": [
+            "Polen heft tol op zware voertuigen via e-TOLL. Het systeem geldt voor motorvoertuigen boven 3,5 ton en voor autobussen, en een geladen autotransporter valt daar ruim boven. Er staan geen tolpoorten. Het systeem volgt de positie van het voertuig via satelliet, doorgegeven door een boordtoestel, een extern lokalisatiesysteem of de gratis app e-TOLL PL.",
+            "Het net beslaat ongeveer 5.870 kilometer: de betalende vakken van snelwegen, expreswegen en nationale wegen van wegbeheerder GDDKiA. De Poolse belastingdienst KAS beheert het. Voor een wagenpark dat per vrachtwagen verplaatst wordt, betekent dit dat de tol hoort bij de rijdende combinatie, niet bij de wagens erop. Vraag uw vervoerder hoe de tol in de afrekening zit, dan weet u vooraf waar u aan toe bent."
+          ]
+        },
+        {
+          "heading": "Rijverboden zonder vast zondagverbod",
+          "body": [
+            "In Polen geldt geen verbod op elke gewone zondag, zoals u dat van Duitsland of Frankrijk kent. De verboden gelden voor voertuigen met een toegelaten totaalgewicht boven 12 ton, autobussen uitgezonderd, en vooral op wettelijke feestdagen. Dan mag een vrachtwagen niet rijden van 8 tot 22 uur. In de zomer komen weekendbeperkingen bij: vrijdagavond, zaterdagvoormiddag en zondag.",
+            "Op de lijst staan onder meer Nieuwjaar, Paaszondag en Paasmaandag, 1 en 3 mei, Pinksterzondag, Sacramentsdag, 15 augustus, 1 en 11 november en Kerstmis met tweede kerstdag. De uitzonderingen gaan over bederfelijke goederen, levende dieren, gecombineerd vervoer, wegenwerken en landbouwmachines. Autotransport staat er niet bij. Leg een vaste overdrachtsdatum voor uw wagenpark dus nooit vast zonder de kalender erbij."
+          ]
+        },
+        {
+          "heading": "Naar het oosten: S8, S61 en de Via Baltica",
+          "body": [
+            "Wie wagens naar het noordoosten van Polen brengt, volgt de S8 tot Białystok. Daar splitst de S61 af naar de Litouwse grens. Samen met het aanloopstuk van de S8 vormt die de Via Baltica, die in Polen grotendeels een expresweg met twee rijstroken per richting is en langs Suwałki door de Suwałki-corridor loopt.",
+            "De A2 uit het westen eindigt voorlopig bij Biała Podlaska. Het vervolg tot vlak voor de Wit-Russische grens is nog niet gebouwd, dus het laatste stuk gaat over gewone wegen. Voor een autotransporter met meerdere wagens betekent dat tragere kilometers aan het einde van de rit, een punt om mee te nemen in uw planning."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Strefa Czystego Transportu in Krakau",
+          "body": "Krakau heeft een milieuzone binnen de vierde ringweg, een groot deel van het stadsgebied. In Polen ingeschreven voertuigen worden er automatisch herkend, zodat vervoerders met Poolse platen niets extra hoeven te doen. Voor buitenlandse wagens is dat niet vanzelfsprekend: kijk de actuele toegangsregels van de stad na en kies zo nodig een overdrachtsplaats aan de rand."
+        },
+        {
+          "kind": "plek",
+          "title": "Korczowa, einde van de A4",
+          "body": "De A4 loopt via Kraków, Tarnów en Rzeszów door tot de Oekraïense grens bij Korczowa. Die overgang is sinds december 2007 een Schengen-buitengrens. Een wagen die daar verder rijdt, vraagt douaneformaliteiten, die de klant zelf of via een douane-expediteur regelt. Plan een overdracht dus ruim vóór de grens en niet erop."
+        },
+        {
+          "kind": "regel",
+          "title": "Kerstavond als vrije dag",
+          "body": "Sinds 2025 is Kerstavond, 24 december, in Polen een wettelijke vrije dag. Oudejaarsdag is dat niet. Polen telt veertien wettelijke vrije dagen. Op zo'n dag zijn dealers en leasekantoren vaak dicht, ook als er geen rijverbod geldt, dus een overdracht rond de feestdagen plant u beter vroeg dan laat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke uitrusting moet in een Pools ingeschreven personenwagen zitten?",
+          "a": "Twee zaken: een brandblusser en een gevarendriehoek. Een fluohesje en een verbanddoos zijn in Polen niet verplicht. Ontbrekende verplichte uitrusting kan een boete of een afgekeurde keuring opleveren, dus check dit bij een pool die u uit het buitenland overdraagt."
+        },
+        {
+          "q": "Zijn winterbanden verplicht voor wagens die in de winter in Polen aankomen?",
+          "a": "Nee, er is geen wettelijke seizoensverplichting en het ontbreken ervan is op zich geen reden voor een boete. De banden moeten wel in orde zijn: minstens 1,6 mm profiel en geen zichtbare schade. Wie zijn wagens veilig wil laten aanrijden, laat ze toch best van winterbanden voorzien."
+        },
+        {
+          "q": "Wie dient de inschrijving van een bedrijfswagen in Polen in?",
+          "a": "Iemand die het bedrijf mag vertegenwoordigen: de eigenaar of een gevolmachtigde. Regel dat dus vóór de levering. Bij de eerste inschrijving van een personenwagen komt bovendien Poolse accijns kijken, ook voor een leasewagen uit het buitenland."
+        }
+      ],
+      "seoDescription": "Fleet en wagenpark vervoeren in Polen: leasemarkt, e-TOLL, rijverboden en milieuzones in Krakau. Wat u vooraf moet weten.",
+      "sources": [
+        "https://polandinsight.com/polands-leasing-market-hits-record-pln-119-5bn-in-2025-as-ev-financing-gains-momentum-31181/",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://en.wikipedia.org/wiki/Expressway_S8_(Poland)",
+        "https://en.wikipedia.org/wiki/Via_Baltica",
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://en.wikipedia.org/wiki/Korczowa",
+        "https://www.infakt.pl/blog/wymiar-czasu-pracy-2026-r-pelna-lista-swiat-i-tabele/",
+        "https://www.auto-swiat.pl/porady/obowiazkowe-wyposazenie-samochodu-w-2026-roku-w-polsce-kluczowe-sa-dwie-rzeczy/mhvw7nh",
+        "https://www.warta.pl/porada/aktualne-przepisy-dotyczace-opon-zimowych-jakie-sa-wymogi-i-kiedy-nalezy-je-stosowac/",
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://www.podatnik.info/publikacje/podatek-akcyzowy-od-samochodu-kto-i-kiedy-musi-go-zaplacic,637972"
+      ]
+    },
+    "polen-belgie": {
+      "lead": "Een Belgische leasemaatschappij wil een reeks wagens uit Polen terug naar Vlaanderen of Wallonië, of een Belgisch wagenpark krijgt nieuwe bedrijfswagens uit een Poolse fabriek. De rit volgt grotendeels de E40: in Polen als A4 vanaf Zgorzelec, dan door Duitsland tot Aken en Luik. Onderweg wisselen tol, rijverboden en grenscontroles per land, en in België gelden eigen regels voor wie een voertuig wil inschrijven.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "E40: Poolse A4 via Wrocław, dan Duitsland tot Aken en Luik"
+        },
+        {
+          "label": "Poolse tol",
+          "value": "A4 tussen Karwiany en Żernica is een tolsectie"
+        },
+        {
+          "label": "Grenscontroles",
+          "value": "Tijdelijke controles aan de Duitse grens kunnen vrachtwagens meer dan een uur ophouden"
+        },
+        {
+          "label": "Inschrijving België",
+          "value": "Onderneming heeft KBO-nummer en een vaste Belgische vestiging nodig"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De E40 van Zgorzelec tot Luik",
+          "body": [
+            "De Europese weg E40 loopt van de Franse grens bij Adinkerke langs Brugge, Gent, Brussel, Leuven en Luik naar Lichtenbusch, door Duitsland tot Görlitz en in Polen als A4 van Zgorzelec over Legnica, Wrocław, Katowice en Kraków tot Korczowa. Wie een wagenpark vanuit Zuid-Polen naar België brengt, rijdt die weg dus in omgekeerde richting: eerst de Poolse A4, dan Dresden, Chemnitz, Erfurt en Eisenach, daarna Keulen en Aken.",
+            "Dat is één lange as, zonder keuze tussen verschillende grensovergangen. Het voordeel voor een partij leasewagens is dat de route voorspelbaar is. Het nadeel is dat een storing of een lange wachtrij aan de grens bij Görlitz meteen de hele rit raakt."
+          ]
+        },
+        {
+          "heading": "Vertrek in Neder-Silezië",
+          "body": [
+            "Het stuk van de Poolse A4 tussen Karwiany bij Wrocław en Żernica ten oosten van Gliwice is een tolsectie; de ring van Gliwice zelf is tolvrij. Wie vanuit Wrocław vertrekt, komt daar dus niet mee in aanraking. Wie uit Silezië komt, wel.",
+            "Rond Wrocław zitten leasewagens van bedrijven in de regio. In Jawor, ongeveer 70 kilometer ten westen van de stad, in de speciale economische zone van Wałbrzych, heeft Mercedes-Benz een motorenfabriek en een batterijfabriek. Voor een Belgische wagenparkbeheerder die bedrijfswagens van die streek wil laten overbrengen, is Wrocław een logisch verzamelpunt. Spreek het ophaaladres vooraf af, want veel bedrijven laten een transporter alleen binnen op afspraak."
+          ]
+        },
+        {
+          "heading": "Tol, rijverboden en grenscontroles onderweg",
+          "body": [
+            "In de zomer mag een vrachtwagen boven 12 ton in Polen niet rijden op vrijdag van 18 tot 22 uur, op zaterdag van 8 tot 14 uur en op zondag van 8 tot 22 uur. Duitsland kent een zondagverbod van 0 tot 22 uur boven 7,5 ton. Wie op vrijdagnamiddag vertrekt, staat dus al snel voor een stilstand. Voor de Duitse tol gebruikt een vervoerder Toll Collect; een Belgisch Satellic-toestel werkt er niet.",
+            "Polen voert tijdelijke controles uit aan de Duitse grens, onder meer bij Świecko, Olszyna en Kołbaskowo, en vervoerders melden wachttijden van meer dan een uur. Ook Duitsland controleert, en er zijn berichten over kilometerlange files op de A4 richting Zgorzelec. De einddata van die controles wisselen, dus kijk de actuele stand na voor u een ophaaldag vastlegt. Het e-TOLL-net is bovendien uitgebreid met vooral verlengingen van bestaande tolwegen."
+          ]
+        },
+        {
+          "heading": "Aankomst in Luik en Limburg",
+          "body": [
+            "De E40 gaat bij Lichtenbusch België binnen en loopt als A3 over 134 kilometer naar Brussel. Het stuk tussen Luik en de Duitse grens is het oudste deel; het werd samen met de E313 aangelegd als Koning Boudewijnsnelweg. Door het Land van Herve heeft de weg twee rijstroken per richting.",
+            "Wie in Limburg moet zijn, volgt de E313 via Tongeren, Hasselt en Lummen langs het Albertkanaal. Genk-Zuid, aan het kanaal en de E314, is het grootste bedrijventerrein van Limburg, en de voormalige Ford-site van ongeveer 140 hectare herbergt intussen nieuwe bedrijven. Mcars rijdt in België dagelijks en haalt einde-leasewagens op in onder meer Tongeren en Genk. Vanuit Polen aangevoerde wagens kunnen daar dus aansluiten op een bestaande Belgische ronde."
+          ]
+        },
+        {
+          "heading": "Een voertuig inschrijven als onderneming",
+          "body": [
+            "Een onderneming kan in België alleen een voertuig inschrijven als ze in de Kruispuntbank van Ondernemingen staat en een vaste vestiging in België heeft waar het voertuig wordt beheerd of gebruikt. Een Pools bedrijf zonder Belgische vestiging komt dus niet zomaar tot een gewone Belgische plaat.",
+            "Wie een lichte bestelwagen uit Polen invoert, let ook op de kilometerheffing. Lichte vrachtwagens van categorie N1 met koetswerkcode BC vallen eronder, ook al wegen ze niet meer dan 3,5 ton. De Vlaamse Belastingdienst int daarnaast de jaarlijkse verkeersbelasting en de belasting op de inverkeerstelling. Dat is het gebied van de klant of zijn boekhouder; Mcars vervoert de wagens en regelt de inschrijving niet."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Wrocław Airport",
+          "body": "Wrocław Airport ligt ongeveer 10 kilometer ten westen van het centrum, met verbindingen van onder meer LOT, Lufthansa, KLM, SAS, Swiss, Ryanair en Wizz Air. Dat is handig voor een wagenparkbeheerder of chauffeur die de overdracht zelf wil begeleiden en nadien terugvliegt terwijl de wagens over de weg komen."
+        },
+        {
+          "kind": "plek",
+          "title": "Zeebrugge",
+          "body": "De haven van Zeebrugge wordt omschreven als de belangrijkste haven ter wereld voor in- en uitvoer van nieuwe wagens. Wie nieuwe bedrijfswagens uit Polen krijgt die daarna naar de Belgische kust moeten, rijdt via de N31 vanaf Brugge naar het havengebied, een expresweg waar vrachtwagens grotendeels 70 km/u rijden."
+        },
+        {
+          "kind": "regel",
+          "title": "Keuring van bedrijfswagens in Vlaanderen",
+          "body": "Een personenwagen gaat in Vlaanderen voor het eerst naar de keuring wanneer hij vier jaar oud is; daarna schakelt de periodieke keuring over van jaarlijks naar om de twee jaar. Voor bestelwagens en lichte vrachtwagens gebeurt die overgang gespreid. De houder moet zelf de vervaldatum opvolgen; de herinneringskaart is slechts een extra dienst."
+        },
+        {
+          "kind": "regel",
+          "title": "Car-Pass bij tweedehands bestelwagens",
+          "body": "De Car-Pass-plicht geldt niet alleen voor personenwagens, maar ook voor lichte bestelwagens die tweedehands worden verkocht. Een leasemaatschappij die einde-contractwagens uit Polen doorverkoopt in België, moet dus ook voor de bestelwagens een kilometerattest kunnen voorleggen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een Pools bedrijf een tijdelijke Belgische plaat krijgen voor een opdracht?",
+          "a": "Ja, onder voorwaarden. Een niet-EU-werknemer die voor een buitenlandse firma een opdracht in België uitvoert, kan voor de duur van die opdracht een tijdelijke W-plaat krijgen. Ook EU-maatschappijen kunnen er een aanvragen, met een officieel attest van hun vestiging in het buitenland."
+        },
+        {
+          "q": "Heeft mijn vervoerder een apart toestel nodig voor de Duitse tol?",
+          "a": "De Duitse vrachtwagentol loopt via Toll Collect, een systeem met satellietplaatsbepaling en boordtoestel. Een Belgisch Satellic-toestel werkt daar niet. Dat is de zaak van de vervoerder, maar het verklaart waarom een Belgisch voertuig niet zonder meer in Duitsland kan tollen."
+        },
+        {
+          "q": "Hoe lang moet de vrachtbrief bewaard worden?",
+          "a": "De vervoerder moet zijn exemplaar van de vrachtbrief minstens vijf jaar chronologisch bewaren; het btw-wetboek maakt er zeven jaar van. Digitaal bewaren mag, zolang inzage en een volledige afdruk mogelijk blijven. Bewaar uw eigen exemplaar bij uw wagenparkdossier."
+        }
+      ],
+      "seoDescription": "Fleet en wagenpark van Polen naar België vervoeren: E40, tol, rijverboden, grenscontroles en Belgische inschrijving voor bedrijven.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://aa.com.tr/en/europe/poland-extends-border-controls-with-germany-and-lithuania-until-october/3884308",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://www.etoll.gov.pl/en/news/changes-to-the-e-toll-as-of-1-february-2026",
+        "https://www.autocentrum.pl/newsy/mercedes-benz-wybuduje-druga-fabryke-w-polsce-takze-w-jaworze/",
+        "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Airport",
+        "https://nl.wikipedia.org/wiki/A3_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A13_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Genk",
+        "https://nl.wikipedia.org/wiki/Ford_Genk",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/verhuizen-met-uw-voertuig/verhuizen-naar-belgie-met-uw-voertuig",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/tijdelijke-inschrijving-w-plaat",
+        "https://www.viapass.be/nl/voor-wie/",
+        "https://www.vlaanderen.be/verkeersbelastingen",
+        "https://nl.wikipedia.org/wiki/Haven_van_Brugge-Zeebrugge",
+        "https://nl.wikipedia.org/wiki/N31_%28Belgi%C3%AB%29",
+        "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/wanneer-naar-de-technische-keuring",
+        "https://www.car-pass.be/nl/faq",
+        "https://mobilit.belgium.be/nl/weg/transport/vrachtbrief/opmaak-gebruik-en-bewaarplicht"
+      ]
+    },
+    "polen-nederland": {
+      "lead": "Een Nederlandse leasemaatschappij of dealer wil een reeks wagens uit Polen naar Nederland brengen, of laat nieuwe bedrijfswagens van een Poolse fabriek aanrijden. De rit loopt over de Poolse A2 naar Świecko en dan door Duitsland, vaak via de A12 en Hannover. Dat zijn drie landen met drie rijverbodenregelingen, en in Nederland wachten bpm, RDW en soms een zero-emissiezone.",
+      "facts": [
+        {
+          "label": "Poolse A2",
+          "value": "Tol op grote delen tussen Świecko en Konin"
+        },
+        {
+          "label": "Duitsland",
+          "value": "Zondagverbod van 0 tot 22 uur boven 7,5 ton"
+        },
+        {
+          "label": "Nederland",
+          "value": "Geen algemeen weekend- of feestdagenverbod voor vrachtverkeer"
+        },
+        {
+          "label": "Kentekenbewijs",
+          "value": "Na RDW-keuring en bpm-aangifte binnen 5 werkdagen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Groot-Polen: de bedrijfswagenfabrieken",
+          "body": [
+            "Volkswagen Poznań heeft twee fabrieken voor bedrijfswagens. In Poznań-Antoninek wordt de Caddy gebouwd, in Września, ongeveer 50 kilometer ten oosten van Poznań, de Crafter en de MAN TGE. Volkswagen breidt de fabriek in Września uit voor de volgende generatie elektrische Crafter, met een nieuwe carrosseriehal en een batterijmagazijn.",
+            "Voor een Nederlandse leasemaatschappij of een wagenparkbeheerder met een groot aantal bestelwagens is dat een herkenbare vertrekplek: partijen van gelijkaardige wagens, vaak voor meerdere klanten tegelijk. Een open meerlaagse autotransporter met lier kan zulke reeksen laden, en wie het adres van de fabriek of van de dealer vooraf doorgeeft, vermijdt wachttijd bij het laden."
+          ]
+        },
+        {
+          "heading": "De A2 naar Świecko",
+          "body": [
+            "De Poolse A2 begint bij Świecko aan de Duitse grens, waar ze aansluit op de Duitse A12 richting Berlijn, en loopt als E30 via Poznań en Łódź naar Warschau. Technisch reikt de snelweg niet helemaal tot de grens: de laatste 3,9 kilometer is een tweebaansweg, en een opwaardering tot snelwegstandaard staat gepland.",
+            "Tolplichtig zijn Świecko tot Nowy Tomyśl, met uitzondering van het westelijkste stuk, en Nowy Tomyśl tot Konin, met uitzondering van de ring van Poznań. Tussen Konin en Stryków waren er tolposten, maar die zijn niet meer in gebruik. Hier ligt dus de tol voor de vervoerder, niet voor de wagens op de oplegger. Dat is alleen een kostenpost om op te nemen in de offerte."
+          ]
+        },
+        {
+          "heading": "Drie landen, drie regelingen voor vrachtverkeer",
+          "body": [
+            "Polen verbiedt vrachtwagens boven 12 ton op feestdagen te rijden van 8 tot 22 uur, soms ook de avond ervoor, en in de zomer op vrijdagavond, zaterdagochtend en zondag. Duitsland kent een zondagverbod van 0 tot 22 uur boven 7,5 ton, en in de zomer op bepaalde wegen ook zaterdagen van 7 tot 20 uur. Voor de tol geldt in Duitsland Toll Collect boven 3,5 ton.",
+            "Nederland heeft geen algemeen weekend- of feestdagenverbod voor vrachtverkeer. Voor een lease-partij betekent dat een duidelijke planningsregel: de Duitse zondag en de Poolse zomerweekends bepalen wanneer de rit mag beginnen en eindigen, niet Nederland. Wie een overdracht in Nederland op een maandagochtend wil, laat de wagens dus in de week ervoor in Polen laden."
+          ]
+        },
+        {
+          "heading": "Aankomst in Nederland: leaseland",
+          "body": [
+            "Nederland is een leasemarkt van formaat. Eind 2025 reden er meer dan 1,3 miljoen leasevoertuigen rond, personenauto's en bestelwagens samen, en de brancheorganisatie VNA zegt het grootste deel van de markt te vertegenwoordigen. Bijna de helft van de zakelijke personenleaseauto's is volledig elektrisch.",
+            "Veel ex-lease- en inruilwagens komen terecht bij BCA in Barneveld, in het veilingcentrum op bedrijventerrein Harselaar, in Utrecht en Gelderland. Importeur NIMAG, verbonden aan Louwman en bekend van Suzuki, zit in Vianen. Wie vanuit Polen rijdt, komt in deze regio het eerst binnen via de Duitse A12 en de overgang bij Zevenaar en Bergh. Een dealer of leasemaatschappij in dat gebied kan de wagens dus direct ontvangen."
+          ]
+        },
+        {
+          "heading": "Een Pools gekentekende wagen op de Nederlandse weg",
+          "body": [
+            "Wie in Polen ingeschreven wagens definitief in Nederland wil gebruiken, laat ze keuren bij de RDW met het Poolse kentekenbewijs, eventueel met een certificaat van overeenstemming. Daarna volgt de bpm-aangifte en kan het Nederlandse kentekenbewijs binnen vijf werkdagen volgen. Een eendagskenteken geldt alleen op de dag van de afspraak.",
+            "Bestelauto's zonder CO2-uitstoot betalen geen bpm, net als bestelauto's die uiterlijk eind 2024 voor het eerst werden toegelaten en ouder zijn dan vijf jaar. Aangifte doen blijft wel nodig. Emissievrije bestel- en vrachtauto's tot 4.250 kg zijn bovendien automatisch vrijgesteld van de vrachtwagenheffing. Het administratieve deel regelt de klant zelf, of via een importeur of kentekenspecialist."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Massale tenaamstelling bij de RDW",
+          "body": "Een wagenpark van 50 of meer voertuigen kan bij de RDW in één keer worden overgeschreven naar een andere rechtspersoon. Voor leasevoertuigen met een verstrekkingsvoorbehoud geldt een aparte overeenkomst. Dat is nuttig als een Poolse vennootschap haar hele Nederlandse pool aan een leasemaatschappij overdraagt."
+        },
+        {
+          "kind": "plek",
+          "title": "Eemshaven en Koopman Logistics",
+          "body": "De Eemshaven in Groningen is de grootste zeehaven van Noord-Nederland, bereikbaar via de N33 of de N46. Koopman Logistics, een familiebedrijf uit Leek, doet autotransport, stalling en afleverklaar maken. Wie Poolse wagens via Osnabrück noordwaarts brengt, kan hier terecht voor stalling en een korte overdracht."
+        },
+        {
+          "kind": "plek",
+          "title": "Luchthaven Poznań-Ławica",
+          "body": "De luchthaven Poznań-Ławica ligt op 5 kilometer ten westen van het stadscentrum. Ryanair, Wizz Air, LOT, Lufthansa en KLM vliegen er. Wie het wagenpark zelf naar Nederland begeleidt of de overdracht in Polen bijwoont, kan terugvliegen terwijl de wagens over de weg komen."
+        },
+        {
+          "kind": "regel",
+          "title": "APK-ritme voor leaseauto's",
+          "body": "Voor leaseauto's geldt in Nederland een vast APK-ritme: een auto op benzine of elektriciteit moet voor het eerst gekeurd worden na vier jaar, een diesel na drie jaar, en daarna elk jaar. Dat bepaalt hoe vers een uit Polen ingevoerde wagen is voor de planning van de eerste keuring."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een wagen met Pools kenteken tijdelijk in Nederland rijden zonder bpm?",
+          "a": "Voor kortstondig gebruik bestaat een vrijstelling van bpm en motorrijtuigenbelasting. Die moet u vóór de eerste rit in Nederland aanvragen en ze geldt maximaal twee weken. Ook is een werknemersvrijstelling mogelijk als de werkgever schriftelijk verklaart dat de auto hoofdzakelijk buiten Nederland wordt gebruikt."
+        },
+        {
+          "q": "Mag een bestelwagen op Nederlandse zero-emissiezones?",
+          "a": "Bestelauto's met emissieklasse 5 en 6 mogen de zero-emissiezones nog tijdelijk in, elk met een eigen overgangsperiode die verschuift. Bij twijfel kijkt u de actuele stand na op de site van de overheid. Een ontheffing vraagt de eigenaar aan bij de RDW; dat is de enige officiële site."
+        },
+        {
+          "q": "Kan een Pools bedrijf een vrijstelling krijgen voor een auto met buitenlands kenteken?",
+          "a": "Ja. Ook voor een auto van een buitenlandse onderneming bestaat een vrijstelling van bpm en motorrijtuigenbelasting. Die moet eveneens bij de Belastingdienst worden aangevraagd. Doe dat vóór de eerste rit op Nederlandse wegen, zodat de wagens zonder discussie kunnen worden afgeleverd."
+        }
+      ],
+      "seoDescription": "Fleet en wagenpark van Polen naar Nederland vervoeren: A2 via Świecko, rijverboden, bpm en de Nederlandse leasemarkt.",
+      "sources": [
+        "https://www.auto-swiat.pl/wiadomosci/aktualnosci/volkswagen-rozbudowuje-fabryke-we-wrzesni-bedzie-produkowal-nowy-model/rc4lvyc",
+        "https://www.automotiveworld.com/news-releases/volkswagen-to-expand-wrzesnia-plant-for-next-generation-electric-crafter-production/",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://www.vna-lease.nl/",
+        "https://www.vna-lease.nl/feiten-en-cijfers-uitgelicht/duurzame-mobiliteit-in-cijfers",
+        "https://www.fleetnews.co.uk/news/2014/3/24/bca-expands-in-the-netherlands/49967/",
+        "https://nl.wikipedia.org/wiki/Louwman_Group",
+        "https://www.nederlandwereldwijd.nl/auto-importeren/stappenplan",
+        "https://www.rijksoverheid.nl/onderwerpen/auto/vraag-en-antwoord/hoe-kan-ik-een-auto-uit-het-buitenland-in-nederland-importeren-invoeren",
+        "https://www.belastingdienst.nl/wps/wcm/connect/nl/bpm/content/wanneer-geen-bpm-betalen",
+        "https://ondernemersplein.overheid.nl/heffing-voor-vrachtwagens-vanaf-3500-kg",
+        "https://www.rdw.nl/kopen-of-verkopen/veel-kentekenbewijzen-tegelijk-overschrijven",
+        "https://nl.wikipedia.org/wiki/Eemshaven",
+        "https://www.koopman.nl/",
+        "https://en.wikipedia.org/wiki/Pozna%C5%84%E2%80%93%C5%81awica_Airport",
+        "https://www.rdw.nl/apk/wanneer-en-hoe-vaak-apk-keuren",
+        "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/vrijstelling_bpm__vrijstelling_bpm_werknemer",
+        "https://www.nederlandwereldwijd.nl/auto-importeren/rijden-met-buitenlands-kenteken",
+        "https://www.opwegnaarzes.nl/bedrijven/buitenlandse-voertuigen",
+        "https://www.opwegnaarzes.nl/"
+      ]
+    },
+    "polen-luxemburg": {
+      "lead": "Een Luxemburgse leasemaatschappij of werkgever laat een reeks bedrijfswagens uit Polen komen, of wagens van een pool in Silezië moeten terug naar het Groothertogdom. De rit loopt door Duitsland: over de Poolse A4 naar Dresden en verder via Erfurt en Frankfurt naar Trier, of via Berlijn en de A2. Luxemburg heeft bovendien eigen regels over het privégebruik van bedrijfswagens, die ook uw bestuurders raken.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Poolse A4, Dresden, Erfurt, Frankfurt en Trier tot Wasserbillig"
+        },
+        {
+          "label": "Transitverbod",
+          "value": "Boven 7,5 ton van zaterdag 23.30 tot zondag 21.45 uur"
+        },
+        {
+          "label": "Voordeel in natura",
+          "value": "Privégebruik van een bedrijfswagen is belastbaar, ook voor grensarbeiders"
+        },
+        {
+          "label": "Keuring bestelwagen",
+          "value": "Bestelwagens gaan vanaf het begin elk jaar naar de technische keuring"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Opper-Silezië",
+          "body": [
+            "In Gliwice kruisen de A1 (noord-zuid) en de A4 (oost-west), met ook de nationale wegen 78 en 88 in de buurt. Na de jaren negentig verschoof de stad van staal en kolen naar auto- en machinebouw. Opel stopte er in 2021 met personenwagens; de fabriek werd Stellantis Gliwice, een vestiging voor grote bestelwagens van Peugeot, Citroën, Opel en Fiat.",
+            "Voor een Luxemburgse wagenparkbeheerder met bestelwagens in Silezië is dat een logische vertrekplek, evenals de luchthaven Katowice in Pyrzowice, ongeveer 30 kilometer ten noorden van Katowice. Mcars vervoert de wagens op open, meerlaagse transporters, meerdere per rit, en haalt ze op bij de fabriek, de dealer of het pooladres dat u opgeeft."
+          ]
+        },
+        {
+          "heading": "Van Zgorzelec naar Trier, of via Berlijn",
+          "body": [
+            "De Poolse A4 begint bij Jędrzychowice aan de Duitse grens, loopt via Wrocław en Katowice naar Kraków en is in concessie bij Stalexport Autostrada Małopolska; e-TOLL geldt er vanaf kort na de grens tot Katowice Murckowska. De Duitse A4, 583 kilometer, loopt van Aken via Keulen, Eisenach, Erfurt en Dresden naar Görlitz. Vanuit Luxemburg komt u via de A1, de Duitse A64 bij Trier en dan de A4 in Dresden uit.",
+            "Wie de noordelijke weg kiest, neemt de Duitse A12 naar Frankfurt (Oder), die sinds 2012 zonder onderbreking overgaat in de Poolse A2. Daar ligt een Oderbrug van 581 meter. Een concessiehouder, Autostrada Wielkopolska, heeft het westelijke deel; e-TOLL begint er bij Konin Wschód. Kies de as op basis van waar uw pool zit en welke stad het dichtst bij ligt."
+          ]
+        },
+        {
+          "heading": "Rijverboden in drie landen",
+          "body": [
+            "Duitsland verbiedt vrachtwagens boven 7,5 ton en vrachtwagens met aanhanger op zon- en feestdagen van 0 tot 22 uur. Van 1 juli tot 31 augustus komt daar een zaterdagverbod van 7 tot 20 uur op 32 trajecten bij. De Duitse vrachtwagentol geldt boven 3,5 ton op alle Bundesstraßen en vrijwel alle autosnelwegen, met een CO2-toeslag.",
+            "In Luxemburg zelf geldt een transitverbod richting Duitsland voor vrachtwagens boven 7,5 ton, van zaterdag 23.30 tot zondag 21.45 uur, ook vóór feestdagen. Polen verbiedt boven 12 ton op twaalf feestdagen van 8 tot 22 uur, en in de zomer op vrijdagavond, zaterdagochtend en zondag. Zware voertuigen registreren zich in e-TOLL met een account, een voertuig en een betaalmethode, en kiezen een goedgekeurd boordtoestel of de app e-TOLL PL."
+          ]
+        },
+        {
+          "heading": "Een bedrijfswagen in Luxemburg: het voordeel in natura",
+          "body": [
+            "Het privégebruik van een bedrijfswagen, woon-werkverkeer inbegrepen, is in Luxemburg een belastbaar voordeel waarop sociale bijdragen verschuldigd zijn. Dat geldt ook voor niet-ingezeten werknemers, dus voor grensarbeiders. Bij de forfaitaire methode is het voordeel een maandelijks percentage van de nieuwwaarde, dat sinds 2017 afhangt van de CO2-uitstoot en het motortype.",
+            "Elektrische wagens krijgen het laagste percentage, en bij een volledig elektrische wagen speelt ook het verbruik per 100 kilometer en het vermogen mee. Een zuinige elektrische wagen wordt lager gewaardeerd dan een zware. Er geldt een overgangsregeling voor wagens ingeschreven sinds 2022 en 2023, en voor leasecontracten tot eind 2024, dus de regels verschillen naargelang datum van contract en inschrijving."
+          ]
+        },
+        {
+          "heading": "Rittenboek, eigen bijdrage en overname",
+          "body": [
+            "Een alternatief voor de forfait is de rittenboekmethode: de werknemer noteert de beroepskilometers en het voordeel wordt berekend op de privékilometers tegen de kostprijs per kilometer. Een vaste eigen bijdrage in de lease- of huurkosten wordt van het voordeel afgetrokken, tot 20 procent van wat de werkgever draagt; variabele bijdragen zoals brandstof en onderhoud tellen niet mee.",
+            "Koopt de werknemer de leasewagen aan het einde over onder de marktwaarde, dan is het verschil een belastbaar voordeel. Dat is relevant voor wagens die niet naar remarketing gaan maar naar de bestuurder. Wie in Luxemburg woont en een bedrijfswagen gebruikt van een onderneming met zetel in een ander EER-land, hoeft die in Luxemburg niet in te schrijven als hij geldig in het land van de zetel staat ingeschreven."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Dépôt-en-bloc bij de SNCA",
+          "body": "Voor grotere volumes voorziet de Luxemburgse SNCA bij het dépôt-en-bloc een apart attest voor leasing of terbeschikkingstelling. Daardoor kunnen inschrijvingen op naam van leasemaatschappijen gebundeld worden ingediend. Heeft u dus een reeks wagens uit Polen te regelen, vraag dan vooraf welke documenten het attest vraagt."
+        },
+        {
+          "kind": "plek",
+          "title": "Wasserbillig en de A1",
+          "body": "De A1 loopt over 36,2 kilometer van de Croix de Gasperich naar de Duitse grens bij Wasserbillig en gaat daar over in de A64 richting Trier. De rustplaats ligt vlak voor de grens, na de afritten Potaschberg en Mertert. Voor wagens uit Polen is dit vaak het laatste stuk, een logische plek voor een overdracht."
+        },
+        {
+          "kind": "plek",
+          "title": "Leudelange",
+          "body": "Leudelange ligt aan de A4 tussen de hoofdstad en Esch. Er zitten de hoofdzetels van de verzekeraars LALUX en Foyer en van transportbedrijf Arthur Welter. Dat maakt de gemeente een plek met veel bedrijfswagens en dus een geschikte afleveradres voor een wagenpark."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone in Katowice",
+          "body": "Katowice heeft nog geen milieuzone, maar kreeg de formele verplichting er een in te voeren wegens te veel stikstofdioxide. De stad betwist de meetgegevens en werkt aan een ontwerp. Wie wagens in Silezië ophaalt, kijkt best de stand na, want de toegangsregels kunnen veranderen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn Belgische bestuurder een Luxemburgse bedrijfswagen privé gebruiken?",
+          "a": "Een inwoner van België moet zijn voertuig normaal in België inschrijven. Dat hoeft niet voor een in Luxemburg ingeschreven wagen die hij beroepsmatig en bijkomstig privé gebruikt, ter beschikking gesteld door een Luxemburgse werkgever met wie hij een arbeidscontract heeft. Houd het contract bij de hand en kijk de actuele stand na."
+        },
+        {
+          "q": "Moet een bestelwagen in Luxemburg elk jaar naar de keuring?",
+          "a": "Ja, bestelwagens moeten vanaf het begin elk jaar naar de technische keuring. Personenwagens gaan pas na vier en na zes jaar. Voor een leasewagen uit Polen die u als bestelwagen inzet, valt de eerste keuring dus eerder dan bij een personenwagen."
+        },
+        {
+          "q": "Is er steun voor laadpalen voor leasemaatschappijen?",
+          "a": "In de regeling voor 2026 staat de steun voor private laadpalen ook open voor rechtspersonen zonder economische activiteit, waaronder leasinggevers. Daarnaast bestaat er een premie voor de aankoop van een elektrisch of hybride voertuig. Kijk de actuele voorwaarden na op de site van de overheid."
+        }
+      ],
+      "seoDescription": "Fleet en wagenpark van Polen naar Luxemburg vervoeren: route via Duitsland, rijverboden in drie landen en de Luxemburgse regels voor bedrijfswagens.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gliwice",
+        "https://automotivesuppliers.pl/en/poland/stellantis-opens-a-new-chapter-in-its-gliwice-location-with-a-production-of-large-lcv-vans",
+        "https://en.wikipedia.org/wiki/Katowice_International_Airport",
+        "https://pl.wikipedia.org/wiki/Autostrada_A4_(Polska)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://pl.wikipedia.org/wiki/Autostrada_A2_(Polska)",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/germany",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=PL",
+        "https://www.etoll.gov.pl/en/",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/voiture-societe-salarie/leasing.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/voiture-societe-salarie/taxe-circulation-belgique.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/vehicule-demenagement-transfrontalier.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/controle-technique-obligatoire-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/aides-financieres.html",
+        "https://snca.public.lu/fr/professionnels/professionnels-automobile/depot-en-bloc.html",
+        "https://en.wikipedia.org/wiki/List_of_motorways_in_Luxembourg",
+        "https://fr.wikipedia.org/wiki/Autoroute_A1_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Leudelange",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422"
+      ]
+    },
+    "polen-frankrijk": {
+      "lead": "Polen en Frankrijk delen geen grens. Een rit voor een Franse leasemaatschappij of verhuurder loopt altijd door Duitsland: via Świecko en Berlijn, of via Dresden en de Duitse A4 naar Metz of Straatsburg. In Frankrijk weegt een bedrijfswagen fiscaal anders dan elders, en grote vloten moeten bij vernieuwing een deel elektrisch kiezen.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Via Duitsland naar de Franse A4 en de A320 bij Freyming-Merlebach"
+        },
+        {
+          "label": "Frans verbod",
+          "value": "Boven 7,5 ton van zaterdag 22 tot zondag 22 uur"
+        },
+        {
+          "label": "e-TOLL-tarief",
+          "value": "Hangt af van gewicht en euronorm van het voertuig"
+        },
+        {
+          "label": "Bedrijfstaksen",
+          "value": "Vennootschappen betalen jaarlijks twee taksen op personenwagens"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Het westen van Polen als vertrekpunt",
+          "body": [
+            "Słubice ligt aan de Oder, recht tegenover Frankfurt (Oder), met de A2 ten zuiden van de stad. De stad hoort bij de speciale economische zone Kostrzyn-Słubice. Een leasepartij die hier staat, heeft Duitsland letterlijk om de hoek. Verder noordwaarts loopt de S3, de noord-zuidas langs de westgrens, van Świnoujście via Szczecin, Gorzów Wielkopolski en Zielona Góra naar Legnica. Samen is dat ongeveer 470 kilometer.",
+            "Het stuk van de A2 tussen Świecko en Konin is een tolweg in beheer van de private maatschappij Autostrada Wielkopolska. Vanaf Konin oostwaarts beheert de staat, via GDDKiA, de weg. Wie een wagenpark vanuit Groot-Polen naar Frankrijk brengt, kiest vrijwel altijd voor de A2 naar Świecko."
+          ]
+        },
+        {
+          "heading": "Door Duitsland naar de Franse A4",
+          "body": [
+            "De Poolse A2 is tussen 2001 en 2012 gebouwd en begint bij Świecko, waar ze op ongeveer 4 kilometer van de grens aansluit op de Duitse A12 naar Berlijn. Vanuit Berlijn loopt u zuidwestwaarts naar de Duitse A4, die 583 kilometer meet van Aken via Erfurt en Eisenach naar Dresden en Görlitz. Wie via Dresden komt, rijdt de A4 in tegenovergestelde richting uit.",
+            "De Franse A4 verbindt Parijs en Straatsburg over 482 kilometer via Reims en Metz. De aftakking A320 bij Freyming-Merlebach is de gebruikelijke weg naar Duitsland. Voor de Duitse vrachtwagentol geldt sinds juli 2024 een CO2-component voor voertuigen boven 3,5 ton op bijna alle autosnelwegen en alle Bundesstraßen; emissievrije voertuigen zijn vrijgesteld. Het Duitse rijverbod geldt op zon- en feestdagen van 0 tot 22 uur boven 7,5 ton, en in juli en augustus ook op zaterdag van 7 tot 20 uur op bepaalde wegen."
+          ]
+        },
+        {
+          "heading": "e-TOLL en het Franse weekend",
+          "body": [
+            "De Poolse e-TOLL ging in 2021 van start en verving viaTOLL. Het systeem rekent met gewicht en euronorm, zodat een oudere, zwaardere combinatie meer betaalt dan een recente. Polen zelf kent geen vast weekendverbod voor vrachtwagens; alleen in de zomer van 2009 gold een weekendverbod.",
+            "Frankrijk is strenger. Daar mogen vrachtwagens boven 7,5 ton niet rijden van zaterdag 22 uur tot zondag 22 uur en op feestdagen, met extra zomerzaterdagen. Wie Frankrijk binnenkomt, zit dus in een andere logica dan in Polen: het weekend begint zaterdagavond en eindigt zondagavond. Leg de aflevering in Frankrijk daarom op een weekdag, dan weet u zeker dat de ontvanger er ook is."
+          ]
+        },
+        {
+          "heading": "Aankomst in Grand Est",
+          "body": [
+            "Grand Est is de Franse regio die naar Polen kijkt: ze grenst aan Luxemburg, Duitsland en Zwitserland. De Stellantis-fabriek van Mulhouse, in Sausheim en Rixheim, bouwt de Peugeot 308, 408 en 508 en de DS 7. Alcopa Auction heeft een veilingzaal in Nancy, en de EuroAirport Basel-Mulhouse-Freiburg ligt volledig op Frans grondgebied, 3,5 kilometer van Bazel.",
+            "In Lotharingen ziet u ook wagens met Luxemburgse leaseplaten bij Franse inwoners: ongeveer de helft van de grensarbeiders in Luxemburg kwam uit Frankrijk. Voor een wagenpark dat vanuit Polen komt, is dat een bekende grensregio voor aflevering. Mcars rijdt wekelijks over heel Frankrijk, dus een wagen die bij een stockagepark in Grand Est moet zijn, past in een bestaande ronde."
+          ]
+        },
+        {
+          "heading": "Twee taksen voor bedrijfswagens",
+          "body": [
+            "Vennootschappen betalen in Frankrijk jaarlijks twee taksen op personenwagens die ze voor hun activiteit gebruiken: één op de CO2-uitstoot en één op de uitstoot van luchtverontreinigende stoffen. Eenmanszaken zijn vrijgesteld. Voertuigen die uitsluitend op elektriciteit of waterstof rijden, ook.",
+            "Een wagen geldt als gehouden door de onderneming bij huur van lange duur of bij leasing met aankoopoptie. Kortetermijnhuur van hoogstens een maand is vrijgesteld. Ook een wagen die niet in Frankrijk is ingeschreven, kan belastbaar zijn als hij er voor de activiteit van een onderneming gebruikt wordt, voor de periode dat hij er effectief is. Het CO2-tarief stijgt nog, en ook lichte bedrijfsvoertuigen met meerdere zitrijen, zoals pick-ups met minstens vijf zitplaatsen, vallen eronder."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Ayvens en Arval in Rueil-Malmaison",
+          "body": "Ayvens, in 2024 ontstaan uit de overname van LeasePlan door ALD Automotive, en Arval, de leasemaatschappij van BNP Paribas, hebben allebei hun zetel in Rueil-Malmaison. Ayvens verkoopt wagens aan het einde van hun contract door, onder meer via Ayvens Carmarket. Wie een partij ex-leasewagens wil herverdelen, krijgt hier de opdrachtgevers."
+        },
+        {
+          "kind": "plek",
+          "title": "Haven van Le Havre",
+          "body": "Le Havre maakt sinds juni 2021 deel uit van HAROPA PORT, samen met Rouen en Parijs. Naast containers en olie zijn ro-ro-voertuigen er een van de grote goederenstromen. Voor nieuwe wagens die per schip aankomen en verder naar het binnenland moeten, is dit het punt waar een autotransporter ze oppikt."
+        },
+        {
+          "kind": "regel",
+          "title": "Bedrijfswagen over de grens",
+          "body": "Een grensarbeider mag een bedrijfswagen die ingeschreven is in het land waar hij werkt, ook gebruiken in het land waar hij woont, zonder hem daar in te schrijven. Wie daarentegen met zijn eigen wagen over de grens pendelt, schrijft die in in het land waar hij woont."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke bedrijven moeten bij vernieuwing een deel elektrische wagens nemen?",
+          "a": "De Loi d'orientation des mobilités verplicht bedrijven met meer dan 100 lichte voertuigen om bij vernieuwing een minimumaandeel elektrische en plug-in hybride wagens te kiezen, dat in stappen stijgt. Meer dan 3.700 bedrijven vallen onder die quota."
+        },
+        {
+          "q": "Betaalt mijn Poolse leasewagen taks als hij maar kort in Frankrijk rijdt?",
+          "a": "Kortetermijnhuur van hoogstens een maand of 30 opeenvolgende dagen is vrijgesteld. Een wagen die niet in Frankrijk is ingeschreven, kan wel belastbaar zijn voor de periode dat hij er effectief voor de activiteit van een onderneming wordt gebruikt."
+        },
+        {
+          "q": "Wanneer rijdt een transporter niet in Frankrijk?",
+          "a": "Vrachtwagens boven 7,5 ton mogen niet rijden van zaterdag 22 uur tot zondag 22 uur en op feestdagen, met extra zomerzaterdagen. Reken dus met een aankomst op vrijdag of maandag, en laat de ontvanger weten dat de transporter op een weekdag komt."
+        }
+      ],
+      "seoDescription": "Fleet en wagenpark van Polen naar Frankrijk vervoeren: route door Duitsland, rijverboden, Franse bedrijfswagentaksen en de regio Grand Est.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C5%82ubice",
+        "https://en.wikipedia.org/wiki/Expressway_S3_(Poland)",
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://etoll.mf.gov.pl/en/e-toll-system/about-system",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://fr.wikipedia.org/wiki/Usine_Stellantis_de_Mulhouse",
+        "https://www.alcopa-auction.fr/",
+        "https://fr.wikipedia.org/wiki/A%C3%A9roport_de_B%C3%A2le-Mulhouse-Fribourg",
+        "https://fr.wikipedia.org/wiki/Travailleur_frontalier",
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F22203",
+        "https://fr.wikipedia.org/wiki/Loi_d%27orientation_des_mobilit%C3%A9s",
+        "https://fr.wikipedia.org/wiki/Ayvens",
+        "https://fr.wikipedia.org/wiki/Arval",
+        "https://fr.wikipedia.org/wiki/Grand_port_maritime_du_Havre",
+        "https://europa.eu/youreurope/citizens/vehicles/registration/registration-abroad/index_fr.htm"
+      ]
+    },
+    "polen-duitsland": {
+      "lead": "Bijna elke Poolse wagenparkrit loopt door of naar Duitsland. Een partij leasewagens uit Szczecin of Świnoujście rijdt naar Berlijn, Leipzig of verder, over de A12 en de Poolse A2, of zuidelijker over de A4 bij Zgorzelec. De grens zelf is de grootste planningsvraag. Daarna volgen tol, rijverboden en een Duitse bedrijfswagenfiscaliteit met eigen regels.",
+      "facts": [
+        {
+          "label": "A12",
+          "value": "58 km van Berlijn naar Frankfurt (Oder), deel van de E30"
+        },
+        {
+          "label": "Grensfiles",
+          "value": "Controles zorgden voor files tot enkele kilometers op de A12"
+        },
+        {
+          "label": "Zuidelijke as",
+          "value": "Poolse A4: 151 km grens tot Wrocław, tolvrij zonder pechstrook"
+        },
+        {
+          "label": "Duitse maut",
+          "value": "Boven 3,5 ton, sinds juli 2024 met CO2-component"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in West-Pommeren",
+          "body": [
+            "De S3 begint in Świnoujście aan de Oostzee en loopt via Szczecin zuidwaarts naar Gorzów Wielkopolski, Zielona Góra en Legnica. Świnoujście heeft de grootste en modernste veerterminal van Polen, met regelmatige verbindingen naar Denemarken en Zweden; de maatschappij POLSCA Baltic Ferries heeft er haar hoofdkantoor.",
+            "De haven Szczecin-Świnoujście behandelt ro-ro-lading, en Szczecin is een belangrijke zeehaven aan de Oder met als luchthaven Szczecin-Goleniów. Wagens die per schip aankomen of voor een veerboot bestemd zijn, staan hier dus in partijen. Aan de Duitse grens ligt Kołbaskowo aan de A6, en Rosówek aan de DK13. Mcars vervoert op open, meerlaagse transporters, meerdere wagens per rit."
+          ]
+        },
+        {
+          "heading": "De grens bij Frankfurt (Oder)",
+          "body": [
+            "De Duitse A12 loopt 58 kilometer van de driehoek Spreeau bij Berlijn naar Frankfurt (Oder) en de Poolse grens, als deel van de E30. Aan Poolse kant gaat ze verder als DK2 en sluit ze aan op de A2 bij Świecko. De brug tussen Świecko en Frankfurt draagt vooral containertrucks en zwaar verkeer.",
+            "Sinds de herinvoering van controles is er geregeld een lange, trage vrachtwagenrij richting Duitsland geweest. In één zomer groeiden de files op de A12 tot ongeveer 7 kilometer. Duitsland doet steekproefcontroles, Polen voerde tijdelijke controles in, en voor de controlezone tussen Frankfurt (Oder) en Świecko wordt een extra rijstrook overwogen. Weet dat een ophaaldag aan de Poolse kant en een afleverdag in Duitsland dus kunnen schuiven."
+          ]
+        },
+        {
+          "heading": "De zuidelijke as, tol en verboden",
+          "body": [
+            "De Poolse A4 is 669 kilometer lang en loopt van Jędrzychowice, bij Zgorzelec en Görlitz, naar Wrocław, Katowice, Kraków en de Oekraïense grens. Het stuk van de grens tot Wrocław, 151 kilometer, is niet tolplichtig en heeft geen pechstrook. Valt er een voertuig stil, dan is er geen plek om opzij te gaan.",
+            "Aan Duitse kant sluit de weg aan op de A4 richting Dresden. Voor de Poolse tol registreren zware voertuigen zich met een goedgekeurd boordtoestel of de app e-TOLL PL. De Duitse maut geldt boven 3,5 ton, met CO2-component, en het Duitse rijverbod loopt op zon- en feestdagen van 0 tot 22 uur. Op de Poolse A2 is het grootste deel tot Konin tolplichtig, met tolpunten bij Tarnawa, Torzym en Jordanowo."
+          ]
+        },
+        {
+          "heading": "Aankomst in Brandenburg en Saksen",
+          "body": [
+            "BCA heeft een veilingcentrum Berlin-Ost in Hoppegarten, en Autobid.de een locatie in Berlijn. In Grünheide, vlak naast de A10 en met een eigen afrit Freienbrink, bouwt Tesla sinds 2022 de Model Y voor Europa. Rostock, de grootste Duitse Oostzeehaven, heeft veerlijnen naar Gedser, Trelleborg en Nynäshamn en een aansluiting op de A19.",
+            "In Leipzig bouwen Porsche en BMW. BCA houdt veilingen op een locatie in Wiedemar, enkel bemand op veilingdagen, en Autobid.de heeft een locatie in Halle-Leipzig. Voor een Poolse leasemaatschappij die ex-leasewagens naar Duitse remarketing brengt, zijn dat de adressen."
+          ]
+        },
+        {
+          "heading": "Duitse bedrijfswagenregels in het kort",
+          "body": [
+            "Het privégebruik van een Duitse bedrijfswagen wordt belast via de 1%-regeling: per maand telt 1% van de bruto-catalogusprijs bij eerste inschrijving als voordeel, met een toeslag voor de woon-werkafstand. Het alternatief is een sluitend Fahrtenbuch. Van de nieuwe personenwagens in Duitsland stond slechts een derde op naam van een particulier, dus de markt wordt gedragen door bedrijven.",
+            "Een buitenlands ingeschreven voertuig mag tot één jaar tijdelijk in Duitsland rijden. Bij de uitoefening van EU-vrijheden kan die termijn langer zijn, maar nooit langer dan drie jaar. Voor grote aanvragers bestaat een aparte koppeling voor internetinschrijving, de Großkundenschnittstelle."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Porsche en BMW in Leipzig",
+          "body": "Porsche bouwt in Leipzig, aan de A14, de Macan en de Panamera. Het klantencentrum heeft een circuit van 3,7 kilometer en een terreinbaan van 6 kilometer. De BMW-fabriek bij het beursterrein bouwt onder meer de 1-Reeks en de Mini Countryman. Wie nieuwe wagens uit Leipzig in Polen moet brengen, kan hier ophalen."
+        },
+        {
+          "kind": "plek",
+          "title": "Lausitzring bij Klettwitz",
+          "body": "De Lausitzring bij Klettwitz, aan afrit A13, is sinds 2017 van DEKRA, dat er een test- en ontwikkelcentrum uitbouwt. Er rijdt onder meer nog de DTM. Voor een wagenpark dat nieuwe elektrische bedrijfswagens wil laten testen of demonstreren, is dit een bereikbare plek langs de weg naar Polen."
+        },
+        {
+          "kind": "plek",
+          "title": "Emden en BLG Logistics",
+          "body": "Emden staat met zijn autoverlading derde in Europa, na Zeebrugge en Bremerhaven. BLG Logistics exploiteert de autoterminal van Bremerhaven en heeft een eigen vloot autotransporters en spoorwagons. Wie vanuit Polen een Duitse haven kiest voor een grote partij wagens, kijkt naar die terminals."
+        },
+        {
+          "kind": "tip",
+          "title": "Duitse leasewagen meenemen",
+          "body": "Een Duitse leasewagen meenemen bij een verhuizing naar het buitenland is vaak contractueel verboden. Omschrijven is bovendien lastig, omdat de Zulassungsbescheinigung Teil II meestal bij de leasemaatschappij blijft. Vraag dus vóór het vervoer na of de leasegever akkoord gaat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag een bedrijfswagen met Pools kenteken in Duitsland rijden?",
+          "a": "Tijdelijk tot één jaar. Bij uitoefening van EU-vrijheden zoals vrij verkeer van werknemers, vestiging of dienstverlening kan die termijn langer zijn, maar nooit langer dan drie jaar. De basis is paragraaf 46 lid 7 van de Fahrzeug-Zulassungsverordnung."
+        },
+        {
+          "q": "Is een elektrische bedrijfswagen in Duitsland vrijgesteld van Kfz-Steuer?",
+          "a": "Voor zuiver elektrische voertuigen geldt een tijdelijke vrijstelling, gevolgd door een halvering. Een wet heeft die vrijstelling verlengd. Hybrides vallen er niet onder, en een aanvraag is niet nodig. Kijk de actuele einddatum na."
+        },
+        {
+          "q": "Hoe wordt privégebruik van een Duitse bedrijfswagen belast?",
+          "a": "Via de 1%-regeling, waarbij per maand 1% van de bruto-catalogusprijs bij eerste inschrijving meetelt, met een toeslag van 0,03% per kilometer woon-werkafstand. Het alternatief is een sluitend Fahrtenbuch, een rittenboek waarin elke rit staat."
+        }
+      ],
+      "seoDescription": "Fleet en wagenpark van Polen naar Duitsland vervoeren: A12 en A4, grensfiles, Duitse maut en bedrijfswagenregels voor leaseklanten.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expressway_S3_(Poland)",
+        "https://en.wikipedia.org/wiki/%C5%9Awinouj%C5%9Bcie",
+        "https://en.wikipedia.org/wiki/Port_of_Szczecin-%C5%9Awinouj%C5%9Bcie",
+        "https://en.wikipedia.org/wiki/Szczecin",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://thestar.com.my/news/world/2024/09/18/feature-a-firsthand-view-of-german-polish-border-as-checks-reinstated",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://www.etoll.gov.pl/en/",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://de.wikipedia.org/wiki/BCA_Marketplace",
+        "https://de.wikipedia.org/wiki/Tesla_Gigafactory_Berlin-Brandenburg",
+        "https://de.wikipedia.org/wiki/Seehafen_Rostock",
+        "https://de.wikipedia.org/wiki/Porsche_Leipzig",
+        "https://de.wikipedia.org/wiki/BMW-Werk_Leipzig",
+        "https://de.wikipedia.org/wiki/Lausitzring",
+        "https://de.wikipedia.org/wiki/Emder_Hafen",
+        "https://de.wikipedia.org/wiki/BLG_Logistics_Group",
+        "https://de.wikipedia.org/wiki/Firmenwagen",
+        "https://www.buzer.de/s1.htm?a=46&g=FZV&dorg=1",
+        "https://www.buzer.de/s1.htm?g=FZV+2023&f=1",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/Steuerverguenstigungen/steuerverguenstigungen_node.html",
+        "https://www.kba.de/DE/Statistik/Fahrzeuge/Neuzulassungen/neuzulassungen_node.html",
+        "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1181 @@
+{
+  "service": "auto-importeren",
+  "origin": "spanje",
+  "pages": {
+    "spanje": {
+      "lead": "Wie in Spanje een wagen koopt of er een naartoe haalt, merkt snel dat de papieren de planning bepalen. Spanje vraagt eerst een ITV-keuring en een homologatiebewijs, de belasting bewijst u via de AEAT, en zolang de wagen niet is ingeschreven mag hij er niet rijden. Dat verklaart waarom zoveel wagens op een vrachtwagen worden geladen. Hieronder leest u wat Spanje vraagt en wat dat voor het vervoer betekent.",
+      "facts": [
+        {
+          "label": "Eerste stap",
+          "value": "ITV-keuring met buitenlands inschrijvingsbewijs en homologatiebewijs"
+        },
+        {
+          "label": "Groene platen",
+          "value": "Zestig dagen geldig voor wagens zonder definitieve Spaanse inschrijving"
+        },
+        {
+          "label": "Registratiebelasting",
+          "value": "Eenmalig, gekoppeld aan de CO2-uitstoot, bewezen met modelo 576"
+        },
+        {
+          "label": "Keuringsritme",
+          "value": "Vrijgesteld tot 4 jaar, dan tweejaarlijks, vanaf 10 jaar jaarlijks"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Eerst uitschrijven, dan de ITV",
+          "body": [
+            "Enkel de titularis van de wagen kan hem in Spanje laten inschrijven. De DGT vraagt bovendien dat het voertuig eerst in het land van herkomst voor export is uitgeschreven. Wie een wagen uit België naar Spanje wil halen, zorgt dus eerst dat het Belgische dossier klopt, nog voor er een transport wordt geboekt.",
+            "In Spanje is de eerste stop het ITV-station. Het controleert wagen en papieren en maakt de Spaanse ITV-fiche op. U brengt het inschrijvingsbewijs van het herkomstland mee en een homologatiebewijs. Dat laatste kan een Europees gelijkvormigheidsattest zijn (het CoC, op te vragen bij het merk), een ficha reducida van een ingenieur, of voor wagens van vóór 2002 een individuele homologatie die een ingenieur vooraf opmaakt."
+          ]
+        },
+        {
+          "heading": "Een geldige buitenlandse keuring telt mee",
+          "body": [
+            "Heeft de wagen al een geldig keuringsbewijs van een andere EU-lidstaat, dan erkent Spanje dat bij de inschrijving, op voorwaarde dat het geldig is volgens de Spaanse keuringsfrequenties. Dat ritme is eenvoudig: personenwagens zijn tot vier jaar vrijgesteld, tussen vier en tien jaar komen ze om de twee jaar aan de beurt, en vanaf tien jaar elk jaar.",
+            "Voor een koper betekent dat: kijk naar de leeftijd van de wagen vóór u de keuringsdatum op het attest geruststellend vindt. Een attest dat in België nog ruim geldig is, kan in Spanje al te oud zijn."
+          ],
+          "points": [
+            "Vraag de verkoper het volledige keuringsbewijs mee te geven.",
+            "Reken de leeftijd van de wagen na volgens het Spaanse ritme.",
+            "Een keuring in het herkomstland vervangt de Spaanse ITV niet altijd."
+          ]
+        },
+        {
+          "heading": "Belasting bewijzen en de juiste plaat krijgen",
+          "body": [
+            "De registratiebelasting (Impuesto de Matriculación) is eenmalig en hangt af van de CO2-uitstoot. Of u betaalde, vrijgesteld bent of niet onderworpen, tonen modelo 576, 06 of 05 van de AEAT aan. Baskenland en Navarra werken met hun eigen Hacienda Foral. Aanhangwagens vallen buiten deze belasting. Voor een nieuwe wagen uit een ander EU-land toont u de btw aan met modelo 309 of 300, of met een bewijs van btw-registratie.",
+            "Een wagen die nooit in Spanje ingeschreven was, krijgt een nieuwe plaat (matriculación). Was hij vroeger al Spaans, dan krijgt hij via rehabilitación zijn oude plaat terug. De platen koopt de eigenaar na de inschrijving bij een gespecialiseerde winkel, daarna volgt de verplichte verzekering."
+          ]
+        },
+        {
+          "heading": "Rijden voor de inschrijving: wat mag en wat niet",
+          "body": [
+            "Een wagen die in Spanje nog niet is ingeschreven, blijft best staan. Er is één uitzondering: tijdelijke platen uit het land van herkomst die nog geldig zijn, op voorwaarde dat de wagen verzekerd is. Daarnaast bestaan er groene tijdelijke platen die zestig dagen gelden voor wagens die nog niet definitief zijn ingeschreven, bijvoorbeeld omdat ze in het buitenland werden gekocht of nog een niet-Spaanse plaat dragen.",
+            "Dit is precies waar een open autotransporter van Mcars zijn nut heeft. De wagen rijdt niet op eigen wielen, dus de vraag welke plaat er vandaag op mag, hoeft voor het vervoer niet beantwoord te worden. De papieren blijven wel nodig, en die regelt de koper of zijn gevolmachtigde, niet de vervoerder."
+          ]
+        },
+        {
+          "heading": "Een wagen van buiten de EU",
+          "body": [
+            "Komt de wagen van buiten de EU, bijvoorbeeld uit Zwitserland, dan moet hij langs de Spaanse douane. Na betaling van rechten en belastingen krijgt u het invoercertificaat H1, dat u nodig hebt voor de inschrijving. Zelfs de DGT omschrijft deze procedure als complicada, en ze adviseert om eerst bij de AEAT na te vragen.",
+            "Daarbovenop moet het voertuig aan de geldende Europese homologatie voldoen. Haalt het emissieklasse VI niet (V voor gemengde of bedrijfsvoertuigen), of is er geen CoC, dan zijn aanpassingen en extra procedures nodig. Plan het transport dus pas wanneer duidelijk is dat de wagen Spanje echt in mag."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Milieuzones in Spaanse steden",
+          "body": "De klimaatwet verplicht gemeenten met meer dan 50.000 inwoners en de eilandgebieden tot een milieuzone. Ze werken met het milieulabel van de DGT. Een wagen met buitenlandse plaat kan dat label niet krijgen. Kijk dus vooraf of het afleveradres in zo'n zone ligt."
+        },
+        {
+          "kind": "regel",
+          "title": "De DGT-resolutie voor rijverboden",
+          "body": "Rijverboden voor vrachtverkeer staan elk jaar in een resolutie van de DGT. Ze geldt op de wegen waar de DGT toezicht houdt, Ceuta en Melilla zijn uitgezonderd. Controleer de actuele versie wanneer een ophaling op een zondag of feestdag valt."
+        },
+        {
+          "kind": "regel",
+          "title": "Negen nationale feestdagen",
+          "body": "In heel Spanje gelden negen wettelijke feestdagen, waaronder 1 januari, 6 januari, Goede Vrijdag, 1 mei, 12 oktober en 25 december. Elke regio en gemeente voegt er eigen dagen aan toe. Een ITV-station of verkoper kan dan dicht zijn, ook als het bij u een gewone dag is."
+        },
+        {
+          "kind": "plek",
+          "title": "Andorra: één toegelaten weg",
+          "body": "Tussen Spanje en Andorra bestaat maar één toegelaten wegverbinding: de N-145 door het Valira-dal, tussen La Seu d'Urgell en Sant Julià de Lòria, met een douanepost in La Farga de Moles. Een wagen uit Andorra komt dus altijd langs die ene post."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een wagen in Spanje laten inschrijven als ik hem in België nog niet heb uitgeschreven?",
+          "a": "De DGT vraagt dat het voertuig eerst in het land van herkomst voor export is uitgeschreven, en enkel de titularis kan de inschrijving aanvragen. Regel dus eerst het Belgische dossier en boek daarna pas het transport naar Spanje."
+        },
+        {
+          "q": "Welk document bewijst dat mijn wagen aan de Europese normen voldoet?",
+          "a": "Het Europese gelijkvormigheidsattest, het CoC, dat u bij het merk opvraagt. Zonder CoC aanvaardt de ITV een ficha reducida van een ingenieur, en voor wagens van vóór 2002 een individuele homologatie die vooraf wordt gemaakt."
+        },
+        {
+          "q": "Hoe lang mag een wagen met groene platen in Spanje rijden?",
+          "a": "Zestig dagen lang zijn de groene tijdelijke platen geldig voor wagens zonder definitieve inschrijving. Voor een nieuwe wagen met bestemming Canarische Eilanden, Ceuta of Melilla die in een andere provincie is gekocht, is dat tien dagen."
+        }
+      ],
+      "seoDescription": "Auto importeren vanuit of naar Spanje: ITV, CoC, registratiebelasting en groene platen, en wat dat betekent voor het autotransport met Mcars.",
+      "sources": [
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricula-temporal-placas-verdes/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/importar-un-vehiculo-de-fuera-de-la-ue/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/distintivo-ambiental/",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+        "https://www.garrigues.com/es_ES/noticia/publicado-boe-calendario-laboral-espana-2027",
+        "https://es.wikipedia.org/wiki/Frontera_entre_Andorra_y_Espa%C3%B1a"
+      ]
+    },
+    "spanje-belgie": {
+      "lead": "U kocht een wagen in het Baskenland of elders in Spanje en hij moet naar België. De rit loopt dan meestal via Irun en de Atlantische kant van Frankrijk, terwijl de papieren in twee landen lopen. De verkoper in Spanje moet alles meegeven wat u in België nodig hebt. Hier begint de Belgische inschrijving met een douanesignaal, de E705. Hieronder leest u wat waar speelt.",
+      "facts": [
+        {
+          "label": "Douanesignaal",
+          "value": "De E705 is gratis en wordt aangevraagd via MyMinfin of een douanehulpkantoor"
+        },
+        {
+          "label": "Formulier",
+          "value": "Het aanvraagformulier tot inschrijving blijft twee maanden geldig na de keuring"
+        },
+        {
+          "label": "Vertrekpunt",
+          "value": "Irun, via de AP-8 naar de Franse A63"
+        },
+        {
+          "label": "Frankrijk",
+          "value": "Vrachtwagens boven 7,5 ton rijden niet van zaterdag 22 uur tot zondag 22 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen rond Irun en langs de AP-8",
+          "body": [
+            "Irun grenst aan de Franse gemeenten Hendaye, Urrugne en Biriatou en is een logistiek knooppunt op de as Parijs-Madrid. Er zitten veel transport- en logistieke bedrijven, onder meer in het transportcentrum ZAISA in Behobia. Wagens van handelaars of tweedeverblijvers uit het Baskenland en de omliggende streek staan dus vaak op een kort stuk van de grens.",
+            "De AP-8 begint aan de internationale brug van Biriatou bij Behobia en loopt tot Bilbao, waar ze aansluit op de AP-68. Aan de grens gaat ze over in de Franse A63. Het is een tolweg, in Gipuzkoa beheerd door Bidegi en in Bizkaia door Interbiak.",
+            "Een vrachtwagen die een wagen in Bilbao of San Sebastián laadt, rijdt dus over de AP-8 naar Frankrijk. Spreek met de verkoper vooraf een laadplek af waar een autotransporter kan staan en keren. Een parking in de binnenstad is zelden geschikt."
+          ]
+        },
+        {
+          "heading": "Het Baskische verbod en de Spaanse kalender",
+          "body": [
+            "Met Trafikoa heeft het Baskenland een eigen verkeersdienst, die elk jaar eigen rijverboden vaststelt. Op de aangeduide dagen mogen goederenvoertuigen boven 7.500 kg MTM niet rijden: weekends, feestdagen, brugdagen en het begin en einde van vakantieperiodes. In de jaarlijkse resolutie vindt u de kalender en de vrijstellingen.",
+            "Spanje kent verder geen algemeen weekendverbod voor vrachtwagens boven 7,5 ton. Verboden gelden enkel op genoemde wegvakken en tijdstippen, volgens bijlage II van de DGT-resolutie. Dat is makkelijker te plannen dan het Franse verbod, maar het vraagt wel nazicht per rit.",
+            "Het praktische gevolg: plan een ophaling in het Baskenland niet op een brugdag en niet op de eerste of laatste dag van een vakantieperiode. Een wagen die op vrijdagmiddag klaarstaat, kan het weekend op de laadplek doorbrengen."
+          ]
+        },
+        {
+          "heading": "Door Frankrijk: A63, Bordeaux en Parijs",
+          "body": [
+            "De A63 loopt over 206 km van Bordeaux naar de Spaanse grens bij Biriatou en Hendaye. Ze is tolplichtig en heeft aansluitingen in Bayonne (A64) en Biarritz. Volgens Wikipedia draagt ze zwaar vrachtverkeer uit heel Europa naar het Iberisch schiereiland.",
+            "De tol is in drie stukken verdeeld: van Bordeaux tot Salles is de weg gratis, het stuk door de Landes is betalend, en van Saint-Geours-de-Maremne tot Biriatou is ze opnieuw betalend. Vijf tolpunten zonder tickets vindt u op het stuk van Bordeaux tot Spanje.",
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur, en rond Parijs geldt een extra verbod op de A6, A10 en A13. Daarna volgt de A1 van Parijs naar Rijsel, met 211 km de drukste autoroute van Frankrijk volgens Wikipedia. Houd daar bij de planning van de laaddag rekening mee."
+          ]
+        },
+        {
+          "heading": "Aankomst in West-Vlaanderen",
+          "body": [
+            "Wie uit Parijs komt, bereikt West-Vlaanderen via Rijsel. Aan de Franse grens bij Rekkem komt de E17/A14 ten einde, en daar zet de Franse A22 de weg voort. Vlak bij de grens telt de weg nog maar twee rijstroken per richting, wat bij druk verkeer snel vertraagt.",
+            "Rekkem ligt al in West-Vlaanderen. Wie hier een afleveradres heeft, zit vanaf de grens in de eigen provincie en heeft geen verdere grensovergang meer.",
+            "Mcars heeft zijn depot in Roeselare, aan de Moorseelsesteenweg 16B. Levering op het depot kan 24/7 en is voordeliger dan een afgifte aan huis. Bij ophaling in Spanje maken we een inspectie, foto's en een CMR-vrachtbrief, en de wagen is verzekerd tijdens het transport."
+          ]
+        },
+        {
+          "heading": "De Belgische inschrijving stap voor stap",
+          "body": [
+            "Heeft u een wagen in het buitenland aangekocht, dan voert u hem in België eerst in, en pas daarna kan de inschrijving op uw naam volgen. De douane geeft de E705 gratis af als elektronisch signaal, zodat de DIV kan controleren of het voertuig regelmatig in België staat. De wettelijke behandeltermijn bedraagt 120 dagen, dus start de aanvraag zodra de koop rond is.",
+            "Een wagen die nog niet op uw naam staat, gaat samen met het buitenlandse inschrijvingsbewijs naar een keuringscentrum voor een tweedehandskeuring of administratieve keuring. Daar krijgt u het aanvraagformulier tot inschrijving. Op basis van dat formulier en het originele buitenlandse inschrijvingsbewijs doet een verzekeringstussenpersoon vervolgens de online inschrijving.",
+            "Lukt de online inschrijving niet, dan krijgt u een bewijs van afwijzing en het formulier met verzekeringsvignet terug. Het complete dossier overhandigt of verstuurt u vervolgens aan de DIV, op afspraak of per post. De technische keuring is een bevoegdheid van de gewesten, dus Vlaanderen, Brussel en Wallonië geven elk eigen instructies."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Het originele inschrijvingsbewijs",
+          "body": "De verzekeringstussenpersoon heeft het originele, volledige buitenlandse inschrijvingsbewijs nodig. Vraag het aan de Spaanse verkoper en controleer bij de overdracht of alle delen aanwezig zijn. Een kopie volstaat niet, en een ontbrekend deel kan de hele inschrijving ophouden."
+        },
+        {
+          "kind": "regel",
+          "title": "Car-Pass bij een ingevoerde wagen",
+          "body": "Dat een ingevoerde wagen tweedehands uit het buitenland komt, leest u op zijn Car-Pass. Wat de wagen reed voor de Belgische inschrijving, is meestal niet gedocumenteerd. Bewaar daarom het Spaanse onderhoudsboekje en de ITV-kaarten als bewijs van de stand."
+        },
+        {
+          "kind": "regel",
+          "title": "Belasting op de inverkeerstelling",
+          "body": "Elke eigenaar van een nieuw of tweedehandsvoertuig in Vlaanderen betaalt eenmalig belasting op de inverkeerstelling, die verschuldigd wordt zodra de wagen op de openbare weg rijdt. De Vlaamse Belastingdienst int ze."
+        },
+        {
+          "kind": "plek",
+          "title": "DIV-antenne Brugge en Oostende",
+          "body": "De DIV heeft in West-Vlaanderen een regionale antenne in Brugge en Oostende. Moet het dossier toch op papier of op afspraak worden ingediend, dan kiest u het loket dat het dichtst bij het afleveradres ligt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welk papier moet de Spaanse verkoper zeker meegeven?",
+          "a": "Het originele, volledige buitenlandse inschrijvingsbewijs. De verzekeringstussenpersoon schrijft de wagen online in op basis daarvan en van het aanvraagformulier. Zonder dat origineel loopt het dossier vast, ook al staat de wagen al in België."
+        },
+        {
+          "q": "Is de wagen in België meteen te gebruiken na aankomst?",
+          "a": "Nee. Eerst moet de wagen worden ingevoerd en gekeurd, en pas daarna krijgt u het aanvraagformulier voor de inschrijving. Het formulier blijft twee maanden geldig na het bezoek aan het keuringsstation, de datum staat in vak X13."
+        },
+        {
+          "q": "Rijdt een vrachtwagen in het Baskenland ook in het weekend?",
+          "a": "Niet altijd. Trafikoa legt goederenvoertuigen boven 7.500 kg MTM verboden op voor aangeduide dagen, zoals weekends, feestdagen en brugdagen. Wat precies geldt en welke vrijstellingen er zijn, staat in de jaarlijkse resolutie."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar België: Irun, A63, E705, keuring en inschrijving. Wat u moet weten voor het autotransport naar West-Vlaanderen.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Ir%C3%BAn",
+        "https://es.wikipedia.org/wiki/Autopista_del_Cant%C3%A1brico",
+        "https://www.trafikoa.euskadi.eus/medidas-especiales-de-regulacion-del-trafico/webtraf00-content/es/",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+        "https://en.wikipedia.org/wiki/A63_autoroute",
+        "https://fr.wikipedia.org/wiki/Autoroute_A63_(France)",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://nl.wikipedia.org/wiki/A14_%28Belgi%C3%AB%29",
+        "https://fin.belgium.be/nl/particulieren/internationaal/voertuig-importeren",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-importeren/voertuig-ingevoerd-uit-de-eu",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/inschrijven/een-auto-inschrijven",
+        "https://mobilit.belgium.be/nl/weg/voertuigen/technische-controle",
+        "https://www.car-pass.be/nl/faq",
+        "https://www.vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/belasting-op-de-inverkeerstelling",
+        "https://nl.wikipedia.org/wiki/Dienst_voor_Inschrijvingen_van_Voertuigen"
+      ]
+    },
+    "spanje-nederland": {
+      "lead": "Een wagen uit Spanje voor een koper in Nederland reist ver, en de papieren reizen anders dan de wagen. In Catalonië staan veel wagens rond de haven van Tarragona, in Nederland begint alles met een afspraak bij de RDW. Wie dat vooraf weet, voorkomt dat de wagen ergens moet wachten op een document. Hieronder staat wat op deze route telt.",
+      "facts": [
+        {
+          "label": "Eerste stap",
+          "value": "Afspraak bij een RDW-keuringsstation met het originele buitenlandse kentekenbewijs"
+        },
+        {
+          "label": "Na de keuring",
+          "value": "Bpm-aangifte bij de Belastingdienst, daarna pas het Nederlandse kentekenbewijs"
+        },
+        {
+          "label": "Grensovergangen",
+          "value": "Hazeldonk (A16), Zandvliet (A4) en Zelzate (N62)"
+        },
+        {
+          "label": "Tarragona",
+          "value": "Drie voertuigterminals met stockage voor 47.000 voertuigen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Catalonië: de haven van Tarragona",
+          "body": [
+            "In de haven van Tarragona behandelen drie terminals voertuigen, met als operatoren Bergé Gefco, Noatum Terminal Tarragona en Bergé Marítima. De stockage biedt plaats voor 47.000 voertuigen. Historisch gaat het om export naar het Middellandse Zeegebied en om import uit het Verre Oosten, vooral Zuid-Korea. Een deel van de wagens komt en vertrekt per spoor.",
+            "Dat is nuttig als u een wagen kocht die nog op zo'n terminal of in een aanpalend stockagepark staat. Er is daar geen particuliere oprit en geen buurman die de sleutel bewaart. Spreek vooraf met de verkoper af wie de wagen vrijgeeft en op welk uur hij in de terminal te halen is.",
+            "Mcars rijdt met open, meerlaagse autotransporters met Kässbohrer-opbouw. Bij ophaling maken we een inspectie en foto's, en we geven een CMR-vrachtbrief mee."
+          ]
+        },
+        {
+          "heading": "De rit naar het noorden",
+          "body": [
+            "Er zijn twee gebruikelijke wegen. De westroute loopt langs Bordeaux. De oostroute volgt de AP-7, die ongeveer 1.007 km lang is en aan de grens bij La Jonquera begint, langs Figueres, Girona, Barcelona en Tarragona. Daarna gaat het door de Rhônevallei en over Lyon.",
+            "De Franse A10 van Parijs naar Bordeaux is 557 km en daarmee de langste autoroute van Frankrijk. Op uitzonderingen bij Parijs, Tours en Bordeaux na moet er over bijna de hele route tol worden betaald. De A7 van Lyon naar Marseille kent bij vakantiebegin en vakantie-einde files van honderden kilometers, vooral eind juli en begin augustus.",
+            "De Franse A9 loopt van Orange naar Le Perthus aan de Spaanse grens. De E19 Amsterdam-Antwerpen-Brussel-Parijs, 551 km, is de gebruikelijke tweede helft van de rit. In België geldt voor vrachtvoertuigen boven 3,5 ton de Viapass-heffing op de weg van Antwerpen en Brussel naar de Franse grens."
+          ]
+        },
+        {
+          "heading": "Aankomst in Zeeland en West-Brabant",
+          "body": [
+            "Deze regio ligt het dichtst bij Roeselare en is de logische inrit vanuit Frankrijk en Spanje. Drie grensovergangen komen in aanmerking: Hazeldonk op de A16, Zandvliet op de A4 en Zelzate op de N62.",
+            "De N62 loopt 41 km als autoweg van de A58 bij Goes langs het havengebied Vlissingen-Oost en door de Westerscheldetunnel naar Terneuzen. Twee keer twee rijstroken telt de Tractaatweg, het slotstuk tot de grens bij Zelzate. De A4 loopt via Bergen op Zoom naar de grens bij Zandvliet en gaat daar over in de Belgische A12 richting Antwerpen-Noord.",
+            "In Vlissingen heeft CLdN een ro-roterminal van meer dan 100 hectare in North Sea Port, met een eigen PDI-centrum voor voertuigen. Voor keuringen heeft de RDW in West-Brabant stations in Roosendaal en Rijen. In Zeeland zelf is er geen keuringsstation, dus de wagen rijdt na levering verder naar Brabant."
+          ]
+        },
+        {
+          "heading": "De RDW-keuring: wie, wat en wanneer",
+          "body": [
+            "Voor de invoer van een auto uit een EU-land maakt u eerst een afspraak bij een RDW-keuringsstation. De aanvrager moet 18 jaar of ouder zijn en in de BRP staan, of een Nederlandse rechtspersoon zijn met inschrijving bij de KvK. Persoonlijk langskomen mag, maar een RDW-erkend bedrijf kan het ook voor u doen.",
+            "Op de keuring verschijnt u met het originele buitenlandse kentekenbewijs en een geldig identiteitsbewijs. Een Certificaat van Overeenstemming is optioneel. Het Nederlandse kentekenbewijs moet eerst binnen zijn voor u na de keuring met de auto de weg op gaat.",
+            "Heeft de auto APK-plicht en geen geldige buitenlandse keuring, dan moet hij direct na ontvangst van het kentekenbewijs worden gekeurd. De RDW kan de vervaldatum van een nog geldige APK uit een EU-land overnemen, met het originele keuringsrapport, een vermelding op het buitenlandse kentekenbewijs of een sticker op de buitenlandse plaat. Een Spaanse ITV-vermelding kan dus door de RDW worden overgenomen."
+          ]
+        },
+        {
+          "heading": "Eendagskenteken, bpm en btw",
+          "body": [
+            "Voor het eendagskenteken betaalt u niets, maar u krijgt het alleen als u een afspraak op een RDW-keuringsstation hebt. Enkel in Nederland en uitsluitend op de keuringsdag is het geldig, voor de kortste weg heen en terug. Witte platen laat u zelf maken, en de auto moet in Nederland verzekerd zijn.",
+            "Met de keuring achter de rug dient u bij de Belastingdienst de bpm-aangifte in. Een gebruikte auto geeft recht op een lagere bpm via de koerslijst, een taxatierapport of de forfaitaire tabel. De gekozen methode is definitief. De Belastingdienst controleert ook of de waarde op de koerslijst zelf klopt, zodat het bedrag kan afwijken van uw aangifte.",
+            "In het land van inschrijving betaalt een particulier de btw op een auto die voor de btw nieuw is en in een ander EU-land werd gekocht, op de totaalprijs met accessoires en afleverkosten."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Wat in het koopcontract hoort",
+          "body": "De ANWB raadt een koopcontract aan met gegevens van koper en verkoper, chassisnummer, kilometerstand, datum eerste toelating, schadeverleden, bekende gebreken en de vermelding of de auto ex-lease of huurauto was. Vraag dit aan de Spaanse verkoper voor de wagen vertrekt."
+        },
+        {
+          "kind": "tip",
+          "title": "Zelf ophalen lukt vaak niet",
+          "body": "Vaak werkt een tijdelijk kenteken alleen in het land van aankoop, en het originele kenteken komt bij export te vervallen. Wordt de auto op een transporter opgehaald, dan is volgens de ANWB geen kenteken nodig. Bovendien kan wie op een buitenlands kenteken terugrijdt niet rekenen op pechhulp van de Wegenwacht."
+        },
+        {
+          "kind": "tip",
+          "title": "Controleer VIN en kentekenbewijs",
+          "body": "Kijk bij aankoop of het kentekenbewijs compleet is, want in sommige landen bestaat het uit meerdere delen. Controleer ook of het VIN op het document overeenkomt met dat in de auto. Zorg dat u steeds een aankoopnota of verkoopovereenkomst in handen krijgt, al is die handgeschreven, mits ondertekend."
+        },
+        {
+          "kind": "tip",
+          "title": "Een opvallend lage bpm",
+          "body": "Volgens de ANWB kan een opvallend lage bpm bij een dure importauto wijzen op grote schade in het verleden. Vraag bij een wagen uit Spanje dus naar de schadehistoriek en bekijk de foto's die bij ophaling worden genomen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heb ik een nieuwe APK nodig als de wagen in Spanje een geldige ITV heeft?",
+          "a": "Niet noodzakelijk. De RDW kan de vervaldatum van een nog geldige keuring uit een EU-land overnemen, mits u het originele rapport, een vermelding op het kentekenbewijs of een sticker op de plaat kunt tonen. Zonder bewijs is een APK vereist."
+        },
+        {
+          "q": "Wie mag in Nederland een wagen laten keuren voor invoer?",
+          "a": "De aanvrager moet 18 jaar of ouder zijn en in de BRP staan, of een Nederlandse rechtspersoon zijn met inschrijving bij de KvK. U kunt zelf naar het keuringsstation gaan of het door een RDW-erkend bedrijf laten doen."
+        },
+        {
+          "q": "Welke RDW-stations liggen het dichtst bij de grens met België?",
+          "a": "In West-Brabant heeft de RDW keuringsstations in Roosendaal en Rijen, in Zeeland is er geen. Wie in Zeeuws-Vlaanderen woont, rijdt dus voor de keuring naar Brabant en maakt daar de afspraak voor het eendagskenteken."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Nederland: RDW-keuring, bpm, eendagskenteken en de rit via Frankrijk. Wat telt bij het autotransport naar Zeeland en Brabant.",
+      "sources": [
+        "https://www.porttarragona.cat/es/servicio-negocio/negocio/traficos/vehiculos",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/A10_autoroute",
+        "https://en.wikipedia.org/wiki/A7_autoroute",
+        "https://en.wikipedia.org/wiki/A9_autoroute",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://www.viapass.be/",
+        "https://nl.wikipedia.org/wiki/Provinciale_weg_62",
+        "https://nl.wikipedia.org/wiki/Rijksweg_4",
+        "https://cldn.com/our-terminals",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/invoeren-binnen-europa",
+        "https://ondernemersplein.overheid.nl/internationaal-ondernemen/importeren/auto-importeren",
+        "https://www.rdw.nl/keuren/eendagskenteken-aanvragen",
+        "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/auto_en_vervoer/belastingen_op_auto_en_motor/bpm/afschrijving_met_koerslijst_taxatierapport_of_forfaitaire_tabel",
+        "https://www.anwb.nl/auto/importeren",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/tips-bij-invoer",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_nl.htm"
+      ]
+    },
+    "spanje-luxemburg": {
+      "lead": "Aan de Costa Blanca staan veel wagens van mensen uit Noord-Europa die er een tweede verblijf hebben, en soms wordt zo'n wagen verkocht aan iemand in Luxemburg. Dan loopt de rit door heel Frankrijk, en het dossier langs verschillende Luxemburgse loketten: de SNCA, de douane en de keuring. Wie de volgorde kent, houdt de wagen niet langer dan nodig stil.",
+      "facts": [
+        {
+          "label": "Dénia",
+          "value": "Bereikbaar via de N-332 en de AP-7, afrit 62"
+        },
+        {
+          "label": "Volgorde",
+          "value": "Nummer reserveren, platen laten maken, verzekeren, inklaren, keuren, SNCA-afspraak"
+        },
+        {
+          "label": "Vignette 705",
+          "value": "Af te halen bij de douane in Diekirch of Howald"
+        },
+        {
+          "label": "Belastingvignet",
+          "value": "Het voorlopige vignet is dertig dagen geldig"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ophalen aan de Costa Blanca",
+          "body": [
+            "Aan de Costa Blanca vormen de Britten de grootste buitenlandse gemeenschap. In sommige gemeenten zijn inwoners uit Noord-Europa even talrijk als de lokale bevolking, of talrijker. Dénia ligt aan de N-332 en de AP-7 (afrit 62), en bij de volkstelling van 2011 had een groot deel van de inwoners een buitenlandse nationaliteit, voor het grootste deel uit de Europese Unie.",
+            "Dat zijn de adressen waar een tweedeverblijver zijn wagen laat staan, soms voor jaren. Mcars vervoert wagens van tweedeverblijvers uit Spanje. Zo'n wagen staat vaak lang stil, en bij de overdracht blijkt dan snel of het inschrijvingsbewijs en het keuringsbewijs wel compleet zijn.",
+            "Voor Luxemburg moet de verkoper een factuur meegeven, of, bij verkoop tussen particulieren, een door beide partijen getekend contract. Laat dat papier klaarliggen voor de wagen op de vrachtwagen rijdt."
+          ]
+        },
+        {
+          "heading": "Van de Spaanse kust naar Luxemburg",
+          "body": [
+            "Geen bron beschrijft deze rit als geheel, maar de wegen sluiten logisch aan. Vanaf de Spaanse kust gaat het naar de A9 in Frankrijk, daarna over de A7 door de Rhônevallei naar Lyon en over de A6 en de A31 naar Zoufftgen aan de Luxemburgse grens.",
+            "De A7, de autoroute du Soleil, is ongeveer 306 km lang en draagt zwaar vrachtverkeer tussen Noord-Europa en de Middellandse Zee. De middensectie is tolweg. In Lyon liggen de A6 en A7 sinds 2020 als stadsboulevards door de stad, en de Fourvière-tunnel heeft een limiet van 70 km/u.",
+            "De A31 loopt 349 km van Zoufftgen tot Beaune. Ze is gratis tot Toul en een tolweg van APRR tussen Toul en Beaune. Frankrijk geeft voor goederenvoertuigen boven 7,5 ton in de zomer enkele extra zaterdagverboden van 7 tot 19 uur op het hele net. Dat valt precies in de vakantiepiek van de A7 en de A9, waar het verkeer tegelijk het drukst is."
+          ]
+        },
+        {
+          "heading": "Aankomst in het zuiden van Luxemburg",
+          "body": [
+            "Het zuiden van Luxemburg, het Minett, grenst aan Frankrijk en ligt dus het dichtst bij deze route. De A3 loopt van de Croix de Gasperich over Bettembourg en Dudelange naar de Franse grens bij Zoufftgen en gaat daar over in de A31. Het is de belangrijkste wegverbinding met Frankrijk.",
+            "Esch-sur-Alzette is de tweede stad van het land en grenst in het zuidwesten aan Frankrijk. De stad is ontsloten via de A4, die verder als expresweg B40 loopt, via de A13 en de N4 en N31. Het zuidelijke SNCA-loket voor inschrijvingen ligt in Esch, in de rue Jos Kieffer.",
+            "Voor de keuring zijn er in het zuiden twee SNCT-stations: Esch-sur-Alzette en Livange."
+          ]
+        },
+        {
+          "heading": "De Luxemburgse volgorde",
+          "body": [
+            "Als koper van een tweedehandswagen uit het buitenland moet u in Luxemburg wonen en in het nationaal register staan om de wagen daar in te schrijven. Guichet.lu geeft een vaste volgorde: nummer reserveren bij de SNCA, platen laten maken, een BA-verzekering afsluiten, inklaren bij de douane (ADA, vignette 705), het kanselarijzegel betalen bij de AED, de keuring indien nodig, en tot slot een afspraak bij de SNCA.",
+            "Is het gereserveerde nummer bevestigd, dan ontvangt de koper per post een ministeriële toelating en bestelt hij de platen bij een erkende Luxemburgse platenmaker. Luxemburgse platen zijn geel met zwarte tekens. De gewone reeks bestaat uit twee letters en vier cijfers."
+          ]
+        },
+        {
+          "heading": "Vignette 705 bij de douane",
+          "body": [
+            "Bij de aanvraag van de vignette 705 hoort een set originelen: het vorige inschrijvingsbewijs, het COC, de factuur waarop het btw-nummer van de verkoper staat, het verzekeringsattest en uw nationaal identificatienummer. Particulieren brengen ook hun identiteitskaart of paspoort mee. De vignette wordt afgeleverd in de douanecentra van de ADA in Diekirch (Centre douanier Nord) en Howald (Luxemburg-Stad).",
+            "Brengt een particulier een nieuwe wagen uit een andere EU-lidstaat mee, dan levert hij formulier 446-L in bij een douanecentrum, waar ook de Luxemburgse btw wordt voldaan. Bedrijven doen dat via hun gewone btw-aangifte.",
+            "Vraag de Spaanse verkoper dus vooraf naar het btw-nummer op de factuur en naar het originele inschrijvingsbewijs. Wie met een kopie komt, loopt vast aan het loket."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Keuringsbewijs uit hetzelfde land",
+          "body": "Voor een buitenlands keuringsbewijs geldt dat het uit hetzelfde land moet stammen als de buitenlandse inschrijving, en dat het in een officiële taal van Luxemburg geschreven of beëdigd vertaald is. Een Spaans ITV-attest zal dus meestal een vertaling nodig hebben."
+        },
+        {
+          "kind": "regel",
+          "title": "Voorlopig vignet en immobilisatie",
+          "body": "Dertig dagen lang is het voorlopige belastingvignet geldig dat u bij de inschrijving meekrijgt. Na berekening door de ADA ontvangt u het bedrag van de verkeersbelasting, en betaling brengt het definitieve vignet. Een wagen waarvan de belasting langer dan zestig dagen openstaat, kan geïmmobiliseerd worden."
+        },
+        {
+          "kind": "regel",
+          "title": "Rijden voor de inschrijving",
+          "body": "Tot de inschrijving rondloopt, rijdt de wagen enkel tussen het verkooppunt en de plaats van inschrijving of keuring, met rode platen of platen met het gereserveerde nummer, en onder een BA-verzekering. Inwoners van Luxemburg kunnen rode platen huren bij de SNCA, die in Luxemburg, België en Nederland gelden."
+        },
+        {
+          "kind": "regel",
+          "title": "Zonder COC of met tegenstrijdige papieren",
+          "body": "Bij het ontbreken van een Europees COC, of als de documenten onvolledig of tegenstrijdig zijn, beoordeelt de SNCA de technische gegevens op basis van het dossier. Een verslag van een erkende technische dienst wordt gevraagd wanneer dat dossier niet volledig is of de wagen nooit in een EU-land ingeschreven was."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik in Luxemburg wonen om een Spaanse wagen in te schrijven?",
+          "a": "Ja. De koper moet in Luxemburg wonen en in het nationaal register staan. De verkoper geeft een factuur mee, of bij verkoop tussen particulieren een contract dat beide partijen hebben getekend."
+        },
+        {
+          "q": "Waar haal ik de vignette 705 op?",
+          "a": "In de douanecentra van de ADA, in Diekirch (Centre douanier Nord) of in Howald bij Luxemburg-Stad. Breng de originele documenten en een geldig identiteitsbewijs mee."
+        },
+        {
+          "q": "Mag de wagen na aankomst meteen op de weg?",
+          "a": "Nog niet. Tot de inschrijving mag hij enkel rijden tussen het verkooppunt en de plaats van inschrijving of keuring, met rode platen of platen met het gereserveerde nummer, en met een BA-verzekering."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Luxemburg: de rit via Lyon en de A31, vignette 705, SNCA en keuring. Wat u moet weten voor het autotransport.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Costa_Blanca",
+        "https://es.wikipedia.org/wiki/Denia",
+        "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://www.bison-fute.gouv.fr/regime-general,10852.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A3_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Esch-sur-Alzette",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/payer-taxe-vehicule-ue.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/numero-immatriculation.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/conformite-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/reimmatriculation-vehicule.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/vehicule-demenagement-transfrontalier.html",
+        "https://snca.public.lu/fr/plaques/plaques-rouges.html"
+      ]
+    },
+    "spanje-frankrijk": {
+      "lead": "Tussen Catalonië en Frankrijk loopt bijna alles over één overgang: La Jonquera, tegenover Le Perthus. Een wagen die in Barcelona of Girona is gekocht en in Frankrijk moet worden ingeschreven, heeft een lange papierweg: eerst het fiscale attest, dan de techniek, dan de plaat. Wie die volgorde kent, houdt het transport los van het papierwerk en voorkomt dat de wagen onderweg op een document moet wachten.",
+      "facts": [
+        {
+          "label": "Fiscaal attest",
+          "value": "Quitus fiscal vragen bij de belastingdienst van uw woonplaats"
+        },
+        {
+          "label": "Grens",
+          "value": "A9 en AP-7 sluiten aan bij Le Perthus en La Jonquera"
+        },
+        {
+          "label": "Wachtplaten",
+          "value": "WW-platen dienen voor wagens die op definitieve inschrijving wachten"
+        },
+        {
+          "label": "Malus",
+          "value": "Eerste buitenlandse inschrijving vóór 2015 is vrijgesteld van de CO2-malus"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Catalonië rekent met een eigen kalender",
+          "body": [
+            "Verkeersbeperkingen bepaalt Catalonië zelf, met een jaarlijkse resolutie van de Servei Català de Trànsit. Wie door Catalonië rijdt, moet dus twee kalenders bekijken: die van de DGT voor de rest van Spanje en die van de Catalaanse dienst. In een eerdere versie gold op zon- en feestdagen een beperking van 8 tot 24 uur op het interstedelijke net, en rond opeenvolgende feestdagen vanaf 16 uur.",
+            "Naar de Franse grens bestaat daarnaast een regel voor de N-230: de DGT beperkt voertuigen boven 7.500 kg er op vrijdagavond van 17 tot 24 uur, van januari tot maart en in een deel van december. Voor wie een wagen in de Val d'Aran laat ophalen, is dat een aandachtspunt."
+          ]
+        },
+        {
+          "heading": "De Rondes de Barcelona en het ZBE-register",
+          "body": [
+            "Op maandag tot vrijdag, van 7 tot 20 uur, mogen voertuigen zonder DGT-milieulabel de Rondes de Barcelona niet op. Voertuigen met een buitenlandse plaat moeten aantonen dat ze aan dezelfde milieueisen voldoen, bijvoorbeeld een benzinewagen van emissieklasse 3 of hoger. Dat loopt via het register van de AMB.",
+            "Is de wagen die u koopt een Spaanse wagen zonder label, en staat hij binnen de zone, dan is de planning van de ophaling belangrijk. Laat de verkoper hem zo mogelijk buiten de zone brengen, of kies een tijdstip buiten de beperkte uren."
+          ]
+        },
+        {
+          "heading": "Over de Pertús naar de A9",
+          "body": [
+            "La Jonquera ligt tegen de grens met Frankrijk. Aan de Col du Perthus staat een tolstation en de grens blijft een knelpunt: grenscontroles zorgen er geregeld voor files, en het zware vrachtverkeer maakt de A9 druk en ongevalsgevoelig.",
+            "De A9 loopt over 280,5 km van Orange, waar ze aansluit op de A7, naar de Spaanse grens. Ze heet La Languedocienne tot Narbonne en La Catalane daarna, en heeft ASF als concessiehouder. Langs de weg liggen Perpignan, Narbonne, Béziers, Montpellier en Nîmes. De doorgaande A9 leidt sinds 2017 tolvrij rond Montpellier, en het lokale deel draagt de naam A709.",
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton op feestdagen, van 22 uur de avond ervoor tot 22 uur op de feestdag. Mcars rijdt elke week over heel Frankrijk, ook naar stockageparken, en kent de Franse kant van deze rit dus goed."
+          ]
+        },
+        {
+          "heading": "Quitus fiscal en btw",
+          "body": [
+            "Een quitus fiscal is een vereiste voor de Franse inschrijving van elke wagen die u in een ander EU-land kocht, nieuw of tweedehands. Aanvragen kan bij de service des impôts, de belastingdienst van uw woonplaats. Zonder dat attest komt de wagen niet in het Franse register.",
+            "Btw-technisch is een wagen nieuw zolang hij niet meer dan 6.000 km telt, of zolang hij binnen zes maanden na de eerste inschrijving wordt geleverd. In het land van inschrijving vallen nieuwe wagens uit een ander EU-land onder de belasting.",
+            "Dit is werk voor de koper. Vraag de Spaanse verkoper wel om het volledige inschrijvingsbewijs, de factuur en de kilometerstand op de overdrachtsdatum. Die gegevens bepalen of de wagen als nieuw of gebruikt telt."
+          ]
+        },
+        {
+          "heading": "COC, RTI en de CO2-malus",
+          "body": [
+            "Het Europees certificaat van overeenstemming van de fabrikant is genoeg om de technische conformiteit te bewijzen. Het COC bestaat alleen voor voertuigen tot 3,5 ton met een eerste inschrijving na 1996, niet voor gewijzigde voertuigen of prototypes. Wie geen COC of gelijkwaardig attest heeft, vraagt een réception à titre isolé aan bij de Dreal van de eigen regio, in Île-de-France bij de Drieat.",
+            "Zodra een wagen voor het eerst in Frankrijk wordt ingeschreven, is de Franse CO2-malus verschuldigd, ook als het een tweedehandswagen is die in het buitenland al ingeschreven stond. Naarmate de wagen ouder wordt, telt het bedrag lager uit, met als ijkpunt de eerste buitenlandse inschrijving. Geen malus betalen wagens waarvan de eerste buitenlandse inschrijving dateert van voor 1 januari 2015, noch elektrische en waterstofvoertuigen. Daarnaast bestaat een aparte malus op het gewicht.",
+            "De malus is verschuldigd op de dag van de inschrijving, het tarief hangt af van die datum en niet van de aankoopdatum."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Col du Perthus",
+          "body": "De pas ligt op ongeveer 290 meter hoogte. De A9 en de Spaanse AP-7 sluiten er aan, en ook de N-II, de D900 en de E-15 lopen door de pas. De oude douanekantoren zijn buiten gebruik. Alles samen verklaart waarom het vrachtverkeer er zo geconcentreerd passeert."
+        },
+        {
+          "kind": "regel",
+          "title": "Platen bij binnenkomst",
+          "body": "Bij aankomst in Frankrijk moeten de platen van de wagen geldig zijn, want anders mag de politie het voertuig immobiliseren. Met tijdelijke Franse WW-platen en een voorlopig WW-certificaat rijdt de wagen zodra de buitenlandse platen niet meer geldig zijn. Sommige landen geven tijdelijke uitvoerplaten, andere eisen dat de platen worden ingeleverd."
+        },
+        {
+          "kind": "tip",
+          "title": "Btw terugvragen",
+          "body": "Heeft u btw betaald in zowel het land van aankoop als het land van inschrijving, dan vraagt u terugbetaling, eerst aan de verkoper en dan aan de belastingdienst van het aankoopland. Vraag de Spaanse verkoper daarom een factuur met aparte btw-vermelding."
+        },
+        {
+          "kind": "tip",
+          "title": "Het SIV-nummer blijft",
+          "body": "Het Franse SIV-nummer (formaat AA-123-AA) blijft levenslang bij het voertuig, ook bij verhuis of verkoop binnen Frankrijk. Welke departementscode op de plaat komt, beslist de eigenaar zelf. De WW-platen zelf zijn bedoeld voor voertuigen die op hun definitieve inschrijving wachten."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat is een quitus fiscal en wanneer heb ik het nodig?",
+          "a": "Het is het fiscale attest dat u nodig hebt voor elke wagen uit een ander EU-land, nieuw of tweedehands, die in Frankrijk wordt ingeschreven. U vraagt het aan bij de service des impôts van uw woonplaats, vóór de inschrijving."
+        },
+        {
+          "q": "Is de CO2-malus ook verschuldigd voor een gebruikte wagen uit Spanje?",
+          "a": "Ja, bij de eerste inschrijving in Frankrijk, ook als de wagen al buitenlands was ingeschreven. Hoe ouder de wagen, hoe lager het bedrag. Wagens met een eerste buitenlandse inschrijving van vóór 2015 zijn vrijgesteld."
+        },
+        {
+          "q": "Mag ik de wagen met de Spaanse plaat in Frankrijk laten rijden?",
+          "a": "Enkel zolang de platen geldig zijn, anders kan de politie het voertuig immobiliseren. Lopen de buitenlandse platen af, dan krijgt de wagen tijdelijke Franse WW-platen en een voorlopig certificaat."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Frankrijk: La Jonquera, de A9, quitus fiscal, COC en malus. Wat u moet weten voor het autotransport.",
+      "sources": [
+        "https://www.boe.es/eli/es-ct/res/2025/02/11/isp430/con",
+        "https://boe.es/buscar/pdf/2025/BOE-A-2025-4085-consolidado.pdf",
+        "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+        "https://www.zbe.barcelona/zones-baixes-emissions/vehicles-afectats.html",
+        "https://en.wikipedia.org/wiki/Col_du_Perthus",
+        "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F20992",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F35947",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_fr.htm",
+        "https://fr.wikipedia.org/wiki/Plaque_d%27immatriculation_fran%C3%A7aise",
+        "https://www.justice.fr/fiche/expatrie-revenir-france-vehicule"
+      ]
+    },
+    "spanje-duitsland": {
+      "lead": "Het noordwesten van Spanje is autoland: fabrieken in Vigo, Vitoria en Valladolid, havens in Santander en Vigo. Wagens die daar een tijdje stonden en in Duitsland een nieuwe eigenaar vinden, botsen op een land dat de papieren nauwkeurig leest. Zonder COC of bewijs van keuring blijft de Zulassungsstelle dicht. Hieronder staat wat op deze route telt, van Cantabrië tot Baden-Württemberg.",
+      "facts": [
+        {
+          "label": "Santander",
+          "value": "Ro-ro-haven die fabrieken van Volkswagen, Mercedes-Benz en Renault bedient"
+        },
+        {
+          "label": "Kurzzeitkennzeichen",
+          "value": "Komt niet in aanmerking voor een wagen die in een andere EU-lidstaat is aangekocht"
+        },
+        {
+          "label": "Rijverbod Duitsland",
+          "value": "Vrachtwagens boven 7,5 ton: zon- en feestdagen van 0 tot 22 uur"
+        },
+        {
+          "label": "Buitenlandse papieren",
+          "value": "De Zulassungsstelle houdt het buitenlandse inschrijvingsbewijs zes maanden in"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Cantabrië en Galicië",
+          "body": [
+            "In de haven van Santander is autoverkeer een van de hoofdactiviteiten. De haven bedient de fabrieken van Volkswagen in Landaben, Mercedes-Benz in Vitoria en Renault in Palencia en Valladolid, en is gespecialiseerd in ro-ro. Wie een jonge of bijna nieuwe wagen uit die fabrieksregio koopt, haalt hem vaak op een terminal of bij een handelaar in de buurt.",
+            "De haven van Vigo heeft in Bouzas een ro-ro-terminal voor voertuigen. De Zona Franca de Vigo huisvest toeleveranciers rond Stellantis Vigo. Die fabriek in Balaídos bestaat sinds 1958 en bouwt onder meer bestelwagens zoals de Citroën Berlingo, de Peugeot Partner, de Toyota ProAce City en de Fiat Doblò.",
+            "Voor een koper in Duitsland doet het ertoe hoe nieuw de wagen is. Een landvoertuig geldt fiscaal als nieuw bij hoogstens 6.000 km of als de eerste ingebruikname niet langer dan zes maanden geleden is. Vraag de verkoper dus naar de kilometerstand op de dag van overdracht."
+          ]
+        },
+        {
+          "heading": "Twee wegen naar de Duitse grens",
+          "body": [
+            "Het noordwesten heeft geen grens met Frankrijk. Wie van daaruit naar het noorden rijdt, gaat via Irun en de A-8 langs de kust, of via de meseta over de A-6, de A-52 en de AP-66. Welke weg u kiest, hangt af van waar de wagen precies staat en van het weer.",
+            "Wie liever de Middellandse Zeekant neemt, komt op de Franse A9, een tolweg van ASF. Bij Montpellier splitst ze zich in de A9 en de A709, en wie daar de verkeerde afrit mist, kan tot 35 km nodig hebben voor de volgende A9-afrit. Een chauffeur die dit stuk kent, rijdt er zonder omweg door.",
+            "In Duitsland loopt de A5 van het Hattenbacher Dreieck in Hessen langs Frankfurt, Karlsruhe en Freiburg naar Weil am Rhein, 445 km. Het Zuid-Duitse einde van de rit loopt dus meestal via Baden-Württemberg."
+          ]
+        },
+        {
+          "heading": "Maut en rijverbod in Duitsland",
+          "body": [
+            "De Duitse vrachtwagenmaut geldt voor vrachtwagens boven 3,5 ton toegelaten maximummassa, met uitzondering van ambachtswagens onder 7,5 ton. Er zit een CO2-component in. Ze geldt op de Bundesautobahnen en de Bundesstraßen en wordt gehandhaafd met on-boardunits, ongeveer driehonderd portieken en vierhonderdvijftig mobiele controleposten.",
+            "Zondag en op feestdagen mogen vrachtwagens boven 7,5 ton in Duitsland niet rijden, van 0 tot 22 uur. In juli en augustus komt daar ook de zaterdag bij, van 7 tot 20 uur. Dat is een lastig venster voor een wagen die op een zaterdag in de Duitse zomer klaarstaat.",
+            "Controleer de actuele kalender vóór de rit, vooral in de zomer."
+          ]
+        },
+        {
+          "heading": "Aankomst in Baden-Württemberg",
+          "body": [
+            "Baden-Württemberg grenst aan Frankrijk, met de Rijnvlakte langs de A5 en de Europabrücke Kehl-Straatsburg op de B28, en aan Zwitserland, met de A5 naar Weil am Rhein en de A81 richting Schaffhausen. Via de A8 gaat het naar München en Oostenrijk. Voor wagens uit Spanje is dit de natuurlijke Duitse ingang.",
+            "De Europabrücke is de drukste grensovergang tussen Baden en de Elzas. Bij schade kan ze tijdelijk beperkt zijn tot lichte voertuigen, en er is een planningsakkoord voor een nieuwe brug. Wie een autotransporter naar Baden stuurt, kijkt dus naar de actuele stand van de Rijnovergangen.",
+            "Milieuzones zijn in de deelstaat grotendeels afgeschaft. Er blijven er nog drie over: Stuttgart, Ludwigsburg en omgeving, en Pforzheim. In Stuttgart geldt bovendien in het hele stadsgebied een rijverbod voor diesels onder emissieklasse 5."
+          ]
+        },
+        {
+          "heading": "Wat de Zulassungsstelle wil zien",
+          "body": [
+            "Een EU-importwagen wordt in Duitsland pas ingeschreven met de buitenlandse voertuigpapieren en het COC. Bij de fabrikant kunt u een ontbrekend COC opvragen. Als het COC niet bestaat, brengt een Vollgutachten van een keuringsinstantie zoals TÜV soelaas. Voor wagens ouder dan drie jaar vraagt de Zulassungsstelle bovendien het bewijs van een geldige periodieke keuring.",
+            "Een keuring uit het EU-land van herkomst volgens de keuringsrichtlijn kan volstaan, maar vraag dat vooraf na bij de Zulassungsstelle. Zes maanden lang bewaart de Zulassungsbehörde het buitenlandse inschrijvingsbewijs dat ze bij de inschrijving inhoudt, en ze brengt het Kraftfahrt-Bundesamt op de hoogte.",
+            "Bestaat het buitenlandse inschrijvingsbewijs uit twee delen en ontbreekt deel II, dan kan de wagen pas worden ingeschreven na een bevestiging van de buitenlandse autoriteit. Laat de Spaanse verkoper daarom het volledige bewijs meegeven."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Het Kurzzeitkennzeichen",
+          "body": "Voor proef-, keurings- en overbrengingsritten, en niets anders, dient het Duitse Kurzzeitkennzeichen, dat hoogstens vijf dagen geldt. Het is een nationale plaat: er zijn afspraken met Oostenrijk, Italië, Denemarken en Zwitserland, maar in Frankrijk en de Benelux zijn problemen gemeld."
+        },
+        {
+          "kind": "regel",
+          "title": "Btw en Fahrzeugeinzelbesteuerung",
+          "body": "Duitse btw is verschuldigd op een nieuw voertuig uit een ander EU-land, zelfs wanneer de koper een particulier is. De particuliere koper doet aangifte per voertuig binnen tien dagen na de verwerving. Bij de inschrijving hoort een mededeling over de intracommunautaire verwerving."
+        },
+        {
+          "kind": "regel",
+          "title": "Kfz-Steuer via de douane",
+          "body": "Het Hauptzollamt van de douane, en niet het Finanzamt, int de Kfz-Steuer, die op de dag van de inschrijving ingaat. Betaling gebeurt via SEPA-domiciliëring."
+        },
+        {
+          "kind": "tip",
+          "title": "De groene milieuplakette",
+          "body": "Of een wagen een groene Umweltplakette krijgt, hangt af van de emissiesleutel in veld 14.1 van de Zulassungsbescheinigung Teil I. Kunt u bij een buitenlandse wagen de norm niet uit de papieren halen, dan kan een attest van de fabrikant vereist zijn."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat als mijn Spaanse wagen geen COC heeft?",
+          "a": "Dan vraagt u het COC bij de fabrikant op. Bestaat het niet, dan is een Vollgutachten van TÜV of een gelijkwaardige instantie nodig. Auto's van voor 1996, motorfietsen van voor 2005 en omgebouwde voertuigen missen in de regel hun COC."
+        },
+        {
+          "q": "Is een wagen van buiten de EU, bijvoorbeeld uit Zwitserland, moeilijker?",
+          "a": "Ja. Voor zulke voertuigen bestaat geen COC. Nodig zijn een Einzelgenehmigung en een Vollgutachten van TÜV of DEKRA, en het Gutachten geldt enkel in Duitsland. Gebruikte voertuigen buiten de EU moeten vóór de inschrijving ook een Hauptuntersuchung ondergaan."
+        },
+        {
+          "q": "Mag ik de gekochte wagen zelf naar Duitsland rijden?",
+          "a": "Alleen als hij ingeschreven en verzekerd is, het eenvoudigst met een uitvoerplaat van het land van aankoop. Een Duits Kurzzeitkennzeichen kan niet voor een wagen uit een andere EU-lidstaat. Op een open autotransporter van Mcars speelt de plaat voor het vervoer geen rol."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Duitsland: Santander en Vigo, de rit naar Baden-Württemberg, COC, keuring en Zulassungsstelle in het kort.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Puerto_de_Santander",
+        "https://es.wikipedia.org/wiki/Puerto_de_Vigo",
+        "https://es.wikipedia.org/wiki/Stellantis_Vigo",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://de.wikipedia.org/wiki/Europabr%C3%BCcke_(Kehl)",
+        "https://gis.uba.de/website/umweltzonen/index.php",
+        "https://de.wikipedia.org/wiki/Dieselfahrverbot",
+        "https://www.evz.de/reisen-verkehr/auto/ueberfuehrung-und-zulassung.html",
+        "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+        "https://www.buzer.de/s1.htm?a=8&g=FZV&dorg=1",
+        "https://www.finanzverwaltung.nrw.de/sites/default/files/asset/document/merkblatt_fahrzeugeinzelbesteuerung_fae201_202_0.pdf",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/kraftfahrzeugsteuer_node.html",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/kurzzeitkennzeichen/",
+        "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/fahrverbote-umweltzonen/umweltplaketten/",
+        "https://www.tuv.com/germany/de/lp/mobilit%c3%a4t/vollabnahme/main-navigation/importeur/"
+      ]
+    },
+    "spanje-italie": {
+      "lead": "Een wagen uit de streek van Valencia die naar Italië moet, rijdt eerst langs de Spaanse kust, dan door Zuid-Frankrijk en komt via de Ligurische kust of door een Alpentunnel aan. Italië heeft een eigen loket voor de inschrijving en kijkt scherp naar wie de wagen brengt. Wie de papieren niet op orde heeft, mag hem er niet zelf naartoe rijden. Hieronder leest u wat op deze route echt speelt.",
+      "facts": [
+        {
+          "label": "Loket",
+          "value": "Inschrijving via een Sportello Telematico dell'Automobilista, kortweg STA"
+        },
+        {
+          "label": "Vertaling",
+          "value": "Buitenlandse documenten vragen een gecertificeerde Italiaanse vertaling"
+        },
+        {
+          "label": "Fréjustunnel",
+          "value": "Twee buizen en een maximale voertuighoogte van 4,30 meter"
+        },
+        {
+          "label": "Zondagsverbod",
+          "value": "Vrachtwagens boven 7,5 ton rijden zondag van 9 tot 22 uur niet"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Valencia en op de Balearen",
+          "body": [
+            "Op de Muelle Dique del Este in de haven van Valencia liggen twee terminals voor auto's en ro-ro-lading. De havenautoriteit beheert ook de havens van Sagunto en Gandía. Voertuigen die voor export klaarstaan of net uit een ander land zijn aangekomen, staan dus vaak in dit havengebied.",
+            "De Balearen liggen enkel per schip bereikbaar. Vanuit de haven van Palma varen er lijnen naar Barcelona, Valencia, Ibiza en Maó op Menorca, en ferry's naar het vasteland vertrekken ook vanuit Dénia. Voor een transport over de weg eindigt de rit vanaf de eilanden dus altijd in een haven op het vasteland.",
+            "Wie een wagen vanop Mallorca naar Italië laat brengen, plant de overtocht dus apart van het wegtransport. Mcars vervoert wagens van tweedeverblijvers in Spanje, en staat klaar op het vasteland zodra de wagen van de boot is."
+          ]
+        },
+        {
+          "heading": "Langs de Spaanse en Franse kust",
+          "body": [
+            "De Spaanse AP-7 gaat aan de grens bij La Jonquera over in de Franse A9, naar Perpignan, Montpellier en Orange. Vanaf Orange loopt de A8, La Provençale, over 224 km van Aix-en-Provence langs Fréjus, Cannes, Nice en Monaco naar Menton aan de Italiaanse grens.",
+            "De A9 is een tolweg van ASF, de A8 heeft tolpleinen onder meer bij La Barque, Antibes, Nice-Saint-Isidore en La Turbie. Tussen Nice en Menton bestaat de weg uit een aaneenschakeling van tunnels en viaducten met stevige hellingen. Vrachtwagens zijn daar in de tunnels beperkt tot 70 km/u, en in juli en augustus is het druk, met geregeld files bij Aix en Cannes."
+          ]
+        },
+        {
+          "heading": "Ligurië: de Autostrada dei Fiori",
+          "body": [
+            "Aan de grens bij Menton wordt de Franse A8 de Italiaanse A10, de Autostrada dei Fiori naar Genua. Tussen Genua en Nice meet ze 158 km, met 78 tunnels onderweg. Ze behoort tot de duurste tolwegen van Italië.",
+            "De toegelaten snelheid op de A10 tussen Albisola en Genua-Voltri bedraagt 80 km/u. Voor een volgeladen autotransporter is dat een vaste factor in de planning van de aankomst, zeker als het afleveradres in Genua of verderop in Piemonte ligt."
+          ],
+          "points": [
+            "De A10 kent veel tunnels, dus weinig plek om te stoppen.",
+            "Hoge tolkosten wegen mee in de keuze voor deze route.",
+            "Een pech of stilstand in een tunnel zet het verkeer meteen vast."
+          ]
+        },
+        {
+          "heading": "Over de Alpen: Fréjus en Mont Blanc",
+          "body": [
+            "Voor Piemonte en het Aostadal is er een alternatief via de Alpen. De Fréjustunnel van Modane naar Bardonecchia is 12,87 km lang, heeft een limiet van 70 km/u en vraagt 150 m onderlinge afstand. De tunnel heeft inmiddels twee buizen, en de maximale voertuighoogte is 4,30 m.",
+            "De Mont Blanctunnel van Chamonix naar Courmayeur is 11,6 km lang. Na de brand van 1999 werd ze heropend in 2002. Vrachtwagens rijden er in groepen van vijf, met 150 m afstand en 50 tot 70 km/u.",
+            "De Mont Blanctunnel kan voor onderhoud tijdelijk dicht zijn. Bij een sluiting wijkt het grootste deel van het vrachtverkeer uit naar de Fréjustunnel. Plan een transport naar het noordwesten van Italië dus nooit op één tunnel."
+          ]
+        },
+        {
+          "heading": "De inschrijving in Italië",
+          "body": [
+            "Wie in Italië een wagen uit een ander EU-land inschrijft, doet dat via een Sportello Telematico dell'Automobilista, bij de Motorizzazione, een ACI-PRA-kantoor of een erkend agentschap. Kentekenregistratie en PRA-inschrijving gebeuren daar in één beweging. Een gebruikte EU-wagen vraagt bij de STA om het formulier istanza unificata, een gewaarmerkte verkoopverklaring, een identiteitsbewijs en de codice fiscale van de koper, onder meer.",
+            "Een gecertificeerde Italiaanse vertaling hoort bij elk buitenlands document, en die kan komen van een consulaat, een diplomatieke vertegenwoordiging of een beëdigd vertaler. Bent u al langer dan drie maanden in Italië gevestigd, dan rijdt u de aangekochte wagen niet zelf naar huis met een buitenlandse plaat of een tijdelijke exportplaat. Vervoer door een gespecialiseerd bedrijf noemt de bron de gangbare oplossing.",
+            "Komt de wagen van buiten de EU, dan gaat hij eerst langs de Motorizzazione Civile. Na ontvangst van de carta di circolazione heeft de eigenaar zestig dagen om de wagen in het PRA in te schrijven."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Italiaanse rijverboden voor vrachtverkeer",
+          "body": "Boven 7,5 ton geldt zondag een verbod van 9 tot 22 uur, in de zomermaanden van 7 tot 22 uur. Daarbij komen zomervrijdagen van 16 tot 22 uur en geselecteerde zomerzaterdagen. Wie uit het buitenland aankomt, ziet het verbod pas vier uur later starten, mits bewijs van herkomst en bestemming."
+        },
+        {
+          "kind": "regel",
+          "title": "Kostenposten bij de inschrijving",
+          "body": "Bij de Italiaanse inschrijving komen de IPT volgens voertuigtype en provincie, ACI-rechten, zegelrecht op de aanvraag en op het Documento Unico, rechten van de Motorizzazione en de nummerplaten. Vraag vooraf een overzicht aan het agentschap dat het dossier behandelt."
+        },
+        {
+          "kind": "regel",
+          "title": "Carta di circolazione en revisione",
+          "body": "In Italië rijdt geen auto, moto of aanhangwagen zonder carta di circolazione en inschrijving. De periodieke keuring, de revisione, volgt een eerste keer binnen vier jaar na de eerste inschrijving en daarna om de twee jaar."
+        },
+        {
+          "kind": "tip",
+          "title": "Betaal pas na controle",
+          "body": "Wacht met voorschot of volledige betaling tot de documenten en de staat van de wagen zijn nagekeken. Vooral bij wagens van buiten Europa gaat u best na of de Italiaanse inschrijving technische aanpassingen vergt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik de wagen zelf met de Spaanse plaat naar Italië rijden?",
+          "a": "Niet als u al langer dan drie maanden in Italië woont. Dan mag de aangekochte wagen niet met de buitenlandse of een tijdelijke exportplaat naar huis worden gereden. Vervoer door een gespecialiseerd bedrijf is de gangbare oplossing."
+        },
+        {
+          "q": "Welke papieren hoort een herinschrijving in Italië te bevatten?",
+          "a": "Kentekenbewijs (beide delen als het er twee zijn), eigendomsbewijs, bewijs van betaalde btw, bewijs van verzekering en bewijs van technische goedkeuring in het vorige land."
+        },
+        {
+          "q": "Aanvaardt Italië mijn Spaanse autoverzekering?",
+          "a": "De Italiaanse autoriteiten moeten een verzekering aanvaarden van elke verzekeraar die in de EU gevestigd is of er diensten mag verlenen. Een bewijs van verzekering hoort bij de herinschrijving, dus vraag het aan de verzekeraar voordat het dossier wordt ingediend."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Italië: de rit langs de Côte d'Azur, A10, Fréjus en Mont Blanc, en de Italiaanse inschrijving via STA en PRA.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Puerto_de_Valencia",
+        "https://es.wikipedia.org/wiki/Puerto_de_Palma_de_Mallorca",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/A8_autoroute",
+        "https://fr.wikipedia.org/wiki/Autoroute_A8_(France)",
+        "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://www.ilpost.it/2025/09/01/traforo-monte-bianco-chiuso/",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/traforo-del-frejus-costo-orari-e-chiusure/",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://www.alvolante.it/da_sapere/legge-e-burocrazia/importare-un-auto-dall-estero-costi-tempi-e-tasse-381577",
+        "https://europa.eu/youreurope/citizens/vehicles/registration/formalities//italy/index_it.htm",
+        "https://aci.gov.it/codice-della-strada/art-93/",
+        "https://aci.gov.it/codice-della-strada/art-80/"
+      ]
+    },
+    "spanje-zwitserland": {
+      "lead": "Aan de Costa del Sol staan wagens van Britten, Duitsers, Scandinaven en Fransen die er wonen of overwinteren, en soms vindt zo'n wagen een koper in Zwitserland. Dat is de verste route van Andalusië naar het noorden en tegelijk de enige met een echte douanegrens. Zwitserland ligt buiten de EU: de wagen moet worden aangegeven, ook als hij uit een EU-land komt.",
+      "facts": [
+        {
+          "label": "Douanegrens",
+          "value": "Zwitserland maakt geen deel uit van het douane- en belastinggebied van de EU"
+        },
+        {
+          "label": "Invoerrechten",
+          "value": "Wegvoertuigen betalen geen invoerrechten meer, de aangifte blijft verplicht"
+        },
+        {
+          "label": "Binnenkomst Genève",
+          "value": "De A1 begint aan de grensovergang Bardonnex-Saint-Julien"
+        },
+        {
+          "label": "Nacht- en zondagverbod",
+          "value": "Voertuigen boven 3,5 ton rijden niet van 22 tot 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek aan de Costa del Sol",
+          "body": [
+            "Britse, Duitse, Scandinavische en Franse bezoekers en inwoners maken van de Costa del Sol een belangrijke bestemming voor residentieel toerisme. Wagens die hier staan, dragen dus vaak een buitenlandse plaat.",
+            "Andalusië ligt het verst van de Franse grens. De aanrijroutes zijn de A-4 via Madrid, of de A-7 en de AP-7 langs de kust. Voor een rit naar Genève is dat een lange aanloop vóór de eigenlijke grens.",
+            "In de zomer geldt op de Andalusische kustwegen op zaterdag een verbod voor zware vrachtwagens, van 10 tot 14 uur, van juni tot augustus. Een ophaling aan de kust plant u dus liever niet op een zomerzaterdagochtend."
+          ]
+        },
+        {
+          "heading": "Van La Jonquera naar Genève",
+          "body": [
+            "La Jonquera is de belangrijkste grensovergang over de Oostelijke Pyreneeën. Het tracé van de AP-7 komt daar overeen met de oude Romeinse Via Augusta. Aan de Franse kant begint de A9, een tolweg van ASF, die het verkeer naar het noorden voert. Welk Frans vervolg naar Genève de chauffeur kiest, hangt af van verkeer en weer, maar het eindpunt blijft de grensovergang Bardonnex.",
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton in vakantieperiodes meer dan alleen het weekend. Zwitserland voegt daar een eigen regel aan toe: voertuigen boven 3,5 ton mogen niet rijden van 22 tot 5 uur, en ook zondag niet. Trekkers met oplegger vallen boven 5 ton onder dezelfde regel, en een aanhanger boven 3,5 ton ook.",
+            "Uitzonderingen zijn er enkel voor onvermijdelijke ritten, en vanuit het buitenland beslist het kanton van binnenkomst."
+          ]
+        },
+        {
+          "heading": "Aankomst in Genève, Vaud en Wallis",
+          "body": [
+            "Frankrijk omringt het kanton Genève bijna helemaal. Een groot deel van de inwoners heeft geen Zwitsers paspoort, en er zijn veel internationale organisaties, banken en handelshuizen. De A1 begint aan de grensovergang Bardonnex-Saint-Julien-en-Genevois en sluit daar aan op de Franse A41. Wie uit Zuid-Frankrijk of Spanje komt, rijdt Zwitserland hier binnen.",
+            "In La Praille in Lancy liggen de Ports Francs et Entrepôts de Genève, een vrijhaven waar goederen als in transit gelden. Pas op het moment dat de goederen het entrepot verlaten, worden invoerrechten en belastingen verschuldigd. De bron noemt kunst, wijn en goud, maar klassieke of andere wagens worden er niet vermeld. Vraag het dus altijd na vóór u een wagen daar laat afleveren.",
+            "Mcars rijdt open, meerlaagse autotransporters met lier. Voor een wagen in een Genèvese woonwijk is het belangrijk vooraf het adres en de toegankelijkheid af te stemmen."
+          ]
+        },
+        {
+          "heading": "De Zwitserse douane",
+          "body": [
+            "Zwitserland maakt geen deel uit van het douane- en belastinggebied van de EU. Sinds 1 januari 2024 heft het geen invoerrechten meer op wegvoertuigen, maar de wagen moet nog altijd worden aangegeven. Bij de invoer van personenwagens en bepaalde lichte bestelwagens is een automobielbelasting verschuldigd, de Automobilsteuer. Motorfietsen vallen er niet onder. Daarbovenop komt btw. Meestal bestaat de grondslag uit de betaalde prijs, plus de transportkosten tot de bestemming in Zwitserland en de automobielbelasting.",
+            "Mee te brengen bij de aangifte: de elektronische douaneaangifte (e-dec), de factuur of het koopcontract, het inschrijvingsbewijs, ook als het al geannuleerd is, en een identiteitsbewijs. De e-dec kan tot dertig dagen vóór de grensoverschrijding via de gratis webtoepassing van de Zwitserse douane worden opgemaakt. De douane raadt aan een douane-expediteur in te schakelen."
+          ]
+        },
+        {
+          "heading": "Keuring en inschrijving",
+          "body": [
+            "Voor de Zwitserse inschrijving is een testrapport 13.20 A nodig, een COC voor de MFK-keuring en zo nodig een CO2-attest. Met het chassisnummer gaat u in het ASTRA-portaal na of er een elektronisch COC beschikbaar is. Is dat niet zo, dan vraagt u een papieren COC aan bij de dealer of fabrikant. Het is er enkel voor voertuigen met EG-typegoedkeuring, en een toelating is daarmee niet gegarandeerd.",
+            "Vraag de Spaanse verkoper daarom vooraf om het COC en om het volledige inschrijvingsbewijs. Zonder die papieren kan de Zwitserse inschrijving niet beginnen, ook al staat de wagen al in Genève."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Aangeven tijdens de openingsuren",
+          "body": "Bij het grenskantoor geeft u een in het buitenland gekochte wagen aan, binnen de openingsuren. Een Vormerkschein 15.25 aan de grens maakt inklaring in het binnenland mogelijk. Bij een twijfelachtige of ontbrekende waardeopgave mag de douane de waarde zelf schatten."
+        },
+        {
+          "kind": "regel",
+          "title": "CO2-regeling voor nieuwe wagens",
+          "body": "Voor nieuwe personen- en bestelwagens die de CO2-doelwaarde overschrijden, is vóór de eerste inschrijving een sanctie verschuldigd, achteraf geïnd door het Bundesamt für Energie. Vrijgesteld zijn wagens die meer dan 12 maanden eerder in het buitenland werden ingeschreven, of meer dan 6 maanden en met meer dan 5.000 km."
+        },
+        {
+          "kind": "regel",
+          "title": "De termijn verschilt per kanton",
+          "body": "Elk kanton heeft een eigen termijn voor het inschrijven van een in het buitenland gekochte wagen. Voor Zürich gaat het om één maand na de invoerdatum, voor Graubünden om drie maanden. Vraag bij het kanton van het afleveradres wat geldt."
+        },
+        {
+          "kind": "regel",
+          "title": "Abgaswartungsdokument en niet-Europese wagens",
+          "body": "Tenzij OBD ze vrijstelt, hebben wagens die ongeveer tussen 1976 en 2006 voor het eerst in het verkeer kwamen een Zwitsers uitlaatgasonderhoudsdocument nodig. Wagens van buiten Europa vragen extra bewijzen, onder meer gelaagd voorruitglas en een snelheidsmeter in km/u."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik de wagen zelf aanmelden bij de douane?",
+          "a": "Ja. Op eigen initiatief meldt u de wagen aan bij een douanekantoor voor handelsgoederen, met e-dec, koopcontract, kentekenbewijs en identiteitsbewijs. De douane raadt aan een expediteur in te schakelen."
+        },
+        {
+          "q": "Moet een trekhaak vermeld worden?",
+          "a": "Ja. Heeft de wagen een trekhaak, geef die dan door bij de inschrijving, zodat hij op het inschrijvingsbewijs terechtkomt. Laat dat dus controleren vóór de wagen op het transport komt."
+        },
+        {
+          "q": "Heb ik tijdelijke platen nodig als de wagen naar Zwitserland wordt gebracht?",
+          "a": "Wie de wagen op eigen wielen brengt, heeft meestal tijdelijke buitenlandse platen nodig. Het land van uitvoer of de verkoper informeert u daarover, de Zwitserse douane niet. Op een open autotransporter rijdt de wagen niet op eigen wielen."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Zwitserland: de rit naar Genève, douane met e-dec, Automobilsteuer, btw en Zwitserse inschrijving in het kort.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Costa_del_Sol",
+        "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/spain",
+        "https://en.wikipedia.org/wiki/La_Jonquera",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+        "https://de.wikipedia.org/wiki/Autobahn_A1_(Schweiz)",
+        "https://de.wikipedia.org/wiki/Kanton_Genf",
+        "https://fr.wikipedia.org/wiki/Ports_Francs_et_Entrepôts_de_Genève",
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/import-export/fahrzeugexport-schweiz/",
+        "https://www.zh.ch/de/mobilitaet/fahrzeuge-kontrollschilder/import-fahrzeuge.html",
+        "https://www.gr.ch/DE/institutionen/verwaltung/djsg/stva/fahrzeugausweis/Seiten/import.aspx",
+        "https://www.bazg.admin.ch/dam/de/sd-web/xG5rXtRXNkO2/mit_fahrzeugen_durchdenschweizerzollform1549.pdf"
+      ]
+    },
+    "spanje-oostenrijk": {
+      "lead": "Een wagen uit Madrid of Castilië die naar Tirol moet, rijdt door Spanje, Frankrijk en het noorden van Italië voor hij de Brenner over gaat. Oostenrijk vraagt aan de kant van de koper de NoVA, een belasting die vóór de inschrijving betaald moet zijn. Wie vanuit Spanje levert, denkt dus al bij het laden aan Innsbruck en het Finanzamt.",
+      "facts": [
+        {
+          "label": "Belasting",
+          "value": "NoVA is verschuldigd bij elke invoer, ongeacht de leeftijd van de wagen"
+        },
+        {
+          "label": "Betaling",
+          "value": "Betaling van de NoVA aan het Finanzamt moet voor de inschrijving gebeurd zijn"
+        },
+        {
+          "label": "Brenner",
+          "value": "A22 in Italië en A13 in Oostenrijk bij de Brennerpas"
+        },
+        {
+          "label": "Overbrengingsplaat",
+          "value": "Buitenlandse uitvoerplaat geldt in Oostenrijk hoogstens vier weken"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Madrid en in het binnenland",
+          "body": [
+            "Madrid is het vertrekpunt van de zes radiale autosnelwegen. Richting Portugal loopt de A-5 van Madrid via Talavera de la Reina, Trujillo en Mérida naar Badajoz. De A-62 loopt over ongeveer 355 km van Burgos via Palencia, Valladolid en Salamanca naar Fuentes de Oñoro, en is een belangrijke as tussen Portugal en Frankrijk.",
+            "Richting Frankrijk volgt een wagen uit Madrid de A-1 via Burgos naar Irun. Op zondagavond zijn de toegangswegen tot Madrid in de zomer, van eind juni tot begin september, voor zware vrachtwagens verboden van 21 tot 23 uur, op de A-5 tot 24 uur. Een ophaling in de hoofdstad plant u dus voor het eind van de middag.",
+            "Mcars rijdt met open, meerlaagse autotransporters met Kässbohrer-opbouw en 8 vaste chauffeurs, Nederlands- én Franstalig. Bij ophaling in Madrid maken we een inspectie en foto's, en de wagen is verzekerd tijdens het transport."
+          ]
+        },
+        {
+          "heading": "Over de kust naar Genua en dan de Brenner op",
+          "body": [
+            "De rit van Spanje naar Oostenrijk loopt in grote lijnen via de Spaanse AP-7 naar La Jonquera, de Franse A9, de A7 en de A8 naar Menton en de Italiaanse A10 naar Genua. Noordwaarts volgen de A4 en de A22.",
+            "De A22, de Autostrada del Brennero, loopt over ongeveer 313 km van de A1 bij Modena naar de Brennergrens, via Verona, Trento en Bolzano. Zwaar verkeer maakt ongeveer een derde van het totaal uit. Winterbanden of kettingen aan boord zijn tussen 15 november en 15 april verplicht langs de hele A22. Op ongeveer km 299 ligt de Autoporto Sadobre bij Vipiteno, een vrachtwagenparking vlak voor de Brenner.",
+            "De Brennerpas ligt op ongeveer 1.370 m. Sinds Schengen zijn er geen vaste grenscontroles, maar Oostenrijk voerde ze later opnieuw in. Hou de papieren van de wagen en de chauffeur dus bij de hand."
+          ]
+        },
+        {
+          "heading": "Aankomst in Tirol",
+          "body": [
+            "Tirol grenst aan Duitsland, met de A12 tot de grens bij Kufstein en Kiefersfelden en de aansluiting op de Duitse A93, aan Italië, met de A13 over de Brennerpas en de Reschenpass, en aan Zwitserland, met het drielandenpunt bij de Reschenpass. Naar Vorarlberg en Zwitserland loopt de A12/S16 door de Arlbergtunnel. Bij Innsbruck kruist de A13 de A12 in het Inntal.",
+            "Oostenrijk verbiedt vrachtwagens van zaterdag 15 uur tot zondag 22 uur, met een extra zomerzaterdag van 7 tot 15 uur op toeristische routes. Italië laat het verbod richting buitenland twee uur eerder eindigen.",
+            "Bij Kufstein geldt een blokafhandeling voor voertuigen boven 7,5 ton zuidwaarts op de A12, op een beperkt aantal dagen per jaar. Voor deze rit speelt ze vooral mee als de wagen ook via Duitsland rijdt."
+          ]
+        },
+        {
+          "heading": "De NoVA en wat telt als nieuw",
+          "body": [
+            "De NoVA is een registratiebelasting die bij elke invoer verschuldigd is, ongeacht de leeftijd, op basis van CO2 en de Oostenrijkse marktwaarde. Ze moet vóór de inschrijving aan het bevoegde Finanzamt worden betaald. De NoVA berekent de eerste houder op wiens naam de wagen komt, zelf met formulier NoVA 2. Als eigen invoer, met NoVA als gevolg, tellen eveneens schenking, erfenis en verhuizing.",
+            "Voor de belasting geldt een wagen als nieuw als hij minder dan 6.000 km heeft gereden óf minder dan zes maanden voor de aankoop voor het eerst in gebruik is genomen. Eén van beide volstaat. Pas bij zowel meer dan 6.000 km als meer dan zes maanden telt hij als gebruikt.",
+            "Bij een gebruikte wagen uit een ander EU-land betaalt de koper de btw aan de buitenlandse verkoper, in Oostenrijk komt er geen btw meer bij. Bij een nieuwe wagen is er geen btw in het land van aankoop, maar wel Oostenrijkse Erwerbsteuer."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Wat de verkoper moet meegeven",
+          "body": "Vraag de Spaanse verkoper om het koopcontract of de betaalde factuur, de originele voertuigpapieren, het COC, de garantiekaart, het onderhoudsboekje en de handleiding. Bij aankoop van een particulier raadt de Oostenrijkse overheid aan het koopcontract door een rechtbank of notaris te laten bekrachtigen."
+        },
+        {
+          "kind": "regel",
+          "title": "Uitvoerplaten en de overbrengingsplaat",
+          "body": "Op een buitenlandse uitvoer- of transitplaat mag u in Oostenrijk rijden tot de plaat afloopt, met vier weken als bovengrens. Beide termijnen, de buitenlandse en de Oostenrijkse, lopen mee, en de eerste die afloopt beslist. Wie met de groene Oostenrijkse overbrengingsplaat het buitenland in rijdt, kan op moeilijkheden stuiten."
+        },
+        {
+          "kind": "regel",
+          "title": "De Genehmigungsdatenbank",
+          "body": "Oostenrijkse goedkeuring is overbodig voor een wagen met EU-typegoedkeuring, maar de inschrijving kan pas als zijn gegevens in de Genehmigungsdatenbank staan. Dat doet de Generalimporteur van het merk. Zonder EU-typegoedkeuring is een Einzelgenehmigung nodig bij de Technische Prüfstelle."
+        },
+        {
+          "kind": "regel",
+          "title": "Geen douane binnen de EU",
+          "body": "Voertuigen die binnen de EU rijden, zijn vrij van douanerechten. Bij een gebruikte wagen met COC uit een andere lidstaat kan het land van bestemming alleen een technische keuring opleggen als dat bij een vergelijkbare binnenlandse aankoop eveneens zou gebeuren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn wagen in Madrid zonder milieulabel de zone in?",
+          "a": "Madrid heeft een stadsbrede Zona de Bajas Emisiones, met twee zones met bijzondere bescherming: Distrito Centro en Plaza Elíptica. De actuele toegangsregels per sticker moet u zelf nakijken bij de gemeente."
+        },
+        {
+          "q": "Waar laat ik de wagen in Spanje keuren?",
+          "a": "De autonome gemeenschap waarin een ITV-keuringsstation ligt, is ervoor bevoegd. Meestal zijn het concessies, in sommige gemeenschappen baat de overheid ze zelf uit. Kies dus het station in de regio van het ophaaladres."
+        },
+        {
+          "q": "Telt de Spaanse keuring in Oostenrijk?",
+          "a": "Niet altijd. De Oostenrijkse keuringstermijn geldt ook als de buitenlandse keuring langer geldig is, en voor de inschrijving van een gebruikte wagen is een geldig positief keuringsverslag nodig. Buitenlandse keuringsstickers gelden er niet."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Oostenrijk: Madrid, de Brenner en Tirol, plus NoVA, btw en inschrijving. Wat u moet weten voor het autotransport.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_de_Castilla",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Suroeste",
+        "https://es.wikipedia.org/wiki/Madrid_Central",
+        "https://es.wikipedia.org/wiki/Inspecci%C3%B3n_t%C3%A9cnica_de_veh%C3%ADculos",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://de.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+        "https://www.autoscout24.at/informieren/ratgeber/kauf-im-ausland/auto-importieren-oesterreich/",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/Seite.061510",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061521",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061522",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061523",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061524",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/13/Seite.061610",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/9/Seite.063509",
+        "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/normverbrauchsabgabe-nova.html"
+      ]
+    },
+    "spanje-polen": {
+      "lead": "Een wagen van de Canarische Eilanden die naar Polen moet, reist langer dan bijna elke andere: eerst per schip naar Huelva of Cádiz, dan door heel Spanje, Frankrijk en Duitsland tot Świecko. Polen controleert de papieren aandachtig en vraagt een accijns die elke koper treft. Wie weet wat daar komt, kan het transport zo plannen dat de wagen niet moet wachten op een document.",
+      "facts": [
+        {
+          "label": "Canarische belasting",
+          "value": "De IGIC vervangt er de btw en belast ook de invoer"
+        },
+        {
+          "label": "Tijdelijke inschrijving",
+          "value": "In Polen dertig dagen, daarna volgt de definitieve inschrijving"
+        },
+        {
+          "label": "Accijns",
+          "value": "Aangifte AKC-U/S via het platform PUESC, voor elke koper"
+        },
+        {
+          "label": "Westgrens",
+          "value": "A2 sluit bij Świecko aan op de Duitse A12"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek op de Canarische Eilanden",
+          "body": [
+            "Voor een transport over de weg eindigt de rit van de Canarische Eilanden altijd in een haven op het vasteland. Schepen vertrekken vanuit Huelva en Cádiz naar Las Palmas de Gran Canaria en Santa Cruz de Tenerife. Fred. Olsen Express vaart de lijn Huelva-Las Palmas-Santa Cruz, waarbij een van de schepen gedeeld wordt met partner Baleària.",
+            "Geen btw maar de IGIC, de Impuesto General Indirecto Canario, wordt op de Canarische Eilanden geheven. Ook de invoer van goederen op de eilanden valt eronder, ongeacht wie invoert. Wat dat precies betekent voor een wagen die van het vasteland of uit een ander EU-land komt, moet bij de Canarische fiscus of een douane-expediteur worden nagevraagd.",
+            "Voor Polen betekent dit: vraag de verkoper of de wagen op de eilanden al belast werd en bewaar elk bewijs daarvan. Dat is geen taak voor de vervoerder, maar het bewijs hoort in de transportmap."
+          ]
+        },
+        {
+          "heading": "Een rit door vier landen",
+          "body": [
+            "De rit loopt over de Spaanse AP-7 naar La Jonquera en over de Franse A9, een tolweg van ASF, naar Orange. Het verdere Franse en Duitse vervolg naar het noorden is niet één vaste lijn. De Duitse A5, 445 km langs Frankfurt, Karlsruhe, Freiburg en Basel, is een mogelijke noord-zuid-as.",
+            "Onderweg kruist de wagen vier rijverbodskalenders: Spanje op bepaalde wegen en data, Frankrijk, Duitsland en Polen. Polen kent verboden in zomerweekends en op nationale feestdagen. Een chauffeur die de rit plant, legt de vier kalenders naast elkaar, want één dag kan in het ene land een rijdag en in het andere een rustdag zijn.",
+            "Voor zware voertuigen heeft Polen een e-TOLL: registratie met een goedgekeurd toestel of een app. Het netwerk waarop dat geldt, is uitgebreid. Mcars rijdt met negen open, meerlaagse autotransporters en acht vaste chauffeurs. Elke vrachtwagen heeft een lier, en een volledig geblokkeerde wagen vraagt een heftruck ter plaatse. Bij ophaling maken we een inspectie en foto's en geven we een CMR-vrachtbrief mee."
+          ]
+        },
+        {
+          "heading": "Aankomst via Świecko en Groot-Polen",
+          "body": [
+            "Groot-Polen en Lubusz liggen aan de westgrens en zijn de ingang voor alles wat via Berlijn binnenkomt. De Duitse A12 loopt 58 km van de Berliner Ring naar Frankfurt (Oder) en gaat over de Oderbrug verder als Poolse A2 naar Poznań, Łódź en Warschau. Bij een telling was ruim een kwart van het verkeer op de A12 vrachtverkeer.",
+            "De grensovergang Frankfurt (Oder) en Świecko heeft last van files tot ongeveer 7 km door Duitse en Poolse controles. Er wordt onderzocht of een extra rijstrook in de controlezone kan helpen. Polen voert regelmatig tijdelijke grenscontroles uit aan de grens met Duitsland, en Duitsland controleert in de andere richting. Hou papieren van wagen en chauffeur bij de hand.",
+            "Zuidelijker ligt de overgang Olszyna en Forst, waar de A18 over 76,5 km aansluit op de Duitse A15. Słubice ligt recht tegenover Frankfurt (Oder) en hoort bij de speciale economische zone Kostrzyn-Słubice."
+          ]
+        },
+        {
+          "heading": "Tijdelijk ingeschreven, dan definitief",
+          "body": [
+            "Bij het eerste bezoek aan het kantoor wordt het voertuig tijdelijk ingeschreven: u krijgt een tijdelijke vergunning (pozwolenie czasowe) en kentekenplaten. De definitieve inschrijving volgt binnen dertig kalenderdagen. Het kantoor is het wydział komunikacji van de woonplaats.",
+            "Basisdocumenten voor een gebruikte wagen uit de EU: het aanvraagformulier, het eigendomsbewijs (factuur of verkoopcontract), het buitenlandse kentekenbewijs, het bewijs van technische keuring, het bewijs van betaling van de leges en, waar van toepassing, het accijnsdocument. Neem originelen mee, want met een kopie kan het kantoor u weigeren.",
+            "Als bewijs van keuring aanvaardt de wet een attest van een Pools keuringsstation, het EU-kentekenbewijs als daarin de keuring en de vervaldatum staan, of een ander document van een bevoegde EU-instantie dat de keuring en de geldigheid bevestigt."
+          ]
+        },
+        {
+          "heading": "Accijns: de kost die men vergeet",
+          "body": [
+            "Een accijnsdocument is alleen vereist bij de eerste Poolse inschrijving van personenwagens, bepaalde lichte vierwielers, bepaalde N1-bestelwagens en speciale voertuigen. Als bewijs gelden een betaalde accijns in Polen of het aantonen dat er geen accijns verschuldigd is, bijvoorbeeld met een vrijstellingsattest.",
+            "De aangifte (AKC-U/S) moet veertien dagen na het ontstaan van de belastingplicht zijn ingediend, de accijns zelf dertig dagen na het binnenbrengen van de wagen betaald. Dat kan elektronisch via PUESC. Voor motoren tot 2.000 cm³ geldt een lager tarief dan daarboven, dus een wagen met grote motor rekent u vooraf door.",
+            "Uitgangspunt voor de berekening is de Poolse marktwaarde van de wagen. Staat er een kunstmatig lage prijs op het contract, dan volgt een heraanslag op marktwaarde."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Poolse vertaling van documenten",
+          "body": "Een Poolse vertaling door een beëdigd vertaler of een Poolse consul moet worden toegevoegd aan stukken die in een vreemde taal zijn opgesteld. Een EU-kentekenbewijs hoeft niet vertaald als het enkel de geharmoniseerde EU-codes bevat, en een COC evenmin. Laat een Spaans koopcontract dus vertalen."
+        },
+        {
+          "kind": "regel",
+          "title": "Platen inleveren en duplicaten",
+          "body": "De buitenlandse kentekenplaten worden bij de inschrijving ingeleverd. Is de wagen zonder platen in Polen aangekomen, dan ondertekent de aanvrager een verklaring dat er geen platen zijn. Bij een verloren buitenlands kentekenbewijs hebt u een duplicaat nodig, of een attest van de instantie waar het voertuig het laatst ingeschreven stond."
+        },
+        {
+          "kind": "regel",
+          "title": "Boetes bij een te late inschrijving",
+          "body": "Te laat inschrijven levert administratieve boetes op in twee trappen, namelijk bij 30 tot 180 dagen vertraging en bij meer dan 180 dagen vertraging. Voertuigen die na 1 januari 2016 naar Polen kwamen, zijn niet meer onderworpen aan de vroegere recyclagebijdrage bij invoer."
+        },
+        {
+          "kind": "plek",
+          "title": "De milieuzone van Warschau",
+          "body": "In Warschau mogen benzinewagens van vóór 2000 en diesels van vóór 2009 de Strefa Czystego Transportu niet meer in, behalve met vrijstelling of op maximaal vier dagen per jaar. De stad heeft een online controle waar u per voertuig nakijkt of het de zone in mag."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang mag de wagen in Polen rijden voor de definitieve inschrijving?",
+          "a": "De tijdelijke inschrijving geldt dertig dagen en kan op het kantoor met veertien dagen worden verlengd. Zonder definitieve inschrijving op het moment dat ze afloopt, mag de wagen de openbare weg niet meer op."
+        },
+        {
+          "q": "Betaalt ook een particulier accijns?",
+          "a": "Ja. Elke koper van een in Polen nog niet ingeschreven wagen betaalt de accijns, particulier of bedrijf, bij invoer, intracommunautaire verwerving of eerste verkoop in Polen."
+        },
+        {
+          "q": "Wat als de wagen van buiten de EU komt?",
+          "a": "Dan is een bewijs van douaneafhandeling nodig. Kan men de accijns- of douanedocumenten op de dag zelf niet voorleggen, dan is een voorwaardelijke inschrijving mogelijk, maar de documenten moeten er zijn vóór het kentekenbewijs wordt afgegeven."
+        }
+      ],
+      "seoDescription": "Auto importeren van Spanje naar Polen: de lange rit via Frankrijk en Duitsland, Świecko, accijns, vertalingen en tijdelijke inschrijving in het kort.",
+      "sources": [
+        "https://es.wikipedia.org/wiki/Impuesto_General_Indirecto_Canario",
+        "https://es.wikipedia.org/wiki/Fred._Olsen_Express",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://www.etoll.gov.pl/en/",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://www.nadodrzanski.strazgraniczna.pl/nad/aktualnosci/66852,Tymczasowe-kontrole-graniczne-na-granicy-z-Niemcami-ruszyly-o-polnocy.pdf",
+        "https://en.wikipedia.org/wiki/A18_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/S%C5%82ubice",
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://www.otomoto.pl/news/rejestracja-samochodu-z-niemiec-poradnik-krok-po-kroku",
+        "https://www.podatnik.info/publikacje/podatek-akcyzowy-od-samochodu-kto-i-kiedy-musi-go-zaplacic,637972",
+        "https://warszawa19115.pl/en/-/rejestracja-pojazdu-uzywanego-sprowadzonego-z-zagranicy",
+        "https://formularze.net/blog/rejestracja-samochodu-z-zagranicy-krok-po-kroku",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://um.warszawa.pl/waw/sct/sprawdz-pojazd"
+      ]
+    }
+  }
+}

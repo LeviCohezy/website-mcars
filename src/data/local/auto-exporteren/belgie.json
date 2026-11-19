@@ -1,0 +1,1009 @@
+{
+  "service": "auto-exporteren",
+  "origin": "belgie",
+  "pages": {
+    "belgie": {
+      "lead": "U hebt uw wagen verkocht aan een koper die in het buitenland woont. Dan moet in België eerst het papierwerk kloppen: platen, bewijzen en een bundel documenten voor de koper. Pas daarna verhuist de wagen. Op deze pagina leest u wat u in België zelf regelt en hoe het vervoer binnen het land verloopt.",
+      "facts": [
+        {
+          "label": "X-plaat",
+          "value": "Tijdelijke exportplaat, 30 kalenderdagen geldig, vervalt automatisch"
+        },
+        {
+          "label": "Aanvraagloket",
+          "value": "DIV-loketten in Brussel, City Atrium, Vooruitgangstraat 60"
+        },
+        {
+          "label": "Car-Pass",
+          "value": "Verplicht voor een buitenlandse particuliere koper, niet voor een vakman"
+        },
+        {
+          "label": "Kentekenbewijs",
+          "value": "Volgt de wagen, maar bewijst de eigendom niet"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat de X-plaat wel en niet doet",
+          "body": [
+            "De X-plaat is een tijdelijke Belgische plaat die uitsluitend dient om een voertuig uit te voeren. Ze is 30 kalenderdagen geldig, in bepaalde gevallen van btw-vrijstelling langer. De plaat vervalt vanzelf: de vervaldatum staat erop en u hoeft ze niet apart af te melden. Rekent u dus terug vanaf die datum, want wat de koper in zijn land nog moet doen, moet binnen die periode kunnen.",
+            "Of u voor een wagen die op een vrachtwagen vertrekt een X-plaat nodig hebt, hangt af van de afspraak met de koper en van wat het land van bestemming vraagt. Vraag het na bij de DIV of bij een douaneagentschap voordat u iets aanvraagt. Mcars vervoert de wagen. De plaat en de papieren blijven uw zaak of die van de koper."
+          ]
+        },
+        {
+          "heading": "Wat de koper van u moet krijgen",
+          "body": [
+            "Verkoopt u aan een particulier in het buitenland, dan moet u hem een geldige Car-Pass bezorgen. Alleen als de koper een vakman is, vervalt die plicht. Het Belgische kentekenbewijs is nodig om de wagen te verkopen en volgt het voertuig, maar het is geen bewijs van eigendom. Een factuur of verkoopovereenkomst blijft dus nodig, want daarmee zet de koper de wagen in zijn land op zijn naam."
+          ],
+          "points": [
+            "Een geldige Car-Pass bij een particuliere koper",
+            "Het kentekenbewijs van de wagen",
+            "Een factuur of verkoopovereenkomst met de gegevens van de koper"
+          ]
+        },
+        {
+          "heading": "Binnen België naar de koper of de haven",
+          "body": [
+            "Binnen België rijdt Mcars dagelijks. We rijden met 9 open, meerlaagse autotransporters met Kässbohrer-opbouw en 8 vaste chauffeurs, Nederlands- en Franstalig. Bij ophaling maken we een inspectie en foto's als intern bewijs, en we stellen een CMR-vrachtbrief op. De wagen is tijdens het transport verzekerd.",
+            "Wilt u de wagen liever zelf brengen, dan kan dat op ons depot in Roeselare, Moorseelsesteenweg 16B. Levering daar kan 24/7 en is voordeliger. Particulieren betalen vóór ophaling, bedrijven op factuur. Een wagen die niet meer start, laden we met de lier."
+          ]
+        },
+        {
+          "heading": "Havens waar uitvoerwagens samenkomen",
+          "body": [
+            "De haven van Brugge-Zeebrugge wordt omschreven als een belangrijke haven voor de invoer en uitvoer van nieuwe wagens. Antwerpen en Zeebrugge vormen sinds enkele jaren juridisch één bedrijf, Port of Antwerp-Bruges.",
+            "Verkoopt u een wagen aan een koper overzee of aan een exportbedrijf, dan is een haven vaak het eindpunt van onze rit. Hoe de wagen daarna verscheept wordt, regelt de koper of zijn expediteur. Naar het Verenigd Koninkrijk is er vanuit Zeebrugge geen ferry meer: die verbinding met Hull is gestopt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "DIV-loket in Brussel",
+          "body": "De X-plaat vraagt u aan bij de DIV-loketten in City Atrium, Vooruitgangstraat 60 in Brussel, op weekdagen. Een douaneagentschap, een andere gemachtigde of uw verzekeraar mag u daarbij helpen. Kom met originele documenten, want een kopie volstaat niet. Plan de afspraak ruim voor het vertrek van de wagen."
+        },
+        {
+          "kind": "regel",
+          "title": "Car-Pass voor de buitenlandse koper",
+          "body": "De verkoper moet ook een buitenlandse particuliere koper een geldige Car-Pass geven. Is de koper een garage of handelaar, dan hoeft dat niet. Vraag dus vooraf in welke hoedanigheid de koper koopt."
+        },
+        {
+          "kind": "plek",
+          "title": "Port of Antwerp-Bruges",
+          "body": "In Port of Antwerp-Bruges heeft Antwerpen het grootste aandeel en Zeebrugge het kleinere. Beide havens verwerken roll-on/roll-off, de lading die op eigen wielen of met een trailer aan boord gaat. Voor een wagen die per schip vertrekt, spreekt u het afleverpunt en de laadtijd af met de koper of zijn scheepsagent."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik een X-plaat aanvragen als de wagen op een vrachtwagen vertrekt?",
+          "a": "Dat hangt af van wat de koper en zijn land vragen. De X-plaat dient om een voertuig uit te voeren, is 30 kalenderdagen geldig en vervalt vanzelf. Vraag bij de DIV of een douaneagentschap of ze in uw geval nodig is, voordat u iets aanvraagt. Mcars vervoert, maar regelt dat papierwerk niet."
+        },
+        {
+          "q": "Heb ik een Car-Pass nodig als een garage in het buitenland de wagen koopt?",
+          "a": "Nee, alleen als de koper een particulier is, moet u een geldige Car-Pass bezorgen. Een garage of handelaar geldt als vakman en valt buiten die plicht. Is de koper een privépersoon die in het buitenland woont, dan geldt de plicht wel."
+        },
+        {
+          "q": "Kan ik de wagen zelf naar Roeselare brengen?",
+          "a": "Ja. Levering op het depot in Roeselare, Moorseelsesteenweg 16B, kan 24/7 en is voordeliger dan ophaling aan huis. Vermeld in uw aanvraag dat u zelf komt, dan staat de wagen klaar om op een open, meerlaagse transporter te laden."
+        }
+      ],
+      "seoDescription": "Auto exporteren vanuit België: wat u regelt voor X-plaat, Car-Pass en papieren, en hoe Mcars de wagen binnen België vervoert.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-exporteren-x-plaat",
+        "https://www.car-pass.be/nl/faq",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/kentekenplaat-en-inschrijvingsbewijzen/kentekenbewijs",
+        "https://nl.wikipedia.org/wiki/Haven_van_Brugge-Zeebrugge",
+        "https://nl.wikipedia.org/wiki/Haven_van_Antwerpen-Brugge"
+      ]
+    },
+    "belgie-nederland": {
+      "lead": "Een koper in Nederland, een wagen die in België staat: het is een korte exportrit, maar het papierwerk is niet korter. U schrapt uw Belgische plaat, de koper krijgt met Nederlandse belasting te maken en de wagen rijdt via de A16, de A4 of de N69 naar het noorden. Dit moet u weten voor u afspreekt.",
+      "facts": [
+        {
+          "label": "Schrapping",
+          "value": "Achterplaat verpakt per bpost naar DIV, 1212 Brussel"
+        },
+        {
+          "label": "Plaat afgeven",
+          "value": "Enkel in de inzamelbox, Vooruitgangstraat 56, Brussel"
+        },
+        {
+          "label": "Grensovergangen",
+          "value": "Hazeldonk (A16), Zandvliet (A4) en Zelzate (N62)"
+        },
+        {
+          "label": "Nederlandse belasting",
+          "value": "BPM bij inschrijving van een wagen uit het buitenland"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Uw Belgische plaat schrappen",
+          "body": [
+            "Een Belgische plaat laat u schrappen door de officiële achterplaat verpakt naar de DIV, 1212 Brussel, te sturen via bpost. U mag de plaat plooien om in een A4-omslag te passen, maar niet doorsnijden. Wilt u ze liever persoonlijk afgeven, dan kan dat alleen in de inzamelbox van City Atrium, Vooruitgangstraat 56 in Brussel. De provinciale DIV-antennes nemen geen platen aan.",
+            "Vraag de Nederlandse koper eerst welke Belgische documenten hij bij zijn inschrijving nodig heeft. Dan weet u of u de plaat al kunt schrappen of beter wacht tot de wagen bij hem staat."
+          ]
+        },
+        {
+          "heading": "Wat de Nederlandse koper aan belasting tegenkomt",
+          "body": [
+            "Wie een wagen uit het buitenland in Nederland inschrijft, krijgt met de BPM te maken. De Belastingdienst heeft een aparte pagina voor de BPM-aangifte bij invoer. De afschrijving van de wagen wordt bepaald via de koerslijst, een taxatierapport of een forfaitaire tabel. ",
+            "De Belastingdienst heeft ook aparte pagina's voor wie een wagen met een buitenlandse plaat leent, huurt of least. Een wagen met een Belgische plaat is in Nederland dus niet altijd vrijgesteld van aangifte. De koper laat de termijnen en de procedure best vooraf bij de RDW en de Belastingdienst nakijken."
+          ]
+        },
+        {
+          "heading": "De weg: A16, A4 of N69",
+          "body": [
+            "Vanuit de regio Antwerpen zijn er drie logische doorgangen. De E19/A1 loopt van Brussel via Mechelen en Antwerpen naar de grens bij Meer/Hazeldonk en gaat in Nederland als A16 verder naar Breda en Rotterdam. De A12 volgt de A4 naar Bergen op Zoom, en de E34/A21 loopt via Turnhout en Postel naar de A67 richting Eindhoven.",
+            "Vanuit het oosten van de provincie komt de N74 via Lommel in de Nederlandse N69, waar overal 80 km/u geldt. Aan Zeeuwse kant loopt de N62 als autoweg langs Zelzate naar Terneuzen. Welke route een transporteur kiest, hangt af van het adres van de koper en niet van de wagen."
+          ]
+        },
+        {
+          "heading": "Nederlandse kilometerheffing voor de vrachtwagen",
+          "body": [
+            "Nederland kent een kilometerheffing voor vrachtwagens boven 3.500 kg, ook voor buitenlandse. Het tarief hangt af van de toegelaten massa en de CO2-klasse. Het eurovignet is niet meer nodig. De transporteur heeft een contract met een dienstverlener nodig en een werkend boordtoestel dat aan staat zolang de wagen in Nederland rijdt.",
+            "Een Satellic-toestel werkt alleen in België. Voor ritten naar Nederland heeft de vervoerder dus een toestel of dienstverlener nodig die ook dat land dekt. Dat is zijn zaak en niet de uwe, maar het verklaart waarom een rit naar het noorden meer is dan even over de grens."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "BPM bij inschrijving in Nederland",
+          "body": "De BPM is de belasting die de koper betaalt als hij een wagen uit het buitenland inschrijft. De afschrijving wordt bepaald via koerslijst, taxatierapport of forfaitaire tabel. Geef de koper een duidelijke factuur en alle papieren van de wagen mee, zodat hij zijn aangifte kan onderbouwen."
+        },
+        {
+          "kind": "plek",
+          "title": "Westerscheldetunnel naar Zeeuws-Vlaanderen",
+          "body": "De Westerscheldetunnel (6,6 km, N62) verbindt Terneuzen met Zuid-Beveland. Personenwagens en motoren betalen er geen tol meer, andere motorvoertuigen nog wel. De maximale doorrijhoogte is 4,30 m, wat voor een meerlaagse autotransporter telt. Een koper in Zeeland of West-Brabant vraagt dus om een rit waarbij de hoogte van de combinatie is nagekeken."
+        },
+        {
+          "kind": "plek",
+          "title": "Waaslandhaven en de Liefkenshoektunnel",
+          "body": "De Waaslandhaven is het deel van de Antwerpse haven op de linkeroever, met onder meer het Vrasenedok en het Deurganckdok. Ze wordt ontsloten via de R2 naar de A11/E34. De Liefkenshoektunnel op de R2 is een toltunnel voor alle voertuigen, waarbij het tarief afhangt van de hoogte: lager dan 3 meter of 3 meter en hoger."
+        },
+        {
+          "kind": "tip",
+          "title": "Nederlandse feestdagen",
+          "body": "Op Koningsdag, Bevrijdingsdag, Hemelvaart, Tweede Pinksterdag, Goede Vrijdag, Tweede Paasdag en met Kerst kunnen kantoren en keuringsstations dicht zijn. Hebt u of de koper een afspraak bij de RDW of een keuringsstation nodig, kijk dan welke feestdag er tussen de koop en de levering valt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is een Belgische plaat in Nederland vrijgesteld van aangifte?",
+          "a": "Niet altijd. De Belastingdienst heeft aparte pagina's voor wie een wagen met een buitenlandse plaat leent, huurt of least. Rijdt de koper de wagen definitief in Nederland, dan krijgt hij bij inschrijving met de BPM te maken. Laat hem dat vooraf nakijken."
+        },
+        {
+          "q": "Mag ik mijn Belgische plaat gewoon in een brievenbus gooien?",
+          "a": "Nee. De officiële achterplaat gaat verpakt per bpost naar DIV, 1212 Brussel, en mag geplooid maar niet doorgesneden worden. Persoonlijk afgeven kan alleen in de inzamelbox in City Atrium, Vooruitgangstraat 56 in Brussel."
+        },
+        {
+          "q": "Zijn er in Nederland weekendverboden voor vrachtwagens?",
+          "a": "Nederland kent geen algemeen rijverbod voor vrachtwagens in het weekend of op feestdagen. Beperkingen gelden enkel voor uitzonderlijk vervoer, bij gladheid of bij zicht onder 200 meter. Dat geeft speelruimte, al blijft een afspraak met de koper afhankelijk van de planning."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Nederland: plaat schrappen bij de DIV, BPM voor de koper en de weg via A16, A4 en N69.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven-en-schrappen/mijn-kentekenplaat-schrappen/schrapping",
+        "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/auto_en_vervoer/belastingen_op_auto_en_motor/bpm/",
+        "https://nl.wikipedia.org/wiki/Vrachtwagenheffing",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://www.timocom.co.uk/truck-driving-bans/netherlands",
+        "https://nl.wikipedia.org/wiki/Westerscheldetunnel",
+        "https://nl.wikipedia.org/wiki/Waaslandhaven",
+        "https://nl.wikipedia.org/wiki/Liefkenshoektunnel",
+        "https://nl.wikipedia.org/wiki/A1_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Provinciale_weg_69"
+      ]
+    },
+    "belgie-luxemburg": {
+      "lead": "Een koper in Luxemburg koopt vaak van een Belgisch adres en woont niet in België. Dat bepaalt welke plaat hij kan krijgen en welke papieren de DIV wil zien. De rit zelf is eenvoudig: één doorlopende autosnelweg van Brussel tot Luxemburg-stad. Wat in de weg staat, zijn de regels rond de wagen en de zondag.",
+      "facts": [
+        {
+          "label": "Autosnelweg",
+          "value": "A4/E411 tot de grens, daarna A6/E25 in Luxemburg"
+        },
+        {
+          "label": "Grensovergang",
+          "value": "Sterpenich in België, Kleinbettingen of Windhof in Luxemburg"
+        },
+        {
+          "label": "Eurovignet",
+          "value": "Luxemburg: vrachtwagens vanaf 12 ton, België zit er niet in"
+        },
+        {
+          "label": "Zondagverbod",
+          "value": "Enkel transit naar Frankrijk of Duitsland, niet voor levering"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Een koper die niet in België woont",
+          "body": [
+            "Een X-plaat kan onder meer worden aangevraagd door niet-inwoners die in België een wagen kochten om hem uit te voeren. Ook in de EU gevestigde rechtspersonen die niet in de Kruispuntbank van Ondernemingen staan, kunnen dat. Voor een koper uit Luxemburg is dat de gewone weg.",
+            "De DIV aanvaardt alleen originele documenten. Dat zijn het verzekeringsbewijs, de aankoopfactuur of verkoopovereenkomst, het paspoort of de buitenlandse identiteitskaart en zo nodig een recent bewijs van verblijf in het buitenland. Bedrijven leggen een recent officieel buitenlands attest voor met naam, adres en btw-nummer. Spreek met de koper af wie welk document meebrengt, zodat het niet bij de loketten blijft haperen."
+          ]
+        },
+        {
+          "heading": "De Luxemburgse inschrijving",
+          "body": [
+            "Bij inschrijving in Luxemburg moet de wagen op een technische controle worden aangeboden om de conformiteit te toetsen. Een geldig keuringsbewijs van een ander EER-land blijft volgens het Luxemburgse loket geldig. De koper laat bij het loket bevestigen wat er in zijn geval wordt gevraagd.",
+            "Een wagen die niet voor de Europese markt is gebouwd, kan enkel ingeschreven worden na een réception van de SNCH. Vraag de koper dus of de wagen een Europese uitvoering is voordat u de verkoop afrondt."
+          ]
+        },
+        {
+          "heading": "Van Namen naar Aarlen en de A6",
+          "body": [
+            "De E411 is in België de A4, de Autoroute des Ardennes, van Brussel via Waver, Ottignies-Louvain-la-Neuve en Namen naar Aarlen. De A4 is 188 km tot de Luxemburgse A6 bij de grens in Sterpenich. Vanaf knooppunt Neufchâteau draagt ze ook het nummer E25, omdat de E25 uit Luik en Bastenaken er op aansluit.",
+            "Aan Luxemburgse kant loopt de A6 over 20,8 km tot Luxemburg-stad via Steinfort, Mamer, Strassen en Cessange. Op de A6 ligt het verzorgingsstation Capellen. Voor wie van Brussel naar Luxemburg rijdt, is er dus één doorlopende autosnelweg, die onderweg de ringen van Brussel en Namen kruist."
+          ]
+        },
+        {
+          "heading": "Zondagen, feestdagen en het eurovignet",
+          "body": [
+            "Luxemburg heeft een rijverbod op zondag en feestdagen voor vrachtwagens boven 7,5 ton die in transit naar Frankrijk of Duitsland rijden. Transit naar België valt er niet onder en leveringen in Luxemburg zelf zijn vrijgesteld. Een autotransport dat een wagen bij een koper in het land aflevert, valt dus niet onder dat verbod.",
+            "Luxemburg is aangesloten bij het eurovignet voor vrachtwagens van minstens 12 ton op autosnelwegen. Dat is een zaak van de vervoerder. Voor u als verkoper telt vooral dat een rit naar Luxemburg normaal door de week kan, en dat een zondaglevering onzeker blijft."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "tip",
+          "title": "Eén grens, drie namen",
+          "body": "De grensovergang op de A6 heeft meerdere namen. De Luxemburgse verkeerscentrale CITA noemt hem Weyler, de Belgische kant, terwijl andere bronnen spreken van Kleinbettingen en Windhof. Het gaat om dezelfde overgang. Zet bij een afspraak met de koper het ophaalpunt dus in een adres en niet in de naam van de grensovergang."
+        },
+        {
+          "kind": "plek",
+          "title": "A6: afritten en rustplaats Capellen",
+          "body": "Op de A6 volgen van oost naar west de afritten Croix de Cessange, Helfenterbrück, Strassen, Bridel, Mamer, de rustplaats Capellen en Steinfort/Windhof. Ligt het adres van de koper in het westen van het land, dan is dat de uitrit. De A6 ontlast sinds 1982 de N6 door Mamer en Steinfort."
+        },
+        {
+          "kind": "regel",
+          "title": "Parkeren tijdens het rijverbod",
+          "body": "Tijdens het Luxemburgse rijverbod mogen de betrokken vrachtwagens niet op de openbare weg staan, ook niet op een parking langs de autosnelweg. Een transport dat te laat is, kan dus niet gewoon wachten op de pechstrook. Dat is een extra reden om aankomsten niet vlak voor het zondagverbod te plannen."
+        },
+        {
+          "kind": "regel",
+          "title": "Tweedehandswagen van buiten Luxemburg",
+          "body": "Het Luxemburgse loket heeft een aparte procedure voor een tweedehandswagen die voordien buiten Luxemburg was ingeschreven. Dat is de situatie van uw wagen. De koper vraagt bij de SNCA na welke stappen en bewijzen er in zijn geval nodig zijn."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een Luxemburgse koper een X-plaat krijgen?",
+          "a": "Ja, een X-plaat kan onder meer worden aangevraagd door niet-inwoners die in België een wagen kochten om hem uit te voeren. De koper komt of laat zich helpen bij de DIV in Brussel, met originele documenten. Een kopie van het paspoort volstaat niet."
+        },
+        {
+          "q": "Rijdt de vrachtwagen op zondag naar Luxemburg?",
+          "a": "Het Luxemburgse verbod geldt voor transit naar Frankrijk of Duitsland. Leveringen in Luxemburg zelf zijn vrijgesteld. Toch hangt een zondaglevering af van de planning van de vervoerder, dus spreek dat vooraf af."
+        },
+        {
+          "q": "Wordt mijn Belgische keuring in Luxemburg aanvaard?",
+          "a": "Een geldig keuringsbewijs van een ander EER-land blijft volgens het Luxemburgse loket geldig bij inschrijving. De wagen moet bij inschrijving wel op een technische controle worden aangeboden om de conformiteit te toetsen. Laat de koper de precieze stappen bij het loket bevestigen."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Luxemburg: X-plaat voor niet-inwoners, Luxemburgse inschrijving en de weg via A4/E411 en A6.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-exporteren-x-plaat",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/conformite-vehicule.html",
+        "https://snca.public.lu/content/dam/snca/publications/actualit%C3%A9s/2021/questions-reponses-relatives-aux-modifications-du-code-de-la-route.pdf",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/luxembourg",
+        "https://guichet.public.lu/en/entreprises/import-export/transit/transit-ue/e-vignette-poids-lourds.html",
+        "https://nl.wikipedia.org/wiki/A4_%28Belgi%C3%AB%29",
+        "https://en.wikipedia.org/wiki/A6_motorway_(Luxembourg)",
+        "https://cita.lu/en/tentt_sipo.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(Luxembourg)",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html"
+      ]
+    },
+    "belgie-frankrijk": {
+      "lead": "Uw wagen is verkocht aan een koper in Frankrijk. In België zorgt u dat de verkoop sluit: laatste inschrijvingsbewijs, keuring waar nodig, verzekering. In Frankrijk gaat de koper door de ANTS-procedure. Tussen beide ligt een rit die de Franse zaterdagavond en zondag moet ontlopen. Hier leest u wat op die route telt.",
+      "facts": [
+        {
+          "label": "Tweedehandswagen",
+          "value": "Verkoper geeft het laatste inschrijvingsbewijs mee"
+        },
+        {
+          "label": "Keuring",
+          "value": "Ouder dan 4 jaar en keuring vervallen: eerst naar het keuringscentrum"
+        },
+        {
+          "label": "Frans rijverbod",
+          "value": "Vrachtwagens vanaf 7,5 ton: zaterdag 22 uur tot zondag 22 uur"
+        },
+        {
+          "label": "Fiscaal attest",
+          "value": "Quitus fiscal voor een wagen uit de EU"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Wat u in België moet hebben",
+          "body": [
+            "Voor een tweedehandswagen op X-plaat moet de verkoper het laatste inschrijvingsbewijs meegeven. Is de wagen ouder dan 4 jaar en is de keuring vervallen, dan gaat hij eerst naar een keuringscentrum. Is hij jonger dan 4 jaar, dan is geen keuring nodig.",
+            "Niet elke verzekeraar biedt een tijdelijke verzekering voor een X-plaat aan, en de FOD Mobiliteit raadt aan dat vooraf na te gaan. Doe dat dus voor u een afspraak bij de DIV maakt, want zonder verzekeringsbewijs aanvaardt het loket uw dossier niet."
+          ]
+        },
+        {
+          "heading": "De Franse kant: ANTS en quitus fiscal",
+          "body": [
+            "Een in de EU gekochte wagen krijgt in Frankrijk een kentekenbewijs via de ANTS-procedure. Voor een wagen uit de EU hoort daar een quitus fiscal bij, een btw-attest van de Franse belastingdienst. Het is een officieel belastingdocument. De koper regelt dat zelf.",
+            "Als verkoper doet u er goed aan een duidelijke factuur te maken. Daarop staan de gegevens van de wagen en van de koper, en de datum van de verkoop. Zo kan de koper zijn dossier bij de ANTS en de belastingdienst zonder gedoe samenstellen. Wat de exacte stappen zijn, laat hij nalezen op de site van het Franse overheidsloket."
+          ]
+        },
+        {
+          "heading": "Van Rekkem en Adinkerke naar Rijsel en Duinkerke",
+          "body": [
+            "West-Vlaanderen heeft twee doorgangen naar Noord-Frankrijk. De E17/A14 eindigt bij Rekkem aan de Franse grens en sluit daar aan op de Franse A22 richting Rijsel. Vlak bij de grens heeft de weg nog maar twee rijstroken per richting. De A18/E40 loopt over 44 km van Jabbeke naar Adinkerke en sluit sinds 1997 zonder onderbreking aan op de Franse A16 naar Duinkerke.",
+            "Vanuit Henegouwen komt de A8 bij Lamain/Blandain op de Franse A27. Die A27 telt 13 km, is tolvrij en brengt u naar Rijsel. De A22 is stedelijk en in de spits druk, en op de Franse A25/A27 rond Rijsel zijn er scherpe bochten, rijstrookwissels en flitspalen."
+          ]
+        },
+        {
+          "heading": "Zaterdagavond tot zondagavond: het Franse verbod",
+          "body": [
+            "In Frankrijk geldt voor vrachtwagens vanaf 7,5 ton een rijverbod van zaterdag 22 uur tot zondag 22 uur. Op feestdagen loopt het van de avond ervoor om 22 uur tot 22 uur op de feestdag zelf. In de zomer kunnen bijkomende zaterdagverboden gelden. De officiële kalender staat op Bison Futé.",
+            "Rond Parijs zijn er extra verboden: vrijdag 16 tot 21 uur, zaterdag 10 tot 18 uur en zondag of feestdag 22 tot 24 uur. Autotransport staat niet als vrijstelling in de lijst. Mcars rijdt elke week over heel Frankrijk, ook naar stockageparken zoals BCA en TEA. Een levering rond een weekend moet daarom vooraf worden afgesproken met de koper."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Zone à faibles émissions in Rijsel",
+          "body": "Rijsel heeft een zone à faibles émissions, die ook de A1 als onderdeel van het hoofdwegennet omvat. Wie geen sticker heeft, riskeert een boete. Voor een levering in het centrum van Rijsel kijkt u samen met de koper vooraf na welke wagens binnen mogen. De bron voor dit punt is geen overheidssite, dus controleer de actuele stand."
+        },
+        {
+          "kind": "plek",
+          "title": "Calais en Duinkerke via de A16",
+          "body": "Op de Franse A16 leidt afrit 42 naar de Kanaaltunnel, afrit 47 naar de haven van Calais en de afritten 57 en 58 naar de haven van Duinkerke. Is de koper zelf een exportbedrijf dat wagens door naar het Verenigd Koninkrijk stuurt, dan zijn dit de afritten waarop zijn laadpunt ligt."
+        },
+        {
+          "kind": "tip",
+          "title": "Tol op de A1 naar Parijs",
+          "body": "De Franse A1 tussen Parijs en Rijsel is 211 km lang, wordt door SANEF beheerd en heeft twee tolpoorten: Chamant bij Senlis en Fresnes-lès-Montauban. Frankrijk heft aan poorten in plaats van per kilometer, zoals België met de Viapass-heffing doet. Wie een koper ten zuiden van Rijsel heeft, rijdt dus door tolpoorten."
+        },
+        {
+          "kind": "tip",
+          "title": "Belgische heffing op het eerste deel",
+          "body": "Op het Belgische deel van de rit geldt de kilometerheffing van Viapass, met de CO2-klasse in het boordtoestel. Wie onder die heffing valt, activeert het toestel voor hij België binnenrijdt en laat het aan tot hij het land verlaat. Achteraf betalen kan niet. Dat is de zaak van de vervoerder en geen kost voor uw papierwerk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat is een quitus fiscal en wie regelt het?",
+          "a": "Het is een btw-attest van de Franse belastingdienst dat bij de inschrijving van een EU-wagen in Frankrijk hoort. De koper vraagt het zelf aan en gebruikt het bij de ANTS-procedure. U geeft als verkoper de factuur en de papieren van de wagen mee."
+        },
+        {
+          "q": "Kan de wagen op zondag aankomen in Frankrijk?",
+          "a": "Het Franse verbod voor vrachtwagens vanaf 7,5 ton loopt van zaterdag 22 uur tot zondag 22 uur. Autotransport staat niet als vrijstelling in de lijst. Een levering op zondag is dus niet realistisch, tenzij de aankomst na het einde van het verbod valt."
+        },
+        {
+          "q": "Moet mijn wagen eerst naar de keuring?",
+          "a": "Dat hangt af van de leeftijd. Voor een tweedehandswagen op X-plaat die ouder is dan 4 jaar en waarvan de keuring is vervallen, moet hij eerst naar een keuringscentrum. Is de wagen jonger dan 4 jaar, dan is geen keuring nodig."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Frankrijk: X-plaat, quitus fiscal en ANTS-procedure, plus de route via Rekkem en het Franse rijverbod.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-exporteren-x-plaat",
+        "https://www.impots.gouv.fr/vous-etes-un-particulier-et-vous-souhaitez-obtenir-un-quitus-fiscal",
+        "https://www.timocom.co.uk/truck-driving-bans/france",
+        "https://nl.wikipedia.org/wiki/A14_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A18_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A8_%28Belgi%C3%AB%29",
+        "https://fr.wikipedia.org/wiki/Autoroute_A27_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A16_(France)",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://www.viapass.be/nl/hoe/"
+      ]
+    },
+    "belgie-duitsland": {
+      "lead": "Een koper in Duitsland betekent meestal één lange rit over de E40: van Brussel via Luik naar Lichtenbusch en verder naar Aken. Voor u als verkoper loopt het papierwerk door tot na de verkoop, want de schrapping van uw Belgische plaat bepaalt wanneer uw belasting en verzekering stoppen. Dit zijn de punten waar het misloopt.",
+      "facts": [
+        {
+          "label": "Schrappingsdatum",
+          "value": "De dag waarop de DIV uw plaat ontvangt"
+        },
+        {
+          "label": "Schrappingsattest",
+          "value": "Zelf downloaden via Mijn voertuig, mijn plaat"
+        },
+        {
+          "label": "Duits zondagverbod",
+          "value": "Vrachtwagens boven 7,5 ton: 0 tot 22 uur"
+        },
+        {
+          "label": "Grens",
+          "value": "Lichtenbusch op de E40/A3, aansluiting op de Duitse A44"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Uw plaat schrappen en uw belasting stoppen",
+          "body": [
+            "De schrappingsdatum is de dag waarop de DIV de plaat ontvangt, niet de dag van verzending. De verkeersbelasting stopt vanaf de eerste dag van de maand van schrapping. Daarna kan ook de verzekering worden stopgezet. Wie de plaat laat liggen, blijft dus langer belasting betalen dan nodig.",
+            "De DIV stuurt geen schrappingsattest meer op. U downloadt het zelf via Mijn voertuig, mijn plaat. Bewaar dat attest bij uw factuur en uw dossier, als bewijs dat de Belgische inschrijving niet meer op uw naam loopt."
+          ]
+        },
+        {
+          "heading": "Van Brussel via Luik naar Aken",
+          "body": [
+            "De E40 loopt in België als A10 van de kust via Jabbeke, Brugge en Gent naar Brussel. Daarna volgt de A3 via Leuven, Luik en Verviers naar Lichtenbusch aan de Duitse grens. De A3 is 134 km lang en heeft in het Land van Herve twee rijstroken per richting. De ring van Brussel ligt op de route.",
+            "Bij knooppunt Loncin komen E40, E42 en E25 samen. Het stuk Luik tot de Duitse grens is het oudste deel van de E40 en werd samen met de E313 aangelegd als Koning Boudewijnsnelweg. Een tweede doorgang is de E42/A27 via Verviers, Malmedy en Sankt Vith naar de Duitse A60. Die weg is bochtig en telt meerdere viaducten, zoals dat van de Eau Rouge bij Francorchamps."
+          ]
+        },
+        {
+          "heading": "Zondagen en zomerzaterdagen in Duitsland",
+          "body": [
+            "Duitsland heeft een zondag- en feestdagverbod van 0 tot 22 uur voor vrachtwagens boven 7,5 ton en voor alle combinaties met aanhangwagen. Het geldt landelijk. In de zomer komt daar een zaterdagverbod van 7 tot 20 uur bij, op een jaarlijks gepubliceerde lijst van wegvakken. De BGL heeft een kaart met omleidingen in de app van de Autobahn GmbH.",
+            "Landelijke feestdagen met rijverbod zijn onder meer Nieuwjaar, Goede Vrijdag, Paasmaandag, 1 mei, Hemelvaart, Pinkstermaandag, 3 oktober en Kerst. Regionaal komen er nog feestdagen bij. Takel- en bergingsvoertuigen zijn vrijgesteld, maar een autotransport staat niet in de lijst. Plan een levering in Duitsland dus buiten die uren."
+          ]
+        },
+        {
+          "heading": "Duitse maut en Belgische toestellen",
+          "body": [
+            "De Duitse vrachtwagenmaut van Toll Collect werkt met satellietpositionering via een boordtoestel. Zonder toestel kan u vooraf online boeken of aan een betaalautomaat betalen. Rond 300 poorten en 450 mobiele controleposten handhaven de maut.",
+            "Een Satellic-toestel werkt alleen in België. Wie van België naar Duitsland rijdt via Aken, heeft een toestel met EETS of een Duits toestel nodig. De Belgische heffing wordt apart betaald. Dat regelt de vervoerder, maar het verklaart waarom een rit over de grens de planning verandert."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Grensovergang Lichtenbusch",
+          "body": "Aan de grens bij Lichtenbusch sluit de Belgische A3 aan op de Duitse A44, die in Aken begint en via Jülich en Mönchengladbach naar Krefeld en Düsseldorf loopt. Voor een koper in het Rijn-Ruhrgebied is dit de logische doorgang. Het ophaaladres van de wagen in Luik of Leuven ligt dus al op de route."
+        },
+        {
+          "kind": "tip",
+          "title": "Düsseldorf als expatstad",
+          "body": "Düsseldorf telt een grote Japanse gemeenschap, met ruim 8.000 inwoners en honderden Japanse bedrijven. Het is een typische expatstad waar wagens bij aankomst en vertrek van eigenaar of land wisselen. Een koper daar heeft vaak al ervaring met buitenlandse papieren."
+        },
+        {
+          "kind": "regel",
+          "title": "Zomerzaterdag: de Duitse lijst",
+          "body": "Het zomerverbod op zaterdag geldt niet landelijk maar op een lijst van 32 wegvakken, autosnelwegen en Bundesstraßen, die elk jaar wordt gepubliceerd en soms wordt gewijzigd. Kijk de lijst na voor de week waarin de wagen bij de koper moet zijn."
+        },
+        {
+          "kind": "tip",
+          "title": "Autobid.de in Noordrijn-Westfalen",
+          "body": "Autobid.de heeft in Noordrijn-Westfalen veilinglocaties in Rhein-Ruhr en Oelde. Kopen kan er enkel als geregistreerde autohandelaar. Koopt een Duitse handelaar zo een wagen uit uw regio, dan koopt hij als vakman. Ook voor u als verkoper verandert dat niets aan de Belgische papieren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wanneer stopt mijn verkeersbelasting na de schrapping?",
+          "a": "De verkeersbelasting stopt vanaf de eerste dag van de maand van schrapping. De schrappingsdatum is de dag waarop de DIV de plaat ontvangt, niet de dag van verzending. Stuur de plaat dus op tijd, want ze moet aankomen voordat de nieuwe maand begint."
+        },
+        {
+          "q": "Krijg ik nog een attest van de schrapping?",
+          "a": "De DIV stuurt geen schrappingsattest meer op. De houder downloadt het zelf via Mijn voertuig, mijn plaat. Doe dat nadat de DIV de plaat heeft ontvangen en bewaar het bij uw verkoopdossier."
+        },
+        {
+          "q": "Kan de wagen op zaterdag of zondag in Duitsland worden geleverd?",
+          "a": "Het zondagverbod geldt van 0 tot 22 uur voor vrachtwagens boven 7,5 ton en voor combinaties met aanhangwagen. In de zomer komt er een zaterdagverbod op een lijst van wegvakken bij. Een levering in het weekend is dus enkel haalbaar buiten die uren en wegvakken."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Duitsland: plaat schrappen bij de DIV, route via Luik en Lichtenbusch en de Duitse rijverboden.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven-en-schrappen/mijn-kentekenplaat-schrappen/schrapping",
+        "https://nl.wikipedia.org/wiki/A3_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A13_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A27_%28Belgi%C3%AB%29",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://transport-online.de/news/ferienfahrverbote-bgl-ausweichstreckenkarte-app-abrufbar-84731.html",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_44",
+        "https://de.wikipedia.org/wiki/Japaner_in_Düsseldorf",
+        "https://www.autobid.de/"
+      ]
+    },
+    "belgie-spanje": {
+      "lead": "Een wagen uit België naar een koper in Spanje is een van de lange ritten: via Parijs, de Franse westkust of de Middellandse Zee tot voorbij de Pyreneeën. De Belgische kant vraagt een verzekering voor de X-plaat en een plan voor de looptijd. De Spaanse kant vraagt een keuring, een belastingbewijs en een ficha técnica. Dit zijn de punten die er toe doen.",
+      "facts": [
+        {
+          "label": "Tijdelijke verzekering",
+          "value": "Niet elke verzekeraar biedt ze aan voor een X-plaat"
+        },
+        {
+          "label": "Verlenging X-plaat",
+          "value": "Moet vóór de vervaldatum, nieuwe plaat en nieuw nummer"
+        },
+        {
+          "label": "Spaanse keuring",
+          "value": "ITV-station geeft de Spaanse ficha técnica uit"
+        },
+        {
+          "label": "Registratiebelasting",
+          "value": "IEDMT, bewezen met modelo 576, 06 of 05"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Verzekering en verlenging van de X-plaat",
+          "body": [
+            "Niet elke verzekeraar biedt een tijdelijke verzekering voor een X-plaat aan. De FOD Mobiliteit raadt aan dat vooraf na te vragen. Bij een lange rit naar Spanje is dat geen detail: zonder verzekeringsbewijs krijgt u de plaat niet.",
+            "Een verlenging van de X-plaat moet vóór de vervaldatum worden toegestaan. Ze levert een nieuwe plaat met een nieuw nummer en een nieuw inschrijvingsbewijs op. De totale duur mag het wettelijke maximum niet overschrijden. Heeft de Spaanse koper meer tijd nodig om zijn inschrijving in orde te krijgen, dan rekent u dus beter op een verlenging dan op een tweede aanvraag."
+          ]
+        },
+        {
+          "heading": "Wat de Spaanse koper moet regelen",
+          "body": [
+            "Een personenwagen die in de EU is ingeschreven, moet in Spanje worden ingeschreven met een conformiteitscertificaat (CoC) of een ficha reducida. Voor wagens van vóór 2002 is een eigen homologatiedocument nodig. De wagen gaat naar een ITV-station dat de Spaanse ficha técnica uitgeeft. Een elektronische ficha (NIVE) is vereist.",
+            "De registratiebelasting, IEDMT, wordt bewezen met modelo 576, 06 of 05 van de Spaanse belastingdienst, of met een vrijstelling. Sommige EU-landen heffen bij inschrijving een eenmalige registratiebelasting die afhangt van vermogen en emissieklasse. Dat kan de aankoop minder interessant maken. De koper rekent dat dus vooraf uit."
+          ]
+        },
+        {
+          "heading": "De weg door Frankrijk tot over de Pyreneeën",
+          "body": [
+            "Van Brussel naar Parijs loopt de E19 naar de Franse A2 en het knooppunt met de A1, de autoroute Parijs-Rijsel van 211 km. Aan Atlantische kant loopt de A63 van Bordeaux naar Biriatou/Hendaye, waar ze aansluit op de Spaanse AP-8. Aan Middellandse kant ligt de grens bij La Jonquera, tegenover Le Perthus, via de AP-7 en de N-II.",
+            "Vanuit Henegouwen start de E19/A7 over 61 km tot de Franse grens bij Hensies, waar ze overgaat in de Franse A2 richting Valenciennes. Ook in Frankrijk tellen de weekendverboden voor vrachtwagens, met extra beperkingen rond Parijs. Die uitleg staat op de pagina over Frankrijk."
+          ]
+        },
+        {
+          "heading": "Spaanse verboden zijn plaatselijk",
+          "body": [
+            "Spanje kent geen algemeen weekendverbod voor vrachtwagens boven 7,5 ton. Verboden gelden alleen op genoemde wegvakken en tijdstippen volgens een resolutie van de DGT. Voorbeelden zijn de toegangswegen naar Madrid op zondagavond tussen eind juni en begin september en de Andalusische kustwegen op zaterdagen in de zomer.",
+            "Gevaarlijke goederen (ADR) mogen op zondag en feestdagen van 8 tot 24 uur niet rijden. Dat raakt een autotransport niet. Voor de rit zelf is de officiële DGT-resolutie dus de bron. Een levering in een stad als Madrid plant u daarom nooit op zondagavond in de zomer, en u vraagt de koper om een adres dat buiten die toegangswegen valt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Catalonië: Barcelona, Martorell en Andorra",
+          "body": "De haven van Barcelona wordt omschreven als autohaven van de Middellandse Zee, met twee gespecialiseerde terminals aan de Dársena Sur. SEAT en CUPRA bouwen hun wagens in Martorell. Naar Andorra loopt maar één toegelaten wegverbinding, de N-145 door het Valira-dal. Een koper in Andorra krijgt dus een aparte afspraak."
+        },
+        {
+          "kind": "plek",
+          "title": "Baskenland: Pasaia en Bilbao",
+          "body": "De haven van Pasaia in Gipuzkoa verscheept een deel van de productie van Mercedes in Vitoria, Volkswagen in Pamplona en Opel in Figueruelas. In Bilbao vaart Brittany Ferries naar Portsmouth en Rosslare. Voor een koper in Noord-Spanje loopt de rit via Irun en de AP-8."
+        },
+        {
+          "kind": "tip",
+          "title": "Costa del Sol en tweedeverblijvers",
+          "body": "De Costa del Sol is een bestemming voor residentieel toerisme, met vooral Britse, Duitse, Scandinavische en Franse inwoners. Mcars vervoert wagens van tweedeverblijvers naar Spanje, dus ook naar kuststreken als deze. Andalusië ligt het verst van de Franse grens, dus reken op een lange rit."
+        },
+        {
+          "kind": "regel",
+          "title": "Canarische Eilanden en IGIC",
+          "body": "Op de Canarische Eilanden geldt geen btw maar de IGIC, een indirecte Canarische belasting die ook de invoer van goederen belast. Wat dat voor een wagen uit een ander EU-land betekent, moet bij de Canarische fiscus of een douane-expediteur worden nagevraagd. De rit eindigt voor een transport over de weg in een haven op het vasteland."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik de X-plaat verlengen als de Spaanse inschrijving niet op tijd lukt?",
+          "a": "Een verlenging moet vóór de vervaldatum worden toegestaan en levert een nieuwe plaat met een nieuw nummer en nieuw inschrijvingsbewijs op. De totale duur mag het wettelijke maximum niet overschrijden. Wacht dus niet tot de plaat al vervallen is."
+        },
+        {
+          "q": "Heeft de Spaanse koper een CoC nodig?",
+          "a": "Een in de EU ingeschreven personenwagen wordt in Spanje ingeschreven met een conformiteitscertificaat (CoC) of een ficha reducida. Voor wagens van vóór 2002 is een eigen homologatiedocument nodig. Het ITV-station geeft daarna de Spaanse ficha técnica uit."
+        },
+        {
+          "q": "Zijn er in Spanje weekendverboden voor vrachtwagens?",
+          "a": "Er is geen algemeen verbod boven 7,5 ton. Verboden gelden op genoemde wegvakken en tijdstippen, bijvoorbeeld de toegangswegen naar Madrid op zondagavond in de zomer. Kijk voor de exacte wegvakken de officiële DGT-resolutie na."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Spanje: verzekering en verlenging van de X-plaat, ITV en IEDMT voor de koper, en de route door Frankrijk.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-exporteren-x-plaat",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/matricular-un-vehiculo/matricular-un-vehiculo-extranjero/",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+        "https://nl.wikipedia.org/wiki/A7_%28Belgi%C3%AB%29",
+        "https://en.wikipedia.org/wiki/A63_autoroute",
+        "https://en.wikipedia.org/wiki/La_Jonquera",
+        "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+        "https://es.wikipedia.org/wiki/Frontera_entre_Andorra_y_Espa%C3%B1a",
+        "https://es.wikipedia.org/wiki/Puerto_de_Pasajes",
+        "https://es.wikipedia.org/wiki/Puerto_de_Bilbao",
+        "https://es.wikipedia.org/wiki/Costa_del_Sol",
+        "https://es.wikipedia.org/wiki/Impuesto_General_Indirecto_Canario"
+      ]
+    },
+    "belgie-italie": {
+      "lead": "Een koper in Italië, een wagen in België: de rit gaat over de Alpen, door een tunnel of over een pas, en loopt onderweg tegen Franse en Italiaanse weekendverboden aan. Voor u als verkoper begint het met een tijdelijke plaat die in Brussel wordt afgehaald. Hier leest u wat op deze route anders is dan op een rit naar de buren.",
+      "facts": [
+        {
+          "label": "Mont Blanc",
+          "value": "Vrachtwagens in groepen van vijf, 150 m afstand, 50 tot 70 km/u"
+        },
+        {
+          "label": "Fréjus",
+          "value": "12,87 km, tweede buis, maximale voertuighoogte 4,30 m"
+        },
+        {
+          "label": "Italiaans zondagverbod",
+          "value": "Vrachtwagens boven 7,5 ton buiten de bebouwde kom, ook leeg"
+        },
+        {
+          "label": "Buitenlandse voertuigen",
+          "value": "Het Italiaanse verbod start voor hen 4 uur later"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De X-plaat ophalen: voorplaat en postkantoor",
+          "body": [
+            "De X-plaat wordt geleverd met een voorplaat en kan ook in een welbepaald Brussels postkantoor worden afgehaald. Tijdelijke platen worden alleen aan de TRANSIT-loketten in Brussel behandeld. Spreek met de koper af welk afhaalpunt u kiest en wie de plaat ophaalt.",
+            "Wie een X-plaat misbruikt, krijgt vijf jaar lang geen tijdelijke inschrijving meer. Een wagen die op X-plaat stond, kan later niet door een andere houder opnieuw tijdelijk worden ingeschreven. Gebruik de plaat dus alleen voor de uitvoer die erop vermeld staat."
+          ]
+        },
+        {
+          "heading": "Over de E420 en door de Franse Alpen",
+          "body": [
+            "Wie vanuit Henegouwen of Namen naar het zuiden rijdt, kan de E420 nemen. De A54 maakt deel uit van de E420 tussen Nijvel en Reims. Bij Couvin kreeg de N5/E420 een omleiding in snelwegprofiel, die aan de grens aansluit op de Franse A304 naar Charleville-Mézières. Vandaar loopt de rit verder door Frankrijk naar de Alpen, waar twee tunnels de overgang naar Italië bepalen.",
+            "De Mont Blanc-tunnel (11,6 km) verbindt Chamonix met Courmayeur, in één buis met twee rijstroken. De Fréjustunnel (12,87 km) verbindt Modane met Bardonecchia. Wie een van beide wil nemen, houdt rekening met de toegang: de A43 vanuit Lyon en Chambéry, of de A32 vanuit Turijn."
+          ]
+        },
+        {
+          "heading": "Mont Blanc of Fréjus voor een autotransporter",
+          "body": [
+            "In de Mont Blanc-tunnel rijden vrachtwagens in groepen van vijf, met 150 m afstand en tussen 50 en 70 km/u. De tunnel wordt uitgebaat door MBT-EEIG, voor de helft ATMB en SITMB. Bij onderhoud kan de tunnel een tijdlang dicht zijn. Het vrachtverkeer wijkt dan voor het grootste deel uit naar de Fréjustunnel.",
+            "De Fréjustunnel heeft sinds de opening van een tweede buis twee kokers. Per richting blijft één rijstrook in gebruik, de andere dient als vluchtstrook, dus de capaciteit blijft gelijk. De maximale voertuighoogte is 4,30 m. Voor een meerlaagse autotransporter telt die hoogte en moet de vervoerder zijn combinatie nameten."
+          ]
+        },
+        {
+          "heading": "Italiaanse rijverboden op zon- en feestdagen",
+          "body": [
+            "Italië verbiedt vrachtwagens en combinaties boven 7,5 ton buiten de bebouwde kom op zon- en feestdagen, ook leeg. In januari tot mei en oktober tot december geldt dat van 9 tot 22 uur, van juni tot september van 7 tot 22 uur. In de zomer komen er zaterdagverboden en enkele vrijdagen bij. Buitenlandse voertuigen starten het verbod 4 uur later, en ritten naar het buitenland mogen 2 tot 4 uur voor het einde van het verbod vertrekken. Autotransport staat niet in de lijst met vrijstellingen.",
+            "Een overtreding geeft een boete, een schorsing van rijbewijs en kentekenbewijs van 1 tot 4 maanden en de plicht om tot het einde van het verbod stil te staan. Op de weg erheen gelden ook de lokale verboden van Frankrijk en Zwitserland, als de route daardoor loopt. Mcars maakt voor Italië een offerte op maat en antwoordt binnen 24 uur; de leverdag volgt uit deze verboden."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "ZTL en lange voertuigen in Rome",
+          "body": "In de Romeinse ZTL VAM zijn voertuigen langer dan 7,5 m elke dag van 5 tot 24 uur geweerd. Een autotransporter komt het centrum dus niet in. Spreek met een koper in Rome een afleverpunt buiten de zone af, bijvoorbeeld langs de ring Grande Raccordo Anulare, de tolvrije ring rond de stad met zes rijstroken."
+        },
+        {
+          "kind": "regel",
+          "title": "ZTL en Scudo Verde in Firenze",
+          "body": "De ZTL van Firenze heeft vijf sectoren. Sectoren A, B en O zijn actief van maandag tot vrijdag van 7.30 tot 20 uur en op zaterdag tot 16 uur, niet op zon- en feestdagen. Camera's lezen de nummerplaten. Firenze heeft daarnaast een milieuzone, Scudo Verde, die het hele jaar dag en nacht actief is. Een koper in het centrum haalt de wagen beter ergens anders op."
+        },
+        {
+          "kind": "plek",
+          "title": "Como Brogeda en de A9",
+          "body": "De A9 loopt 31,5 km van Lainate bij Milaan via Como naar de Zwitserse grens. De Italiaanse douanepost ligt in Como Brogeda. Wie de wagen eerst naar een koper in Lombardije brengt, rijdt via Zwitserland naar het zuiden en komt hier in Italië aan. Dat is een andere keuze dan de Franse tunnels."
+        },
+        {
+          "kind": "regel",
+          "title": "Livigno: belastingvrije zone",
+          "body": "Livigno is een belastingvrije zone: er wordt geen Italiaanse btw geheven en wie naar de rest van Italië rijdt, passeert een controle van de Guardia di Finanza. De zone is bereikbaar via de Foscagnopas, de Forcola di Livigno (enkel in de zomer) en de Munt la Schera-tunnel. Een wagen voor een koper in Livigno vraagt dus een eigen afspraak met de douane-expediteur."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan de wagen op zondag in Italië aankomen?",
+          "a": "Het Italiaanse verbod geldt voor vrachtwagens boven 7,5 ton buiten de bebouwde kom op zon- en feestdagen, ook leeg. Buitenlandse voertuigen starten het verbod 4 uur later. Autotransport is niet vrijgesteld, dus een zondaglevering is zelden mogelijk."
+        },
+        {
+          "q": "Wat als de Mont Blanc-tunnel dicht is?",
+          "a": "Bij een sluiting van de Mont Blanc-tunnel wijkt het grootste deel van het vrachtverkeer uit naar de Fréjustunnel. Dat verandert de route en de aankomstdag. Kijk de actuele stand van de tunnels na bij de uitbater voor de rit vertrekt."
+        },
+        {
+          "q": "Wat gebeurt er als de X-plaat misbruikt wordt?",
+          "a": "Wie een X-plaat misbruikt, krijgt vijf jaar lang geen tijdelijke inschrijving meer, en de wagen kan later niet door een andere houder opnieuw tijdelijk worden ingeschreven. De plaat dient uitsluitend om een voertuig uit te voeren."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Italië: X-plaat ophalen in Brussel, Alpentunnels Mont Blanc en Fréjus en de Italiaanse rijverboden.",
+      "sources": [
+        "https://mobilit.belgium.be/nl/weg/inschrijven-en-schrappen/kentekenplaat-en-inschrijvingsbewijzen/levering-en-prijs",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/een-voertuig-exporteren-x-plaat",
+        "https://nl.wikipedia.org/wiki/A54_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/N5_%28Belgi%C3%AB%29",
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/italy",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/ztl-roma-orari-mappa-e-permessi/",
+        "https://www.parkingmycar.it/blog/ztl-firenze-regole/",
+        "https://en.wikipedia.org/wiki/Autostrada_A9_(Italy)",
+        "https://en.wikipedia.org/wiki/Livigno",
+        "https://www.ilpost.it/2025/09/01/traforo-monte-bianco-chiuso/"
+      ]
+    },
+    "belgie-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU en buiten de EU-douane-unie. Dat verandert alles aan een exportrit vanuit België: de wagen komt niet zomaar binnen, de koper betaalt belasting bij invoer en de vrachtwagen moet de Zwitserse zondag en nacht uitzitten. Basel is de eerste halte, de Gotthard is de poort naar het zuiden.",
+      "facts": [
+        {
+          "label": "Douane",
+          "value": "Zwitserland is geen deel van de EU-douane-unie"
+        },
+        {
+          "label": "Gotthardtunnel",
+          "value": "16,9 km, 80 km/u, inhaalverbod, vrachtverkeer gedoseerd"
+        },
+        {
+          "label": "Zondagverbod",
+          "value": "Vrachtwagens boven 3,5 ton: zondag 0 tot 24 uur"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Elke nacht van 22 tot 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Een koper buiten de EU-douane",
+          "body": [
+            "Zwitserland is geen deel van de EU-douane-unie. Wie een voertuig niet aan de grens wil laten afhandelen, kan op bemande grensovergangen een tijdelijk certificaat (formulier 15.25) halen. Daarna heeft de koper een korte termijn om het voertuig bij een douanekantoor in het binnenland aan te geven.",
+            "Bij invoer van een personenwagen zijn een automobielbelasting en btw verschuldigd. Invoerrechten staan in het douanetarief. Een wagen mag volgens de douane niet als verhuisgoed vrij van belasting en rechten worden ingevoerd. Particuliere invoerders moeten het voertuig bovendien laten certificeren vóór de eerste inschrijving. Overschrijdt de wagen de CO2-doelstelling, dan volgt een sanctie van het Bundesamt für Energie na de inklaring."
+          ]
+        },
+        {
+          "heading": "Wat u in België op tijd regelt",
+          "body": [
+            "De Belgische wettelijke feestdagen zijn 1 januari, paasmaandag, 1 mei, Hemelvaartsdag, pinkstermaandag, 21 juli, 15 augustus, 1 november, 11 november en 25 december. Plan een afspraak bij de DIV, bij de verzekeraar of bij het keuringscentrum niet op een dag waarop kantoren dicht kunnen zijn.",
+            "Vraag de koper of zijn douane-expediteur vooraf welke documenten de Zwitserse douane wil, en maak uw factuur daarop. Zo komt er aan de grens geen vertraging van een ontbrekend papier. Een chauffeur kan niet wachten tot een document nog wordt opgestuurd."
+          ]
+        },
+        {
+          "heading": "Basel en de Gotthard",
+          "body": [
+            "De Duitse A5 eindigt aan de grensovergang Weil am Rhein/Basel en sluit daar aan op de Zwitserse A2 naar Chiasso. Dat is de gebruikelijke binnenkomst vanuit België, Nederland en Duitsland. De A2 loopt ongeveer 295 km van Basel naar de Italiaanse grens, door Luzern, Uri en Ticino.",
+            "De Gotthardwegtunnel (16,9 km, Göschenen-Airolo) heeft één buis met één rijstrook per richting, inhaalverbod en 80 km/u. De rit duurt ongeveer 13 minuten. Aan beide uiteinden ontstaan vaak files rond Pasen en in de zomer. Voor een koper in Ticino of Graubünden is het dus belangrijk te weten dat de weg erheen niet zonder wachttijd gaat."
+          ]
+        },
+        {
+          "heading": "Zondag, nacht en feestdagen",
+          "body": [
+            "Zwitserland verbiedt vrachtwagens boven 3,5 ton elke zondag van 0 tot 24 uur en elke nacht van 22 tot 5 uur. Een niet-vrijgestelde vrachtwagen die zaterdag om 22 uur nog rijdt, staat zo ongeveer 31 uur stil tot maandag 5 uur.",
+            "Het dagverbod geldt ook op acht federale feestdagen: Nieuwjaar, Goede Vrijdag, Paasmaandag, Hemelvaart, Pinkstermaandag, 1 augustus, Kerst en 26 december. Autotransport staat niet in de lijst met uitzonderingen. Alleen nood- en politiediensten, takelwagens en dringend vervoer van bederfelijke waren zijn vrijgesteld. Mcars rijdt met 9 open, meerlaagse autotransporters en maakt voor Zwitserland een offerte op maat, met antwoord binnen 24 uur."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Douanekantoor Basel/Weil am Rhein-Autobahn",
+          "body": "Basel/Weil am Rhein-Autobahn wordt door een douane-expediteur ter plaatse omschreven als het grootste wegdouanekantoor van Zwitserland. Het BAZG noemt het ook bij de overgangen waar handelswaren in uitzonderlijke situaties buiten de openingsuren kunnen worden ingeklaard. Reken daar niet op: kom binnen de openingsuren aan."
+        },
+        {
+          "kind": "regel",
+          "title": "Dosering aan de Gotthard",
+          "body": "Vrachtwagens rijden de Gotthardtunnel binnen via een Tropfenzähler, een doseersysteem dat ongeveer 150 m afstand tussen vrachtwagens houdt. Dat beperkt het vrachtverkeer tot ruwweg 3.000 à 3.500 per dag. Wachttijd voor de tunnel is dus normaal. Sinds de brand in 2001 mogen maximaal 150 vrachtwagens per uur binnen."
+        },
+        {
+          "kind": "regel",
+          "title": "Kantonale feestdagen veroorzaken geen vrachtverbod",
+          "body": "Goede Vrijdag geldt niet in Ticino en Wallis. Kantonale feestdagen veroorzaken geen vrachtverbod, alleen de federale. Wie een levering wil plannen rond een Zwitserse feestdag, controleert dus eerst of het een federale feestdag is en of de koper in een kanton woont met een uitzondering."
+        },
+        {
+          "kind": "tip",
+          "title": "Trinationale agglomeratie Basel",
+          "body": "De agglomeratie Basel strekt zich uit over Zwitserland, Duitsland en Frankrijk, met de meeste inwoners in Zwitserland. Verhuizen over de grens binnen dezelfde stadsregio komt er veel voor. Een koper met een Duits of Frans adres vlak bij Basel heeft dus een andere inschrijving dan een koper in Zwitserland zelf."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet de koper belasting betalen op een wagen uit België?",
+          "a": "Ja. Bij invoer van een personenwagen in Zwitserland zijn een automobielbelasting en btw verschuldigd, en invoerrechten staan in het douanetarief. Een wagen mag niet als verhuisgoed vrij van belasting en rechten worden ingevoerd."
+        },
+        {
+          "q": "Kan de wagen in het weekend aankomen?",
+          "a": "Niet op zondag. Het verbod voor vrachtwagens boven 3,5 ton loopt van zondag 0 tot 24 uur, en elke nacht van 22 tot 5 uur. Autotransport staat niet bij de uitzonderingen, dus een levering plant u op een weekdag overdag."
+        },
+        {
+          "q": "Is de Gotthardtunnel een probleem voor mijn levering?",
+          "a": "Er wordt gedoseerd en aan beide uiteinden ontstaan vaak files rond Pasen en in de zomer. Voor een koper ten zuiden van de Gotthard rekent de vervoerder dus op wachttijd. Spreek de leverdag daarom niet te krap af."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Zwitserland: douane buiten de EU, invoerbelasting voor de koper en zondag, nacht en Gotthard onderweg.",
+      "sources": [
+        "https://www.bazg.admin.ch/en/vehicle-import-switzerland-rules-formalities",
+        "https://www.bazg.admin.ch/en/vehicle-import-switzerland-customs-taxes",
+        "https://www.bazg.admin.ch/en/faq-road-vehicles-and-watercraft",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/switzerland",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://www.belgium.be/nl/over_belgie/land/belgie_in_een_notendop/feestdagen",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://gerlach-customs.com/ch-de/standorte/basel-weil-autobahn-import/",
+        "https://de.wikipedia.org/wiki/Gotthard-Strassentunnel",
+        "https://de.wikipedia.org/wiki/Trinationale_Agglomeration_Basel",
+        "https://de.wikipedia.org/wiki/Autobahn_A2_(Schweiz)"
+      ]
+    },
+    "belgie-oostenrijk": {
+      "lead": "Een koper in Oostenrijk, een wagen in Antwerpen, Gent of Hasselt: de rit loopt door Nederland of Duitsland en eindigt in een land met nachtverbod, weekendverbod en doseringen aan de Beierse grens. Voor de verkoper begint het bij het ophaaladres, waar de lage-emissiezone soms al bepaalt of de vrachtwagen binnen mag.",
+      "facts": [
+        {
+          "label": "Nachtverbod",
+          "value": "Heel Oostenrijk, vrachtwagens boven 7,5 ton: 22 tot 5 uur"
+        },
+        {
+          "label": "Weekendverbod",
+          "value": "Zaterdag 15 tot 24 uur, zondag en feestdag 0 tot 22 uur"
+        },
+        {
+          "label": "GO-Maut",
+          "value": "Kilometertol boven 3,5 ton, GO-Box vóór de tolweg"
+        },
+        {
+          "label": "Inschrijving",
+          "value": "Typegoedkeuring moet in de Genehmigungsdatenbank staan"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Laden in Antwerpen of Gent: de lage-emissiezone",
+          "body": [
+            "In Vlaanderen hebben alleen Antwerpen en Gent een lage-emissiezone. Daarnaast is bijna het hele Brussels Hoofdstedelijk Gewest een LEZ, met eigen regels. Een LEZ geldt 7 dagen op 7 en 24 uur op 24. Buitenlandse voertuigen zijn er pas toegelaten na registratie, elektrische voertuigen en waterstofvoertuigen mogen altijd binnen.",
+            "De Vlaamse Regering heeft alle geplande verstrengingen van de toegangsvoorwaarden ingetrokken. De bestaande voorwaarden blijven dus gelden, en steden mogen eigen regels houden, zoals toelating na betaling. Staat de wagen in zo'n stad, dan kijkt u samen met Mcars na of een ophaling aan huis kan of dat een nabij punt buiten de zone beter werkt."
+          ]
+        },
+        {
+          "heading": "Over Limburg naar Aken",
+          "body": [
+            "Vanuit Limburg loopt de E314/A2 over 88 km van knooppunt Heverlee bij Leuven via Aarschot, Zolder, Genk en Maasmechelen naar de Nederlandse grens. De Scharbergbrug van ongeveer 1.300 m over Maas en Julianakanaal is de enige snelwegbrug tussen België en Nederland. In Nederland gaat de weg als A76 verder, met Stein als eerste afrit, richting Heerlen en Aken.",
+            "Bij grensovergang Bocholtz gaat de A76 over in de Duitse A4 richting Aken en Keulen. Een tweede mogelijkheid is de E40/A3 vanuit Luik naar Lichtenbusch. Voor een koper in Oostenrijk is beide doorgang goed, en de keuze hangt af van het ophaaladres in België."
+          ]
+        },
+        {
+          "heading": "Nachtverbod, weekendverbod en GO-Maut",
+          "body": [
+            "In Oostenrijk mogen vrachtwagens boven 7,5 ton elke nacht van 22 tot 5 uur niet rijden, tenzij ze als geluidsarm erkend zijn. Het weekendverbod loopt op zaterdag van 15 tot 24 uur en op zondag en feestdagen van 0 tot 22 uur. Het geldt voor trekkers en vrachtwagens boven 7,5 ton en ook voor vrachtwagens met aanhangwagen als een van beide boven 3,5 ton is. Tijdens vakantieperiodes zijn bijkomende verboden mogelijk.",
+            "Voor vrachtwagens boven 7,5 ton geldt bovendien een linkerstrookverbod op autosnelwegvakken met drie of meer rijstroken. Oostenrijk heft een kilometertol, de GO-Maut, voor voertuigen boven 3,5 ton. Het boordtoestel moet gemonteerd zijn vóór u de tolweg oprijdt. Het tarief hangt af van assen, kilometers, CO2- en emissieklasse."
+          ]
+        },
+        {
+          "heading": "Kufstein, dosering en inschrijving",
+          "body": [
+            "Op de A93/A12 bij Kufstein past Tirol een Blockabfertigung toe: vrachtwagens worden gedoseerd en het onderliggend wegennet is voor vrachtwagens boven 7,5 ton dicht. De data worden telkens door het Land Tirol gepubliceerd. Een koper in Tirol moet de levering dus niet op een dag plannen waarop de dosering de wachttijd oprekt.",
+            "Een wagen met EU-typegoedkeuring kan in Oostenrijk pas ingeschreven worden als zijn gegevens in de Genehmigungsdatenbank staan. Dat doet normaal de generalimporteur van het merk. Doet die het niet tijdig, dan doet de Landeshauptmann het. Zonder EU-typegoedkeuring is een individuele goedkeuring nodig. De koper vraagt dat dus vooraf aan zijn importeur."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Scharbergbrug bij Maasmechelen",
+          "body": "De Scharbergbrug, ongeveer 1.300 m lang, overspant de Maas en het Julianakanaal en is de enige snelwegbrug tussen België en Nederland. Aan Nederlandse kant is Stein de eerste afrit. Wie vanuit Limburg of Leuven naar Oostenrijk rijdt, passeert hier, en een koper die op dit stuk wacht, weet dus meteen of de vrachtwagen op schema ligt."
+        },
+        {
+          "kind": "regel",
+          "title": "Linkerstrookverbod",
+          "body": "Vrachtwagens boven 7,5 ton mogen op autosnelwegvakken met drie of meer rijstroken niet op de linkerstrook rijden. Sommige Duitse deelstaten en Oostenrijk hebben bijkomend verboden afhankelijk van de emissieklasse. Voor een levering is dat een verklaring waarom een transporter op drukke vakken trager vooruitkomt."
+        },
+        {
+          "kind": "plek",
+          "title": "Arlbergtunnel naar Vorarlberg",
+          "body": "De Arlbergtunnel op de S16 is ongeveer 14 km lang en een tolweg. Vrachtwagens en bussen boven 3,5 ton moeten langs detectors die motor-, uitlaat- en remtemperatuur controleren. Een te warm voertuig mag de tunnel niet in. Wie een wagen naar Vorarlberg laat brengen, kent dus een extra stop."
+        },
+        {
+          "kind": "tip",
+          "title": "Binnenkomen via Suben of Walserberg",
+          "body": "Verkeer uit België komt via de Duitse A3 bij Passau en de grensovergang Suben, waar de A8 Innkreis Autobahn begint, of via München en de grensovergang Walserberg bij Salzburg. Welke de rit neemt, hangt af van de plaats van de koper in Oostenrijk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag de vrachtwagen 's nachts in Oostenrijk rijden?",
+          "a": "Nee. In heel Oostenrijk geldt elke nacht van 22 tot 5 uur een verbod voor vrachtwagens boven 7,5 ton, tenzij ze als geluidsarm erkend zijn. Plan een levering dus overdag, en niet op zaterdagnamiddag of zondag."
+        },
+        {
+          "q": "Wie zorgt dat de wagen in de Genehmigungsdatenbank staat?",
+          "a": "Normaal doet de generalimporteur van het merk dat. Doet die het niet tijdig, dan doet de Landeshauptmann het. Zonder EU-typegoedkeuring is een individuele goedkeuring nodig. De Oostenrijkse koper vraagt dat dus aan zijn importeur, vóór de wagen aankomt."
+        },
+        {
+          "q": "Kan de wagen vanuit Antwerpen opgehaald worden als de stad een LEZ heeft?",
+          "a": "Antwerpen en Gent hebben een lage-emissiezone die 7 dagen op 7 geldt. Buitenlandse voertuigen zijn er na registratie toegelaten. Vraag dus vooraf of een ophaling aan huis kan, of dat een punt buiten de zone beter is."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Oostenrijk: LEZ bij het ophaaladres, route via Limburg en Aken en de Oostenrijkse nacht- en weekendverboden.",
+      "sources": [
+        "https://www.vlaanderen.be/lage-emissiezones-lez",
+        "https://nl.wikipedia.org/wiki/A2_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Rijksweg_76",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/go-maut.html",
+        "https://www.usp.gv.at/umwelt-verkehr/verkehr/lkw-fahrverbote.html",
+        "https://transport-online.de/news/sektorales-fahrverbot-verkehrsverbaende-schalten-eu-kommissionspraesidentin-von-der-leyen-ein-44016.html",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/3/1/Seite.061524",
+        "https://en.wikipedia.org/wiki/Arlberg_Road_Tunnel",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn",
+        "https://de.wikipedia.org/wiki/Kleines_Deutsches_Eck"
+      ]
+    },
+    "belgie-polen": {
+      "lead": "Een wagen van België naar Polen is een lange rit: over de E40 door Duitsland naar Görlitz en verder door Polen. De verkoper vertrekt vanuit het Gentse of Brugse met de haven en de E40 dichtbij. Onderweg tellen grenscontroles, de Poolse tol en de zomerverboden meer dan het aantal kilometers.",
+      "facts": [
+        {
+          "label": "Belgische snelheid",
+          "value": "Vrachtwagens boven 3,5 ton: 90 km/u op autosnelwegen"
+        },
+        {
+          "label": "Grenscontroles",
+          "value": "Polen controleert aan de Duitse grens, wachttijden van meer dan een uur"
+        },
+        {
+          "label": "Poolse tol",
+          "value": "e-TOLL via satelliet voor voertuigen boven 3,5 ton"
+        },
+        {
+          "label": "Warschau",
+          "value": "Vrachtwagens boven 16 ton: beperkingen van 7 tot 10 en 16 tot 20 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Gent op de E40",
+          "body": [
+            "De haven van Gent maakt sinds 2018 deel uit van North Sea Port, de fusie met de Nederlandse havens Terneuzen en Vlissingen. Het havengebied is ongeveer 60 km lang en loopt over de grens. Voor wagens die in dit gebied staan, is de E40 de eerste schakel richting Polen.",
+            "Op autosnelwegen geldt in België 120 km/u. Voertuigen en slepen van meer dan 3,5 ton mogen er maximaal 90 km/u rijden. Voor een rit van deze lengte is dat een vast gegeven in de planning. De E40 loopt van Adinkerke langs Brugge en Gent naar Brussel, Leuven, Luik en Lichtenbusch."
+          ]
+        },
+        {
+          "heading": "Door Duitsland tot Görlitz",
+          "body": [
+            "In Duitsland volgt de route de A44, de A4 bij Aken en Keulen, de A45, A5, A7 en opnieuw de A4 via Eisenach, Erfurt, Chemnitz en Dresden naar Görlitz. De Duitse vrachtwagenmaut van Toll Collect werkt met een boordtoestel. Een Belgisch Satellic-toestel werkt daar niet.",
+            "Polen voert tijdelijke controles uit aan de Duitse grens, op 52 punten, waaronder Świecko, Olszyna en Kołbaskowo. Vervoerders melden wachttijden van meer dan een uur voor vrachtwagens. Ook Duitsland controleert aan de Poolse grens. Op de A4 richting Zgorzelec zijn kilometerlange files gemeld, en de bronnen spreken elkaar tegen over de einddata van de controles. De zondagsregels voor Duitsland vindt u op de pagina over Duitsland."
+          ]
+        },
+        {
+          "heading": "Poolse verboden en e-TOLL",
+          "body": [
+            "Polen heeft geen algemeen verbod op zondag of 's nachts voor vrachtwagens. Het verbod geldt voor voertuigen boven 12 ton op feestdagen, van 8 tot 22 uur, met op de vooravond een verbod van 18 tot 22 uur. In de zomer geldt het op vrijdag van 18 tot 22 uur, op zaterdag van 8 tot 14 uur en op zondag van 8 tot 22 uur. Autotransport staat niet in de lijst met uitzonderingen. Die lijst noemt bederfelijke en gekoelde goederen, levende dieren, gecombineerd vervoer, wegenwerken en landbouwmachines.",
+            "Polen heft tol voor voertuigen boven 3,5 ton via e-TOLL, een satellietsysteem zonder poorten. De positie gaat door via een boordtoestel, een ELS of de app e-TOLL PL. Op de A4 is een deel concessieweg waar iedereen tol betaalt."
+          ]
+        },
+        {
+          "heading": "De Poolse koper en zijn papieren",
+          "body": [
+            "Een voertuig van een buitenlandse eigenaar kan in Polen worden ingeschreven door de persoon of het bedrijf aan wie die eigenaar het voertuig heeft toevertrouwd. Dat is nuttig als u een wagen aan een Poolse gebruiker levert zonder de eigendom over te dragen.",
+            "Het Poolse kantoor vraagt de buitenlandse platen én het originele buitenlandse kentekenbewijs. Geef de koper die dus mee, samen met de factuur of verkoopovereenkomst. Schrap uw Belgische plaat pas als u met de koper hebt besproken of het Poolse kantoor die plaat wil zien. De achterplaat die u naar de DIV stuurt, komt immers niet meer terug."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "A2 bij Świecko",
+          "body": "De Poolse A2 begint aan de Duitse grens bij Świecko en sluit er aan op de Duitse A12 richting Berlijn. Het stuk Świecko tot Konin is een tolweg in beheer van de private maatschappij Autostrada Wielkopolska, vanaf Konin beheert de staat de weg. De tarieven wijzigen geregeld, dus de vervoerder kijkt ze vooraf na."
+        },
+        {
+          "kind": "plek",
+          "title": "A4 bij Jędrzychowice en Wrocław",
+          "body": "De Poolse A4 begint aan de Duitse grens bij Jędrzychowice, vlak bij Zgorzelec en Görlitz, en loopt via Wrocław, Opole, Gliwice, Katowice en Kraków naar Korczowa. Het stuk Karwiany tot Żernica is een tolsectie, de ring van Gliwice is tolvrij. Een koper in Zuid-Polen krijgt zijn wagen dus via deze weg."
+        },
+        {
+          "kind": "regel",
+          "title": "Milieuzone in Warschau",
+          "body": "In Warschau geldt een milieuzone, de Strefa Czystego Transportu: oude benzinewagens en diesels mogen de zone niet meer in, behalve met vrijstelling of op maximaal 4 dagen per jaar. De stad heeft een online controle waar u per voertuig nakijkt of het binnen mag. Een oudere wagen die naar een afleveradres binnen de zone gaat, is dus een aandachtspunt."
+        },
+        {
+          "kind": "regel",
+          "title": "C16-identificator in Warschau",
+          "body": "Voor leveringen aan vrachtwagens boven 16 ton tijdens de verboden uren, 7 tot 10 en 16 tot 20 uur, is een C16-identificator van de stedelijke wegbeheerder ZDM nodig. Voor doorgaand transitverkeer geldt het verbod de klok rond. Een autotransporter levert in Warschau dus buiten die uren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is er in Polen een zondagverbod voor vrachtwagens?",
+          "a": "Niet algemeen. Het Poolse verbod geldt voor voertuigen boven 12 ton op feestdagen en in de zomer, op vrijdag, zaterdag en zondag. Autotransport staat niet bij de uitzonderingen. Buiten die periodes is zondag dus minder beperkt dan in Duitsland."
+        },
+        {
+          "q": "Welke papieren moet ik de Poolse koper meegeven?",
+          "a": "Het Poolse kantoor vraagt de buitenlandse platen én het originele buitenlandse kentekenbewijs. Geef de koper die mee, samen met de factuur of verkoopovereenkomst. Zonder die originelen kan de inschrijving vastlopen."
+        },
+        {
+          "q": "Hoe lang staat de wagen aan de grens te wachten?",
+          "a": "Dat staat niet vast. Polen en Duitsland voeren tijdelijke controles uit aan hun grens, en vervoerders melden wachttijden van meer dan een uur voor vrachtwagens. De einddata van de controles verschillen per bron. De vervoerder rekent er dus op."
+        }
+      ],
+      "seoDescription": "Auto exporteren van België naar Polen: de E40 via Duitsland, grenscontroles, Poolse e-TOLL en rijverboden en de papieren voor de koper.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/North_Sea_Port",
+        "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://aa.com.tr/en/europe/poland-extends-border-controls-with-germany-and-lithuania-until-october/3884308",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://www.timocom.co.uk/truck-driving-bans/poland",
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://warszawa19115.pl/en/-/rejestracja-pojazdu-uzywanego-sprowadzonego-z-zagranicy",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://warszawa19115.pl/-/identyfikator-c16",
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)"
+      ]
+    }
+  }
+}

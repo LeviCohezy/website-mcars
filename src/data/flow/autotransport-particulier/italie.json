@@ -1,0 +1,59 @@
+{
+  "sub": "Uw wagen naar of uit Italië op een open autotransporter, met één vast aanspreekpunt en een chauffeur die op de dag zelf belt.",
+  "problem": {
+    "title": "Uw wagen moet naar Italië, maar u hoeft hem niet zelf te brengen",
+    "body": "U verhuist naar Italië, u hebt een huis gekocht in Toscane of u vliegt in de zomer naar het zuiden. De wagen staat nog in België en een rit van zo'n afstand is een pak werk. Wie zich als inwoner laat registreren, moet de wagen bovendien binnen een vaste termijn laten inschrijven. Dan is het handig als hij op tijd ter plaatse staat, zonder dat u zelf dagen op de weg zit.",
+    "situations": [
+      { "title": "Verhuis naar Italië", "body": "Uw meubels zijn al vertrokken, maar de wagen moet nog volgen. Wij brengen hem naar uw nieuwe adres, zodat u de inschrijving rustig kunt voorbereiden." },
+      { "title": "Tweede verblijf", "body": "U hebt een stek in Ligurië of Toscane en wilt de wagen daar hebben zonder twee dagen te rijden. Wij zetten hem bij u af." },
+      { "title": "Terug na de vakantie", "body": "U wilt niet meer terugrijden na een lange zomer. Wij halen de wagen in Italië op en brengen hem naar huis." }
+    ]
+  },
+  "solution": {
+    "title": "Wij halen uw wagen op en brengen hem tot bij u",
+    "body": "U vraagt een offerte aan en krijgt binnen vierentwintig uur antwoord. Daarna spreekt u af waar en wanneer de wagen klaarstaat. Onze chauffeur komt met een open, meerlaagse autotransporter, controleert uw wagen, neemt foto's en vult de CMR in. Op de dag zelf belt hij u. Vervolgens rijdt hij naar Italië, waar wij zowel in Lombardije als in Toscane komen. U hebt van begin tot einde één aanspreekpunt, in het Nederlands of het Frans. Betalen doet u voor de ophaling."
+  },
+  "usps": [
+    { "title": "Eén aanspreekpunt", "body": "U praat met dezelfde persoon van de aanvraag tot de aflevering. Geen doorverbinden en geen verhalen die u telkens opnieuw moet vertellen." },
+    { "title": "De chauffeur belt zelf", "body": "Op de dag van ophaling en levering krijgt u uw chauffeur persoonlijk aan de lijn. Zo weet u wanneer hij aan de deur staat." },
+    { "title": "Discreet vervoer", "body": "Uw wagen reist tussen andere wagens op een open transporter. Wij praten niet over uw verhuis of uw tweede verblijf." },
+    { "title": "Nederlands en Frans", "body": "Onze acht vaste chauffeurs spreken Nederlands of Frans. Dat maakt de afspraken met u en met de ontvanger in Italië een stuk eenvoudiger." }
+  ],
+  "steps": [
+    { "title": "Offerte aanvragen", "body": "U geeft door waar de wagen staat en waar hij heen moet. Binnen vierentwintig uur hoort u van ons met een voorstel op maat." },
+    { "title": "Afspraak plannen", "body": "We stemmen samen af wanneer en waar we de wagen ophalen. Staat hij op ons depot in Roeselare, dan kan dat zelfs 's nachts." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur bekijkt de wagen met u, maakt foto's en tekent de CMR-vrachtbrief. Betaald hebt u dan al." },
+    { "title": "Levering in Italië", "body": "De chauffeur laadt uw wagen af op het afgesproken adres en overloopt de staat ervan samen met u of de ontvanger." }
+  ],
+  "care": {
+    "title": "Wij verzorgen het transport, inclusief CMR en foto's",
+    "body": "Bij elke ophaling gaat de chauffeur rond uw wagen en noteert hij wat hij ziet. Daarbij maakt hij foto's die wij intern bewaren. Samen met u tekent hij de CMR-vrachtbrief, het document dat bij elk transport over de grens hoort. Uw wagen is verzekerd tijdens het vervoer. De inschrijving in Italië en het andere papierwerk regelt u zelf, of een garage of dossierbehandelaar voor u. Wij vervoeren de wagen.",
+    "items": ["Inspectie bij ophaling", "Foto's als intern bewijs", "Getekende CMR-vrachtbrief bij ophaling", "Verzekerd tijdens transport"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Italië",
+    "body": "Wij vervoeren al jaren de wagens van particulieren en we kennen de bestemmingen waar u naartoe wilt. In Italië komen we zowel in Lombardije als in Toscane, en ook aan de Ligurische kust. Wie in het noorden woont of in het zuiden, wij weten ongeveer hoe de toegang tot een straat of een oprit eruitziet. Dat voorkomt verrassingen op de dag van levering.",
+    "regions": ["Lombardije", "Toscane", "Ligurië", "Veneto", "Piëmont"]
+  },
+  "faq": [
+    { "q": "Moet ik mijn wagen in Italië inschrijven?", "a": "Wie inwoner van Italië wordt, moet de wagen binnen een vaste termijn laten inschrijven. Wie op bezoek is of een tweede verblijf heeft, hoeft dat doorgaans niet. Informeer bij de Italiaanse overheid." },
+    { "q": "Regelen jullie de inschrijving?", "a": "Nee, wij vervoeren de wagen. De inschrijving, de verzekering en de andere formaliteiten regelt u zelf of via een garage of dossierbehandelaar in Italië." },
+    { "q": "Kan ik mijn wagen op uw depot brengen?", "a": "Ja, in Roeselare kan dat dag en nacht. Dat is voordeliger dan wanneer wij de wagen bij u thuis ophalen. Spreek de levering gewoon vooraf met ons af." },
+    { "q": "Is mijn wagen verzekerd onderweg?", "a": "Ja, tijdens het transport is uw wagen verzekerd. Bij ophaling maken we een inspectie en foto's, en we tekenen samen de CMR-vrachtbrief." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wat u met ons afspreekt voor uw wagen van of naar Italië, wordt nagekomen door een chauffeur die u al kent.",
+    "snel": "Een vlotte planning en een vlotte aflevering: uw wagen hoeft niet lang te wachten, aan welke kant van de Alpen hij ook staat.",
+    "volgbaar": "U ziet via track en trace waar de wagen zich bevindt en de chauffeur laat zelf iets horen voor de levering.",
+    "verzekerd": "Verzekerd tijdens het transport, met inspectie en CMR-vrachtbrief bij elke ophaling, zodat alles zwart op wit staat."
+  },
+  "reasons": [
+    { "title": "Een lange staat van dienst", "body": "Al jaren brengen we wagens van en naar Italië, van de eerste aanvraag tot de laatste handtekening." },
+    { "title": "Gedreven door auto's", "body": "Wie van wagens houdt, ziet meteen wat extra aandacht nodig heeft. Dat doen we bij elke lading." },
+    { "title": "Ritten zonder tel", "body": "Honderden ritten hebben ons geleerd hoe je een wagen rustig en veilig vastzet voor een lange tocht." },
+    { "title": "Zelf rijden, geen uitbesteding", "body": "Onze vaste chauffeurs doen het werk zelf, zodat u weet wie uw wagen vervoert." },
+    { "title": "Van gewoon tot bijzonder", "body": "Personenwagens, sportwagens, oldtimers en meer: ons transportaanbod past bij wat een Italiëganger nodig heeft." },
+    { "title": "Altijd in beweging", "body": "We staan open voor nieuwe technieken en slimmere processen, zodat onze service meegroeit met uw verwachtingen." }
+  ],
+  "seoDescription": "Autotransport voor particulieren naar en uit Italië. Open autotransporter, CMR, foto's en verzekering. Vraag een offerte, antwoord binnen 24 uur."
+}

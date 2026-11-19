@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { FaqAccordion, HighlightGrid } from "@/components/blocks";
-import PageHero from "@/components/page-hero";
 import PageShell from "@/components/page-shell";
 import OfferteForm from "@/components/offerte-form";
 import { Reveal } from "@/components/scroll";
 import Section from "@/components/section";
 import { ArrowButton, Eyebrow, SectionHeader } from "@/components/ui";
+import { asset } from "@/lib/asset";
 import { site } from "@/lib/site";
 import type { Faq, Highlight } from "@/data/services";
 
@@ -84,20 +84,28 @@ const faq: Faq[] = [
 
 export default function OffertePage() {
   return (
-    <PageShell>
-      <PageHero
-        eyebrow="Snel · veilig · betrouwbaar"
-        title={
-          <>
-            Offerte voor uw autotransport. <span className="text-white/55">Vrijblijvend, persoonlijk en binnen 24 uur.</span>
-          </>
-        }
-        subtitle="Vul onderstaand formulier in en ontvang snel een vrijblijvende offerte voor het transport van uw voertuig."
-        crumbs={[{ label: "Offerte aanvragen" }]}
-        image="/fleet/depot-wet.jpg"
-        badges={reassurance.map((r) => ({ label: r.title }))}
-        secondaryCta={{ label: "Liever contact opnemen?", href: "/contact" }}
-      />
+    <PageShell dark>
+      {/* Hero: the Mcars truck on the right, the offerte text on the open sky/road to its left */}
+      <section className="relative flex min-h-[70svh] items-center overflow-hidden rounded-[2rem] bg-zinc-950 lg:aspect-[3/1] lg:min-h-[520px]">
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-cover bg-[position:65%_center] lg:bg-center"
+          style={{ backgroundImage: `url(${asset("/fleet/offerte-hero.jpg")})` }}
+        />
+        <div aria-hidden className="absolute inset-0 bg-[linear-gradient(to_right,rgb(9_9_11/0.75),rgb(9_9_11/0.45)_35%,transparent_55%)]" />
+        <div aria-hidden className="absolute inset-0 bg-zinc-950/30 lg:hidden" />
+        <div className="relative z-10 max-w-2xl px-6 pt-32 pb-12 sm:px-10 lg:px-14 lg:pt-24">
+          <p className="text-xs font-semibold tracking-[0.3em] text-white uppercase sm:text-sm">
+            Snel · veilig · betrouwbaar
+          </p>
+          <h1 className="mt-4 text-5xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-7xl">
+            Offerte autotransport
+          </h1>
+          <p className="mt-6 max-w-lg text-lg leading-relaxed text-white/90 sm:text-xl">
+            Vul onderstaand formulier in en ontvang snel een vrijblijvende offerte voor het transport van uw voertuig.
+          </p>
+        </div>
+      </section>
 
       {/* The quote form — flow from the client's reference, on a black screen */}
       <Section space="none" bleed id="aanvraag" className="mt-2">
@@ -125,8 +133,9 @@ export default function OffertePage() {
           trail="Dit weegt mee in uw offerte."
           intro="We rekenen geen vaste tarieven af. Uw prijs stellen we handmatig samen op basis van deze factoren — zo klopt hij voor uw specifieke transport."
           className="mb-16"
+          dark
         />
-        <HighlightGrid items={factoren} />
+        <HighlightGrid items={factoren} dark />
       </Section>
 
       {/* Reassurance */}
@@ -146,22 +155,22 @@ export default function OffertePage() {
 
       {/* FAQ */}
       <Section space="loose">
-        <div className="grid gap-10 border-t border-zinc-200 pt-6 lg:grid-cols-[1fr_3fr]">
+        <div className="grid gap-10 border-t border-white/15 pt-6 lg:grid-cols-[1fr_3fr]">
           <div className="lg:sticky lg:top-28 lg:self-start">
-            <Eyebrow>Veelgestelde vragen</Eyebrow>
+            <Eyebrow dark>Veelgestelde vragen</Eyebrow>
           </div>
           <div>
-            <h2 className="max-w-3xl text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-zinc-950 sm:text-4xl lg:text-[3.25rem]">
-              Over uw offerte. <span className="text-zinc-400">Kort uitgelegd.</span>
+            <h2 className="max-w-3xl text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-white sm:text-4xl lg:text-[3.25rem]">
+              Over uw offerte. <span className="text-white/45">Kort uitgelegd.</span>
             </h2>
             <div className="mt-12">
-              <FaqAccordion items={faq} />
+              <FaqAccordion items={faq} dark />
             </div>
             <div className="mt-14 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
-              <p className="max-w-md text-base leading-relaxed text-zinc-500">
-                Niet zeker welke gegevens u nodig heeft? Bel <a href={site.phoneHref} className="text-zinc-950 underline decoration-zinc-300 underline-offset-4 hover:decoration-zinc-950">{site.phone}</a> — we helpen u persoonlijk verder.
+              <p className="max-w-md text-base leading-relaxed text-white/55">
+                Niet zeker welke gegevens u nodig heeft? Bel <a href={site.phoneHref} className="text-white underline decoration-white/30 underline-offset-4 hover:decoration-white">{site.phone}</a> — we helpen u persoonlijk verder.
               </p>
-              <ArrowButton href="/contact">Neem contact op</ArrowButton>
+              <ArrowButton href="/contact" variant="light">Neem contact op</ArrowButton>
             </div>
           </div>
         </div>

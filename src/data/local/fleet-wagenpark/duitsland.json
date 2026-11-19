@@ -1,0 +1,1149 @@
+{
+  "service": "fleet-wagenpark",
+  "origin": "duitsland",
+  "pages": {
+    "duitsland": {
+      "lead": "Duitsland rijdt op bedrijfswagens. Van de nieuwe personenwagens staat ruim twee derde op naam van een onderneming of een andere niet-particuliere houder, en die wagens wisselen voortdurend van plek: naar een leasemaatschappij, een veilingzaal, een havenkade of een filiaal in een andere stad. Wie in Duitsland een partij voertuigen wil verplaatsen, krijgt te maken met plakettenzones, belastingregels en havens met een eigen logica.",
+      "facts": [
+        {
+          "label": "Nieuwe wagens",
+          "value": "Ruim twee derde op naam van bedrijven, niet van particulieren"
+        },
+        {
+          "label": "Milieuzones",
+          "value": "35 Umweltzonen, groene plakette ook voor buitenlandse nummerplaten"
+        },
+        {
+          "label": "Autohavens",
+          "value": "Bremerhaven en Emden aan de Noordzee, Duisburg in het binnenland"
+        },
+        {
+          "label": "Leasepapieren",
+          "value": "Zulassungsbescheinigung Teil II blijft meestal bij de leasemaatschappij"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Een Duits wagenpark is meestal een zakelijk wagenpark",
+          "body": [
+            "In Duitsland staat van de nieuwe personenwagens maar een derde op naam van een particulier. De rest wordt ingeschreven op naam van bedrijven en andere niet-particuliere houders. Dat verklaart waarom wagens er zo vaak in partijen bewegen: van de fabriek naar een leasemaatschappij, van een afgelopen contract naar een veiling, van een hoofdkantoor naar een filiaal.",
+            "Ook de tijdelijkheid is geregeld. Een buitenlands ingeschreven voertuig mag één jaar tijdelijk in Duitsland rijden. Wie EU-vrijheden uitoefent, zoals vrij verkeer van werknemers, vestiging of dienstverlening, kan een langere termijn krijgen, maar nooit meer dan drie jaar. Voor een wagenpark met buitenlandse platen is dat de grens waarop u uw planning afstemt."
+          ]
+        },
+        {
+          "heading": "Umweltzonen: hoeveel er nog zijn en wat u nodig heeft",
+          "body": [
+            "Duitsland telt nog 35 Umweltzonen. Sinds 2012 mag u er alleen in met een groene plakette, en die plakette geldt in alle Duitse zones. Veel steden hebben hun zone al opgeheven, omdat de luchtkwaliteitsnormen sinds enkele jaren overal gehaald worden.",
+            "Voor een wagenpark betekent dat: leg uw route niet vast op basis van een oud lijstje. Een stad die vorig jaar nog een zone had, kan die inmiddels hebben geschrapt, en omgekeerd blijft een zone bestaan zolang de normen daar niet gehaald worden. Kijk vóór elke rit na welke zones op uw traject liggen, en controleer per wagen of de plakette op de voorruit zit."
+          ]
+        },
+        {
+          "heading": "Privégebruik van de bedrijfswagen",
+          "body": [
+            "Het privégebruik van een Duitse bedrijfswagen wordt meestal belast via een vaste regeling: per maand telt een honderdste van de bruto-catalogusprijs bij eerste inschrijving als voordeel, met een toeslag per kilometer woon-werkafstand. Het alternatief is een sluitend Fahrtenbuch, een rittenboek waarin elke rit genoteerd staat.",
+            "Dat verschil bepaalt hoe een bedrijf zijn wagens beheert. Wie het rittenboek kiest, wil weten waar elke wagen op elk moment is geweest, en dus ook hoe hij tussen twee vestigingen verplaatst werd. Een wagen die op een transporter staat, hoeft geen rit te zijn die op naam van een medewerker telt, maar dat bespreekt u met uw boekhouder."
+          ]
+        },
+        {
+          "heading": "Havens en terminals waar partijen samenkomen",
+          "body": [
+            "BLG Logistics exploiteert de autoterminal van Bremerhaven en heeft daarnaast vestigingen in Cuxhaven, Hamburg en Duisburg, een eigen vloot autotransporters en spoorwagons voor autovervoer. In Nedersaksen heeft BLG ook een autoterminal in het binnenland, op het voormalige vliegveld van Ahlhorn.",
+            "Duisburg zelf geldt als de grootste binnenhaven van Europa, met een openbare roll-on/roll-off-installatie. Voor een wagenpark dat aan de Rijn of aan de kust aankomt, is de terminal dus vaak niet het einde van de rit maar het begin: vandaar gaan de wagens per vrachtwagen verder naar de bestemming."
+          ]
+        },
+        {
+          "heading": "Wat Mcars in Duitsland vervoert",
+          "body": [
+            "Mcars vervoert wagens op open, meerlaagse autotransporters met Kässbohrer-opbouw, vanuit het depot in Roeselare, Moorseelsesteenweg 16B. Elke vrachtwagen heeft een lier. Bij ophaling maken onze chauffeurs een inspectie en foto's als intern bewijs, en u krijgt een CMR-vrachtbrief. De wagens zijn verzekerd tijdens het transport. Een offerte op maat is aan te vragen voor uw partij, ook voor meerdere wagens in één rit; u krijgt antwoord binnen 24 uur. Betalen kan bij bedrijven op factuur. Staat een wagen volledig geblokkeerd, dan vraagt dat een heftruck ter plaatse."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Emden, derde autohaven van Europa",
+          "body": "Emden staat met zijn autoverlading op de derde plaats in Europa, na Zeebrugge en Bremerhaven en vóór Antwerpen. De haven draait sterk op Volkswagen: de modellen van de groep worden er in- en uitgevoerd. Wie een VW-partij naar of van de kust laat rijden, komt hier terecht."
+        },
+        {
+          "kind": "regel",
+          "title": "De plakette hoort bij de nummerplaat",
+          "body": "U koopt de milieuplakette bij Zulassungsbehörden, TÜV, Dekra, GTÜ en KÜS, bij erkende werkplaatsen of online bij de ADAC. Ze is gekoppeld aan de nummerplaat: na een plaatwissel of een nieuwe voorruit heeft u een nieuwe nodig. Houd daar rekening mee bij wagens die van plaat veranderen."
+        },
+        {
+          "kind": "regel",
+          "title": "Großkundenschnittstelle voor inschrijvingen",
+          "body": "De Duitse voertuigwet voorziet voor de internetinschrijving in een aparte koppeling voor grote aanvragers. Een bedrijf kan zich als Großkunde laten registreren en aanvragen via die koppeling indienen. Voor een wagenpark dat in één keer vele voertuigen verplaatst of vernieuwt, is dat de route om te onderzoeken."
+        },
+        {
+          "kind": "plek",
+          "title": "Autostadt Wolfsburg",
+          "body": "De Autostadt is het afleveringscentrum van Volkswagen: kopers halen er hun nieuwe wagen af in het Kundencenter. Twee glazen torens van 48 meter bufferen elk ongeveer 400 wagens. Een zakelijke afnemer die meerdere wagens tegelijk wil laten komen, plant de afhaling met het centrum en niet met de fabriek."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik een Duitse leasewagen meenemen als ik naar het buitenland verhuis?",
+          "a": "Meestal niet zomaar. Het contract verbiedt het vaak, en omschrijven is praktisch moeilijk omdat de Zulassungsbescheinigung Teil II, het vroegere Fahrzeugbrief, doorgaans bij de leasemaatschappij blijft. Vraag eerst toestemming en bespreek het papierwerk met de verhuurder."
+        },
+        {
+          "q": "Heeft een elektrische bedrijfswagen een plakette nodig in een Duitse milieuzone?",
+          "a": "Nee. Elektrische voertuigen, bepaalde plug-inhybrides en brandstofcelwagens hebben geen fijnstofplakette meer nodig, en motorfietsen nooit. Een dieselbestelwagen in hetzelfde wagenpark heeft er wel een nodig, ook met buitenlandse nummerplaat."
+        },
+        {
+          "q": "Betaal ik Kfz-Steuer op een elektrische bedrijfswagen?",
+          "a": "Zuiver elektrische voertuigen krijgen een tijdelijke vrijstelling, gevolgd door een halvering, en die vrijstelling werd bij wet verlengd. Een aanvraag is niet nodig. Hybrides vallen er niet onder, dus onderscheid die in uw wagenparklijst."
+        }
+      ],
+      "seoDescription": "Wagenpark of leasewagens in Duitsland laten vervoeren: Umweltzonen, bedrijfswagenfiscaliteit, autohavens en wat u moet regelen. Offerte binnen 24 uur.",
+      "sources": [
+        "https://www.kba.de/DE/Statistik/Fahrzeuge/Neuzulassungen/neuzulassungen_node.html",
+        "https://www.evz.de/reisen-verkehr/auto/autoummeldung-bei-umzug.html",
+        "https://www.buzer.de/s1.htm?a=46&g=FZV&dorg=1",
+        "https://www.buzer.de/s1.htm?g=FZV+2023&f=1",
+        "https://www.umweltbundesamt.de/themen/luft/luftschadstoffe/feinstaub/umweltzonen-in-deutschland",
+        "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/fahrverbote-umweltzonen/umweltplaketten/",
+        "https://de.wikipedia.org/wiki/Firmenwagen",
+        "https://www.zoll.de/DE/Privatpersonen/Kraftfahrzeugsteuer/Steuerverguenstigungen/steuerverguenstigungen_node.html",
+        "https://de.wikipedia.org/wiki/BLG_Logistics_Group",
+        "https://de.wikipedia.org/wiki/Duisburger_Hafen",
+        "https://de.wikipedia.org/wiki/Emder_Hafen",
+        "https://de.wikipedia.org/wiki/Autostadt"
+      ]
+    },
+    "duitsland-belgie": {
+      "lead": "Een leasewagen die in het Rijn-Ruhrgebied van de weg gaat, een partij ex-lease van een Duitse veiling, een Ford die in Keulen van de band rolt: voor veel wagenparken ligt de volgende halte in België. Op papier is het een korte rit via Aken en Luik. In de praktijk bepalen rijverboden, maut en de Belgische regels bij aankomst hoe zo'n transport verloopt.",
+      "facts": [
+        {
+          "label": "Hoofdas",
+          "value": "A44 van Düsseldorf naar Aken, dan de Belgische E40 naar Luik"
+        },
+        {
+          "label": "Tweede weg",
+          "value": "E42 via de Duitse A60 en, na Steinebrück, de Belgische A27"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Boven 7,5 ton geldt op zon- en feestdagen tussen 0 en 22 uur stilstand"
+        },
+        {
+          "label": "Maut",
+          "value": "Zonder boordtoestel vooraf online boeken of aan een betaalautomaat betalen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Noordrijn-Westfalen: veilingen en fabrieken",
+          "body": [
+            "Noordrijn-Westfalen is de Duitse deelstaat die het dichtst bij België ligt. BCA Duitsland heeft er zijn hoofdzetel en een veilingcentrum in Neuss. Autobid.de vermeldt in de regio de veilinglocaties Rhein-Ruhr en Oelde, al kopen daar alleen geregistreerde autohandelaars. In Keulen-Niehl bouwt Ford sinds 2024 zijn eerste Europese elektrische modellen, de Explorer en de Capri, en Ford of Europe zit er sinds 1998.",
+            "Wie een partij uit zo'n veiling of fabriek naar België wil, rekent op één ophaaladres met meerdere wagens tegelijk. Een meerlaagse autotransporter is daarvoor gebouwd."
+          ]
+        },
+        {
+          "heading": "De weg: A44, Aken en de Oostkantons",
+          "body": [
+            "De Duitse A44 begint bij Aken aan de Belgische grens en sluit daar aan op de Belgische A3, bij de overgang Lichtenbusch. Het traject gaat verder langs Jülich en Mönchengladbach richting Krefeld en Düsseldorf. Bij Düsseldorf Airport ligt de Flughafenbrücke over de Rijn, met daarnaast de Ilvericher Altrheinschlinge-tunnel en de Flughafentunnel. Bij Essen kruist de weg de Ruhr.",
+            "Aan Belgische kant is de E40 de weg naar Luik en Brussel. In het Land van Herve zijn er twee rijstroken in elke richting. Wie liever zuidelijker rijdt, neemt de E42: Luik, Battice, dan de A27 tot Sankt-Vith en bij Steinebrück de Duitse A60. Rond Verviers kronkelt de A27 en passeert ze meerdere viaducten, onder meer dat van de Eau Rouge."
+          ]
+        },
+        {
+          "heading": "Rijverboden: wanneer de autotransporter stilstaat",
+          "body": [
+            "Duitsland verbiedt op zon- en feestdagen van 0 tot 22 uur vrachtwagens boven 7,5 ton en alle combinaties met aanhangwagen. Dat geldt landelijk. Naast de landelijke feestdagen komen regionaal Sacramentsdag, 15 augustus (Beieren en Saarland), 31 oktober en 1 november. In de zomer volgt een zaterdagverbod van 7 tot 20 uur op een jaarlijks gepubliceerde lijst van ruim dertig wegvakken. In de app van de Autobahn GmbH staat een omleidingskaart van de BGL.",
+            "Vrijstellingen bestaan voor takel- en bergingsvoertuigen, bederfelijke waren en gecombineerd vervoer binnen 200 km van een spoorterminal of 150 km van een haven. Autotransport staat niet in dat rijtje; andere ritten vragen vooraf een vergunning. De boete kan de chauffeur treffen, maar ook de eigenaar die de rit liet uitvoeren."
+          ]
+        },
+        {
+          "heading": "Maut: boordtoestel of boeking vooraf",
+          "body": [
+            "Toll Collect werkt sinds 2005 met satellietpositionering via een boordtoestel. Ongeveer 300 poorten en 450 mobiele controleposten handhaven. Zonder toestel boekt u vooraf online of betaalt u aan een betaalautomaat.",
+            "Rijdt u van Duitsland naar België via Aken, dan volstaat een Duits toestel of een toestel met EETS. Satellic-toestellen werken alleen in België, dus een Belgisch toestel is geen oplossing voor het Duitse stuk. De Belgische kilometerheffing wordt apart betaald. Voor vrachtwagens boven 16 ton verandert de indeling in CO2-klassen volgens nieuwe EU-regels, en dat raakt het tarief."
+          ]
+        },
+        {
+          "heading": "Aankomst in België: wat uw wagenpark nog moet regelen",
+          "body": [
+            "Een onderneming kan in België alleen een voertuig inschrijven als ze in de Kruispuntbank van Ondernemingen staat en een vaste vestiging in België heeft waar het voertuig wordt beheerd of gebruikt. Een buitenlandse firma die tijdelijk wagens inzet, kan een W-plaat aanvragen met een officieel attest van haar vestiging in het buitenland. Dat regelt u zelf of via uw dealer; Mcars vervoert de wagens.",
+            "Voor ons is België een thuismarkt: we rijden er dagelijks, vanuit het depot in Roeselare. Wie op het depot laat leveren, kan dat 24/7 doen en betaalt minder."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Tongeren en de E313",
+          "body": "Het op- en afrittencomplex 32 Tongeren (E313/N79) wordt in fasen heringericht. Tongeren is ook een van de plaatsen waar Mcars einde-leasewagens ophaalt. Houd bij het plannen rekening met wijzigende afritten en laat u vooraf het precieze adres bevestigen."
+        },
+        {
+          "kind": "plek",
+          "title": "De voormalige Ford-site in Genk",
+          "body": "Ford Genk sloot na vijftig jaar; de productie van de Mondeo, S-MAX en Galaxy verhuisde naar Valencia. De site is ongeveer 140 hectare groot, de installaties zijn weggehaald en er zijn nieuwe bedrijven gevestigd. Laadadressen kunnen er dus veranderen: vraag altijd het exacte adres na."
+        },
+        {
+          "kind": "tip",
+          "title": "Rheinbrücke Leverkusen op de A1",
+          "body": "De brug op de A1 bij Leverkusen was jarenlang verboden voor voertuigen boven 3,5 ton. Vrachtwagens rijden weer over het eerste nieuwe brugdeel; het tweede deel volgt later. Wie uit het zuiden van Keulen komt en een zwaar voertuig heeft, kijkt de actuele stand na voor vertrek."
+        },
+        {
+          "kind": "tip",
+          "title": "Platen en papieren met spoed",
+          "body": "Voor bepaalde platen en documenten biedt de DIV via bpost een spoedlevering op dezelfde dag, als de aanvraag voor 13 uur is verwerkt. Zaterdagen, zondagen en feestdagen tellen niet als werkdag. Plan de aflevering van een nieuwe partij dus met dat uur in gedachten."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kunnen jullie een partij ex-lease van een Duitse veiling naar een Belgische garage brengen?",
+          "a": "Ja. Mcars haalt de wagens op het adres op dat u opgeeft, inspecteert en fotografeert ze bij ophaling en rijdt ze met een CMR-vrachtbrief naar België. Wie bij Autobid.de koopt, moet wel geregistreerd handelaar zijn."
+        },
+        {
+          "q": "Hoe lang moet ik de vrachtbrief bewaren?",
+          "a": "De vervoerder moet zijn exemplaar minstens vijf jaar chronologisch bewaren; het btw-wetboek maakt er zeven jaar van. Een digitale bewaring is toegelaten zolang inzage en een volledige afdruk mogelijk blijven."
+        },
+        {
+          "q": "Valt een lichte bestelwagen onder de Belgische kilometerheffing?",
+          "a": "Soms wel. Lichte vrachtwagens van categorie N1 met koetswerkcode BC vallen onder de kilometerheffing, ook al wegen ze niet meer dan 3,5 ton. Controleer de koetswerkcode op het inschrijvingsbewijs van elke bestelwagen in uw partij."
+        },
+        {
+          "q": "Heb ik een Car-Pass nodig voor een tweedehands bestelwagen?",
+          "a": "Ja. De Car-Pass-plicht geldt niet alleen voor personenwagens maar ook voor lichte bestelwagens die tweedehands worden verkocht. Wie ex-lease-bestelwagens doorverkoopt in België, regelt dat dus voor de verkoop."
+        }
+      ],
+      "seoDescription": "Wagenpark of leasewagens van Duitsland naar België laten vervoeren: A44 en E40, rijverboden, Lkw-Maut en wat u in België zelf moet regelen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E40",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_44",
+        "https://en.wikipedia.org/wiki/European_route_E42",
+        "https://www.timocom.co.uk/truck-driving-bans/germany",
+        "https://transport-online.de/news/ferienfahrverbote-bgl-ausweichstreckenkarte-app-abrufbar-84731.html",
+        "https://en.wikipedia.org/wiki/Toll_Collect",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://de.wikipedia.org/wiki/BCA_Marketplace",
+        "https://www.autobid.de/",
+        "https://de.wikipedia.org/wiki/Ford-Werke",
+        "https://de.wikipedia.org/wiki/Rheinbrücke_Leverkusen",
+        "https://nl.wikipedia.org/wiki/N79_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Ford_Genk",
+        "https://mobilit.belgium.be/nl/weg/inschrijven/verhuizen-met-uw-voertuig/verhuizen-naar-belgie-met-uw-voertuig",
+        "https://mobilit.belgium.be/nl/weg/transport/vrachtbrief/opmaak-gebruik-en-bewaarplicht",
+        "https://www.viapass.be/nl/voor-wie/",
+        "https://www.car-pass.be/nl/faq"
+      ]
+    },
+    "duitsland-nederland": {
+      "lead": "Van Nedersaksen of het Ruhrgebied naar Nederland is het maar een korte rit tot de grens. Toch gelden de Duitse regels tot de laatste kilometer: een rijverbod dat Nederland zelf niet kent, een maut voor alle zware voertuigen en, aan de Nederlandse kant, een leasemarkt met eigen belastingregels. Dit is wat het verschil maakt voor een wagenpark.",
+      "facts": [
+        {
+          "label": "Hoofdas",
+          "value": "Duitse A3 vanaf Elten, daar sluit de Nederlandse A12 aan"
+        },
+        {
+          "label": "Noordelijke grens",
+          "value": "A30 bij Bad Bentheim, A280 bij Bunde"
+        },
+        {
+          "label": "Nederlandse verboden",
+          "value": "Geen algemeen zondagsverbod; dat begint pas in Duitsland"
+        },
+        {
+          "label": "Snelheid",
+          "value": "Vrachtwagens boven 3,5 ton rijden maximaal 80 km/u op Autobahnen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Nedersaksen: fabriek, spoor en veiling",
+          "body": [
+            "Het grootste deel van de wagens uit de VW-fabriek in Wolfsburg vertrekt per trein, en de fabriek heeft het grootste private laadstation van Europa. Wie vanuit Nedersaksen een wagenpark naar Nederland laat rijden, haalt wagens dus niet altijd bij de fabriek zelf op, maar bij een station of terminal verder op de route.",
+            "Autobid.de heeft veilinglocaties in Hamburg en Braunschweig, en BCA vermeldt een veilingcentrum in Dorfmark, in de Lüneburger Heide. Vanuit Nedersaksen loopt de weg naar Nederland via de A30 bij Bad Bentheim, richting Oldenzaal en Amsterdam, of via de A280 bij Bunde en de A7 richting Groningen."
+          ]
+        },
+        {
+          "heading": "De weg: A3, A12 en de A40 bij Venlo",
+          "body": [
+            "De Nederlandse A12 loopt van Utrecht via Arnhem naar de grens bij Bergh/Zevenaar en gaat in Duitsland verder als A3 richting Oberhausen. De A3 is ongeveer 778 km lang, van Elten tot Passau, langs Oberhausen, Duisburg, Düsseldorf, Keulen, Frankfurt, Würzburg, Neurenberg en Regensburg.",
+            "Zuidelijker, bij Venlo, is de Duitse A40 de voortzetting van de Nederlandse A67 tussen Eindhoven en Venlo. Ze loopt van grensovergang Niederdorf bij Straelen door Moers, Duisburg, Mülheim, Essen en Bochum naar Dortmund. Wie een wagenpark vanuit het Ruhrgebied naar Brabant brengt, kiest vaak die as."
+          ]
+        },
+        {
+          "heading": "Lkw-Maut en 80 km/u: wat een autotransporter betaalt en rijdt",
+          "body": [
+            "Sinds 1 juli 2024 geldt de Duitse Lkw-Maut voor goederenvoertuigen met een toegelaten totaalmassa boven 3,5 ton, op de Bundesautobahnen en de Bundesstraßen. Sinds 1 december 2023 hangt het tarief mee af van de CO2-uitstoot. U betaalt met een On-Board-Unit of via de TollNow-app.",
+            "Op de Autobahn geldt voor vrachtwagens boven 3,5 ton en voor combinaties met aanhanger een maximum van 80 km/u. Houd met dat tempo rekening in uw planning. Nederland kent geen algemeen weekend- of feestdagenverbod voor vrachtverkeer, dus het zondagsverbod begint pas in Duitsland."
+          ]
+        },
+        {
+          "heading": "Aankomst in Nederland: lease, bpm en tenaamstelling",
+          "body": [
+            "Lease is in Nederland de norm. Er rijden meer dan 1,3 miljoen leasevoertuigen, personenwagens en bestelwagens samen, en ongeveer twee op drie nieuw verkochte personen- en bestelauto's is een leaseauto. Een wagenpark van minstens 50 voertuigen kan bij de RDW in één keer worden overgeschreven naar een andere rechtspersoon, de massale tenaamstelling.",
+            "Wie in Nederland woont en van een buitenlandse werkgever een wagen op buitenlands kenteken krijgt, kan een werknemersvrijstelling van bpm aanvragen. De werkgever verklaart schriftelijk dat de wagen hoofdzakelijk voor werk buiten Nederland is bestemd, en de aanvraag moet er zijn vóór de eerste rit op de Nederlandse weg. Een buitenlandse onderneming kan een vrijstelling van bpm en motorrijtuigenbelasting aanvragen bij de Belastingdienst."
+          ]
+        },
+        {
+          "heading": "Keuring, zones en wat Mcars doet",
+          "body": [
+            "Een auto op benzine of elektriciteit gaat in Nederland voor het eerst naar de APK na vier jaar, een diesel na drie jaar, en daarna elk jaar. Bestelauto's met emissieklasse 5 en 6 krijgen een einddatum voor toegang tot de zero-emissiezones; een verlenging werd aangekondigd, dus kijk de actuele stand na.",
+            "Mcars vervoert de partij op open autotransporters naar het adres dat u opgeeft. Bij ophaling krijgt u inspectie, foto's en een CMR-vrachtbrief; de lier aan boord zorgt dat ook een wagen die niet start, mee kan."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "ATP Papenburg",
+          "body": "ATP Papenburg is een merkonafhankelijk testterrein van ongeveer 780 hectare met een hogesnelheidsovaal van 12,3 km, gebruikt door constructeurs en toeleveranciers. Wie wagens naar of van zo'n terrein laat brengen, spreekt vooraf toegang en laadtijden af."
+        },
+        {
+          "kind": "event",
+          "title": "IAA Transportation in Hannover",
+          "body": "De IAA Transportation, de beurs voor bedrijfsvoertuigen, vindt elk even jaar in september plaats in Hannover. Wie een wagenpark of een reeks bedrijfsvoertuigen naar de beurs of ervandaan laat brengen, plant dat ruim vooraf, want rond zo'n beurs zijn de wegen en de laadadressen in de regio drukker."
+        },
+        {
+          "kind": "plek",
+          "title": "BCA in Barneveld",
+          "body": "BCA, het grote veilinghuis voor ex-lease- en inruilwagens, heeft zijn Nederlandse veilingcentrum in Barneveld. Het zegt zelf meer dan 500 veilingen per jaar te organiseren. Wie een partij uit Duitsland aanvoert voor die zaal, kan op de A12 rekenen: dezelfde weg die u uit Duitsland naar Utrecht en Gelderland neemt."
+        },
+        {
+          "kind": "regel",
+          "title": "Ontheffing zero-emissiezone enkel bij de RDW",
+          "body": "Een ontheffing voor een zero-emissiezone vraagt de eigenaar aan bij de RDW, en dat is de enige officiële site. Websites die geld vragen voor een ontheffing krijgen een waarschuwing van de overheid. Laat een bestelwagen dus niet via een tussenpersoon regelen als de kosten onduidelijk zijn."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een Duitse vrachtwagen met wagens op zondag door Nederland rijden?",
+          "a": "Nederland kent geen algemeen weekend- of feestdagenverbod voor vrachtverkeer, dus op Nederlands grondgebied gelden die verboden niet. Het Duitse verbod begint wel zodra u de grens passeert, dus de planning hangt aan het Duitse deel van de route."
+        },
+        {
+          "q": "Heeft mijn Duitse leasewagen in Nederland een eendagskenteken nodig?",
+          "a": "Wie een wagen uit Duitsland in Nederland laat keuren, vraagt bij de RDW een afspraak aan en gebruikt een eendagskenteken, aan te vragen met DigiD. Dat dekt enkel de dag van de keuringsafspraak, dus plan transport en afspraak op elkaar af."
+        },
+        {
+          "q": "Wanneer moet een leaseauto in Nederland naar de APK?",
+          "a": "Een benzineauto of elektrische auto gaat voor het eerst na vier jaar, een diesel al na drie jaar. Daarna is de keuring jaarlijks. Houd dat ritme in de gaten als u een ex-lease-partij overneemt en doorverkoopt."
+        }
+      ],
+      "seoDescription": "Wagenpark of leasewagens van Duitsland naar Nederland laten vervoeren: A3 en A12, Lkw-Maut, 80 km/u en wat u in Nederland moet regelen.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Volkswagenwerk_Wolfsburg",
+        "https://www.autobid.de/",
+        "https://de.wikipedia.org/wiki/BCA_Marketplace",
+        "https://nl.wikipedia.org/wiki/Rijksweg_12",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_40",
+        "https://www.bmv.de/SharedDocs/DE/Artikel/StV/Strassenverkehr/lkw-maut.html",
+        "https://dejure.org/gesetze/StVO/18.html",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.vna-lease.nl/",
+        "https://www.rdw.nl/kopen-of-verkopen/veel-kentekenbewijzen-tegelijk-overschrijven",
+        "https://www.nederlandwereldwijd.nl/auto-importeren/rijden-met-buitenlands-kenteken",
+        "https://www.rdw.nl/apk/wanneer-en-hoe-vaak-apk-keuren",
+        "https://www.opwegnaarzes.nl/bedrijven/buitenlandse-voertuigen",
+        "https://de.wikipedia.org/wiki/Automotive_Testing_Papenburg",
+        "https://de.wikipedia.org/wiki/Internationale_Automobil-Ausstellung",
+        "https://www.bca.com/de/nl/b/About-BCA/",
+        "https://www.opwegnaarzes.nl/"
+      ]
+    },
+    "duitsland-luxemburg": {
+      "lead": "Luxemburg trekt pendelaars aan, en met hen bedrijfswagens: leasewagens als voordeel in natura, de ene grensarbeider met een Duitse plaat, de andere met een Luxemburgse. Rijdt uw wagenpark vanuit Trier of het Saarland naar het Groothertogdom, dan krijgt u twee wegen, twee rijverbodskalenders en een belastingregime dat afwijkt van wat u in Duitsland gewend bent.",
+      "facts": [
+        {
+          "label": "Noordelijke weg",
+          "value": "Duitse A64 over de Sauertalbrücke, daarna de Luxemburgse A1"
+        },
+        {
+          "label": "Zuidelijke weg",
+          "value": "Duitse A8 bij Perl, in Luxemburg de A13 naar Schengen"
+        },
+        {
+          "label": "Luxemburgs transitverbod",
+          "value": "Zaterdag 23.30 tot zondag 21.45, boven 7,5 ton"
+        },
+        {
+          "label": "Wasserbillig",
+          "value": "Laagste punt van Luxemburg, met autoveer naar Oberbillig"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek tussen Trier en Perl: twee grensovergangen",
+          "body": [
+            "Vanuit Duitsland zijn er twee hoofdwegen naar Luxemburg. Bij Trier begint de A64 aan Duitse zijde na ongeveer 14 km, nadat ze de Sauertalbrücke van 98 meter hoog is overgestoken. Ze komt uit de Luxemburgse A1 bij Wasserbillig, heeft maar één aansluiting, Trier (B51), en geen rechtstreekse aansluiting op de Duitse A1.",
+            "Het grensverkeer door pendelaars naar Luxemburg is sterk gegroeid, en de files verschuiven naar de B51 en de A64a. Verder zuidelijk begint de A8 in Perl aan de Moezel, tegenover Schengen, en gaat in Luxemburg verder als A13."
+          ]
+        },
+        {
+          "heading": "De A8, de A13 en wat daarachter ligt",
+          "body": [
+            "De Duitse A8 is 505 km lang. Ze begint bij Perl en loopt langs Saarlouis, Saarbrücken, Neunkirchen (kruising met de A6), Karlsruhe, Pforzheim en Stuttgart naar de Albaufstieg, Ulm en München. Rond de Albaufstieg en bij Pforzheim zijn uitbreidingen gepland; reken dus op werven en kijk de actuele stand na.",
+            "Aan Luxemburgse kant is de A13 met 41 km de langste snelweg van het land, van Pétange naar Schengen. Ze steekt de Moezel over op een viaduct en draagt E29. De A1 (E44) is ongeveer 37 km lang, van Luxemburg-stad via de Sûre naar Wasserbillig."
+          ]
+        },
+        {
+          "heading": "Een tweede rijverbodskalender na de grens",
+          "body": [
+            "Luxemburg verbiedt vrachtwagens boven 7,5 ton in transit richting Duitsland van zaterdag, of de vooravond van een feestdag, 23.30 uur tot zondag, of de feestdag, 21.45 uur. Een bestemming in Luxemburg zelf is vrijgesteld, maar parkeren op de openbare weg is in die periode niet toegelaten.",
+            "Een autotransporter die zaterdagavond uit het Groothertogdom richting Duitsland vertrekt, ligt dus al vast. Voor de andere richting is de Duitse kalender bepalend: nationaal en regionaal verschillen de feestdagen, en Luxemburg heeft zijn eigen lijst. Leg voor elke rit vast welke dagen aan welke kant gelden voor u de laaddatum afspreekt."
+          ]
+        },
+        {
+          "heading": "Bedrijfswagen en voordeel in natura",
+          "body": [
+            "Het privégebruik van een bedrijfswagen, woon-werkverkeer inbegrepen, is in Luxemburg een belastbaar voordeel in natura waarop ook sociale bijdragen verschuldigd zijn. Dat geldt voor ingezeten en niet-ingezeten werknemers, dus ook voor grensarbeiders. Wie wagens samenstelt voor medewerkers die uit Duitsland komen, rekent daar dus mee.",
+            "De forfaitaire methode neemt een maandelijks percentage van de nieuwwaarde, afhankelijk van de CO2-uitstoot en het motortype. Bij elektrische wagens speelt ook het verbruik en het vermogen mee."
+          ],
+          "points": [
+            "Rittenboekmethode: het voordeel volgt de privékilometers tegen de kostprijs per kilometer.",
+            "Een vaste eigen bijdrage is aftrekbaar, tot een vijfde van de kost die de werkgever draagt; variabele bijdragen niet.",
+            "De overgangsregeling hangt af van de datum van contract en inschrijving."
+          ]
+        },
+        {
+          "heading": "Inschrijving in Luxemburg en wat Mcars doet",
+          "body": [
+            "Een in Duitsland gekochte wagen die in Luxemburg wordt ingeschreven, doorloopt dezelfde stappen als elk buitenlands voertuig: SNCA-afspraak, verzekering, douane-afhandeling met vignette 705, kanselarijzegel, keuringsbewijs en volledig inschrijvingsbewijs. De verkoper in Duitsland moet dus het volledige bewijs meegeven, meestal twee delen. Dat regelt u of uw dealer.",
+            "Mcars vervoert de wagens op open autotransporters, met een lier voor wagens die niet rijden. We maken bij ophaling foto's en een inspectie, en u krijgt een CMR-vrachtbrief. Bedrijven betalen op factuur. Het Luxemburgse papierwerk blijft voor uw rekening of die van uw dealer."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Rustplaats Wasserbillig",
+          "body": "De rustplaats Wasserbillig ligt op de A1 vlak voor de Duitse grens. Het dorp ligt op 132 meter, het laagste punt van het land, aan de samenvloeiing van Moezel en Sûre; naar het Duitse Oberbillig vaart een autoveer. Voor chauffeurs is dit de plek om papieren en route nog eens na te lopen."
+        },
+        {
+          "kind": "event",
+          "title": "Autofestival van Fedamo",
+          "body": "Het Autofestival is geen beurs in één hal: dealers in het hele land openen hun showrooms, elk jaar van eind januari tot begin februari. Organisator is de federatie Fedamo. Wie wagens naar showrooms laat brengen, plant de leveringen vóór die periode."
+        },
+        {
+          "kind": "plek",
+          "title": "Terminal Bettembourg-Dudelange",
+          "body": "De intermodale terminal Bettembourg-Dudelange, 33 hectare groot, is dag en nacht open. Er vertrekt een autoroute ferroviaire voor opleggers naar Le Boulou in Zuid-Frankrijk, 1.045 km ver. Onder de klanten zit de auto-industrie. Wagens op een autotransporter gaan hier niet mee, maar het toont hoe druk deze corridor is."
+        },
+        {
+          "kind": "tip",
+          "title": "Dépôt-en-bloc bij de SNCA",
+          "body": "Voor grotere volumes voorziet de SNCA bij het dépôt-en-bloc een apart attest voor leasing of terbeschikkingstelling. Inschrijvingen op naam van leasemaatschappijen kunnen zo gebundeld worden ingediend. Voor een leasemaatschappij die tientallen wagens tegelijk inschrijft, scheelt dat veel afspraken."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet de bedrijfswagen van mijn werkgever in Luxemburg worden ingeschreven als ik daar woon?",
+          "a": "Niet noodzakelijk. Wie in Luxemburg woont en een bedrijfswagen gebruikt van een onderneming met zetel in een andere EER-lidstaat, hoeft die wagen niet in Luxemburg in te schrijven, zolang hij geldig is ingeschreven in het land van de zetel."
+        },
+        {
+          "q": "Wat gebeurt er als de bestuurder zijn leasewagen aan het einde van het contract overneemt?",
+          "a": "Koopt de werknemer de leasewagen over onder de marktwaarde, dan is het verschil een belastbaar voordeel. Dat is relevant voor wagens die aan het einde van de lease naar de bestuurder gaan in plaats van naar remarketing."
+        },
+        {
+          "q": "Hoe vaak moet een bestelwagen in Luxemburg naar de keuring?",
+          "a": "Bestelwagens moeten elk jaar naar de technische keuring, vanaf het begin. Bij personenwagens komt dat pas na vier en zes jaar. Reken dat mee als uw Luxemburgse wagenpark veel bestelwagens telt."
+        }
+      ],
+      "seoDescription": "Wagenpark of leasewagens van Duitsland naar Luxemburg laten vervoeren: A64 en A8, rijverbodskalender, voordeel in natura en inschrijving via de SNCA.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Bundesautobahn_64",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://nl.wikipedia.org/wiki/A13_(Luxemburg)",
+        "https://nl.wikipedia.org/wiki/A1_(Luxemburg)",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/voiture-societe-salarie/leasing.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/vehicule-demenagement-transfrontalier.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/controle-technique-obligatoire-vehicule.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A1_(Luxembourg)",
+        "https://en.wikipedia.org/wiki/Wasserbillig",
+        "https://paperjam.lu/article/lautofestival-se-tiendra-du-24-janvier-au-2-fevrier-2026",
+        "https://blogcfl.lu/?p=23174",
+        "https://snca.public.lu/fr/professionnels/professionnels-automobile/depot-en-bloc.html"
+      ]
+    },
+    "duitsland-frankrijk": {
+      "lead": "Een wagenpark dat van Duitsland naar Frankrijk rijdt, kruist bij Saarbrücken of Kehl de grens en komt in Grand Est terecht, waar de Elzas en Lotharingen beginnen. Wie de Duitse maut wil ontlopen, rijdt langs de Rijn aan de Franse kant. Vrachtwagens hebben op die route eigen verboden, en Frankrijk belast bedrijfswagens anders dan u gewend bent.",
+      "facts": [
+        {
+          "label": "Noordelijke poort",
+          "value": "A6 bij Saarbrücken sluit aan op de Franse A320"
+        },
+        {
+          "label": "Rijnovergang",
+          "value": "Europabrücke Kehl-Straatsburg: drukste overgang tussen Baden en de Elzas"
+        },
+        {
+          "label": "Franse A35",
+          "value": "Gratis langs de Rijn, van Saint-Louis tot Lauterbourg"
+        },
+        {
+          "label": "Frans weekendverbod",
+          "value": "Boven 7,5 ton stilstand van zaterdag 22 uur tot zondag 22 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Saarland en Baden: twee poorten naar Frankrijk",
+          "body": [
+            "De A6 begint in Saarbrücken bij de grensovergang Goldene Bremm en sluit aan op de Franse A320, de E50 richting Parijs. Vanaf daar loopt ze via Kaiserslautern, Mannheim en Heilbronn naar Beieren. Verder zuidelijk is de Europabrücke tussen Kehl en Straatsburg (B28/E52) de drukste grensovergang tussen Baden en de Elzas.",
+            "Wegens schade was die brug een tijd enkel open tot 3,5 ton, en er is een planningsakkoord voor een nieuwe brug gepubliceerd. Een autotransporter weegt veel meer, dus controleer vóór vertrek of de brug open is voor uw gewicht."
+          ]
+        },
+        {
+          "heading": "De Franse kant: A4, A320 en A35",
+          "body": [
+            "Over 482 km verbindt de A4 Parijs met Straatsburg, langs Reims en Metz. Metz wordt ten noorden en oosten omzeild. Bij Freyming-Merlebach takt de A320 af en leidt het verkeer naar Duitsland, onder meer richting Frankfurt. De A4 is een tolweg met concessie van SANEF, met barrièretol onder meer in Saint-Avold en een tol zonder barrière in Boulay.",
+            "Langs de Rijn loopt de A35 van Saint-Louis aan de Zwitserse grens via Mulhouse, Colmar en Straatsburg tot Lauterbourg, waar ze aansluit op de Duitse B9. Ze is gratis."
+          ]
+        },
+        {
+          "heading": "De A35 om de Duitse maut te vermijden",
+          "body": [
+            "Om de Duitse Lkw-Maut op de parallelle A5 te ontlopen, kiezen veel vrachtwagens voor de A35. Die maut geldt voor voertuigen boven 3,5 ton op bijna alle autosnelwegen en op alle Bundesstraßen, en bevat sinds 1 december 2023 een CO2-component. Emissievrije voertuigen in CO2-klasse 5 zijn vrijgesteld.",
+            "De A5 zelf loopt over ongeveer 440 km van Niederaula naar Weil am Rhein, met 2x2 tot 2x4 rijstroken en het knooppunt Karlsruhe, waar de A8 kruist. Zonder On-Board-Unit moet u de route vooraf via app of internetportaal boeken; de vroegere maut-terminals zijn sinds 2019 afgebouwd."
+          ]
+        },
+        {
+          "heading": "Het Franse rijverbod begint al op zaterdagavond",
+          "body": [
+            "Frankrijk verbiedt vrachtwagens boven 7,5 ton voor goederenvervoer van zaterdag 22 uur tot zondag 22 uur, en van 22 uur de avond voor een feestdag tot 22 uur op de feestdag. In de zomer komen er extra zaterdagverboden bij. Bison Futé publiceert de data elk jaar, en ze veranderen.",
+            "Het Franse verbod begint dus eerder dan het Duitse, dat pas om 0 uur op zondag ingaat. Een autotransporter die zaterdagavond nog over de grens wil, ligt aan Franse zijde vast. Plan de laaddag zo dat de wagens vrijdag of zaterdagochtend in Frankrijk zijn."
+          ]
+        },
+        {
+          "heading": "Aankomst in Frankrijk: taksen op bedrijfswagens",
+          "body": [
+            "Personenwagens die een vennootschap in Frankrijk voor haar activiteit inzet, zijn onderworpen aan twee jaarlijkse taksen: een op de CO2-uitstoot en een op de uitstoot van luchtverontreinigende stoffen. Eenmanszaken zijn vrijgesteld. Een wagen geldt als 'gehouden' door de onderneming bij een huur van lange duur of bij leasing met aankoopoptie; kortetermijnhuur van hoogstens een maand is vrijgesteld. Ook een wagen die niet in Frankrijk is ingeschreven, kan belastbaar zijn voor de periode dat hij er effectief is.",
+            "Elke week zijn onze chauffeurs in heel Frankrijk onderweg, ook naar stockageparken als BCA en TEA."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Stellantis in Mulhouse en de veiling van Nancy",
+          "body": "De Stellantis-fabriek van Mulhouse ligt in Sausheim en Rixheim en bouwt de Peugeot 308, 408 en 508 en de DS 7. Alcopa Auction heeft een veilingzaal in Nancy. Beide liggen binnen bereik van de Duitse grens, dus ze zijn logische adressen voor een partij vanuit Baden of het Saarland."
+        },
+        {
+          "kind": "regel",
+          "title": "Quota voor elektrische wagens bij grote vloten",
+          "body": "De Loi d'orientation des mobilités verplicht bedrijven met meer dan 100 lichte voertuigen om bij vernieuwing een minimumaandeel elektrische en plug-inhybride wagens te nemen. Dat aandeel loopt op van 20 naar 40 en daarna naar 70 procent. Meer dan 3.700 bedrijven vallen eronder."
+        },
+        {
+          "kind": "plek",
+          "title": "Ayvens en Arval in Rueil-Malmaison",
+          "body": "Ayvens, ontstaan uit de overname van LeasePlan door ALD Automotive, en Arval, de leasemaatschappij van BNP Paribas, hebben allebei hun zetel in Rueil-Malmaison. Ayvens verkoopt voertuigen aan het einde van hun contract door, onder meer via Ayvens Carmarket. Zo ontstaat remarketingverkeer naar de Franse veilingen."
+        },
+        {
+          "kind": "tip",
+          "title": "Grensarbeiders met een Luxemburgse leaseplaat",
+          "body": "In Lotharingen rijden veel grensarbeiders in wagens met een Luxemburgse leaseplaat. Luxemburg telde in 2016 ruim 173.000 grensarbeiders, van wie ongeveer de helft uit Frankrijk kwam. Dat verklaart waarom ex-lease uit het Groothertogdom vaak in Frankrijk opduikt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag een vrachtwagen met wagens door het centrum van Straatsburg?",
+          "a": "Nee. Door Straatsburg (M35) geldt een transitverbod voor vrachtwagens. De westelijke ring A355, sinds december 2021 open, nam de transit over. Plan de A35 dus niet via het centrum, maar via die ring."
+        },
+        {
+          "q": "Mag een grensarbeider de bedrijfswagen van zijn werkgever ook in zijn woonland gebruiken?",
+          "a": "Ja. Een bedrijfswagen die ingeschreven is in het land waar hij werkt, mag hij ook gebruiken in het land waar hij woont, zonder hem daar in te schrijven. Wie met zijn eigen wagen over de grens pendelt, schrijft die in het woonland in."
+        },
+        {
+          "q": "Zijn elektrische bedrijfswagens vrijgesteld van de Franse jaartaksen?",
+          "a": "Voertuigen die uitsluitend op elektriciteit, waterstof of een combinatie van beide rijden, zijn van beide taksen vrijgesteld. Het CO2-tarief van de andere wagens stijgt wel nog elk jaar, dus de kost van een gemengd wagenpark loopt uiteen."
+        }
+      ],
+      "seoDescription": "Wagenpark van Duitsland naar Frankrijk laten vervoeren: A6, A4 en A35, het Franse weekendverbod en de jaartaksen op bedrijfswagens. Offerte binnen 24 uur.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Bundesautobahn_6",
+        "https://de.wikipedia.org/wiki/Europabrücke_(Kehl)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A4_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F22203",
+        "https://europa.eu/youreurope/citizens/vehicles/registration/registration-abroad/index_fr.htm",
+        "https://fr.wikipedia.org/wiki/Usine_Stellantis_de_Mulhouse",
+        "https://www.alcopa-auction.fr/",
+        "https://fr.wikipedia.org/wiki/Loi_d%27orientation_des_mobilit%C3%A9s",
+        "https://fr.wikipedia.org/wiki/Ayvens",
+        "https://fr.wikipedia.org/wiki/Arval",
+        "https://fr.wikipedia.org/wiki/Travailleur_frontalier"
+      ]
+    },
+    "duitsland-spanje": {
+      "lead": "Hessen is de draaischijf van Duitsland: wat uit Frankfurt, Wiesbaden of Rüsselsheim naar Spanje moet, rijdt eerst door heel Duitsland en daarna door heel Frankrijk. Dat is een lange rit voor een wagenpark, met verboden in drie landen en een Spaanse inschrijving die een eigen procedure heeft. Wie vooraf plant, vermijdt de verrassingen.",
+      "facts": [
+        {
+          "label": "Franse slotas",
+          "value": "A9 van Orange tot Le Perthus, ongeveer 280 km"
+        },
+        {
+          "label": "Spaanse grens",
+          "value": "La Jonquera, tegenover Le Perthus, via de AP-7"
+        },
+        {
+          "label": "Spaanse rijverboden",
+          "value": "Jaarlijkse DGT-resolutie voor voertuigen boven 7.500 kg"
+        },
+        {
+          "label": "Spaanse vloot",
+          "value": "Meer dan een miljoen voertuigen in operationele lease"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Hessen: Opel, veilingen en een draaischijf",
+          "body": [
+            "Hessen heeft geen landsgrens, maar de A3, A5, A7 en A4 kruisen er. De A5 voert van hier noordwaarts of zuidwaarts naar Bazel en Frankrijk. Opel heeft zijn hoofdzetel en stamfabriek in Rüsselsheim am Main, waar ook de Duitse vestiging van moederconcern Stellantis zit.",
+            "Veilinghuis Auktion & Markt AG, achter Autobid.de, is opgericht in 1988 in Wiesbaden. Alleen handelaars kunnen er kopen, en het platform telt ruim 25.000 geregistreerde handelaars uit ongeveer 40 Europese landen. Er is ook een veilinglocatie Frankfurt-Süd. In Baunatal aan de A49 staat de VW-fabriek van Kassel, na Wolfsburg de tweede grootste van de groep in Duitsland: geen wagens, wel versnellingsbakken, en een Original Teile Center."
+          ]
+        },
+        {
+          "heading": "De Franse slotas: A9 van Orange naar Le Perthus",
+          "body": [
+            "Vanaf Orange, waar ze op de A7 aansluit, tot Le Perthus aan de Spaanse grens telt de Franse A9 280,5 km en maakt ze deel uit van de E15. Ze passeert Nîmes, Montpellier, Béziers, Narbonne en Perpignan en heet 'La Languedocienne' en daarna 'La Catalane'.",
+            "Ter hoogte van Montpellier vertakt de A9 in A9 en A709. Mist u de juiste afrit, dan kan de volgende afrit op de A9 tot 35 km verderop liggen. De weg wordt geëxploiteerd door ASF en is tolplichtig, 2x3 rijstroken tot afrit 41 (Perpignan-Nord). Over de grens heet de A9 de Spaanse AP-7. La Jonquera ligt er tegenover Le Perthus en de gemeentelijke economie draait volgens de bron op de douanepost van Portús."
+          ]
+        },
+        {
+          "heading": "Maut en rijverboden over drie landen",
+          "body": [
+            "Emissievrije zware vrachtwagens zijn in Duitsland voor een beperkte periode vrijgesteld van de Lkw-Maut, en emissievrije voertuigen tot 4,25 ton blijvend. Voor ambachtslui met voertuigen onder 7,5 ton bestaat een Handwerkerausnahme. Een autotransporter heeft die vrijstellingen niet, dus reken de maut mee voor het hele Duitse traject.",
+            "Spanje geeft elk jaar een DGT-resolutie met beperkingen voor voertuigen boven 7.500 kg op bepaalde wegen en dagen. Denk aan de N-230 richting de Franse grens op vrijdagavond in de wintermaanden, of aan de toegangswegen tot Madrid op zon- en feestdagen in de zomer. Lees die resolutie voor u een laaddatum afspreekt."
+          ]
+        },
+        {
+          "heading": "Een wagen inschrijven in Spanje",
+          "body": [
+            "Een wagen uit een EU-land krijgt in Spanje een eigen ITV-keuring, ook al heeft hij er in het herkomstland een. U heeft een CoC of een ficha técnica reducida nodig, een bewijs van betaling of vrijstelling van de registratiebelasting (die van de CO2 afhangt) en van de gemeentelijke circulatiebelasting (IVTM). Daarna volgt de inschrijving bij Tráfico.",
+            "Volgens de DGT moet de wagen voor de verplaatsing in het land van herkomst uitgeschreven worden. Zolang hij in Spanje niet ingeschreven is, mag hij er niet rijden, al kunnen tijdelijke groene platen worden aangevraagd: twee maanden, verlengbaar, met verzekering. Dat regelt u of uw dealer. Mcars vervoert, en dat kan bij ons ook zonder dat de wagen zelf een meter rijdt."
+          ]
+        },
+        {
+          "heading": "Waarom wagenparken hier hun auto's laten brengen",
+          "body": [
+            "De Spaanse vloot in operationele lease telt meer dan een miljoen voertuigen, en grote bedrijven met meer dan 24 voertuigen houden de grootste brok. In 2025 werden in Spanje ruim vijf miljoen voertuigen logistiek verplaatst; de zee is de grootste modus, de weg de tweede.",
+            "Voor Mcars is Spanje bekend terrein: we vervoeren er onder meer wagens van tweedeverblijvers, naast alles wat op een open autotransporter past. Voor een wagenpark gelden dezelfde basisregels: open autotransporter, lier voor wagens die niet rijden, inspectie en foto's bij ophaling, CMR-vrachtbrief."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Haven van Tarragona",
+          "body": "Drie terminals in de haven van Tarragona verwerken voertuigen, en er is stockage voor 47.000 stuks. Van oudsher draait het om uitvoer naar het Middellandse Zeegebied en invoer uit het Verre Oosten, voornamelijk Zuid-Korea. De haven werd door de Spaanse constructeursvereniging ANFAC meermaals als beste voor voertuiglogistiek gerangschikt."
+        },
+        {
+          "kind": "plek",
+          "title": "Haven van Barcelona",
+          "body": "Barcelona heeft volgens Wikipedia de grootste autohaven van de Middellandse Zee, met aan de Dársena Sur twee gespecialiseerde terminals. Het recordjaar 2016 wordt toegeschreven aan de nabijheid van de fabrieken van Nissan en SEAT. Wie een wagenpark naar Catalonië laat brengen, kan hier een aflevering of een verscheping plannen."
+        },
+        {
+          "kind": "plek",
+          "title": "Stellantis in Zaragoza",
+          "body": "Sinds 1982 draait de fabriek Stellantis Zaragoza in Figueruelas. Ze bouwt onder meer de Opel Corsa en de Peugeot 208. Ten noorden ligt de haven van Pasaia, waar Mercedes, Volkswagen en Opel een deel van hun productie verschepen. Zo komt een Hessen-Spanje-rit vaak aan in Aragón of in Baskenland."
+        },
+        {
+          "kind": "regel",
+          "title": "De huurder bij de DGT melden",
+          "body": "Rentingbedrijven kunnen bij de DGT online de huurder van elk voertuig melden, zodat boetes en meldingen naar de werkelijke gebruiker gaan. Dat is bedoeld voor voertuigen die langer dan dertig dagen bij dezelfde gebruiker zijn. Leasemaatschappijen kunnen ook de gewone bestuurder per voertuig registreren."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang is de rit van Frankfurt naar de Spaanse grens ongeveer?",
+          "a": "Dat hangt af van de route, het tempo van een autotransporter en de verboden onderweg, dus we geven geen vaste termijn. Reken wel op een traject dat Duitsland, heel Frankrijk en de AP-7 omvat en meerdere rijverbodskalenders raakt."
+        },
+        {
+          "q": "Mag een Duitse wagen met Duitse plaat in Spanje rijden zolang hij niet ingeschreven is?",
+          "a": "Nee, zolang de wagen in Spanje niet ingeschreven is, mag hij er niet rijden. Tijdelijke groene platen kunnen worden aangevraagd voor twee maanden, verlengbaar, met verzekering. Een transport op een autotransporter omzeilt dat probleem."
+        },
+        {
+          "q": "Geldt de Spaanse DGT-resolutie voor het hele land?",
+          "a": "Niet helemaal. De resolutie voor voertuigen boven 7.500 kg geldt voor Spanje behalve Catalonië, Navarra en Baskenland, die eigen regels hebben. Wie naar Barcelona of Bilbao rijdt, raadpleegt dus ook de regionale regels."
+        }
+      ],
+      "seoDescription": "Wagenpark van Hessen naar Spanje laten vervoeren: A9 en La Jonquera, Duitse maut, Spaanse DGT-verboden en wat bij de Spaanse inschrijving hoort.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Opel",
+        "https://de.wikipedia.org/wiki/Auktion_%26_Markt",
+        "https://www.autobid.de/",
+        "https://de.wikipedia.org/wiki/Volkswagenwerk_Kassel",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/La_Jonquera",
+        "https://www.bmv.de/SharedDocs/DE/Artikel/StV/Strassenverkehr/lkw-maut.html",
+        "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+        "https://www.dgt.es/comunicacion/notas-de-prensa/20260122-resolucion-medidas-especiales-trafico-2026",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/quieres-traer-o-llevarte-un-vehiculo-del-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+        "https://ae-renting.es/prensa-noticias/notas-de-prensa/el-renting-crece-un-8-en-parque-y-un-9-en-clientes-hasta-septiembre/",
+        "https://anfac.com/el-transporte-de-vehiculos-en-espana-crece-un-72-en-2025-y-supera-los-cinco-millones-de-unidades-por-primera-vez-desde-la-pandemia/",
+        "https://www.porttarragona.cat/es/servicio-negocio/negocio/traficos/vehiculos",
+        "https://es.wikipedia.org/wiki/Puerto_de_Barcelona",
+        "https://es.wikipedia.org/wiki/Stellantis_Zaragoza",
+        "https://es.wikipedia.org/wiki/Puerto_de_Pasajes",
+        "https://www.dgt.es/nuestros-servicios/para-colaboradores-y-empresas/alquiler-renting-y-grandes-flotas-/"
+      ]
+    },
+    "duitsland-italie": {
+      "lead": "Wie een wagenpark van München naar Italië laat rijden, kiest vrijwel altijd de Brenner. De route loopt over de Duitse A8 en A93, door het Inntal in Oostenrijk en over de Italiaanse A22 naar Verona en Modena. Onderweg wachten een dosering van vrachtverkeer bij Kufstein, een Italiaanse rijverbodskalender en een leasemarkt met eigen regels.",
+      "facts": [
+        {
+          "label": "Hoofdas",
+          "value": "A8 en A93, Oostenrijkse A12 en A13, Italiaanse A22"
+        },
+        {
+          "label": "Dosering Kufstein",
+          "value": "Maximaal 250 vrachtwagens per uur zuidwaarts, boven 7,5 ton"
+        },
+        {
+          "label": "Italiaans zondagsverbod",
+          "value": "Gewone zondagen 9 tot 22 uur, boven 7,5 ton"
+        },
+        {
+          "label": "Brenner",
+          "value": "E45: A13 in Oostenrijk, A22 in Italië"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in München: Welt, beurs en veiling",
+          "body": [
+            "Naast het BMW Museum en het Olympiapark staat in München BMW Welt, dat zowel tentoonstelling als afleveringscentrum voor nieuwe wagens is. Het trekt meer dan drie miljoen bezoekers per jaar. Een wagenpark dat nieuwe wagens van hier naar Noord-Italië laat verplaatsen, rekent op ophaling bij een druk bezocht adres.",
+            "Sinds 2021 organiseert München de IAA Mobility om de twee jaar in september, telkens in de oneven jaren. Autobid.de heeft er een veilinglocatie. Rond die periodes zijn laadadressen in de stad en op de A8 drukker dan gewoonlijk."
+          ]
+        },
+        {
+          "heading": "De weg: A8, A93, het Inntal en de Brenner",
+          "body": [
+            "Vanuit München rijdt u over de A8 en de A93 tot Kiefersfelden/Kufstein. Daar begint de Oostenrijkse A12, de Inntalautobahn: 153 km lang, langs Innsbruck, waar ze de Brennerautobahn (A13) kruist. Over de Brenner is de snelweg E45, A13 in Oostenrijk en A22 in Italië. Sinds Schengen zijn er geen vaste grenscontroles meer, maar Oostenrijk voerde weer controles in.",
+            "De Italiaanse A22 loopt van de Brenner tot Modena, ongeveer 315 km, en kruist de A4 bij Verona en de A1 bij Modena. Ongeveer een derde van het verkeer is zwaar verkeer, en met slechts twee rijstroken zijn files en kop-staartbotsingen er gewoon."
+          ]
+        },
+        {
+          "heading": "Dosering bij Kufstein: wachten op de Duitse kant",
+          "body": [
+            "Bij Kufstein-Nord laten de Oostenrijkse autoriteiten op bepaalde dagen maximaal 250 vrachtwagens per uur zuidwaarts toe, voor voertuigen boven 7,5 ton. Dan blijft één rijstrook over voor het overige verkeer, en staan files tot op de A8 tussen München en Salzburg. De Blockabfertigung wordt vooraf aangekondigd, maar kan op korte termijn ook extra dagen krijgen.",
+            "Beieren verbiedt bij actieve dosering doorgaand vrachtverkeer richting de Brenner in plaatsen langs de A8 en de A93, om sluipverkeer te vermijden. Wie met een autotransporter naar Italië moet, plant daar best rond: liever vroeg vertrekken dan in de rij staan."
+          ]
+        },
+        {
+          "heading": "De Italiaanse rijverbodskalender",
+          "body": [
+            "Italië verbiedt voertuigen boven 7,5 ton op gewone zondagen van 9 tot 22 uur, in de zomermaanden van 7 tot 22 uur. Er komen zomervrijdagen van 16 tot 22 uur bij en geselecteerde zomerzaterdagen. De kalender wordt jaarlijks vastgesteld, dus vraag de actuele versie op.",
+            "Voor voertuigen uit het buitenland met een bewijs van herkomst en bestemming begint het verbod vier uur later. Richting buitenland eindigt het twee uur eerder. Een autotransporter met een CMR-vrachtbrief heeft dat bewijs. Dat is geen reden om tegen de klok te rijden, wel om vooraf uit te rekenen hoe laat u over de Brenner moet zijn."
+          ]
+        },
+        {
+          "heading": "Noleggio a lungo termine en de bestuurder",
+          "body": [
+            "Noleggio a lungo termine loopt in Italië doorgaans 24 tot 60 maanden. In de huur zitten meestal de belastingen, verzekeringen, onderhoud en pechhulp, en de verhuurder blijft eigenaar. Aan het einde van het contract levert de klant de wagen in en controleert de eigenaar de staat. Niet-gemelde schade of te veel kilometers worden aangerekend.",
+            "Een leasingwagen wordt ingeschreven op naam van de leasinggever, met de leasingnemer vermeld in het kentekenbewijs. Mcars brengt wagens van en naar ophaalplaatsen op open, meerlaagse autotransporters, met inspectie en foto's bij ophaling."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Interporto di Trento",
+          "body": "De Interporto di Trento ligt in Trento Nord, op ongeveer 200 meter van de A22-afrit, beslaat 100 hectare en heeft een spoorterminal met RoLa, vrachtwagens op de trein, plus een douanesectie. Voor een wagenpark dat Trentino aandoet, is dit een bekend logistiek adres."
+        },
+        {
+          "kind": "regel",
+          "title": "Area B in Milaan",
+          "body": "Sinds 25 februari 2019 bestaat Area B in Milaan, een zone die veel groter is dan Area C en de meest vervuilende én grote voertuigen weert. Een levering met een autotransporter plant u daarom best aan de stadsrand. Wie wagens in Milaan wil laten komen, spreekt dus een leveradres buiten de zone af."
+        },
+        {
+          "kind": "plek",
+          "title": "Porsche Experience Center Franciacorta",
+          "body": "Het circuit van Franciacorta in Castrezzato, in de provincie Brescia, is sinds 2019 eigendom van Porsche en heet sinds 2021 Porsche Experience Center Franciacorta. Het ligt in het hart van Lombardije. Wie wagens naar of van zo'n circuit laat brengen, vraagt vooraf naar toegang en laadtijden."
+        },
+        {
+          "kind": "regel",
+          "title": "Gebruiker langer dan dertig dagen registreren",
+          "body": "Krijgt iemand anders dan de titularis een voertuig langer dan dertig dagen ter beschikking, dan moet de gebruiker dat binnen dertig dagen laten registreren (art. 94, lid 4-bis). Dat raakt poolwagens en bedrijfswagens op naam van een werknemer, ook als de wagen uit Duitsland komt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is de Brenner altijd de snelste weg voor een autotransporter?",
+          "a": "Op papier meestal wel, maar de dosering bij Kufstein en de files op de A22 kunnen dat tegenspreken. Beieren legt bij dosering doorgangsverboden op voor plaatsen langs de A8 en A93, dus uitwijken via kleinere wegen is geen optie."
+        },
+        {
+          "q": "Hoe lang gelden de Italiaanse rijverboden voor een buitenlandse vrachtwagen?",
+          "a": "Voor voertuigen uit het buitenland met een bewijs van herkomst en bestemming begint het verbod vier uur later, en richting buitenland eindigt het twee uur eerder. De kalender verandert jaarlijks, dus controleer de actuele tijden voor u laadt."
+        },
+        {
+          "q": "Wat moet een bestuurder weten over de papieren aan boord in Duitsland?",
+          "a": "In Duitsland moeten het rijbewijs en de Zulassungsbescheinigung Teil I, het vroegere Fahrzeugschein, in origineel aan boord zijn; een kopie volstaat niet. Verder moeten een verbanddoos volgens DIN 13164, een gevarendriehoek en één veiligheidshesje per voertuig aan boord zijn."
+        }
+      ],
+      "seoDescription": "Wagenpark van München naar Italië laten vervoeren: A8, A93 en de Brenner, Blockabfertigung bij Kufstein, Italiaanse rijverboden en leaseregels.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/BMW_Welt",
+        "https://de.wikipedia.org/wiki/Internationale_Automobil-Ausstellung",
+        "https://www.autobid.de/",
+        "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+        "https://de.wikipedia.org/wiki/Blockabfertigung",
+        "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+        "https://it.wikipedia.org/wiki/Noleggio_a_lungo_termine",
+        "https://aci.gov.it/codice-della-strada/art-91/",
+        "https://aci.gov.it/codice-della-strada/art-94/",
+        "https://it.wikipedia.org/wiki/Interporto_di_Trento",
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://en.wikipedia.org/wiki/Autodromo_di_Franciacorta",
+        "https://www.adac.de/rund-ums-fahrzeug/reparatur-pflege-wartung/wartung-inspektion/was-gehoert-ins-auto/"
+      ]
+    },
+    "duitsland-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU. Een wagenpark dat vanuit Baden-Württemberg de grens bij Weil am Rhein of Gottmadingen oversteekt, rijdt dus een douanegrens binnen, met eigen aangiften, een Gotthardtunnel met dosering en een nachtverbod voor zware voertuigen. Dit is wat u moet regelen of laten regelen voor een wagen of partij de grens kan over.",
+      "facts": [
+        {
+          "label": "Grensovergang",
+          "value": "A5 eindigt in Weil am Rhein, daar begint de Zwitserse A2"
+        },
+        {
+          "label": "Tweede grens",
+          "value": "A81 tot Gottmadingen bij Schaffhausen"
+        },
+        {
+          "label": "Gotthard",
+          "value": "Maximaal 150 vrachtwagens per uur, één buis, 80 km/u"
+        },
+        {
+          "label": "Nachtverbod",
+          "value": "Boven 3,5 ton: zondag, en elke nacht tussen 22 en 5 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Baden-Württemberg: A5, A81 en de Albaufstieg",
+          "body": [
+            "De A5 eindigt in Weil am Rhein aan de Zwitserse grens bij Bazel. Zwitserland ligt buiten de EU, dus de grens is een douanegrens. Wie via Stuttgart komt, rijdt de A81, die van Würzburg via Heilbronn en Stuttgart naar Gottmadingen bij de Zwitserse grens loopt. De geplande verlenging tot aan de grens is nooit gebouwd, en bij Stuttgart ligt de Engelbergtunnel van ongeveer 2,5 km.",
+            "Wie van Ulm komt, daalt of klimt over de Albaufstieg op de A8: ongeveer 380 hoogtemeters met tot 6,3 procent helling, in twee aparte dalen. Bergaf geldt 50 km/u voor vrachtwagens. Dat tempo mag een volle autotransporter niet overschrijden."
+          ]
+        },
+        {
+          "heading": "De Zwitserse A2 en de Gotthardtunnel",
+          "body": [
+            "De Zwitserse A2 loopt van Bazel naar Chiasso en gaat door de Gotthardtunnel, van Göschenen tot Airolo. De tunnel is 16,9 km lang, in 1980 geopend, en heeft één buis met één rijstrook per richting. Er geldt een inhaalverbod en 80 km/u. Na de brand van 2001 geldt een grens van 150 vrachtwagens per uur die de tunnel in mogen.",
+            "Een scheur in het plafond hield de tunnel in september 2023 enkele dagen gesloten. Er is groen licht voor een tweede buis, terwijl de oude buis gerenoveerd wordt. Voor een wagenpark dat naar Ticino of Italië moet, betekent dat: reken op wachten of uitwijken naar een andere dag."
+          ]
+        },
+        {
+          "heading": "Zondag en nacht: het Zwitserse rijverbod",
+          "body": [
+            "Op zondag en 's nachts van 22 tot 5 uur mogen in Zwitserland geen voertuigen boven 3,5 ton rijden, evenmin als trekkers met oplegger boven 5 ton en voertuigen met aanhanger boven 3,5 ton. Dat is strenger dan het Duitse verbod, dat pas boven 7,5 ton geldt.",
+            "Een uitzonderingsvergunning wordt enkel afgegeven voor ritten die onvermijdelijk zijn. Komt de rit uit het buitenland, dan beslist het kanton waar u binnenkomt. Rekent u op een aankomst na 22 uur, plan dan een stop vóór de grens in plaats van een vergunning aan te vragen."
+          ]
+        },
+        {
+          "heading": "Douane in beide richtingen",
+          "body": [
+            "Wie een wagen definitief naar Zwitserland brengt, meldt hem uit eigen beweging aan bij een douanekantoor voor handelsgoederen, met factuur of koopcontract, kentekenbewijs, identiteitsbewijs en een e-dec-aangifte. Invoerrechten op wegvoertuigen zijn er niet meer. Wel is een elektronische aangifte nodig, tot dertig dagen vóór de grensovergang. Betaalt u liever bij een binnenlands kantoor, dan krijgt u aan de grens een Vormerkschein die twee dagen geldig is.",
+            "Uitvoer uit Duitsland gaat met uitvoerkentekens en een kortlopende aansprakelijkheidsverzekering, of de wagen wordt afgemeld en op een aanhanger vervoerd. De verkoper heeft voor de btw-teruggave een uitvoerbevestiging nodig van het laatste EU-douanekantoor. Dat regelt u of een douane-expediteur; Mcars vervoert."
+          ]
+        },
+        {
+          "heading": "Bedrijfswagens in Zwitserland",
+          "body": [
+            "Een inwoner van Zwitserland die een bedrijfswagen van een buitenlandse werkgever krijgt, moet vóór de eerste binnenkomst een douanevergunning 15.30 aanvragen. De wagen mag dan alleen voor dienstritten en woon-werkverkeer dienen, niet voor privéritten.",
+            "In principe is het bedrijven met zetel in Zwitserland niet toegestaan om niet-ingeklaarde voertuigen te gebruiken. De belangrijkste uitzondering is een tijdelijke aangifte voor twaalf grensoverschrijdende ritten per jaar, met een waarborg. Buitenlandse bedrijven mogen niet-ingeklaarde voertuigen alleen tijdelijk en alleen voor grensoverschrijdend vervoer inzetten; binnenlands vervoer is verboden. Mcars rijdt met een CMR-vrachtbrief, zodat de herkomst aantoonbaar is."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "EuroAirport Basel-Mulhouse-Freiburg",
+          "body": "De EuroAirport ligt volledig op Frans grondgebied, in Saint-Louis, en wordt door Frankrijk en Zwitserland samen uitgebaat. Twee sectoren, een Franse en een Zwitserse, maken deel uit van deze terminal. Bij het ophalen of afleveren van een wagen moet vooraf duidelijk zijn in welke sector."
+        },
+        {
+          "kind": "plek",
+          "title": "Zwitserse Rijnhavens",
+          "body": "Drie haventerreinen vormen de Zwitserse Rijnhavens: Basel-Kleinhüningen, Birsfelden en Muttenz-Auhafen. Ze liggen op de goederencorridor Rotterdam-Basel-Genua. Wagens die per binnenschip aankomen, kunnen hier verder per vrachtwagen naar dealers of vestigingen."
+        },
+        {
+          "kind": "plek",
+          "title": "Galliker in Altishofen",
+          "body": "Galliker heeft zijn hoofdkwartier in Altishofen, in het kanton Luzern, met in twee parkeergebouwen overdekte stalling voor 6.000 voertuigen. Van daaruit worden elke dag nieuwe wagens van meer dan twintig merken naar dealers in heel Zwitserland gebracht."
+        },
+        {
+          "kind": "tip",
+          "title": "E-vignet voor het hele wagenpark",
+          "body": "Voor een wagenpark kunnen e-vignetten in één keer worden gekocht via het Via-portaal, met een CSV-lijst van voertuigtype, land en nummerplaat. Met de optie Öffentlich einsehbar kan iedereen nagaan of een plaat een geldig e-vignet heeft. Dat is handig voor pool- en huurwagens."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is er een winterbandenplicht in Duitsland op de weg naar Bazel?",
+          "a": "Duitsland kent geen plicht op vaste datums maar een situatieve plicht: bij ijzel, sneeuwgladheid, sneeuwbrij, ijs- of rijpgladheid mag u alleen rijden met winterbanden op alle wielen. Als winterband telt alleen een band met het Alpine-symbool."
+        },
+        {
+          "q": "Kan een e-vignet naar een nieuwe nummerplaat worden overgezet?",
+          "a": "Ja, als voertuig en houder dezelfde blijven. De nieuwe plaat is pas geldig nadat de douane de wijziging per e-mail heeft bevestigd. Wie wagens met nieuwe platen inzet, regelt dat dus vóór de eerste rit."
+        },
+        {
+          "q": "Verandert leasing iets aan de Zwitserse douanebehandeling?",
+          "a": "Leasing verandert niets aan de douanebehandeling van een voertuig, maar kan wel gevolgen hebben voor de Zwitserse inschrijving. De douane verwijst daarvoor naar het kantonale Strassenverkehrsamt, dat u best vooraf contacteert."
+        }
+      ],
+      "seoDescription": "Wagenpark van Baden-Württemberg naar Zwitserland laten vervoeren: A5 en Gotthard, nachtverbod, douane en regels voor bedrijfswagens buiten de EU.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_81",
+        "https://de.wikipedia.org/wiki/Albaufstieg_(A_8)",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+        "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/import-export/fahrzeugexport-schweiz/",
+        "https://www.bazg.admin.ch/de/unverzollte-fahrzeuge-nutzung-schweiz-regeln",
+        "https://www.bazg.admin.ch/de/einfuhr-schweiz-strassenfahrzeuge-firmen",
+        "https://www.bazg.admin.ch/de/e-vignette-fuer-firmen",
+        "https://www.bazg.admin.ch/de/faq-umzugsgut",
+        "https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg",
+        "https://www.swiss-spectator.ch/der-korridor-rotterdam-basel-genua-und-die-schweizerischen-rheinhaefen/",
+        "https://www.galliker.com/en/locations/headquarters-altishofen",
+        "https://www.gesetze-im-internet.de/stvo_2013/__2.html",
+        "https://www.stuttgarter-zeitung.de/panorama/diese-allwetterreifen-sind-nicht-mehr-erlaubt-wer-die-ganzjahresreifen-fuer-den-winter-wechseln-muss-79437052.html"
+      ]
+    },
+    "duitsland-oostenrijk": {
+      "lead": "Wie een wagenpark van Beieren naar Oostenrijk wil brengen, heeft twee mogelijke wegen: het korte stuk Oostenrijks grondgebied bij Salzburg, of het Inntal bij Kufstein. Aan Oostenrijkse kant wachten een weekendverbod dat al zaterdagmiddag begint en een belasting, de NoVA, die bij leasewagens met vaste standplaats in Oostenrijk anders uitpakt dan in Duitsland.",
+      "facts": [
+        {
+          "label": "Naar Salzburg",
+          "value": "Duitse A8 bij Walserberg, daarna de Oostenrijkse A1"
+        },
+        {
+          "label": "Naar Tirol",
+          "value": "A93 tot Kufstein, daar begint de Oostenrijkse A12"
+        },
+        {
+          "label": "Oostenrijks weekendverbod",
+          "value": "Boven 7,5 ton: van zaterdag 15 uur tot zondag 22 uur geen verkeer"
+        },
+        {
+          "label": "NoVA",
+          "value": "Elektrische voertuigen zijn vrijgesteld"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Beieren: Ingolstadt, Kelheim en München",
+          "body": [
+            "Audi Forum Ingolstadt combineert het museum mobile, met meer dan honderd voertuigen, met een Kundencenter waar kopers dagelijks nieuwe Audi's afhalen. BLG Logistics heeft een autoterminal in Kelheim aan de Donau, met sinds 2023 een vaste autotrein naar Turkije.",
+            "In München heeft Autobid.de een veilinglocatie, een adres waar handelaars hun gekochte wagens laten ophalen. Wie zijn wagenpark van daar naar Oostenrijk wil brengen, rijdt de A8 richting Salzburg of de A93 richting Kufstein, afhankelijk van of de bestemming in het oosten of het westen van het land ligt."
+          ]
+        },
+        {
+          "heading": "De weg: A8 naar Salzburg, A93 naar Kufstein",
+          "body": [
+            "De Duitse A8 eindigt bij de Oostenrijkse Westautobahn nabij Salzburg. Het korte Oostenrijkse stuk omzeilen chauffeurs via de afritten Bad Reichenhall of Schwarzbach. Naar Tirol en Italië neemt u de A8, dan de A93 tot Kiefersfelden/Kufstein, waar de Oostenrijkse A12 begint, het Inntal, 153 km via Innsbruck. Via het Duitse Eck loopt een verbinding Tirol-Salzburg-A1 richting Wenen.",
+            "Wie vanuit Noord-Duitsland en het Rijnland komt, rijdt meestal bij Passau de grens over: de Duitse A3 eindigt er, en bij Suben begint de Oostenrijkse A8, de Innkreis Autobahn. Vanuit München komt het verkeer bij Walserberg binnen."
+          ]
+        },
+        {
+          "heading": "Planning rond de dosering bij Kufstein",
+          "body": [
+            "De Tiroolse autoriteiten plannen elk jaar een aantal dagen met Blockabfertigung, de dosering van vrachtverkeer. Het aantal wisselt sterk: in een recordjaar was de dosering op 57 dagen actief. Extra verbodsdagen kunnen ook op korte termijn volgen, bijvoorbeeld na ongevallen op de Inntal- of Brennerautobahn.",
+            "Beieren verbiedt bij actieve dosering doorgaand vrachtverkeer richting Oostenrijk in plaatsen langs de A8 en de A93. Ook voor personenwagens gelden doorgangsverboden. Op zomerweekends golden eerder afrit-verboden rond Innsbruck om sluipverkeer te voorkomen. Plan een rit naar Tirol dus buiten de piekdagen."
+          ]
+        },
+        {
+          "heading": "Oostenrijkse rijverboden: het weekend begint zaterdagmiddag",
+          "body": [
+            "Oostenrijk verbiedt vrachtwagens boven 7,5 ton van zaterdag 15 uur tot zondag 22 uur, met extra zomerzaterdagverboden van 7 tot 15 uur op toeristische routes. Dat is een kalender die eerder begint dan de Duitse. Een transporter die zaterdagochtend uit Beieren vertrekt, moet de laadplaats in Oostenrijk vóór het begin van het verbod bereiken.",
+            "Oostenrijk heft bovendien eigen tol op zijn autosnelwegen. Voor het Duitse stuk betaalt u de Lkw-Maut voor voertuigen boven 3,5 ton, met een CO2-component. Mcars rijdt open, op meerlaagse autotransporters, vanuit het depot in Roeselare; vraag een offerte op maat aan."
+          ]
+        },
+        {
+          "heading": "Aankomst in Oostenrijk: NoVA en inschrijving",
+          "body": [
+            "NoVA is ook verschuldigd voor een leasewagen met vaste standplaats in Oostenrijk wanneer de leasemaatschappij in het buitenland zit. Die belasting komt ten laste van de leasingnemer of gebruiker in Oostenrijk. Bij grensoverschrijdende leasing binnen de EU of EER kan de NoVA bij de inschrijving worden beperkt tot het deel dat overeenkomt met de tijdelijke gebruiksduur. Elektrische voertuigen zijn vrijgesteld.",
+            "Een bedrijfswagen wordt ingeschreven bij de Zulassungsstelle voor het district van de bedrijfszetel, een eenmanszaak mag kiezen tussen woonplaats en zetel. Voor lease- en bedrijfswagens vraagt de Zulassungsstelle bijkomende documenten. Een buitenlands overbrengingskenteken wordt hoogstens vier weken erkend."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Audi Forum Ingolstadt",
+          "body": "Het museum mobile toont meer dan honderd voertuigen en het Kundencenter levert dagelijks nieuwe Audi's aan kopers. Wie een zakelijk wagenpark van Audi's naar Oostenrijk laat verplaatsen, haalt wagens hier vaak op voor ze de grens over gaan."
+        },
+        {
+          "kind": "plek",
+          "title": "BLG in Kelheim",
+          "body": "BLG Logistics heeft een autoterminal in Kelheim aan de Donau. Sinds 2023 rijdt er een vaste autotrein naar Köseköy in Turkije. Een wagenpark dat naar het zuidoosten moet, kan hier terecht, terwijl wagens naar Oostenrijk over de weg verder gaan."
+        },
+        {
+          "kind": "regel",
+          "title": "Digitaal vignet aan de nummerplaat",
+          "body": "Het digitale vignet hangt aan de nummerplaat, en de geldigheid is online na te kijken met plaat en land van inschrijving. Eén digitaal vignet dekt tot drie voertuigen die een Wechselkennzeichen delen. Controleer het vignet van elke wagen in uw partij vóór de eerste rit op eigen wielen."
+        },
+        {
+          "kind": "regel",
+          "title": "IG-L-verbod voor bestelwagens in Wenen",
+          "body": "In Wenen en het oosten van Niederösterreich geldt het IG-L-verbod voor alle voertuigen die als Lkw (klasse N) zijn ingeschreven, ongeacht het gewicht, dus ook kleine bestelwagens en als vrachtwagen ingeschreven terreinwagens. De twee oudste emissieklassen zijn er het hele jaar verboden."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is er een alternatief voor het Oostenrijkse stuk van de A8?",
+          "a": "Ja. Het korte Oostenrijkse stuk omzeilen chauffeurs via de afritten Bad Reichenhall of Schwarzbach. Ze blijven dan langer op Duitse wegen, waar de Lkw-Maut geldt, en vermijden de Oostenrijkse tol."
+        },
+        {
+          "q": "Mag een huurwagen met Oostenrijkse plaat tijdelijk in de hele EU rijden?",
+          "a": "Ja. Voor het gebruik binnen de EU van voertuigen die in een EU-lidstaat zijn ingeschreven, gelden geen douaneregels. Een huurwagen met Oostenrijkse plaat mag tijdelijk in de hele EU gebruikt worden."
+        },
+        {
+          "q": "Hoe vaak moet een zware bedrijfswagen in Oostenrijk naar de keuring?",
+          "a": "Zware vrachtwagens, taxi's, ambulances en bussen moeten elk jaar naar de periodieke keuring volgens § 57a. Voor die voertuigen mag de keuring tot drie maanden vóór de vervalmaand gebeuren, wat u een marge geeft voor transport."
+        }
+      ],
+      "seoDescription": "Wagenpark van Beieren naar Oostenrijk laten vervoeren: A8 en A93, dosering bij Kufstein, weekendverbod en NoVA bij leasewagens.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Audi_Forum_Ingolstadt",
+        "https://de.wikipedia.org/wiki/BLG_Logistics_Group",
+        "https://www.autobid.de/",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_8",
+        "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn",
+        "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://www.usp.gv.at/themen/steuern-finanzen/weitere-steuern-und-abgaben/normverbrauchsabgabe-nova.html",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/2/Seite.060118",
+        "https://www.autoscout24.at/informieren/ratgeber/kauf-im-ausland/auto-importieren-oesterreich/",
+        "https://www.asfinag.at/maut-vignette/digitale-vignette/",
+        "https://www.wko.at/transport/lkw-fahrverbot-feinstaub-wien-niederoesterreich",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/9/Seite.063501",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/Seite.060500"
+      ]
+    },
+    "duitsland-polen": {
+      "lead": "Naar Polen rijdt een wagenpark vanuit Duitsland meestal via twee assen: de A12 bij Frankfurt (Oder) en Świecko, of de A4 bij Görlitz. Vanuit Berlijn, Leipzig of Dresden zijn dat lange ritten met een grens waar controles files veroorzaken. In Polen zelf bepalen leasingcijfers, accijns en milieuzones wat een bedrijf met een buitenlands wagenpark nog moet regelen.",
+      "facts": [
+        {
+          "label": "Noordelijke as",
+          "value": "A12 van Berlijn naar Frankfurt (Oder), daar de Poolse A2"
+        },
+        {
+          "label": "Zuidelijke as",
+          "value": "Poolse A4 vanaf Jędrzychowice, 669 km lang"
+        },
+        {
+          "label": "Poolse A2",
+          "value": "Tolplichtig tot Konin, beheerd door Autostrada Wielkopolska"
+        },
+        {
+          "label": "Accijns",
+          "value": "Poolse accijns geldt bij elke eerste inschrijving van een personenwagen"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Berlijn: Tesla, Lausitzring en de Oostzee",
+          "body": [
+            "Tesla bouwt sinds 2022 de Model Y voor Europa in Grünheide, pal naast de A10 met een eigen snelwegaansluiting (afrit Freienbrink). BCA heeft een veilingcentrum Berlin-Ost in Hoppegarten en Autobid.de heeft een locatie Berlijn. De Lausitzring bij Klettwitz (afrit A13) is sinds 2017 van DEKRA, dat er een test- en ontwikkelcentrum uitbouwt.",
+            "Aan de Oostzee is Rostock de grootste Duitse zeehaven, met veerlijnen naar Gedser, Trelleborg en Nynäshamn en een aansluiting op de A19. Voor een partij die naar het oosten verder gaat, begint de rit hier vaak met een korte aanrij."
+          ]
+        },
+        {
+          "heading": "Via Leipzig en Dresden: de zuidelijke as",
+          "body": [
+            "Porsche bouwt in Leipzig, aan de A14, de Macan en de Panamera. Het klantencentrum heeft een eigen circuit van 3,7 km, en jaarlijks worden er ongeveer 2.000 wagens aan klanten overhandigd. De BMW-fabriek bij het beursterrein bouwt onder meer de 1-Reeks, de 2-Reeks Active Tourer en de Mini Countryman, met een capaciteit van ongeveer 1.000 wagens per dag.",
+            "BCA houdt veilingen in Wiedemar, bij Leipzig, enkel bemand op veilingdagen. Opel heeft een fabriek in Eisenach, BLG een vestiging in Dodendorf bij Magdeburg. De Gläserne Manufaktur in Dresden bouwt geen wagens meer, maar afleveringen aan klanten, proefritten en events gaan er door."
+          ]
+        },
+        {
+          "heading": "De weg: A12, de Poolse A2 en de A4",
+          "body": [
+            "De A12 loopt 58 km van Berlijn (driehoek Spreeau) naar Frankfurt (Oder) en de Poolse grens; ze is deel van de E30. Aan Poolse kant gaat ze verder als DK 2 en sluit aan op de A2 bij Świecko. De Poolse A2 loopt via Poznań en Łódź naar Warschau, en het grootste deel tot Konin is tolplichtig.",
+            "Zuidelijker loopt de Poolse A4 over 669 km van Jędrzychowice (Zgorzelec-Görlitz) naar Wrocław, Katowice en Kraków. Tussen de grens en Wrocław, over 151 km, betaalt u geen tol en is er geen pechstrook. Aan Duitse kant sluit ze aan op de A4 richting Dresden."
+          ]
+        },
+        {
+          "heading": "Grenscontroles, e-TOLL en 80 km/u",
+          "body": [
+            "Containertrucks en ander zwaar verkeer van Polen naar Duitsland zijn de belangrijkste gebruikers van de brug tussen Świecko en Frankfurt. Steekproefcontroles aan de grens hebben op de A12 files van kilometers veroorzaakt, en een extra rijstrook in de controlezone werd overwogen. Reken dus op oponthoud en kijk de actuele toestand na voor u vertrekt.",
+            "Zware voertuigen betalen Poolse tol via e-TOLL, met registratie via een goedgekeurd boordtoestel of de e-TOLL PL-app. Op Duitse Autobahnen blijft 80 km/u het maximum voor vrachtwagens boven 3,5 ton en voor personenwagens en vrachtwagens met aanhanger. Polen kent bovendien weekend- en feestdagverboden tijdens de zomer, vaak vanaf vrijdagavond."
+          ]
+        },
+        {
+          "heading": "Aankomst in Polen: leasing, accijns en milieuzones",
+          "body": [
+            "De Poolse leasingmarkt financiert vooral bedrijven. Leasing aan particulieren is klein, ongeveer vier procent van de leasing van lichte voertuigen. Lichte voertuigen zijn ruim de helft van de markt, en leasing en verhuur samen zijn goed voor één op twee nieuw ingeschreven wagens. In een jaar werden ongeveer 29.000 elektrische wagens via leasing of verhuur ingeschreven.",
+            "In Warschau treft de tweede fase van de milieuzone vrachtwagens en bussen die recent zijn ingeschreven, en voertuigen van eigenaars die niet in Warschau gevestigd zijn of er geen belasting betalen. Online kunt u per voertuig bij de stad nakijken of het de zone in mag. Mcars rijdt open, met lier en CMR; de offerte op maat vraagt u vooraf."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Volkswagen in Września",
+          "body": "Volkswagen breidt de fabriek in Września uit voor de volgende generatie van de elektrische Crafter. Volkswagen Poznań telt ongeveer 9.000 werknemers en is de grootste werkgever van Groot-Polen. Wie bedrijfswagens van hier naar West-Europa wil verplaatsen, rijdt langs de Poolse A2."
+        },
+        {
+          "kind": "plek",
+          "title": "Stellantis in Tychy",
+          "body": "De Stellantis-fabriek in Tychy opende in 1975 en werd in 1992 volledig Fiat. Daar worden de nieuwe Fiat 500 en de Lancia Ypsilon gebouwd. Bijna een half miljoen wagens verlieten in 2008 de band. Een wagenpark dat uit Opper-Silezië komt, rijdt via de A4 naar de Duitse grens."
+        },
+        {
+          "kind": "regel",
+          "title": "Accijns bij eerste inschrijving",
+          "body": "Bij elke eerste inschrijving van een personenwagen in Polen is accijns verschuldigd, ook voor een leasewagen uit het buitenland. De aangifte moet binnen veertien dagen, en de betaling binnen dertig dagen, via PUESC. Vrijstelling is mogelijk voor plug-inhybrides tot 2000 cm³ en voor elektrische en waterstofwagens."
+        },
+        {
+          "kind": "plek",
+          "title": "Haven van Szczecin-Świnoujście",
+          "body": "De haven Szczecin-Świnoujście behandelt ro-ro-lading en telde in 2022 ruim 1,16 miljoen passagiers. Świnoujście heeft de grootste veerterminal van Polen, met verbindingen naar Denemarken en Zweden. Ze ligt dicht bij Rostock, aan de overkant van de grens."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoeveel tijd heb ik om een Duitse wagen in Polen in te schrijven?",
+          "a": "De termijn is dertig dagen. Vaak registreert de dienst tijdelijk voor dertig dagen, met een verlenging van veertien dagen mogelijk. Bij de inschrijving heeft u de Duitse Zulassungsbescheinigung I en II, een geldige keuring en een Poolse verzekering nodig."
+        },
+        {
+          "q": "Geldt de Duitse TÜV-keuring ook in Polen?",
+          "a": "In principe blijft de Duitse keuring geldig, maar het loket kan ze weigeren. Dan volgt een nieuwe keuring in Polen. Wie een partij wil inschrijven, vraagt het loket vooraf wat het accepteert."
+        },
+        {
+          "q": "Moet een in Duitsland ingeschreven wagen eerst uitgeschreven worden?",
+          "a": "Ja. Zonder uitschrijving in Duitsland is registratie in Polen van een Duits ingeschreven wagen onmogelijk. Poolse bronnen raden aan dat vóór het vertrek uit Duitsland te regelen, dus voor de wagens op de transporter staan."
+        }
+      ],
+      "seoDescription": "Wagenpark van Duitsland naar Polen laten vervoeren: A12 en A4, grenscontroles, e-TOLL, leasing en accijns bij de Poolse inschrijving.",
+      "sources": [
+        "https://de.wikipedia.org/wiki/Tesla_Gigafactory_Berlin-Brandenburg",
+        "https://de.wikipedia.org/wiki/BCA_Marketplace",
+        "https://de.wikipedia.org/wiki/Lausitzring",
+        "https://de.wikipedia.org/wiki/Seehafen_Rostock",
+        "https://de.wikipedia.org/wiki/Porsche_Leipzig",
+        "https://de.wikipedia.org/wiki/BMW-Werk_Leipzig",
+        "https://de.wikipedia.org/wiki/Opel",
+        "https://de.wikipedia.org/wiki/Gläserne_Manufaktur",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+        "https://www.etoll.gov.pl/en/",
+        "https://dejure.org/gesetze/StVO/18.html",
+        "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+        "https://www.otomoto.pl/news/rejestracja-samochodu-z-niemiec-poradnik-krok-po-kroku",
+        "https://polandinsight.com/polands-leasing-market-hits-record-pln-119-5bn-in-2025-as-ev-financing-gains-momentum-31181/",
+        "https://trans.info/pl/strefy-czystego-transportu-w-polsce-2026-447422",
+        "https://um.warszawa.pl/waw/sct/sprawdz-pojazd",
+        "https://www.automotiveworld.com/news-releases/volkswagen-to-expand-wrzesnia-plant-for-next-generation-electric-crafter-production/",
+        "https://en.wikipedia.org/wiki/Tychy",
+        "https://en.wikipedia.org/wiki/Port_of_Szczecin-%C5%9Awinouj%C5%9Bcie"
+      ]
+    }
+  }
+}

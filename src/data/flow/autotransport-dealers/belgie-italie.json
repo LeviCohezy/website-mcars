@@ -1,0 +1,59 @@
+{
+  "sub": "Van uw garage in België naar een collega of klant in Italië: wij laden uw verkochte wagens op en leveren ze af, met één vast contact.",
+  "problem": {
+    "title": "Uw wagen is verkocht, maar de koper zit in Italië",
+    "body": "Belgische occasies vinden gemakkelijk hun weg naar Italiaanse handelaars: de wagens zijn goed onderhouden en de Car-Pass geeft vertrouwen. Voor u begint het werk nadat de deal rond is. Wie haalt de wagen op, wie brengt hem naar Italië, en wie let erop dat er niets op beschadigd raakt? Zelf een chauffeur sturen kost u een paar dagen en een retourrit, en die tijd verdient u niet terug op de verkoop.",
+    "situations": [
+      { "title": "Verkocht aan een Italiaanse handelaar", "body": "Uw collega in Italië heeft gekocht en wil de wagen zo snel mogelijk in zijn stock. U geeft de ophaling door aan ons en blijft zelf bij uw klanten." },
+      { "title": "Een partij exporteren", "body": "U hebt enkele wagens die hier moeilijk verkopen maar in Italië wel vraag hebben. Op één transporter gaan ze samen mee naar uw koper." },
+      { "title": "Inruil voor een Italiaanse klant", "body": "Uw Italiaanse klant ruilt via u een wagen in en wil dat u de nieuwe levert. Wij halen ze bij u op en brengen ze waar hij ze wil." }
+    ]
+  },
+  "solution": {
+    "title": "Van uw garage tot de Italiaanse koper",
+    "body": "Na uw aanvraag stuurt Mcars binnen 24 uur een offerte op maat. We spreken af wanneer de chauffeur bij u langskomt, op uw terrein of op ons depot in Roeselare, waar u ze ook 24 uur op 24 mag brengen. Hij laadt de wagens op een open meerlaagse transporter, bekijkt ze met u, neemt foto's en maakt de CMR op. Op de dag zelf belt hij u en uw koper in Italië. Onderweg zijn de wagens verzekerd. Bij aankomst controleert uw koper de wagens samen met onze chauffeur en tekent af. Wat er bij de verkoop aan papieren hoort, regelt u met uw koper."
+  },
+  "usps": [
+    { "title": "Ophaling bij uw garage", "body": "Onze chauffeur komt naar uw terrein. Is dat te krap voor een grote transporter, dan spreken we een andere laadplek af." },
+    { "title": "Eén aanspreekpunt", "body": "U hebt één persoon bij Mcars aan de lijn voor de hele rit. U hoeft niet te zoeken wie wat weet." },
+    { "title": "Discreet naar uw klant", "body": "We spreken uw koper in Italië aan als vertegenwoordiger van uw bedrijf. Over uw prijzen of marges zeggen wij niets." },
+    { "title": "Open transporter, lier aan boord", "body": "Onze wagens rijden open en meerlaags. Staat er een wagen die niet vlot rijdt, dan trekt de lier hem op het platform." }
+  ],
+  "steps": [
+    { "title": "Aanvraag met wagens", "body": "Deel mee welke wagens vertrekken, vanwaar en naar welke koper. Uw offerte op maat is er binnen 24 uur." },
+    { "title": "Afspraak met u en de koper", "body": "We plannen de ophaling bij u en de aflevering in Italië in overleg met beide partijen, zodat niemand voor een dichte poort staat." },
+    { "title": "Laden en CMR", "body": "Bij het laden volgen inspectie, foto's en de CMR-vrachtbrief. Beide partijen weten zo in welke staat de wagen vertrekt." },
+    { "title": "Aflevering in Italië", "body": "De chauffeur belt op de dag zelf en rijdt naar de koper. Die controleert de wagens samen met hem en tekent af." }
+  ],
+  "care": {
+    "title": "De CMR en de staat van uw wagen",
+    "body": "Een verkochte wagen moet in dezelfde staat aankomen als hij vertrok. Daarom controleert de chauffeur elke wagen bij ophaling, noteert hij zichtbare schade en neemt hij foto's als intern bewijs. Alles komt op de CMR-vrachtbrief. Tijdens het transport zijn de wagens verzekerd. De Car-Pass, de keuring en de overschrijving in Italië blijven een zaak van u en uw koper. Wij vervoeren, en over uw deal houden wij onze mond.",
+    "items": ["Controle bij het laden", "Foto's als intern bewijs", "CMR-vrachtbrief bij het laden", "Verzekerd van laden tot lossen"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Italië",
+    "body": "Wij zitten in Roeselare en rijden dagelijks in België. Uw wagen halen we dus bij u op, ook als u in een uithoek van Wallonië of Limburg zit. Aan de Italiaanse kant zoeken we met uw koper de beste plek om te lossen. Onze chauffeurs spreken Nederlands of Frans. We rijden zowel in het noorden van Italië als in het midden en kennen de gewoonten van de handelaars daar.",
+    "regions": ["West-Vlaanderen", "Brussel", "Wallonië", "Lombardije", "Veneto", "Emilia-Romagna"]
+  },
+  "faq": [
+    { "q": "Kan mijn koper in Italië zelf de ophaling bij mij regelen?", "a": "Ja, maar wij spreken liefst met u beiden. Zo weten we wie de wagen vrijgeeft, wie hem ontvangt en wie er op de dag zelf telefonisch bereikbaar is." },
+    { "q": "Moet ik zelf een inspectierapport maken?", "a": "Niet nodig. Onze chauffeur doet de inspectie bij ophaling, maakt foto's en noteert alles op de CMR. Een eigen fotodossier van u blijft altijd welkom." },
+    { "q": "Wat als er één wagen minder meegaat dan gepland?", "a": "Meld het ons zodra u het weet. We passen de planning aan. Hoe sneller we het horen, hoe makkelijker de rit nog klopt." },
+    { "q": "Mag ik de wagens naar jullie depot brengen?", "a": "Ja. Aanleveren op ons depot in Roeselare kan op elk uur van de dag en is voordeliger dan ophaling op uw terrein." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wat we met u en uw Italiaanse koper afspreken, komt uit. Dezelfde vaste chauffeurs rijden uw verkochte wagens naar hun nieuwe eigenaar.",
+    "snel": "Wij plannen de ophaling bij uw garage vlot in en zetten uw wagens zonder omwegen af bij de koper in Italië.",
+    "volgbaar": "Via track en trace ziet u waar uw wagens onderweg naar Italië zijn, en de chauffeur belt u en uw koper op de dag zelf.",
+    "verzekerd": "Uw verkochte wagens zijn verzekerd van laden tot lossen. De CMR-vrachtbrief legt de staat bij vertrek vast, voor u en uw Italiaanse koper."
+  },
+  "reasons": [
+    { "title": "Jarenlange ervaring", "body": "Wij rijden al jaren wagens voor garages en handelaars. Die ervaring merkt u ook op de lange rit richting Italië." },
+    { "title": "Passie voor het vak", "body": "Autotransport is voor ons geen job om af te vinken. We zijn trots op elke wagen die onbeschadigd bij uw koper staat." },
+    { "title": "Honderden ritten gereden", "body": "Honderden ritten hebben ons geleerd wat er kan misgaan. Daarom loopt ook uw export naar Italië zonder verrassingen." },
+    { "title": "Eigen chauffeurs", "body": "Wij kiezen bewust voor eigen chauffeurs. Zij kennen uw wagens, uw afspraken en de weg, en geen onderaannemer neemt de rit over." },
+    { "title": "Breed aanbod", "body": "Eén wagen of een hele partij, een occasie of een nieuwere wagen: wij hebben het transport dat bij uw verkoop past." },
+    { "title": "Oog voor vernieuwing", "body": "We blijven ons werk verbeteren, met slimmere planning en betere opvolging, zodat uw klant in Italië altijd goed op de hoogte blijft." }
+  ],
+  "seoDescription": "Autotransport van België naar Italië voor garages en dealers: verkochte wagens en partijen op open transporter, met lier, CMR en verzekering."
+}

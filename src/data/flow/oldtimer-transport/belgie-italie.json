@@ -1,0 +1,59 @@
+{
+  "sub": "Uw Belgische klassieker naar Italië voor een beurs, een verkoop of een nieuwe eigenaar, opgehaald aan huis en veilig afgeleverd.",
+  "problem": {
+    "title": "Uw klassieker moet van België naar Italië",
+    "body": "U hebt een oldtimer met een Belgische O-plaat en hij moet naar een koper, een beurs of een rit in Italië. U wilt hem liever niet zelf over zo'n afstand laten rijden, want elke kilometer telt voor een oude wagen. Daarbij moet alles kloppen op het moment van laden: de staat van de wagen, het adres in Italië en de afspraak met de ontvanger. Wie dat zelf moet coördineren, krijgt snel veel telefoons.",
+    "situations": [
+      { "title": "Verkocht aan een Italiaan", "body": "Een verzamelaar uit Italië kocht uw wagen en wil hem graag in huis hebben. U zoekt een transporteur die netjes ophaalt en alles vastlegt." },
+      { "title": "Naar de beurs in Bologna", "body": "U wilt uw klassieker laten zien op de grote oldtimerbeurs in Bologna, en u hebt geen oplegger of tijd om zelf te rijden." },
+      { "title": "Rit met vrienden", "body": "U doet mee aan een rit door Toscane of de Dolomieten en wilt dat uw wagen netjes en onbeschadigd ter plaatse staat." }
+    ]
+  },
+  "solution": {
+    "title": "Wij brengen uw klassieker van België naar Italië",
+    "body": "Na uw aanvraag antwoorden wij binnen 24 uur met een offerte op maat. U praat met één aanspreekpunt, dat ook de afspraak met de ontvanger in Italië opvolgt. Op de dag van ophaling belt de chauffeur vooraf. Hij bekijkt de wagen met u, maakt foto's en vult de CMR-vrachtbrief in. Daarna gaat uw wagen op een open, meerlaagse transporter, vastgezet en verzekerd. Heeft de klassieker een defect, dan neemt de lier hem mee. In Italië levert de chauffeur de wagen op het afgesproken adres af en laat de CMR tekenen."
+  },
+  "usps": [
+    { "title": "Ophaling aan huis", "body": "Wij komen de wagen ophalen bij u thuis, in uw garage of bij uw dealer in België. U hoeft nergens naartoe te rijden." },
+    { "title": "Contact in uw taal", "body": "Onze chauffeurs spreken Nederlands en Frans. Een Belgische verkoper en een Italiaanse koper met Franse kennis begrijpen elkaar dus gemakkelijk." },
+    { "title": "Discreet en zorgvuldig", "body": "Een klassieker is vaak een dierbaar bezit. Wij gaan er voorzichtig mee om en delen niets van wat u ons vertelt." },
+    { "title": "Lier en heftruck", "body": "Een project dat niet meer rolt, gaat met de lier op de wagen. Staat hij helemaal vast, dan zetten wij een heftruck in." }
+  ],
+  "steps": [
+    { "title": "Aanvraag", "body": "U stuurt merk, bouwjaar, afmetingen en de bestemming in Italië door, met de vermelding of de wagen nog rijdt. Binnen 24 uur krijgt u onze offerte." },
+    { "title": "Planning", "body": "Wij kiezen samen een ophaaldag en bellen met de ontvanger in Italië. Particulieren betalen vóór ophaling, bedrijven krijgen een factuur." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur belt en controleert de wagen met u. Foto's en de CMR-vrachtbrief worden opgemaakt voor hij vertrekt." },
+    { "title": "Levering", "body": "In Italië rijdt de transporter naar het afgesproken adres. De ontvanger bekijkt de wagen mee en tekent de CMR." }
+  ],
+  "care": {
+    "title": "Alles netjes vastgelegd, ook de CMR",
+    "body": "Voor de wagen vertrekt, maken wij foto's en noteren wij de staat. Die foto's houden wij intern bij als bewijs. De CMR-vrachtbrief reist mee en geeft aan wat wij hebben geladen. Tijdens het transport is uw klassieker verzekerd. Wie de wagen in Italië inschrijft, de uitvoer uit België meldt of een historisch attest aanvraagt, doet dat zelf of via een dealer of expediteur. Wij zorgen voor het vervoer en voor een duidelijk verslag bij ophaling en levering.",
+    "items": ["Inspectie bij ophaling", "Foto's van de staat", "Eigen CMR-vrachtbrief meegegeven", "Verzekerd tijdens het vervoer"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor België naar Italië",
+    "body": "Wij zijn gevestigd in Roeselare en halen wagens op in heel België, dagelijks. Zo is het eerste deel van de rit voor ons vertrouwd terrein. In Italië rijden wij zowel in Lombardije als in Veneto, en ook elders als de klant dat vraagt. U belt dus met een transporteur uit uw eigen streek.",
+    "regions": ["West-Vlaanderen", "Brabant", "Lombardije", "Veneto", "Emilia-Romagna"]
+  },
+  "faq": [
+    { "q": "Moet mijn wagen een O-plaat hebben om mee te kunnen?", "a": "Nee, voor het vervoer maakt dat niet uit. De wagen staat op een transporter en rijdt niet zelf. De plaat en het statuut bepalen wat de wagen daarna in Italië mag." },
+    { "q": "Kan ik tijdens de rit weten waar mijn wagen is?", "a": "U heeft één aanspreekpunt, dat u kunt bellen. De chauffeur belt op de dag van levering zelf. Een volgsysteem beloven wij niet." },
+    { "q": "Mag ik de wagen bij u in Roeselare brengen?", "a": "Ja. Aflevering op ons depot in Roeselare kan op elk uur van de dag, en dat is voordeliger dan ophaling aan huis. Dat bespreken we bij de offerte." },
+    { "q": "Zit mijn wagen alleen op de transporter?", "a": "Dat hangt af van de planning. Een transporter heeft meerdere plaatsen, dus een rit kan gedeeld worden. Uw wagen is steeds vastgezet, geregistreerd op de CMR en verzekerd." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Wat wij afspreken voor uw klassieker richting Italië, komen wij na, en dat doen onze vaste chauffeurs zelf, van ophaling tot aflevering.",
+    "snel": "Uw oldtimer wordt vlot ingepland en trekt zonder omwegen naar Italië, zodat hij op tijd staat voor de beurs of de nieuwe eigenaar.",
+    "volgbaar": "Via track en trace weet u op elk moment waar uw klassieker onderweg is, en de chauffeur belt u bij aankomst.",
+    "verzekerd": "Tijdens het hele transport naar Italië is uw wagen verzekerd, en de CMR-vrachtbrief legt vast wat er werd meegenomen en afgeleverd."
+  },
+  "reasons": [
+    { "title": "Jarenlange ervaring", "body": "Wij brengen al jaren klassiekers over lange afstand en weten wat een oldtimer nodig heeft op een rit naar Italië." },
+    { "title": "Passie voor klassiekers", "body": "Onze mensen kijken zelf graag naar een mooie oldtimer, en dat merkt u aan de manier waarop wij ermee omgaan." },
+    { "title": "Honderden ritten gereden", "body": "Honderden ritten met kostbare wagens leerden ons hoe we een klassieker rustig laden, vastzetten en afleveren, ook ver van huis." },
+    { "title": "Enkel eigen chauffeurs", "body": "Wij geven uw wagen bewust niet uit handen: onze eigen chauffeurs doen de hele rit, ook naar het zuiden." },
+    { "title": "Breed aanbod transporten", "body": "Van een zeldzame sportwagen tot een gewone klassieker of een moto: voor elk voertuig vinden wij een passende oplossing." },
+    { "title": "Oog voor vernieuwing", "body": "Wij blijven ons materiaal en onze werkwijze verbeteren, zodat uw klassieker ook op de Italiaanse route het beste vervoer krijgt." }
+  ],
+  "seoDescription":"Oldtimer transport van België naar Italië voor beurs, verkoop of nieuwe eigenaar. Open meerlaagse transporter, lier, CMR en verzekering. Offerte binnen 24 uur."
+}

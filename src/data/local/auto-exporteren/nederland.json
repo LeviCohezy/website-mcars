@@ -1,0 +1,1036 @@
+{
+  "service": "auto-exporteren",
+  "origin": "nederland",
+  "pages": {
+    "nederland": {
+      "lead": "U heeft uw wagen verkocht aan een koper in het buitenland. Voor hij op transport gaat, moet hij uit het Nederlandse register. Dat loopt via de RDW en de volgorde telt: wie te vroeg afmeldt, weet soms nog niet welke papieren de instantie in het land van bestemming vraagt. Hieronder leest u wat in Nederland geregeld moet zijn en waar een transporter rekening mee houdt.",
+      "facts": [
+        {
+          "label": "Aanmelden",
+          "value": "RDW-keuringsstation, RDW-balie of erkend exportbedrijf"
+        },
+        {
+          "label": "Na de melding",
+          "value": "14 dagen op witte exportplaten; verzekering en APK blijven verplicht"
+        },
+        {
+          "label": "Bewijzen",
+          "value": "Vrijwaringsbewijs, kentekencard met afgeknipte hoek, exportdocument deel II"
+        },
+        {
+          "label": "Milieuzones",
+          "value": "Enkel voor diesel; voertuigen van 40 jaar en ouder zijn vrijgesteld"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Aanmelden voor export bij de RDW",
+          "body": [
+            "Een voertuig aanmelden voor export kan bij een RDW-keuringsstation, een RDW-balie of een erkend exportbedrijf. Neem uw identiteitsbewijs mee, de kentekencard met de tenaamstellingscode en de kentekenplaten. De platen worden ingeleverd.",
+            "Na de melding krijgt u een vrijwaringsbewijs, de kentekencard met een afgeknipte hoek en het exportdocument, dat is deel II van het kentekenbewijs. Kentekencard en exportdocument moeten samen worden getoond aan de buitenlandse instantie. Ze horen dus bij de wagen of bij de koper, niet in een lade bij u thuis."
+          ]
+        },
+        {
+          "heading": "Eerst vragen wat de koper nodig heeft",
+          "body": [
+            "De RDW waarschuwt uitdrukkelijk: meld het voertuig niet af voor export voordat u weet welke documenten de autoriteiten in het land van bestemming vragen. Vraag uw koper dus eerst wat zijn instantie wil zien, en meld pas daarna af.",
+            "Er is ook een keuze over wie aanmeldt. Bij verkoop aan een buitenlandse koper laat u het voertuig het best op zijn naam aanmelden voor export. Dan staan zijn gegevens op het exportdocument en is hij vanaf dan verantwoordelijk. Regelt u de export zelf, dan blijft u verantwoordelijk tot de wagen in het buitenland is ingeschreven. Mcars vervoert de wagen. Het papierwerk blijft bij u en uw koper."
+          ]
+        },
+        {
+          "heading": "Veertien dagen op witte platen",
+          "body": [
+            "Na de exportmelding mag het voertuig nog 14 dagen op de Nederlandse openbare weg rijden. Het rijdt dan op witte exportplaten met het bestaande kenteken in zwart. Voor personenauto's blijven verzekering en APK in die periode verplicht.",
+            "Wie de wagen liever niet zelf over de grens rijdt, laat hem laden. Mcars rijdt met open, meerlaagse autotransporters en maakt bij de ophaling een inspectie, foto's en een CMR-vrachtbrief op.",
+            "Gaat het om een wagen zonder Nederlands kenteken die via Nederland naar het buitenland moet, dan bestaat het transitokenteken. Het geldt 14 dagen, de RDW keurt het voertuig eerst en wie zelf naar die keuring rijdt, heeft een eendagskenteken nodig."
+          ]
+        },
+        {
+          "heading": "Milieuzones, diesel en oude wagens",
+          "body": [
+            "Milieuzones in Nederland gelden alleen voor dieselvoertuigen. Wat op een andere brandstof rijdt, mag er altijd in. Voor dieselpersonen- en bestelauto's zijn er zones in Amsterdam, Arnhem (alleen personenauto's), Den Haag en Utrecht. Voor dieselvrachtauto's zijn er zones in Amsterdam, Breda, Delft, Maastricht, Maasvlakte Rotterdam en Rijswijk.",
+            "Een nieuw verkeersbord duidt milieuzones en zero-emissiezones aan. De kentekencheck op milieuzones.nl zegt of een voertuig een milieuzone in mag, maar niets over zero-emissiezones. Staat uw wagen in een stad met zo'n zone, spreek dan een ophaalplek aan de rand af.",
+            "Voertuigen van 40 jaar of ouder zijn landelijk en automatisch vrijgesteld. Een vrijstelling krijgt u vanzelf, een ontheffing moet u aanvragen."
+          ]
+        },
+        {
+          "heading": "Geen rijverbod, wel gesloten loketten",
+          "body": [
+            "Een algemeen weekend- of feestdagverbod voor vrachtwagens bestaat in Nederland niet. Beperkingen in het weekend en tijdens de spits gelden alleen voor uitzonderlijk vervoer: langer dan 22 m, breder dan 3 m, zwaarder dan 60 ton of met meer dan vijf assen. Bij gladheid of zicht onder 200 meter zijn er ook beperkingen.",
+            "Kantoren en keuringsstations kunnen dicht zijn op de officiële feestdagen: Nieuwjaarsdag, Goede Vrijdag, Eerste en Tweede Paasdag, Koningsdag, Bevrijdingsdag, Hemelvaartsdag, Eerste en Tweede Pinksterdag en Eerste en Tweede Kerstdag. Plan de exportmelding dus vroeg genoeg, zeker met een termijn van 14 dagen op de exportplaten."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "BCA in Barneveld",
+          "body": "BCA, het grote veilinghuis voor ex-lease- en inruilwagens, heeft zijn Nederlandse veilingcentrum in Barneveld, op bedrijventerrein Harselaar. Wagens die u daar koopt, worden op de vestiging opgehaald. BCA houdt er ook aparte youngtimer- en klassiekerveilingen. Een buitenlandse koper die daar een wagen wint, laat hem dus op die locatie laden."
+        },
+        {
+          "kind": "plek",
+          "title": "RDW in Zoetermeer en Veendam",
+          "body": "Het hoofdkantoor van de RDW staat in Zoetermeer, met de divisie die erkende bedrijven controleert en ingevoerde of omgebouwde voertuigen goedkeurt. In Veendam zit de divisie die de registers beheert, waaronder het kentekenregister. Voor een gewone exportmelding hoeft u daar niet heen: u gaat naar een keuringsstation, een balie of een erkend exportbedrijf."
+        },
+        {
+          "kind": "tip",
+          "title": "Geen veerboot meer vanuit de Eemshaven",
+          "body": "De veerdienst van Holland Norway Lines tussen de Eemshaven en Kristiansand bestaat niet meer, want de rederij ging in 2023 failliet. Een wagen naar Noorwegen verschepen vanuit Groningen kan dus niet meer langs die weg. Wie in het noorden van het land een koper in Noorwegen heeft, moet de wagen op een andere manier laten vertrekken."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik mijn wagen afmelden als hij al in het buitenland staat?",
+          "a": "Ja. Staat het voertuig al in het buitenland, dan kan het online worden afgemeld via Melden export, met bewijs dat het daar is en blijft. Die route levert geen exportdocument op. Heeft de koper dat document nodig voor zijn inschrijving, kies dan voor de melding bij een keuringsstation of een erkend exportbedrijf."
+        },
+        {
+          "q": "Mijn bedrijfsnaam moet op het exportdocument staan. Wat moet ik doen?",
+          "a": "Dan moet u naar een RDW-locatie met een ondertekend uittreksel van de Kamer van Koophandel dat hoogstens een jaar oud is. Neem daarnaast uw identiteitsbewijs, de kentekencard en de platen mee. Zonder dat uittreksel kunt u de bedrijfsnaam niet laten opnemen."
+        },
+        {
+          "q": "Kan Mcars de wagen ophalen zodra hij is afgemeld?",
+          "a": "Ja, zolang er een adres is waar de wagen veilig kan staan en waar een autotransporter kan laden. U vraagt een offerte op maat aan en krijgt antwoord binnen 24 uur. Wie de wagen zelf naar ons depot in Roeselare brengt, kan dat op elk uur en dat is voordeliger."
+        }
+      ],
+      "seoDescription": "Auto exporteren vanuit Nederland: afmelden bij de RDW, exportplaten en wat de koper nodig heeft. Mcars vervoert de wagen open naar de koper.",
+      "sources": [
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/voertuig-exporteren",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/voertuig-zonder-nederlands-kenteken-vervoeren-naar-het-buitenland",
+        "https://www.milieuzones.nl/locaties-milieuzones",
+        "https://www.milieuzones.nl/",
+        "https://www.milieuzones.nl/vrijstellingen-en-ontheffingen",
+        "https://www.timocom.co.uk/truck-driving-bans/netherlands",
+        "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen",
+        "https://cms-europe.bca.com/en/nl/Contact/FAQ",
+        "https://nl.wikipedia.org/wiki/Rijksdienst_voor_het_Wegverkeer",
+        "https://nl.wikipedia.org/wiki/Eemshaven"
+      ]
+    },
+    "nederland-belgie": {
+      "lead": "Van Zeeland of West-Brabant naar België liggen drie grensovergangen vlak bij elkaar: Hazeldonk op de A16, Zandvliet op de A4 en Zelzate op de N62. Welke de transporter neemt, hangt af van waar uw koper woont. Eén ding verandert zodra de wagen op een vrachtwagen staat: Nederland rekent een kilometerheffing aan zware vrachtwagens, ook aan een lege.",
+      "facts": [
+        {
+          "label": "Overgangen",
+          "value": "Hazeldonk (A16), Zandvliet (A4) en Zelzate (N62)"
+        },
+        {
+          "label": "Hoofdas",
+          "value": "E19: A16 via Breda, dan Belgische A1 naar Antwerpen"
+        },
+        {
+          "label": "Heffing",
+          "value": "Nederlandse kilometerheffing boven 3.500 kg, ook voor buitenlandse trucks"
+        },
+        {
+          "label": "Boordtoestel",
+          "value": "Satellic werkt enkel in België, Toll Collect niet in Nederland"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De Nederlandse vrachtwagenheffing",
+          "body": [
+            "Vrachtwagens van categorie N2 en N3 met een technische maximummassa boven 3.500 kg betalen in Nederland per gereden kilometer. Dat geldt voor Nederlandse en buitenlandse vrachtwagens, ook als ze leeg rijden. De heffing ligt op bijna alle snelwegen en op een aantal provinciale en gemeentelijke wegen. Het tarief hangt af van de toegelaten massa inclusief oplegger en van de CO2-klasse.",
+            "Wie betaalt, heeft een contract met een dienstverlener en een boordtoestel dat aan staat zolang de wagen in Nederland rijdt. Dienstverleners zijn Nedlinq, enkel voor Nederland, of aanbieders van EETS die ook andere landen dekken. Toestellen van Satellic werken alleen in België en toestellen van Toll Collect niet in Nederland. Rijden zonder tolkastje kan een boete opleveren, ook op wegen waar de heffing niet geldt. Dat is de zaak van de vervoerder, niet van u als verkoper."
+          ]
+        },
+        {
+          "heading": "Zeeland en West-Brabant: drie wegen naar de grens",
+          "body": [
+            "De N62 is een autoweg van 41 km die bij Goes aan de A58 begint, langs het havengebied Vlissingen-Oost loopt en door de Westerscheldetunnel naar Terneuzen gaat. Het laatste stuk, de Tractaatweg, heeft twee keer twee rijstroken tot de grens bij Zelzate en wordt daar de Belgische N423 richting Gent. De Westerscheldetunnel heeft een maximale doorrijhoogte van 4,30 m. Dat is een punt dat bij de routeplanning telt.",
+            "Vanaf Bergen op Zoom volgt de A4 het traject tot aan de grens bij Zandvliet, waar zij overgaat in de Belgische A12 naar knooppunt Antwerpen-Noord. Deze regio ligt het dichtst bij ons depot in Roeselare."
+          ]
+        },
+        {
+          "heading": "De E19 van Rotterdam naar de grens",
+          "body": [
+            "Voor verkopers in de Randstad is de E19 de gewone weg. In Nederland loopt hij over de A16 van Rotterdam via Breda naar de grens bij Hazeldonk, langs de Drechttunnel bij Zwijndrecht en de Moerdijkbruggen. Wie uit Delft of Den Haag komt, rijdt eerst over de A13 en de A20, de Rotterdamse ring.",
+            "Uit het zuiden van Noord-Brabant is de A67 handiger. Ze komt ten zuidwesten van Eersel België binnen en loopt daar door als de A21 naar Turnhout en Antwerpen. Wie bij Valkenswaard woont, rijdt over de N69 naar Lommel en verder over de N74 naar Hasselt. Op de N69 geldt overal 80 km/u, wat voor een volgeladen transporter geen nadeel is."
+          ]
+        },
+        {
+          "heading": "Aankomst in België: A1, A12 en de haven",
+          "body": [
+            "In België heet de E19 de A1. Ze verbindt Brussel via Mechelen en Antwerpen met de Nederlandse A16 en telt tussen de grens en Antwerpen twee rijstroken per richting, parallel aan de hogesnelheidslijn. De A12 loopt van Brussel via Boom en Antwerpen naar de grens bij Zandvliet en Ossendrecht. Ten noorden van Antwerpen ligt er een goederenspoor in de middenberm.",
+            "Verkoopt u aan een Belgische handelaar of exporteur, dan kan de rit bij een haven eindigen. Antwerpen en Zeebrugge vormen samen Port of Antwerp-Bruges, met ro-ro-overslag. Mcars rijdt dagelijks in België. Levering op ons depot in Roeselare, Moorseelsesteenweg 16B, kan 24 uur op 24 en is voordeliger."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Belgische kilometerheffing per gewest",
+          "body": "Ook in België geldt een kilometerheffing en ze blijft per gewest bestaan. Brussel indexeert zijn tarieven, Vlaanderen voegt een CO2-toeslag toe op basis van vijf emissieklassen en Wallonië, via SOFICO, past zijn tarieven aan. Elke gebruiker laat zijn CO2-klasse in het boordtoestel registreren. Het gewest van de koper telt dus mee voor de vervoerder."
+        },
+        {
+          "kind": "plek",
+          "title": "Waaslandhaven bij Antwerpen",
+          "body": "De Waaslandhaven is het deel van de Antwerpse haven op de linkeroever van de Schelde, op Oost-Vlaams grondgebied. U vindt er onder meer het Vrasenedok, het Verrebroekdok en het Deurganckdok, ontsloten via de R2 naar de A11 en E34. Gaat de wagen naar een afleveradres in dit havengebied, dan weet de chauffeur vooraf via welke ring hij moet."
+        },
+        {
+          "kind": "plek",
+          "title": "North Sea Port: Terneuzen, Vlissingen en Gent",
+          "body": "North Sea Port is één havengebied van 60 km dat de grens oversteekt, met Vlissingen en Terneuzen in Nederland en Gent in België. In Gent ligt een ro-roterminal van DFDS aan het Mercatordok. Een wagen die u in Zeeuws-Vlaanderen verkoopt aan een koper bij Gent, blijft dus binnen één havenregio en gaat via Zelzate."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet ik als verkoper iets met het tolkastje of de heffing regelen?",
+          "a": "Nee. De Nederlandse vrachtwagenheffing en het boordtoestel zijn de zaak van de vervoerder, die er een contract voor nodig heeft. U regelt uw kant van de export: de melding bij de RDW en de papieren voor de koper. Wat de vervoerder onderweg aan heffing betaalt, staat los van uw verkoop."
+        },
+        {
+          "q": "Kan mijn Belgische koper de wagen in Roeselare komen ophalen?",
+          "a": "Ja, als de wagen eerst naar ons depot in Roeselare gaat. Levering op het depot kan op elk uur van de dag en is voordeliger dan aan huis. De koper haalt de wagen dan op wanneer het hem past, bijvoorbeeld na het werk of in het weekend."
+        },
+        {
+          "q": "Wat krijg ik mee wanneer de wagen wordt opgehaald?",
+          "a": "Bij de ophaling maakt de chauffeur een inspectie en foto's als intern bewijs, en u krijgt een CMR-vrachtbrief. De wagen is verzekerd tijdens het transport. Onze chauffeurs spreken Nederlands of Frans, dus ook de Waalse koper kan zijn vragen stellen."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar België: grensovergangen, kilometerheffing en E19. Mcars rijdt dagelijks in België en brengt de wagen bij de koper.",
+      "sources": [
+        "https://www.vrachtwagenheffing.nl/",
+        "https://ondernemersplein.overheid.nl/heffing-voor-vrachtwagens-vanaf-3500-kg",
+        "https://nl.wikipedia.org/wiki/Vrachtwagenheffing",
+        "https://www.viapass.be/nl/nieuws/kilometerheffing-wat-verandert-er-vanaf-1-juli-2026.html",
+        "https://nl.wikipedia.org/wiki/Provinciale_weg_62",
+        "https://nl.wikipedia.org/wiki/Rijksweg_4",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://nl.wikipedia.org/wiki/Provinciale_weg_69",
+        "https://nl.wikipedia.org/wiki/A1_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A12_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/Waaslandhaven",
+        "https://www.northseaport.com/",
+        "https://nl.wikipedia.org/wiki/Haven_van_Antwerpen-Brugge"
+      ]
+    },
+    "nederland-luxemburg": {
+      "lead": "Tussen Nederland en Luxemburg ligt België. De wagen verlaat Nederland over de A2 bij Maastricht, rijdt door de Luikse en Luxemburgse Ardennen en komt via de A6 in het groothertogdom aan. Wie hier een wagen verkoopt, krijgt dus met drie landen te maken, ook al is er maar één koper en één afleveradres.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A2/E25 via Eindhoven, Maastricht, Luik en Aarlen naar de A6"
+        },
+        {
+          "label": "Transitland",
+          "value": "België, met Viapass-heffing boven 3,5 ton"
+        },
+        {
+          "label": "Eurovignet",
+          "value": "Nog nodig voor vrachtwagens in Luxemburg en Zweden"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Geldt niet voor transit richting België"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Limburg: A2 en Scharbergbrug",
+          "body": [
+            "De Nederlandse A2 loopt van Amsterdam, knooppunt Amstel, tot de Belgische grens bij Maastricht. Ze is 217 km lang en wordt beheerd door Rijkswaterstaat. Tot Utrecht draagt ze E35, daarna E25. In Maastricht is het stuk met verkeerslichten verdwenen: de vierstrooks Koning Willem-Alexandertunnel heeft de onderbreking weggenomen.",
+            "Uit Zuid-Limburg is er een tweede keuze. De A76 komt bij Stein over de Scharbergbrug, over de Maas en het Julianakanaal, uit België. Aan Belgische kant heet ze A2 richting Genk en Leuven. De brug is de enige snelwegbrug tussen België en Nederland."
+          ]
+        },
+        {
+          "heading": "België: van Luik naar Aarlen",
+          "body": [
+            "De E25 loopt in België over de A25 van Visé naar Luik, rond Luik over de A3 en de A602 en daarna over de A4 van Neufchâteau naar Aarlen. Vanaf knooppunt Neufchâteau tot de Luxemburgse grens draagt de A4 ook het nummer E25, want daar komt de A26 uit Luik en Bastenaken op de E411.",
+            "Wie vanuit Brussel vertrekt, rijdt over de E411, de Autoroute des Ardennes. Die is 188 km lang en verbindt Brussel via Waver, Namen en Aarlen met de Luxemburgse A6 bij de grens in Sterpenich. Dat is de route als de wagen in het westen van het land staat in plaats van bij Maastricht."
+          ]
+        },
+        {
+          "heading": "Heffingen onderweg: Viapass en Eurovignet",
+          "body": [
+            "België heft een kilometerheffing via Viapass op vrachtvoertuigen boven 3,5 ton, voor wegen in Vlaanderen, Brussel en de door SOFICO beheerde wegen in Wallonië. De registratie loopt met een On-Board Unit. Een transport van Nederland naar Luxemburg raakt dit stuk in elk geval.",
+            "In Nederland is de belasting zware motorrijtuigen, het Nederlandse Eurovignet, vervallen. Een Eurovignet is voor vrachtauto's nog alleen nodig in Luxemburg en Zweden. Op dit traject is Luxemburg dus het land waar de vervoerder het vignet nog in orde moet hebben. Voor u als verkoper verandert er niets, maar het verklaart waarom een transport naar Luxemburg niet hetzelfde is als een rit naar Antwerpen."
+          ]
+        },
+        {
+          "heading": "Aankomst in West-Luxemburg: de A6",
+          "body": [
+            "De A6 is 20,8 km lang en loopt van de Croix de Gasperich naar de Belgische grens bij Windhof en Kleinbettingen, waar ze de Belgische A4 wordt. De afritten van oost naar west zijn Croix de Cessange, Helfenterbrück, Strassen, Bridel, Mamer, de rustplaats Capellen en Steinfort. Ze is sinds 1982 doorgetrokken tot de grens en ontlast sindsdien de N6, de oude weg door Mamer en Steinfort.",
+            "Woont uw koper in dit deel van het land, dan is het afleveradres meestal vlot bereikbaar. Onze chauffeurs spreken Nederlands of Frans, wat bij een aflevering in Luxemburg van pas komt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Rijverbod voor zware vrachtwagens",
+          "body": "Het Luxemburgse weekend- en feestdagrijverbod voor vrachtwagens boven 7,5 ton geldt voor transit richting Frankrijk en Duitsland. Transit richting België en vervoer binnen Luxemburg vallen er niet onder. Voor een wagen die uit Nederland via België binnenkomt, speelt het verbod dus niet, maar wie daarna verder naar Frankrijk of Duitsland wil, krijgt er wel mee te maken."
+        },
+        {
+          "kind": "plek",
+          "title": "Luxembourg Airport (Findel)",
+          "body": "Findel is de enige internationale luchthaven van het land, bereikbaar via de A1 met de afritten Senningerberg en Cargo Center. Luxair en vrachtmaatschappij Cargolux zijn er gevestigd. Verkoopt u een wagen aan iemand die in Luxemburg komt werken en naar Findel vliegt, dan kan het afleveradres in de buurt van de luchthaven liggen."
+        },
+        {
+          "kind": "plek",
+          "title": "Noord-Luxemburg: Éislek",
+          "body": "In het noorden, rond Ettelbruck, Diekirch, Wiltz en Clervaux, is er geen snelweg tot aan de grens. De A7 loopt 31,5 km tot net ten zuiden van Schieren, daarna neemt de expresweg B7 het over. Verder noordwaarts is de N7 de hoofdas, 71 km lang en een gewone weg, die in België de N68 wordt. Reken daar op meer tijd voor de laatste kilometers."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Rijdt de wagen via Luik of via Brussel naar Luxemburg?",
+          "a": "Dat hangt af van waar hij vertrekt. Staat hij bij Maastricht of in Zuid-Limburg, dan is de A2 en daarna Luik en de A4 de logische weg. Staat hij in het westen van Nederland, dan kan de route via Brussel en de E411 korter zijn. De chauffeur beslist op de dag zelf."
+        },
+        {
+          "q": "Welke papieren heeft mijn Luxemburgse koper van mij nodig?",
+          "a": "De RDW geeft u een vrijwaringsbewijs, de kentekencard met afgeknipte hoek en het exportdocument. Geef de koper de kentekencard en het exportdocument mee, want die moeten samen worden getoond. Wat Luxemburg verder vraagt, bevraagt de koper bij zijn eigen instantie, voordat u de wagen afmeldt."
+        },
+        {
+          "q": "Kan de wagen ook op uw depot in Roeselare overnachten?",
+          "a": "Ja, levering op ons depot in Roeselare kan op elk uur en is voordeliger. Voor een rit van Nederland naar Luxemburg kan dat een praktische tussenstop zijn als koper en verkoper niet op dezelfde dag kunnen afspreken. Vraag het in uw offerte aan, we antwoorden binnen 24 uur."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Luxemburg: A2, Luik, A6 en het Eurovignet. Mcars rijdt open en brengt de wagen naar het adres van de koper.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/A2_motorway_(Netherlands)",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://en.wikipedia.org/wiki/European_route_E411",
+        "https://nl.wikipedia.org/wiki/Rijksweg_76",
+        "https://nl.wikipedia.org/wiki/A2_%28Belgi%C3%AB%29",
+        "https://nl.wikipedia.org/wiki/A4_%28Belgi%C3%AB%29",
+        "https://www.viapass.be/",
+        "https://www.belastingdienst.nl/wps/wcm/connect/nl/auto-en-vervoer/content/bzm-vervallen",
+        "https://fr.wikipedia.org/wiki/Autoroute_A6_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Mamer",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://transports.public.lu/en/transporter/transports-aeriens/infrastructures.html",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(Luxembourg)",
+        "https://fr.wikipedia.org/wiki/Route_nationale_7_(Luxembourg)"
+      ]
+    },
+    "nederland-frankrijk": {
+      "lead": "Een wagen van Nederland naar Frankrijk rijdt bijna altijd via België: de E19 van Rotterdam naar Brussel en dan de Franse A1 naar Parijs of de A22 naar Rijsel. Dat zijn drie landen met elk hun eigen regels voor zware vrachtwagens. Mcars rijdt elke week over heel Frankrijk, dus ook de afleverplek in de Franse provincie is geen probleem.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "E19: A16, Belgische A1/R1/R0/A7, dan Franse A2 en A1"
+        },
+        {
+          "label": "Quitus fiscal",
+          "value": "Bewijs dat de btw in orde is, nodig voor inschrijving"
+        },
+        {
+          "label": "ANTS-portaal",
+          "value": "Verplicht in departementen 59, 62 en 75, onder meer"
+        },
+        {
+          "label": "Weekendverbod",
+          "value": "Frankrijk heeft een weekendverbod voor zware vrachtwagens"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "De E19: een lange rit door drie landen",
+          "body": [
+            "De E19 tussen Amsterdam, Antwerpen, Brussel en Parijs is 551 km lang en wordt in de bron de drukste weg van Europa genoemd. In Nederland loopt hij over de A4, de A13, de A20 en de A16 tot de grens. Door België rijdt de transporteur achtereenvolgens over de A1, de R1 rond Antwerpen, de R0 rond Brussel en de A7. In Frankrijk gaat hij verder over de A2 en de A1.",
+            "Op het Belgische deel geldt de kilometerheffing van Viapass voor vrachtvoertuigen boven 3,5 ton, met een boordtoestel. De vervoerder regelt dat; voor u als verkoper is het vooral belangrijk dat de koper niet op een exacte dag rekent."
+          ]
+        },
+        {
+          "heading": "Rijsel, Parijs en de Franse tolwegen",
+          "body": [
+            "De Franse A1 tussen Parijs en Rijsel is 211 km lang, open sinds 1954 en in beheer van SANEF. De bron noemt ze de drukste autoroute van Frankrijk. Het is een tolweg, met onder meer de tolpleinen Chamant en Fresnes-lès-Montauban.",
+            "Bij Rijsel sluiten de A22 richting Gent en de A27 richting Brussel aan op het Franse net, en loopt de A2 naar Brussel, Luik en Bergen. Voor een afleveradres in het noorden van Frankrijk kiest de chauffeur dus een andere ingang dan voor Parijs. Mcars rijdt wekelijks over heel Frankrijk en laadt ook op stockageparken zoals BCA en TEA."
+          ]
+        },
+        {
+          "heading": "Rijverbod in Frankrijk",
+          "body": [
+            "In Frankrijk geldt een weekendverbod voor vrachtwagens boven 7,5 ton. De bronnen verschillen op het uur, dus kijk altijd de actuele regel na. Daarnaast zijn er extra verbodsperiodes op meerdere zaterdagen in juli en augustus, vooral richting de Middellandse Zee en rond de Mont-Blanc- en de Fréjustunnel.",
+            "Een Nederlandse verkoper met een Franse koper in het noorden merkt daar weinig van. Moet de wagen op een zaterdag in de zomer worden afgeleverd, spreek dan vooraf een afleverdatum af, zodat de chauffeur er niet op de verbodsuren aankomt."
+          ]
+        },
+        {
+          "heading": "Wat de koper in Frankrijk moet kunnen tonen",
+          "body": [
+            "Wie een voertuig uit een ander EU-land inschrijft, heeft een quitus fiscal nodig, het bewijs dat de btw in orde is. Daarvoor zijn nodig: formulier 1993-PART-D-SD, de factuur of een certificat de cession, het buitenlandse inschrijvingsbewijs, een identiteitsbewijs en bewijs van een Frans woonadres. Zijn de papieren niet in het Frans, dan volgt een gecertificeerde vertaling.",
+            "In de departementen 06, 44, 57, 59, 62, 67, 69 en 75 loopt de aanvraag verplicht via het online portaal van de ANTS. Dat zijn onder meer de Nord rond Rijsel, de Rhône en Parijs. Elders gaat de aanvraag per mail naar het belastingkantoor. Die papieren zijn de zaak van uw koper. Mcars brengt enkel de wagen."
+          ]
+        },
+        {
+          "heading": "Belasting in Nederland: btw en bpm",
+          "body": [
+            "Een particulier die een voor de btw nieuwe auto verkoopt aan iemand in een ander EU-land, rekent geen btw aan. Hij kan een deel van de btw terugvragen in het land waar hij de auto kocht.",
+            "Bij een gebruikte auto kan een teruggaaf van bpm mogelijk zijn. Dat kan als het voertuig op of na 16 oktober 2006 een Nederlands kenteken kreeg en bij de RDW de status Export heeft. De aanvraag volgt pas na de exportmelding. Uit documenten moet blijken dat het voertuig tot 13 weken na die status duurzaam is geregistreerd in een andere EU-lidstaat, IJsland, Liechtenstein of Noorwegen. Kijk dus bij de Belastingdienst na of uw wagen aan de voorwaarden voldoet voor u hem laat vertrekken."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Calais en Duinkerke",
+          "body": "Calais is de eerste Franse Kanaalhaven; P&O Ferries en DFDS varen er op Dover. Duinkerke is naar volume de derde haven van Frankrijk, met DFDS-roroschepen op Groot-Brittannië. Een Franse koper die zijn wagen later verder naar het Verenigd Koninkrijk wil, kan hem dus in Hauts-de-France laten afleveren."
+        },
+        {
+          "kind": "plek",
+          "title": "Eurotunnel in Coquelles",
+          "body": "In Coquelles ligt de Franse terminal van de Kanaaltunnel, die u bereikt via afrit 42 van de A16. De shuttles van Eurotunnel zetten personenwagens, bestelwagens en vrachtwagens in ongeveer 35 minuten over. Voor een wagen die na de verkoop naar het Verenigd Koninkrijk gaat, is dit een afleverplek aan de rand van Frankrijk."
+        },
+        {
+          "kind": "tip",
+          "title": "Verhuizen over de grens",
+          "body": "Eind 2017 werkten ongeveer 23.700 inwoners van Hauts-de-France in België en ongeveer 10.500 Belgen in Hauts-de-France. Verhuizen over deze grens, met de wagen erbij, is dus gewoon. Een Nederlandse verkoper met een koper uit die streek ontmoet meestal iemand die het traject kent."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Geldt het Franse weekendverbod ook voor een autotransporter?",
+          "a": "Ja, het geldt voor vrachtwagens boven 7,5 ton en dus ook voor een autotransporter. De exacte uren verschillen per bron, dus de vervoerder kijkt ze vooraf na. Spreek met Mcars een afleverdag af die niet in het weekend ligt als de koper in Frankrijk woont."
+        },
+        {
+          "q": "Wie vraagt het quitus fiscal aan?",
+          "a": "Dat doet de koper, bij de Franse administratie. Hij heeft er de factuur en het buitenlandse inschrijvingsbewijs voor nodig. U geeft die dus mee bij de verkoop. Zonder quitus fiscal kan hij de wagen niet inschrijven, ook al staat hij al in Frankrijk."
+        },
+        {
+          "q": "Kunt u de wagen ook op een stockagepark in Frankrijk afleveren?",
+          "a": "Ja, we leveren wekelijks over heel Frankrijk af, ook op stockageparken zoals BCA en TEA. Vermeld het adres en de openingsuren bij uw aanvraag. Voor de ophaling in Nederland maakt de chauffeur een inspectie en foto's, en u krijgt een CMR-vrachtbrief."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Frankrijk: de E19 via België, het Franse weekendverbod en het quitus fiscal. Mcars rijdt wekelijks in Frankrijk.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://en.wikipedia.org/wiki/Autoroute_A1_(France)",
+        "https://www.viapass.be/",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F179?lang=fr",
+        "https://europa.eu/youreurope/citizens/vehicles/cars/vat-buying-selling-cars/index_nl.htm",
+        "https://www.belastingdienst.nl/wps/wcm/connect/nl/bpm/content/teruggaaf-bpm-export-gebruikt-motorrijtuig",
+        "https://fr.wikipedia.org/wiki/Port_de_Calais",
+        "https://fr.wikipedia.org/wiki/Port_de_Dunkerque",
+        "https://fr.wikipedia.org/wiki/Tunnel_sous_la_Manche",
+        "https://fr.wikipedia.org/wiki/Travailleur_frontalier"
+      ]
+    },
+    "nederland-duitsland": {
+      "lead": "Van Nederland naar Duitsland is er geen transitland en geen lange rit. De wagen rijdt over de A12 naar Zevenaar en komt bij Elten op de Duitse A3. Toch verandert er veel aan de grens: Duitsland kent een zondagsverbod voor zware vrachtwagens en een eigen tolsysteem, en een Duitse koper moet de wagen eerst laten inschrijven voor hij hem mag gebruiken.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A12 naar Zevenaar, dan Duitse A3 naar Oberhausen"
+        },
+        {
+          "label": "Zondagsverbod",
+          "value": "0 tot 22 uur voor vrachtwagens boven 7,5 ton"
+        },
+        {
+          "label": "Toll Collect",
+          "value": "Heffing boven 3,5 ton met boordtoestel of TollNow-app"
+        },
+        {
+          "label": "Zomerverbod",
+          "value": "Zaterdagen 7 tot 20 uur, op geselecteerde wegen, juli en augustus"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek: A12 in Gelderland, A77 in Brabant",
+          "body": [
+            "De Nederlandse A12 loopt van Utrecht via Arnhem naar de Duitse grens bij Bergh en Zevenaar. Ze draagt E35 en gaat in Duitsland verder als de A3 richting Oberhausen. Tussen Duiven en de grens geldt 130 km/u, maar tussen 6 en 19 uur 100 km/u. Rijkswaterstaat blijft de weg verbreden.",
+            "Staat de wagen in Midden-Brabant, dan is de A77 handiger. Ze is 10 km lang, loopt vanaf knooppunt Rijkevoort aan de A73 naar de Duitse grens tussen Gennep en Goch en gaat daar over in de A57 richting Keulen en het Ruhrgebied. Ter hoogte van Venlo sluit de A67 aan op de Duitse A40, die langs Duisburg naar Dortmund voert."
+          ]
+        },
+        {
+          "heading": "De Duitse A3 en haar vrachtverkeer",
+          "body": [
+            "De A3 begint bij Emmerich-Elten aan de Nederlandse grens, als voortzetting van de A12 uit Arnhem. Ze loopt via Oberhausen, Duisburg, Düsseldorf, Leverkusen en Keulen naar het zuiden en is ruim 778 km lang tot Passau. Het is dus dezelfde as die ook naar Oostenrijk en Zuid-Duitsland loopt.",
+            "Voor een Duitse koper in het Rijn-Ruhrgebied is de rit kort. De chauffeur kiest de afrit aan de A3 die het dichtst bij het afleveradres ligt. Staat uw koper verder weg, in Frankfurt of in Beieren, dan blijft de A3 de as en komt het verbod op zondag en de heffing vaker in beeld. Geef bij uw aanvraag dus het volledige afleveradres door."
+          ]
+        },
+        {
+          "heading": "Zondagsverbod, zomerverbod en tol",
+          "body": [
+            "In Duitsland geldt een zondag- en feestdagverbod voor vrachtwagens boven 7,5 ton en voor aanhangercombinaties, van 0 tot 22 uur, voor commercieel vervoer. In Nederland bestaat zo'n verbod niet; het begint dus pas aan de grens. Op zaterdagen van 1 juli tot en met 31 augustus geldt van 7 tot 20 uur een extra verbod op geselecteerde autosnelwegen en Bundesstraßen.",
+            "Daarnaast geldt Toll Collect voor vrachtwagens boven 3,5 ton, met een boordtoestel of de TollNow-app. Het tarief hangt af van de CO2-klasse. Plan een aflevering in Duitsland dus overdag en niet op zondag."
+          ]
+        },
+        {
+          "heading": "Wat de Duitse koper moet regelen",
+          "body": [
+            "Een Duitse koper schrijft de wagen eerst in bij de gemeente, met een Meldebestätigung. Daarna volgt de TÜV-keuring en de inschrijving bij de Zulassungsstelle, waarna de Duitse platen en de Kraftfahrzeugsteuer komen. Met een Duits Kurzzeitkennzeichen kan een auto uit een ander EU-land niet worden overgebracht. Het eenvoudigst is een exportkenteken uit het land van herkomst, met verzekering.",
+            "Voor de inschrijving zijn nodig: een eVB, een SEPA-machtiging, identiteit met Meldebestätigung, het koopcontract, de buitenlandse papieren en het COC. Ontbreekt het COC, dan volgt een Vollgutachten van de TÜV. Bij een voertuig ouder dan drie jaar is een geldige HU vereist; een keuring uit het herkomstland wordt mogelijk geaccepteerd."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Autobid Rhein-Ruhr en Oelde",
+          "body": "Autobid.de, van Auktion & Markt AG, heeft in Noordrijn-Westfalen de veilinglocaties Rhein-Ruhr en Oelde. Kopen kan alleen als geregistreerde autohandelaar. Verkoopt u uw wagen aan een Duitse handelaar die hem via Autobid aanbiedt, dan kan de rit bij zo'n locatie eindigen."
+        },
+        {
+          "kind": "tip",
+          "title": "Düsseldorf en de expats",
+          "body": "Düsseldorf telt een van de grootste Japanse gemeenschappen van Europa, ruim 8.000 mensen, en honderden Japanse bedrijven. Het is een typische expatstad waar wagens bij aankomst en vertrek verhuizen. Verkoopt u een wagen aan iemand die er komt werken, houd dan rekening met de Meldebestätigung."
+        },
+        {
+          "kind": "regel",
+          "title": "De Duitse keuring: HU en Gutachten",
+          "body": "Bij een voertuig ouder dan drie jaar is een geldige HU vereist. Het Duitse Gutachten geldt alleen in Duitsland. Een keuring uit het land van herkomst wordt mogelijk geaccepteerd, maar de koper kijkt dat best vooraf na bij de Zulassungsstelle."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Moet de transporter in Duitsland op zondag stilstaan?",
+          "a": "Voor vrachtwagens boven 7,5 ton geldt het zondagsverbod van 0 tot 22 uur. Een aflevering in Duitsland plant u dus op een andere dag. Beperkingen als deze zijn geen vertraging: de chauffeur plant ze in. Vraag in uw offerte naar de gewenste dag, dan kijken we mee."
+        },
+        {
+          "q": "Kan mijn Duitse koper met mijn Nederlandse exportplaten naar huis rijden?",
+          "a": "De exportplaat is bedoeld voor de rit uit Nederland en geldt maar 14 dagen. Een Duits Kurzzeitkennzeichen kan niet voor een auto uit een ander EU-land. Als de wagen op een autotransporter staat, speelt dat niet: dan rijdt hij niet op eigen wielen."
+        },
+        {
+          "q": "Wat als het COC ontbreekt?",
+          "a": "Dan volgt bij de Duitse inschrijving een Vollgutachten van de TÜV. Het COC kan ook bij de Duitse vestiging van de fabrikant worden opgevraagd. Vraag het vooraf aan de verkoper of aan het merk, want zonder COC loopt de koper vertraging op."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Duitsland: A12, A3, zondagsverbod en Toll Collect. Mcars vervoert de wagen open naar uw Duitse koper.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Rijksweg_12",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://nl.wikipedia.org/wiki/Rijksweg_77",
+        "https://nl.wikipedia.org/wiki/Rijksweg_67",
+        "https://www.toll-collect.de/en/",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://www.nederlandwereldwijd.nl/auto-exporteren/stappenplan",
+        "https://www.evz.de/themen/verkehr/auto/ueberfuehrung-zulassung/",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://www.autobid.de/",
+        "https://de.wikipedia.org/wiki/Japaner_in_Düsseldorf"
+      ]
+    },
+    "nederland-spanje": {
+      "lead": "Van Nederland naar Spanje gaat de wagen door België en heel Frankrijk. U kunt kiezen tussen een westroute naar het Baskenland en een oostroute naar de Costa Brava en de Costa Blanca. Mcars vervoert wagens van tweedeverblijvers naar Spanje, en kent de drukke zomerdagen op die routes.",
+      "facts": [
+        {
+          "label": "Westroute",
+          "value": "E19 naar Parijs, A10 naar Bordeaux, daarna Baskenland"
+        },
+        {
+          "label": "Oostroute",
+          "value": "Via Lyon, A7 en A9 naar La Jonquera en de AP-7"
+        },
+        {
+          "label": "Groene platen",
+          "value": "Tijdelijk in Spanje, twee maanden, verlengbaar, mits verzekerd"
+        },
+        {
+          "label": "Matriculatiebelasting",
+          "value": "Eenmalig, op basis van CO2-uitstoot, model 576"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ro-ro vanuit Rotterdam of over de weg",
+          "body": [
+            "Vanuit Rotterdam varen ro-rodiensten van UECC naar Santander, Pasajes en Zeebrugge. Voor wie een wagen naar het noorden van Spanje wil sturen, is dat een alternatief voor de weg, maar dan staat de wagen in een Spaanse haven en niet voor de deur van uw koper.",
+            "Mcars rijdt over de weg, op open, meerlaagse autotransporters. Dat betekent een lange rit door drie landen, maar ook een aflevering aan het adres in plaats van in een haven. Spreek met de koper af welk adres hij heeft en of een autotransporter er kan laden of lossen."
+          ]
+        },
+        {
+          "heading": "De westroute: Parijs, Bordeaux, Baskenland",
+          "body": [
+            "De E19 van Amsterdam over Antwerpen en Brussel naar Parijs is de gebruikelijke eerste helft: Nederlandse A16 naar de grens, Belgische A1, R1, R0 en A7, Franse A2 en A1. Daarna volgt de A10 van Parijs naar Bordeaux. Met 557 km is dat de langste autoroute van Frankrijk, en ze is bijna volledig tolplichtig, behalve bij Parijs, Tours en Bordeaux.",
+            "Vanaf Bordeaux loopt de A63 door de Landes naar de Spaanse grens bij Biriatou, ongeveer 206 km. Het noordelijke stuk is tolvrij, het middenstuk is tolweg bij Atlandes en het zuidelijke stuk is tolweg bij ASF. In de zomer wordt het hier veel drukker."
+          ]
+        },
+        {
+          "heading": "De oostroute: Lyon, de A9 en de AP-7",
+          "body": [
+            "Voor een afleveradres aan de Costa Brava of Costa Blanca is de oostroute logischer. Ze gaat via Lyon, de A7 naar Marseille en de A9 naar Perpignan en Le Perthus. De A7 tussen Lyon en Marseille kent bij vakantiebegin zuidwaarts en bij vakantieslot noordwaarts files van honderden kilometers, vooral eind juli en begin augustus.",
+            "De A9 gaat bij Le Perthus over in de Spaanse AP-7, de Autopista del Mediterráneo. Die begint aan de grens bij La Jonquera en loopt langs Girona, Barcelona en Tarragona. Het is een tolsnelweg van ongeveer 1.007 km. Frankrijk kent daarnaast extra zomerzaterdagen met rijverbod voor zware vrachtwagens, vooral richting de Middellandse Zee. Vermijd dus een leverdatum midden juli en augustus."
+          ]
+        },
+        {
+          "heading": "Wat de koper in Spanje moet regelen",
+          "body": [
+            "De eigenaar schrijft het voertuig eerst uit voor export in het land van herkomst. Daarna volgt de nieuwe inschrijving in Spanje. Tot dan zijn tijdelijke groene platen mogelijk: twee maanden, verlengbaar, mits verzekerd.",
+            "Volgens de DGT zijn in Spanje onder meer nodig: de oorspronkelijke papieren, een eigendomsbewijs zoals een koopcontract of factuur, een CoC of ficha reducida, bewijs van betaalde belastingen en een ITV-keuring, waarna de Spaanse ficha ITV volgt. Er zijn drie belastingen: een eenmalig impuesto de matriculación op basis van CO2-uitstoot (model 576), jaarlijks wegenbelasting aan de gemeente en, bij gebruikte wagens, afhankelijk van de verkoper mogelijk ITP of btw. Die papieren zijn de zaak van uw koper."
+          ]
+        },
+        {
+          "heading": "Aankomst aan de Costa Blanca",
+          "body": [
+            "Voor kopers aan de Costa Blanca loopt de N-332 parallel aan de AP-7 en volgt de kust tot Pilar de la Horadada. Het stuk van de AP-7 tussen Salou en Alicante is tolvrij sinds de concessie afliep. Verder zuidwaarts wordt op de AP-7 in de regio Valencia en Murcia nog tol geheven tussen Crevillente en Cartagena en tussen Cartagena en Vera.",
+            "Vanuit het binnenland verbindt de A-3 Madrid met Valencia, 360 km lang. Vooral in de zomer zijn er files. Een tweedeverblijver die in Nederland verkoopt en in Spanje aankomt, kan beter niet op het hoogtepunt van het seizoen leveren."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Pasaia in Gipuzkoa",
+          "body": "De haven van Pasaia is belangrijk voor voertuigtransport. De fabrieken van Mercedes in Vitoria, Volkswagen in Pamplona en Opel in Figueruelas verschepen er een deel van hun productie, en er worden ook wagens ingevoerd. Een koper in het Baskenland weet dus waar een autotransporter moet zijn."
+        },
+        {
+          "kind": "plek",
+          "title": "Bilbao: de haven met acht ro-ro-hellingen",
+          "body": "De haven van Bilbao ligt aan de monding van de Nervión en heeft acht ro-ro-hellingen, met aparte ro-ro- en autoterminals. Brittany Ferries vaart er naar Portsmouth en Rosslare. Wie een wagen aan een koper in Bilbao laat leveren, kan afspreken dat de lossing op een rustig uur gebeurt."
+        },
+        {
+          "kind": "plek",
+          "title": "Stellantis in Figueruelas",
+          "body": "De fabriek Stellantis Zaragoza in Figueruelas draait sinds 1982. Ze werd gebouwd door General Motors voor de Opel Corsa. Er worden nu onder meer de Opel Corsa en de Peugeot 208 gebouwd. Voor een koper in Aragón is dit een regionaal herkenningspunt."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke route kiest de chauffeur naar Spanje?",
+          "a": "Dat hangt af van het afleveradres. Voor Baskenland en het noorden is de westroute via Bordeaux logisch, voor Catalonië en de Costa Blanca de oostroute via Lyon en de AP-7. De chauffeur kiest op de dag zelf rekening houdend met het seizoen."
+        },
+        {
+          "q": "Mag mijn koper met groene platen rijden?",
+          "a": "Tijdelijke groene platen gelden twee maanden en kunnen worden verlengd, mits de wagen verzekerd is. Ze zijn bedoeld voor wie de wagen in Spanje wil inschrijven. Als de wagen op een autotransporter aankomt, heeft de koper die platen pas nodig na de aflevering."
+        },
+        {
+          "q": "Brengt Mcars mijn wagen naar mijn tweede verblijf?",
+          "a": "Ja, we vervoeren wagens van tweedeverblijvers naar Spanje. U geeft het adres door waar de wagen mag aankomen. Bij de ophaling in Nederland maakt de chauffeur een inspectie en foto's en krijgt u een CMR-vrachtbrief."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Spanje: westroute via Bordeaux of oostroute via La Jonquera, plus groene platen. Mcars vervoert uw wagen open.",
+      "sources": [
+        "https://www.portofrotterdam.com/en/logistics/connections/roro-roll-roll",
+        "https://en.wikipedia.org/wiki/European_route_E19",
+        "https://en.wikipedia.org/wiki/A10_autoroute",
+        "https://fr.wikipedia.org/wiki/Autoroute_A63_(France)",
+        "https://en.wikipedia.org/wiki/A7_autoroute",
+        "https://en.wikipedia.org/wiki/A9_autoroute",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/quieres-traer-o-llevarte-un-vehiculo-del-extranjero/",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://es.wikipedia.org/wiki/Costa_Blanca",
+        "https://es.wikipedia.org/wiki/Autov%C3%ADa_del_Este",
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+        "https://es.wikipedia.org/wiki/Puerto_de_Pasajes",
+        "https://es.wikipedia.org/wiki/Puerto_de_Bilbao",
+        "https://es.wikipedia.org/wiki/Stellantis_Zaragoza"
+      ]
+    },
+    "nederland-italie": {
+      "lead": "Een wagen van Nederland naar Italië gaat door Duitsland en dan over de Alpen: via de Brenner, de Gotthard of, door Frankrijk, via de Mont Blanc of de Fréjus. Elke keuze heeft eigen tunnels en rijverboden. Voor u als verkoper is vooral belangrijk wat er vanaf het vertrek in Brabant tot aan een Italiaans afleveradres moet kloppen.",
+      "facts": [
+        {
+          "label": "Brennerroute",
+          "value": "E45: Oostenrijkse A13, Italiaanse A22 naar Bozen en Verona"
+        },
+        {
+          "label": "Gotthard",
+          "value": "Tunnel van 16,9 km, maximaal 150 vrachtwagens per uur"
+        },
+        {
+          "label": "Zondagsverbod",
+          "value": "Italië: vrachtwagens boven 7,5 ton, ook op feestdagen"
+        },
+        {
+          "label": "ZTL",
+          "value": "Camera's tellen elke passage; boete volgt per post"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Boxtel en Midden-Brabant",
+          "body": [
+            "Classic Park in Boxtel, aan de Koppenhoefstraat 14, naast de A2 tussen Eindhoven en 's-Hertogenbosch, koopt en verkoopt klassieke en exclusieve auto's, ook in consignatie, en heeft een automuseum met wisselende collectie. Voor een Italiaanse liefhebber die daar een wagen koopt, begint de rit dus op een vaste locatie met laadruimte.",
+            "Verkoopt u een klassieker aan Italië, vraag de koper dan eerst welke papieren zijn instantie wil. Melden voor export kan pas als u dat weet. Mcars vervoert de wagen open op een meerlaagse autotransporter, met een lier aan boord als hij niet meer rijdt."
+          ]
+        },
+        {
+          "heading": "Drie wegen over de Alpen",
+          "body": [
+            "De Brennerroute loopt als E45 over de Oostenrijkse A13 en de Italiaanse A22 van Innsbruck over de Brennerpas naar Bozen en Verona. De pas ligt op 1.375 m en staat bekend als de drukste Alpenroute voor vrachtverkeer. De A22 is ongeveer 315 km lang tot Modena, telt een derde vrachtverkeer en heeft maar twee rijstroken per richting, waardoor files gebruikelijk zijn.",
+            "Via Zwitserland neemt u de Gotthard: een tunnel van 16,9 km, met één rijstrook per richting, 80 km/u en inhaalverbod. Sinds de brand van 2001 komen er maximaal 150 vrachtwagens per uur binnen. Door Frankrijk loopt het via de Mont Blanc-tunnel (11,6 km, in groepen van vijf, minstens 150 m tussen voertuigen) of de Fréjus-tunnel (12,9 km, nu met twee buizen)."
+          ]
+        },
+        {
+          "heading": "Rijverboden tussen Duitsland en Italië",
+          "body": [
+            "Op de weg door Oostenrijk mogen vrachtwagens boven 7,5 ton op zaterdag van 15 tot 24 uur en op zon- en feestdagen van 0 tot 22 uur niet rijden. In de zomer gelden bovendien seizoensbeperkingen op de Brennerroute en de Fernpassstraße.",
+            "Italië kent een zondagsverbod voor vrachtwagens boven 7,5 ton: van oktober tot mei ongeveer 8 of 9 tot 22 uur, van juni tot september 7 tot 22 uur. Ook op feestdagen en drukke dagen gelden verboden. De bronnen verschillen op het uur, dus de vervoerder kijkt de actuele regel na. Een Italiaanse aflevering plant u daarom nooit op een zondag in."
+          ]
+        },
+        {
+          "heading": "Aankomst in Lombardije",
+          "body": [
+            "Vanuit Zwitserland loopt de A9 31,5 km van Lainate bij Milaan via Como naar de grens. De Italiaanse douanepost ligt in Como Brogeda, waar de weg aansluit op de Zwitserse A2 naar Lugano, de Gotthard en de San Bernardino. Voor een afleveradres bij Varese, Como of Bergamo is er ook de A36 Pedemontana Lombarda, 22 km lang, tussen de A8 bij Cassano Magnago en Lentate sul Seveso.",
+            "Wie vanuit Nederland komt via de Brenner, rijdt door Trentino-Zuid-Tirol. Daar ligt de Autoporto Sadobre bij Vipiteno, op ongeveer km 299 van de A22 vlak voor de Brenner, als vrachtwagenparking."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Area C in Milaan",
+          "body": "Area C in Milaan, de Cerchia dei Bastioni van ongeveer 8 km² met 43 camerapoorten, is op weekdagen overdag betalend voor elk voertuig. Diesels met de oudste emissieklassen, tot en met klasse 3, en privévoertuigen langer dan 7 m mogen er niet in. Een autotransporter kan het centrum dus niet in; spreek een ophaal- of afleverplek aan de rand af."
+        },
+        {
+          "kind": "regel",
+          "title": "Livigno: belastingvrije zone",
+          "body": "In de belastingvrije zone Livigno wordt geen Italiaanse btw geheven, en wie van daar verder naar de rest van Italië rijdt, komt langs een douanecontrole van de Guardia di Finanza. De plaats is bereikbaar via de Foscagnopas, de Forcola di Livigno (enkel in de zomer) en de Munt la Schera-tunnel. Een koper uit Livigno heeft dus met andere formaliteiten te maken."
+        },
+        {
+          "kind": "plek",
+          "title": "ZTL in Italiaanse stadscentra",
+          "body": "In een ZTL, een zone met beperkt verkeer, tellen camera's elke passage. Pas na maanden, soms bijna een jaar later, valt de boete in de brievenbus. Hotels in een ZTL kunnen uw plaat registreren en elektrische auto's moeten soms eerst bij de gemeente zijn geregistreerd. Dat is relevant voor wie een wagen in een stadscentrum wil laten lossen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wat als mijn Italiaanse koper de wagen niet ingeschreven krijgt?",
+          "a": "Lukt de inschrijving in het buitenland niet, dan kan de buitenlandse instantie bij de RDW een Verklaring van geen bezwaar opvragen. De eigenaar kan die niet zelf aanvragen. Vraag uw koper dus de instantie zo snel mogelijk contact te laten opnemen met de RDW."
+        },
+        {
+          "q": "Hoe weet ik of de transporter door de Gotthard of de Brenner rijdt?",
+          "a": "Dat hangt af van waar in Italië de wagen naartoe gaat. Voor Lombardije is de Gotthard logisch, voor Zuid-Tirol, Veneto en Emilia-Romagna de Brenner. De chauffeur kiest op de dag zelf, rekening houdend met files en tunnelbeperkingen."
+        },
+        {
+          "q": "Kan de wagen zondag in Italië geleverd worden?",
+          "a": "Nee, vrachtwagens boven 7,5 ton mogen op zondag niet rijden. Spreek dus een aflevering af op een andere dag. Zo vermijdt u dat de chauffeur voor een gesloten weg staat en de koper tevergeefs wacht."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Italië: Brenner, Gotthard, rijverboden en ZTL. Mcars vervoert uw wagen open en met lier naar de koper.",
+      "sources": [
+        "https://www.classicpark.nl/",
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://en.wikipedia.org/wiki/Autostrada_A9_(Italy)",
+        "https://en.wikipedia.org/wiki/Autostrada_A36_(Italy)",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://en.wikipedia.org/wiki/Livigno",
+        "https://www.evz.de/en/topics/transport/car/fines-abroad/ztl-italy/",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/voertuig-exporteren"
+      ]
+    },
+    "nederland-zwitserland": {
+      "lead": "Zwitserland ligt buiten de EU, en dat merkt u meteen: de wagen moet in Nederland ter uitvoer worden aangegeven bij de douane en in Zwitserland opnieuw worden aangegeven bij de invoer. Een transporter rijdt via Duitsland naar Bazel, waar de grens een echte douanegrens is. Dat maakt deze export anders dan een rit naar Duitsland of Frankrijk.",
+      "facts": [
+        {
+          "label": "Douane NL",
+          "value": "Uitvoeraangifte bij de Nederlandse douane, buiten de EU"
+        },
+        {
+          "label": "Douane CH",
+          "value": "Zwitserse invoer: factuur, kentekenbewijs, identiteitsbewijs en e-dec"
+        },
+        {
+          "label": "Rijverbod",
+          "value": "Zon- en feestdagen heel de dag; elke nacht 22 tot 5 uur"
+        },
+        {
+          "label": "Bpm",
+          "value": "Geen teruggaaf bij registratie in Zwitserland"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Limburg: A76 en A74",
+          "body": [
+            "Uit Zuid-Limburg loopt de A76 via Geleen en Heerlen naar grensovergang Bocholtz en gaat daar over in de Duitse A4 richting Aken en Keulen. De A76 is 27 km lang en draagt E314. Verder noordelijk verbindt de A74, een weg van 2 km, de A73 bij Venlo met de Duitse A61 richting Mönchengladbach en Koblenz. Die weg is geopend in 2012. Welke grens de chauffeur kiest, hangt af van waar in Limburg de wagen staat en waar in Zwitserland hij naartoe moet.",
+            "Een transport vanuit Venlo of Roermond kan zo via de A61 zuidwaarts naar de A5."
+          ]
+        },
+        {
+          "heading": "Naar Bazel: A5 of E25",
+          "body": [
+            "De Duitse A5 loopt van Hattenbach in Hessen over Karlsruhe, Baden-Baden en Freiburg naar de Zwitserse grens bij Weil am Rhein, 445 km lang. Bij Frankfurt rijden er zo'n 150.000 voertuigen per dag. Dat is de gewone binnenkomst voor wie uit Nederland of België komt.",
+            "Een alternatief is de E25 via Luxemburg, Metz, Straatsburg en Mulhouse naar de Zwitserse grens bij Saint-Louis en Bazel. Voorbij de grens loopt de Zwitserse A2 van Bazel naar Chiasso, met de Gotthard als hoogste punt op 1.175 m. De files staan vaker aan de noordzijde."
+          ]
+        },
+        {
+          "heading": "Douane in Nederland en in Zwitserland",
+          "body": [
+            "Bij export naar een land buiten de EU moet het voertuig ook bij de Nederlandse douane worden aangegeven, naast de afmelding bij de RDW. Bij verhuizing buiten de EU moet de auto als exportgoed worden aangegeven. De Nederlandse verzekering vervalt na uitschrijving.",
+            "In Zwitserland moet een blijvend ingevoerd voertuig spontaan worden aangegeven bij een douanekantoor. Daarvoor zijn nodig: de factuur of het koopcontract, het buitenlandse kentekenbewijs, ook als het al is uitgeschreven, een identiteitsbewijs en de elektronische aangifte e-dec. Er zijn Automobilsteuer en Zwitserse btw verschuldigd, met in de btw-grondslag ook de kosten tot de bestemming. Een expediteur of douane-agent betaalt meestal de rechten en factureert achteraf; de wagen krijgt dan formulier 13.20 A voor de kantonale inschrijving."
+          ]
+        },
+        {
+          "heading": "Rijverboden en CO2-certificering",
+          "body": [
+            "In Zwitserland mogen vrachtwagens boven 3,5 ton en trekkers met opleggers boven 5 ton op zon- en feestdagen de hele dag niet rijden, en elke nacht niet van 22 tot 5 uur. Er is geen zaterdagverbod en geen zomerverbod. Plan een aflevering in Zwitserland dus overdag, niet in het weekend.",
+            "Particuliere importeurs moeten een personenwagen vóór de eerste inschrijving laten certificeren op CO2. Dat hoeft niet bij wagens die meer dan 12 maanden voor de aangifte in het buitenland ingeschreven waren, of meer dan 6 maanden en meer dan 5.000 km. Een wagen die op eigen wielen binnenkomt, heeft meestal tijdelijke buitenlandse kentekenplaten nodig. Bpm-teruggaaf is bij registratie in Zwitserland niet mogelijk, want Zwitserland staat niet in de lijst van toegelaten landen."
+          ]
+        },
+        {
+          "heading": "Aankomst in Bazel en de grensregio",
+          "body": [
+            "De Duitse A5 eindigt aan de grensovergang Weil am Rhein en sluit er aan op de Zwitserse A2. Wie uit Nederland komt, rijdt hier Zwitserland binnen. De Zwitserse regio Noordwest, met Bazel, de kantons BS, BL, AG en het noorden van SO, is de dichtste voor Nederland.",
+            "Mcars brengt de wagen tot het afleveradres. De douane, de btw en de kantonale inschrijving zijn de zaak van de koper of van een expediteur. Onze chauffeur maakt bij de ophaling in Nederland een inspectie en foto's en u krijgt een CMR-vrachtbrief, wat bij de aangifte van pas komt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Basel/Weil am Rhein-Autobahn",
+          "body": "Het douanekantoor Basel/Weil am Rhein-Autobahn wordt door een douane-expediteur ter plaatse omschreven als het grootste wegdouanekantoor van Zwitserland. Aangifte geldt voor handelsgoederen, en een verkochte wagen op een vrachtwagen valt daar ook onder. Voor een koper in Bazel is dit meestal de eerste halte met papieren."
+        },
+        {
+          "kind": "regel",
+          "title": "Openingsuren van de Zwitserse douane",
+          "body": "Het Zwitserse douanebestuur noemt Basel Weil-Autobahn bij de grensovergangen waar handelswaren in uitzonderlijke situaties ook buiten de openingsuren kunnen worden ingeklaard. Elders kan dat niet. Buiten de openingsuren is inklaring van handelswaren dus geen vanzelfsprekendheid, en een aflevering op zaterdag is riskant."
+        },
+        {
+          "kind": "tip",
+          "title": "Bazel: een stad in drie landen",
+          "body": "De trinationale agglomeratie Basel strekt zich uit over Zwitserland, Duitsland en Frankrijk. Het grootste deel van de inwoners woont in Zwitserland, de rest in Duitsland en Frankrijk. Verhuizen over de grens binnen dezelfde stadsregio komt hier veel voor, ook met de wagen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wie doet de Zwitserse douane-aangifte?",
+          "a": "De koper of een expediteur die hij inschakelt. Mcars vervoert enkel de wagen. De aangifte gebeurt bij een douanekantoor voor handelsgoederen, met factuur, kentekenbewijs, identiteitsbewijs en e-dec. Wie een expediteur gebruikt, betaalt meestal achteraf."
+        },
+        {
+          "q": "Waarom is een rit naar Zwitserland anders dan naar Duitsland?",
+          "a": "Omdat de grens een douanegrens is. Het voertuig moet ter uitvoer worden aangegeven in Nederland en ter invoer in Zwitserland. Bovendien gelden er Zwitserse rijverboden die ook 's nachts van kracht zijn."
+        },
+        {
+          "q": "Kan ik bpm terugvragen voor een wagen naar Zwitserland?",
+          "a": "Niet als de wagen in Zwitserland wordt ingeschreven. Voor de teruggaaf moet de wagen duurzaam zijn geregistreerd in een andere EU-lidstaat, IJsland, Liechtenstein of Noorwegen. Zwitserland staat niet in die lijst. Kijk bij de Belastingdienst na wat voor uw situatie geldt."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Zwitserland: douane buiten de EU, A5 naar Bazel en Zwitserse rijverboden. Mcars rijdt open tot bij de koper.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Rijksweg_76",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a74",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://en.wikipedia.org/wiki/European_route_E25",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Switzerland)",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/voertuig-exporteren",
+        "https://www.nederlandwereldwijd.nl/auto-exporteren/stappenplan",
+        "https://www.bazg.admin.ch/en/vehicle-import-switzerland-customs-taxes",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.belastingdienst.nl/wps/wcm/connect/nl/bpm/content/teruggaaf-bpm-export-gebruikt-motorrijtuig",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_5",
+        "https://gerlach-customs.com/ch-de/standorte/basel-weil-autobahn-import/",
+        "https://www.bazg.admin.ch/dam/de/sd-web/jWPwp7TfGIv3/info-ausdehnung-zolloeffnungszeiten-bei-versorgnungsengpaessen_de.pdf",
+        "https://de.wikipedia.org/wiki/Trinationale_Agglomeration_Basel"
+      ]
+    },
+    "nederland-oostenrijk": {
+      "lead": "Een wagen van Nederland naar Oostenrijk volgt één lange as: de A12 naar Zevenaar en dan de Duitse A3 tot Passau, waar de Inn de grens vormt. Duitsland is het transitland, met zondagsverbod en tolheffing. En de koper in Oostenrijk betaalt bij inschrijving een eigen belasting, de NoVA.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "A12 naar Zevenaar, Duitse A3 tot Passau, Oostenrijkse A8"
+        },
+        {
+          "label": "Rijverbod AT",
+          "value": "Zaterdag 15 tot 24 uur; zon- en feestdagen 0 tot 22 uur"
+        },
+        {
+          "label": "NoVA",
+          "value": "Verschuldigd bij inschrijving, vóór de Zulassung"
+        },
+        {
+          "label": "Winter NL",
+          "value": "Rijkswaterstaat strooit rijkswegen van 1 oktober tot 1 mei"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Amsterdam en Schiphol",
+          "body": [
+            "Vanuit Amsterdam loopt de A1 oostwaarts richting Duitsland. Wie met een wagen in de buurt van Amsterdam, Haarlem of Schiphol staat, moet rekening houden met zones: Amsterdam, Haarlem en Schiphol hebben een zero-emissiezone voor bestel- en vrachtauto's. Amsterdam heeft daarnaast een milieuzone voor dieselvrachtauto's, die minstens emissieklasse 6 nodig hebben.",
+            "Schiphol ligt in Haarlemmermeer, 15 km ten zuidwesten van Amsterdam, en is bereikbaar via de A4 en de A9. De A4 gaat in de Schipholtunnel onder een start- en landingsbaan door. Spreek de ophaalplek daarom aan de rand van de zone of op een bedrijventerrein af."
+          ]
+        },
+        {
+          "heading": "Winter op de weg",
+          "body": [
+            "Het winterseizoen voor gladheidbestrijding op rijkswegen loopt van 1 oktober tot 1 mei. Als Rijkswaterstaat besluit te strooien, ligt er binnen ongeveer twee uur zout op alle rijkswegen, samen zo'n 3.300 km.",
+            "Een open autotransporter rijdt in die maanden door zout en spatwater. Een wagen die hier op transport staat, wordt dus vuil. Dat hoort bij open vervoer. Voor een koper in Oostenrijk wacht bovendien nog een Alpenwinter, als de rit door Salzburg of Tirol loopt. Plan de ophaling in die maanden bij voorkeur overdag, zodat de chauffeur de wagen goed kan inspecteren en fotograferen."
+          ]
+        },
+        {
+          "heading": "De A3 tot Passau en de Oostenrijkse A8",
+          "body": [
+            "De Duitse A3 loopt van Elten aan de Nederlandse grens tot Passau, ongeveer 778 km, en gaat daar over de Inn. In Oostenrijk is ze de A8, de Innkreisautobahn. Verkeer uit Nederland komt in Oberösterreich binnen over de Duitse A3 bij Passau en de grensovergang Suben, waar de A8 begint.",
+            "Wie naar Salzburg moet, rijdt via de Duitse A8 en de grensovergang Walserberg bij de stad. Voor Tirol komt men meestal binnen bij Kufstein of over de Fernpass vanuit Reutte. De A10 Tauern Autobahn loopt vanaf Salzburg naar Kärnten, Italië en Slovenië."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Duitsland en Oostenrijk",
+          "body": [
+            "Duitsland kent een zondagsverbod van 0 tot 22 uur voor vrachtwagens boven 7,5 ton, en op zaterdagen van 1 juli tot en met 31 augustus een extra verbod van 7 tot 20 uur op geselecteerde wegen. Toll Collect geldt boven 3,5 ton.",
+            "In Oostenrijk mogen voertuigen boven 7,5 ton, en wagens boven 3,5 ton met aanhanger, het hele jaar niet rijden op zaterdag van 15 tot 24 uur en op zon- en feestdagen van 0 tot 22 uur. Op drukke transitroutes, zoals de Brenner en de Fernpass, zijn er seizoensgebonden extra beperkingen. Een aflevering plant u dus op een vrijdag of een gewone weekdag in de ochtend."
+          ]
+        },
+        {
+          "heading": "NoVA en oudere voertuigen",
+          "body": [
+            "Bij inschrijving in Oostenrijk ontstaat de NoVA, de normverbruiksafgifte. De wagen mag pas worden ingeschreven nadat die is betaald. De grondslag is de gemeine Wert zonder btw; bij tweedehandswagens kan een lijst als Eurotax dienen. Particulieren gebruiken formulier NoVA 2.",
+            "Heeft u een voertuig dat alleen een Individueel Goedkeuringscertificaat heeft en geen kentekenbewijs, dan is dat certificaat alleen geldig in het land dat het afgaf. Dit zijn punten voor de koper; Mcars regelt geen papieren. Vraag uw koper vooraf bij de Oostenrijkse instantie wat hij nodig heeft, en meld uw wagen pas daarna af bij de RDW."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Suben en de Innkreisautobahn",
+          "body": "Bij Suben, de grensovergang bij Passau, begint de Oostenrijkse A8 Innkreis Autobahn. Daar komt het verkeer uit België, Nederland, Luxemburg en Noord-Duitsland Oberösterreich binnen. Voor een koper in Linz of in de Weinviertel is dit de eerste Oostenrijkse afrit."
+        },
+        {
+          "kind": "plek",
+          "title": "Walserberg bij Salzburg",
+          "body": "Verkeer uit München, en dus uit Nederland, komt Salzburg binnen over de Duitse A8 en de grensovergang Walserberg. Vanuit Salzburg loopt de A10 Tauern Autobahn naar Kärnten. Naar Tirol rijdt men via het Große Deutsche Eck, over de A8 en de A93, richting Kufstein."
+        },
+        {
+          "kind": "plek",
+          "title": "Kufstein en de Fernpass",
+          "body": "In Tirol grenst de A12 bij Kufstein aan de Duitse A93. Verkeer uit België en Duitsland komt hier meestal binnen of over de Fernpass vanuit Reutte. Verder loopt de A12/S16 door de Arlbergtunnel naar Vorarlberg en Zwitserland."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wie betaalt de NoVA?",
+          "a": "De koper, bij de inschrijving in Oostenrijk. De wagen mag pas worden ingeschreven nadat de NoVA is betaald. U hoeft als verkoper niets af te dragen, maar geef de koper de factuur en de papieren mee die hij nodig heeft voor de berekening."
+        },
+        {
+          "q": "Kan de wagen op zaterdagmiddag worden afgeleverd in Oostenrijk?",
+          "a": "Niet na 15 uur. Op zaterdag geldt voor vrachtwagens boven 7,5 ton een rijverbod van 15 tot 24 uur, op zon- en feestdagen van 0 tot 22 uur. Plan de aflevering op een vrijdag of een ochtend."
+        },
+        {
+          "q": "Is een open transporter in de winter een probleem?",
+          "a": "De wagen kan vuil worden door zout, maar dat hoort bij open vervoer. We rijden open en meerlaags. Wie wil dat de wagen schoon aankomt, kan hem later laten wassen. Mcars rijdt altijd open."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Oostenrijk: A12, A3 tot Passau, rijverboden en de NoVA. Mcars rijdt open naar het adres van de koper.",
+      "sources": [
+        "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+        "https://www.milieuzones.nl/vrachtautos",
+        "https://nl.wikipedia.org/wiki/Luchthaven_Schiphol",
+        "https://www.rijkswaterstaat.nl/wegen/wegbeheer/winter-op-de-weg/strooien-en-zout",
+        "https://en.wikipedia.org/wiki/Bundesautobahn_3",
+        "https://nl.wikipedia.org/wiki/Rijksweg_12",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.toll-collect.de/en/",
+        "https://www.auto-motor-und-sport.de/verkehr/lkw-fahrverbote-in-der-eu-hier-darf-keiner-im-sommer-fahren/",
+        "https://www.bmf.gv.at/themen/steuern/kraftfahrzeuge/normverbrauchsabgabe-uebersicht/fahrzeugimport/eigenimport-aus-mitgliedstaaten-der-europaeischen-union.html",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/voertuig-exporteren",
+        "https://de.wikipedia.org/wiki/Innkreis_Autobahn",
+        "https://de.wikipedia.org/wiki/Kleines_Deutsches_Eck",
+        "https://de.wikipedia.org/wiki/Inntal_Autobahn"
+      ]
+    },
+    "nederland-polen": {
+      "lead": "Een wagen van Nederland naar Polen rijdt dwars door Duitsland: via Hannover of Berlijn naar de Duitse A12, over de Oder bij Frankfurt en op de Poolse A2 naar Poznań en Warschau. Er is geen kust, wel een lange rit, en onderweg verandert het type tol en rijverbod een paar keer. Mcars vervoert de wagen open op een meerlaagse autotransporter.",
+      "facts": [
+        {
+          "label": "Route",
+          "value": "Via Duitsland, A12 en Poolse A2 vanaf Świecko"
+        },
+        {
+          "label": "Rijverbod PL",
+          "value": "Zon- en feestdagen 8 tot 22 uur, boven 12 ton"
+        },
+        {
+          "label": "A2-tol",
+          "value": "Świecko tot Konin is tolweg van Autostrada Wielkopolska"
+        },
+        {
+          "label": "Warschau",
+          "value": "Vrachtverbod boven 16 ton; C16-identificator voor levering"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het noorden en oosten van Nederland",
+          "body": [
+            "Vanuit Overijssel, Drenthe en Groningen loopt het verkeer over meerdere grensovergangen. De A1 eindigt bij Oldenzaal Autoweg in De Lutte en gaat over in de Duitse A30 richting Osnabrück. Dat is de gebruikelijke as richting Hannover, Berlijn en Polen. Vanuit Groningen eindigt de A7 bij Bad Nieuweschans en gaat over in de Duitse A280, die na ongeveer 4,5 km aansluit op de A31.",
+            "De A37 loopt ongeveer 42 km van Hoogeveen naar de grens bij Zwartemeer. Aan Duitse kant gaat ze verder als de B402 richting Meppen, een gewone Bundesstraße en geen Autobahn."
+          ]
+        },
+        {
+          "heading": "Over Duitsland naar Frankfurt (Oder)",
+          "body": [
+            "De Duitse A30 begint bij Bad Bentheim, sluit aan op de A1 bij Oldenzaal en eindigt op de A2 bij Bad Oeynhausen. Het traject behoort tot de E30 van Amsterdam via Berlijn naar Warschau. Bij Berlijn volgt de A12.",
+            "De A12 loopt van de Berliner Ring, Dreieck Spreeau, over 58 km naar Frankfurt (Oder) en gaat over de Oderbrug verder als de Poolse A2 richting Poznań, Łódź en Warschau. Uit een verkeerstelling bleek dat meer dan een kwart van de voertuigen vrachtverkeer was. Wie liever zuidelijker rijdt, kan de A15 nemen die aan de Neisse in de Poolse A18 overgaat."
+          ]
+        },
+        {
+          "heading": "De Poolse A2: tolwegen en grens",
+          "body": [
+            "De Poolse A2 begint bij Świecko aan de Duitse grens, waar ze aansluit op de Duitse A12. Ze draagt E30 en loopt via Poznań, Łódź en Warschau. Het stuk van Świecko tot Konin is een tolweg in beheer van de private maatschappij Autostrada Wielkopolska. Vanaf Konin oostwaarts beheert de staat, GDDKiA, de weg. De sectie Konin tot Stryków had tolposten die niet meer in gebruik zijn.",
+            "De tarieven op de concessie-A2 wijzigen geregeld. Het stuk Świecko tot Nowy Tomyśl heeft eigen tarieven, het stuk Nowy Tomyśl tot Konin ook. Vraag de vervoerder dus altijd naar de actuele stand."
+          ]
+        },
+        {
+          "heading": "Poolse rijverboden en Warschau",
+          "body": [
+            "In Polen mogen vrachtwagens boven 12 ton op zon- en feestdagen van 8 tot 22 uur niet rijden, soms ook de avond ervoor van 18 tot 22 uur. In de zomer gelden extra beperkingen op vrijdag en zaterdag.",
+            "Warschau heeft een verbod voor vrachtwagens boven 16 ton van 7 tot 10 uur en van 16 tot 20 uur. Voor doorgaand transitverkeer geldt het de klok rond. Wie in die uren moet leveren, heeft een C16-identificator nodig van de stedelijke wegbeheerder ZDM. Daarnaast kent Warschau zones met een grens van 5 en 10 ton."
+          ]
+        },
+        {
+          "heading": "Inschrijven in Polen",
+          "body": [
+            "Op het Poolse kantoor moet u zowel de buitenlandse platen als het originele buitenlandse kentekenbewijs inleveren. Een verkoper die naar Polen verkoopt, geeft die dus best beide mee, samen met de factuur of het verkoopcontract.",
+            "In Polen kan een voertuig van een buitenlandse eigenaar worden ingeschreven door de persoon of het bedrijf waaraan die eigenaar het voertuig heeft toevertrouwd. Handig is dat wanneer u een wagen aan een Poolse gebruiker levert zonder de eigendom over te dragen. Mcars vervoert de wagen; de inschrijving is de zaak van uw koper."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Warschau: vrachtverbod en C16",
+          "body": "In Warschau geldt een verbod voor vrachtwagens boven 16 ton van 7 tot 10 uur en van 16 tot 20 uur. Naast C16 bestaan zones met een grens van 5 en 10 ton, met identificatoren C5 en C10. Voor voertuigen boven 16 ton zijn ze zes maanden geldig. Een afleveradres in de stad vraagt dus extra voorbereiding."
+        },
+        {
+          "kind": "regel",
+          "title": "Warschause milieuzone voor oudere wagens",
+          "body": "In Warschau geldt de Strefa Czystego Transportu: benzinewagens gebouwd vóór 2000 en diesels gebouwd vóór 2009 mogen de zone niet in, behalve met vrijstelling of op maximaal 4 dagen per jaar. De zone ligt binnen onder meer Jerozolimskie en de Trasa Łazienkowska. Een afleveradres daarbinnen is een aandachtspunt voor oudere wagens."
+        },
+        {
+          "kind": "tip",
+          "title": "Poznań en de A2",
+          "body": "Poznań ligt aan de A2, vanaf de Duitse grens bij Świecko richting Warschau. Dit is de regio voor alles wat via Berlijn binnenkomt, dus ook voor wagens vanuit Nederland. De concessieweg tot Konin heeft eigen tarieven die geregeld wijzigen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Rijdt de transporter op zondag door Polen?",
+          "a": "Nee. Op zon- en feestdagen mogen vrachtwagens boven 12 ton er van 8 tot 22 uur niet rijden. Een aflevering plant u dus op een andere dag. Zo staat de chauffeur niet stil aan de grens."
+        },
+        {
+          "q": "Wat moet de Poolse koper meebrengen?",
+          "a": "Het originele buitenlandse kentekenbewijs en de buitenlandse platen, samen met de factuur of het verkoopcontract. Als u de wagen in Nederland afmeldt, krijgt u het exportdocument en de kentekencard met afgeknipte hoek. Geef die door."
+        },
+        {
+          "q": "Kan een wagen naar het centrum van Warschau?",
+          "a": "Een autotransporter boven 16 ton heeft een C16-identificator nodig om in de verboden uren te leveren. Meestal spreekt de chauffeur een afleverplek buiten het centrum af, bijvoorbeeld aan de rand van de stad."
+        }
+      ],
+      "seoDescription": "Auto exporteren van Nederland naar Polen: via Duitsland, de A2 vanaf Świecko, tolwegen en Poolse rijverboden. Mcars rijdt open naar de koper.",
+      "sources": [
+        "https://nl.wikipedia.org/wiki/Rijksweg_1",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a7",
+        "https://www.rijkswaterstaat.nl/wegen/wegenoverzicht/a37",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_30",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_12",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_15",
+        "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+        "https://en.wikipedia.org/wiki/A2_autostrada_(Poland)",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://warszawa19115.pl/-/identyfikator-c16",
+        "https://warszawa19115.pl/-/identyfikator-c5-c10",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026",
+        "https://warszawa19115.pl/en/-/rejestracja-pojazdu-uzywanego-sprowadzonego-z-zagranicy",
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://wartowiedziec.pl/komunikacja-i-transport/81579-podwyzki-na-autostradzie-a2-od-wrzesnia-kierowcy-zaplaca-wiecej"
+      ]
+    }
+  }
+}

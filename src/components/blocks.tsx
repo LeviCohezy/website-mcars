@@ -13,16 +13,16 @@ import { ArrowChip } from "./ui";
  * tiles, no hover inversions — numbers, a title and a sentence.
  * `accent` is accepted for backwards compatibility and ignored.
  */
-export function HighlightGrid({ items, accent }: { items: Highlight[]; accent?: number }) {
+export function HighlightGrid({ items, accent, dark = false }: { items: Highlight[]; accent?: number; dark?: boolean }) {
   void accent;
   const cols = items.length === 4 ? "lg:grid-cols-4" : items.length === 2 ? "lg:grid-cols-2" : "lg:grid-cols-3";
   return (
     <div className={`grid gap-x-10 gap-y-12 sm:grid-cols-2 ${cols}`}>
       {items.map((h, i) => (
-        <Reveal key={h.title} delay={i * 80} className="border-t border-zinc-950 pt-6">
-          <span className="text-xs font-medium tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
-          <h3 className="mt-8 text-xl font-medium tracking-tight text-zinc-950 sm:text-2xl">{h.title}</h3>
-          <p className="mt-3 max-w-sm text-[0.95rem] leading-relaxed text-zinc-500">{h.body}</p>
+        <Reveal key={h.title} delay={i * 80} className={`border-t pt-6 ${dark ? "border-white/40" : "border-zinc-950"}`}>
+          <span className={`text-xs font-medium tabular-nums ${dark ? "text-white/40" : "text-zinc-400"}`}>{String(i + 1).padStart(2, "0")}</span>
+          <h3 className={`mt-8 text-xl font-medium tracking-tight sm:text-2xl ${dark ? "text-white" : "text-zinc-950"}`}>{h.title}</h3>
+          <p className={`mt-3 max-w-sm text-[0.95rem] leading-relaxed ${dark ? "text-white/55" : "text-zinc-500"}`}>{h.body}</p>
         </Reveal>
       ))}
     </div>
@@ -65,25 +65,28 @@ export function StatRow({ items, dark = false }: { items: Stat[]; dark?: boolean
 }
 
 /** Ruled accordion FAQ — one open at a time. */
-export function FaqAccordion({ items, defaultOpen = 0 }: { items: Faq[]; defaultOpen?: number | null }) {
+export function FaqAccordion({ items, defaultOpen = 0, dark = false }: { items: Faq[]; defaultOpen?: number | null; dark?: boolean }) {
   const [open, setOpen] = useState<number | null>(defaultOpen);
+  const rule = dark ? "border-white/15" : "border-zinc-200";
   return (
-    <div className="border-t border-zinc-200">
+    <div className={`border-t ${rule}`}>
       {items.map((f, i) => {
         const isOpen = open === i;
         return (
-          <div key={f.q} className="border-b border-zinc-200">
+          <div key={f.q} className={`border-b ${rule}`}>
             <button
               type="button"
               onClick={() => setOpen(isOpen ? null : i)}
               aria-expanded={isOpen}
               className="group flex w-full items-start gap-6 py-6 text-left"
             >
-              <span className="w-6 flex-none pt-1.5 text-xs font-medium tabular-nums text-zinc-400">{String(i + 1).padStart(2, "0")}</span>
-              <span className="flex-1 text-lg font-medium tracking-tight text-zinc-950 sm:text-xl">{f.q}</span>
+              <span className={`w-6 flex-none pt-1.5 text-xs font-medium tabular-nums ${dark ? "text-white/40" : "text-zinc-400"}`}>{String(i + 1).padStart(2, "0")}</span>
+              <span className={`flex-1 text-lg font-medium tracking-tight sm:text-xl ${dark ? "text-white" : "text-zinc-950"}`}>{f.q}</span>
               <span
                 className={`mt-0.5 flex size-8 flex-none items-center justify-center rounded-full border transition-colors duration-300 ${
-                  isOpen ? "border-zinc-950 bg-zinc-950 text-white" : "border-zinc-300 text-zinc-500 group-hover:border-zinc-950 group-hover:text-zinc-950"
+                  dark
+                    ? isOpen ? "border-white bg-white text-zinc-950" : "border-white/25 text-white/55 group-hover:border-white group-hover:text-white"
+                    : isOpen ? "border-zinc-950 bg-zinc-950 text-white" : "border-zinc-300 text-zinc-500 group-hover:border-zinc-950 group-hover:text-zinc-950"
                 }`}
               >
                 <svg className={`size-3.5 transition-transform duration-300 ${isOpen ? "rotate-45" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -93,7 +96,7 @@ export function FaqAccordion({ items, defaultOpen = 0 }: { items: Faq[]; default
             </button>
             <div className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
               <div className="overflow-hidden">
-                <p className="max-w-2xl pr-14 pb-7 pl-12 text-base leading-relaxed text-zinc-500">{f.a}</p>
+                <p className={`max-w-2xl pr-14 pb-7 pl-12 text-base leading-relaxed ${dark ? "text-white/55" : "text-zinc-500"}`}>{f.a}</p>
               </div>
             </div>
           </div>
@@ -188,7 +191,7 @@ export function QuoteCta({
         </Parallax>
         <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/75 to-zinc-950/55" />
 
-        <div className="relative z-10 grid gap-12 px-6 pt-16 pb-28 sm:px-10 sm:pt-24 sm:pb-36 lg:grid-cols-[1.5fr_1fr] lg:items-end lg:px-14">
+        <div className="relative z-10 grid gap-12 px-6 pt-20 pb-36 sm:px-10 sm:pt-32 sm:pb-48 lg:min-h-[44rem] lg:grid-cols-[1.5fr_1fr] lg:items-end lg:px-14 lg:pt-40 lg:pb-52">
           <Reveal>
             <p className="flex items-center gap-2.5 text-xs font-medium tracking-[0.18em] text-white/60 uppercase">
               <span aria-hidden className="size-1.5 rounded-full bg-white" />

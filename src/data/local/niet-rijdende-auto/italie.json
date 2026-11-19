@@ -1,0 +1,1180 @@
+{
+  "service": "niet-rijdende-auto",
+  "origin": "italie",
+  "pages": {
+    "italie": {
+      "lead": "Een wagen die in Italië niet meer rijdt, valt onder strenge regels: de politie, de Motorizzazione en de wegbeheerder bepalen wat ermee mag gebeuren. Slepen op de autosnelweg is er verboden, een geschorste wagen mag nog enkel naar de werkplaats of de keuring, en een wagen die langs de weg blijft staan, kan worden weggehaald. Hier leest u wat dat betekent voor een transport van of naar België.",
+      "facts": [
+        {
+          "label": "Slepen op snelweg",
+          "value": "Verboden, behalve door pechhulp die de wegbeheerder heeft gemachtigd"
+        },
+        {
+          "label": "Na zware schade",
+          "value": "Motorizzazione kan een individuele keuring opleggen (revisione singola)"
+        },
+        {
+          "label": "Geschorste wagen",
+          "value": "Mag enkel nog naar een erkende werkplaats of keuringskantoor"
+        },
+        {
+          "label": "Verlaten wagen",
+          "value": "Zonder opeising volgt na 180 dagen ambtshalve uitschrijving"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Slepen en pechhulp: strenger dan u gewend bent",
+          "body": [
+            "Op de Italiaanse autosnelweg is het verboden een voertuig te slepen dat geen aanhangwagen is. Dat geldt ook op opritten, knooppunten en parkings. Pechhulp en wegslepen gebeuren er enkel door instanties en bedrijven die de wegbeheerder daarvoor heeft gemachtigd. Alleen politie en leger zijn vrijgesteld.",
+            "Buiten de autosnelweg mag een defecte wagen enkel in een dringende noodsituatie door een ander voertuig worden gesleept. Dat moet met een stevige en goed zichtbare verbinding, zoals een touw, ketting, kabel of stang, en met knipperlichten of een signaal op de gesleepte wagen.",
+            "Voor een wagen die al dagen niet meer start, is dat geen oplossing. Zo'n wagen gaat op een transporter. Op elke vrachtwagen van Mcars zit een lier, zodat een wagen met geblokkeerde remmen of zonder motor zonder rijden op de wagen raakt."
+          ]
+        },
+        {
+          "heading": "Keuring, schorsing en wat dat voor het transport betekent",
+          "body": [
+            "Na een ongeval met zware schade die de veiligheid in twijfel trekt, verwittigt de politie de Motorizzazione. Die kan een individuele keuring van het voertuig opleggen, de revisione singola.",
+            "Is een voertuig niet voor de verplichte keuring aangeboden, dan blijft het voor het verkeer geschorst tot die keuring is uitgevoerd. Het mag dan alleen nog naar een erkende werkplaats of naar het keuringskantoor rijden. Een lange rit naar een koper of een herstelplaats in een ander land is dus uitgesloten.",
+            "Ook een voertuig waarvan de lading slecht vastzit, of waarvan de staat of de banden gevaar opleveren, mag niet op de autosnelweg. Wie een projectwagen heeft die half is gedemonteerd, doet er goed aan hem op een vrachtwagen te laten vervoeren in plaats van zelf te rijden."
+          ]
+        },
+        {
+          "heading": "Verzekering, uitschrijving en sloop",
+          "body": [
+            "Voor voertuigen die formeel uit het verkeer zijn genomen, een gebruiksverbod hebben of ongeschikt zijn als vervoermiddel, geldt de verzekeringsplicht niet meer. Dat staat in artikel 193 van de Codice della Strada. Voor het transport zelf blijft de wagen bij ons verzekerd tijdens de rit.",
+            "Slopen gebeurt bij een erkend centrum. Dat geeft een certificato di rottamazione af en regelt zelf de schrapping uit het PRA. Met dat certificaat is de eigenaar niet langer aansprakelijk voor het voertuig.",
+            "Let op als u een wagen koopt die als projectwagen bedoeld is: een voertuig dat al is uitgeschreven door sloop, diefstal, brand of uitvoer, kan geen periodieke keuring meer krijgen. Vraag de verkoper dus naar de status vóór de wagen op de vrachtwagen gaat."
+          ]
+        },
+        {
+          "heading": "Verlaten wagens en het fermo amministrativo",
+          "body": [
+            "Ziet een geparkeerd voertuig er door zijn staat verlaten uit, dan kan de politie het laten weghalen. Wordt een weggehaald voertuig niet opgeëist en is er geen diefstal aangegeven, dan worden platen en documenten ingetrokken en volgt een uitschrijving van ambtswege.",
+            "Na een fermo amministrativo blijft het voertuig van de weg verbannen. De bron meldt dat daarmee ook de BA-verzekering niet meer geldt. Bij een fermo als verkeerssanctie wordt de eigenaar of bestuurder zelf bewaarder: hij moet de wagen op eigen kosten wegzetten op een plek die niet openbaar toegankelijk is. Het voertuig krijgt een zegel, en het kentekenbewijs blijft bij de politie.",
+            "Dat laatste is belangrijk voor een transport. Een wagen met zegel haalt u niet zomaar op. Zorg dat u weet wat de status is en wie de wagen mag meegeven."
+          ]
+        },
+        {
+          "heading": "Van en naar België: de wagen op de vrachtwagen",
+          "body": [
+            "Mcars heeft een depot in Roeselare en rijdt met negen open, meerlaagse autotransporters. Bij ophaling controleren onze chauffeurs de wagen, nemen ze foto's voor intern gebruik en maken ze een CMR-vrachtbrief op. Voor een wagen die helemaal geblokkeerd staat, rukt een heftruck uit naar de standplaats.",
+            "Een wagen die niet rijdt, hoeft in Italië niet eerst naar een garage om vervoerbaar te zijn. We halen hem op bij het adres, de garage of de stalling. Levering op ons depot kan altijd, ook 's nachts, en is voordeliger.",
+            "Wat de wagen daarna nodig heeft, zoals een keuring of een inschrijving, regelt u zelf of via uw garage. Mcars vervoert en regelt dat papierwerk niet."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Automotoretrò in Parma",
+          "body": "Deze beurs voor historische auto's en motoren, onderdelen en automobilia vindt elk jaar in maart plaats in de Fiere di Parma. Wie hier een projectwagen of een onderdelenwagen koopt die niet meer rijdt, laat hem op een transporter naar huis brengen."
+        },
+        {
+          "kind": "regel",
+          "title": "Area B in Milaan",
+          "body": "Bijna de hele stad Milaan valt onder Area B, van maandag tot vrijdag tussen 7.30 en 19.30 uur. In het weekend gelden de toegangsregels niet. Voor het laden van een defecte wagen in de stad kiest u dus best een weekendmoment of een adres buiten de zone."
+        },
+        {
+          "kind": "regel",
+          "title": "ZTL van Firenze",
+          "body": "De sectoren A, B en O zijn actief van maandag tot vrijdag van 7.30 tot 20 uur en op zaterdag tot 16 uur, niet op zon- en feestdagen. In het zomerhalfjaar geldt de zone ook op sommige nachten. Camera's lezen de nummerplaten, wat bij een wagen zonder platen of met een andere plaat voor problemen kan zorgen."
+        },
+        {
+          "kind": "plek",
+          "title": "Villa San Giovanni en de Straat van Messina",
+          "body": "Ongeveer 80% van de voertuigen naar Sicilië passeert Villa San Giovanni, met de veerboot naar Messina. De brug over de straat is niet gebouwd, dus de overtocht blijft per veer. Een wagen op Sicilië heeft daarom altijd een boot nodig, ook als hij op een vrachtwagen staat."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik mijn defecte wagen in Italië laten wegslepen naar een garage?",
+          "a": "Op de autosnelweg niet: slepen is er verboden en pechhulp is voorbehouden aan gemachtigde bedrijven. Buiten de snelweg mag het enkel in een dringende noodsituatie, met een zichtbare verbinding en knipperlichten. Een transporter is de nette oplossing voor langere stukken."
+        },
+        {
+          "q": "Wat als mijn wagen zijn keuring heeft gemist?",
+          "a": "Dan wordt hij geschorst voor het verkeer. Hij mag nog enkel naar een erkende werkplaats of naar het keuringskantoor rijden. Voor elke andere verplaatsing, zeker naar België, gaat de wagen op een vrachtwagen in plaats van op eigen wielen."
+        },
+        {
+          "q": "Wat gebeurt er met een wagen die ik langs de straat laat staan?",
+          "a": "De politie mag een wagen die er verlaten uitziet laten weghalen. Wordt hij niet opgeëist en is er geen diefstal aangegeven, dan trekt ze na 180 dagen platen en documenten in en wordt de wagen uitgeschreven. Haal een stilstaande wagen dus tijdig weg."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto in Italië laten vervoeren? Regels voor slepen, keuring en schorsing, plus wat dat betekent voor transport op een lierwagen.",
+      "sources": [
+        "https://aci.gov.it/codice-della-strada/art-175/",
+        "https://aci.gov.it/codice-della-strada/art-165/",
+        "https://aci.gov.it/codice-della-strada/art-80/",
+        "https://aci.gov.it/codice-della-strada/art-193/",
+        "https://aci.gov.it/codice-della-strada/art-159/",
+        "https://aci.gov.it/codice-della-strada/art-103/",
+        "https://aci.gov.it/codice-della-strada/art-214/",
+        "https://it.wikipedia.org/wiki/Fermo_amministrativo",
+        "https://it.motor1.com/features/446742/demolizione-auto-come-si-fa-quanto-costa/",
+        "https://www.automobilista.it/si-puo-rottamare-unauto-senza-revisione-regole-costi-e-documenti/",
+        "https://www.automotoretro.it/",
+        "https://www.alvolante.it/da_sapere/legge-e-burocrazia/area-b-milano-mappa-limitazioni-e-ingressi-regole-379956",
+        "https://www.parkingmycar.it/blog/ztl-firenze-regole/",
+        "https://en.wikipedia.org/wiki/Villa_San_Giovanni",
+        "https://en.wikipedia.org/wiki/Strait_of_Messina_Bridge"
+      ]
+    },
+    "italie-belgie": {
+      "lead": "Staat uw wagen in Piemonte, Valle d'Aosta of Ligurië en moet hij naar België, dan rijdt hij niet zelf over de Alpen. Hij gaat op een vrachtwagen, door de Mont Blanc- of de Fréjustunnel, en dan wacht in België vaak een keuring na ongeval of een afvoer naar een erkend centrum. Zo loopt dat in de praktijk, met de regels die onderweg en bij aankomst meetellen.",
+      "facts": [
+        {
+          "label": "Alpentunnels",
+          "value": "Mont Blanc of Fréjus; de Tenda-tunnel is verboden boven 3,5 ton"
+        },
+        {
+          "label": "Rijverbod Italië",
+          "value": "Boven 7,5 ton op zon- en feestdagen, ook met lege laadvloer"
+        },
+        {
+          "label": "Aankomst België",
+          "value": "Keuring na ongeval met geometriemeting op uitlijnbank"
+        },
+        {
+          "label": "Afgedankte wagen",
+          "value": "Technisch totaal verlies geldt als gevaarlijke afvalstof"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in het noordwesten van Italië",
+          "body": [
+            "De regio Piemonte, Valle d'Aosta en Ligurië kijkt het dichtst naar België: van hieruit gaat de rit door een van de twee tunnels naar Frankrijk. Een wagen die hier niet rijdt, staat vaak in een garage in een dal, op een stalling bij een sloper of op een erf waar een vrachtwagen moeilijk keert.",
+            "Spreek daarom vooraf af waar de wagen precies staat, of hij vrij kan rollen en of de handrem werkt. Heeft hij geen sleutel, geen accu of geblokkeerde wielen, dan zetten we de lier in. Bij een volledig geblokkeerde wagen komt er een heftruck bij.",
+            "Valt de Mont Blanc-tunnel weg, dan wijkt het grootste deel van het vrachtverkeer uit naar de Fréjus. Een planning voor deze route houdt dus altijd rekening met een tweede keuze."
+          ]
+        },
+        {
+          "heading": "Mont Blanc of Fréjus: de Alpendoorgang",
+          "body": [
+            "De Mont Blanc-tunnel is 11,6 kilometer lang en verbindt Chamonix met Courmayeur op de E25, in één buis met twee rijstroken. Na de brand van 24 maart 1999 met een Belgische vrachtwagen, waarbij 39 mensen omkwamen, bleef hij tot 9 maart 2002 dicht. In groepen van vijf, op 150 meter van elkaar en met 50 tot 70 kilometer per uur, rijden de vrachtwagens daar.",
+            "De Fréjustunnel meet 12,87 kilometer en verbindt Modane met Bardonecchia. Hij heeft sinds kort een tweede buis, maar per richting blijft één rijstrook in gebruik, want de andere dient als vluchtstrook. De capaciteit blijft dus dezelfde. U bereikt hem via de A43 vanuit Lyon en Chambéry en via de A32 vanuit Turijn.",
+            "Voor een vrachtwagen vol wagens betekent dat vooral: tijd inplannen voor doorlaatritme en afstand, geen haast."
+          ]
+        },
+        {
+          "heading": "Het zondagsverbod: ook voor een lege laadvloer",
+          "body": [
+            "Buiten de bebouwde kom zijn vrachtwagens en combinaties boven 7,5 ton in Italië op zon- en feestdagen niet welkom, leeg of niet. In januari tot en met mei en in oktober tot en met december geldt het van 9 tot 22 uur, in juni tot en met september van 7 tot 22 uur.",
+            "Buitenlandse voertuigen starten het Italiaanse verbod vier uur later, en ritten naar het buitenland mogen twee tot vier uur voor het einde van het verbod vertrekken. Autotransport staat niet op de lijst van vrijstellingen.",
+            "Wie het verbod overtreedt, krijgt een boete, een schorsing van rijbewijs en kentekenbewijs voor een periode van één tot vier maanden, en moet stilstaan tot het verbod voorbij is. Daarom plannen we geen laadmomenten die tegen een verbodsuur aan zitten. Ook in Frankrijk en Zwitserland gelden eigen verboden, die we per rit naast elkaar leggen."
+          ]
+        },
+        {
+          "heading": "Aankomst in België: de keuring na ongeval",
+          "body": [
+            "Beslist een bevoegde expert na een ongeval dat de wagen een keuring na ongeval nodig heeft, dan moet die gebeuren. Eerst volgt een volledige technische keuring, daarna een specifieke meting. Bij die meting wordt de wielgeometrie gemeten op een uitlijnbank en het chassis op een driedimensionale meetbank, telkens tegen de toleranties van de fabrikant. De eigenaar krijgt de meetresultaten mee.",
+            "Een wagen die uit Italië komt en nog niet is hersteld, moet dus eerst naar een herstelplaats en pas daarna naar het keuringscentrum. Dat betekent twee adressen, en tussen die adressen mag de wagen niet zomaar over de openbare weg.",
+            "U kunt de wagen na aankomst rechtstreeks laten leveren aan de garage die de herstelling doet. Ook levering op ons depot in Roeselare kan, het hele etmaal."
+          ]
+        },
+        {
+          "heading": "Afgedankt, onherstelbaar of toch een project?",
+          "body": [
+            "Febelauto beschouwt elk voertuig waarvan de eigenaar afwil of moet als afgedankt, en daarmee als gevaarlijke afvalstof. Een wagen met technisch totaal verlies valt eveneens onder die regel.",
+            "Een wagen geldt ook als afgedankt wanneer het keuringsbewijs meer dan twee jaar vervallen is, wanneer hij zes jaar na de eerste ingebruikname nog geen keuringsbewijs heeft, of wanneer de boorddocumenten langer dan een maand ontbreken. Onmiddellijk inleveren moet u een onherstelbaar voertuig, en ook een wagen die vloeistoffen lekt. Wie de inlevertermijnen negeert, begaat een milieumisdrijf.",
+            "Inleveren bij een garagehouder, invoerder, producent of erkend centrum is gratis als het voertuig compleet is en geen bijkomend afval bevat. Als bewijs ontvangt u een certificaat van vernietiging of een bewijs van afgifte. Een wagen uit Italië die u als project wilt redden, moet dus aantoonbaar herstelbaar zijn."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Tenda-tunnel (Cuneo en de Roya-vallei)",
+          "body": "De nieuwe Tenda-tunnel is geopend na de sluiting door storm Alex in 2020. Boven 3,5 ton is een voertuig er niet toegelaten, wat ook in een ANAS-verordening staat. Voor een autotransporter is Tenda dus geen optie, hoe kort de weg op de kaart ook lijkt."
+        },
+        {
+          "kind": "plek",
+          "title": "E411, de Autoroute des Ardennes",
+          "body": "De E411 loopt 188 kilometer van Brussel via Waver, Namen en Aarlen naar Sterpenich. Zuidwaarts vanaf Namen komen de viaducten van Beez, Sart-Bernard, Sovet en Custinne. Tussen Namen en de Luxemburgse grens zijn er grotendeels twee rijstroken per richting, met extra stroken op steile hellingen."
+        },
+        {
+          "kind": "regel",
+          "title": "Rood keuringsbewijs met code 1",
+          "body": "Met code 1 is de wagen verboden tot het verkeer; hij mag voorlopig niet de weg op en moet uiterlijk twee maanden na de afkeuring opnieuw langs de keuring. Zonder geldig bewijs mag u enkel de kortste weg rijden tussen woonplaats, hersteller en keuringscentrum. Bij code 1 kiest u dus best voor transport."
+        },
+        {
+          "kind": "regel",
+          "title": "Hybride en elektrische wagens",
+          "body": "Een erkend centrum+, aangemeld voor de inzameling van aandrijfbatterijen, is de bestemming van een afgedankt hybride of elektrisch voertuig. Staat zo'n wagen schadelijk of onherstelbaar in Italië, vraag dan voor het laden na waar hij in België mag worden afgeleverd."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Welke tunnel neemt een vrachtwagen met een wagen uit Turijn naar België?",
+          "a": "Dat is een keuze tussen Mont Blanc en Fréjus, afhankelijk van de actuele toestand en uw vertrekplek. Is de Mont Blanc dicht, dan gaat het meeste vrachtverkeer via de Fréjus. De Tenda-tunnel valt af voor voertuigen boven 3,5 ton."
+        },
+        {
+          "q": "Moet de wagen in België meteen naar de keuring?",
+          "a": "Niet altijd. Een wagen zonder geldig keuringsbewijs mag enkel de kortste weg rijden tussen uw woonplaats, de hersteller en het keuringscentrum. Hoort er een keuring na ongeval bij, dan komt die na de herstelling. Laat de wagen er dus eerst op een transporter naartoe brengen."
+        },
+        {
+          "q": "Is een wagen met technisch totaal verlies afval?",
+          "a": "Volgens Febelauto wel: dan geldt hij als afgedankt voertuig en gevaarlijke afvalstof. Hij moet naar een erkend centrum, dat een certificaat van vernietiging afgeeft. Wilt u de wagen toch als project houden, laat dan eerst een expert oordelen."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar België laten vervoeren: Alpentunnels, zondagsverbod voor vrachtwagens en de Belgische keuring na ongeval.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/italy",
+        "https://www.ilpost.it/2025/09/01/traforo-monte-bianco-chiuso/",
+        "https://protezionecivile.provincia.cuneo.it/_allegati/2026/04/nuova_ordinanza_ANAS.pdf",
+        "https://www.gocavlaanderen.be/detail-page/keuring-na-ongeval-geometriemeting",
+        "https://www.febelauto.be/nl/faq",
+        "https://www.febelauto.be/nl",
+        "https://nl.wikipedia.org/wiki/A4_%28Belgi%C3%AB%29",
+        "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/resultaat-groen-of-rood-keuringsbewijs"
+      ]
+    },
+    "italie-nederland": {
+      "lead": "Een wagen die rond Milaan of Como panne staat en naar Nederland moet, gaat via Zwitserland of Oostenrijk en Duitsland naar het noorden. Onderweg liggen een stedelijke camerazone, een Alpentunnel en verschillende rijverboden. In Nederland wacht dan vaak de RDW, met de WOK-status als bekendste drempel. Zo loopt zo'n transport.",
+      "facts": [
+        {
+          "label": "Gotthard-tunnel",
+          "value": "Één buis van 16,9 km, hoogstens 150 vrachtwagens per uur"
+        },
+        {
+          "label": "Zwitserland",
+          "value": "Boven 3,5 ton geen zondag en nacht van 22 tot 5 uur"
+        },
+        {
+          "label": "WOK in Nederland",
+          "value": "Rijverbod tot de RDW het voertuig heeft goedgekeurd"
+        },
+        {
+          "label": "Ingevoerde schadewagen",
+          "value": "Krijgt een extra schadekeuring van de RDW"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Milaan: Area C en de ZTL-camera's",
+          "body": [
+            "Milaan heeft in de Cerchia dei Bastioni een zone van ongeveer 8 vierkante kilometer met 43 camerapoorten. Op weekdagen overdag is die betalend voor elk voertuig. Diesels tot en met emissieklasse 3 en privévoertuigen langer dan 7 meter mogen er niet in. Een autotransporter blijft dus buiten de Area C.",
+            "Ook elders in Italiaanse stadscentra staan ZTL-camera's die elke passage tellen. De boete komt maanden tot bijna een jaar later per post, hotels in een ZTL kunnen uw plaat registreren en elektrische auto's moeten soms eerst bij de gemeente geregistreerd zijn.",
+            "Staat uw wagen in zo'n centrum, spreek dan een laadplek af net buiten de zone. We halen de wagen daar op met de lier en laden hem op de vrachtwagen."
+          ]
+        },
+        {
+          "heading": "De Gotthard: één buis voor beide richtingen",
+          "body": [
+            "De Gotthard-wegtunnel is 16,9 kilometer lang en bestaat uit één buis met één rijstrook per richting. Er geldt 80 kilometer per uur en een inhaalverbod. Na de brand van 2001 liet men er nog hoogstens 150 vrachtwagens per uur in.",
+            "Zodra het druk is, ontstaat er dus een rij voor de tunnel. Voor een autotransporter met meerdere wagens neemt de planning daar rekening mee.",
+            "Een wagen die niet rijdt, mag nooit het probleem van de rij worden. Daarom staat hij vastgesjord en loopt de tunnelpassage voor hem niet anders dan voor een rijdende wagen."
+          ]
+        },
+        {
+          "heading": "Rijverboden op de weg naar het noorden",
+          "body": [
+            "In Zwitserland mogen vrachtwagens boven 3,5 ton op zon- en feestdagen de hele dag niet rijden en elke nacht niet van 22 tot 5 uur. Er is geen zaterdag- of zomerverbod.",
+            "In Duitsland geldt een Toll Collect-heffing voor vrachtwagens boven 3,5 ton en een zondagsverbod van 0 tot 22 uur boven 7,5 ton.",
+            "Een transport dat net voor het weekend de Alpen over gaat, loopt dus gemakkelijk een dag vertraging op. Een spoedrit is hier dus beperkt: de wet houdt een vrachtwagen stil, hoe haastig de klant ook is."
+          ]
+        },
+        {
+          "heading": "Aankomst in Nederland: de WOK-status",
+          "body": [
+            "Wachten Op Keuring, afgekort WOK, houdt een verbod in om op de weg te rijden zolang de RDW het voertuig niet heeft goedgekeurd. Gronden zijn onder meer schade, een niet-goedgekeurde aanpassing of het niet verschijnen na een oproep. Het rijverbod wordt in het kentekenregister geplaatst door de politie, een verzekeraar of de RDW. Bij waterschade is een keuring altijd verplicht.",
+            "Verzekering, motorrijtuigenbelasting en APK blijven ook met een WOK-status verplicht. Het voertuig moet vóór de keuring hersteld zijn. De RDW vraagt om bij schade waar mogelijk de onderbeplating te verwijderen en de uitlijning te laten controleren; VIN, motornummer en typeplaat moeten leesbaar zijn.",
+            "Op de dag van de keuringsafspraak mag de wagen via de kortste route naar het keuringsstation en terug, mits verzekerd. Na goedkeuring haalt de RDW het verbod weg, wat u kunt nagaan in de kentekencheck onder Status van het voertuig."
+          ]
+        },
+        {
+          "heading": "Een schadewagen uit Italië invoeren of afvoeren",
+          "body": [
+            "Een extra schadekeuring is in Nederland het lot van een ingevoerd voertuig met schade, en daardoor komt het kentekenbewijs vaak later. Een taxatierapport mag dienen voor de bpm van een ingevoerde schadeauto. Toegestaan is dat enkel bij meer dan normale gebruiksschade, of wanneer het voertuig niet in een koerslijst voorkomt.",
+            "Bij export van een schadevoertuig wordt geen bpm teruggegeven. Wilt u de wagen niet houden, dan mag u een personenauto niet zelf slopen: dat moet bij een sloopbedrijf met RDW-erkenning. U krijgt een vrijwaringsbewijs, de motorrijtuigenbelasting stopt automatisch en de verzekering zet u zelf stop.",
+            "Vóór de sloop vraagt u bij de RDW een demontagecode aan als het kentekenbewijs of de tenaamstellingscode niet meer te vinden is. Dat papierwerk doet de eigenaar of een garage, niet de vervoerder."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "RDW-keuringsstations in Zuid-Holland",
+          "body": "In Zuid-Holland zijn er RDW-keuringsstations te Schiedam, Waddinxveen en Zwijndrecht. Wie een wagen met WOK-status op de keuringsdag via de kortste route moet kunnen laten aanrijden, kiest dat station als leveradres."
+        },
+        {
+          "kind": "plek",
+          "title": "Domeinen Roerende Zaken in Bleiswijk",
+          "body": "Overtollige en in beslag genomen voertuigen van de Rijksoverheid worden verkocht door Domeinen Roerende Zaken. De veilingen lopen online via Onlineveilingmeester.nl. Wie daar een niet-rijdende wagen koopt, kijkt na waar het voertuig precies staat vóór het transport wordt afgesproken."
+        },
+        {
+          "kind": "regel",
+          "title": "Total-lossvoertuigen en Stichting VbV",
+          "body": "Verzekeraars handelen total-lossvoertuigen af via hun Total Loss Bureaus. Die mogen ze alleen verkopen aan opkopers die door Stichting VbV zijn gecertificeerd. Koopt u zo'n wagen van een opkoper, dan weet u dat de verkoper aan die eis voldoet."
+        },
+        {
+          "kind": "regel",
+          "title": "Geschorst voertuig en projectwagen",
+          "body": "Een geschorst voertuig, zoals een projectwagen, mag niet op de openbare weg staan of rijden. Ook een wagen die op straat geparkeerd staat, valt bijgevolg onder het verbod. Een projectwagen die per transport aankomt, moet dus op privéterrein of in een garage terecht kunnen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan een wagen met WOK-status gewoon op een transporter naar Nederland?",
+          "a": "Ja, een wagen die niet mag rijden hoort juist op een transporter. Het WOK-verbod geldt voor het rijden op de weg, niet voor vervoer op een vrachtwagen. Zorg wel dat de wagen op een adres staat waar hij mag staan en dat de keuring is aangevraagd."
+        },
+        {
+          "q": "Mijn wagen heeft waterschade. Wat verandert er in Nederland?",
+          "a": "Bij waterschade is een keuring door de RDW altijd verplicht. Laat de wagen dus eerst herstellen voor u een afspraak maakt, en vervoer hem tot dan niet op eigen kracht."
+        },
+        {
+          "q": "Heb ik een demontagecode nodig om een wagen te laten slopen?",
+          "a": "Alleen als er geen kentekenbewijs of tenaamstellingscode meer is. Dan vraagt u die code eerst aan bij de RDW. Daarna kan een erkend sloopbedrijf de wagen overnemen en geeft het een vrijwaringsbewijs af."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Nederland laten vervoeren: Gotthard, Alpenverboden en de Nederlandse WOK-status met RDW-keuring.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Milan_Area_C",
+        "https://www.evz.de/en/topics/transport/car/fines-abroad/ztl-italy/",
+        "https://en.wikipedia.org/wiki/Gotthard_Road_Tunnel",
+        "https://svg.de/svg-wiki/artikel/lkw-fahrverbotsregelung-deutschland-und-europa",
+        "https://www.bussgeldkatalog.org/lkw-wochenendfahrverbot/",
+        "https://www.toll-collect.de/en/",
+        "https://www.rdw.nl/keuren/keuren-na-verbod-voor-rijden",
+        "https://www.rijksoverheid.nl/onderwerpen/auto/vraag-en-antwoord/mag-ik-met-een-beschadigde-auto-de-weg-op",
+        "https://www.rdw.nl/invoeren-exporteren-doorvoeren/tips-bij-invoer",
+        "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/auto_en_vervoer/belastingen_op_auto_en_motor/bpm/afschrijving_met_koerslijst_taxatierapport_of_forfaitaire_tabel",
+        "https://www.rdw.nl/slopen/auto-kampeerauto-brommer-of-bestelbus-slopen",
+        "https://www.rdw.nl/contact/keuringsstations",
+        "https://www.domeinenrz.nl/",
+        "https://stichtingvbv.nl/schadeafwikkeling/gecertificeerde-total-loss-bureaus/",
+        "https://www.rdw.nl/schorsen"
+      ]
+    },
+    "italie-luxemburg": {
+      "lead": "Een wagen die rond Varese of Como niet meer rijdt en naar Luxemburg moet, gaat met de vrachtwagen over de Alpen en door de Elzas. De rit begint op wegen met camera's in plaats van tolpoorten, kruist een Zwitserse zwaarverkeersheffing of een Franse omleiding en eindigt in een land waar het uitschrijven van een wagen strikt geregeld is. Dit is wat er onderweg en bij aankomst meetelt.",
+      "facts": [
+        {
+          "label": "Pedemontana A36",
+          "value": "Free flow: portalen lezen de plaat, zonder badge betaalt u zelf"
+        },
+        {
+          "label": "A35 in de Elzas",
+          "value": "Geen tol tussen Lauterbourg en Saint-Louis aan de Zwitserse grens"
+        },
+        {
+          "label": "Zwitserse LSVA",
+          "value": "Op alle wegen voor voertuigen boven 3,5 ton"
+        },
+        {
+          "label": "Platen in Luxemburg",
+          "value": "Bij definitieve uitschrijving worden de platen vernietigd"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Lombardije: de Pedemontana en free flow",
+          "body": [
+            "De A36 Pedemontana Lombarda is 22 kilometer lang en verbindt de A8 bij Cassano Magnago met Lentate sul Seveso, waar ze de A9 kruist. Ze is bedoeld als verbinding tussen Varese, Como, Bergamo en de luchthavens Malpensa en Orio al Serio. Wie in dat gebied een wagen laat ophalen, rijdt er dus bijna zeker over.",
+            "Op enkele trajecten, zoals de Pedemontana, is er free flow zonder slagbomen. Portalen lezen de nummerplaat. Wie geen tolbadge heeft, moet achteraf zelf betalen. Voor vrachtwagens bestaan badges die in meerdere landen werken, zoals Telepass EU boven 3,5 ton voor Italië, Frankrijk, België, Spanje, Portugal, Polen en Oostenrijk.",
+            "Als klant hoeft u daar niets voor te doen."
+          ]
+        },
+        {
+          "heading": "Door de Elzas: de A35 van Lauterbourg tot Saint-Louis",
+          "body": [
+            "De Franse A35 is ongeveer 172 tot 180 kilometer lang en loopt tolvrij van Lauterbourg via Straatsburg, Colmar en Mulhouse naar Saint-Louis aan de Zwitserse grens. Ze gaat daar over in de Zwitserse A3 richting Bazel. Ten noorden van Straatsburg deelt ze ongeveer 9 kilometer met de A4, die naar Metz en Nancy leidt.",
+            "Bij Straatsburg telt de A35 ongeveer 160.000 voertuigen per dag, ongeveer 10 procent vrachtwagens, met 70 kilometer per uur en regelmatig verzadiging in de spits. Bij Bartenheim zijn er avondfiles van grensarbeiders.",
+            "Doorgaand vrachtverkeer mag de Straatsburgse M35 niet meer gebruiken sinds de A355 openging. Een autotransporter neemt de omleiding, en dat kost tijd die bij de planning hoort."
+          ]
+        },
+        {
+          "heading": "Zwitserland: heffing en wachtende vrachtwagens",
+          "body": [
+            "Voor voertuigen boven 3,5 ton, binnen- en buitenlandse, int Zwitserland op alle wegen de LSVA, de zware-vrachtverkeersheffing. De gewichtsgrens van 40 ton geldt sinds 2005.",
+            "Omdat Zwitserland in het weekend en op feestdagen dicht is voor vrachtverkeer, wachten vrachtwagens aan de grens bij Saint-Louis dan vaak op de pechstrook. Een transport dat op vrijdagavond nog bij de Alpen zit, staat dus makkelijk tot maandagochtend stil.",
+            "Wie zijn wagen graag op een vaste dag in Luxemburg heeft, geeft daarom best geen weekenddag op. Een aankomst in het begin van de week is realistischer."
+          ]
+        },
+        {
+          "heading": "Luxemburg: het transitverbod en de parking van Berchem",
+          "body": [
+            "Luxemburg verbiedt vrachtwagens van meer dan 7,5 ton in transit richting Frankrijk van zaterdag (en de vooravond van een feestdag) 21.30 uur tot zondag (of de feestdag) 21.45 uur. Tijdens dat verbod mogen ze ook niet op de openbare weg of op rustplaatsen parkeren.",
+            "Het verbod gaat over transit richting Frankrijk. Een rit die in Luxemburg zelf eindigt, valt er niet onder, maar het verklaart wel waarom de wegen en parkings in het weekend anders zijn dan op weekdagen.",
+            "Van 54 naar 107 plaatsen groeide de vrachtwagenparking van Berchem richting Frankrijk, die gratis blijft. Een geleidingssysteem wijst chauffeurs een plaats toe volgens hun geplande vertrekuur. De parking stond voordien in het weekend vol met vrachtwagens die wachtten op het einde van het Franse rijverbod, tot op de snelweg toe."
+          ]
+        },
+        {
+          "heading": "Aankomst in Luxemburg: SNCA, platen en keuring",
+          "body": [
+            "Is een in Luxemburg ingeschreven wagen na een ongeval definitief onbruikbaar, dan moet dat kort daarna aan de SNCA worden gemeld. Het komt voor dat de verzekeraar dat voor de eigenaar regelt. De platen van de wagen gaan weg bij die definitieve uitschrijving. Ze worden vernietigd, tenzij ze nodig zijn voor een andere wagen op naam van dezelfde houder.",
+            "De wagen vertrekt dus zonder platen, en dat is precies waarom vervoer op een vrachtwagen de oplossing is. Guichet.lu vermeldt uitdrukkelijk dat een wagen die op een aanhangwagen wordt vervoerd geen tijdelijke inschrijving nodig heeft.",
+            "Een technische keuring is verplicht na een zware ongevalsherstelling aan onderdelen als wielen, ophanging, stuurinrichting, remmen of airbags, en ook na herstelling of ombouw van het chassis. Een bijzondere oproep voor de keuring is mogelijk wanneer een verzekeringsexpert of de politie een technisch gebrek aan de wagen vaststelt."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Rode platen in Luxemburg",
+          "body": "Rode platen laten een niet-ingeschreven wagen alleen toe om rechtstreeks naar een garage of werkplaats te rijden voor herstelling, ombouw of nazicht. De wagen moet verzekerd zijn en in orde met de keuring. Wie een wagen heeft die niet rijdt of niet door de keuring raakt, kan hierop niet rekenen."
+        },
+        {
+          "kind": "regel",
+          "title": "Tijdelijke uitschrijving",
+          "body": "Een tijdelijke uitschrijving kan om eender welke reden, bijvoorbeeld een voertuig dat een hele winter stilstaat. Aangifte bij de SNCA volgt kort na de beslissing, met enkel deel 1 van het inschrijvingsbewijs. Pas wanneer de wagen bij de SNCA uit het verkeer is genomen, stopt de verschuldigde verkeersbelasting."
+        },
+        {
+          "kind": "regel",
+          "title": "Herinschrijving na lang stilstaan",
+          "body": "Is het keuringsbewijs van een uitgeschreven wagen meer dan twee jaar vervallen, dan moet de wagen eerst door de keuring bij een erkend Luxemburgs centrum. Staat de verkeersbelasting al meer dan twee jaar open, dan wordt de schuld eerst bij de ADA vereffend, en pas daarna volgt een nieuw belastingvignet."
+        },
+        {
+          "kind": "plek",
+          "title": "A3 naar Zoufftgen",
+          "body": "De A3 loopt van de Croix de Gasperich over Bettembourg en Dudelange naar de Franse grens bij Zoufftgen en gaat daar over in de A31 richting Metz. Ze wordt intens gebruikt door grensarbeiders en doorgaand verkeer, dus de spits weegt op elke planning."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Heeft mijn wagen een tijdelijke inschrijving nodig om naar Luxemburg te komen?",
+          "a": "Niet als hij op een aanhangwagen of vrachtwagen wordt vervoerd. Guichet.lu zegt uitdrukkelijk dat een wagen die zo wordt getransporteerd geen tijdelijke inschrijving nodig heeft. Een uitgeschreven wagen zonder platen kan dus zo mee."
+        },
+        {
+          "q": "Weigert de keuring mijn wagen als de verkeersbelasting niet betaald is?",
+          "a": "Volgens de ACL weigeren de keuringsinstanties de periodieke keuring als de betalingstermijn van de verkeersbelasting met meer dan 60 dagen is overschreden. Controleer dat dus voor de afspraak, zeker bij een wagen die lang heeft stilgestaan."
+        },
+        {
+          "q": "Wat als mijn wagen een technische wijziging heeft gekregen als project?",
+          "a": "Verandert een technische wijziging de goedgekeurde kenmerken van een wagen, dan moet die gekeurd worden voor hij opnieuw rijdt. Registreren moet u een afzonderlijke wijziging binnen twee maanden. Houd daar rekening mee bij een omgebouwde projectwagen."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Luxemburg laten vervoeren: Pedemontana, Elzas, Zwitserse heffing en de Luxemburgse SNCA-regels.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Autostrada_A36_(Italy)",
+        "https://www.tcs.ch/it/camping-viaggi/informazioni-turistiche/utile-da-sapere/costi-di-viaggio-e-pedaggi/free-flow-pedemontana.php",
+        "https://www.telepass.com/it/truck/pedaggio-e-interoperabilita",
+        "https://fr.wikipedia.org/wiki/Autoroute_A35_(France)",
+        "https://de.wikipedia.org/wiki/Leistungsabh%C3%A4ngige_Schwerverkehrsabgabe",
+        "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+        "https://police.public.lu/en/legislation/code-de-la-route/routiers-poids-lourds1.html",
+        "https://paperjam.lu/article/parking-intelligent-contre-cha",
+        "https://snca.public.lu/fr/vehicules/vendre-hors-circulation/vehicule-accidente.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/acheter-vehicule-etranger.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/controle-technique-pneumatiques/controle-technique-obligatoire-vehicule.html",
+        "https://snca.public.lu/fr/plaques/plaques-rouges.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/vendre-retirer-vehicule/mise-hors-circulation-temporaire.html",
+        "https://guichet.public.lu/fr/citoyens/transport/transports-individuels/vehicule-motorise/immatriculer-vehicule/reimmatriculation-vehicule.html",
+        "https://www.acl.lu/fr/loisirs/vehicules-historiques/",
+        "https://fr.wikipedia.org/wiki/Autoroute_A3_(Luxembourg)"
+      ]
+    },
+    "italie-frankrijk": {
+      "lead": "Een wagen die in Ligurië of Piemonte niet meer rijdt en naar Frankrijk moet, hoeft geen Alpen over als hij langs de kust gaat, en neemt anders de Mont Blanc- of Fréjustunnel. In beide gevallen gelden Italiaanse en Franse rijverboden voor vrachtwagens. In Frankrijk zelf bepaalt dan een expert of een wagen herstelbaar is of vernietigd moet worden.",
+      "facts": [
+        {
+          "label": "Mont Blanc",
+          "value": "Sinds 1965 open; verkort Frankrijk-Turijn met ongeveer 50 km"
+        },
+        {
+          "label": "Fréjus-tunnel",
+          "value": "Verwerkt ongeveer 80% van het zware verkeer op deze route"
+        },
+        {
+          "label": "Frankrijk weekend",
+          "value": "Zwaarder dan 7,5 ton: stilstand van zaterdag 22 uur tot zondag 22 uur"
+        },
+        {
+          "label": "VEI-procedure",
+          "value": "Herstel duurder dan de waarde: verzekeraar stelt overname voor"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek langs de Ligurische kust: Ventimiglia",
+          "body": [
+            "Ventimiglia ligt 7 kilometer van de Frans-Italiaanse grens aan de Ligurische kust, met een aansluiting op de A10. Veel verkeer veroorzaakt de wekelijkse straatmarkt op vrijdag, die Fransen aantrekt. Een ophaling op vrijdag in of rond de stad vraagt daarom extra marge.",
+            "De A8 eindigt bij Menton in een tunnel op de Italiaanse grens en gaat daar over in de A10 richting Ventimiglia en Genua. Voor een wagen die uit Genua of Savona komt, is dat de kortste kustroute naar de Franse Riviera.",
+            "Wie in Frankrijk een wagen verwacht, weet dat Mcars elke week over heel Frankrijk rijdt. Ook stockageparken, zoals BCA en TEA, behoren tot onze bestemmingen."
+          ]
+        },
+        {
+          "heading": "De Franse Rivièra: tunnels op de A8",
+          "body": [
+            "Een aaneenschakeling van tunnels en viaducten met stevige hellingen vormt de A8 tussen Nice en Menton. Vrachtwagens zijn in de tunnels beperkt tot 70 kilometer per uur, en in juli en augustus is het druk, met geregeld files bij Aix en Cannes.",
+            "De A7 komt bij Marseille aan. Het laatste weekend van juli en het eerste van augustus zijn de drukste dagen. Op drukke dagen wordt de snelheid verlaagd naar 110, 90 of 70 kilometer per uur om het verkeer vlot te houden.",
+            "Voor een wagen die niet rijdt, maakt dat geen verschil in de lading. Wel in de tijd: een ophaling aan de Côte d'Azur in de zomervakantie vraagt meer voorbereiding dan in het voorjaar."
+          ]
+        },
+        {
+          "heading": "Mont Blanc of Fréjus, afhankelijk van uw vertrekplek",
+          "body": [
+            "De Mont Blanc-tunnel (11,611 kilometer, sinds 19 juli 1965 open) verbindt Chamonix met Courmayeur. Hij verkort de rit Frankrijk-Turijn met ongeveer 50 kilometer en Frankrijk-Milaan met ongeveer 100 kilometer. De oudste, meest vervuilende vrachtwagens zijn geweerd en de vrije hoogte onder het gewelf is 4,35 meter. Aan Franse kant leidt de A40 van Mâcon naar Passy, daarna de RN 205 naar de tunnel.",
+            "De Fréjus-wegtunnel (12,87 kilometer, open sinds 12 juli 1980) loopt onder de Col du Fréjus van Modane naar Bardonecchia en draagt de E70. Er geldt 70 kilometer per uur en 150 meter tussenafstand. Na een brand in 2005 was de tunnel enkele weken dicht, en korte sluitingen volgden na branden in 2007, 2010 en 2014. De maximale voertuighoogte is 4,30 meter.",
+            "We controleren de hoogte van de combinatie voordat we een tunnel kiezen."
+          ]
+        },
+        {
+          "heading": "Rijverboden aan beide kanten van de grens",
+          "body": [
+            "Italië publiceert jaarlijks via het ministerie een kalender met rijverboden voor voertuigen boven 7,5 ton buiten de bebouwde kom. Zomers komt de vrijdag erbij en lopen de uren langer door. Het hoogtepunt valt rond 15 augustus, wanneer het verbod van 7 tot 22 uur loopt.",
+            "Frankrijk kent een weekendverbod voor vrachtwagens boven 7,5 ton van zaterdag 22 uur tot zondag 22 uur, plus feestdagen. Daar komen extra zomerzaterdagen bovenop, van 7 tot 19 uur. Ritten naar de Italiaanse kust en terug in de vakantieweken worden door beide verboden getroffen.",
+            "Op de A40 liggen tolpunten in Viry, Nangy en Cluses, naast de tol van de Mont Blanc-tunnel. Enkele stukken zijn gratis, zoals Passy-Sallanches."
+          ]
+        },
+        {
+          "heading": "Aankomst in Frankrijk: immobilisatie en expert",
+          "body": [
+            "Politie of gendarmerie mogen na een ongeval een gevaarlijk beschadigd voertuig immobiliseren, met inhouding van de carte grise. De prefectuur legt dan een rijverbod op. Of de wagen veilig kan rijden en technisch herstelbaar is, wordt door een expert vastgesteld. Een rijverbod en een opposition au transfert zijn het gevolg als hij negatief oordeelt. Een verkoop in de huidige staat blijft toegestaan, aan een autoprofessional of de verzekeraar.",
+            "Een autoprofessional moet, volgens het expertiseverslag, een zwaar beschadigde maar herstelbare wagen tot 3,5 ton herstellen. Rijverbod en verzet worden door de prefectuur pas opgeheven na een tweede verslag van de expert.",
+            "Bent u het met de expert oneens, dan kunt u op eigen kosten een tegenexpertise laten uitvoeren. De wagen blijft ondertussen staan waar hij staat, en dat is vaak een stalling die u van ons wilt laten ophalen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "VEI-procedure",
+          "body": "Overtreffen de herstelkosten de waarde van de wagen vóór het schadegeval, dan stelt de verzekeraar kort na het expertiseverslag voor de wagen over te nemen. De eigenaar krijgt dertig dagen om te antwoorden. Een verzet tegen overdracht wordt door de prefectuur ingeschreven als hij weigert of niet antwoordt."
+        },
+        {
+          "kind": "regel",
+          "title": "Vernietiging bij een VHU-centrum",
+          "body": "Vernietiging gebeurt bij een erkend VHU-centrum. In het SIV-register op de site van de ANTS vindt u die lijst terug. U bezorgt de prefectuur het vernietigingsattest samen met de carte grise. Een wagen die u nog wilt redden, mag dus nooit naar een centrum zonder dat u de status kent."
+        },
+        {
+          "kind": "plek",
+          "title": "Alcopa Auction en VPauto",
+          "body": "Alcopa Auction heeft aparte categorieën voor véhicules hors-service en véhicules non roulants, voorbehouden aan professionals. Naast gerechtelijke verkopen heeft VPauto een aparte categorie voor niet-rijdende en beschadigde voertuigen. Wie daar koopt, laat de wagen op een transporter naar huis brengen."
+        },
+        {
+          "kind": "regel",
+          "title": "Franse keuring: 133 controlepunten",
+          "body": "De Franse keuring telt 133 controlepunten, waarvan 72 tot een herkeuring kunnen leiden. Die moet binnen twee maanden gebeuren. Voor een wagen uit Italië die in Frankrijk wordt gekeurd na herstel, loont het om de herstelling vooraf goed te laten nakijken."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik een niet-rijdende wagen in Frankrijk aan een particulier verkopen?",
+          "a": "Nee. Een professional met een SIRET-nummer is in Frankrijk de enige geldige koper van een niet-rijdend voertuig; een particulier komt niet in aanmerking. Voor een verkoop aan een particulier moeten de kritieke gebreken uit de keuring eerst hersteld zijn."
+        },
+        {
+          "q": "Welke tunnel is beter voor een wagen uit Turijn naar Lyon?",
+          "a": "Dat hangt af van uw vertrekplek en de toestand van de tunnels. De Mont Blanc verkort de rit vanuit Turijn met ongeveer 50 kilometer, de Fréjus draagt het meeste zware verkeer. We kiezen de doorgang naargelang de dag."
+        },
+        {
+          "q": "Wat is een opposition au transfert?",
+          "a": "Dat is een verzet tegen overdracht dat de prefectuur inschrijft. Het zorgt dat de wagen niet kan worden verkocht tot hij is hersteld met een tweede expertise of is vernietigd. De wagen mag soms nog in zijn staat naar een autoprofessional."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Frankrijk laten vervoeren: Mont Blanc, Fréjus, rijverboden en de Franse VEI-procedure.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ventimiglia",
+        "https://fr.wikipedia.org/wiki/Autoroute_A8_(France)",
+        "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+        "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "https://fr.wikipedia.org/wiki/Tunnel_du_Mont-Blanc",
+        "https://fr.wikipedia.org/wiki/Autoroute_A40_(France)",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/traforo-del-frejus-costo-orari-e-chiusure/",
+        "https://mit.gov.it/node/21641",
+        "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+        "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F34300/17?idFicheParent=N367",
+        "https://www.service-public.gouv.fr/particuliers/vosdroits/F1707",
+        "https://www.alcopa-auction.fr/",
+        "https://www.vpauto.fr/",
+        "https://fr.wikipedia.org/wiki/Contr%C3%B4le_technique_des_v%C3%A9hicules_automobiles_en_France"
+      ]
+    },
+    "italie-duitsland": {
+      "lead": "Een wagen die in Zuid-Tirol niet meer rijdt en naar Duitsland moet, gaat over de Brenner en door het Inntal naar München. Daar stuit de rit op blokafhandeling bij Kufstein en op Beierse doorgangsverboden. Eenmaal in Duitsland heeft de wagen een afmelding, een keuring of een nieuwe inschrijving nodig, en dat gaat anders dan elders. Zo loopt de route.",
+      "facts": [
+        {
+          "label": "Brennerpas",
+          "value": "Op de E45: A22 in Italië, A13 in Oostenrijk"
+        },
+        {
+          "label": "Blokafhandeling Kufstein",
+          "value": "Maximaal 250 vrachtwagens per uur, één rijstrook over"
+        },
+        {
+          "label": "Na afmelding",
+          "value": "Wagen mag niet meer op openbare weg of plein staan"
+        },
+        {
+          "label": "Slepen in Duitsland",
+          "value": "Motorfietsen mogen helemaal niet gesleept worden"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek bij Sterzing: A22, winterbanden en Sadobre",
+          "body": [
+            "De Brennerpas ligt op ongeveer 1.370 meter en maakt deel uit van de E45: de A22 in Italië, de A13 in Oostenrijk. De weg loopt van Innsbruck over Bolzano en Verona tot bij Modena. Voor een wagen die in Zuid-Tirol wordt opgehaald, is dat de enige logische as naar het noorden.",
+            "Winterbanden, of kettingen aan boord, zijn van 15 november tot 15 april vereist op de hele A22. Voor een transport met meerdere wagens geldt dat voor de trekker, niet voor wat erop staat.",
+            "Net voor de pas, bij ongeveer kilometer 299 van de A22, ligt de Autoporto Sadobre bij Vipiteno. Het dient als vrachtwagenparking. Daar kunnen chauffeurs wachten op hun verbodsuur of op een betere tijd om naar de grens te rijden."
+          ]
+        },
+        {
+          "heading": "Blokafhandeling bij Kufstein",
+          "body": [
+            "Bij blokafhandeling, de Blockabfertigung, wordt voertuigen boven 7,5 ton op de A12 zuidwaarts bij Kufstein-Nord een maximum van 250 vrachtwagens per uur toegelaten. Slechts één rijstrook blijft dan beschikbaar, met files tot op de A8 München-Salzburg als gevolg.",
+            "Tirol publiceert elk jaar een kalender met dagen waarop dat systeem actief is. Het begint 's ochtends vroeg.",
+            "Bij blokafhandeling geldt in Beieren bovendien een doorgangsverbod voor vrachtwagens richting Oostenrijk en de Brenner in plaatsen langs de A8 en A93, om sluipverkeer te vermijden. Een chauffeur kan dus niet via dorpswegen langs de file heen.",
+            "Voor een wagen die moet worden afgeleverd, is dat een bron van vertraging waar niemand iets aan kan doen. We plannen met ruimte en spreken geen exact uur af."
+          ]
+        },
+        {
+          "heading": "Van Innsbruck naar München en verder",
+          "body": [
+            "De A12, de Inntalautobahn, is 153 kilometer lang. Ze begint als voortzetting van de Duitse A93 bij Kiefersfelden en Kufstein, loopt langs Innsbruck en kruist daar de Brennerautobahn. Vanaf Kiefersfelden volgt de A93 en daarna de A8 naar München.",
+            "Een hoofdroute van München over de Alpen naar Verona en Modena: zo omschrijft de bron dit traject. De Duitse A8 is 497 kilometer lang en loopt via Stuttgart, Ulm, Augsburg en München.",
+            "In Duitsland betaalt een vrachtwagen boven 3,5 ton Maut op Autobahnen en Bundesstraßen. Sinds 1 december 2023 zit daar ook een CO2-component in. Die tol zit in de rit zelf en verandert niets aan de lading."
+          ]
+        },
+        {
+          "heading": "Aankomst in Duitsland: afmelding, sloop en herinschrijving",
+          "body": [
+            "Geeft u een personenwagen of lichte bestelwagen af voor sloop bij een erkende instantie, dan moet de wagen onverwijld buiten bedrijf worden gesteld, met het Verwertungsnachweis. Na de sloop worden de Zulassungsbescheinigung Teil I en II ingeleverd. Bij iedere afmelding hoort de vermelding of het voertuig als afval wordt afgevoerd.",
+            "Op openbare wegen of pleinen mag een voertuig na de Außerbetriebsetzung niet meer staan. Een wagen die per transport aankomt, heeft dus een privé-adres nodig.",
+            "Voor het opnieuw inschrijven van een afgemelde wagen zijn Zulassungsbescheinigung Teil I en II nodig. Een Hauptuntersuchung komt eerst, als de keuringstermijn ondertussen verstreken is. Zijn de gegevens van een lang stilgelegd voertuig al uit het centrale register gewist en zijn de technische bewijzen niet meer voor te leggen, dan is een Gutachten volgens § 21 StVZO nodig."
+          ]
+        },
+        {
+          "heading": "Kurzzeitkennzeichen en slepen volgens § 15a StVO",
+          "body": [
+            "Rijden met een Kurzzeitkennzeichen zonder geldige Hauptuntersuchung kan alleen naar een keuringsstation in het eigen of een aangrenzend Zulassungsbezirk. Naar de hersteller rijden is eveneens toegelaten als de keuring een gebrek vaststelt, behalve bij een wagen die als verkeersonveilig is ingeschaald.",
+            "Een voertuig dat buiten de Autobahn is stilgevallen, mag bij het wegslepen niet de Autobahn op. Motorfietsen mogen helemaal niet gesleept worden. Dat staat in § 15a StVO.",
+            "Voor een projectwagen of een motorfiets die niet meer start, is vervoer op een vrachtwagen de enige route naar het keuringsstation of de werkplaats."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "event",
+          "title": "Veterama in Mannheim",
+          "body": "De Veterama in Mannheim (Maimarktgelände) vindt elk jaar in oktober plaats. Het is volgens de beschrijving de grootste onderdelenmarkt van Europa voor old- en youngtimers, met ongeveer 4.000 standhouders. Er worden ook complete voertuigen verkocht, vaak zonder motor of keuring."
+        },
+        {
+          "kind": "tip",
+          "title": "Datenblatt van TÜV Rheinland",
+          "body": "Ontbreken bij een voertuig de technische bewijzen zoals het COC, dan kan een keuringsinstantie, bijvoorbeeld TÜV Rheinland, een Datenblatt opstellen en de inschrijvingsprocedure begeleiden. Nuttig bij een projectwagen uit het buitenland zonder volledige papieren."
+        },
+        {
+          "kind": "regel",
+          "title": "Sloop in een ander EU-land",
+          "body": "Wordt een Duits ingeschreven wagen in een ander EU-land gesloopt, dan geldt het sloopbewijs van dat land in de plaats van het Duitse Verwertungsnachweis. Gaat de wagen voor sloop naar een land buiten de EU of EER, dan moet de houder dat onmiddellijk melden aan de Zulassungsbehörde."
+        },
+        {
+          "kind": "plek",
+          "title": "Albaufstieg op de A8",
+          "body": "Het Albaufstieg (Aichelberg tot Hohenstadt) overwint ongeveer 380 hoogtemeters met tot 6,3% helling. De rijrichtingen liggen in twee aparte dalen. Bergaf geldt 50 kilometer per uur voor vrachtwagens. Wie een wagen naar Baden-Württemberg laat brengen, passeert dit stuk."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Hoe lang staat een transport vast bij blokafhandeling in Kufstein?",
+          "a": "Dat hangt af van het verkeer: op drukke dagen laat men maximaal 250 vrachtwagens per uur toe, en de file reikt tot op de A8. Een vaste duur kunnen we niet geven, wel plannen we de rit met reserve in."
+        },
+        {
+          "q": "Kan ik mijn motorfiets laten slepen in Duitsland?",
+          "a": "Nee. Motorfietsen mogen volgens § 15a StVO helemaal niet gesleept worden, en een stilgevallen voertuig mag niet gesleept de Autobahn op. Een motorfiets die niet meer start, gaat op een vrachtwagen."
+        },
+        {
+          "q": "Mag mijn gesloopte of afgemelde wagen in de straat blijven staan?",
+          "a": "Nee. Op openbare wegen of pleinen mag een voertuig na de Außerbetriebsetzung niet meer staan. Zorg voor een privé-adres, een garage of een stalling waar de wagen mag blijven tot hij weer wordt ingeschreven."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Duitsland laten vervoeren: Brenner, Kufstein-blokafhandeling en de Duitse regels voor afmelding en herinschrijving.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://it.wikipedia.org/wiki/Autostrada_A22_(Italia)",
+        "https://www.adac.de/reise-freizeit/reiseplanung/reise-sicherheit/aktuelle-blockabfertigung/",
+        "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+        "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+        "https://www.buzer.de/s1.htm?a=17&g=FZV",
+        "https://www.buzer.de/s1.htm?a=16&g=FZV&dorg=1",
+        "https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=6019859",
+        "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/kurzzeitkennzeichen/",
+        "https://www.gesetze-im-internet.de/stvo_2013/__15a.html",
+        "https://de.wikipedia.org/wiki/Veterama",
+        "https://www.tuv.com/germany/de/lp/mobilit%c3%a4t/vollabnahme/main-navigation/importeur/",
+        "https://de.wikipedia.org/wiki/Albaufstieg_(A_8)"
+      ]
+    },
+    "italie-spanje": {
+      "lead": "Een wagen die rond Rome niet meer rijdt en naar Spanje moet, kan over de weg door Ligurië en Zuid-Frankrijk, of via de haven van Civitavecchia over zee. Mcars rijdt over de weg, langs de kust en over de Franse en Catalaanse snelwegen. Eenmaal in Spanje beslist de ITV of een wagen mag rijden, en dat is voor een niet-rijdende wagen een duidelijke grens.",
+      "facts": [
+        {
+          "label": "ITV 'negativa'",
+          "value": "Wagen verlaat het station op een transporter, niet op eigen wielen"
+        },
+        {
+          "label": "Baja definitiva",
+          "value": "Onomkeerbaar: de wagen mag nooit meer opnieuw rijden"
+        },
+        {
+          "label": "AP-7 Catalonië",
+          "value": "Tolvrij sinds 31 augustus 2021 van La Jonquera tot Salou"
+        },
+        {
+          "label": "ZTL VAM Rome",
+          "value": "Voertuigen langer dan 7,5 m geweerd, elke dag 5 tot 24 uur"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek rond Rome: de GRA en de ZTL's",
+          "body": [
+            "De Grande Raccordo Anulare, de A90, is de tolvrije ring rond Rome: 68,2 kilometer, zes rijstroken, beheerd door ANAS, met aansluitingen op de A1, A12, A24 en A91. Wie een wagen laat ophalen in een voorstad, ligt dus meestal aan de ring.",
+            "Voertuigen langer dan 7,5 meter komen de Romeinse ZTL VAM elke dag van 5 tot 24 uur niet in. Een autotransporter komt het centrum dus niet in. De ZTL Centro Storico geldt overdag van maandag tot vrijdag van 6.30 tot 18 uur en op zaterdagnamiddag, plus op vrijdag- en zaterdagnacht; Trastevere heeft eigen vensters. De nachtelijke ZTL wordt in augustus opgeschort.",
+            "Staat uw wagen in het centrum, dan rijdt hij op eigen kracht of met een takel naar een plek buiten de zone. Is hij helemaal geblokkeerd, dan komt er een heftruck bij."
+          ]
+        },
+        {
+          "heading": "Over zee of over de weg",
+          "body": [
+            "Vanuit de haven van Civitavecchia, de haven van Rome, varen veerboten naar Barcelona, Tunis, Sardinië en Sicilië, met Tirrenia, Grimaldi Lines en GNV. Voor wie zijn wagen en zichzelf in één keer naar Spanje wil brengen, is dat een mogelijkheid.",
+            "Een wagen die niet rijdt, kan niet zelf op een boot rijden. Hij moet dus in elk geval eerst op een transporter naar de haven. Over de weg vermijdt u die tussenstop.",
+            "Mcars rijdt over de weg. Die route gaat langs Ligurië, de Franse Rivièra en de Pyreneeën, en houdt rekening met de rijverboden in Italië, Frankrijk en Spanje."
+          ]
+        },
+        {
+          "heading": "Langs de Rivièra: de A10 en de Franse A8",
+          "body": [
+            "Aan de grens wordt de Franse A8 de Italiaanse A10, de Autostrada dei Fiori naar Genua: 158 kilometer met 78 tunnels tussen Genua en Nice. Ze behoort tot de duurste tolwegen van Italië. Op de A10 tussen Albisola en Genua-Voltri geldt 80 kilometer per uur. Een deel van de Morandibrug bij Genua kwam op 14 augustus 2018 naar beneden.",
+            "De A8 La Provençale is 224 kilometer lang en loopt van Aix-en-Provence langs Fréjus, Cannes, Nice en Monaco naar Menton. Ze heeft tolpleinen onder meer bij La Barque, Antibes, Nice-Saint-Isidore en La Turbie. De A9 sluit bij Orange aan op de A7.",
+            "De Spaanse AP-7 is 1.007 kilometer lang en loopt aan de grens bij La Jonquera over in de Franse A9 naar Perpignan, Montpellier en Orange. Die tolweg wordt beheerd door ASF."
+          ]
+        },
+        {
+          "heading": "Catalonië en de rijverboden",
+          "body": [
+            "Op 31 augustus 2021 liep de concessie af, en sindsdien zijn de Catalaanse stukken van de AP-7 tussen La Jonquera en Salou tolvrij. Catalonië legt bovendien zijn eigen rijbeperkingen voor vrachtverkeer vast, los van de DGT, in een jaarlijkse resolutie met aparte categorieën. Zowel in de resolutie zelf als in een opzoektool van de Servei Català de Trànsit vindt u de uren en dagen.",
+            "Voor de AP-7 bij La Jonquera verwijst die dienst uitdrukkelijk naar de Franse beperkingen op Bison Futé. Wie de grens wil oversteken, moet dus beide kalenders bekijken.",
+            "Spanje kent daarnaast beperkingen boven 7.500 kilogram op bepaalde wegen en data, onder meer op de N-230 richting de Franse grens op vrijdagavonden in de winter. Een transport naar het zuiden van Spanje houdt rekening met al deze kalenders."
+          ]
+        },
+        {
+          "heading": "Aankomst in Spanje: ITV, total loss en baja",
+          "body": [
+            "Bij een ITV-uitslag negativa, met minstens één zeer ernstig gebrek, mag de wagen niet rijden en moet hij het keuringsstation verlaten met middelen buiten het voertuig zelf. Bij een uitslag desfavorable mag hij enkel nog naar de garage of om de situatie te regulariseren, en binnen twee maanden moet hij opnieuw gekeurd worden. Met een verlopen ITV moet de wagen volgens de DGT met een takelwagen of ander vervoermiddel naar het station.",
+            "Een buitengewone keuring kan door de agent worden voorgesteld na een ongeval met belangrijke schade aan stuurinrichting, ophanging, transmissie, remmen of chassis. Een wagen die een verzekeraar total loss verklaarde met schade aan veiligheidsonderdelen, kan pas van eigenaar veranderen na een gunstige ITV die van ná die verklaring dateert.",
+            "De baja definitiva is onomkeerbaar: de wagen gaat naar een erkende sloperij die de uitschrijving zelf aan de DGT doorgeeft. Een projectwagen die u wil redden, mag dus nooit die status krijgen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Fascia Verde van Rome",
+          "body": "De Fascia Verde, binnen de GRA, is van maandag tot zaterdag permanent verboden voor benzine- en dieselwagens van emissieklasse 3 of ouder. Bij smogalarm worden de beperkingen uitgebreid. Dat is relevant voor wie een oudere wagen naar of door Rome laat brengen."
+        },
+        {
+          "kind": "regel",
+          "title": "Catalaanse resolutie voor vrachtverkeer",
+          "body": "Catalonië legt jaarlijks zijn eigen rijbeperkingen voor vrachtverkeer vast, los van de DGT, met categorieën voor gewoon goederenvervoer, uitzonderlijk vervoer, gevaarlijke stoffen en weersomstandigheden. Raadpleeg de opzoektool van de Servei Català de Trànsit voor een rit door Catalonië."
+        },
+        {
+          "kind": "regel",
+          "title": "ITV per autonome gemeenschap",
+          "body": "Per autonome gemeenschap worden de ITV-keuringsstations in Spanje geregeld, naargelang waar ze liggen. Concessies zijn de regel, al baat de overheid ze in bepaalde gemeenschappen zelf uit. De afspraak en de voorwaarden hangen dus af van waar de wagen komt te staan."
+        },
+        {
+          "kind": "event",
+          "title": "Retromóvil Madrid",
+          "body": "Elk jaar in december houdt IFEMA Madrid Retromóvil, een internationale beurs voor antieke, klassieke en verzamelvoertuigen. Er staan ook restaurateurs en onderdelenhandelaars. Wie hier een projectwagen koopt, kan hem op een transporter naar huis laten brengen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kan ik mijn wagen na een negatieve ITV zelf wegrijden?",
+          "a": "Nee. Bij een negatieve uitslag mag de wagen niet rijden en moet hij het station verlaten met middelen buiten het voertuig. Dat is een transporter of takelwagen. Een wagen die enkel desfavorable scoort, mag nog naar de garage, maar niet verder."
+        },
+        {
+          "q": "Mag ik een wagen zonder geldige ITV op straat laten staan?",
+          "a": "Verzekerd moet elk voertuig zijn dat op de openbare weg geparkeerd staat, met een geldige ITV, ook als het niet rijdt en ook tijdens een tijdelijke uitschrijving. Zonder die voorwaarden kunt u beter een privéterrein of stalling kiezen."
+        },
+        {
+          "q": "Wat gebeurt er met een wagen die na pech op een privéterrein blijft staan?",
+          "a": "Een wagen die langer dan een maand op dezelfde plek staat met schade die rijden onmogelijk maakt, of zonder platen, kan als afval naar een CAT gebracht worden. Dat geldt ook voor een wagen die na pech of ongeval op een privéterrein staat en binnen twee maanden niet wordt opgehaald."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Spanje laten vervoeren: Rome, de Rivièra, Catalonië en de Spaanse ITV-regels voor wagens die niet rijden.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grande_Raccordo_Anulare",
+        "https://www.sicurauto.it/news/attualita-e-curiosita/ztl-roma-orari-mappa-e-permessi/",
+        "https://en.wikipedia.org/wiki/Port_of_Civitavecchia",
+        "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+        "https://en.wikipedia.org/wiki/Autoroute_A9",
+        "https://en.wikipedia.org/wiki/A8_autoroute",
+        "https://en.wikipedia.org/wiki/Autopista_AP-7",
+        "https://es.wikipedia.org/wiki/Autopista_del_Mediterr%C3%A1neo",
+        "https://transit.gencat.cat/ca/informacio-viaria/professionals-transport/mesures-especials/",
+        "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/vas-a-comprar-o-vender-un-vehiculo-de-segunda-mano/comprar-un-vehiculo-de-segunda-mano/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5868",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/no-vas-a-usar-tu-vehiculo/baja-definitiva/",
+        "https://www.dgt.es/nuestros-servicios/tu-vehiculo/no-vas-a-usar-tu-vehiculo/baja-temporal/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722",
+        "https://es.wikipedia.org/wiki/Inspecci%C3%B3n_t%C3%A9cnica_de_veh%C3%ADculos",
+        "https://www.ifema.es/retromovil-madrid"
+      ]
+    },
+    "italie-zwitserland": {
+      "lead": "Een wagen die aan de Comomeer of in de Valtellina niet meer rijdt en naar Zwitserland moet, passeert eerst de douanepost van Como Brogeda of een van de Alpentunnels. Zwitserland ligt buiten de EU, en een wagen die niet rijdt, geldt er bij ernstige schade als afval met een eigen vergunningsregime. Dat verandert wat u wanneer moet regelen.",
+      "facts": [
+        {
+          "label": "Douanepost Como",
+          "value": "A9 eindigt in Como Brogeda, aansluiting op de Zwitserse A2"
+        },
+        {
+          "label": "Zwitserse douane",
+          "value": "Wagen uit Italië moet aan de grens worden aangegeven"
+        },
+        {
+          "label": "Altfahrzeug",
+          "value": "Niet rijklaar of zwaar beschadigd geldt als gecontroleerd afval"
+        },
+        {
+          "label": "Exportplaten Solothurn",
+          "value": "Pas na controle van de bedrijfsveiligheid door een garage"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek bij Como Brogeda",
+          "body": [
+            "Over 31,5 kilometer verbindt de A9 Lainate, bij Milaan, via Como met de Zwitserse grens. Como Brogeda is de plaats van de Italiaanse douanepost, waar de weg overgaat in de Zwitserse A2 naar Lugano, de Gotthard en de San Bernardino. Een wagen uit Milaan of Como komt hier dus als eerste langs.",
+            "Geen Italiaanse btw wordt geheven in Livigno, een belastingvrije zone, en wie naar de rest van Italië rijdt, komt langs een douanecontrole van de Guardia di Finanza. Het is bereikbaar via de Foscagnopas, de Forcola di Livigno (enkel in de zomer) en de Munt la Schera-tunnel in Zwitserland.",
+            "In november sluit elke winter de Splügenpas (SS36, ongeveer 2.120 meter). In het voorjaar volgt de heropening, in overleg met Zwitserland."
+          ]
+        },
+        {
+          "heading": "San Bernardino, Sint-Bernhard en Simplon",
+          "body": [
+            "Als alternatief voor de Gotthard dient de San Bernardino-tunnel uit 1967, tussen Thusis en Bellinzona. Van mei tot november is de pasweg open, niet langer.",
+            "De Grote Sint-Bernhardtunnel is 5.798 meter lang en verbindt Martigny in Wallis met Aosta. De tolklassen hangen af van het aantal assen en de hoogte, de snelheidslimiet is 80 kilometer per uur. De pas zelf is gewoonlijk van oktober tot mei dicht, maar de tunnel moet het hele jaar open zijn. De douaneformaliteiten gebeuren aan de Zwitserse kant.",
+            "De Simplonpas verbindt Brig met Domodossola, ligt op 2.006 meter en wordt het hele jaar open gehouden. Een tunnel is voor een zware vrachtwagen met meerdere wagens daarom de logische keuze boven een pas."
+          ]
+        },
+        {
+          "heading": "Zwitserland ligt buiten de EU",
+          "body": [
+            "Een wagen uit Italië moet aan de Zwitserse grens bij de douane (BAZG) worden aangegeven. Invoer uit de EU kan met een EUR1-document douanevrij zijn; automobielbelasting en btw komen daarbovenop. Die aangifte doet de eigenaar of een douane-expediteur, niet de vervoerder.",
+            "Transit, douane en expeditiebedrijven houden Chiasso, de zuidelijkste gemeente van Zwitserland, draaiend. Daar gaat de Zwitserse A2 over in de Italiaanse A9 richting Como en Milaan.",
+            "Ook de Zwitserse douane wijst erop dat bij definitieve uitvoer van gebruikte of beschadigde voertuigen de afvalwetgeving meespeelt, en verwijst naar de richtlijnen van BAFU over gebruikt goed tegenover afval."
+          ]
+        },
+        {
+          "heading": "Wanneer een wagen in Zwitserland afval is",
+          "body": [
+            "Een voertuig dat niet rijklaar is of meer dan lichte schade heeft, geldt in Zwitserland als Altfahrzeug en daarmee als gecontroleerd afval volgens de verordening VeVA. Dat geldt voor personenwagens, vrachtwagens, machines en motorfietsen. Uitvoer van zulke wagens vereist een vergunning van het federale milieuagentschap BAFU.",
+            "Als gebruikt goed beschouwt men volledig rijklare of slechts licht beschadigde voertuigen, die via de gewone handelskanalen de grens over kunnen. Voor dat onderscheid vertrouwt BAFU niet op de kilometerstand en evenmin op de leeftijd.",
+            "Demontagebedrijven hebben een vergunning van hun kanton nodig. Ze moeten brandstof, olie, batterijen, banden en katalysatoren verwijderen. Een wagen die voor onderdelen komt, gaat dus naar zo'n erkend bedrijf, niet naar een garage."
+          ]
+        },
+        {
+          "heading": "Beschadigd in het buitenland, of als wrak in Zwitserland",
+          "body": [
+            "Als een buitenlands ingeschreven wagen in Zwitserland schade oploopt en er blijft, bijvoorbeeld als wrak, is inklaring verplicht. Gaat hij terug naar het buitenland, raadpleeg dan het dichtstbijzijnde douanekantoor.",
+            "Een Zwitsers ingeschreven wagen die in het buitenland wordt hersteld of gesloopt, meldt u bij het dichtstbijzijnde buitenlandse douanekantoor. Alle herstellingen meldt u uit eigen beweging aan de Zwitserse grens wanneer hij terugkomt.",
+            "Pas nadat een garage met werkplaats de bedrijfsveiligheid heeft gecontroleerd, verstrekt het kanton Solothurn exportplaten voor een wagen met technische gebreken. Over de grens op eigen wielen, dat lukt dus niet met een wagen die niet rijdt. In het kanton Zug moeten wagens met een Mängelstempel of toelatingsblokkering eerst een officiële veiligheidskeuring ondergaan voordat ze opnieuw platen krijgen."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "plek",
+          "title": "Chiasso en de grens",
+          "body": "Bij Chiasso wordt de Zwitserse A2 de Italiaanse A9, richting Como en Milaan. De gemeente leeft van transit, douane en expeditiebedrijven. Dat is relevant als de wagen in Zwitserland moet worden aangegeven."
+        },
+        {
+          "kind": "plek",
+          "title": "Monte Ceneri en de A13",
+          "body": "De Monte Ceneri (554 meter) is de enige verbinding binnen Zwitserland tussen Noord- en Zuid-Ticino. De A2 loopt er sinds 1984 over. De A13 loopt ongeveer 195 kilometer van St. Margrethen via Chur en de San Bernardino naar Bellinzona en Ascona."
+        },
+        {
+          "kind": "tip",
+          "title": "Ongevalswagens voor onderdelen",
+          "body": "Werkende onderdelen worden in Zwitserland als wisselstuk verkocht. Ongevalswagens zijn daarvoor bijzonder gewild, omdat hun onderdelen recenter zijn. Ongeveer drie kwart van een auto is metaal, dat via shredderen wordt teruggewonnen."
+        },
+        {
+          "kind": "regel",
+          "title": "MFK en achterstand",
+          "body": "De periodieke keuring (MFK) gebeurt door de kantonale Strassenverkehrsämter. Een houder mag ook een erkende private organisatie zoals de TCS kiezen. Veel kantons hebben achterstand. Plan de keuring van een herstelde wagen dus ruim vooraf."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is een beschadigde wagen die ik naar Zwitserland breng afval?",
+          "a": "Dat hangt van de staat af. Een voertuig dat niet rijklaar is of meer dan lichte schade heeft, geldt als Altfahrzeug en dus als gecontroleerd afval. Een rijklare of licht beschadigde wagen geldt als gebruikt goed. Vraag het BAFU of een douane-expediteur."
+        },
+        {
+          "q": "Wie doet de douaneaangifte aan de Zwitserse grens?",
+          "a": "De eigenaar of een douane-expediteur. De vervoerder vervoert de wagen en geeft de documenten mee die de klant bezorgt. Zwitserland ligt buiten de EU, dus de wagen moet aan de grens worden aangegeven, ook als hij niet rijdt."
+        },
+        {
+          "q": "Is de Grote Sint-Bernhard in de winter open?",
+          "a": "De pas is gewoonlijk van oktober tot mei dicht, maar de tunnel moet het hele jaar open zijn. De douaneformaliteiten gebeuren aan de Zwitserse kant. Een vrachtwagen kiest dus de tunnel, niet de pas."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Zwitserland laten vervoeren: Como Brogeda, Alpentunnels en de Zwitserse regels voor Altfahrzeuge.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Autostrada_A9_(Italy)",
+        "https://en.wikipedia.org/wiki/Livigno",
+        "https://www.ilgiorno.it/sondrio/cronaca/passo-spluga-ripaerto-i0wdq13b",
+        "https://en.wikipedia.org/wiki/San_Bernardino_Pass",
+        "https://en.wikipedia.org/wiki/Great_St_Bernard_Tunnel",
+        "https://en.wikipedia.org/wiki/Simplon_Pass",
+        "https://www.nau.ch/tech/import-von-autos-in-die-schweiz-66946610",
+        "https://de.wikipedia.org/wiki/Chiasso",
+        "https://www.bafu.admin.ch/de/altfahrzeuge",
+        "https://www.bazg.admin.ch/de/ausfuhr-schweiz-strassenfahrzeug-firmen",
+        "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+        "https://so.ch/fileadmin/internet/bjd/bjd-mfk/Fahrzeuge/PDF/Gesuch_fuer_Exportschilder.pdf",
+        "https://cdn.zg.ch/dam/jcr:bf6dc027-1258-4cfb-958c-ad40d30deb1f/ZU_M_FZ_Merkblatt_Exportfahrzeuge_20250429%20(QR).pdf",
+        "https://de.wikipedia.org/wiki/Monte_Ceneri",
+        "https://de.wikipedia.org/wiki/Autobahn_A13_(Schweiz)",
+        "https://www.stiftung-autorecycling.ch/",
+        "https://de.wikipedia.org/wiki/Motorfahrzeugkontrolle"
+      ]
+    },
+    "italie-oostenrijk": {
+      "lead": "Een wagen die in Zuid-Tirol of Friuli niet meer rijdt en naar Oostenrijk moet, gaat over de Brenner of via Tarvisio naar Villach. Beide wegen hebben hun eigen verboden en tolregels, en de Brenner is een bekend knelpunt. In Oostenrijk gelden dan strenge regels voor slepen, parkeren en platen, die bepalen waar een wagen mag staan.",
+      "facts": [
+        {
+          "label": "A22 Brennero",
+          "value": "313 km, ongeveer een derde van het verkeer is zwaar verkeer"
+        },
+        {
+          "label": "Oostenrijk weekend",
+          "value": "Verbod zaterdag 15 uur tot zondag 22 uur boven 7,5 ton"
+        },
+        {
+          "label": "Slepen privé",
+          "value": "Maximaal 8 meter verbinding en 40 km/u"
+        },
+        {
+          "label": "Zonder platen",
+          "value": "Wagen mag niet op de openbare weg geparkeerd staan"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek via de A22 of de A23",
+          "body": [
+            "De A22 Autostrada del Brennero is 313 kilometer lang en loopt van de A1 bij Modena tot de Brennergrens. Ze kruist de A4 bij Verona. Ongeveer een derde van het verkeer is zwaar verkeer, en met twee rijstroken per richting zijn files op piekmomenten gewoon. De beheerder is Autostrada del Brennero S.p.A.",
+            "Meer naar het oosten loopt de A23 over 120 kilometer van Palmanova (A4) over Udine naar Tarvisio. Ze maakt deel uit van de E55 en gaat aan de grens over in de Oostenrijkse A2 Süd Autobahn. Wie in Friuli een wagen laat ophalen, rijdt hier naar Villach.",
+            "Een wagen die op een bergweg of in een garage in een dal staat, laden we met de lier. Voor een wagen zonder sleutels of met geblokkeerde wielen komt er een heftruck bij."
+          ]
+        },
+        {
+          "heading": "De Brenner: de grens en de Luegbrücke",
+          "body": [
+            "Sinds Schengen zijn er geen vaste grenscontroles meer aan de Brenner, maar Oostenrijk voerde in 2015 weer controles in. Een brede doorlaat van vrachtwagens verloopt dan niet altijd vlot.",
+            "Net over de grens, op de A13 in Tirol, ligt de Luegbrücke van 1.804 meter. Daar is er in principe nog één rijstrook per richting. Wanneer het druk is, opent men er twee, met de binnenste strook voor voertuigen boven 3,5 ton. Naast de bestaande brug wordt een nieuwe gebouwd.",
+            "De Brenner Basistunnel voor het spoor is in 2006 gestart, maar de oplevering is opgeschoven en komt niet vóór 2032. Voor vrachtwagens op de weg verandert er dus voorlopig niets."
+          ]
+        },
+        {
+          "heading": "Rijverboden in Oostenrijk en Tirol",
+          "body": [
+            "Voor voertuigen boven 7,5 ton geldt in Oostenrijk een weekendverbod van zaterdag 15 uur tot zondag 22 uur, plus het hele jaar een nachtverbod van 22 tot 5 uur. Daarnaast heeft Tirol een sectoraal rijverbod voor bepaalde goederen, zoals papier, cement en graan, boven 7,5 ton.",
+            "In de zomer gelden op zaterdag extra verboden op Tiroolse omleidingsroutes, om sluipverkeer te weren. Voor transit richting Italië kunnen op feestdagen bovendien aparte verboden op de A12 en A13 gelden.",
+            "Een chauffeur die vrijdagavond de Brenner nadert, haalt de zaterdag niet meer als hij vertraging oploopt. Daarom plannen we het weekend altijd voor het vertrek in."
+          ]
+        },
+        {
+          "heading": "Tol en het alternatief via Tarvisio",
+          "body": [
+            "Binnen de Oostenrijkse GO-Maut voor voertuigen boven 3,5 ton telt de Brenner als Sondermautstrecke, met hogere tarieven en een nachttarief van 22 tot 5 uur.",
+            "De A10 Tauernautobahn loopt van Salzburg naar Villach over 192,7 kilometer, met de Tauern- en de Katschbergtunnel. Villach is het Oostenrijkse deel richting Italië. Welke route we nemen, hangt af van waar in Oostenrijk de wagen naartoe moet.",
+            "Voor een afleveradres in Salzburg, Tirol of Vorarlberg ligt de Brenner meestal voor de hand. Voor Karinthië of Stiermarken komt Tarvisio in beeld, via de A23."
+          ]
+        },
+        {
+          "heading": "Aankomst in Oostenrijk: slepen, parkeren en pechstrook",
+          "body": [
+            "Voldoende werkende stuurinrichting en minstens één voldoende werkend remsysteem zijn de voorwaarden om een defecte wagen met touw of stang te slepen. Als alle remmen zijn uitgevallen, is slepen enkel mogelijk met een stang en met een duidelijk zwaarder trekkend voertuig. De verbinding mag hoogstens acht meter lang zijn en moet goed zichtbaar worden gemaakt, bijvoorbeeld met een rode doek. Bij privé slepen geldt 40 kilometer per uur, en de bestuurder van het gesleepte voertuig heeft een rijbewijs voor die klasse nodig.",
+            "In Oostenrijk is parkeren op de openbare weg niet toegestaan voor een voertuig zonder nummerplaten. Wordt het toch zo aangetroffen, dan wordt het door de overheid weggesleept. Ophalen kan alleen met een eigendomsbewijs en binnen twee maanden; sleep- en stallingskosten zijn voor de eigenaar.",
+            "Achterblijven op de pechstrook van de snelweg is voor een defecte wagen uitgesloten; het levert een boete op, met de sleepkosten erbovenop."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "Platen in bewaring",
+          "body": "Bij de Zulassungsstelle van uw woondistrict kunt u de nummerplaten tot één jaar in bewaring geven als de wagen lang stilstaat. Dat is kosteloos. Pas als de platen minstens 45 dagen in bewaring liggen, vervalt voor die periode de verzekeringsbelasting of de motorvoertuigenbelasting."
+        },
+        {
+          "kind": "regel",
+          "title": "Bijzondere controle en pickerl",
+          "body": "Bij een bijzondere controle (§ 56 KFG) kan de overheid een voertuig oproepen als ze twijfelt of het nog verkeersveilig is, bijvoorbeeld na een aangifte. Een vignet volgt bij de periodieke keuring (§ 57a) enkel als er geen zware gebreken zijn. Die moeten dus eerst hersteld zijn."
+        },
+        {
+          "kind": "regel",
+          "title": "Einzelgenehmigung en projectwagens",
+          "body": "Een Einzelgenehmigung van de deelstaat is vereist voor een voertuig dat geen Oostenrijkse papieren heeft. Ligt de laatste afmelding van een projectwagen meer dan tien jaar terug, dan moet het volgens de ÖMVV doorgaans eerst opnieuw in de centrale goedkeuringsdatabank ingevoerd worden."
+        },
+        {
+          "kind": "plek",
+          "title": "Reschenpass en Timmelsjoch",
+          "body": "Tirol grenst aan Italië over de Brennerpas, de Reschenpass via de B180 en het Timmelsjoch, dat enkel in de zomer open is. Bij de Reschenpass ligt het drielandenpunt met Zwitserland. Voor een transporter blijft de Brenner de logische keuze."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag ik mijn wagen in Oostenrijk laten staan als hij geen platen heeft?",
+          "a": "Niet op de openbare weg. Een voertuig zonder nummerplaten wordt weggesleept, en sleep- en stallingskosten zijn voor de eigenaar. Ophalen kan alleen met een eigendomsbewijs en binnen twee maanden. Kies een privé-adres of een stalling."
+        },
+        {
+          "q": "Wanneer moet een wagen in Oostenrijk worden afgemeld?",
+          "a": "Een voertuig moet worden afgemeld wanneer het niet langer voor de openbare weg bestemd is, of wanneer de verplichte aansprakelijkheidsverzekering ontbreekt of is beëindigd. Wilt u de wagen alleen even stallen, dan kunt u de platen in bewaring geven."
+        },
+        {
+          "q": "Hoe weet ik of mijn wagen een Einzelgenehmigung nodig heeft?",
+          "a": "Een voertuig zonder Oostenrijkse papieren heeft er een nodig van de deelstaat. Is er geen bewijs van een eerdere inschrijving, dan kan volgens de ÖMVV een verklaring op eer als eigendomsbewijs dienen. Vraag dit na bij uw keuringsinstantie."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Oostenrijk laten vervoeren: Brenner, A22 en A23, rijverboden en de Oostenrijkse regels voor slepen en platen.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://en.wikipedia.org/wiki/Autostrada_A23_(Italy)",
+        "https://en.wikipedia.org/wiki/Brenner_Pass",
+        "https://de.wikipedia.org/wiki/Luegbr%C3%BCcke",
+        "https://de.wikipedia.org/wiki/Sonntagsfahrverbot",
+        "https://trans.info/de/oesterreich-lkw-fahrverbote-2026-479461",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_%C3%96sterreich",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://www.oesterreich.gv.at/themen/mobilitaet/kfz/1/Seite.062500.html",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/5/Seite.061000",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/1/1/Seite.060800",
+        "https://www.oeamtc.at/thema/panne-unfall/richtiges-verhalten-auf-dem-pannenstreifen-16184078",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/Seite.060430",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/Seite.060500",
+        "https://www.oesterreich.gv.at/de/themen/mobilitaet/kfz/2/Seite.060900",
+        "https://www.oemvv.at/rechtliches",
+        "https://de.wikipedia.org/wiki/Reschenpass"
+      ]
+    },
+    "italie-polen": {
+      "lead": "Een wagen die in Veneto of Friuli niet meer rijdt en naar Polen moet, heeft een lange rit voor de boeg. Twee assen komen in aanmerking: noord via de Brenner en de Duitse A4, of oost via Villach en Tsjechië. In Polen geldt dan een eigen logica voor keuring na schade, ingehouden kentekenbewijzen en totaalverlies. Hier leest u hoe dat samenkomt.",
+      "facts": [
+        {
+          "label": "Passante di Mestre",
+          "value": "32,3 km, omzeilt Mestre voor verkeer naar Oost-Europa"
+        },
+        {
+          "label": "Poolse e-TOLL",
+          "value": "Voertuigen boven 3,5 ton, via on-board-unit of app"
+        },
+        {
+          "label": "Zonder Poolse keuring",
+          "value": "Wagen mag niet op de openbare weg rijden"
+        },
+        {
+          "label": "Na schade",
+          "value": "Extra keuring bij dragende delen, remmen of besturing"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Vertrek in Veneto: de Passante di Mestre en de A4",
+          "body": [
+            "De Passante di Mestre (32,3 kilometer, geopend in 2009) is het deel van de A4 dat Mestre omzeilt voor doorgaand verkeer naar Oostenrijk, Slovenië en Oost-Europa. Vandaag heet de oude route door Mestre de A57. Een wagen die in de buurt van Venetië wordt opgehaald, komt hier als eerste langs.",
+            "De A4 kende de snelste groei van zwaar vrachtverkeer van alle Italiaanse snelwegen door het verkeer met Oost-Europa. Het vakantieverkeer naar de Sloveense en Kroatische kust voegt zich er in de zomer bij.",
+            "Op de A4 wordt een derde rijstrook aangelegd. Het stuk Portogruaro-Palmanova is klaar; San Donà di Piave-Portogruaro volgt. Daar zijn dus werven te verwachten, wat bij een ophaling in dat gebied tijd kost."
+          ]
+        },
+        {
+          "heading": "Twee assen naar Polen",
+          "body": [
+            "De westelijke as volgt de A22 van Modena naar de Brenner, en dan de Oostenrijkse A13 naar Innsbruck en verder door Duitsland. De Duitse A4 is 583 kilometer lang en loopt van Aken via Erfurt en Eisenach naar Dresden en Görlitz, aan de Poolse grens.",
+            "De oostelijke as gebruikt de Oostenrijkse A10 Tauernautobahn naar Villach en gaat dan door Tsjechië. De Tsjechische D1 is 376,5 kilometer lang en loopt van Praag via Brno en Ostrava naar de Poolse grens bij Věřňovice, waar ze in Bohumín de Poolse A1 wordt. Ze is de drukste Tsjechische snelweg, met tot 99.000 voertuigen per dag bij Praag.",
+            "Te Brno komen de D2 en de E461 samen met de D1. Welke as we kiezen, hangt af van waar in Polen de wagen naartoe gaat."
+          ]
+        },
+        {
+          "heading": "Polen: A4, tol en e-TOLL",
+          "body": [
+            "De Poolse A4 is 669 kilometer lang en loopt van Jędrzychowice via Wrocław, Katowice en Kraków naar Korczowa. Bij Gliwice-Sośnica kruist ze de A1 richting Ostrava. Het stuk Mysłowice-Kraków Balice is betalend.",
+            "In Polen geldt de e-TOLL voor voertuigen boven 3,5 ton en bussen, op een net van ongeveer 5.870 kilometer, via GNSS met een On-Board-Unit of app. Daarnaast zijn er tolsecties op autosnelwegen, zoals het stuk Karwiany-Żernica op de A4 bij Wrocław.",
+            "Op bepaalde Duitse wegen is het in juli en augustus op zaterdag verboden van 7 tot 20 uur. Een zomertransport naar Polen houdt daar rekening mee."
+          ]
+        },
+        {
+          "heading": "Aankomst in Polen: keuring en ingehouden kentekenbewijs",
+          "body": [
+            "Een voertuig zonder geldige technische keuring mag in Polen niet op de openbare weg rijden; de overheidspagina over invoer waarschuwt daar uitdrukkelijk voor. Een transporter is dus nodig om zo'n wagen te verplaatsen.",
+            "Raken dragende delen van carrosserie, chassis of frame beschadigd, of de remmen en besturing, dan volgt verplicht een bijkomende technische keuring. De agent ter plaatse oordeelt of het kentekenbewijs wordt ingehouden, ook al is de schade licht, zoals een kapotte koplamp. De inhouding gebeurt elektronisch in de CEPiK-databank.",
+            "Bij ingehouden kentekenbewijs haalt men het na herstel en een geslaagde extra keuring af bij het kantoor verkeer. Een extra keuring na herstel kan ook door de verzekeraar worden opgelegd, en voor de terugvordering van de kosten is het attest van het keuringsstation nodig."
+          ]
+        },
+        {
+          "heading": "Totaalverlies, schroot en tijdelijke stilstand",
+          "body": [
+            "Bij een totaalverlies gaat het om een berekening van de verzekeraar en niet om een rijverbod; herstel blijft voor de eigenaar mogelijk zodra de technische en administratieve eisen vervuld zijn. Voor een wagen die ingeschreven blijft, hoeft er niet opnieuw ingeschreven te worden.",
+            "Behoudens enkele uitzonderingen kan een wagen die als schroot werd uitgeschreven in Polen niet opnieuw worden ingeschreven. Wel ingeschreven kan een hersteld wrak uit het buitenland worden, mits de vereiste documenten en een geldige Poolse keuring.",
+            "Drie tot twaalf maanden tijdelijk uit het verkeer halen kan bij een personenwagen die structureel hersteld moet worden. Verplicht blijft de OC, al zakt de premie nadat u de documenten hebt ingediend. Is een in Polen ingeschreven wagen in het buitenland volledig vernield, dan moet hij op korte termijn worden uitgeschreven, bij het kantoor van laatste inschrijving, met een bewijs van de vernietiging."
+          ]
+        }
+      ],
+      "local": [
+        {
+          "kind": "regel",
+          "title": "LPG-installatie na schade",
+          "body": "Heeft de wagen een LPG-installatie, dan kan een dichtheidstest van de tank nodig zijn, uit te voeren door een door de technische inspectie TDT erkend bedrijf. De tank moet er voor worden uitgebouwd. Houd daar rekening mee bij het afleveradres."
+        },
+        {
+          "kind": "plek",
+          "title": "Autosnelweg A1 bij Gorzyczki",
+          "body": "In Opper-Silezië sluit de Poolse A1 bij Gorzyczki aan op de Tsjechische D1. Katowice, Gliwice en Tychy liggen vlakbij. Voor wie uit Tsjechië en Oostenrijk komt, is dit de natuurlijke poort naar het zuiden van Polen."
+        },
+        {
+          "kind": "plek",
+          "title": "Fiat-fabriek in Tychy",
+          "body": "De fabriek van Stellantis in Tychy opende in 1975 en werd in 1992 volledig Fiat. De nieuwe Fiat 500 en de Lancia Ypsilon komen er van de band. Een regio met veel Italiaanse merken is een logisch afleveradres voor wagens die uit Italië komen."
+        },
+        {
+          "kind": "regel",
+          "title": "Warschause milieuzone",
+          "body": "Sinds het begin van de tweede fase mogen benzinewagens gebouwd vóór 2000 en diesels gebouwd vóór 2009 de Strefa Czystego Transportu niet meer in, behalve met vrijstelling. Bij oudere wagens verdient een afleveradres binnen de zone extra aandacht."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mag mijn wagen met een ingehouden kentekenbewijs nog rijden?",
+          "a": "Nee, zolang het kentekenbewijs is ingehouden niet. Zeven dagen rijden laat het ontvangstbewijs toe dat de agent bij lichte aanrijdingen kan geven, vaak te kort. Daarna moet de wagen hersteld en gekeurd worden."
+        },
+        {
+          "q": "Is een totaalverlies in Polen een rijverbod?",
+          "a": "Nee. Een totaalverlies is een berekening van de verzekeraar. Een eigenaar mag de wagen laten herstellen zodra die technisch en administratief in orde is. Blijft de wagen ingeschreven, dan is geen nieuwe inschrijving nodig."
+        },
+        {
+          "q": "Mag mijn herstelde wrak uit Italië in Polen worden ingeschreven?",
+          "a": "Een hersteld wrak dat uit het buitenland wordt ingevoerd, kan worden ingeschreven met de vereiste documenten en een geldige Poolse keuring. Een wagen die in Polen als schroot is uitgeschreven, kan in de regel niet opnieuw worden ingeschreven."
+        }
+      ],
+      "seoDescription": "Niet-rijdende auto van Italië naar Polen laten vervoeren: Passante di Mestre, twee Alpenroutes en de Poolse keuring na schade.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Passante_di_Mestre",
+        "https://it.wikipedia.org/wiki/Autostrada_A4_(Italia)",
+        "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+        "https://de.wikipedia.org/wiki/Bundesautobahn_4",
+        "https://en.wikipedia.org/wiki/Tauern_Autobahn",
+        "https://en.wikipedia.org/wiki/D1_motorway_(Czech_Republic)",
+        "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+        "https://etoll.gov.pl/en/about-system/",
+        "https://de.wikipedia.org/wiki/Lkw-Maut_in_Deutschland",
+        "https://powroty.gov.pl/niezbedne-dokumenty-9532/",
+        "https://www.auto-swiat.pl/porady/prawo/dodatkowe-badanie-techniczne-po-wypadku-podpowiadamy-jak-je-zalatwic/fslswwd",
+        "https://www.warta.pl/porada/zatrzymanie-dowodu-rejestracyjnego-co-dalej/",
+        "https://cuk.pl/porady/szkoda-calkowita-a-dalsze-uzytkowanie-pojazdu",
+        "https://warszawa19115.pl/en/-/wyrejestrowanie-pojazdu-z-powodu-zniszczenia-kasacji-za-granica",
+        "https://en.wikipedia.org/wiki/Tychy",
+        "https://autoblog.spidersweb.pl/zmiany-sct-warszawa-sct-2026"
+      ]
+    }
+  }
+}

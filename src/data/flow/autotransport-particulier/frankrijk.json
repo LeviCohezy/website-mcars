@@ -1,0 +1,59 @@
+{
+  "sub": "Uw wagen naar uw nieuwe woonplaats of uw verblijf in Frankrijk, op een open autotransporter met één aanspreekpunt van begin tot einde.",
+  "problem": {
+    "title": "Verhuisd naar Frankrijk, maar uw wagen staat nog thuis?",
+    "body": "Een huis in de Dordogne, een appartement in de Alpen of een nieuwe job in Lyon: er komt veel kijken bij een verhuis. De wagen blijft dan vaak als laatste staan. Wie zich in Frankrijk vestigt, moet hem op termijn laten inschrijven. Wie enkel een tweede verblijf heeft, houdt zijn Belgische plaat. In beide gevallen wilt u liever niet twee dagen rijden om hem daar te krijgen.",
+    "situations": [
+      { "title": "Verhuis naar Frankrijk", "body": "De verhuiswagen is weg, de auto niet. Wij brengen hem naar uw nieuwe adres, zodat u kunt beginnen aan de volgende stap." },
+      { "title": "Chalet of landhuis", "body": "U hebt een tweede verblijf in de bergen of aan zee. Laat de wagen er brengen en vlieg of neem de trein." },
+      { "title": "Terug naar België", "body": "Na de zomer wilt u niet de hele rit terug. Wij halen de wagen op bij uw verblijf en brengen hem naar huis." }
+    ]
+  },
+  "solution": {
+    "title": "Wij rijden uw wagen naar Frankrijk en leveren af waar u woont",
+    "body": "Mcars rijdt elke week over heel Frankrijk, dus uw bestemming ligt meestal op een route die we toch doen. Na uw aanvraag krijgt u binnen vierentwintig uur een offerte. We kiezen samen een ophaalmoment, bij u thuis of op ons depot in Roeselare. Onze chauffeur controleert de wagen, maakt foto's en tekent de CMR met u. Dan laadt hij hem op een open, meerlaagse transporter. Op de dag zelf belt hij u persoonlijk op. Betalen doet u vooraf."
+  },
+  "usps": [
+    { "title": "Wekelijks in Frankrijk", "body": "Wij rijden elke week over heel Frankrijk. Dat geeft ons veel mogelijkheden om uw wagen te plaatsen waar u hem nodig hebt." },
+    { "title": "Persoonlijk contact", "body": "Eén vast aanspreekpunt van aanvraag tot levering. U legt het verhaal van uw verhuis één keer uit en wij onthouden het." },
+    { "title": "Frans en Nederlands", "body": "Onze chauffeurs praten met de ontvanger in het Frans als dat nodig is. Zo loopt de levering aan een Franse deur zonder misverstand." },
+    { "title": "Lier aan boord", "body": "Elke vrachtwagen heeft een lier, zodat ook een wagen die niet meer rijdt mee kan. Volledig geblokkeerd? Dan brengen we een heftruck." }
+  ],
+  "steps": [
+    { "title": "Aanvraag indienen", "body": "Vertel ons waar de wagen staat en in welke Franse streek hij heen moet. We antwoorden binnen vierentwintig uur." },
+    { "title": "Dag en plaats kiezen", "body": "We bespreken met u wanneer de chauffeur langskomt. Zelf naar het depot in Roeselare komen kan ook, dag en nacht." },
+    { "title": "Ophaling met CMR", "body": "We inspecteren de wagen, nemen foto's en u tekent mee de CMR-vrachtbrief. De chauffeur belt u op de dag zelf." },
+    { "title": "Levering in Frankrijk", "body": "De wagen komt op het afgesproken adres. De chauffeur overloopt de staat met u of met wie de wagen in ontvangst neemt." }
+  ],
+  "care": {
+    "title": "Alles rond het transport, ook de CMR, is in orde",
+    "body": "Een goed transport begint bij ophaling. De chauffeur bekijkt carrosserie en binnenkant, legt alles vast met foto's voor ons intern dossier en vult samen met u de CMR-vrachtbrief in. Daarna is uw wagen verzekerd tot hij is afgeleverd. Wat niet bij ons ligt, is de Franse inschrijving en het bijhorende papierwerk. Dat regelt u zelf of met een erkende professional. Wij zorgen dat de wagen er geraakt.",
+    "items": ["Inspectie bij de ophaling", "Foto's voor ons dossier", "CMR samen ingevuld", "Verzekerd tot aan de levering"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Frankrijk",
+    "body": "Frankrijk is voor ons geen uitzondering maar een weekroutine. We komen in Bretagne en Normandië, en evengoed in de Provence of de Alpen. Ook de stockageparken zoals BCA en TEA zijn ons bekend, maar bij u gaat het om een privéwagen en dat voelen onze chauffeurs aan. U krijgt een rit die bij uw situatie past.",
+    "regions": ["Bretagne", "Normandië", "Dordogne", "Provence", "Alpen", "Côte d'Azur"]
+  },
+  "faq": [
+    { "q": "Moet ik mijn Belgische wagen in Frankrijk inschrijven?", "a": "Dat hangt af van uw situatie. Wie zich er vestigt, moet de wagen op termijn laten inschrijven. Wie enkel een tweede verblijf heeft, meestal niet. Kijk dit na bij de Franse overheid." },
+    { "q": "Wie regelt de Franse inschrijving?", "a": "Dat doet u zelf of via een erkende autoprofessional in Frankrijk. Mcars vervoert enkel de wagen en regelt geen inschrijving of ander papierwerk voor u." },
+    { "q": "Kunnen jullie ook een wagen in de bergen ophalen?", "a": "Ja, mits we er met de transporter geraken. Vertel ons bij de aanvraag hoe de oprit of straat eruitziet, dan zoeken we samen naar een goede laadplaats." },
+    { "q": "Wanneer betaal ik?", "a": "Als particulier betaalt u vóór de ophaling. U krijgt eerst een offerte op maat, dus u weet vooraf waar u aan toe bent en wat er afgesproken is." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Bij ons staat het woord van de chauffeur: vaste mensen, duidelijke afspraken en een wagen die op tijd klaarstaat in Frankrijk.",
+    "snel": "Wij plannen vlot in en leveren vlot af, ook als uw nieuwe thuis ver in het zuiden of westen van Frankrijk ligt.",
+    "volgbaar": "Met track en trace houdt u uw wagen in het oog, en de chauffeur belt u op de dag van levering.",
+    "verzekerd": "Uw wagen reist verzekerd mee en bij ophaling stellen we samen met u de CMR-vrachtbrief op."
+  },
+  "reasons": [
+    { "title": "Jaren op de Franse weg", "body": "Elke week rijden onze chauffeurs door heel Frankrijk, en die ervaring neemt uw wagen mee." },
+    { "title": "Het vak in ons bloed", "body": "We doen dit met overtuiging en zorg, want iemands wagen toevertrouwen is geen kleinigheid." },
+    { "title": "Honderden keren onderweg", "body": "Honderden ritten naar onze zuiderburen geven ons de rust om ook een drukke planning netjes uit te voeren." },
+    { "title": "Eigen chauffeurs, bewust", "body": "Onze Frans- en Nederlandstalige chauffeurs spreken met de ontvanger aan de andere kant in zijn eigen taal." },
+    { "title": "Een ruim aanbod", "body": "Van een stadswagen tot een camionette of boot op aanhanger: wij vervoeren bijna alles wat een eigenaar wil verhuizen." },
+    { "title": "Steeds vooruit kijken", "body": "We blijven nieuwe oplossingen testen en investeren in betere opvolging, zodat u steeds beter geïnformeerd bent." }
+  ],
+  "seoDescription": "Autotransport voor particulieren naar en in Frankrijk. Wekelijkse ritten, open transporter, CMR en verzekerd. Vraag een offerte, antwoord binnen 24 uur."
+}

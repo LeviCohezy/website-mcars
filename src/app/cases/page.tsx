@@ -20,6 +20,9 @@ export default function CasesPage() {
   return (
     <PageShell>
       <PageHero
+        size="full"
+        screen
+        marquee={false}
         eyebrow="Realisaties"
         title="Uitgevoerde transporten."
         subtitle="Een greep uit ritten voor particulieren en bedrijven — van klassiekers tot volledige handelaarsvoorraden. Anoniem, maar écht gereden."

@@ -42,7 +42,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
     <PageShell>
       <PageHero
         size="full"
-        eyebrow={isCorridor ? "Vaste corridor" : "Bestemming"}
+        eyebrow={isCorridor ? (route.fixed ? "Vaste corridor" : "Route") : "Bestemming"}
         title={<span className="block lg:max-w-[calc(100vw-34rem)]">{route.title}</span>}
         crumbs={[{ label: "Routes", href: "/routes" }, { label: route.nav }]}
         image={route.heroImage}

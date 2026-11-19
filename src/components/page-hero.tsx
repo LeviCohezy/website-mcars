@@ -6,6 +6,7 @@ import { ArrowChip } from "./ui";
 import { Parallax } from "./scroll";
 import { asset } from "@/lib/asset";
 import ClientMarquee from "./client-marquee";
+import GoogleReviews from "./google-reviews";
 
 export type Crumb = { label: string; href?: string };
 export type Badge = { label: string; icon?: React.ReactNode };
@@ -34,6 +35,7 @@ export default function PageHero({
   secondaryCta,
   marquee = "plain",
   screen = false,
+  reviews = false,
   children,
 }: {
   eyebrow?: string;
@@ -43,7 +45,8 @@ export default function PageHero({
   image?: string;
   video?: string;
   align?: "left" | "center";
-  size?: "compact" | "full";
+  /** "short": a low banner so the first content shows in the opening view. */
+  size?: "short" | "compact" | "full";
   bigWord?: string;
   badges?: Badge[];
   card?: { title: string; sub?: string; href: string };
@@ -54,6 +57,8 @@ export default function PageHero({
   marquee?: "plain" | "card" | false;
   /** Fill exactly one viewport (minus the 8px page frame). */
   screen?: boolean;
+  /** Google review score in a white notch, bottom right (as on the homepage). */
+  reviews?: boolean;
   children?: React.ReactNode;
 }) {
   const [shown, setShown] = useState(false);
@@ -70,6 +75,7 @@ export default function PageHero({
   });
 
   const full = size === "full";
+  const short = size === "short";
   const centered = align === "center";
   const hasMeta = subtitle || (badges && badges.length > 0) || primaryCta || secondaryCta;
 
@@ -77,7 +83,7 @@ export default function PageHero({
     <>
     <section
       className={`relative flex flex-col overflow-hidden rounded-[2rem] bg-zinc-950 ${
-        screen ? "min-h-[calc(100svh-1rem)]" : full ? "min-h-[88vh] sm:min-h-[92vh]" : "min-h-[62vh] sm:min-h-[68vh]"
+        screen ? "min-h-[calc(100svh-1rem)]" : full ? "min-h-[88vh] sm:min-h-[92vh]" : short ? "min-h-[20rem] sm:min-h-[22rem]" : "min-h-[62vh] sm:min-h-[68vh]"
       }`}
     >
       {/* Media */}
@@ -96,7 +102,7 @@ export default function PageHero({
       <div aria-hidden className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-zinc-950/60 to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-1 flex-col px-6 pt-32 pb-6 sm:px-10 sm:pt-40 sm:pb-8 lg:px-14">
+      <div className={`relative z-10 flex flex-1 flex-col px-6 pb-6 sm:px-10 sm:pb-8 lg:px-14 ${short ? "pt-28 sm:pt-32" : "pt-32 sm:pt-40"}`}>
         <div className={`mt-auto ${centered ? "mx-auto text-center" : ""}`}>
           {(crumbs.length > 0 || eyebrow) && (
             <div
@@ -134,7 +140,9 @@ export default function PageHero({
             className={`max-w-5xl font-light tracking-[-0.035em] text-balance text-white ${
               full
                 ? "text-[2.75rem] leading-[1] sm:text-6xl lg:text-[5.75rem]"
-                : "text-[2.5rem] leading-[1.02] sm:text-6xl lg:text-[4.75rem]"
+                : short
+                  ? "text-[2.25rem] leading-[1.02] sm:text-5xl lg:text-6xl"
+                  : "text-[2.5rem] leading-[1.02] sm:text-6xl lg:text-[4.75rem]"
             } ${rise(180).className} ${centered ? "mx-auto" : ""}`}
           >
             {title}
@@ -146,7 +154,7 @@ export default function PageHero({
         {hasMeta && (
           <div
             {...rise(320)}
-            className={`mt-10 grid gap-6 border-t border-white/15 pt-6 sm:mt-14 lg:grid-cols-[1.4fr_1fr_auto] lg:items-end lg:gap-10 ${rise(320).className}`}
+            className={`grid gap-6 border-t border-white/15 pt-6 lg:grid-cols-[1.4fr_1fr_auto] lg:items-end lg:gap-10 ${short ? "mt-6 sm:mt-8" : "mt-10 sm:mt-14"} ${reviews ? "lg:mr-72" : ""} ${rise(320).className}`}
           >
             <div>
               {subtitle && <p className="max-w-xl text-base leading-relaxed text-white/70 sm:text-lg">{subtitle}</p>}
@@ -187,6 +195,15 @@ export default function PageHero({
           </div>
         )}
       </div>
+      {reviews && (
+        <div className={`absolute right-0 bottom-0 z-20 hidden lg:block ${rise(400).className}`} style={rise(400).style}>
+          <div className="relative rounded-tl-[2rem] bg-white p-3 pb-2 pl-4">
+            <span aria-hidden className="absolute -top-5 right-0 size-5 bg-[radial-gradient(circle_at_0%_0%,transparent_19px,white_20px)]" />
+            <span aria-hidden className="absolute bottom-0 -left-5 size-5 bg-[radial-gradient(circle_at_0%_0%,transparent_19px,white_20px)]" />
+            <GoogleReviews />
+          </div>
+        </div>
+      )}
     </section>
     {marquee && <ClientMarquee variant={marquee} />}
     </>

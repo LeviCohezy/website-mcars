@@ -1,0 +1,59 @@
+{
+  "sub": "Blijft uw wagen na pech of een ongeval in Frankrijk achter bij een garage of depot? Wij komen hem ophalen en rijden hem naar België.",
+  "problem": {
+    "title": "Uw wagen blijft in Frankrijk achter, de stalling loopt op",
+    "body": "Na een panne of ongeval op een Franse snelweg haalt een erkende takelaar de wagen weg. Hij staat dan in een depot of garage waar u niet voor koos. Daar loopt de gardiennage op, de dagen gaan voorbij en uw verzekeraar bespreekt nog altijd wat gedekt is. Uzelf zit al terug in België of nog op vakantie. Wat u nodig hebt, is een transporteur die de wagen daar komt halen.",
+    "situations": [
+      { "title": "Depot van de takelaar", "body": "De erkende takelaar zette de wagen op zijn terrein. U wilt hem weg voor er stallingskosten bijkomen die niemand dekt." },
+      { "title": "Vakantie afgebroken", "body": "Na een panne op weg naar of van de vakantie reist u anders terug. De wagen moet later naar uw eigen garage thuis." },
+      { "title": "Bijstand dekt het niet", "body": "Uw verzekeraar vergoedt het transport niet of maar gedeeltelijk. U zoekt zelf een transporteur voor een open, meerlaagse rit naar België." }
+    ]
+  },
+  "solution": {
+    "title": "Wij komen de wagen halen waar hij nu staat",
+    "body": "Wij rijden elke week over heel Frankrijk, ook naar stockageparken. Een depot, een garage of een privéadres is dus geen probleem. U geeft ons het adres, de naam van de contactpersoon en vertelt wat er met de wagen is. Uw offerte op maat komt binnen 24 uur. De chauffeur belt op de dag zelf, inspecteert de wagen, neemt foto's en maakt de CMR op. Rijdt hij niet meer, dan trekt de lier hem op onze open transporter. Daarna rijdt hij verzekerd naar België."
+  },
+  "usps": [
+    { "title": "Wekelijks in Frankrijk", "body": "Wij rijden elke week in heel Frankrijk, van de kust tot de Alpen. Dat maakt een ophaling bij een afgelegen garage meestal goed te plannen." },
+    { "title": "Lier aan boord", "body": "Elke vrachtwagen heeft een lier. Is een wagen helemaal geblokkeerd, dan vragen we ter plaatse een heftruck om hem te laden." },
+    { "title": "Franstalige chauffeurs", "body": "Onze chauffeurs spreken Frans en Nederlands. Bij een Franse takelaar of garagist praat de chauffeur dus gewoon mee over het dossier." },
+    { "title": "Eén aanspreekpunt", "body": "U hoeft de Franse depothouder niet zelf te blijven bellen. Eén contactpersoon bij Mcars regelt de afspraak en houdt u op de hoogte." }
+  ],
+  "steps": [
+    { "title": "Aanvraag en offerte", "body": "U geeft het adres in Frankrijk, de staat van de wagen en de bestemming door. Uw offerte op maat komt binnen 24 uur." },
+    { "title": "Afspraak met het depot", "body": "Wij spreken een ophaalmoment af met de takelaar of garage. U geeft hen toestemming om de wagen mee te geven." },
+    { "title": "Ophaling met CMR", "body": "De chauffeur inspecteert de wagen en neemt foto's. Hij maakt de CMR op en laadt de wagen. Particulieren betalen vooraf, bedrijven op factuur." },
+    { "title": "Levering in België", "body": "De wagen komt bij uw garage of aan huis. Wilt u hem zelf ophalen, dan kan dat op ons depot in Roeselare, dag en nacht." }
+  ],
+  "care": {
+    "title": "Wij verzorgen alles, ook de CMR",
+    "body": "Een wagen die uit een depot komt, heeft vaak wat meegemaakt. Daarom legt de chauffeur bij ophaling vast hoe hij erbij staat. Hij loopt rond de wagen, maakt foto's en noteert zichtbare schade. Die foto's zijn ons interne bewijs. De CMR-vrachtbrief gaat mee tot de aflevering. Zolang de wagen bij ons is, is hij verzekerd.",
+    "items": ["Inspectie bij het depot", "Foto's van de staat", "CMR-vrachtbrief gaat mee", "Verzekerd van ophaling tot levering"]
+  },
+  "why": {
+    "title": "Waarom Mcars voor Frankrijk",
+    "body": "Frankrijk is geen onbekend terrein. We rijden er elke week en komen ook op stockageparken zoals BCA en TEA, waar toegangsregels en laadtijden soms strikt zijn. Dat helpt bij een depot van een takelaar, dat meestal ook zijn openingsuren heeft. Wij werken zowel in Normandië als in de Elzas, en onze Franstalige chauffeurs regelen het ter plaatse.",
+    "regions": ["Normandië", "Bretagne", "Île-de-France", "Elzas", "Occitanië", "Provence"]
+  },
+  "faq": [
+    { "q": "Komt Mcars mijn wagen langs de Franse snelweg ophalen?", "a": "Nee. Op de Franse snelweg mag enkel een erkende takelaar tussenkomen. Mcars komt daarna, bij het depot, de garage of het adres waar de wagen staat." },
+    { "q": "Wat als de wagen niet meer rijdt?", "a": "Dat lukt toch. De lier trekt hem op de oplegger, of een heftruck ter plaatse doet dat bij een geblokkeerde wagen. Zeg het ons in de aanvraag." },
+    { "q": "Wie praat met het Franse depot?", "a": "Wij nemen contact op om de ophaling af te spreken. U geeft ons het dossier en de naam van wie de wagen mag meegeven." },
+    { "q": "Regelt Mcars het dossier met mijn bijstand?", "a": "Nee. Wij vervoeren de wagen. Het dossier met uw verzekeraar en de stallingsfactuur blijven bij u. Wij leveren wel de CMR en foto's." }
+  ],
+  "pillars": {
+    "betrouwbaar": "Een afspraak met u of met het Franse depot houden wij, en de chauffeur die komt is een vaste kracht van ons eigen team.",
+    "snel": "Uw aanvraag wordt snel ingepland en de terugrit vanuit Frankrijk verloopt vlot, zodat de stallingsdagen niet nodeloos oplopen.",
+    "volgbaar": "Met track en trace volgt u de wagen op afstand, en onze chauffeur belt op de dag zelf om alles door te nemen.",
+    "verzekerd": "Zodra de wagen op onze transporter staat, is hij verzekerd, en de CMR-vrachtbrief gaat mee tot in België."
+  },
+  "reasons": [
+    { "title": "Al jaren onderweg", "body": "Onze ervaring in autotransport groeide jaar na jaar, en Frankrijk is daarin een vertrouwd terrein waar wij wekelijks komen." },
+    { "title": "Gedreven door auto's", "body": "Auto's zijn ons werk én onze interesse. Die passie merkt u aan de aandacht waarmee we elke wagen aanpakken." },
+    { "title": "Veel kilometers, veel ritten", "body": "We hebben honderden ritten gereden, en weten dus hoe het eraan toegaat bij een depot, een garage of een stockagepark." },
+    { "title": "Wij sturen zelf", "body": "Geen tussenpersonen onderweg: onze eigen chauffeurs, Nederlandstalig en Franstalig, doen de ophaling van begin tot einde." },
+    { "title": "Van personenwagen tot boot", "body": "Naast gewone wagens vervoeren wij ook motoren, camionettes, boten en aanhangwagens, dus ook voor ongewone voertuigen zit u bij ons goed." },
+    { "title": "Altijd verder bouwen", "body": "Wij zoeken voortdurend naar slimmere manieren om een rit te organiseren en staan open voor nieuwe ideeën van klanten." }
+  ],
+  "seoDescription": "Depannage Frankrijk: wij halen uw wagen na pech of ongeval op bij depot, garage of adres en brengen hem terug naar België. Offerte binnen 24 uur."
+}

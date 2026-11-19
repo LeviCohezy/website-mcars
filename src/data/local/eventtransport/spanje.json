@@ -1,0 +1,1113 @@
+{
+ "service": "eventtransport",
+ "origin": "spanje",
+ "pages": {
+  "spanje": {
+   "lead": "Een wagen naar een salon, een circuit of een fotoshoot in Spanje komt zelden op één adres aan. Hij moet in Barcelona staan voor de beurshal, in Jerez voor de wintertests of aan de Costa del Sol voor een lancering. Spanje is groot, de regio's bepalen veel zelf en elke rit heeft zijn eigen seizoen. Dit moet u weten voor u een wagen laat brengen.",
+   "facts": [
+    {
+     "label": "Rijverboden",
+     "value": "Staan jaarlijks in een DGT-resolutie, per weg en per datum"
+    },
+    {
+     "label": "Weekendverbod",
+     "value": "Geen algemeen weekendverbod voor vrachtwagens boven 7,5 ton"
+    },
+    {
+     "label": "Milieulabel",
+     "value": "Wagen met buitenlandse plaat kan geen Spaans label krijgen"
+    },
+    {
+     "label": "AP-7",
+     "value": "Tarragona tot La Jonquera is al geruime tijd tolvrij"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Geen weekendverbod, wel een kalender per weg",
+     "body": [
+      "Wie in Duitsland of Frankrijk transport plant, kent het weekendverbod. In Spanje werkt dat anders. Er is geen algemeen verbod voor vrachtwagens boven 7,5 ton. De verboden gelden op genoemde wegvakken en op bepaalde uren, en ze staan elk jaar in een nieuwe resolutie van de verkeersdienst DGT.",
+      "Voor een eventwagen is dat nuttig om te weten. Een aankomst op zaterdagochtend aan de kust kan wél botsen met een zomerbeperking, terwijl een rit door het binnenland op zondag vlot loopt. We kijken de resolutie dus na per traject en niet per land. Reken er als klant op dat de ophaaldag en de losdag samen bekeken worden."
+     ]
+    },
+    {
+     "heading": "Feestdagen die per regio en gemeente verschillen",
+     "body": [
+      "Spanje kent negen feestdagen die overal gelden, onder meer 6 januari, 1 mei, 12 oktober en 8 december. Daarbovenop legt elke autonome regio er eigen vast, en elke gemeente nog een paar lokale.",
+      "Voor eventtransport telt dat dubbel. Een hal of een circuit is op een lokale feestdag soms wel open voor het publiek, maar niet voor het laden en lossen. Vraag de organisator dus altijd na wanneer uw wagen mag aankomen, en geef ons de laad- en lostijden door zodra u ze kent. Zo vermijden we een transporter die voor een dichte poort staat."
+     ]
+    },
+    {
+     "heading": "Milieuzones en wat dat voor uw plaat betekent",
+     "body": [
+      "De Spaanse klimaatwet verplicht gemeenten boven 50.000 inwoners om een milieuzone in te voeren. Die zones werken met het milieulabel van de DGT: nul, ECO, C of B. Een wagen met buitenlandse plaat kan geen Spaans label krijgen. De DGT voorziet enkel een gelijkstelling voor landen met een eigen klassering, en België staat daar niet bij.",
+      "Dat raakt vooral wagens die zelf rijden, bijvoorbeeld om aan een stand te komen of voor een fotoshoot in de stad. Een wagen die op de transporter blijft, rijdt pas bij het lossen. Plan het laatste stuk daarom buiten de zone, of vraag de organisator welke regeling voor buitenlandse platen geldt."
+     ]
+    },
+    {
+     "heading": "Zo loopt een eventrit vanuit het depot",
+     "body": [
+      "Mcars vertrekt vanuit het depot in Roeselare, aan de Moorseelsesteenweg 16B. U kunt uw wagen er op elk uur afgeven, wat vaak handig is voor een vroege vertrekdag. We rijden met open, meerlaagse autotransporters en elke vrachtwagen heeft een lier.",
+      "Bij het laden controleren we de wagen en nemen we foto's als intern bewijs. U krijgt een CMR-vrachtbrief mee, en de wagen is verzekerd tijdens het transport. Voor tweedeverblijvers vervoeren we al wagens naar Spanje, dus de route is geen onbekende. Of het om een sportwagen, een oldtimer, een camionette of een moto gaat, maakt voor de planning weinig uit."
+     ]
+    },
+    {
+     "heading": "Aan de kust: lancering of tweede verblijf",
+     "body": [
+      "De Costa del Sol loopt van La Línea de la Concepción tot Nerja. Marbella is het belangrijkste centrum van het westelijke deel, met de jachthaven Puerto Banús. Daar komen wagens aan voor lanceringen, shoots en de tweede verblijven van Belgen en Nederlanders.",
+      "Een jachthaven is zelden gebouwd voor een meerlaagse transporter. Overleg met de locatie waar precies gelost wordt, en of er een verzamelplek in de buurt is. Soms is het slimmer om op een brede parking of bij een garage te lossen en het laatste stuk zelf te rijden. Zeg het ons vooraf, dan plannen we het in."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Automobile Barcelona",
+     "body": "Het autosalon van Barcelona vindt om de twee jaar plaats, in de oneven jaren, in mei, in de hallen van Fira de Barcelona op Montjuïc. Het bestaat sinds 1919 en is het enige Spaanse salon dat de OICA erkent. Wie een wagen wil tonen, laat hem tijdig voor de opbouw brengen."
+    },
+    {
+     "kind": "plek",
+     "title": "Circuito de Jerez",
+     "body": "Het circuit ligt bij Jerez de la Frontera, naast de snelweg A-382, en ontvangt sinds 1987 de Grand Prix van Spanje voor motoren. In de winter testen er raceklassen. Rond het grote motorweekend in april geldt een verkeersbeperking op de A-382, dus plan de aankomst met die beperking in gedachten."
+    },
+    {
+     "kind": "tip",
+     "title": "Cap de Formentor",
+     "body": "De weg naar Cap de Formentor op Mallorca, een bekende fotoroute, is van half mei tot half oktober overdag beperkt toegankelijk, van 10 uur tot ten laatste 22 uur. Een shoot daar plant u buiten dat venster of met een toelating, en de wagen komt via een haven op het vasteland."
+    },
+    {
+     "kind": "regel",
+     "title": "Covadonga en Patones",
+     "body": "De weg naar de meren van Covadonga in Asturië is op een reeks dagen van maart tot december de hele dag beperkt. De bergweg M-912 bij Patones, nabij Madrid, is op zaterdag, zondag en feestdagen het hele jaar beperkt. Voor shoots op die wegen telt de dag van de week mee."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mogen vrachtwagens in Spanje in het weekend rijden?",
+     "a": "Ja, er is geen algemeen weekendverbod boven 7,5 ton. Wel gelden er verboden op bepaalde wegvakken en uren, per jaar vastgelegd door de DGT. We kijken de resolutie na voor uw traject en plannen de aankomst daarop."
+    },
+    {
+     "q": "Heb ik een Spaans milieulabel nodig voor mijn wagen?",
+     "a": "Een wagen met buitenlandse plaat kan dat label niet krijgen. Blijft de wagen op de transporter tot aan de locatie, dan speelt het weinig. Rijdt hij zelf een zone in, vraag dan vooraf na welke regeling de gemeente toepast."
+    },
+    {
+     "q": "Kan mijn wagen op een eiland als Mallorca worden gebracht?",
+     "a": "Voor een transport over de weg eindigt de rit in een haven op het vasteland, zoals Barcelona of Valencia. De overtocht en het laatste stuk regelt u met de organisator of een lokale partij. Wij brengen de wagen naar de haven."
+    }
+   ],
+   "seoDescription": "Eventtransport naar Spanje: wagens naar salons, circuits en shoots. Regels, wegen en seizoenen die u moet kennen voor u uw wagen laat brengen.",
+   "sources": [
+    "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+    "https://nakordoni.eu/de/for_truck_drivers/traffic_bans/spain",
+    "https://www.garrigues.com/es_ES/noticia/publicado-boe-calendario-laboral-espana-2027",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2021-8447",
+    "https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/distintivo-ambiental/",
+    "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transportes/Paginas/2021/310821-peajes.aspx",
+    "https://es.wikipedia.org/wiki/Automobile_Barcelona",
+    "https://es.wikipedia.org/wiki/Circuito_de_Jerez",
+    "https://es.wikipedia.org/wiki/Costa_del_Sol"
+   ]
+  },
+  "spanje-belgie": {
+   "lead": "U koopt een klassieker of sportwagen in Spanje, of uw wagen heeft een winter in Catalonië doorgebracht, en hij moet op tijd in België staan voor een salon, een circuit of een rally. De rit loopt door Frankrijk, met een Spaanse grens bij La Jonquera en een Brusselse milieuzone aan het eind. Zo bereidt u die route voor.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Catalonië, via de grens bij La Jonquera op de AP-7"
+    },
+    {
+     "label": "Frankrijk",
+     "value": "Weekendverbod boven 7,5 ton, extra verbod op zomerzaterdagen"
+    },
+    {
+     "label": "Brussel",
+     "value": "Heel het Gewest is een lage-emissiezone, behalve de Ring"
+    },
+    {
+     "label": "Spa en Zolder",
+     "value": "Twee circuits, ook voor 24 uurskoersen"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Catalonië: Barcelona en de Costa Brava",
+     "body": [
+      "Catalonië ligt het dichtst bij België, aan de oostkant van de Pyreneeën. Wie in Barcelona woont, vindt er een lage-emissiezone, de Rondes de Barcelona, die van maandag tot vrijdag van 7 tot 20 uur geldt voor wagens zonder DGT-label. Een wagen met buitenlandse plaat moet aantonen dat hij aan de milieueisen voldoet, via het register van de metropolitane autoriteit.",
+      "Dat is een zaak voor de eigenaar. Laat de wagen daarom op een punt buiten de zone ophalen, bijvoorbeeld bij een garage of een stalling aan de rand. Voor de Costa Brava is dat meestal eenvoudiger: kleinere plaatsen, meer ruimte om te laden, en een rit die rechtstreeks naar de AP-7 loopt."
+     ]
+    },
+    {
+     "heading": "De weg: AP-7, A9 en dan noordwaarts",
+     "body": [
+      "Vanuit Catalonië gaat de rit over de AP-7 naar La Jonquera, de grensplaats tegenover Le Perthus. Daarna loopt hij door Frankrijk naar Parijs. Het laatste stuk volgt de A1 van Parijs naar Rijsel, 211 km en volgens de bron de drukste autoroute van Frankrijk, en dan de E19 richting Brussel.",
+      "Frankrijk heeft een weekendverbod voor zware vrachtwagens, met extra zomerzaterdagen richting de Middellandse Zee. Spanje heeft geen algemeen weekendverbod, dus de Franse kalender bepaalt hier de dag van aankomst. In België betaalt vrachtverkeer boven 3,5 ton de Viapass-heffing op de weg van Antwerpen en Brussel naar de Franse grens."
+     ]
+    },
+    {
+     "heading": "Aankomst in Henegouwen of West-Vlaanderen",
+     "body": [
+      "De Belgische regio's die het dichtst bij Frankrijk liggen, zijn West-Vlaanderen en Henegouwen. In West-Vlaanderen komt u via de E17 aan, met afrit 2 voor Kortrijk Xpo. In Henegouwen liggen de wegen richting Rijsel en Valenciennes, en via Charleroi die richting Reims.",
+      "Heeft uw wagen een vaste datum in een hal? Dan kunt u hem ook op ons depot in Roeselare laten afleveren. Levering kan er 24 uur op 24. Kortrijk Xpo ligt van daaruit dichtbij, en België rijden we dagelijks."
+     ]
+    },
+    {
+     "heading": "Brussel: een stad binnen de LEZ",
+     "body": [
+      "De Brusselse lage-emissiezone beslaat het volledige gewest, met uitzondering van de Ring R0 en enkele toegangswegen naar transitparkings. Wie een wagen op eigen wielen naar een Brusselse eventlocatie brengt, valt dus onder de LEZ-regels, ook met een buitenlandse plaat.",
+      "Een wagen die op de transporter blijft tot aan Heizel, is minder een probleem. Maar zodra hij zelf een hal of een parking in rijdt, raadpleegt u de regels van de zone. Vraag de organisator van het salon of de beurs welke aankomstroute voor exposanten geldt, en geef ons het laadadres door. Zo staat uw wagen niet te wachten op een afrit."
+     ]
+    },
+    {
+     "heading": "Waarom net deze rit veel eventritten kent",
+     "body": [
+      "Een wagen die in Catalonië is gekocht, getest of gestald, moet vaak op een vaste dag in België staan: een salon in januari, een rally in juni, een circuitweekend in Zolder of Spa. Dan telt de kalender meer dan de afstand.",
+      "Een rit tegen de kalender vraagt voorbereiding. U geeft de beursdatum, de laadtijden en het adres op. Wij leggen de rit zo vast dat de vrachtwagen niet in een Frans weekendverbod belandt. Omdat we open rijden, kunt u de wagen op de standplaats nog even afstoffen."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Espíritu de Montjuïc",
+     "body": "Dit festival voor historische racewagens vindt in het voorjaar plaats op het Circuit de Barcelona-Catalunya, in maart of april. Bezoekers kunnen er ook met een eigen klassieker van vóór 1996 of met een youngtimer terecht. Wie uit België komt, laat de wagen vooraf naar Catalonië brengen."
+    },
+    {
+     "kind": "event",
+     "title": "Rally Costa Brava",
+     "body": "Deze rally voor historische wagens bestaat sinds 2010, met de eerste editie van de oorspronkelijke rally in 1953. Ze wordt traditioneel in maart gereden, is sinds 2012 gebaseerd in Girona en heeft sinds 2017 het hoofdkwartier in Palamós. Ze telt mee voor het Spaanse en Europese kampioenschap."
+    },
+    {
+     "kind": "event",
+     "title": "Brussels Motor Show",
+     "body": "Het Autosalon van Brussel vindt doorgaans in januari plaats in de paleizen van Brussels Expo op de Heizel, georganiseerd door FEBIAC. Het wordt niet meer elk jaar gehouden, dus controleer eerst of er een editie is voor u een transport vastlegt."
+    },
+    {
+     "kind": "plek",
+     "title": "Spa-Francorchamps en Zolder",
+     "body": "Spa-Francorchamps ligt in Stavelot en is 7,004 km lang, met sinds 1924 een 24 urenrace voor wagens. Circuit Zolder ligt in Heusden-Zolder en heeft een eigen afrit op de E314. Beide circuits ontvangen regelmatig wagens van buitenlandse teams en klanten."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke route neemt de transporter van Catalonië naar België?",
+     "a": "Over de AP-7 naar de grens bij La Jonquera en dan over Franse autoroutes naar het noorden. Aan Belgische kant is de E19 de gebruikelijke as. De exacte route hangt af van uw ophaaladres en de Franse rijverboden."
+    },
+    {
+     "q": "Valt mijn Spaanse wagen in Brussel onder de LEZ?",
+     "a": "Ja, de Brusselse lage-emissiezone geldt voor het hele gewest, behalve de Ring. Blijft de wagen op de transporter tot aan de locatie, dan is dat minder een probleem. Rijdt hij zelf, dan gelden de LEZ-regels."
+    },
+    {
+     "q": "Kan ik mijn wagen voor een salon bij Mcars in Roeselare laten staan?",
+     "a": "Levering op het depot kan 24 uur op 24. Spreek de datum en het uur vooraf af. Voor een salon of beurs vragen we u de laad- en lostijden van de organisator door te geven, zodat de rit daarop kan aansluiten."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar België: wagens naar salons, rally's en circuits. Catalonië, de Franse rijverboden en de Brusselse LEZ in één overzicht.",
+   "sources": [
+    "https://www.zbe.barcelona/zones-baixes-emissions/vehicles-afectats.html",
+    "https://www.zbe.barcelona/es/zones-baixes-emissions/la-zbe.html",
+    "https://www.espiritudemontjuic.com/",
+    "https://es.wikipedia.org/wiki/Rally_Costa_Brava",
+    "https://en.wikipedia.org/wiki/La_Jonquera",
+    "https://www.viapass.be/",
+    "https://www.timocom.co.uk/truck-driving-bans/france",
+    "https://autosalon.be/nl",
+    "https://nl.wikipedia.org/wiki/Lage-emissiezone",
+    "https://nl.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+    "https://nl.wikipedia.org/wiki/Circuit_Zolder",
+    "https://nl.wikipedia.org/wiki/Kortrijk_Xpo"
+   ]
+  },
+  "spanje-nederland": {
+   "lead": "Een wagen uit het Baskenland of Navarra naar een Nederlands circuit of een beurs in Utrecht of Amsterdam rijdt door Frankrijk en België. Onderweg wisselen weg, tol en rijverbod. Aan Nederlandse kant wachten zero-emissiezones voor bestel- en vrachtauto's. Zo ziet die rit eruit.",
+   "facts": [
+    {
+     "label": "Westroute",
+     "value": "A63, A10 Parijs-Bordeaux, dan E19 via Brussel naar Nederland"
+    },
+    {
+     "label": "Oostroute",
+     "value": "Rhônevallei en A9 naar La Jonquera en de AP-7"
+    },
+    {
+     "label": "Zero-emissie",
+     "value": "Rotterdam, Eindhoven en andere steden weren niet-elektrische vrachtwagens"
+    },
+    {
+     "label": "Westerschelde",
+     "value": "Tunnel is 4,30 m hoog en heeft geen vluchtstrook"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in het Baskenland en Navarra",
+     "body": [
+      "Deze regio's liggen aan de westkant van de Pyreneeën. Wie in Bilbao of Pamplona staat, rijdt richting Irun en Frankrijk, met de A63 naar Bordeaux als eerste lange Franse as.",
+      "In het Baskenland ligt het Bilbao Exhibition Centre in Barakaldo, met zes kolomloze hallen en onder meer de Feria de Vehículos de Ocasión de Euskadi voor tweedehandswagens. Het Circuito de Navarra bij Los Arcos heeft na een heraanleg een tracé van ongeveer 4,3 km. Klanten laten hier wagens ophalen na een testdag of een circuitweekend."
+     ]
+    },
+    {
+     "heading": "De Atlantische as door Frankrijk",
+     "body": [
+      "De A63 loopt over ongeveer 206 km van Bordeaux naar de Spaanse grens bij Biriatou. Het noordelijke stuk tot Salles is gratis, het middenstuk door de Landes is een tolweg bij Atlandes, het zuidelijke stuk is een tolweg bij ASF. Bij Bayonne sluit de A64 aan naar Pau en Toulouse.",
+      "Van Parijs naar Bordeaux loopt de A10, 557 km en bijna volledig tolplichtig. Voor Nederland is de volgende stap de E19, 551 km van Parijs tot Amsterdam, via Brussel. Door Frankrijk geldt voor vrachtwagens boven 7,5 ton het weekendverbod, plus extra zomerzaterdagen. In Spanje bestaat dat niet algemeen."
+     ]
+    },
+    {
+     "heading": "Winter in de Pyreneeën",
+     "body": [
+      "De DGT raadt bij sneeuw aan om kettingen mee te nemen of winterbanden te monteren, en het verkeer kan beperkt worden voor voertuigen zonder die uitrusting. Winterbanden zijn een advies, geen algemene verplichting. Kettingen horen op de aangedreven wielen.",
+      "Voor een transport in de winter kijken we naar de actuele wegtoestand voor we een route vastleggen. De DGT heeft daarvoor het infonummer 011. Een eventwagen die op een vaste dag in een hal moet staan, heeft weinig aan een omleiding, dus bouwen we marge in."
+     ]
+    },
+    {
+     "heading": "Aankomst in Zeeland en West-Brabant",
+     "body": [
+      "Vanuit België komt u in Nederland binnen over Hazeldonk (A16), Zandvliet (A4) of Zelzate (N62). Dat is de regio dichtst bij Roeselare, met Breda, Roosendaal en Bergen op Zoom als eerste grote steden. Wie verder naar het noorden moet, rijdt over de A16 naar Rotterdam.",
+      "De Westerscheldetunnel (N62) is 6,6 km lang en sinds eind 2024 tolvrij voor personenauto's. Vrachtwagens en grotere voertuigen betalen nog. Er geldt een maximale doorrijhoogte van 4,30 m, 100 km/u met trajectcontrole en er is geen vluchtstrook. Een meerlaagse transporter laat u dus liever niet door die tunnel sturen zonder de hoogte te controleren."
+     ]
+    },
+    {
+     "heading": "Zero-emissiezones en wat dat voor een eventritje betekent",
+     "body": [
+      "Rotterdam, Den Haag, Delft, Leiden en Gouda hebben een zero-emissiezone voor bestel- en vrachtauto's. Eindhoven en Tilburg hebben die ook, 's-Hertogenbosch eveneens. Ook Arnhem kent een zero-emissiezone voor deze voertuigen.",
+      "Een autotransporter met dieselmotor mag daar in de regel niet zomaar in. Voor RAI Amsterdam, Rotterdam Ahoy of een ELE Rally in Zuidoost-Brabant spreken we daarom een lospunt af buiten de zone, vlak bij de locatie. De organisator weet meestal welke plekken voor exposanten zijn voorzien. Vraag het hem vóór de opbouw en geef ons het adres door, dan staat de wagen op de afgesproken dag op de juiste plek."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Circuito de Navarra en Bilbao Exhibition Centre",
+     "body": "Het Circuito de Navarra bij Los Arcos opende in 2010, heeft FIA Grade 2 en wordt door MotorSport Vision beheerd. Het BEC in Barakaldo heeft zes hallen. Wie vanuit deze regio naar Nederland rijdt, vertrekt vaak vanaf een van deze twee plekken."
+    },
+    {
+     "kind": "event",
+     "title": "Circuit Zandvoort en TT Assen",
+     "body": "Op Circuit Zandvoort wordt sinds 1948 geracet, met ook circuitdagen waarop u zelf rijdt. Het TT Circuit Assen ontvangt eind juni de TT en later in het jaar nog andere evenementen. Plan de aankomst buiten de wedstrijddagen, want dan zijn de omliggende wegen druk."
+    },
+    {
+     "kind": "event",
+     "title": "Dutch Design Week en ELE Rally",
+     "body": "De Dutch Design Week vindt elk jaar in oktober plaats in Eindhoven, op meer dan 120 locaties. De ELE Rally is een tweedaagse snelheidsrally in Zuidoost-Brabant, met start en finish in Son en Breugel. Beide maken van Eindhoven een drukke bestemming voor transporters."
+    },
+    {
+     "kind": "regel",
+     "title": "Zero-emissiezone Eindhoven en Tilburg",
+     "body": "In Eindhoven en Tilburg zijn de vroegere milieuzones voor dieselvrachtauto's vervallen omdat de zero-emissiezone ze verving. Kijk de actuele regels na bij de gemeente of op milieuzones.nl voor u een lospunt kiest."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is de Westerscheldetunnel een probleem voor een autotransporter?",
+     "a": "De tunnel heeft een doorrijhoogte van 4,30 m, geen vluchtstrook en trajectcontrole op 100 km/u. Vrachtwagens betalen er nog tol. Een meerlaagse transporter kan hij alleen door als de hoogte past, dus we kijken de route vooraf na."
+    },
+    {
+     "q": "Kunnen jullie mijn wagen in het centrum van Rotterdam afzetten?",
+     "a": "Niet zonder meer. Rotterdam heeft een zero-emissiezone voor bestel- en vrachtauto's. We lossen in overleg met u of de organisator op een plek buiten de zone en u rijdt het laatste stuk."
+    },
+    {
+     "q": "Wat als er sneeuw ligt in de Pyreneeën?",
+     "a": "De DGT kan het verkeer beperken voor voertuigen zonder winterbanden of kettingen. We volgen de wegtoestand en kiezen indien nodig een andere pas of de kustroute. Reken in de winter op extra marge in uw planning."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Nederland: wagens naar circuits en beurzen. Route via Frankrijk en België, zero-emissiezones en lospunten.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/A10_autoroute",
+    "https://fr.wikipedia.org/wiki/Autoroute_A63_(France)",
+    "https://en.wikipedia.org/wiki/European_route_E19",
+    "https://es.wikipedia.org/wiki/Bilbao_Exhibition_Centre",
+    "https://es.wikipedia.org/wiki/Circuito_de_Navarra",
+    "https://www.dgt.es/comunicacion/notas-de-prensa/imprescindible-consultar-el-estado-de-las-carreteras-y-llevar-cadenas-o-neumaticos-de-invierno-en-la-mitad-norte-de-la-peninsula",
+    "https://www.dgt.es/muevete-con-seguridad/conviertete-en-un-buen-conductor/conduccion-invernal/circular-con-hielo/",
+    "https://nl.wikipedia.org/wiki/Westerscheldetunnel",
+    "https://www.opwegnaarzes.nl/bedrijven/waar-komen-de-ze-zones",
+    "https://www.milieuzones.nl/",
+    "https://www.circuitzandvoort.nl/",
+    "https://nl.wikipedia.org/wiki/Dutch_Design_Week",
+    "https://nl.wikipedia.org/wiki/ELE_Rally"
+   ]
+  },
+  "spanje-luxemburg": {
+   "lead": "Een wagen uit Valencia of Murcia naar Luxemburg legt een lange weg af: de Spaanse oostkust op, door de Rhônevallei en over Lotharingen naar Kirchberg. Wie een wagen voor een stand, een lancering of een productshoot laat brengen, moet vooral de Franse zomerverboden en de Luxemburgse stadsregels kennen. Daar draait deze pagina om.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Valencia of Murcia, noordwaarts over de AP-7"
+    },
+    {
+     "label": "Route",
+     "value": "AP-7, A9, A7 naar Lyon, A6, A31 naar Luxemburg"
+    },
+    {
+     "label": "Luxexpo",
+     "value": "Bereikbaar via afrit 8 van de A1, met twee ingangen"
+    },
+    {
+     "label": "Stadscentrum",
+     "value": "Leveringen in de voetgangerszone enkel tussen 6 en 10 uur"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek aan de Costa Blanca en Costa Cálida",
+     "body": [
+      "Valencia en Murcia liggen aan de Middellandse Zee, ten zuiden van Catalonië. Er is geen landsgrens in de buurt: wie naar Luxemburg moet, rijdt eerst de volledige AP-7 noordwaarts tot La Jonquera. Vanuit Valencia en Dénia vertrekken ook ferry's naar de Balearen.",
+      "Dit is ook de streek van de tweedeverblijvers. Wie er een wagen heeft staan en hem voor een stand of een shoot in Luxemburg nodig heeft, laat hem ophalen op een brede parking of een industrieterrein. Een meerlaagse transporter heeft ruimte nodig om te manoeuvreren. Spreek een vast uur af en zeg ons of er een poort of slagboom is."
+     ]
+    },
+    {
+     "heading": "Cheste en de wegen rond het circuit",
+     "body": [
+      "Het Circuit Ricardo Tormo ligt in Cheste, een twintigtal kilometer van Valencia. Het opende in 1999 en ontvangt de Grand Prix van de Comunitat Valenciana, traditioneel de slotronde van het MotoGP-seizoen. Ook de Formule E en GT-reeksen reden er al.",
+      "In november geldt tijdens het motorsportweekend een aparte verkeersbeperking op de A-3, de CV-50 en de wegen errond, volgens de DGT-resolutie. Wie dan een wagen moet ophalen of afleveren, plant dat voor of na het weekend. Een transporter die op vrijdagavond nog het circuit wil bereiken, komt anders vast te staan. Het Circuito de Cartagena, ongeveer 3,5 km lang, is gespecialiseerd in privé-trackdays en evenementen."
+     ]
+    },
+    {
+     "heading": "De lange weg naar Luxemburg",
+     "body": [
+      "Geen bron beschrijft deze rit als geheel, maar de wegen vormen één as. Na de AP-7 en de Franse A9, die bij Orange op de A7 aansluit, volgt Lyon. De A6 gaat naar Beaune en daar takt de A31 af tot de Luxemburgse grens bij Zoufftgen. De A31 is gratis tot Toul en tolweg van Toul tot Beaune.",
+      "Op de A7 kan het in de zomer tot 180.000 voertuigen per dag worden. Op de drukste dagen verlaagt een dynamisch systeem de limiet tot 110, 90 of 70 km/u. De Franse zomerzaterdagen vallen precies in die piek. Voor een eventrit in juli of augustus mijden we die zaterdagen en rekenen we extra marge."
+     ]
+    },
+    {
+     "heading": "Luxemburg: rijverbod en uitzondering voor events",
+     "body": [
+      "In Luxemburg geldt voor vrachtwagens boven 7,5 ton in transit naar Frankrijk een verbod van zaterdag 21.30 uur tot zondag 21.45 uur. Voor materiaal van toegelaten economische, sportieve, culturele, educatieve of politieke evenementen bestaat een vrijstelling van het zon- en feestdagsrijverbod.",
+      "Of uw rit daaronder valt, vraagt u vooraf na bij de organisator. Zonder bevestiging kiezen we een aankomst op een gewone weekdag, zodat het verbod niet in de weg zit. Dat geldt ook voor de terugrit na het event: een wagen die op zondagavond nog op een parking staat, wacht dan tot de ochtend erna."
+     ]
+    },
+    {
+     "heading": "Binnen het land: Kirchberg en het zuiden",
+     "body": [
+      "Luxexpo The Box ligt op het plateau van Kirchberg, aan het Circuit de la Foire Internationale. Via afrit 8 van de A1 komt u er met de wagen. Parking Nord heeft ongeveer 750 plaatsen en Parking Sud ongeveer 650. Tramlijn T1 verbindt de luchthaven met Luxexpo en het centrum, dus wie zijn wagen laat brengen, kan zelf met vliegtuig en tram aansluiten.",
+      "Zuidelijk, in de Minett, ligt Esch-sur-Alzette. De rue de l'Alzette is er een voetgangersstraat van 800 meter, niet bereikbaar met een autotransporter. In Belval, op het oude staalterrein, staat de Rockhal. Voor een wagen die daar moet staan, spreken we een lospunt af aan de rand van de wijk."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "International Motor Show Luxembourg",
+     "body": "De auto- en motorbeurs vindt in november plaats in Luxexpo The Box op Kirchberg. Er staan productie-, sport-, luxe- en klassieke wagens, moto's, racewagens en een tuningafdeling, met stuntshows. De editie volgt een tweejaarlijks ritme. Wie een wagen wil tonen, laat hem tijdig voor de opbouw aankomen."
+    },
+    {
+     "kind": "regel",
+     "title": "Voetgangerszone in de hoofdstad",
+     "body": "Het centrum van Luxemburg-stad is afgesloten met verzinkbare paaltjes. Leveringen en toegang zijn gewaarborgd tussen 6 en 10 uur, wanneer de paaltjes omlaag staan. Daarbuiten meldt men zich aan bij de technische paal, parkeren is verboden en de snelheid beperkt tot 20 km/u. Organisatoren kunnen een tijdelijk vignet aanvragen."
+    },
+    {
+     "kind": "tip",
+     "title": "Place d'Armes en omgeving",
+     "body": "Op de Place d'Armes en de straten errond, zoals de Place Guillaume II, de rue de la Reine en de rue du Marché-aux-Herbes, mag enkel in het ochtendvenster geladen en gelost worden. Een transporter past daar niet. Laat een wagen voor een stadsevenement dus op een aangewezen plek aan de rand afleveren."
+    },
+    {
+     "kind": "plek",
+     "title": "Luxembourg Airport en Cargolux",
+     "body": "Luxembourg Airport is een belangrijke vrachtluchthaven en de thuisbasis van Cargolux. Een wagen die voor een lancering of shoot per luchtvracht aankomt, landt hier. Wij vervoeren de wagen daarna over de weg naar Kirchberg of het adres van de organisator."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Welke weg neemt een transporter van Valencia naar Luxemburg?",
+     "a": "Over de AP-7 naar La Jonquera, dan de Franse A9, A7, A6 en A31 tot de Luxemburgse grens. Geen enkele bron beschrijft de rit als geheel, maar de wegen sluiten op elkaar aan. De exacte route volgt uit uw ophaaladres."
+    },
+    {
+     "q": "Valt mijn eventrit onder de vrijstelling van het zondagsverbod in Luxemburg?",
+     "a": "Materiaal voor toegelaten sportieve of culturele evenementen is vrijgesteld, maar de organisator beslist of uw rit eronder valt. Vraag het vooraf na. Zonder bevestiging kiezen we een aankomst op een gewone weekdag."
+    },
+    {
+     "q": "Kan de transporter tot aan Luxexpo rijden?",
+     "a": "Luxexpo is met de wagen bereikbaar via afrit 8 van de A1, met een noord- en een zuidingang. De organisatie helpt bij de keuze van de juiste ingang. Meld uw laad- en lostijd vooraf zodat de poort open staat."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Luxemburg: van Valencia naar Luxexpo en de hoofdstad. Franse zomerverboden, Luxemburgse regels en lospunten.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Circuito_Ricardo_Tormo",
+    "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+    "https://es.wikipedia.org/wiki/Circuito_de_Cartagena",
+    "https://fr.wikipedia.org/wiki/Autoroute_A31_(France)",
+    "https://fr.wikipedia.org/wiki/Autoroute_A7_(France)",
+    "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans/luxembourg",
+    "https://nakordoni.eu/fr/for_truck_drivers/traffic_bans?country=LU",
+    "https://thebox.lu/fr/acceder-a-luxexpo",
+    "https://www.vdl.lu/fr/se-deplacer/en-voiture/livraisons-et-vignette-dacces",
+    "https://chronicle.lu/category/motor-sports/58005-25th-international-motor-show-luxembourg-draws-crowds-with-new-acl-race-x-event",
+    "https://fr.wikipedia.org/wiki/Esch-sur-Alzette",
+    "https://en.wikipedia.org/wiki/Luxembourg_Airport"
+   ]
+  },
+  "spanje-frankrijk": {
+   "lead": "Van de Costa Daurada naar Le Mans, Magny-Cours of Paul Ricard: dit is de kortste verbinding die Spanje met Franse circuits en beurzen heeft. Toch gelden er onderweg twee verschillende rijverbodskalenders, en Catalonië heeft er nog een bovenop. Voor evenementen bestaat in Frankrijk een uitzondering, als u de voorwaarden kent.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Catalonië, via La Jonquera op de AP-7"
+    },
+    {
+     "label": "A9",
+     "value": "280,5 km van Orange tot Le Perthus aan de grens"
+    },
+    {
+     "label": "Uitzondering",
+     "value": "Eventvrachtwagens vrijgesteld, met het event hooguit vier dagen verwijderd"
+    },
+    {
+     "label": "Catalonië",
+     "value": "Eigen jaarlijkse verkeersresolutie naast die van de DGT"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Catalonië: circuits en rally's",
+     "body": [
+      "Het Circuit de Barcelona-Catalunya ligt in Montmeló en Granollers en opende in 1991. Het ontvangt de MotoGP en kreeg jarenlang de Spaanse F1-Grand Prix. De Rally Catalunya van de RACC heeft sinds 2005 zijn basis in Salou, op de parking van PortAventura.",
+      "Verder naar het zuiden ligt het Circuit de Calafat bij L'Ametlla de Mar, 3.250 m lang, met een rallycrosstracé, een slipbaan en een 4x4-parcours. Wie hier een wagen laat ophalen, vindt dus ruimte om te laden. Een test- of rallywagen die na het weekend naar Le Mans of Magny-Cours moet, laadt u hier vlot."
+     ]
+    },
+    {
+     "heading": "Twee kalenders voor de rit door Catalonië",
+     "body": [
+      "Catalonië regelt zijn verkeersbeperkingen zelf, via een jaarlijkse resolutie van de Servei Català de Trànsit. Wie door Catalonië rijdt, moet dus twee kalenders bekijken: die van de DGT en die van de Catalaanse dienst.",
+      "In de versie van 2025 gold op zon- en feestdagen een beperking van 8 tot 24 uur op het interstedelijke net, en rond opeenvolgende feestdagen vanaf 16 uur. De resolutie wordt elk jaar vervangen. Kijk dus altijd de actuele versie na. Wij plannen een Catalaans vertrek bij voorkeur op een gewone weekdag, zodat de transporter vroeg de grens bereikt."
+     ]
+    },
+    {
+     "heading": "De Franse grens: Le Perthus en de A9",
+     "body": [
+      "Aan de Catalaanse kant ligt de AP-7, aan de Franse de A9, over 280,5 km van Orange tot Le Perthus. Ze heet La Languedocienne tot Narbonne en La Catalane daarna, en wordt door ASF beheerd. Langs de A9 liggen Nîmes, Montpellier, Béziers, Narbonne en Perpignan.",
+      "Knelpunten zijn de wisselaar van Orange en het Perthus zelf, waar grenscontroles voor files zorgen. Het zware vrachtverkeer maakt de A9 druk en ongevalsgevoelig. Sinds 2017 gaat de doorgaande A9 zonder tol om Montpellier heen, het lokale stuk is de A709."
+     ]
+    },
+    {
+     "heading": "De Franse uitzondering voor eventvervoer",
+     "body": [
+      "Vrachtwagens boven 7,5 ton mogen in Frankrijk niet rijden van zaterdag 22 uur tot zondag 22 uur, noch op feestdagen. Voor voertuigen of materiaal voor economische, sportieve, culturele of andere evenementen bestaat een permanente afwijking, op voorwaarde dat het event ten laatste vier dagen voor of na de rit plaatsvindt.",
+      "Dat is een kans voor wie een wagen op vrijdagavond naar Le Mans of Paul Ricard moet krijgen. Er zijn wel voorwaarden: de organisator moet het kunnen bevestigen en de data moeten kloppen. Bovenop het weekendverbod komen de zomerzaterdagen, in de vakantiemaanden richting Spanje."
+     ]
+    },
+    {
+     "heading": "Aankomst in Occitanie of Nouvelle-Aquitaine",
+     "body": [
+      "De Franse regio's die het dichtst bij Spanje liggen, zijn Occitanie en Nouvelle-Aquitaine. In Occitanie ligt het Circuit Paul Armagnac in Nogaro, het eerste permanente autocircuit van Frankrijk, en het Circuit d'Albi in Le Séquestre. In Nouvelle-Aquitaine is de A63 de aanrijroute.",
+      "Op de A63 rijden gemiddeld ongeveer 34.000 voertuigen per dag, waarvan 9.000 vrachtwagens. In de zomer loopt dat sterk op. Aan het grenstolstation van Biriatou en bij de uitritten van Bordeaux is er vaak file, vooral rond 7 uur en rond 16 uur."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Circuit de Barcelona-Catalunya",
+     "body": "Het circuit in Montmeló ontvangt de MotoGP van Catalonië en een IndyCar-race, naast de ELMS, de GT World Challenge Europe en GT Open. Voor teams en klanten die hun wagen daarna naar Frankrijk willen brengen, is dit een vaste ophaalplek."
+    },
+    {
+     "kind": "event",
+     "title": "Rally Catalunya",
+     "body": "De rally van de RACC is van 1991 tot 2022 een WK-manche geweest en telt nu mee voor de Spaanse kampioenschappen. De basis ligt in Salou. Wie een rallywagen van daar naar een Frans circuit wil brengen, laat hem na de rally op de transporter laden."
+    },
+    {
+     "kind": "plek",
+     "title": "Circuit Paul Ricard",
+     "body": "Het circuit ligt in Le Castellet in de Var, opende in 1970 en heeft een eigen vliegveld ernaast. De Bol d'Or wordt er sinds 2015 opnieuw gereden en de Franse F1-Grand Prix was er het laatst in 2022. Wagens komen er aan na een rit over de A9 en de A8."
+    },
+    {
+     "kind": "event",
+     "title": "24 Uur van Le Mans en Le Mans Classic",
+     "body": "De 24 Uur van Le Mans wordt sinds 1923 elk jaar in juni gereden op een circuit van 13,626 km, voor een groot deel openbare weg. Le Mans Classic volgt tweejaarlijks begin juli. Beide trekken honderden wagens, dus bestel de transporter ruim op voorhand."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mag een autotransporter in Frankrijk in het weekend rijden voor een event?",
+     "a": "Voor vrachtwagens die voertuigen of materiaal vervoeren voor een event bestaat een permanente afwijking op de rijverboden, als het event ten laatste vier dagen voor of na de rit plaatsvindt. De organisator moet het kunnen bevestigen."
+    },
+    {
+     "q": "Wat is het verschil tussen de DGT-resolutie en de Catalaanse resolutie?",
+     "a": "De DGT regelt de beperkingen op haar wegen, Catalonië regelt die van zichzelf via de Servei Català de Trànsit. Rijdt u door Catalonië, dan moet u beide kalenders bekijken. Beide worden elk jaar vernieuwd."
+    },
+    {
+     "q": "Waar staan de files op de A9?",
+     "a": "Knelpunten zijn de wisselaar bij Orange en het Perthus aan de grens, waar controles voor files zorgen. Het zware vrachtverkeer maakt de weg druk. Een vertrek buiten de spitsuren helpt, net als een rit op een weekdag."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Frankrijk: Catalaanse circuits, de A9 bij Le Perthus en de Franse uitzondering op het weekendverbod voor events.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Circuito_de_Barcelona-Catalu%C3%B1a",
+    "https://www.circuitcat.com/en/",
+    "https://es.wikipedia.org/wiki/Rally_Catalu%C3%B1a",
+    "https://es.wikipedia.org/wiki/Circuito_de_Calafat",
+    "https://www.boe.es/eli/es-ct/res/2025/02/11/isp430/con",
+    "https://boe.es/buscar/pdf/2025/BOE-A-2025-4085-consolidado.pdf",
+    "https://fr.wikipedia.org/wiki/Autoroute_A9_(France)",
+    "https://fr.wikipedia.org/wiki/Autoroute_A63_(France)",
+    "https://www.justice.fr/fiche/restrictions-interdictions-circulation-poids-lourds",
+    "https://www.bison-fute.gouv.fr/IMG/pdf/26056_BROCHURE_2026_FR.pdf",
+    "https://fr.wikipedia.org/wiki/Circuit_Paul-Ricard",
+    "https://fr.wikipedia.org/wiki/24_Heures_du_Mans",
+    "https://fr.wikipedia.org/wiki/Circuit_Paul_Armagnac"
+   ]
+  },
+  "spanje-duitsland": {
+   "lead": "Een wagen uit Madrid of Castilië naar de Nürburgring, de Essen Motor Show of een Duits salon rijdt over de Spaanse meseta, door Frankrijk en dan onder de Duitse maut en het zondagsverbod. Wie iets wil tonen of testen in Duitsland, plant best met de Duitse kalender in de hand.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Madrid, binnenland en de radiale snelwegen"
+    },
+    {
+     "label": "Nürburgring",
+     "value": "Nordschleife is 20,8 km en deels openbaar voor toeristenritten"
+    },
+    {
+     "label": "Duitse maut",
+     "value": "Geldt voor vrachtwagens boven 3,5 ton op Autobahn en Bundesstraße"
+    },
+    {
+     "label": "Zondagsverbod",
+     "value": "Vrachtwagens boven 7,5 ton rijden zondag niet"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Madrid en het binnenland",
+     "body": [
+      "Madrid is het vertrekpunt van de zes radiale autosnelwegen. Richting Frankrijk loopt de A-1 via Burgos naar Irun. Het beurscomplex IFEMA ligt in Campo de las Naciones, bij de luchthaven en tussen de M-11 en de M-40, met twaalf hallen. Het heeft een eigen motorkalender, met onder meer Motortec in april en de publieksbeurzen Madrid Car Experience en het Salón del Vehículo de Ocasión.",
+      "Madring, het stadscircuit in de zone IFEMA-Valdebebas, is de plek van de Spaanse F1-Grand Prix in september. Het Circuito de Madrid Jarama, aan de A-1 rond km 26-28, is 3.850 m lang. Wagens die daar testen, gaan nadien vaak naar Duitsland."
+     ]
+    },
+    {
+     "heading": "Rode platen en tijdelijke inschrijving",
+     "body": [
+      "Rode platen van het type S dekken ook verplaatsingen voor onderhoud en tentoonstelling van museumstukken die niet in Spanje zijn ingeschreven. Een buitenlands voertuig moet dan het bewijs van tijdelijke inschrijving uit het land van herkomst bij zich hebben.",
+      "Dat is nuttig voor wie een museumstuk naar Duitsland brengt of terughaalt. Mcars vervoert de wagen, de papieren regelt u zelf of via de organisator. Een showwagen die nergens is ingeschreven reist op de vrachtwagen. Dat geldt ook bij het lossen op het beursterrein: de lier of een heftruck brengt de wagen op zijn plek, zonder dat hij zelf hoeft te rijden."
+     ]
+    },
+    {
+     "heading": "Door Frankrijk en naar Baden-Württemberg",
+     "body": [
+      "Na de Franse A9 loopt de rit door de Rhônevallei naar het noorden. Voor het Duitse deel is een logische as de A5, die loopt van het Hattenbacher Dreieck langs Frankfurt, Karlsruhe en Freiburg tot Weil am Rhein, 445 km. Bij Montpellier splitst de A9 zich in A9 en A709. Wie de verkeerde afrit mist, kan tot 35 km tot de volgende A9-afrit hebben.",
+      "De Franse A9 is tolplichtig en heeft 2x3 rijstroken tot afrit 41, Perpignan-Nord. De Spaanse AP-7 volgt de kust over 1.007 km, met tolpunten onder meer bij La Jonquera en rond Granollers en La Roca del Vallès."
+     ]
+    },
+    {
+     "heading": "Duitse regels: maut, zondag en milieuzones",
+     "body": [
+      "De Duitse vrachtwagenmaut geldt sinds 1 juli 2024 voor vrachtwagens boven 3,5 ton toegelaten maximummassa, op Autobahnen en Bundesstraßen, met een CO2-component. Ze wordt via on-boardunits en portieken gehandhaafd. Zonder OBU kan het traject vooraf online worden geboekt.",
+      "In Duitsland geldt voor vrachtwagens boven 7,5 ton een verbod op zon- en feestdagen van 00 tot 22 uur, volgens een overzicht van een logistieke dienst, en in juli en augustus ook op zaterdag van 7 tot 20 uur. Zulke regels veranderen, kijk ze na. Noordrijn-Westfalen heeft de meeste Umweltzonen, waar enkel de groene sticker toegang geeft. Hessen heeft er zes."
+     ]
+    },
+    {
+     "heading": "Aankomst in Rijnland-Palts, Saarland of Baden-Württemberg",
+     "body": [
+      "De Duitse regio's die het dichtst bij Frankrijk liggen, zijn Rijnland-Palts en het Saarland, met de Nürburgring in de Eifel, en Baden-Württemberg, met de Hockenheimring en Messe Stuttgart. De Hockenheimring is 4,574 km lang en gastheer van de DTM-openingsrace en het dragrace-evenement NitrOlympX.",
+      "Hallen en circuits werken met vaste laad- en lostijden. Vraag de organisator naar de toegang voor transporters en de uren waarop uw wagen mag aankomen. Dat bespaart een extra rit. Geef ons ook een telefoonnummer ter plaatse door, zodat de chauffeur bij de poort iemand kan bereiken."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Nürburgring",
+     "body": "De Nürburgring ligt bij Nürburg in de Eifel. De Nordschleife is 20,8 km lang. Is ze niet bezet door events of tests, dan mag iedereen er tegen betaling rijden met een wagen die voor de openbare weg is toegelaten, de Touristenfahrten. Op weekdagen gebruikt de industrie de baan voor testritten."
+    },
+    {
+     "kind": "event",
+     "title": "24 uur van de Nürburgring",
+     "body": "De 24 uur wordt meestal in een weekend in mei of juni gereden op de combinatie van Nordschleife en Grand-Prix-baan, 25,378 km, georganiseerd door de ADAC Nordrhein. De campings voor toeschouwers gaan al de maandag ervoor open. Teams laten hun wagens lang vooraf aanvoeren."
+    },
+    {
+     "kind": "event",
+     "title": "Essen Motor Show",
+     "body": "De Essen Motor Show vindt elk jaar eind november en begin december plaats in Messe Essen, met auto's, motorsport, tuning en old- en youngtimers. Ze geldt als de tweede autobeurs van Duitsland na de IAA. Hier laten klanten wagens aanvoeren voor een stand of verkoop."
+    },
+    {
+     "kind": "event",
+     "title": "Retromóvil Madrid",
+     "body": "Retromóvil is een internationale beurs voor antieke, klassieke en verzamelvoertuigen in IFEMA Madrid, in december, met restaurateurs en onderdelenhandelaars. Wie een klassieker na de beurs naar Duitsland wil brengen, laat hem ophalen bij de beurshal."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Kan ik met een Spaanse wagen aan de Nürburgring deelnemen aan toeristenritten?",
+     "a": "De Nordschleife is buiten events en tests open voor wagens die voor de openbare weg zijn toegelaten, tegen betaling. Of uw Spaans ingeschreven wagen daaraan voldoet, vraagt u aan de uitbater. De transporter brengt de wagen tot aan het circuit."
+    },
+    {
+     "q": "Heeft de transporter een Duitse maut nodig?",
+     "a": "Ja, voor vrachtwagens boven 3,5 ton geldt de maut op Autobahnen en Bundesstraßen. Die regelt de vervoerder via een on-boardunit. U hoeft er zelf niets voor te doen."
+    },
+    {
+     "q": "Wat gebeurt er als ik mijn showwagen niet heb ingeschreven?",
+     "a": "Dan blijft hij op de vrachtwagen. Rode platen van het type S dekken in Spanje wel verplaatsingen van museumstukken die niet in Spanje zijn ingeschreven, mits het bewijs van tijdelijke inschrijving uit het land van herkomst."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Duitsland: Madrid, Frankrijk en de Nürburgring. Duitse maut, zondagsverbod en regels voor showwagens.",
+   "sources": [
+    "https://www.ifema.es/calendario/motor-automovil-transporte",
+    "https://es.wikipedia.org/wiki/Madring",
+    "https://es.wikipedia.org/wiki/Circuito_del_Jarama",
+    "https://www.dgt.es/nuestros-servicios/para-colaboradores-y-empresas/fabricantes-talleres-concesionarios-y-entidades-financieras/solicitud-de-placas-rojas-y-libro-talonario/",
+    "https://en.wikipedia.org/wiki/Bundesautobahn_5",
+    "https://en.wikipedia.org/wiki/Autoroute_A9",
+    "https://en.wikipedia.org/wiki/Autopista_AP-7",
+    "https://www.bundesregierung.de/breg-de/aktuelles/lkw-maut-co2-2194574",
+    "https://en.wikipedia.org/wiki/Toll_Collect",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://gis.uba.de/website/umweltzonen/index.php",
+    "https://de.wikipedia.org/wiki/Nürburgring",
+    "https://de.wikipedia.org/wiki/24-Stunden-Rennen_auf_dem_Nürburgring",
+    "https://de.wikipedia.org/wiki/Essen_Motor_Show",
+    "https://de.wikipedia.org/wiki/Hockenheimring_Baden-Württemberg",
+    "https://www.ifema.es/retromovil-madrid"
+   ]
+  },
+  "spanje-italie": {
+   "lead": "Een wagen die op Mallorca werd gefotografeerd, moet naar de Motor Valley, naar Monza of naar de beurs van Milaan. De rit begint in een haven op het Spaanse vasteland, loopt over de AP-7 en de Franse Côte d'Azur en eindigt in Italiaanse steden waar een ZTL de toegang regelt. Hier staat wat u vooraf moet weten.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Haven op het vasteland, voor wagens van de Balearen"
+    },
+    {
+     "label": "Route",
+     "value": "AP-7, A9, A8 langs Nice, dan A10 naar Genua"
+    },
+    {
+     "label": "ZTL",
+     "value": "Verkeersbeperkte zone, uren en vergunning per gemeente anders"
+    },
+    {
+     "label": "Foglio di via",
+     "value": "Niet-ingeschreven voertuigen mogen met voorlopige plaat naar beurzen"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek vanuit de Balearen via een vastelandhaven",
+     "body": [
+      "Voor een transport over de weg eindigt de rit voor eilandwagens in een haven op het Spaanse vasteland. De Balearen hebben ferry's vanuit Barcelona, Valencia en Dénia. Wie op Mallorca een shoot deed, laat de wagen dus in een van die havens afleveren.",
+      "De Ma-10 doorkruist de Serra de Tramuntana over 112 km, van Andratx tot Pollença, via Valldemossa, Deià en Sóller. De Ma-2141, de weg van Sa Calobra, is een zijtak. Op Formentera heeft wie van 1 juni tot 30 september wil rijden een toelating nodig, aan te vragen via formentera.eco. Voor Mcars begint het transport in de haven op het vasteland."
+     ]
+    },
+    {
+     "heading": "De weg: AP-7, A9 en de Côte d'Azur",
+     "body": [
+      "Na de AP-7 en de Franse A9 naar Orange volgt de A8, de Provençale, 224 km van Aix-en-Provence langs Fréjus, Cannes, Nice en Monaco naar Menton. Daar wordt de A8 de Italiaanse A10, de Autostrada dei Fiori, 158 km naar Genua, met 78 tunnels tussen Genua en Nice.",
+      "Tussen Albisola en Genua-Voltri geldt 80 km/u, en bij Genua stortte in 2018 een deel van de Morandibrug in. Als alternatief via de Alpen liggen de Fréjustunnel (12,87 km) en de Mont-Blanctunnel (11,6 km), waar vrachtwagens in groepen van vijf rijden. De A8 heeft tolpleinen onder meer bij La Barque, Antibes, Nice-Saint-Isidore en La Turbie."
+     ]
+    },
+    {
+     "heading": "Italiaanse rijverboden voor vrachtwagens",
+     "body": [
+      "Italië kent voor vrachtwagens boven 7,5 ton een verbod op zondag van 9 tot 22 uur, in de zomer van 7 tot 22 uur, en op zomervrijdagen van 16 tot 22 uur. Bij aankomst uit het buitenland begint het verbod vier uur later, mits bewijs van herkomst en bestemming.",
+      "Frankrijk heeft zijn eigen weekendverbod. Een eventwagen die op maandagochtend in Milaan moet staan, houdt dus rekening met twee kalenders. De exacte data veranderen, en wij kijken ze na bij elke rit."
+     ]
+    },
+    {
+     "heading": "ZTL en de transporter",
+     "body": [
+      "Een ZTL is een zone met beperkt verkeer, aangeduid met een bord en een onderbord met toegelaten voertuigen en uren. Camera's controleren de toegang. Elke gemeente legt de uren en vergunningen zelf vast, dus elke stad is anders.",
+      "In Rome zijn voertuigen langer dan 7,5 m in de ZTL VAM elke dag van 5 tot 24 uur geweerd. Een autotransporter komt het centrum dus niet in. Hetzelfde geldt voor Genua, waar het historische centrum een ZTL is die elke dag en de hele dag geldt, verdeeld in sectoren met elektronische poorten. Spreek met de organisator van uw event een lospunt buiten de zone af."
+     ]
+    },
+    {
+     "heading": "Aankomst in het noordwesten: Turijn, Genua en Lombardije",
+     "body": [
+      "Het noordwesten van Italië ligt het dichtst bij Frankrijk en dus bij de Spaanse route. De ZTL Centrale van Turijn is actief van maandag tot vrijdag van 7.30 tot 10.30 uur, niet op zaterdag en feestdagen. Afleveren in het centrum kan beter buiten dat venster.",
+      "Verder oost ligt Lombardije, met Fiera Milano Rho. Dat beurscomplex opende in 2005 en werkt vooral voor vakbeurzen. Niet-ingeschreven voertuigen mogen met een foglio di via en voorlopige plaat over de weg naar toegelaten tentoonstellingen of beurzen van nieuwe en gebruikte voertuigen, volgens artikel 99 van het wegenverkeersreglement. Dat regelt u zelf of via de organisator."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Salone Nautico Genua",
+     "body": "Het jachtsalon van Genua vindt elk jaar in september plaats aan het Waterfront di Levante, met meer dan duizend boten. Wie een boot op trailer wil laten brengen, kan bij Mcars terecht: we vervoeren ook boten en aanhangwagens."
+    },
+    {
+     "kind": "event",
+     "title": "Salone Auto Torino",
+     "body": "Het autosalon van Turijn is een openluchtsalon in september in het centrum, rond de Piazza Castello en de Musei Reali, met testritten vanuit de Giardini Reali. Het centrum van Turijn heeft een ZTL, dus afleveren gebeurt op een aangewezen plek aan de rand van de stad."
+    },
+    {
+     "kind": "plek",
+     "title": "Autodromo Nazionale di Monza",
+     "body": "Het circuit ligt in het Parco di Monza en dateert van 1922. Vaste afspraken zijn de F1 Gran Premio d'Italia begin september, de GT World Challenge Europe in april, de WEC-race in juli en de Monza Rally Show eind november of begin december."
+    },
+    {
+     "kind": "plek",
+     "title": "Motor Valley",
+     "body": "De Motor Valley loopt langs de Via Emilia van Piacenza tot Rimini en omvat Ferrari in Maranello, Lamborghini, Maserati, Pagani, Ducati en Dallara, met merkmusea en circuits als Imola en Misano. Het Motor Valley Fest in Modena vindt in mei plaats. Hier gaan wagens heen die gepresenteerd worden."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Kan een autotransporter het centrum van Rome of Genua in?",
+     "a": "Nee. In Rome zijn voertuigen langer dan 7,5 m in de ZTL VAM geweerd, en Genua heeft een ZTL die de hele dag geldt. We lossen in overleg op een plek buiten de zone en de wagen rijdt zelf het laatste stuk."
+    },
+    {
+     "q": "Kan Mcars mijn wagen van Mallorca meenemen?",
+     "a": "Het transport over de weg start in een haven op het Spaanse vasteland. De overtocht van de Balearen naar het vasteland regelt u zelf of met de organisator. Daarna laden wij de wagen in de haven en brengen we hem naar Italië."
+    },
+    {
+     "q": "Welke papieren heb ik nodig voor een niet-ingeschreven wagen op een beurs in Italië?",
+     "a": "Volgens het wegenverkeersreglement mogen niet-ingeschreven voertuigen met een foglio di via en voorlopige plaat naar toegelaten beurzen. Dat regelt u of de organisator, niet Mcars. Vraag de organisator van de beurs wat ze vereist."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Italië: vanuit de Balearen en de Spaanse kust naar Monza, Milaan en de Motor Valley. ZTL, A10 en rijverboden.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Ma-10",
+    "https://www.formentera.eco/",
+    "https://en.wikipedia.org/wiki/A8_autoroute",
+    "https://en.wikipedia.org/wiki/Autostrada_A10_(Italy)",
+    "https://en.wikipedia.org/wiki/Fr%C3%A9jus_Road_Tunnel",
+    "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+    "https://it.motor1.com/news/782936/camion-divieti-circolazione-2026/",
+    "https://it.wikipedia.org/wiki/Zona_a_traffico_limitato",
+    "https://aci.gov.it/codice-della-strada/art-7/",
+    "https://aci.gov.it/codice-della-strada/art-99/",
+    "https://www.sicurauto.it/news/attualita-e-curiosita/ztl-roma-orari-mappa-e-permessi/",
+    "https://www.sicurauto.it/news/attualita-e-curiosita/ztl-genova-mappa-orari-e-parcheggi/",
+    "https://www.unipolmove.it/blog/ztl-a-torino-mappa-orari-e-multe/",
+    "https://it.wikipedia.org/wiki/Autodromo_nazionale_di_Monza",
+    "https://it.wikipedia.org/wiki/Motor_Valley",
+    "https://en.wikipedia.org/wiki/Fiera_Milano",
+    "https://it.motor1.com/news/793665/salone-auto-torino-2026-date-espositori-biglietti/"
+   ]
+  },
+  "spanje-zwitserland": {
+   "lead": "Een wagen die in Andalusië werd getest of gefotografeerd en dan naar Zwitserland moet, rijdt door heel Spanje en Frankrijk en komt aan bij een grens waar de douane meespeelt. Zwitserland is geen EU-land, en voor een eventwagen is er een eigen regeling.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Andalusië, over de A-7 en de AP-7 naar het noorden"
+    },
+    {
+     "label": "Douane",
+     "value": "Zwitserland is geen EU-lid, de wagen moet worden aangemeld"
+    },
+    {
+     "label": "Carnet ATA",
+     "value": "Voor niet-ingeschreven racewagens aangeraden door de Zwitserse douane"
+    },
+    {
+     "label": "Nachtverbod",
+     "value": "Zwitserland: 22 tot 5 uur voor voertuigen boven 3,5 ton"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Andalusië: circuits, rally's en testen",
+     "body": [
+      "Het Circuito de Almería ligt in Tabernas, is 4.025 m lang en opende in 2000. Teams uit het WK motoren en British Superbikes testen er vóór het seizoen, en het circuit is gebruikt voor reclameopnames, onder meer voor de McLaren Senna. Dat maakt van Tabernas een plek waar showwagens voor opnames komen.",
+      "De Rally Sierra Morena rijdt sinds 1978 rond Córdoba, tussen maart en mei, en telt mee voor het Spaanse en sinds 2025 voor het Europees rallykampioenschap. In Málaga toont het Museo Automovilístico 120 voertuigen in de vroegere tabaksfabriek, waarvan 90 tentoongesteld."
+     ]
+    },
+    {
+     "heading": "Van de kust naar de Franse grens",
+     "body": [
+      "Andalusië ligt het verst van de Franse grens. De aanrijroutes zijn de A-4 via Madrid en de A-7 en AP-7 langs de kust. Op de AP-7 is Tarragona tot Alicante sinds 2020 tolvrij, net als de AP-4 van Sevilla naar Cádiz. Dat scheelt aan de kust, maar de afstand blijft groot.",
+      "Aan de grens gaat de AP-7 over in de Franse A9, een tolweg van ASF. Het Franse vervolg naar Zwitserland is in geen bron bevestigd. In Frankrijk geldt een weekendverbod voor zware vrachtwagens, in vakantieperiodes uitgebreid."
+     ]
+    },
+    {
+     "heading": "Zwitserland: nacht- en zondagsverbod",
+     "body": [
+      "In Zwitserland geldt voor voertuigen boven 3,5 ton een zondags- en nachtverbod van 22 tot 5 uur. Voor trekkers met oplegger geldt het boven 5 ton, en ook met een aanhanger boven 3,5 ton. Uitzonderingen zijn er enkel voor onvermijdelijke ritten en vanuit het buitenland beslist het kanton van binnenkomst.",
+      "Voor een eventwagen betekent dat een aankomst op een gewone weekdag, overdag. Moet de wagen op zaterdag klaarstaan voor een opening of een opname, laat hem dan een dag eerder aankomen. Dat scheelt een uitzonderingsaanvraag bij het kanton."
+     ]
+    },
+    {
+     "heading": "Wat bij Zwitserse douane hoort",
+     "body": [
+      "Zwitserland is geen EU-lid. De wagen moet uit eigen beweging worden aangemeld bij een douanekantoor voor handelsgoederen, met een e-dec-aangifte, koopcontract, kentekenbewijs en identiteitsbewijs. Er zijn sinds 1 januari 2024 geen invoerrechten op wegvoertuigen meer.",
+      "Niet-ingeschreven voertuigen, zoals racewagens, hebben voor een tijdelijk verblijf een Carnet ATA of een tijdelijke douaneaangifte nodig. Voor racewagens raadt de douane het Carnet ATA aan. Dat regelt u of een douane-expediteur. Mcars vervoert de wagen; bij ophaling krijgt u een CMR-vrachtbrief mee, die u bij de grensformaliteiten kunt tonen. Zwitserse inschrijving en keuring blijven voor de eigenaar."
+     ]
+    },
+    {
+     "heading": "Aankomst in Genève, Vaud en Wallis",
+     "body": [
+      "De Zwitserse regio die het dichtst bij Frankrijk en Spanje ligt, is Genève met Vaud en Wallis. Palexpo ligt in Le Grand-Saconnex, op ongeveer 500 m van de luchthaven, met zeven hallen en een eigen afrit van de A1. Het Autosalon van Genève bestaat niet meer, maar Palexpo ontvangt andere beurzen.",
+      "Zermatt is sinds 1931 autovrij. De weg stopt voor bezoekers in Täsch, en een wagen voor Zermatt wordt dus in Täsch afgeleverd. In Martigny heeft de Fondation Pierre Gianadda een verzameling van ongeveer vijftig voertuigen uit 1897 tot 1939."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Auto Zürich",
+     "body": "Auto Zürich is nu de grote Zwitserse autobeurs, elk jaar begin november in Messe Zürich, met vier publieksdagen. Hal 6, Manufaktur & Classic, combineert kleine-serie-wagens met klassiekers. Vóór de publieksdagen is er een mediadag met besloten vooropening."
+    },
+    {
+     "kind": "regel",
+     "title": "Omlooprace in Zwitserland",
+     "body": "Openbare races op een omloop waren in Zwitserland wettelijk verboden sinds het ongeval op Le Mans in 1955. Sinds 1 juli 2026 zijn ze onder voorwaarden opnieuw toegelaten. De Zürich E-Prix van 2018 was de eerste omlooprace sinds dat verbod. Wie wagens naar zo'n event brengt, vraagt de actuele voorwaarden na."
+    },
+    {
+     "kind": "event",
+     "title": "Rallye International du Valais",
+     "body": "Deze rally wordt sinds 1960 elk jaar gereden, in het najaar. Het hoofdkwartier ligt sinds 2023 in het CERM in Martigny, met een dag rond Sion en een dag rond Martigny. Wie een rallywagen vanuit Spanje wil laten brengen, doet dat vóór het najaarsseizoen."
+    },
+    {
+     "kind": "plek",
+     "title": "Furkapas",
+     "body": "De Furkapas, 2.429 m hoog tussen Uri en Wallis, is een bekende film- en fotolocatie: er werden scènes van de James Bond-film Goldfinger gedraaid. Het hotel Belvédère aan de Rhônegletsjer is sinds 2015 gesloten en de pas is in de winter dicht. Shoots plant u in de zomer."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Heb ik een Carnet ATA nodig voor een racewagen in Zwitserland?",
+     "a": "Voor niet-ingeschreven voertuigen zoals racewagens raadt de Zwitserse douane het Carnet ATA aan, of anders een tijdelijke douaneaangifte. U of een expediteur regelt dat. Mcars vervoert de wagen over de weg."
+    },
+    {
+     "q": "Kan de transporter 's nachts in Zwitserland rijden?",
+     "a": "Nee, voor voertuigen boven 3,5 ton geldt een nachtverbod van 22 tot 5 uur en een zondagsverbod. Uitzonderingen zijn er enkel voor onvermijdelijke ritten. We plannen de aankomst overdag op een gewone weekdag."
+    },
+    {
+     "q": "Kan mijn wagen tot in Zermatt worden gebracht?",
+     "a": "Nee, Zermatt is autovrij. De weg stopt voor bezoekers in Täsch en het laatste stuk van 5 km is enkel met vergunning toegankelijk. Een wagen voor Zermatt wordt dus in Täsch afgeleverd."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Zwitserland: van Andalusië naar Genève, Zürich en de Alpen. Douane, Carnet ATA en het Zwitserse nachtverbod.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Circuito_de_Almer%C3%ADa",
+    "https://es.wikipedia.org/wiki/Rally_Sierra_Morena",
+    "https://es.wikipedia.org/wiki/Museo_Automovil%C3%ADstico_de_M%C3%A1laga",
+    "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/transportes/Paginas/2021/310821-peajes.aspx",
+    "https://en.wikipedia.org/wiki/Autoroute_A9",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://www.astra.admin.ch/astra/de/home/fachleute/fahrzeuge/sonderbewilligungen/sonntags-nachtfahrten.html",
+    "https://www.bazg.admin.ch/de/fahrzeug-import-schweiz-zollanmeldung-steuern",
+    "https://www.bazg.admin.ch/de/fahrzeugverzollung-schweiz-haeufige-fragen",
+    "https://de.wikipedia.org/wiki/Palexpo",
+    "https://de.wikipedia.org/wiki/Zermatt",
+    "https://www.auto-zuerich.ch/",
+    "https://de.wikipedia.org/wiki/Rundstreckenrennen",
+    "https://fr.wikipedia.org/wiki/Rallye_international_du_Valais",
+    "https://de.wikipedia.org/wiki/Furkapass"
+   ]
+  },
+  "spanje-oostenrijk": {
+   "lead": "Van de Galicische kust of Asturië naar de Red Bull Ring of een Alpentreffen: dat is een van de langste ritten uit Spanje. Onderweg liggen Frankrijk, de Ligurische kust en de Brenner. Aan de overkant wachten Oostenrijkse bergwegen met openingsuren en een rijverbod voor luide motoren.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Noordwesten: Asturië, Galicië en Cantabrië"
+    },
+    {
+     "label": "Route",
+     "value": "AP-7, A9, A8 naar Genua, A22 over de Brenner"
+    },
+    {
+     "label": "Brenner",
+     "value": "Italiaanse A22 gaat bij Brennero over in de Oostenrijkse A13"
+    },
+    {
+     "label": "Glockner",
+     "value": "Hochalpenstraße is alleen van begin mei tot begin november open"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek in Asturië en Galicië",
+     "body": [
+      "Het noordwesten heeft geen grens met Frankrijk. Wie uit België komt, rijdt via Irun en de A-8 langs de kust, of via de meseta over de A-6, A-52 en AP-66. Vanuit Santander vertrekken ferry's naar het Verenigd Koninkrijk.",
+      "In Asturië ligt de basis van de Rally Princesa de Asturias, sinds 1964, in Oviedo. De Subida Internacional al Fito is een klimkoers op de Monte Fito, sinds 1970, die meetelt voor het Europees en het Spaans bergkampioenschap. In Llanera ligt het Museo y Circuito Fernando Alonso, met ongeveer 500 stukken uit de persoonlijke collectie van Alonso."
+     ]
+    },
+    {
+     "heading": "Galicië: rally en museum",
+     "body": [
+      "De Rally de Ourense wordt sinds 1967 bijna elk jaar gereden in de provincie Ourense en telt mee voor het Spaanse rallykampioenschap. In Arteixo, bij A Coruña, opende in 2023 het Museo de Automoción e Historia in het industrieterrein Sabón, met ongeveer 300 voertuigen uit de twintigste eeuw.",
+      "Wie een rallywagen of een museumstuk van daar naar de Alpen wil laten brengen, spreekt vooraf een laadplek af met voldoende ruimte voor een meerlaagse transporter. Geef ons een tweede contactpersoon door, zodat de chauffeur niemand tevergeefs moet bellen."
+     ]
+    },
+    {
+     "heading": "Over de Brenner",
+     "body": [
+      "Na Frankrijk en de Ligurische kust volgt de Italiaanse A22. Die loopt van Modena tot Brennero over circa 315 km, via Verona, Trento en Bolzano, en wordt bij de Brennerpas de Oostenrijkse A13. Ongeveer een derde van het verkeer is zwaar verkeer.",
+      "Sinds Schengen zijn er geen vaste grenscontroles aan de Brenner. Oostenrijk herinvoerde controles in 2015. Bij Innsbruck kruist de A13 de A12, de Inntal-autobahn. Oostenrijk kent volgens een overzicht van mei 2025 een rijverbod van zaterdag 15 uur tot zondag 22 uur voor zware vrachtwagens, en Italië een zondagsverbod. Kijk de actuele kalender na."
+     ]
+    },
+    {
+     "heading": "Oostenrijkse bergen en hun tijdstippen",
+     "body": [
+      "Oostenrijkse bergwegen hebben seizoenen en openingsuren, en een shoot daar plant u binnen die uren. Wij laden de wagen bij de voet van de berg af en hij rijdt het laatste stuk zelf, binnen de openingsuren. Een open meerlaagse transporter is voor smalle haarspeldbochten niet gemaakt, dus het laatste stuk loopt altijd op eigen wielen.",
+      "Kijk bij elke bergweg na wanneer hij open is, of er een ticket nodig is en of de aankomstuur van de wagen bij het openingsuur past. Zo staat de wagen er niet voor een dichte slagboom."
+     ]
+    },
+    {
+     "heading": "Salzburg en Spielberg",
+     "body": [
+      "Het Messezentrum Salzburg, Am Messezentrum 1, is een beurscomplex waar onder meer voertuigbeurzen plaatsvinden. De Automesse Ried in Oberösterreich vindt in februari plaats en heeft een oldtimerluik. Beide liggen op de weg tussen de Duitse grens en de Alpen. Vraag de organisator wanneer exposanten kunnen opbouwen en laat de wagen op die dag aankomen. Een wagen die te vroeg aankomt, staat anders buiten.",
+      "De Red Bull Ring in Spielberg is 4,326 km lang, heeft tien bochten en ligt tegen een helling, met een maximale stijging van 12 procent. Waar een transporter het terrein op mag, spreekt u vooraf af met de organisator."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "plek",
+     "title": "Red Bull Ring",
+     "body": "Het circuit in Spielberg, in het Murtal in Steiermark, ontvangt de Formule 1 Grote Prijs van Oostenrijk in juli en de MotoGP in augustus. Ook de DTM komt er jaarlijks. Het Driving Center biedt onder meer driften met de eigen wagen en offroad- en wintertrainingen, plus een zakelijk aanbod voor meetings."
+    },
+    {
+     "kind": "regel",
+     "title": "Großglockner Hochalpenstraße",
+     "body": "De weg is 48 km lang en loopt tot het Hochtor op 2.504 m. Het hoogste berijdbare punt is de Edelweißspitze op 2.571 m. Rond de weg zijn er een oldtimertractortreffen in Bruck/Fusch in september, de Vespa Alp Days en de Saalbach Classic. De weg is 's nachts en in de winter dicht."
+    },
+    {
+     "kind": "event",
+     "title": "Rally Princesa de Asturias",
+     "body": "Deze rally bestaat sinds 1964, wordt georganiseerd door de Automóvil Club Principado de Asturias en heeft zijn basis in Oviedo. Ze telt mee voor het Súper Campeonato de España de Rally. Wagens voor de Alpen laden hier na het evenement."
+    },
+    {
+     "kind": "tip",
+     "title": "Luide motoren in Tirol",
+     "body": "In de Tiroolse districten Reutte en Imst geldt een rijverbod voor bijzonder luide motorfietsen. Voor wie een moto naar een treffen of toerrit in die streek laat brengen, loont het om vooraf het standgeluid op het kentekenbewijs na te kijken."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Hoe lang rijdt een transporter van Asturië naar de Red Bull Ring?",
+     "a": "We geven geen vaste termijn. De rit loopt via Frankrijk, de Ligurische kust en de Brenner en kruist meerdere rijverbodskalenders. De planning hangt af van uw ophaaldatum en de dag waarop de wagen op het circuit moet staan."
+    },
+    {
+     "q": "Is de Großglockner altijd open?",
+     "a": "Nee. De Hochalpenstraße is alleen van begin mei tot begin november open, 's nachts gesloten en betalend. Wie er een shoot of treffen wil houden, plant de uren en de ticketverkoop vooraf."
+    },
+    {
+     "q": "Mag ik met een luide moto naar Tirol?",
+     "a": "In de districten Reutte en Imst geldt een rijverbod voor bijzonder luide motorfietsen. Kijk het standgeluid op het kentekenbewijs na vooraleer u een moto naar een treffen in die streek laat brengen."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Oostenrijk: van Asturië en Galicië naar de Red Bull Ring en de Alpen. Brenner, rijverboden en bergwegen.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Rally_Princesa_de_Asturias",
+    "https://es.wikipedia.org/wiki/Rally_de_Orense",
+    "https://es.wikipedia.org/wiki/Subida_Internacional_al_Fito",
+    "https://es.wikipedia.org/wiki/Museo_y_Circuito_Fernando_Alonso",
+    "https://es.wikipedia.org/wiki/Museo_de_Automoci%C3%B3n_e_Historia",
+    "https://en.wikipedia.org/wiki/Autostrada_A22_(Italy)",
+    "https://en.wikipedia.org/wiki/Brenner_Pass",
+    "https://en.wikipedia.org/wiki/Inntal_Autobahn",
+    "https://www.transconnect.com/blog/truck-driving-bans-in-europe-what-you-need-to-know",
+    "https://www.grossglockner.at/",
+    "https://www.tirol.gv.at/verkehr/verkehrs-und-seilbahnrecht/fahrverbote-in-tirol/",
+    "https://www.classicexpo.at/",
+    "https://www.oemvv.at/kalender",
+    "https://www.redbullring.com/de/"
+   ]
+  },
+  "spanje-polen": {
+   "lead": "Van MotorLand Aragón of de Aragonese Pyreneeën naar Poznań of Warschau: dat is een van de langste ritten uit Spanje, door Frankrijk en heel Duitsland, met een Poolse grens waar controles voor files zorgen. Een eventwagen heeft op die weg zijn eigen aandachtspunten, van de Spaanse vrijdagbeperkingen tot het Poolse zomerverbod.",
+   "facts": [
+    {
+     "label": "Vertrek",
+     "value": "Aragón, richting Frankrijk en de Pyreneeën"
+    },
+    {
+     "label": "Grens",
+     "value": "Świecko-Frankfurt (Oder): files tot ongeveer 7 km gemeld"
+    },
+    {
+     "label": "Poolse maut",
+     "value": "e-TOLL voor zware voertuigen, netwerk uitgebreid"
+    },
+    {
+     "label": "Zomerverbod",
+     "value": "Polen: boven 12 ton zaterdag 8-14 en zondag 8-22 uur"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Vertrek rond Alcañiz en de Pyreneeën",
+     "body": [
+      "MotorLand Aragón ligt op ongeveer 8 km van Alcañiz, in de provincie Teruel, en opende in 2009. Het ontvangt sinds 2010 de MotoGP-race van Aragón en sinds 2011 het WK Superbike. Bij het circuit horen een internationaal kartcircuit van 2.049 m en het TechnoPark, ongeveer 21 hectare voor onderzoek, testen en ontwikkeling in de motorsector.",
+      "Rond Alcañiz geldt eind augustus een verkeersbeperking op de wegen rond het circuit. Wie dan een wagen moet laden, plant dat voor of na het weekend."
+     ]
+    },
+    {
+     "heading": "Spaanse vrijdagavond en Franse kalender",
+     "body": [
+      "De DGT-resolutie beperkt voertuigen boven 7.500 kg op de N-230 richting de Franse grens op vrijdagavond, van januari tot maart en een deel van december, van 17 tot 24 uur. Wie in de winter vanuit de Pyreneeën vertrekt, kijkt dus naar de dag van de week.",
+      "Voor het Franse stuk, de Duitse en de Poolse delen geldt telkens een andere kalender. Het Franse vervolg naar het noorden is in de dossiers niet uitgeschreven, dus we leggen het zo vast dat de transporter een weekendverbod nooit midden op de weg tegenkomt."
+     ]
+    },
+    {
+     "heading": "Door Duitsland tot de Poolse grens",
+     "body": [
+      "De Duitse A12 loopt van Berlijn naar Frankfurt (Oder), 58 km en deel van de E30. Daar sluit ze aan op de Poolse A2 vanaf Świecko, via Poznań en Łódź naar Warschau. Een alternatief is de Poolse A4 vanaf Jędrzychowice naar Wrocław, Katowice en Kraków, waarvan het stuk van de grens tot Wrocław niet tolplichtig is.",
+      "Aan de grensovergang Frankfurt (Oder)/Świecko werden in juli 2025 files tot circa 7 km gemeld door Duitse en Poolse controles. Er wordt onderzocht of een extra rijstrook in de controlezone kan komen. Voor een eventwagen met een vast aankomstuur is dat een reden voor marge."
+     ]
+    },
+    {
+     "heading": "Polen: e-TOLL, zomerverbod en inschrijving",
+     "body": [
+      "De Poolse e-TOLL geldt voor zware voertuigen: registratie gebeurt met een goedgekeurd toestel of app, en het netwerk werd per 1 februari 2026 uitgebreid. De A2 heeft tol op het grootste deel tot Konin. De A4 tussen Katowice en Kraków is een tolweg.",
+      "In de zomer geldt voor vrachtwagens boven 12 ton een verbod op zaterdag van 8 tot 14 uur en op zondag van 8 tot 22 uur. Dat raakt laad- en lostijden bij beurzen in juli en augustus. Een wagen die in Polen blijft, moet na 30 dagen worden ingeschreven, met accijns via PUESC, volgens een Poolse autosite. Die inschrijving regelt de eigenaar."
+     ]
+    },
+    {
+     "heading": "Aankomst in Groot-Polen",
+     "body": [
+      "Groot-Polen met Poznań ligt het dichtst bij de Duitse grens. Het beursterrein MTP ligt in het centrum van de stad, recht tegenover het hoofdstation, met meer dan 110.000 m² binnenruimte in 16 hallen. De beurs bestaat sinds 1921.",
+      "Zo'n terrein werkt met vaste opbouwdagen en laaduren. Wie iets wil tonen, geeft ons de uren waarop de hal laadt en lost, en wij leggen de rit zo vast dat de wagen enkele dagen voor de opening aankomt. Zo is er tijd om hem op de standplaats te zetten."
+     ]
+    }
+   ],
+   "local": [
+    {
+     "kind": "event",
+     "title": "Poznań Motor Show",
+     "body": "Het grote Poolse autosalon vindt elk jaar in april plaats op het beursterrein MTP aan de Głogowska 14 in Poznań. Tegelijk loopt in de MTP-hallen de vakbeurs voor autotechniek TTM. Voor een stand laat u de wagen enkele dagen voor de opbouw aankomen."
+    },
+    {
+     "kind": "event",
+     "title": "Retro Motor Show Poznań",
+     "body": "De Retro Motor Show vindt elk jaar in september plaats op MTP, van vrijdag tot zondag, en wordt omschreven als de grootste oldtimerbeurs van Polen. Voor wagens uit Spanje is de rit over de Duitse A12 en de Poolse A2 de logische weg."
+    },
+    {
+     "kind": "event",
+     "title": "Warsaw Motor Show",
+     "body": "De Warsaw Motor Show vindt plaats in Ptak Warsaw Expo in Nadarzyn, net buiten Warschau, met supercars, klassiekers, elektrische wagens, offroad, tuning en drift. De Warsaw Oldtimer Show loopt als begeleidend evenement. Beide zijn een mogelijke bestemming voor wagens uit Spanje."
+    },
+    {
+     "kind": "regel",
+     "title": "Milieuzone Warschau",
+     "body": "Wie met een niet-conforme wagen naar een evenement in het centrum van Warschau wil, kan op vier dagen per jaar toch de milieuzone in. De zone ligt binnen onder meer Prymasa Tysiąclecia, Jerozolimskie en Trasa Łazienkowska. Een transporter blijft aan de rand."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Hoe vermijd ik files bij Świecko?",
+     "a": "Volledig vermijden kan niet, want controles kunnen files veroorzaken. We rekenen marge in en kijken naar de alternatieve overgangen. Geef ons de opbouwdag van de beurs, zodat de wagen een dag eerder aankomt dan nodig."
+    },
+    {
+     "q": "Moet ik mijn wagen uitschrijven in Spanje voor hij naar Polen gaat?",
+     "a": "De DGT vraagt een wagen die naar een ander EU-land gaat uit te schrijven in het land van herkomst. Wat dat voor uw situatie betekent, vraagt u na bij de DGT."
+    },
+    {
+     "q": "Kan de transporter op zaterdag in Polen aankomen?",
+     "a": "In de zomer geldt voor vrachtwagens boven 12 ton een verbod op zaterdagochtend en zondag. We plannen de aankomst op een weekdag en houden rekening met laad- en lostijden van de hal."
+    }
+   ],
+   "seoDescription": "Eventtransport van Spanje naar Polen: van Aragón naar Poznań en Warschau. De grens bij Świecko, Poolse maut en zomerverboden in één overzicht.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/MotorLand_Arag%C3%B3n",
+    "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-1255",
+    "https://trans.info/es/prohibiciones-de-circulacion-de-camiones-en-espana-en-2026-450907",
+    "https://en.wikipedia.org/wiki/Bundesautobahn_12",
+    "https://en.wikipedia.org/wiki/A2_motorway_(Poland)",
+    "https://en.wikipedia.org/wiki/A4_autostrada_(Poland)",
+    "https://www.etoll.gov.pl/en/",
+    "https://transport-online.de/news/lange-staus-auf-a12-polnische-und-deutsche-grenzkontrollen-belasten-logistik-und-lieferketten-181254.html",
+    "https://www.timocom.co.uk/truck-driving-bans/poland",
+    "https://www.otomoto.pl/news/rejestracja-samochodu-z-niemiec-poradnik-krok-po-kroku",
+    "https://www.dgt.es/nuestros-servicios/tu-vehiculo/quieres-traer-o-llevarte-un-vehiculo-del-extranjero/matricular-un-vehiculo-proveniente-de-la-ue/",
+    "https://en.wikipedia.org/wiki/Pozna%C5%84_International_Fair",
+    "https://www.autocentrum.pl/wydarzenia/poznan-motor-show-2026/",
+    "https://www.tradefairdates.com/Retro+Motor+Show-M2398/Pozna%C5%84.html",
+    "https://www.autocentrum.pl/newsy/najwieksze-swieto-motoryzacji-w-warszawie-wraca-warsaw-motor-show-2026-juz-w-pazdzierniku/",
+    "https://www.autocentrum.pl/newsy/wszyscy-patrzyli-na-krakow-a-warszawa-po-cichu-dokrecila-srube-ii-etap-sct-stal-sie-faktem/"
+   ]
+  }
+ }
+}
